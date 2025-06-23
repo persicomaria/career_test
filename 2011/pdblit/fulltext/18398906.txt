@@ -1,0 +1,168 @@
+proteins
+STRUCTURE O FUNCTION O BIOINFORMATICS
+
+Crystal structure of GH13 a-glucosidase GSJ from one of the deepest sea bacteria
+Tsuyoshi Shirai,1* Vo Si Hung,2 Katsuhito Morinaka,1 Tohru Kobayashi,2 and Susumu Ito3
+1 Department of Bioscience, Nagahama Institute of Bioscience and Technology, and JST-BIRD, 1266 Tamura, Nagahama 526-0829, Japan 2 Extremobiosphere Research Center of Japan Agency of Marine-Earth Science and Technology, 2-15 Natsushima, Yokosuka 237-0061, Japan 3 Creative Research Initiative ``Sousei'' (CRIS), Hokkaido University, Sapporo 001-0021, Japan
+
+ABSTRACT The crystal structure of the GH13 a-glucosidase (GSJ) from deep-sea bacterium Geobacillus sp. strain HTA-462 ° was determined to a 2.0 A resolution. Comparisons of the GSJ structure with that of other GH13 enzymes with different catalytic activities revealed that the catalytic cleft of GSJ was widely opened when compared with the homologues. The wide opening of the catalytic cleft originated from conformational changes of active site residues and disorder of the regions close to the catalytic center. This structural feature of GSJ would explain the ability of this enzyme to accept a wide variety of nonsugar molecules as acceptors in the transglycosylation reaction.
+C V 2008 Wiley-Liss, Inc.
+
+INTRODUCTION The deep sea, it is one of the last frontiers. It is expected to provide new biological resources such as enzymes with extremophilic characteristics. Geobacillus sp. strain HTA-462 is one of the microorganisms found in the sediment sample collected from the bottom of the Challenger Deep in the Mariana Trench at a depth of 10,897 m by the unmanned submarine Kaiko.1 The strain HTA-462 showed thermophilic (55­758C) and high-pressure resistant ($30 Mpa) growth patterns. This strain was found to produce an a-glucosidase (GSJ). a-Glucosidases hydrolyze 1,4- or 1,6-bonds of a-D-glucosides at nonreducing ends in an exoglycolytic manner (EC. 3.2.1.20).2 This enzyme takes part in the glycogen metabolism of higher organisms3 and nutrient uptake and processing of bacteria.4 Because a-glucosidases also catalyze transglycosylation of the a-D-glucose moiety, the enzymes have potential use in industrial biosynthesis of oligosaccharides or glycoconjugates.5,6 The a-glucosidases characterized to date consist of two major families, GH13 (36) and GH31 (44), and two minor families, GH4 (3) and GH97 (3), according to the CAZY classification system of glucoside hydrolases (the numbers in parenthesis are the number of known family members).7 Despite the biological importance of the enzymes, only three complete structures of a-glucosidases (EC 3.2.1.20 enzymes) are currently deposited in the Protein Data Bank (PDB). They are GH31 MalA of Sulfolobus solfataricus (PDB codes 2g3m and 2g3n),8 GH4 AglA of Thermotoga maritima (1lwj and 1lwh),9 and GH97 SusB of Bacteroides thetaiotaomicron vpi-5482 (2d73). Therefore, the structure of GH13 a-glucosidase is the last major missing piece. The GSJ extracted from Geobacillus sp. strain HTA-462 cells was a GH13 a-glucosidase with a molecular mass of 65 kDa.1,10 The enzyme formed a homodimer under low-ionic strength conditions. It showed optimal activity in alkaline (pH 9.0) and hightemperature (608C) conditions, and efficiently catalyzed a transglycosylation reaction with maltose as the sugar donor. GSJ was able to use a variety of nonsugar molecules, such as chloramphenicol, cortisone, and alcohols, as sugar acceptors. The thermostability and wide substrate specificity of GSJ indicated a high-probability for its usefulness
+Abbreviations: 3D, three-dimensional; ASET, ancestral sequence evolutionary trace; GH, glucoside hydrolase; GSA, B. stearothermophilus a-glucosidase; GSJ, Geobacillus sp. HTA-462 a-glucosidase; MS, mass spectroscopy; TLC, thin layer chromatography. Grant sponsors: Institute for Bioinformatics Research and Development, Japan Science and Technology Agency (JST-BIRD); National Project on Protein Structural and Functional Analysis from the Ministry of Education, Culture, Sports, Science, and Technology of Japan. Vo Si Hung's current address is Particulate Fluids Processing Centre, School of Chemistry, The University of Melbourne, Victoria 3010, Australia. *Correspondence to: Tsuyoshi Shirai, Department of Bioscience, Nagahama Institute of Bioscience and Technology, 1266, Tamura, Nagahama, 526-0829, Japan. E-mail: t_shirai@nagahama-i-bio.ac.jp. Received 4 January 2008; Revised 5 February 2008; Accepted 19 February 2008 Published online 8 April 2008 in Wiley InterScience (www.interscience.wiley.com). DOI: 10.1002/prot.22044
+
+Proteins 2008; 73:126­133.
+
+Key words: glucoside hydrolase; glycoconjugate; extremophile; protein evolution; structural bioinformatics.
+
+126
+
+PROTEINS
+
+C V 2008 WILEY-LISS, INC.
+
+Crystal Structure of GH13 a-Glucosidase
+
+in industrial applications. To understand the structural details of this enzyme, an X-ray crystallographic analysis was carried out.
+
+Table I
+Crystallographic Parameters, Data Collection, and Refinement Statistics
+
+Data set
+
+GSJa
+
+METHODS
+Protein preparation
+
+The recombinant GSJ was prepared as described previously.10 Bacillus subtilis ISW1214 cells were transformed with the plasmid pG462 harboring the GSJ gene. Transformants were propagated, with shaking, for 2 days at 308C in a liquid medium composed of 7% corn steep liquor (Nihon Shokuhin Kako), 0.2% Lab-Lemco powder (Oxoid), 0.1% yeast extract (Difco), 0.1% KH2PO4, 0.02% MgSO4Á7H2O, 0.05% CaCl2, 5% maltose, and 15 lg/mL tetracycline (Sigma). The pH was adjusted to 7 by adding NaOH solution before autoclaving. GSJ was purified to homogeneity with an yield of 30% by several steps of chromatography using DEAE-Toyopearl (Tosoh), hydroxyapatite (Seikagaku Kogyo), Phenyl-Toyopearl (Tosoh), and Bio-Gel A-1.5 m (Bio-Rad) columns, using phosphate buffer (pH 7.0) for equilibration of the columns and elution of the proteins. The purified protein was dialyzed overnight against 2 L of 10 mM phosphate buffer (pH 7.0), and the retentate was concentrated to 2 mL on a PM-10 membrane (10 kDa cutoff: Millipore).
+Transglycosylation activity assay
+
+Crystallographic parameters Space group C2 Cell constants a 5 103.8, b 5 90.6, c 5 72.3 , b 5 109.48 Data collection statistics Resolution limits () 8.00­2.00 (2.07­2.00) No. of unique refs (>1r) 39,052 (3429) 4.8 (27.7) Rmerge (%) hI/rI i 29.3 (6.3) Completeness (%) 93.0 (81.5) Refinement statistics Resolution limits () 8.00­2.00 (2.05­2.00) No. of refs used 37,091 (2200) 0.202 (0.296) Rcryst 1958 (116) No. of refs for Rfree 0.247 (0.357) Rfree Rmsd from ideal geometry Bond length () 0.012 Bond angle (8) 1.97 PDB code 2ze0
+a
+
+Values for the final shell are in parentheses.
+
+The transglycosylation activity of GSJ on curcumin was examined. The reaction mixture (1 mL) containing 0.3 mU GSJ, 0.2 mg curcumin, 0.5M maltose, 20 mM phosphate buffer, pH 7.0, and 20% (v/v) acetone, were incubated at 308C for 3 h. The reaction was stopped by adding 30 lL acetic acid. To extract glycosylated products, the mixture was evaporated in vacuo at 378C to remove acetone. After removal of acetone, NaCl was added to the saturated concentration, and then 0.1 mL butanol was added. The solution was mixed vigorously for 10 min. After centrifugation (13,000 rpm for 20 min at 48C), the butanol-saturated upper-layer was analyzed by TLC using a solvent system of butanol:acetic acid: water 5 2:1:1 (v/v). The molecular masses of the products were determined using ESI-MS (Finnigan LCQ DecaXP-plus ion-trap MS spectrometer; Thermo Electron). The TLC and MS results were compared with those of the chemical synthesis of glycosylcurcuminoids11 and the Catharanthus roseus cell-culture suspension reaction with curcumin12 for the identity of the products.
+Crystallization and crystallographic analysis
+
+0.1M Na citrate buffer (pH 5.6) for a 1 mL reservoir, and a mixture of 4 lL of the reservoir solution, 5 lL of 1% (w/v) protein solution (the concentrated gel filtrate), and 1 lL of 50 mM D-(1)-glucono1,5-lactone (a-glucosidase inhibitor) solution for one drop.13 Crystals grew at 188C to approximate maximum dimensions of 0.3 3 0.2 3 0.1 mm3 in 2­3 weeks X-ray diffraction data of the crystals were collected using a DIP2030 imaging plate detector (Mac Science) with a mirror monochromator mounted on a Rigaku ° RU-300 copper-rotating anode X-ray generator (k 5 1.54 A) (Rigaku). The crystals were soaked in the reservoir solution containing 15% (w/v) glycerol at 48C before flashcooling. The crystals were kept in a 100 K dry-N2 stream (Rigaku) during data collection. The diffraction data were recorded on imaging plates, and were processed by using the HKL2000 and SCALEPACK programs.14 The data collection statistics are summarized in Table I. The crystal structure of GSJ was solved by the molecular replacement method, with Bacillus cereus oligo-1,6glucosidase (PDB code 1uok)15 as the search model using AMoRe.16 Crystallographic refinement was performed by CNS ver1.117 and COOT.18 The refinement statistics are also summarized in Table I. The quality of the final model was shown to be reasonable by using the PROCHECK program.19 The coordinates and structure factors have been deposited in the PDB (code 2ze0).
+Ancestral sequence evolutionary trace and quaternary structure analyses
+
+Crystals of GSJ were obtained in the initial conditions using 20% (v/v) isopropanol, 20% (w/v) PEG4000 in
+
+The homologous protein sequences of GSJ were analyzed with ancestral sequence evolutionary trace (ASET) application,20 which automatically allocates amino acid
+PROTEINS
+
+127
+
+T. Shirai et al.
+
+Figure 1
+Schematic view of the GSJ structure. The N-terminal, sub-, and C-terminal domains are shown in blue, green, and orange, respectively. The disordered regions are represented by magenta wires (*A, residues 214­219; *B, 292­295; and *C, 387­401). The position of the Ca21 ion is indicated with a green sphere. The catalytic residues, Asp199, Glu256, and Asp326, are shown in the space-filling models. This figure and Figures 3­5 were prepared with CHIMERA.24
+
+shared more than 30% identity and more than 85% mutual overlap with the GSJ sequence were selected through the ASET application. The sequences were aligned by using the ClustalW program,22 and the ancestral sequences at each node of the phylogeny were calculated by using the PAML application,23 based on the tree topology deduced by the ASET application. The molecular interactions, volume, cavity volume, and accessible surface areas of the molecules were also evaluated by using the ASET application. The probable dimer structure of GSJ was sought among the molecules related by the crystal symmetry. This search was done by using an in-house program BIOMOL, which evaluated the interfaces in 27 unit-cells of crystal and automatically constructed the quaternary structure. This program is available on request from the corresponding author of this report. RESULTS AND DISCUSSION
+
+substitutions on a 3D structure for individual branches of a molecular phylogeny. The amino acid sequences were retrieved from the UniProt (Release 43) database.21 The sequences with a complete open reading frame that
+
+Overall structure
+
+The crystal structure of GSJ was determined by X-ray ° crystallography to a 2.0 A resolution (see Fig. 1). Figure 2 shows the molecular phylogeny of GSJ and the close
+
+Figure 2
+The molecular phylogeny of the close homologues of GSJ. Each protein is presented with the PDB code (if the 3D structure is known), the UniProt code, and the name of organism. GSJ is underlined. The numbers associated with the branches are the bootstrap probabilities in 1000 reconstructions of the tree. The proteins enclosed in the ellipses are assigned a different catalytic activity (based on the EC numbers) from GSJ. GSJ and other proteins outside the ellipses are assigned to EC 3.2.1.20. The branches for differentiation to sucrose mutase (EC 5.4.99.11), 1,6-a-glucosidases (EC 2.5.1.10 and EC 5.2.1.70), and GSJ are labeled as B1, B2, and B3, respectively.
+
+128
+
+PROTEINS
+
+Crystal Structure of GH13 a-Glucosidase
+
+homologues. The close homologues were a-glucosidase and maltase (both are EC 3.2.1.20 enzymes) and four related enzymes: oligo-1,6-glucosidase (EC 5.2.1.10), exo1,6-a-glucosidase (EC 5.2.1.70), a-phosphotrehalase (EC 3.2.1.93), and sucrose mutase (EC 5.4.99.1). GSJ had three close homologous structures in the PDB: oligo-1,6glucosidase from B. cereus (PDB code 1uok),15 isomaltulose synthase (sucrose mutase) from Klebsiella sp. LX3 (1m53),25 and trehalulose synthase (sucrose mutase) from Pseudomonas mesoacidophila (1zja, 1zjb, 2pwd, 2pwe, 2pwf, 2pwg, and 2pwh),26 which showed 56%, 47%, and 45% sequence identities with GSJ, respectively. ° These structures were superimposed on GSJ with 1.8­2.1 A root mean square deviations for 520 Ca atoms. GSJ consisted of three domains, like the homologous structures (see Fig. 1). The N-terminal domain (residues 2­102, 170­205, and 229­471) had a (b/a)8-barrel fold that harbored the catalytic center. The subdomain (residues 103­169 and 206­228) was inserted into the N-terminal domain. The latter peptide segment of the subdomain protruded from the N-terminal domain, and was closely packed with the former segment to form the wall of the catalytic cleft. Although the latter segment was a part of the N-terminal domain in the homologous structures,15,25,26 it was included in the subdomain in GSJ. The C-terminal domain in the b-sandwich fold (residues 472­551) followed the N-terminal and subdomains. The functional role of the C-terminal domain was not clear. The GSJ structure had three disordered peptide segments: 215­218, 293­294, and 388­400 (shown as *A, *B, and *C in magenta in Fig. 1). The disordered regions were localized at the catalytic center side of the N-terminal domain. The corresponding regions were well ordered in the homologous structures.15,25,26 One calcium-binding site was detected in the GSJ structure (indicated by the green sphere in Fig. 1). The calcium ion was coordinated with the atoms Asp21-Od1, Asn23-Od1, Asp25-Od1, Ile27-O, Asp29-Od1, and one water molecule. Although these residues were conserved in the homologous proteins, only the sucrose mutase from P. mesoacidophila bound a calcium ion at the equivalent position.26
+Quaternary structure
+
+Figure 3
+Putative dimer structure of GSJ. The monomers are colored blue and orange, and shown as surface models with ribbon models inside. The glucose moieties in the space-filling model were transferred from the sucrose mutase-sucrose complex (2pwe) via superimposition to indicate the position of catalytic cleft.
+
+GSJ formed a homodimer under low-ionic strength conditions, while all the structure-determined homologues were supposed to be monomeric proteins.15,25,26 Because the asymmetric unit of the crystal contained one monomer, the dimer structure was sought considering the crystal packing of the molecules. The interface between asymmetric units (x, y, z) and (2x, y, 2z) was found to be largest among the crystal packing interfaces (see Fig. 3). The accessible surface area ° buried between the monomers was 1250 A2, of which ° 2 was hydrophobic. A total of eight hydrogen bonds 570 A
+
+directly connected the monomers. The dimeric interface was provided by the N-terminal and subdomains. A unique feature of the GSJ dimer was the long cleft across the dimer, which was formed by connecting the catalytic clefts of the monomer (see Fig. 3). A distant homologue of GSJ, 4-a-glucanotransferase (GTase) from Thermotoga maritima, was found to partly form a dimer, and the two molecules in the asymmetric unit of the GTase crystal were assumed to represent the dimeric structure (PDB core 1lwj).27 The interface between the GTase monomers had a total surface area of ° ° 1300 A2 (400 A2 hydrophobic) and six direct hydrogen bonds. The probable dimer interface of GSJ was comparable to that of GTase, although the dimer structures are different from each other. The dimer interface was not extensive enough for a permanent interface, which would explain the fact that the dimeric form of GSJ existed only at low ionic strength.10
+Active site structure
+
+The highly conserved residues in the GH13 family are three catalytic residues (Asp199, Glu256, and Asp326 in GSJ) and the residues important for substrate binding (Tyr63, His103, and His325). These residues were conserved with the identical amino acids among the homologous
+PROTEINS
+
+129
+
+T. Shirai et al.
+
+Figure 4
+Active site residues of GSJ and homologues. The catalytic and substrate binding residues of GSJ, oligo-1,6-glucosidase, and sucrose mutase are shown in blue, orange, and green, respectively. The glucose moiety was transferred from the sucrose mutase-sucrose complex (2pwe), and the O1 atom of the glucose is represented by a red sphere.
+
+structures including GSJ. However, a significant deviation in position and conformation of these residues was observed for GSJ when they were superimposed on the homologous structures (see Fig. 4). Tyr63 of GSJ and the corresponding residues of the other proteins were stacked onto the substrate's glucose moiety. The conserved residues showed nearly identical
+
+conformations for oligo-1,6-glucosidase (orange in Fig. 4) and sucrose mutase (green in Fig. 4), although the former structure was determined without a substrate and the latter was in a complex with sucrose (the latter structure was inactive in the E254Q mutation). However, the residues of GSJ (blue in Fig. 4) were positioned far from the glucose moiety. The distance between catalytic ° Glu256-Oe and Asp326-Od was 7.5 A in GSJ, while the ° comparable distance was 3.9 and 3.8 A for oligo-1,6-glucosidase and sucrose mutase, respectively. Also, the distance between Ne2s of the substrate-binding His103 and ° His325 was longer for GSJ (11.7 A) when compared with oligo-1,6-glucosidase and sucrose mutase (10.2 and ° 10.1 A, respectively). The catalytic center of GSJ was widely opened as compared with the homologues. A conformational change should be required for GSJ to enclose active sites for a catalytic reaction. However, this was not likely the case for the homologues, which stay in an identical conformation with or without a bound substrate.
+Catalytic cleft structure
+
+The oligo-1,6-glucosidase and sucrose mutase are categorized by different enzyme activities with a-glucosidase. aGlucosidase (EC 3.2.1.20) hydrolyzes the a-1,4-glucosidic
+
+Figure 5
+Catalytic clefts of GSJ and the homologous structures. The catalytic clefts of (a) GSJ, (b) oligo-1,6-glucosidase, and (c) sucrose mutase are shown in surface models (top) and schemes (bottom). The glucose moiety shown in the stick model was transferred from the sucrose mutase-sucrose complex (2pwe) via superimposition. The surfaces belonging to the residues replaced on the differentiation branches (B1-B3 in Figure 1) are colored in each model. The surface in magenta (*A and *C) in plate (a) shows the edge positions of disordered regions.
+
+130
+
+PROTEINS
+
+Crystal Structure of GH13 a-Glucosidase
+
+bond at the nonreducing terminal of oligomaltose. a-1,6Glucosidase (EC 3.2.1.10) hydrolyzes the nonreducing terminal a-1,6-glycosidic bond, and sucrose mutase (EC 3.4.99.11) hydrolyzes the a-1,2-glycosidic bond of sucrose and converts sucrose to isomaltulose or trehalulose via a reverse hydrolysis reaction.2,25 The common process among the three enzymes is that they recognize the Dglucose moiety at the nonreducing end of oligosaccharides and hydrolyze its a-glucosidic bond at the O1 atom. Therefore, the functional differentiations between these enzymes would originate from differences in recognition of moieties beyond the O1 atom. From the molecular phylogeny of the close homologues of GSJ (see Fig. 2), the amino acid substitutions that should be responsible for the functional differentiations were deduced, and substitutions that might affect the catalytic cleft were mapped on the structures (see Fig. 5). For oligo-1,6-glucosidases and sucrose mutases, a total of 132 and 9 substitutions were detected for the B1 and B2 branches (see Fig. 2), respectively. Only substitutions L284M and K285D (showing the amino acid before substitution, residue number, and amino acid after substitution) of oligo-1,6-glucosidases and Q328N and S256F for sucrose mutase appeared to affect the catalytic clefts. In oligo-1,6-glucosidases, the substituted residues (Asp285 and Met284) formed a part of the wall of the deep catalytic cleft, which might be used for substrate binding [Fig. 5(b)]. In sucrose mutase, the substituted residue Phe256 was used as a lid for the catalytic site to shield the substrate [Fig. 5(c)]. This is reasonable because hydrolyzed fructose is used as the substrate of isomerization without leaving the catalytic site.25 These differentiating substitutions appeared to narrow the catalytic clefts. In contrast, the catalytic cleft of GSJ was opened wider than that of the others [Fig. 5(a)]. The two disordered regions [*A and *C in Figs. (1) and 5(a)], which were located close to the catalytic center, also helped to expose the catalytic site in GSJ. The corresponding portions of the disordered regions served as edges of the catalytic cleft in oligo-1,6-glucosidases and sucrose mutase. Without the disordered regions serving as an edge, the catalytic center of GSJ would be easier to access. Substrate-bindings might affect the conformations of the active sites and the disordered regions. However, despite of several attempts, co-crystallizations of GSJ with substrates/inhibitors, as well as crystallization of the protein in a different crystal form, to confirm this effect were not successful so far.
+Implications of GSJ structure
+
+cleft can accept a nonsugar molecule, then the D-glucose moiety will be transferred to the nonsugar acceptor [Fig. 5(a)]. GSJ was shown to use various fatty (methanol­ octanol, cyclopentanol, cyclooctanol, farnesol, and 1,4cyclohexandiol, for example) and aromatic (2-phenylethanol, pyrocatechol, vanillin, 8-quinolinol, cloramphenicol, phenolphthalein, and cortisone) alcohols as acceptors for D-glucose.10 In addition, GSJ has been found to use a rather bulky molecule, curcumin (Mr 368.39), for an acceptor molecule (see Fig. 6). Although the chemical structure of curcumin has little in common with sugars and is insoluble in water, GSJ could convert 30% of this molecule into mono-, di-, or tri-glycoside products in 3 h of reaction. The wider catalytic cleft of GSJ might help to lower the specificity of acceptor molecules. The transglycosylation activity of GSJ was compared with that of the a-glucosidase from B. stearothermophilus (GSA) in the previous work.10 Having 96% identity in the amino acid sequence, GSA (GSA_BACST in Fig. 1) is the closest known relative of GSJ. However, the transglycosylation activity of GSJ was significantly higher than that of GSA. Also, GSJ was more efficient in using bulky acceptors such as cloramphenicol as compared to GSA.
+
+Figure 6
+Transglycosylation activity of GSJ toward curcumin. (a) TLC analysis of time course of curcumin transglycosylation reaction catalyzed by GSJ. The three major products, P1, P2, and P3 were scraped from the TLC plate, extracted by methanol, and analyzed by ESI-MS. P1, P2, and P3 were confirmed to be a curcumin monoglucoside (C27H31O11, calculated MW 5 530) with two ion peaks: [M1H]1 at 531 m/z and [M1Na]1 at 553 m/z, a curcumin diglucoside (C33H40O16, calculated MW 5 692) with an ion peak of [M1Na]1 at 715 m/z, and a curcumin triglycoside (C39H50O21, calculated MW 5 854) with an ion peak of [M1Na]1 at 877 m/z, respectively. The yields of the 3-h reaction were 7.5%, 9.5%, and 8.7% for P1, P2, and P3, respectively. (b) Formula of curcumin and its predicted glucoside derivatives.
+
+These observations of the GSJ structure would explain its ability as a nonsugar transglucosidase. GSJ hydrolyzes an oligomaltose into a D-glucose and a leaving group. If the leaving group readily quits the catalytic cleft and the
+
+PROTEINS
+
+131
+
+T. Shirai et al.
+
+Table II
+
+Interactions and Other Molecular Features of GSJ and Homologous Structuresa
+
+Name PDB code No. of residuesb No. of H-bonds No. of ion pairsc No. of vdW contactsd No. of nonpolar contactsd ASA (2) Nonpolar ASA (2) Volume (3) No. of cavities Cavity volume (3)e
+a b c
+
+GSJ 2ze0A 532 497 57 33,601 3,907 21,753 9,971 106,658 16 16 (0.93) (0.11) (63.16) (7.34) (40.89) (18.74) (200.49) (0.03) (0.03)
+
+Oligo-1,6-glucosidase 1uokA 558 466 69 35,152 3,958 22,369 10,151 113,378 14 6 (0.84) (0.12) (63.00) (7.09) (40.09) (18.19) (203.20) (0.03) (0.01)
+
+Sucrose mutase 2pwfA 555 532 54 34,641 4,069 20,713 9,872 107,498 13 58 (0.96) (0.10) (62.41) (7.33) (37.32) (17.79) (193.69) (0.02) (0.10)
+
+In parentheses are the per-residue-normalized values. Number of residues modeled in each structure. ° Number of oppositely charged atom pairs within 4.0 A. d ° Number of atom pairs within 3.5 A (vdW contact), and those between nonpolar atoms (nonpolar contacts). e Total volume of cavities. The large cavity volume of sucrose mutase is the contribution from the catalytic cleft covered up by Phe 256 [see Fig. 5(c)].
+
+The use of nonsugar acceptors seemed to be enhanced in GSJ. In the molecular phylogeny, the branch to GSJ (B3 in Fig. 2) had 7 amino acid substitutions, and one of them, A384S [Ser384 in Fig. 5(a)], was found at the catalytic cleft close to the disordered region *C. The disordered regions of GSJ were always observed in the electron density of the crystals grown under the same or modified conditions of this report. If the disordered regions are an intrinsic property of GSJ acquired after the diversification from GSA, it remains possible that the wide opening of the catalytic cleft is relevant to an adaptation of GSJ to deep-sea environments. The extents of molecular interactions and other features such as surface area, volume, or cavity volume of the GSJ structure were not significantly different from that of the homologues (Table II). Thus, the disordered regions and the catalytic cleft structure appeared to be the most discriminating features of the GSJ. It is intriguing to see how a high-pressure condition affects these structural features. The disordered regions and the widely opened cleft of GSJ could be used to compensate the pressure effects and they might take a structure similar to the homologues under a high-pressure condition. Also, a comparison of GSJ structure with that of other GH13 a-glucosidases would be required to confirm the functional and evolutionary roles of the widely opened catalytic cleft of this enzyme. CONCLUSIONS The most apparent feature of GSJ structure was the widely opened catalytic cleft, which explained the broad ability of the enzyme in transglycosylation activity on nonsugar acceptors. This feature was mainly based on the conformation of the active sites and the disordered regions close to the catalytic center of GSJ. Because GSJ showed even higher nonsugar transglycosylation activity
+
+than its closest known relative, this feature might be related to the strategy of GSJ in adaptation to deep-sea environments. ACKNOWLEDGMENTS We are grateful to Dr. K. Horokoshi for his advice on this research. REFERENCES
+1. Takami H, Inoue A, Fuji F, Horikoshi K. Microbial flora in the deepest sea mud of Mariana trench. FEMS Microbiol Lett 1997;152:279­285. 2. McCarter JD, Withers SG. Unequivocal identification of Asp-214 as the catalytic nucleophile of Saccharomyces cerevisiae a-glucosidase using 5-fluoro glycosyl fluoride. J Biol Chem 1996;271:6889­6894. 3. Roach PJ. Glycogen and its metabolism. Curr Mol Med 2002;2:101­ 120. 4. Vihinen M, Mantsala P. Microbial amylolytic enzymes. Crit Rev Biochem Mol Biol 1989;24:329­418. 5. Kurimoto M, Nishimoto T, Nakada T, Chaen H, Fukada S, Tsujisaka Y. Synthesis by an a-glucosidase of glycosyl-trehaloses with an isomaltosyl residue. Biosci Biotechnol Biochem 1997;61:699­703. 6. Crout DHC, Critchley P, Muller D, Scigelova M, Singh S, Vic G. Application of glycosylases in the synthesis of complex carbohydrates. In: Gilbert HJ, Davies GJ, Henrissat B, Svensson B, editors. Recent advances in carbohydrate bioengineering. Cambridge: The Royal Society of Chemistry; 1999. pp 15­23. 7. Henrissat B, Davies G. Structural and sequence-based classification of glycoside hydrolases. Curr Opin Struct Biol 1999;271:619­628. ¨ 8. Ernst HA, Leggio LL, Willemoes M, Leonard G, Blum P, Larsen S. Structure of the Sulfolobus solfataricus a-glucosidase: implications for domain conservation and substrate recognition in GH31. J Mol Biol 2006;358:1106­1124. ¨ 9. Lodge JA, Maier T, Liebl W, Hoffmann V, Strater N. Crystal structure of Thermotoga maritima a-glucosidase AglA defines a new clan of NAD1-dependent glucosidases. J Biol Chem 2003;278:19151­19158. 10. Hung VS, Hatada Y, Goda S, Lu J, Hidaka Y, Li Z, Akita M, Ohta Y, Watanabe K, Matsui H, Ito S, Horikoshi K. a-Glucosidase from a strain of deep-sea Geobacillus: a potential enzyme for the biosynthesis of complex carbohydrates. Appl Microbiol Biotechnol 2005; 68:757­765.
+
+132
+
+PROTEINS
+
+Crystal Structure of GH13 a-Glucosidase
+
+11. Mohri K, Watanabe Y, Yoshida Y, Satoh M, Isobe K, Sugimoto N, Tsuda Y. Synthesis of glycosylcurcuminoids. Chem Phram Bull 2003;51:1268­1272. 12. Kaminaga Y, Nagatsu A, Akiyama T, Sugimoto N, Yamazaki T, Maitani T, Mizukami H. Production of unnatural glucosides of curcumin with drastically enhanced water solubility by cell suspension cultures of Catharanthus roseus. FEBS Lett 2003;555:311­316. 13. Shirai T, Hung VS, Akita M, Hatada Y, Ito S, Horikoshi K. Crystallization and preliminary X-ray studies of a-glucosidase from Geobacillus sp. strain HTA-462, one of the deepest sea bacteria. Acta Crystallogr D Biol Crystallogr 2003;59:1278­1279. 14. Otwinowski Z, Minor W. Processing of X-ray diffraction data collected in oscillation mode. Methods Enzymol 1997;276:307­326. 15. Watanabe K, Hata Y, Kizaki H, Katsube Y, Suzuki Y. The refined ° crystal structure of Bacillus cereus oligo-1,6-glucosidase at 2.0 A resolution: structural characterization of proline-substitution sites for protein thermostabilization. J Mol Biol 1997;269:142­153. 16. Navaza J. Implementation of molecular replacement in AMoRe. Acta Crystallogr D Biol Crystallogr 2001;57:1367­1372. 17. Brunger AT, Adams PD, Clore GM, DeLano WL, Gros P, GrosseKunstleve RW, Jiang J, Kuszewski J, Nilges M, Pannu NS, Read RJ, Rice LM, Simonson T, Warren GL. Crystallography & NMR Systems: a new software suite for macromolecular structure determination. Acta Crystallogr D Biol Crystallogr 1998;54:905­921. 18. Emsley P, Cowtan K. Coot: model-building tools for molecular graphics. Acta Crystallogr D Biol Crystallogr 2004;60:2126­2132. 19. Laskowski RA. PROCHECK: a program to check the stereochemical quality of protein structures. J Appl Crystallog 1993;26:283­291.
+
+20. Shirai T, Igarashi K, Ozawa T, Hagihara H, Kobayashi T, Ozaki K, Ito S. Ancestral sequence evolutionary trace and crystal structure analyses of alkaline a-amylase from Bacillus sp. KSM-1378 to clarify the alkaline adaptation process of proteins. Proteins 2007;66:600­ 610. 21. Bairoch A, Boeckmann B, Ferro S, Gasteiger E. Swiss-Prot: juggling between evolution and stability. Brief Bioinform 2004;5:39­55. 22. Thompson JD, Higgins DG, Gibson TJ. CLUSTAL W: improving the sensitivity of progressive multiple sequence alignment through sequence weighting, position-specific gap penalties and weight matrix choice. Nucleic Acids Res 1994;22:4673­4680. 23. Yang Z. PAML: a program package for phylogenetic analysis by maximum likelihood. Comput Appl Biosci 1997;13:555­556. 24. Pettersen EF, Goddard TD, Huang CC, Couch GS, Greenblatt DM, Meng EC, Ferrin TE. UCSF chimera-a visualization system for exploratory research and analysis. J Comput Chem 2004;25:1605­ 1612. 25. Zhang D, Li N, Lok SM, Zhang LH, Swaminathan K. Isomaltulose synthase (PalI) of Klebsiella sp. LX3. J Biol Chem 2003;278:35428­ 35434. 26. Revaud S, Robert X, Watzlawick H, Haser R, Mattes R, Aghajari N. Trehalulose syntase native and carbohydrate complexed structures provide insights into sucrose isomerization. J Biol Chem 2007;282:28126­28136. 27. Roujeinikova A, Raasch C, Sedelnikova S, Liebl W, Rice DW. Crystal structure of Thermotoga maritima 4-a-glucanotransferase and its acarbose complex: implications for substrate specificity and catalysis. J Mol Biol 2002;321:149­162.
+
+PROTEINS
+
+133
+
+

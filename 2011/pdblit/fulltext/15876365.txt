@@ -1,0 +1,119 @@
+COMMENT
+
+Response-regulator phosphorylation and activation: a two-way street?
+David R. Buckler, Ganesh S. Anand and Ann M. Stock
+
+M
+
+any signal transduction systems in bacteria are based on a central phosphoryl-transfer mechanism involving two conserved components, a histidine protein kinase and a response-regulator protein1. The response regulator is typically a two-domain protein composed of a conserved amino-terminal regulatory domain and a variable carboxy-terminal effector domain that mediates the response appropriate to the specific system. The regulatory domain catalyses phosphoryl transfer from a phosphohistidine in the protein kinase to one of its own aspartyl residues. In most cases, phosphorylation of the regulatory domain produces an active form of the response regulator, which elicits the final response via the activity of its effector domain. Response-regulator activation It has long been postulated that phosphorylation-induced activation of response-regulator proteins involves a conformational change in the regulatory domain that is driven by the high-energy acyl phosphate. Response regulators are thought to exist primarily in two conformations, corresponding to the inactive and active states. The inactive conformation is favored in the unphosphorylated protein, whereas phosphorylation shifts the equilibrium towards the active conformation. This hypothesis has been supported by a variety of data that provided indirect evidence of a phosphorylation-induced conformational alteration. The recently determined NMR and crystal structures of phosphorylated regulatory domains2­4 now allow a detailed comparison of the active and inactive conformations. A significant part of the puzzle has been solved, but an equally great one re-
+
+mains: how does the altered conformation of the regulatory domain activate the effector domain? Presumably, the altered molecular surface of the phosphorylated regulatory domain can be used for protein­protein interactions distinct from those mediated by the unphosphorylated regulatory domain. In two-domain responseregulator proteins, conformational changes in the regulatory domain could potentially be transmitted through the domain interface to the effector domain. For example, in the case of the transcription factor OmpR, which regulates the genes encoding the outer membrane porin proteins OmpF and OmpC, phosphorylation of the regulatory domain increases the affinity of the carboxy-terminal DNA-binding domain for ompF and ompC regulatory sites, designated F and C sites5,6. In a recent report, Kenney and colleagues7 have added a new twist to this story. They found that binding of OmpR to DNA corresponding to F and C sites can stimulate OmpR phosphorylation by the cognate kinase EnvZ or the small molecule phosphodonor acetyl phosphate. Thus, the flow of information between domains appears to go in both directions: perturbations in the regulatory domain can influence the activity of the effector domain, and vice versa. This finding is interesting for two reasons. First, it adds a new dimension to
+D.R. Buckler, G.S. Anand and A.M. Stock* are in the Center for Advanced Biotechnology and Medicine, University of Medicine and Dentistry of New JerseyRobert Wood Johnson Medical School, Howard Hughes Medical Institute and Rutgers University, 679 Hoes Lane Piscataway, NJ 08854-5638, USA. *tel: 1 732 235 4844, fax: 1 732 235 5289, e-mail: stock@cabm.rutgers.edu
+
+the mechanism of interdomain communication in response regulators and second, it poses potential questions about the regulation of OmpR phosphorylation in vivo. Mechanism of phosphorylation­ activation coupling This result invites speculation about the mechanism of coupling the activities of the regulatory and effector domains. One interesting possibility, suggested by Ames et al.7, is that DNA binding to the carboxy-terminal domain allosterically affects the active site for phosphoryl transfer within the regulatory domain. This can be envisioned as a propagated conformational change, transmitted either through the linker that connects the two domains, directly through the domain interface, or via a combination of both (Fig. 1a). Ames et al. favor the first mechanism. In previous studies, using limited proteolysis to probe structural perturbations in OmpR, Kenney and co-workers found the linker region had altered proteolytic susceptibility following phosphorylation8. In the present study7, similar proteolysis experiments using both phosphorylated and unphosphorylated OmpR in the presence of DNA revealed a prominent carboxy-terminal domain fragment resulting from cleavage in the linker region. Although this might indicate an alteration in the linker induced by DNA binding as suggested by Ames et al., it could merely reflect reduced degradation of the carboxy-terminal domain when bound to DNA. If the linker is the major conduit of information between domains in OmpR, it seems unlikely that this is a general mechanism for all response regulators. Within the large subfamily of response regulators that have winged-helix
+PII: S0966-842X(00)01707-8 APRIL 2000
+
+0966-842X/00/$ - see front matter © 2000 Elsevier Science Ltd. All rights reserved. TRENDS MICROBIOLOGY
+
+IN
+
+153
+
+VOL. 8
+
+NO. 4
+
+COMMENT
+
+(a)
+OmpR
+
+Amino-terminal regulatory domain
+
+Carboxy-terminal effector domain
+
+DNA
+
+(b)
+
+trends in Microbiology
+
+Fig. 1. Models for domain interactions leading to the enhancement of OmpR phosphorylation by target DNA binding. OmpR is a two-domain protein. The amino-terminal regulatory domain contains the active site for phosphoryl transfer and is joined by a short linker to a carboxy-terminal DNA-binding domain. (a) An intramolecular model can be postulated in which DNA binding to the carboxy-terminal domain allosterically regulates phosphorylation of the amino-terminal domain via interactions at the amino- and carboxy-domain interface, the linker, or a combination of both. (b) An intermolecular mechanism can also be envisioned, in which DNA binding to the carboxy-terminal domain would promote dimerization, bringing the amino-terminal domains in sufficiently close proximity to allow an interface between the two aminoterminal domains that could influence catalysis at the active sites.
+
+DNA-binding domains such as that found in OmpR, the linker is remarkably divergent both in length (5­21 residues) and in sequence9. Additionally, communication between domains can be considered from a structural perspective in the case of two response regulators, NarL (Ref. 10) and CheB (Ref. 11), neither of which are OmpR subfamily members. In these proteins, the regulatory and effector domains contact each other via substantial interfaces that are likely to mediate interdomain communication. Currently, for all response regulators, the importance of the linker, and its participation in an active or passive role, remains an open question. A somewhat less intriguing mechanism that does not require interdomain communication can be postulated to explain the finding of Ames et al. that OmpR phosphorylation is enhanced by DNA binding. OmpR is known to bind to DNA as a dimer12, which
+
+would necessarily bring the regulatory domains into close proximity. Interactions between two regulatory domains could allosterically affect the active sites for phosphoryl transfer (Fig. 1b). In this scenario, DNA plays an indirect role, enhancing the activity of the regulatory domains by promoting dimerization of the effector domains. Interestingly, the regulatory domain of PhoB, a member of the OmpR subfamily, has been shown to dimerize upon phosphorylation13. To the extent that these are reciprocal events, it might be expected that dimerization could enhance phosphorylation.
+
+In vivo relevance Regardless of the mechanism by which it occurs, the finding of Ames et al. that interaction of OmpR with its target DNA significantly enhances its own phosphorylation rate raises the important question of what relevance, if any, this phenomenon has on regulation of the signal transduction
+
+pathway in vivo. The EnvZ/OmpR osmoregulation system controls the differential expression of the outer membrane porin proteins OmpF and OmpC. Osmolarity is sensed by the transmembrane sensor EnvZ, which has both histidine protein kinase and OmpR phosphatase activities. Regulation of the level of OmpR phosphorylation appears to be mediated primarily through the phosphatase activity of EnvZ (Ref. 14). A large body of data supports a model in which the extent of activation and repression of transcription of the ompF and ompC genes is determined by the level of phosphorylated OmpR. For EnvZ-mediated phosphorylation of DNA-bound OmpR to be relevant in vivo, an OmpR­DNA complex must be localized to the membrane for interaction with EnvZ. This is not implausible, as actively transcribed regions of the chromosome encoding membrane proteins are thought to be localized to the cytoplasmic membrane. However, this would presumably require a mechanism to recruit the single copy of ompF or ompC to the specific region of membrane containing EnvZ, which has been estimated to exist at a level of only approximately five dimers per cell. The requirement for localization would of course be circumvented in the case of phosphorylation by intracellular acetyl phosphate, to the extent that phosphorylation by this metabolite is physiologically relevant15. If localization does occur, the next issue to consider is whether phosphorylation of DNA-bound OmpR could significantly influence the level of phosphorylation of the intracellular pool of OmpR. Assuming that in vitro experiments reflect the in vivo state, the occupancy of DNA by OmpR can be estimated. Based on 1000 OmpR molecules per cell14, a single chromosome, and affinity constants for the F and C sites determined in vitro for the oversimplified reaction, OmpR DNA OmpR DNA (Ref. 6), the different F and C sites are calculated to have 77­99% occupancy by OmpR. At complete saturation there is
+
+TRENDS
+
+IN
+
+MICROBIOLOGY
+
+154
+
+VOL. 8
+
+NO. 4
+
+APRIL 2000
+
+COMMENT
+
+approximately 100-fold more free OmpR than DNA-bound OmpR. Thus, for DNA to act catalytically to accelerate the rate of OmpR phosphorylation, the rate of phosphorylation of DNA-bound OmpR must be substantially greater than that of unbound OmpR and the off rate for the OmpR­DNA interaction must not be rate limiting. Kinetic analyses, not currently available, are necessary to address these issues. Additionally, because the OmpR-phosphatase activity of EnvZ is postulated to be the dominant regulator of OmpR phosphorylation, investigation of the effect of DNA binding on the EnvZ-promoted dephosphorylation of OmpR should be pursued. Future prospects From the perspective of the hypothesis that response regulators exist in equilibrium between two predominant conformational states, the finding that OmpR phosphorylation is enhanced by DNA binding is not surprising. Response regulators have been designed as switch proteins with an intrinsic phosphorylation mechanism that shifts the conformational equilibrium to favor the active state. In numerous response regulators, different mutations are also capable of producing an active phenotype in the absence of phosphorylation. It is logical to expect that interaction with the target might also induce an active conformation, thereby facilitating phosphorylation. Progress in the structural characterization of phosphorylated response regulators and their analogs, active mutant proteins, and complexes with targets should eventually allow these issues to be addressed directly.
+Acknowledgement We thank Richard Ebright and Linda Kenney for stimulating discussions. References 1 Hoch, J.A. and Silhavy, T.J., eds (1995) Two-Component Signal Transduction, ASM Press 2 Lewis, R.J. et al. (1999) Phosphorylated aspartate in the structure of a response regulator protein. J. Mol. Biol. 294, 9­15 3 Birck, C. et al. (1999) Conformational changes induced by phosphorylation of
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+the FixJ receiver domain. Structure Fold Des. 7, 1505­1515 Kern, D. et al. (1999) Structure of a transiently phosphorylated `switch' in bacterial signal transduction. Nature 402, 894­898 Aiba, H. et al. (1989) Evidence for the physiological importance of the phosphotransfer between the two regulatory components, EnvZ and OmpR, in osmoregulation of Escherichia coli. J. Biol. Chem. 264, 14090­14094 Head, C.G. et al. (1998) Relative binding affinities of OmpR and OmpRphosphate at the ompF and ompC regulatory sites. J. Mol. Biol. 281, 857­870 Ames, S.K. et al. (1999) C-terminal DNA binding stimulates N-terminal phosphorylation of the outer membrane protein regulator OmpR from Escherichia coli. Proc. Natl. Acad. Sci. U. S. A. 96, 11792­11797 Kenney, L.J. et al. (1995) Phosphorylation-dependent conformational changes in OmpR, an osmoregulatory DNA-binding protein of Escherichia coli. Proc. Natl. Acad. Sci. U. S. A. 92, 8866­8870 Martinez-Hackert, E. and Stock, A.M. (1997) Structural relationships in the
+
+10 11
+
+12
+
+13
+
+14
+
+15
+
+OmpR family of winged-helix transcription factors. J. Mol. Biol. 269, 301­312 Baikalov, I. et al. (1996) Structure of the Escherichia coli response regulator NarL. Biochemistry 35, 11053­11061 Djordjevic, S. et al. (1998) Structural basis for methylesterase CheB regulation by a phosphorylation-activated domain. Proc. Natl. Acad. Sci. U. S. A. 95, 1381­1386 Harlocker, S.L. et al. (1995) Tandem binding of six OmpR proteins to the ompF upstream regulatory sequence of Escherichia coli. J. Biol. Chem. 270, 26849­26856 Fiedler, U. and Weiss, V. (1995) A common switch in activation of the response regulators NtrC and PhoB: phosphorylation induces dimerization of the receiver modules. EMBO J. 14, 3696­3705 Pratt, L.A. and Silhavy, T.J. (1995) Porin regulon of Escherichia coli. In TwoComponent Signal Transduction (Hoch, J.A. and Silhavy, T.J., eds), pp. 105­127, ASM Press McCleary, W.R. and Stock, J.B. (1994) Acetyl phosphate and the activation of two-component response regulators. J. Biol. Chem. 269, 31567­31572
+
+Response-regulator phosphorylation and activation: a two-way street? Response
+Linda J. Kenney
+
+B
+
+uckler, Anand and Stock have highlighted several interesting questions raised by our recent work on signal transduction in the OmpR/EnvZ system. I would like to address some of these questions and raise several related points. The intramolecular information transfer between the amino-terminal phosphorylation domain and the carboxy-terminal DNA-binding domain of OmpR is clearly bidirectional, that is, phosphorylation affects DNA-binding affinity1­3 and DNA binding stimulates phosphorylation4. Recent studies with an OmpR mutant provided an even more dramatic example of the interplay between the regulatory and effector domains ­ a substitution in the recognition helix of the carboxy-terminal DNA-binding domain eliminated phosphoryl-
+
+ation of the amino terminus by acetyl phosphate5 (V.K. Tran et al., submitted). The precise mechanism of this interdomain effect is less clear. Whether the linker plays an active role, via a conformational change that transmits the information, or a passive role, with direct interfacial contact between the domains transferring the information, is an ongoing area of investigation. It seems likely that the ability of the linker to change conformation is important, because substitutions in the linker `lock' OmpR into a conformation that activates ompF transcription at both low and high osmolarity and fails to activate ompC at high osmolarity6,7. It should be pointed out, however, that it has not yet been demonstrated that the linker is absolutely required.
+
+TRENDS
+
+IN
+
+MICROBIOLOGY
+
+155
+
+VOL. 8
+
+NO. 4
+
+APRIL 2000
+
+

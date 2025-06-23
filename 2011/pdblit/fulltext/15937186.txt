@@ -1,0 +1,158 @@
+JOURNAL OF BACTERIOLOGY, June 2005, p. 4238­4244 0021-9193/05/$08.00 0 doi:10.1128/JB.187.12.4238­4244.2005 Copyright © 2005, American Society for Microbiology. All Rights Reserved.
+
+Vol. 187, No. 12
+
+Crystal Structure of the "PhoU-Like" Phosphate Uptake Regulator from Aquifex aeolicus
+Vaheh Oganesyan,1* Natalia Oganesyan,1 Paul D. Adams,1 Jaru Jancarik,1 Hisao A. Yokota,1 Rosalind Kim,1 and Sung-Hou Kim1,2*
+Berkeley Structural Genomics Center, Physical Biosciences Division, Lawrence Berkeley National Laboratory, Berkeley, California 94720,1 and Department of Chemistry, University of California, Berkeley, California 947202
+Received 7 December 2004/Accepted 10 March 2005
+
+The phoU gene of Aquifex aeolicus encodes a protein called PHOU_AQUAE with sequence similarity to the PhoU protein of Escherichia coli. Despite the fact that there is a large number of family members (more than 300) attributed to almost all known bacteria and despite PHOU_AQUAE's association with the regulation of genes for phosphate metabolism, the nature of its regulatory function is not well understood. Nearly one-half of these PhoU-like proteins, including both PHOU_AQUAE and the one from E. coli, form a subfamily with an apparent dimer structure of two PhoU domains on the basis of their amino acid sequence. The crystal structure of PHOU_AQUAE (a 221-amino-acid protein) reveals two similar coiled-coil PhoU domains, each forming a three-helix bundle. The structures of PHOU_AQUAE proteins from both a soluble fraction and refolded inclusion bodies (at resolutions of 2.8 and 3.2Å, respectively) showed no significant differences. The folds of the PhoU domain and Bag domains (for a class of cofactors of the eukaryotic chaperone Hsp70 family) are similar. Accordingly, we propose that gene regulation by PhoU may occur by association of PHOU_AQUAE with the ATPase domain of the histidine kinase PhoR, promoting release of its substrate PhoB. Other proteins that share the PhoU domain fold include the coiled-coil domains of the STAT protein, the ribosome-recycling factor, and structural proteins like spectrin. Phosphate uptake is of fundamental importance in bacterial cell physiology because phosphate is required as an essential nutrient. Phosphate acquisition is best understood in Escherichia coli, which has evolved several gene clusters known as the phosphate regulon (PHO regulon), involved in the assimilation and conservation of phosphate (33). Two major genetically separable inorganic phosphate (Pi) transporters in E. coli are the Pst (high-affinity Pi-specific transporters) and Pit (lowaffinity Pi transporters) systems (35). The Pst system, encoded by the genes pstSCAB and phoU, belongs to the family of ATPbinding cassette transporters (29). It includes PstA and PstC (integral membrane proteins mediating the translocation of Pi through the inner membrane), PstB (an ATPase that energizes transport), PstS (periplasmic Pi-binding protein), and a regulator of unknown function, PhoU (in Aqifex aeolicus, the phoU gene does not belong to the Pst operon). The Pst system is subject to regulation by a two-component regulatory system, PhoBR, which monitors levels of phosphate concentration (14, 25, 30). The PhoBR system consists of two proteins, PhoB, a response regulator, and PhoR, a histidine kinase that phosphorylates and dephosphorylates PhoB. The Pi signaling response involves three processes: activation, deactivation, and inhibition of the expression of proteins encoded by the PHO regulon (34). The last two processes occur upon a growth shift from Pi limiting to Pi excess conditions and require PhoU in the dephosphorylation process in conjunction with PhoR kinase. The first structure of PhoU reported here may contribute to a better understanding of its function. According to Pfam 16.0 (3), the PHOU-AQUAE protein is a member of the PhoU family (Pfam accession number PF01895) of over 300 proteins involved in phosphate regulation. The structure reveals two similar -helical domains, each forming a three-helix bundle (Fig. 1). The search of proteins with similar folds in the Protein Data Bank (PDB) (5) using DALI (15) revealed a number of proteins, of which only PhoU is known to be involved in phosphate regulation. Among them were the Bcl2-associated athanogene (Bag) domain protein as a cofactor for a eukaryotic heat shock protein family (PDB identifier, 1hx1), the coiled-coil domain of STAT protein (PDB identifiers, 1bg1 and 1uur), the ribosome recycling factor (PDB identifiers, 1dd5 and 1ek8), and several structural spectrin-like proteins (PDB identifiers, 1cun and 1quu). The crystal structure of a protein designated PhoU-like phosphate transport or transcription (depends on the source) regulator from Aquifex aeolicus (gi 2983430) was solved using single-wavelength anomalous diffraction data collected at the Se absorption peak wavelength. Upon expression, part of the protein stayed soluble in the cytoplasm and part formed inclusion bodies (IBs). Soluble protein was subjected to purification, whereas the insoluble fraction underwent a specific refolding procedure developed at BSGC (23). This resulted in two different crystallization experiments and subsequently two structures. Here we report the crystal structure of PHOU_ AQUAE, a "PhoU-like" protein from A. aeolicus and putative regulator of the PHO regulon. Based on discovered structural similarity to the Bag domain, we also suggest functions for PhoU proteins in general.
+4238
+
+Downloaded from jb.asm.org at SAECHS-LANDESBIBLIOTHEK on April 5, 2010
+
+* Corresponding author. Mailing address: Lawrence Berkeley National Laboratory, 1 Cyclotron Rd., Berkeley, CA 94720. Phone: (510) 486-4333. Fax: (510) 486-6059. E-mail for Sung-Hou Kim: shkim@lbl .gov. E-mail for Vaheh Oganesyan: voganesyan@lbl.gov.
+
+VOL. 187, 2005
+
+CRYSTAL STRUCTURE OF PHOU_AQUAE TABLE 1. X-ray diffraction data and refinement statisticsa
+Parameter (unit) Soluble form
+
+4239
+
+Refolded form
+
+Wavelength (Å) Resolution (Å) Redundancy Unique reflections Completeness (%) I/ I Rsym ( I I / I) Rcryst ( Fo Fc / Fo ) Rfree (5% of data) No. of protein atoms/AUb RMSD in bonds (Å) RMSD angles (°) Solvent molecules (no.)
+a b
+
+0.9794 15­2.8 (2.87­2.80) 3.7 (3.4) 90,937 (9,649) 96.6 (94) 14.4 (1.7) 0.095 (0.489) 0.21 (0.24) 0.27 (0.29) 10,395 0.016 1.381 160
+
+0.9794 15­3.23 (3.23­3.39) 4.6 (3.2) 40,607 (4,066) 99.1 (99.5) 19.3 (2.4) 0.053 (0.540) 0.22 (0.30) 0.25 (0.33) 3,358 0.012 1.422 0
+
+Values in parentheses are for the outermost resolution shell. AU is an abbreviation for asymmetric unit.
+
+Downloaded from jb.asm.org at SAECHS-LANDESBIBLIOTHEK on April 5, 2010
+
+FIG. 1. Ribbon presentation of PHOU_AQUAE. Equivalent helices of both PhoU domains are colored similarly. The helices are numbered according to the text. This illustration was prepared with Molscript (18) and Raster3D (21).
+
+MATERIALS AND METHODS Cloning, expression, refolding, and purification. The DNA encoding PHOU_ AQUAE was amplified by PCR from A. aeolicus genomic DNA (American Type Culture Collection) using Deep Vent DNA polymerase (New England Biolabs, Beverly, MA). The resulting PCR product was purified and prepared for ligation-
+
+independent cloning (2) by treatment with T4 DNA polymerase in the presence of 1 mM dTTP for 30 min at 37°C. The prepared DNA was then mixed with a pB4 vector for 5 min at room temperature and transformed into DH5 . The ligation-independent cloning pB4 vector was designed in our laboratory to express the target protein together with an N-terminal His6 tag­maltose-binding protein fusion containing a tobacco etch virus (TEV) protease cleavage site. The TEV cleavage produces target protein with six glycines at the N terminus. The resulting plasmid was transformed into BL21(DE3)/pSJS1244 for protein expression (17). Selenomethionine-labeled protein was expressed in a methionine auxotroph, E. coli strain B834(DE3)/pSJS1244 (19), using an auto-inducible selenomethionyl-containing medium (W. Studier, Brookhaven National Laboratory, personal communication). The expressed fusion protein was partially insoluble. The target protein was purified from the soluble fraction as well as from refolded IBs. Cells were disrupted by a microfluidizer (Microfluidics, Newton, MA) in 50 mM HEPES, pH 7.0, 300 mM NaCl, 10 mM -mercaptoethanol, 1 mM phenylmethylsulfonyl fluoride, 10 g/ml DNase, 0.1 g/ml antipain, 1 g/ml chymostatin, 0.5 g/ml leupeptin, and 0.7 g/ml pepstatin A. The IBs were pelleted by centrifugation at 10,000 rpm for 20 min in a Sorvall centrifuge. The supernatant was then spun in a Beckman ultracentrifuge in a Ti45 rotor at 35,000 rpm for 30 min at 4°C and applied onto a HiTrap Ni2 -chelating column (GE Healthcare, Piscataway, NJ). His-tagged fusion protein was bound to the column in 50 mM HEPES, pH 7.0, 300 mM NaCl, and 5 mM -mercaptoethanol and was eluted with the same buffer supplemented with 300 mM imidazole. Fractions containing the protein were pooled, mixed with TEV, and dialyzed overnight at 4°C against 50 mM HEPES, pH 7.0, 300 mM NaCl, and 5 mM -mercaptoethanol. After centrifu-
+
+FIG. 2. Electron density map around the residues of BOBSCRIPT (10, 11).
+
+1 helix. The contour level corresponds to 1 . This illustration was prepared using
+
+4240
+
+OGANESYAN ET AL.
+
+J. BACTERIOL.
+
+Downloaded from jb.asm.org at SAECHS-LANDESBIBLIOTHEK on April 5, 2010
+
+FIG. 3. Comparison of two PhoU domains of PHOU_AQUAE. (A) Amino acid sequence alignment of two PhoU domains in PHOU_AQUAE. The residues colored red are identical in the two PhoU domains of PHOU_AQUAE. The green residues have similar properties. Colored regions above and below the sequences denote corresponding -helices. (B) Superimposition of the two PhoU domains of PHOU_AQUAE. The matrix for superimposition was calculated by DALI (15) when a search was done using a pairwise comparison of the domains. The dark-orange color corresponds to domain 1 (residues 1 to 114), and the gold color corresponds to domain 2 (residues 117 to 214). The regions of C trace colored in seagreen correspond to identical residues. This illustration was prepared using Molscript (18).
+
+gation, the supernatant was applied onto a 5-ml HiTrap metal-chelating column charged with Ni2 . The cleaved target protein was found in the flowthrough. Further purification was performed by using size exclusion chromatography. The purity and identity of the target protein were confirmed by sodium dodecyl sulfate-polyacrylamide gel electrophoresis and electrospray mass spectrometry. Dynamic light scattering (DynaPro 99; Proterion, Piscataway, NJ) showed a single monodisperse peak, indicating homogeneity of the protein. The protein was concentrated in 50 mM HEPES, pH 7.0, 300 mM NaCl, and 5 mM -mercaptoethanol buffer to 10 mg/ml for crystallization. The IBs containing fusion protein were solubilized in 8 M urea and refolded using an on-column chemical refolding method (23). Briefly, solubilized IBs were bound to Ni-nitrilotriacetic acid resin (QIAGEN, Valencia, CA) and washed with buffer containing 0.1% Triton X-100, followed by a 1 mM -cyclodextrin wash. Elution was performed with buffer containing 50 mM HEPES, pH 7.0, 300 mM NaCl, 5 mM -mercaptoethanol, and 300 mM imidazole. Refolded protein was cut with TEV and concentrated as described above.
+
+Crystallization and structure determination. Screening for crystallization conditions was performed using the sparse-matrix method (16) with several screens from Hampton Research (Hampton Research, Aliso Viejo, CA). Crystals of soluble and refolded Se-Met-derivatized PHOU_AQUAE proteins were obtained at room temperature in hanging drops. Soluble protein crystals appeared in 0.1 M HEPES, pH 7.5, and 1.5 M Li2SO4 after 6 months of equilibration and over a period of 1 year reached a size of 0.15 mm by 0.15 mm by 0.1 mm. They belong to the space group P43 with the following cell parameters: a and b were equal to 113.5 Å, and c was equal to 155.0 Å. The asymmetric unit contains six molecules. Crystals of refolded protein grew from 0.2 M Na formate and 14% polyethylene glycol 3350 over a period of 2 weeks to a size of 0.1 mm by 0.1 mm by 0.06 mm. They belong to the space group P32, with unit cell a and b being equal to 85.1 Å and c being equal to 62.8 Å. The asymmetric unit of this crystal contains two molecules. For both crystal forms, the X-ray diffraction data were collected from single crystals at 100 K at the Se peak wavelength on the Berkeley Center for Structural
+
+FIG. 4. Conservative residues derived from sequence comparison of 50 members of the PhoU family that share the PhoU-PhoU domain structure. Residues marked in red are 100% conserved, the green residues are common in 90% of the sequences, the blue color corresponds to 80% conservation, and the purple color corresponds to 70% conservation. The amino acids with less than 100% conservation are not necessarily the ones that appear in the PHOU_AQUAE sequence.
+
+VOL. 187, 2005 TABLE 2. RMSD values for all possible pairwise comparisons of the monomers in both structures of PHOU_AQUAE
+RMSD (Å) for protein chain: Protein chain Soluble A Soluble B Soluble C Soluble D Soluble E Soluble F Refolded B
+
+CRYSTAL STRUCTURE OF PHOU_AQUAE
+
+4241
+
+Soluble A Soluble B Soluble C Soluble D Soluble E Soluble F Refolded A
+
+0.818
+
+0.957 0.926
+
+0.982 0.779 0.897
+
+0.929 0.829 0.822 0.558
+
+0.929 0.850 0.647 0.698 0.780 1.308
+
+1.210
+
+1.237
+
+1.322
+
+1.278
+
+1.274
+
+1.221 1.252 1.340 1.295 1.289 1.327 0.366
+
+Biology beamline 5.0.2 at the Advanced Light Source (Lawrence Berkeley National Laboratory, Berkeley, CA) equipped with a Quantum 210 charge-coupleddevice detector (Area Detector System Corporation, Poway, CA). All data were processed with HKL2000 (24). In total, 360 images were collected from the crystal from the soluble fraction of PHOU_AQUAE (180 images for each direct and inverse beam) in 36 wedges, each with a 1° oscillation range. Because of substantial radiation damage to the crystal, only 178 images were collected from the crystal of refolded PHOU_AQUAE (90 images for the direct beam and 88 images for the inverse beam) in 18 wedges, with 1° oscillation per image. Chronologically, the crystals suitable for X-ray analysis were obtained first from refolded protein. However, the quality and resolution of data obtained from those crystals were marginal. The phases calculated from that data showed electron density that clearly looked like protein of a high alpha-helical content but, nevertheless, did not allow tracing. After many months of equilibration, a single crystal from the soluble protein was obtained. The structure solution from soluble protein allowed us to solve the structure from refolded protein. The structure of soluble protein was solved by the single-wavelength anomalous diffraction method. The heavy atom substructure was determined using the HySS program (12) from the PHENIX package (1) at a resolution of 3.0 Å. Out of 60 Se atoms in the asymmetric unit, 58 were found. After calculating the initial phases with SOLVE, statistical density modification and phase extension were applied using RESOLVE (31). The resulting electron density was interpretable for more than 80% of the polypeptide chain and was built for one of the six molecules by using "O." The coordinates for five other molecules were determined using MOLREP (32) from the CCP4 program suite (7). The refinement was carried out using REFMAC (22) to an R factor of 0.209 (Rfree 0.266 for 5% of the data) for all data in a resolution range of 12 to 2.9 Å. No restraints on noncrystallographic symmetry were imposed after the first two rounds of refinement and manual building. The final electron density featured all the protein residues except for the last six (Fig. 2). The six N-terminal glycine residues that were left after TEV cleavage were also visible in the electron density and adopted a helical conformation. The resulting model had 92.4% of the residues in the most-favored regions and 7.6% in additionally allowed regions of the Ramachandran plot. The X-ray data and refinement statistics are given in Table 1. Though the heavy atom substructure solution and subsequent phasing and density modifications were done independently with data from the refolded protein, the resulting electron density lacked the connectivity between the -helices due to the low data resolution and could not be built. The structure was determined using MOLREP (32) from the CCP4 program suite (7) and with coordinates of one molecule from the soluble protein structure as a search model. The refinement was carried out with REFMAC (22) to an R factor of 0.215 (Rfree 0.248 for 5% of the data) for all data in a resolution range of 15 to 3.2 Å. The resulting model had 85.8% of residues in the most-favored regions, 12.2% in additionally allowed regions, and 2% in generously allowed regions of the Ramachandran plot. The X-ray data and refinement statistics are summarized in Table 1. PDB accession numbers. The atomic coordinates and their structure factors for soluble and refolded protein structures have been deposited in the PDB (5) under the accession codes 1T72 and 1T8B, respectively.
+
+Downloaded from jb.asm.org at SAECHS-LANDESBIBLIOTHEK on April 5, 2010
+
+FIG. 5. "Charge-smoothed" surface representation of PHOU_ AQUAE. The clustered aspartic and glutamic acid residues create two negatively charged patches (shown with arrows) that may indicate possible metal-binding sites. This illustration was prepared using PyMOL (8).
+
+forms a three-helix bundle with an unusual slightly righthanded twist. Superimposition of these two bundles, which are 28% identical (and 60% similar if conservative replacements are considered) in sequence, resulted in root mean square deviation (RMSD) of 1.8 Å (Fig. 3B). Residues 1 to 40, 43 to 73, and 77 to 113 form the 1, 2, and 3 helices of the first three-helix bundle. In the second domain, the first -helix ( 4) is shorter than its counterpart in the first domain and includes residues 120 to 143. The second -helix
+
+TABLE 3. Significant results of the DALI search with one PhoU domain structure against PDB sequences
+PDB identifier chain Z scorea RMSD (Å) % Identity Protein name
+
+RESULTS Structure overview. The monomer from the crystal structure of PHOU_AQUAE consists of six -helices (Fig. 1) that, in agreement with the amino acid sequence, can be divided into two nondistinctly similar domains called PhoU. Each of them
+
+1HX1-B 1OED-A 1CUN-A 1HS7-A 1BG1-A 1EK8-A 1VLS
+
+9.5 9.1 8.9 8.7 8.5 8.4 8.1
+
+2.3 2.5 2.1 2.3 2.4 3.8 3.1
+
+12 9 9 10 4 11 7
+
+HSCb (71 kDa) with Bag domain Acetylcholine receptor, alpha chain Alpha spectrin, fragment Syntaxin VAM3, fragment Stat3b Ribosome-recycling factor Aspartate receptor
+
+a Strength of structural similarity in standard deviations above expected (expected value or cutoff value is 2). b HSP (cytosolic), i.e., expressed and functioning in cytosolic heat shock protein (HSP).
+
+4242
+
+OGANESYAN ET AL.
+
+J. BACTERIOL.
+
+Downloaded from jb.asm.org at SAECHS-LANDESBIBLIOTHEK on April 5, 2010
+
+FIG. 6. Comparison of PHOU_AQUAE with the Bag domain and with PHOU_THEMA. (A) Amino acid sequence alignment of eukaryotic Bcl2 protein with one of the PhoU domains from PHOU_AQUAE. Identical residues are colored red, and the residues of similar properties are colored green. (B) Superimposition of the Bag domain and a single PhoU domain of PHOU_AQUAE. The dark orange corresponds to PHOU_AQUAE, and the green corresponds to the Bag domain. The regions of C marked with black correspond to similar residues from sequence alignment. (C) Superimposition of a single PhoU domain for PHOU_AQUAE and PHOU_THEMA. The endogenous metal ions found bound in the PHOU_THEMA crystal structure are shown as red balls. The dark orange corresponds to PHOU_AQUAE, and the gold color corresponds to PHOU_THEMA. The regions of C marked with black correspond to identical residues from pairwise sequence alignment. This illustration was prepared using Molscript (18).
+
+( 5) of the second domain spans from residue 146 to residue 177 and is very similar in length and shape (slightly bent) to the second -helix 2 of the first domain. The last helix ( 6) spans residues 181 to 214 and corresponds to the 3 helix of the first three-helix bundle. The sequence and structure alignments of two PhoU domains of PHOU_AQUAE are shown in Fig. 3. The conservative residues of proteins that share PhoU-PhoU architecture are shown in Fig. 4. The RMSD of models between both crystal forms and between monomers within crystal forms are presented in Table 2. Coiled-coil structures are characterized by a repeated heptad motif (abcdefg)n in which buried hydrophobic residues medi-
+
+ate interhelical contacts at positions a and d (6). The PHOU_ AQUAE coiled-coil domain fits well into this consensus, as nearly all buried a and d residues are hydrophobic. These buried residues increase the stability of the coiled-coil structure. The aspartic and glutamic acid residues that account for more than 20% of all residues are both scattered throughout the length of the solvent-exposed part of the protein and clustered, creating negatively charged patches. One such cluster includes residues Asp47, Asp48, Asp51, Glu54, and Glu58 of 2 and Glu89, Asp93, Glu96, and Glu100 of 3 and covers an approximate area of 300 Å2 (Fig. 5). This may indicate the possibility of a divalent metal binding site. The close proximity of two histidine resi-
+
+VOL. 187, 2005
+
+CRYSTAL STRUCTURE OF PHOU_AQUAE
+
+4243
+
+dues, His187 and His194, may further discriminate ions like Mn and Mg in favor of Zn and Fe. Interestingly, eight out of the nine above-mentioned aspartic and glutamic acid residues are conserved in both PhoU domains of PHOU_AQUAE, and four of them are conserved throughout the whole PhoU family. DISCUSSION Although the overall PhoU-PhoU architecture has no structural analogs in the PDB, the single PhoU domain has several topological matches. Among them are the Bcl2-associated athanogene (Bag) domain, which is a cofactor for the eukaryotic chaperone 70-kilodalton heat shock protein Hsp70 family (PDB identifier, 1hx1 [28]), the coiled-coil domains of STAT protein (PDB identifiers, 1bg1 [4] and 1uur [27]), and several spectrin-like structural proteins (PDB identifiers, 1cun [13] and 1quu [9]). Table 3 presents significant results of a DALI search. The Bag domain, as it appears in the Bag/Hsc70 complex structure, shares approximately 50% sequence similarity with each of the PhoU domains of PHOU_AQUAE (Fig. 6A). Superimposition of Bag domain with either PhoU domains resulted in an RMSD of approximately 2.9 Å over the full length of Bag and either of the PhoU domains (Fig. 6B). Among 17 identical amino acids, 8 of them belong to highly conserved residues in the PhoU-PhoU subfamily. Interestingly, the ATPase domain of Hsc70 shares over 30% similarity with PhoR histidine kinase, part of a two-component regulatory system that requires the presence of PhoU protein to dephosphorylate the sensor protein PhoB. Considering the Bag-PhoU and Hsc70-PhoR similarities, it is plausible to hypothesize that PhoU plays a role in the PhoR-PhoB system similar to that of the Bag domain in the Hsc70-substrate complex; namely, upon binding to PhoR and phosphorylated PhoB complex, the PhoU protein may stimulate the transfer of phosphate from phosphorylated PhoB and thus (probably due to a conformational change) trigger the release of the dephosphorylated PhoB. The structural comparison of single PhoU domains with several other matches, including spectrins and syntaxins, did not suggest any functional implications due to low sequence similarity. In the case of ribosome-recycling factor (PDB identifier, 1rrf [26]), even the topology is different. Recently, another structure of a PhoU-type protein from Thermotoga maritima was deposited with the PDB (PDB identifier, 1sum [20]). Yet very similarly to structures presented here, this structure contains endogenous iron ions bound to the region with high Asp and Glu populations (Fig. 6C). The 60% similarity in amino acid sequence and the RMSD of 1.0 Å calculated over 110 residues (or one PhoU domain) makes these structures almost identical, but nothing is known about the function of that protein either. The crystal structure of PHOU_AQUAE is one of the first three-dimensional structures obtained for a protein family widely represented in almost all bacteria. Analysis of the structure supports the contention that PHOU_AQUAE and probably all other members of the PhoU-PhoU subfamily play a role in phosphate transport via interaction with PhoR and PhoB. We further suggest that, due to the specific charge distribution on the surface of the molecule, metal ions like Zn and Fe can be involved in this type of phosphate transport. By reporting the crystal structure of PhoU-like protein and provid-
+
+ing information about fold analogs, we hope to contribute to the field of understanding of PhoU's role in phosphate regulation.
+ACKNOWLEDGMENTS We thank John-Marc Chandonia for bioinformatics search; Barbara Gold for cloning; Marlene Henriquez, Irina Ankoudinova, and Bruno Martinez for expression and cell paste preparation; Alexander Iakounine of the University of Toronto for functional assays; and Christine Trame for user support at beamline 5.0.2 at the Advanced Light Source. The Advanced Light Source is supported by the Director, Office of Science, Office of Basic Energy Sciences, and the Material Sciences Division of the U.S. Department of Energy under contract no. DEAC03-76SF00098 at Lawrence Berkeley National Laboratory. The research presented here was supported by the Protein Structure Initiative grant from National Institutes of Health (grant 62412).
+REFERENCES 1. Adams, P. D., R. W. Grosse-Kunstleve, L.-W. Hung, T. R. Ioerger, A. J. McCoy, N. W. Moriarty, R. J. Read, J. C. Sacchettini, N. K. Sauter, and T. C. Terwilliger. 2002. PHENIX: building new software for automated crystallographic structure determination. Acta Crystallogr. D 58:1948­1954. 2. Aslanidis, C., and P. J. de Jong. 1990. Ligation-independent cloning of PCR products (LIC-PCR). Nucleic Acids Res. 18:6069­6074. 3. Bateman, A., L. Coin, R. Durbin, R. D. Finn, V. Hollich, S. Griffiths-Jones, V. Hollich, A. Khanna, M. Marshall, S. Moxon, E. L. Sonnhammer, D. J. Studholme, C. Yeats, and S. R. Eddy. 2004. The Pfam protein families' database. Nucleic Acids Res. 32:138­141. 4. Becker, S., B. Groner, and C. W. Muller. 1998. Three-dimensional structure of the Stat3beta homodimer bound to DNA. Nature 394:145­148. 5. Berman, H. M., J. Westbrook, Z. Feng, G. Gilliland, T. N. Bhat, H. Weissig, I. N. Shindyalov, and P. E. Bourne. 2000. The Protein Data Bank. Nucleic Acids Res. 28:235­242. 6. Burkhard, P., J. Stetefeld, and S. V. Strelkov. 2001. Coiled coils: a highly versatile protein folding motif. Trends Cell Biol. 11:82­88. 7. Collaborative Computational Project, Number 4. 1994. The CCP4 suite: programs for protein crystallography. Acta Crystallogr. D 50:760­763. 8. DeLano, W. L. 2002. The PyMOL Molecular Graphics System. [Online.] http://www.pymol.org. 9. Djinovic-Carugo, K., P. Young, M. Gautel, and M. Saraste. 1999. Structure of the -actinin rod: molecular basis for cross-linking of actin filaments. Cell 98:537­546. 10. Esnouf, R. M. 1997. An extensively modified version of Molscript that includes greatly enhanced coloring capabilities. J. Mol. Graphics 15:132­134. 11. Esnouf, R. M. 1999. Further additions to Molscript version 1.4, including reading and contouring of electron-density maps. Acta Crystallogr. D 55: 938­940. 12. Grosse-Kunstleve, R. W., and P. D. Adams. 2003. Substructure search procedures for macromolecular structures. Acta Crystallogr. D 59:1966­1973. 13. Grum, V. L., D. Li, R. I. MacDonald, and A. Mondragon. 1999. Structures of two repeats of spectrin suggests models of flexibility. Cell 98:523­535. 14. Hackenbeck, R., and J. B. Stock. 1996. Analysis of two-component signal transduction system involved in transcriptional regulation. Methods Enzymol. 273:281­300. 15. Holm, L., and C. Sander. 1993. Protein structure comparison by alignment of distance matrices. J. Mol. Biol. 233:123­138. 16. Jancarik, J., and S.-H. Kim. 1991. Sparse matrix sampling: a screening method for crystallization of proteins. J. Appl. Crystallogr. 24:409­411. 17. Kim, R., S. J. Sandler, S. Goldman, H. Yokota, A. J. Clark, and S.-H. Kim. 1998. Overexpression of archaeal proteins in Escherichia coli. Biotechnol. Lett. 20:207­210. 18. Kraulis, P. J. 1991. MOLSCRIPT: a program to produce both detailed and schematic plots of protein structures. J. Appl. Crystallogr. 24:946­950. 19. Leahy, D. J., W. A. Hendrickson, I. Aukhil, and H. P. Erickson. 1992. Structure of a fibronectin type III domain from tenascin phased by MAD analysis of the selenomethionyl protein. Science 258:987­991. 20. Liu, J., Y. Lou, P. D. Adams, J. Jancarik, H. Yokota, R. Kim, and S.-H. Kim. Unpublished data. 21. Merritt, E. A., and D. J. Bacon. 1997. Raster3D: photorealistic molecular graphics. Methods Enzymol. 277:505­524. 22. Murshudov, G. N., A. A. Vagin, and E. J. Dodson. 1997. Refinement of macromolecular structure by the maximum-likelihood method. Acta Crystallogr. D 53:240­255. 23. Oganesyan, N., R. Kim, and S.-H. Kim. 2004. One-column chemical refolding of proteins. PharmaGenomics 2004(September):22­26. 24. Otwinowski, Z., and W. Minor. 1997. Processing of X-ray diffraction data collected in oscillation mode. Methods Enzymol. 276:307­326. 25. Parkinson, J. S. 1993. Signal transduction schemes of bacteria. Cell 73: 857­871.
+
+Downloaded from jb.asm.org at SAECHS-LANDESBIBLIOTHEK on April 5, 2010
+
+4244
+
+OGANESYAN ET AL.
+
+J. BACTERIOL.
+30. Stock, J. B., A. J. Ninfa, and A. M. Stock. 1989. Protein phosphorylation and regulation of adaptive responses in bacteria. Microbiol. Rev. 53:450­490. 31. Terwilliger, T. C. 2004. SOLVE and RESOLVE: automated structure solution, density modification and model building. J. Synchrotron Radiat. 11:49­52. 32. Vagin, A., and A. Teplyakov. 1997. MOLREP: an automated program for molecular replacement. J. Appl. Crystallogr. 30:1022­1025. 33. Wanner, B. L. 1993. Gene regulation by phosphate in enteric bacteria. J. Cell. Biochem. 51:47­54. 34. Wanner, B. L. 1997. Phosphate signaling and the control of gene expression in Escherichia coli, p. 104­128. In S. Silver and W. Walden (ed.), Metal ions in gene regulation. Chapman and Hall, Ltd., Sterling, Va. 35. Willsky, G. R., and M. H. Malamy. 1980. Characterization of two genetically separable inorganic phosphate transport systems in Escherichia coli. J. Bacteriol. 144:356­365.
+
+26. Selmer, M., S. Al-Karadaghi, G. Hirokawa, A. Kaji, and A. Liljas. 1999. Crystal structure of Thermotoga maritima ribosome recycling factor: a tRNA mimic. Science 286:2349­2352. 27. Soler-Lopez, M., C. Petosa, M. Fukuzawa, R. Ravelli, J. G. Williams, and C. W. Muller. 2004. Structure of an activated Dictyostelium Stat in its DNA-unbound form. Mol. Cell 13:791­804. 28. Sondermann, H., C. Scheufler, C. Schneider, J. Hohfeld, F. U. Hartl, and I. Moarefi. 2001. Structure of a Bag/Hsc70 complex: convergent functional evolution of Hsp70 nucleotide exchange factors. Science 291:1553­ 1557. 29. Steed, P. D., and B. L. Wanner. 1993. Use of rep technique for allele replacement to construct mutants with deletions of the pstSCAB-phoU operon: evidence of a new role of the PhoU protein in the phosphate regulon. J. Bacteriol. 175:6797­6809.
+
+Downloaded from jb.asm.org at SAECHS-LANDESBIBLIOTHEK on April 5, 2010
+
+

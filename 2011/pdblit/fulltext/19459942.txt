@@ -1,0 +1,441 @@
+Functional aspects of the solution structure and dynamics of PAF ­ a highly-stable antifungal protein from Penicillium chrysogenum
+´ ´ ´ ´ ´ Gyula Batta1, Terez Barna1, Zoltan Gaspari2, Szabolcs Sandor1, Katalin E. Kover3, Ulrike Binder4, ¨ ´ ´ Bettina Sarg5, Lydia Kaiserer4, Anil K. Chhillar4, Andrea Eigentler4, Eva Leiter6, Nikoletta Hegedus6, ¨ ´ ´ Istvan Pocsi6, Herbert Lindner5 and Florentine Marx4
+1 2 3 4 5 6 Department of Biochemistry, Centre of Arts, Humanities and Sciences, University of Debrecen, Hungary ´ Institute of Chemistry, Eotvos Lorand University, Budapest, Hungary ¨ ¨ Department of Inorganic and Analytical Chemistry, Centre of Arts, Humanities and Sciences, University of Debrecen, Hungary Division of Molecular Biology, Biocenter, Innsbruck Medical University, Austria Division of Clinical Biochemistry, Biocenter, Innsbruck Medical University, Austria Department of Microbial Biotechnology and Cell Biology, Centre of Arts, Humanities and Sciences, University of Debrecen, Hungary
+
+Keywords antifungal protein PAF; internal dynamics; NMR spectroscopy; site-directed mutagenesis; solution structure Correspondence G. Batta, Department of Biochemistry, Centre of Arts, Humanities and Sciences, ´ University of Debrecen, Egyetem ter 1, H-4010 Debrecen, Hungary Fax: +36 52 453836 Tel: +36 52 512900 22234 E-mail: batta@tigris.unideb.hu F. Marx, Division of Molecular Biology, Biocenter, Innsbruck Medical University, FritzPregl Strasse 3, A-6020 Innsbruck, Austria Fax: +43 512 9003 73100 Tel: +43 512 9003 70207 E-mail: florentine.marx@i-med.ac.at Database The structural ensemble without disulfide bond constraints has been deposited in Research Collaboratory for Structural Bioinformatics Protein Data Bank (RCSB ID code: rcsb100954; PDB ID code: 2kcn). NMR chemical shift assignments are deposited in the BioMagResBank with accession number 16087 (Received 25 January 2009, revised 13 March 2009, accepted 18 March 2009) doi:10.1111/j.1742-4658.2009.07011.x
+
+Penicillium antifungal protein (PAF) is a promising antimycotic without toxic effects on mammalian cells and therefore may represent a drug candidate against the often lethal Aspergillus infections that occur in humans. The pathogenesis of PAF on sensitive fungi involves G-protein coupled signalling followed by apoptosis. In the present study, the solution structure of this small, cationic, antifungal protein from Penicillium chrysogenum is determined by NMR. We demonstrate that PAF belongs to the structural classification of proteins fold class of its closest homologue antifungal protein from Aspergillus giganteus. PAF comprises five b-strands forming two orthogonally packed b-sheets that share a common interface. The ambiguity in the assignment of two disulfide bonds out of three was investigated by NMR dynamics, together with restrained molecular dynamics calculations. The clue could not be resolved: the two ensembles with different disulfide patterns and the one with no S­S bond exhibit essentially the same fold. 15N relaxation dispersion and interference experiments did not reveal disulfide bond rearrangements via slow exchange. The measured order parameters and the 3.0 ns correlation time are appropriate for a compact monomeric protein of this size. Using site-directed mutagenesis, we demonstrate that the highly-conserved and positively-charged lysine-rich surface region enhances the toxicity of PAF. However, the binding capability of the oligosaccharide / oligonucleotide binding fold is reduced in PAF compared to antifungal protein as a result of less solvent-exposed aromatic regions, thus explaining the absence of chitobiose binding. The present study lends further support to the understanding of the documented substantial differences between the mode of action of two highly homologous antifungal proteins.
+
+Abbreviations AFP, antifungal protein (from Aspergillus giganteus); CSA, chemical shift anisotropy; Ca, a carbon atom; DD, dipolar­dipolar coupling; IAA, iodeacetamide; mPAF, mature PAF; MUMO, minimal under restraining, minimal over restraining; PAF, Penicillium antifungal protein; RT, room temperature.
+
+FEBS Journal 276 (2009) 2875­2890 ª 2009 The Authors Journal compilation ª 2009 FEBS
+
+2875
+
+Structure and dynamics of an antifungal protein
+
+G. Batta et al.
+
+Antimicrobial proteins are produced by the most diverse organisms (e.g. bacteria, fungi, plants, insects, amphibians and humans). Cationic, low molecular weight antifungal proteins from filamentous fungi have become the subject of investigation within the last decade [1]. Apart from the antifungal protein (AFP) from Aspergillus giganteus, Penicillium antifungal protein (PAF) from Penicillium chrysogenum is one of the most studied antifungal peptides of fungal origin. Both belong to a distinct group of cysteine-rich antifungal proteins, effectively inhibiting the growth of numerous plant-pathogenic and zoo-pathogenic filamentous fungi [2­9], as also reviewed elsewhere [1,6,10]. Recent studies have allowed deeper insight into the mechanism of antifungal activity of PAF [3,11,12]. Importantly, no toxic effects of PAF were found on various mammalian cells and tissues [13]. PAF hyperpolarizes the plasma membrane of sensitive fungi, as demonstrated in the filamentous fungus model organism Aspergillus nidulans, and the disturbance of homeostasis finally leads to the disorganization of mitochondria and the onset of apoptotic cell death [6,12]. Recently, PAF arose as a promising antimycotic with potential agricultural, biotechnological and biomedical applications, and even as a model system aiming to enhance our understanding of fungal cell biology at the molecular level [6]. The identification of proteins that may interact with PAF either on the plasma membrane surface (e.g. the potential heterotrimeric G-protein-coupled sensors) or in the cytoplasm (e.g. heterotrimeric G-protein subunits) is of crucial importance when considering new PAF-based antifungal therapies [6]. According to another hypothesis, PAF may interact directly with plasma membrane components, which consequently disturbs lipid-raftbased signal transductions [6]. Structural data may help us substantially with the identification of motifs recognized by potential interacting partners in sensitive organisms and, hence, explain the mechanism of action and the observed species specificity of PAF [1,3]. Furthermore, a comparison of the 3D structures of PAF and AFP [14] may shed some more light on the astonishingly different molecular backgrounds of the similar swelling-hyperbranching phenotypes triggered by PAF and AFP treatments in sensitive fungi [6,10]. Despite the high similarity in their primary structures, the antifungal action of AFP appears to be predominantly membrane-and cell wall-based [7,10,15] and may include the inhibition of chitin synthase [15], whereas the action of PAF appears to be primarily receptor-based [6,12]. Until now, only the NMR solution structure of AFP could be determined [14].
+2876
+
+In the present study, we report the 3D structure and backbone dynamics of PAF by 2D homonuclear and 3D 15 N resolved heteronuclear NMR spectroscopy and demonstrate the functional importance of the conserved lysine residues and the disulfide bonds for proper biological function. Moreover, the stability of PAF at high temperatures and extreme pH values, as well as resistance against protease digestion, is investigated, along with its chitin (or chitobiose) binding capability.
+
+Results
+Protein purification and MS analysis After cation exchange chromatography, the purity of the native PAF was confirmed by RP-HPLC. One single peak corresponding to 6244 Da protein was detected (see Fig. S1A), which is six protons < 6250 Da (i.e. the theoretical molecular mass of PAF) as a result of the presence of three disulfide bonds. Importantly, the MS data yielded evidence demonstrating the lack of any post-translational modification of native PAF other than the removal of the prepro-sequence when secreted into the supernatant [5,6,16] and also revealed that all six cysteine residues are involved in the formation of three intramolecular disulfide bonds. Inactivation of PAF by alkylation of the sulfhydryl groups To investigate the importance of the disulfide bonds for biological activity, the six cysteine residues were reduced by dithiothreitol. The monothiol groups were stabilized by iodoacetamide derivatization to avoid reoxidation. Residual iodoacetamide was blocked by the addition of cysteine. MS analysis demonstrated the increase in the molecular mass of the chemically modified protein from 6.25 to 6.59 kDa, which reflected the derivatization of all six cysteine residues (see Fig. S1). The increase in molecular mass was also evident from the reduced mobility of the modified protein in denaturing SDS / PAGE. No growth inhibition by the cysteine derivatized PAF (purified by HPLC) was detected on the test strain Aspergillus niger (Fig. 1A). These results suggest that the presence of three disulfide bonds is essential for maintaining the tertiary structure of PAF, and thereby its antifungal activity. The stability of PAF against extreme test conditions Whereas PAF was stable over the pH range 1.5­11 (data not shown), the exposure of PAF to extreme
+
+FEBS Journal 276 (2009) 2875­2890 ª 2009 The Authors Journal compilation ª 2009 FEBS
+
+G. Batta et al.
+
+Structure and dynamics of an antifungal protein
+
+A
+
+B
+
+C
+
+Exposition of 104 conidiaÆmL)1 to 1 lgÆmL)1 of PAF in microtitre plate activity assays resulted in a growth reduction of 79% in the highly-sensitive test organism A. niger compared to the untreated control ( = 100%) (Fig. 1B). The antifungal activity was retained after exposure of PAF to 80 °C for 60 min, and it was significantly reduced only after treatment at 95 and 100 °C for at least 60 min. The loss of protein activity was not reversible after cooling the sample to room temperature (RT) (data not shown). This indicates a permanent change in PAF structure and activity. Pepsin digestion at pH 4 or 5 did not affect PAF antifungal activity and the protein retained its cytotoxicity (data not shown). Similarly, PAF resisted proteinase K and pronase digestions for 3­9 h (Fig. 1C). By contrast, exposure of PAF to pronase for 12 h and to proteinase K for 24 h dimininished the protein activity significantly (Fig. 1C). This inactivation was accompanied by protein degradation, as revealed by low molecular mass peptide fragments detectable on SDS / PAGE (data not shown). We could exclude any growth inhibitory effects of the two proteases alone or the protease solution buffer (0.1 m citric acidNa2HPO4) in control experiments (data not shown). This proves a specific gradual inactivation of PAF by proteinase K and pronase digestion under the applied test conditions. NMR results NMR signal assignment The PAF sequence consists of 55 amino acid residues with a lysine rich sequence, with the composition: Ala3­Cys6­Asp7­Glu1­Phe2­Gly2­Ileu1­Lys13­Asn7­ Pro1­Ser1­Thr6­Val2­Tyr3. Sequence alignment of PAF with AFP along with the three higlighted conserved regions is shown in Fig. 2. In the 700 MHz 1H-15N HSQC spectrum (see Fig. S2), all amide NH-s and Asn side-chain NH2 groups were clearly resolved and assigned. Many amides appear as doublets as a result of large 3JHN,HA couplings ($ 9 Hz) that are characteristic of a dominant
+
+Fig. 1. Microtitre plate activity assay for the determination of the growth of A. niger in the presence of PAF that had been exposed to various test conditions. 104 conidiaÆmL)1 were incubated with 1­5 lgÆmL)1 of PAF for 24 h at 30 °C. (A) PAF was reduced by dithiothreitol as described in the Experimental procedures. (B) PAF was exposed to 60, 80, 90 and 100 °C for 10, 30 and 60 min, respectively. (C) PAF was digested with proteinase K for 3, 9 and 24 h or with pronase for 3, 9 and 12 h. Note that the asterisk in (C) indicates different exposure times of PAF with pronase (i.e. 12 h instead of 24 h). Values represent the precent growth (%) of A. niger in the presence of PAF that had been exposed to various test conditions compared to A. niger left untreated ( = 100%).
+
+temperature conditions (60 min at 95­100 °C) resulted in a reduction of the protein activity (Fig. 1B) accompanied by degradation of the protein (data not shown).
+
+Fig. 2. Sequence alignment of PAF (top) and AFP (bottom) with three highly-conserved regions marked in yellow that are putatively assigned to chitin binding (3­9), DNA binding (12­17) domains and cation channel forming (34­39) capabilities. Arrows indicate b-strands.
+
+FEBS Journal 276 (2009) 2875­2890 ª 2009 The Authors Journal compilation ª 2009 FEBS
+
+2877
+
+Structure and dynamics of an antifungal protein
+
+G. Batta et al.
+
+b-strand secondary structure. By contrast to AFP, no additional minor signal set was observed in the NMR spectra within the temperature range 280­320 °K. However, similar to the structures reported for AFP [14], the NMR data did not allow unambiguous assignment of the disulfide pattern for PAF. The assignment work was aided by the 15N resolved 3D TOCSY and NOESY spectra. Using the sparky [17] spectrum visualization and assignment tool, many of the NH(i)-HA(i-1) sequential NOE connectivities were easily identified and often augmented with NH(i)HB(i-1) links. Although some lysine sidechain protons remained unassigned, the completeness of 1H assignment finally reached 89%. Secondary structure determination Considering the secondary structure sensitive parameters [a carbon atom (Ca) chemical shifts and 3JHN,HA coupling constants] and the NOE constrained structure, we conclude that five antiparallel b-strands run between residues: Lys2 to Thr8 (b1), Glu13 to Lys17 (b2), Asp23 to Ile26 (b3), Lys42 to Asp46 (b4) and Asn49 to Asp55 (b5) (Fig. 3). In addition, amide H-D exchange rates (measured from HSQC spectra after dissolving PAF in D2O) (Fig. 4) and relaxation experiments also supported the presence of five b-strands in PAF (Fig. 5). Measured deuteration rates clearly demonstrated that amides in the proposed b-sheet regions are protected from water access, whereas they are more solvent exposed in loops and less structured regions.
+
+Deuteration rates of 28 amide NH groups in PAF
+2.5
+
+Rates 2 log10 scale, [1/h]
+
+1.5 1 0.5 0 C36 -0.5 C7 C14 -1 C28 -1.5 -2 0 10 20 30 40 50 60 I26 D53 C43 C54
+
+Residue number
+
+Fig. 4. Deuteration rates measured for amide NH groups in PAF (note the logarithmic scale). Missing bars represent fast deuteration rates (i.e. those NH signals that disappeared within 10 min); low values mean high protection. Slow deuteration of amides protons correlates with solvent protection in b-sheet regions. Note that all six cysteines are well protected because they reside in the hydrophobic core.
+S 2 from 15 N relaxation
+
+1 0.8 0.6 0.4 0.2 0 0 1 0.8 0.6 10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+S 2 calculated from RCI
+
+L3
+
+0.4 0.2 0
+
+L1 2 3 55 4 5
+1
+
+0
+
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+Residue number
+
+1
+
+L2
+
+Fig. 5. S2 order parameters reflecting internal mobility of the NH residues obtained from the Lipari­Szabo analysis of 15N T1, T2 and NOE relaxation parameters. Slightly enhanced mobility is clearly detected at the N-terminus and in the loop regions, as indicated by the dips in the bar plot. For comparison, S2 values calculated from the assigned chemical shifts are shown at the bottom using using the random coil index (RCI) method. The average of 2 2 Sexp =SRCI ¼ 0:96 Æ 0:07. Residue 29 is proline and, consequently, is not shown in the experimental data.
+
+Tertiary structure determination
+
+L4
+Fig. 3. Super secondary structure of PAF.
+
+atnos / candid 1.1 software, in combination with cyana 2.0, gave automatic NOE assignment [18­20]
+FEBS Journal 276 (2009) 2875­2890 ª 2009 The Authors Journal compilation ª 2009 FEBS
+
+2878
+
+G. Batta et al.
+
+Structure and dynamics of an antifungal protein
+
+Table 1. Summary of CYANA calculations for 20 selected PAF structures and their respective PROCHECK_NMR analyses. S­S bond NOE upper distance limits restraint violations Target function rmsd from mean structure ° Backbone (A) ° All heavy atoms (A) Ramachandran statistics Most favoured Additionally allowed Generously allowed Disallowed
+CYANA
+
+No disulfide abbacc 757 0 0.36 ± 0.16 0.65 ± 0.18 1.15 ± 0.23 59.5% 32.7% 5.3% 2.5%
+
+abcabc
+
+The goodness of the selected conformational families along with their Ramachandran analysis are shown in Table 1. NMR relaxation combined with restrained molecular dynamics calculations The model-free analysis [21] of conventional 15N relaxation experimental [22] data yielded a 3.0 ns global correlation time for PAF (see Table S1), which is appropriate for a monomeric globular protein of this size [23]. The order parameters are shown in Fig. 5 in comparison with those calculated from assigned chemical shifts using the random coil index method (http:// wishart.biology.ualberta.ca/rci/cgi-bin/rci_cgi_1_e.py). On average, S2 = 0.81 ± 0.05, with slight drops at the N-terminus and loop regions, displaying enhanced mobilities. The order parameters calculated straight from chemical shifts agree well with those measured from relaxation (S2 =S2 ¼ 0:96 Æ 0:07) and predict a exp RCI fairly compact structure. However, this type of relaxation is sensitive only to picosecond to nanosecond time scales. In addition, 15N and 1H chemical shift anisotropy (CSA) / dipolar­dipolar coupling (DD) crosscorrelated relaxation [24] has been measured (see Table S1). The good correlation between secondary structure and the 1H transversal cross-correlated relaxation rates (Fig. 6) is a result of the extensive hydrogen bonded networks, as well as the high CSA values of these protons [25], in the b-sheet regions. Using the 15 N gxy and gz CSA / DD CCR rates according to the method of Kroenke et al. [26], we separated exchange contribution to R2 relaxation rates, and found them to be below 2 s)1 for all NH groups. No outliers were found; consequently, slow time scale conformational exchange is unlikely in PAF. The eighty final conformers of PAF obtained from the minimal under restraining, minimal over restraining (MUMO) calculations [27] are shown in Fig. 7. These ensembles are assumed to be consistent with the NOE-derived distance restraints, as well as with the experimental S2 order parameters. With respect to NOE violations, the abbacc (7­36, 14­28, 43­54)
+
+769 742 2 0 0.42 ± 0.22 0.19 ± 0.07 0.54 ± 0.14 0.60 ± 0.11 1.03 ± 0.11 1.09 ± 0.08 46.3% 46.2% 7.5% 0% 55.5% 42.9% 1.6% 0%
+
+15
+
+7 [1/s] 6
+
+N- H CSA/DD cross-correlated relaxation rates
+
+1
+
+5
+
+Hxy
+
+4 Nzz 3
+
+2 Nxy 1
+
+0 0
+
+10
+
+20
+
+30 Residue number
+
+40
+
+50
+
+60
+
+Fig. 6. Different CSA / DD relaxation interference rates displayed as a pile-up bar graph. Instead of extracting site specific 15N chemical shift anisotropies from all the relaxation data, this type of straight visualization of 1H-15N CSA / DD transversal cross-correlated relaxation rates (Hxy) is sensitive to secondary structure elements.
+
+and gradual improvement of the PAF structure in seven consecutive steps. Two probable conformational families with different disulfide bridge patterns and one in the absence of disulfide bonds were considered.
+
+Fig. 7. Final MUMO ensembles (80 conformers) of PAF calculated with different disulfide pairings labelled as abbacc, abcabc and no disulfide bond. The average NMR structure (red line) with no disulfide bonds is overlaid on the ensembles.
+
+abbacc
+
+abcabc
+
+No disulfide bond
+
+FEBS Journal 276 (2009) 2875­2890 ª 2009 The Authors Journal compilation ª 2009 FEBS
+
+2879
+
+Structure and dynamics of an antifungal protein
+
+G. Batta et al.
+
+ensemble appears to outperform the others (note that perfect agreement with NOE data could not be easily achieved because the parameterization is quite different from those in `conventional' structure calculation methods that are designed to ensure this). Correlation coefficients with S2 values (see Figs S3 and S4) for the `no disulfide' and abcabc (7­36, 14­43, 28­54) 80-membered ensembles are approximately 0.8, corresponding to the performance of the restraining method [28]. The abbacc ensemble exhibits relatively low correlation (0.43), which, although the correlation was high for each snapshot of the eight parallel replicas, can be explained by the high structural divergence during the simulation. The calculated ensembles show weak correlation with the experimental 3JHN,HA couplings, with correlation coefficients in the range 0.42­0.5. Calculating J-value correlations using weighted averages of the two pairings considered in the present study does not improve the agreement. Ha chemical shifts back-calculated with shiftx [29] also do not favour any of the ensembles. In all three MUMO ensembles, loop regions on the surface of the protein (Lys17­Asp23, Cys28­Lys35 and Asp46­Asn50) show increased mobility coupled with structural heterogeneity. This may indicate that one or more of these loops acts as an interaction site with partner molecules. Lys9 resides in loop 1, whereas Lys35 and Lys 38 are parts of the large loop 3. They are surface and moderately solvent exposed, and reside in conserved regions (Fig. 2). For this reason, site-directed mutagenesis of these residues was initiated. Chitin binding function of PAF We tested PAF for the ability to interact with oligosaccharides (oligosaccharide / oligonucleotide binding domain; Fig. 2). This domain was suggested to contribute to the cell wall [15] and / or nucleic acid [30,31] binding activity of the homologous A. giganteus protein AFP. Selective [32,33] and group selective [34] saturation transfer difference NMR experiments with chitobiose did not result in response signals in the difference spectra (data not shown). The negative results suggest that the chitobiose binding affinity (if it persists) must be below the sub-milimolar regime. Surface plasmon resonance testing of chitobiose binding to immobilized PAF also provided no evidence for strong binding. Furthermore, our attempts to colocalize the antifungal protein with nuclei in A. nidulans hyphae failed (see Fig. S5). This indicates that PAF does not interact with those cellular structures that were suggested to be target molecules of the closely related A. giganteus AFP protein [15,30,31].
+2880
+
+Antifungal activity of mutated PAF versions To investigate the impact of the highly-conserved, lysine rich domain of PAF on antifungal activity, we generated PAF mutants carrying amino acid exchanges of distinct lysine residues, which originally contributed to the high density of positive charges on the same side of PAF. The antifungal potency of the recombinant proteins was assessed by exposing A. niger to mature PAF (mPAF), PAFK9A, PAFK35A, PAFK38A and PAFK9,35,38A and carrying out a subsequent determination of growth rates (Fig. 8). Similar growth inhibitory activity and morphological effects could be observed between the native and the recombinant PAF (Fig. 8A). By contrast, a single exchange of the lysine residues at positions 9, 35 or 38 reduced the antifungal potential of PAF and increased the proliferation of A. niger in a dose-dependent manner (Fig. 8B). These results indicate that this conserved lysine rich region behaves like a recognition motif for the sensitive fungus. However, the triple mutation did not further aggravate the loss of antifungal activity. This allows the assumption that at least an additional protein motif might contribute to the antifungal activity.
+
+Discussion
+The structure of PAF PAF from P. chrysogenum is a member of the positively-charged cysteine rich small proteins found in other ascomycetes. PAF shares 43.6% amino acid sequence identity and 71.3% sequence similarity with AFP from A. giganteus [1]. Their homology is reflected by their remarkable structural similarity presenting a good alignment of their Ca traces (see Fig. S6). Accordingly, the fold of PAF belongs to the structural classification of proteins (http://scop.mrc-lmb.cam. ac.uk/scop/) fold class of AFP [14]. The 3D molecular structure of PAF consists of five b-strands connected by three small loops involving b-turn motifs (loops 1, 2 and 4) and the large loop 3 (Fig. 9). The b-strands create two orthogonally packed b-sheets. Each b-sheet comprises three antiparallel b-strands, which are ordered as 123 and 145, respectively. The six conserved cysteines form three disulfide bonds surrounded by the two orthogonal b-sheets, creating a hidden central core. The b1-strand running from Lys2 to Thr8 is highly twisted as a result of the conserved flexible Gly5 followed by the bulky side chain of lysine and the disulfide-paired Cys7, which pulls the strand towards
+
+FEBS Journal 276 (2009) 2875­2890 ª 2009 The Authors Journal compilation ª 2009 FEBS
+
+G. Batta et al.
+
+Structure and dynamics of an antifungal protein
+
+A
+A B C
+
+a
+
+b
+
+c
+
+B
+
+4.5 4.0 3.5 x-fold proliferation 3.0 2.5 2.0 1.5 1.0 0.5 0 PAFK9A PAFK35A PAFK38A PAFK9,35,38A
+
+Fig. 8. Analysis of the antifungal activity of mutated PAF protein versions on A. niger. (A) Microscopic analysis of A. niger exposed to 100 lgÆmL)1 of PAF for 24 h. The recombinant mPAF protein (C) exhibited comparable growth inhibition potency with respect to the native PAF (B). Hyphae of the untreated control are shown in (A). (A­C) Microscopic overviews (· 20); (a­c) showing details of (A­C) (· 63). (B) The increase in proliferation of A. niger when exposed to mutated PAF protein versions was correlated with the proliferation in the presence of recombinant mPAF at the corresponding protein concentrations of 5 lgÆmL)1 (light grey) and 100 lgÆmL)1 (dark grey). The proliferation of the PAF-unexposed A. niger control cells was 2.4 ± 0.2-fold and 7.4 ± 1.1-fold greater compared to the growth of the samples treated with recombinant mPAF at the respective concentrations of 5 and 100 lgÆmL)1.
+
+Fig. 9. Ribbon diagram of the mean PAF structure without disulfide bond constraints.
+
+the core of the protein (Fig. 9). As a consequence of the highly-twisted geometry, b1 is shared by both sheets 1 and 2 providing a common interface.
+
+The central strand of sheet 1 is b2 spread between Glu13 and Lys17. The constituents of b2 are in an extensive hydrogen bond network, with both b1 and b3 contributing to the stabilization of sheet 1 (Table 2 ). Loop 1 (9­12) and loop 2 (18­23) create a b-turn. A characteristic of the PAF loop regions is the recurring asparagine­aspartate or aspartate­asparagine (Asn18­ Asp19, Asp32­Asn33, Asp39­Asn40) sequence, either preceding or following a lysine residue, resulting in a preferential a-helical conformation [35,36]. This sequence introduces a sharp turn geometry in the loops. Strand b3, a stretch between Lys22-Ile26, and the following first half of the large loop 3 (27­42), spanning the segment from Lys27 to Phe31, is part of the most extended hydrophobic region of the molecule with low primary structure homology (Fig. 2) to AFP. The single proline (Pro29) forms a trans-isomer, as in AFP, and creates a bend in the large loop, which is highly coiled as a result of two aspartate­asparagine (Asp32 / Asn33; Asp39 / Asn40) turn preference motifs. According to deuteration rates (Fig. 4). and S2 order parameters (Fig. 5), the most mobile region of loop 3 is between Lys30 and Lys34.
+2881
+
+FEBS Journal 276 (2009) 2875­2890 ª 2009 The Authors Journal compilation ª 2009 FEBS
+
+Structure and dynamics of an antifungal protein
+
+G. Batta et al.
+
+Table 2. Hydrogen bonding pattern in the AFP fold proteins. Secondary structural elements b1­b4
+
+PAF Tyr3HN­Val45O Tyr3O­Val45HN Ala1O­Thr47HN Gly5HN­43CysO Asp46O­Ala50HN Asp46HN­Ala51O Thr44O­Asp53HN Lys6O­Lys15NH
+
+AFP Ala1NH­Tyr45OH Gly5O­Cys40HN Cys7HN­Ala38O Asp43O­Gly47HN Tyr50HN­Glu41O Tyr50O­Glu41HN Ile13O­Tyr8HN Lys6O­Lys15HN Tyr8O­Ile13HN Cys26HN­Cys14O Cys28HN­Asn12O
+
+b4­b5
+
+b1­b2
+
+b2­b3
+
+b3­b5 in loop 2 (17­21) b1 ­ large loop 3 b1 ­ loop 1
+
+Cys14HN­Ile26O Asp18HN­Lys22O Tyr16O­Thr24HN Cys14N­Asp53O Gly21HN­Asn18O Cys7O­Asn40HN Thr8NH­Lys11O
+
+Lys39. Similarly, Asp23 stabilizes the juxtaposed Lys15 and Lys17 side chains. The hydrophobic strand b4 is located between Cys43 and Asp46 and, as a central strand of sheet 2, participates in an extensive hydrogen bonding network with both strand b1 and b5 contributing to the sheet 2 stabilization (Table 2). The b5 strand is the most negativelycharged region of PAF and close to the C-terminus starts at Ala51. Loop 4 (47­50) connects strands b4 and b5 and creates a b-hairpin with a highly-exposed, conserved Tyr48. All the three tyrosines of PAF with their phenolato side chains can be found closely positioned in the space between b4 and loop 2 and create a welldefined aromatic region of the protein. The topology of the disulfide pairs and the function of the cysteines According to the biochemical studies, no free thiol groups can be detected in PAF. This is in good agreement with the NMR measurements, which corroborate that the six cysteines form three pairs of disulfide bridges. These are essential for the inhibitory activity on the growth of the sensitive fungi. Similar to the AFP study [14], unambiguous assignment of the disulfide connectivity could not be obtained by NMR. However, two sets of disulfide patterns are plausible for PAF: abcabc and abbacc. The safest assignment exists for the Cys7­Cys36 disulfide pair, which is supported by the approximately 400 pm Cbi­Cbj distance in the structures without any SS bond constraint [37]. The well-defined Cys7­Cys36 disulfide pair cramps the large loop L3. Four cysteines (Cys14, Cys28, Cys43 and Cys54) are in a close proximity at the interface between sheet 1 and sheet 2,
+
+Ala18O­Gly21HN Cys7O­Gly37NH
+
+The second half of loop 3 is one of the most highlyconserved regions of PAF: three lysine side chains (Lys34, Lys35 and Lys38) from this loop give rise to a high density of positive charges in addition to the positively-charged side chains of Lys11 and Lys9 pointing to the same region (Fig. 10). The importance of this motif for the antifungal activity of PAF became evident when replacing the Lys9, Lys35 and Lys38 by alanines. Mutations within this motif resulted in a significant reduction of antifungal activity. The slightly solvent-exposed Asp39, which is a conserved residue in the family, apart from its structural role of introducing a perpendicular turn with the following Asn40, stabilizes the positive charges of the adjacent Lys9 and
+
+Fig. 10. The electrostatic surface potential of AFP (left) and PAF (right) structures representing the orientation of the side chain lysine residues. Lys9, Lys35 and Lys38 of PAF and Lys9, Lys32 and Arg35 of AFP are the corresponding conservative mutated lysines.
+
+2882
+
+FEBS Journal 276 (2009) 2875­2890 ª 2009 The Authors Journal compilation ª 2009 FEBS
+
+G. Batta et al.
+
+Structure and dynamics of an antifungal protein
+
+facing with their side chains to the core of the protein. In the abcabc disulfide bond topology, the cross-link between the two main sheets is proposed between Cys14 (b2) from sheet 1 and Cys43 (b4) from sheet 1, as well as the bridge between Cys28 and Cys54, which links b3 from sheet 1 to b5 from sheet 2. In the abbacc disulfide pattern, connectivity inside the individual sheets is favoured, where Cys14 makes a link with Cys28 in sheet 1 and Cys43 of b4 connects Cys54 of b5 in sheet 2. In the same structure for the abcabc pattern, the 14­43 and 28­54 Cbi­Cbj distances are 442 and 525 pm, whereas, in the alternative abbacc pattern, we obtain 455 pm for the 14­28 distance and 486 pm for the 43­54 distance. The question remains as to whether two interconverting PAF species exist (i.e. one with each disulfide topology) or whether only a single topology is present but escapes identification. Relaxation-compensated Carr­Purcell­Meiboom­Gill experiments [38] did not indicate S­S bond rearrangement on the 0.5­5 ms time scale (data not shown) in contrast to previously reported isomerization of a disulfide bond in bovine pancreatic trypsin inhibitor [39]. The extreme stability of PAF is further evidence against a putative disulfide bond rearrangement. The disulfide bonds in PAF contribute to the overall stability of the compact scaffold and stabilize the interface between the two sheets. This feature helps to maintain protein integrity in the extracellular environment, as well as to maintain stability at elevated temperatures and extreme pH and to resist protease digestion. Moreover, the disulfide bonds might play an active role in the internalization process, as suggested for diphtheria toxin or animal baculovirus gp64 [40]. In such cases, the rearrangement of the disulfide bonds can be triggered by membrane-associated oxidoreductases, such as protein disulfide isomerases, and the presumable conformational change could help with the protein internalization [40­43]. It is not known whether PAF is subjected to structural changes and partial reduction in the cytoplasm, providing some redox activity, as found for thioredoxins [44]. However, the disturbance of heterotrimeric G-protein signalling alone may increase intracellular reactive oxygen species concentrations in filamentous fungi [45,46], which could occur in the absence of any redox activity of PAF. Differences and similarities between the structures of PAF and AFP The common geometrical arrangement of the two proteins is the special Greek key fold, in which the
+
+two orthogonally packed b-sheets are connected via the b1 strand as a common interface. The similar hydrogen bonding network might be the main determinant of this scaffold formation (Table 2). The fold is further stabilized by six conserved cysteines in addition to three highly-conserved regions, and several conserved residues with key locations in the two proteins (Figs 2, 3 and 9). In the case of AFP, two extra cysteines form the fourth disulfide bridge. In the AFP structure, three disulfide bond topologies were proposed: abbcadcd, aabccdbd and abcdabcd. The latter correlates with the suggested abcabc disulfide pattern in PAF. The three highly homologous regions are situated in the sequence between Ala1 and Lys9 (region 1), between Asn12 and Lys17 (region 2) and between Lys34 and Asp39 (PAF) and Lys31 and Asp36 (AFP) (region 3). Two conserved GlyLys motifs are repeated in the structure, the glycines (i.e. Gly5 from b1 and Gly20 from loop 2) introduce flexibility into the secondary structural elements. The side chains of the two conserved tyrosines (Tyr3 and Tyr16) constitute an aromatic patch in between loop 2 and b1, which is stretched to the solvent-exposed Tyr48 of PAF and Tyr45 of AFP from loop 4. In addition to the three conserved tyrosines, AFP contains three more tyrosines compared to PAF: two of them (Tyr29 and Tyr50) are solvent exposed, and can provide target side chains for interactions with nucleic acid bases (see Fig. S7). Indeed, DNA binding and condensation activity was observed for AFP [31] and also corroborated by a colocalization of AFP to the nuclei [30]. An aromatic region was shown to represent a binding site for DNA in a structural homologue cold shock protein from Bacillus caldolyticus upon hexathymidine binding [47]. The function of AFP was also associated with chitin binding activity and interaction with the cell wall [15]. In carbohydrate binding modules, surface-exposed aromatic residues (e.g. Tyr and Trp) are in stacking interactions with pyranose / furanose rings of oligosaccharides [48]. A few tyrosines of AFP are replaced by aspartates, making the aspartate rich C-terminal negativelycharged in PAF. However, we did not observe chitobiose binding of PAF. PAF neither colocalizes to the nuclei, nor binds exclusively to the cell wall. The absence of surface-exposed tyrosines in PAF may explain the difference in oligosaccharide binding (Fig. 2). Both PAF and AFP exhibit an amphipatic surface alternating the positively- and negatively-charged patches (Fig. 10). However, a well-defined positive and an acidic region are formed only in PAF. The
+2883
+
+FEBS Journal 276 (2009) 2875­2890 ª 2009 The Authors Journal compilation ª 2009 FEBS
+
+Structure and dynamics of an antifungal protein
+
+G. Batta et al.
+
+positive charges concentrate at one side of the molecule composed of Lys34, Lys35, Lys11 and Lys9. As demonstrated by site-directed mutagenesis in the present study, this positively-charged motif indeed plays a central role with respect to the toxicity of PAF on target organisms. A common characteristic of the surface of both molecules, PAF and AFP, comprises the numerous solvent-exposed positivelycharged lysine side chains, which could function in disturbing the integrity of the plasma membrane or determine the interaction with a target molecule that is located in the plasma membrane. However, it remains to be investigated in future studies whether this motif mediates the binding of the protein to structures of the outer layers of the target organism or exerts its function intracellularly [6,12]. In conclusion, the solution structure of PAF has been disclosed up to the extent of a disulfide pairing ambiguity. No evidence for a putative disulfide bond rearrangement on the millisecond time scale has been found by NMR dynamics. With respect to the possible mechanism behind the antifungal action of PAF, the modulation of specific ion channels appears to be more likely than chitin or DNA binding, in contrast to AFP.
+
+Site-directed mutagenesis and heterologous expression of mutated PAF protein variants in Pichia pastoris
+The nucleotide sequence coding for the mature PAF protein version was PCR amplified from P. chrysogenum cDNA using the primers with incorporated restrictions sites for inframe cloning into the pPic9K expression vector (forward 5¢-AGCTCGAGAAAAGAGCCAAATACACCGGAAAA TG-3¢, XhoI site underlined; reverse 5¢-CTGAATTCCTA GTCACAATCGACAGCGTTG-3¢, EcoRI site underlined, stop codon in bold). Amplification was performed in a twostep PCR: three cycles of 1 min at 94 °C, 1 min at 50 °C and 1 min at 72 °C; and then 30 cycles of 40 s at 94 °C and 1 min at 72 °C; with a final extension for 7 min at 72 °C. Because an inefficient STE13 protease activity was reported, we followed a previously described cloning strategy [49] and eliminated the Kex2p and Ste13p signal cleavage sites. The vector for expression of the recombinant wild-type version of PAF was named pPic9Kmpaf. Mutagenesis of the PAF coding sequence (exchange of lysine into alanine) was performed by two sequential PCR strategies, essentially as described previously [50]. For the design of the mismatch primers, P. pastoris preferential codon usage was taken into account. Ten nanograms of pPic9Kmpaf were used as a PCR template to generate the mutations: PAFK9A (plasmid pPic9KpafK9A), PAFK35A (plasmid pPic9KpafK35A) and PAFK38A (plasmid pPic9KpafK38A). For generation of the triple mutant (PAFK9,35,38A), the codon for lysine 35 was mutated in the plasmid pPic9KpafK38A to generate pPic9KpafK35,38, which served as template for further mutagenesis using the appropriate primers (Table 3). The amplified overlapping PCR products containing the desired mutation were combined in a third PCR where both fragments served as megaprimers for further elongation of the PAF sequence in the first few PCR cycles. The elongated fragments were then further amplified using the primers 5¢AOX1 and 3¢AOX1 (33 cycles of 45 s at 94 °C, 45 s at 54 °C and 1 min at 72 °C, with a final
+
+Experimental procedures
+Production of PAF in P. chrysogenum
+For PAF production, P. chrysogenum Q176 (ATCC 10002) was cultivated in minimal medium (0.3% NaNO3, 0.05% KCl, 0.05% MgSO4Æ7H2O, 0.005% FeSO4Æ7H2O, 2% sucrose, 25 mm NaCl / Pi, pH 5.8) at 25 °C (RT) as described previously [5]. For preparation of 15N-labelled PAF for NMR analysis, 0.3% Na15NO3 (Cambridge Isotope Laboratories, Andover, MA, USA) was used as nitrogen source in minimal medium.
+
+Table 3. Oligonucleotides used for site-directed mutagenesis. Codons for amino acid exchanges are shown in bold-italic typeface. Mutation PAF
+K9A
+
+Oligonucleotide opafK9Ase opafK9Arev opafK35Ase opafK35Arev opafK38Ase opafK38Arev opafK35,38Ase opafK35,38Arev opafK9Ase opafK9Arev
+
+Sequence (5¢- to 3¢) GGAAAATGCACCGCTTCTAAGAACG CGTTCTTAGAAGCGGTGCATTTTCC GTTTGATAACAAGGCTTGCACCAAGG CCTTGGTGCAAGCCTTGTTATCAAAC GAAGTGCACCGCTGATAATAACAAATG CATTTGTTATTATCAGCGGTGCACTTC GTTTGATAACAAGGCTTGCACCGCTG CAGCGGTGCAAGCCTTGTTATCAAAC GGAAAATGCACCGCTTCTAAGAACG CGTTCTTAGAAGCGGTGCATTTTCC
+
+PCR template pPic9Kmpaf pPic9Kmpaf pPic9Kmpaf pPic9KpafK38A pPic9KpafK35,38A
+
+PAFK35A PAFK38A PAFK35,38A PAFK9,35,38A
+
+2884
+
+FEBS Journal 276 (2009) 2875­2890 ª 2009 The Authors Journal compilation ª 2009 FEBS
+
+G. Batta et al.
+
+Structure and dynamics of an antifungal protein
+
+extension of 7 min at 72 °C). The PCR product was digested with BamHI / EcoRI and cloned into the BamHI / EcoRI digested pPic9K vector. The occurrence of the desired mutations was verified by nucleotide sequence determination using an automated 3100 abi prism DNA sequencer (Applied Biosystems, Foster City, CA, USA). Restriction enzymes and T4 DNA ligase were purchased from Promega (Vienna, Austria), the multi-copy Pichia expression kit was obtained from Invitrogen Life Technologies (Lofer, Austria) and primers were obtained from Eurofins MWG Operon (Ebersberg, Germany). Manipulation of the P. pastoris KM71 strain was performed using the Multi-copy Pichia expression kit version F according to manufacturer's instructions and as desribed previously [49]. Protein purification was performed as described below.
+
+glucose, 0.05% KCl, 0.04% MgSO4Æ7H2O, 0.15% KH2PO4, pH 6.5) at 30 °C. Antifungal activity of the protein samples was determined by measuring the A620 of A. niger cultures at 24 h in a microtitre plate reader as described previously [3]. The protein concentrations tested were in the range 1­100 lgÆmL)1.
+
+Protein stability assays
+Stability analysis of PAF was performed essentially as described previously [51]. Thermal stability was investigated by incubating 1 mgÆmL)1 of PAF in 10 mm Na-phosphate buffer, pH 6.6, 25 mm NaCl, 0.15 mm EDTA at 40­100 °C for 10, 30 and 60 min. The pH stability of 1 mgÆmL)1 of PAF was tested within the pH range 1.5­11 at 25 °C for 24, 48 and 96 h. The buffers used (25 mm) comprised: glycine-HCl, pH 1.5; sodium citrate-HCl, pH 3; citric acidNa2HPO4, pH 5; glycine-NaOH, pH 9 and 11. Stability towards proteases was assayed by exposing 7 lg of PAF to 10 lg of pepsin, proteinase K or pronase (all from Sigma, Vienna, Austria) in 0.1 m citric acid-Na2HPO4 (at pH 4 and 5 for pepsin and at pH 7 for proteinase K and pronase) for 3, 9 and 24 h at 30 °C. To disclose the presence of the disulfide-bridges between cysteine residues, PAF was treated with dithiothreitol (Fermentas, St Leon-Rot, Germany), iodeacetamide (IAA; Sigma) and cysteine (Sigma): 20 lg of PAF in 100 lL of buffer A (100 mm NH4HCO3, pH 8) were mixed with 50 lL of dithiothreitol (10 mm in buffer A) and incubated for 30 min at 56 °C. Next, 50 lL of IAA (55 mm in buffer A) was added and the sample was further incubated at RT for 20 min in the dark. Finally, excess IAA was blocked by the addition of 50 lL of cysteine (55 mm in buffer A). As a control, PAF was treated in the same way as described, but without either dithiothreitol, IAA or cysteine, or by omitting all three components. Instead, equivalent buffer volumes were used. The sample was subsequently concentrated by reducing the volume to 50 lL using a Gyro Vap centrifugal evaporator (Howe, Banbury, UK). For each experiment, samples were taken for SDS / PAGE analysis, an antifungal activity assay, HPLC analysis and MS.
+
+Purification of PAF
+PAF was isolated by molecular mass filtration and ionexchange chromatography as described previously [3]. By contrast to the wild-type PAF, the recombinant mutated proteins did not bind to the CM-sepharose CL-6B column (Amersham, Uppsala, Sweden), but were found to be pure in the flow-through, which was subsequently concentrated in Centriprep YM-3 filter devices (Millipore, Billerica, MA, USA). The purity of PAF was checked by 16% SDS / PAGE and silver staining before the protein solutions were filtersterilized (0.22 lm, Millipore) and stored at )20 °C. For structural analysis, purified PAF was lyophilized. Native PAF and PAF that had been exposed to various test conditions in stability assays were subjected to RPHPLC, equipped with a 127 solvent module and a Model 166 UV-visible-region detector (Beckman Instruments, Palo Alto, CA, USA). The separation of the samples was performed on a Nucleosil 300-5 C4 column (length, 125 mm; inner diameter, 4 mm; particle pore size, 5 lm; pore size, 30 nm; end-capped; Machery-Nagel, Duren, Germany). ¨ Samples of approximately 5 lg of PAF were injected onto the column and chromatographed within 20 min at a constant flow of 0.5 mLÆmin)1 with a linear acetonitrile gradient starting at solvent A: solvent B (15 : 85) (solvent A: 0.1% trifluoroacetic acid trifluoroacetic acid in H2O; solvent B: 70% acetonitrile, 0.1% trifluoroacetic acid). The concentration of solvent B was increased from 15% to 70% over 20 min. The effluent was monitored at 210 nm and the peaks were recorded using Beckman system gold software. The PAF fraction was collected, lyophilized and stored at )20 °C for further analysis.
+
+Microscopic analysis
+The intracellular localization of PAF was visualized in A. nidulans hyphae by indirect immunofluorescence staining with rabbit anti-PAF serum and fluorescein isothiocyanateconjugated anti- (rabbit IgG) (Sigma) as described previously [11]. After washing for 10 min in Tris / NaCl / Pi, nuclei were stained with the fluorescence stain 4¢,6¢-diamidino-2-phenylindole (1 : 1.000 in Tris / NaCl / Pi; Sigma) for 10 min. The samples were washed three times for 10 min in Tris / NaCl / Pi and mounted with VectashieldÒ mounting medium (Vector Laboratories, Inc., Burlingame, CA, USA) before visualization with a Zeiss Axioplan fluorescence
+
+Antifungal activity assays
+In vitro assays were carried out in 96-well plates with the test organism A. niger (CBS 120.49) in complete medium (0.2% peptone, 0.1% yeast extract, 0.1% NZ-amine A, 2%
+
+FEBS Journal 276 (2009) 2875­2890 ª 2009 The Authors Journal compilation ª 2009 FEBS
+
+2885
+
+Structure and dynamics of an antifungal protein
+
+G. Batta et al.
+
+microscope, equipped with an AxioCam MRC camera (Zeiss, Vienna, Austria). The samples were observed with the appropriate filters: excitation / emission at 488 / 520 nm for green fluorescence and 356 / 420 nm for blue fluorescence. Picture editing was performed using Adobe Photoshop CS3, version 10.0 (Adobe Systems Inc., San Jose, CA, USA).
+
+SDS / PAGE separation
+Pre-treated proteins (1 lg per lane) were separated by SDS / PAGE on 16% polyacrylamide precast gels in the Tris­glycine buffer system (NOVEX; Invitrogen, Lofer, Austria) under denaturing and reducing conditions (sample buffer: 0.1 m Tris, 0.8% SDS, 5% glycerine, 2% b-mercaptoethanol, 0.002% bromphenolblue, pH 6.8) or under denaturating, nonreducing conditions (nonreducing sample buffer: 0.1 m Tris, 10% glycerine, 0.002% bromphenolblue, pH 8.8; without heat-denaturation). In all experiments, untreated PAF served as loading control. Proteins were visualized by Coomassie blue staining or silver staining.
+
+MS analysis
+Determination of the molecular mass of the samples (native PAF, protease-treated PAF, reduced PAF) obtained by RP-HPLC was carried out using an LCQ ion trap instrument (ThermoFinnigan, San Jose, CA, USA) equipped with an electrospray source (ESI-MS). The electrospray voltage was set at 4.5 kV, and the heated capillary was held at 200 °C. Protein samples ($ 1 lg) were dissolved in 50% aqueous methanol containing 0.1% formic acid, and injected into ion source.
+
+NMR spectroscopy
+Two 1.4 mg 15N-labelled PAF samples were dialyzed from 10 mm Na3PO4 / 20 mm NaCl solution at pH 5.0. Then, 2.8 mg of protein was dissolved in a volume of 275 lL of 95 : 5% H2O / D2O to yield an approximate PAF concentration of 1.6 mmÆL)1. The protein solution in a shigemi NMR tube contained 40 mmÆL)1 NaCl and 0.04% NaN3. The PAF NMR spectra did not exhibit sample decomposition for more than 1 year (the sample was stored at 4 °C). All NMR spectra were acquired at 304 °K, except when temperature-dependent 15N HSQC spectra were measured in the range 275­310 °K. Proton chemical shift scales are referenced to sodium 2,2-dimethyl-2-silapentane-5-sulfonate = 0 p.p.m. and heteronuclear shifts are referenced indirectly from the gyromagnetic ratios for 15N and 13C, which gives 67.1 p.p.m. for the dioxane 13C signal. For signal assignment and structure determination, the NMR spectra were recorded on a DRX-700 (Bruker, Rheinstetten, Germany) spectrometer. Water signal sup-
+
+pression was achieved using the watergate5 sequence [52]. 2D 1H-15N HSQC spectrum was the seed for the assignments at 700 MHz, and also allowed the straightforward measurement of 3JHN,HA couplings from signal splitting (1400 · 256 time domain points transformed in a 8192 · 512 Fourier data table). Gradient echo-anti-echo phase discrimination in both indirect dimensions was applied in sensitivity enhanced 3D 15N HSQC-TOCSY (62 ms DIPSI mixing time) and 3D 15N HSQC-NOESY (130 ms mixing time) experiments. The double echoanti-echo technique provides better sensitivity and water suppression quality than standard TOCSY-HSQC or NOESY-HSQC methods. In the proton dimension, 12 or 5 p.p.m. (amides only) was used, whereas, in the 15N dimension, the spectral window was reduced to 19 p.p.m., which resulted in folding of Lys15 and Gly21 peaks. In 3D experiments 2048 · 256 · 46 points were acquired and transformed in 2048 · 512 · 128 points. In general, suitably shifted squared cosine or Gaussian window functions were applied. Sequence specific resonance assignments [53­55] were determined from the 3D spectra using the sparky software [17,56]. Distance restraints were obtained from 15 N decoupled and radiation damping suppressed 2D NOESY (130 ms mixing time) spectrum. The 2D spectrum was acquired in 2048 · 529 points and transformed to 4096 · 2048 points. Natural abundance 13C-1H HSQC spectra lent more support to assignments, and provided invaluable Ca chemical shifts to aid secondary structure determination. When the assignment was finished with sparky, the automatic NOE assignment and structure calculation was carried out using the atnos / candid 1.1 [19,20] in combination with cyana 2.0 [18]. The basis of automatic structure determination was a single 2D NOESY spectrum (130 ms mixing time, 4096 · 4096 Fourier size, 2.1 Hz / point digital resolution). Because unambiguous assignment of the disulfide pattern could not be achieved, several conformational families were explored with different disulfide pairings, including the simplest case with no disulfides at all (e.g. six free thiol groups). The final mean structures were energy minimized with gromacs molecular dynamics software using the optimized potential for liquid simulations ­ all atom force field in vacuum to the force field limit of 250 kJÆmol)1Ænm)1. For NMR dynamics, besides the conventional 15N relaxation [T1, T2 and 15N(1H) NOE] [22,57,58], the longitudinal and transverse 15N and 1H CSA / DD cross-correlated relaxation rates gzz(15N), gxy(15N) and gxy(1H) [59], and NH deuteration rates were measured at 500 MHz. The PAF sample lyophilized from H2O was dissolved in D2O, and then the progress of amide deuteration at 304 °K at pH 5.0 was monitored in a series of 15N HSQC spectra using the peak volume integrals. Sixty-nine time points were measured in the 0.17­48 h interval. The decays were fitted with single exponential functions, yielding the rates. For relaxation, a series of 2D
+
+2886
+
+FEBS Journal 276 (2009) 2875­2890 ª 2009 The Authors Journal compilation ª 2009 FEBS
+
+G. Batta et al.
+
+Structure and dynamics of an antifungal protein
+
+heteronuclear correlated spectra using sensitivity enhanced gradient pulse schemes [25] were recorded. Regarding the typical experimental parameters: the 1H carrier frequency was switched between the water resonance and the centre at 8.15 p.p.m. of the 5.2 p.p.m. 1H spectral window, whereas the 15N window was 27 p.p.m. centred at 118.5 p.p.m. The relaxation delay times were set as: T1, 11.2, 101.2, 201.2, 401.2, 601.2, 801.2, 1001.2 and 1201.2 ms; T2, Carr­Purcell­Meiboom­Gill pulse trains of 0.03, 30.4, 60.8, 91.2, 121.6, 182.4, 243.2, 302.4, 360 and 417.6 ms in duration were used; for the measurement of cross-correlated relaxation rates, gzz and gxy, the relaxation interference was allowed to be active for 20 or 21.6 ms in pairs of experiments, including the reference (D = 0 ms) experiment. The number of transients collected per t1 increment were 8 for T1, 16 for T2, 32 for NOE, and 80 for gzz and gxy measurements. A spin-lock field of 3400 Hz was used for the 15N transverse cross-correlation experiment. Two-parameter exponential fits of the measured volume intensities of cross peaks were applied to extract the relaxation times T1 and T2. The cross-correlation rate constants were determined using the initial linear build-up rate approach. The theoretical expressions for the autorelaxation (R1, R2) and crosscorrelation rate constants (gxy, gzz) and for the steady-state heteronuclear NOE in terms of the spectral density functions [Ja(x) auto- and Jc(x) cross-correlation] are used as described previously [60]. The simplifying assumption of isotropic overall tumbling and the axial symmetry of constant (Dr = )160 p.p.m.) 15N chemical shielding tensors were applied. A bond length of rNH = 0.102 nm was used in all calculations. The model-free [21] analysis of T1, T2 and heteronuclear NOE yielded the S2 order parameters and local correlation times for all NH and the global correlation time. The calculated `theoretical' relaxation data derived from these parameters agreed with experimental values within a range of 2.3­2.8% (one standard deviation). For the detection of chitobiose binding selective [32,33] and group selective [34] saturation, transfer difference experiments were run using solutions of 0.1 mm 15Nlabelled PAF and 5 mm chitobiose and a 3 s total saturation time. Selective irradiation at 0.0 p.p.m. was carried out using a pulse train of 50 ms 270° Gaussian pulses, whereas simultaneous pre-irradiation of all amides was aided with repeated (30 ms) bilinear rotational decoupling pulse trains.
+
+Table 4. Analysis of the MUMO ensembles (80 members) with respect to experimental NMR parameters, as calculated using r)6 averaging on the ensembles. No disulfide Number of violated NOEs ° Average violation (A) ° Maximum violation (A) S2 (correlation coefficient) 3 JNH-HA (correlation coefficient) HAÆchemical shifts (correlation coefficient) 15 1.12 4.22 0.81 0.43 0.60 abbacc 9 0.33 1.01 0.44 0.50 0.64 abcabc 22 1.65 4.38 0.79 0.42 0.67
+
+similar to that described previously [27] was used, except that the force constants were not modified during the cycles. A simulation with eight replicas using the optimized potential for liquid simulations ­ all atom force field [62] in explicit water (SPC model) was run after a short round of energy minimization and solvent equilibration. The starting NMR structure was the output of the atnos / candid / cyana calculations. Disulfide bridges were introduced followed by short energy minimization to ensure realistic geometry using sybyl (Tripos, St Louis, MO, USA) molecular modelling software. Three ensembles were generated: one without disulfide bridges, one with the pairing abbacc (7­36, 14­28, 43­54) and one with that of abcabc (7­36, 14­43, 28­54) (see Fig. S8). To validate the obtained structures, 3 JHN-HA couplings were back-calculated from the ensembles (Table 4) (parameters for the Karplus equation were taken from a previous NMR / X-ray data set) [63] and correlated with the measured values. Chemical shifts estimated with shiftx [29] and averaged for the different ensembles were also used for the evaluation of different ensembles.
+
+Acknowledgements
+Financial support was provided by the Hungarian Scientific Research Fund OTKA NK 68578 CK 77515 and F 68079, and by the Austrian Science Foundation (FWF P19970-B11) and the D. Swarowski Foerderungsfonds (FB2 / 06). The EU-NMR ­ Contract no. RII3-026145 / CERM13 project Grant for access to 700 MHz NMR facilities in Florence (CERM) is gratefully acknowledged. We thank Professors Ivano Bertini and Isabella Felli, as well as Mr Massimo Lucci, for providing excellent support in Florence. We also thank Renate Weiler-Goerz for technical assistance. Z. G. acknowledges the support of a FEBS Short-Term Fel´ lowhsip and a Janos Bolyai Postdoctoral Fellowship. This work was also supported by the Hungarian National Office for Research and Technology (Grant reference numbers: OMFB 01501 / 2006 and 01528 / 2006) and by the GENOMNANOTECH-DEBRET
+
+The MUMO combined molecular mechanics and NMR dynamics
+To obtain realistic conformational ensembles reflecting the dynamical features of PAF, structure calculations using the MUMO approach [27] were applied. Half-harmonic S2 restraints [28] and pairwise treatment of NOE restraints between replicas were implemented in gromacs 3.3.1 [61]. A simulated annealing protocol using ten 230 ns cycles
+
+FEBS Journal 276 (2009) 2875­2890 ª 2009 The Authors Journal compilation ª 2009 FEBS
+
+2887
+
+Structure and dynamics of an antifungal protein
+
+G. Batta et al.
+
+(RET-06 / 2004). A. K. C. wishes to thank D. B. T. (Government of India).
+
+References
+1 Marx F (2004) Small, basic antifungal proteins secreted from filamentous ascomycetes: a comparative study regarding expression, structure, function and potential application. Appl Microbiol Biotechnol 65, 133­142. 2 Geisen R (2000) P-nalgiovense carries a gene which is homologous to the paf gene of P. chrysogenum which codes for an antifungal peptide. Int J Food Microbiol 62, 95­101. 3 Kaiserer L, Oberparleiter C, Weiler-Gorz R, Burgstaller W, Leiter E & Marx F (2003) Characterization of the Penicillium chrysogenum antifungal protein PAF. Arch Microbiol 180, 204­210. 4 Lee DG, Shin SY, Maeng CY, Jin ZZ, Kim KL & Hahm KS (1999) Isolation and characterization of a novel antifungal peptide from Aspergillus niger. Biochem Biophys Res Commun 263, 646­651. 5 Marx F, Haas H, Reindl M, Stoffler G, Lottspeich F & Redl B (1995) Cloning, structural organization and regulation of expression of the Penicillium chrysogenum paf gene encoding an abundantly secreted protein with antifungal activity. Gene 167, 167­171. ´ 6 Marx F, Binder U, Leiter E & Pocsi I (2008) The Penicillium chrysogenum antifungal protein PAF, a promising tool for the development of new antifungal therapies and fungal cell biology studies. Cell Mol Life Sci 65, 445­454. 7 Theis T, Wedde M, Meyer V & Stahl U (2003) The antifungal protein from Aspergillus giganteus causes membrane permeabilization. Antimicrob Agents Chemother 47, 588­593. 8 Wnendt S, Ulbrich N & Stahl U (1994) Molecular-cloning, sequence-analysis and expression of the gene encoding an antifungal-protein from Aspergillus giganteus. Curr Genet 25, 519­523. ´ ´ 9 Galgoczy L, Papp T, Leiter T, Marx F, Pocsi I & ´ Vagvolgyi C (2005) Sensitivity of different zygomycetes ¨ to the Penicillium chrysogenum antifungal protein (PAF). J Basic Microbiol 45, 136­141. 10 Meyer V (2008) A small protein that fights fungi: AFP as a new promising antifungal agent of biotechnological value. Appl Microbiol Biotechnol 78, 17­28. 11 Oberparleiter C, Kaiserer L, Haas H, Ladurner P, Andratsch M & Marx F (2003) Active internalization of the Penicillium chrysogenum antifungal protein PAF in sensitive aspergilli. Antimicrob Agents Chemother 47, 3598­3601. 12 Leiter E, Szappanos H, Oberparleiter C, Kaiserer L, ´ Csernoch L, Pusztahelyi T, Emri T, Pocsi I, Salvenmoser W & Marx F (2005) Antifungal protein PAF severely affects the integrity of the plasma membrane
+
+13
+
+14
+
+15
+
+16
+
+17 18
+
+19
+
+20
+
+21
+
+22
+
+23
+
+24
+
+of Aspergillus nidulans and induces an apoptosis-like phenotype. Antimicrob Agents Chemother 49, 2445­ 2453. ´ ´ Szappanos H, Szigeti GW, Pal B, Rusznak Z, Szucs G, ¨ Rajnavolgyi E, Balla J, Balla G, Nagy E, Leiter T et al. ¨ (2005) The Penicillium chrysogenum-derived antifungal peptide shows no toxic effects on mammalian cells in the intended therapeutic concentration. Naunyn Schmiedebergs Arch Pharmacol 371, 122­132. Campos-Olivas R, Bruix M, Santoro J, Lacadena J, Delpozo AM, Gavilanes JG & Rico M (1995) NMR solution structure of the antifungal protein from Aspergillus giganteus ­ evidence for cysteine pairing isomerism. Biochemistry 34, 3009­3021. Hagen S, Marx F, Ram AF & Meyer V (2007) The antifungal protein AFP from Aspergillus giganteus inhibits chitin synthesis in sensitive fungi. Appl Environ Microbiol 73, 2128­2134. Marx F, Salvenmoser W, Kaiserer L, Graessle S, Weiler-Gorz R, Zadra I & Oberparleiter C (2005) Proper folding of the antifungal protein PAF is required for optimal activity. Res Microbiol 156, 35­46. Goddard TD & Kneller DG (2001) SPARKY. University of California, San Francisco, CA. Guntert P (2003) Automated NMR protein structure ¨ calculation. Progr Nucl Magn Reson Spectros 43, 105­ 125. Herrmann T, Guntert P & Wuthrich K (2002) Protein ¨ ¨ NMR structure determination with automated NOEidentification in the NOESY spectra using the new software ATNOS. J Biomol NMR 24, 171­189. Herrmann T, Guntert P & Wuthrich K (2002) Protein ¨ ¨ NMR structure determination with automated NOE assignment using the new software CANDID and the torsion angle dynamics algorithm DYANA. J Mol Biol 319, 209­227. Lipari G & Szabo A (1982) Model-free approach to the interpretation of nuclear magnetic-resonance relaxation in macromolecules .1. Theory and range of validity. J Am Chem Soc 104, 4546­4559. Farrow NA, Muhandiram R, Singer AU, Pascal SM, Kay CM, Gish G, Shoelson SE, Pawson T, Formankay JD & Kay LE (1994) Backbone dynamics of a free and a phosphopeptide-complexed Src homology-2 domain studied by N-15 NMR relaxation. Biochemistry 33, 5984­6003. Daragan VA & Mayo KH (1997) Motional model analyses of protein and peptide dynamics using C-13 and N-15 NMR relaxation. Progr Nucl Magn Reson Spectros 31, 63­105. Tessari M, Mulder FAA, Boelens R & Vuister GW (1997) Determination of amide proton CSA in N-15labeled proteins using H-1 CSA / N-15-H-1 dipolar and N-15 CSA / N-15-H-1 dipolar cross-correlation rates. J Magn Reson 127, 128­133.
+
+2888
+
+FEBS Journal 276 (2009) 2875­2890 ª 2009 The Authors Journal compilation ª 2009 FEBS
+
+G. Batta et al.
+
+Structure and dynamics of an antifungal protein
+
+25 Tessari M, Vis H, Boelens R, Kaptein R & Vuister GW (1997) Quantitative measurement of relaxation interference effects between H-1(N) CSA and H-1-N-15 dipolar interaction: correlation with secondary structure. J Am Chem Soc 119, 8985­8990. 26 Kroenke CD, Loria JP, Lee LK, Rance M & Palmer AG (1998) Longitudinal and transverse H-1-N-15 dipolar N-15 chemical shift anisotropy relaxation interference: unambiguous determination of rotational diffusion tensors and chemical exchange effects in biological macromolecules. J Am Chem Soc 120, 7905­7915. 27 Richter B, Gsponer J, Varnai P, Salvatella X & Vendruscolo M (2007) The MUMO (minimal underrestraining minimal over-restraining) method for the determination of native state ensembles of proteins. J Biomol NMR 37, 117­135. 28 Best RB & Vendruscolo M (2004) Determination of protein structures consistent with NMR order parameters. J Am Chem Soc 126, 8090­8091. 29 Neal S, Nip AM, Zhang HY & Wishart DS (2003) Rapid and accurate calculation of protein H-1, C-13 and N-15 chemical shifts. J Biomol NMR 26, 215­ 240. 30 Moreno AB, del Pozo AM & Segundo BS (2006) Biotechnologically relevant enzymes and proteins ­ antifungal mechanism of the Aspergillus giganteus AFP against the rice blast fungus Magnaporthe grisea. Appl Microbiol Biotechnol 72, 883­895. 31 del Pozo AM, Lacadena V, Mancheno JM, Olmo N, Onaderra M & Gavilanes JG (2002) The antifungal protein AFP of Aspergillus giganteus is an oligonucleotide / oligosaccharide binding (OB) fold-containing protein that produces condensation of DNA. J Biol Chem 277, 46179­46183. 32 Mayer M & Meyer B (1999) Characterization of ligand binding by saturation transfer difference NMR spectroscopy. Angew Chem Int Edit 38, 1784­1788. 33 Mayer M & Meyer B (2001) Group epitope mapping by saturation transfer difference NMR to identify segments of a ligand in direct contact with a protein receptor. J Am Chem Soc 123, 6108­6117. ´ 34 Kover KE, Groves P, Jimenez-Barbero J & Batta G ¨ ´ (2007) Molecular recognition and screening using a N-15 group selective STD NMR method. J Am Chem Soc 129, 11579­11582. 35 Richardson JS (1981) The anatomy and taxonomy of protein structure. Adv Protein Chem 34, 167­218. 36 Wilmot CM & Thornton JM (1988) Analysis and prediction of the different types of beta-turn in proteins. J Mol Biol 203, 221­232. 37 Klaus W, Broger C, Gerber P & Senn H (1993) Determination of the disulfide bonding pattern in proteins by local and global analysis of nuclear-magnetic-resonance data ­ application to flavoridin. J Mol Biol 232, 897­906.
+
+38 Loria JP, Rance M & Palmer AG (1999) A relaxationcompensated Carr­Purcell­Meiboom­Gill sequence for characterizing chemical exchange by NMR spectroscopy. J Am Chem Soc 121, 2331­2332. 39 Wang CY, Grey MJ & Palmer AG (2001) CPMG sequences with enhanced sensitivity to chemical exchange. J Biomol NMR 21, 361­366. 40 Wouters MA, Lau KK & Hogg PJ (2004) Cross-strand disulphides in cell entry proteins: poised to act. BioEssays 26, 73­79. 41 Hogg PJ (2003) Disulfide bonds as switches for protein function. Trends Biochem Sci 28, 210­214. 42 Turano C, Coppari S, Altieri F & Ferraro A (2002) Proteins of the PDI family: unpredicted non-ER locations and functions. J Cell Physiol 193, 154­ 163. 43 Markovic I, Pulyaeva H, Sokoloff A & Chernomordik LV (1998) Membrane fusion mediated by baculovirus gp64 involves assembly of stable gp64 trimers into multiprotein aggregates. J Cell Biol 143, 1155­1166. ´ 44 Pocsi I, Prade RA & Penninckx MJ (2004) Glutathione, altruistic metabolite in fungi. Adv Microb Physiol 49, 1­76. 45 Han KH, Seo JA & Yu JH (2004) Regulators of G-protein signalling in Aspergillus nidulans: RgsA downregulates stress response and stimulates asexual sporulation through attenuation of GanB (G alpha) signalling. Mol Microbiol 53, 529­540. ´ ´ 46 Molnar Z, Emri T, Zavaczki E, Pusztahelyi T & Pocsi I (2006) Effects of mutations in the GanB / RgsA G protein mediated signalling on the autolysis of Aspergillus nidulans. J Basic Microbiol 46, 495­503. 47 Max KEA, Zeeb M, Bienert R, Balbach J & Heinemann U (2007) Common mode of DNA binding to cold shock domains ­ crystal structure of hexathymidine bound to the domain-swapped form of a major cold shock protein from Bacillus caldolyticus. FEBS J 274, 1265­1279. 48 Hashimoto H (2006) Recent structural studies of carbohydrate-binding modules. Cell Mol Life Sci 63, 2954­ 2967. 49 Cabral KMS, Almeida MS, Valente AP, Almeida FCL & Kurtenbach E (2003) Production of the active antifungal Pisum sativum defensin 1 (Psd1) in Pichia pastoris: overcoming the inefficiency of the STE13 protease. Protein Expr Purif 31, 115­122. 50 DeSamblanx GW, Goderis IJ, Thevissen K, Raemaekers R, Fant F, Borremans F, Acland DP, Osborn RW, Patel S & Broekaert WF (1997) Mutational analysis of a plant defensin from radish (Raphanus sativus L) reveals two adjacent sites important for antifungal activity. J Biol Chem 272, 1171­1179. 51 Bormann C, Baier D, Horr I, Raps C, Berger J, Jung G & Schwarz H (1999) Characterization of a novel, antifungal, chitin-binding protein from Streptomyces tendae
+
+FEBS Journal 276 (2009) 2875­2890 ª 2009 The Authors Journal compilation ª 2009 FEBS
+
+2889
+
+Structure and dynamics of an antifungal protein
+
+G. Batta et al.
+
+52
+
+53
+
+54
+
+55 56
+
+57
+
+58
+
+59
+
+60
+
+Tu901 that interferes with growth polarity. J Bacteriol 181, 7421­7429. Liu ML, Mao XA, Ye CH, Huang H, Nicholson JK & Lindon JC (1998) Improved WATERGATE pulse sequences for solvent suppression in NMR spectroscopy. J Magn Reson 132, 125­129. Wuthrich K, Billeter M & Braun W (1984) Polypeptide ¨ secondary structure determination by nuclear magneticresonance observation of short proton proton distances. J Mol Biol 180, 715­740. Wuthrich K, Strop P, Ebina S & Williamson MP (1984) ¨ A globular protein with slower amide proton-exchange from an alpha-helix than from antiparallel beta-sheets. Biochem Biophys Res Commun 122, 1174­1178. Wuthrich K (1986) NMR of Proteins and Nucleic Acids. ¨ Wiley, New York, NY. Kneller DG & Kuntz ID (1993) Ucsf Sparky ­ an NMR display, annotation and assignment tool. J Cell Biochem Suppl. 17C, 254. Barbato G, Ikura M, Kay LE, Pastor RW & Bax A (1992) Backbone dynamics of calmodulin studied by N-15 relaxation using inverse detected 2-dimensional NMR-spectroscopy ­ the central helix is flexible. Biochemistry 31, 5269­5278. Kay LE, Torchia DA & Bax A (1989) Backbone dynamics of proteins as studied by N-15 inverse detected heteronuclear NMR-spectroscopy ­ application to staphylococcal nuclease. Biochemistry 28, 8972­8979. Kover KE, Bruix M, Santoro J, Batta G, Laurents ¨ ´ DV & Rico M (2008) The solution structure and dynamics of human pancreatic ribonuclease determined by NMR spectroscopy provide insight into its remarkable biological activities and inhibition. J Mol Biol 379, 953­965. Goldman M (1984) Interference effects in the relaxation of a pair of unlike spin-1 / 2 nuclei. J Magn Reson 60, 437­452.
+
+61 Van der Spoel D, Lindahl E, Hess B, Groenhof G, Mark AE & Berendsen HJC (2005) GROMACS: Fast, flexible, and free. J Comput Chem 26, 1701­1718. 62 Kaminski GA, Friesner RA, Tirado-Rives J & Jorgensen WL (2001) Evaluation and reparametrization of the OPLS-AA force field for proteins via comparison with accurate quantum chemical calculations on peptides. J Phys Chem B 105, 6474­6487. 63 Wang AC & Bax A (1996) Determination of the backbone dihedral angles phi in human ubiquitin from reparametrized empirical Karplus equations. J Am Chem Soc 118, 2483­2494.
+
+Supporting information
+The following supplementary material is available: Fig. S1. MS analysis of native PAF. Fig. S2. Assigned 1H-15N HSQC spectrum of PAF. Fig. S3. Disulfide bond patterns in PAF and AFP. Fig. S4. Calculated S2 values in the course of the MUMO dynamics simulations. Fig. S5. Fluorescent micrographs of an A. nidulans germling. Fig. S6. Overlayed structures of PAF and AFP. Fig. S7. Comparison of PAF and AFP with surface tyrosines. Fig. S8. The hydrophobic core of PAF blown up with cysteines. Table S1. Selected NMR relaxation data of PAF. This supplementary material can be found in the online version of this article. Please note: Wiley-Blackwell is not responsible for the content or functionality of any supplementary materials supplied by the authors. Any queries (other than missing material) should be directed to the corresponding author for the article.
+
+2890
+
+FEBS Journal 276 (2009) 2875­2890 ª 2009 The Authors Journal compilation ª 2009 FEBS
+
+

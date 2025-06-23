@@ -1,0 +1,89 @@
+proteins
+STRUCTURE O FUNCTION O BIOINFORMATICS
+
+STRUCTURE NOTE
+
+A novel mode of dimerization via formation of a glutamate anhydride crosslink in a protein crystal structure
+Rakhi Agarwal,1 Stephen K. Burley,2 and Subramanyam Swaminathan1*
+1 Biology Department, Brookhaven National Laboratory, Upton, New York 11973 2 SGX Pharmaceuticals Inc., San Diego, California 92121
+
+Key words: X-ray; crystal structure; dimerization; glutamate anhydride.
+
+INTRODUCTION Acid anhydrides are formed by removal of water, are very active, and can react with water to form the original binary components. Most of the high-energy phosphate-containing compounds are formed by condensation of the phosphate ion with a phosphorylated sugar. The resulting pyrophosphate bond represents a classic anhydride bond. To the best of our knowledge, anhydride bonds formed by condensation of either glutamate or aspartate have not been reported in proteins. A glutamate anhydride can be formed by sharing of OE with another adjacent glutamic acid sidechain, and removal of H2O, as depicted in Figure 1. Herein, we describe the crystallographic elucidation of a novel glutamate anhydride crosslink between two protein molecules (within a symmetric N5-glutamine AdoMetdependent methyltransferase dimer). The efficient termination of protein synthesis is achieved by post-translational methylation of the Gln residue within the GGQ motif of the so-called ribosome release factors. N5-glutamine AdoMet-dependent methyltransferase, also known as HemK/PrmC, was the first methyltransferase1 found to be responsible for the methylation of the highly conserved GGQ motif in class I release factors (RF1 and RF2) in E. coli.2 Class I release factors (RFs) recognize stop signals in mRNAs,3 RF1 detects UAG and UAA, and RF2 detects UAA and UGA. Both RF1 and RF2 share the tripeptide GGQ motif that is post-translationally modified at Gln to N5-Me-Gln.4
+
+MATERIALS AND METHODS
+Protein purification, crystallization, data collection, structure determination, and refinement
+
+Protein expression/purification utilized previously published protocols, which are described in detail in PepcDB (http://pepcdb.pdb.org/). Diffraction quality crystals were obtained at 48C via sitting drop vapor diffusion of protein previously incubated with AdoMet and Gln (protein concentration $20 mg/mL) against a reservoir solution containing 30% (w/v) PEG8000, 0.2M sodium acetate, 0.1M sodium citrate pH 5.6 as precipitant. Crystals appeared in 20­25 days. Crystals were frozen by rapid immersion in liquid nitrogen using the mother liquor supplemented with 15% (v/v) glycerol. Diffraction data were recorded at beamline X12C (National Synchrotron Light Source, Brookhaven National Laboratory) with Brandeis B4 CCD detector and reduced, scaled, and merged using HKL2000.5 The structure was determined by the molecular replacement
+
+Grant sponsor: National Institute of General Medical Sciences; Grant number: GM074945; Grant sponsor: Brookhaven National Laboratory; Grant number: DEAC02-98CH10886; Grant sponsors: Office of Biological and Environmental Research, US Department of Energy; Basic Energy Sciences, US Department of Energy; National Center for Research Resources of the National Institutes of Health. *Correspondence to: S. Swaminathan, Biology Department, Brookhaven National Laboratory, Upton, NY 11973. E-mail: swami@bnl.gov Received 11 September 2007; Revised 14 November 2007; Accepted 19 November 2007 Published online 4 February 2008 in Wiley InterScience (www.interscience.wiley. com). DOI: 10.1002/prot.21962
+
+1038
+
+PROTEINS
+
+Published 2008 WILEY-LISS, INC.
+
+y
+
+This article is a US Government work and, as such, is in the public domain in the United States of America.
+
+A Novel Mode of Dimerization
+
+Figure 1
+Mechanism of glutamate anhydride formation.
+
+method using one protomer from PDB ID 1NV8 as the search model.6 The resulting model was refined with ° CNS7 at 2.3 A resolution. The jFobs j À jFcalc j difference Fourier map showed two well-defined residual densities, which could be modeled as AdoMet and Gln. Atomic coordinates and structure factors have been submitted to the PDB (PDB ID: 1SG9). RESULTS AND DISCUSSION
+Structural features of N5-glutamine AdoMet-dependent methyltransferase
+
+Our structure of N5-glutamine AdoMet-dependent methyltransferase from Thermotoga maritima consists of three monomers each with two domains of unequal size
+
+[Fig. 2] with two bound ligands S-adenosylmethionine or AdoMet and Gln (PDB ID: 1SG9; Space Group: I222). The active site is located within larger of the two domains (N.B.: Given the quality of the electron density corresponding to the bound amino acid, we cannot rule out enzyme catalyzed modification of Gln to N5-methylglutamine). Similar structures of N5-glutamine AdoMetdependent methyltransferase from the same organism were previously described in two distinct ligand-bound crystal forms in space groups C2 (PDB ID: 1NV8; two molecules/asymmetric unit; ligands: AdoMet and N5methylglutamine) and P21212 (PDB ID: 1NV9; one molecule/asymmetric; ligand: S-adenosyl-L-homocysteine) by Schubert.8 Root-mean-square deviations for all a-carbon ° pairs are as follows: 1SG9 versus 1NV8 5 1.3 A, 1SG9 ° , and 1NV8 versus 1NV9 5 0.9 A. ° versus 1NV9 5 0.6 A
+
+A novel mode of dimerization via glutamate anhydride crosslink
+
+Figure 2
+A ribbon representation of the homodimer of N5-glutamine AdoMet-dependent methyltransferase. Adomet and the substrate Gln are shown in purple and blue, respectively, as a ball and stick representation. Glu97 (Protomers A and C) forming the glutamate anhydride bond are shown in cyan as a ball and stick representation.
+
+In our crystals of T. maritima, N5-glutamine AdoMetdependent methyltransferase, the asymmetric unit consists of three protomers (A, B, and C). Molecules A and C form a back-to-back dimer with noncrystallographic twofold symmetry, thereby presenting their two active sites to solvent on opposite faces of the enzyme pair. Molecule B makes a similar back-to-back dimer with its symmetry mate (B0 ) arranged symmetrically about a crystallographic two fold axis. Glu97 projects into the dimerization interface (Fig. 2). Detailed inspection of the electron density map revealed that the A:C dimer is stabilized, at least in part, by formation of a glutamate anhydride between the two Glu97 sidechains protruding from molecules A and C (Figs. 1 and 3). The torsion angles between the two glutamate residues forming the anhydride crosslink are CG(A)CD(A)-Oe2(A)-CD(C) 5 21548 and CG(C)-CD(C)Oe2(A)-CD(A) 5 21598. The electron density of the composite omit map was sufficiently well defined to unambiguously model the glutamate anhydride (Fig. 3). The thermal factors of the atoms in the two glutamate sidechains are comparable to those of other protein atoms
+PROTEINS
+
+1039
+
+R. Agarwal et al.
+
+and the enhancement of close proximity via dimerization of molecules. Gel filtration chromatography prior to crystallization demonstrated the presence of both dimer and monomer enzyme populations (data not shown). Our observation of a glutamate anhydride crosslink in our I222 crystal form of T. maritima N5-glutamine AdoMet-dependent methyltransferase does beg the question as to why the same protein crystallized in two different crystal forms (C2, PDB ID: 1NV8; P21212, 1NV9) that did not show the same cross link.8 Neither of Schubert's crystal forms (C2 or P21212) exhibits back-to-back dimerization and the lattice packing interactions bury only minimal solvent accessible surface area. As both 1NV8 and 1NV9 were crystallized at acidic pH using PEG 3K, we cannot readily attribute the behavioral differences among these three systems to differing solution conditions. Instead, we must look to differences in the ligand bound at the active site (AdoMet and Gln/N5-methylglutamine versus AdoMet or S-adenosyl-L-homocysteine).
+
+Table I
+Data Collection and Refinement Statistics
+
+Data collection statistics Wavelength () Resolution () Space group Cell dimensions Molecules/asymmetric unit Redundancy I/r(I) Rmergea (overall/outmost shell) Refinement statistics Resolution range () Outermost shell () Number of reflections Completeness (%) (overall/outmost shell) Rfactorb Rfreec Number of protein atoms Number of AdoMet cofactors Number of Gln substrates Number of water molecules Root-mean-square deviation (rmsd) bonds () rmsd Angles (8) Ramachandran plot analysis Most favored region (additionally allowed) (%) Generously allowed region (disallowed) (%)
+
+Figure 3
+Composite omit map contoured at 1r level showing (A) Glu97 (Protomers A and C) glutamate anhydride and (B) the anhydride formed by Protomer B (green) and its symmetry mate (cyan).
+
+1.1 50­2.3 I222 a 5 81.03, b 5 188.33, c 5 207.68, a 5 b 5 g 5 908 3 8.0 14.0 0.07 (0.62) 50­2.3 2.44­2.3 63,152 89.1 (90.7) 0.23 0.26 6494 3 3 236 0.0075 1.43 89.7 (9.2) 0.6 (0.6)
+
+(Table I). A similar glutamate anhydride link occurs between molecule B and its crystallographic symmetry mate B0 . In this case, the inter-protomer torsion angles are CG(B)-CD(B)-Oe2(B)-CD(B0 ) 5 21558 and CG(B0 )CD(B0 )-Oe2(B)-CD(B) 5 21728 (N.B.: The electron density for the cross link is also well defined in this case, despite the fact that noise because of Fourier series termination errors can accumulate along crystallographic symmetry axes.). N-carboxyl amino acid anhydrides are common in synthetic chemical compounds, but the glutamate anhydride identified herein represents the first time it has been seen in a protein.
+The glutamate anhydride crosslink formation
+
+We presume that this anhydride bond formation is favored here because of higher concentration of protein
+
+Values for the highest resolution shell are given within parentheses. P P a Rmerge 5 jIi À hI ij= jIi j, where Ii is the intensity of the ith measurement, and hI i is P mean intensity P that reflection. the for b Rfactor 5 jjFobs j À jFcalc jj= jFobs j, where jFcalc j and jFobs j are the calculated and observed structure factor amplitudes, respectively. c Rfree 5 as for Rfactor, but for 5% of the total reflections chosen at random and omitted from refinement.
+
+1040
+
+PROTEINS
+
+A Novel Mode of Dimerization
+
+The most likely explanation would appear to rest on the active site bound ligands, because Glu97 projects from the face of the protein opposite the active site (Glu97 Ca ° to AdoMet distance $11.35 A). However, it is difficult to offer any specific explanation for this dimerization and we conclude it may the effect of concentration during crystallization. CONCLUSION X-ray crystallographically, a novel dimerization of two protein molecules in a structure via glutamate anhydride has been identified for the first time. This crosslink is suggested being an artifact of concentration during crystallization. ACKNOWLEDGMENTS The authors gratefully acknowledge the data collection support from beamline X12C (NSLS) and the assistance of Drs. S. Eswaramoorthy and D. Kumaran.
+
+REFERENCES
+1. Le Guen L, Santos R, Camadro JM. Functional analysis of the hemK gene product involvement in protoporphyrinogen oxidase activity in yeast. FEMS Microbiol Lett 1999;173:175­182. 2. Ehrenberg M, Tenson T. A new beginning of the end of translation. Nat Struct Biol 2002;9:85­87. 3. Gary JD, Clarke S. RNA and protein interactions modulated by protein arginine methylation. Prog Nucleic Acid Res Mol Biol 1998;61:65­131. 4. Newby ZE, Lau EY, Bruice TC. A theoretical examination of the factors controlling the catalytic efficiency of the DNA-(adenine-N6)methyltransferase from Thermus aquaticus. Proc Natl Acad Sci USA 2002;99:7922­7927. 5. Otwinowski Z, Minor W. Processing of X-ray diffraction data collected in oscillation mode. Methods Enzymol 1997;276:307­326. 6. Navaza J, Saludjian P. AMoRe: an automated molecular replacement program package. Methods Enzymol 1997;276:581­594. 7. Brunger AT, Adams PD, Clore GM, Delano WL, Gros P, GrosseKunstleve RW, Jiang JS, Kuszwewski J, Nilges M, Pannu NS, Read RJ, Rice LM, Somonsom T, Warren GL. Crystallography and NMR system: a new software suite for macromolecular structure determination. Acta Crystallogr 1998;D54:905­921. 8. Schubert HL, Phillips JD, Hill CP. Structures along the catalytic pathway of PrmC/HemK, an N5-glutamine AdoMet-dependent methyltransferase. Biochemistry 2003;42:5592­5599.
+
+PROTEINS
+
+1041
+
+

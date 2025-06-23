@@ -1,0 +1,168 @@
+Published on Web 11/22/2002
+
+Selenium-Assisted Nucleic Acid Crystallography: Use of Phosphoroselenoates for MAD Phasing of a DNA Structure
+Christopher J. Wilds, Rekha Pattanayek, Chongle Pan, Zdzislaw Wawrzak, and Martin Egli*,
+Contribution from the Department of Biological Sciences, Vanderbilt UniVersity, NashVille, Tennessee 37235, and Argonne National Laboratory, DND-CAT Synchrotron Research Center, Sector 5, AdVanced Photon Source, Argonne, Illinois 60439
+Received August 6, 2002
+
+Abstract: The combination of synchrotron radiation and a variety of atoms or ions (either covalently attached to the biomolecule prior to crystallization or soaked into crystals) that serve as anomalous scatterers constitutes a powerful tool in the X-ray crystallographer's repertoire of structure determination techniques. Phosphoroselenoates in which one of the nonbridging phosphate oxygens in the backbone is replaced by selenium offer a simplified means for introducing an anomalous scatterer into oligonucleotides by conventional solid-phase synthesis. Unlike other methods that are used to derivatize DNA or RNA by covalent attachment of a heavy atom (i.e., bromine at the C5 position of pyrimidines), tedious synthesis of specialized nucleosides is not required. Introduction of selenium is readily accomplished in solid-phase oligonucleotide synthesis by replacing the standard oxidation agent with a solution of potassium selenocyanide. This results in a diastereomeric mixture of phosphoroselenoates that can be separated by strong anion-exchange HPLC. As a test case, all 10 DNA hexamers of the sequence CGCGCG containing a single phosphoroselenoate linkage (PSe) were prepared. Crystals were grown for a subset of them, and the structure of [d(CPSeGCGCG)]2 was determined by the multiwavelength anomalous dispersion technique and refined to 1.1 Å resolution.
+
+Introduction
+
+Determination of phases in macromolecular X-ray crystallography is a problem that has been greatly facilitated by the multiwavelength anomalous dispersion (MAD) technique and advances in introducing anomalously scattering atoms into crystals.1 Such atoms can be either added exogenously to existing crystals, or, alternatively, they are intrinsically present in the biomolecule. The former approach involves soaking of crystals in solutions of an anomalous scatterer.2 Examples of intrinsic anomalous scatterers include selenium as a result of overexpression of proteins in the presence of selenomethionine that substitutes the natural methionine residues3 and bromine attached to the C5 position of pyrimidines in nucleic acids.4 However, covalent modification of nucleobases invariably involves the tedious synthesis of special nucleosides containing the pendant atoms.
+* To whom correspondence should be addressed. Telephone: (+1) 615343-8070. Fax: (+1) 615-343-6707. E-mail: martin.egli@vanderbilt.edu.  Vanderbilt University.  DND-CAT Synchrotron Research Center.
+(1) Hendrickson, W. A.; Ogata, C. M. Methods Enzymol. 1997, 276, 494523. (2) (a) Cate, J. H.; Gooding, A. R.; Podell, E.; Zhou, K.; Golden, B. L.; Kundrot, C. E.; Cech, T. R.; Doudna, J. A. Science 1996, 273, 1678-1685. (b) Rould, M. A. Methods Enzymol. 1997, 276, 469-472. (c) Ennifar, E.; Walter, P.; Dumas, P. Acta Crystallogr. 2001, D57, 330-332. (d) Nagem, R. A. P.; Dauter, Z.; Polikarpov, I. Acta Crystallogr. 2001, D57, 996-1002. (3) Doublie, S. Methods Enzymol. 1997, 276, 523-530. ´ (4) Ogata, C. M.; Hendrickson, W. A.; Gao, X.; Patel, D. J. Abstr. Am. Cryst. Assoc. Mtg. Ser. 2 1989, 17, 53. 14910
+9
+
+Selenium is an attractive element for deriviatization of biomolecules.4 The K absorption edge of selenium (12.6578 keV, 0.9795 Å) is readily accessible with synchrotron radiation. Selenium lies in group VI of the periodic table with a van der Waals radius of 2.00 Å as compared to 1.85 Å for sulfur and 1.4 Å for oxygen. The determination of numerous protein crystal structures has demonstrated that the properties of proteins containing selenomethionine in place of methionine are only minimally changed.5 Protein crystal structures based on MAD now account for about two-thirds of all new structures.6 Selenium-enriched proteins have paved the way for an explosive growth in the number of new crystal structures determined and are indispensable for the high-throughput structural genomics and drug discovery efforts currently underway. As compared to proteins, the tools for generating derivatives of nucleic acids for X-ray crystal structure determination are rather limited. Replacement of selected oxygen atoms in DNA or RNA by selenium may furnish a more versatile strategy for derivatizing nucleic acids than those currently available through incorporation of bromine or iodine at the C5 position of thymine and cytosine. Therefore, it appears worthwhile to explore the potential benefits of selenium as a facilitator of nucleic acid crystallography.
+(5) Hendrickson, W. A.; Horton, J. R.; LeMaster, D. M. EMBO J. 1990, 9, 1665-1672. (6) Hendrickson, W. A. Trends Biochem. Sci. 2000, 25, 637-643.
+10.1021/ja021058b CCC: $22.00 © 2002 American Chemical Society
+
+J. AM. CHEM. SOC. 2002, 124, 14910-14916
+
+Selenium-Assisted Nucleic Acid Crystallography
+
+ARTICLES
+Table 1. Summary of the SAX HPLC Separations of PSe-DNA Diastereoisomers
+peak 1 formula 5 f 3 time (min) final yield (%) time (min) peak 2 final yield (%)
+
+Figure 1. Comparison of the (A) phosphate and (B) phosphoroselenoate linkages.
+
+Recent studies by Huang and Egli and co-workers have shown that incorporation of a selenium atom at the C2-ribo position of an oligonucleotide as a selenomethyl group can be used for crystal structure determination with MAD.7 However, the synthetic methodology involves nucleophilic opening of an anhydro-derivative, a strategy limited to pyrimidines. In addition, the presence of substituents at the C2 of the ribose sugar is known to greatly influence sugar conformation, in turn affecting the overall conformation of the duplex.8 Therefore, use of the 2-methylseleno modification is beneficial only for structure determination of A-form DNAs and RNAs with a C3-endo type sugar conformation. To introduce selenium in a simplified manner, we turned our attention to a modification that has been investigated for antisense purposes in the past, the DNA phosphoroselenoates (PSe-DNA).9 PSe-DNAs are backbone modified nucleic acid analogues where one of the nonbridging oxygen atoms of the phosphate group is replaced with a selenium atom (Figure 1). The physicochemical and biological properties of completely modified oligomers of this modification were investigated and found to exhibit diminished binding and antisense activity relative to the parent phosphodiester oligomers and DNA phosphorothioates (PS-DNA).9 In addition, this family of molecules was found to be more toxic to cells. However, a uniformly modified PSe-DNA is not required for phasing strategies; modification of a single unit should be sufficient in X-ray crystallography. Thus, the reduction in binding relative to the all-phosphodiester oligonucleotide (PO-DNA) should be of minimal concern. Here, we demonstrate that diastereomerically pure oligodeoxynucleotides with single oxygen f selenium substitutions in the backbone can be readily prepared. These PSe-DNAs are stable under crystallization conditions for months. As a proof of principle, several of the DNA hexamers of sequence CGCGCG with a single PSe linkage in their backbones were crystallized as left-handed Z-DNA, and the structure of one of them was determined by MAD and refined to atomic resolution.
+Experimental Section
+Materials. 2-Deoxynucleotide phosphoramidites and the 3-terminal nucleoside controlled pore glass (CPG) support were purchased from Glen Research (Sterling, VA). All chemicals for solid-phase oligonucleotide synthesis were purchased from Glen Research (Sterling, VA). Potassium selenocyanate (KSeCN) was purchased from Aldrich
+(7) (a) Carrasco, N.; Ginsburg, D.; Du, W.; Huang, Z. Nucleosides Nucleotides 2001, 20, 1723-1734. (b) Du, Q.; Carrasco, M.; Teplova, M.; Wilds, C. J.; Egli, M.; Huang, Z. J. Am. Chem. Soc. 2002, 124, 24-25. (c) Teplova, M.; Wilds, C. J.; Wawrzak, Z.; Du, Q.; Carrasco, N.; Huang, Z.; Egli, M. Biochimie 2002, in press. (8) (a) Saenger, W. Principles of Nucleic Acid Structure; Springer-Verlag: Berlin, 1984. (b) Egli, M. In AdVances in Enzyme Regulation; Weber, G., Ed.; Elsevier Science Ltd.: Oxford, U.K., 1998; Vol. 38, pp 181-203. (9) Mori, K.; Boiziau, C.; Cazenave, C.; Marsukura, M.; Subasinghe, C.; Cohen, J. S.; Broder, S.; Toulme, J. J.; Stein, C. A. Nucleic Acids Res. 1989, 17, ´ 8207-8219.
+
+CGCGCG (1) CGCGCPSeG (2) CGCGPSeCG (3) CGCPSeGCG (4) CGPSeCGCG (5) CPSeGCGCG (6)
+
+16.61 18.41 17.95 17.92 17.71 17.75
+
+65.1 10.9 11.0 11.1 6.5 33.5
+
+18.92 18.08 18.70 18.51 18.54
+
+10.4 7.2 9.2 6.6 31.9
+
+(Milwaukee, WI). Saturated solutions of KSeCN in 95% acetonitrile/ 5% triethylamine were prepared by heating the mixture for 12 h and allowing it to cool to room temperature. Oligonucleotide Synthesis and Purification. Oligonucleotides were synthesized on an Applied Biosystems Inc. (381A) DNA synthesizer following slight modifications to published procedures.10 All monomer coupling times were 90 s. To introduce the PSe linkage, solid-phase synthesis was halted after coupling of the phosphoramidite to the growing chain. As the DNA synthesizer contained only one port for oxidizing agent, the column was removed from the synthesizer, and a saturated solution of KSeCN in 95% acetonitrile/5% triethylamine was added to the column and allowed to react for 24 h in the dark, similar to the procedure carried out by Stein and co-workers to make a uniformly substituted PSe oligodeoxynucleotide via H-phosphonates.9 After that time, the selenizing reagent was removed, and the CPG was washed with acetonitrile. Capping was performed manually, and the column was returned to the synthesizer to continue extension of the sequence. All oligomers were synthesized with the 5-terminal trityl group "off" and deprotected with concentrated ammonium hydroxide at 65 °C for 8 h. The sequences were analyzed and purified by strong anion exchange (SAX) HPLC using a DIONEX DNAPAC PA-100 analytical column (4 × 25 mm) purchased from Dionex Corp. (Sunnyvale, CA) (Figure 2, Table 1). For preparatory runs, 10 OD units were purified at a time on an analytical column using a gradient from 25 mM TrisHCl (pH ) 7.8) to 0.5 M NaCl over 45 min with a flow rate of 1.0 mL/min. Oligomers purified by HPLC were desalted on SEP PAK cartridges (Waters Inc.). The cartridge was preequilibrated with acetonitrile followed by water. The oligonucleotide solution was applied to the cartridge, washed with water, and a solution of 75% methanol in water was then used to elute the desalted oligomer. Molecular weights of the sequences were determined by MALDI-TOF mass spectrometry. Crystallization and Data Collection. Crystals of diastereomerically pure hexamers CGCGCG with single PSe linkages were grown using the sitting drop vapor diffusion method. Crystallization conditions consisted of 5 mM DNA (2 µL), 200 mM sodium cacodylate (pH ) 7, 5 µL), 15.6-62.5 mM MgCl2 (5 µL), and 7.8-31.2 mM spermine tetrahydrochloride (5 µL) against a reservoir of 2-methyl-2,4-pentanediol (MPD, 30% in water, 25 mL), set up at room temperature. Diffraction quality crystals typically appeared in one week. For data collection, [d(CPSeGCGCG)]2 crystals were picked up from a droplet with a nylon loop and transferred into a cold N2 stream (120 K). The unit cell constants were a ) 17.778 Å, b ) 31.348 Å, and c ) 44.116 Å with space group orthorhombic P212121. The precise locations of the inflection point and peak for the selenium absorption edge were determined from X-ray fluorescence spectra (see Supporting Information for an example). A commonly used buffer for crystallization of nucleic acids is cacodylate. The resulting high concentration of arsenic in mother liquor and crystal results in a prominent peak in the X-ray fluorescence spectrum that should not be confused with the Se K-edge (As 11.8667 keV versus Se 12.6578 keV). Data at three wavelengths from a single crystal were collected on the insertion device beamline
+(10) Wilds, C. J.; Damha, M. J. Nucleic Acids Res. 2000, 28, 3625-3635. J. AM. CHEM. SOC.
+9
+
+VOL. 124, NO. 50, 2002 14911
+
+ARTICLES
+
+Wilds et al.
+
+Figure 2. SAX HPLC traces for sequences (1) and (6) (Table 1). Table 2. Magnitude of the Anomalous Effect (Peak Data) Due to the PSe Moiety As Indicated by the Normalized 2 Coefficients (in Italics) after Merging of Friedel Pairs with the Program SCALEPACK11
+Friedel pairs shell limit (Å) lower upper average I average error stat. norm.
+2
+
+Table 3. Data Collection and Phasing Statistics
+wavelength (Å) 0.9787 inflection 0.9784 peak 0.9561 remote
+
+linear R-factor
+
+square R-factor
+
+merged
+
+20.00 2.37 2.37 1.88 1.88 1.64 1.64 1.49 1.49 1.39 1.39 1.30 1.30 1.24 1.24 1.18 1.18 1.14 1.14 1.10 all reflections
+
+99 017 3350 3350 35.98 59 462 1613 1613 53.88 38 294 754 754 91.86 23 325 504 504 86.39 16 094 361 361 58.98 13 494 344 344 46.32 10 983 343 343 27.69 9145 342 342 20.48 8607 377 377 14.67 6419 410 410 6.86 29 805 881 881 44.37
+
+0.078 0.079 0.078 0.086 0.081 0.081 0.082 0.084 0.075 0.080 0.079
+
+0.084 0.081 0.082 0.091 0.085 0.087 0.086 0.091 0.077 0.094 0.084
+
+resolution range, Å (last shell) unique reflections redundancy completeness, % (last shell) Rmerge, % (last shell) RCullis centric/acentric all phasing power centric/acentric all overall figure-of-merit centric/acentric all
+
+20-1.1 (1.14-1.1) 18 928 18 932 7.46 7.46 97.8 (95.3) 97.7 (95.4) 4.6 (8.6) 4.4 (8.5) 0.35/0.48 0.46 2.91/2.55 2.58 0.91/0.91 0.91 0.42/0.54 0.52 2.31/2.13 2.15
+
+18 919 7.47 97.7 (95.4) 4.1 (7.5)
+
+(5-ID) of the DuPont-Northwestern-Dow Collaborative Access Team (DND-CAT) at the Advanced Photon Source, Argonne, IL. All data to a maximum resolution of 1.1 Å were integrated and scaled with the programs DENZO and SCALEPACK, respectively (Tables 2, 3).11 Structure Determination and Refinement. Selenium positions were determined with CNS-solve.12 The initial phases were improved with density modification, and the computed Fourier electron density maps were visualized with the program TURBO.13 The complete Z-DNA hexamer duplex was resolved in the maps along with many water molecules (Figure 3). Dimer steps [d(CPG)]2 were taken from the crystal structure of the Z-DNA duplex with Nucleic Acid Database14 code ZDF00115 and built into the map. The initial refinement was carried out with the program CNS,12 setting aside 5% of the reflections for calculating the R-free.16 The program SHELX-9717 was used for
+(11) Otwinowski, Z.; Minor, W. Methods Enzymol. 1997, 276, 307-326. (12) Brunger, A. T.; Adams, P. D.; Clore, G. M.; DeLano, W. L.; Gros, P.; ¨ Grosse-Kunstleve, R. W.; Jiang, J. S.; Kuszewski, J.; Nilges, M.; Pannu, N. S.; Read, R. J.; Rice, L. M.; Simonson, T.; Warren, G. L. Acta Crystallogr. 1998, D54, 905-921. (13) Cambillau, C.; Roussel, A. Turbo Frodo, Version OpenGL.1; Universite ´ Aix-Marseille II, Marseille, France, 1997. (14) Berman, H. M.; Zardecki, C.; Westbrook, J. Acta Crystallogr. 1998, D54, 1095-1104. (15) Wang, A. H.-J.; Quigley, G. J.; Kolpak, F. J.; Crawford, J. L.; van Boom, J. H.; van der Marel, G.; Rich, A. Nature 1979, 282, 680-686. (16) Brunger, A. Nature 1992, 355, 472-475. ¨ (17) Sheldrick, G. M.; Schneider, T. R. Methods Enzymol. 1997, 277, 319343. 14912 J. AM. CHEM. SOC.
+9
+
+anisotropic refinement of all atoms and calculation of hydrogen atom positions. Along with the hexamer duplex, 73 water molecules, a magnesium hexahydrate ion, and a spermine molecule were included in the refinement that converged at values for R-work and R-free of 9.7 and 12.9%, respectively, based on all reflections to 1.1 Å resolution (Table 4). Residues of one strand are numbered 1-6, and residues of the second strand are numbered 7-12. Coordinates. Structure factors and final coordinates have been deposited in the Protein Data Bank (PDB ID code 1N6S) and the Nucleic Acid Database (NDB ID code ZD0009).
+
+Results and Discussion
+
+PSe-DNA Synthesis and Separation of Diastereoisomers. The introduction of a selenium atom at the phosphate group of nucleic acids is straightforward, using potassium selenocyanate as the source for electrophilic selenium.18 After the phosphoramidite is coupled at the position where selenium is to be placed, the column containing the oligomer is removed from the synthesizer and treated with a saturated solution of KSeCN in lieu of the standard oxidizing reagent (iodine/water/pyridine) to introduce selenium and convert the P(III) atom to P(V). This particular strategy had been effective for the preparation of an all-PSe oligomer by H-phosphonate chemistry.9
+(18) Tiecco, M. Top. Curr. Chem. 2000, 208, 7-54.
+
+VOL. 124, NO. 50, 2002
+
+Selenium-Assisted Nucleic Acid Crystallography
+
+ARTICLES
+
+Figure 3. Stereo illustration of the experimental Fourier electron density map (1  level) based on solvent flattened MAD phases, superimposed on the final model of the PSe-DNA duplex. The anomalous difference density map is depicted in green. Table 4. Selected Refinement Parameters
+
+R-work, % R-free, % (5% of reflections) no. of reflections (10-1.1 Å; no  cutoff) no. of refinement parameters data-to-parameter ratio no. of restraints no. of DNA atoms (not incl. H's) no. of waters no. of ions rms of bonds, Å rms of angles, Å (1-3 distances) average B-factor of DNA atoms, Å2 average B-factor of solvent, Å2
+
+9.7 12.9 9718 3005 3.2 5144 245 73 2 (1 Mg2+, 1 spermine) 0.028 0.022 6.9 19.2
+
+For our crystallographic study, we chose the oligodeoxynucleotide with sequence CGCGCG. This hexamer is known to crystallize readily as left-handed Z-form DNA.15 All five internucleotide phosphates were treated in the manner described above. The oligomers were deprotected, and the crude material was analyzed by strong anion-exchange (SAX) HPLC. Numerous groups have reported the separation of diastereomeric mixtures of PS-DNAs by either RP or SAX HPLC.19 In our hands, use of anion-exchange HPLC proved the most convenient method for separation of the PSe-DNA diastereomers. Thus, a gradient of 25 mM TrisHCl (pH ) 7.8) to 0.5 M NaCl over 45 min gave excellent resolution of the two major products. As a representative example, the trace of purified sequences (1) and (6) is shown in Figure 2. The all-PO oligomer elutes first, followed by the two PSe-DNA diastereomers, consistent with the increased hydrophobicity of selenium relative to oxygen. The replacement of oxygen by selenium is almost quantitative at the phosphate linkage nearest to the 5 end (Table 1). However, at more internal sites, some selenium is lost when the sequence is reintroduced and chain growth is continued, presumably due to a reaction between the introduced selenium and the oxidizing agent. MALDI TOF spectra of the oligomers confirmed the identity of the sequences with a molecular weight difference of 62.7 between the later eluting diastereomer of sequence (6) (1856.0) and the all-PO sequence (1) (1793.3).
+(19) (a) Stec, W. J.; Zon, G.; Egan, W.; Stec, B. J. Am. Chem. Soc. 1984, 106, 6077-6079. (b) Stec, W. J.; Zon, G.; Uznanski, B. J. Chromatogr. 1985, 326, 263-280. (c) Murakami, A.; Tamura, Y.; Wada, H.; Makino, K. Anal. Biochem. 1994, 33, 285-290. (d) Kanehara, H.; Mizuguchi, M.; Makino, K. Nucleosides Nucleotides 1996, 15, 399-406.
+
+This figure matches the weight difference between selenium (78.96) and oxygen (15.9994): 62.96 (see Supporting Information for MALDI TOF spectra). Crystallization setups using the sitting drop method yielded crystals for most of the sequences based on conditions first established with the all-PO hexamer. Typically, crystals of good quality appeared within a day or a few weeks. To ensure stability of the PSe linkage, the setups were kept in the dark. There was little evidence for degradation of the phosphoroseleonate moiety in the crystals. An earlier study of completely modified PSeDNAs concluded that, in solution, the PSe modification has a half-life of approximately one month, with about 10% lost in one week based on NMR.9 However, for crystallographic purposes, some loss of selenium from the PSe-DNAs can be tolerated because in the case of proteins containing selenomethionine, substitution is not quantitative either. MAD Structure Determination. Crystals from peak 1 of sequence (6) (Figure 2, Table 1) were used for a MAD structure determination experiment. These crystals exhibit a morphology that is very similar to that of the native all-PO Z-DNA hexamer (see Supporting Information for a micrograph of peak 1 [d(CPSeGCGCG)]2 crystals). X-ray diffraction data were collected at three wavelengths, representing the inflection point, peak, and reference energies. As expected, the presence of two selenium atoms per crystallographic asymmetric unit (one Se atom per strand; the asymmetric unit consists of a single DNA duplex) results in a very strong anomalous signal (Table 2). By comparison, one selenium per 60 amino acids is sufficient for routine structure determination of proteins with MAD.20 The PSe oligonucleotide investigated here roughly corresponds to a dodecapeptide containing one Se-Met. A summary of the data statistics and phasing power is given in Table 3. Initial phases were computed with the program CNS12 and improved with solvent flattening. The resulting Fourier electron density maps were of excellent quality (Figure 3) and unambiguous with respect to the geometry of the entire DNA duplex and the positions of most of the first shell solvent molecules.
+(20) (a) Minasov, G.; Teplova, M.; Stewart, G. C.; Koonin, E. V.; Anderson, W. F.; Egli, M. Proc. Natl. Acad. Sci. U.S.A. 2000, 97, 6328-6333. (b) Teplova, M.; Tereshko, V.; Sanishvili, R.; Joachimiak, A.; Bushueva, T.; Anderson, W. F.; Egli, M. Protein Sci. 2000, 9, 2557-2566. J. AM. CHEM. SOC.
+9
+
+VOL. 124, NO. 50, 2002 14913
+
+ARTICLES
+
+Wilds et al.
+
+Figure 5. ORTEP21 drawing of the final model of the [d(CPSeGCGCG)]2 duplex. Ellipsoids are drawn at the 50% probability level, and hydrogen atoms were omitted for clarity. Atoms are colored gray (carbon), red (oxygen), blue (nitrogen), yellow (phosphorus), and green (selenium).
+
+Figure 4. Final sum (2Fo - Fc) electron density (1.25  level) around the (A) C1PSeG2 and (B) C7PSeG8 dinucleotides. DNA atoms are colored yellow (carbon), red (oxygen), cyan (nitrogen), orange (phosphorus), and blue (selenium). In the case of the PSe2 moiety, two alternative orientations were refined with occupancies of 52 and 48%, respectively. The double conformation for the modified phosphate group extends into the first hydration shell.
+
+All atoms were refined anisotropically with the program SHELX-97.17 Similarity restraints were used for the phosphoroselenoate moieties in combination with relatively soft distance restraints for the P-Se bond length (DFIX 2.05 ( 0.20 Å). The final refinement parameters are summarized in Table 4. Examples of the (2Fo - Fc) sum electron density around the PSe linkages are depicted in Figure 4, and an ORTEP21 drawing of the PSe Z-DNA duplex is shown in Figure 5. The structure of the PSe Z-DNA duplex is not isomorphous with that of the original Z-DNA duplex,15 the so-called mixed spermine/magnesium form.22 As compared with the latter, the PSe duplex is rotated around and translated along the crystallographic z-axis (Figure 6). However, the deviations between the cell constants of the two forms are only minimal (<1%). This is consistent with very similar geometries of the two duplexes (Figure 7), the rms deviation between them amounting to just 0.14 Å. The coordination mode of the Mg2+ ion in the present structure is identical to that in the mixed spermine/ magnesium form and involves an inner-sphere contact to N7 from a 3-terminal guanine. The spermine molecule spans the
+(21) Johnson, C. K.; Burnett, M. N. ORTEP-III: Oak Ridge Thermal Ellipsoid Plot Program for Crystal Structure Illustrations. Oak Ridge National Laboratory Report ORNL-6895, 1996. (22) Gessner, R. V.; Quigley, G. J.; Egli, M. J. Mol. Biol. 1994, 236, 11541168. 14914 J. AM. CHEM. SOC.
+9
+
+convex surface of a Z-DNA duplex and mediates contacts between neighboring duplexes in the crystal lattice. However, its orientation in the present lattice differs from the orientations of the two spermines in the mixed form.22 The absolute configuration of the PSe moiety for the peak 1 hexamer is R. Therefore, it is possible that the faster eluting PSe CGCGCG hexamers (peaks 1; Figure 2 and Table 1) represent RP isomers and that peaks 2 are the SP isomers. However, this is probably not a general feature of all PSe-DNA diastereoisomers, and the order of elution may well be different for more general sequences or even for CGCGCG hexamers in which the PSe moiety is located at GpC steps. The P-Se bond length is 2.13 Å in the case of residue G2, and for residue G8 it is 2.12 Å. These bond lengths are very similar to those of P-Se bonds based on small molecule crystal structures (2.093 ( 0.019 Å).23 For comparison, the corresponding P-O bond lengths for residues G2 and G8 in the native Z-DNA duplex are between 1.45 and 1.48 Å. Both selenium atoms are engaged in hydrogen bonds to water molecules. The selenium atom of residue G2 is surrounded by four water molecules, and the average hydrogen bond distance is 3.35 Å. The selenium atom of residue G8 is engaged in hydrogen bonds to three water molecules with an average distance of 3.52 Å. These interactions are consistent with the selenium atom in the PSe moiety carrying at least a partial negative charge. Initially, it may be counterintuitive to consider selenium a better acceptor of negative charge than oxygen, because oxygen is more electronegative. However, the atomic radius of selenium is considerably greater than that of oxygen, and when the potentials of each atom are summed over their
+(23) Orpen, A. G.; Brammer, L.; Allen, F. H.; Kennard, O.; Watson, D. G.; Taylor, R. In Structure Correlation; Burgi, H.-B., Dunitz, J. D., Eds.; VCH ¨ Publishers: New York, 1994; Vol. 2, pp 751-858.
+
+VOL. 124, NO. 50, 2002
+
+Selenium-Assisted Nucleic Acid Crystallography
+
+ARTICLES
+
+Figure 6. Orientations of the PSe Z-DNA (thick lines) and ZDF00115 duplexes (thin lines) in the orthorhombic unit cell. Unit cell directions and origin are indicated.
+
+Figure 7. Superposition of the PSe Z-DNA (blue) and ZDF001 duplexes15 (red) with selenium atoms highlighted as filled circles.
+
+respective spherical surfaces, the total potential of selenium could exceed that of oxygen.
+Conclusions
+
+The work presented here based on a hexanucleotide demonstrates that phosphoroselenoates are stable against oxidation on a crystallographic time scale and are well suited for MAD structure determination. A major advantage of the PSe modification as compared to introduction of selenium into the ribose sugar7 or bromine into the pyrimidine bases of nucleic acids is that preparation of specialized building blocks for solid-phase synthesis is not necessary. Thus, we have used the same synthetic methodology to prepare oligo-2,3-dideoxygluco-
+
+pyranose-nucleotides (homo-DNA24) containing single PSe linkages in their backbones. Although direct methods (i.e., ref 25) by using phosphorus atoms of DNA themselves26 and sulfur (i.e., MAD phasing using a PS-DNA; our own unpublished data) may all allow phasing of nucleic acid crystal structures, they are most likely only going to be successful in isolated cases. By comparison, the strategy introduced here and relying on PSe-DNAs is of general applicability for solving crystal structures of DNA, RNA, and protein-nucleic acid complexes alike, and the phasing power of selenium is far superior to that of phosphorus or sulfur. Currently, the yield of PSe-modified nucleic acid synthesis is rather low in cases where the PSe moiety is relatively far removed from the 5 terminus. We expect that milder oxidation conditions will prevent excessive loss of selenium during chain extension. Moreover, a simple strategy can help reduce the costs of PSe nucleic acid synthesis. It is cheaper to initially prepare diastereomerically pure oligonucleotides with single phosphorothioate linkages and then to determine which ones will furnish diffraction-quality crystals. Those oligonucleotides are then prepared as the corresponding phosphoroselenoates. One can expect that the change from sulfur to selenium will not alter the crystallization behavior, consistent with the experience gained with replacing Met by Se-Met in protein crystallography and our own experience with phosphorothioate Z-DNA and phosphoroselenoate Z-DNA (crystals for both were grown under identical conditions). It is possible that a particular PSe-modified nucleic acid cannot be crystallized anymore because selenium modification interferes with, say, coordination of a Mg2+ ion. However, it is very likely that one can then select another phosphate group for selenium modification that does not interfere with metal ion binding.
+(24) Hunziker, J.; Roth, H. J.; Boehringer, M.; Giger, A.; Diederichsen, U.; Goebel, M.; Krishnan, R.; Jaun, B.; Leumann, C.; Eschenmoser, A. HelV. Chim. Acta 1993, 76, 259-352. (25) Egli, M.; Tereshko, V.; Teplova, M.; Minasov, G.; Joachimiak, A.; Sanishvili, R.; Weeks, C. M.; Miller, R.; Maier, M. A.; An, H.; Cook, P. D.; Manoharan, M. Biopolymers (Nucleic Acid Sciences) 1998, 48, 234252. (26) Dauter, Z.; Adamiak, D. A. Acta Crystallogr. 2001, D57, 990-995. J. AM. CHEM. SOC.
+9
+
+VOL. 124, NO. 50, 2002 14915
+
+ARTICLES
+
+Wilds et al.
+
+Finally, it may be possible to extend the PSe modification technique to longer DNAs and RNAs that need to be prepared via enzymatic synthesis. The success of such an approach mainly depends on whether DNA and RNA polymerases will tolerate R-Se-NTPs and incorporate them at reasonable rates.
+Acknowledgment. This research is dedicated to Professor Jack D. Dunitz, ETH-Zurich, on the occasion of his 80th ¨ birthday. This research is supported by the National Institutes of Health (grant GM 55237 to M.E.) and the Petroleum Research Fund, administered by the American Chemical Society (grant 34538-AC4 to M.E.). C.J.W. is the recipient of postdoctoral scholarships from the Natural Science and Engineering Research Council of Canada (NSERC) and the Fonds pour la Formation de Chercheurs et l'Aide a la Recherche (FCAR). We thank Prof. Zhen Huang and Nicolas Carrasco, Brooklyn College, CUNY, for helpful discussions, and we are grateful to Dr. Anne Noronha and Prof. Paul Miller of Johns Hopkins University for running MALDI-TOF spectra. Portions of this work were performed at
+
+the DuPont-Northwestern-Dow Collaborative Access Team (DND-CAT) Synchrotron Research Center, located at Sector 5 of the Advanced Photon Source. DND-CAT is supported by the E.I. DuPont de Nemours & Co., The Dow Chemical Co., the U.S. National Science Foundation through grant DMR9304725, and the State of Illinois through the Department of Commerce and the Board of Higher Education grant IBHE HECA NWU 96. Use of the Advanced Photon Source was supported by the U.S. Department of Energy, Basic Energy Sciences, Office of Energy Research, under Contract No. W-31102-Eng-38.
+Supporting Information Available: X-ray fluorescence and MALDI TOF spectra as well as a micrograph of a PSe-modified Z-DNA crystal (PDF). This material is available free of charge via the Internet at http://pubs.acs.org.
+JA021058B
+
+14916 J. AM. CHEM. SOC.
+
+9
+
+VOL. 124, NO. 50, 2002
+
+

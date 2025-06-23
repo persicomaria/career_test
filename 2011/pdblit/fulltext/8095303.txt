@@ -1,0 +1,231 @@
+81
+
+Molecular modeling and biocatalysis: explanations, predictions, limitations, and opportunities Romas J Kazlauskas
+Rapid advances in structural biology have revealed the threedimensional structures of many biocatalysts. Molecular modeling is the tool that links these structures with experimental observations. As a qualitative tool, current modeling methods are extremely useful. They can explain, on a molecular level, unusual features of reactions. They can predict how to increase the selectivity either by substrate modification or by site-directed mutagenesis. Quantitative predictions, for example the degree of enantioselectivity, are still not reliable, however. Modeling is limited also by the availability of threedimensional structures. Most current modeling involves hydrolases, especially proteases and lipases, but structures for other types of enzymes are starting to appear.
+Addresses Department of Chemistry, McGill University, 801 Sherbrooke Street West, Montréal, Quebec H3A 2K6, Canada; e-mail: cxrk@musica.mcgill.ca Current Opinion in Chemical Biology 2000, 4:81­88 1367-5931/00/$ -- see front matter © 2000 Elsevier Science Ltd. All rights reserved. Abbreviations CPO chloroperoxidase CRL Candida rugosa lipase PCL Pseudomonas cepacia lipase ROL Rhizopus oryzae lipase
+
+structures without any additional modeling. An excellent review appeared recently [1··] and I will not mention examples discussed there.
+
+Explanations
+A different binding orientation of primary alcohols
+
+Although a simple rule can predict which enantiomer of a primary alcohol reacts faster with Pseudomonas cepacia lipase (PCL) [2,3], this rule is puzzling. In the fast-reacting enantiomer of secondary alcohols, the hydroxyl group faces toward the reader (Figure 1), but for the fast-reacting enantiomer of primary alcohols, the CH2OH group points away from the reader. Two groups [3,4] used modeling to suggest reasons for this apparent contradiction. The two explanations differ mainly in the location of the large substituent. Zuegg et al. [4] suggested that the large substituent binds in the same place for both primary and secondary alcohols. The CH2OH group points away from the histidine to avoid disrupting the catalytic action. On the other hand, Tuomi and Kazlauskas [3] suggested that the large substituent binds in a different part of the alcohol binding pocket, more specifically an extension of the medium sized pocket, the region or `alternate hydrophobic pocket' in Figure 2. According to this explanation, the CH2OH group points in a different direction because the two types of alcohol bind differently. This explanation also suggests why PCL and porcine pancreatic lipase are the lipases that show the highest enantioselectivity toward primary alcohols -- only these lipases contain the alternate binding pocket. This second explanation also suggests why primary alcohols with oxygen at the stereocenter are a special case that does not follow the rule. The alternate hydrophobic pocket contains several tyrosines. One of these, Tyr29, may form a hydrogen bond to the substrate when the substrate contains an oxygen at the stereocenter. The effects of this hydrogen bond are unpredictable; thus, the rule becomes unreliable for these substrates. Chemical modification of the tyrosines with nitromethane, an experiment inspired by the modeling, increased the enantioselectivity from 17:1 to 36:1 for one substrate. Lang et al. [5] determined the X-ray crystal structure of a transition state analog (Figure 3) bound to the active site of PCL. This analog mimics ester hydrolysis at the primary hydroxyl group of a triacylglycerol analog. This structure indeed showed one substituent bound to the alternate hydrophobic pocket, which the authors termed an `HH pocket'.
+Origins of enantioselectivity
+
+Introduction
+Like organic chemistry, which has evolved from a descriptive, empirical discipline to a mechanism-based and structure-based science, biocatalysis is also evolving to a rational, structure-based science. Initial approaches in biocatalysis focused on empirical approaches such as screening or simple extrapolations from known substrates. Although screening continues to be an important part of biocatalysis, recent advances in the three-dimensional structures of biocatalysts open up the possibility of rational design of new reactions and new catalysts. The current goals of modeling are threefold: firstly, to explain, on a molecular level, the known behavior of an enzyme; secondly, to suggest how to change the selectivity of a reaction by modification of substrate, enzyme or reaction conditions; and finally, to predict quantitatively the degree of stereoselectivity of an enzyme-catalyzed reaction. This review focuses on papers published from 1998 through to September 1999, although I mention some earlier papers to provide context. It focuses on using computer modeling and protein structure to predict or explain reactions intended for organic synthesis. The review omits publications focusing on drug design, food processing, toxicology, kinetic or process modeling, or fundamental biochemistry. It also omits most publications on protein
+
+Chloroperoxidase (CPO) catalyzes a number of oxidative reactions, including an enantioselective epoxidation of
+
+82
+
+Biocatalysis and biotransformation
+
+Figure 1 Primary alcohols (a) HO M L Secondary alcohols OH OH M L M L
+
+Figure 2 (a) (b)
+
+LHP
+n-C3H7
+
+O O
+
+P Phenyl AHP
+
+O P O Ser O
+
+His 286 CH 3
+
+Ph Substrate
+
+Ph Transition state analog
+
+(b)
+
+Better binding of CH3 group
+
+Current Opinion in Chemical Biology Current Opinion in Chemical Biology
+
+Empirical rules to predict the fast-reacting enantiomer of secondary and primary alcohols with PCL. The primary-alcohol rule is shown in two different orientations to suggest relative orientations of primary and secondary alcohols in the alcohol-binding site. (a) The large (L) substituent of both primary and secondary alcohols are in a similar place. (b) The large substituent is in different places in the primary and secondary alcohol models. Both suggestions assume that that the hydrogen at the stereocenter, the medium (M) substituents, and the alcohol oxygen bind in similar places.
+
+Substrate binding to PCL. (a) The active site of PCL containing a transition state analog (in space-filling representation) for hydrolysis of an ester of a primary alcohol. The large substituent, benzyl in this case, does not bind in the large hydrophobic pocket (LHP), but in an alternate hydrophobic pocket (AHP). The catalytic histidine, His286, forms key hydrogen bonds to the transition state analogue. (b) The structures of the substrate and a transition state analog.
+
+groups would also bind more poorly because they would extend out of the pocket. Using a similar approach Janes et al. [11] rationalized the enantioselectivity of chymotrypsin for dioxolane intermediates useful for the synthesis of nucleoside analogs. The slow-reacting enantiomer fitted well into the active site, but in a nonproductive orientation. On the other hand, the fast-reacting enantiomer fit in a productive orientation.
+Unusual ring closure reactions
+
+alkenes (see [6,7] and references therein). The enantioselectivity and turnover are highest for cis-substituted alkenes such as the one in Figure 4. Sundaramoorthy et al. [8] rationalized the observed selectivity using molecular modeling. They oriented the substrate (cis-1-phenyl-1propene) in the CPO active site in two different ways -- one leading to the major 1S,2R-epoxide, the other leading to the minor 1R,2S-epoxide. The favored orientation gave a catalytically productive complex, but the less favored orientation did not. The major difference in the two orientations was the position of the methyl group. Similar modeling may help design mutants with increased enantioselectivity or explain the unusual reversals in absolute configuration in some closely related terminal alkenes [9]. Zhang and Kazlauskas [10] reported an enantioselective and regioselective chromobacterium viscosium lipase (CVL)catalyzed hydrolysis of a chiral bisphenol intended for nonlinear optical applications. Although the stereocenter lies far from the reaction site, this hydrolysis is highly selective. We (RJ Kazlauskas et al., unpublished data) have rationalized this selectivity using molecular modeling (Figure 5). The large pocket in the alcohol-binding pocket of CVL tilts to one side. The direction of this tilt matches the orientation of the acyloxyphenyl group in the fast reacting enantiomer. This modeling also explained why the dibutanoate ester showed the highest enantioselectivity. The butanoyl group at the nonreacting 4-position fills the large pocket. Smaller acyl groups would bind more poorly because they could not fill the pocket. Larger acyl
+
+Several years ago, Janda and co-workers [12] reported a catalytic antibody that catalyzed cyclization to a six-membered ring, whereas the acid-catalyzed cyclization gave a five membered ring. More recent X-ray structures and amino acid sequence analysis identifies a key pair of residues, aspartate and histidine, that are responsible for catalysis [13]. Quantum mechanical modeling identified the likely transition state for the acid-catalyzed and base-catalyzed reactions. The authors attributed the unusual regioselectivity of this reaction to an aspartate residue that stabilized the positive charge in the transition state. Elucidation of the origin of the enantioselectivity was not straightforward and the authors attributed it to subtle stereoelectronic effects.
+Reversed enantioselectivity for some lipase substrates
+
+Candida rugosa lipase (CRL) often shows high enantioselectivity toward carboxylic acids with a stereocenter at the a-position. An empirical rule can predict which enantiomer reacts faster (Figure 6). Modeling shows that the stereocenter at the -position of carboxylic acids lies near the mouth of this tunnel with the large substituent inside the tunnel [14,15]. Further modeling explained why addition of long-chain alcohols lowers the enantioselectivity [14]. These alcohols
+
+Molecular modeling and biocatalysis: explanations, predictions, limitations, and opportunities Kazlauskas
+
+83
+
+Figure 3
+O N H O O HN
+Current Opinion in Chemical Biology
+
+Figure 4
+O O O P O O
+
+O Ph 1S Ph
+Current Opinion in Chemical Biology
+
+Ser
+
+Enantioselective epoxidation of alkenes by CPOs.
+
+Structure of a transition state analog used in X-ray crystallographic studies of the PCL active site [5].
+
+bind in the tunnel and prevent the fast-reacting enantiomer from adopting the normal productive orientation. Similarly, modeling explained why the rule often fails when the large substituent is extensively branched [16]. The large, branched substituent cannot fit in the tunnel, and instead lies outside the tunnel in the large hydrophobic pocket. In this orientation, modeling suggests a preference for the opposite enantiomer, in agreement with experiments. Recent site-directed mutagenesis experiments on a related lipase, that from Geotrichum candidum, a lipase that also contains a tunnel, confirmed the importance of amino-acid residues within the tunnel for the enantioselectivity [17].
+
+The same group extended their analysis to Rhizomucor miehei lipase [20], for which no reversal occurs. This lipase favors the sn-1 position for all of the substrates. The authors identified a loop that makes the hydrophobic dent shallower. The shallowness minimized the steric interactions and, for this reason, the rigid substrates do not reverse enantioselectivity.
+Substrate selectivity of cytochrome P450cam
+
+Predictions
+Increasing enantioselectivity by site-directed mutagenesis
+
+Rhizopus oryzae lipase (ROL) shows low to moderate enantioselectivity towards triacylglycerols and their analogs. Surpisingly, the favored enantiomer reverses upon changing the substituent at the sn-2 position (Figure 7). Holzwarth et al. [18] started with a homology model of ROL and used docking calculations to explain reversals in enantioselectivity. They grouped the substrates according to the flexibility of the -bond in the substituent at sn-2. When the sn-2 substituent contains a flexible bond (e.g. ether, Figure 7a, the ester is a borderline case), then ROL favors hydrolysis at the sn-1 position, but when the sn-2 substituent contains a rigid bond (e.g. amide or phenyl, Figure 7b), then ROL favors hydrolysis at the sn-3 position. Modeling showed that in all cases, the sn-2 substituent binds in a `hydrophobic dent'. (This dent corresponds to an extension of the medium-sized binding pocket and is similar the alternate hydrophobic pocket mentioned above for PCL.) The sn-2 substituents lie near Leu258. When the substituent has a flexible -bond, it can avoid clashes with Leu258, but when it has a rigid -bond, it can avoid clashes only by turning the substrate so that the sn-3 group is in the hydrolysis site. To test their hypothesis that enantioselectivity stems mainly from steric interactions with Leu258, the authors increased the steric interactions by mutating Leu to Phe. As expected, the enantioselectivity for the substrates with the rigid b-bond increased from 5:1 to 14:1 and from 8:1 to 22:1, respectively, for one substrate [19·].
+
+De Voss et al. [21] used modeling to predict the substrate selectivity of the bacterial enzyme cytochrome P450cam. This enzyme catalyzes the oxidation of a wide range of organic substrates including those containing unactivated C­H bonds. Unlike other enzymes in which the substrate can be oriented in the active site so that the reacting groups of the substrate lie near the appropriate active site residues, it is often not obvious which groups on the substrate will react in the P450-catalyzed reaction. For this reason, De Voss et al. used the DOCK program (see http://www.cmpharm.ucsf.edu/kuntz/dockinfo.html) to test all possible orientations of the substrate in the active site. One limitation of the DOCK program is that it uses a rigid substrate and a rigid enzyme and does not allow conformational changes to improve the fit. In spite of this limitation, the program predicted which compounds in a library of 20,000 would be substrates. 15 of the 16 compounds indentified were indeed substrates. The substrates were not those with the tightest fit, but those that left some space for movement in the active site. For a P450 mutant, however, the predictions were poor -- only one of the five predicted substrates was found to be an actual substrate Further docking of new substrates by the same group [22] suggested a slightly different optimal distance between substrate and active site. The authors suggest that DOCK is most useful in identifying potential substrates from large databases, but less useful in predicting differences between closely related substrates. There is continued interest in mammalian P450 enzymes because they metabolize drugs. However, this topic is beyond the scope of this review.
+
+Limitations
+Quantitative prediction of enantioselectivity
+
+As enantioselectivity is one of the most valuable characteristics of a biocatalyst, an increasing number of research groups are using modeling to predict the enantioselectivity. In most cases modeling predicts which enantiomer reacts faster, but it remains very difficult to predict the
+
+84
+
+Biocatalysis and biotransformation
+
+Figure 5 O CVL High regioselectivity High (S)-enantioselectivity O 5 n-Pr O O 4' n-Pr The CVL-catalyzed enantioselective and regioselective hydrolysis of a bisphenol. (a) Observed reactivity. (b) Structure of the transition-state analog for the fast reacting regioisomer and enantiomer. `Direction of view' refers to part (c). Minimized orientation in the active site shows that the acyloxyphenyl orientation matches the tilt of the large pocket in CVL. The catalytic histidine, His285, forms key hydrogen bonds to the transition state analog. P indicates the location of phosphorus.
+
+(a)
+
+(b) Large pocket O O 4'
+
+(c) Large pocket
+
+P
+
+O O 5 P O Ser 87
+
+S Direction of view Medium pocket
+Current Opinion in Chemical Biology
+
+His 285 Medium pocket
+
+degree of enantioselectivity. There are a number of reasons for this difficulty, outlined below.
+Modeling the transition state
+
+Researchers model proteins using molecular mechanics. This method starts with the incorrect theory for molecular structure. (Calculation using the correct theory -- quantum mechanics -- are too slow for routine use.) Molecular mechanics treats atoms as balls and bonds as springs using classical physics. Researchers have empirically adjusted the equations and parameters to match experimental results. A set of equations and parameters is called a force field and most molecular modelling programs can choose among several force fields. Organic chemists usually use the force field MM2 (or later MM3). AMBER is a better force field than MM2 for proteins and nucleotides, however, because it treats electrostatic interactions more comprehensively. Molecular mechanics cannot directly model a transition state because force fields can be fitted to stable molecules only. To get around this problem, researchers either model a stable transition state analog or use a mixed quantum mechanics/molecular mechanics approach. An example of the stable transition state analog approach is to use phosphonates, which can be modeled using molecular mechanics, to mimic the transition state for ester hydrolysis. The disadvantage is that these analogs only approximate the true transition state [23]. The mixed quantum mechanics/molecular mechanics approach first uses quantum mechanics to model the
+
+transition state in the gas phase. The model is then transferred to the enzyme and the calculation is continued using molecular mechanics. Recently, Colombo et al. [24·] improved this method by using quantum mechanics to calculate the transition state not in the gas phase, but in the active site. The distribution of partial charges changed significantly and the subsequent calculations more closely matched experimental results.
+Finding the global minimum
+
+Another difficulty is finding the global minimum for transition-state-enzyme complexes. Energy minimization finds only the closest local minimum and researchers must use additional methods to find the global minimum. The most common methods are systematic search (for a substrate with three or fewer rotatable bonds), Monte Carlo (a method of generating random conformations), and molecular dynamics (creates a very short movie of molecular motion) [25]. Researchers most often use molecular dynamics [26]. Most problems are too large for systematic search and Monte Carlo methods are often inefficient because conformational change in the complexes usually involves cooperative motion, which is modeled poorly using Monte Carlo methods. Molecular dynamics relaxes both the enzyme and the transition state, so it is better than a simple minimization. This method does not necessarily find the global minimum, however, as the simulation time must be very short and thus, explores only nearby conformations. There is usually an energy barrier separating
+
+Molecular modeling and biocatalysis: explanations, predictions, limitations, and opportunities Kazlauskas
+
+85
+
+Figure 6 Enantioselectivity of CRL toward carboxylic acids and esters. (a) Empirical rule summarizes observations. The fast-reacting enantiomer usually has the shape shown. A few carboxylic acids do not follow this rule, however. (b) Modeling suggests that large substituents bind in a tunnel. (c) Modeling shows that branched substituents cannot fit in the tunnel. Substrates containing a highly branched large substituent often do not follow the empirical rule. (a) HOOC L (b) Acyl-binding tunnel H M (c) CH3 S OEt H Fast O S CH3 S OEt H SlowO S H3C R OEt H Slow O Follows rule (E > 50) H3C R OEt H O Fast Exception (E = 3.6)
+Current Opinion in Chemical Biology
+
+local minima. Molecular dynamics will cross only the small barriers and thus misses minima located beyond a larger barrier. An example of the difficulty of the global minimum problem comes in defining the conformation of the slow-reacting enantiomer of a secondary alcohol in the active site of a lipase. This is an essential step for calculating enantioselectivity because the researcher must define the catalytically-productive orientation for both the fast and slow reacting enantiomers. The alcohol-binding pocket in lipases consists of a large and a medium pocket. Most researchers agree on the productive orientation of the fast-reacting enantiomer (Figure 8). The productive orientation of the slow-reacting enantiomer, however, is more difficult to define. Earlier X-ray structures of transition state analogs bound to CRL suggested that the slow enantiomer reacts via an H/O permutation. In the H/O permutation the hydrogen and alcohol oxygen substituents exchange places relative to their orientation in the fast-reacting enantiomer. However, a molecular modeling study of PCL and CRL with several secondary alcohols suggested that mistakes occur via an M/L permutation (where M and L are the medium and large pockets, respectively), not the H/O permutation seen in the X-ray structure [4]. Similarly, modeling with another lipase, Candida antarctica lipase B (CAL-B), also suggested that the slow enantiomer reacts via an M/L permutation [27,28,29·]. Finally, Nakamura et al. [30,31] suggested that PCL makes mistakes via an M/H permutation. Obviously, if the conformation of the slow enantiomer is incorrect, then the predicted enantioselectivity will also be incorrect. Although some of these proposals are clearly contradictory, more than one might be correct. The orientation may differ for different lipases or even for different secondary alcohols with a single lipase. For example, it is reasonable that CRL with its large, open alcohol-binding site and CAL-B with its narrow, deep alcohol-binding site might make mistakes by different pathways.
+
+A subtler problem in finding the global minimum occurs when two calculations yield the `same' structure, but with slightly different energies. The energies differ because of small, presumably unimportant, differences far from the active site. For example, water molecules or sidechain orientation may differ on the surface of the enzyme. Minimization/molecular dynamics do not relax all such difference. One solution to this problem is careful model building. If one intends to compare two structures, then one should build and minimize one, then carefully modify it to the other structure in a manner that does not introduce unwanted differences. Hæffner et al. [29·] suggested another solution to this problem. Instead of calculating the energies for the whole enzyme-transition-state complex, they calculated interaction energies only for the transition state and selected nearby residues. This approach eliminated presumably unimportant differences far from the active site and gave much closer agreement with measured enantioselectivities.
+
+Entropy of activation
+The enantioselectivity of an enzyme, originates in the free energy difference between the diastereomeric transition states for reaction of the enantiomers, G. This free energy difference consists of an enthalpic part, H, and a temperature-dependant entropic part, S: G = ­RT ln S = H - TS However, modeling yields only the H term in a straightforward manner; calculation of the entropic part is much more difficult. Until now, most researchers ignored the entropic term, assuming it to be small. Recent experimental measurements, however, (by measuring how enantioselectivity varies with temperature) show entropies of activation similar in size to the enthalpy of activation [32,33]. Neglecting the entropy term would be valid only if both transition state complexes were equally rigid (both the substrate and enzyme sidechains) and if the solvent interacted equally with both transition state complexes.
+
+86
+
+Biocatalysis and biotransformation
+
+Figure 7 (b) Flexible -bond in R group sn-1 favored O Hydrolysis O Leu258 R O 5 C8H17 R= O O Flexible O 5 H sn -2 sn -3 O Alternate hydrophobic pocket (hydrophobic dent) E= Wild type 1 C8H17 4 5 L258F 2 N H R= O C6H13 Rigid 8 22 5 C8H17 Leu258 H O sn -1 Hydrolysis O R sn -2 sn -1 O Alternate hydrophobic pocket (hydrophobic dent) E= Wild type 5 L258F 14 C8H17 5 Rigid -bond in R group sn-3 favored O sn -3 C8H17 5
+
+(a)
+
+Current Opinion in Chemical Biology
+
+Enantioselectivity of ROL toward triacylglycerols and analogs varies with the nature of the R substituent at the sn-2 position. Researchers identified a steric clash between the substituent and Leu258. (a) Substrates with flexible substituents can avoid this clash and react at the sn-1 position. (b) Substrates with rigid substituents rotate so
+
+that the sn-3 position reacts. In both (a) and (b), the enantioselectivity (E) is compared for the wild type and L258F mutant (using single letter code for amino acids). The mutant showed increased enantioselectivity for the rigid substrates because the larger size of Phe increased the steric clash.
+
+One can calculate free energies using free energy perturbation or thermodynamic integration methods. Columbo et al. [24·] used free energy perturbation methods to calculate the enantioselectivity of subtilisin. The calculated value (G = 1.25 ± 0.5 kcal/mol) was close to the experimental value (0.4 kcal/mol), but still inexact. The authors attribute their success mainly to a better assignment of partial charges in the transition state, not the free energy calculation. Improved computational methods to calculate free energy continue to be an active area of research [34­36].
+Solvation
+
+changes. Ke and Klibanov [38] studied the enantioselectivity of chymotrypsin in the acylation of a prochiral diol. They found that the transition state leading to acylation at the proR hydroxyl placed the 3,5-dimethoxyphenyl moiety in an enzyme pocket, whereas the transition state leading to acylation of the pro-S hydroxyl left this aryl moiety exposed to solvent. They correlated the enantioselectivity with the thermodynamic activity coefficients of the exposed aryl portion. This was not a quantitative prediction of enantioselectivity, but a correlation of better solvation of exposed portions with higher enantioselectivity. However, Colombo et al. [39] found that this method did not work for two other substrates. Recent experiments also suggest that amino acids that do not contact the substrate can also significantly influence selectivity. For example, residue 225 in thrombin, which makes no direct contact with the substrate, has a dramatic influence on selectivity. X-ray structures of several mutants show that this residue influences the shape of the water channel near the substrate binding site [40].
+
+Most computer modeling calculations include water molecules found in the crystal structure, but not additional solvent water molecules. The effect of solvent water is usually treated as a distance-dependent dielectric, that is, the dielectric shielding increases with distance, mimicking solvation. Ke et al. [37] used an improved method to model solvent water, a continuum electrostatic model, but the results were similar to those of the simpler model. This incomplete treatment of solvation is clearly an approximation. Solvent can change enzyme selectivity, although researchers still disagree on why this occurs. Klibanov's group proposed that different solvation of the diastereomeric enzyme­substrate complexes causes these
+
+New opportunities for modeling: oxynitrilase and dioxygenases
+The X-ray structure of oxynitrilase (solved several years ago [41], but recently refined at much higher resolution [42]) suggested that the reaction involves a tetrahedral hemiacetal
+
+Molecular modeling and biocatalysis: explanations, predictions, limitations, and opportunities Kazlauskas
+
+87
+
+Figure 8 (a) His O M H L (b) His O H M L H/O permutation His O M H L His O H M L
+
+suggest that antibody stabilizes the partial positive charge that develops during formation of the six-membered ring better than that during formation of the five-membered ring. Coxon and Thorpe also identify a hydrogen bond that might also contribute to this selectivity.
+
+References and recommended reading
+Papers of particular interest, published within the annual period of review, have been highlighted as:
+
+M/L permutation
+
+M/H permutation
+
+Current Opinion in Chemical Biology
+
+· of special interest ·· of outstanding interest
+1. ·· DeSantis G, Jones JB: Toward understanding and tailoring the specificity of synthetically useful enzymes. Accounts Chem Res 1999, 32:99-107. An excellent review on structure-based explanation and design of enzymes, especially chymotrypsin, subtilisin, and lactate dehydrogenase. 2. Weissfloch ANE, Kazlauskas RJ: Enantiopreference of lipase from Pseudomonas cepacia toward primary alcohols. J Org Chem 1995, 60:6959-6969. Tuomi WV, Kazlauskas RJ: Molecular basis for enantioselectivity of lipase from Pseudomonas cepacia toward primary alcohols. Modeling, kinetics and chemical modification of Tyr29 to increase or decrease enantioselectivity. J Org Chem 1999, 64:2638-2647. Zuegg J, Hönig H, Schrag JD, Cygler M: Selectivity of lipases: conformational analysis of suggested intermediates in ester hydrolysis of chiral primary and secondary alcohols. J Mol Catal B 1997, 3:83-98. Lang DA, Mannesse MLM, De Haas GH, Verheij HM, Dijkstra BW: Structural basis of the chiral selectivity of Pseudomonas cepacia lipase. Eur J Biochem 1998, 254:333-340. Allain EJ, Hager LP, Deng L, Jacobson EN: Highly enantioselective epoxidation of disubstituted alkenes with hydrogen peroxide catalyzed by chloroperoxidase. J Am Chem Soc 1993, 115:4415-4416. Zaks A, Dodds DR: Chloroperoxidase-catalyzed asymmetric oxidations: substrate specificity and mechanistic study. J Am Chem Soc 1995, 117:10419-10424. Sundaramoorthy M, Terner J, Poulos TL: Stereochemistry of the chloroperoxidase active site: crystallographic and molecularmodeling studies. Chem Biol 1998, 5:461-473. Dexter AF, Lakner FJ, Campbell RA, Hager LP: Highly enantioselective epoxidation of 1,1-disubstituted alkenes catalyzed by chloroperoxidase. J Am Chem Soc 1995, 117:6412-6413.
+
+Proposed catalytically productive orientations of secondary alcohols in the active site of lipases. (a) Researchers agree that that catalytically productive orientation for the fast-reacting enantiomer has the medium and large substituents in their respective pockets and the alcohol oxygen pointing toward the catalytic histidine. (b) Several possible orientations have been proposed for the slow-reacting enantiomer, however.
+
+3.
+
+intermediate formed by nucleophilic attack on the substrate by Ser80, stabilized by the oxyanion hole. However, more recent structures of substrate­oxynitrilase complexes [43] suggest a different mechanism. The hemiacetal appears not to be involved. Thus, the oxynitrilase acts by activating the substrate for nucleophilic attack by hydrogen bonding to the carbonyl oxygen (via the oxyanion hole) and by directing the addition of cyanide. This modification to the mechanism will make modeling simpler. The structure of naphthalene dioxygenase was solved recently [44]. This dioxygenase has the commercial application of oxidizing indole to indigo. The catalytic subunit has a narrow gorge and possibly a lid covering part of the gorge. The related toluene dioxygenase is widely used for synthesis of chiral diols [45]. We have created a homology model of toluene dioxygenase based on the naphalene dioxygenase structure (RJ Kazlauskas, unpublished data). It may be possible to explain the enantioselectivity and regioselectivity of this enzyme using this model.
+
+4.
+
+5.
+
+6.
+
+7.
+
+8.
+
+9.
+
+Conclusions
+Qualitative modeling to guide reaction design in biocatalysis works well for hydrolases. The same approach is beginning to be used on a wider range of biocatalysts as structures appear. In the longer term, improvements in quantitative modeling to predict degree of enantioslectivity are expected.
+
+10. Zhang M, Kazlauskas R: First preparation of enantiopure indane  monomer, (S)-(­)- and (R)-(+)-2,3-dihydro-3-(4-hydroxyphenyl)-1,1,3trimethyl-1H-inden-5-ol, via a unique enantio- and regioselective enzymatic kinetic resolution. J Org Chem 1999, 64:7498-7503. 11. Janes LE, Cimpoia A, Kazlauskas RJ: Protease-mediated separation of cis and trans diastereomers of 2-(R,S)-benzyloxymethyl-4-(S)carboxylic acid-1,3-dioxolane methyl ester: intermediates for the synthesis of dioxolane nucleosides. J Org Chem 1999, 64:9019-9029. 12. Li T, Janda KD, Ashley JA, Lerner RA: Antibody catalyzed cationic cyclization. Science 1994, 264:1289-1293. 13. Gruber K, Zhou B, Houk KN, Lerner RA, Shevlin CG, Wilson IA: Structural basis for antibody catalysis of a disfavored ring closure reaction. Biochemistry 1999, 38:7062-7074. 14. Holmquist M, Hæffner F, Norin T, Hult K: A structural basis for enantioselective inhibition of Candida rugosa lipase by long-chain aliphatic alcohols. Protein Sci 1996, 5:83-88. 15. Botta M, Cernia E, Corelli F, Manetti F, Soro S: Probing the substrate specificity for lipases. II. Kinetic and modeling studies on the molecular recognition of 2-arylpropionic esters by Candida rugosa and Rhizomucor miehei lipases. Biochim Biophys Acta 1997, 1337:302-310. 16. Berglund P, Holmquist M, Hult K: Reversed enantiopreference of Candida rugosa lipase supports different modes of binding enantiomers of a chiral acyl donor. J Mol Catal B 1998, 5:283-287.
+
+Note added in proof
+Coxon and Thorpe [46] have now reported an alternative transition-state structure to that reported by Gruber et al. [13]. This structure helps to explain the unusual ring-closure reaction reported by Janda and co-workers [12]. Coxon and Thorpe structures lie lower in energy because the rings adopt a less crowded conformation. This result indicates that the structures by Gruber et al. were local minima, not global minima. Nevertheless, Coxon and Thorpe propose a similar explanation for why the antibody favors formation of the six-membered ring. Both groups
+
+88
+
+Biocatalysis and biotransformation
+
+17.
+
+Holmquist M, Berglund P: Creation of a synthetically useful lipase with higher than wild-type enantioselectivity and maintained catalytic activity. Org Lett 1999, 1:763-765.
+
+31. Nakamura K, Kawasaki M, Ohno A: Lipase-catalyzed transesterification of aryl-substituted alkanols in an organic solvent. Bull Chem Soc Jpn 1996, 69:1079-1085. 32. Overbeeke PLA, Orrenius SC, Jongejan JA, Duine JA: Enthalpic and entropic contributions to lipase enantioselectivity. Chem Phys Lipids 1998, 93:81-93. 33. Overbeeke PLA, Ottosson J, Hult K, Jongejan JA, Duine JA: The temperature dependence of enzymatic kinetic resolutions reveals the relative contribution of enthalpy and entropy to enzymatic enantioselectivity. Biocatal Biotransform 1999, 17:61-79. 34. Helms V, Wade RC: Computational alchemy to calculate absolute protein­ligand binding free energy. J Am Chem Soc 1998, 120:2710-2713. 35. Massova I, Kollman PA: Computational alanine scanning to probe protein­protein interactions: a novel approach to evaluate binding free energies. J Am Chem Soc 1999, 121:8133-8143. 36. Stanton RV, Perakyla M, Bakowies D, Kollman PA: Combined ab initio and free energy calculations to study reactions in enzymes and solution -- amide hydrolysis in trypsin and aqueous solution. J Am Chem Soc 1998, 120:3448-3457. 37. Ke T, Tidor B, Klibanov AM: Molecular-modeling calculations of enzymic enantioselectivity taking hydration into account. Biotechnol Bioeng 1998, 57:741-745.
+
+18. Holzwarth HC, Pleiss J, Schmid RD: Computer-aided modelling of stereoselective triglyceride hydrolysis catalyzed by Rhizopus oryzae lipase. J Mol Catal B 1997, 3:73-82. 19. Scheib H, Pleiss J, Stadler P, Kovac A, Potthoff AP, Haalck L, · Spener F, Paltauf F, Schmid RD: Rational design of Rhizopus oryzae lipase with modified stereoselectivity toward triradylglycerols. Protein Eng 1998, 11:675-682. Detailed modelling plus site-directed mutagenesis is used to confirm the modelling. The paper explains the surprising reversals in enantioselectivity 20. Scheib H, Pleiss J, Kovac A, Paltauf F, Schmid RD: Stereoselectivity of Mucorales lipases toward triacylglycerols: a simple solution to a complex problem. Protein Sci 1999, 8:215-221. 21. De Voss JJ, Sibbesen O, Zhang Z, Ortiz de Montellano PR: Substrate docking algorithms and prediction of the substrate specificity of cytochrome P450cam and its L244A mutant. J Am Chem Soc 1997, 119:5489-5498. 22. Zhang Z,Sibbesen O, Johnson RA, Ortiz de Montellano PR: The substrate specificity of cytochrome P450cam. Bioorg Med Chem 1998, 6:1501-1508. 23. Tantillo DJ, Houk KN: Fidelity in hapten design: how analogous are phosphonate haptens to the transition states for alkaline hydrolysis of aryl esters. J Org Chem 1999, 64:3066-3076. 24. Colombo G, Toba S, Merz KM Jr: Rationalization of the · enantioselectivity of subtilisin in DMF. J Am Chem Soc 1999, 121:3486-3493. A state-of-the-art attempt to quantitatively predict enantioselectivity. The study uses an improved partial charge calculation for the transition state and free energy calculations. 25. Howard AE, Kollman PA: An analysis of current methodologies for conformational searching of complex molecules. J Med Chem 1998, 31:1669-1675. 26. Orrenius C, van Heusden C, van Ruiten J, Overbeeke PLA, Kierkels H, Duine JA, Jongejan JA: Simple conformation space search protocols for the evaluation of enantioselectivity of lipases. Protein Eng 1998, 11:1147-1153. 27. Orrenius C, Hæffner F, Rotticci D, Ohrner N, Norin T, Hult K: Chiral recognition of alcohol enantiomers in acyl transfer reactions catalysed by Candida antarctica lipase B. Biocatal Biotransform 1998, 16:1-15.
+
+38. Ke T, Klibanov AM: Insights into the solvent dependence of chymotryptic prochiral selectivity. J Am Chem Soc 1998, 120:4259-4263. 39. Colombo G, Ottolina G, Carrea G, Bernardi A, Scolastico C: Application of structure-based thermodynamic calculations to the rationalization of the enantioselectivity of subtilisin in organic solvents. Tetrahedron -- Asymmetry 1998, 9:1205-1214. 40. Guito ER, Caccia S, Rose T, Fütterer K, Waksman G, di Cera E: Unexpected crucial role of residue 225 in serine proteases. Proc Natl Acad Sci USA 1999, 96:1852-1858. 41. Wagner UG, Hasslacher M, Griengl H, Schwab H, Kratky C: Mechanism of cyanogenesis: the crystal structure of hydroxynitrile lyase from Hevea brasiliensis. Structure 1996, 4:811-822. 42. Gruber K, Gugganig M, Wagner UG, Kratky C: Atomic resolution crystal structure of hydroxynitrile lyase from Hevea brasiliensis. Biol Chem 1999, 380:993-1000. 43. Zuegg J, Gruber K, Gugganig M, Wagner UG, Kratky C: Threedimensional structures of enzyme­substrate complexes of the hydroxynitrile lyase from Hevea brasiliensis. Protein Sci 1999, 8:1990-2000. 44. Kauppi B, Lee K, Carredano E, Parales RE, Gibson DT, Eklund H, Ramaswamy S: Structure of an aromatic-ring-hydroxylating dioxygenase ­ naphthalene 1,2-dioxygenase. Structure 1998, 6:571-586. 45. Hudlicky T, Gonzalez D, Gibson DT: Enzymatic dihydroxylation of aromatics in enantioselective synthesis: expanding asymmetric methodology. Aldrichimica Acta 1999, 32:35-62. 46. Coxon JM, Thorpe AJ: Theozymes for intramolecular ring cyclization reactions. J Am Chem Soc 1999, 121:10955-10957.
+
+28. Rotticci D, Hæffner F, Orrenius C, Norin T, Hult K: Molecular recognition of sec-alcohol enantiomers by Candida antarctica lipase B. J Mol Catal B 1998, 5:267-272. 29. Haeffner F, Norin T, Hult K: Molecular modeling of the · enantioselectivity in lipase-catalyzed transesterification reactions. Biophys J 1998, 74:1251-1262. A careful attempt to predict enantioselectivity quantitatively. Subsets of amino-acid residues that interact with substrates are defined. 30. Nakamura K, Kawasaki M, Ohno A: Effects of substrate structure on lipase-catalyzed transesterification of -substituted 1-alkanols in organic solvents. Bull Chem Soc Jpn 1994, 67:3053-3056.
+
+

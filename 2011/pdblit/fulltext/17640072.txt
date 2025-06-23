@@ -1,0 +1,140 @@
+proteins
+STRUCTURE O FUNCTION O BIOINFORMATICS
+
+STRUCTURE NOTE
+
+X-ray structure of imidazolonepropionase ° from Agrobacterium tumefaciens at 1.87 A resolution
+Rajiv Tyagi,1 Desigan Kumaran,1 Stephen K. Burley,2 and Subramanyam Swaminathan1*
+1 Biology Department, Brookhaven National Laboratory, Upton, New York 11973 2 SGX Pharmaceuticals, Inc., San Diego, California 92121
+
+Key words: amidohydrolase; TIM barrel; histidine degradation; hinge motion; open conformation.
+
+INTRODUCTION Histidine degradation in Agrobacterium tumefaciens involves four enzymes, including histidase (EC 4.3.1.3), urocanase (EC 4.2.1.49), imidazolonepropionase (EC 3.5.2.7), and N-formylglutamate amidohydrolase (EC 3.5.3.8). The third enzyme of the pathway, imidazolonepropionase, a 45.6 kDa protein, catalyzes conversion of imidazolone-5-propanoate to N-forminio-L-glutamate (Fig. 1). Initial studies of the role of imidazolonepropionase in histidine degradation were published in 1953.1 Subsequent publications have been limited to enzyme kinetics,2 crystallization,3 and a recently reported structure determination.4 The imidazolonepropionases are members of metallodependent-hydrolases (or amidohydrolase) superfamily, which includes ureases, adenosine deaminases, phosphotriesterases, dihydroorotases, allantoinases, hydantoinases, adenine and cytosine deaminases, imidazolonepropionases, aryldialkylphosphatases, chlorohydrolases, and formylmethanofuran dehydrogenases.5 Proteins belonging to this large group share a common three-dimensional structural motif (an eightfold a/b or TIM barrel) with similar active sites.5 Most superfamily members also share a conserved metal binding site, involving four histidine residues and one aspartic acid. Imidazolonepropionase is one of the targets selected for X-ray crystallographic structure determination by the New York Structural GenomiX Research Consortium (NYSGXRC) (Target ID: 9252b) to correlate the structure function relationship of poorly studied but important enzyme. Here we report the crystal structure of imidazo-
+
+lonepropionase from Agrobacterium tumefaciens deter° mined at 1.87 A resolution. MATERIALS AND METHODS
+Protein production
+
+The target gene for 9252b was amplified using polymerase chain reaction from Agrobacterium tumefaciens genomic DNA using a Forward (CCAGGGAACAA TTCTGCGAAGG) and a reverse (CTGGAGAAACCT TCTGTCCCTTG) primer. The amplified gene was gel purified and cloned into BC-pSGX3 vector designed to express the protein of interest with a C-terminal hexa-histidine affinity tag. Protein expression/purification utilized previously published protocols, which are described in detail in PepcDB (www.rcsb.org).
+Crystallization, data collection, and structure determination
+
+Crystals were obtained in the monoclinic space group C2 (two molecules/asymmetric unit) via sitting drop
+
+The Supplementary Material referred to in this article can be found online at http://www.interscience.wiley.com/jpages/0887-3585/suppmat/ Grant sponsor: National Institutes of Health; Grant number: GM074945; Grant sponsor: Brookhaven National Laboratory; Grant number: DEAC02-98CH10886. *Correspondence to: S. Swaminathan, Biology Department, Brookhaven National Laboratory, Upton, NY 11973. E-mail: swami@bnl.gov Received 20 December 2006; Revised 16 March 2007; Accepted 28 March 2007 Published online 19 July 2007 in Wiley InterScience (www.interscience.wiley.com). DOI: 10.1002/prot.21559
+
+652
+
+PROTEINS
+
+C V 2007 WILEY-LISS, INC. This article is a US Government work and, as such, is in the public
+
+domain in the United States of America.
+
+X-ray Structure of Imidazolonepropionase
+
+Figure 1
+Reaction catalyzed by Imidazolonepropionase.
+
+vapor diffusion at 208C against a reservoir solution containing 25% (w/v) PEG 3350, 0.1M Bis-Tris pH 5.5, and 0.2M MgCl2 (2 lL of protein at 30 mg/mL plus 2 lL of reservoir solution). Crystals were flash frozen by direct
+
+immersion in liquid nitrogen following cryoprotection with 20% glycerol. Initial attempts to determine the structure using sulfur ° anomalous signal (data collected at 1.7 A) met with no success. This also happens to be the absorption edge of Fe. Interestingly, though we could locate the positions of the two iron atoms (the top two peaks), the signal was not good enough for phasing. MAD data collected near iron edge was also not successful. Crystals were, therefore, soaked in a mother liquor solution containing 2.5 mM HgCl2 for 5 min for Hg-MAD data collection. Two° wavelength MAD diffraction data collection at 2.1 A resolution was performed under standard cryogenic conditions using NSLS Beamline X12C (National Synchrotron Light Source, Brookhaven National Laboratory) and the data were processed using HKL2000.6 Two mercury sites with comparable occupancy were identified using
+
+Table I
+Data Collection, Phasing, and Refinement Statistics
+
+Crystal I (Hg-MAD) Data set Peak a ¼ 138.69 b ¼ 63.71 c ¼ 104.76 b ¼ 112.768 C2 1.0062 50.0­2.09 2.16­2.09 5,0315 (4924) 98.8 (98.3) 15.9 7.2 (6.2) 0.072 0.862 0.40/0.45 0.93 1.0091 50.0­2.10 2.16­2.10 4,9901 (4818) 99.7 (97.0) 15.4 7.0 (5.9) 0.064 0.553 0.40/0.45 0.93 Edge
+
+Crystal II (refinement) Native a ¼ 140.75 b ¼ 63.63 c ¼ 103.71 b ¼ 111.938 C2 0.979 50.0­1.87 1.99­1.87 6,9172 (9241) 99.0 (97.6) 6.7 3.8 (3.2) 0.18
+
+Cell dimensions Space group Data collection statistics Wavelength () Resolution range () Outermost shell () Unique reflections Completeness (%) Mean I/r(I) Redundancy Rmergea Phasing statistics Phasing powerb (ano) FOMc (centric/acentric) After density modification Refinement statistics No. of reflections (work) No. of reflections (test) Rfactord/Rfreee Resolution range () R.M.S.D. bond lengths () R.M.S.D. bond angles (8) <B-values> Main-chain (2) Sidechain (2) Number of non-H atoms Heteroatoms Water molecules
+
+68837 3475 0.20/0.23 23.64­1.87 0.005 1.2 27.0 31.4 3022 11 496
+
+Values for P highest resolution shell are given within parentheses. the P a Rmerge ¼ |IiÀhIi|/ |Ii| where Ii is the intensity of the ith measurement, and hIi is the mean intensity for that reflection. b Phasing power as defined in SHARP. c FOM (Figure of merit) as defined in SHARP. P P d Rfactor ¼ ||Fobs|À |Fcalc||/ |Fobs|, where |Fcalc| and |Fobs| are the calculated and observed structure factor amplitudes, respectively. e Rfree ¼ as for Rfactor , but for 5% of the total reflections chosen at random and omitted from refinement.
+
+DOI 10.1002/prot
+
+PROTEINS
+
+653
+
+R. Tyagi et al.
+
+SHELXD7 and phases were refined using SHARP8 (see Table I for phasing statistics). The final experimental electron density map was of high quality allowing automated model building of $90% of the polypeptide chain with ARP/wARP.9 The final atomic model was refined using CNS10 with high resolution native diffraction data ° (1.87 A) recorded at SGX-CAT (31-ID APS; Advanced Photon Source, Argonne National Laboratory). PROCHECK11 documented $90% residues in the most favorable region of the Ramachandran plot. Two histidine residues (His279 in both halves of the asymmetric unit) with unambiguous electron density at the C-terminus of a b-strand before a b-turn adopt disallowed (u, w) values. The final refined atomic model contains two copies of residues 17­420 plus two iron (Fe3þ) and magnesium (Mg2þ) cations, one chloride anion, and one glycerol molecule, plus 496 water molecules (Table I). Atomic coordinates and structure factors have been deposited with the Protein Data Bank (www.rcsb.org; PDB ID Code: 2gok). RESULTS AND DISCUSSION The asymmetric unit contains two structurally similar polypeptide chains (Supplementary Material 1), with ° root-mean-square-deviation (R.M.S.D.) of 0.38 A for 404 common a-carbon atomic pairs. Each monomer is composed of two domains, a small domain [residues 17­80 and 380­420; Fig. 2(A)] and a large TIM barrel domain [residues 81­380; Fig. 2(B)].
+Structural homologs
+
+A dimer interface analysis performed using PDBSUM15 ° showed that each monomer buries 1718 A2 of solventaccessible area upon dimerization, which exceeds values typically found in interacting surfaces for a protein of this size.16 However, in the size exclusion chromatography, the protein eluted as a monomer suggesting that the dimer in the crystal may be an artifact of crystallization. At least 33 residues from each monomer are involved in dimer formation, with 12 direct hydrogen bonding interactions stabilizing the dimer.
+Active site and catalysis
+
+At the time of structure submission to the PDB, a DALI12 search revealed 16 structural homologues in the PDB with Z-score >10, all of which are members of the amidohydrolase superfamily. The closest of these is E. coli cytosine deaminase (PDB ID Code: 1k6w) with Z-score ¼ 35.3 and amino acid sequence identity of 19%. Although the R.M.S.D. between 289 common a-carbon pairs is 2.0 ° ° A, the active sites are extremely similar (R.M.S.D. ¼ 0.3 A for the five active site residues superposed; Fig. 3). Recently, the structure of imidazolonepropionase from Bacillus subtilis has been published4 (PDB ID Code: 2g3f) ° and shows a Z-score of 58.3 with an R.M.S.D. of 1.8 A between 392 common a-carbon pairs [Fig. 4(A)]. The sequence identity between these two is 42%. A multiple sequence alignment of imidazolonepropionase sequences from various organisms performed using ClustalW13 and edited using BioEdit14 shows the conservation of all active site residues (Supplementary Material 2).
+Dimerization
+
+Each active site is wholly contained within each monomer and is located within the TIM barrel domain [Fig. 2(B)]. The organization of the active site displays all of the hallmarks of amidohydrolase superfamily members,17 with a metal ion (Fe3þ), four histidine residues (86, 88, 256, and 279), and one aspartic acid (331) (Fig. 5). The iron cation (Fe3þ) is coordinated by four nearby active ° ° ° site residues (His86­2 A; His88­2.2 A; His256­2.4 A, and ° ) and a water nucleophile (X188­2.1 A) ° Asp331­2.4 A (Fig. 5). The arrangement of active site residues is very similar to that seen in E. coli cytosine deaminase (R.M.S.D. ¼ ° 0.3 A; Fig. 3). The relative positions of the metal ion and the nucleophilic water are also similar between the two structures. However, there is no conservation of substrate binding residues in two structures resulting in the different specificity of the substrates. Functionally equivalent residues involved in coordinating the metal ion and nucleophilic water between 2gok:1k6w are as follows: His86:His61, His88:His63, His256:His214, His279:His246, and Asp331:Asp313 (Fig. 3). In the presence of substrate, the Fe3þ cation can act as an electrophile to help activate the water nucleophile ° (X188) and promote substrate attack. His279 (2.9 A) and ° ) are within hydrogen bonding distance to Asp331 (3.0 A X188, where one or both of these residues could help position an activated hydroxyl nucleophile and possibly act as the general base during activation.18
+Comparison of 2g3f and 2bb0
+
+In the crystalline state, two enzyme molecules form a tightly packed homodimer (Supplementary Material 1).
+
+2gok was the first imidazolonepropionase structure to be submitted to the PDB. However, now the structure of imdizolonepropioanse from B. subtilis is available in complex with imidazole-4-acetic acid, a substrate analogue (PDB ID Code: 2g3f), and in the presence of acetate-ion (PDB ID Code: 2bb0). Both structures have bound Zn2þ metal ion. However, in our structure Fe3þ is present at the active site that was confirmed by X-ray fluorescence analysis performed in X12C beamline at NSLS. It has been further confirmed by Inductively Coupled Plasma Mass Spectrometry analysis (Personal communication, F. Raushel).
+DOI 10.1002/prot
+
+654
+
+PROTEINS
+
+X-ray Structure of Imidazolonepropionase
+
+The two structures superimpose well in most of the regions [Fig. 4(A)] except between Ala96 and Lys114 (2gok numbering). To further investigate the importance of this region that is very different in three structures: 2gok, 2g3f, and 2bb0, a HINGEprot19 analysis was performed. The results of hingeprot indicate the presence of two hinge residues (Cys85 and Asp124) responsible for two possible conformation [open and closed; Fig. 4(B)] of the flap (loop with two short helix). The two confor° mations are 13 A apart from each other, considering the extreme position at Thr107 (C alpha atom) present at the tip of flap. In 2gok, the loop (Thr107, C alpha atom) ° is 4.5 and 12 A away from Thr107 of closed and open conformations, respectively, as predicted by hingeprot. Though 2bb0 is the structure of the native protein, the flap takes a closed conformation. This is probably because the acetate ion present at the active site mimics the substrate causing the flap to take a closed conformation. This possibility is further strengthened by the fact that side chain of Arg89 changes conformation in going from open to close and the terminal side chain NH2 near the hinge residue interacts strongly with the acetate
+
+Figure 3 Figure 2
+A: Ribbons representation of a monomer (prepared with MOLSCRIPT21 and Raster3D22). B: TIM barrel domain with Fe3þ (purple) (prepared with MOLSCRIPT21 and Raster3D22). Overlay of active site of 2gok and 1k6w. Overlay of the active sites of A. tumefaciens imidazolonepropionase (2gok, green) and E. coli cytosine deaminase (1k6w, sky blue; Fe3þ, magenta; nucleophilic water molecule-X188, red) (prepared with PyMol23).
+
+DOI 10.1002/prot
+
+PROTEINS
+
+655
+
+R. Tyagi et al.
+
+Figure 4
+A: Stereoview of overlay of 2gok and 2g3f and 2bb0. The Stereoview of the superposition of a-carbon atom of 2gok (red), 2g3f (green), and 2bbo (blue) showing open (2gok) and closed (2g3f and 2bb0) conformation in three structures. The yellow ball represents the metal ion whereas the green stick represents the substrate analogue. The acetate ion is shown in sky blue. B: The zoom view overlay of 2gok and 2g3f and 2bb0 showing open and closed conformations. The zoom view of the superposition of a-carbon atoms of the relevant region of 2gok (red), 2g3f (green), and 2bbo (blue) showing open (2gok) and closed (2g3f and 2bb0) conformation in three structures. The yellow ball represents the metal ion whereas the green stick represents the substrate analogue imidazole-4-acetic acid, sky blue acetate-ion (prepared with PyMol23).
+
+656
+
+PROTEINS
+
+DOI 10.1002/prot
+
+X-ray Structure of Imidazolonepropionase
+
+Environmental Research and of Basic Energy Sciences of the US Department of Energy, and from the National Center for Research Resources of the National Institutes of Health. Use of the SGX Collaborative Access Team (SGX-CAT) beamline facilities at Sector 31 of the APS was provided by SGX Pharmaceuticals, Inc., who constructed and operates the facility. Use of the APS was supported by the US Department of Energy, Office of Science, Office of Basic Energy Sciences, under Contract No. W-31-109-Eng-38.
+
+REFERENCES
+1. Borek BA, Waelsch H. The enzymatic degradation of histidine. J Biol Chem 1953;205:459­474. 2. Gerald RS, Yeheskel SH, Boris M. Genetic and metabolic control of enzymes responsible for histidine degradation in Salmonella typhimurium. 4-imidazolone-5-propionate amidohydrolase and Nformimino-L-glutamate formiminohydrolase. J Biol Chem 1971;246: 3320­3329. 3. Yu Y, Li L, Zheng X, Liang YH, Su XD. Protein preparation, crystallization and preliminary X-ray analysis of imidazolonepropionase from Bacillus subtilis. Biochim Biophys Acta 2006;1764:153­ 156. 4. Yamei Y, Liang Y-H, Brostromer E, Quan J-M, Panjikar S, Dong Y-H, Su X-D. A catalytic mechanism revealed by the crystal structures of the imidazolonepropionase from Bacillus subtilis. J Biol Chem 2006;281:36929­36936. 5. Marchler-Bauer A, Panchenko AR, Shoemaker BA, Thiessen PA, Geer LY, Bryant SH. CDD: a database of conserved domain alignments with links to domain three-dimensional structure. Nucleic Acids Res 2002;30:281­283. 6. Otwinowski Z, Minor W. Processing of X-ray diffraction data collected in oscillation mode. Methods Enzymol 1997;276:307­ 648. 7. Uson I, Sheldrick GM. Advances in direct methods for protein crystallography. Curr Opin Struct Biol 1999;9:643­648. 8. Fortelle EDL, Bricogne G. Maximum-likelihood heavy atom parameter refinement in the MIR and MAD methods. Methods Enzymol 1997;276:472­493. 9. Perrakis A, Morris R, Lamzin VS. Automated protein model building combined iterative structure refinement. Nat Struct Biol 1999;6: 458­463. 10. Brunger AT, Adams PD, Clore GM, DeLano WL, Gros P, Grosse-Kunstleve RW, Jiang JS, Kuszewski J, Nilges M, Pannu NS, Read RJ, Rice LM, Simonson T, Warren GL. Crystallography and NMR system: a new software suite for macromolecular structure determination. Acta Crystallogr Sect D 1998;54 (Part 5):905­ 921. 11. Laskowski RA, MacArthur MW, Moss DS, Thornton JM. PROCHECK: a program to check the stereochemical quality of protein structures. J Appl Cryst 1993;26:283­291. 12. Holm L, Sander C. Protein structure comparison by alignment of distance matrices. J Mol Biol 1993;233:123­138. 13. Thompson JD, Higgins DG, Gibson TJ. CLUSTAL W: improving the sensitivity of progressive multiple sequence alignment through sequence weighting, position-specific gap penalties and weight matrix choice. Nucleic Acids Res 1994;22:4673­4680. 14. Hall T. BioEdit. Biological sequence alignment editor for Windows. NC: North Carolina State University; 1998. 15. Laskowski RA. PDBsum: summaries and analyses of PDB structures. Nucleic Acids Res 2001;29:221­222.
+
+Figure 5
+Active-site interactions. Active site showing nearby b-strands (yellow ribbon), ahelices (red ribbon), and random coil (blue ribbon), plus four histidine residues (His86, His88, His256, and His279) one aspartic acid (Asp331) (atom color coded stick figures; N-blue; C-green; O-red), one iron cation (magenta), one water molecule (red), and selected polar interactions (blue dashed lines) (prepared with PyMol23).
+
+° ion (2.9 A). In view of this we propose that this region takes closed conformation when a substrate binds to the active site. 2gok, the native structure is in open conformation while both 2bb0 and 2g3f take closed conformation because of the presence of a substrate or an acetate ion [Fig. 4(A,B)].
+
+CONCLUSIONS We have determined the crystal structure of an imidazolonepropionase. At the time of publication, this experimental structure was used as a template to compute homology models of 1300 proteins with related sequences (amino acid identity >30%) with the Modweb20 server, as there was no structure available of this protein. Given the structural similarity of the active sites of Agrobacterium tumefaciens imidazolonepropionase with E. coli cytosine deaminase, they may share the same metal-dependent catalytic mechanism.
+
+ACKNOWLEDGMENTS The authors gratefully acknowledge data collection support from beamlines SGX-CAT (31-ID; APS) and X12C (NSLS). Financial support for X12C beamline comes principally from the Offices of Biological and
+DOI 10.1002/prot
+
+PROTEINS
+
+657
+
+R. Tyagi et al.
+
+16. Jones S, Thornton JM. Principles of protein-protein interactions. Proc Natl Acad Sci USA 1996;93:13­20. 17. Holm L, Sander C. An evolutionary treasure: unification of a broad set of amidohydrolases related to urease. Proteins 1997;281: 72­82. 18. Ireton GC, McDermott G, Black ME, Stoddard BL. The structure of Escherichia coli cytosine deaminase. J Mol Biol 2002;315:687­697. 19. HingeProt.bioinfo3d.cs.tau.ac.il/HingeProt/index.html. 20. Eswar N, John B, Mirkovic N, Fiser A, Ilyin VA, Pieper U, Stuart AC, Marti-Renom MA, Madhusudhan MS, Yerkovich B, Sali A.
+
+Tools for comparative protein structure modeling and analysis. Nucleic Acids Res 2003;31:3375­3380. 21. Kraulis PJ. MOLSCRIPT: a program to produce both detailed and schematic plots of protein structures. J Appl Cryst 1991;24: 946­950. 22. Merritt EA, Murphy ME. Raster3D Version 2.0. A program for photorealistic molecular graphics. Acta Crystallogr Sect D 1994;50 (Part 6):869­873. 23. DeLano WL. The PyMOL molecular graphics system. San Carlos, CA: Delano Scientific LLC; 2002. http://www.pymol.org
+
+658
+
+PROTEINS
+
+DOI 10.1002/prot
+
+

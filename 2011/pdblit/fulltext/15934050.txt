@@ -1,0 +1,57 @@
+1,2,3-Triazole as a Peptide Surrogate in the Rapid Synthesis of HIV-1 Protease Inhibitors
+Ashraf Brik,[a] Jerry Alexandratos,[b] Ying-Chuan Lin,[c] John H. Elder,[c] Arthur J. Olson,[c] Alexander Wlodawer,*[b] David S. Goodsell,*[c] and Chi-Huey Wong*[a]
+Given the ubiquitous nature of the peptide linkage in biological molecules, replacement of the amide bond with isosteres in potential drug candidates has been a continual goal of many laboratories. Successful replacements will provide improved stability, lipophilicity, and absorption. Many surrogates have been introduced already,[1] yet the synthesis of many of these isosteres in a combinatorial way is difficult and requires several steps. Thus, the discovery of new peptide surrogates with easier syntheses is an important achievement that could open new opportunities for the study of amide-containing molecules and the development of inhibitors with novel physicochemical properties. We have used the copper(i)-catalyzed azide­alkyne [3+2] cycloaddition[2] as a straightforward reaction for the preparation of inhibitor libraries. Over 100 compounds were synthesized in microtiter plates and screened in situ. Two of these compounds--AB2 (pdb-1zp8) and AB3 (pdb-1zpA)--showed the best activity against wild type and mutant HIV-1 proteases (Table 1).[3] AB2 and AB3, were then computationally docked by using AutoDock3.[4] The docking simulation produced two conformations of approximately equal energy. One conformation placed the triazole in the position normally adopted by the peptide unit--between P2' and P1'--in peptidomimetic compounds. Furthermore, the central nitrogen of the triazole was perfectly positioned to form a hydrogen bond with the water molecule normally found under the protease flaps. This water molecule also formed a hydrogen bond with the sulfonamide as seen in the crystallographic structure of amprenavir when bound to HIV-1 protease.[5] The other conformation positioned the compounds in a similar place, but with the triazole rotated by 180 8. This allowed for a slightly better fit of
+
+Table 1. Binding constants of 1,2,3-triazole compounds to HIV-1 protease. Compound AB2 Ki [nm] IC50 [nm] 6 Æ 0.5 19 Æ 1 39 Æ 1 46 Æ 1 1.7 Æ 0.1 10 Æ 0.5 23 Æ 1 28 Æ 1 Compound AB3 IC50 [nm] Ki [nm] 13 Æ 0.5 n.d. n.d. n.d. 4 Æ 0.5 n.d. n.d. n.d.
+
+Enzyme wt V82F G48V V82A
+
+n.d. = not determined.
+
+[a] Dr. A. Brik, Prof. C.-H. Wong Department of Chemistry and the Skaggs Institute for Chemical Biology The Scripps Research Institute 10550 North Torrey Pines Road, La Jolla, CA 92037 (USA) Fax: (+ 1) 858-784-2409 E-mail: wong@scripps.edu [b] J. Alexandratos, Dr. A. Wlodawer Macromolecular Crystallography Laboratory, NCI at Frederick Frederick, MD 21702 (USA) Fax: (+ 1) 301-846-6322 E-mail: wlodawer@ncifcrf.gov [c] Dr. Y.-C. Lin, Prof. J. H. Elder, Prof. A. J. Olson, Prof. D. S. Goodsell Department of Molecular Biology, The Scripps Research Institute 10550 North Torrey Pines Road, La Jolla, CA 92037 (USA) Fax: (+ 1) 358-784-2860 E-mail: goodsell@scripps.edu
+
+the triazole substituent but sacrificed the hydrogen bond with the water molecule. In this work we have solved the ambiguity in binding conformation by solving the crystal structure of two inhibitors derived from a library of triazole compounds with HIV-1 protease. Interestingly, the two structures show that the triazole ring is an effective amide surrogate that retains all hydrogen bonds in the active site (Figure 1). HIV-1 protease (3 mg mLÀ1 in 0.025 m sodium acetate pH 5.4, 10 mm dithiothreitol, 1 mm EDTA) was combined with inhibitor (32 mm in 50 % (v/v) dimethylsulfoxide and 2-methylpentane2,4-diol) at 4 8C to give a 2:1 molar ratio of inhibitor to protein, and the mixture was centrifuged to remove the precipitate. The complex was crystallized by the hanging-drop vapor-diffusion method by mixing 9.6 mL of protease solution with 4 mL of crystallization buffer (1.34 m ammonium sulfate, 0.1 m sodium acetate, pH 4.8­5.4). Plates were sealed at 20 8C for one to two weeks. Data were collected from frozen crystals at the Argonne National Laboratory SER-CAT beamline 22-ID and with a Rigaku
+ 2005 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+ChemBioChem 2005, 6, 1167 ­1169
+
+DOI: 10.1002/cbic.200500101
+
+1167
+
+Figure 1. Crystal structure of 1,2,3-triazole compounds. The protein chains of AB2 and AB3 were overlapped with those of the complex with amprenavir, PDB entry 1hpv. The three inhibitor structures are shown. In amprenavir, the carbon atoms are green. Nitrogen atoms 2 and 3 in the triazoles are labeled, and the approximate locations of the protease subsites P2 to P2' are shown.
+
+rotating copper anode generator on a Mar345 image plate detector. A minimum of 100 frames of 18 oscillation were collected for each data set and processed by using commercial HKL2000 software.[6] The structure was solved by using molecular replacement with protein monomer coordinates from a previous structure.[7] It was then refined by using the program SHELXL[8] and rebuilt with the molecular graphics program, O,[9] with several rounds of manual model building and automated refinement. The final statistics for each structure are listed in Table 2.
+
+Figure 2. Detail of hydrogen-bonding interactions in AB2. A cross section through the active site is shown, with the protease flaps at the top and the two active site aspartates at the bottom. The inhibitor runs horizontally through the center. The position of amprenavir is also shown, with carbon atoms in green. Key hydrogen bonds to the structural water molecule and to the main chain of Gly27 are shown with black lines.
+
+Table 3. Hydrogen bond lengths []. HIV-1 protease AB2 HOH 301 to: Gly27 O to: AB3 amprenavir[a]
+
+triazole N2 = 2.892 triazole N2 = 2.395 peptide O = 3.021 triazole C5 = 3.816 triazole C5 = 3.810 peptide N = 3.580
+
+[a] Distances for amprenavir were taken from PDB entry 1hvp.
+
+Table 2. Statistical data for AB2 and AB3 crystal structures. HIV protease with space group data resolution [] unit cell parameters [] data completeness [%] R-sym [%] R-factor [%] PDB ID AB2 P6(1)22 50­2.02 63.1/63.1/82.1 95.9 5.4 19.6 1zp8 AB3 P6(1)22 50­2.02 63.1/63.1/82.5 98.3 6.8 22.0 1zpA
+
+In both structures, the inhibitors are bound in a position identical to that of amprenavir. The large dipole of the triazole (> 5 Debye), which bisects the ring plane near atoms N3 and C5, and the capacity of the N2 and N3 electron lone pairs to serve as hydrogen acceptors, taken together, make the triazole an excellent mimic of the peptide group. In the crystallographic structures, N2 takes the position of the carbonyl oxygen, and C5 takes the place of the amide nitrogen (Figure 2). A hydrogen bond is formed from the structural water molecule that is positioned under the flaps to this nitrogen, thus locking the inhibitors in place in the active site (Table 3). Similar hydrogen bonds to the N2 of 1,2,3-triazole were observed in the structures of the acetylcholinesterase inhibitor,[10] and in the recent structure of a triazole-modified a-helical coiled coil.[11] This latter structure also showed a CH···O hydrogen bond from the triazole hydrogen at the 5 position to a neighboring carbonyl in the modified a-helix. In the HIV-1 protease structures, the hydrogen at the C5 position is pointed directly at the pep-
+
+tide oxygen of Gly27, at a distance of 3.8  in both structures, and therefore forms a similar CH···O hydrogen bond. In summary, we have demonstrated that the 1,2,3-triazole is an effective replacement for a peptide group in HIV-1 protease inhibitors. This has been illustrated with the combinatorial modification of amprenavir by using azide­alkyne click chemistry followed by inhibition and structural analysis. Work is in progress to modify existing drugs by replacing the amide bond with a 1,2,3-triazole moiety and evaluating the effect of amide replacement on the structure­activity relationship of the compound.
+
+Acknowledgements
+We thank the National Institutes of Health for financial support. Part of diffraction data used in this study were collected at the Southeast Regional Collaborative Access Team (SER-CAT) beamline 22-ID, located at the Advanced Photon Source, Argonne National Laboratory. Use of the Advanced Photon Source was supported by the U.S. Department of Energy, Office of Science, Office of Basic Energy Sciences, under Contract No. W-31-109-Eng-38. We are grateful to Mi Li for providing HIV protease coordinates for molecular replacement and for assistance with X-ray data collection and refinement. Keywords: click chemistry · inhibitors · peptidomimetics · triazole
+
+1168
+
+ 2005 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim www.chembiochem.org
+
+ChemBioChem 2005, 6, 1167 ­1169
+
+[1] For reviews on the subject, see: a) A. F. Spatola, Chemistry and Biochemistry of Amino Acids, Peptides, and Proteins, Marcel Dekker, New York, 1983, 267 ­ 357; b) J.-M. Ahn, N. A. Boyle, M. T. MacDonald, K. D. Janda, Mini-Rev. Med. Chem. 2002, 2, 463 ­ 473. [2] V. V. Rostovtsev, L. G. Green, V. V. Fokin, K. B. Sharpless, Angew. Chem. 2002, 114, 2708 ­ 2711; Angew. Chem. Int. Ed. 2002, 41, 2596 ­ 2599; C. W. Tornøe, C. Christensen, M. Meldal, J. Org. Chem. 2002, 67, 3057 ­ 3064. [3] A. Brik, J. Muldoon, Y.-C. Lin, J. H. Elder, D. S. Goodsell, A. J. Olson, V. V. Fokin, K. B. Sharpless, C.-H. Wong, ChemBioChem 2003, 4, 1246. [4] G. M. Morris, D. S. Goodsell, R. S. Halliday, R. Huey, W. E. Hart, R. K. Belew, A. J. Olson, J. Comput. Chem. 1998, 19, 1639 ­ 1662. [5] E. E. Kim, C. T. Baker, M. D. Dwyer, M. A. Murcko, B. G. Rao, R. D. Tung, M. A. Navia, J. Am. Chem. Soc. 1995, 117, 1181. [6] Z. Otwinowski, W. Minor, Methods Enzymol. 1997, 276, 307 ­ 326. [7] M. Li, G. M. Morris, T. Lee, G. S. Laco, C. H. Wong, A. J. Olson, J. H. Elder, A. Wlodawer, A. Gustchina, Proteins 2000, 38, 29 ­ 40. [8] G. M. Sheldrick, SHELXS97 and SHELXL97. 1997, University of Gçttingen, Germany. http://shelx.uni-ac.gwdg.de/SHELX/index.html [9] T. A. Jones, M. Kjeldgaard, Methods Enzymol. 1997, 277, 173 ­ 208. ´ [10] Y. Bourne, H. C. Kolb, Z. Radic, K. B. Sharpless, P. Taylor, P. Marchot, Proc. Natl. Acad. Sci. USA 2004, 101, 1449 ­ 1454. [11] W. S. Horne, M. K. Yadav, C. D. Stout, M. R. Ghadiri, J. Am. Chem. Soc. 2004, 126, 15 366 ­ 15 367. Received: March 14, 2005 Published online on June 3, 2005
+
+ChemBioChem 2005, 6, 1167 ­1169 www.chembiochem.org
+
+ 2005 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+1169
+
+

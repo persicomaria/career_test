@@ -1,0 +1,392 @@
+Molecular Microbiology (2008) 68(1), 37­50
+
+doi:10.1111/j.1365-2958.2008.06131.x First published online 26 February 2008
+
+Characterization of Trypanosoma brucei dihydroorotate dehydrogenase as a possible drug target; structural, kinetic and RNAi studies
+Tracy L. Arakaki,1,2 Frederick S. Buckner,2,3 J. Robert Gillespie,3 Nicholas A. Malmquist,4 Margaret A. Phillips,4 Oleksandr Kalyuzhniy,1,2 Joseph R. Luft,2,5 George T. DeTitta,2,5 Christophe L. M. J. Verlinde,1,2 Wesley C. Van Voorhis,2,3 Wim G. J. Hol,1,2 and Ethan A. Merritt1,2* 1 Departments of Biochemistry and 3Medicine, University of Washington, Seattle, WA 98195, USA. 2 Structural Genomics of Pathogenic Protozoa (SGPP, http://www.sgpp.org). 4 Department of Pharmacology, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA. 5 Hauptman Woodward Institute, Buffalo, NY, USA. resolution of 1.95 Å. Additional research, guided by the crystal structure described herein, is needed to identify potent inhibitors of T. brucei DHODH.
+
+Introduction
+Pyrimidine biosynthesis is a vital biological process, achieved both by de novo synthesis and by pyrimidine salvage pathways. However, many parasitic protozoa are deficient in pyrimidine salvage (Chaudhary and Roos, 2005) and thus enzymes of the pyrimidine synthesis pathway have been considered potential drug targets. The fourth enzyme of this pathway is dihydroorotate dehydrogenase (DHODH), which oxidizes dihydroorotate to orotate, the first aromatic intermediate in this pathway, with consequent transfer of two electrons to the protein cofactor FMN (Fig. 1). Recent experiments to validate DHODH as a drug target in Trypanosoma cruzi showed that insect stage epimastigotes are dependent on de novo synthesis of pyrimidines (Annoura et al., 2005). Specifically, gene interruption of the three gene loci encoding cytosolic DHODH in T. cruzi led to cell non-viability; addition of pyrimidine nucleosides to the medium did not rescue the DHODH knockdown cells. We therefore undertook a more extensive investigation of the essentiality of the closely homologous gene in T. brucei, the causative agent of African Sleeping Sickness. Dihydroorotate dehydrogenases are categorized into two classes, Class 1 and Class 2, based upon their sequence, localization in the cell, and the electron acceptor used to reoxidize FMN in a second half-reaction (Nielsen et al., 1996a, b). Both classes belong to Pfam sequence family PF01180. Class 1 DHODHs are primarily bacterial. They are cytosolic and further divided into 1A (E.C. 1.3.3.1) and 1B (E.C. 1.3.1.14) depending upon their electron acceptor and oligomeric state. Class 2 DHODHs, including the human and plasmodial enzymes, are monomeric and contain mitochondrial targeting sequences located in the N-terminal domain (Rowland et al., 2000). Furthermore, they are found in the inner membrane of mitochondria (Knecht et al., 1996) or associated with the cytoplasmic membranes in the case of Escherichia coli (Karibian, 1978). Specific inhibitors are
+
+Summary
+Nucleotide biosynthesis pathways have been reported to be essential in some protozoan pathogens. Hence, we evaluated the essentiality of one enzyme in the pyrimidine biosynthetic pathway, dihydroorotate dehydrogenase (DHODH) from the eukaryotic parasite Trypanosoma brucei through gene knockdown studies. RNAi knockdown of DHODH expression in bloodstream form T. brucei did not inhibit growth in normal medium, but profoundly retarded growth in pyrimidine-depleted media or in the presence of the known pyrimidine uptake antagonist 5-fluorouracil (5-FU). These results have significant implications for the development of therapeutics to combat T. brucei infection. Specifically, a combination therapy including a T. brucei-specific DHODH inhibitor plus 5-FU may prove to be an effective therapeutic strategy. We also show that this trypanosomal enzyme is inhibited by known inhibitors of bacterial Class 1A DHODH, in distinction to the sensitivity of DHODH from human and other higher eukaryotes. This selectivity is supported by the crystal structure of the T. brucei enzyme, which is reported here at a
+Accepted 14 January, 2008. *For correspondence. E-mail merritt@ u.washington.edu; Tel. (+1) 206 543 1421; Fax (+1) 206 685 7002. Contributed equally.
+
+© 2008 The Authors Journal compilation © 2008 Blackwell Publishing Ltd
+
+38 T. L. Arakaki et al.
+
+Structural analysis The crystal structure of TbDHODH was determined to 1.95 Å resolution from a single crystal in space group C2221. Consistent with previously determined structures from this sequence family, the overall fold of the TbDHODH monomer is an ab barrel with the prosthetic FMN group located near the C-terminus (Fig. 2A). The asymmetric unit of the crystal structure contains four monomers that are arranged as two distinct dimers. The monomers of each dimer are related by twofold symmetry and the dimer overlays well with the Lactococcus lactis 1A dimer. The area of contact at the dimer interface of is 2300 Å2 as analysed by PDBsum (Laskowski et al., 2005). The interface includes 19 inter-monomer hydrogen bonds and a salt bridge between Glu-208 of monomer A and Lys-297 of monomer B. This salt bridge is also observed in the L. lactis structure. Lys-297 is strictly conserved among Class 1A DHODHs; residue 208 is conserved as either glutamate or aspartate (Fig. S2). Thus, this salt bridge is a characteristic feature of the dimer interface in Class 1A DHODHs. The oligomeric state of the protein was also examined by analytical ultracentrifugation. TbDHODH was observed by both protein absorption at 280 nm and FMN absorption at 454 nm. Throughout centrifugation experiments, a single ideal species model consistently yielded an average mass indicative of a dimeric enzyme, while a monomer/dimer model reliably produced submicromolar dissociation constants for dimerization (Fig. S1). This biophysical result supports the crystallographic observation of TbDHODH as a homodimer. The TbDHODH structure contains two cis-peptides, Glu-56­Pro-57 and Cys-193­Val-194. These cis-peptides are also observed in structures of the L. lactis 1A, L. lactis 1B and human Class 2 homologues. The two residues following the first cis-peptide, Arg58 and Tyr59, are in close proximity to the active site and are highly conserved among Class 1A DHODH sequences. No other exceptional stereochemistry is observed in the refined TbDHODH model.
+
+Fig. 1. Oxidation of dihydroorotate to orotate.
+
+known for both classes (Palfey et al., 2001; Baldwin et al., 2005). We present genomic, biochemical and structural evidence that TbDHODH is a Class 1A DHODH, and in particular that it can be inhibited by Class 1A specific inhibitors. The structural analysis is based on a 1.95 Å resolution crystal structure of the T. brucei enzyme cocrystallized with the reaction product orotate. We also present kinetic, inhibition, biophysical and RNAi knockdown data for the T. brucei DHODH, which has not previously been characterized. Furthermore, we show that RNAi knockdown of T. brucei DHODH is synergistic with the effects of 5-fluorouracil (5-FU), an inhibitor of pyrimidine uptake in T. brucei (de Koning and Jarvis, 1998). This finding provides a rationale to develop DHODH inhibitors that could be used in combination with 5-FU or another inhibitor of pyrmidine uptake to yield a potent therapeutic regimen. We are encouraged that the structure and inhibition studies offer insight into the stereochemical and functional details of the active site of the trypanosomal enzyme, and may facilitate the development of lead compounds for antitrypanosomal drug discovery. Because our results on the essentiality of this enzyme are divergent from those reported for the closely related T. cruzi parasite, they also underscore the importance of validating antiprotozoan drug targets separately in each target organism (Wang, 1997).
+
+Results
+Only one DHODH gene was found in the T. brucei genome (GeneDB Tb927.5.3830). This gene was initially identified as a structural genomics target (TargetDB Tbru015978) by the Structural Genomics of Pathogenic Protozoa consortium (SGPP). At the time this work was initiated no trypanosomal DHODH structures were available, although a preliminary characterization of Leishmania major DHODH had been presented (Feliciano et al., 2006) and preliminary crystallization of the T. cruzi enzyme had been reported (Inaoka et al., 2005). Thus we undertook de novo crystallographic structure determination of the T. brucei DHODH, and also undertook biochemical characterization of this enzyme to confirm the assignment of the trypanosomal enzymes to Class 1A.
+
+FMN binding site The FMN prosthetic group is located near the dimer interface in a pocket formed predominantly by strands b4, b6­7, b11 and b17. FMN forms hydrogen bonds with residues Ala-20, Ser-45, Lys-44, Cys-249, Val-194 and Lys-165 (Fig. S3); and hydrophobic interactions with residues Ala-19, Gly-21, Met-70, Tyr-59, Asn-68 and with orotate. The isoalloxazine ring of FMN and the aromatic ring of orotate are parallel to each other as in other DHODH-orotate structures. The dimethylbenzene moiety of the isoalloxazine ring system lacks close contacts to
+
+© 2008 The Authors Journal compilation © 2008 Blackwell Publishing Ltd, Molecular Microbiology, 68, 37­50
+
+Characterization of T. brucei DHODH 39
+A B
+
+C
+
+D
+
+Fig. 2. Comparison of T. brucei and human DHODH. TbDHODH is homodimeric, typical of Class 1A homologues. The human enzyme is monomeric, characteristic of Class 2 homologues. A. TbDHODH monomer showing Class 1A motifs: Motif 1 (residues 195­203, blue), Motif 2 (residues 64­76, green), Motif 3 (residues 214­223, orange), Pyr-binding motif (residues 126­143, red). The orotate and FMN cofactors are shown in brown and yellow respectively. B. Surface representation of TbDHODH, showing that the orotate and FMN sites are relatively solvent accessible even with loop 132­138 in a `closed' conformation. C. Surface representation of the entire human DHODH monomer including well-ordered residues (30­69) from the N-terminal domain (brown). In Class 2 homologues the N-terminal domain restricts solvent access to the orotate and FMN binding sites from this direction. The depression visible at the centre of the surface is the binding site for the Class 2 DHODH redox partner ubiquinone, and for Class 2 specific inhibitors such as brequinar. D. Surface representation the human DHODH with N-terminal residues removed for the purpose of comparison to the trypanosomal enzyme.
+
+any residue and is solvent accessible. This differs from the FMN binding site in the human structure (25% sequence identity), where the Class 2-specific N-terminal domain blocks access to the active site. There are similar hydrogen bonding interactions to the FMN in both the TbDHODH and human structures and these residues are conserved between the two structures except for Lys-44 and Cys-249. The sulphhydryl of Cys-249 forms a hydrogen bond to O3 of the ribityl group of FMN. The equivalent interaction is absent in the human structure, where there
+
+is only one hydrogen bond to O3. In a sequence-based structure alignment, Lys-44 is a glycine in the human structure but there is a nearby lysine (hLys-100), which forms hydrogen bonds to O4 of the isoalloxazine ring and plays the same role in binding to FMN. Of the five residues in TbDHODH that form hydrophobic interactions to FMN, two are different in the human protein. These differences may be of potential use in designing an inhibitor targeting the FMN binding site with differential specificity for the human and trypanosomal enzymes.
+
+© 2008 The Authors Journal compilation © 2008 Blackwell Publishing Ltd, Molecular Microbiology, 68, 37­50
+
+40 T. L. Arakaki et al.
+
+.........MSLKVNILGHEFSNPFMNAAGVLCTTEEDLRRMT....ESESGSLIGKSCTLAPRTGNPEPRYFGL .....MTENNRLSVKLPGLDLKNPIIPASGCFG....FGEEYAKYYDLNKLGSIMVKATTLHPRFGNPTPRVAET LPRARFQDSDMLEVRVLGHKFRNPVGIAAGF.DKHGEAVDGLY....KMGFGFVEIGSVTPKPQEGNPRPRVFRL
+
+1A motif 2
+
+..PLGSINSMGLPNLGVDFYLSYAAQTH...DYSR...KPLFLSMSGL.....SVEESVEMVKKLVPITKEKGTI ..ASGMLNAIGLQNPGLEVIMTEKLPWLNENFPE....LPIIANVAGS.....EEADYVAVCAKIGDA..ANVKA PEDQAVINRYGFNSHGLSVVEHRLRARQQKQAKLTEDGLPLGVNLGKNKTSVDAAEDYAEGVRVLGPLA....DY
+
+pyr-binding motif
+
+LELNLSCPNVP....GKPQVGYDFDTTRTYLQKVSEAYG.......LPFGVKMPPYFDIAHFDMAAAVLNDFPLV IELNISC...PNVKHGGQAFGTDPEVAAALVKACKAVSK.......VPLYVKLSPNVT..DIVPIAKAVEAAG.A LVVNVSSPNT.....AGLDGLPGKAELRRLLTKVLQERDGLRRVHRPAVLVKIAPDLTSQDKEDIASVVKELG.I
+
+1A motif 1
+
+1A motif 3
+
+KFITCVNSIGNG.........LVIDPANETVVIKPKQGFGGLGGKYVLPTALANVNAFFRRC.PDKLVFGCGGVY DGLTMINTL.MG.........VRFDLKTRQPILAN..ITGGLSGPAIKPVALKLIHQVAQDV.D.IPIIGMGGVA DGLIVTNTTVSRPAGLQGALRS...............ETGGLSGKPLRDLSTQTIREMYALTQGRVPIIGVGGVS
+
+SGEEAFLHILAGASMVQVGTALHDEGPIIFARLNKELQEIMTNKGYKTLDEFRGRV NAQDVLEMYMAGASAVAVGTANFADP.FVCPKIIDKLPELMDQYRIESLESLI... SGQDALEKIRAGASLVQLYTALTFWGPPVVGKVKRELEALLKEQGFGGVTDAIGAD
+
+T.brucei Class 1A L.lactis Class 1B human Class 2
+
+Fig. 3. A structure-based sequence alignment of the Class 1A T. brucei (current structure), the Class 1B L. lactis (PDB accession code 1ep1), and the Class 2 human DHODH (PDB accession code 1d3g). The active site Cys-131 is coloured yellow. Four Asn residues important for catalysis and conserved in all classes of DHODH are coloured cyan. Three Class 1A motifs that may further aid in the classification of DHODHs are labelled and further discussed in Fig. S2. Residue numbering and secondary structure elements correspond to the T. brucei DHODH. The alignment was generated using the CEMC Multiple Protein Structure Alignment Server (http://bioinformatics.albany.edu/~cemc/) (Guda et al., 2004) and coloured using TEXshade (Beitz, 2000). The human sequence shown begins at residue 69, omitting the N-terminal domain that is not present in the Class 1 homologues.
+
+Orotate binding site and conserved motifs in Class 1A DHODH Class 1 and Class 2 DHODHs differ at the active site base responsible for the abstraction of a proton from the C5 of orotate. In Class 1A DHODHs the base is a cysteine; in Class 2 enzymes, including human DHODH, it is a serine (Nørager et al., 2003). In TbDHODH, Sg of the active site base Cys-131 is 3.65 Å away from C5 of orotate. This distance is slightly longer than the 3.3 Å observed in the L. lactis DHODH:orotate structure. In the present crystal structure at pH 4 the cysteine sulphur is most likely protonated. Residues 126­143, spanning the region to either side of the active site Cys, are strongly conserved among all Class 1A DHODHs (Fig. S2). These residues can be described as a pyrimidine binding motif: EZNLSCPNZPUKZQXXYD, where U is a polar
+
+uncharged residue, X is a non-specific residue and Z is a hydrophobic residue. A structure-based sequence alignment of the T. brucei, L. lactis 1B, and human DHODHs, representing Classes 1A, 1B and 2, respectively, shows that the Class 1 sequences have an insertion of 15 residues (residues 202­216) relative to the human Class 2 sequence (Fig. 3). These residues form a strand-loop­strand-loop (b14-loop-b15-loop) structural unit. Residues 195­203 preceding the insertion are conserved among Class 1A DHODHs and form a NSXGNGLXI motif (1A motif 1) in close proximity to the active site. Asn-195 is one of four conserved Asn residues that interact with orotate. The orotate binding site is flanked by a loop consisting of residues 132­138 (Fig. S4). This loop is highly conserved in Class 1A DHODHs (Fig. S2). In crystal structures of human DHODH the corresponding loop is poorly
+
+© 2008 The Authors Journal compilation © 2008 Blackwell Publishing Ltd, Molecular Microbiology, 68, 37­50
+
+Characterization of T. brucei DHODH 41
+
+control cells (`single-marker') containing only the T7 RNA polymerase and Tet repressor genes maintained on a neomycin marker. The surprising observation of normal cell growth led us to investigate if the parasites were
+
+Fig. 4. Knockdown of DHODH mRNA expression (A) and DHODH protein expression (B) after induction of RNAi with tetracycline. (A ­ top) Northern blot of T. brucei cells collected 72 h post tetracycline induction of RNAi (TCN+) demonstrates 95% knockdown of DHODH mRNA compared with cells containing the same construct with RNAi uninduced (TCN-). (A ­ bottom) b-tubulin mRNA expression levels show near-equivalent RNA loading. (B) A Western blot was performed on cell lysates collected on day 0 (preinduction) through 7 days post induction. The blot was probed with an anti-T. brucei DHODH antibody. The upper band represents binding to an unidentified protein that is not affected by the RNAi expression. The predicted DHODH protein is labelled and is nearly absent 1 day after induction of RNAi.
+
+ordered, and loop flexibility is hypothesized to allow the active site to open so that dihydroorotate can enter and orotate can exit (Liu et al., 2000). In contrast to the human structure, the loop in the present TbDHODH structure is in a relatively closed conformation and is well defined by electron density. Nevertheless, the orotate and FMN binding sites are more accessible in TbDHODH than in the human structure owing to the absence of the N-terminal domain characteristic of Class 2 DHODH (Fig. 2). This difference in accessibility may contribute to the differential sensitivity of the Class 1A and Class 2 enzymes to orotate analogues such as hydroxybenzoate. RNA interference studies of T. brucei DHODH Gene expression knockdown of the T. brucei DHODH was achieved by overexpressing a stem-loop RNA of the target gene in bloodstream form T. brucei. Messenger RNA levels were decreased by 95% at 72 h following induction of the RNA interference construct by the addition of tetracycline (Fig. 4A). Knockdown of T. brucei DHODH protein appeared to be similarly substantial as observed on Western blots. This was monitored over 7 days, with protein levels detected at < 5% of levels observed without RNAi induction (Fig. 4B). When the T. brucei cells were grown in standard medium (HMI-9), growth rates for cells when RNAi was turned on (TCN+) or turned off (TCN-) were comparable (Fig. 5A). The growth rates of these cultures were virtually the same as the
+
+Fig. 5. Gene knockdown of T. brucei DHODH using RNA interference. Cumulative cell densities are shown on a log-scale as the product of the cell number and the total dilution. A. Cell growth was monitored of T. brucei undergoing RNAi of DHODH (TCN+) and compared with cells without RNAi induction (TCN-). The cells were grown in standard media for bloodstream form T. brucei. The growth rate was also compared with the `single marker'(SM) strain of T. brucei that was not transfected with the RNAi expression vector (semi-logarithmic plot). B. The same experiment as in A was repeated using pyrimidine-depleted medium.
+
+© 2008 The Authors Journal compilation © 2008 Blackwell Publishing Ltd, Molecular Microbiology, 68, 37­50
+
+42 T. L. Arakaki et al.
+100
+
+% growth T.brucei
+
+50
+
+SM (TCN-) SM (TCN+) DHODH (TCN-) DHODH (TCN+)
+
+0 0.1 1 10 100
+
+5-FU Concentration (M) 
+
+Fig. 6. Effects of different concentrations of 5-FU on T. brucei cells. RNAi was induced with tetracycline for 48 h, then cells were incubated with serial dilutions of 5-FU for another 48 h before being quantified with Alamar Blue. Labelling is the same as in Fig. 5.
+
+(Fig. 8) and was found to catalyse fumarate most efficiently, typical of Family 1A enzymes (Andersen et al., 1994). The enzyme catalyses the reduction of menadione (vitamin K3) at ~20% the rate of fumarate catalysis, but does not appear to perform electron transfer to menaquinone (vitamin K2), to the ubiquinone analogues Q0, Q1, Q2, or QD, or to NAD+, further characteristics of a Family 1A DHODH enzyme (Nielsen et al., 1996a; Marcinkeviciene et al., 2000; Nara et al., 2000). Catalysis of both DHO and fumarate displays saturation kinetics with Km values of 14 mM for DHO and 80 mM for fumarate and a kcatapp of 8.5 s-1 (Fig. 9). The pH dependence of enzyme activity was assayed (Fig. 9 inset) and peak activity was found to occur at pH 7.8, indicative of two ionizable groups with pKa values of 6.3 and 9.2 being involved in substrate binding and catalysis. Analysis of
+1500
+
+surviving by scavenging pyrimidines from the medium. Note that HMI-9 medium includes 16 mM thymidine. When the additional thymidine was omitted from the medium, we again saw no change in the growth phenotype upon induction of RNA interference against the DHODH (data not shown). As the standard medium was made up with 10% fetal bovine serum, we repeated the experiment using commercially available dialysed serum, which was depleted of small molecules such as pyrimidines. Under these conditions we observed reduced growth upon induction of the RNAi construct. By day 4 the growth rate was significantly reduced and was arrested by day 6 (Fig. 5B). Most of the cells expressing the RNAi construct in the pyrimidine-depleted medium took on a bloated, balloon-shaped morphology by day 5. There was a small degree of growth suppression in the TCN- cells compared with the single-marker controls, which may have been due to leaky expression of the RNAi construct. We therefore proceeded to test whether RNAi knockdown of DHODH would impair growth in standard medium if an inhibitor of pyrimidine uptake were also present. 5-FU was tested as it has been shown to be a potent inhibitor of pyrimidine uptake by T. brucei (Gudin et al., 2006). The inhibitory concentration of 5-FU causing 50% growth inhibition (IC50) was shifted 16-fold lower in parasites undergoing knockdown of DHODH (IC50 = 0.64 mM) compared with parasites not undergoing knockdown (IC50 = 10.4 mM) using standard medium (Fig. 6). In follow-up to this finding, we tested the uptake of 3H-5-FU into the DNA of T. brucei cells and observed that uptake was more than twofold higher in the DHODH-knockdown parasites than in controls (Fig. 7). Classification of TbDHODH as Class 1A and inhibition by hydroxybenzoates TbDHODH activity was examined in the presence of several standard DHODH terminal electron acceptors
+
+TCN(-) TCN(+)
+
+CPM
+
+1000
+
+500
+
+0
+
+SM-
+
+SM+
+
+DHODH-
+
+DHODH+
+
+Fig. 7. Incorporation of 3H-5-FU into T. brucei cells. RNAi was induced with tetracycline for 72 h, then cells were exposed to 3 H-5-FU for an additional 24 h before harvesting and quantifying tritium uptake into DNA. Labelling is the same as in Fig. 5. CPM, counts per minute.
+
+8 6
+
+kcatapp (s-1)
+
+4 2 0
+
+IP m in vi ta K2 m in K
+
+e
+
++
+
+AD
+
+at
+
+C
+
+Q
+
+m ar
+
+D
+
+N
+
+fu
+
+vi
+
+ta
+
+electron acceptor
+Fig. 8. Terminal electron acceptor preference of TbDHODH. Activity was examined in the presence of 250 mM DHO and 100 mM electron acceptor or ~210 mM molecular oxygen. The kcatapp is the apparent kcat obtained at a fixed concentration of both DHO (0.25 mM) and oxidant.
+
+© 2008 The Authors Journal compilation © 2008 Blackwell Publishing Ltd, Molecular Microbiology, 68, 37­50
+
+ox
+
+yg
+
+en
+
+Q
+
+Q
+
+Q
+
+D
+
+0
+
+1
+
+3
+
+2
+
+Characterization of T. brucei DHODH 43
+
+10 8
+
+DHO fumarate
+
+6 4 2 0
+kcatapp (s-1)
+
+10 8 6 4 2 0 5 6 7 8 9 10
+
+Fig. 9. Saturation kinetics of T. brucei DHODH toward DHO and fumarate. DHO-dependent activity was assayed in the presence of 500 mM fumarate and fumarate-dependent activity was assayed in the presence of 250 mM DHO at pH 8. kcatapp is 8.5 s-1, K for DHO is 14 mM, Km for fumarate is 80 mM. The kcatapp is the apparent kcat obtained at a fixed concentration of one substrate while the other is varied. Inset: pH-dependent T. brucei DHODH activity. Activity was determined in the presence of 125 mM DHO and 500 mM fumarate. Activity peaks at pH 7.8 and the curve indicates two ionizable groups with pKa values of 6.3 and 9.2.
+
+kcatapp (s-1)
+
+pH
+
+0
+
+100
+
+200
+
+300
+
+400
+
+500
+
+[substrate] (M)
+
+TbDHODH activity across a range of DHO and fumarate concentrations produces a double-reciprocal plot with parallel lines (Fig. 10), indicative of a ping-pong mechanism and consistent with results found for other Family 1A enzymes (Marcinkeviciene et al., 2000). Inhibition of TbDHODH by benzoate pyrimidine analogues was initially performed with 1 mM inhibitor (data not shown). Of the benzoate pyrimidine analogues tested, only 3,4- and 3,5-dihydroxybenzoate displayed inhibition at 1 mM concentration. Subsequent analysis of TbDHODH inhibition by 3,4- and 3,5-dihydroxybenzoate across various inhibitor and DHO concentrations (Fig. 11) revealed competitive inhibition by 3,4-dihydroxybenzoate with a Ki of ~58 mM (determined by IC50 re-plot, not shown) and weaker inhibition by 3,5-dihydroxybenzoate, which appeared non-competitive and yielded a Ki of 200 mM. These values are comparable to that reported for other Class 1A DHODHs (Takashima et al., 2002; Feliciano et al., 2006).
+
+Discussion
+Divergent pyrimidine requirement in T. cruzi and T. brucei The Trypanosoma brucei genome contains all of the enzymes required for de novo pyrimidine biosynthesis, indicating that T. brucei is capable of providing its own pyrimidine pools (Berriman, 2004). The fourth enzyme in the pathway, DHODH, has been considered a potential drug target in parasitic protozoa including Plasmodium falciparum and T. cruzi (McRobert and McConkey, 2002; Annoura et al., 2005; Baldwin et al., 2005). In particular, the Class 1A DHODH from T. cruzi has been shown by gene disruption experiments to be necessary for growth of epimastigotes (Annoura et al., 2005). We performed functional, enzymatic, and structural studies of this protein in the related parasite T. brucei, the causative agent of African sleeping sickness, in an attempt to confirm similar essentiality.
+
+6
+
+1/v (min/mol) × 10-3
+
+5 4 3 2 1 0 0.000 0.025 0.050 0.075 0.100 0.125
+
+250 M fumarate 125 M 62.5 M 31.2 M 15.6 M
+
+Fig. 10. Ping-pong kinetics of T. brucei
+DHODH. Double-reciprocal plot of DHO-dependent activity in the presence of varying concentrations of fumarate and 5 nM T. brucei DHODH produce parallel lines indicative of a ping-pong enzyme mechanism.
+
+[DHO]-1 (M)-1
+© 2008 The Authors Journal compilation © 2008 Blackwell Publishing Ltd, Molecular Microbiology, 68, 37­50
+
+44 T. L. Arakaki et al.
+
+A
+
+1/v (min/mol) × 10-3
+
+80 60 40 20
+
+1000 M 500 M 250 M 100 M 0 M
+
+-0.05
+
+0.00
+
+0.05
+
+0.10
+
+0.15
+
+0.20
+
+[DHO]-1 (M)-1
+B
+
+1/v (min/mol) × 10-3
+
+12
+
+8
+
+1000 M 500 M 250 M 100 M 0 M
+
+4
+
+-0.10 -0.05
+
+0.00
+
+0.05
+
+0.10
+
+0.15
+
+0.20
+
+[DHO]-1 (M)-1
+Fig. 11. Inhibition of TbDHODH by 3,4- or 3,5-dihydroxybenzoate.
+Activity was determined at varying concentrations of DHO and inhibitor and 5 nM T. brucei DHODH. Double reciprocal plots show characteristic competitive inhibition by the indicated concentrations 3,4 dihydroxybenzoate (A) and non-competitive inhibition by 3,5 dihydroxybenzoate (B).
+
+Functional studies using RNA interference to block TbDHODH revealed that bloodstream T. brucei are able to grow normally without this enzyme, apparently by scavenging pyrimidines from the medium (Fig. 5). This ability to scavenge pyrimidines is not entirely unexpected, as it has been shown that T. brucei has surface transporters capable of importing uracil and cytosine (de Koning and Jarvis, 1998; Papageorgiou et al., 2005; Gudin et al., 2006). In addition, the T. brucei genome contains at least some of the enzymes associated with pyrimidine salvage, including cytidine deaminase (GeneDB Tb09.160.1680), uracil phosphoribosyltransferase (GeneDB Tb927.4.3320), and thymidine kinase (GeneDB Tb10.70.7270). Thus, for T. brucei, a chemotherapeutic strategy to deprive the cells of pyrimidine pools would appear to require both inhibition of pyrimidine biosynthesis and of pyrimidine uptake/salvage. We tested the feasibility of such a two-pronged attack by repeating the DHODH RNAi knockdown experiments in the presence of 5-FU, a compound previously demonstrated to inhibit pyrimidine uptake by T. brucei (Gudin et al., 2006). 5-FU is itself
+
+cytotoxic at high concentrations owing to inhibition of thymidylate synthase and incorporation into DNA and RNA (de Bono and Twelves, 2001). We observed that cells undergoing this dual treatment were indeed affected by DHODH knockdown, and were 16-fold more sensitive to 5-FU than control cells (Fig. 6). This suggests that the cells could not tolerate both inhibition of pyrimidine synthesis and inhibition of pyrimidine uptake. Although 5-FU inhibits pyrimidine uptake in T. brucei, it is itself transported into the cells with relatively high efficiency (Gudin et al., 2006). A possible cellular response to the suppression of pyrimidine biosynthesis, in this case through interference with DHODH, is to upregulate the import pathway. Thus, a follow-up experiment was performed to determine the relative uptake of radiolabelled 5-FU into the DNA of the T. brucei cells in the presence or absence of DHODH suppression. The experiment demonstrated > 2¥ higher 5-FU incorporation into DHODH knockdown cells than into controls (Fig. 7). It seems likely that the increased incorporation of 5-FU into DNA could partly account for the enhanced sensitivity to this drug. We speculate that the increased incorporation of 5-FU into the DNA of DHODH knockdown cells results from one or more of the following factors: (i) the depletion of intracellular pyrimidine pools favours the incorporation of the 5-FU; (ii) possible upregulation of enzymes that convert 5-FU to 5-FU monophosphate, 5-FU diphosphate or 5-FU triphosphate; and (iii) possible increased uptake of 5-FU owing to upregulated pyrimidine transporter activity at the cell surface. Future experiments will be necessary to better establish if any of these mechanisms are responsible for our observations. Whichever of the above mechanisms may be in play, the apparent synergy of DHODH knockdown plus 5-FU treatment has significant implications for pursuing the pyrimidine biosynthesis pathway as a drug target in T. brucei. One can imagine a combination treatment including 5-FU and a new compound that specifically inhibits the T. brucei DHODH (or possibly another enzyme in the pyrimidine biosynthesis pathway). A new DHODH inhibitor would thus be a `chemosensitizer' for 5-FU and could dramatically enhance the activity of 5-FU for treating T. brucei infection. 5-FU is a well-established clinical drug that has been in use since the 1950s. It has known toxicities, but certainly has many advantages over existing human African trypanosomiasis drugs (e.g. melarsoprol, suramin, pentamidine, etc.) that are extremely toxic or require parenteral administration. It would be important to develop a partner drug that inhibits the T. brucei DHODH selectively. As the human DHODH is a Class 2 enzyme and thus functionally and structurally distinct from the Class 1 T. brucei enzyme, we expect that finding selective inhibitors is quite feasible. The data presented here provide a strong rationale for further pursuing
+
+© 2008 The Authors Journal compilation © 2008 Blackwell Publishing Ltd, Molecular Microbiology, 68, 37­50
+
+Characterization of T. brucei DHODH 45
+
+research into the T. brucei DHODH in order to develop potent inhibitors as drug leads. Inhibitors of trypanosomal Class 1A DHODH The previous focus of inhibitor studies has largely been directed to Class 2 DHODHs. The P. falciparum enzyme (PfDHODH) is the focus of significant interest for its potential as a new target for the development of antimalarials (Baldwin et al., 2005), and the human enzyme is targeted for treatment of cancer, gastric ulcers and rheumatoid arthritis (Palfey et al., 2001). Structural studies of PfDHODH inhibitors based upon brequinar analogues (Boa et al., 2005), biphenylamides (Baldwin et al., 2005), A771726 (Heikkilä et al., 2006), atovaquone (Hansen et al., 2004), and leflunomide (Hurt et al., 2006) show that all these analogues bind similarly, attacking the ubiquinone binding site formed jointly by the N- and C-terminal domains (Fig. 2C). Unfortunately, given the involvement of the Class 2-specific N-terminal domain, this class of inhibitors is unlikely to be relevant to Class 1 enzymes. However, inhibitors specific to Class 1A enzymes are also known, including hydroxybenzoates. These are orotate analogues that have been shown to specifically inhibit the L. lactis Class 1A DHODH with minimal effect on the L. lactis Class 1B enzyme or the human and E. coli Class 2 enzymes (Palfey et al., 2001). Although the stereochemistry of the protein residues forming the orotate binding site Class 1A and Class 2 enzymes are nearly identical, the redox mechanism differs in the two classes (Fagan et al., 2007). Fagan et al. (2007) have attributed this to subtle dynamic features of the proteins. On the basis of the present structure, we suggest that these features include differential access to the orotate and FMN sites from the `front' side of the protein (Fig. 2) and a difference in the relative mobility observed crystallographically for residues 132­138 in the pyr-binding motif (Fig. 3). Wolfe et al. (2007) further investigated the structural details and kinetics of hydroxybenzoate inhibition of the L. lactis Class 1A DHODH. The inhibitor was observed crystallographically only in one monomer of the homodimer, consistent with kinetic data showing cooperativity between the two monomers of the dimer. The structural basis for this cooperativity is not evident (Wolfe et al., 2007). Given the high structural conservation between the L. lactis structure and the present T. brucei structure, it seemed plausible that this class of inhibitors was also relevant to trypanosomal homologues. We have now shown through inhibition assays on TbDHODH that hydroxybenzoate inhibitors act indeed not only on bacterial DHODHs but also on this Class 1A DHODH from a eukaryotic parasite. In particular, we found competitive
+
+inhibition by 3,4-dihydroxybenzoate (Ki of 58 mM) and non-competitive inhibition by 3,5-dihydroxybenzoate (Ki of 200 mM). These Ki values are higher than those reported for L. lactis but remain possible starting points for antiparasitic drug design. Applicability of inhibitor design to other pathogens Trypanosoma brucei is a representative of a larger class of pathogenic protozoan parasites responsible for a substantial burden of human disease. In evaluating the importance of TbDHODH as a possible drug target, it is therefore of interest whether drugs acting on TbDHODH would also be effective against related pathogens. Class 1A DHODHs are primarily bacterial, although they have been acquired by some yeasts (Saccharomyces, Kluyveromyces) apparently through lateral gene transfer from Lactococcus (Hall et al., 2005). The appearance of Class 1A DHODH also in trypanosomatids may similarly be due to lateral transfer, but the point of introduction into the clade of protozoan lineages is not known. The sequences of T. brucei Class 1A, L. lactis Class 1B and P. falciparum Class 2 DHODH were submitted to the GeneDB omniBLAST server (Hertz-Fowler et al., 2004) to find homologues in other protozoa. No species was found to contain more than one DHODH class. No protozoan Class 1B homologues were detected. The Plasmodium genomes contain only Class 2 sequences. The sequences from T. brucei, T. brucei gambiense, T. cruzi, T. congolense, T. vivax, L. major and L. infantum have > 75% sequence identity to the genome strain TbDHODH. The residues involved in binding FMN and orotate are conserved, suggesting that drug design based on the TbDHODH structure is relevant to other pathogenic trypanosomatids.
+
+Summary
+We have shown that RNAi interference with DHODH in bloodstream form T. brucei inhibits growth when access to pyrimidines in the environment is also blocked. This calls into question the general essentiality of the pyrimidine biosynthesis pathway in T. brucei, in distinction to a previous report of essentiality in T. cruzi. However, we have also shown that RNAi suppression of DHODH is synergistic with the effect of the complementary growth-blocking agent 5-FU, which inhibits pyrimidine uptake. This demonstrates that interference with T. brucei DHODH can potentiate the activity of the established clinical drug 5-FU against bloodstream form T. brucei. The crystal structure and enzymatic properties of the T. brucei enzyme show that its active site is more similar to those of other Class 1A DHODHs than to the Class 2 DHODHs of higher eukaryotes, including human DHODH.
+
+© 2008 The Authors Journal compilation © 2008 Blackwell Publishing Ltd, Molecular Microbiology, 68, 37­50
+
+46 T. L. Arakaki et al.
+
+Encouragingly, it is inhibited by hydroxybenzoates, in common with other Class 1A DHODHs but in distinction to the Class 2 human DHODH. Thus T. brucei DHODH, and by extension other enzymes on the pyrimidine biosynthetic pathway, remains a possible target for the development of a two-pronged therapeutic approach attacking both pyrimidine biosynthesis and pyrimidine uptake. Furthermore, we propose that the molecular details provided by the present TbDHODH structure may be useful in designing selective inhibitors and potential lead compounds targeting other protozoan DHODHs.
+
+triprep YM-10 centrifugal filtration device (Amicon Millipore) and applied to a HiPrep 26/10 Desalting Column (Amersham Biosciences) equilibrated with 50 mM sodium phosphate, pH 8.0, 150 mM sodium chloride, and 10% glycerol. Protein containing fractions were pooled and concentrated as above.
+
+Crystallization
+Purified TbDHODH was shipped on dry ice for High Throughput Crystallization Screening at the Hauptman-Woodward Medical Research Institute (Luft et al., 2003). The sample was rapidly thawed in a 30°C water bath and orotic acid (8 ml of a 200 mM orotic acid stock solution) was added to 392 ml of the protein solution. Crystallization experiments were set up using the microbatch-under-oil technique (Chayen et al., 1992) with a Robbins Scientific Tango liquid handling system. Each of the 1536 experiments contained 200 nL of crystallization cocktail solution combined with 200 nL of protein solution under USP grade mineral oil (Sigma cat #M1180) contained in a low birefringence 1536 well microassay plate (Greiner BioOne cat #790801). Manual review of plate images after 1 week at 4°C identified 124 crystallization conditions with outcomes considered suitable for optimization trials. Eight initial hits were optimized and crystals grown by the sitting drop method. Crystals used for data collection grew from a drop consisting of 0.4 ml of protein solution (14.1 mg ml-1), mixed with 0.4 ml of reservoir solution containing 40% PEG 1000, 0.1 M Na citrate, 0.1 M KBr, pH 4.0 at room temperature.
+
+Experimental procedures
+Protein expression for crystallography
+The gene encoding TbDHODH was PCR amplified from genomic DNA of the strain T. brucei TREU927 GUTat 10.1 and cloned into a vector AVA421, which is based on E. coli expression vector pET14b (Alexandrov et al., 2004). The AVA421 vector contains a cleavable N-terminal His-tag. The protein was purified using a Ni-NTA column and the bound protein was cleaved by protease 3C overnight at 4°C. The released protein was further purified by gel filtration on a HiLoad Superdex 200.
+
+Protein expression for enzymatic studies
+The DHODH gene was amplified from T. brucei brucei 427 strain genomic DNA by polymerase chain reaction using the primers 5-CGCAAAGGGAAAAGTCATATGAGTTTGAAAGT TAAT-3 and 5-CATCAACACCCATGTATCTCGAGATCCA TCGTCTTCACGC-3, which introduced NdeI and XhoI restriction sites. The product was subcloned, then ligated into pET22b (EMD Biosciences) providing a C-terminus His-tag. The resulting TbDHODH-pET22b plasmid was then transformed into BL21-DE3 E. coli cells, and grown in LB Miller medium to an OD600 of 0.8, then supplemented with 100 mM FMN and induced with 200 mM IPTG. A cell pellet was collected 3 h after induction and re-suspended in lysis buffer (50 mM sodium phosphate, pH 8.0, 10 mM imidazole, 5 mM 2-mercaptoethanol, 10% glycerol, 1 mg ml-1 lysozyme, 0.1 mg ml-1 DNAse) and a protease inhibitor cocktail was added with a final concentration of 200 mM phenylmethylsulphonyl fluoride, 1 mg ml-1 leupeptin, 2 mg ml-1 antipain, 10 mg ml-1 benzamidine, 1 mg ml-1 pepstatin and 1 mg ml-1 chymostatin. The lysis mixture was then incubated for 2 h on ice with constant stirring, sonicated and centrifuged at 20 000 g for 30 min at 4°C. The supernatant from centrifugation was loaded onto a 10 ml column of nickel agarose resin (Qiagen) equilibrated with Wash buffer (50 mM sodium phosphate, pH 8.0, 300 mM sodium chloride, 20 mM imidazole, 5 mM 2-mercaptoethanol, 10% glycerol). The column was washed with 10 volumes of Wash buffer, then His6-tagged protein was eluted with Elution buffer (50 mM sodium phosphate, pH 8.0, 300 mM sodium chloride, 300 mM imidazole, 5 mM 2-mercaptoethanol, 10% glycerol). The eluted protein was pooled and concentrated to less than 2 ml with a Cen-
+
+X-ray crystal structure determination and structural analysis
+Native crystals were flash frozen directly in liquid nitrogen. Data were collected to 1.95 Å resolution from a single crystal maintained at 100K, at an X-ray wavelength corresponding to the bromine K edge (l = 0.92010 Å), on ALS beamline 8.2.1. Data were processed and scaled using MOSFLM and the CCP4 program package (Collaborative Computational Project No. 4, 1994) via the automated Wedger and Scaler scripts of Elves (Holton and Alber, 2004). Data processing statistics are shown in Table 1. The contribution of anomalous dispersion from ordered Br atoms to the measured Bragg intensities was insufficient to solve the structure using SAD phasing, although 11 partially occupied sites were later identified in the refined structure. Therefore, the structure of L. lactis DHODH (PDB accession code 1jue, 51% sequence identity) was submitted to the Swiss model server (Guex and Peitsch, 1997; Schwede et al., 2003) to create a hybrid homology model based upon the structure of L. lactis DHODH but containing the TbDHODH residues. This model was submitted to Molrep (Vagin and Teplyakov, 1997), which placed four copies of the monomeric model into the asymmetric unit yielding a correlation coefficient 0.60. The TbDHODH structure was refined using Refmac5 (Murshudov et al., 1997) against all reflections between 21 and 1.95 Å resolution, keeping 5% of the reflections for Rfree. Model building and validation were accomplished using Coot (Emsley and Cowtan, 2004) and Molprobity (Lovell et al., 2003). Electron density in the region of the orotate binding site is shown
+
+© 2008 The Authors Journal compilation © 2008 Blackwell Publishing Ltd, Molecular Microbiology, 68, 37­50
+
+Characterization of T. brucei DHODH 47
+
+Table 1. Crystallographic data collection, phasing and refinement
+statistics. Data collection Wavelength (Å) Resolution (Å) Space group Unit cell (Å) Total number of observations Unique reflections Rsym Completeness (%) I/s(I) Redundancy Wilson B factor (Å2) Refinement Resolution (Å) R/Rfree Rmsd bonds (Å) Rmsd angles (°) Mean B protein (Å2) Mean B orotate, FMN (Å2) Mean B other atoms (Å2) Residues with j,y in most favoured regions (%) Residues with j,y in allowed regions (%) Residues with j,y in disallowed regions
+
+0.92010 21­1.95 (2.06­1.95) C2221 a = 81.6, b = 162.6, c = 163.1 336 695 (22 749) 76 097 (9174) 0.107 (0.428) 96.2 (80.2) 7.5 (1.8) 4.4 (2.5) 25.5 21­1.95 0.189/0.242 0.011 1.326 15.2 11.7 19.8 91.3 8.7 0
+
+DHO. Inhibitors were initially examined at 1 mM in the presence of 25 mM DHO and 120 mM DCIP, and subsequent assays utilized 120 mM DCIP, various DHO and inhibitor concentrations. All experiments were performed in at least duplicate; combined data are presented, and kinetic parameters are reported as the mean standard error of the fit.
+
+Analytical ultracentrifugation
+Analytical ultracentrifugation was performed on a Beckman XL-I analytical ultracentrifuge and enzyme was observed at 280 nm (protein) and 454 nm (FMN). Enzyme samples of 5­25 mM were centrifuged at 14 000 and 20 000 r.p.m. at 4°C, equilibrium sedimentation scans were obtained every two hours, and equilibrium was determined to be reached when contiguous scans were indistinguishable. Data were fitted to both a single ideal species model and a monomerdimer model and one representative result from multiple experiments is presented.
+
+RNA interference
+A region of the TbDHODH gene sequence was selected for RNAi using the program RNAit (Redmond et al., 2003). Bases 413­859 of the gene were amplified from T. brucei 927 genomic DNA using the primers 5-ATACCAATGTGATGGC ACAGGTCGGATATGACTTTGA-3 and 5-ATACCATAGAGT TGGGTTGAGTCGAGCAAATATGATG-3. The amplicon was ligated using TA cloning into the vector pGEM-T (Promega, cat #A3600), then excised with the enzyme BstXI. This insert was ligated into the stem-loop RNAi vector, pQuadra3, as described elsewhere (Inoue et al., 2005). The construct was sequenced to verify the identity of the insert, then linearized with NotI in preparation for electroporation. Trypanosoma brucei bloodstream-form parasites expressing the T7 RNA polymerase and the Tet repressor under a single selection marker were provided by G. Cross (Rockefeller University) (Wirtz et al., 1999). The cells were grown in HMI-9 with 10% heat-inactivated fetal bovine serum at 37°C and 5% CO2 with G418 at 2.5 mg ml-1 (Hirumi and Hirumi, 1989). Mid-log phase T. brucei (2.5 ¥ 107) were suspended in 500 ml of cytomix (120 mM KCl, 0.15 mM CaCl2, 10 mM K2HPO4/KH2PO4 pH 7.6, 25 mM HEPES, 2 mM Na2EDTA, 5 mM MgCl2) containing 10 mg of NotI linearized pQuadra3/DHODH DNA. The mixture was electroporated in a 4 mm gap cuvette with 1.6 kV and 24 W resistance. Cells were re-suspended in HMI-9 medium in the presence of 2.5 mg ml-1 phleomycin and 2.5 mg ml-1 G418. Individual clones were selected for subsequent RNAi studies. The expression of dsRNA was induced by addition of 1 mg ml-1 tetracycline to the cultures diluted to 1 ¥ 105 cells ml-1. Cultures were passed at a 1:10­1:20 dilution daily and cell concentrations were monitored using a ATPLite Luminescence ATP detection Assay System (PerkinElmer, cat #6016941). Separate growth experiments were performed using HMI-9 medium that omitted thymidine (normally included at 16 mM). There are no other pyrimidine bases in the medium; it is supplemented with 100 mM hypoxanthine as a source of purines. The medium was supplemented with 10% dialysed fetal bovine serum (Hyclone) to complete the pyrimidine depleted medium.
+
+in Fig. S5. The final model consists of four molecules forming two dimers. The final model for each monomer consists of residues 1­313, one orotate and one FMN molecule. The overall model also contains 11 bromide atoms, three glycerol molecules and 638 water molecules. The final model and crystallographic structure factors have been deposited with the Protein Data Bank (accession code 2b4g).
+
+Enzyme kinetic and inhibition assays
+Enzyme kinetic assays were performed in enzyme assay buffer (50 mM HEPES, pH 8.0, 150 mM NaCl, 10% glycerol) at 25°C. Analysis of pH dependence utilized MES (pH 5.5­6.5), MOPS (pH 6.5­7.5), Tris (pH 7.5­9.0) or CHES (pH 9.0­10.0) buffer salts in place of HEPES. Production of orotate was monitored at 300 nm (e300 = 2.65 mM-1cm-1) when using fumarate, at 282 nm (e282 = 6.60 mM-1cm-1) when using vitamin K analogues, and at 296 nm (e296 = 4.30 mM-1cm-1) when using ubiquinone analogues. Reduction of NAD+ was monitored at 340 nm (e340 = 6.22 mM-1cm-1). Strong absorption in the far-UV by the inhibitors tested required the use of the traditional electron acceptor dichlorophenolindophenol (DCIP) in inhibition studies where reduction of DCIP was followed at 600 nm (e600 = 18.8 mM-1cm-1). DHO-dependent activity was examined in the presence of 500 mM fumarate. Fumarate-dependent activity was assayed at a constant DHO concentration of 250 mM. Data were analysed using the software package GraphPad Prism and SigmaPlot and fitted to the Michaelis­Menten equation. Alternative electron acceptors (vitamin K and ubiquinone analogues, NAD+) were assayed at 100 mM electron acceptor (dissolved oxygen was estimated to be ~210 mM) and 250 mM
+
+© 2008 The Authors Journal compilation © 2008 Blackwell Publishing Ltd, Molecular Microbiology, 68, 37­50
+
+48 T. L. Arakaki et al.
+
+Northern analysis
+RNA was isolated from induced and non-induced cultures after 72 h of growth using a RNEasy kit (Qiagen). Sixteen micrograms of total RNA was electrophoresed on a formaldehyde gel and blotted using standard procedures. The RNA membrane was then analysed with a DNA probe amplified from genomic DNA using the primers 5-CTCGGACA TGAGTTTTCCAACC-3 and 5-GGCTTCCTACTGTAATCG TGCG-3 that correspond to bases 22­281 of the DHODH open reading frame. The blot was stripped and re-probed with DNA of the T. brucei b-tubulin gene for standardization.
+
+purified TbDHODH and T. brucei cells lysates using preimmune and post-challenge serum and found to be specific. The anti-TbDHODH antibodies were used in Western blots on lysates of T. brucei bloodstream form cells collected before and at daily time intervals after induction of RNAi. Standard Western blot procedures were followed using goathorseradish peroxidase-conjugated secondary antibody and ECL detection (Amersham Biosciences). Relative TbDHODH protein levels were determined by densitometry. The numerical values were normalized to stained bands from the transferred SDS-PAGE gel (not shown).
+
+IC50 shift assay
+Sensitivity to 5-FU was tested against trypomastigotes of the single marker parent line and the single marker cells containing the pQuadra3/DHODH RNAi vector in both uninduced cells and cells induced for 48 h with 1 mg ml-1 tetracycline. Cells were added to 96-well plates in triplicate with an initial inoculum of 2 ¥ 104 trypomastigotes per well. The compound stock solution of 5-FU (Sigma, F6627) was prepared using sterile water at an initial concentration of 20 mM. This was diluted in HMI-9 to a concentration of 120 mM and added in serial dilutions for a final volume of 200 ml per well. Parasite growth was quantified at 48 h by the addition of Alamar Blue (Alamar Biosciences, DAL1100) (Raz et al., 1997).
+
+Acknowledgements
+We thank Jonathan Caruthers and Meg Holmes for aid in data collection. We are also reliant on the efforts of other members of the SGPP consortium, including Eric Phizicky, Erin Quartley, Angela Lauricella, Lori Schoenfeld, Jennifer Ross, Frank Zucker and Thomas Earnest. We thank Dr HP de Koning for helpful discussions about T. brucei transporter activities. This work was supported by the Protein Structure Initiative, award NIGMS GM64655; NIH award AI067921; funds from the Howard Hughes Medical Institute (HHMI) to WGJH; and by the National Institutes of Health Grants AI053680 to MAP. Portions of this work were carried out at the Advanced Light Source, which is supported by the Director, Office of Science, Office of Basic Energy Sciences, of the US Department of Energy under Contract No. DE-AC02­ 05CH11231.
+
+5-FU incorporation experiment
+Incorporation of 5-FU into T. brucei genomic DNA was measured for the bloodstream forms of the single marker parent cell line and for the bloodstream forms containing the pQuadra3/DHODH RNAi construct. Measurements were taken for both uninduced cultures and cultures that had been induced for 72 h with 1 mg ml-1 tetracycline. The trypomastigotes were all grown in standard HMI-9 containing thymidine and hypoxanthine, as well as 2.5 mg ml-1 neomycin. In addition, the cells containing the pQuadra3/DHODH RNAi vector were also grown in the presence of 2.5 mg ml-1 phleomycin. After the 72 h induction, cells were transferred to a 96-well plate and pulsed with 5 mCi of [6-3H]-5-FU (Moravek Biochemicals, MT-686) for 24 h. Cell density quantification, in order to standardize results, was carried out with 30 ml of sample using the ATPLite Luminescence ATP detection Assay System (PerkinElmer, cat #6016941) as described above. The incorporation of 3H-5-FU was measured by binding the DNA from the remaining 175 ml onto glass fibre filters with a cell harvester (Inotech Biosystems International, Rockville, MD, USA), and the radioactivity incorporated into the parasites was counted on a Chameleon 425­104 multilabel plate scintillation counter (Hidex Oy, Turku, Finland).
+
+References
+Alexandrov, A., Vignali, M., LaCount, D.J., Quartley, E., de Vries, C., Rosa, D.D., et al. (2004) A facile method for high-throughput co-expression of protein pairs. Mol Cell Proteomics 3: 934­938. Andersen, P.S., Jansen, P.J., and Hammer, K. (1994) Two different dihydroorotate dehydrogenases in Lactococcus lactis. J Bacteriol 176: 3975­3982. Annoura, T., Nara, T., Makiuchi, T., Hashimoto, T., and Aoki, T. (2005) The origin of dihydroorotate dehydrogenase genes of kinetoplastids, with special reference to their biological significance and adaptation to anaerobic, parasitic conditions. J Mol Evol 60: 113­127. Baldwin, J., Michnoff, C.H., Malmquist, N.A., White, J., Roth, M.G., Rathod, P.K., and Phillips, M.A. (2005) Highthroughput screening for potent and selective inhibitors of Plasmodium falciparum dihydroorotate dehydrogenase. J Biol Chem 280: 21847­21853. Beitz, E. (2000) TEXshade: shading and labeling of multiple sequence alignments using LATEX2 epsilon. Bioinformatics 16: 135­139. Berriman, M. (2004) Data mining parasite genomes. Parasitology 128 (Suppl.): S23­S31. Boa, A.N., Canavan, S.P., Hirst, P.R., Ramsey, C., Stead, A.M.W., and McConkey, G.A. (2005) Synthesis of brequinar analogue inhibitors of malaria parasite dihydroorotate dehydrogenase. Bioorg Med Chem 13: 1945­1967. de Bono, J.S., and Twelves, C.J. (2001) The oral fluorinated pyrimidines. Invest New Drugs 19: 41­59.
+
+Antibody production and Western immunoblotting
+Purified TbDHODH was sent to Affinity BioReagents (Golden, CO) for antibody production in rabbits as previously described. Antibody specificity was confirmed against
+
+© 2008 The Authors Journal compilation © 2008 Blackwell Publishing Ltd, Molecular Microbiology, 68, 37­50
+
+Characterization of T. brucei DHODH 49
+
+Chaudhary, K., and Roos, D.S. (2005) Protozoan genomics for drug discovery. Nat Biotechnol 23: 1089­1091. Chayen, N.E., Stewart, P.D.S., and Blow, D.M. (1992) Microbatch crystallization under oil ­ a new technique allowing many small-Volume crystallization trials. J Cryst Growth 122: 176­180. Collaborative Computational Project, No. 4 (1994) The ccp4 suite: programs for protein crystallography. Acta Crystallogr D50: 760­763. Emsley, P., and Cowtan, K. (2004) Coot: model-building tools for molecular graphics. Acta Crystallogr D60: 2126­ 2132. Fagan, R., Jensen, K., Bjornberg, O., and Palfey, B. (2007) Mechanism of flavin reduction in the class 1A dihydroorotate dehydrogenase from Lactococcus lactis. Biochemistry 46: 4028­4036. Feliciano, P.R., Cordeiro, A.T., Costa-Filho, A.J., and Nonato, M.C. (2006) Cloning, expression, purification, and characterization of Leishmania major dihydroorotate dehydrogenase. Protein Expr Purif 48: 98­103. Guda, C., Lu, S., Scheeff, E.D., Bourne, P.E., and Shindyalov, I.N. (2004) CE-MC: a multiple protein structure alignment server. Nucleic Acids Res 32: W100­W103. Gudin, S., Quashie, N.B., Candlish, D., Al-Salabi, M.I., Jarvis, S.M., Ranford-Cartwright, L.C., and de Koning, H.P. (2006) Trypanosoma brucei: a survey of pyrimidine transport activities. Exp Parasitol 114: 118­125. Guex, N., and Peitsch, M.C. (1997) SWISS-MODEL and the Swiss-PdbViewer: an environment for comparative protein modeling. Electrophoresis 18: 2714­2723. Hall, C., Brachat, S., and Dietrich, F.S. (2005) Contribution of horizontal gene transfer to the evolution of Saccharomyces cerevisiae. Eukaryot Cell 4: 1102­1115. Hansen, M., Nours, J.L., Johansson, E., Antal, T., Ullrich, A., Löffler, M., and Larsen, S. (2004) Inhibitor binding in a class 2 dihydroorotate dehydrogenase causes variations in the membrane-associated N-terminal domain. Protein Sci 13: 1031­1042. Heikkilä, T., Thirumalairajan, S., Davies, M., Parsons, M.R., McConkey, A.G., Fishwick, C.W.G., and Johnson, A.P. (2006) The first de novo designed inhibitors of Plasmodium falciparum dihydroorotate dehydrogenase. Bioorg Med Chem Lett 16: 88­92. Hertz-Fowler, C., Peacock, C.S., Wood, V., Aslett, M., Kerhornou, A., Mooney, P., et al. (2004) GeneDB: a resource for prokaryotic and eukaryotic organisms. Nucleic Acids Res 32: D339­D343. Hirumi, H., and Hirumi, K. (1989) Continuous cultivation of Trypanosoma brucei blood stream forms in a medium containing a low concentration of serum protein without feeder cell layers. J Parasitol 75: 985­989. Holton, J., and Alber, T. (2004) Automated protein crystal structure determination using ELVES. Proc Natl Acad Sci USA 101: 1537­1542. Hurt, D.E., Widom, J., and Clardy, J. (2006) Structure of Plasmodium falciparum dihydroorotate dehydrogenase with a bound inhibitor. Acta Crystallogr D Biol Crystallogr 62: 312­323. Inaoka, D.K., Takashima, E., Osanai, A., Shimizu, H., Nara, T., Aoki, T., et al. (2005) Expression, purification and crystallization of Trypanosoma cruzi dihydroorotate dehydroge-
+
+nase complexed with orotate. Acta Crystallograph Sect F Struct Biol Cryst Commun 61: 875­878. Inoue, M., Nakamura, Y., Yasuda, K., Yasaka, N., Hara, T., Schnaufer, A., et al. (2005) The 14­3-3 proteins of Trypanosoma brucei function in motility, cytokinesis, and cell cycle. J Biol Chem 280: 14085­14096. Karibian, D. (1978) Dihydroorotate dehydrogenase (Escherichia coli ). Methods Enzymol 51: 58­63. Knecht, W., Bergjohann, U., Gonski, S., Kirschbaum, B., and Löffler, M. (1996) Functional expression of a fragment of human dihydroorotate dehydrogenase by means of the baculovirus expression vector system, and kinetic investigation of the purified recombinant enzyme. Eur J Biochem 240: 292­301. de Koning, H.P., and Jarvis, S.M. (1998) A highly selective, high-affinity transporter for uracil in Trypanosoma brucei brucei: evidence for proton-dependent transport. Biochem Cell Biol 76: 853­858. Laskowski, R.A., Chistyakov, V.V., and Thornton, J.M. (2005) PDBsum more: new summaries and analyses of the known 3D structures of proteins and nucleic acids. Nucleic Acids Res 33: D266­D268. Liu, S., Neidhardt, E.A., Grossman, T.H., Ocain, T., and Clardy, J. (2000) Structures of human dihydroorotate dehydrogenase in complex with antiproliferative agents. Structure 8: 25­33. Lovell, S.C., Davis, I.W., Arendall, W.B., de Bakker, P.I.W., Word, J.M., Prisant, M.G., et al. (2003) Structure validation by Calpha geometry: phi,psi and Cbeta deviation. Proteins 50: 437­450. Luft, J.R., Collins, R.J., Fehrman, N.A., Lauricella, A.M., Veatch, C.K., and DeTitta, G.T. (2003) A deliberate approach to screening for initial crystallization conditions of biological macromolecules. J Struct Biol 142: 170­179. Marcinkeviciene, J., Jiang, W., Locke, G., Kopcho, L.M., Rogers, M.J., and Copeland, R.A. (2000) A second dihydroorotate dehydrogenase (Type A) of the human pathogen Enterococcus faecalis: expression, purification, and steady-state kinetic mechanism. Arch Biochem Biophys 377: 178­186. McRobert, L., and McConkey, G.A. (2002) RNA interference (RNAi) inhibits growth of Plasmodium falciparum. Mol Biochem Parasitol 119: 273­278. Murshudov, G.N., Vagin, A.A., and Dodson, E.J. (1997) Refinement of macromolecular structures by the maximum-likelihood method. Acta Crystallogr D53: 240­ 255. Nara, T., Hshimoto, T., and Aoki, T. (2000) Evolutionary implications of the mosaic pyrimidine-biosynthetic pathway in eukaryotes. Gene 257: 209­222. Nielsen, F.S., Andersen, P.S., and Jensen, K.F. (1996a) The B form of dihydroorotate dehydrogenase from Lactococcus lactis consists of two different subunits, encoded by the pyrDb and pyrK genes, and contains FMN, FAD, and [FeS] redox centers. J Biol Chem 271: 29359­29365. Nielsen, F.S., Rowland, P., Larsen, S., and Jensen, K.F. (1996b) Purification and characterization of dihydroorotate dehydrogenase A from Lactococcus lactis, crystallization and preliminary X-ray diffraction studies of the enzyme. Protein Sci 5: 852­856. Nørager, S., Arent, S., Björnberg, O., Ottosen, M., Leggio,
+
+© 2008 The Authors Journal compilation © 2008 Blackwell Publishing Ltd, Molecular Microbiology, 68, 37­50
+
+50 T. L. Arakaki et al.
+
+L.L., Jensen, K.F., and Larsen, S. (2003) Lactococcus lactis dihydroorotate dehydrogenase A mutants reveal important facets of the enzymatic function. J Biol Chem 278: 28812­28822. Palfey, B.A., Björnberg, O., and Jensen, K.F. (2001) Specific inhibition of a family 1A dihydroorotate dehydrogenase by benzoate pyrimidine analogues. J Med Chem 44: 2861­ 2864. Papageorgiou, I.G., Yakob, L., Salabi, M.I.A., Diallinas, G., Soteriadou, K.P., and Koning, H.P.D. (2005) Identification of the first pyrimidine nucleobase transporter in Leishmania: similarities with the Trypanosoma brucei U1 transporter and antileishmanial activity of uracil analogues. Parasitology 130: 275­283. Raz, B., Iten, M., Grether-Buhler, Y., Kaminsky, R., and Brun, R. (1997) The Alamar Blue assay to determine drug sensitivity of African trypanosomes (T.b. rhodesiense and T.b. gambiense) in vitro. Acta Trop 68: 139­147. Redmond, S., Vadivelu, J., and Field, M.C. (2003) RNAit: an automated web-based tool for the selection of RNAi targets in Trypanosoma brucei. Mol Biochem Parasitol 128: 115­ 118. Rowland, P., Nørager, S., Jensen, K.F., and Larsen, S. (2000) Structure of dihydroorotate dehydrogenase B: electron transfer between two flavin groups bridged by an iron-sulphur cluster. Structure 8: 1227­1238. Schwede, T., Kopp, J., Guex, N., and Peitsch, M.C. (2003) SWISS-MODEL: an automated protein homologymodeling server. Nucleic Acids Res 31: 3381­3385. Takashima, E., Inaoka, D.K., Osanai, A., Nara, T., Odaka, M.,
+
+Aoki, T., et al. (2002) Characterization of the dihydroorotate dehydrogenase as a soluble fumarate reductase in Trypanosoma cruzi. Mol Biochem Parasitol 122: 189­200. Vagin, A., and Teplyakov, A. (1997) Molrep: an automated program for molecular replacement. J Appl Cryst 30: 1022­1025. Wang, C.C. (1997) Validating targets for antiparasite chemotherapy. Parasitology 114 (Suppl.): S31­44. Wirtz, E., Leal, S., Ochatt, C., and Cross, G.A. (1999) A tightly regulated inducible expression system for conditional gene knock-outs and dominant-negative genetics in Trypanosoma brucei. Mol Biochem Parasitol 99: 89­101. Wolfe, A., Thymark, M., Gattis, S., Fagan, R., Hu, Y.-C., Johansson, E., et al. (2007) Interaction of benzoate pyrimidine analogues with class 1A dihydroorotate dehydrogenase from Lactococcus lactis. Biochemistry 46: 5741­5753.
+
+Supplementary material
+This material is available as part of the online article from: http://www.blackwell-synergy.com/doi/abs/10.1111/ j.1365-2958.2008.06131.x (This link will take you to the article abstract). Please note: Blackwell Publishing is not responsible for the content or functionality of any supplementary materials supplied by the authors. Any queries (other than missing material) should be directed to the corresponding author for the article.
+
+© 2008 The Authors Journal compilation © 2008 Blackwell Publishing Ltd, Molecular Microbiology, 68, 37­50
+
+

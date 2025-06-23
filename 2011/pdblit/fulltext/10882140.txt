@@ -1,0 +1,394 @@
+G Model JVAC 10450 1­9
+
+ARTICLE IN PRESS
+Vaccine xxx (2010) xxx­xxx
+
+1
+
+Contents lists available at ScienceDirect
+
+Vaccine
+journal homepage: www.elsevier.com/locate/vaccine
+
+1 2
+
+3 4 5 6 7 8
+
+Subhashini Jagu a , Kihyuck Kwak a , Robert L. Garcea b , Richard B.S. Roden a,c,d,
+a
+
+9 10 11 12 13 14
+
+a r t i c l e
+
+i n f o
+
+a b s t r a c t
+
+16 17 18 19 20 21 22
+
+23
+
+1. Introduction
+
+EC
+
+Keywords: Human papillomavirus L1 VLP Capsomeres Capsomers L2 Multimeric
+
+TE
+
+15
+
+D
+
+Article history: Received 23 November 2009 Received in revised form 12 April 2010 Accepted 15 April 2010 Available online xxx
+
+Immunization with L1 as pentavalent capsomeres or virus-like particles (VLPs) generates high and longlived titers of neutralizing antibodies and protection primarily against the human papillomavirus (HPV) type from which the vaccine was derived. Conversely, vaccination with L2 minor capsid protein derived from multiple HPV types induces lower titer, but more broadly neutralizing and protective antibody responses. We combined the advantages of each protective antigen by immunization with titrated doses of multi-type L2 with either L1 capsomeres or VLP. We observed no significant interference between the L1 and L2 antibody response upon co-administration of L1 vaccines with multi-type L2 vaccines. © 2010 Published by Elsevier Ltd.
+
+24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39
+
+UN
+
+HPV is responsible for 5% of all cancers worldwide, including cervical cancer and the majority of vaginal, vulval, penile, anal and a subset of certain head and neck cancers [1]. Although HPV16 and HPV18 cause 50% and 20% of cervical cancer cases respectively, there are more than a dozen other `oncogenic' types of genital HPV [2]. Long-term protection against all oncogenic types through vaccination is necessary to eventually eliminate cervical cancer and the need for expensive screening programs [3­5]. Other benign HPV types are responsible for considerable morbidity, including genital warts associated primarily with HPV6 and HPV11 infections. The currently licensed vaccines, Cervarix and Gardasil, are derived from major capsid protein L1 virus-like particles self assembled in insect or yeast cells respectively [6,7]. These vaccines both target the two most important oncogenic HPV types, HPV16 and HPV18, although Gardasil also contains HPV6 and HPV11 L1 VLP to protect against benign genital warts. The current vaccines do not target benign
+
+Abbreviations: HPV, human papillomavirus; BPV, bovine papillomavirus; SEAP, secreted alkaline phosphatase; TLR, toll-like receptor; MPL, monophosphoryl lipid A.  Corresponding author at: Department of Pathology, Johns Hopkins University, Room 308, Cancer Research Building 2, 1550 Orleans St., Baltimore, MD 21231, USA. Tel.: +1 410 502 5161; fax: +1 443 287 4295. E-mail address: roden@jhmi.edu (R.B.S. Roden). 0264-410X/$ ­ see front matter © 2010 Published by Elsevier Ltd. doi:10.1016/j.vaccine.2010.04.039
+
+cutaneous warts associated with numerous types including HPV1 or the plethora of epidermodysplasia verruciformis (EV)-associated HPV types, such as HPV5, linked to non-melanoma skin cancers that afflict the genetically-predisposed EV patients and immunocompromised individuals in particular [8]. Immunization with L1 VLPs generates high titer serum neutralizing antibodies that are primarily type-specific, although limited cross-reactivity with the additional oncogenic types associated with cervical cancer has been observed [9,10]. L1 VLP are protective even without an adjuvant [11­14], but the current vaccines both are formulated in aluminum salts (amorphous aluminum hydroxyphosphate sulfate in Gardasil and aluminum hydroxide in Cervarix) and Cervarix also includes the TLR4 agonist monophosphoryl lipid A (MPL), presumably with the goal of enhancing cross-neutralization of closely related types and sustaining the neutralizing antibody response [3]. The licensed L1 VLP vaccines provide near complete protection from the HPV types from which they are derived and the limited in vitro cross-neutralization detected is somewhat predictive of partial activity against other highly phylogenetically-related types [15]. In the case of Cervarix, vaccination provides strong protection against HPV31 and HPV45, the two types most closely related to HPV16 L1 and HPV18 L1 respectively from which its constituent VLP was generated [16]. However, the relative neutralization titers are much lower for heterologous types compared with the homologous type, and therefore the longevity of this cross-protection is uncertain [10,17].
+
+PR
+
+Department of Pathology, Johns Hopkins University, Baltimore, MD 21231, USA Department of Molecular, Cellular, and Developmental Biology, University of Colorado, 347UCB Boulder, CO 80309, USA Department of Oncology, Johns Hopkins University, Baltimore, MD 21231, USA d Department of Gynecology and Obstetrics, Johns Hopkins University, Baltimore, MD 21231, USA
+b c
+
+OO
+
+Vaccination with multimeric L2 fusion protein and L1 VLP or capsomeres to broaden protection against HPV infection
+
+F
+
+40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65
+
+Please cite this article in press as: Jagu S, et al. Vaccination with multimeric L2 fusion protein and L1 VLP or capsomeres to broaden protection against HPV infection. Vaccine (2010), doi:10.1016/j.vaccine.2010.04.039
+
+CO
+
+RR
+
+G Model JVAC 10450 1­9 2
+66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131
+
+ARTICLE IN PRESS
+S. Jagu et al. / Vaccine xxx (2010) xxx­xxx
+
+Further, protection against most other oncogenic types is limited, and no protection is provided against other benign HPV infections presumably [16]. The breadth of protection might be enhanced by increasing the valency of current HPV vaccines, and efforts to produce eight or nine type L1 VLP vaccines are ongoing. Nonetheless, gaps in the coverage might remain, and this approach greatly increases the complexity of the manufacture and trials and therefore likely the cost of vaccination. Cost is a critical issue for the worldwide introduction of HPV vaccination, and the breadth of protection is particularly significant for countries lacking cytologic screening programs [18]. Since the licensed HPV vaccines do not protect against all oncogenic HPV types, the cost of vaccination must currently be borne in addition to the continued cytologic screening programs, reducing the cost benefit. Another unintended consequence is that the predictive value and cost effectiveness of current screening regimens plummets in vaccinated women [18]. L1 capsomeres also induce high titers of neutralizing antibodies, but unlike the eukaryotically-expressed VLPs in the licensed vaccines, they are produced at high level in Escherichia coli and represent a potential low cost alternative [19­21]. While the administration of low doses of canine oral papillomavirus (COPV) L1 capsomeres as glutathione-S-transferase (GST) fusions and without adjuvant, as described earlier for COPV L1 VLP, provides naïve dogs complete protection from experimental viral challenge [21], they may be similarly or less immunogenic than L1 VLP depending on the construct [22­25]. Notably the HPV16 L1 10 capsomeres exhibited comparable immunogenicity to L1 VLPs [24,25]. However, the immunogenicity of L1 capsomeres has not been directly compared to a licensed HPV vaccine using the same adjuvant system. Since passive transfer of naïve animals with L1 VLP-specific serum IgG provides protection, neutralizing antibodies are the relevant immune correlate of protection [11,12]. Thus the relative ability of L1 capsomeres to induce a non-inferior neutralizing antibody response to the licensed HPV vaccines is an important issue for their clinical development. Vaccination with the minor capsid protein L2 also protects animals from papillomavirus challenge by the induction of neutralizing antibodies, albeit at much lower titers than induced by L1 VLP [26­31]. Interestingly, vaccination with HPV16 L2 protects rabbits from challenge with cotton tail rabbit papillomavirus (CRPV), suggesting, in contrast to L1 VLP, that L2 vaccination might provide broad immunity to diverse HPV types. L2 contains widely crossneutralizing epitopes that are presumably conserved because they contribute to some critical viral function such as infectivity [30,32]. Unfortunately L2 is poorly immunogenic compared to L1 VLP, and it is therefore unclear how long immunity could be maintained [33]. The immunogencity of L2 might be improved by vaccination at higher doses and/or formulation in potent adjuvants, such as alum in combination with a TLR9 agonist like ISS 1018 [34,35], or a TLR4 agonist like monophosphoryl lipid A (MPL) that provide a `danger signal' [36,37]. While L2 residues 11­88 contain crossprotective epitopes, it is clear that L2-specific antibodies typically neutralize related types more effectively than less evolutionarily related types. To enhance cross-protection by reinforcing the common epitopes, we designed multi-type L2 fusion proteins consisting of known cross-neutralizing epitopes of divergent HPV types. For example, polypeptides comprising residues 11­88 from the L2 genes of HPV1, HPV5 HPV6, HPV16 and HPV18 L2 were concatenated to form the multi-type L2 11­88 × 5 antigen and produced in the low cost E. coli expression system [36,38]. Here our objective was to foster development a broadly protective HPV vaccine that might be produced inexpensively to meet the needs of low resource countries by combining vaccine antigens and several adjuvants. Specifically we examined whether higher doses and formulation of the L2 11­88 × 5 vaccine in alum and TLR agonists could enhance the sustained neutralizing antibody response
+
+against diverse oncogenic HPV types, and whether combining the L2 11­88 × 5 vaccine with Cervarix or HPV16 L1 capsomeres could enhance the breadth, strength and longevity of the neutralizing antibody response as an alternative to the generation of highly multivalent L1 vaccines. 2. Materials and methods 2.1. L2 11­88 × 5 antigen preparation The 11­88 regions of L2 derived from HPV 1, HPV5, HPV6, HPV16 and HPV18 were codon optimized for E. coli expression by lowest free energy calculation and synthesized fused in frame by Blue Heron Inc. with 5 BamHI and 3 XhoI sites to facilitate subcloning [36]. The L2 11­88 × 5 gene was cloned into the pET28a vector (Novagen) and hexahistidine-tagged recombinant polypeptides expressed in E. coli BL21 (Rosetta cells, Novagen) [32]. The hexahistidine-tagged recombinant L2 polypeptide 11­88 × 5 was affinity purified by binding to a nickel-nitrilotriacetic acid (Ni-NTA) column (Qiagen) in 8 M urea (using the QiaExpressionist standard purification protocol for denaturing conditions) and then dialyzed in cassettes (Pierce) against Dulbecco's phosphate buffered saline (PBS). Purity was monitored by SDS-PAGE and protein concentration determined by bicinchoninic acid test (Pierce) using a bovine serum albumen standard [36]. Endotoxin levels were tested using Limulus Amebocyte Lysate (LAL) QCL-1000 (Lonza Walkersville Inc., Walkersville, MD, USA). The HPV antigens were adsorbed on to aluminum hydroxide (50 g Al3+ as Al(OH)3 , Sigma) alone or in the presence of 5 g of Monophosphoryl lipid A (MPL, Sigma) or 10 g ISS 1018 (Dynavax, Berkley, CA) overnight at 4  C rotating end over end. In the case of mixing Cervarix and L2 11­88 × 5, the L2 11­88 × 5 protein was added to Cervarix (GSK) and incubated overnight at 4  C rotating end over end.
+
+132 133 134 135 136
+
+137
+
+138
+
+139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 161
+
+CT
+
+ED
+
+2.2. Preparation of GST-HPV16 L1 capsomeres Full length HPV16 L1 was expressed as a GST fusion protein in BL21 (DE3) Codon Plus E. coli (Stratagene) using previously described conditions for protein induction and bacterial growth [20,39,40]. The fusion protein was purified as previously described [39] with the following modifications. Lysozyme (500 g/ml) and sodium deoxycholate (0.1% final) were added to the cells in buffer L (50 mM Tris­HCl, pH 8.0, 0.2 M NaCl, 1 mM DTT) prior to sonication. DNAase I was added to the lysed bacteria at a concentration of 40 g/ml, along with 2 mM ATP and 10 mM MgCl2 . After incubation for 2 h at 4  C, solid urea was added to a final concentration of 2.3 M along with PMSF, leupeptin and pepstatin A protease inhibitors. After a further incubation for 2 h at RT, the lysate was dialyzed overnight into three changes of buffer without urea. After centrifugation of the dialyzed lysate at 25,000 × g for 75 min, the clarified lysate was applied to a glutathione sepharose column. The column was washed with 4 column volumes each of buffer L, buffer L plus 5 mM ATP and 5 mM MgCl2 , buffer L plus 2.5 M urea, and buffer L, before elution with buffer L with 10 mM reduced glutathione. SDSPAGE analysis of the eluted fusion protein revealed GST-L1 and free GST as the major components. Total GST-L1 protein in the sample used for vaccination was estimated by SDS-PAGE in comparison to a BSA standard. 2.3. Enzyme-linked immunosorbent assays (ELISAs) Immobilon plates (Nunc) were coated with 100 ng/well of 6His11­88 × 5 L2 (prepared in E. coli) or HPV16 L1 VLPs (produced in 293TT) cells in PBS overnight at 4  C. Wells were then blocked with 1% bovine serum albumin (BSA)­PBS for 1 h at room temperature, and incubated with 2-fold dilutions of mouse sera for 1 h at room
+
+PR
+
+OO
+
+F
+
+162
+
+163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184
+
+UN CO R
+
+RE
+
+185
+
+186 187 188 189 190
+
+Please cite this article in press as: Jagu S, et al. Vaccination with multimeric L2 fusion protein and L1 VLP or capsomeres to broaden protection against HPV infection. Vaccine (2010), doi:10.1016/j.vaccine.2010.04.039
+
+G Model JVAC 10450 1­9
+
+ARTICLE IN PRESS
+S. Jagu et al. / Vaccine xxx (2010) xxx­xxx 3
+
+191 192 193 194 195
+
+temperature. Following a wash step with PBS-0.01% (v/v) Tween 20, peroxidase-labeled rabbit anti-mouse (Amersham) diluted 1:5000 in 1% BSA­PBS was added for 1 h. The plates were then washed and developed with 2,2 -azino-bis(3-ethylbenzthiazoline-6-sulphonic acid solution (Roche) for 10 min. 2.4. Neutralization assays The papillomavirus pseudovirion in vitro neutralization assays were performed as described earlier [36,41] and the secreted alkaline phosphatase content in the clarified supernatant was determined using the p-Nitrophenyl phosphate tablets (Sigma, St. Louis, MO) dissolved in diethanolamine and absorbance measured at 405 nm. Constructs and detailed protocols for the preparation of the pseudovirions can be found at http://home.ccr.cancer.gov/lco/. Titers were defined as the reciprocal of the highest dilution that caused a 50% reduction in A405 and a titer <50 was not considered significant. 2.5. Animal studies Studies were performed with the approval of the Johns Hopkins University Animal Care and Use Committee. Balb/c mice (NCI Frederick) were vaccinated in groups of 5 animals three times at 2-week intervals s.c. with different concentrations of L2 11­88 × 5 alum alone, or with Alum + MPL, alum + ISS 1018 or with 1/10th of human dose of Cervarix (comprising 2 g of HPV16 L1 VLP and 2 g of HPV18 L1 adsorbed on to aluminum hydroxide (50 g Al3+ as Al(OH)3 ) and 5 g of monophosphoryl lipid A) or 2 g of GSTHPV16 L1 capsomeres in alum + MPL. Serum samples were obtained by tail vein bleeds 2 weeks and 4 months after the final immunization. 2.6. Statistical analysis
+
+196
+
+197 198 199 200 201 202 203 204 205 206
+
+208 209 210 211 212 213 214 215 216 217 218
+
+ED
+
+Fig. 1. Influence of adjuvant upon L2-specific antibody titers. Sera from each mouse was collected 2 weeks after the third dose of the indicated vaccines was titrated in 2-fold dilutions from 1:50 and tested by ELISA using plates coated with L2 11­88 × 5 (CpG = 1018 ISS).
+
+219
+
+220 221 222 223 224 225
+
+RE
+
+Comparison of Log10 transformed titers by ANOVA with Bonferroni correction for multiple comparisons and graphical presentation of titers as box/whisker plots were performed using GraphPad Prism 4 software. Significance was set at p < 0.05. For samples lacking reactivity at the lowest serum dilution, a titer of 10 was arbitrarily set.
+
+UN CO R
+
+226
+
+3. Results
+
+227 228
+
+3.1. Impact of adjuvant on the humoral response to L2 11­88 × 5 vaccination We have previously shown that vaccination of mice with a multimeric L2 protein formulated in alum and the TLR9 agonist 1018 ISS (CpG) induces long-lived protection and broadly neutralizing serum antibodies [36]. Nevertheless, the titers of neutralizing antibodies induced by the multimeric L2 construct were lower than those elicited by L1 VLP, and therefore we have explored alternative adjuvants to boost the L2-specific neutralizing antibody titers. Since TLR9 activates only the MyD88 pathway, but TLR4 activiates both the MyD88 and Trif-dependent innate signaling pathways [37,42], here we have explored the adjuvant activity of alum in combination with the TLR4 agonist MPL for L2-specific humoral responses. To assess the ability of each formulation to adjuvant L2specific responses we examined dose sparing, peak neutralizing antibody titers and long-term responses for both HPV types used to derive the L2 11­88 × 5 vaccine (herein termed `homologous') and types whose L2 was not represented in the vaccine (termed `heterologous'). As the most stringent model, we utilized mice for vaccination since prior studies indicate that L2-specific immune responses are less robust in mice as compared to rabbits for this
+
+229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247
+
+immunogen [36]. Therefore, Balb/c mice were vaccinated three times at 2-week intervals with decreasing doses of L2 11­88 × 5 (20, 10, 4, 2, 1, or 0 g) in alum, alum + 10 g 1018 ISS (CpG), or alum + 5 g MPL and 2 weeks later a serum sample was harvested. The L2 11­88 × 5-specific humoral immune response was first analyzed by ELISA using the L2 immunogen to coat the microtiter plate (Fig. 1). Mice vaccinated with adjuvant alone failed to elicit an L2-specific antibody response. Conversely mice vaccinated with L2 11­88 × 5 in each of the formulations generated high titer serum antibody responses against the antigen, and a dose response was apparent. The significant dose response for the peak ELISA titers (p < 0.001) in mice vaccinated with L2 11­88 × 5 in alum was not significantly different to the alum + MPL formulation of L2 11­88 × 5, whereas the titers were significantly higher in antisera of mice receiving the lower doses of L2 11­88 × 5 formulated in alum + CpG (p < 0.001 at the 1 g dose). L2 ELISA titers and L2-specific neutralizing antibody titers tend to correlate less well with each other than L1 VLP ELISA titers and L1-specific neutralization titers, probably because its neutralizing epitopes comprise a small fraction of the entire L2. Therefore, we examined the titers for in vitro neutralization of HPV16, a type whose L2 is present within the 11­88 × 5 immunogen (Fig. 2A). The L2 11­88 × 5 formulation in alum exhibited a significant dose response between 1 and 20 g (p = 0.008). No significant difference between the dose response curves for the peak HPV16 neutralization titers was observed for L2 11­88 × 5 formulated in the three adjuvants. However, when we examined the in vitro neutralization titers for HPV18 and for HPV45, a type whose L2 was not utilized to produce the L2 11­88 × 5 antigen, the alum + CpG and alum + MPL formulations appeared to be more effective in triggering detectable titers with low doses of antigen (Fig. 2B and C, see 2 g dose). Adjuvants can increase the long-lived or `set point' titers and therefore we compared the three formulations for their ability to maintain detectable antigen-specific serum titers. At 4 months after immunization serum samples were again harvested from each mouse and tested for HPV16 neutralization titer (Fig. 3A). No significant difference was observed for the dose response curves for
+
+PR
+
+207
+
+OO
+
+F
+
+248 249 250 251 252 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 269 270 271 272 273 274 275 276 277 278 279 280 281 282 283 284
+
+Please cite this article in press as: Jagu S, et al. Vaccination with multimeric L2 fusion protein and L1 VLP or capsomeres to broaden protection against HPV infection. Vaccine (2010), doi:10.1016/j.vaccine.2010.04.039
+
+CT
+
+G Model JVAC 10450 1­9 4
+
+ARTICLE IN PRESS
+S. Jagu et al. / Vaccine xxx (2010) xxx­xxx
+
+UN CO R
+
+RE
+Fig. 2. Influence of adjuvant upon L2-specific neutralizing antibody titers. Sera from each mouse was collected 2 weeks after the third dose of the indicated vaccines was titrated in 2-fold dilutions from 1:50 and tested for in vitro neutralization of HPV16 (A), or HPV18 (B), or HPV45 (C) pseudovirions. Fig. 3. Influence of adjuvant upon L2-specific neutralizing antibody titers 4 months after vaccination. Sera from each mouse was collected 4 months after the third dose of the indicated vaccines was titrated in 2-fold dilutions from 1:50 and tested for in vitro neutralization of HPV16 (A), or HPV45 (B), or HPV58 (C) pseudovirions.
+
+Please cite this article in press as: Jagu S, et al. Vaccination with multimeric L2 fusion protein and L1 VLP or capsomeres to broaden protection against HPV infection. Vaccine (2010), doi:10.1016/j.vaccine.2010.04.039
+
+CT
+
+ED
+
+PR
+
+OO
+
+F
+
+G Model JVAC 10450 1­9
+
+ARTICLE IN PRESS
+S. Jagu et al. / Vaccine xxx (2010) xxx­xxx 5
+
+Fig. 4. L1 VLP and L2-specific antibody titers. Sera from each mouse was collected 2 weeks after the third dose of the indicated vaccine antigens in alum + MPL was titrated in 2-fold dilutions from 1:50 and tested by ELISA using plates coated with L2 11­88 × 5 (A), or HPV16 L1 VLP (B).
+
+285 286 287 288 289 290 291 292 293 294
+
+CT
+
+L2 11­88 × 5 formulated in the three adjuvants. However, when examining the neutralization of HPV45, the titers were trending higher at the lowest doses of antigen for the alum + MPL formulation as compared to the alum alone or alum + CpG formulations, but this did not reach significance (Fig. 3B). To expand this analysis of heterologous neutralization, we also examined the set point titers for HPV58, another type whose L2 sequences were not used to generate the L2 11­88 × 5 antigen. Again the in vitro neutralization titers in the alum + MPL group exhibited a trend for superiority as compared to the alum alone or alum + CpG formulations (Fig. 3C). 3.2. Combination of the L2 11­88 × 5 vaccine with L1
+
+295
+
+296 297 298 299 300 301 302 303 304 305 306 307 308 309 310 311 312 313 314 315 316 317 318 319 320 321 322 323 324
+
+One possible approach to provide the broadest possible immunity against oncogenic HPV infection is to mix the L1 VLP vaccine with a multimeric L2 polypeptide. While it is possible that the ability of VLP to activate dendritic cells may adjuvant the humoral responses to the multimeric L2 component [43,44], it is also possible that the L1-specific response so dominates that the L2-specific response is suppressed, as seen in the case of L1/L2 co-assembled VLP or virions [33]. L1 capsomeres are a potential alternative to L1 VLP, although their relative immunogenicity must be examined and they will likely induce a similarly type-restricted immune response. Therefore we vaccinated Balb/c mice three times at 2-week intervals with different doses of 11­88 × 5 polypeptide L2 (0, 4, 10, or 20 g) either alone or mixed with Cervarix (1/10th of a human dose, corresponding to 2 g of HPV16 L1 VLP, 2 g of HPV18 L1 VLP), or 2 g of GST-HPV16 L1 capsomeres. All of these formulations were delivered in 50 g of alum + 5 g of MPL (although the MPL present in the Cervarix was formulated by GSK, whereas the MPL in the other formulations was obtained from Sigma L6895 and derived from S. minnesota Re 595) [42]. Sera were harvested from the mice 2 weeks after the final immunization. The antisera were initially tested for L2 11­88 × 5-specific antibodies by ELISA (Fig. 4A). No L2-specific antibodies were detected in the mice receiving Cervarix alone, capsomeres alone or adjuvant (alum + MPL) alone. Conversely, L2 11­88 × 5-specific antibodies were detected at equivalent levels in mice receiving the same dose, regardless of the co-administration of Cervarix or L1 capsomeres. Furthermore, the response curves for the administration of different doses of the L2 11­88 × 5 polypeptide were similarly unaffected by the co-administration of Cervarix or L1 capsomeres. Conversely,
+
+we examined whether the increasing doses interfered with the L1-specific antibody response by testing the antisera in an HPV16 L1 VLP ELISA (Fig. 4B). No HPV16 L1 VLP-specific antibody was observed in mice vaccinated with adjuvant alone or L2 11­88 × 5, but titers >105 in mice receiving Cervarix. We observed approximately 10-fold higher HPV16 L1 VLP ELISA titers in mice receiving 2 g of HPV16 L1 VLP in Cervarix as compared with 2 g of HPV16 L1 capsomeres in an equivalent adjuvant (p < 0.001). Importantly, the HPV16 L1 VLP-specific ELISA titers to either Cervarix or L1 capsomeres were unaffected by co-administration of up to 20 g of L2 11­88 × 5, approximately 10 times the amount of L1 in this formulation. Examination of the HPV16 in vitro neutralization titers of the antisera also showed a 10-fold higher titer in mice receiving Cervarix as compared with L1 capsomeres (p < 0.01, Fig. 5A). While this may be important for clinical development based upon the induction of non-inferior neutralizing antibody titers, the immune response to GST-L1 capsomeres is highly protective in animal models [21], and it is clear from the cross-protection seen with the licensed HPV vaccines that even extremely low serum neutralizing antibody titers to non-vaccine types are protective [15,16]. The HPV16 in vitro neutralization titers of mice vaccinated with L2 11­88 × 5 were 10-fold lower than for 2 g of HPV16 L1 capsomeres, even when 20 g of L2 11­88 × 5 was administered (p < 0.001, Fig. 5A). Vaccination with Cervarix in the presence of L2 11­88 × 5 did not impact the HPV16 neutralizing antibody titer. Vaccination with 2 g of L1 capsomeres mixed with 10 or 20 g of L2 11­88 × 5 exhibited a trend for a slightly higher titer, suggestive of an additive effect such that these titers were no longer significantly different from Cervarix alone. Vaccination of mice with Cervarix alone or with the L2 11­88 × 5 resulted in similarly high HPV18 neutralizing serum antibody titers, as seen for HPV16 (Fig. 5B). No HPV18 neutralizing antibody titers were detected in the sera of mice vaccinated with HPV16 L1 capsomeres, whereas the mice vaccinated with L2 11­88 × 5 contained robust titers of HPV18 neutralizing antibodies, albeit 1000-fold lower than observed for Cervarix vaccinated animals (p < 0.001). There were no detectable titers for neutralization of HPV35, HPV45 and HPV58 in the antisera of mice vaccinated with adjuvant alone, or L1 capsomeres or even Cervarix alone (Fig. 5C­E). Conversely, the antisera of mice receiving L1 capsomeres and L2 11­88 × 5 were able to effectively neutralize HPV35, HPV45 and
+
+PR
+
+OO
+
+F
+
+325 326 327 328 329 330 331 332 333 334 335 336 337 338 339 340 341 342 343 344 345 346 347 348 349 350 351 352 353 354 355 356 357 358 359 360 361 362 363 364 365 366
+
+Please cite this article in press as: Jagu S, et al. Vaccination with multimeric L2 fusion protein and L1 VLP or capsomeres to broaden protection against HPV infection. Vaccine (2010), doi:10.1016/j.vaccine.2010.04.039
+
+UN CO R
+
+RE
+
+ED
+
+G Model JVAC 10450 1­9 6
+
+ARTICLE IN PRESS
+S. Jagu et al. / Vaccine xxx (2010) xxx­xxx
+
+Fig. 5. Influence of combining L2 11­88 × 5 with L1-based HPV vaccines upon neutralizing antibody titers. Sera from each mouse was collected 2 weeks after the third dose of the indicated vaccine antigens in alum + MPL was titrated in 2-fold dilutions from 1:50 and tested for in vitro neutralization of HPV16 (A), HPV18 (B), HPV35 (C), HPV45 (D) or HPV58 (E) pseudovirions.
+367 368 369 370 371 372 373 374 375 376 377
+
+HPV58, none of which was used to derive the L2 11­88 × 5 vaccine (Fig. 5C­E). While the antisera of mice receiving L1 capsomeres and L2 11­88 × 5 exhibited similar titers of HPV35, HPV45 and HPV58 neutralization as mice receiving L2 11­88 × 5 alone, there was a trend for reduced titers in antisera of mice vaccinated with Cervarix and L2 11­88 × 5. Indeed, we failed to detect HPV45 or HPV58 neutralizing antibodies in several mice vaccinated with Cervarix and L2 11­88 × 5. Finally, we examined the impact of mixing L2 11­88 × 5 with Cervarix or L1 capsomeres upon the in vitro neutralizing antibody titers at 4 months post-vaccination (Fig. 6). The trends in the in
+
+UN CO R
+
+RE
+vitro neutralization titers observed at 2 weeks after vaccination and described above were preserved at 4 months and the titers remained stable between 2 weeks and 4 months for each antigen (Figs. 5 and 6). 4. Discussion This study suggests that the formulation of an L2 multimeric construct with both alum and MPL or CpG may be beneficial over alum alone based upon increased in vitro neutralization titers for HPV types not used to construct the antigen, particularly for the
+
+CT
+
+ED
+
+PR
+
+OO
+
+F
+
+378 379 380 381
+
+382
+
+383 384 385 386
+
+Please cite this article in press as: Jagu S, et al. Vaccination with multimeric L2 fusion protein and L1 VLP or capsomeres to broaden protection against HPV infection. Vaccine (2010), doi:10.1016/j.vaccine.2010.04.039
+
+G Model JVAC 10450 1­9
+
+ARTICLE IN PRESS
+S. Jagu et al. / Vaccine xxx (2010) xxx­xxx 7
+387 388 389 390 391 392 393 394 395 396 397 398 399 400 401 402 403 404 405 406 407 408 409 410 411 412 413 414 415 416 417 418 419 420 421 422 423 424 425 426 427 428 429 430 431 432 433 434 435 436 437 438 439 440 441 442 443 444 445 446 447 448 449 450 451 452
+
+Fig. 6. Influence of combining L2 11­88 × 5 with L1-based HPV vaccines upon neutralizing antibody titers at 4 months after vaccination. Sera from each mouse was collected 4 months after the third dose of the indicated vaccine antigens in alum + MPL was titrated in 2-fold dilutions and tested for in vitro neutralization of HPV16 (A), or HPV45 (B), or HPV58 (C) pseudovirions.
+
+long-term immunity. It is important to recognize that humans may exhibit a distinct response to mice, but the addition of MPL or CpG can boost the antibody titers in comparison to VLP in alum alone [34,45]. Another important caveat is that the L2 11­88 × 5 was not endotoxin-free, but contained as much as 25 EU in the 20 g formulation (and corresponding less at the lower doses). While the 5 g of MPL added in vaccine formulation corresponds to >2500 EU, the endotoxin present in the L2 11­88 × 5 preparation may have masked the differences between the adjuvant formulations. Notably in an earlier study we observed a reduced degree of protection of mice from cutaneous challenge with HPV16 pseudovirions at 4 months after vaccination with another L2 multimeric polypeptide (L2 11­200 × 3) formulated in alum alone versus alum + ISS 1018 [36]. When L2 is presented to the immune system in the context of an L1/L2 co-assembled particle, the L1 response dominates and the L2specific humoral response is weak or undetectable, consistent with the notion that L2 is poorly accessible on the capsid surface [33,46]. Indeed, humoral responses to L2 are weak and uncommon in HPV infected individuals, whereas L1-specific responses are frequently detected [47]. Here we show that when the two capsid antigens are simply mixed they behave essentially independently as measured by L1 VLP and multimeric L2 ELISA. One possible approach to broaden protection is the addition of a multimeric L2 polypeptide to the currently licensed HPV vaccines, but it is critical that such mixing does not negatively impact protection against HPV types used to generate the L1 VLP in the vaccine. The ELISA data suggests that mixing L2 11­88 × 5 with Cervarix would not negatively impact the HPV16 L1 VLP-specific antibody response and the HPV16 and HPV18 neutralizing antibody titers did not change, suggesting that L1-mediated protection would remain as effective and that L2-mediated HPV16 neutralization titers were negligible in comparison to the L1-specifc response. The L2-specific ELISA titer in sera of mice vaccinated with Cervarix mixed with L2 11­88 × 5 was robust and indistinguishable from that of mice vaccinated with L2 11­88 × 5 alone, suggesting that the L1 VLP did not further adjuvant the L2 response in the presence of alum + MPL. However, the neutralizing antibody titers for two HPV types not used to make the vaccine antigen were weaker than those obtained by vaccination with L2 11­88 × 5, suggesting that there is some dominance of the L1 VLP-specific response over L2 when mixing multimeric L2 with L1 VLP. The current cost of the licensed HPV vaccines is a major issue preventing implementation in the low income countries where they are most needed. L1 capsomeres produced in E. coli have great potential as an inexpensive alternative to the licensed HPV vaccines. Although L1 capsomeres like L1 VLP, generate a high titer neutralizing antibody response and protect animals from experimental challenge with the homologous virus, there is some suggestion that they are less immunogenic than L1 VLP. Here we compared the serum titers of HPV16 L1 VLP-reactive antibodies and HPV16 neutralizing antibody induced by vaccination with 2 g HPV16 L1 as VLP versus 2 g GST-HPV16 L1 capsomeres, each in alum + MPL. We observed 10-fold higher titers with the L1 VLP than the capsomere preparation. Nevertheless, it is possible that similar neutralization titers could be achieved using higher doses of L1 capsomeres, different L1 deletions, L1 capsomeres without the GST tag or a different adjuvant or an additional dose, and further studies are planned to address this issue. We note that the source of both the alum and MPL was different in each preparation, and that Cervarix, which was the source of the HPV16 L1 VLP, also contained a similar quantity of HPV18 L1 VLP, suggesting that a more direct comparison should be made. Indeed, in such an experiment Schadlich et al. observed equivalent immunogenicity between the HPV16 L1 10 capsomeres and L1 VLP [25]. Furthermore, even though the titers induced by L1 capsomeres were lower
+
+Please cite this article in press as: Jagu S, et al. Vaccination with multimeric L2 fusion protein and L1 VLP or capsomeres to broaden protection against HPV infection. Vaccine (2010), doi:10.1016/j.vaccine.2010.04.039
+
+UN CO R
+
+RE
+
+CT
+
+ED
+
+PR
+
+OO
+
+F
+
+G Model JVAC 10450 1­9 8
+453 454 455 456 457 458 459 460 461 462 463 464 465 466 467 468 469 470 471 472 473 474 475 476 477 478 479 480 481 482 483
+
+ARTICLE IN PRESS
+S. Jagu et al. / Vaccine xxx (2010) xxx­xxx ticle vaccine in young women: a randomised double-blind placebo-controlled multicentre phase II efficacy trial. Lancet Oncol 2005;6(May (5)):271­8. Harper DM, Franco EL, Wheeler C, Ferris DG, Jenkins D, Schuind A, et al. Efficacy of a bivalent L1 virus-like particle vaccine in prevention of infection with human papillomavirus types 16 and 18 in young women: a randomised controlled trial. Lancet 2004;364(November (9447)):1757­65. zur Hausen H. Papillomaviruses in the causation of human cancers--a brief historical account. Virology 2009;384(February (2)):260­5. Kirnbauer R, Booy F, Cheng N, Lowy DR, Schiller JT. Papillomavirus L1 major capsid protein self-assembles into virus-like particles that are highly immunogenic. Proc Natl Acad Sci USA 1992;89(24):12180­4. Roden RB, Hubbert NL, Kirnbauer R, Christensen ND, Lowy DR, Schiller JT. Assessment of the serological relatedness of genital human papillomaviruses by hemagglutination inhibition. J Virol 1996;70(5):3298­301. Suzich JA, Ghim SJ, Palmer-Hill FJ, White WI, Tamura JK, Bell JA, et al. Systemic immunization with papillomavirus L1 protein completely prevents the development of viral mucosal papillomas. Proc Natl Acad Sci USA 1995;92(25):11553­7. Breitburd F, Kirnbauer R, Hubbert NL, Nonnenmacher B, Trin-Dinh-Desmarquet C, Orth G, et al. Immunization with virus like particles from cottontail rabbit papillomavirus (CRPV) can protect against experimental CRPV infection. J Virol 1995;69(6):3959­63. Kirnbauer R, Chandrachud LM, O'Neil BW, Wagner ER, Grindlay GJ, Armstrong A, et al. Virus-like particles of bovine papillomavirus type 4 in prophylactic and therapeutic immunization. Virology 1996;219(1):37­44. Christensen ND, Reed CA, Cladel NM, Han R, Kreider JW. Immunization with virus like particles induces long-term protection of rabbits against challenge with cottontail rabbit papillomavirus. J Virol 1996;70(2):960­5. Brown DR, Kjaer SK, Sigurdsson K, Iversen OE, Hernandez-Avila M, Wheeler CM, et al. The impact of quadrivalent human papillomavirus (HPV; types 6, 11, 16, and 18) L1 virus-like particle vaccine on infection and disease due to oncogenic nonvaccine HPV types in generally HPV-naive women aged 16­26 years. J Infect Dis 2009;199(April (7)):926­35. Paavonen J, Naud P, Salmeron J, Wheeler CM, Chow SN, Apter D, et al. Efficacy of human papillomavirus (HPV)-16/18 AS04-adjuvanted vaccine against cervical infection and precancer caused by oncogenic HPV types (PATRICIA): final analysis of a double-blind, randomised study in young women. Lancet 2009;374(July (9686)):301­14. Smith JF, Brownlow M, Brown M, Kowalski R, Esser MT, Ruiz W, et al. Antibodies from women immunized with Gardasil cross-neutralize HPV 45 pseudovirions. Hum Vaccine 2007;3(July­August (4)):109­15. Roden RB, Gravitt P, Wu TC. Towards global prevention of human papillomavirus-induced cancer. Eur J Immunol 2008;38(February (2)):323­6. Rose RC, White WI, Li M, Suzich JA, Lane C, Garcea RL. Human papillomavirus type 11 recombinant L1 capsomeres induce virus-neutralizing antibodies. J Virol 1998;72(7):6151­4. Chen XS, Garcea RL, Goldberg I, Casini G, Harrison SC. Structure of small viruslike particles assembled from the L1 protein of human papillomavirus 16. Mol Cell 2000;5(3):557­67. Yuan H, Estes PA, Chen Y, Newsome J, Olcese VA, Garcea RL, et al. Immunization with a pentameric L1 fusion protein protects against papillomavirus infection. J Virol 2001;75(September (17)):7848­53. Thones N, Herreiner A, Schadlich L, Piuko K, Muller M. A direct comparison of human papillomavirus type 16 L1 particles reveals a lower immunogenicity of capsomeres than viruslike particles with respect to the induced antibody response. J Virol 2008;82(June (11)):5472­85. Thones N, Muller M. Oral immunization with different assembly forms of the HPV 16 major capsid protein L1 induces neutralizing antibodies and cytotoxic T-lymphocytes. Virology 2007;369(December (2)):375­88. Schadlich L, Senger T, Kirschning CJ, Muller M, Gissmann L. Refining HPV 16 L1 purification from E. coli: reducing endotoxin contaminations and their impact on immunogenicity. Vaccine 2009;27(March (10)):1511­22. Schadlich L, Senger T, Gerlach B, Mucke N, Klein C, Bravo IG, et al. Analysis of modified human papillomavirus type 16 L1 capsomeres: the ability to assemble into larger particles correlates with higher immunogenicity. J Virol 2009;83(August (15)):7690­705. Christensen ND, Kreider JW, Kan NC, DiAngelo SL. The open reading frame L2 of cottontail rabbit papillomavirus contains antibody-inducing neutralizing epitopes. Virology 1991;181(2):572­9. Lin YL, Borenstein LA, Selvakumar R, Ahmed R, Wettstein FO. Effective vaccination against papilloma development by immunization with L1 or L2 structural protein of cottontail rabbit papillomavirus. Virology 1992;187(2):612­ 9. Campo MS, O'Neil BW, Grindlay GJ, Curtis F, Knowles G, Chandrachud L. A peptide encoding a B-cell epitope from the N-terminus of the capsid protein L2 of bovine papillomavirus-4 prevents disease. Virology 1997;234(2):261­6. Embers ME, Budgeon LR, Pickel M, Christensen ND. Protective immunity to rabbit oral and cutaneous papillomaviruses by immunization with short peptides of l2, the minor capsid protein. J Virol 2002;76(October (19)):9798­805. Gambhira R, Jagu S, Karanam B, Gravitt PE, Culp TD, Christensen ND, et al. Protection of rabbits against challenge with rabbit papillomaviruses by immunization with the N-terminus of HPV16 minor capsid antigen L2. J Virol 2007;81(August (21)):13927­31. Gambhira R, Karanam B, Jagu S, Roberts JN, Buck CB, Bossis I, et al. A protective and broadly cross-neutralizing epitope of human papillomavirus L2. J Virol 2007;81(December (24)):13927­31.
+519 520 521 522 523 524 525 526 527 528 529 530 531 532 533 534 535 536 537 538 539 540 541 542 543 544 545 546 547 548 549 550 551 552 553 554 555 556 557 558 559 560 561 562 563 564 565 566 567 568 569 570 571 572 573 574 575 576 577 578 579 580 581 582 583 584 585 586 587 588 589 590 591 592 593 594 595 596 597 598 599 600 601 602 603 604
+
+484
+
+Acknowledgements
+
+485 486 487 488 489 490 491 492 493 494 495 496 497 498 499
+
+UN CO R
+
+Funding for this study was provided by the National Institutes of Health (National Cancer Institute, RC2 CA148499 and SPORE in Cervical Cancer, P50 CA098252 to RBSR and RLG) and the Prevent Cancer Foundation, Alexandria, VA (fellowship to SJ) and unrestricted educational grant funding from GlaxoSmithKline (to SJ and RBSR). We are grateful for the helpful comments and numerous clones kindly provided by John Schiller, Christopher Buck (NCI,  NIH) and Martin Muller (Deutsches Krebsforschungszentrum, Germany). Conflicts of interest: RBSR is a paid consultant of Merck & Co., Inc., and Knobbe Martens Olson & Bear LLC. SJ and RBSR have received unrestricted educational grant funding from GlaxoSmithKline. RBSR and SJ are co-inventors on L2 patents licensed to Shantha Biotechnics, Ltd., PaxVax, Inc. and Acambis, Inc. The terms of these arrangements are being managed by Johns Hopkins University in accordance with its conflict of interest policies.
+
+RE
+
+500 501 502 503 504 505 506 507 508 509 510 511 512 513 514 515 516 517 518
+
+References
+
+[1] Parkin DM, Bray F. Chapter 2: The burden of HPV-related cancers. Vaccine 2006;24(August (Suppl. 3)):S11­25. [2] Munoz N, Bosch FX, Castellsague X, Diaz M, de Sanjose S, Hammouda D, et al. Against which human papillomavirus types shall we vaccinate and screen? The international perspective. Int J Cancer 2004;111(August (2)):278­85. [3] Roden R, Wu TC. How will HPV vaccines affect cervical cancer? Nat Rev Cancer 2006;6(October (10)):753­63. [4] Harper DM, Franco EL, Wheeler CM, Moscicki AB, Romanowski B, RoteliMartins CM, et al. Sustained efficacy up to 4.5 years of a bivalent L1 virus-like particle vaccine against human papillomavirus types 16 and 18: followup from a randomised control trial. Lancet 2006;367(April (9518)):1247­ 55. [5] Villa LL, Costa RL, Petta CA, Andrade RP, Paavonen J, Iversen OE, et al. High sustained efficacy of a prophylactic quadrivalent human papillomavirus types 6/11/16/18 L1 virus-like particle vaccine through 5 years of follow-up. Br J Cancer 2006;95(December (11)):1459­66. [6] Villa LL, Costa RL, Petta CA, Andrade RP, Ault KA, Giuliano AR, et al. Prophylactic quadrivalent human papillomavirus (types 6, 11, 16, and 18) L1 virus-like par-
+
+Please cite this article in press as: Jagu S, et al. Vaccination with multimeric L2 fusion protein and L1 VLP or capsomeres to broaden protection against HPV infection. Vaccine (2010), doi:10.1016/j.vaccine.2010.04.039
+
+CT
+
+ED
+[17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31]
+
+in this study, it is likely far above that required to provide effective protection [21]. Here we show that mixing high doses of L2 11­88 × 5 with HPV16 L1 capsomeres generated HPV16 neutralizing antibody titers above that of capsomeres alone. Although they did not reach the HPV neutralizing antibody titer achieved with Cervarix at 2 weeks post-immunization, at 4 months the gap was closed. Like VLP L1 capsomeres induced a type-restricted response, as no neutralizing antibodies against HPV18, HPV35, HPV45 or HPV58 were detected in the sera of mice vaccinated with HPV16 L1 capsomeres. It is surprising that no HPV45 neutralizing antibodies were detected in mice vaccinated with Cervarix, which containing L1 VLP derived from HPV18, the type most closely related to HPV45. Notably low levels of HPV45 neutralizing antibodies have been detected in rabbits and humans vaccinated with HPV18 L1 VLP, and patients vaccinated with Cervarix show significant protection against HPV45 [15­17]. This may reflect a species difference in the nature of the antibody response to HPV18 L1 VLP, that extremely low titers are sufficient for protection, and/or that the neutralization assay lacks sensitivity. In addition to boosting the HPV16 neutralizing antibody titer, mixing of L2 11­88 × 5 with L1 capsomeres also induced HPV45 and HPV58 neutralizing antibodies, similar in titer to sera of mice immunized with L2 11­88 × 5 alone at 0.5 and 4 months. This suggests that the L1 capsomeres, unlike the L1 VLP, may not interfere with L2-specific response, and that mixing HPV16 L1 capsomeres with a multimeric L2 polypeptide may be an inexpensive strategy to broaden the immunity to diverse HPV types and strengthen the protection against HPV16. However, L2-based prophylactic vaccines have not been tested in patients, and if protective, it is unclear how long such immunity would last.
+
+[7]
+
+[8] [9]
+
+[10]
+
+[12]
+
+[13]
+
+[15]
+
+[16]
+
+PR
+
+[14]
+
+OO
+
+F
+
+[11]
+
+G Model JVAC 10450 1­9
+
+ARTICLE IN PRESS
+S. Jagu et al. / Vaccine xxx (2010) xxx­xxx 9
+632 633 634 635 636 637 638 639 640 641 642 643 644 645 646 647 648 649 650 651 652 653 654 655 656 657 658 659
+
+605 606 607 608 609 610 611 612 613 614 615 616 617 618 619 620 621 622 623 624 625 626 627 628 629 630 631
+
+Please cite this article in press as: Jagu S, et al. Vaccination with multimeric L2 fusion protein and L1 VLP or capsomeres to broaden protection against HPV infection. Vaccine (2010), doi:10.1016/j.vaccine.2010.04.039
+
+UN CO R
+
+RE
+
+CT
+
+ED
+
+PR
+
+[32] Pastrana DV, Gambhira R, Buck CB, Pang YY, Thompson CD, Culp TD, et al. Crossneutralization of cutaneous and mucosal Papillomavirus types with anti-sera to the amino terminus of L2. Virology 2005;337(July (2)):365­72. [33] Roden RB, Yutzy WHt, Fallon R, Inglis S, Lowy DR, Schiller JT. Minor capsid protein of human genital papillomaviruses contains subdominant, crossneutralizing epitopes. Virology 2000;270(May (2)):254­7. [34] Halperin SA, Dobson S, McNeil S, Langley JM, Smith B, McCall-Sani R, et al. Comparison of the safety and immunogenicity of hepatitis B virus surface antigen co-administered with an immunostimulatory phosphorothioate oligonucleotide and a licensed hepatitis B vaccine in healthy young adults. Vaccine 2006;24(1):20­6. [35] Halperin SA, Van Nest G, Smith B, Abtahi S, Whiley H, Eiden JJ. A phase I study of the safety and immunogenicity of recombinant hepatitis B surface antigen coadministered with an immunostimulatory phosphorothioate oligonucleotide adjuvant. Vaccine 2003;21(19­20):2461­7. [36] Jagu S, Karanam B, Gambhira R, Chivukula SV, Chaganti RJ, Lowy DR, et al. Concatenated multitype L2 fusion proteins as candidate prophylactic pan­human papillomavirus vaccines. J Natl Cancer Inst 2009;101(June (11)):782­92. [37] Manicassamy S, Pulendran B. Modulation of adaptive immunity with Toll-like receptors. Semin Immunol 2009;21(August (4)):185­93. [38] Karanam B, Jagu S, Huh WK, Roden RB. Developing vaccines against minor capsid antigen L2 to prevent papillomavirus infection. Immunol Cell Biol 2009;87(May (4)):287­99. [39] Chen XS, Casini G, Harrison SC, Garcea RL. Papillomavirus capsid protein expression in Escherichia coli: purification and assembly of HPV11 and HPV16 L1. J Mol Biol 2001;307(1):173­82. [40] Bishop B, Dasgupta J, Klein M, Garcea RL, Christensen ND, Zhao R, et al. Crystal structures of four types of human papillomavirus L1 capsid proteins: under-
+
+[41]
+
+[42]
+
+[43]
+
+[44]
+
+[45]
+
+[46]
+
+[47]
+
+standing the specificity of neutralizing monoclonal antibodies. J Biol Chem 2007;282(October (43)):31803­11. Pastrana DV, Buck CB, Pang YY, Thompson CD, Castle PE, FitzGerald PC, et al. Reactivity of human sera in a sensitive, high-throughput pseudovirusbased papillomavirus neutralization assay for HPV16 and HPV18. Virology 2004;321(April (2)):205­16. Mata-Haro V, Cekic C, Martin M, Chilton PM, Casella CR, Mitchell TC. The vaccine adjuvant monophosphoryl lipid A as a TRIF-biased agonist of TLR4. Science 2007;316(June (5831)):1628­32. Lenz P, Day PM, Pang YY, Frye SA, Jensen PN, Lowy DR, et al. Papillomaviruslike particles induce acute activation of dendritic cells. J Immunol 2001;166(9):5346­55. Lenz P, Thompson CD, Day PM, Bacot SM, Lowy DR, Schiller JT. Interaction of papillomavirus virus-like particles with human myeloid antigen-presenting cells. Clin Immunol 2003;106(March (3)):231­7. Einstein MH, Baron M, Levin MJ, Chatterjee A, Edwards RP, Zepp F, et al. Comparison of the immunogenicity and safety of Cervarix() and Gardasil((R)) human papillomavirus (HPV) cervical cancer vaccines in healthy women aged 18­45 years. Hum Vaccine 2009;5(October (10)):705­ 19. Day PM, Gambhira R, Roden RB, Lowy DR, Schiller JT. Mechanisms of human papillomavirus type 16 neutralization by l2 cross-neutralizing and l1 type-specific antibodies. J Virol 2008;82(May (9)):4638­ 46. Gambhira R, Gravitt PE, Bossis I, Stern PL, Viscidi RP, Roden RB. Vaccination of healthy volunteers with human papillomavirus type 16 L2E7E6 fusion protein induces serum antibody that neutralizes across papillomavirus species. Cancer Res 2006;66(December (23)):11120­4.
+
+OO
+
+F
+
+

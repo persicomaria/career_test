@@ -1,0 +1,114 @@
+PROTEINS: Structure, Function, and Bioinformatics 65:249 ­254 (2006)
+
+STRUCTURE NOTE Crystal Structure of Phosphoribosylformyl-glycinamidine Synthase II, PurS Subunit (TM1244) from Thermotoga maritima at 1.90 Å Resolution
+Irimpan I. Mathews,1 S. Sri Krishna,2­ 4 Robert Schwarzenbacher,2,4 Daniel McMullan,2,5 Lukasz Jaroszewski,2­ 4 Mitchell D. Miller,1,2 Polat Abdubek,2,5 Sanjay Agarwalla,2,5 Eileen Ambing,2,5 Herbert L. Axelrod,1,2 Jaume M. Canaves,2,4 Dennis Carlton,2,6 Hsiu-Ju Chiu,1,2 Thomas Clayton,2,6 Michael DiDonato,2,5 Lian Duan,2,4 Marc-Andre Elsliger,2,6 Slawomir K. Grzechnik,2,4 Joanna Hale,2,5 Eric Hampton,2,5 Justin Haugen,2,5 ´ Kevin K. Jin,1,2 Heath E. Klock,2,5 Eric Koesema,2,5 John S. Kovarik,1,2 Andreas Kreusch,2,5 Peter Kuhn,2,6 Inna Levin,1,2 Andrew T. Morse,2,4 Edward Nigoghossian,2,5 Linda Okach,2,5 Silvya Oommachen,1,2 Jessica Paulsen,2,5 Kevin Quijano,2,5 Ron Reyes,1,2 Christopher L. Rife,1,2 Glen Spraggon,2,5 Raymond C. Stevens,2,6 Henry van den Bedem,1,2 Aprilfawn White,2,5 Guenter Wolf,1,2 Qingping Xu,1,2 Keith O. Hodgson,1,2 John Wooley,2,4 Ashley M. Deacon,1,2 Adam Godzik,2­ 4 Scott A. Lesley,2,5,6 and Ian A. Wilson2,6* 1 Stanford Synchrotron Radiation Laboratory, Stanford University, Menlo Park, California 2 Joint Center for Structural Genomics 3 Burnham Institute for Medical Research, La Jolla, California 4 Center for Research in Biological Systems, University of California, San Diego, La Jolla, California 5 Genomics Institute of the Novartis Research Foundation, San Diego, California 6 The Scripps Research Institute, La Jolla, California 7 San Diego Supercomputer Center, La Jolla, California
+
+Introduction. The TM1244 gene of Thermotoga maritima encodes the PurS subunit of a phosphoribosylformylglycinamidine synthase II [FGAM; Enzyme Commission (EC) 6.3.5.3] with a molecular weight of 9507 Da (residues 1­ 82) and a calculated isoelectric point of 5.91. PurS is part of the de novo purine biosynthesis subsystem, where it forms a complex with PurQ (TM1245) and smPurL (TM1246) to form formylglycinamide ribonucleotide amidotransferase (FGAR-AT). The FGAR-AT complex is involved in the fourth step of the purine biosynthetic pathway,1­3 where it catalyzes the adenosine triphosphate (ATP)-dependent conversion of formylglycinamide ribonucleotide (FGAR) and glutamine to formylglycinamidine ribonucleotide (FGAM), adenosine diphosphate (ADP), Pi, and glutamate. In Gram-positive bacteria, archaebacteria, and the Gram-negative T. maritima, FGAR-AT is a complex of three proteins: PurS, smPurL, and PurQ. In eukaryotes and other Gram-negative bacteria, FGAR-AT is a multidomain protein with a molecular mass of about 140 kDa (designated as lgPurL). Here, we report the crystal structure of TM1244 that was determined using the semiautomated, high-throughput pipeline of the Joint Center for Structural Genomics (JCSG).4 Materials and Methods. Protein production and crystallization. PurS from T. maritima [The Institute for Genomic Research (TIGR): TM1244, Swiss-Prot: Q9X0X1] was amplified by polymerase chain reaction (PCR) from genomic DNA using PfuTurbo (Stratagene) and primers corresponding to the predicted 5 - and 3 -ends. The PCR product was
+©
+
+cloned into plasmid pMH1, which encodes an expression and purification tag (MGSDKIHHHHHH) at the amino terminus of the full-length protein. The cloning junctions were confirmed by DNA sequencing. Protein expression was performed in a selenomethionine-containing medium using the Escherichia coli methionine auxotrophic strain DL41. Lysozyme was added to the culture at the end of fermentation to a final concentration of 250 g/mL. Bacteria were lysed by sonication after a freeze/thaw procedure in Lysis Buffer [50 mM Tris, pH 7.9, 50 mM NaCl, 10 mM imidazole, 0.25 mM Tris(2-carboxyethyl)phosphine hydrochloride (TCEP)], and the cell debris was pelleted by centrifugation at 3400 g for 60 min. The soluble fraction was applied to nickel-chelating resin (Amersham Biosciences) pre-equilibrated with Lysis Buffer. The resin was washed with Wash Buffer [50 mM potassium phosphate, pH 7.8, 300 mM NaCl, 40 mM imidazole, 10% (v/v) glycerol, 0.25 mM TCEP], and the target protein was eluted with Elution Buffer [20 mM Tris, pH 7.9, 300 mM imidazole, 10% (v/v) glycerol, 0.25 mM TCEP]. The eluate
+
+Grant sponsor: National Institutes of Health, Protein Structure Initiative (www.nigms.nih.gov); Grant numbers: P50 GM62411 and U54 GM074898. *Correspondence to: Ian Wilson, JCSG, The Scripps Research Institute, BCC206, 10550 North Torrey Pines Road, La Jolla, CA, 92037. E-mail: wilson@scripps.edu Received 9 January 2006; Revised 24 February 2006; Accepted 13 March 2006 Published online 24 July 2006 in Wiley InterScience (www.interscience.wiley.com). DOI: 10.1002/prot.21024
+
+2006 WILEY-LISS, INC.
+
+250
+
+I.I. MATHEWS ET AL. TABLE I. Summary of Crystal Parameters, Data Collection, and Refinement Statistics for TM1244 (PDB code:1vq3) Space group Unit cell parameters Data collection Wavelength (Å) Resolution range (Å) Number of observations Number of reflections Completeness (%) Mean I/ (I) Rsym on I Highest resolution shell (Å) Model and refinement statistics Resolution range (Å) No. of reflections (total) No. of reflections (test) Completeness (% total) Stereochemical parameters Restraints (RMS observed) Bond length Bond angle Average isotropic B-value ESU based on Rfree value Protein residues/atoms Water molecules P212121 a 58.27 Å b 73.43 Å c 92.57 Å
+0
+
+I4122 a 91.27 Å b 91.27 Å c 205.69 Å
+1
+
+0.9865 49.3­1.90 112,611 29,272 91.9 (62.7) 16.3 (2.3) 0.06 (0.47) 1.95­1.90 49.3­1.90 29,239§ 957 91.3 0.017 Å 1.55° 28.1 Å2 0.15 Å 341/2789 301
+
+0.9794 29.0­2.50 357,378 15,372 99.3 (97.5) 22.2 (2.7) 0.14 (0.88) 2.56­2.50 Data set used in refinement ( 0) Cutoff criteria Rcryst Rfree F 0 0.178 0.234
+
+Highest resolution shell. ESU, estimated overall coordinate error.6,7 Rsym Ii Ii / Ii , where Ii is the scaled intensity of the ith measurement and Ii is the mean intensity for that reflection. Rcryst Fobs Fcalc / Fobs , where Fcalc and Fobs are the calculated and observed structure factor amplitudes, respectively. Rfree as for Rcryst, but for 3.3% of the total reflections chosen at random and omitted from refinement. § Not included in the refinement were 31 reflections corresponding to systematic absences, and two reflections close to the 1.9 Å limit.
+
+was buffer-exchanged with Buffer Q [20 mM Tris, pH 7.9, 50 mM NaCl, 5% (v/v) glycerol, 0.25 mM TCEP] and applied to a RESOURCE Q column (Amersham Biosciences) pre-equilibrated with the same buffer. The flowthrough fraction, which contained the target protein, was buffer-exchanged with Crystallization Buffer [20 mM Tris, pH 7.9, 150 mM NaCl, 0.25 mM TCEP] and concentrated for crystallization assays to 11.5 mg/mL by centrifugal ultrafiltration (Millipore). Molecular weight and oligomeric state of TM1244 were determined using a 1.0 30 cm Superdex 200 column (Amersham Biosciences) coupled with static light scattering (Wyatt Technology). The mobile phase consisted of 20 mM Tris, pH 8.0, 150 mM NaCl and 0.02% (w/v) sodium azide. The protein was crystallized using the nanodroplet vapor diffusion method5 with standard JCSG crystallization protocols.4 The crystallization reagent, which produced P212121 crystals, contained 20% (v/v) glycerol and 24% (w/v) polyethylene glycol (PEG)1500. I4122 crystals were obtained from 18% (v/v) PEG400, 0.2 M CaCl2, 0.01 M trimethylamine HCl, 0.1 M N-2-hydroxyethylpiperazine-N -2-ethanesulfonic acid (HEPES), pH 7.5. Twelve percent (v/v) ethylene glycol was added to the I4122 crystals as a cryoprotectant. The crystals were indexed in orthorhombic space group P212121 and tetragonal space group I4122 (Table I). Data collection, structure solution, and refinement. Diffraction data from both P212121 and I4122 crystals were
+PROTEINS: Structure, Function, and Bioinformatics
+
+collected at the Advanced Light Source (ALS, Berkeley, CA) on beamline 8.2.1. Data sets were collected at 100 K using a Quantum 210 charge-coupled device (CCD) detector. Data were integrated and reduced using Mosflm8 and then scaled with the program SCALA from the CCP4 suite.7 The structure was determined using the JCSG molecular replacement protocol9 using FGAR-AT from Bacillus subtilis [Protein Data Bank (PDB) code: 1t4a; 31% sequence identity] as a search model. Initial molecular replacement attempts with the P212121 data did not produce promising results. Therefore, we used the 2.5 Å I4122 data to solve the structure. Coordinates of a partial model of a dimer of TM1244 from the I4122 crystal form, which lacked residues 30 ­37 and 51­56, were used as a search model to phase the P212121 data. We carried out further refinement with the 1.9 Å data from the P212121 crystal using RESOLVE,10 REFMAC5,11 and O.12 Both crystal forms contain four molecules in the asymmetric unit. Data collection, model, and refinement statistics are summarized in Table I. Validation and deposition. Analysis of the stereochemical quality of the model was accomplished using AutoDepInputTool,13 MolProbity,14 SFcheck 4.0,7 and WHAT IF 5.0.15 Figure 1(B) was adapted from an analysis using PDBsum,16 and all others were prepared with PyMOL (DeLano Scientific). Atomic coordinates and experimental
+
+DOI 10.1002/prot
+
+CRYSTAL STRUCTURE OF PURS
+
+251
+
+Fig. 1. Crystal structure of PurS from T. maritima. (A) Stereo ribbon diagram of TM1244 monomer color-coded from N-terminus (blue) to C-terminus (red). The His-tag is colored gray. - elices H1 and H2 and -strands ( 1­ 3) are indicated. (B) Diagram showing the secondary structure elements of TM1244 superimposed on its primary sequence. The -helices, -strands in sheet A, -bulges, and -turns are indicated.
+
+structure factors of TM1244 have been deposited in the PDB and are accessible under the code 1vq3. Results and Discussion. The three-dimensional (3D) structure of TM1244 [Fig. 1(A)] was determined to 1.90 Å resolution by the molecular replacement (MR) method as described in the Materials and Methods section. The final model includes four monomers (residues 1­ 82 for chains A, B, C, D), four residues from the His-tag, and 301 water molecules in the asymmetric unit. No electron density was observed for the remaining residues of the expression and purification tag. The Matthews coefficient (Vm)17 is 2.29 Å3/Da and the estimated solvent content is 45.8%. The Ramachandran plot, produced by MolProbity,14 shows that 98.8%, 99.7%, and 0.3% of the residues are in favored, allowed, and disallowed regions, respectively. The only outlier, Leu68 (in chain A), with 160.2° and 41.7°, is located in the loop between -helix H2 and -strand 3 and is involved in a crystal contact. The TM1244 monomer contains three -strands ( 1­ 3) and two -helices [H1­H2; Fig. 1(A, B)] and belongs to the
+
+PurS-like fold of SCOP (Structural Classification of Proteins). The total -strand and -helical content is 37.2% and 30.2%, respectively. Most members of the PurS-like fold consists of two subdomains that dimerize and resemble the ferredoxin-like fold. The ferredoxin-like fold has a two-layer architecture composed of four -strands and two -helices and is one of the most common folds. However, it is the TM1244 dimer structure that closely resembles the ferredoxin-like fold [Fig. 2(A, B)], where helix H1 and strand 2 come from the neighboring monomer and are segment- or domain-swapped. In the dimer, strand 2 domain-swaps into the adjacent monomer and then continues into its own subunit as strand 3. In this way, the dimer forms two ferredoxin-like domains. A structural similarity search, performed with the coordinates of TM1244 using the DALI18 server, identified the highly similar structure of PurS (Mth169) from Methanobacterium thermoautotrophicum (PDB: 1gtd),19 with a root-mean-square deviation (RMSD) of 2.2 Å over 74 aligned C atoms and a sequence identity of 26%. The
+DOI 10.1002/prot
+
+PROTEINS: Structure, Function, and Bioinformatics
+
+252
+
+I.I. MATHEWS ET AL.
+
+Fig. 2. Domain delineation of PurS. (A) Structural representative of the ferredoxin-like fold: the anticodonbinding domain of PheRS (PDB code: 1pys, chain B). (B) Dimeric unit of PurS colored according to chains (chain A: blue, chain B: red). The PurS domain-swapped dimer structure contains two domains (separated by a black horizontal bar), each of which resembles the ferredoxin-like fold. The ferredoxin-like fold is made of four -strands and two -helices, and in PurS these structural elements are contributed from the two chains of the dimer by a domain swap of -helix H1 and -strand 2. The elements are labeled according to the ferredoxin-like fold.
+
+MR search model PurS, from B. subtilis (PDB: 1t4a)20, could be superimposed with an RMSD of 1.4 Å over 63 aligned C atoms and a sequence identity of 37%. Given
+PROTEINS: Structure, Function, and Bioinformatics
+
+the low sequence similarity, the structural similarity of TM1244, Mth169, and B. subtilis PurS is remarkable, and the three proteins can be aligned over all secondary
+
+DOI 10.1002/prot
+
+CRYSTAL STRUCTURE OF PURS
+
+253
+
+Fig. 3. (A) Structural alignment of PurS (blue) with the N-terminal domain of lgPurL (gray) from S. typhimurium C atoms from the dimer of TM1244 were used for the alignment with lgPurL. The largest structural difference corresponds to strand 3 of chain A, which is replaced by a long loop (see arrow) that acts as a linker between the adjacent PurS-like domains in lgPurL. (B) Stereo ribbon diagram of a superposition of lgPurL from S. typhimurium (FGAR-AT; gray) with PurS (TM1244; blue) and smPurL (TM1246; orange). Ligands of lgPurL are shown as CPK (Corey, Pauling, and Kultun) color scheme. The arrow indicates the expected location of the PurQ protein (TM1245) in FGAR-AT from T. maritima.
+
+structural elements with no significant structural differences. The monomeric unit of TM1244 is unlikely to be the biologically relevant unit, as the ferredoxin-like fold is formed from dimerization through domain swapping. In both the I4122 and P212121 crystal forms, a weakly associated tetramer is also observed, in comparison to the dimeric interface which in the two crystal forms is more extensive and tightly packed. However, the crystal packing of these tetrameric units is different. In the P212121 crystals, the tetramers assemble as a polymeric repeat, whereas in I4122 the assembly is octameric. Results from
+
+analytical size exclusion chromatography in combination with static light scattering indicate a dimer in solution, consistent with the 2:1:1 ratio of PurS:smPurL:PurQ in the PurSQL complex. A dimer is also consistent with the structure of FGAR-AT (lgPurL) from Salmonella typhimurium (PDB: 1t3t),21 where duplicated PurS domains on the same chain resemble the TM1244 dimer structure. Structural alignment of lgPurL with the TM1244 dimer produces an RMSD of 1.8 Å over 124 aligned C atoms and a sequence identity of 12% [Fig. 3(A, B)]. Interestingly, in lgPurL, only five -strands are conserved and the region corresponding to -strand 3 of chain A of TM1244 is
+DOI 10.1002/prot
+
+PROTEINS: Structure, Function, and Bioinformatics
+
+254
+
+I.I. MATHEWS ET AL. Brinen LS, Miller MD, McPhillips TM, Miller MA, Scheibe D, Canaves JM, Guda C, Jaroszewski L, Selby TL, Elsliger MA, Wooley J, Taylor SS, Hodgson KO, Wilson IA, Schultz PG, Stevens RC. Structural genomics of the Thermotoga maritima proteome implemented in a high-throughput structure determination pipeline. Proc Natl Acad Sci USA 2002;99:11664 ­11669. Santarsiero BD, Yegian DT, Lee CC, Spraggon G, Gu J, Scheibe D, Uber DC, Cornell EW, Nordmeyer RA, Kolbe WF, Jin J, Jones AL, Jaklevic JM, Schultz PG, Stevens RC. An approach to rapid protein crystallization using nanodroplets. J Appl Crystallogr 2002;35:278 ­281. Tickle IJ, Laskowski RA, Moss DS. Error estimates of protein structure coordinates and deviations from standard geometry by full-matrix refinement of gammaB- and betaB2-crystallin. Acta Crystallogr D Biol Crystallogr 1998;54:243­252. The CCP4 suite: programs for protein crystallography. Acta Crystallogr D Biol Crystallogr 1994;50:760 ­763. Leslie AGW. Recent changes to the MOSFLM package for processing film and image plate data. Joint CCP4 ESF-EAMCB Newsletter on Protein Crystallography 1992;26. Schwarzenbacher R, Godzik A, Grzechnik SK, Jaroszewski L. The importance of alignment accuracy for molecular replacement. Acta Crystallogr D Biol Crystallogr 2004;60:1229 ­1236. Terwilliger T. SOLVE and RESOLVE: automated structure solution, density modification and model building. J Synchrotron Radiat 2004;11:49 ­52. Winn MD, Murshudov GN, Papiz MZ. Macromolecular TLS refinement in REFMAC at moderate resolutions. Methods Enzymol 2003;374:300 ­321. Jones TA, Zou JY, Cowan SW, Kjeldgaard M. Improved methods for building protein models in electron density maps and the location of errors in these models. Acta Crystallogr A 1991;47:110 ­ 119. Yang H, Guranovic V, Dutta S, Feng Z, Berman HM, Westbrook JD. Automated and accurate deposition of structures solved by X-ray diffraction to the Protein Data Bank. Acta Crystallogr D Biol Crystallogr 2004;60:1833­1839. Lovell SC, Davis IW, Arendall WB, 3rd, de Bakker PI, Word JM, Prisant MG, Richardson JS, Richardson DC. Structure validation by Calpha geometry: phi,psi and Cbeta deviation. Proteins 2003; 50:437­ 450. Vriend G. WHAT IF: a molecular modeling and drug design program. J Mol Graph 1990;8:52­56, 29. Laskowski RA, Chistyakov VV, Thornton JM. PDBsum more: new summaries and analyses of the known 3D structures of proteins and nucleic acids. Nucleic Acids Res 2005;33(Database Issue): D266 ­D268. Matthews BW. Solvent content of protein crystals. J Mol Biol 1968;33:491­ 497. Holm L, Sander C. Dali: a network tool for protein structure comparison. Trends Biochem Sci 1995;20:478 ­ 480. Batra R, Christendat D, Edwards A, Arrowsmith C, Tong L. Crystal structure of MTH169, a crucial component of phosphoribosylformylglycinamidine synthetase. Proteins 2002;49:285­288. Anand R, Hoskins AA, Bennett EM, Sintchak MD, Stubbe J, Ealick SE. A model for the Bacillus subtilis formylglycinamide ribonucleotide amidotransferase multiprotein complex. Biochemistry 2004;43:10343­10352. Anand R, Hoskins AA, Stubbe J, Ealick SE. Domain organization of Salmonella typhimurium formylglycinamide ribonucleotide amidotransferase revealed by X-ray crystallography. Biochemistry 2004;43:10328 ­10342. Mathews II, Krishna SS, Schwarzenbacher R, McMullan D, Abdubek P, Ambing E, Canaves JM, Chiu HJ, Deacon AM, DiDonato M, Elsliger MA, Godzik A, Grittini C, Grzechnik SK, Hale J, Hampton E, Han GW, Haugen J, Jaroszewski L, Klock HE, Koesema E, Kreusch A, Kuhn P, Lesley SA, Levin I, Miller MD, Moy K, Nigoghossian E, Paulsen J, Quijano K, Reyes R, Spraggon G, Stevens RC, van den Bedem H, Velasquez J, White A, Wolf G, Xu Q, Hodgson KO, Wooley J, Wilson IA. Crystal structure of phosphoribosylformylglycinamidine synthase II (smPurL) from Thermotoga maritima at 2.15 Å resolution. Proteins 2006;63:1106 ­ 1111.
+
+replaced by a loop in the lgPurL structure that links the Nand C-terminal halves of the domain. It is noteworthy that between lgPurL and the known structures of PurS homologs, the sequence conservation of this loop region of lgPurL is better conserved than the local structure. In T. maritima, the FGAR-AT complex comprises three proteins: PurS, smPurL, and PurQ. In eukaryotes, the complex is made up of a single, multidomain protein: lgPurL. Previously, we reported the structure of smPurL (TM1246)22 from T. maritima, which corresponds to the middle domain of lgPurL. PurS (TM1244) corresponds to the N-terminal domain of lgPurL, whereas its C-terminal domain corresponds to the PurQ protein (TM1245). A structural superposition showing the putative arrangement of TM1244 and TM1246 in the T. maritima FGAR-AT complex is illustrated in Figure 3(B). The location that PurQ (TM1245) is predicted to occupy in the FGAR-AT complex is indicated by an arrow. Currently, the PurS protein family contains more than 70 sequence homologs, mainly of archaeal and bacterial origin. Models for TM1244 homologs can be accessed at http://www1.jcsg.org/cgi-bin/models/get_mor.pl?key TM1244. The TM1244 structure reported here represents a PurS protein, whose structure has been determined by X-ray crystallography. The information reported here, in combination with the recently solved structure of smPurL (TM1246) and further biochemical and biophysical studies, will yield valuable insights regarding the role of this protein in purine biosynthesis. Acknowledgments. Portions of this research were carried out at the Stanford Synchrotron Radiation Laboratory (SSRL) and the Advanced Light Source (ALS). The SSRL is a national user facility operated by Stanford University on behalf of the U.S. Department of Energy, Office of Basic Energy Sciences. The SSRL Structural Molecular Biology Program is supported by the Department of Energy, Office of Biological and Environmental Research, and by the National Institutes of Health (National Center for Research Resources, Biomedical Technology Program, and the National Institute of General Medical Sciences). The ALS is supported by the Director, Office of Science, Office of Basic Energy Sciences, Materials Sciences Division, of the U.S. Department of Energy under Contract No. DEAC03-76SF00098 at Lawrence Berkeley National Laboratory. REFERENCES
+1. Schendel FJ, Mueller E, Stubbe J, Shiau A, Smith JM. Formylglycinamide ribonucleotide synthetase from Escherichia coli: cloning, sequencing, overproduction, isolation, and characterization. Biochemistry 1989;28:2459 ­2471. 2. Schendel FJ, Stubbe J. Substrate specificity of formylglycinamidine synthetase. Biochemistry 1986;25:2256 ­2264. 3. Buchanan JM. Covalent reaction of substrates and antimetabolites with formylglycinamide ribonucleotide amidotransferase. Methods Enzymol 1982;87:76 ­ 84. 4. Lesley SA, Kuhn P, Godzik A, Deacon AM, Mathews I, Kreusch A, Spraggon G, Klock HE, McMullan D, Shin T, Vincent J, Robb A,
+
+5.
+
+6.
+
+7. 8.
+
+9.
+
+10.
+
+11.
+
+12.
+
+13.
+
+14.
+
+15. 16.
+
+17. 18. 19.
+
+20.
+
+21.
+
+22.
+
+PROTEINS: Structure, Function, and Bioinformatics
+
+DOI 10.1002/prot
+
+

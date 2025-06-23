@@ -1,0 +1,314 @@
+ARTICLE IN PRESS
+
+European Journal of Cell Biology 86 (2007) 417­431 www.elsevier.de/ejcb
+
+Molecular characterization of Rab11-FIP3 binding to ARF GTPases
+Eric Schonteicha, Manohar Pillib,1, Glenn C. Simona, Hugo T. Maternc, Jagath R. Junutulab, Danielle Sentzd, Randall K. Holmesd, Rytis Prekerisa,Ã
+Department of Cellular and Developmental Biology, School of Medicine, University of Colorado Health Sciences Center, 12801 E. 17th Avenue, Aurora, CO 80045, USA b Genentech Inc., South San Francisco, CA 94080, USA c Exelixis Inc., South San Francisco, CA 94080, USA d Department of Microbiology, School of Medicine, University of Colorado Health Sciences Center, Aurora, CO 80045, USA Received 9 April 2007; received in revised form 14 May 2007; accepted 15 May 2007
+a
+
+Abstract
+Rab11-FIP3 is a Rab11-binding protein that has been implicated in regulating cytokinesis in mammalian cells. FIP3 functions by simultaneously interacting with Rab11 as well as Arf GTPases. However, unlike the interaction between Rab11 and FIP3, the structural basis of FIP3 binding to Arf GTPases has not yet been determined. The specificity of interaction between FIP3 and Arf GTPases remains controversial. While it was reported that FIP3 preferentially binds to Arf6 some data suggest that FIP3 can also interact with Arf5 and even possibly Arf4. The Arf-interaction motif on FIP3 also remains to be determined. Finally, the importance of Arf binding to FIP3 in regulating cell division and other cellular functions remains unclear. Here we used a combination of various biochemical techniques to measure the affinity of FIP3 binding to various Arfs and to demonstrate that FIP3 predominately interacts with Arf6 in vitro and in vivo. In addition, we identified the motifs mediating Arf6 and FIP3 interaction and demonstrated that FIP3 binds to the Arf6 C-terminus rather than switch motifs. Finally we show that FIP3 and Arf6 binding is required for the targeting of Arf6 to the cleavage furrow during cytokinesis. Thus, we propose that FIP3 is a scaffolding protein that, in addition to regulating endosome targeting to the cleavage furrow, also is required for Arf6 recruitment to the midbody during late telophase. r 2007 Elsevier GmbH. All rights reserved.
+Keywords: Cytokinesis; Rab11; ARF6; Endosomes; Abscission; Rab11-FIP3
+
+Introduction
+Rab GTPases form the largest family of small monomeric GTPases that play an important role in
+ÃCorresponding author. Tel.: +1 303 724 3411; fax: +1 303 724 3420. E-mail address: Rytis.Prekeris@uchsc.edu (R. Prekeris). 1 Present address: Department of Biochemistry, University College of Science, Osmania University, Hyderabad-500 007, India.
+
+regulating membrane traffic. Rab proteins cycle between inactive GDP- and active GTP-bound forms. In their active conformation, Rab GTPases regulate the recruitment and/or activation of selective effector proteins such as kinesin and myosin molecular motors, cargo-sorting complexes, lipid kinases and tethering factors. Rab11a, Rab11b and Rab25 are three closely related Rabs that belong to the Rab11 subfamily (Goldenring et al., 1993, 2001). Rab11 GTPases have been shown to regulate several important membrane transport steps
+
+0171-9335/$ - see front matter r 2007 Elsevier GmbH. All rights reserved. doi:10.1016/j.ejcb.2007.05.004
+
+ARTICLE IN PRESS
+418 E. Schonteich et al. / European Journal of Cell Biology 86 (2007) 417­431
+
+that include recycling from endosomes to the plasma membrane, retrograde transport from endosomes to the trans-Golgi network (Wilcke et al., 2000), phagocytosis (Cox et al., 2000), insulin-dependent GLUT4 traffic (Kessler et al., 2000), and cytokinesis (Skop et al., 2001; Pelissier et al., 2003; Riggs et al., 2003; Wilson et al., 2005). In recent years several Rab11 effector proteins have been isolated that include Rab11 family interacting proteins (Rab11-FIPs), also known as FIPs (Prekeris et al., 2000, 2001; Hales et al., 2001; Lindsay et al., 2002; Hickson et al., 2003). Based on sequence homology FIPs are classified into two main classes. Class I FIPs (Rip11/ FIP5, RCP/FIP1 and FIP2) contain an N-terminal C2 domain. Class II FIPs (FIP3 and FIP4) contain two EF hands (Prekeris, 2003). All FIPs interact with Rab11 GTPases in a GTP-dependent manner with an affinity of 50­200 nM (Junutula et al., 2004; Eathiraj et al., 2006). This interaction is mediated by a highly conserved Rab11 binding domain (RBD) that is situated at the very C-terminus of each FIP (Prekeris et al., 2001; Eathiraj et al., 2006; Jagoe et al., 2006; Shiba et al., 2006). Recently, structures of FIP3/Rab11 and FIP2/ Rab11 protein complexes demonstrated that two Rab11 molecules bind to dyad symmetrical sites at the C-terminus of a FIP dimer with a parallel coiled-coil dimer of FIPs (Eathiraj et al., 2006; Jagoe et al., 2006; Shiba et al., 2006). While class I FIPs have been implicated in regulation of endocytic protein sorting and recycling (Prekeris et al., 2000; Cullis et al., 2002; Hales et al., 2002; Lindsay and McCaffrey, 2002; Peden et al., 2004; Naslavsky et al., 2006), class II FIPs appear to have a more specialized role. In mammalian cells FIP3 and FIP4 have been suggested to regulate endosome targeting to the cleavage furrow during cytokinesis (Horgan et al., 2004; Wilson et al., 2005; Fielding et al., 2005). Similarly, nuclear fallout protein (Nuf), a Drosophila homologue of class II FIPs, was shown to regulate endosomal transport and actin polymerization during cellularization of Drosophila embryos (Riggs et al., 2003). At least to some extent, these specialized functions depend on the ability of FIP3 and FIP4 to bind to Arf GTPases (Fielding et al., 2005). Indeed, FIP3 was originally identified as an Arf5-interacting protein by a yeast two-hybrid screen, and is also sometimes referred to as arfophilin (Shin et al., 1999, 2001). FIP3 and FIP4 have also been shown to interact with Arf6 (Shin et al., 2001; Fielding et al., 2005). Rab11 and Arf GTPases appear to bind to different FIP3 motifs, as FIP3, Rab11 and Arfs can be part of the same protein complex (Fielding et al., 2005). Unlike the interaction between Rab11 and FIP3, the structural basis of FIP3 binding to Arf GTPases has not yet been determined. The specificity of interaction between FIP3 and Arf GTPases remains controversial. While it was reported that FIP3 preferentially binds to
+
+Arf6 (Fielding et al., 2005), some data suggest that FIP3 can also interact with Arf5 and even possibly Arf4 (Shin et al., 1999; Hickson et al., 2003). The Arf-interaction motif on FIP3 also remains to be determined. Finally, the importance of Arf binding to FIP3 in regulating cell division and other cellular functions remains unclear. Here we used a combination of surface plasmon resonance and glutathione bead pull-down assays to measure the affinity of FIP3 binding to various Arfs and localize the Arf-binding site in FIP3. We also used a bacterial two-hybrid system to identify the FIP3-binding region within Arf GTPases. Finally, we used sitedirected mutagenesis along with epifluorescence microscopy, FRET and time-lapse microscopy to investigate the functional significance of FIP3 and Arf6 interactions during cytokinesis.
+
+Materials and methods
+Plasmids and reagents
+GST fusion constructs were prepared by cloning FIP3(441­756), FIP3(610­756), FIP3(650­756), FIP3 (695­756) into pGEX-KG (Amersham Biosciences, Piscataway, NJ). GST-Arf6, GST-Rab11a and CFPArf6 constructs were described previously (Wilson et al., 2005; Fielding et al., 2005). A GST-GGA2 construct was a generous gift from Dr. Andrew Peden (Cambridge Institute for Medical Research, Cambridge). GppNHp was purchased from Roche (Palo Alto, CA). Monoclonal mouse anti-Lamp1 and monoclonal mouse anti-Arf6 antibodies were purchased from Santa Cruz Biosciences (Santa Cruz, CA). Monoclonal mice anti-transferrin receptor (TfR) and monoclonal mouse anti-EEA1 antibodies were purchased from Zymed Inc. (South San Francisco, CA) and BD Biosciences (San Jose, CA), respectively. Polyclonal rabbit antiGFP antibodies were purchased from Invitrogen Inc. (Carlsbad, CA). Polyclonal rabbit anti-FIP3 antibody was described previously (Wilson et al., 2005). Rabbit anti-Arf6 antibody was a generous gift from Dr. Jim Casanova (University of Virginia Health Sciences Center). Cell culture reagents were obtained from Invitrogen Inc., unless otherwise specified.
+
+Site-directed mutagenesis, expression and purification of proteins
+Site-specific mutations were introduced using a QuikChange XL site-directed mutagenesis kit (Stratagene, La Jolla, CA). The GST-fusion constructs were transformed into BL-21 Codon Plus Escherichia coli (Stratagene, La Jolla, CA). GST fusion proteins were expressed and purified from E. coli as described previously (Junutula et al., 2004). The GppNHp-bound forms of Rab11a
+
+ARTICLE IN PRESS
+E. Schonteich et al. / European Journal of Cell Biology 86 (2007) 417­431 419
+
+protein were prepared by processing through a series of nucleotide (Gpp(NH)p) exchange reactions in the presence of EDTA, as described previously (Junutula et al., 2004). Protein concentrations were determined with Bradford protein assay. Full-length human FIP3 was tagged with an N-terminal 6His tag followed by a TEV cleavage site by subcloning into the baculovirus transfer vector pVL1392. Co-transfection and amplification of recombinant baculoviruses was done by using BacPAK transfection reagents (BD Clontech, Palo Alto, CA), following the manufacturer's protocols. In brief, 1 Â 106 Sf9 cells were seeded into a 6-well plate and BacfectinDNA mixture was added drop wise. After 5 days the P1 viral stock was harvested and further amplified to P2 and P3 stages. For protein production, 1 l of Sf9 cells at 2 million cells/ml were infected with 2 ml of P3 viral stock (approximate multiplicity of infection: 0.5) and harvested after 65 h. Cells were lysed in 50 mM Tris buffer (pH 7.5) containing 300 mM NaCl, and the cleared lysate was loaded onto a Ni-NTA column. Eluted 6His-FIP3 was further purified using a S75 size exclusion chromatography column. Yields were typically 3­5 mg/l with an estimated purity of 75%.
+
+NaCl, 2.5 mM MgCl2, 0.05% Tween 20. Fully active FIP3-coated surfaces were regenerated with 10 ml 10 mM HCl followed by equilibration in 50 ml dissociation buffer. Dissociation constants (Kd) were derived by fitting the data into a 1:1 Langmuir binding model using BIAevaluation 3.2 software (Biacore, Inc., Uppsala, Sweden).
+
+Bacterial two-hybrid assays
+T18-fusion proteins were generated by cloning FIP3 or FIP3(441­756) into the pAT18-3 plasmid described previously (Jobling and Holmes, 2000). T25-Rab11a was generated by cloning Rab11a into the pCT25 plasmid described previously (Jobling and Holmes, 2000). The T25-Arf6 construct was reported previously (Jobling and Holmes, 2000). The protein binding analysis by bacterial two-hybrid assay was done as described previously (Karimova et al., 1998; Jobling and Holmes, 2000). Briefly, E. coli DH1DC strain (deficient in cyaA) was co-transfected with various plasmids encoding T18- and T25-fusion proteins. Interaction between T18- and T25-fusion proteins was detected qualitatively by the ability to ferment maltose (and form red colonies) on maltose-MacConkey agar plates. Quantitative data were obtained by measuring cAMPinduced expression of b-galactosidase activity from triplicate cultures grown overnight at 30 1C in LB medium (Jobling and Holmes, 2000). b-Galactosidase activity was measured by adding 100 ml of culture diluted to 0.5 O.D. to 900 ml Z Buffer supplemented with 10 ml 0.1% SDS and 20 ml chloroform. Samples were vortexed and 200 ml o-nitrophenyl-b-D-galactoside (4 mg/ml) was added. Samples were incubated for 15 min at 37 1C. The reactions were then stopped with 0.5 ml 1 M NaCO3 and absorbance of each sample was measured in a spectrophotometer at 420/550 nm.
+
+In vitro binding assays
+Glutathione beads (50 ml) were coated with 5 mg of GST-fusion protein and incubated with varying amounts of soluble protein in a final volume of 0.5 ml reaction buffer (50 mM Hepes, pH 7.4, 150 mM NaCl, 5 mM MgCl2, 0.1% Triton X-100, 0.1% bovine serum albumin, 1 mM phenylmethylsulfonyl fluoride) in the presence of GppNHp. Samples were incubated at 4 1C for 1 h on a nutator with constant rotation. The samples were pelleted at 2000g for 3 min, and washed three times with 1 ml reaction buffer. Bound proteins were eluted with 1% SDS, analyzed by SDS-PAGE and either stained with Coomassie Blue or immunoblotted.
+
+Generation of T25-Arf6 mutants
+Two rounds of PCR amplification (30 cycles each) were done using pXT16Arf6 as a template with primers that flank the XbaI and HindIII sites in Arf6, to amplify the Arf6 gene and to introduce random mutations. PCR products were digested with XbaI and HindIII and subcloned back into pCT25. Selected T25-Arf6 mutants were then sequenced and only clones that produced fulllength T25-Arf6 and contained only one amino acid substitution were selected and analyzed for MKLP, cholera toxin A1 (CTA1) and GTPgS binding. All these T25-Arf6 variants were originally generated and characterized for Arf6 and CTA1 binding studies (Sentz, Jobling and Holmes; manuscript in preparation). The current study has extended the characterization of these Arf6 variants by testing their ability to bind FIP3.
+
+Surface plasmon resonance analysis
+Binding affinities were measured on a BIAcore 3000 as described previously (Jin et al., 2005) with the following modifications. Full-length FIP3 protein (5 or 10 pmoles) was coupled to activated CM5 surfaces using standard amine coupling conditions as described by the manufacturer. Binding was measured on flow cells 2­4, with flow cell 1 used as reference cell (no protein). Sensograms were recorded at 25 1C by injecting Rab11, Arf6 or Arf6 variants (at concentrations ranging from 0.8 to 1000 nM) in the presence of 0.2 mM GppNHp or GDP. Kinetic injections were carried out by allowing 300 s for association and 600 s for dissociation, at a flow rate of 30 ml/min in 50 mM HEPES pH 7.2, 100 mM
+
+ARTICLE IN PRESS
+420 E. Schonteich et al. / European Journal of Cell Biology 86 (2007) 417­431
+
+Cell culture, transient transfection and immunofluorescence
+HeLa cells were cultured as described previously (Peden et al., 2004). The cells were transfected with wildtype and mutant CFP-ARF6 constructs using Lipofectamine 2000 (Invitrogen, Carlsbad, CA). After 18­24 h post transfection, the cells were plated on collagencoated glass coverslips, grown overnight, fixed with 4% paraformaldehyde, followed by quenching with 0.1 M glycine. The cells were permeabilized with phosphatebuffered saline containing 0.4% saponin, 2% fetal bovine serum and 1% bovine serum albumin for 30 min, followed by incubation with anti-FIP3, antiEEA1, anti-LAMP1, or anti-TfR antibodies. After extensive washing, cells were incubated with Alexa-594 secondary antibodies (Molecular Probes-Invitrogen) for 30 min, washed and mounted with Vectashield (Vector Laboratories, Burlingame, CA). Cells were imaged with a Zeiss Axiovert 200M deconvolution microscope.
+
+coverslips as well as 6-cm tissue culture dishes. Control transfections received Lipofectamine 2000 with scrambled siRNA. Cells were then incubated for 74 h, fixed and imaged as described above. In every experiment, the knockdown was confirmed by Western blotting with anti-FIP3 or anti-Arf6 antibodies.
+
+Results
+FIP3 preferentially binds to Arf6 GTPase
+While the properties of FIP3 binding to Rab11 are well understood (Eathiraj et al., 2006; Shiba et al., 2006) the molecular basis of FIP3 interactions with Arf GTPases requires further investigation. Although, multiple studies have suggested that FIP3 can bind to Arf5, Arf6 and possibly Arf4 GTPases in vitro and in vivo (Shin et al., 1999, 2001; Hickson et al., 2003; Fielding et al., 2005), the specificity of these interactions remains unclear because they were only addressed using either yeast two-hybrid or glutathione bead pull-down assays in which accurate measurement of binding affinity was not possible. Thus, we used surface plasmon resonance assays to measure the affinity of binding of full-length FIP3 to members of all three Arf classes, including Arf1 (class I), Arf5 (class II) and Arf6 (class III) (for Arf nomenclature see (Kahn et al., 2006)). As shown in Fig. 1A and Table 1, FIP3 bound Arf6 with a Kd of 34 nM while binding to Arf1 was considerably weaker (Kd of 605 nM). FIP3 binding to Arf5 was not detectable at 500 nM protein concentration; and FIP3 bound Arf5 only in the micromolar range (Kd42000 nM) (Fig. 1A and Table 1). The FIP3 binding to Rab11a was of a comparable affinity to Arf6 binding (64 nM). Interestingly, previous studies using a fluorescence quenching assay reported the FIP3 and Rab11a binding affinity to be about 290 nM (Eathiraj et al., 2006), which is different from this study. Please note, however, that this Kd was obtained using bacterially expressed FIP3(441­756) as compared to baculovirus expressed full-length FIP3 used in this study. The difference may also be due to the different assays used to analyze Rab11a and FIP3 interactions. When isothermal calorimetry (ITC) was used to analyze Rab11a binding to FIP2, Rip11/FIP5 and RCP/FIP1, the Kd values were determined to be 40­107 nM (Junutula et al., 2004). Nonetheless, the FIP3 binding analyses clearly have shown that FIP3 binds to Arf6 with much higher affinity than to other Arf GTPases.
+
+Fluorescence energy transfer (FRET) time-lapse microscopy
+FRET between FIP3-YFP and Arf6-CFP was measured as described previously (Peden et al., 2004; Wilson et al., 2005). Briefly, cells were co-transduced with proteins tagged with YFP and CFP. Live cells were then mounted on a PH2 heated platform fitted with a TC344B dual automatic temperature controller (Warner Instruments). Mitotic cells (in metaphase) were randomly chosen and imaged at 37 1C in different stages of division using an inverted microscope (Zeiss Axiovert 200M) with a 63 Â oil immersion lens. Corrected FRET (cFRET) was calculated using Intelligent Imaging Innovations three-dimensional rendering and exploration software as described previously using the equation cFRET ¼ FRET-0.22 Â CFP-0.037 Â YFP (Sorkin et al., 2000). Normalized FRET (NFRET) was calculated using the equation NFRET ¼ cFRET/CFP. In all cases background cFRET was calculated by random sampling outside the cell and subtracted from images. Only cells expressing similar amounts of CFP- and YFP-tagged proteins (YFP/CFP ¼ 0.5­2.0) were included in the FRET analysis.
+
+RNA-interference analysis
+For each siRNA knock-down experiment Hela cells were transiently transfected with Qiagen HPP-grade siRNA based on human FIP3 or Arf6 sequences (Wilson et al., 2005; Yu et al., 2006). The cells were incubated overnight with transfection mixture (12 mg siRNA and 5 ml Lipofectamine 2000 per well of the plate), then trypsinized and transferred to collagen-coated glass
+
+Arf6 and Rab11 bind to distinct and non-overlapping sites at the C-terminus of FIP3
+Previous reports showed that Arf6 binds to the C-terminal half (441­756 amino acids) of FIP3 (Fielding et al., 2005; Shiba et al., 2006). Furthermore, it was suggested that Arf6 and Rab11 bind to non-overlapping
+
+ARTICLE IN PRESS
+E. Schonteich et al. / European Journal of Cell Biology 86 (2007) 417­431 421
+
+1200 Resp. Diff. (RU) 800 400 0 0 200 400 600 800 Time (s)
+-helices FIP3(441-756) 441 FIP3(610-756) FIP3(650-756) FIP3(695-756) FIP3(610-756) 610 650 695 FIP3(650-756) FIP3(695-756)
+
+Table 1. Binding affinities of full-length FIP3 to wild-type and mutant forms of Arf and Rab11 GTPases GTPase variant Rab11A ARF6 ARF6-W168L ARF6-L169V ARF6-W168L/L169V ARF1 ARF5
+756 756 756 756
+
+Kd (nM) 64716 3475 219739 113747 41000 6057125 42000
+
+1000
+
+Rab11 binding
+
+All the surface plasmon resonance experiments were carried out as described in Materials and methods. FIP3 and Rab11 as well as FIP3 and Arf interactions were carried out in the presence of Gpp(NH)p. The Kd value for Arf6-W168L/L169V could not be accurately estimated due to rapid dissociation of FIP3. A weak binding for Arf5 to FIP3 was observed at 2000 nM or above.
+
+GST
+
+GST-Rab11 -6His-FIP3 FIP3(610-756) FIP3(650-756) FIP3(695-756)
+
+GST
+
+GST-Arf6 -6His-FIP3
+
+Fig. 1. Characterization of FIP3 binding to Arf GTPases. (A) Quantitative analysis of 6His-FIP3 binding to Rab11a, Arf6, Arf5, and Arf1 GTPases. The surface plasmon resonance sensograms shown here demonstrate association and dissociation profiles of FIP3 to small GTPases in the presence of 500 nM GppNHp. (B) Schematic representation of various FIP3 truncation constructs. The boxes represent predicted helices (Eathiraj et al., 2006). (C) Glutathione beads coated with GST alone, GST-Rab11a (upper panel) or GST-Arf6 (lower panel) were incubated with soluble recombinant 6HisFIP3 in the presence or absence of a four-fold excess of soluble FIP3(610­756), FIP3(650­756) or FIP3(695­756). Beads were then washed and bound protein was eluted with 1% SDS. The 6His-FIP3 binding to beads was measured by Western blotting with goat anti-FIP3 antibodies.
+
+To test whether these FIP3 fragments contain an Arf6binding domain, we tested their ability to compete with full-length FIP3 for binding to GST-Arf6 beads. To confirm that these fragments are correctly folded we also tested for their ability to compete with full-length FIP3 for binding to GST-Rab11a beads. FIP3(610­756), FIP3(650­756) and FIP3(695­756) each contain the Rab11-binding domain (Prekeris et al., 2001; Eathiraj et al., 2006; Shiba et al., 2006) and each inhibited fulllength FIP3 binding to GST-Rab11a to a comparable extent (Fig. 1C, top panel). In contrast, only FIP3(610­756) and FIP3(650­756) competed with fulllength FIP3 binding to GST-Arf6, suggesting that the FIP3(650­695) region is required for binding to Arf6 (Fig. 1C, bottom panel). Unfortunately, we were unable to express FIP3(650­695) as a soluble protein and test its ability to bind Arf6. Therefore, we cannot exclude the possibility that sequences outside FIP3(650­695) may also contribute to the FIP3 and Arf6 interaction.
+
+100 ng FIP3
+
+100 ng FIP3
+
+Control
+
+Control
+
+FIP3 binds to the C-terminal a-helix of Arf6
+It has been suggested that FIP3 may act as a scaffolding protein regulating the subcellular localization of Arf6. To test that hypothesis we decided first to map the FIP3-binding region of the Arf6 GTPase. Since we could not generate Arf6 truncation mutants without destroying its overall structure, we used an existing collection of Arf6 variants with single amino acid substitutions that were generated in Dr. Holmes laboratory to analyze Arf6 binding to cholera toxin A1 (CTA1) using a bacterial two-hybrid system (Karimova et al., 1998; Jobling and Holmes, 2000). To establish that the bacterial two-hybrid assay could also be used for this purpose, we created T25-Arf6, T25-Rab11a and T18FIP3(441­756) fusion proteins (Fig. 2A). As shown in Figs. 2B and C, T18-FIP3(441­756) binding to T25-Arf6
+
+sites, since FIP3 could bind Rab11a and Arf6 simultaneously (Fielding et al., 2005). To further map the Arf6binding region, we constructed additional truncation fragments of FIP3(441­756) (Fig. 1B), based on predicted alpha helical regions (Eathiraj et al., 2006).
+
+ARTICLE IN PRESS
+422 E. Schonteich et al. / European Journal of Cell Biology 86 (2007) 417­431
+
+or T25-Rab11a can be readily detected by b-galactosidase assay (a reporter for bacterial two-hybrid assay). The signal generated by FIP3 binding to Arf6 in the bacterial two-hybrid system was comparable to cholera toxin A1 (T18-CTA1) binding to T25-Arf6 that was previously reported (Fig. 2B) (Jobling and Holmes, 2000). Furthermore, as expected from the previous reports, we confirmed that the FIP3 and Arf6
+
+interaction in the bacterial two-hybrid system was GTP dependent by showing that an Arf6-T44N mutant exhibited a decreased ability to bind FIP3(441­756) (Fig. 2D). Random mutagenesis always carries the risk that the mutation may inhibit protein function by dramatically affecting its overall structure. Thus, we chose to test only Arf6 variants that are still capable of binding
+
+12 ABD FIP3 0FIP3(441-756) 441RBD -756 -756 -Galactosidase Activity (Miller units) EF-hands 10 8 6 4 2 0 T18 vector/ARF6 CTA/ARF6 FIP3(447-756)/T25vector FIP3(441-756)/ARF6
+
+10 -Galactosidase Activity (Miller units) -Galactosidase Activity (Miller units)
+
+12 10 8 6 4 2 0 FIP3(441-756)/ARF6 FIP3(441-756)/ARF6-Q67L
+
+8
+
+6
+
+4
+
+2
+
+0 FIP3(447-756)/vector T25 FIP3(447-756)/Rab11 T18 vector/Rab11
+
+Fig. 2. FIP3 binding to Rab11 and Arf6 in a bacterial two-hybrid assay. (A) Schematic representation of FIP3 constructs used in bacterial two-hybrid assays. ABD: Arf6-binding domain. RBD: Rab11-binding domain. (B­D) FIP3 binding to Arf6 and Rab11 as measured by b-galactosidase activity assays. Data shown are the means and standard deviations calculated from at least four independent experiments. CTA1: cholera toxin A1 fragment.
+
+FIP3(441-756)/ARF6-T44N
+
+FIP3(441-756)/T25vector
+
+ARTICLE IN PRESS
+E. Schonteich et al. / European Journal of Cell Biology 86 (2007) 417­431 423
+
+GTPgS, indicating that these mutations did not affect overall Arf6 structure. As shown in Fig. 3, among all the Arf6 variants tested, only Arf6-W168L and Arf6-L169V lost the ability to bind FIP3. To confirm that W168 and L169 are actually involved in FIP3 binding we generated GST-Arf6-W168V, GST-Arf6-L169V, and GST-Arf6W168L/L169V constructs and compared their binding to FIP3 by using surface plasmon resonance analysis. Consistent with the bacterial two-hybrid data, both Arf6-W168L and Arf6-L169V substitutions had significantly reduced Kd values for binding to FIP3 (Fig. 4A and Table 1). A weak binding (Kd41000 nM) with rapid dissociation was observed for the Arf6-W168L/L169V double mutant (Fig. 4A and Table 1). Arf6-W168 and Arf6-L169 are both situated near the C-terminal end of Arf6 and are conserved in all Arf GTPases. The C-terminus of Arf GTPases also contains a hyper-variable region (beginning at residue 170 of Arf6) that might contribute to the differential FIP3 binding to Arf1, Arf5, and Arf6 (Fig. 4B). Thus, it was possible that in addition to W168 and L169, the hyper-variable region is involved in imparting the specificity in Arf6 and FIP3 interactions. To test this hypothesis we generated Arf6-T170A, Arf6-S171A, Arf6-N172A, Arf6-Y173A, Arf6-K174A and Arf6-S175A mutants and tested them for their ability to bind FIP3 using the bacterial twohybrid assay. Surprisingly, none of these mutations had any effect on Arf6 and FIP3 binding (Fig. 3 and data not shown) suggesting that the hyper-variable C-terminal region is not likely to mediate the specificity of interactions between FIP3 and Arf GTPases. Arf GTPases function by interacting with a large number of effector proteins that include lipid-modifying enzymes (phosphatidylinositol (4,5) and phosphatidylinositol (4)
+-Galactosidase Activity (Arbitrary units)
+
+kinases) as well as coat complex proteins (GGAs, AP-1, AP-2). The recently published structure of the Arf1 complex with GGA1 demonstrated that GGA1 predominately interacts with switch I and switch II regions of Arf1 (Shiba et al., 2003). Multiple published reports suggest that switch regions of small monomeric GTPases play a key role in binding to effector proteins (for review see Biou and Cherfils, 2004). Indeed, other proteins that belong to the Arf GTPase sub-family, such as ARL1 and ARL2, have also been shown to bind their effectors predominantly via switch regions (Hanzal-Bayer et al., 2002; Panic et al., 2003; Wu et al., 2004). Similarly, CTA1 also has been shown to bind to Arf6 via switch regions. The fact that binding of FIP3 to Arf6 involves residues W168 and L169 that are outside switch I and switch II regions raises the possibility that Arf6 could bind simultaneously to FIP3 and its canonical effector proteins. To test that, we investigated the effect of FIP3 on Arf6 binding to its known effector protein GGA2. Consistent with previously published data, Arf6 bound to GST-GGA2 beads in a GTP-dependent manner (Fig. 4C). Interestingly, addition of FIP3 did not inhibit Arf6 and GST-GGA2 interactions (Fig. 4D). In contrast, FIP3 could actually be isolated bound to the GST-GGA2/Arf6 complex (Fig. 4D). FIP3 binding to GST-GGA2 beads was mediated by Arf6, since in the absence of Arf6 we detected little if any interaction between GST-GGA2 beads and FIP3 (Fig. 4D).
+
+FIP3 binding is required for the enrichment of Arf6 at the midbody during cytokinesis
+The FIP3 homologue in Drosophila was originally identified as a protein that is required for successful
+
+14 12 10 8 6 4 2 T25 wt I70S V52G L33R L73Y R75G V39M T167A T157N T167D T170A L166A L169V S171A + A156G G165A W168L Y173A + 0
+
+-
+
+-
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
+-
+
++/-
+
+Red Color
+
+Fig. 3. Mapping the FIP3-binding site in Arf6. Randomly generated Arf6 point mutants were tested for their ability to bind FIP3 by bacterial two-hybrid assay. Data shown are the means and standard deviations calculated from three independent experiments. Red color indicates the phenotype associated with each Arf6 variant in the bacterial two-hybrid assays on maltose MacConkey agar plates.
+
++/-
+
++
+
+ARTICLE IN PRESS
+424 E. Schonteich et al. / European Journal of Cell Biology 86 (2007) 417­431
+
+1200 Resp. Diff. (RU)
+-168 -169 Arf1 Arf4 Arf5 Arf6 hyper-variable region
+
+800 400 0 0 200 400 600 Time (s)
+GST-GGA2
+
+WL SNQLRNQK WL SNELSKR WL SHELSKR WL TSNYKS
+
+800
+
+1000
+
+GST-GGA2 + + + + ARF6 6His-FIP3 -ARF6 GST -ARF6
+
+DP S
+
+GST
+
+TP S
+
+-
+
+G
+
+G
+
+-6His-FIP3
+
+Fig. 4. Arf6-W168 and Arf6-L169 are involved in mediating binding to FIP3. (A) Quantitative analysis of 6His-FIP3 binding to Arf6, Arf6-W168L, Arf6-L169V and Arf6-W168L/L169V constructs by surface plasmon resonance. (B) Alignment of the hypervariable C-terminus of Arf GTPases. (C, D) Glutathione beads coated with GST alone or GST-GGA2 were incubated with soluble recombinant 6His-FIP3 or soluble recombinant Arf6 as indicated, in the presence of either GDPbS (C) or GTPgS (C, D). Beads were then washed and bound protein was eluted with 1% SDS. The 6His-FIP3 and Arf6 binding to beads was measured by Western blotting with goat anti-FIP3 and mouse anti-Arf6 antibodies.
+
+completion of cellularization (Rothwell et al., 1998; Riggs et al., 2003). Consistent with that finding, FIP3 was also shown to regulate cytokinesis in mammalian cells (Wilson et al., 2005; Fielding et al., 2005). Since Arf6 localizes to the cleavage furrow and was also implicated in regulating cytokinesis (Schweitzer and D'Souza-Schorey, 2005) we tested whether Arf6 binding to FIP3 may regulate the targeting of Arf6 to the cleavage furrow during cytokinesis. To that end we transfected HeLa cells with Arf6-CFP, Arf6-L169VCFP or Arf6-W168L/L169V-CFP. As previously reported, wild-type Arf6-CFP localized to the midbody during late telophase (Fig. 5, top row). Arf6-L169VCFP was also detected at the midbody, although the enrichment of the Arf6-L169V variant at the midbody was clearly diminished as compared to wild-type Arf6CFP (Fig. 5, middle row). In contrast, the Arf6-W168L/ L169V variant was not detected at the midbody and instead accumulated in a large number of cytoplasmic organelles (Fig. 5, bottom row). Co-staining of Arf6W168L/L169V-CFP with various endocytic markers demonstrated that these cytoplasmic organelles are late endosomes/lysosomes, since they also contain Lamp1, but not transferrin receptor or EEA1 (Fig. 6). Interestingly, the lack of Arf6-W168L/L169V recruitment to the
+
+midbody was not due to its inability to bind GTP, since the levels of Arf6-CFP-GTP and Arf6-W168L/L169VGTP were similar as measured by GST-GGA2 pulldown assay (Fig. 7). These data suggest that Arf6 binding to FIP3 is required for Arf6 recruitment to the midbody. To further test this conclusion we transfected mock- or FIP3 siRNA-treated cells with Arf6-CFP and analyzed its distribution during cytokinesis. We have previously shown that this siRNA specifically knocks down FIP3 to undetectable levels without affecting the levels of other FIP proteins, including closely related FIP4 (Wilson et al., 2005). As shown in Fig. 8, FIP3 knockdown blocked the recruitment of Arf6-CFP to the midbody during late telophase. Interestingly, while FIP3 knockdown caused an increased association of Arf6-CFP with intracellular organelles, the effect was not as dramatic as for the W168L/L169V variant (see Figs. 5 and 8). It is possible that FIP3 depletion may have also affected late endosomes/lysosomes, thus preventing lysosomal accumulation of Arf6 in FIP3 siRNA-treated cells. To test that, we immuno-stained FIP3-depleted HeLa cells with anti-Lamp1 antibodies. We observed no effect of FIP3 depletion on late endosomes or lysosomes (data not shown). Furthermore,
+
+ARTICLE IN PRESS
+E. Schonteich et al. / European Journal of Cell Biology 86 (2007) 417­431 425
+
+Fig. 5. Arf6 and FIP3 binding is required for Arf6 accumulation at the midbody during cytokinesis. HeLa cells were transfected with Arf6-CFP (top panels), Arf6-L169V-CFP (middle panels) or Arf6-W168L/L169V-CFP (bottom panels). Left panels show cells at interphase, while right and middle panels show cells at late telophase. Asterisks mark the midbody. Bars 5 mm.
+
+Arf6-W168L/L169V-CFP could still be observed accumulated in late endosomes/lysosomes in cell treated with FIP3 siRNA (data not shown). Thus, all these data suggest that other regulatory/scaffolding proteins may also be interacting with the C-terminus of Arf6. Indeed, it is tempting to speculate that various scaffolding proteins may associate with Arf6 via its C-terminus and in this way regulate the role of Arf6 in distinct cellular pathways.
+
+Arf6 binding to the FIP3/Rab11 protein complex regulates the delivery of recycling endosomes to the cleavage furrow
+Our data suggest that Arf6 binding to FIP3 is required for Arf6 accumulation at the cleavage furrow during mitosis. This seems to contradict our previous work that over-expression of an Arf6 dominant-negative mutant affects FIP3 transport to the cleavage furrow (Fielding et al., 2005). The GDP-locked dominantnegative mutants work by sequestering GEF proteins
+
+required for the activation of endogenous Arfs. Since GEFs can be promiscuous in their ability to activate Arfs, it is possible that dominant-negative Arf6 mutants may also inhibit other Arf GTPases. Thus, to confirm that Arf6 is required for FIP3 recruitment to the cleavage furrow we used Arf6 siRNA to knock down Arf6 in FIP3-GFP-expressing Hela cells. We have previously shown that this Arf6 siRNA is capable of specific and efficient knockdown of human Arf6 (Yu et al., 2006). As shown in Fig. 9, Arf6 knockdown inhibited the movement of FIP3 to the cleavage furrow in telophase (Fig. 9, top panels), thus confirming that binding to Arf6 does regulate FIP3 targeting during cytokinesis. Interestingly, while Arf6 knockdown delayed FIP3 recruitment to the cleavage furrow, eventually, in late telophase, FIP3 accumulated at the midbody (Fig. 9, bottom panels). Similarly delayed accumulation of FIP3 at the midbody was also observed after Exo70 knockdown as well as in cells expressing a FIP3-I737E mutant (lacking the capacity to bind Rab11) (Wilson et al., 2005; Fielding et al., 2005). These data suggest that Rab11 and Arf6 may work together in
+
+ARTICLE IN PRESS
+426 E. Schonteich et al. / European Journal of Cell Biology 86 (2007) 417­431
+
+Fig. 6. Arf6-W168L/L169V mutants localize to late endosomes/lysosomes. HeLa cells were transfected with Arf6-CFP-W168L/ L169V, fixed and stained with anti-Lamp1, anti-transferrin receptor (TfR) or anti-EEA1 antibodies. Yellow in panels on the right shows the degree of overlap between Arf6-CFP-W168L/L169V (green) and Lamp1 (red). Middle panels are the higher magnification images of the cells shown in the top panels. Bars: 5 mm (top panels) and 1 mm (middle panels).
+
+GST-GGA2 -Arf6-CFP -Arf6-W168L/L169V-CFP
+
+lysate
+
+Fig. 7. Arf6-W168L/L169V mutations do not affect the levels of GTP-Arf6 in vivo. HeLa cells were transfected with either wild-type Arf6-CFP or the Arf6-W168L/L169V-CFP mutant. Cells were then lysed with 1% Triton X-100 and lysates were incubated with either GST or GST-GGA2 beads. Beads were then washed and the amount of bound wild-type Arf6-CFP (top panel) or Arf6-W168L/L169V-CFP (bottom panel) was determined by immunoblotting with anti-GFP antibody.
+
+GST
+
+regulating FIP3 targeting to the cleavage furrow. Thus, Rab11 knockdown results in a stronger cytokinesis phenotype because Rab11 is required for recruitment of FIP3 to the endocytic membranes. Arf6 knockdown has a more modest effect because Rab11/exocyst interactions can still target the vesicles and allow completion of cytokinesis (Fielding et al., 2005; Chen et al., 2006).
+
+Fig. 8. FIP3 is required for Arf6-CFP recruitment to the midbody. Hela cells were either mock transfected (top panels) or transfected with FIP3 siRNA (bottom panels). Cells were then incubated for 48 h. and transfected with Arf6-CFP. Immediately after transfection cells were plated on collagencoated glass coverslips. After additional 24 h incubation cells were fixed and stained with anti-FIP3 antibodies (red). Asterisks mark the midbodies. Bars 2 mm.
+
+Finally, the knockdown of both, Rab11 and Arf6, have a synergistic effect in inhibiting cytokinesis (Yu et al., 2006).
+
+ARTICLE IN PRESS
+E. Schonteich et al. / European Journal of Cell Biology 86 (2007) 417­431 427
+
+Fig. 9. Arf6 regulates FIP3-GFP dynamics during cytokinesis. FIP3-GFP-expressing stably transfected Hela cells were either mock transfected (top left panels) or transfected with Arf6 siRNA (top right and bottom panels). Cells were then incubated for 48 h and plated on collagen-coated glass coverslips. After additional 24 h incubation cells were fixed and stained with phalloidin conjugated to rhodamine (red). Asterisks mark the midbodies. Bars 3 mm.
+
+While our data show that FIP3 and Arf6 binding is required for the recruitment of both proteins to the cleavage furrow, it remains unclear where in the cell the FIP3-Arf6 complex actually forms. One possibility is that Arf6 is already present at the plasma membrane in the cleavage furrow. Arf6 would then play the role of a tethering factor by binding to FIP3 located on the incoming recycling endosomes. Alternatively, Arf6 could bind to a FIP3-Rab11 complex on the endosomes. This Arf6-FIP3-Rab11 complex may then play a role in regulating the moving recycling endosomes to the cleavage furrow as well as regulating endosomal targeting by binding to other proteins located at the midbody. Indeed, the exocyst complex which is known to accumulate at the midbody was shown to bind the Arf6-FIP3 protein complex (Fielding et al., 2005). To identify the subcellular location of FIP3-Arf6 complexes we analyzed the FRET between Arf6-CFP and FIP3-YFP in live mitotic HeLa cells. As shown in Fig. 10, little FRET could be detected between Arf6-CFP and FIP3-YFP during metaphase or anaphase. In contrast, during telophase we could detect FRET in the endosomes accumulating around the centrosome (data not shown) and both sides of the furrow (Fig. 10, bottom panels). Since we have previously shown that FIP3 and Rab11 form a complex on recycling endosomes located in the cleavage furrow (Wilson et al., 2005; Eathiraj et al., 2006), these data suggest that Arf6 likely interacts with the FIP3-Rab11 complex. That would also be consistent with the ability of FIP3 to bind Arf6 and Rab11 simultaneously (Fielding et al., 2005; Fig. 1). Surprisingly, little FRET was detected at the midbody,
+
+despite the fact that Arf6-CFP accumulated there during late telophase (Fig. 10, bottom panels). Thus, it is possible that once delivered to the cleavage furrow, Arf6 may dissociate from the FIP3-Rab11 complex, although we cannot discount the possibility that FRET was either too weak to be detected due to the lower levels of FIP3-YFP at the midbody or that interaction of the Arf6-FIP3-Rab11 complex with midbody proteins (such as the exocyst) may affect the efficiency of FRET. In summary, our FRET data suggest that the Rab11-FIP3-Arf6 protein complex forms at the recycling endosomes and that this complex likely plays a role in mediating the transport and tethering of endosomes at the cleavage furrow.
+
+Discussion
+FIP3 protein has recently emerged as an important regulator of cytokinesis in animal cells (Hickson et al., 2003; Horgan et al., 2004; Wilson et al., 2005; Fielding et al., 2005). The key to FIP3 function appears to be its ability to interact with both Rab11 and Arf GTPases, thus allowing the coordination between endocytic membrane traffic and the actin cytoskeleton. While the structural properties of FIP3 binding to Rab11 have recently been identified (Eathiraj et al., 2006; Shiba et al., 2006), the binding of FIP3 to Arf GTPases remains to be fully understood. Indeed, even the specificity of FIP3 toward the different members of Arf GTPases remains unclear. Here we performed a detailed analysis and mapping of FIP3 and Arf
+
+ARTICLE IN PRESS
+428 E. Schonteich et al. / European Journal of Cell Biology 86 (2007) 417­431
+
+Fig. 10. Arf6 and FIP3 form a complex on recycling endosomes. HeLa cells were co-transfected with FIP3-YFP and Arf6-CFP. After 24 h, cells were analyzed by time-lapse FRET microscopy (see Materials and methods). Cells at metaphase (top panels) were randomly chosen for analysis. Images were taken of the same cells in anaphase (middle panel) and telophase (bottom panels). The asterisk marks the midbody. Bars 3 mm. cFRET levels between FIP3-YFP and Arf6-CFP in the right panels are presented in pseudocolor.
+
+interaction motifs and showed that FIP3 appears to preferentially interact with Arf6 GTPase. Indeed, the binding affinity toward Arf6 is at least 20-fold stronger as compared to other members of the Arf GTPase family (Table 1). Nevertheless, FIP3 can bind to Arfs other than Arf6 sufficiently (see Table 1) to explain why FIP3 was identified as an Arf5-binding protein in yeast two-hybrid assays (Shin et al., 1999). It is also possible that FIP3, while clearly a predominantly Arf6-binding protein, may under certain cellular conditions bind to other Arf GTPases. Previous reports have suggested that FIP3 can simultaneously bind to Rab11 and Arf6 GTPases, thus forming a hetero-trimeric complex at the cleavage furrow (Fielding et al., 2005). Our data show that Arf6 binds to a distinct site on FIP3 located immediately
+
+before the Rab11-binding motif. Recently reported structures of a Rab11 and FIP3 protein complex demonstrated that the C-terminus of FIP3 forms a non-canonical coiled-coil dimer with a hook region located at the C-terminus of FIP3 (Eathiraj et al., 2006; Shiba et al., 2006). Rab11 binds to the hook region as well as part of the coiled-coil region. That leaves the rest of the coiled-coil dimer free to interact with other proteins. Indeed, our data indicate that the Arf6-binding region of FIP3 maps to the N-terminal part of the coiled-coil dimer, thus allowing FIP3 to bind to Rab11 and Arf6 simultaneously. Extensive studies have defined the mechanisms by which small G-proteins recognize and bind their effector proteins. The domains, known as switch regions 1 and 2 were shown to play a key role in recognizing binding partners of all Ras-like GTPases, including Arf6 (for review see Biou and Cherfils, 2004). The amino acid residues in the switch regions have been shown to recognize the g-phosphate of bound GTP. As a result, the conformation of switch regions changes dramatically depending on whether the protein is bound to GTP or GDP. By changing their conformation the switch regions signal the status of the nucleotide to the G-protein binding partner via their direct involvement in protein­ protein interactions. Predictably, Arf and Arf-like GTPases were also shown to use switch regions to bind to their binding partners (Hanzal-Bayer et al., 2002; Panic et al., 2003; Shiba et al., 2003; Wu et al., 2004). As the result of the involvement of switch regions in mediating multiple protein­protein interactions, the binding sites of various Arf-interacting proteins are largely overlapping. This ``multispecificity'' of switch regions results in the ability of Arf GTPases to mediate multiple cellular pathways, since they can form several mutually exclusive protein complexes. Interestingly, data presented here suggest that FIP3 binds to the very C-terminus of the Arf6 rather than to switch regions. That is also consistent with the data showing that FIP3 can in fact bind to a GDP form of Arf6, although GTP does appear to enhance Arf6 interaction with FIP3 (Fielding et al., 2005; Fig. 2D). Surprisingly, the Arf6 C-terminal residues involved in FIP3 binding are also conserved in other Arf GTPases, possibly explaining partial promiscuity of FIP3 binding to Arfs. Thus, the determinants of different FIP3-binding affinities to various Arfs remain unclear. It is possible that additional binding sites that are specific for Arf6 can modulate its binding to FIP3. Alternatively, the subtle variations in secondary and tertiary structure between various Arf isoforms may account for the differences in FIP3-binding affinity. Similarly, structural differences were also suggested to account for the ability of highly conserved switch regions to mediate the specific interactions with various canonical Arf-interacting proteins (Biou and Cherfils, 2004).
+
+ARTICLE IN PRESS
+E. Schonteich et al. / European Journal of Cell Biology 86 (2007) 417­431 429
+
+What is the function of FIP3 binding to Arf6? The binding of FIP3 to a motif outside of the switch region suggests that FIP3 may play the role of a scaffolding protein for Arf6. Indeed, we have shown that Arf6 can simultaneously bind to FIP3 and canonical Arf effector proteins, such as GGA2 (Fig. 4D). Thus, it is tempting to speculate that FIP3 may be responsible for targeting of Arf6 to specific sub-cellular domains, where Arf6 can then interact and regulate its effector proteins. Consistent with that hypothesis, FIP3 binding-deficient Arf6 mutants (Arf6-L169V and Arf6-W168L/L169V) do not accumulate at the cleavage furrow (Fig. 5). Furthermore, FIP3 knockdown by siRNA also inhibits the recruitment of Arf6 to the midbody (Fig. 6). All these data suggest that FIP3 may regulate the Arf6 recruitment to the cleavage furrow. Interestingly, previously published data show that over-expression of a dominant-negative Arf6 mutant (Arf6-T27N) diminished FIP3 recruitment to the cleavage furrow (Fielding et al., 2005). Data in this study also show that Arf6 knockdown affects the delivery of FIP3 to the cleavage furrow. Finally, we used FRET microscopy to show that the FIP3-Arf6 complex forms at recycling endosomes before they are delivered to the cleavage furrow. Since we previously have shown that FIP3 is recruited to the endosomes by binding to Rab11 (Wilson et al., 2005; Eathiraj et al., 2006) it is tempting to speculate that the formation of endocytic Rab11-FIP3-Arf6 complexes may be involved in targeting of recycling endosomes to the cleavage furrow. Consistent with that, Arf6 is recruited to the midbody at late telophase which coincides with the FIP3 and Rab11 targeting to the furrow (Fielding et al., 2005). The molecular machinery of Rab11-FIP3-Arf6 targeting to the cleavage furrow remains to be fully understood. One possibility is that the formation of the Rab11-FIP3-Arf6 complex may be required for sorting of FIP3 and Arf6 into recycling endosomes before they are targeted to the furrow. It has been shown that Arf6 can bind to several proteins involved in protein sorting and vesicle formation, namely adaptor proteins and GGAs (Austin et al., 2002; Takatsu et al., 2002; Paleotti et al., 2005). Furthermore, we show that GGAs and FIP3 bind to different regions of FIP3. As the result, GGA could interact with the Rab11-FIP3-Arf6 complex during endocytic sorting. Another possibility is that Rab11-Arf6-FIP3 may bind to the exocyst complex that is known to accumulate at the furrow (Fielding et al., 2005; Gromley et al., 2005; Chen et al., 2006). Indeed, Arf6 was shown to bind the Sec10 subunit of the exocyst complex (Prigent et al., 2003), while Rab11 is known to bind the Sec15 subunit (Zhang et al., 2004; Wu et al., 2005). This two-way interaction with the exocyst complex may explain why Arf6 knockdown has a relatively mild mitotic phenotype (Schweitzer and D'Souza-Schorey, 2005; Yu et al., 2006) and does not
+
+fully block FIP3 delivery to the midbody (Fig. 9). Consistent with that hypothesis, recent data has shown that Arf6 and Rab11 function synergistically in regulating cytokinesis (Yu et al., 2006). Interestingly, the knockdown of the Exo70 subunit of the exocyst complex also does not fully block FIP3 delivery to the cleavage furrow (Fielding et al., 2005; data not shown). While the efficiency of recycling endosome delivery to the cleavage furrow in Exo70 knock-down cells is clearly affected, FIP3 does eventually accumulate at the midbody of dividing cells. Thus, it is possible that additional targeting factors may be involved in the regulation of endosome transport during cytokinesis. The presence of multiple and partially redundant regulatory mechanisms seems to be a key feature of cytokinesis. Since multiple interactions between targeting proteins may be required to guarantee the correct spatial and temporal regulation of the membrane traffic during cell division.
+
+Acknowledgments
+We thank Dr. Andrew Peden for GST-GGA2 construct. We are grateful to Dr. James Casanova for an anti-Arf6 antibody. We also thank Dr. Margaret Robinson for the GST-Arf6 construct. Finally, we thank Dr. Gwyn Gould for the critical reading of the manuscript. This work was supported in part by Grant R01-DK064380 from NIH-NIDDK (to R. Prekeris) and Grant R01-AI31940 from NIH-NIAID (to R.K. Holmes).
+
+References
+Austin, C., Boehm, M., Tooze, S.A., 2002. Site-specific crosslinking reveals a differential direct interaction of class 1, 2, and 3 ADP-ribosylation factors with adaptor protein complexes 1 and 3. Biochemistry 41, 4669­4677. Biou, V., Cherfils, J., 2004. Structural principles for the multispecificity of small GTP-binding proteins. Biochemistry 43, 6833­6840. Chen, X.W., Inoue, M., Hsu, S.C., Saltiel, A.R., 2006. RalAexocyst-dependent recycling endosome trafficking is required for the completion of cytokinesis. J. Biol. Chem. 281, 38609­38616. Cox, D., Lee, D.J., Dale, B.M., Calafat, J., Greenberg, S., 2000. A Rab11-containing rapidly recycling compartment in macrophages that promotes phagocytosis. Proc. Natl. Acad. Sci. USA 97, 680­685. Cullis, D.N., Philip, B., Baleja, J.D., Feig, L.A., 2002. Rab11FIP2, an adaptor protein connecting cellular components involved in internalization and recycling of epidermal growth factor receptors. J. Biol. Chem. 277, 49158­49166. Eathiraj, S., Mishra, A., Prekeris, R., Lambright, D.G., 2006. Structural basis for Rab11-mediated recruitment of FIP3 to recycling endosomes. J. Mol. Biol. 364, 121­135.
+
+ARTICLE IN PRESS
+430 E. Schonteich et al. / European Journal of Cell Biology 86 (2007) 417­431
+
+Fielding, A.B., Schonteich, E., Matheson, J., Wilson, G., Yu, X., Hickson, G.R., Srivastava, S., Baldwin, S.A., Prekeris, R., Gould, G.W., 2005. Rab11-FIP3 and FIP4 interact with Arf6 and the exocyst to control membrane traffic in cytokinesis. EMBO J. 24, 3389­3399. Goldenring, J.R., Shen, K.R., Vaughan, H.D., Modlin, I.M., 1993. Identification of a small GTP-binding protein, Rab25, expressed in the gastrointestinal mucosa, kidney, and lung. J. Biol. Chem. 268, 18419­18422. Goldenring, J.R., Aron, L.M., Lapierre, L.A., Navarre, J., Casanova, J.E., 2001. Expression and properties of Rab25 in polarized Madin­Darby canine kidney cells. Methods Enzymol. 329, 225­234. Gromley, A., Yeaman, C., Rosa, J., Redick, S., Chen, C.T., Mirabelle, S., Guha, M., Sillibourne, J., Doxsey, S.J., 2005. Centriolin anchoring of exocyst and SNARE complexes at the midbody is required for secretory-vesicle-mediated abscission. Cell 123, 75­87. Hales, C.M., Griner, R., Hobdy-Henderson, K.C., Dorn, M.C., Hardy, D., Kumar, R., Navarre, J., Chan, E.K., Lapierre, L.A., Goldenring, J.R., 2001. Identification and characterization of a family of Rab11-interacting proteins. J. Biol. Chem. 276, 39067­39075. Hales, C.M., Vaerman, J.P., Goldenring, J.R., 2002. Rab11 family interacting protein 2 associates with myosin Vb and regulates plasma membrane recycling. J. Biol. Chem. 277, 50415­50421. Hanzal-Bayer, M., Renault, L., Roversi, P., Wittinghofer, A., Hillig, R.C., 2002. The complex of Arl2-GTP and PDE delta: from structure to function. EMBO J. 21, 2095­2106. Hickson, G.R.X., Matheson, J., Riggs, B., Maier, V.H., Fielding, A.B., Prekeris, R., Sullivan, W., Barr, F.A., Gould, G.W., 2003. Arfophilins are dual Arf/Rab11 binding proteins that regulate recycling endosome distribution and are related to Drosophila nuclear fallout. Mol. Biol. Cell 14, 2908­2920. Horgan, C.P., Walsh, M., Zurawski, T.H., McCaffrey, M.W., 2004. Rab11-FIP3 localises to a Rab11-positive pericentrosomal compartment during interphase and to the cleavage furrow during cytokinesis. Biochem. Biophys. Res. Commun. 319, 83­94. Jagoe, W.N., Lindsay, A.J., Read, R.J., McCoy, A.J., McCaffrey, M.W., Khan, A.R., 2006. Crystal structure of Rab11 in complex with Rab11 family interacting protein 2. Structure 14, 1273­1283. Jin, R., Junutula, J.R., Matern, H.T., Ervin, K.E., Scheller, R.H., Brunger, A.T., 2005. Exo84 and Sec5 are competitive regulatory Sec6/8 effectors to the RalA GTPase. EMBO J. 24, 2064­2074. Jobling, M.G., Holmes, R.K., 2000. Identification of motifs in cholera toxin A1 polypeptide that are required for its interaction with human ADP-ribosylation factor 6 in a bacterial two-hybrid system. Proc. Natl. Acad. Sci. USA 97, 14662­14667. Junutula, J.R., Schonteich, E., Wilson, G.M., Peden, A.A., Scheller, R.H., Prekeris, R., 2004. Molecular characterization of Rab11 interactions with members of the family
+
+of Rab11-interacting proteins. J. Biol. Chem. 279, 33430­33437. Kahn, R.A., Cherfils, J., Elias, M., Lovering, R.C., Munro, S., Schurmann, A., 2006. Nomenclature for the human Arf family of GTP-binding proteins: ARF, ARL, and SAR proteins. J. Cell Biol. 172, 645­650. Karimova, G., Pidoux, J., Ullmann, A., Ladant, D., 1998. A bacterial two-hybrid system based on a reconstituted signal transduction pathway. Proc. Natl. Acad. Sci. USA 95, 5752­5756. Kessler, A., Tomas, E., Immler, D., Meyer, H.E., Zorzano, A., Eckel, J., 2000. Rab11 is associated with GLUT4containing vesicles and redistributes in response to insulin. Diabetologia 43, 1518­1527. Lindsay, A.J., McCaffrey, M.W., 2002. Rab11-FIP2 functions in transferrin recycling and associates with endosomal membranes via its COOH-terminal domain. J. Biol. Chem. 277, 27193­27199. Lindsay, A.J., Hendrick, A.G., Cantalupo, G., Senic-Matuglia, F., Goud, B., Bucci, C., McCaffrey, M.W., 2002. Rab coupling protein (RCP), a novel Rab4 and Rab11 effector protein. J. Biol. Chem. 277, 12190­12199. Naslavsky, N., Rahajeng, J., Sharma, M., Jovic, M., Caplan, S., 2006. Interactions between EHD proteins and Rab11FIP2: a role for EHD3 in early endosomal transport. Mol. Biol. Cell 17, 163­177. Paleotti, O., Macia, E., Luton, F., Klein, S., Partisani, M., Chardin, P., Kirchhausen, T., Franco, M., 2005. The small G-protein Arf6GTP recruits the AP-2 adaptor complex to membranes. J. Biol. Chem. 280, 21661­21666. Panic, B., Perisic, O., Veprintsev, D.B., Williams, R.L., Munro, S., 2003. Structural basis for Arl1-dependent targeting of homodimeric GRIP domains to the Golgi apparatus. Mol. Cell 12, 863­874. Peden, A.A., Schonteich, E., Chun, J., Junutula, J.R., Scheller, R.H., Prekeris, R., 2004. The RCP-Rab11 complex regulates endocytic protein sorting. Mol. Biol. Cell 15, 3530­3541. Pelissier, A., Chauvin, J.P., Lecuit, T., 2003. Trafficking through Rab11 endosomes is required for cellularization during Drosophila embryogenesis. Curr. Biol. 13, 1848­1857. Prekeris, R., 2003. Rabs, Rips, FIPs, and endocytic membrane traffic. Sci. World J. 3, 870­880. Prekeris, R., Klumperman, J., Scheller, R.H., 2000. A Rab11/ Rip11 protein complex regulates apical membrane trafficking via recycling endosomes. Mol. Cell 6, 1437­1448. Prekeris, R., Davies, J.M., Scheller, R.H., 2001. Identification of a novel Rab11/25 binding domain present in Eferin and Rip proteins. J. Biol. Chem. 276, 38966­38970. Prigent, M., Dubois, T., Raposo, G., Derrien, V., Tenza, D., Rosse, C., Camonis, J., Chavrier, P., 2003. ARF6 controls post-endocytic recycling through its downstream exocyst complex effector. J. Cell Biol. 163, 1111­1121. Riggs, B., Rothwell, W., Mische, S., Hickson, G.R., Matheson, J., Hays, T.S., Gould, G.W., Sullivan, W., 2003. Actin cytoskeleton remodeling during early Drosophila furrow formation requires recycling endosomal components nuclear-fallout and Rab11. J. Cell Biol. 163, 143­154.
+
+ARTICLE IN PRESS
+E. Schonteich et al. / European Journal of Cell Biology 86 (2007) 417­431 431
+
+Rothwell, W.F., Fogarty, P., Field, C.M., Sullivan, W., 1998. Nuclear-fallout, a Drosophila protein that cycles from the cytoplasm to the centrosomes, regulates cortical microfilament organization. Development 125, 1295­1303. Schweitzer, J.K., D'Souza-Schorey, C., 2005. A requirement for ARF6 during the completion of cytokinesis. Exp. Cell Res. 311, 74­83. Shiba, T., Kawasaki, M., Takatsu, H., Nogi, T., Matsugaki, N., Igarashi, N., Suzuki, M., Kato, R., Nakayama, K., Wakatsuki, S., 2003. Molecular mechanism of membrane recruitment of GGA by ARF in lysosomal protein transport. Nat. Struct. Biol. 10, 386­393. Shiba, T., Koga, H., Shin, H.W., Kawasaki, M., Kato, R., Nakayama, K., Wakatsuki, S., 2006. Structural basis for Rab11-dependent membrane recruitment of a family of Rab11-interacting protein 3 (FIP3)/Arfophilin-1. Proc. Natl. Acad. Sci. USA 103, 15416­15421. Shin, O.H., Ross, A.H., Mihai, I., Exton, J.H., 1999. Identification of arfophilin, a target protein for GTPbound class II ADP-ribosylation factors. J. Biol. Chem. 274, 36609­36615. Shin, O.H., Couvillon, A.D., Exton, J.H., 2001. Arfophilin is a common target of both class II and class III ADPribosylation factors. Biochemistry 40, 10846­10852. Skop, A.R., Bergmann, D., Mohler, W.A., White, J.G., 2001. Completion of cytokinesis in C. elegans requires a brefeldin A ­ sensitive membrane accumulation at the cleavage furrow apex. Curr. Biol. 11, 735­746. Sorkin, A., McClure, M., Huang, F., Carter, R., 2000. Interaction of EGF receptor and grb2 in living cells
+
+visualized by fluorescence resonance energy transfer (FRET) microscopy. Curr. Biol. 10, 1395­1398. Takatsu, H., Yoshino, K., Toda, K., Nakayama, K., 2002. GGA proteins associate with Golgi membranes through interaction between their GGAH domains and ADPribosylation factors. Biochem. J. 365, 369­378. Wilcke, M., Johannes, L., Galli, T., Mayau, V., Goud, B., Salamero, J., 2000. Rab11 regulates the compartmentalization of early endosomes required for efficient transport from early endosomes to the trans-Golgi network. J. Cell Biol. 151, 1207­1220. Wilson, G.M., Fielding, A.B., Simon, G.C., Yu, X., Andrews, P.D., Peden, A.A., Gould, G.W., Prekeris, R., 2005. The FIP3-Rab11 protein complex regulates recycling endosome targeting to the cleavage furrow during late cytokinesis. Mol. Biol. Cell 16, 849­860. Wu, M., Lu, L., Hong, W., Song, H., 2004. Structural basis for recruitment of GRIP domain golgin-245 by small GTPase Arl1. Nat. Struct. Mol. Biol. 11, 86­94. Wu, S., Mehta, S.Q., Pichaud, F., Bellen, H.J., Quiocho, F.A., 2005. Sec15 interacts with Rab11 via a novel domain and affects Rab11 localization in vivo. Nat. Struct. Mol. Biol. 12, 879­885. Yu, X., Prekeris, R., Gould, G.W., 2006. Role of endosomal Rab GTPases in cytokinesis. Eur. J. Cell Biol. 86, 25­35. Zhang, X.M., Ellis, S., Sriratana, A., Mitchell, C.A., Rowe, T., 2004. Sec15 is an effector for the Rab11 GTPase in mammalian cells. J. Biol. Chem. 279, 43027­43034.
+
+

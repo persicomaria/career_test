@@ -1,0 +1,201 @@
+Scaffold-based discovery of indeglitazar, a PPAR pan-active anti-diabetic agent
+Dean R. Artisa,1, Jack J. Lina,1, Chao Zhanga, Weiru Wanga, Upasana Mehraa, Mylene Perreaultb, David Erbeb, Heike I. Krupkaa, Bruce P. Englanda, James Arnolda, Alexander N. Plotnikova, Adhirai Marimuthua, Hoa Nguyena, Sarah Willb, Maxime Signaevskyc, John Kralc, John Cantwella, Calvin Settachatgulla, Douglas S. Yana, Daniel Fonga, Angela Oha, Shenghua Shia, Patrick Womacka, Benjamin Powella, Gaston Habetsa, Brian L. Westa, Kam Y. J. Zhanga, Michael V. Milburna, George P. Vlasukb, K. Peter Hirtha, Keith Nolopa, Gideon Bollaga, Prabha N. Ibrahima, and James F. Tobinb,1
+aPlexxikon
+
+Inc., 91 Bolivar Drive, Berkeley, CA 94710; bDepartment of Cardiovascular and Metabolic Diseases, Wyeth Research, 200 Cambridgepark Drive, Cambridge, MA 02140; and cDepartment of Surgery, State University of New York Downstate Medical Center, Box 40, 450 Clarkson Avenue, Brooklyn, NY 11203
+
+Communicated by Axel T. Brunger, Stanford University, Stanford, CA, November 19, 2008 (received for review September 12, 2008)
+
+In a search for more effective anti-diabetic treatment, we used a process coupling low-affinity biochemical screening with highthroughput co-crystallography in the design of a series of compounds that selectively modulate the activities of all three peroxisome proliferator-activated receptors (PPARs), PPAR , PPAR , and PPAR . Transcriptional transactivation assays were used to select compounds from this chemical series with a bias toward partial agonism toward PPAR , to circumvent the clinically observed side effects of full PPAR agonists. Co-crystallographic characterization of the lead molecule, indeglitazar, in complex with each of the 3 PPARs revealed the structural basis for its PPAR pan-activity and its partial agonistic response toward PPAR . Compared with full PPAR -agonists, indeglitazar is less potent in promoting adipocyte differentiation and only partially effective in stimulating adiponectin gene expression. Evaluation of the compound in vivo confirmed the reduced adiponectin response in animal models of obesity and diabetes while revealing strong beneficial effects on glucose, triglycerides, cholesterol, body weight, and other metabolic parameters. Indeglitazar has now progressed to Phase II clinical evaluations for Type 2 diabetes mellitus (T2DM).
+adiponectin diabetes partial agonist Scaffold-based drug discovery PPAR pan-agonist
+
+herapeutic approaches to Type 2 diabetes mellitus (T2DM), which currently affects 6% of adults in the United States (US Department of Health and Human Services, Centers for Disease Control and Prevention, Atlanta, GA; 2005), are generally polypharmaceutical in nature, targeting effects on insulin sensitivity and elements of the coincident dyslipidemia and cardiovascular diseases (1). However, polypharmacy in these treatment regimens has been cited as a potential additional risk factor (2), with many patients on 4 or more concomitant medications. A more effective strategy would be to use a single agent that possesses combined benefits from simultaneous inhibition or stimulation of several related targets, without the risks associated with combination therapy. However, optimizing activities against several targets is a complex design problem that necessitates judicious choice of targets and requires new ways in which therapeutic agents are generated. Two classes of marketed therapeutics, the fibrates (as lipidlowering agents) and the glitazones (as insulin-sensitizing drugs) target related receptors known as PPAR and PPAR , respectively, whereas a third member of the subfamily, PPAR , has been the target of intense preclinical interest as an avenue for treatment of dyslipidemia (3). A pan-agonist, capable of stimulating the 3 peroxisome proliferator-activated receptors (PPARs) as a group, would be expected to be particularly useful in the treatment of T2DM from the standpoints of both efficacy and reduction in the additional risk factors associated with polypharmacy. Despite the close structural relationship between these 3 receptors, the search for compounds which competently
+262­267 PNAS January 6, 2009 vol. 106 no. 1
+
+T
+
+activate all 3 PPARs has been a challenge because of the subtle differences between residues lining the ligand binding pockets of the receptors (4). In addition, recent focus in this area has become centered on the concept of Selective PPAR Modulators (SPPARMs)--particularly for PPAR , following from the observation that the efficacies found with full agonists such as rosiglitazone and pioglitazone were complicated by receptormediated side effects of weight gain, edema, and potential cardiovascular complications. A partial agonist might retain efficacy but reduce the transcriptional effects thought to be responsible for the attendant side effects (5). We saw an opportunity to combine 2 challenging design elements into a single biological profile, resulting in the discovery of a unique pan-agonist of the PPARs. We have recently described an approach where low-molecular-weight (150­350Da) compounds, weakly active in an initial biochemical screen against a panel of structurally related targets, are subject to a second filtering process based on high-throughput co-crystallography (6­8). Of the compounds in which binding orientations in the active sites of target molecules can be unambiguously determined by X-ray diffraction analysis, we selected those offering the most efficient access to chemistry as the starting points (or scaffolds) for discovery programs. Structureguided computational techniques were used to aid in the prospective evaluation of different chemical avenues of pursuit. Here we present the results of our application of this methodology in the discovery of agonists targeting multiple members of a nuclear receptor subfamily. Results
+Scaffold Screening Process. The target-naive screening library was
+
+designed by using compounds from a relatively narrow and low molecular weight range (150­350D), selected for diversity at both the putative ``scaffold'' core and at the whole molecule level (6). Compounds capable of modulating receptor signaling were
+Author contributions: D.R.A., J.J.L., C.Z., M.P., D.E., J.K., B.P., G.H., B.L.W., K.Y.J.Z., M.V.M., K.P.H., K.N., G.B., P.N.I., and J.F.T. designed research; J.J.L., C.Z., W.W., U.M., M.P., D.E., H.I.K., B.P.E., J.A., A.N.P., A.M., H.N., S.W., M.S., J.C., C.S., D.S.Y., D.F., A.O., S.S., P.W., B.P., G.H., B.L.W., and K.Y.J.Z. performed research; D.R.A., J.J.L., C.Z., W.W., U.M., M.P., D.E., J.A., A.M., S.W., M.S., J.K., S.S., B.P., G.H., B.L.W., K.Y.J.Z., M.V.M., G.P.V., K.P.H., K.N., G.B., P.N.I., and J.F.T. analyzed data; and D.R.A., J.J.L., C.Z., K.Y.J.Z., G.B., and J.F.T. wrote the paper. Conflict of interest statement: The Sponsor is a member of the Scientific Advisory Board of Plexxikon, Inc. The authors are either employees of Plexxikon, Inc. or Wyeth Research with the exception of M.S. and J.K. Data deposition: The atomic coordinates and structure factors have been deposited in the Protein Data Bank, www.pdb.org (PDB ID codes 3ET0, 3ET1, 3ET2 and 3ET3 for 5-methoxyindole-3-propionic acid (1) bound in PPAR , indeglitazar bound in PPAR , PPAR , and PPAR , respectively).
+1To
+
+whom correspondence may be addressed. jlin@plexxikon.com, or jtobin@wyeth.com.
+
+E-mail:
+
+drartis@plexxikon.com,
+
+This article contains supporting information online at www.pnas.org/cgi/content/full/ 0811325106/DCSupplemental. © 2008 by The National Academy of Sciences of the USA
+
+www.pnas.org cgi doi 10.1073 pnas.0811325106
+
+A
+H323 Y473 Y327
+
+Helix 3
+
+B
+H9 H10 H1 H8 H2 H3 H12 H11 H6 H2' H5 H7
+O
+O N H
+
+O
+
+H O
+
+1
+O H O
+
+Pocket B H449
+
+H4
+
+Pocket A
+
+N O S O
+
+2
+
+C
+
+Y314 F318
+
+D
+Y473
+
+H323
+
+E
+Y327 Y437
+
+H287 H413
+
+F291
+O
+
+O
+
+H O
+
+Y464 H440
+
+H449
+
+Q286 Q277
+
+N O S O
+
+Q250
+O
+
+3
+
+(Indeglitazar)
+Fig. 1. Discovery and structural characterization of indeglitazar. (A) Crystal structure of scaffold 1 with PPAR . The blue mesh encompassing 1 delineates the productive hydrophobic interaction space common to PPAR , PPAR , and PPAR (see SI Experimental Procedures). The 4 residues shown in sticks comprise the core signaling linkage to the ligand acidic moiety. (B) Overlap of indeglitazar in complex with PPAR (red), PPAR (green), and PPAR (blue). (C­E) Close-up of the individual structures in the region highlighted from B. Note the water-mediated interactions in D and E. The chemical structures of the compounds 1, 2, and 3 (indeglitazar) are shown.
+
+identified based on a minimal signal for significant response relative to the background by using proximity-based co-activator recruitment assays with the ligand-binding domain (LBD) for each of the 3 PPARs and a compound concentration of 100 M. Candidates with weak activity against all 3 receptors, against any 2 of the pair-wise combinations, or containing chemotypes related to those in the first 2 groups but active against only one of the receptors, were selected for co-crystallization with at least 1 of the 3 receptors. Just over 25% of the 170 compounds thus selected were found to yield co-structural data in complex with at least 1 of the receptors.
+Scaffold Selection, Validation, and Optimization to a Pan-Agonist. A
+
+``pan-activity field'' was constructed using multiple structures for each of the PPAR isoforms (see Experimental Procedures and supporting information (SI) Experimental Procedures), enabling a delineation of the energetically favorable regions of the binding site common to the 3 receptors. The crystallized scaffolds were then evaluated for suitability of chemistry targeting the regions of the field predicted to give the most productive energies of pan-activity. One of the first compounds to emerge from this analysis was 5-methoxyindole-3-propionic acid (1). Compound 1 possessed weak to barely detectable agonist activity against the 3 PPARs [EC50s ( M): PPAR , 100; PPAR , 150; PPAR , 200]. The structure of compound 1 in complex with the LBD of PPAR is shown superimposed on the pan-activity field in Fig. 1A. The 5-methoxyindole core of 1 binds entirely in the region denoted
+Artis et al.
+
+Pocket A in Fig. 1 A, leaving Pocket B unoccupied. This feature of 1 was unique among the known PPAR ligands that had been observed in published co-crystal structures. Both pockets A and B were found to be energetically favorable regions of the binding site in the pan-activity field analysis. Because compound 1 almost completely filled pocket A, we focused lead optimization chemistry on the indole N-1 position, from which substitution could be directed to Pocket B through the narrow region restricted by helix 3 (H3). Analogs that could be obtained from various chemical modifications of 1 (e.g., alkylation, acylation, sulfonylation, etc.) were subsequently evaluated computationally by using a molecular dynamics-based molecular mechanics/Poisson-Boltzmann solvent accessible surface area (MM/PBSA) approach to calculate binding energy improvements (6, 9). The preference for an aryl sulfonamide substituent was clearly indicated by these studies, driven by both geometric and electrostatic complementarity with the site. Validation of 1 as a scaffold for pan-active compounds was carried out via the synthesis of the N-phenyl sulfonamide derivative 2, which demonstrated significantly improved activity when compared with 1, with up to 100-fold increases in potency for the PPARs observed [EC50s ( M): PPAR , 1.3; PPAR , 1.3; PPAR , 10]. Based on this success, additional sulfonamide analogs were evaluated computationally, and 20 were selected for synthesis. These compounds were then evaluated in biochemical assays, and a subset from this group was selected for further characterization in cellular transactivation assays to measure both potency and the degree of agonist response. Remarkably, whereas these compounds
+PNAS January 6, 2009 vol. 106 no. 1 263
+
+MEDICAL SCIENCES
+
+Fig. 2. Cellular activity of indeglitazar and its effect on the expression of adiponectin and in vivo adiponectin response. (A­C) Transactivation assay activity of indeglitazar (filled circles) and reference compound (open circles) in PPAR , PPAR , and PPAR , respectively. Note the partial response of indeglitazar toward PPAR . (D) Preadipocyte differentiation stimulated by rosiglitazone (open circles) and indeglitazar (filled circles). (E) Taqman analysis of the expression of adiponectin by mature adipocytes treated by indeglitazar and rosiglitazone. (F) Effect of indeglitazar and pioglitazone on adiponectin levels in the ob/ob mice after 14 days of treatment.
+
+were full agonists against PPAR , the compounds as a group showed a significantly reduced agonist response against PPAR (averaging 40% of the full response of rosiglitazone). For several compounds the response was reduced to 50% against PPAR as well when the known PPAR ligand L165041 was used as a reference. From this group, we wished to select a compound with balanced potency for the 3 receptors, partial response against PPAR , and more full response against PPAR . Of all of the compounds, compound 3 demonstrated the most balanced pan-agonist activity profile in cells [EC50s ( M): PPAR , 0.99; PPAR , 0.85; PPAR , 1.3] as well as biochemically [EC50s ( M): PPAR , 0.51; PPAR , 0.37; PPAR , 2.7]. Partial responses for 3, observed for both PPAR (45% 10%, vs. the full agonist rosiglitazone) and PPAR (67% 18%, vs. the full agonist L-165041) (Fig. 2 A­C) suggested an interesting SPPARM profile consistent with the desired goals of this effort. Compound 3 showed no activation of other nuclear receptors and no significant activity against the major cytochrome P450 enzymes as well as a diverse panel of other therapeutic targets at a concentration of 10 M (data not shown). Subsequent pharmacokinetic assessment of 3 in Sprague­Dawley (S-D) rats and rhesus monkeys indicated excellent systemic exposure and oral bioavailability in both species (Table 1). Because of the pan-agonist
+Table 1. Oral pharmacokinetics of indeglitazar in rat, monkey, and human
+Species Rat Monkey Human Human Dose, mg/kg 10 2 2 4 Food Fasted Fasted Fasted Fasted Cmax, ng/ml 20,250 12,319 6880 8517 AUC0- , ng*hr/ml 59,830 217,100 128,700 141,900 t1/2, hr 1.4 23.9 17.8 21.3 F, % 98 72 NA NA
+
+activities, clean target profiles, and excellent drug metabolism and pharmacokinetics properties, Compound 3 was selected for development, and will be referred to hereafter by the United States Adopted Names (USAN) reference indeglitazar.
+Structural Basis of the Partial Agonism for Indeglitazar. Structural
+
+characterization of indeglitazar in complex with the ligand-binding domain for each of the 3 PPARs (Fig. 1 B­E) revealed that the scaffold indole core is bound in the center of pocket A and the propionic acid and sulfonamide substituents are anchored in orientations consistent with our design. Interestingly, the propionic acid side-chain adapts to the specific microenvironment in each PPAR defined by a tetrad of aromatic residues, His-323 and Tyr-327 on helix 4/5 (H4/5), His-449 on helix 11 (H11), and Tyr-473 on helix 12 (H12 or AF-2, PPAR residue numbering). As a result, the set of binding interactions made by the carboxylate group differs subtly in each context. Strikingly, for PPAR and PPAR complexes, a water molecule mediates the carboxylate interaction to one of the surrounding residues, suggesting the possibility of water involvement in the partial agonism of indeglitazar for the 2 receptors. In the PPAR -indeglitazar complex in particular (Fig. 1D), the water is found between Tyr-327 and the carboxylate of indeglitazar and within 2.8Å of one of the sulfonamide oxygens. Consequently, the side-chain hydroxyl group of Tyr-327 is displaced by 2Å when compared with its position in the PPAR -rosiglitazone complex structure (10). Because Tyr-327 and 2 other aromatic residues (His-323 and His-449) in PPAR are optimally positioned to interact with Tyr-473 from helix 12, the readjustment of the hydrogen bond network caused by the water molecule results in less stable AF-2 binding and a consequential significant decrease in the observed degree of agonism for PPAR .
+Consequences of Partial Agonism in Cells: A Decreased Stimulation of Adiponectin. Functional effects of indeglitazar on adipocytes
+
+thought to be mediated through PPAR were evaluated to explore
+Artis et al.
+
+264
+
+www.pnas.org cgi doi 10.1073 pnas.0811325106
+
+Table 2. In vivo efficacy of indeglitazar in Zucker rat model of diabetes
+Vehicle Parameters Glucose, mg/dl HbA1C, % TG, mg/dl Tot. Cholesterol, mg/dl HDL-c, mg/dl Adiponectin, mcp/ml Body weight, g
+*Only P 0.05 are shown
+
+Indeglitazar P value* 0.05 Day 0 497.5 2.8 577.8 104.8 45.0 7.8 322.6 87.4 0.1 63.4 5.4 8.0 0.2 6.4 Day 21 256.3 1.5 311.0 62.8 35.0 4.8 373.4 73.9 0.3 114.7 19.9 13.4 1.2 28.9 P value* 0.04 0.002 0.04 0.04 0.02 0.07
+
+Day 0 465.8 2.7 517.0 106.3 45.5 7.8 325.7 41.9 0.05 105.4 5.4 9.7 0.7 2.8
+
+Day 21 455.7 3.1 688.0 97.0 51.3 4.9 392.3 97.7 0.2 96.8 22.7 5.2 0.8 21.2
+
+0.02 0.007
+
+the consequences of the partial response against this receptor. In an assay of preadipocyte differentiation, measuring in part functional insulin sensitization capability of the cells, indeglitazar showed an EC50 of 0.32 M compared with rosiglitazone, which showed an EC50 of 0.013 M, although the maximal response obtained from the 2 compounds was comparable (Fig. 2D). Separately, a Taqman analysis after stimulation of mature adipocytes with indeglitazar or rosiglitazone showed up-regulation of the adipose hormone adiponectin (Fig. 2E). However, levels achieved with rosiglitazone were twice that achieved with indeglitazar, suggesting that the difference between full and partial agonism might be reflected by this measure. This finding was of particular interest because of the role of adiponectin (11), which has been shown to modulate insulin sensitivity and can be used to ameliorate insulin resistance in animal models. Numerous studies have noted a strong increase in the levels of adiponectin in response to treatment with PPAR agonists in animal models and in humans (12). This suggested that indeglitazar, if efficacious, might have an in vivo activity profile distinct from glitazone-like PPAR agonists that would be worthy of investigation.
+Indeglitazar Treatment in Vivo Lowers Glucose with Decreased Effects on Adiponectin and Weight. An initial assessment of in vivo activity
+
+a consequence of synergy between the 3 PPAR activities or because of the SPPARM profile of the compound, or a combination of these factors. The oral activity of indeglitazar was assessed in the ob/ob model of diabetes and insulin resistance. Indeglitazar significantly decreased glucose, insulin, triglycerides, and free fatty acid levels (Table 3). These effects were comparable to pioglitazone on reducing glucose levels, triglycerides, and free fatty acids, although a significantly greater reduction of insulin levels were observed. Body weight differences in this study were not significant. As expected, pioglitazone increased adiponectin levels 3.5-fold, whereas indeglitazar raised adiponectin levels only 1.9-fold (Fig. 2F and Table 3). These data are consistent with the partial agonism observed in cell-based studies and also suggest that the insulin sensitizing activities of indeglitazar are at least partially independent of adiponectin.
+Lipomics Analysis Shows Engagement of All Three Receptors in Vivo.
+
+was carried out using the Zucker rat model of diabetes. As shown in Table 2, significant lowering of glucose, HbA1C, triglycerides, and total cholesterol were observed after i.v. treatment with 10 mg/kg indeglitazar once per day for 3 weeks. Notably, the level of adiponectin (on day 21) was essentially unchanged in treated vs. untreated animals (4.8 mcg/ml vs. 4.9 mcg/ml), thus the observed reductions in glucose and HbA1C were achieved in an adiponectinindependent fashion. This efficacy was also observed in the absence of effects normally associated with PPAR agonists. There was a decrease of 4.8% in total body weight relative to vehicle-treated animals (day 21, 373.4g treated vs. 392.3g untreated, Table 2), in contrast to other glitazone and non-glitazone PPAR agonists, which have been shown to cause significant weight gain in this model at similar levels of glucose lowering (13­16). There were also no increases in heart or liver weight on necropsy at the end of this study. These differences in the effects of indeglitazar in vivo may be
+
+To further assess the role that each PPAR isoform plays in the pharmacological activity of indeglitazar, we performed metabolomic analyses of mice treated with indeglitazar (Table S1). Five hundred individual lipid metabolites were analyzed using a massspectrometry-based approach (Lipomics Technologies). As expected for a compound with PPAR and PPAR activity, the triglyceride levels were significantly decreased (17). More importantly, the composition of several lipid classes was significantly altered. Cholesterol esters were depleted of essential fatty acids (18:2n6, 18:3n3) and major n3 fatty acids (20:5n3, 22:6n3) while enriched in n7 fatty acids (18:1n7, 16:1n7). In addition, 20:3n9 levels were elevated indicating increased -9 and -6 desaturase activity. The triglyceride pools were depleted of dietary fatty acids (18:2n6, 18:3n3) and the major n3 fatty acids (20:5n3, 22:5n3, and 22:6n3) while enriched with saturated fatty acids (14:0, 15:0, and 18:0). The triglyceride pool was also substantially enriched with 20:4n6. The phosphotidylcholine pool was also depleted of dietary essential fatty acids (18:2n6, and 18:0) while enriched with 16:0n7 fatty acids, 18:1n9, and 20:3n9. The increases in both saturated and monounsaturated fatty acids is indicative of increased de novo lipid synthesis
+
+Table 3. In vivo efficacy of indeglitazar in ob/ob mouse model of diabetes and insulin resistance
+Parameters Glucose, mg/dl Insulin, ng/ml TG, mg/dl FFA, mM Adiponectin, mcg/ml Body weight, g Body weight change, g Vehicle 365.7 ( 16.3) 12.3 ( 1.3) 307.3 ( 40.5) 1.1 ( 0.11) 9.5 ( 0.46) 51.6 ( 1.1) 3.9 Indeglitazar, 10 mg/kg 121.9 ( 8.6) 5.1 ( 0.7) 58.4 ( 9.8) 0.71 ( 0.08) 18.1 ( 2.6) 52.8 ( 0.9) 5.8 Pioglitazone, 10 mg/kg 102.7 ( 6.0) 7.8 ( 1.1) 46.7 ( 3.6) 0.75 ( 0.05) 33 ( 5.8) 52.4 ( 0.9) 5.2
+
+Artis et al.
+
+PNAS
+
+January 6, 2009
+
+vol. 106
+
+no. 1
+
+265
+
+MEDICAL SCIENCES
+
+Fig. 3. In vivo effect on body weight. (A and B) Effects of indeglitazar and fenofibrate on body weight and triglyceride levels in a hamster DIO model after 14 days of oral dosing. (C) Effects on body weight of indeglitazar and pioglitazone dosed orally for 6 weeks in obese bonnet macaques.
+
+and is best explained by an increased flux of lipid toward adipose tissue, a hallmark of PPAR agonists (18). Treatment with indeglitazar also increased -6 desaturase activity. This enzyme is the rate limiting step in the biosynthesis of polyunsaturated fatty acids, including 20:4n6 and 22:6n3. The 5 -flanking region of the -6 desaturase gene contains a DR-1 response element and its expression is increased by PPAR agonists (19). The depletion of n3 fatty acids is also consistent with PPAR activation. During prolonged exercise free fatty acids released from adipose tissue are taken up by skeletal muscle and used as fuel. It has been suggested that one of the physiological roles of PPAR is to regulate this metabolic switch between glucose and fatty acid utilization and furthermore that the released fatty acids may provide the ligand for PPAR to activate fatty acid oxidation (20).
+Treatment Results in Weight Loss in Obese Hamsters and Monkeys. We further investigated the differences in effects on weight between indeglitazar and single subtype agonists in 2 additional obesity models. Indeglitazar was evaluated in hamsters fed a high fat diet, because these animals bear greater similarity to primates than mice or rats in their lipid metabolism (21). Interestingly, hamsters treated orally with 30 mg/kg indeglitazar for 2 weeks weighed significantly less than either control animals or animals treated with the PPAR ligand, fenofibrate (Fig. 3A). This weight differential could be due to increased lipid metabolism induced by this pan-agonist, as both fed and fasted levels of triglycerides were significantly reduced in indeglitazar-treated hamsters and not in fenofibrate-treated animals (Fig. 3B). Indeglitazar also induced a dose-dependent decrease in weight after a 6-week treatment regimen in obese bonnet macaques (Fig. 3C). Interestingly, a recent study of PPAR agonists described a synergistic effect from stimulating PPAR and PPAR , which resulted in a significantly enhanced weight loss effect over action on the individual receptors in mice (22). Our data suggests that this is not a mouse-specific observation, and that appropriate stimulation of the 3 PPARs can result in weight loss in both rodents and primates, in addition to beneficial effects on glucose, insulin, and lipid profiles in various models. Such a profile would be expected to carry significant benefit if realized in the clinic, particularly if from a single agent. Initial Clinical Pharmacokinetics and Safety. Based on this compelling
+
+profile of activity, indeglitazar was selected for development. After completion of appropriate preclinical safety studies, evaluation of the safety and pharmacokinetics of indeglitazar in humans was carried out at doses of 2 and 4 mg/kg in a randomized, double-blind, placebo-controlled, single-ascending dose trial in healthy volunteers. The compound displayed excellent systemic exposure, with a half-life under fasted conditions of 17 h (Table 1). Indeglitazar was safe and well tolerated at both doses. Based on these data, indeglitazar was advanced to further clinical safety and efficacy studies, and has progressed to Phase 2B efficacy and safety studies in T2DM patients.
+266 www.pnas.org cgi doi 10.1073 pnas.0811325106
+
+Discussion We have shown that the scaffold-based methodology can be extended to the generation of compounds capable of targeted receptor activation and beyond the initial scope focused on the discovery of enzyme inhibitors (6, 8). To our knowledge, this is the first such report from any of the related fragment-based screening approaches (23, 24). By implementing a multireceptor screening system for biological and structural filtering of lowmolecular-weight compounds through the PPARs, we identified a scaffold with a unique binding mode (Fig. 1). Structure-guided chemistry exploration of the scaffold led to the generation of a series of selective pan-PPAR-activating compounds in 2 rounds of synthesis. From this series of compounds, indeglitazar was identified as having balanced potency against the 3 PPARs with varied degree of agonist response in the decreasing order PPAR PPAR PPAR . Structural characterization of indeglitazar bound to the 3 PPARs revealed that, for PPAR and PPAR , a single water molecule was recruited into the signaling interface from ligand to receptor. Interestingly, the 4 aromatic residues of the signaling tetrad in the PPAR -indeglitazar co-structure overlap closely with the same set of residues observed in the complex of PPAR with another partial agonist, MRL20 (25). However, whereas MRL20 shows a response of 80% relative to rosiglitazone, indeglitazar is more substantively reduced to 45%. In the MRL20 complex, the incorporation of the structural water is precluded by what would be a steric clash with hydrophobic functionality in the ligand. Our results showed that direct modulation of helix 12 and the surrounding key signaling residues by partial agonists with greatly reduced response can occur. Furthermore, these results suggest that with proper design, it may be possible to fine tune the modulation of helix 12, depending on the precise ligand structure and details of the interactions within the complex. Similar observations regarding the role of structural water in a partial agonist response have also recently been made in the case of the ionotropic glutamate receptor (26). Our results suggest that this may be a more generalizable phenomenon, and that dramatic changes in signaling--and in this case transcription--may result from structurally subtle distinctions in a signaling complex. Treatment of rodents with indeglitazar lowers blood glucose to the same extent as full PPAR agonists (glitazones), but shows a diminished adiponectin response and reduced weight gain. Indeglitazar represents a class of new chemical agents that differentiate the insulin-sensitizing and the adiponectin-stimulating effects associated with PPAR agonists. Whereas the efficacy of indeglitazar in the absence of a strong adiponectin response might appear initially surprising, recent reports indicate that in adiponectin knockout mice, the response to PPAR agonists is diminished somewhat but not abolished and may be adiponectin-independent in muscle (27). A recent report has demonstrated that overexpression of adiponectin in an obese mouse background can lead to an expansion of adipose tissue which causes dramatic additional weight gain along with normalization of glucose levels (28). Beyond partial
+Artis et al.
+
+agonism toward PPAR , the favorable in vivo profile of indeglitazar presented here is also likely to derive from its concurrent activation of PPAR and PPAR . PPAR (29) and PPAR (30) agonists have been shown to cause an increase in energy flux through muscle and liver and the lipid analysis indicates that these effects are seen with indeglitazar treatment. Consistent with the weight loss seen in studies in obese rodents and monkeys, our observations suggest the possibility that treatment with indeglitazar avoids the unwanted effect of PPAR full agonists on the adipose compartment and shifts the major metabolic impact on glucose and lipids from fat toward muscle. Beyond indeglitazar, compound 1 has proven to be a rich progenitor of analogs with widely differing profiles against the 3 PPARs, indicating the generality of the approach to the problem of subfamily specificity. By using the PPAR-ligand binding domain (PPAR-LBD) structural information in combination with the computational techniques described herein, subtype specific regions of each of the 3 PPARs have been identified and used in the design of analogs with enhanced selectivity for 1 or 2 of the receptors. Shifts from a pan-activity profile through different dual-activity profiles to compounds with 200- to 400-fold selectivity for each of the individual receptors have been achieved with various substitutions on this scaffold (Fig. S1). Furthermore, when 46 compounds from this set were evaluated for pharmacokinetics in the rat, mean oral bioavailability was 66% at a dose of 2 mg/kg. Consequently, the approach described herein and the resulting group of compounds represents both a powerful resource for exploration into the biological consequences of PPAR activation and a potential source of new therapeutics as subpopulations of patients with metabolic disease are increasingly defined. Experimental Procedures
+Note that detailed methods are included in SI Experimental Procedures.
+
+Compound Synthesis. Compounds 2 and 3 (indeglitazar) were synthesized in 4 steps from commercially available starting material, 5-methoxy-indolyl-3carboxaldehyde with different benzenesulfonyl chlorides. See SI Experimental Procedures and Scheme S1 for details of synthesis. Biochemical and Cellular Assays. The in vitro PPAR agonist activity was determined by measuring compound-dependent interaction between recombinant PPAR-LBDs and biotinylated coactivator peptides by using the Alpha Screen Technology (Perkin-Elmer). Transcriptional transactivation activities of the compounds were measured by the luciferase reporter assay using 293T cells cotransfected with pGal4-DBD-PPAR-LBD fusion. The preadipocyte differentiation assay and Taqman analysis were carried out following the protocol in SI Experimental Procedures. Cloning, Expression, Protein Purification, Crystallization, and Structure Determination. See SI Experimental Procedures and Table S2 for details. Scaffold-Based Drug Design. Compounds were designed to maximize productive interactions delineated by the PPAR pan-active fields (see SI Experimental Procedures). The designed compounds were first modeled into the ligand binding pocket by scaffold-anchored placement. The protein­ligand complex was subjected to molecular dynamics (MD) simulation using AMBER7 and PARM94 force fields. The binding free energy of the complex was estimated using the MM/PBSA methodology (9). Animal Studies. All experimental work was conducted in accordance with the humane guidelines for ethical and sensitive care of the Institutional Animal Care and Use Committee of the U.S. National Institutes of Health. Experimental details are described in the SI Experimental Procedures. ACKNOWLEDGMENTS. Diffraction data were collected at the Advanced Light Source and the Stanford Synchrotron Radiation Laboratory, which are supported by the U.S. Department of Energy, Office of Basic Energy Sciences under contract DE-AC03­76SF00098 and DE-AC03­76SF00515, respectively.
+
+1. Grant RW, Devita NG, Singer DE, Meigs JB (2003) Polypharmacy and medication adherence in patients with type 2 diabetes. Diabetes Care 26:1408 ­1412. 2. Austin RP (2006) Polypharmacy as a risk factor in the treatment of type 2 diabetes. Diabetes Spectrum 19:13­16. 3. Evans JL, Lin JL, Goldfine ID (2005) Novel approach to treat insulin resistance, type 2 diabetes, and the metabolic syndrome: Simultaneous activation of PPARalpha, PPARgamma, and PPARdelta. Current Diabetes Reviews 1:299 ­307. 4. Willson TM, Brown PJ, Sternbach DD, Henke BR (2000) The PPARs: From orphan receptors to drug discovery. J Med Chem 43:527­550. 5. Rocchi S, et al. (2001) A unique PPARgamma ligand with potent insulin-sensitizing yet weak adipogenic activity. Mol Cell 8:737­747. 6. Card GL, et al. (2005) A family of phosphodiesterase inhibitors discovered by cocrystallography and scaffold-based drug design. Nat Biotechnol 23:201­207. 7. Kumar A, et al. (2005) Crystal structures of proto-oncogene kinase Pim1: A target of aberrant somatic hypermutations in diffuse large cell lymphoma. J Mol Biol 348:183­193. 8. Tsai J, et al. (2008) Discovery of a novel selective inhibitor of oncogenic B-Raf kinase with potent anti-melanoma activity. Proc Natl Acad Sci USA 105:3041­3046. 9. Kollman PA, et al. (2000) Calculating structures and free energies of complex molecules: Combining molecular mechanics and continuum models. Accounts of Chemical Research 33:889 ­ 897. 10. Nolte RT, et al. (1998) Ligand binding and co-activator assembly of the peroxisome proliferator-activated receptor-gamma. Nature 395:137­143. 11. Goldfine AB, Kahn CR (2003) Adiponectin: Linking the fat cell to insulin sensitivity. Lancet 362:1431­1432. 12. Maeda N, et al. (2001) PPARgamma ligands increase expression and plasma concentrations of adiponectin, an adipose-derived protein. Diabetes 50:2094 ­2099. 13. Brown KK, et al. (1999) A novel N-aryl tyrosine activator of peroxisome proliferatoractivated receptor-gamma reverses the diabetic phenotype of the Zucker diabetic fatty rat. Diabetes 48:1415­1424. 14. Oakes ND, et al. (2005) Tesaglitazar, a dual PPARalpha/gamma agonist, ameliorates glucose and lipid intolerance in obese Zucker rats. Am J Physiol Regul Integr Comp Physiol 289:R938 ­946. 15. Pickavance LC, Brand CL, Wassermann K, Wilding JP (2005) The dual PPARalpha/gamma agonist, ragaglitazar, improves insulin sensitivity and metabolic profile equally with pioglitazone in diabetic and dietary obese ZDF rats. Br J Pharmacol 144:308 ­316. 16. Wargent E, et al. (2005) Improvement of glucose tolerance in Zucker diabetic fatty rats by long-term treatment with the dipeptidyl peptidase inhibitor P32/98: Comparison with and combination with rosiglitazone. Diabetes Obes Metab 7:170 ­181.
+
+17. Harrity T, et al. (2006) Muraglitazar, a novel dual (alpha/gamma) peroxisome proliferatoractivated receptor activator, improves diabetes and other metabolic abnormalities and preserves beta-cell function in db/db mice. Diabetes 55:240 ­248. 18. Watkins SM, Reifsnyder PR, Pan HJ, German JB, Leiter EH (2002) Lipid metabolome-wide effects of the PPARgamma agonist rosiglitazone. J Lipid Res 43:1809 ­1817. 19. Tang C, Cho HP, Nakamura MT, Clarke SD (2003) Regulation of human delta-6 desaturase gene transcription: Identification of a functional direct repeat-1 element. J Lipid Res 44:686 ­ 695. 20. Tanaka T, et al. (2003) Activation of peroxisome proliferator-activated receptor delta induces fatty acid beta-oxidation in skeletal muscle and attenuates metabolic syndrome. Proc Natl Acad Sci USA 100:15924 ­15929. 21. McIntosh CHS, Pederson RA (1999) Nonisulin-Dependent Animal Models of Diabetes Mellitus. Experimental Models of Diabetes, ed McNeill JH (CRC Press, Boca Raton, FL), pp 337­398. 22. Harrington WW, et al. (2007) The effect of PPARalpha, PPARdelta, PPARgamma, and PPARpan agonists on body weight, body mass, and serum lipid profiles in diet-induced obese AKR/J mice. PPAR Res 2007:97125. 23. Congreve M, Chessari G, Tisi D, Woodhead AJ (2008) Recent developments in fragmentbased drug discovery. J Med Chem 51:3661­3680. 24. Hajduk PJ, Greer J (2007) A decade of fragment-based drug design: Strategic advances and lessons learned. Nat Rev Drug Discov 6:211­219. 25. Bruning JB, et al. (2007) Partial agonists activate PPARgamma using a helix 12 independent mechanism. Structure 15:1258 ­1271. 26. Hald H, et al. (2007) Partial agonism and antagonism of the ionotropic glutamate receptor iGLuR5: Structures of the ligand-binding core in complex with domoic acid and 2-amino3-[5-tert-butyl-3-(phosphonomethoxy)-4-isoxazolyl]propionic acid. J Biol Chem 282:25726 ­25736. 27. Nawrocki AR, et al. (2006) Mice lacking adiponectin show decreased hepatic insulin sensitivity and reduced responsiveness to peroxisome proliferator-activated receptor gamma agonists. J Biol Chem 281:2654 ­2660. 28. Kim JY, et al. (2007) Obesity-associated improvements in metabolic profile through expansion of adipose tissue. J Clin Invest 117:2621­2637. 29. Wang YX, et al. (2003) Peroxisome-proliferator-activated receptor delta activates fat metabolism to prevent obesity. Cell 113:159 ­170. 30. Barger PM, Kelly DP (2000) PPAR signaling in the control of cardiac energy metabolism. Trends Cardiovasc Med 10:238 ­245.
+
+Artis et al.
+
+PNAS
+
+January 6, 2009
+
+vol. 106
+
+no. 1
+
+267
+
+MEDICAL SCIENCES
+
+

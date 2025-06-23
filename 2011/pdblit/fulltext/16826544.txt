@@ -1,0 +1,371 @@
+MAGNETIC RESONANCE IN CHEMISTRY Magn. Reson. Chem. 2006; 44: S61­S70 Published online in Wiley InterScience (www.interscience.wiley.com). DOI: 10.1002/mrc.1831
+
+Solution structures of the putative anti-s-factor antagonist TM1442 from Thermotoga maritima in the free and phosphorylated states
+Touraj Etezady-Esfarjani, William J. Placzek, Torsten Herrmann and Kurt Wuthrich ¨
+The Scripps Research Institute, Department of Molecular Biology and Joint Center for Structural Genomics, 10550 North Torrey Pines Road, La Jolla, CA 92037, USA
+Received 23 December 2005; Revised 6 March 2006; Accepted 10 March 2006
+
+The NMR structures of the unphosphorylated Thermotoga maritima protein TM1442 at pH 4.8 and of the phosphorylated TM1442 (TM1442-P) at pH 7.0 are presented, and a functional interaction of TM1442 with TM0733 is characterized. Although the NMR spectra of TM1442-P at pH 7.0 are of high quality, detailed NMR studies of unphosphorylated TM1442 could be performed only at slightly acidic pH values and high salt concentration. TM1442 is a putative anti-s-factor antagonist related to the sF and sB regulation systems in Bacillus subtilis, which is the component in this system that can be phosphorylated. The kinase TM0733, which shows sequence similarity to the GHKL ATPase/kinase superfamily, was identified as the possible anti-s-factor of TM1442 using a bioinformatics analysis. Phosphorylation of TM1442 by TM0733 was confirmed by NMR, mass spectroscopy and native gel electrophoresis, and Ser59 was identified as the phosphorylation site using site-directed mutational analysis. The solution structure of TM1442-P at pH 7.0 has the same global fold as free TM1442 at pH 4.8, with an a/b topology consisting of a central four-stranded b sheet and three a helices, but the regular secondary structure elements wrapping the hydrophobic core of the protein undergo subtle conformational changes upon phosphorylation. Copyright  2006 John Wiley & Sons, Ltd.
+
+KEYWORDS: anti- -factor antagonist; phosphorylation; structural proteomics; Thermotoga maritima
+
+INTRODUCTION
+Eubacteria can adapt to environmental changes by upor down-regulation of gene expression at the level of transcription. The core RNA polymerase, a protein complex with four subunits, 2 0 , is the main enzyme involved in gene transcription,1,2 and has sequence-specific affinity to promotor regions. This sequence dependence is established by specific interactions with two non-coding regions of mRNA, which are located 10 and 35 base pairs upstream of the transcriptional start point of the mRNA.3 For tight binding to these regions and transcription initiation, the polymerase holoenzyme is required, which contains other proteins such as the 70 or 54 factors in addition to the core RNA polymerase.4 In eubacteria, diversity of factors provides a mechanism for the regulation of gene expression at the level of transcription. Although some genes are regulated by a single 70 factor,5 response to environmental changes is typically coordinated by additional `alternative' -factors, which recognize different sequences in the 10 and 35 regions of the promotor than the 70 factor.6,7
+L Correspondence
+
+to: Touraj Etezady-Esfarjani, The Scripps Research Institute, Department of Molecular Biology and Joint Center for Structural Genomics, 10550 North Torrey Pines Road, La Jolla, CA 92037, USA. E-mail: touraj@mol.biol.ethz.ch  Present address: Institut fur Molekularbiologie und Biophysik, ¨ ETH Zurich, CH- 8093 Zurich, Switzerland. ¨ ¨
+
+The alternative -factors show a high degree of amino acid sequence homology with 70 , with conserved regions having similar functions.8 The most prominent alternative factors are 32 , which are involved in the regulation of heatshock response,9,10 and the E,F,G,K factors, which are involved in the sporulation process of gram-positive Eubacteria.11,12 The activity of -factors in transcription initiation is regulated by two different mechanisms. First, on the basis of their variable binding affinity, different -factors compete with each other for binding to the core RNA polymerase and formation of the holoenzyme.13 Second, the activity of a given factor can be regulated by an anti- -factor, which prevents the factor from binding to the core RNA polymerase and thus inhibits transcription initiation. The activity of the anti- -factor is further regulated by a third protein, the anti-factor antagonist. This protein prevents interaction of the anti- -factor with -factor through formation of a stable complex with the anti- -factor. TM1442 is a 110-residue protein from Thermotoga maritima with a molecular weight of 12.3 kDa and a pI value of 5.8. Alignment with the sequences available in the Swiss-Prot database reveals close homologies to the RsbV antagonist (anti- B -factor antagonist) and SPOIIAA (antiF -factor antagonist) of Bacillus subtilis. B is involved in the general response to variable environmental stress,14 and F regulates the formation of spores in B. subtilis
+
+Copyright  2006 John Wiley & Sons, Ltd.
+
+S62
+
+T. Etezady-Esfarjani et al.
+
+in answer to harsh environmental conditions, such as nutrient starvation.15,16 These two transcription factors are closely related, with a striking similarity of the regulatory mechanisms. In both systems, genes coding for proteins involved in the regulation of -factor activity, e.g. anti-factor and anti- -factor antagonist, are arranged in the same order within the same operon, indicating successive gene duplication.17 In the T. maritima genome, the tm1442 gene is located in an operon together with the genes for aspartyl-tRNA synthetase (TM1441), cytidylate kinase (TM1443), lytB protein (TM1444), a putative transcriptionrepair coupling factor (TM1450), and the two hypothetical proteins TM1446 and TM1447. Through genomic analysis of T. maritima, the tm0733 gene was identified as having the highest sequence homology to the anti- B (RsbV) and antiF (SPOIIAB) factors. RsbV and SPOIIAB are serine kinases with sequence similarities to the family of histidine kinases in bacterial His-Asp two-component signal transduction systems.18 They also show sequence similarities to ATPases of the GHKL superfamily,19 but they lack the His-box with the conserved histidine residue, which is autophosphorylated in the course of the enzymatic reaction. However, other motifs are conserved in the sequences of RsbV, SPOIIAB and TM0733. In spite of the apparent implications from the homology considerations with B. subtilis, T. maritima is not known to be a spore-forming bacterium, and the B system has not yet been characterized in this organism. Here, we report the solution structures of TM1442 in the free form at pH 4.8 and in the phosphorylated state, TM1442-P, at pH 7.0. By mutational analysis, we further establish a functional interaction between TM1442 and TM0733.
+
+Buffer A (50 mM Tris-HCl at pH 7.5, 1 mM EDTA). The protein elution was carried out by a 0 to 500 mM NaCl linear gradient. Fractions containing TM1442 were monitored by SDS-PAGE. These fractions were pooled and concentrated to a final volume of 10 ml. In the final step of purification, this solution was loaded on a size exclusion column Superdex75 (Pharmacia) equilibrated with 20 mM sodium acetate at pH 4.8 and 150 mM NaCl. The fractions containing TM1442 were concentrated to a final volume of 550 µl. The homogeneity of the purified protein was evaluated by SDS-PAGE. Initially we tried to purify TM0733 using the same approach as for TM1442. However, TM0733 was found to aggregate and precipitate during purification attempts, yielding less than 0.5 mg TM0733 from 12 g of wet cell mass. In order to increase the protein yield after purification, the tm0733 gene was subcloned into pET-28b(C) encoding an N-terminal hexa-histidine purification tag. Subsequent Ni2 C affinity chromatography with this construct did not result in an increased yield. Similar difficulties have been reported for the purification of the homologous proteins SPOIIAB from B. subtilis and B. stearothermophilus.20 Thus, we eventually decided to study the interactions between TM0733 and TM1442 in cell extract21 without isolation and purification of TM0733.
+
+Construction of TM1442(S55A) and TM1442(S59A)
+In order to replace Ser55 and Ser59 in TM1442 by alanine, the following PCR primers were designed: S55A, 50 -TCTTTCGTCTGTCGCCTACATGGACA-30 and 50 -TACATGGACGCCGCGGGCCTTGGA-30 ; S59A, 50 -TACATGGACGCCGCGGGCCTTGGA-30 and 50 -ATGTACCTGC GGCGCCCGGAACCT-30 . The mutagenesis experiment was carried out with a Quick Change Kit (Stratagene) using the standard protocol provided by the manufacturer.
+
+EXPERIMENTAL Protein expression and purification
+Two plasmids pET-25b(C) encoding the tm0733 and tm1442 genes, respectively, were transformed into E. coli BL21CodonPlus (DE3)-IRL cells (Stratagene). Expression of uniformly 13 C/15 N-labeled protein was carried out by growing the cells in M9 minimal medium containing 15 NH4 Cl (1 g 1 1 ) and [13 C6 ]-D-glucose (4 g 1 1 ) as the sole nitrogen and carbon sources, respectively. Cell cultures were grown at 37 ° C with vigorous shaking to an OD600 of 0.6 before expression of the protein was induced with isopropanyl-D-galactopyranoside (IPTG; final concentration 1 mM). The cells were grown for an additional 4 h before harvesting. For the purification of TM1442, the cell pellet was resuspended in extraction buffer (50 mM Tris-HCl at pH 8.0, 1 mM EDTA, 0.1 mg ml 1 DNase I) containing protease inhibitors (Complete, Roche), lysed by sonication, and the cell debris were removed by centrifugation. In the first purification step, ammonium sulfate (40% w/v) was gradually added to the soluble fraction at 4 ° C for 1 h, which was then centrifuged to remove the precipitate. The supernatant was heated at 85 ° C for 15 min, whereupon the precipitate was removed by centrifugation. In the next step the soluble fraction was first desalted by a HiPrep 26/10 desalting column (Pharmacia) and then loaded onto a Q-Sepharose column (Pharmacia) equilibrated with
+
+Phosphorylation of TM1442 by TM0733
+Uniformly 15 N-labeled TM1442 and unlabeled TM0733 were expressed separately. Five milliliters each of crude cell extract containing 15 N-labeled TM1442 or unlabeled TM0733, respectively, was further concentrated. Three 500 µl samples consisting of 250 µl from each cell lysate were then prepared. Two of these samples were supplemented either with 5 mM ATP-disodium salt or ADP-disodium salt. For each of the three different solution conditions, reference samples of both concentrated and nonconcentrated cell lysate containing uniformly 15 N-labeled TM1442 were also prepared. As an additional control, corresponding cell-lysate samples of uniformly 15 N-labeled TM1442 were prepared with addition of the biologically inactive protein TM129022 instead of TM0733. The resulting 18 samples were incubated for 60 min at 37 ° C, and prior to the NMR measurements the samples were supplemented with D2 O (5% v/v) and protease inhibitors (final concentration 25 µg ml 1 ). Protein­protein interactions in these samples were monitored by 2D [15 N, 1 H]-HSQC experiments. After the NMR measurements, TM1442 was isolated and analyzed by mass spectroscopy, and by SDS-gel electrophoresis under native as well as denaturing conditions.
+
+Copyright  2006 John Wiley & Sons, Ltd.
+
+Magn. Reson. Chem. 2006; 44: S61­S70
+
+Solution structures of the anti- -factor antagonist TM1442
+
+S63
+
+NMR spectroscopy
+NMR measurements were performed at 40 ° C on Bruker Avance 600 and Avance 900 spectrometers using TXIHCN-xyz gradient probes. Proton chemical shifts are referenced to internal 3-(trimethyl-silyl)-1-propanesulfonic acid sodium salt (DSS). Using the absolute frequency ratios, the 13 C and 15 N chemical shifts were referenced indirectly to DSS. Data collection for the two structure determinations was performed using, respectively, 1.8 mM 13 C/15 N- and 15 N-labeled TM1442 samples in 550 µl 95% H2 O/5% D2 O containing 20 mM sodium acetate at pH 4.8, 150 mM sodium chloride and 2 mM NaN3 , and 1.6 mM 13 C/15 N- and 15 Nlabeled TM1442-P in 550 µl 95% H2 O/5% D2 O containing 20 mM sodium phosphate at pH 7.0 and 2 mM NaN3 . The resonance assignments for the polypeptide backbone and the amino acid side-chains were obtained from the following experiments: 3D HNCACB23 (time domain data size 160 ð 64 ð 1024 complex points, t1,max 13 C D 8.8 ms, t2,max 15 N D 18.7 ms, t3,max 1 H D 71.4 ms); 3D CBCA(CO)NH24 (time domain data size 80 ð 64 ð 2048 complex points, t1,max 13 C D 4.4 ms, t2,max 15 N D 18.7 ms, t3,max 1 H D 142.7 ms); 3D HBHA(CO)NH25 (time domain data size 200 ð 64 ð 2048 complex points, t1,max 13 C D 13.9 ms, t2,max 15 N D 18.7 ms, t3,max 1 H D 142.7 ms); 3D HNCO26 (time domain data size 128 ð 56 ð 1024 complex points, t1,max 13 C D 28.2 ms, t2,max 15 N D 16.4 ms, t3,max 1 H D 71.4 ms); 2D [15 N,1 H]-HSQC27 (time domain data size 256 ð 2048 complex points, t1,max 15 N D 75 ms, t2,max 1 H D 142.7 ms); 2D [13 C,1 H]-HSQC28 (time domain data size 128 ð 1024 complex points, t1,max 13 C D 38.4 ms, t2,max 1 H D 77.5 ms); 2D ct-[13 C,1 H]-HSQC28 (time domain data size 498 ð 2048 complex points, t1,max 13 C D 27.4 ms, t2,max 1 H D 142.7 ms); 3D 15 N-resolved [1 H,1 H]-TOCSY29 (mixing time 60 ms, time domain data size 256 ð 64 ð 2048 complex points, t1,max 1 H D 17.8 ms, t2,max 15 N D 18.7 ms, t3,max 1 H D 142.7 ms); 3D H(C)CH-TOCSY30 (mixing time 60 ms, time domain data size 256 ð 128 ð 1024 complex points, t1,max 1 H D 17.8 ms, t2,max 13 C D 7.1 ms, t3,max 1 H D 71.4 ms). For the collection of conformational constraints,31 two NOESY experiments were recorded with mixing times of m D 80 ms using a Bruker Avance 900 spectrometer: 3D 15 N-resolved [1 H,1 H]-NOESY32 in H2 O (time domain data size 256 ð 72 ð 4096 complex points, t1,max 1 H D 13 ms, t2,max 15 N D 14.1 ms, t3,max 1 H D 208 ms); 3D 13 C-resolved [1 H,1 H]-NOESY33 in H2 O with the carrier frequency at 66.2 ppm for 13 C (time domain data size 256 ð 100 ð 2048 complex points, t1,max 1 H D 13 ms, t2,max 13 C D 4.8 ms, t3,max 1 H D 104.1 ms). The sequence-specific assignments of the aromatic rings was also based on a 3D 13 C-resolved [1 H,1 H]-NOESY spectrum. The 15 N-bound sidechain protons of Arg, Asn and Gln were assigned using the 15 N-resolved [1 H,1 H]-NOESY spectrum.
+
+the aforementioned two NOESY spectra. The standard protocol with seven cycles of peak picking with ATNOS, nuclear Overhauser enhancement (NOE) assignment with CANDID, and structure calculation with DYANA was used.34,35 During the first six ATNOS/CANDID cycles, ambiguous distance constraints37 were used. In the second and subsequent cycles, the intermediate three-dimensional protein structures were used as an additional guide for the interpretation of the NOESY spectra. For unphosphorylated TM1442, 126 conformational constraints for the backbone dihedral angles derived from C chemical shifts38,39 were added to the input for each cycle of structure calculation. For phosphorylated TM1442, 118 conformational constraints for the backbone dihedral angles were used (Table 1). For the final structure calculation in cycle 7, only distance constraints were retained that could be unambiguously assigned on the basis of the three-dimensional protein structure from cycle 6. The 20 conformers with the lowest residual DYANA target function values obtained from cycle 7 were energy-refined in a water shell with the program OPALp,40,41 using the AMBER force field.42
+
+RESULTS AND DISCUSSION
+Initial NMR studies of TM1442 revealed dramatic changes in the [15 N,1 H]-HSQC spectra upon variation of solution conditions, such as the pH value or the salt concentration (Figs 1(a) and (b), 2(a) and (b)). At pH 7.0, the [15 N,1 H]-HSQC spectrum of TM1442 in crude cell lysate contains broad NMR signals with low intensities (Fig. 1(a)). In contrast, at pH 4.8 and a NaCl concentration of 150 mM, a nice spectrum containing all the expected 109 backbone 15 N 1 H cross peaks was obtained (Fig. 2(b)). We therefore started a search for physiological partners or cofactors that might cause TM1442 to become structured.43 Having identified TM0733, through a homology search of the T. maritima genome with known anti- -factor sequences, as the putative anti- -factor of TM1442, we further explored the mixtures of the two proteins by NMR. Even though TM0733 could be expressed with good yield, a soluble protein sample could not be purified (see Section on Experimental for details). Therefore, we started studies on the interactions between these two proteins using crude cell extract. To our surprise, after incubation with TM0733 we obtained [15 N,1 H]-HSQC spectra of TM1442 at pH 7.0, which had the same high quality as previously seen for TM1442 at pH 4.8 (Fig. 1(b)). In the following text we characterize the origin of the NMR spectral changes upon incubation of TM1442 with TM0733.
+
+Phosphorylation of TM1442 and identification of the phosphorylation site
+Site-directed mutagenesis studies had shown that Ser58 is the phosphorylation site in SPOIIAA from B. subtilis, and amino acid sequence alignment then implied that the equivalent positions are Ser59 in TM1442 and Ser57 in SPOIIAA from Bacillus sphaericus. After the aforementioned incubation of TM1442 with TM0733 (Fig. 1(a) and (b)), the molecular mass of TM1442 was increased by the mass of a single phosphate
+
+Structure calculation
+The NOESY spectra were peak picked and assigned automatically with the software ATNOS/CANDID34,35 incorporated into the torsion angle dynamics program DYANA.36 The input consisted of the chemical shift lists from the previous sequence-specific resonance assignment and that of
+
+Copyright  2006 John Wiley & Sons, Ltd.
+
+Magn. Reson. Chem. 2006; 44: S61­S70
+
+S64
+
+T. Etezady-Esfarjani et al.
+
+Table 1. Input for the structure calculations and characterization of the energy-minimized NMR structures of free TM1442 at pH D 4.8 and T D 40 ° C, and of phosphorylated TM1442-P at pH D 7.0 and T D 40 ° C Quantity NOE upper distance limits Dihedral angle constraints ° Residual target function (A2 ) Residual NOE violations ° Number ½ 0.1 A ° Maximum (A) Residual dihedral angle violations Number ½ 2.5° Maximum (° ) Amber energies (kcal mol 1 ) Total van der Waals Electrostatic RMSD from ideal geometry ° Bond lengths (A) °) Bond angles ( ° RMSD to the mean coordinates (A)b bb (4­105) ha (4­105) Ramachandran plot statistics Most favored region (%) Additional allowed region (%) Generously allowed region (%) Disallowed region (%)
+a
+
+TM1442a 2505 126 1.75 s 0.54 40 s 5 (29­47) 0.14 s 0.01 (0.13­0.16) 0 1.47 s 0.83 (0.35­3.67) 4296.60 s 99.09 297.20 s 10.56 4880.67 s 95.28 0.0080 s 0.0002 2.09 s 0.05 0.36 s 0.05 (0.29­0.45) 0.79 s 0.04 (0.74­0.87) 77.4 20.6 0.8 1.2
+
+TM1442-Pa 2485 118 1.51 s 0.54 38 s 5 (31­45) 0.17 s 0.08 (0.14­0.53) 0 1.14 s 0.42 (0.28­1.79) 4193.18 s 91.11 312.51 s 14.79 4770.44 s 86.09 0.0081 s 0.0002 2.12 s 0.04 0.41 s 0.05 (0.30­0.53) 0.85 s 0.07 (0.76­1.05) 78.2 19.1 2.2 0.6
+
+Except for the top two entries, the average value for the 20 energy-minimized conformers with the lowest residual DYANA target function values and the standard deviation among them are listed, with the minimum and maximum values given in parentheses. b bb indicates the backbone atoms N, C , C0 ; ha stands for `all heavy atoms'. The numbers in parentheses indicate the residues for which the RMSD was calculated.
+
+group, independent of whether nucleotides were added to the cell-lysate samples. In order to independently identify the phosphorylation site in TM1442, replacements of Ser55 and Ser59 by alanine were introduced into TM1442. The substitution of these serine residues was confirmed by DNA sequencing (data not shown). In Fig. 1, comparison of NMR spectra recorded before and after incubation of TM1442 with TM0733 is shown. The [15 N,1 H]-HSQC spectra of crude cell extract at pH 7.0 containing TM1442 or the TM1442 variants with S55A or S59A (Fig. 1(a), (c) and (e)) are characteristic of `poorly behaving' proteins. In these spectra only a few peaks are well resolved, and most cross peaks show very low signal intensity. For the wt-TM1442 and the variant TM1442(S55A), incubation with TM0733 results in highquality spectra at pH 7.0 containing well-resolved cross peaks with high signal intensities (Fig. 1(b) and (d)). In contrast to wt-TM1442 and TM1442(S55A), no spectral change was observed after incubation of TM1442(S59A) with TM0733 (Fig. 1(f)). After the NMR measurements, the protein samples were purified as previously described and further analyzed by mass spectroscopy and native gel electrophoresis (data not shown). These data showed that after incubation of TM1442(S59A) with TM0733, the mass of the protein did
+
+not change and no difference of protein behavior on the native gel was observed. For TM1442(S55A) and wild-type TM1442, the mass of the protein was increased by the mass of a phosphate group. It was then clear that the improvement of the NMR spectrum at pH 7.0 after incubation with TM0733 (Fig. 1(a­d)) was due to phosphorylation of TM1442 at Ser59. Although the NMR structures of TM1442 and TM1442-P were eventually solved using purified protein preparations (see following sections), NMR spectroscopy in crude cell extract had a key role in the identification and characterization of the protein species to be used for the structure determinations and in the investigations of the mechanistic aspects of TM1442 phosphorylation.
+
+NMR assignments
+For unphosphorylated TM1442 at pH 4.8, the resonance assignments for the polypeptide backbone atoms are complete with the sole exceptions of Met1 and Asn2. The assignments of the nonlabile protons of the amino acid side-chains are complete except for C H2 and C H2 of Met1, C H2 of Asn2, C H2 of Lys46, and C H of Phe38. The labile side-chain protons of Arg, Asn and Gln were completely assigned, except for HÁ of Arg18. In TM1442-P, resonance
+
+Copyright  2006 John Wiley & Sons, Ltd.
+
+Magn. Reson. Chem. 2006; 44: S61­S70
+
+Solution structures of the anti- -factor antagonist TM1442
+
+S65
+
+(a)
+
+(c)
+
+(e)
+
+1(15N)
+[ppm]
+110.00
+
+120.00
+
+130.00 10.00 9.00
+
+2(1H) [ppm]
+
+8.00
+
+7.00
+
+10.00
+
+9.00
+
+2(1H) [ppm]
+
+8.00
+
+7.00
+
+10.00
+
+9.00
+
+2(1H) [ppm]
+
+8.00
+
+7.00
+
+(b)
+
+(d)
+
+(f)
+
+1(15N)
+[ppm]
+110.00
+
+120.00
+
+130.00 10.00 9.00
+
+2(1H) [ppm]
+
+8.00
+
+7.00
+
+10.00
+
+9.00
+
+2(1H) [ppm]
+
+8.00
+
+7.00
+
+10.00
+
+9.00
+
+2(1H) [ppm]
+
+8.00
+
+7.00
+
+Figure 1. Comparison of 2D [15 N,1 H]-HSQC spectra of crude cell-extract samples containing wt-TM1442 or its variants TM1442(S55A) and TM1442(S59A) before and after incubation with TM0733, pH 7.0, T D 40 ° C, 1 H frequency D 600 MHz. (a and b) wt-TM1442; (c and d) TM1442(S55A); (e and f) TM1442(S59A). The spectra (b, d and f) were recorded after incubation of the proteins with TM0733. Before incubation, the spectra of wt-TM1442, TM1442(S55A) and TM1442(S59A) are all characterized by broad lines and few resolved cross peaks with low signal intensities (a, c, e). These spectra are characteristic of proteins that are not suitable targets for NMR structure determination. After incubation with TM0733 (see text), the NMR spectra of wt-TM1442 and TM1442(S55A) (b and d) reflect the presence of well folded globular proteins. For TM1442(S59A), incubation with TM0733 did not result in improvement of the spectrum (e and f). The subsequent mass spectroscopic analysis of these NMR samples revealed that after incubation with TM0733, wt-TM1442 and TM1442(S55A) are phosphorylated (b and d), whereas TM1442(S59A) remains unmodified (f). These experiments demonstrated that the phosphorylation of TM1442 is taking place at Ser59, and that phosphorylation is accompanied by major structural changes (see text).
+
+assignments for the polypeptide backbone were obtained for all residues except Met1, Asn2, Asn3, Gln11, Asp12, Ser29, Ser43 and Glu86. The assignments of the nonlabile protons of amino acid side-chains are complete, except for C H2 and C H2 of Met1, C H2 of Asn2, C H2 of Asn3, C H2 and C H2 of Gln11, C H2 of Asn12, C H2 and C H2 of Gln86, and C H2 of Lys99. The labile side-chain protons of Arg, Asn and Gln were completely assigned, except for HÁ of Arg18 and Arg90. The downfield chemical shifts at the phosphorylation site (Ser59) in TM1442-P when compared to TM1442 clearly reflect the covalent modification of this residue, with HN at 8.53 ppm in TM1442 and at 10.05 ppm in TM1442-P, C H2 at 4.03 and 4.48 ppm, and C at 62.0 and 64.4 ppm, respectively.
+
+Comparison of the NMR spectra of TM1442 and TM1442-P
+Comparisons between the [15 N,1 H]-HSQC spectrum of TM1442-P at pH D 7.0 with those of TM1442 at pH D 7.0 and 4.8 are shown in Fig. 2(a­c). With few exceptions, the chemical shifts of the cross peaks change with changing solution conditions. Comparing TM1442-P and TM1442 at neutral pH (Fig. 2(a)) shows that the 15 N 1 H cross peaks for the eight residues Lys46, Ser59, Gly61, Lys73, Lys77, Ser89, Asp98 and Ile100 could not be observed in the [15 N,1 H]-HSQC spectrum of TM1442. The absence of these NMR signals could be, due to for example the amide protons exchanging more rapidly with water molecules in TM1442 than in TM1442-P, the corresponding cross peaks overlapping with other peaks, or
+
+Copyright  2006 John Wiley & Sons, Ltd.
+
+Magn. Reson. Chem. 2006; 44: S61­S70
+
+S66
+
+T. Etezady-Esfarjani et al.
+
+TM1442, pH 7.0 TM1442-P, pH 7.0
+
+(a)
+G61 I100 S89
+
+1(15N)
+[ppm]
+
+TM1442, pH 4.8 TM1442-P, pH 7.0
+
+(b)
+S87 S59 G21
+
+1(15N)
+[ppm]
+
+110
+
+110
+
+S59
+
+K77 K73 D98 K46
+
+S59 I74 L97 L94 D58
+
+120
+
+120
+
+130 10.00 9.00
+
+130 10.00 9.00
+
+2(1H) [ppm]
+S89 N27 S8 K14 Y26 K32 N74 L93 L84 N97 D22 T64 T42
+
+8.00
+
+7.00
+
+2(1H) [ppm]
+G63
+
+8.00
+
+7.00
+
+1(15N)
+[ppm]
+K99 Q34 K77 K73 D13 S87 D98 R90 L35 I108 I74 V36 R107 S55 Q102 L81 E78 A15 L6 D7 N 44 E30 V54 K54 K44 L4
+
+T95
+
+(c)
+
+1(15N)
+[ppm]
+
+G76
+
+T106 S40 H96 T44
+
+110
+
+L33 K70
+
+118
+S53
+
+G61 S82
+
+F101 L31 I23 V67
+
+I68 D71 L65 F38 L94
+
+120
+
+S59 T104 S52
+
+G21 I100 S83 N75 E109 V66 K46 I91
+
+L69 Y56
+
+L92
+
+122
+
+I39 A25 I16 D105 A72 K85
+
+120
+I88 V19 M57 A110
+
+124 7.50 10.00
+
+8.50
+
+2(1H) [ppm]
+
+8.00
+
+E10 I8 D24 D58 I47 D50 K5 A60 R18 V48 L51 I103 Q20 F79 V9 V17 L49 I80
+
+130 7.00
+
+9.00
+
+2(1H) [ppm]
+
+8.00
+
+Figure 2. (a) Superposition of the 2D [15 N,1 H]-HSQC spectra of purified protein samples of TM1442 (red) and TM1442-P (black) at pH 7.0. The positions of missing resonances in the TM1442 spectrum are highlighted by blue circles and assigned using the one-letter amino acid code and the sequence number. (b) Superposition of 2D [15 N,1 H]-HSQC spectra of TM1442 at pH 4.8 (green) with TM1442-P (black) at pH 7.0. Peaks with large shifts between the two spectra are marked in blue. In (a and b) the peak of the phosphorylation site (Ser59) is highlighted by a red circle. (c) 2D [15 N,1 H]-HSQC spectrum of uniformly 15 N-labeled TM1442-P at 600 MHz, pH = 6.0 and T D 40 ° C. Resonance assignments of the backbone 1 H 15 N moieties are indicated by the one-letter amino acid code and the sequence number. The proton pairs of the Gln and Asn side-chain amide groups are connected by red lines.
+
+different line broadening due to different modes of conformational exchange in TM1442 and TM1442-P. Comparison of TM1442-P at pH D 7.0 and TM1442 at pH D 4.8 (Fig. 2(b)) reveals that the residues Gly21, Asp58, Ser59, Ile74, Ser87, Leu94 and Leu97 show large chemical shift differences of their cross peaks in these spectra. These spectral changes will be further analyzed below in the context of the three-dimensional protein structures.
+
+Solution structures of TM1442 and TM1442-P
+The solution structure of TM1442 at pH D 4.8 shows an / motif, with a central, four-stranded  sheet consisting
+
+of residues 4­8, 13­20, 45­50 and 78­83, three  helices (29­41, 59­75 and 85­95) and a 310 -helical turn (97­99) (Fig. 3(a)). The  sheet is surrounded on one side by helices 1 and 2. The helix 3 is located at the base of the structure and is in close contact to 2 (Fig. 4(a) and (c)). 1 is antiparallel to the other three  strands. The sequence arrangement of the regular secondary structure elements is 1 2 1 3 2 4 3 310 (Fig. 3(a)). The high quality of the structure determination is reflected in well-defined loops and regular secondary structure elements throughout, except for the N-terminal tripeptide. A long loop (51­58) connects 3 to 2, which are located on opposite sides in the
+
+Copyright  2006 John Wiley & Sons, Ltd.
+
+Magn. Reson. Chem. 2006; 44: S61­S70
+
+Solution structures of the anti- -factor antagonist TM1442
+
+S67
+
+Figure 3. Amino acid sequence and survey of the sequential and medium-range NOE connectivities for TM1442 (a) and TM1442-P (b). In (b), the asterisks on S59 identifies the phosphorylation site. The sequential NOE connectivities dNN , dN and dN are indicated with thick or thin black bars for strong and weak NOEs, respectively. The medium-range NOE's dNN (i, i C 2), dN (i, i C 3), d (i, i C 3) and dN (i, i C 4) are indicated by lines linking the positions of the residues related by these NOEs. Above the sequence, the positions of helices are indicated by cylinders and of  strands by arrows.
+
+structure. A second loop of the C-terminal residues (102­110) first runs parallel to 3, and then folds back toward the central -sheet. The solution structure of TM1442 includes a dense network of hydrophobic contacts, with 30 residues forming the hydrophobic core of the molecule. Four residues, Leu35 and Ile39 in 1, and Thr64 and Ile68 in 2 form the contacts at the interface of these helices. The aromatic ring of Phe38 in 1 contacts Val17 of 2 and Ile47 of 3 in the -sheet. Three -sheet residues Val17 (2), Leu49 (3) and Leu81 (4) are in close contact with each other and form the interface of the -sheet with helices 1 and 2. A hydrophobic contact between helices 2 and 3 is established between Leu62 (2) and Leu92 (3). Val107 in the C-terminal loop forms tight contacts with Ile16 (2) and Val48 (3), and thus anchors the C-terminal region of the molecule against the  sheet. Helices 1 and 3 are characteristic amphipathic helices, with hydrophobic residues in every fourth position and charged or polar residues in-between. Helix 2 shows a different residue distribution, with five adjacent hydrophobic residues Leu65, Val66, Val67, Ile68 and Leu69 in the central part of this helix. These residues form hydrophobic contacts with the other regular secondary structure elements 1, 3, 3 and 4. The NOE connectivities dNN , dN , dN i, i C 3 , and d i, i C 3 were completely assigned for 1 and 3 (Fig. 3(a)). For 2, five dNN connectivities could not be individually assigned because of resonance overlap for the above-mentioned hydrophobic residues, but the dN i, i C 3
+
+and/or d i, i C 3 connectivities are complete in this region of the protein. The solution structure of TM1442-P shows the same / motif as TM1442, but the lengths of the regular secondary structures are slightly different (Fig. 3). The central fourstranded -sheet is now defined by residues 4­10, 14­20, 45­50 and 79­83, the three  helices by residues 27­41, 59­75 and 85­95, and the 310 -helical turn by residues 97­99. The backbone RMSD value for the superposition of the two NMR ° structures (Fig. 5) calculated for the residues 4­105 is 1.3 A. The first -strand is better defined and slightly longer in the phosphorylated form. The connecting loop to the 2-strand is less well defined in TM1442-P, in which the resonance signals of Gln11 and Asp12 could not be identified. The helix 1 is extended by half a turn in TM1442-P, as confirmed by additional NOE connectivities (Fig. 3(b)). 2, 3 and 4 have almost identical lengths and orientations in the two structures (Fig. 5). In contrast, the orientations of helix 3 at the edge of the central -sheet and the 310 -helical turn 97­99 are different (Figs 4(b) and (d), 5). Inspection of the spectra in Fig. 2 also shows that, in this region, the chemical shift changes are more significant than in the other regions of the proteins. Two protein structures are available from the SPOIIAAlike fold superfamily, i.e. the solution structure of SPOIIAA from B. subtilis44 and the crystal structure of SPOIIAA at ° 1.6 A from B. sphaericus.45 TM1442 has 24% sequence identity to SPOIIAA from B. subtilis and 17% sequence identity
+
+Copyright  2006 John Wiley & Sons, Ltd.
+
+Magn. Reson. Chem. 2006; 44: S61­S70
+
+S68
+
+T. Etezady-Esfarjani et al.
+
+Figure 4. Solution structures of TM1442 (a,c) and TM1442-P (b,d). (a and b) Cartoons of the DYANA conformers with the lowest backbone RMSD to the mean atom coordinates. In TM1442 (a), the helices are shown in blue and the  strands in orange. In TM1442-P (b), the helices are shown in green and the  strands in yellow, and the side-chain of the phosphorylated Ser59 is shown in red. (c and d) Stereo views of the bundles of 20 energy-minimized DYANA conformers that represent the NMR solution structures. ° Side-chains of the residues that make up the hydrophobic core (solvent accessibility <20%, local displacement <0.6 A) are colored in blue (TM1442) and in green (TM1442-P), respectively. The N-terminal tripeptide segment is not shown, and some residues are identified by sequence numbers and the one-letter amino acid code.
+
+Copyright  2006 John Wiley & Sons, Ltd.
+
+Magn. Reson. Chem. 2006; 44: S61­S70
+
+Solution structures of the anti- -factor antagonist TM1442
+
+S69
+
+Figure 5. Stereo view of a superposition of the NMR structures of TM1442 (blue) and TM1442-P (green) for minimal RMSD of the backbone heavy atoms of the residues 4­105. For each structure, the polypeptide backbone for residues 4­110 of the energy-minimized conformer that is closest to the mean is represented by a spline function drawn through the C positions. The variable radius of the cylindrical rod is proportional to the mean global backbone displacement per residue, as evaluated after superposition of the 20 energy-minimized conformers used to represent the solution structure for best fit of the atoms N, C and C' of residues 4­110.
+
+to SPOIIAA from B. sphaericus. The RMSD in-between for backbone superposition of residues 5­12, 13­22, 43­99 and 102­110 in TM1442 with the corresponding residues in ° SPOIIAA from B. sphaericus is 2.9 A, and superposition of the residues 3­33, 35­43 and 45­110 in TM1442 with the corresponding segments of SPOIIAA from B. subtilis yields ° an RMSD of 5.3 A. The major differences between TM1442 and the SPOIIAA structures are near the C-termini. The two SPOIIAA proteins have 116 residues with an additional  helix at the C-terminus. A recently determined crystal structure of unphosphorylated TM144246 is nearly identical with the NMR structure (Fig. 4(a) and (c)), with a backbone ° RMSD value of 1.5 A as calculated for all the residues 1­110.
+
+TM1442-P have been deposited in the Protein Data Bank (http://www.rcsb.org; PDB ID codes 1SBO (TM1442) and 1T6R (TM1442-P)). The chemical shift values of TM1442 and TM1442-P are available in the BioMagResBank (http://www.bmrb.wisc.edu) with BMRB accession numbers 5921 (TM1442) and 6232 (TM1442-P).
+
+Acknowledgements
+We thank Dr S. A. Lesley and H. E. Klock of the Genomics Institute of the Novartis Foundation in the JCSG consortium for providing genomic materials, and Dr M. Hennig for helpful discussions. Financial support for T.E.-E. was obtained from the Schweizerischer Nationalfonds (project 31-66427-01); K.W. is the Cecil H. and Ida M. Green Professor of Structural Biology at TSRI. The TSRI manuscript number for this publication is 17975-MB. This work was sponsored by the National Institutes of Health, Protein Structure Initiative with Grant Nos. P50GM62411, U54GM07498.
+
+Biological implications
+Structural studies of the putative anti- -factor antagonist TM1442 and the functional interaction between this protein and TM0733 have led to some interesting insights into evolutionary aspects of gene regulation at the level of transcription. Despite the fact that T. maritima is known to be a non-spore-forming eubacteria, we could identify functional interactions between two proteins that are closely related to the proteins SPOIIAA and SPOIIAB, which are involved in the regulation of this process in other organisms. In contrast to the genomes of the order bacillales, in which the genes involved in this process have a conserved order with the same operon, the genes encoding TM1442 and TM0733 are located in two different operons at a distance of 700 000 base pairs from each other, so that they are not controlled by the same transcription factor and thus not transcribed simultaneously. Recent results suggest that the change of the order of these genes in the bacterial chromosome results in the loss of sporulation ability,47 which could be a possible explanation for the absence of spore formation in T. maritima. Atomic coordinates for bundles of 20 conformers representing the NMR solution structures of TM1442 and
+
+REFERENCES
+1. Chan B, Spassky A, Busby S. Biochem. J. 1990; 270: 141. 2. Keilty S, Rosenberg M. J. Biol. Chem. 1987; 262: 6389. 3. Kumar A, Malloch RA, Fujita N, Smillie DA, Ishihama A, Hayward RS. J. Mol. Biol. 1993; 232: 406. 4. Brown KL, Hughes KT. Mol. Microbiol. 1995; 16: 397. 5. Helmann JD, Chamberlin MJ. Annu. Rev. Biochem. 1988; 57: 839. 6. Lonetto M, Gribskov M, Gross CA. J. Bacteriol. 1992; 174: 3843. 7. Lonetto MA, Brown KL, Rudd KE, Buttner MJ. Proc. Natl. Acad. Sci. U.S.A. 1994; 91: 7573. 8. Gruber TM, Bryant DA. J. Bacteriol. 1997; 179: 1734. 9. Bukau B, Reilly P, McCarty J, Walker GC. J. Gen. Microbiol. 1993; 139(Pt 1): 95. 10. Mager WH, De Kruijff AJ. Microbiol. Rev. 1995; 59: 506. 11. Errington J, Feucht A, Lewis PJ, Lord M, Magnin T, Najafi SM, Wilkinson JF, Yudkin MD. Philos. Trans. R. Soc. London, Ser. B, Biol. Sci. 1996; 351: 537. 12. Haldenwang WG. Microbiol. Rev. 1995; 59: 1. 13. Hughes KT, Mathee K. Annu. Rev. Microbiol. 1998; 52: 231. 14. Hecker M, Schumann W, Volker U. Mol. Microbiol. 1996; 19: 417. 15. Errington J. Trends Genet. 1996; 12: 31. 16. Stragier P, Losick R. Annu. Rev. Genet. 1996; 30: 297.
+
+Copyright  2006 John Wiley & Sons, Ltd.
+
+Magn. Reson. Chem. 2006; 44: S61­S70
+
+S70
+
+T. Etezady-Esfarjani et al.
+
+17. Kalman S, Duncan ML, Thomas SM, Price CW. J. Bacteriol. 1990; 172: 5575. 18. Duncan L, Losick R. Proc. Natl. Acad. Sci. U.S.A. 1993; 90: 2325. 19. Dutta R, Inouye M. Trends Biochem. Sci. 2000; 25: 24. 20. Campbell EA, Darst SA. J. Mol. Biol. 2000; 300: 17. 21. Etezady-Esfarjani T, Herrmann T, Horst R, Wuthrich K. J. Biomol. ¨ NMR 2006; 34: 3. 22. Etezady-Esfarjani T, Herrmann T, Peti P, Klock HE, Lesley SA, Wuthrich K. J. Biomol. NMR 2004; 29: 403. ¨ 23. Wittekind M, Mueller L. J. Magn. Reson. 1993; B101: 201. 24. Grzesiek S, Dobeli H, Gentz R, Garotta G, Labhardt AM, Bax A. Biochemistry 1992; 31: 8180. 25. Grzesiek S, Bax A. J. Am. Chem. Soc. 1992; 114: 6291. 26. Kay LE, Ikura M, Tschudin R, Bax A. J. Magn. Reson. 1990; 89: 496. 27. Bodenhausen G, Ruben DJ. Chem. Phys. Lett. 1980; 69: 185. 28. Vuister GW, Bax A. J. Magn. Reson. 1992; 98: 428. 29. Bax A, Grzesiek S. Acc. Chem. Res. 1993; 26: 131. 30. Peti W, Griesinger C, Bermel W. J. Biomol. NMR 2000; 18: 199. 31. Wuthrich K. NMR of Proteins and Nucleic Acids. Wiley: New York, ¨ 1986. 32. Zuiderweg ERP, Fesik SW. Biochemistry 1989; 28: 2387. 33. Muhandiram DR, Farrow NA, Xu GY, Smallcombe SH, Kay LE. J. Magn. Reson. 1993; 102: 317.
+
+34. Herrmann T, Guntert P, Wuthrich K. J. Mol. Biol. 2002; 319: ¨ ¨ 209. 35. Herrmann T, Guntert P, Wuthrich K. J. Biomol. NMR 2002; 24: ¨ ¨ 171. 36. Guntert P, Mumenthaler C, Wuthrich K. J. Biomol. NMR 1997; ¨ ¨ 273: 283. 37. Nilges M. Fold Des. 1997; 2: S53. 38. Luginbuhl P, Szyperski T, Wuthrich K. J. Magn. Reson. 1995; ¨ ¨ B109: 229. 39. Spera S, Bax A. J. Am. Chem. Soc. 1991; 113: 5490. 40. Koradi R, Billeter M, Guntert P. Comput. Phys. Commun. 2000; ¨ 124: 139. 41. Luginbuhl P, Guntert P, Billeter M, Wuthrich K. J. Biomol. NMR ¨ ¨ ¨ 1996; 8: 136. 42. Cornell WD, Cieplak P, Bayly CI, Gould IR, Merz KM, Ferguson DM, Spellmeyer DC, Fox T, Caldwell JW, Kollman PA. J. Am. Chem. Soc. 1995; 117: 5179. 43. Dyson HJ, Wright PE. Curr. Opin. Struct. Biol. 2002; 12: 54. 44. Kovacs H, Comfort D, Lord M, Campbell ID, Yudkin MD. Proc. Natl. Acad. Sci. U.S.A. 1998; 95: 5067. 45. Seavers PR, Lewis RJ, Brannigan JA, Verschueren KH, Murshudov GN, Wilkinson AJ. Structure 2001; 9: 605. 46. Lee JY, Ahn HJ, Ha KS, Suh SW. Proteins 2004; 56: 176. 47. Dworkin J. Trends Genet. 2003; 19: 107.
+
+Copyright  2006 John Wiley & Sons, Ltd.
+
+Magn. Reson. Chem. 2006; 44: S61­S70
+
+

@@ -1,0 +1,228 @@
+proteins
+STRUCTURE O FUNCTION O BIOINFORMATICS
+
+Use of L-asparagine and N-phosphonacetyl-Lasparagine to investigate the linkage of catalysis and homotropic cooperativity in E. coli aspartate transcarbomoylase
+James P. Cardia,1y Joby Eldo,1y Jiarong Xia,1 Elizabeth M. O'Day,1 Hiro Tsuruta,2 Kimberly R. Gryncel,1 and Evan R. Kantrowitz1*
+1 Department of Chemistry, Merkert Chemistry Center, Boston College, Chestnut Hill, Massachusetts 02467-3807 2 Stanford Synchrotron Radiation Laboratory, Stanford Linear Accelerator Center, MS69, Menlo Park, California 94025-7015
+
+ABSTRACT The mechanism of domain closure and the allosteric transition of Escherichia coli aspartate transcarbamoylase (ATCase) are investigated using L-Asn, in the presence of carbamoyl phosphate (CP), and N-phosphonacetyl-L-asparagine (PASN). ATCase was found to catalyze the carbamoylation of L-Asn with a Km of 122 mM and a maximal velocity 10-fold lower than observed with the natural substrate, L-Asp. As opposed to L-Asp, no cooperativity was observed with respect to L-Asn. Time-resolved small-angle X-ray scattering (SAXS) and fluorescence experiments revealed that the combination of CP and L-Asn did not convert the enzyme from the T to the R state. PASN was found to be a potent inhibitor of ATCase exhibiting a KD of 8.8 lM. SAXS experiments showed that PASN was able to convert the entire population of molecules to the R state. Analysis of the crystal structure of the enzyme in the presence of PASN revealed that the binding of PASN was similar to that of the R-state complex of ATCase with N-phosphonaceyl-L-aspartate, another potent inhibitor of the enzyme. The linking of CP and L-Asn into one molecule, PASN, correctly orients the asparagine moiety in the active site to induce domain closure and the allosteric transition. This entropic effect allows for the high affinity binding of PASN. However, the binding of L-Asn, in the presence of a saturating concentration of CP, does not induce the closure of the two domains of the catalytic chain, nor does the enzyme undergo the transition to the high-activity highaffinity R structure. These results imply that Arg229, which interacts with the b-carboxylate of L-Asp, plays a critical role in the orientation of L-Asp in the active site and demonstrates the requirement of the b-carboxylate of L-Asp in the mechanism of domain closure and the allosteric transition in E. coli ATCase.
+C V 2007 Wiley-Liss, Inc.
+
+INTRODUCTION Enzymes use a variety of mechanisms to catalyze reactions. One such mechanism is catalysis by approximation, in which an enzyme binds and correctly positions substrates for catalysis, leading to a rate enhancement over the nonenzyme catalyzed reaction. E. coli aspartate transcarbamoylase (ATCase, E.C.3.1.3.1) utilizes catalysis by approximation to facilitate the carbamoylation of Asp resulting in the formation of N-carbamoyl-L-aspartate and inorganic phosphate. The binding of substrates is ordered, with CP binding before Asp and carbamoyl aspartate leaving before Pi1 Upon the binding of CP several local conformational changes occur in the active site, in particular the Asp binding site is formed.2 The binding of Asp to the enzyme­CP complex triggers the CP domain (residues 1­135 and 292­310) and the ASP domain (residues 136­291) to close upon each other, forcing the substrates CP and Asp together.2­4
+Abbreviations: ATCase, E. coli aspartate transcarbamoylase holoenzyme; C1/C6, the two catalytic chains of ATCase in the asymmetric unit; C4, catalytic subunit directly below C1 in the lower catalytic trimer; CP, carbamoyl phosphate; PALA, N-phosphonacetyl-L-aspartate; PASN, N-phosphonacetyl-L-asparagine; R1/R6, the two regulatory chains of ATCase in the asymmetric unit; RMS, root mean square; RPALA, X-ray structure of ATCase in the presence of PALA (PDB code 1D09); RPALI, X-ray structure of ATCase in the presence of N-phosphonacetyl-L-isoasparagine (PDB code 2H3E); RPASN, the R-state X-ray structure of ATCase in the presence of PASN (PDB code 2IPO); SAXS, small-angle X-ray scattering; Tapo, X-ray structure of ATCase in the presence of CTP (PDB code 1ZA1); TCP, X-ray structure of ATCase in the presence of CP (PDB code 1ZA2). Coordinates for the enzyme­N-phosphonacetyl-L-asparagine structure have been deposited in the Protein Data Bank as entry 2IPO. Grant sponsor: National Institutes of Health; Grant number: GM26237; Grant sponsor: National Institutes of Health, National Center for Research Resources; Grant number: P41RR01209; Grant sponsor: the Department of Energy, Office of Biological and Environmental Research. James P. Cardia's current address is Department of Chemistry and Chemical Biology, Harvard University, 12 Oxford Street, Cambridge, MA 02138. y Contributed equally to this work. *Correspondence to: Evan R. Kantrowitz, Department of Chemistry, Merkert Chemistry Center, Boston College, Chestnut Hill, MA 02467. E-mail: evan.kantrowitz@bc.edu Received 11 May 2007; Revised 11 July 2007; Accepted 2 August 2007 Published online 14 November 2007 in Wiley InterScience (www.interscience.wiley.com). DOI: 10.1002/prot.21760
+
+Proteins 2008; 71:1088­1096.
+
+Key words: catalysis; domain closure; allostery; bisubstrate analog; small-angle X-ray scattering.
+
+1088
+
+PROTEINS
+
+C V 2007 WILEY-LISS, INC.
+
+Catalysis and Homotropic Cooperativity in ATCase
+
+E. coli ATCase is a dodecamer (Mr 310,000) composed of two catalytic trimers (Mr 34,000) and three regulatory dimers (Mr 17,000). The upper catalytic trimer consists of the C1, C2, and C3 chains. The lower trimer consists of the C4, C5, and C6 chains, which are positioned directly below C1, C2, and C3, respectively. Each catalytic chain is composed of two domains, the CP domain and the ASP domain. The three regulatory dimers consist of chains R1/R6, R2/R4, and R3/R5, each regulatory chain interacts with the corresponding numbered catalytic chain. As the enzyme responsible for the committed step in pyrimidine nucleotide biosynthesis in E. coli, ATCase is regulated both homotropically and heterotropically. Asp acts as a homotropic regulator, inducing both the domain closure and the allosteric transition in the presence of CP. The heterotropic effectors CTP, and UTP in the presence of CTP, bind to the regulatory subunits of ATCase, and inhibit ATCase activity.5,6 While ATP, the product of the parallel purine nucleotide biosynthetic pathway, heterotropically activates the enzyme.5 E. coli ATCase undergoes an allosteric transition from the low-activity, low-affinity T state to a high-activity, high-affinity R state. The allosteric transition is induced by Asp binding (in the presence of CP) or substrate analogs, such as PALA, to the enzyme. During the allosteric transition the upper and lower catalytic trimers separate ° by 11 A along the threefold axis.7 In addition, the catalytic trimers rotate 108 along the threefold axis, while the regulatory dimers rotate 158 along their respective twofold axes.7 Although many analogues of Asp have been tested as alternative substrates for the enzyme, the majority have had modifications at the 2 and 3 positions leaving the carboxylates at 1 and 4 unmodified.8 We recently evaluated N-phosphonacetyl-L-isoasparagine (PALI) and found that it was a potent inhibitor of ATCase.9 PALI is a modified version of PALA in which the a-carboxylate is replaced by an amide. Here we investigate the role of the b-carboxylate of Asp in the reaction catalyzed by ATCase by both evaluating whether L-Asn is a substrate for the reaction and whether N-phosphonacetyl-L-asparagine (PASN) is an inhibitor that can shift the enzyme from the T to the R state. MATERIALS AND METHODS
+Materials
+L-asparagine, L-aspartate, N-carbamoyl-L-aspartate, potassium dihydrogen phosphate, sodium azide, and uracil were obtained from Sigma Chemical (St. Louis, MO). Tris was purchased from ICN (Costa Mesa, CA). Dialysis buttons (50 lL) and Aqua Sil were purchased from Hampton Research (Aliso Viejo, CA). Dialysis buttons were siliconized according to the supplier's instructions.
+
+All commercially available starting materials and solvents were reagent grade or better and used without further purification. Thin-layer chromatography was performed on Merck silica gel 60 plates with fluorescent indicator and column chromatography was carried out on silica gel, purchased from Fisher Scientific.
+Synthesis
+
+All moisture-sensitive reactions were performed under a nitrogen atmosphere with oven-dried glassware.
+Preparation of a-tert-butyl N-(Diethoxyphosphinoyl)acetyl-L-asparaginate (4)
+
+To a solution of a-tert-butyl L-asparaginate hydrochloride (476.4 mg, 2.12 mmol) and triethylamine (0.3 mL, 2.12 mmol) in dichloromethane (10 mL), add successively a solution of diethylphosphonoacetic acid (392.28 mg, 2.0 mmol) in 5 mL of dichloromethane, 1hydroxybenzotriazole (323.3 mg, 2.12 mmol) in THF (8 mL) and diisopropylcarbodiimide (0.37 mL, 2.4 mmol) at 08C. After stirring the mixture overnight, the precipitate was filtered off and concentrated to afford a crude product as viscous liquid, which was purified by column chromatography over silica using a mixture of ethyl acetate/methanol (9:1) as solvent. Yield 5 625 mg (85%). 1 H NMR (400 MHz, CDCl3) d 1.33 (t, J 5 7.0 Hz, 6H), 1.45 (s, 9H), 2.75 (dd, J 5 4.4 Hz, 15.6 Hz, 1H), 2.84 (dd, J 5 5.6 Hz, 15.6 Hz, 1H), 2.91­3.03 (m, 2H), 4.09­ 4.19 (m, 4H), 4.68 (m, 1H), 6.07 (s. br, 1H), 6.52 (s, br, 1H), 7.65 (d, J 5 7.6 Hz, 1H); 13C NMR (100 MHz, CDCl3) d 16.63, 28.17, 34.96, 36.28, 37.67, 50.33, 62.94, 63.20, 82.55, 164.20, 169.56, 172.32; 31P NMR (121 MHz, CDCl3) d 21.77; ESI-MS (m/z) 389.1 [M 1 Na]1.
+Preparation N-(Diethoxyphosphinoyl)acetylL-asparaginate (5)
+
+To a solution of a-tert-butyl N-(diethoxyphosphinoyl)acetyl-L-asparaginate (366 mg, 1.0 mmol) in 2 mL dichloromethane, add 2.07 mL of 4N HCl in dioxane at 08C and the reaction mixture was stirred for 6 h at room temperature. The solvents were removed under vacuum to afford the crude product as a solid in quantitative yield. 1H NMR (400 MHz, DMSO-d6) d 1.22 (t, J 5 7.0 Hz, 6H), 2.45­2.54 (m, 2H), 2.87­3.01 (m, 2H), 4.01 (m, 4H), 4.49 (m, 1H), 6.92 (s, br, 1H), 7.41 (s, br, 1H), 8.25 (d, J 5 8.0 Hz, 1H); 13C NMR (100 MHz, DMSO-d6) d16.24, 33.48, 34.79, 36.74, 48.84, 61.57, 163.60, 170.73, 172.14; 31P NMR (121 MHz, DMSO-d6) d 23.43; ESI-MS (m/z) 311.0 [M]1.
+Preparation of N-phosphonacetylL-asparagine (1)
+
+To a solution of N-(diethoxyphosphinoyl)acetyl-Lasparaginate (279.2 mg, 0.9 mmol) in anhydrous acetoniPROTEINS
+
+1089
+
+J.P. Cardia et al.
+
+trile (15 mL), add trimethylsilyl bromide (0.5 mL, 5.0 mmol) at 08C and the mixture was stirred overnight at room temperature. After removing all the solvents, 5 mL of water was added and the mixture stirred for 2 h at room temperature. The aqueous reaction mixture was washed with ethyl acetate (2 3 15 mL) and lyophilized to give pure product 1 as pale yellow solid. Yield 5 185 mg (81 %). 1H NMR (400 MHz, DMSO-d6) d 2.44­2.56 (m, 2H), 2.59­2.74 (m, 2H), 4.51 (m, 1H), 6.92 (s, br, 1H), 7.41 (s, br, 1H), 8.10 (d, J 5 8.0 Hz, 1H); 13C NMR (100 MHz, DMSO-d6) d 36.24, 36.93, 37.51, 48.80, 164.96, 170.99, 172.26; 31P NMR (121 MHz, DMSO-d6) d 17.89; ESI-MS (m/z) 254.9 [M]1.
+Compound characterization
+
+Asn, in the presence of CP, is a substrate of ATCase, time resolved SAXS was performed to determine if the binding of substrates caused the allosteric transition. Time resolved SAXS was performed according to Stieglitz et al.16
+
+Stopped-flow and steady-state fluorescence measurements
+
+The time-resolved fluorescence experiments with the pyrene-labeled enzyme were performed as previously reported11 using a KinTek SF-2001 stopped-flow. The KD of PASN was determined using the method of Eldo et al.9 by steady-state fluorescence.
+
+H spectra were recorded on a Varian 400 spectrometer. Proton chemical shifts are reported in ppm (d) relative to internal tetramethylsilane (TMS, d 0.0) or with the solvent reference relative to TMS employed as the internal standard (CDCl3, d 7.26 ppm; DMSO-d6, d 2.50). Data reported as follows: chemical shift (multiplicity [singlet (s), doublet (d), triplet (t), and multiplet (m)], coupling constants [Hz], and integration). 13C NMR spectra were recorded on a Varian 400 (100 MHz) spectrometer with complete proton decoupling. The chemical shifts were reported relative to CDCl3 (77.0 ppm) or DMSO-d6 (39.52 ppm) for solution in CDCl3 and DMSO-d6, respectively. 31P NMR spectra were recorded on a Varian 300 (121 MHz) spectrometer using 85% H3PO4 as an external standard. Mass spectra were obtained at the Mass Spectrometry Facilities of Boston College.
+Enzyme preparation
+
+1
+
+Crystallization and freezing of crystals
+
+The purified enzyme was crystallized in the presence of PASN by microdialysis, using 50 lL wells. The enzyme solution, at 16 mg/mL, was dialyzed against the crystallization buffer, which consisted of 50 mM maleic acid, 1 mM PASN, and 3 mM sodium azide at pH 5.7. Crystals were soaked in a solution of 30% 2-methyl-2,4pentanediol in crystallization buffer for 1 min prior to freezing in liquid nitrogen.
+
+X-ray data collection and processing
+
+Wild-type E. coli ATCase and the C47A/A241C ATCase were expressed and purified as described previously.10 The C47A/A241C enzyme was labeled with pyrene as previously described.11 The concentration of the purified holoenzyme was determined by absorption at 280 nm with an extinction coefficient of 0.59 cm2/mg, while the concentration of the C47A/A241C ATCase was determined using the Bio-Rad version of Bradford's dye binding assay12 using wild-type ATCase as the standard. The purity of the enzymes were determined using SDSPAGE13 and nondenaturing PAGE.14,15
+Small-angle X-ray scattering
+
+The diffraction data were collected using a Rigaku/ MSC R-axis IV11 detector while X-rays were generated using a Rigaku/MSC RU-200 rotating-anode generator operating at 50 kV and 100 mA at the Boston College Crystallographic Facility. The diffraction data for the ° RPASN structure collected to 2.60 A were integrated, scaled, and averaged using the program d*TREK (Rigaku/MSC).17
+
+Structural refinement
+
+Small-angle X-ray scattering (SAXS) curves were collected for the wild-type holoenzyme in the absence of ligands and in the presence of PALA or PASN, on beamline 4­2 at the Stanford Synchrotron Radiation Laboratory according to methods previously described.16 Since
+
+The data for the RPASN structure were refined using the coordinates of the enzyme in the presence of PALA (PDB code 1D09).18 Prior to refinement all waters and ligands were removed from the model. The structure was refined using CNS,19 and refinement statistics are summarized in Table I. Initially rigid body refinement was carried out followed by simulated annealing. After rigid body, simulated annealing, energy minimization, and Bfactor refinement initial maps were analyzed. As necessary areas of the RPASN structure were rebuilt using Coot.20 PASN was modeled into the Fo­Fc electron density in the active site after rebuilding was completed and placement of the inhibitor was verified using Fo­Fc electron density omit maps.
+
+1090
+
+PROTEINS
+
+Catalysis and Homotropic Cooperativity in ATCase
+
+Table I
+X-Ray Data Collection and Refinement Statistics for the Rpasn Structure
+
+RESULTS
+Kinetic characterization of L-asparagine with the wild-type holoenzyme
+
+Data collection Space group Resolution () Total no. of reflections No. of unique reflections Redundancy Completeness (%) Unit cell a 5 b, c () a 5 b, g (8) Average I/r Rmerge (%) Refinement Resolution () R Rfree No. of waters Average B factor (2) RMS deviations Bonds () Angles (8)
+Values in parenthesis correspond to the highest resolution shell
+
+P321 2.60 189,021 40,525 4.66 (4.77) 99.8 (100.0) 120.48, 155.09 90, 120 9.3 (4.1) 10.2 (0.35) 2.6 20.1 25.3 362 27.70 0.006 1.31
+
+The ability of ATCase to catalyze the carbamoylation of L-Asn at 258C and pH 8.3 was tested using a colorimetric assay.21 The L-Asn saturation curve is hyperbolic in contrast to the L-Asp saturation curve, which is sigmoidal with a Hill coefficient of 2.2.22 The Vmax for L-Asn was found to be 10.6-fold lower than the maximal observed velocity with L-Asp, while the [S]0.5 of 122 mM is 10-fold higher than for L-Asp under the same conditions (see Table II).
+Synthesis of N-phosphonacetylL-asparagine (1)
+
+N-phosphonacetyl-L-asparagine (1) was prepared from commercially available a-tert-butyl L-asparaginate hydrochloride (2), as shown in Figure 1. The coupling of 2 with diethylphosphonoacetic acid (3) under normal amino acid coupling conditions afforded the a-tert-butyl
+
+Table II
+Kinetic and Inhibition Studies on L-Asn and PASN
+
+Compound CP
+
+Structure
+
+S0.5a (mM) ­
+
+Maximal velocity (mmol/h/mg) ­
+
+KDb (lM) ­
+
+L-Asp
+
+12.0
+
+17.0
+
+­
+
+L-Asn
+
+122
+
+1.6
+
+­
+
+PALA
+
+­
+
+­
+
+0.69
+
+PASN
+
+­
+
+­
+
+8.80
+
+a
+
+b
+
+S0.5 values were calculated from saturation curves in 50 mM Tris-acetate buffer, pH 8.3 at a fixed concentration CP (4.8 mM). KD values were calculated by titrating the pyrene labeled ATCase with inhibitor in 50 mM Tris-acetate buffer, pH 8.3.
+
+PROTEINS
+
+1091
+
+J.P. Cardia et al.
+
+Figure 1
+Reaction scheme for the synthesis of N-phosphonaceyl-L-asparagine (1). Reagents and conditions: (i) Et3N, diisopropylcarbodiimide, 1-hydroxybenzotriazole, DCM/THF, r.t., overnight; (ii) 4 N HCl in dioxane, DCM, 08C-r.t, 6 h; (iii) (a) TMSBr, CH3CN, 0 8C-r.t, overnight, (b) H2O, r.t., 2 h.
+
+N-(diethoxyphosphinoyl)acetyl-L-asparaginate (4) in 85% yield. Then the tert-butyl ester was deprotected using 4N HCl and the resulted phosphonate ester (5) was deprotected with TMSBr in acetonitrile to afford the final Nphosphonacetyl-L-asparagine (1) as a pale yellow solid.
+Binding affinity of PASN
+
+Because of the substrate cooperativity of the ATCase holoenzyme, a kinetic determination of a Ki for PASN was not possible. Therefore, a KD for the ATCase­PASN complex was determined using a pyrene-labeled version of the C47A/A241C enzyme, the fluorescence of which reflects the binding of PASN and the transition of the enzyme from the T to the R state.11 Using this method the KD of PASN was found to be 8.8 lM, whereas the KD for PALA determined under the identical conditions was 0.69 lM (Table II). From the dissociation constants the standard free energies were calculated and revealed a difference in binding energy between PALA and PASN of 1.5 kcal/mol.
+Conformational changes associated with the binding of PASN
+
+The T and R structures of ATCase are easily distinguished by SAXS.23 To determine if the binding of L-Asn (in the presence of CP) or PASN converts the enzyme from the T to R state, SAXS was utilized. Shown in Fig-
+
+ure 2(A) is the change in the integrated intensity of a time series of SAXS patterns. The integrated intensity used for this graph corresponds to the region of the scat° tering pattern between h 5 0.085 A21and h 5 0.152 ° 21, where the T to R quaternary structure change is A most pronounced. At time zero ATCase was mixed with substrates utilizing a stopped-flow rapid mixer. Immediately after mixing scattering patterns were recorded as a function of time. As observed previously, when enzyme, CP and L-Asp are mixed the integrated intensity immediately increases corresponding to the conversion of the enzyme from the T to the R structure.24 The integrated intensity then remains constant for a period of time as the enzyme remains in the R structure while the substrates are utilized. Upon depletion of the substrates, the integrated intensity decreases signifying the reversion of the structure to the T state. When ATCase is mixed with CP and either L-Asn or D-Asp, no change in the integrated intensity is observed beyond the small drift in background signal, signifying that L-Asn or D-Asp, in the presence of CP, does not induce the allosteric transition. The influence of PASN on the structure of ATCase was investigated at equilibrium using SAXS [Fig. 2(B)]. As controls the scattering patterns of ATCase in the absence and presence of PALA are shown. The scattering pattern in the presence of PASN was almost identical to the scattering pattern of the enzyme in the presence of PALA,
+
+1092
+
+PROTEINS
+
+Catalysis and Homotropic Cooperativity in ATCase
+
+Figure 2
+(A) Time-resolved SAXS of wild-type ATCase at 48C. SAXS curves were recorded at 73 ms intervals on beamline 4­2 at the Stanford Synchrotron Radiation Laboratory. ° ° The region of each curve between h 5 0.085 A21 and h 5 0.152 A21 was integrated and plotted as a function of time. At time zero, ATCase was mixed with: (1) CP and L-Asp (thin line), (2) CP and L-Asn (thick line), and (3) CP and D-Asp (dashed line). The final concentration of enzyme was 35 mg/mL while the final concentrations of the other components were 50 mM. (B) Steady-state SAXS curves of the wild-type ATCase in the absence of ligands (thick line), in the presence of PALA (2 mM, dashed line), and in the presence of PASN (2 mM, thin line). All experiments were performed in 50 mM Tris acetate buffer, 2 mM 2-mercaptoethanol, pH 8.3.
+
+signifying that the PASN can convert the enzyme from the T to the R structure. To further evaluate the influence of CP and L-Asn on the conformation of ATCase the pyrene-labeled version of ATCase was employed.11 As shown previously,11 the fluorescence of this labeled enzyme is different in the T and R states. Shown in Figure 3, are the results of a stopped-flow experiment in which the fluorescence of the pyrene-labeled ATCase was monitored when enzyme with CP was mixed with either L-Asp or L-Asn. Initial concentrations of CP, LAsp or L-Asn were more than twofold higher that their corresponding [S]0.5, values ensuring that the enzyme was initially saturated with substrates. When the natural substrates CP and L-Asp are mixed with the pyrene-labeled enzyme the fluorescence intensity changes dramatically, indicative of the conversion of the enzyme from the T to the R state.11 However, when CP and L-Asn are mixed with the pyrenelabeled enzyme there is no alteration in the fluorescence intensity indicating that L-Asn in combination with CP does not convert the enzyme into the R state.
+X-ray crystal structure of the N-phosphonacetyl-L-asparagine complexed with ATCase
+
+Figure 3
+Time-resolved fluorescence of the pyrene-labeled ATCase at 7.58C. The reactions were carried out using the pyrene-labeled enzyme at 1.0 mg/ml in 40 mM phosphate buffer. The change in relative fluorescence intensity was measured at 380 nm employing an excitation wavelength of 338 nm. An increase in relative fluorescence intensity corresponds to a decrease in the actual fluorescence. Equal volumes of enzyme with 10 mM CP and 100 mM L-Asp were mixed (thick curve). Equal volumes of enzyme with 10 mM CP and 500 mM L-Asn were mixed (thin curve).
+
+ATCase holoenzyme was cocrystallized in the presence of the PASN. Diffraction quality crystals grew to an aver-
+
+PROTEINS
+
+1093
+
+J.P. Cardia et al.
+
+Figure 4
+(A) Stereoview of the RPASN active site in the presence of PASN. The Fo­Fc simulated annealing electron density map, contoured at 3.0r, with PASN (magenta) omitted from the map calculation. The refined positions of the active site residues are overlaid onto the 2Fo­Fc electron density map (sky blue), contoured at 1.5r. The hydrogen bonding interactions between the inhibitor and enzyme are shown as green dotted lines. Glu233 not shown. (B) Stereoview of the RPALA active site (green) overlaid onto the active site of the RPASN structure (gray). An asterisk indicates that the residue is donated from an adjacent chain.
+
+age size of 0.4 3 0.2 3 0.2 mm in 1 week. These crys° tals diffracted to 2.6 A in the P321 space group, with ° ° unit cell dimensions (a 5 b 5 120.48 A, c 5 155.09 A) ° similar to that of the RPALA structure (a 5 b 5 122.24 A, ° c 5 156.36 A), see Table II. To determine the quaternary structure of the crystals of the ATCase­PASN complex, the vertical separation between the centers of mass of the upper and lower catalytic subunits was calculated. The vertical separation of the T and R struc° tures of ATCase are 45.6 and 56.6 A. respectively. For the structure of the ATCase­PASN complex (RPASN) the vertical ° separation was 55.6 A. This separation is slightly smaller than ° that observed for the RPALA structure (56.6 A),18 but substantially larger than that observed for T state structures ° (45.6 A). The RMS deviation for the backbone atoms of both the catalytic chains for the RPASN structure as compared to ° the RPALA structure is 0.46 A indicating that the RPASN structure is very similar to that of the RPALA structure.
+
+Several conformational changes occur upon the allosteric transition, including the movement of residues Ser80 and Lys84 of the 80's loop (residues 76­85) into the active site of the adjacent catalytic chain in addition to the repositioning of the 240's loop (residues 225­245).3 Glu239 interacts with Lys164 and Tyr165 of the lower catalytic chain, C4, stabilizing the T state. During the allosteric transition the interactions between Glu239 and the C4 catalytic chain are lost. In both the RPALA and RPASN structures these C1 and C4 interactions are lost, and replaced with intradomain interactions. In the R state structure Glu239 forms intradomain interactions with Lys164 and Tyr165.7
+Active site of the RPASN structure
+
+The Fo­Fc electron density omit map of the active site RPASN structure is shown in Figure 4(A), with the refined
+
+1094
+
+PROTEINS
+
+Catalysis and Homotropic Cooperativity in ATCase
+
+positions of the atoms overlaid. In the RPALA and the RPALI structures the b-carboxylate of PALA interacts with the guanidinium group of Arg229.18 Upon binding of ° PALA, Arg229 moves 2.3 A and coordinates with the b-carboxylic acid moiety of PALA and Glu233.4 The active site of RPASN is similar to that of the RPALA active site [see Fig. 4(B)]. Arg229 is coordinated to the b-amide of PASN; however the electrostatic interaction between the guanidinium group of Arg229 and the b-carboxylate of PALA is lost. In the enzyme­PALA complex 3 hydrogen bonds occur between Lys84 (C2) and PALA. In the enzyme­PASN complex, Lys84 (C2) only forms 1 hydrogen bond with PASN, two hydrogen bonds are lost between Lys84 and the a-carboxylate and b-carboxylate oxygens. However, new hydrogen bonding interactions in the CP binding domain arise between the guanidinium group of Arg54 and the phosphonate moiety and compensate for the lost hydrogen bonding between Lys84 and PASN. DISCUSSION Although not a good substrate, L-Asn is carbamoylated by ATCase. The Vmax is 10-fold lower than the maximal observed velocity for L-Asp as substrate, while the [S]0.5 is 10-fold higher. The net result is an approximate 100fold reduction in catalytic efficiency suggesting that under cellular conditions an insignificant amount of LAsn is carbamoylated. Another major difference between the reaction of CP with L-Asp and of CP with L-Asn as catalyzed by ATCase is that the latter reaction does not exhibit homotropic cooperativity. The lack of observed homotropic cooperativity may be due to the inability of the binding of L-Asn, in the presence of saturating CP, to convert the enzyme into the R state, or the catalytic activity of the T and R states of ATCase for the reaction between CP and L-Asn are essentially the same. The kinetic characteristics of the reaction between CP and LAsn are reminiscent of the ATCase catalyzed reactions of CP with L-alanosine25 and CP with cyseinesulfinate.26 These reactions are characterized by more than 10-fold reduction in maximal velocity as well as a more than a 10-fold increase in [S]0.5. To determine if the combination of CP and L-Asn can convert ATCase into the R state we used time-resolved SAXS. These experiments utilized the change in the shape and therefore change in electron density of ATCase between the T and R states. In combination with a stopped-flow mixer the time-evolution of the shape change was measured. As seen in Figure 2(A), for the ATCase reaction with the natural substrates CP and LAsp the integrated intensity of the scattering pattern changes dramatically within the first few milliseconds after the enzyme is mixed with the substrates. When the alternate substrate L-Asn was used in combination with CP, there was no increase whatsoever in the integrated intensity of the scattering pattern indicating that the
+
+entire population of ATCase molecules remained in the T state. This was further confirmed at high concentrations of L-Asn using a pyrene-labeled version of ATCase, the fluorescence of which is sensitive to the allosteric state of the enzyme (see Fig. 3).11 The ability to induce the T to R transition is much different for PASN, which is essentially CP and L-Asn combined into one molecule. The steady-state SAXS experiments verify that PASN can convert the entire population of molecules from the T the R state. The ability of PASN to induce the T to R state transition is further supported by the crystallographic data which shows that when ATCase is cocrystallized in the presence of PASN, the resulting crystals are in a R quaternary structure with ° a vertical separation between catalytic trimers of 55.4 A. L-Asn, L-alanosine, and cysteinsulfonate all have modifications at the position corresponding to the b-carboxylate of Asp. One of the important residues in the active site that interacts with the b-carboxylate of Asp is Arg229, a critical residue in the 240's loop involved in the closure of the CP and ASP domains.27 Upon binding of Asp (in the presence of CP) or PALA, Arg229 swings into the active site and interacts with the b-carboxylate of Asp or PALA. This motion draws Arg229 into the active site resulting in the movement of the 240's loop from its T to R state position. The data reported here suggest that the b-amide of L-Asn does not provide sufficient interactions with Arg229 to induce the structural changes necessary to facilitate domain closure. Rate enhancement of the carbamoylation of Asp catalyzed by ATCase occurs via catalysis by approximation. Upon binding to the enzyme­CP complex, Asp triggers the domain closure of the CP and ASP domains bringing the two substrates into close proximity for catalysis. The entropic cost of binding two substrates, loss of two sets of rotational and translational entropies, are compensated by the electrostatic and hydrogen bonding interactions between substrates and the enzyme. CP and Asp are ideally positioned for catalysis in the enzyme, effectively increasing the concentration of reactive groups.28 However, in the case of CP and Asn, rate enhancement does not occur due to the inability of the binding of Asn to initiate the conformational changes necessary to close the domains of the catalytic chain and induce the transition from the T to the R state. CP and Asn are not in their optimal orientations for catalysis, nor is the enzyme primed for domain closure to facilitate catalysis. However, when Asn and CP are linked, as in PASN, domain closure occurs. By linking CP and Asn together into one molecule the entropic penalty upon binding is reduced as compared to CP and Asn, since only one set of rotational and translational entropies is lost. This finding further supports the observation that CP and Asn are not in the optimal orientation for catalysis, if they were they would cause domain closure, as observed with PASN.
+PROTEINS
+
+1095
+
+J.P. Cardia et al.
+
+The E50A mutant shows similar effects upon the binding of substrate analogs and PALA. In the R-state, Glu50 forms interdomain bridging interactions with Arg167 and Arg234, of the ASP domain, stabilizing the R-state. Mutation of Glu50 to Ala results in a R-state destabilized mutant with a 19-fold reduction in activity compared to wildtype.29 SAXS studies showed that upon addition of CP and succinate (an aspartate analog) the E50A mutant is in the T state in contrast to the wild-type enzyme, which exists in the R state.29,30 However, the E50A enzyme­PALA complex exists in the R structure similar to the structure of the wild-type enzyme in the presence of PALA or substrates. The authors state that the electrostatic interactions that occur between the substrates, or PALA, and the enzyme in addition to PALA's ability to span both the CP and ASP domains are responsible for initiating domain closure.30 However, in the case of PASN an electrostatic interaction is lost between the b-amide and Arg229. The ability of PASN to interact with residues in both the CP and ASP domains facilitates domain closure. In linking CP and Asn together (PASN), the positioning of the Asn moiety is geometrically constrained and exists in the correct orientation for domain closure, unlike CP and Asn. Thus, the interactions between the b-carboxylate of Asp and the enzyme drives domain closure and facilitates both the allosteric transition and catalysis by approximation. REFERENCES
+1. Hsuanyu Y, Wedler FC. Kinetic mechanism of native Escherichia coli aspartate transcarbamylase. Arch Biochem Biophys 1987;259:316­330. 2. Wang J, Stieglitz KA, Cardia JP, Kantrowitz ER. Structural basis for ordered substrate binding and cooperativity in aspartate transcarbamoylase. Proc Natl Acad Sci USA 2005;102:8881­8886. ° 3. Krause KL, Voltz KW, Lipscomb WN. Structure at 2.9-A resolution of aspartate carbamoyltransferase complexed with the bisubstrate analogue N-(phosphonacetyl)-L-aspartate. Proc Natl Acad Sci USA 1985;82:1643­1647. ° 4. Krause KL, Voltz KW, Lipscomb WN. 2.5 A structure of aspartate carbamoyltransferase complexed with the bisubstrate analog N(phosphonacetyl)-L-aspartate. J Mol Biol 1987;193:527­553. 5. Gerhart JC, Pardee AB. Enzymology of control by feedback inhibition. J Biol Chem 1962;237:891­896. 6. Wild JR, Loughrey-Chen SJ, Corder TS. In the presence of CTP, UTP becomes an allosteric inhibitor of aspartate transcarbamylase. Proc Natl Acad Sci USA 1989;86:46­50. 7. Ke H-M, Lipscomb WN, Cho Y, Honzatko RB. Complex of Nphosphonacetyl-L-aspartate with aspartate carbamoyltransferase: Xray refinement, analysis of conformational changes and catalytic and allosteric mechanisms. J Mol Biol 1988;204:725­747. 8. Davies G, Vanaman T, Stark G. Aspartate transcarbamylase. Stereospecific restrictions on the binding site for L-aspartate. The J Biol Chem 1970;245:1175­1179. 9. Eldo J, Cardia JP, O'Day EM, Xia J, Tsuruta H, Kantrowitz ER. Nphosphonacetyl-L-isoasparagine a potent and specific inhibitor of Escherichia coli aspartate transcarbamoylase. J Med Chem 2006;49: 5932­5938. 10. Nowlan SF, Kantrowitz ER. Superproduction and rapid purification of E. coli aspartate transcarbamoylase and its catalytic subunit under extreme derepression of the pyrimidine pathway. J Biol Chem 1985;260:14712­14716.
+
+11. West JM, Tsuruta H, Kantrowitz ER. A fluorescent probe-labeled aspartate transcarbamoylase that monitors the allosteric conformational state. J Biol Chem 2004;279:945­951. 12. Bradford MM. A rapid and sensitive method for the quantitation of microgram quantities of protein utilizing the principle of protein-dye binding. Anal Biochem 1976;72:248­254. 13. Laemmli UK. Cleavage of structural proteins during the assembly of the head of bacteriophage T4. Nature 1970;227:680­685. 14. Davis BJ. Disc electrophoresis-II method and application to human serum proteins. Ann NY Acad Sci 1964;121:404­427. 15. Ornstein L. Disc electrophoresis. I. Background and theory. Ann NY Acad Sci 1964;121:321­349. 16. Stieglitz KA, Pastra-Landis SC, Xia J, Tsuruta H, Kantrowitz ER. A single amino acid substitution in the active site of Escherichia coli aspartate transcarbamoylase prevents the allosteric transition. J Mol Biol 2005;349:413­423. 17. Pflugrath JW. The finer things in X-ray diffraction data collection. Acta Cryst 1999;D55:1718­1725. 18. Jin L, Stec B, Lipscomb WN, Kantrowitz ER. Insights into the mechanism of catalysis and heterotropic regulation of E. coli aspartate transcarbamoylase based upon a structure of enzyme complexed with the bisubstrate analog N-phosphonacetyl-L-aspartate at ° 2.1 A. Prot: Struct Funct Genet 1999;37:729­742. ¨ 19. Brunger AT, Adams PD, Clore GM, DeLano WL, Gros P, GrosseKunstleve RW, Jiang J-S, Kuszewski J, Nilges N, Pannu NS, Read RJ, Rice LM, Simonson T, Warren GL. Crystallography and NMR system (CNS): a new software system for macromolecular structure determination. Acta Cryst 1998;D54:905­921. 20. Emsley P, Cowtan K. Coot: model-building tools for molecular graphics. Acta Crystallogr D Biol Crystallogr 2004;60(Part 12, Part 1):2126­2132. 21. Pastra-Landis SC, Foote J, Kantrowitz ER. An improved colorimetric assay for aspartate and ornithine transcarbamylases. Anal Biochem 1981;118:358­363. 22. Newton CJ, Kantrowitz ER. The importance of domain closure for the allosteric transition in Escherichia coli aspartate transcarbamoylase. Biochemistry 1990;29:1444­1451. ´ 23. Herve G, Moody MF, Tauc P, Vachette P, Jones PT. Quaternary structure changes in aspartate transcarbamylase studied by X-ray solution scattering; signal transmission following effector binding. J Mol Biol 1985;185:189­199. 24. Tsuruta H, Sano T, Vachette P, Tauc P, Moody MF, Wakabayashi K, Amemiya Y, Kimura K, Kihara H. Structural kinetics of the allosteric transition of aspartate transcarbamoylase produced by physiological substrates. FEBS Lett 1990;263:66­68. ´ 25. Baillon J, Tauc P, Herve G. L-Alanosine: a noncooperative substrate for Escherichia coli aspartate transcarbamylase. Biochemistry 1985; 24:7182­7187. 26. Foote J, Lauritzen AM, Lipscomb WN. Substrate specificity of aspartate transcarbamylase. Interaction of the enzyme with analogs of aspartate and succinate. J Bio Chem 1985;260:9624­9629. 27. Middleton SA, Stebbins JW, Kantrowitz ER. A loop involving catalytic chain residues 230­245 Is essential for the stabilization of both allosteric forms of Escherichia coli aspartate transcarbamoylase. Biochemistry 1989;28:1617­1626. 28. Fersht AR. Structure and mechanism in protein science: a guide to enzyme catalysis and protein folding. New York: W.H. Freeman; 1998. 29. Baker DP, Fetler L, Keiser RT, Vachette P, Kantrowitz ER. Weakening of the interface between adjacent catalytic chains promotes domain closure in Escherichia coli aspartate transcarbamoylase. Prot Sci 1995;4:258­267. 30. Stieglitz K, Stec B, Baker DP, Kantrowitz ER. Monitoring the transition from the T to the R state in E. coli aspartate transcarbamoylase by X-ray crystallography: crystal structures of the E50A mutant in four distinct allosteric states. J Mol Biol 2004;341:853­ 868.
+
+1096
+
+PROTEINS
+
+

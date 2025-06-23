@@ -1,0 +1,246 @@
+Review
+
+TRENDS in Cell Biology
+
+Vol.16 No.2 February 2006
+
+Modeling mitosis
+Alex Mogilner, Roy Wollman, Gul Civelekoglu-Scholey and Jonathan Scholey
+Laboratory of Cell and Computational Biology, Center for Genetics and Development, University of California, Davis, CA 95616, USA
+
+The mitotic spindle is a fascinating protein machine that uses bipolar arrays of dynamic microtubules and many mitotic motors to coordinate the accurate segregation of sister chromatids. Here we discuss recent mathematical models and computer simulations that, in concert with experimental studies, help explain the molecular mechanisms by which the spindle machinery performs its crucial functions. We review current models of spindle assembly, positioning, maintenance and elongation; of chromosome capture and congression; and of the spindle assembly checkpoint. We discuss some limitations of the application of modeling to other aspects of mitosis and the feasibility of building more comprehensive system-level models.
+
+Puzzles of the spindle Mitosis is the process by which sister chromatids carrying identical copies of the replicated genome are moved to opposite ends of the cell before cell division. This important process depends upon the action of the mitotic spindle (Figure 1), a molecular machine assembled from microtubules (MTs) and motor proteins [1­3]. Spindle morphogenesis begins during prophase and prometaphase when MTs, motors, chromosomes and centrosomes selforganize into the bipolar metaphase spindle (Figure 1), in which chromosomes are aligned at the spindle `equator' facing opposite `poles'. Then, during anaphase, sister chromatids are moved to opposite poles (anaphase A) while the poles themselves separate (anaphase B). Several problems have to be addressed to understand how this molecular machine can use stochastic and transient MT­motor assemblies to drive steady, accurate movements. How do apparently random MT dynamics lead to MT attachment to the kinetochores? How do the attached chromosomes congress to the spindle equator? How does the bipolar spindle self-assemble and what determines its size? To answer such questions, students of mitosis must address the complexity of the spindle machinery (Figure 1), recognize that mitotic mechanisms vary in different systems, and use a combination of molecular and quantitative approaches to identify and describe general principles of spindle behavior. Why modeling? Our current understanding of mitosis is largely the result of reductionism, which has provided an inventory of the relevant molecules, their localization and key interactions, and estimates of the relevant forces and rates of
+Corresponding author: Mogilner, A. (mogilner@math.ucdavis.edu). Available online 10 January 2006
+
+mitotic movements [4]. Although great progress has been made, more needs to be done: one could argue that a crucial test for full comprehension is the reconstitution of a complex molecular machine from its component parts either in vitro using biochemistry or in silico using modeling [4]. In such a model, proposed molecular interactions can be formulated in mathematical language and the system's behavior can be examined and compared with experimental data, serving as a `reality check' for our understanding of biological phenomena. Generally speaking, modeling can be mathematical and computational (Boxes 1,2 and Table 1). In the former, model assumptions are formulated in terms of equations that are solved analytically or numerically using traditional mathematical methods [5]. Such models can provide insight by examining links between the model assumptions and the system's behavior. Mathematical modeling, however, often relies on significant simplifications and requires mathematical sophistication. Computational models are based on computer simulations of large ensembles of molecules that interact in silico, obeying sets of rules that reflect the model assumptions. Such models are often less esoteric than mathematical models, and their results can be presented as snapshots of molecular assemblies that look similar to experimental images. One has to be aware of their limits, however: clear links between assumptions and behavior are sometimes lacking, and often significant supercomputer time is required, so the sheer volume of calculations, rather than the complexity of the model, is limiting. A combination of both types of modeling usually provides the best results. The modeling of mitosis has a chequered history, and in the past modeling often suffered from groundless speculations (e.g. see [6], in which the authors attempted to explain chromosome movements by nanoscale electrostatics) and unnecessary sophistry. Now, however, because of the increased use of quantitation in cell biology, there has emerged a closed theory­experiment loop, in which the model makes predictions that are experimentally tested and the newly acquired data are used to refine the model. Here, we review several models that are beginning to make a positive impact on our understanding of mitosis. The parts that build the machine: microtubules and motors During the past two decades, many studies were aimed at understanding the dynamics of two main components of the mitotic machinery ­ MTs and motors ­ in a quantitative framework [7]. MTs display a fascinating type of behavior, dynamic instability [8], characterized by
+
+www.sciencedirect.com 0962-8924/$ - see front matter Q 2005 Elsevier Ltd. All rights reserved. doi:10.1016/j.tcb.2005.12.007
+
+Review
+
+TRENDS in Cell Biology
+
+Vol.16 No.2 February 2006
+
+89
+
+(iii) `Spindle matrix' Key: Centriole Microtubule Cytoplasmic dynein (v) (ii) (iv) +TIPs proteins (iv) (ii) (vi) (i) (v) S (vi) Chromatid Tubulin Actin cortex Centrosome Cohesin
+TRENDS in Cell Biology
+
+L
+
+Kinesin 5 Kinetochore motor Kinesin 13
+
+Figure 1. Spindle length regulation. The metaphase spindle length can be regulated by extrinsic factors, such as depletion of tubulin subunits (i), motor forces at the cortex (ii), or hypothetical `spindle matrix' forces (iii), and intrinsic factors, such as motor forces at the kinetochores (iv), overlapping MTs (v), or MT dynamics (vi) [58]. Spindle length can be modeled mathematically by solving differential equations for S(t) and L(t) [21,26] or computationally by simulating motors and MT dynamics (Box 2) [23,26]. S, centrosome separation; L, overlap length.
+
+switches between periods of growth and shortening (Figure 2), which is crucial for MT organization in the spindle. Much modeling was done to understand and simulate this behavior [9­12], as well as the force generation by polymerizing and depolymerizing MTs [13­15]. Most of the mathematical modeling of molecular motors, which are crucial force generators in the spindle [3,16], has focused on cytoplasmic dynein [17] and kinesin-1 (which drives intracellular transport and is not a mitotic motor) [16,18,19]. Gathering quantitative
+
+data and modeling of other mitotic motors of the kinesin superfamily would be useful. Force balance models of spindle assembly, maintenance and elongation Spindle morphogenesis proceeds via two pathways, a centrosome-directed assembly pathway or an anastral, chromosome-directed pathway [2,3]. In the former, the MTs are nucleated and their minus ends are kept focused on the centrosomes, and then two MT asters interact via
+
+Box 1. Estimating the search-and-capture time
+Many mitotic questions can be analyzed using both mathematical and computational tools. One good example in which both modeling approaches were used are the estimates of the search-and-capture time [31,32]. To estimate the average time, t, to capture one kinetochore by one MT (Figure 2, main text), let p be the probability of a successful search, and ts and tu be the average times of successful and unsuccessful searches, respectively. To calculate the search time we need to calculate an infinite sum over the number of unsuccessful searches, each term being equal to the total times of unsuccessful and one successful search weighted by the corresponding probabilities: tZ pts C ð1KpÞpðts C tu ÞC ð1KpÞ2 pðts C 2tu ÞC .Z ts C 1Kp tu . The p probability that a search is successful is small, p«1, so t ztu =p. Duration of an unsuccessful search is of the order of the average MT length, l, divided by the growth rate, Vg: tu l=Vg . The probability of the successful search is the product of two factors: probability to grow in the right direction, q, and probability not to catastrophe too early, before reaching the kinetochore, p*: pZ qp Ã Finally, the probability not to catastrophe too early is an exponentially decreasing function of the distance between the kinetochore and centrosome: p Ã Z eKd=l [63]. As a d=l result, we obtain the estimate: t z le g . A simple calculus exercise shows qV that there exists the optimal value of l minimizing t: lzd. Indeed, if l is small, then t is very large: while the time of the search is short, MT catastrophes before reaching the target. But if l is large,t is still large, because unsuccessful searches become longer. This very intuitive conclusion would be hard to reach without this simple mathematics.
+www.sciencedirect.com
+
+To further extend this analysis to the more complex case of multiple MTs searching for multiple targets, simple mathematical analysis is not sufficient and further computational tools are necessary. This can be done by simulating positions of MT plus ends and at each time step testing whether they capture a kinetochore. A simple algorithm that stems from this idea is: (i) Choose the kinetochore positions randomly. (ii) Set initial MTs characterized by a small length, random directions from the minus to plus end, and state (growing or shortening) (iii) Repeat the following computational steps until all chromosomes are captured: For each MT, depending on its state, generate randomly a catastrophe or rescue event, and change (or not) the MT states accordingly. On the basis of the MT state and growth/shortening velocity, update plus end positions. For each MT test whether its length is zero. If so, change its growth angle at random. For each MT, test whether its plus end co-localizes with a kinetochore. If so, `freeze' this MT. This algorithm is very straightforward to implement on a computer. The problem is that simulation time can be very long and to generate large enough sample runs for statistical analysis, a combination of the mathematical and computational approaches is needed [32].
+
+90
+
+Review
+
+TRENDS in Cell Biology
+
+Vol.16 No.2 February 2006
+
+Box 2. Estimating the stable anti-parallel MT overlap in the bipolar spindle
+Another example of combined mathematical and computational modeling is the estimate of the stable anti-parallel MT overlap in the bipolar spindle [23]. The overlap of the anti-parallel MTs shown in Figure 3b (main text) can be described mathematically with the following differential equation: m dL Z fKKkLfC, where m is the effective dt coefficient of resistance to MT aster movement, fK is the force developed by one `plus-end-sticky' motor, fC is the force developed by one `hetero-complex' motor (Figure 4, main text), k is the number of `hetero-complex' motors per unit length of the overlap. This equation kfC fK is easily solved: LZ kfC C CeK m t providing information about the stability of the steady overlapping length ðfK=kfCÞ and its dependence on the motor forces. This mathematical analysis is overly simplified because it does not include many spindle features such as MT elasticity, stochastic fluctuations of MT­motor dynamics and so on. The shortcomings of mathematical analysis are overcome in the study by Nedelec [23], which is an example of sophisticated computer simulations of a bi-polar spindle aster (Figure 3b, main text). In this work, MTs are treated as growing and shortening linear chains of short segments connected by angular springs, so realistic elastic forces are accounted for. The motors crosslink MTs and exert either plus- or minus-end-directed forces that depend on local movement rates and angular order. The motors also associate to and dissociate from MTs with rates dependent on several model parameters. At each computational step, positions, states and orientations of MTs and motors are updated according to laws of mechanics. Thousands of coordinates restrained by multiple physical conditions have to be updated at each computational step, requiring sophisticated numerical codes and fast computers. Thus, the simple mathematical analysis helps to build intuition and understanding of the system, whereas the computational analysis deepens this understanding by allowing more complex assumptions to be tested.
+
+Table 1. Spindle-related models
+Model MT dynamics or entry into mitosis Early spindle elongation Model type Computational and experimental Computational and mathematical (1st generation) Computational, mathematical and experimental (2nd generation) Model outcome Changes in MT transition frequencies alone can explain changes in MT dynamics between interphase and mitosis. A force balance between motor generated outward and inward forces can explain the spindle elongation and steady state during prophase. A force balance between motor generated outward and inward forces and nuclear elasticity can explain spindle elongation to achieve the steady state during prophase. The motor forces are coupled to actin dynamics and regulated. Stable bipolar spindle can be maintained as a result of a force balance generated by motor `hetero-complexes'. The rate of anaphase B spindle elongation is robust and depends only on the free sliding rate of the motors driving outward ipMT sliding and the suppression of ipMT flux. One centrosomal MT can capture one chromosome in realistic timescales. Dynamic instability is a viable strategy for chromosome search and capture, provided MT dynamics parameters are optimized. For realistic numbers of MTs and chromosomes, even optimal dynamic instability is too slow to account for the observed searchand-capture time. MT dynamics biased by a gradient of RanGTP can bring down the search and capture' time to realistic values. Activity gradients of RanGTP and importin-b determine the spatial distribution of MT nucleation and stabilization around chromosomes that are essential for the self-organization of MTs into a bipolar spindle. Balance between dynamically unstable MTs interacting with Hill sleeves at kinetochores and polar ejection forces can explain the oscillations associated with chromosome congression. Tension-dependent dynamic instability alone cannot explain metaphase kinetochore clustering in yeast, but models incorporating spatial gradients of rescue or catastrophe frequencies can. The previous model [49] cannot explain the low incidence of kinetochores crossing the spindle equator in yeast, but a combination of the tension dependent rescue frequency and a spatial gradient of the catastrophe frequency can. The force imbalance in Caenorhabditis elegans embryos is due to a larger number of force generators pulling on astral MTs from the posterior versus the anterior cortex. Spindle oscillations observed in C.elegans embryo mitosis can be explained by an interplay between dynamic force generators pulling on astral MTs and MT elasticity. Amplifying the checkpoint signal through the release of a diffusible inhibitory complex can support reliable checkpoint function. Metaphase spindle length is sensitive to alterations in microtubule dynamics and sister-chromatid cohesion, but robust against alterations of microtubule sliding force. Refs [9] [21]
+
+Early spindle elongation
+
+[22]
+
+Spindle assembly Spindle elongation
+
+Computational Computational, mathematical and experimental Mathematical Mathematical Computational, mathematical and experimental
+
+[23] [26]
+
+Search and capture Search and capture Search and capture
+
+[30] [31] [32]
+
+Search and capture
+
+Computational and experimental
+
+[35]
+
+Directional instability
+
+Computational
+
+[46]
+
+Kinetochore positioning
+
+Computational and experimental (1st generation) Computational (2nd generation)
+
+[49]
+
+Kinetochore positioning
+
+[51]
+
+Spindle positioning
+
+Mathematical and experimental
+
+[52]
+
+Spindle positioning
+
+Mathematical
+
+[56]
+
+Mitotic spindle checkpoint Metaphase spindle length
+
+Mathematical Mathematical and experimental
+
+[59] [27]
+
+www.sciencedirect.com
+
+Review
+
+TRENDS in Cell Biology
+
+Vol.16 No.2 February 2006
+
+91
+
+Key: Chromosomes Centriole GTP tubulin dimer RanGAP Kinetochores Centrosome Microtubule RanGTP gradient RanGTP RanGDP
+
+GDP tubulin dimer RanGEF RanGDP
+
+RanGTP
+
+Vg
+
+Vs
+
+Rescue, fres - + - +
+
+Assembly and growth
+
+Catastrophe, fcat
+
+Disassembly and shortening
+TRENDS in Cell Biology
+
+Figure 2. Microtubule dynamic instability and chemical gradients in the search-and-capture process. A MT with a GTP cap on its plus end grows by assembling GTP­tubulin dimers. When GTP hydrolysis `outruns' the plus-end growth, the cohesion between MT protofilaments is lost, catastrophe occurs, and the MT shortens until GTP-tubulin assembly rescues the filament. This process of dynamic instability can be quantified with four parameters: rates of growth (Vg) and shortening (VS) and rates of catastrophe (fcat) and rescue (fres) (Box 1). One of the uses of dynamic instability is in the centrosomal pathway of the bi-polar spindle assembly - the search-and-capture process [28] - in which MTs probe the space randomly and repeatedly until they capture the kinetochores. To capture all kinetochores in a reasonable time frame, the dynamic instability parameters have to be optimized [31] (Box 1), but even that does not make the process fast enough [32]. One idea as to how the cell could accelerate the search-and-capture is the use of a RanGTP gradient around the chromosomes to bias MT dynamics [33]. The gradient could be established by diffusion and spatial segregation of RanGEF and RanGAP [34].
+
+chromosomes and MT-crosslinking molecules. In the latter pathway, the MTs are nucleated on the chromosomes, and then their minus ends are crosslinked and focused by motors. It is possible, in the centrosome-directed pathway, to monitor progression through mitosis by measuring changes in centrosome separation as a function of time (S(t)). In at least some spindles (e.g. in Drosophila embryos), such measurements reveal a series of transient steady states (defined as quiescent pauses, when dS/ dtZ0; Figure 1), but why do such steady states occur and what determines spindle length [20]? We proposed a model for spindle length regulation during prophase based on a balance of (intrinsic) inward forces generated by the minus-end directed MT-motor
+www.sciencedirect.com
+
+(kinesin-14) sliding interpolar MTs (ipMT) together (Figure 1v), and (extrinsic) outward forces developed by the pulling action of cortical dynein motors acting on the astral MTs (Figure 1ii) [21]. In this model, a steady-state spindle length can be reached provided that the dyneingenerated outward force is approximately constant, whereas the inward force, proportional to the total antiparallel overlap between ipMTs, increases as the poles separate. This simple model evolved into a rare theory­ experiment loop by suggesting experiments to test its assumptions. The experimental findings ­ nuclear stretching, cortical expansion synchronous with pole­pole separation and the asymmetry of astral MT distribution ­ led to a `second generation' model [22] that implicates
+
+92
+
+Review
+
+TRENDS in Cell Biology
+
+Vol.16 No.2 February 2006
+
+elastic stress generated by the nuclear stretching as a significant inward force. The model also suggests that the outward force is kept constant by two factors: (i) the edge of the actin cortex, which determines dynein localization, is maintained at a constant distance from the spindle poles, and (ii) astral MTs growing toward the equator become crosslinked, do not reach the cortex and do not contribute to the outward force. The model emphasizes that elements other than MTs and motors also have important roles in spindle morphogenesis. An alternative approach postulates spindle assembly is driven by purely intrinsic forces. In an earlier computational model, Nedelec [23] investigated the formation of stable bipolar spindles from growing asters of MTs interacting with one another via protein motors similar to the ipMT interactions shown in Figure 1v. The model illustrates that a balance of motor-generated sliding forces can lead to stable bipolar spindles (Figure 3b; Box 2), but unusual motor complexes, coupled plus- and minus-end directed motors, would be required for it. The strength of this study lies in `computer screening': testing plausible ideas and predicting which motor combinations would be sufficient to maintain a stable bipolar spindle structure. Recent experiments [24] support the existence of the predicted coupled plus- and minus-directed motors. In the final stages of mitosis, the separation of spindle poles themselves (anaphase B) contributes to chromatid separation. In Drosophila embryos, anaphase B occurs when the depolymerization of the ipMT minus ends is
+(a) + + + + - - - + - - - Intermediates - + + - -
+
+turned off, which allows bipolar kinesin motors to slide apart ipMTs and elongate the spindle at a steady, linear rate [25,26]. Remarkably, fluorescent recovery after photobleaching (FRAP) experiments reveal that these ipMTs are highly dynamic, so how do they drive such steady movements [26]? Modeling [26] suggested the answer: the ipMTs must have dynamic instability to account for the rapid tubulin turnover observed, yet bipolar kinesin motors, working in the unloaded (forcefree) regime throughout, can exert force on the growing and shrinking tracks to slide them apart and elongate the spindle at a linear rate. The rate itself is controlled by the unloaded sliding rate of the motors and the extent of suppression of flux. Computer simulations based on the model demonstrate its feasibility and replicate many experimental observations of anaphase B in this system. By showing how the spindle can sustain a steady rate of elongation despite substantial variations in MT number and dynamics rates, these simulations illustrate how modeling can be useful for quantitatively exploring the robustness of mitosis, a property that might not be experimentally tractable. Subsequently, an adaptation of this anaphase B force-balance model [26] has been used, together with high-throughput microscopy, to describe the maintenance of metaphase spindle length [27]. How do microtubules capture the chromosomes? During prometaphase, dynamic instability allows astral MTs to search efficiently in space, `probing' the spindle
++ + +
+
++ + + + + +
+
++ - - + + - Time +
+
+(b)
+
+Key: `Plus-end-sticky' motor f- f+ f`Hetero-complex' motor Microtubules L Dynein NuMA
+TRENDS in Cell Biology
+
+Figure 3. Microtubules and motors self-organize into mono- and bi-polar asters. (a) One of the models [39] explains MT aster formation as a synergistic repetitive action of minus-end-directed motors (i.e. dynein) and minus-end-crosslinking proteins (i.e. NuMA). Dynein slides one MT relative to another; when their minus ends co-localize, they get crosslinked by NuMA. (b) In one of the computer screens of the computational model of the bi-polar spindle [23], stable pole separation is explained by the force balance of `hetero-complex' and `plus-end-sticky' motors. The former attempt to move toward plus ends and slide anti-parallel overlapping interpolar MTs apart, decreasing the overlap. The latter try to move toward minus ends and slide the interpolar MTs together, increasing the overlap. Stable steady state is established because the number of the hetero-complex (coupled plus- and minus-end directed) motors is proportional to the overlap length, L. When two MT asters are too far apart, L is small, and the `plus-endsticky' motors dominate converging the poles, but when the poles are too close together, L is large, and the hetero-complex motors separate the poles.
+www.sciencedirect.com
+
+Review
+
+TRENDS in Cell Biology
+
+Vol.16 No.2 February 2006
+
+93
+
+volume until they capture chromosomes by binding to their kinetochores, a process termed `search-and-capture' [28,29] (Figure 2). How such an apparently random process can lead to the proper attachment and alignment of all sister chromatids within such a short time-frame (less than 30 min) remains to be understood. A partial answer to this question was provided by mathematical calculations [30,31] demonstrating that there is an optimal set of dynamic instability parameters that results in the fastest search; the authors estimated that this optimal range leads to alignment within the order of ten minutes or so (Box 1). These simple calculations, however, were not sufficient to provide an estimate of the time it would take to capture multiple chromosomes. Using modeling, it was found, surprisingly, that random delays increase the estimated time for search and capture to hours, even under optimal conditions, because the cell has to `wait' until all chromosomes are captured [32]. In reality, in most situations the cell does not take this long to capture all its chromosomes. What other mechanisms does it use to facilitate capture and can they be integrated into the model to get a time frame more similar to the in vivo situation? One predicted possibility is to use a gradient of RanGTP around the chromosomes to bias the search [33]: a high concentration of RanGTP can stabilize MTs, so MTs would grow more frequently towards a chromosome. Computer simulations showed that indeed such a biased search is fast enough to explain the data [32,34], suggesting that perhaps search-and-capture is not so random after all. Remarkably, a recent study combined mathematical modeling and fluorescent microscopy and essentially proved that RanGTP diffusion away from chromosomes creates an interrelated series of protein gradients that ultimately promotes two different behaviors ­ MT nucleation at chromosomes and stabilization of growing MTs within the spindle ­ and spatially guides mitotic spindle assembly [35]. Another recent work [36] illustrates the usefulness of modeling by demonstrating that the cell uses actin­myosin contraction to aggregate chromosomes towards the MTs to assist MT-dependent search-andcapture when the chromosomes are spread initially over such a large volume that, according to the model [32], even a biased MT search would not be fast enough. Self-assembly of MT asters The spindle consists of two MT asters, in which the minus ends are focused, and the plus ends extend outwards, overlapping into the characteristic bipolar shape (Figure 1). What are the principles of aster formation? The simplest explanation for the aster's stability is that it is assembled by specialized structures: MT minus ends are nucleated and anchored at the centrosomes [37]. Experiments with extracts and purified components showed, however, that MTs and subsets of motors can `selforganize' into asters [38]. The role of modeling was important in this research as it tested minimal sets of mechanisms that could account for the observations. The experiments suggested that minus-end-motor complexes can focus MT minus ends by simultaneously gliding toward these minus ends and sliding respective MTs in space. Computer simulations [38] confirmed that this
+www.sciencedirect.com
+
+mechanism is sufficient, so long as the motor complexes are multivalent, allowing a few MTs to associate with and be moved by one such complex. Two recent theoretical studies added interesting twists to this story. First, computer simulations [39] demonstrated that the action of single, not multivalent, dynein motors can lead to the formation of MT asters if complemented by the nuclear mitotic apparatus protein (NuMA), which crosslinks the minus ends of MTs (Figure 3a). Second, it was found that treadmilling MTs can self-organize into asters simply by dynein-mediated MT nucleation and capping [40]. Experiments are now needed to test the relevance of these results for the formation of asters in the mitotic spindle. Chromosome congression Movements of chromosomes attached to multiple kinetochore MTs (Figure 1) are arguably among the most difficult phenomena to understand mechanistically [41,42]. Nevertheless, the question of how chromosomes congress to the spindle equator, and specifically the corresponding balance of forces, has inspired modeling [30,43]. One of the most intriguing properties of the kinetochores is their ability to alter the dynamics of MTs attached to them. In some cells, attached metaphase chromosomes undergo directional instability [42], characterized by switches between persistent polewards and anti-polewards movements of chromosomes around the spindle equator (Figure 4a). Several semi-quantitative models [44,45] suggested possible explanations for directional instability. The most developed mathematical model [46] is based on the idea of `Hill sleeves', which are hypothetical protein complexes of tubular geometry on the kinetochore in which a MT can be inserted and attached by weak interactions between the sleeve wall and tubulin dimers [30] (Figure 4a). The structure of the recently discovered Dam1 protein complex suggests that this complex might function as the Hill sleeve, although other mechanisms are also possible [47]. The model proposes that tension forces can lead to directional movement of chromosomes simply by driving all depolymerizing MTs out of the sleeves of the trailing kinetochore, and inserting all (polymerizing and depolymerizing) MTs deeper into the sleeves of the leading kinetochore (Figure 4a). Computations demonstrated that such structures, coupled with dynamic instability, can quantitatively explain directional instability, provided that the growth and shrinkage rates of kinetochore-bound MTs are very slow. According to this model, the `polar ejection' forces caused by MTs impinging on chromosome arms stop the poleward movement of the leading kinetochore, allowing the trailing kinetochore to gain more MTs and reverse direction. Using very slow MT dynamics parameters, the model adequately explained the observed durations and rates of chromosomal excursions [48]. Recent work combines experiments and computation to understand metaphase kinetochore positioning in the budding yeast, where, unlike in most other systems, a single MT is attached to each kinetochore, making this system ideal for studying kinetochore­MT interactions [49­51]. In this series of studies, the positions of the tips of
+
+94
+
+Review
+
+TRENDS in Cell Biology
+
+Vol.16 No.2 February 2006
+
+(a)
+
+PE
+
+(b)
+
+Key: Chromosomes Microtubule Kinetochores Centrosome Hill sleeve Dynein
+TRENDS in Cell Biology
+
+Figure 4. Oscillations during mitosis: directional instability and spindle positioning. In some organisms, the chromosomes experience transient directional instability (upper half of the figure) in prometaphase, during the course of which they repeatedly make excursions to the opposite spindle poles. According to one model [46], this behavior can be explained by a balance between stabilizing polar ejection forces (PE) and destabilizing Hill sleeve motor action. Although very different biologically, the mechanical principles underlying mitotic spindle oscillations during unequal cell division (lower half of the figure) are similar: a balance of stabilizing MT polymerization force and destabilizing action of pulling dynein motors on the cell cortex is a plausible mechanism for the oscillations [57]. In both cases, to cause oscillatory behavior, the motors' velocity and association/dissociation kinetics have to be load dependent.
+
+the dynamic kinetochore­MTs, or equivalently the kinetochores, are computed and compared with experimental data. In the initial study, Sprague et al. [49] examined several scenarios for the regulation of MT dynamics, and concluded that simple dynamic instability of MTs or dynamic instability of MTs regulated by kinetochore tension alone cannot explain the observed spatial distribution of kinetochores, whereas spatially regulated dynamic instability with or without tension-dependent regulation could account for the observed positioning of kinetochores. As new data became available, however, the authors continued to question the viability of the models that survived their initial screening, and models were reselected. In a recent study [51], the authors suggest that
+www.sciencedirect.com
+
+the new data (i.e. the low incidence of kinetochores crossing the spindle equator in yeast) can only be reproduced by a refined model in which the MT rescue frequency is regulated by tension, whereas the catastrophe frequency is spatially regulated. Positioning of the mitotic spindle Proper positioning of the nucleus before mitosis is important in many cell types, because it determines the position and orientation of the spindle, which in turn determines the position of the cleavage plane. Mathematical models of nuclear positioning in cells by microtubules with or without motors have been developed and used to determine the key factors that control this
+
+Review
+
+TRENDS in Cell Biology
+
+Vol.16 No.2 February 2006
+
+95
+
+process in various organisms [52,53] as well as in vitro [54]. The models show that, in the absence of motors, growth of MTs into the cell boundary and the subsequent development of polymerization forces and buckling [55] are crucial. When the nucleus or aster moves away from the center of the cell or chamber, MTs at the side closer to the boundary are shorter and develop a larger buckling force than the longer MTs impinging on the opposing side. This force drives the nucleus or aster towards the center until forces from all sides equilibrate. When motor proteins are present and distributed asymmetrically at the cell cortex, the larger buckling forces generated by short and growing MTs can be overcome by pulling MT­motor complexes at the side where more motors are present, resulting in an asymmetric positioning of the nucleus [56]. A more complex phenomenon is the transient oscillations of the spindle in the direction transverse to the spindle axis during asymmetric cell division [52,56,57] (Figure 4b). Current data [52,56] led to the first generation model [57] of this phenomenon, which assumes that MT/ motor dissociation rate increases with the rate at which MTs are being pulled away from the motors. Thus, the faster the pole moves, the greater the force misbalance is, because fewer and fewer MT­motor complexes are maintained at the side from which the pole is moving away. Eventually, the movement stops when sufficient numbers of MTs grow and impinge on the cell wall towards which the spindle pole is moving, and buckle, increasing the restoring force towards the center. Once the direction is reversed as a result of the increased buckling force the cycle repeats itself. This model generates testable predictions on the dependence of parameters that characterize the oscillations on molecular concentrations. It is striking that the model is mathematically very similar to the model of directional instability [46] (Figure 4), although the modeling styles are very different. Looking to the future: the devil is in the details We have focused largely on modeling the mechanical and kinetic aspects of the MT­motor spindle machinery because they are more amenable to modeling, which might be due, in part, to the long history of relevant work on the biophysics of biological motion and enzyme kinetics [7]. The relative paucity of useful models of other aspects of mitosis, such as checkpoints and chromosome cohesion, is one of the main reasons that modeling remains a part of the reductionism agenda, rather than a tool of the systemlevel approach. A comprehensive model of the entire mitotic process cannot be assembled from theoretical modules of sub-processes because most of the modules are still lacking, partly because of incomplete information about mitotic regulatory pathways and about molecules other than MTs and motors, such as the still hypothetical spindle matrix [58] (Figure 1). In fact, modeling can be especially useful when information is incomplete. For example, the first quantitative model of the mitotic spindle checkpoint [59] was developed to examine plausible mechanisms of (i) maintaining a tight inhibition of the molecular complex by an unattached kinetochore, which is necessary for maintaining cohesion between the sister chromatids, and (ii) rapid
+www.sciencedirect.com
+
+removal of this inhibition once the final kinetochore is attached, which leads to degradation of the cohesin. Without specifying the exact biochemical pathway, Doncic et al. [59] solved reaction­diffusion equations describing classes of such pathways and discovered that the only way to both maintain and rapidly remove the tight inhibition is by kinetochore-catalyzing formation of an inhibitory complex that diffuses and inhibits a molecule ultimately responsible for cohesin degradation. These authors, like Nedelec [23], screened plausible theoretical scenarios that will help guide future experiments. A complete understanding of complex mitotic processes will inevitably require multi-disciplinary efforts, of which modeling will undoubtedly be a major part. Three aspects of modeling will be crucial for success. First, the iterative character of the model­experiment loop will allow models to be adapted and improved. Although the initial models proposed will probably not survive experimental scrutiny, the development of first, even relatively crude, models is essential for the emergence of second generation models. Second, modeling will become more comprehensive and powerful through the combination of mathematical and computational approaches. Also, detailed mechanistic models will have to be combined with informatics-type models to deal with incomplete and sometimes noisy data of high-throughput studies [60]. Third, simplistic models might have to become very detailed. On the one hand, Dennis Bray wrote: `The devil was always in the detail. But as we accumulate more . quantitative data on living cells, those diabolical details become increasingly finicky and numerical' [61]. On the other hand, there are network models in which the output is sensitive only to the network topology and is robust to changes in many interaction parameters [62]. Which way mitotic models will turn out is unclear, but the great challenge is to build adequate models of mitosis without making the models as complex as the mitotic spindle itself.
+Acknowledgements
+We thank D. Odde for fruitful discussions.
+
+References
+1 Mitchison, T.J. and Salmon, E.D. (2001) Mitosis: a history of division. Nat. Cell Biol. 3, E17­E21 2 Karsenti, E. and Vernos, I. (2001) The mitotic spindle: a self-made machine. Science 294, 543­547 3 Scholey, J.M. et al. (2003) Cell division. Nature 422, 746­752 4 Pollard, T.D. (2003) The cytoskeleton, cellular motility and the reductionist agenda. Nature 422, 741­745 5 Edelstein-Keshet, L. (1988) Mathematical models in biology, Random House 6 Gagliardi, L.J. (2002) Electrostatic force in prometaphase, metaphase, and anaphase-A chromosome motions. Phys. Rev. E Stat. Nonlin. Soft Matter Phys. 66, 011901 7 Howard, J. (2001) Mechanics of motor proteins and the cytoskeleton, Sinauer Associates 8 Mitchison, T. and Kirschner, M. (1984) Dynamic instability of microtubule growth. Nature 312, 237­242 9 Gliksman, N.R. et al. (1993) How the transition frequencies of microtubule dynamic instability (nucleation, catastrophe, and rescue) regulate microtubule dynamics in interphase and mitosis: analysis using a Monte Carlo computer simulation. Mol. Biol. Cell 4, 1035­1050 10 Sept, D. et al. (2003) The physical basis of microtubule structure and stability. Protein Sci. 12, 2257­2261
+
+96
+
+Review
+
+TRENDS in Cell Biology
+
+Vol.16 No.2 February 2006
+
+11 Vanburen, V. et al. (2005) A Mechanochemical Model of Microtubule Structure and Self-Assembly Kinetics. Biophys. J. 89, 2911­2926 12 Molodtsov, M.I. et al. (2005) A molecular-mechanical model of the microtubule. Biophys. J. 88, 3167­3179 13 Mogilner, A. and Oster, G. (2003) Polymer motors: pushing out the front and pulling up the back. Curr. Biol. 13, R721­R733 14 Dogterom, M. et al. (2005) Force generation by dynamic microtubules. Curr. Opin. Cell Biol. 17, 67­74 15 Molodtsov, M.I. et al. (2005) Force production by depolymerizing microtubules: a theoretical study. Proc. Natl. Acad. Sci. U. S. A. 102, 4353­4358 16 Vale, R.D. (2003) The molecular motor toolbox for intracellular transport. Cell 112, 467­480 17 Singh, M.P. et al. (2005) Monte Carlo modeling of single-molecule cytoplasmic dynein. Proc. Natl. Acad. Sci. U. S. A. 102, 12059­12064 18 Schnitzer, M.J. et al. (2000) Force production by single kinesin motors. Nat. Cell Biol. 2, 718­723 19 Fisher, M.E. and Kolomeisky, A.B. (2001) Simple mechanochemistry describes the dynamics of kinesin molecules. Proc. Natl. Acad. Sci. U. S. A. 98, 7748­7753 20 Sharp, D.J. et al. (2000) Functional coordination of three mitotic motors in Drosophila embryos. Mol. Biol. Cell 11, 241­253 21 Cytrynbaum, E.N. et al. (2003) A force balance model of early spindle pole separation in Drosophila embryos. Biophys. J. 84, 757­769 22 Cytrynbaum, E.N. et al. (2005) Early spindle assembly in drosophila embryos: role of a force balance involving cytoskeletal dynamics and nuclear mechanics. Mol. Biol. Cell 16, 4967­4981 23 Nedelec, F. (2002) Computer simulations reveal motor properties generating stable antiparallel microtubule interactions. J. Cell Biol. 158, 1005­1015 24 Ambrose, J.C. et al. (2005) A minus-end-directed kinesin with plusend tracking protein activity is involved in spindle morphogenesis. Mol. Biol. Cell 16, 1584­1592 25 Brust-Mascher, I. and Scholey, J.M. (2002) Microtubule flux and sliding in mitotic spindles of Drosophila embryos. Mol. Biol. Cell 13, 3967­3975 26 Brust-Mascher, I. et al. (2004) Model for anaphase B: Role of three mitotic motors in a switch from poleward flux to spindle elongation. Proc. Natl. Acad. Sci. U. S. A. 101, 15938­15943 27 Goshima, G. et al. (2005) Length control of the metaphase spindle. Curr. Biol. 15, 1979­1988 28 Kirschner, M. and Mitchison, T. (1986) Beyond self-assembly: from microtubules to morphogenesis. Cell 45, 329­342 29 Nedelec, F. et al. (2003) Self-organisation and forces in the microtubule cytoskeleton. Curr. Opin. Cell Biol. 15, 118­124 30 Hill, T.L. (1985) Theoretical problems related to the attachment of microtubules to kinetochores. Proc. Natl. Acad. Sci. U. S. A. 82, 4404­4408 31 Holy, T.E. and Leibler, S. (1994) Dynamic instability of microtubules as an efficient way to search in space. Proc. Natl. Acad. Sci. U. S. A. 91, 5682­5685 32 Wollman, R. et al. (2005) Efficient chromosome capture requires a bias in the `search-and-capture' process during mitotic-spindle assembly. Curr. Biol. 15, 828­832 33 Carazo-Salas, R.E. et al. (2001) Ran-GTP coordinates regulation of microtubule nucleation and dynamics during mitotic-spindle assembly. Nat. Cell Biol. 3, 228­234 34 Odde, D.J. (2005) Chromosome capture: take me to your kinetochore. Curr. Biol. 15, R328­R330 35 Caudron, M. et al. (2005) Spatial coordination of spindle assembly by chromosome-mediated signaling gradients. Science 309, 1373­1376 36 Lenart, P. et al. (2005) A contractile nuclear actin network drives chromosome congression in oocytes. Nature 436, 812­818 37 Karsenti, E. et al. (1984) Role of the centrosome in organizing the interphase microtubule array: properties of cytoplasts containing or lacking centrosomes. J. Cell Biol. 98, 1763­1776
+
+38 Nedelec, F.J. et al. (1997) Self-organization of microtubules and motors. Nature 389, 305­308 39 Chakravarty, A. et al. (2004) A mechanistic model for the organization of microtubule asters by motor and non-motor proteins in a mammalian mitotic extract. Mol. Biol. Cell 15, 2116­2132 40 Cytrynbaum, E.N. et al. (2004) Computational model of dyneindependent self-organization of microtubule asters. J. Cell Sci. 117, 1381­1397 41 Marshall, W.F. et al. (2001) Chromosome elasticity and mitotic polar ejection force measured in living Drosophila embryos by fourdimensional microscopy-based motion analysis. Curr. Biol. 11, 569­578 42 Maiato, H. et al. (2004) The dynamic kinetochore-microtubule interface. J. Cell Sci. 117, 5461­5477 43 Bjerknes, M. (1986) Physical theory of the orientation of astral mitotic spindles. Science 234, 1413­1416 44 Khodjakov, A. et al. (1999) Dumb" versus "smart" kinetochore models for chromosome congression during mitosis in vertebrate somatic cells. Cell Motil. Cytoskeleton 43, 179­185 45 Maddox, P. et al. (2003) Direct observation of microtubule dynamics at kinetochores in Xenopus extract spindles: implications for spindle mechanics. J. Cell Biol. 162, 377­382 46 Joglekar, A.P. and Hunt, A.J. (2002) A simple, mechanistic model for directional instability during mitotic chromosome movements. Biophys. J. 83, 42­58 47 Salmon, E.D. (2005) Microtubules: a ring for the depolymerization motor. Curr. Biol. 15, R299­R302 48 Skibbens, R.V. et al. (1993) Directional instability of kinetochore motility during chromosome congression and segregation in mitotic newt lung cells: a push-pull mechanism. J. Cell Biol. 122, 859­875 49 Sprague, B.L. et al. (2003) Mechanisms of microtubule-based kinetochore positioning in the yeast metaphase spindle. Biophys. J. 84, 3529­3546 50 Pearson, C.G. et al. (2004) Stable kinetochore-microtubule attachment constrains centromere positioning in metaphase. Curr. Biol. 14, 1962­1967 51 Gardner, M.K. et al. (2005) Tension-dependent regulation of microtubule dynamics at kinetochores can explain metaphase congression in yeast. Mol. Biol. Cell 16, 3764­3775 52 Grill, S.W. et al. (2003) The distribution of active force generators controls mitotic spindle position. Science 301, 518­521 53 Tran, P.T. et al. (2001) A mechanism for nuclear positioning in fission yeast based on microtubule pushing. J. Cell Biol. 153, 397­411 54 Holy, T.E. et al. (1997) Assembly and positioning of microtubule asters in microfabricated chambers. Proc. Natl. Acad. Sci. U. S. A. 94, 6228­6231 55 Dogterom, M. and Yurke, B. (1997) Measurement of the force-velocity relation for growing microtubules. Science 278, 856­860 56 Grill, S.W. et al. (2001) Polarity controls forces governing asymmetric spindle positioning in the Caenorhabditis elegans embryo. Nature 409, 630­633 57 Grill, S.W. et al. (2005) Theory of mitotic spindle oscillations. Phys. Rev. Lett. 94, 108104 58 Mitchison, T.J. et al. (2005) Roles of polymerization dynamics, opposed motors, and a tensile element in governing the length of Xenopus extract meiotic spindles. Mol. Biol. Cell 16, 3064­3076 59 Doncic, A. et al. (2005) Evaluating putative mechanisms of the mitotic spindle checkpoint. Proc. Natl. Acad. Sci. U. S. A. 102, 6332­6337 60 Sachs, K. et al. (2005) Causal protein-signaling networks derived from multiparameter single-cell data. Science 308, 523­529 61 Bray, D. (2001) Cell Movements: from molecules to motility, Garland Publishing 62 von Dassow, G. et al. (2000) The segment polarity network is a robust developmental module. Nature 406, 188­192 63 Dogterom, M. and Leibler, S. (1993) Physical aspects of the growth and regulation of microtubule structures. Phys. Rev. Lett. 70, 1347­1350
+
+www.sciencedirect.com
+
+

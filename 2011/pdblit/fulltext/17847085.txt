@@ -1,0 +1,259 @@
+proteins
+STRUCTURE O FUNCTION O BIOINFORMATICS
+
+Epitope mapping and structural analysis of an anti-ErbB2 antibody A21: Molecular basis for tumor inhibitory mechanism
+Siyi Hu,1 Zhiqiang Zhu,2 Liangwei Li,1 Liang Chang,1 Weifang Li,1 Liansheng Cheng,1 Maikun Teng,2* and Jing Liu1*
+1 Lab of Cellular and Molecular Immunology, School of Life Sciences, University of Science and Technology of China, Hefei 230027, People's Republic of China 2 Hefei National Laboratory for Physical Sciences at Microscale, University of Science and Technology of China, Hefei 230027, People's Republic of China
+
+ABSTRACT Anti-ErbB2 antibodies targeting distinct epitopes can have different biological functions on cancer cells. A21 prepared by surface epitope masking (SEM) method is a tumorinhibitory anti-ErbB2 monoclonal antibody. Previously we engineered a single chain chimeric antibody chA21 with potential for therapy of ErbB2-overexpressing tumors. Here, we mapped the A21 epitope on ErbB2 extracellular domain (ECD) by screening a combinatorial phage display peptide library, serial subdomain deletion, and mutagenesis scanning. X-ray crystal structure of the A21 ° scFv fragment at 2.1 A resolution was also determined. A molecular model of Ag-Ab complex was then constructed based on the crystal structures of the A21 scFv and ErbB2 ECD. Some of biological functions of the A21 mAb and its derivative antibodies including their tumor cell growth inhibition and effects on the expression, internalization, and phosphorylation of ErbB2 receptor were also investigated. The results showed that A21 recognized a conformational epitope comprising a large region mostly from ErbB2 extracellular subdomain I with several surface-exposed residues important for the binding affinity. These data provide unique functional properties of A21 that are quite different from two broadly used antiErbB2 mAbs, Herceptin and 2C4. It suggested that the A21 epitope may be another valuable target for designing new anti-ErbB2 therapeutics.
+C V 2007 Wiley-Liss, Inc.
+
+INTRODUCTION ErbB2 (also named Her2/neu, p185) is a member of epidermal growth factor receptor (EGFR) family, which comprises an extracellular domain (ECD) with four subdomains (I/L1, II/S1, III/L2, IV/S2), a single transmembrane domain, and an intracellular tyrosine kinase domain.1 With no direct ligands, ErbB2 acts as the preferred heterodimerization partner with other members of ErbB receptors superfamily (named ErbB1/EGFR, ErbB3 and ErbB4) and thus plays a key role in coordinating the family signaling network for regulating cell proliferation and differentiation.2,3 ErbB2 is frequently overexpressed in many epithelial tumors, especially in malignant breast and ovarian cancers.4 ErbB2 overexpression in these cancers often correlates with tumor metastasis and poor prognosis, making it an attractive target for cancer immunotherapy.5 In the recent years, a great number of monoclonal antibodies (mAbs) and engineered antibody fragments (such as scFvs) against ErbB2 ECD have been developed and evaluated for clinical applications of tumor diagnosis and therapy.6­10 Although the majority of these antibodies can inhibit tumor cell growth with various efficiencies in vitro and in vivo, some of them have no effects or even stimulate tumor cell growth. Furthermore, the diverse functions of anti-ErbB2 antibodies appear to be more related to their paratopes specificity than to affinity or isotype.11­13 It was proposed that anti-ErbB2 antibodies with different epitopes can have discrepant effects on ErbB2 physiological functions and consequent changes in signaling properties.14­16 But the molecular mechanisms underlying these discrepancies were not well characterized. Additionally, due to the complicated structure of ErbB2 ECD, only a small fraction of
+
+Proteins 2008; 70:938­949.
+
+Key words: ErbB2; epitope mapping; antibody structure; docking; signaling.
+
+Grant sponsor: National Nature Science Foundation of China; Grant numbers: 30570352, 30121001, 30430007, 30400078, 300250128; Grant sponsor: Specialized Research Fund for the Doctoral Program of Higher Education; Grant number: 20060358021; Grant sponsor: Nature Science Foundation of Anhui Province; Grant number: 050430201; Grant sponsor: Hi-Tech Research and Development Program (``863'' Program) of China; Grant numbers: 2001AA215381, 2004CB520801. Siyi Hu and Zhiqiang Zhu contributed equally to this work. *Correspondence to: Maikun Teng, Hefei National Laboratory for Physical Sciences at Microscale, University of Science and Technology of China, Hefei 230027, People's Republic of China. E-mail: mkteng@ustc.edu.cn or Jing Liu, Lab of Cellular and Molecular Immunology, School of Life Sciences, University of Science and Technology of China, Hefei 230027, People's Republic of China. E-mail: jliu@ustc.edu.cn Received 25 October 2006; Revised 25 March 2007; Accepted 28 March 2007 Published online 10 September 2007 in Wiley InterScience (www.interscience.wiley.com). DOI: 10.1002/prot.21551
+
+938
+
+PROTEINS
+
+C V 2007 WILEY-LISS, INC.
+
+Epitope Mapping of an Anti-ErbB2 Antibody A21
+
+anti-ErbB2 antibodies have been finely epitope-mapped. Thus, it is very important to determine the precise epitopes of anti-ErbB2 antibodies for better understanding their molecular mechanisms, optimizing immunotherapy strategies, and designing new antitumor regents. Previously we generated an anti-ErbB2 mAb by surface epitope masking (SEM) method, A21, which showed specific inhibitory activity on the proliferation of ErbB2overexpressing cancer cells.17,18 We have constructed a single chain chimeric antibody chA21 by fusing the genes of the single chain antibody fragment (scFv) of A21 to human Fc fragment, and the engineered antibody also showed potentials on the ErbB2-overexpressing tumors as its parental mAb A21.19,20 Here, we mapped the A21 epitope on ErbB2 ECD precisely by combinatorial utilization of phage display, serial subdomain deletion, and mutagenesis scanning. X-ray crystal structure of the A21 ° scFv fragment at 2.1 A resolution was also determined. To better understand the binding interface and possible residue contacts of Ag-Ab complex, a molecular modeling was performed according to the crystal structures of both the A21 scFv and ErbB2 ECD. Some of biological functions of the A21 mAb and its derivative antibodies on cancer cells were also investigated. All these investigations provide the molecular basis for exploring the relationship between A21 epitopes and its antitumor functions and for designing new anti-ErbB2 molecular therapeutics. MATERIALS AND METHODS
+Cell cultures, antibodies, and reagents
+
+then blocked with 5% BSA in TTBS (TBS with 0.5% Tween 20) for 1 h. In the first round of selection, the amplified phage solution (1.5 3 1011 pfu/well) was added to react with the plate-coated A21 for 30 min at room temperature. After the wells were washed with 0.3% BSA/0.1% Tween 20 in TBS six times each for 3 min, the bound phage clones were eluted with 0.2M Glycine-HCl (pH 2.2) and then used to infect E. coli ER2378. For the second and third round, at least 1010 and 109 pfu/well phage was used and the wells were washed with 0.3 and 0.5% Tween 20, respectively. Phage clones from the third biopanning elution were amplified and then tested for reactivity to the plate-bound A21 mAb by ELISA using HRP-conjugated anti-M13 antibody (1:1000; Pharmacia). The M13 phage DNA was prepared from positive clones and sequenced using the M13 -96 pIII primer.
+Binding assays of mAb A21 to ErbB2 ECD subdomains in the mammalian cell system Vector construction and cell transfections
+
+The cDNA of individual subdomains of ErbB2 ECD was amplified by PCR from the full-length human ErbB2 cDNA vector and the native signal sequence was added at its N-terminus. The PCR products were digested with EcoRI and BamHI and cloned into the pSectagB vector. Mammalian 293T cells were transfected with 1 lg DNA in serum-free medium using Lipofectamine 2000 (Invitrogen), and then cultured in fresh medium with 2% FBS for additional 96 h. The supernatants from these transient transfected cell cultures were used for binding assay.
+Capture ELISA
+
+Human breast cancer cells SKBR3 were cultured in RPMI 1640 medium (Gibco) with 10% FBS at 378C, 5% CO2. The A21 and A18 mAbs, the engineered chA21, and scFv fragments were prepared as described in previous studies.17,20,21 Herceptin (4D5) as a positive control antibody which bounds to subdomain IV of ErbB2 ECD specifically was purchased from Genetech. The vector containing the cDNA of full-length human ErbB2 was a generous gift from Dr. M. I. Greene (School of Medicine, University of Pennsylvania).
+Phage display peptide library screening
+
+The 96-well microtiter plates (Nunc) were coated with purified A21 mAb at 1 lg/mL in PBS overnight at 48C and blocked with 1% nonfat milk in TPBS (PBS with 0.05% Tween 20) at room temperature for 1 h. The plates were then incubated with diluted culture supernatants in PBS for 1 h. HRP-conjugated mouse anti-myc IgG at 1/5000 dilution (Invitrogen) was added for another 1-h incubation. The color reaction was developed using the substrate OPD (Sigma) and the absorbance at 490 nM was measured.
+Affinity determinations of mAb to ErbB2 subdomain mutants by the E. coli GST-fusion system Vector construction
+
+Phage display peptide library screening was kindly provided by Prof. C. Liu at the Institute of Basic Medical Sciences, Academy of Medical Sciences of China. The PhD-12TM phage display peptide library kit was purchased from New England Biolabs. This is a combinatorial 12-mer peptide library fused to the major coat protein (pVIII) of M13 phage. Three rounds of biopanning were performed to enrich peptides binding to A21 mAb. Briefly, 96-well microtiter plates were coated with purified A21 mAb (100 lg/mL) in PBS overnight at 48C and
+DOI 10.1002/prot
+
+The cDNAs of ErbB2 subdomains were amplified from full-length human ErbB2 cDNA vector by PCR and then cloned into the EcoRI-XhoI sites of the pGEX-4T1 vector. Site-directed mutagenesis was performed using the Quick Change Mutagenesis Kit (Stratagene).
+PROTEINS
+
+939
+
+S. Hu et al.
+
+Bacterial expression
+
+The recombinant vector was transformed into the E. coli strain Origami B (pLysS) as described previously.22 Single clone was cultured in 200 mL LB medium overnight to a cell density of 0.3­0.4 OD600nm and then induced with 0.1 mM IPTG for 24 h at 168C with shaking at 200 rpm. The cells were harvested by centrifugation (2500g, 10 min, 48C), resuspended in 10 mL PBS, and lysed by high pressure (1280 psi). The bacterial lysates were clarified by centrifugation (20,000g, 20 min, 48C) and soluble fragments of the subdomains or mutants were directly used to measure the relative affinity for A21 mAb.
+Quantitive ELISA
+
+chrotron Radiation Facility (BSRF) at the Institute of High Energy Physics, Chinese Academy of Sciences. The diffraction data were processed using DENZO and SCALEPACK.23
+Structure determination and refinement
+
+To measure the concentration of GST fusion protein, microtiter plates were coated with serially twofold diluted lysates or purified GST protein as standard in 50 mM NaHCO3, pH 9.6, overnight at 48C and then blocked with 1% nonfat milk. HRP-conjugated mouse anti-GST IgG (1:5000; Pharmacia) was added into the plates for 1-h incubation to quantify the expression level of each mutant. Lysates were then normalized to 1 mg/L GST standard. To determine the binding of A21 to mutants, microtiter plates were coated with 1 lg/mL A21 as the capture antibody in PBS overnight. Serial twofold dilutions of normalized lysates were added to the plates for 1-h incubation. The bound mutants were detected with HRP-conjugated mouse anti-GST IgG. The half-max binding concentration (EC50) of each mutant was calculated from the binding curves, and the relative affinity was estimated by dividing the EC50 of each mutant by the EC50 of wild-type GST-ErbB2 1­192 aa.
+Crystallization and structure determination of A21 scFv Expression and purification of A21 scFv
+
+The crystal structure of A21 scFv was determined by molecular replacement using Molrep24 with the coordi° nates of an anti-ampicillin scFv (1.7 A, PDB code: 1H8N) as search model. Molecular replacement yielded two solutions, corresponding to the expected two scFv molecules (Mol A and Mol B) in one asymmetric unit. The model was then subjected to structure refinement using the programs CNS25 and Refmac 5.0,26 with 5% of the reflection data randomly chosen for Rfree calculation. The simulated annealing and energy minimization refinement were then performed using the data within ° the resolution range of 30.0­2.1 A. Subsequently, temperature factor refinement was carried out and solvent molecules were gradually added to the model. Model building and real space refinement were carried out with O27 referring to the sigma weight 2Fo-Fc maps. The final structure was checked using the program PROCHECK.28 The coordinates of A21 scFv structure have been deposited to Protein Data Bank (PDB code: 2GJJ).
+Docking A21 scFv with ErbB2 ECD
+
+The A21 scFv gene was cloned into the pPIC9K vector and expressed in Pichia pastoris.21 The secreted scFv in culture medium was purified to 95% purity by Ni21-chelating affinity and Superdex-G75 gel filtration chromatography. The purified scFv was then desalted, concentrated to 12 mg/mL in 5 mM Tris-HCl, pH 7.5, and crystallized by the hanging-drop vapor diffusion method at 188C. In brief, protein was mixed 1:1 with mother liquor (20% polyethylene glycol 10000, 100 mM Hepes, pH 7.5) and equilibrated against the reservoir solution as same as mother solution. The rod crystal could be seen with microscope after several days.
+Data collection
+
+Rigid docking of the crystal structure of A21 scFv onto ErbB2 ECD was performed using the rigid docking software HEX 4.5 for Windows.29 To reduce computational calculations, only the N-terminal fragment 1­192 aa of ErbB2 ECD (PDB code: 1S78) was used during model searching. The procedure was started with the experimentally determined epitope region roughly located around the six complimentarily determining regions (CDRs) of A21 scFv. Both proteins were then allowed to ° rotate Æ308 in each direction and Æ10 A along the intermolecular axis. For individual calculations, correlation type was set as shape only or shape 1 electrostatics. The RMS deviation threshold for cluster membership was set ° as default value (2 A). No post processing parameter for energy minimization was chosen because it was difficult to decide how much conformational change during the complex formation. Other parameters were set as default during modeling search. The changes in solvent accessible surface areas were calculated as the differences between the accessible surface areas of the bound and free proteins by using ASC 3.13.30
+Biological functions assay of antibodies Cell proliferation assay
+
+A dataset was collected from a single crystal of the protein at 100 K on beamline 3W1A of the Beijing Syn-
+
+SKBR3 cells were seeded in 96-well culture plates at a density of 2 3 103 cells/well overnight. After treatment
+DOI 10.1002/prot
+
+940
+
+PROTEINS
+
+Epitope Mapping of an Anti-ErbB2 Antibody A21
+
+with respective antibodies at various concentrations for 4 days, the plates were added with CCK-8 reagent (Dojindo) and incubated for additional 2 h at 378C. The absorbance at 450 nm was measured and the relative number of living cells was calculated according to the manufacturer's instructions.
+Western blotting
+
+SKBR3 cells were starved for 24 h in serum-free medium and then treated with various antibodies (20 lg/ mL) or heregulin b, a ligand of ErbB3 receptor (50 ng/ mL; Sigma), for 30 min. The cells were harvested and lysed in 13 reducing loading buffer with protease inhibitor cocktail (Sigma) and 1 mM NaVO3 on ice for 10 min. The cell lysates were subjected to 7.5% SDSPAGE and then electrotransferred to nitrocellulose membrane. After blocking with 3% BSA in TTBS, the membrane was incubated with mouse anti-total ErbB2 receptor antibody Ab-17 or anti-phos-ErbB2 Tyr-1248 antibody Ab-18 (0.1 lg/mL; NeoMarkers) following HRP-conjugated goat anti-mouse antibody (1:1000; Sigma) each for 2 h. The protein signals were detected using enhanced ECL regent (Pierce).
+Flow cytometric analysis
+
+Figure 1
+Alignment of phage peptide sequences. Three rounds of biopanning were used to enrich for A21-binding peptides from the 12-mer random peptide library. Fifteen clones with the strongest reactivity were sequenced.
+
+After treatments by antibody for 30 min, 8, or 24 h, SKBR3 cells were collected and washed with PBS three times. The cells were incubated with Herceptin (10 lg/ mL in 1% BSA/PBS) and then with FITC-conjugated goat anti-human antibody (1:1000; Sigma) for 30 min at 48C to label the amount of cell-surface ErbB2 receptor. The fluorescence intensity was analyzed using a FACScan (BD Bioscience) at 488 nM. RESULTS
+A21 epitope mapping by phage display
+
+gested that the A21 epitope should be discontinuous or conformation dependent. The subdomain III­IV construct in the following experiment failed to react with mAb21, ruling out 539LPCHP543 as the binding site for A21. The selected peptides from the phage display represented only minotopes of the A21 epitope.
+A21 epitope mapping by ErbB2 ECD subdomains
+
+To identify the epitope mimicking sequences on the ErbB2 ECD recognized by A21 mAb, a phage-displayed 12-mer random peptide library was first used to screen for immunoreactive peptides. After three rounds of biopanning procedures with stepwise stricter washing conditions, 15 phage clones which showed the strongest reactivity to mAb A21 (ELISA signals >1.0) and no crossreaction to another anti-ErbB2 mAb A18 were selected and sequenced. As shown in Figure 1, these sequences were characterized by a consensus motif of five residues (L)-P-(Q/R)-H-P. The residues P, H, and P were always present while L, Q, or R frequently occurred. Sequence alignment showed that there was a linear region of 539 LPCHP543 in the C-terminus of ErbB2 subdomain IV resembling this motif. However, western blotting analysis using the reduced and heat-treated T6-17 cell lysates which overexpressed ErbB2 receptor showed that A21 mAb could not recognize the denatured antigen. It sugDOI 10.1002/prot
+
+To identify which subdomain of ErbB2 ECD was involved in the interaction with mAb A21, a panel of subdomain constructs was expressed in mammalian cell 293T transiently and their binding activities for mAb A21 were determined by capture ELISA. As shown in Figure 2, both the full-length ErbB2 ECD and the subdomain I­II constructs showed obvious immunoreactivity for A21. However, the subdomain II­III and III­IV constructs, as well as subdomain I or II single domain constructs, showed no reactivity. As a control, the full-length ErbB2 ECD and subdomain III­IV were specifically bound by the antibody Herceptin, consistent with other reported studies on the localization of Herceptin epitope at the C-terminus of subdomain IV. These data indicated that the A21 epitope should localize in the subdomain I­ II of ErbB2 ECD instead of subdomain IV.
+A21 epitope mapping by GST-fused ErbB2 subdomain deletions
+
+To identify the A21 epitope more exactly, a series of deletion mutants of ErbB2 subdomain I­II were conPROTEINS
+
+941
+
+S. Hu et al.
+
+Figure 2
+Expression and binding assay of ErbB2 ECD subdomains to A21 mAb. The full-length ErbB2 ECD and the subdomain deletions were schematically represented. All constructs were expressed transiently in 293T cells as fusions to N-terminal ErbB2 native signal peptide (SP) and C-terminal myc- and his- tag (Tag). (1) represents positive binding signals for A21 with the P/N value >2.1 by capture-ELISA.
+
+structed and expressed in the E. coli GST-fusion system. Soluble GST-fused protein products could be obtained from the bacterial lysates with the yield 10­20 mg/L as described previously.22 As an example, expression and purification of 1­192 aa fragment was shown in Figure 3(A). Both purified GST-fusion proteins and the fragments after thrombin cleavage of the GST domain were stable and could be identified on SDS-PAGE. The relative affinity of these mutants was measured by twostep ELISA assays. As shown in Figure 3(B), all of the deletion mutants containing the complete 1­192 amino acids of ErbB2 ECD showed comparable binding activities to A21 mAb. However, any additional truncation at the N- or C-terminal ends of the 1­192 aa fragment
+
+resulted in dramatic affinity loss by at least 100-fold. It thus proved that the A21 binding site was located in the N-terminal 1­192 region of ErbB2 ECD subdomain I­II.
+A21 epitope mapping by mutagenesis scan of ErbB2 1­192 aa fragment
+
+To further define the amino acids important for binding to A21 mAb, a site-directed mutagenesis scan on the ErbB2 1­192 aa fragment was performed by using the GST-fusion system. The target residues for mutation were first filtered according to their solvent-accessible surface areas based on the crystal structure of ErbB2 ECD. A total of 32 residues, which have partially or fully
+
+Figure 3
+Expression and affinity analysis of GST-ErbB2 subdomain mutants to A21 mAb. (A) SDS-PAGE analysis of GST-ErbB2 1­192 aa fragment expression in E. coli. Lane 1: molecular weight marker; Lane 2: bacterial lysates control; Lane 3: supernatants of induced bacterial lysates; Lane 4: pellets of induced bacterial lysates; Lane 5: purified GST-fused 1­192 aa fragment; Lane 6: thrombin cleavage products; Lane 7: purified 1­192 aa fragment. (B) Relative binding affinity of the mutants to A21 determined by two-step ELISA. The affinity value (Kd) of wild-type GST-ErbB2 fragment 1­192 aa for A21 was determined to be 2.0 nM by ELISA method as described previously.18 This affinity was normalized as 100%.
+
+942
+
+PROTEINS
+
+DOI 10.1002/prot
+
+Epitope Mapping of an Anti-ErbB2 Antibody A21
+
+Table I
+Relative Affinity of ErbB2 Mutants Binding to A21 mAb
+
+Mutation
+
+Affinity (%)
+
+Mutation S48 Q71A R116A, E R121A T144A R166A, K A169Q S174A K178A E185A, R E188A L24A L115 P137A C4/C31
+
+Affinity (%) 79.5 37.5 36.4, 5.42 22.2 59.6 2.45, 15.5 108 61.7 56.2 78.0, 27.7 53.4 0.11 0.23 38.4 0.12
+
+Mutation S50 S111A E117A Q138A, N T164A S167A H171A P175A S180A S186A
+
+Affinity (%) 92.3 76.9 40 7.5, 43.8 105 115 0.51 153 100 68.0
+
+(a) Surface-exposed residuesa T45 91.0 R70A 47.1 P112A 76.2 Q119 31.3 D143A 2.34 N165A 66.0 R168A, K 0.11, 33.0 P172A 0.12 M176A 155 R181A 72.7 S187A 44.0 (b) Buried or side-chain constrained residues H20A 0.23 L74A 1.1 Q142A 9.8 W183A 0.22
+a
+
+P73A Y141A, F W147A C182/C190
+
+22.3 0.9, 79.4 0.12 0.09
+
+Mutations whose affinity loss above 10-fold are shown in bold.
+
+exposed side chains at the structural surface, were selected to be mutated and their effects on the affinity to A21 were summarized in Table I(a). Among them, two successive residues, H171 and P172, were considered as the potential key residues because they resemble the consensus sequence from phage display. As expected, the affinity of H171A mutant for A21 was $200-fold lower than that for the wild-type ErbB2 1­192 aa fragment, while P172A mutant led to much more affinity loss: 700fold. Alanine substitution of a cluster of hydrophilic or charged residues around these two residues, including R116, Q138, D143, R166, and R168 also showed significant affinity decrease of 10- to 100-fold. Mutations of some other residues, including R70, Q71, E117, Q119, R121 from subdomain I and E185, S187 from subdomain II, led to moderate affinity loss for 2- to 10-fold. Putatively, these residues should position in or near the A21 epitope site or be structurally critical for the epitope to make contact with the A21 mAb. In addition, we identified a number of residues with buried or conformationly strained side chains whose mutations also led to dramatic loss of the binding activity for A21 mAb, although some of them appeared far away from the A21 epitope site, as summarized in Table I(b). Putatively, these mutations may disrupt the hydrophobic core of subdomain I, lead to misfolding, or conformational destabilization of the epitope structure, and thus abate the binding for A21.
+Structure description of A21 scFv
+
+ular replacement revealed two scFv molecules in one asymmetric unit that were held together nonsymmetrically in a head-to-head mode (Fig. 4). The A21 scFv structure showed a satisfactory completeness, except that the side chains of a few residues in the antigen-binding site, including Y189, E240 in Mol A and Y31, N33, E240
+
+Table II
+Data Collection and Model Refinement Statistics
+
+Data collection Space group a () b () c () Resolution limits () The highest resolution shell () Rmerge (%)a Completeness (%)c Nonhydrogen protein atoms Solvent molecules Refinement Number of independent reflections Number of reflections Rfree Rcrystallography (%) Rfree (%) RMS deviations from ideal geometry Bond length () Bond angle (8) Average isotropic B factors (2) Ramachandran statistics Fully allowed regions Addition allowed regions Generously allowed regions Disallowed regions
+a
+
+I222 73.94 86.63 178.59 50­2.10 2.18­2.10 6.9 (40.1)b 98.3 (99.0)b 3623 402 33,345 1667 18.9 22.6 0.008 1.176 28.36 91.7 7.1 0.7 0.5
+
+The three-dimensional crystal structure of the A21 ° scFv fragment was determined at a resolution of 2.1 A. The statistics of structure refinement and overall quality of the final structure are summarized in Table II. MolecDOI 10.1002/prot
+
+Rmerge 5 Sh Sj |hI(h)i 2 I(h)j|/Sh Sj I(h)j, where I(h)j is the jth observed reflection intensity and hI(h)i is the mean intensity of reflection h. b Values in parentheses are for the highest resolution shell. c The completeness is the ratio of number of observed reflections to that of possible reflections.
+
+PROTEINS
+
+943
+
+S. Hu et al.
+
+Figure 4
+Overview structure of the A21 scFv fragment in stereo. Two scFv molecules (Mol A and Mol B) are in one asymmetric unit. The six CDR loops (L1­L3 and H1­H3) are labeled. This figure is generated by PyMOL v0.99.
+
+in Mol B, were poorly defined due to weak electron density. Individual light-chain and heavy-chain from two molecules were virtually identical, with the RMS devia° tions 0.330 and 0.214 A, respectively. When the two scFv molecules were superposed, the overall RMS deviation ° was only 0.309 A. It reflected a very similar VL/VH interaction surface between the two molecules in the asymmetric unit. Analysis of canonical structures of six CDR loops showed the following conformations: L1, VK class 3; L2, class 1; L3, class 1; H1, class 1; H2, class 3, as determined from the length, sequence, and conformation of the loops.31,32 Especially in loop L1, Y34 instead of N34 was observed, thus no hydrogen-bond formed between Y34 and K39, which was different from the standard canonical class 3. In loop H2, H210 interacted with three main-chain amide groups of S212, S213, and S214, and therefore it may be a new subclass of canonical class 3. Although loop H3 is generally not assumed for canonical
+
+classification, A21 possessed an unusually long H3 loop of 16 residues and showed a bulged torso conformation which was further stabilized by two salt-bridges between R235 and D245 as seen in many antibodies.33 The molecular surface of the antigen-binding site was rather rough and not flat, and formed a deep cavity characterized by the long L1 and H3 loops protruding out while the L2 loop withdraws back from the surface.
+A21 scFv and ErbB2 ECD complex from computational docking
+
+To further elucidate the structural characteristics of A21 bound to ErbB2, a computational docking was performed using HEX 4.5. HEX sorts the 10,000 lowest energy solutions by calculated energy and the best 500 solutions are clustered for viewing. These solutions were then visually examined and evaluated with respect to experimental and theoretical criterions. First, the optimum
+DOI 10.1002/prot
+
+944
+
+PROTEINS
+
+Epitope Mapping of an Anti-ErbB2 Antibody A21
+
+Figure 5
+Modeling of the A21 scFv and ErbB2 ECD complex. Details for docking calculation and model selection are described in Materials and Methods section. (A) Overview structure of the complex. ErbB2 ECD subdomain I (red), II (green), III (magentas), IV (cyan), and A21 scFv (gray) are shown. (B) The binding interface of the complex in stereo. The predicted contacting residues are showed and labeled out with carbon atoms from their side chains. These residues include Y31, N34, N35, Y38, Y97, S98, N99, Y100, T164, F167, S186, S188, Y189, T191, N235, Y236, Y239 from A21 scFv (yellow) and R70, Q71, R116, Q119, Q138, D143, R166, R168, A169, C170, H171, ° P172, E185 from ErbB2 ECD (green). Most of their distances are less than 5 A in the model. This figure is generated by PyMOL v0.99.
+
+model should contain as many as possible interface residues which are involved in binding as identified in the site-directed mutation experiments. Second, the model should agree with common structural characteristics of antibody­antigen complexes, including sizable buried surface area on binding, good shape complementarities at the interface, and others (see Discussion for details). Third, the model should have relatively low energy and can be consistently reproduced when docking calculations were executed with varied input parameters. This procedure successfully found a best reasonable model which
+DOI 10.1002/prot
+
+scored the 10th lowest energy solution in a typical docking calculation. The total interaction energy (Etotal) was 2423.05 kcal/mol, including 2364.8 kcal/mol shape energy (Eshape) and 258.3 kcal/mol electrostastic energy (Eforce). The buried surface area on complex formation is ° 1770 A2. As shown in Figure 5(A), the large hydrophilic surface on subdomain I of ErbB2 ECD was neatly bound by the antibody with satisfactory shape complementation. The hook-shaped L1 loop mainly covered the flexible loop R166-P172 from the top site of subdomain I, while the other four loops L3, H1, H2, and H3 were tightly
+PROTEINS
+
+945
+
+S. Hu et al.
+
+packed to the surface of one side of subdomain I. The model also revealed that overall subdomain II was dimensionally distant from the A21 scFv. The model provided valuable information on possible contacting residues between the A21 scFv and ErbB2 ECD. To tolerate the inaccuracies in the computed model, we set the cut-off value for the atomic distances ° of interacting residues as 8 A, although most such distan° ces were actually less than 5 A. As shown in Figure 5(B), a total of $20 residues from A21 participated in direct contacts with the corresponding residues from ErbB2. These antibody residues include Y31, N34, N35, Y38, Y97, S98, N99, Y100 in the light chain and T164, F167, S186, S188, Y189, T191, N235, Y236, and Y239 in the heavy chain. The ErbB2 residues which were involved in the interface mainly include R70, Q71, R116, Q119, Q138, D143, R166, R168, A169, C170, H171, P172, E185. Most of them were mutation-sensitive by decreasing the binding affinity for more than twofold. In particular, ErbB2 H171, as a critical residue for binding affinity, was located in the central site of the interface and was tightly surrounded by three tyrosine residues, Y38, Y97, Y236, and Y239 from the A21 CDR loops. Another important ErbB2 residue, P172, was located at the edge of the interface and probably interacted with residues Y31 from the antibody. The observed dramatic affinity loss of the P172A mutation may partially result from indirect effects of neighboring residues due to conformational perturbations. Within subdomain II, only E185 showed proximity to the antibody residues Y100, W102, and Y239. This is consistent with the experimental findings that only a few residues from subdomain II were important for the binding affinity.
+Biological function of A21 requires bivalency
+
+rylation significantly decreased by several folds after mAb A21 treatments for 24 or 48 h, while the scFv still showed less effect [Fig. 6(C)]. Interestingly, the treatment of heregulin b decreased ErbB2 phosphorylation, which was different from some reported inhibitory anti-ErbB2 antibodies. Flow cytometric analysis also demonstrated that the level of cell-surface ErbB2 reduced to $1/3­1/4 after the A21 mAb treatment for 24 h, while the scFv treatment had no effect [Fig. 6(D)]. These data and western blotting results suggested that the biological effects of A21 on ErbB2 phosphorylation and receptor downregulation required its bivalency.
+
+DISCUSSION The epitope of a new inhibitory anti-ErbB2 antibody A21 were mapped by combining phage display peptide library, mutation experiments, scFv A21 crystal structure determination, and molecular modeling. The N-terminal fragment 1­192 aa of ErbB2 ECD was firstly identified to be the minimal region retaining the binding activity to A21 mAb. By mutagenesis scanning, the binding site for A21 was then localized to one face of ErbB2 subdomain I with a number of surface-exposed residues. All of the seven residues R116, Q138, D143, R166, R168, H171, and P172 which were identified to be most important for the binding affinity were within the ErbB2 subdomain I. Mutagenesis scanning also found that a number of residue deletions or mutations within the subdomain II significantly reduced the binding affinities to mAb A21. According to the crystal structures of ErbB2 ECD, the fragment 1­192 aa consists of the complete leucine-rich subdomain I, which folds into compact b-helix structure with a hydrophobic core, and the adjacent two disulfidebonds of subdomain II, which shares an intimate relationship with subdomain I and appears to be required for its proper folding.35 Putatively, the fragment 1­192 aa of subdomain I­II possesses exquisite sensitivity to conformational perturbations. We conclude that subdomain II is involved in the binding to A21 by strictly constraining the correct conformation of the A21 epitope site rather than contributing residues to directly interact with A21. Similar results were also reported previously for EGFR subdomain III during epitope-mapping of two conformation specific anti-EGFR antibodies.36 Furthermore, the structure of A21 scFv and ErbB2 ECD complex was investigated by computational docking. A model resulted from docking was not only directly supported by our mutation experiments, but also consistent with the common characteristics of Ab-Ag complexes from crystallographic data. First, the formation of this ° complex buried a total of 1770 A2 of surface area, which was within the interface range of the corresponding val° ues of 1200­2300 A2 in protein-Ab complexes.37 Second,
+DOI 10.1002/prot
+
+Cell proliferation inhibitory assay showed that both the A21 mAb and the chimeric antibody chA21 could inhibit the growth of ErbB2-overexressing SKBR3 cells with comparable efficiencies at the concentrations 0.2 and 2 lg/mL [Fig. 6(A)] as described previously.18 However, the A21 scFv fragment showed no inhibitory effect even at very high molar concentration 50 lg/mL. As a control, Herceptin also showed comparable inhibitory activity as described elsewhere.34 The inability of the scFv fragment to inhibit cell growth cannot be explained by the affinity loss in comparison with the A21 mAb, as the scFv and chA21 had similar affinity for ErbB2.21 It thus suggested the bivalency of A21 antibody was required to maintain its antiproliferative activity. Further, western blotting revealed that A21 mAb and chA21 could stimulate the phosphorylation of ErbB2 to elevate 2­3 folds after antibody treatment for 30 min as obtained from Herceptin, but the scFv showed no obvious effect on ErbB2 phosphorylation [Fig. 6(B)]. However, both level of total-cell ErbB2 and its phospho-
+
+946
+
+PROTEINS
+
+Epitope Mapping of an Anti-ErbB2 Antibody A21
+
+Figure 6
+A21 biological functions assay. (A) Cell proliferation assay. SKBR3 cells were treated with different antibodies A21 mAb, chA21, scFv, and 4D5 for 4 days. The relative number of living cells was measured by cell growth assay reagent CCK-8. (B) Effects of A21 on total-cell ErbB2 phosphorylation. SKBR3 cells after serum starvation were treated with antibodies or Heregulin b each for 30 min. Cell lysates were prepared and the effects of antibodies were evaluated by western blotting with anti-phos-ErbB2 antibody (Ab-18) or anti-ErbB2 antibody (Ab-17). (C) Effects of A21 on total-cell ErbB2 downregulation and ErbB2 phosphorylation after treatments for 24 or 48 h by western blotting. (D) Effects of A21 on cell-surface ErbB2 downregulation by flow cytometric analysis as described in Materials and Methods section. Left: After treatment with antibody A21; Right: Treatment with scFv.
+
+the binding interface formed by the A21 paratope and ErbB2 epitope shared high degree of shape and charge complementarity like all of other Ab-Ag complexes.38,39 Third, five of the six loops from mAb A21 except L2 showed direct contacts with ErbB2, consistent with the findings that the L2 loop is generally less important in Ag-Ab complexes.40 Fourth, a large number of aromatic residues distributed in the A21 paratope were involved in direct interactions with ErbB2, in agreement with the observation that Ab paratope rich in aromatic residues contribute to Ab-Ag complexes.39 Fifth, as observed in most Ab-Ag complexes, several hydrophobic patches formed here by Y31, Y38, S98, Y239 from A21 and C170, H171, P172 from ErbB2 were involved in the binding interface.37 However, the selected model may suffer from some weaknesses because of the rigid docking characteristics of HEX program. A few steric and electrostatic clashes were observed in the model. For example, the side chain atoms of A21 Y31 were spatially too close to
+DOI 10.1002/prot
+
+the backbone atoms of ErbB2 C170 and H171 with dis° tance less than 2 A. Similar atomic collisions were also observed between A21 Y189 and ErbB2 Q71. Therefore, further changes in side-chain conformation of both the antibody and antigen residues would be expected when the complex formed.41 Nevertheless, this model still provided valuable information to understand the molecular mechanisms of A21 functions, design site-directed mutants for enhancing antibody affinity, and reconstruct humanized antibodies. Previous studies have revealed that the disulfide-constrained and surface-exposed loops commonly serve as favorable structural motifs for antibody binding.42 Consistently, most of anti-ErbB2 antibodies have been identified to target the cystine-rich extracellular subdomain II or IV. In addition, ErbB2 ECD possesses a constitutively active configuration for heterodimerization with other ErbB receptors and the dimerization interfaces include certain regions of subdomain II and possibly C-terminus
+PROTEINS
+
+947
+
+S. Hu et al.
+
+of subdomain IV.3,7 Some inhibitory anti-ErbB2 antibodies such as Herceptin (4D5) that bind to the juxtamembrane region in subdomain IV may interrupt the activation of ErbB2 by metalloproteinase cleavage and also block ErbB2 dimerization.15,35 Some other antiErbB2 antibodies, such as 2C4 (named Pertuzumab), with epitopes within or near subdomain II can directly disrupt the association between ErbB2 and other ErbB receptors, and thus inhibit tumor cell growth.14,43 A21 may represent another group of inhibitory anti-ErbB2 antibodies which recognize epitopes that are mainly located in subdomain I and apart from the functional sites for ErbB2 receptor dimerization. The antibody bivalency of A21 was found to be necessary for its inhibitory activities to tumor cells as well as ErbB2 phosphorylation and receptor downregulation. We thus suggested that the tumor inhibitor mechanism of A21 should be at least associated with its ability to induce ErbB2 downregulation and subsequently weaken ErbB2 signaling capabilities rather than directly interfere with ligand-induced ErbB2 heterodimerization and activation.14 However, the internalizing activity of A21 seems to be uncoupled with its inhibitory activity, since both the mAb A21 and the scFv fragment could undergo obvious efficient internalization.21 However, Herceptin, as a clinical therapy antibody, was internalized only with low efficiency,34 although both A21 and Herceptin showed very similar inhibitory function in tumor cell proliferations assay. In fact, the studies about whether ErbB2 endocytosis and degradation induced by antiErbB2 antibodies are associated with inhibitory functions of anti-ErbB2 antibodies were contradictive until now, and the exact mechanisms of how these antibodies work needs to be further elucidated.44­46 Besides the interactions of ECDs, ErbB receptors are likely to require additional sites in transmembrane and intracellular domains to keep the established rotational conformation of kinase domain ready for activation.3 Yip et al. have proposed that there is a close relationship between the rotational conformation of the dimers and signaling.15 The artificial ErbB2 homodimers induced by anti-ErbB2 antibodies could be active or inactive depending on their specific epitopes. A21 only had weak effects on ErbB2 phosphorylation levels consistently with some other tumor inhibitory antibodies, whereas tumor stimulatory antibodies significantly elevated ErbB2 phosphorylation levels. Therefore, we speculate that the bivalent A21 mAb and chA21 would have the intrinsic ability to target two ErbB2 molecules spontaneously and induce the formation of inactive homodimers. As structural support, ErbB2 subdomain I adopts an extended configuration far away from the cell surface. Thus it should not exist a steric barrier for A21 to bring two subdomain I together, given the flexibility of the two antigen-binding sites of an antibody. Furthermore, A21 binds to subdomain I in a direction almost 1808 opposite to the receptor dimeriza-
+
+tion interface in subdomain II and IV [see Fig. 5(A)], which disagrees with the activated configuration of ligand-bound heterodimers or antibody-induced homodimers. Possibly, certain anti-ErbB2 antibodies with distinct epitopes could neither induce receptor homodimerization nor interfere with heterodimerization, and thus were unable to affect ErbB2 signaling and cell growth. This could also explain why some anti-ErbB2 antibodies which recognize proximate epitopes in subdomain II but possess quite different functions.15,16 Taken together, our studies suggested that the A21 epitope on ErbB2 subdomain I should be a novel functional site for the design of small molecules with high specificity and affinity as new anti-ErbB2 therapeutics. ACKNOWLEDGMENTS We thank Beijing Synchrotron Radiation Facility (BSRF) at the Institute of High Energy Physics, Chinese Academy of Science for their support of X-ray data collection. REFERENCES
+1. Carpenter G. Receptors of epidermal growth factor and other polypeptide mitogens. Annu Rev Biochem 1987;56:881­914. 2. Olayioye MA, Neve RM, Lane HA, Hynes HE. The ErbB signaling network: receptor heterodimerization in development and cancer. The EMBO J 2000;19:3159­3167. 3. Burgess AW, Cho HS, Eigenbrot K, Ferguson KM, Thomas PJ, Leahy DJ, Lemmon MA, Sliwkowski MX, Ward CW, Yokoyama S. An open-and-shut case? Review recent insights into the activation of EGF/ErbB receptors. Mol Cell 2003;12:541­552. 4. Hynes NE, Stern DF. The biology of erbB-2/neu/HER-2 and its role in cancer. Biochem Biophys Acta 1994;1198:165­184. 5. Ross JS, Fletcher JA. The HER2/neu oncogene: prognostic factor, predictive factor and target for therapy. Semin Cancer Biol 1999; 9:125­138. 6. Poul MA, Becerril B, Nielsen UB, Morisson P, Marks JD. Selection of tumor-specific internalizing human antibodies from phage libraries. J Mol Biol 2000;301:1149­1161. 7. Baselga J, Albanell J. Mechanism of action of anti-HER2 monoclonal antibodies. Ann Oncol 2001;12:S35­S41. 8. Yum LY, Robyn LW. Anti-ErbB2 monoclonal antibodies and ErbB2directed vaccines. Cancer Immunol Immunother 2002;50:569­587. 9. Lorenzo CD, Palmer DB, Piccoli R, Ritter MA, D'Alession G. A new human antitumor immunoreagent specific for ErbB2. Clin Cancer Res 2002;8:1710­1719. 10. Itoh K, Inoue K, Tezuka T, Tada H, Hashimoto Y, Masuko T, Suzuki T. Molecular structural and functional characterization of tumor suppressive anti-ErbB2 monoclonal antibody by phage display system. J Biochem 2003;133:239­245. 11. Xu FJ, Lupu R, Rodriguez GC, Whitaker RS, Boente MP, Berchuck A, Yu Y, Desombre KA, Boyer C, Bast RC. Antibody-induced growth inhibition is mediated through immunochemically and functionally distinct epitopes on the extracellular domain of the cerbB-2 (HER-2) gene product p185. Int J Cancer 1993;53:401­408. 12. Lweis-phillips GD, Mcmurtrey AE, Schroeder K, Fendly BM. Diverse activities of anti-HER-2 monoclonal antibodies: from growth inhibition to induction of apoptosis. Proc Am Assoc Cancer Res 1998; 39:143. 13. Boyer CM, Pusztai L, Wiener JR, Xu FL, Dean GS, Bast BS, O'Briant KC, Greenwald M, Desombre KA, Bast RC. Relative cytotoxic activity of immunotoxins reactive with different epitopes on the extracellular domain of the c-erbb-2 (her-2/neu) gene product p185. Int J Cancer 1999;82:525­531.
+
+948
+
+PROTEINS
+
+DOI 10.1002/prot
+
+Epitope Mapping of an Anti-ErbB2 Antibody A21
+
+14. Klapper LN, Vaisman N, Hurwitz E, Ronit PK, Yarden Y, Sela M. A subclass of tumor-inhibitory monoclonal antibodies to ErbB-2/HER blocks crosstalk with growth factor receptors. Oncogene 1997;14: 2099­2109. 15. Yip YM, Novetny J, Edwards M, Ward RL. Structural analysis of the ErbB2 receptor using monoclonal antibodies: implications for receptor signaling. Int J Cancer 2003;104:303­309. 16. Wang JN, Feng JN, Yua M, Xua M, Shi M, Zhou T, Yua XD, Shen BF, Guo N. Structural analysis of the epitopes on erbB2 interacted with inhibitory or non-inhibitor monoclonal antibodies. Mol Immunol 2004;40:963­969. 17. Wang C, Li Y, Li P, Liu J. Generation and characterization of monoclonal antibodies specific for the oncogene product p185neu/c-erbB2 by surface epitope masking (SEM). Chin J Immunol 2000;16: 539­ 543. 18. Li P, Li Y, Li JY, Liu J. Characterization and utilization of two novel anti-erbB-2 monoclonal antibodies in detection of soluble ErbB-2 for breast cancer prognosis. Cancer Lett 2003;193:139­148. 19. Cheng L, Liu A, Liu J. Construction, expression and characterization of the engineered antibody against tumor surface antigen P185c-erbb-2. Cell Res 2003;13:35­48. 20. Wang J, Shi Y, Liu Y, Hu S, Ma J, Liu J. Purification and characterization of a single chain chimeric anti-P185 antibody expressed by CHO-GS system. Protein Expr Purif 2005;41:68­76. 21. Hu S, Li L, Qiao J, Guo Y, Cheng L, Liu J. Codon optimization, expression and characterization of an internalizing anti-ErbB2 single chain antibody in Pichia pastoris. Protein Expr Purif 2006;47:249­257. 22. Li L, Liu H, Hu S, Liang D, Cheng L, Liu J. Soluble expression and characterization of disulfide bond-rich subdomains of membrane protein p185 in E. coli. Chin J Biotechnol 2005;21:590­596. 23. Otwinowski Z, Mior W. Processing of X-ray diffraction data collected in oscillation mode. Methods Enzymol 1997;276:307­326. 24. Vagin A, Teplyakov A. MOLREP: an automated program for molecular replacement. J Appl Cryst 1997;30:1022­1025. 25. Bruniger AT, Rice LM. Crystallographic refinement by simulated annealing: methods and applications Methods Enzymol 1997;277: 243­269. 26. Murshudov GN, Vagin AA, Dodson EJ. Refinement of Macromolecular structures by Maximum likelihood method. Acta Crystallogr D Biol Crystallogr 1997;53:240­255. 27. Jones TA, Kjeldgaard M. Electron-density map interpretation. Methods Enzymol 1997;277:173­208. 28. Laskowski RA, MacArthur MW, Moss DS, Thornton JM. PROCHECK: a program to check the stereochemical quality of protein structures. J Appl Crystallogr 1993;26:283­291. 29. Ritchie RW. Evaluation of protein docking predictions using Hex 3.1 in CAPRI rounds 1 and 2. Proteins Struct Funct Bioinform 2003; 52:98­106.
+
+30. Eisenhaber F, Lijnzaad P, Argos P, Sander C, Scharf M. The double cube lattice method: efficient approaches to numerical integration of surface area and volume and to dot surface contouring of molecular assemblies. J Comput Chem 1995;16:273­284. 31. Bissan AL, Arthur ML, Cyrus C. Standard conformations for the canonical structures of immunoglobulins. J Mol Biol 1997;273:927­948. 32. Decanniere K, Muyldermans S, Wyns L. Canonical antigen-binding loop structures in immunoglobulins: more structures, more canonical classes? J Mol Biol 2000;300:83­91. 33. Veronica M, Anna T, Mauro R, Cyrus C, Arthur ML. Conformations of the third hypervariable region in the VH domain of immunoglobulins. J Mol Biol 1998;275:269­294. 34. Neve RM, Nielsen UB, Kirpotin DB, Poul MA, Marks JD, Benz CC. Biological Effects of anti-ErbB2 single chain antibodies selected for internalizing function. Biochem Biophys Res Commun 2001;280:274­279. 35. Cho HS, Mason K, Ramyar KX, Stanley AM, Gabelli SB, Denney DW, Leahy DJ. Structure of the extracellular region of HER2 alone and in complex with the Herceptin Fab. Nature 2003;421:756­760. 36. Chao G, Cochran JR, Wittrup KD. Fine epitope mapping of antiepidermal growth factor receptor antibodies through random mutagenesis and yeast surface display. J Mol Biol 2004;342:539­550. 37. Conte LL, Chothia C, Janin J. The atomic structure of protein­protein recognition sites. J Mol Biol 1999;285:2177­2198. 38. Braden BC, Poljak BJ. Structural features of the reactions between antibodies and protein antigens. FASEB J 1995;9:9­16. 39. David RD, Gerson HC. Interactions of protein antigens with antibodies. Proc Natl Acad Sci USA 1996;93:7­12. 40. Almagro JC. Identification of differences in the specificity-determining residues of antibodies that recognize antigens of different size: implications for the rational design of antibody repertoires. J Mol Recognit 2004;17:132­143. 41. Vajda S, Camacho CJ. Protein­protein docking: is the glass half-full or half-empty? Trends Biotechnol 2004;22:111­116. 42. Lapthorn AJ, Janes RW, Isaacs NW, Wallace BA. Cystine nooses and protein specificity. Nat Struct Biol 1995;2:266­268. 43. Franklin MC, Carey KD, Vajdos FF, Leahy DJ, Vos AM, Sliwkowski MX. Insights into ErbB2 signaling from the structure of the ErbB2pertusumab complex. Cancer Cell 2004;5:317­327. 44. Hommelgaard AM, Lerdrup M, Van Deurs B. Association with membrane protrusions makes ErbB2 an internalization-resistant receptor. Mol Biol Cell 2004;15:1557­1567. 45. Austin CD, De Maziere AM, Pisacane PI, Van Dijk SM, Eigenbrot C, Sliwkowski MX, Klumperman J, Scheller RH. Endocytosis and sorting of ErbB2 and the site of action of cancer therapeutics trastuzumab and geldanamycin. Mol Biol Cell 2004;15:5268­5282. 46. Longva KE, Pedersen NM, Haslekas C, Stang E, Madshus IH. Herceptin-induced inhibition of ErbB2 signaling involves reduced phosphorylation of Akt but not endocytic downregulation of ErbB2. Int J Cancer 2005;116:359­367.
+
+DOI 10.1002/prot
+
+PROTEINS
+
+949
+
+

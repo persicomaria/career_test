@@ -1,0 +1,236 @@
+15 November1996
+
+CHEMICAL PHYSICS LETTERS ELSEVIER
+Chemical Physics Letters 262 (1996) 442-448
+
+Antenna exciton trapping kinetics as a probe of primary electron transfer heterogeneity in the photosynthetic reaction center
+Robert M. Pearlstein
+l
+
+Chemistry Division, Argonne National Laboratory, Argonne, IL 60439-4831, USA and Physics Department, Indiana University - Purdue University at Indianapolis, Indianapolis, IN 46202-3723, USA 2 Received 9 July 1996; in final form 16 August 1996
+
+Abstract
+
+The multipicosecond nonexponential decay of the electronically excited primary electron donor, P *, observed in isolated photosynthetic reaction centers, is just as readily explained by multistep homogeneous electron transfer as by single-step heterogeneous transfer. With the aid of a one-antenna-site hopping model, it is shown here that the exciton trapping kinetics in the associated core antenna theoretically can be used to distinguish homogeneous from heterogeneous mechanisms of primary electron transfer in the reaction center.
+
+1. Introduction The electronic excited state, P*, of the bacteriochiorophyll (BChl) dimer in isolated reaction centers (RCs) of purple photosynthetic bacteria has been observed to decay nonexponentially over a range of 20-30 ps, and even longer in some mutant strains [ 1-5]. Several suggestions have been made regarding the interpretation of this observation, including a heterogeneous distribution of electron transfer rate constants over the population of RCs, sequential transfer via an intermediate state in each RC, or competing electron-transfer pathways in each RC [4,6,7]. If each pathway is characterized by one rate constant, it is straightforward to explore the last suggestion theoretically. However, one apparently
+
+J Argonne Fellow, 1994-95. 2 Permanent address.
+
+cannot distinguish among nonexponentiality models just by analyzing the kinetics of P * decay in isolated RCs [41. Kinetic diagrams for some multistep homogeneous models are displayed in Fig. 1. Part (a) of the figure is general, while parts (b) and (c) refer to two specific models. In each case a photoelectron generated at the primary donor site (P*) has a choice of two competing pathways. Part (b) illustrates the situation where the competition is between indirect transfer to the active-branch pheophytin via populated states of the intermediate BChl, and direct transfer via superexchange. However, calculations using this model [7] yield rate constants too high to explain multipicosecond nonexponential decays, so it is not considered a likely explanation of the latter. Part (c) diagrams the possible competition between (reversible) inactive-branch transfer and (essentially irreversible) active-branch transfer. There may be competing-pathways models that are not described
+
+0009-2614/96/$12.00 Copyright © 1996 Published by Elsevier Science B.V. All rights reserved PH S0009-261 4 ( 9 6 ) 0 1 0 9 3 - 7
+
+R.M. Pearlstein / Chemical Physics Letters 262 (1996) 442-448
+po
+
+443
+
+2. One-antenna-site (OAS) models
+If the trapping kinetics of excitons in the core antenna are not diffusion limited [9], the physical antenna can be represented mathematically as a single antenna site. In this case, the probability that the exciton resides in the antenna at time t is described by the equation /~A(/) = -k.rPA( t ) + koPp.( t ), (1)
+
+B
+
+H
+
+(a)
+p*
+
+(b)
+
+HM
+
+II L
+
+(c)
+
+Fig. I. (a) General kinetic trimer used to analyze competing-pathways models of primary electron transfer in bacterial photosynthetic reaction centers. (b) Kinetic trimer when the competing pathways are direct transfer from P * to H (superexchange) and indirect transfer via B (populated), both on the active (L) branch. (c) Kinetic trimer when the competing pathways are irreversible transfer on the L branch and reversible transfer on the inactive (M) branch. This has been called the branching model. by the scheme of Fig. l a, including, of course, some with more than two competing pathways. This Letter explores the possibility of distinguishing among nonexponentiality models of primary electron transfer (PET) in the RC by studying the room-temperature trappping kinetics of excitons in the core antenna (LH1) coupled to that RC. This is done with the aid of a very simple theoretical approach, involving one-antenna-site (OAS) models, described in Section 2. Section 3 presents numerical results comparing OAS models with branched (or sequential) PET in the RC to one with bimodally heterogeneous PET. These particular models are chosen because they are the three previously shown to be kinetically indistinguishable in isolated RCs [4]. (Note that the sequential model is a multistep homogeneous model but not a competing-pathways model.) It is argued that, in general, homogeneous and heterogeneous models of PET nonexponentiality can be clearly distinguished by the shape of the antenna excitation decay curve. This conclusion holds at room temperature but may not at cryogenic temperatures, where the antenna excitation kinetics themselves have been interpreted as inhomogeneous [8].
+
+where k 7 = qefeFv/N, with N the number of BChls per RC in the physical antenna, qeff the effective coordination number for trapping, and F T the F~rster rate-constant for trapping. Also, k D = q e f f F D , where F D is the F~Srster rate-constant for detrapping. In Eq. (1), P p . ( t ) is the probability that the excitation energy resides in the state P* at time t. In order to solve this equation, one must write the coupled model-dependent rate equations that describe PET to and from the state P *, and the comprehensive initial conditions. Note that in terms of the corresponding FSrster overlap integrals, I T and 1o, one has
+
+k o / k T = N( ID/I T ),
+
+(2)
+
+independent of qeff [10,1 1]. The negligibility of the random walk terms implies no intra-antenna kinetic bottlenecks of order F v or F o. Thus it implies no significant spatial inhomogeneity within the antenna affecting pairwise rates of exciton hopping. In addition to this assumption, which appears to hold at room temperature in the core antenna (LH1) of purple bacteria [8], three others are significant. (1) The overall rate-constant for coherent exciton scattering is large enough to maintain uniform exciton-trapping kinetics [11,12]. (2) Trapping and detrapping are themselves firstorder with rate-constants given by the FSrster formula. (3) The PET kinetics are adequately described by first-order rate equations. These three conditions are also likely to hold at room temperature in L H I . The additional rate equations required to solve Eq. (1) for sequential- or competing-pathways PET models may be written on examination of Fig. la: P p . ( t ) = k,F/CA(t) - (kt2 + k], + k b ) P p . ( t ) + k2, Pair(t) and /saLt(/) =k~2Pp.(t ) - ( k 2 1 +kz3)Palt(t ). (4) (3)
+
+444
+
+R.M. Pearlstein / Chemical Physics Letters 262 (1996) 442-448
+
+The subscript " a l t " refers to an alternative site for electron transfer. For branched PET (k23 = 0), one possibility is that Pah(t) is PH (t), the probability at time t that the mobile electron resides on the inactive-branch pheophytin H M -- i.e. that the charge-separated state P + H M has been formed. Another possibility is that Pa,(t) is PB,,(t), the probability at time t that the mobile electron resides on the inactivebranch BChl monomer B M - i.e. that the charge-separated state P+B~a has been formed. For sequential PET (k13 = 0), Pah(t) is PBL(t), the probability at time t that the mobile electron resides on the activebranch monomeric BChl. The simplest model of PET heterogeneity is that of bimodal heterogeneity. In this (perhaps artificial) case, the observed biexponential kinetics is attributed to precisely two subpopulations of RCs. Within each subpopulation it is assumed that PET is a homogeneous, essentially irreversible, first-order rate process; i.e. only the rate-constant kl3 in Fig. 1 is nonzero. Each of the two observed components of the biexponential is attributed to one or the other of the two subpopulations, with the relative weights of the former attributed to the population ratio. For each subpopulation one additional rate equation is required to solve Eq. (1), P p . ( t ) = k T P A ( t ) -- (k13 -}- k D ) P p , ( t ) .
+(5)
+
+and
+secul 0 = ( S "Jr-k D "}- k12 -'l- k13)( s -I- k21 "a k23 ) t-
+
+kt2k21.
+
+(9)
+
+The amplitudes of the exponential components are given by
+oei -~-
+
+lim s-~,,
+
+( s - si)secul°( s) 1
+secul(s) " (10)
+
+Bimodally heterogeneous PET." In this model two distinct populations of RCs are assumed. Each population is characterized by a single electron-transfer rate-constant, k i , i = 1 or 2. Each of these rate-constants may be taken as analogous to the rate-constant kl3 of the homogeneous case, with the other homogeneous rate-constants taken to be zero. (This assumes that if B E is involved as an electron-transfer intermediate, rate-constants connecting the state P+B- H to either of the states, P* BH or P ÷ B H - , are much larger than either k I or kz.) Here,
+2
+
+PA(t) =
+
+ECi(oti+e',+'+oei_e',-t).
+i=1
+
+(11)
+
+In Eq. (11), Ci is the population fraction, i.e. C l + C 2 = 1. The secular roots and amplitudes are given by
+
+The solution for P~,(t) for the entire population is the weighted sum of the two subpopulation solutions. Solutions are derived using standard Laplace transform methods. It is assumed that the antenna is certainly excited at t = 0, i.e. P , ( 0 ) = 1 and other P-functions at t = 0 are zero. Details of the method and generalization to other initial conditions will be presented elsewhere [ 13].
+
+si+ and
+
+7 B~ 1-T-
+
+1
+
+k2
+Bi
+
+(12)
+
+% + = ~- 1 + ] ~
+
+1[ kB 2kw,]
+__-4k-~kT ,
+
+(13)
+
+Homogeneous PET." In this case, Eqs. (1), (3),
+and (4) are solved simultaneously. The result may be expressed as
+3
+
+respectively. In Eqs. (12) and (13),
+
+kB, =
+
+ki
+
++ k o + k T.
+
+(14)
+
+VA(t) = Y', otie s''.
+i=1
+
+(6)
+
+3. Results and discussion
+The biexponential fit to the decay of P" in isolated RCs from Rhodobacter capsulatus (LH2-deficient wild type) obtained by DiMagno et al. [3] is
+
+In Eq. (6) the quantities s i are the roots of the cubic secul = 0, where secul = ( s + kT)Secul 0 (7)
+
+kDkT(S
+
+"k- k21
+
+"1- k23 )
+
+(8)
+
+Pp.(t) =0.723e-t/27 +O.277e -t/lll ,
+
+(15)
+
+R.M. Pearlstein / Chemical Physics Letters 262 (19961 442-448 Table 1 PET model rate-constants that generate the biexponential fit to the decay of P * in RCs isolated from Rhodobacter capsulatus (wild type) Rate-constant of Fig. 1 k 12 kn3 k21 k23 Branched PET (ps- t) 0.0938 0.1990 0.1677 Sequential PET (ps- l) 0.2927 0,0538 0,1140
+
+445
+
+where t is in picoseconds. Exactly this expression for P p . ( t ) is obtained for isolated RCs from the branched and the sequential models of PET by choosing the values of rate-constants listed in Table 1. Indeed, any of the homogeneous PET models considered here gives the same biexponential fit provided (ten), defined by
+(/el) k12 k23 I = k 1 3 " l - k21 k 2 ~ , .}_
+
+(16)
+
+has the value 5.0 ps. Because 5.0 ps is also the value of the fo Pp.(t)dt from Eq. (15), (tel) is thus the mean decay time (M o) for P * in the isolated RC. (This relation between (te~) and the isolated-RC M 0 is general.) A very similar set of biexponential life-
+
+times and amplitudes is found by fitting the data from RCs isolated from Rhodobacter sphaeroides [4]. For neither species can one distinguish among PET models solely from the P*-decay kinetics of isolated RCs. Now consider numerical solutions for PA(t) predicted by the OAS models corresponding to branched PET (Table 2) and bimodally heterogeneous PET (Table 3) in the LH2-deficient Rb. capsulatus wild type. Although not shown, results for sequential PET are similar to those for branched PET. Several interesting features emerge. As seen from both tables for the larger values of kTrt chosen (50 and 25 ps), the amplitude of the longest-lived component of each fraction - one in the homogeneous, two in the bimodally heterogeneous case - remains near, and in most situations well above, 0.9 irrespective of the value of k o / k v. In these circumstances one may say that PA(t) is essentially monoexponential. Clear deviation from modal monoexponentiality occurs when the transfer-to-trap time constant becomes smaller, illustrated here by kTrl = 5 ps. However, the deviation exists only over a limited range of values of k D / k T , i.e. a range whose upper and lower bounds have a ratio of only ~ 30 out of the five orders of magnitude displayed. Moreover, the deviation reflects a transition from the strong dominance of the
+
+Table 2 Time constants (7"i = -s,~ *) and amplitudes ( a i ) obtained by numerical solution of Eq. (7) for branched PET with the rate-constants of Table 1 kT I (ps) 50 kD/k T 100 10 3 1 0.1 1O0 10 3 1 0.1 100 10 3 l 0.1 0.01 0.001 ,rl (ps) 0.43 1.84 2.39 2.59 2.69 0.23 1.35 2.11 2.48 2.68 0.05 0.40 0.95 1.61 2.50 2.68 2.70 Ctl 0.008 0.013 0.006 0.002 0.000 0.009 0.30 0.021 0.009 0.001 0.010 0.072 0.140 0.173 0.072 0.010 0.001 7"2 (ps) 6.20 7.78 9.34 10.4 11.0 6.07 6.87 8.16 9.50 10.9 5.96 5.91 5.81 5.61 5.15 5.02 5.00 a: 0.005 0.029 0.1129 0.016 0.002 0.006 0.043 0.075 0.069 0.016 0.006 0.053 0.159 0.363 0.844 0.981 0.988 7"3 (ps) 560 104 67. I 55.9 50.6 535 80.8 43.6 31.8 25.8 515 62.7 27. I 16.6 11.7 II .2 11. I or., 0.987 0.958 0.965 0.981 0.998 0.986 (}.927 0.904 0.921 0.983 0.985 0.875 0.701 0.464 0.084 0.009 0.001
+
+25
+
+5
+
+446
+
+R.M. Pearlstein / Chemical Physics Letters 262 (1996) 4 4 2 - 4 4 8
+
+longest-lived component to that of the secondlongest-lived component. In the heterogeneous case the transition is only seen for the more slowly electron-transferring fraction (k~-] = 11.1 ps). The kinetic behavior displayed in Tables 2 and 3 can be explained in terms of well-understood principles of incoherent exciton quenching. One of these (called zero-mode dominance [14]) states that with one exception (at least when the quenching kinetics are far from the diffusion limit, as assumed in this paper), the decay is essentially monoexponential [15]. When it is monoexponential, the lifetime Z~ong of the longest-lived component is the same as the mean lifetime M 0 of the antenna excitation decay so that [16]
+· = +
+
+(17)
+
+If the first term in Eq. (17) is much larger than the second, the decay kinetics are said to be transfer-totrap limited. In the reverse situation the kinetics are called charge-separation (or electron-transfer) limited. Obviously, there is also an intermediate case. However, there is more to the kinetic description than is contained in Eq. (17) because of the aforementioned "exception". Monoexponentiality begins to break down w h e n ( t e l ) , kl) 1, and ~'lo~g are all of
+
+the same order of magnitude and simultaneously krr ] ~< r~ong. W h e n kT 1 << "/'long , the breakdown of monoexponentiality becomes complete - i.e. there then exist values of (tel) and k~ l for which the component amplitudes are all roughly equal. Although in its original context this circumstance was appropriately termed "slow back transfer" [15] (see also Ref. [17]), here it is better to call it "rapid transfer to trap". One might think of it as a more complicated, multiexponential analog of the (monoexponential) charge-separation-limited kinetics. If one chooses a small but fixed value of k~ ~, say 5 ps as in Tables 2 and 3, it is in principle always possible to select a small (large) enough value of k~ I - i.e. a large (small) enough value of the ratio k D / k T - that k~] << (>>)~-long, thereby restoring monoexponentiality. The original treatment of the "exceptional" kinetic region did not include tabulation against the parameter k D / k v and so overlooked its transitional character. Also overlooked, although entirely consistent with that treatment, is the possibility of a modal dominance shift during the transition as seen, for example, in Tables 2 and 3. Even though, in principle [18]; the values of k D and k v can be obtained experimentally, it is of interest to consider how the values of these parame-
+
+Table 3 Time constants (ri = - s Z i ) and amplitudes (or i) obtained from Eqs. (12) and (13) for each of the electron transfer time constants (k,- ~) stipulated in Eq. (15)
+k ;r I ko/k T
+
+kj7 I = 2.7 ps TI O/1 0.007 0.013 0.007 0.003 0.000 0.008 0.028 0.022 0.011 0.001 0.010 0.068 0.128 0.160 0.084 0.013 T2 O~2 0,993 0.987 0.993 0,997 1.000 0.992 0.972 0.978 0.989 0.999 0.990 0.932 0.872 0.840 0.916 0.987
+
+k~ J = 11.1 ps TI Otl 0.009 0.047 0.059 0.043 0.008 0.009 0.064 0.112 0.126 0.047 0.010 0,084 0,211 0.390 0.790 0.969 '/'2 ~2 0.991 0.953 0.941 0.957 0.992 0.991 0.936 0.888 0.874 0.953 0.990 0.916 0.789 0.610 0.210 0.031
+
+(ps)
+50 100 10 3 1 0. I 100 10 3 1 0.1 100 l0 3 1 0.1 0.01
+
+(ps)
+0.42 1.73 2.31 2.55 2.68 0.23 1.26 2.00 2.41 2.67 0.05 0.39 0.91 1.52 2.44 2.67
+
+(ps)
+322 78.0 58.5 52.8 50.3 297 53.4 33.8 28.0 25.3 278 34.3 t 4,9 8.88 5.53 5.06
+
+(ps)
+0.47 3.29 6.30 8.75 10.8 0.24 1.91 4.26 6.88 10.3 0.49 0.44 1.15 2.22 4.30 4.91
+
+(ps)
+1170 169 88. I 63.5 51.4 I 146 145 65.1 40.3 26.9 I 126 127 48.2 25.0 12.9 1 1.3
+
+25
+
+5
+
+R.M, Pearlstein / Chemical Physics Letters 262 (1996 J 442-448
+
+447
+
+0l
+0
+
+I00 t (pS)
+
+200
+
+300
+
+Fig. 2. PA(t) predicted for branched (dashed curves) and bimodally heterogeneous (solid curves) PET. Decay time constants and amplitudes are taken respectively from Tables 2 and 3 for kT I = 25 ps and k o / k T = 10, Insert shows the close coincidence of the two curves near t = 0 (see text).
+
+ters are bracketed in nature. Difficult to estimate individually, the ratio of the rate-constants, from Eq. (2), is the product of N - the photosynthetic unit size - and a ratio of F/Srster overlap integrals. For the LHI of purple bacteria, N = 30 [19]. There is probably more variation in the overlap-integral ratio among purple bacteria, but because BChl has a small Stokes shift and the transition energy of P * at room temperature is usually not less than that of the antenna QY, it is safe to say that l o / l T has order of magnitude unity. Indeed, in some organisms it may be greater than one [19]. Thus, one expects that, in most purple bacteria, kD/k T falls in the range 5-50. Fig. 2 shows the predicted antenna decays in homogeneous and bimodally heterogeneous PET models for kD/k T = 10. One sees from Tables 2 and 3 that for the values of kinetic parameters used in Fig. 2 the individual subpopulation decays are all strongly monoexponential. Thus, the discrimination between the models displayed in Fig. 2 may be attributed to the fact that there are two subpopulations of RCs for bimodally heterogeneous PET but only one for homogeneous PET. As already discussed, subpopulation monoexponentiality is a general feature of the antenna decay kinetics except in the fast-transfer-to-trap or transition region. Because the transition, when it does so at all, generally occurs when kD I = ~'lon~ and kTrl < ~'long, i.e. when kD/k x < 1, it should not be encountered under ordinary conditions in any photosynthetic organism for which k D / k r >> 1 (as is argued to be the case in purple
+
+bacteria - see preceding paragraph). One therefore expects the principle, "One exponential component in the antenna decay corresponds uniquely to each subpopulation of RCs," to hold rather widely in photosynthesis. In addition to the kinetic features illustrated in the tables, there is another that is noteworthy. As shown in Fig. 2, PA(t) for RCs with branched PET coincides with PA(t) for RCs with bimodally heterogeneous PET during the first few picoseconds of the decay (for fixed k T and kD). This is because, not only is PA(0) constrained to be unity by the initial condition, but both the initial slope and curvature are independent of electron-transfer rate-constants [20]. Thus, in OAS models the earliest portion of the antenna decay gives virtually no information about electron transfer. On the other hand, progressively later portions of the antenna decay, which reflect increasingly charge-separation-limited kinetics, potentially provide (within the limits of signal/noise and cutoff lifetimes due to deleterious decay channels) ever more detailed information regarding electron transfer. The utility of this approach depends on the validity of the OAS assumptions as well as on whether conclusions drawn for bimodally heterogeneous PET remain valid for continuous distributions of PET kinetics, which are likely to be more significant physically [6,21]. In a continuous distribution the two k i of the bimodal case are replaced by the differential rate-constant dk and the sum by an integral over the distribution function. For such a distribution it is quite possible for the PET rate-constants at one extreme to be large enough that the antenna kinetics are transfer-to-trap limited, while at the other extreme they are small enough that the antenna kinetics are charge-separation limited. Thus, despite recent claims that in purple bacterial chromatophores the antenna kinetics are to be found exclusively in (or near) the transfer-to-trap limit [19,22-24], it is possible that this conclusion is based on insufficient experimental data. It is, therefore, too soon to judge the ultimate usefulness of the theory presented here. Nonetheless, if the simple assumptions hold reasonably well, the extra kinetic dimension introduced by the P*-antenna energy coupling holds the promise [15] of a new avenue to explore electron transfer in the reaction center.
+
+448
+
+R.M. Pearlstein / Chemical Physics Letters 262 (1996) 442-448
+
+Acknowledgement
+
+I am grateful to Jim Norris for his hospitality during my tenure as Argonne Fellow, as well as for many interesting discussions of the multipicosecond nonexponential decay of special-pair excitation in isolated photosynthetic reaction centers. I also thank Phil Laible, Debbie Hanson, and Scott Greenfield for valuable discussions. This work was supported by the US Department of Energy, Office of Basic Energy Sciences, Division of Chemical Sciences, under contract W-31 - 109-Eng-38.
+References
+[1] C. Kinnaier and D. Holten, Proc. Natl. Acad. Sci. US 87 (1990) 3552. [2] M.H. Vos, J.C. Lambry, J.C. Robles, D.C. Youvan, J. Breton and J.-L. Martin, Proc. Natl. Acad. Sci. US 88 (1991) 8885. [3] T.J. DiMagno, S.J. Rosenthal, X. Xie, M. Du, C.-K. Chan, D.K. Hanson, M. Schiffer, J.R. Norris and G.R. Fleming, in: The photosynthetic bacterial reaction center lI: structure, spectroscopy, and dynamics, eds. J. Breton and A. Vermeglio, NATO ASI Series (Plenum Press, New York, 1992) p. 209. [4] M.G. Miiller, K. Griebcnow and A.R. Holzwarth, Chem. Phys. Lett. 199 (1992) 465. [5] Y. Jia, T.J. DiMagno, C.-K. Chan, Z. Wang, M. Du, D.K. Hanson, M. Schiffer, J.R. Norris, G.R. Fleming and M.S. Popov, J. Phys. Chem. 97 (1993) 13180. [6] Z. Wang, R.M. Pearlstein, Y. Jia, G.R. Fleming and J.R. Norris, Chem. Phys. 176 (1993) 421.
+
+[7] M. Bixon, J. Jortner and M.E. Michel-Beyerle, Biochim. Biophys. Acta 1056 (1991) 301. [8] O.J.G. Somsen, F. van Mourik, R. van Grondelle and L. Valkunas, Biophys. J. 66 (1994) 1580. [9] H.M. Visser, O.J.G. Somsen, F. van Mourik, S. Lin, I.H.M. van Stokkum and R. van Grondelle, Biophys. J. 69 (1995) 1083. [10] R.M. Pearlstein, Photochem. Photobiol. 35 (1982) 835. [11] R.M. Pearlstein, Photosynth. Res. 48 (1996) 75. [12] R.P. Hemenger, K. Lakatos-Lindenberg and R.M. Pearlstein, J. Chem. Phys. 60 (1974) 3271. [13] R.M. Pearlstein, in preparation. [14] R.M. Pearlstein, Brookhaven Symposia in Biology 19 (1966) 8. [15] R.P. Hemenger, R.M. Pearlstein and K. Lakatos-Lindenberg, J. Math. Phys. 13 (1972) 1056. [16] R.M. Pearlstein, in preparation. [17] R.M. Pearlstein, J. Lumin. 51 (1992) 139. [18] R.M. Pearlstein, in preparation. [19] K. Timpmann, A. Freiberg and V. Sundstr~m, Chem. Phys. 194 (1995) 275. [20] R.M. Pearlstein, in preparation. [21] J.M. Peloquin, J.C. Williams, X. Lin, R.G. Alden, A.K.W. Taguchi, J.P. Allen and N.W. Woodbury, Biochemistry 33 (1994) 8O89. [22] K. Timpmann, F.G. Zhang, A. Freiberg and V. SundstriSm, Biochim. Biophys. Acta 1183 (1993) 185. [23] T. Pullerits, K.J. Visscher, S. Hess, A. Freiberg, K. Timpmann and R. van Grondelle, Biophys. J. 66 (1994) 236. [24] L.M.P. Beekman, F. van Mourik, M.R. Jones, H.M. Visser, C.N. Hunter and R. van Grondelle, Biochemistry 33 (1994) 3143. [25] R.M. Pearlstein, in: Advances in photosynthesis research, Vol. 1, Part 1, ed. C. Sybesma (Nijhoff/Dordrecht, 1984) p. 13.
+
+

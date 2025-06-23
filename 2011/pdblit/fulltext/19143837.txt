@@ -1,0 +1,482 @@
+Improving thermostability and catalytic activity of pyranose 2-oxidase from Trametes multicolor by rational and semi-rational design
+´ Oliver Spadiut1, Christian Leitner1, Clara Salaheddin1, Balazs Varga2, Beata G. Vertessy2, Tien-Chye Tan3, Christina Divne3 and Dietmar Haltrich1
+1 Department of Food Sciences and Technology, BOKU­University of Natural Resources and Applied Life Sciences, Vienna, Austria 2 Institute of Enzymology, Biological Research Center, Hungarian Academy of Sciences, Budapest, Hungary 3 School of Biotechnology, Royal Institute of Technology KTH, Albanova University Center, Stockholm, Sweden
+
+Keywords enzyme engineering; pyranose oxidase; stability; stabilization; subunit interaction Correspondence D. Haltrich, Department of Food Sciences and Technology, Universitat fur Bodenkultur ¨ ¨ Wien, Muthgasse 18, A-1190 Wien, Austria Fax: +43 1 36006 6251 Tel: +43 1 36006 6275 E-mail: dietmar.haltrich@boku.ac.at Database Structural data are available in the Protein Data Bank under the accession numbers 3BG6, 3BG7 and 3BLY (Received 25 June 2008, revised 19 November 2008, accepted 1 December 2008) doi:10.1111/j.1742-4658.2008.06823.x
+
+The fungal homotetrameric flavoprotein pyranose 2-oxidase (P2Ox; EC 1.1.3.10) catalyses the oxidation of various sugars at position C2, while, concomitantly, electrons are transferred to oxygen as well as to alternative electron acceptors (e.g. oxidized ferrocenes). These properties make P2Ox an interesting enzyme for various biotechnological applications. Random mutagenesis has previously been used to identify variant E542K, which shows increased thermostability. In the present study, we selected position Leu537 for saturation mutagenesis, and identified variants L537G and L537W, which are characterized by a higher stability and improved catalytic properties. We report detailed studies on both thermodynamic and kinetic stability, as well as the kinetic properties of the mutational variants E542K, E542R, L537G and L537W, and the respective double mutants (L537G / E542K, L537G / E542R, L537W / E542K and L537W / E542R). The selected substitutions at positions Leu537 and Glu542 increase the melting temperature by approximately 10 and 14 °C, respectively, relative to the wild-type enzyme. Although both wild-type and single mutants showed first-order inactivation kinetics, thermal unfolding and inactivation was more complex for the double mutants, showing two distinct phases, as revealed by microcalorimetry and CD spectroscopy. Structural information on the variants does not provide a definitive answer with respect to the stabilizing effects or the alteration of the unfolding process. Distinct differences, however, are observed for the P2Ox Leu537 variants at the interfaces between the subunits, which results in tighter association.
+
+The flavoenzyme pyranose 2-oxidase (P2Ox; pyranose:oxygen 2-oxidoreductase; EC 1.1.3.10), a member of the glucose­methanol­choline family of FADdependent oxidoreductases [1], catalyses the oxidation of several aldopyranoses at position C-2 to yield the
+
+corresponding 2-ketoaldoses and H2O2 as products. The enzyme is found in wood-degrading basidiomycetes, where it is localized in the hyphal periplasmic space. Presumably, P2Ox supplies lignin and manganese peroxidases with H2O2, an essential cosubstrate
+
+Abbreviations ABTS, azino-bis-(3-ethylbenzthiazolin-6-sulfonic acid); DSC, differential scanning calorimetry; Fc+, ferricenium ion; IMAC, immobilized metal affinity chromatography; Mes, 2-(N-morpholino) ethane sulfonic acid (4-morpholine ethane sulfonic acid); P2Ox, pyranose 2-oxidase; PDB, Protein Data Bank; PsP2Ox, pyranose oxidase from Peniophora sp.; TLS, translation, libration, screw-rotation; Tm, melting temperature; TmP2Ox, pyranose oxidase from Trametes multicolor; TvP2Ox, pyranose oxidase from Trametes (Coriolus) versicolor; s1 / 2, half-life of activity.
+
+776
+
+FEBS Journal 276 (2009) 776­792 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+O. Spadiut et al.
+
+Stabilization of pyranose oxidase
+
+for ligninolysis by wood-rotting fungi [2]. To date, P2Ox from Trametes multicolor and Peniophora gigantea comprises the best studied enzyme, both from a biochemical and structural point of view [3­6]. Native P2Ox from T. multicolor (TmP2Ox) is composed of four identical 68 kDa subunits, resulting in a 270 kDa homotetramer [7]. It contains the prosthetic group FAD bound covalently via its 8a-methyl group to each His167 Ne2 (i.e. N3) per subunit [8], which was also confirmed from the crystal structure of TmP2Ox deter° mined at 1.8 A resolution [3]. Structurally, the homotetramer is described more accurately as a dimer of dimers (i.e. dimers formed by the subunits A and B, as well as C and D) (Fig. 1). Interaction between the interfaces is most extensive between these two dimers A­B and C­D, with a large number of hydrogen bonds and hydrophobic contacts. These interactions occur mainly via two distinct regions of the subunit termed the oligomerization loop and oligomerization arm. The latter is also involved in the interactions between subunits A and D (B and C, respectively), whereas the weakest interaction surfaces are observed at the interface of the A­C (and B­D) pair. These latter interactions occur mainly via hydrophobic contacts between residues 508­528 and 532­540 (segments H8 and B6, respectively) [3]. In accordance with other flavoprotein oxidoreductases, the reaction mechanism of P2Ox is of the typical Ping Pong Bi Bi type [9,10]. In the reductive half-reaction, an aldopyranose is oxidized at position C-2 to yield a 2-ketoaldose (aldos-2-ulose), whereas FAD is reduced to FADH2 (reaction 1) [11,12]. During the
+
+ensuing oxidative half-reaction, FADH2 is re-oxidized by the second substrate oxygen, yielding the oxidized prosthetic group and H2O2 (reaction 2). In addition, alternative electron acceptors, including either twoelectron acceptors such as benzoquinones (reaction 3) or one-electron acceptors such as chelated metal ions (e.g. the ferricenium ion or radicals), are used efficiently by P2Ox instead of oxygen [7].
+
+FADþaldopyranose ! FADH2 þ2-keto-aldopyranose ð1Þ FADH2 þ O2 ! FAD þ H2 O2 FADH2 þ benzoquinone ! FAD þ hydroquinone ð2Þ ð3Þ
+
+Fig. 1. Ribbon drawing illustrating the tetrameric assembly of functional P2Ox. The model 2IGO [4] is shown. The subunits A, B, C and D are colored yellow, blue, red and green, respectively. The tetramer molecule is overlaid with a gray solvent-accessible surface.
+
+P2Ox comprises an interesting biocatalyst in the biotransformations of carbohydrates because it can be used to synthesize various carbohydrate derivates and rare sugars [12]. Amongst others, the oxidation of d-glucose and d-galactose to 2-keto-d-glucose and 2-keto-d-galactose is of applied interest because these oxidized intermediates can be subsequently reduced at position C-1 to obtain the ketoses d-fructose and d-tagatose [13,14], which are of interest in the food industry. P2Ox is not only useful for biotransformations of carbohydrates, but also for applications in sensors or biofuel cells [15,16]. Recently, we demonstrated the electrical wiring of P2Ox with an osmium redox polymer serving as a redox mediator on graphite electrodes [15]. Here, the redox polymer collects the electrons from the prosthetic groups of the enzyme and transfers them to the electrode. Other mediators that have been investigated for providing contact between P2Ox and the electrode include ruthenium or modified ferrocenes [16]. For this bioelectrochemical application, the reactivity of P2Ox with alternative electron acceptors, and notably with (complexed) metal ions such as the ferrocenes, is of significant importance. As for many other enzymes applied in industry [17,18], there is the need for more stable and active P2Ox. To date, few attempts to improve P2Ox by enzyme engineering have been reported. Studies on P2Ox from Coriolus (Trametes) versicolor (TvP2Ox) using random mutagenesis revealed the importance of position Glu542, both for improved thermostability and catalysis, with variant E542K showing an increase in optimum temperature by 5 °C and a decrease in the Michaelis constant Km for the two substrates d-glucose and 1,5-anhydro-d-glucitol [19]. Subsequent studies on P2Ox from Peniophora gigantea (PgP2Ox) and Penio777
+
+FEBS Journal 276 (2009) 776­792 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+Stabilization of pyranose oxidase
+
+O. Spadiut et al.
+
+phora sp. (PsP2Ox) confirmed the beneficial effects of the Glu fi Lys mutation at position 542 (540 for PgP2Ox), and identified additional amino acid residues (e.g. Thr158 in PsP2Ox), which affect the Km values positively for a range of carbohydrate substrates [20,21]. In the present study, we report novel mutations of P2Ox at position Leu537, which affect beneficially both turnover number and thermal stability, and, for the first time, provide a detailed analysis of the effects of several mutations, including the E542K variant, on the kinetic and thermodynamic stability of TmP2Ox.
+
+A
+
+B
+
+Results
+Generation of mutants Based on previously obtained results [19,21], we selected position Glu542 for mutational studies towards improved thermostability because replacement of this residue by Lys was shown to be beneficial, increasing the temperature optimum of activity and lowering the Michaelis constant. In addition to variant E542K, which was shown previously to be advantageous, we also produced the variant E542R, again replacing Glu by a basic amino acid. DNA sequence analysis confirmed the presence of the correct mutations at the amino acid position 542 in the TmP2Ox sequence with no undesired mutations. Furthermore, we selected position Leu537 for mutational studies using saturation mutagenesis. As evident from the structure of TmP2Ox [3], Leu537 is located on the surface of the P2Ox subunit as part of b-strand B6. Presumably, it takes part in the (weak) interaction between subunits A and C, as well as B and D with Leu537 of monomer A positioned opposite Leu537¢ of monomer C (Fig. 2A,B). Replacement of this amino acid by a more suitable residue might therefore increase the interaction between the subunits and stabilize the quaternary structure of P2Ox. Saturation mutagenesis was performed as described in the Experimental procedures. After screening of 190 colonies using a microtiter plate-based assay, we selected the most thermostable mutants for sequencing; these were identified as variants L537G and L537W. Different codons for these two amino acids were found in the selected variants at position 537, which confirmed the successful procedure of saturation mutagenesis. After characterization of these four single mutants, the double-mutants L537G / E542K, L537G / E542R, L537W / E542K and L537W / E542R were constructed by site-directed mutagenesis aiming to combine the positive effects of the different single mutations on thermostability and catalytic activity. Again, DNA
+778
+
+C
+
+D
+
+Fig. 2. Ribbon drawings showing the position 537 at the A / C interface. The A and C subunits are colored yellow and red, respectively. For clarity, subunits B and D have been omitted. (A) Model 2IGO with Leu537 at the dyad axis between monomers A and C in the A / C interface. (B) Magnified view of (A). Magnified views of (C) the L537G variant lacking a side chain at position 537 and (D) the E542K / L537W mutant with tryptophan at position 537 are also shown.
+
+sequence analysis confirmed the presence of the correct replacements in the P2Ox gene with no undesired mutations. Protein expression and purification To express active P2Ox variants, the different transformants were cultivated in 2 L shaken flasks and recombinant protein expression was induced by the addition
+
+FEBS Journal 276 (2009) 776­792 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+O. Spadiut et al.
+
+Stabilization of pyranose oxidase
+
+A
+
+homogenous (> 98%) as judged by native PAGE and SDS / PAGE (Fig. 3). Kinetic characterization of mutational variants Steady-state kinetic constants for the different mutational variants of TmP2Ox were determined for the two sugar substrates, d-glucose and d-galactose, which were varied over the range 0.1­50 and 0.1­200 mm, respectively, using the standard azino-bis-(3-ethylbenzthiazolin-6-sulfonic acid) (ABTS) assay and oxygen (air saturation). Prior to determination of the kinetic constants, it was confirmed that introduction of the amino acid substitutions in the different variants did not affect the pH profile of P2Ox activity (data not shown). Table 1 provides a summary of the kinetic data for both d-glucose and d-galactose. For the presumed natural substrate of P2Ox, d-glucose, the two Leu537 variants studied showed slightly decreased Km and increased kcat values. Mutations at Glu542 lowered the Michaelis constant significantly, whereas kcat was also decreased to some extent, especially for the E542R variant, compared to the wild-type enzyme. These effects could be combined in the double mutants, which all showed notably reduced Km values and turnover numbers that are comparable to wt P2Ox. Variant L537W / E542K showed the highest increase in catalytic efficiency, kcat / Km, which was more than doubled relative to the wild-type (Table 1). d-Galactose is a relatively poor substrate of P2Ox; apparently, the axial hydroxyl group at position C-4 is sterically hindered by the side chain of Thr169 in the active site [22]. In accordance with the results obtained for d-glucose, the Glu542 variants showed lower Km values, whereas kcat is hardly affected by the mutations
+
+B
+
+Fig. 3. Native PAGE (A) and SDS / PAGE (B) of different variants of P2Ox from T. multicolor. Lane 1, molecular mass standards [High Molecular Weight Calibration Kit for native electrophoresis (Amersham) and Precision Plus Protein Dual Color (Bio-Rad), respectively]; lane 2, wild-type TmP2Ox; lane 3, variant L537G; lane 4, L537W; lane 5, E542K; lane 6, E542R; lane 7, L537G / E542K; lane 8, L537G / E542R; lane 9, L537W / E542K; lane 10, L537W / E542R.
+
+of lactose (0.5%) to the culture medium. Routinely, approximately 30 mg of P2Ox protein was obtained per litre of culture medium in these cultivations. P2Ox variants were purified from the crude extracts by immobilized metal affinity chromatography (IMAC) followed by ultrafiltration. This two-step purification procedure resulted into proteins that were apparently
+
+Table 1. Apparent kinetic constants of wild-type recombinant pyranose 2-oxidase from T. multicolor and mutational variants for either D-glucose or D-galactose as substrate, with the concentration of O2 as electron acceptor held constant. Kinetic data were determined at 30 °C using the standard ABTS assay and air saturation.
+D-Glucose D-Galactose
+
+Variant Wild-type P2Ox L537G L537W E542K E542R L537G / E542K L537G / E542R L537W / E542K L537W / E542R
+
+Km (mM) 0.939 0.851 0.749 0.521 0.489 0.487 0.441 0.432 0.419 ± ± ± ± ± ± ± ± ± 0.037 0.035 0.022 0.019 0.032 0.027 0.021 0.012 0.015
+
+kcat (s)1) 48.1 52.1 59.0 35.9 28.5 43.9 33.1 46.5 31.7 ± ± ± ± ± ± ± ± ± 0.53 0.59 0.48 0.33 0.46 0.61 0.38 0.32 0.32
+
+kcat / Km (M)1Æs)1) 51 61 78 68 58 90 75 107 75 200 200 800 900 100 200 000 600 600
+
+Rel. kcat / Km (%) 100 119 154 135 114 176 146 210 148
+
+Km (mM) 8.79 9.47 9.40 3.87 4.26 6.01 5.77 5.19 5.49 ± ± ± ± ± ± ± ± ± 0.54 0.34 0.44 0.30 0.26 0.20 0.28 0.16 0.31
+
+kcat (s)1) 2.51 2.46 2.90 2.59 1.99 2.34 2.36 2.51 2.48 ± ± ± ± ± ± ± ± ± 0.046 0.021 0.034 0.041 0.025 0.017 0.021 0.016 0.031
+
+kcat / Km (M)1Æs)1) 286 260 309 670 467 389 409 483 452
+
+Relative kcat / Km (%) 100 90.8 108 234 163 136 143 170 158
+
+FEBS Journal 276 (2009) 776­792 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+779
+
+Stabilization of pyranose oxidase
+
+O. Spadiut et al.
+
+considered in the present study. Variants E542K and L537W / E542K resulted in the highest increase in catalytic efficiency (2.3- and 1.7-fold, respectively) compared to the wild-type enzyme; this is mainly due to the decrease in Km (Table 1). Steady-state kinetic constants were furthermore determined for alternative electron acceptors of P2Ox [i.e. the one-electron acceptor substrate ferricenium ion (Fc+) and the two-electron acceptor substrate 1,4benzoquinone] using both d-glucose and d-galactose as the saturating substrate. The data obtained are summarized in Tables 2 and 3. Replacing Leu537 with either Trp or Gly resulted in a significant increase in kcat for both substrates, which is more pronounced for variant L537W than for L537G. Interestingly, all other variants had lower kcat values for Fc+ as substrate than the wild-type enzyme. Furthermore, all of the variants studied showed lower Km values for 1,4benzoquinone. As a result, the catalytic efficiencies
+
+increased considerably for some of these variants, which is most noteworthy for L537W, where kcat / Km increased 2.2- and 2.5-fold for Fc+ and 1,4-benzoquinone with d-glucose as electron donor substrate (Tables 2 and 3). Thermodynamic stability Wild-type TmP2Ox and its variants were investigated by differential scanning calorimetry (DSC) aiming to acquire thermodynamic data on heat-induced unfolding of these proteins and hence on their thermodynamic stability [23]. For each protein sample, cooperative unfolding peaks were observed for the first heating cycle (Fig. 4). Samples after the first heating cycle showed considerable precipitation, suggesting irreversible aggregation, and therefore no cooperative melting peaks could be observed in the second heating cycle. Because of the irreversible nature of the
+
+Table 2. Apparent kinetic constants of wild-type recombinant pyranose 2-oxidase from T. multicolor and mutational variants for the ferricenium ion Fc+ as varied substrate, with the concentration of D-glucose or D-galactose as electron donor held constant at 100 mM. Kinetic data were determined at 30 °C.
+D-Glucose D-Galactose
+
+Variant Wild-type P2Ox L537G L537W E542K E542R L537G / E542K L537G / E542R L537W / E542K L537W / E542R
+
+Km (mM) 0.254 0.289 0.253 0.290 0.319 0.296 0.328 0.408 0.281 ± ± ± ± ± ± ± ± ± 0.099 0.097 0.093 0.096 0.105 0.097 0.141 0.168 0.103
+
+kcat (s)1) 151 282 334 54.4 46.7 86.7 102 127 86.3 ± ± ± ± ± ± ± ± ± 35 49 61 9.2 8.1 14 23 29 16
+
+kcat / Km (M)1Æs)1) 592 975 1 320 187 147 294 309 310 307 000 000 000 000 000 000 000 000 000
+
+Rel. kcat / Km (%) 100 164 223 31.6 24.8 49.6 52.2 52.4 51.9
+
+Km (mM) 0.070 0.086 0.063 0.068 0.183 0.072 0.054 0.090 0.074 ± ± ± ± ± ± ± ± ± 0.008 0.017 0.017 0.014 0.029 0.012 0.011 0.009 0.020
+
+kcat (s)1) 5.34 7.07 8.18 1.44 2.08 2.11 1.81 2.68 2.47 ± ± ± ± ± ± ± ± ± 0.22 0.63 0.91 0.18 0.15 0.12 0.14 0.11 0.28
+
+kcat / Km (M)1Æs)1) 77 82 130 21 11 29 33 29 33 000 600 200 200 400 300 800 800 400
+
+Relative kcat / Km (%) 100 107.4 169.2 27.6 14.8 38.1 43.9 38.8 43.4
+
+Table 3. Apparent kinetic constants of wild-type recombinant pyranose 2-oxidase from T. multicolor and mutational variants for 1,4-benzoquinone as varied substrate, with the concentration of D-glucose or D-galactose as electron donor held constant at 100 mM. Kinetic data were determined at 30 °C.
+D-Glucose D-Galactose
+
+Variant Wild-type P2Ox L537G L537W E542K E542R L537G / E542K L537G / E542R L537W / E542K L537W / E542R
+
+Km (mM) 0.241 0.176 0.130 0.182 0.136 0.150 0.155 0.140 0.137 ± ± ± ± ± ± ± ± ± 0.025 0.025 0.013 0.025 0.015 0.015 0.032 0.018 0.024
+
+kcat (s)1) 152 184 205 189 127 173 173 181 175 ± ± ± ± ± ± ± ± ± 5.9 7.6 6.1 9.2 4.0 5.1 10.3 7.8 10.4
+
+kcat / Km (M)1Æs)1) 633 000 1.042 000 1.579 000 1.039 000 932 000 1.157 000 1.118 000 1.292 000 1.278 000
+
+Rel. kcat / Km (%) 100 165 250 164 147 183 177 204 202
+
+Km (mM) 0.065 0.048 0.036 0.049 0.040 0.040 0.037 0.038 0.032 ± ± ± ± ± ± ± ± ± 0.003 0.002 0.004 0.009 0.003 0.005 0.005 0.007 0.004
+
+kcat (s)1) 4.79 4.64 5.37 5.52 4.37 4.72 4.75 5.09 4.77 ± ± ± ± ± ± ± ± ± 0.055 0.051 0.129 0.22 0.075 0.125 0.144 0.21 0.147
+
+kcat / Km (M)1Æs)1) 74 96 150 113 109 118 127 135 148 200 200 100 300 100 400 000 400 000
+
+Relative kcat / Km (%) 100 129.7 202.3 152.7 147.0 159.6 171.2 182.6 199.5
+
+780
+
+FEBS Journal 276 (2009) 776­792 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+O. Spadiut et al.
+
+Stabilization of pyranose oxidase
+
+A
+
+B
+
+of Glu542 with a basic residue might introduce an ionic interaction exerting a greater stabilizing effect on the tetramer than the mere alteration of an apolar residue by residues of comparable hydrophobicity (Fig. 4A). Interestingly, the double mutants L537G / E542K, L537G / E542R, L537W / E542K and L537W / E542R all showed more complex melting curves with a first, shouldered peak at approximately 65 °C and a second peak at approximately 75­77 °C (Fig. 4B). Immediately after the second peak had been reached, a sudden drop was observed in the heat absorption signal, possibly indicating major aggregation, which was also confirmed by visual inspection of the samples. This behaviour prevented full analysis of the second heat absorption step; however, the two steps are clearly different from the single mutant and the wild-type proteins. The first transition appears to be cooperative, although irreversible, as determined by repeated heat cycles. However, the two peaks can also be measured in two subsequent heating cycles if the heating process is stopped once the end of the first transition has been reached, suggesting that the conformation associated with this first transition remains stable and does not undergo any irreversible changes at lower temperatures. Kinetic stability
+
+Fig. 4. (A) Denaturation thermograms of wild-type P2Ox from T. multicolor (solid line) and the single mutants L537W (dotted line), L537G (dashed line), E542R (dash-dotted line) and E542K (thick solid line). (B) Heat-induced unfolding of TmP2Ox double mutant variants L537G / E542K (solid line), L537G / E542R (dashed line), L537W / E542K (thick solid line) and L537W / E542R (dash-dotted line). Melting temperatures are indicated directly in the figure. As for the double mutants, the peaks of the second transitions occur at: L537G / E542K, 77.4 °C; L537G / E542R, 75.0 °C; L537W / E542K, 77.5 °C; and L537W / E542R, 76.4 °C.
+
+unfolding under the present circumstances, the thermodynamic values associated with the heat absorption curves, as calculated by equations based on reversible thermodynamic criteria, are only indicative. However, the melting temperature, Tm, can be taken as an informative value because irreversible aggregation is expected to occur only once the unfolding is complete, after the melting point has been reached. Wild-type P2Ox from T. multicolor shows a Tm of 60.7 °C, and all variants are characterized by significantly increased Tm values and thermal stability (Fig. 4). The clear differences between the melting points of the single Leu537 and the Glu542 mutants (approximately 70 and 75 °C, respectively) indicate that the replacement
+
+Kinetic stability (i.e. the length of time an enzyme remains active before undergoing irreversible inactivation) [23] was measured for wild-type P2Ox and TmP2Ox variants at different temperatures and at a constant pH of 6.5, and the inactivation constants, kin, and half-life of denaturation, s1 / 2, were determined (Table 4). The single mutants showed firstorder inactivation kinetics when analysed in the ln(residual activity) versus time plot (Fig. 5). The selected substitutions at both positions 537 and 542 resulted in considerably stabilized P2Ox variants, with the replacement of Glu542 by either Lys or Arg showing a stronger effect (decreased kin and increased s1 / 2 values) than the Leu fi Gly and Leu fi Trp replacements at position 537. At 60 °C, the s1 / 2 values were increased for the Leu537 and Glu542 variants by approximately 200- and 250-fold, respectively, compared to the wild-type enzyme. Inactivation of the double mutants L537G / E542K, L537G / E542R, L537W / E542K and L537W / E542R was a more complex process, showing two distinct phases: a first phase of relatively rapid inactivation that apparently followed first-order kinetics and, after an intermediate phase, a second phase of first-order decay, with inac781
+
+FEBS Journal 276 (2009) 776­792 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+Stabilization of pyranose oxidase
+
+O. Spadiut et al.
+
+Table 4. Kinetic stability of pyranose oxidase from T. multicolor at various temperatures. ND, not determined. 60 °C Inactivation constant kin,1 (min)1) )1040 · 10)4 )5.87 · 10)4 )5.20 · 10)4 )4.22 · 10)4 )4.12 · 10)4 )81.2 · 10)4 )154 · 10)4 )61.1 · 10)4 )75.9 · 10)4 Inactivation constant kin,2 (min)1) -- -- -- -- -- )11.3 )4.34 )3.37 )3.10 70 °C Inactivation constant kin (min)1) ND )24.4 · 10)2 )46.4 · 10)2 )1.26 · 10)2 )2.25 · 10)2 )0.242 · 10)2 )0.349 · 10)2 )0.207 · 10)2 )0.435 · 10)2 75 °C Inactivation constant kin (min)1) ND ND ND ND ND )2.90 )3.98 )2.35 )3.43
+
+Variant Wild-type P2Ox L537G L537W E542K E542R L537G / E542K L537G / E542R L537W / E542K L537W / E542R
+a
+
+Half-life s1 / 2 (min) 6.66 1180 1330 1640 1680 241a 132a 934a 727a
+
+Half-life s1 / 2 (min) < 1 min 2.84 1.49 55.0 30.8 5.5a 7.2a 105a 71.1a
+
+Half-life s1 / 2 (min) ND ND ND ND ND 2.39 1.74 2.95 2.02
+
+· · · ·
+
+10)4 10)4 10)4 10)4
+
+· · · ·
+
+10)1 10)1 10)1 10)1
+
+Inactivation did not follow apparent first-order kinetics but showed two distinct phases; s1 / 2 values were calculated using the inactivation constant calculated by the regression analysis for the second phase, but are not true half-life values.
+
+A
+
+C
+
+B
+
+D
+
+Fig. 5. Inactivation kinetics of pyranose oxidase from T. multicolor at (A,C) 60 °C and (B,D) 70 °C and pH 6.5. (A,B) , wild-type pyranose oxidase; d, variant L537G; m, variant L537W; r, variant E542K; h, variant E542R; (C,D): , variant L537G / E542K; d, variant L537G / E542R; , variant L537W / E542K; r, variant L537W / E542R.
+
+tivation constants that were much lower than for the first phase. This complex behaviour is in excellent agreement with the results obtained by microcalorimetry. At 60 °C, this first phase of inactivation lasted for approximately 45 min, whereas it was instantaneous (< 2.5 min) at 70 °C (Fig. 5). Interestingly, the second phase was characterized by inactivation constants that were even lower than those found for the
+782
+
+single mutants. This is especially pronounced at 70 °C with kin values for the double mutants being lower by one or two orders of magnitude than those of the single mutants. Because of this complex behaviour, no true s1 / 2 can be given, yet the values calculated by using the obtained inactivation constants show significant stabilization, especially at higher temperatures.
+
+FEBS Journal 276 (2009) 776­792 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+O. Spadiut et al.
+
+Stabilization of pyranose oxidase
+
+CD spectroscopy To learn more about heat-induced conformational changes of the proteins studied and the nature of the residual fraction obtained for the double mutants after the first melting step, CD spectroscopy was applied using wild-type P2Ox as well as the L537W / E542K and L537W / E542R double mutants as protein samples. The far-UV CD spectrum of wild-type P2Ox at 25 °C was typical for a protein composed of both a-helical and b-strand secondary structure elements, as also expected from the crystal structure of TmP2Ox [3]. This spectrum was essentially unchanged when the temperature was increased up to 55 °C (Fig. 6), whereas a sharp loss in intensity was obtained near the melting point of wild-type P2Ox (60.7 °C). The highest CD signal in the CD spectrum was observed at 209 nm, and thermal unfolding was followed at this wavelength in a separate experiment. The intensity at 209 nm did not change significantly until approximately 60 °C was reached, upon which it quickly diminished and became zero (Fig. 6, inset). This is in good agreement with the spectral CD measurements, as well as with the results of the DSC. In the DSC experiments, two well-separated peaks could be observed for the double mutants; the first of which was also deconvoluted into two transitions. In the CD spectra of the double mutants, we observed two well-separated steps of intensity loss as well, and these occurred at temperatures that agree well with
+
+those in the DSC experiments (Figs 4 and 7). Based on the behaviour of the L537W / E542K and L537W / E542R double mutants observed in the DSC experiments, the CD spectra of the protein samples heated to this plateau temperature (68­70 °C) and then cooled to 25 °C are expected to reflect the conformation of the partially melted protein (Fig. 7B). These partially
+A
+
+B
+
+0
+64 °C
+
+­10 CD (mdeg)
+60 °C
+
+­20
+0 CD209nm(mdeg)
+
+50 °C
+
+­10 ­20 ­30 ­40 30 40 50 60 Temperature (°C) 70
+
+­30
+40 °C
+
+­40
+
+25 °C
+
+210
+
+220 230 Wavelength (nm)
+
+240
+
+Fig. 6. Temperature dependence of wild-type TmP2Ox CD spectra. The inset shows the CD signal at 209 nm as a function of temperature. In the main panel, the sample was heated up to the different temperature values (25, 40, 50, 60 and 64 °C), and full spectra were recorded at these temperatures. In the inset, the sample was heated using the constant rate of 1.0 °CÆmin)1.
+
+Fig. 7. (A) Complete (two-step) thermal unfolding of the L537W / E542K and L537W / E542R mutants in one single heating cycle. The spectra of the native proteins L537W / E542K (solid line) and L537W / E542R (dashed line), as well as the spectra of the completely unfolded proteins, were recorded at 25 °C. Inset: the CD signal at 209 nm was followed as a function of temperature (black, L537W / E542K; gray, L537W / E542R). (B) CD spectra of the two-step thermal unfolding of the L537W / E542K and the L537W / E542R mutants recorded at 25 °C. Initial spectra (solid line, L537W / E542K; dashed line, L537W / E542R) are those of the native proteins. The second set of spectra were recorded after partial thermal unfolding, whereas the final spectra show the loss of the CD signal after complete unfolding. Inset: the CD signal at 209 nm was followed as a function of temperature (black, L537W / E542K; gray, L537W / E542R).
+
+FEBS Journal 276 (2009) 776­792 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+783
+
+Stabilization of pyranose oxidase
+
+O. Spadiut et al.
+
+melted samples showed a profile identical to that of native P2Ox, but with a lower intensity, suggesting that no drastic change in the composition of the secondary structural elements occurred in the partially melted sample compared to the native one. Because no stable dimeric or monomeric form of P2Ox is available for comparative CD studies, we cannot unambiguously decide the oligomeric state of the species possessing the residual CD spectrum and activity associated with the first DSC transition. Structure of the P2Ox variants Data collection and model statistics are given in Table 5. The final L537G and E542K models include two complete tetramers per asymmetric unit, with each monomer consisting of residues 43­619, and one FAD molecule per monomer. The L537W / E542K mutant contains one monomer per asymmetric unit comprising residues 46­618 with one FAD and one Mes [2-(Nmorpholino) ethane sulfonic acid (4-morpholine ethane sulfonic acid)] molecule per monomer. As shown in Table 5, all models have good R values, with residues
+
+that fall within the allowed regions of the Ramachandran plot [24]. The overall tetramer structure (Fig. 1) of all mutants is identical to that previously reported for wild-type and recombinant P2Ox from T. multicolor [3,4]. Typical rmsd values using all Ca atoms from all monomers ° of the tetramer fall within the range 0.2­0.3 A. The structures are also almost identical to the models of Peniophora P2Ox [Protein Data Bank (PDB) codes 1TZL, 2F5V and 2F6C] [5,6] with rmsd values of ° approximately 0.9 A for the monomer structure. The only major difference observed between all Trametes and Peniophora P2Ox models is the precise conformation of the substrate loop. As discussed in detail elsewhere, we have shown that this loop is in an open conformation when no substrate is bound (e.g. unliganded recombinant P2Ox; PDB codes 2IGK, 2IGM, 2IGN) [4] or when an electron-donor substrate is bound (e.g. monosaccharide as in P2Ox H167A in complex with 2-fluoro-2-deoxy-d-glucose, 2FG; PDB code 2IGO) [4], and in a closed conformation when small electron-acceptor substrates (i.e. dioxygen) or small inhibitor molecules (e.g. acetate as in wild-type
+
+Table 5. Data collection and refinement statistics. E542K Data collectiona ° Wavelength, k (A) Beamline / temperature (°K) ° Cell constants a, b, c (A); b (°) / space group ° Resolution range, nominal (A) Unique reflections Multiplicity Completeness (%) <I / rI> Rsym (%)b Refinement ° Resolution range (A) Completeness, all % (highest bin) Rfactorc / work reflns, all Rfree / free reflns, all Non-hydrogen atoms all / protein ° Mean B (A2) protein all / mc / sc ° Mean B (A2) solvent / number of molecules ° Mean B (A2) cofactor / number of atoms ° rmsd bond lengths (A), angles (°) Ramachandran: favored / allowed (%)d PDB codee
+a
+
+L537G
+
+E542K / L537W
+
+0.918 BESSY 14.1 / 100 168.9, 103.7, 169.3, 106.31 / P21 40­1.70 (1.75­1.70) 603 616 (49 624) 3.8 (3.2) 98.2 (97.4) 9.7 (2.2) 13.7 (58.8) 40­1.70 98.3 (97.4) 16.6 / 597 554 19.8 / 6061 39 388 / 36 320 26.6 / 25.4 / 27.8 29.8 / 2564 17.5 / 424 0.022, 1.89 97.4 / 100 3BG6
+
+1.042 MAX-lab I911-2 / 100 168.5, 103.2, 169.3, 106.45 / P21 40­2.10 (2.20­2.10) 321 136 (39 548) 4.4 (3.3) 99.0 (94.0) 17.2 (6.2) 6.6 (26.2) 40­2.10 99.1 (94.6) 15.6 / 317 871 20.4 / 3262 38 655 / 36 287 38.5 / 37.4 / 39.7 38.8 / 1864 27.4 / 424 0.022, 1.86 97.1 / 100 3BG7
+
+0.931 ESRF ID14-3 / 100 103.4, 103.4, 118.6 / P42212 51­1.90 (2.00­1.90) 51 240 (7193) 12.6 (12.7) 99.9 (100) 17.2 (4.8) 12.1 (62.7) 51­1.90 100.0 (100) 14.9 / 50 735 18.1 / 504 4943 / 4524 12.9 / 11.6 / 14.2 35.4 / 354 14.8 / 53 0.022, 1.91 97.9 / 100 3BLY
+
+The outer shell statistics of the reflections are given in parenthesis. Shells were selected as defined in XDS [32] by the user. b Rsym = [Rhkl RI|I ­ <I>| / Rhkl RI |I] · 100%. c Rfactor = Rhkl| |Fo| ­ |Fc| | / Rhkl|Fo|. d As determined by MOLPROBITY [24]. e PDB accession codes for atomic coordinates and structure factors are deposited with the Research Collaboratory for Structural Bioinformatics Protein Data Bank.
+
+784
+
+FEBS Journal 276 (2009) 776­792 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+O. Spadiut et al.
+
+Stabilization of pyranose oxidase
+
+P2Ox in complex with acetate; PDB code 1TT0) [3] are bound. In the existing PsP2Ox models (recombinant wild-type P2Ox and P2Ox E542K mutant; PDB codes 1TZL, 2F5V and 2F6C, respectively) [5,6], the substrate loop assumes a disordered conformation intermediate to the ordered open and closed conformers seen for TmP2Ox. As expected for the active site in the absence of electron-donor monosaccharide substrate or electronacceptor substrate, the substrate loop in the E542K and L537G variants is open and slightly disordered, as indicated by partly weak electron density and elevated temperature factors. In the L537W / E542K variant, however, the substrate loop is open and fully ordered. In the E542K structure, the introduced Lys side chain has unambiguous electron density and points into the internal cavity at the centre of the homotetramer. In the L537G mutant structure, the elimination of the relatively large and hydrophobic Leu side chain results in remarkably small changes. In wild-type P2Ox, Leu537 is located in strand B6 close to the dyad axis between monomers A and C (or B and D) where the Cb atoms of Leu537 of each monomer interact via a hydrophobic packing interaction (Fig. 2A,B). Upon replacement of the Leu side chain by Gly (Fig. 2C), the Ca­Ca distance at position 537 between monomers A and C (or ° B and D) increases from 6.2 to 6.4 A. The mutation produces a relative Ca displacement at position 537 ° within the monomer of 0.6­0.7 A. The largest displacement, however, is seen two residues away, where the ° backbone Ca atom of Gly535 is shifted 0.9­1.0 A as a result of the Leu537 fi Gly substitution in the L537G mutant. At the interface between subunits A and C, solvent molecules substitute for the missing Leu side chain. In addition, the small, but distinct, displacement around position 537 is accompanied by backbone ° displacements in the substrate loop (0.8­1.0 A at Ca position 453). We chose to use P2Ox H167A in complex with 2FG (PDB code 2IGO) [4] as a reference for comparisons because this model has the substrate loop in an open and ordered conformation, with the open conformer being observed also in the three P2Ox variants described here. The mutants show minor but distinct differences compared to 2IGO. With Trp residues introduced at position 537, as in L537W / E542K (Fig. 2D), the 537 backbone of monomers A and C ° move 0.2 A closer together (with a concomitant move° ment of helices H8 in A and C closer by 0.4 A), whereas, with Gly replacements at this position (as in ° L537G), the monomers move 0.4 A further apart. However, two residues away at position 535, the backbones of the A and C monomers show tighter associa-
+
+° ° tion in L537G by 1.4 A, and only by 0.9 A in L537W / E542K, compared to model 2IGO. As a result of these movements, the L537W / E542K variant also shows a concomitant displacement of the substrate ° loop by 0.4­0.6 A, as well as tighter association between the oligomerization arm in monomers A and ° D by 0.6 A at position 121. In the E542K and L537G mutants, the corresponding position is shifted 0.1 and ° 0.3 A further apart, respectively, thus possibly weakening the A­D interaction compared with 2IGO. At the more detailed structural level, we observe that, compared with 2IGO, the A / C interface of the L537W / E542K variant shows improved hydrophobic stacking interactions between Trp537 of monomer A and Gln539 of monomer C, with a possibility of additional amino-aromatic interaction between Gln539 Ne2 and the Trp537 ring. In addition, this arrangement allows a shorter and more aligned hydrogen bond between Gln539 Ne2 and Trp537 O, which ought to be more stable. When comparing the three mutants and 2IGO, the largest difference observed is the position of the `head' domain (Fig. 8). In the thermostable L537W / E542K double mutant, differences in the backbone position of ° the exposed head domain of up to 4.3 A, and of exposed parts of the Rossmann domain of up to ° 2.7 A, are observed. For the rest of the homotetrameric assembly, only smaller backbone displacements of ° up to 1 A occur. Although these differences might arise from different packing in the tetragonal space group of the double mutant, the amino-acid replacements may also be of importance.
+
+Fig. 8. Ribbon drawing showing the superpositioning of the tetramers of 2IGO (red), L537G (yellow) and E542K / L537W (blue). As discussed in the text, the only significant difference in the overall tetramer structure is the relative displacement of the head domain in E542K / L537W.
+
+FEBS Journal 276 (2009) 776­792 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+785
+
+Stabilization of pyranose oxidase
+
+O. Spadiut et al.
+
+Discussion
+Pyranose oxidase is an enzyme of applied interest and, hence, previous studies have aimed at improving this biocatalyst [19­22]. One residue that was identified as being important for both stability and reactivity is Glu542, which is located on the surface of the internal cavity, close to the entrance to the active site [6]. Replacement of that residue by Lys resulted in increased thermostability (i.e. for TvP2Ox, an increase in temperature at which activity is reduced by 50% at 30 min from  55 °C for the wild-type to  65 °C [19] or, for PsP2Ox, an increase in the optimum temperature from 50 °C for the wild-type to 58 °C) [20], as well as in improved catalytic properties. However, the effect of this Glu fi Lys replacement on stability has not been studied in full. In the present study, we present for the first time detailed investigations for the E542K and E542R variants pertaining to their stability. In addition, we selected position Leu537, which is located at the interface of two subunits, for mutational studies. Leu537 of one subunit (A or B) interacts with Leu537¢ of another subunit (C or D) via hydrophobic packing. Strengthening this interaction by the introduction of a better-suited residue might therefore improve subunit­ subunit interactions and hence stability. Saturation mutagenesis at this position and subsequent screening for thermostable variants identified the replacements Leu537 fi Gly and Leu537 fi Trp as being beneficial. DSC measurements of both the wild-type enzyme and these four single mutants (L537G, L537W, E542K and E542R) showed a significant increase in the Tm for the variants. The replacements at position Glu542 proved to be more efficient for stabilization because Tm was increased by approximately 14 °C for both E542K and E542R, whereas this increase was 10.4 and 8.3 °C for L537G and L537W, respectively. These improvements in thermostability were further confirmed by inactivation studies at 60­75 °C, where, again, the Glu542 variants showed smaller inactivation constants and hence higher s1 / 2 than the two Leu537 variants. Interestingly, not only the Glu542 fi Lys replacement, but also the corresponding exchange with the basic residue Arg resulted in considerably improved stabilization to an approximately equal extent (e.g. Tm of 74.7 and 74.3 °C, s1 / 2, 60 °C of 1640 and 1680 min for E542K and E542R, respectively). Previous studies had concluded that only the Lys (and no other amino acid substitution at this position) has a similar positive effect [21]. The four single mutants of TmP2Ox showed considerably increased s1 / 2 and hence much slower inactivation at higher temperatures than the wild-type enzyme. To possibly combine these
+786
+
+stabilizing effects, we constructed the double mutants L537G / E542K, L537G / E542R, L537W / E542K and L537W / E542R. Again, these P2Ox variants were more thermostable than the wild-type but, interestingly, the concomitant introduction of the substitutions at both Glu542 and Leu537 altered the unfolding process significantly. The single mutants showed one unfolding peak by DSC, and the inactivation kinetics followed a first-order equation, indicative of a simple one-step inactivation process, where the native, active form is transformed directly into the denatured, inactive form [25]. All of the double mutants studied showed two separate unfolding peaks in the DSC measurements. Furthermore, the inactivation curves did not follow first-order kinetics but showed two distinct phases that can be described as two subsequent first-order reactions: a first phase of rapid activity loss and, after a short transition, a prolonged second phase of moderate activity loss. This behaviour could indicate an inactivation procedure consisting of two consecutive processes, with the native, active form of the P2Ox double mutants being first transformed rapidly into an active intermediate species, which then inactivates slowly in a second, independent reaction. The second melting temperature Tm,2, resulting in the final denaturation step of the P2Ox double mutants, was increased by 14.3­ 16.8 °C compared to the wild-type enzyme, which is even higher than for the P2Ox mutational variants with only one amino acid substitution. Based on CD studies, the first inactivation process leading to the active intermediate is not reversible. The nature of this intermediate species is yet unknown. Because the mutations mainly affect the interactions between the subunits, it is conceivable that either active dimers or monomers of P2Ox are formed in the first denaturation process. This is further corroborated by the CD measurements of protein samples of the L537W / E542K and L537W / E542R variants heated only to the first transition temperature, thus obtaining the intermediate species, and then cooled to 25 °C. These samples showed spectra identical to those of the native enzyme, but with lower intensity. This demonstrates that no drastic changes in the secondary structure elements occurred in this first unfolding process. In addition, we studied the effects of the replacements at Leu537 and Glu542 on the reactivity of P2Ox. In accordance with previous studies [19,21], the introduction of a basic amino acid at position Glu542 results in a decrease of the Michaelis constant for the two sugar substrates, d-glucose and d-galactose, but also in a decrease in the kcat to some extent. The variants L537G and L537W show almost unaltered Km values for both sugar substrates, whereas kcat was
+
+FEBS Journal 276 (2009) 776­792 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+O. Spadiut et al.
+
+Stabilization of pyranose oxidase
+
+improved specifically for the substrate d-glucose. These improvements of the catalytic properties could be combined advantageously in the double mutants, especially those containing the E542K replacement, which were characterized by considerably reduced Km values combined with practically unchanged kcat, and therefore improved catalytic efficiencies (kcat / Km), notably for d-glucose. One aspect that has not been studied to date is the effect of these mutations on the second half-reaction of P2Ox, the oxidative half-reaction, in which electrons are transferred to an acceptor. P2Ox not only can transfer these electrons to oxygen, but also to a range of other electron acceptors, including substituted quinones, complex metal ions or certain organic radical species [7], some of which are considerably better substrates than oxygen. When benzoquinone was used as the substrate, these mutations affected mainly Km, which decreased by a factor of two for some of these variants. Most of the substitutions had a negative effect when the ferricenium ion was the varied substrate. It is conceivable that the introduction of a positive charge in the internal cavity of P2Ox, close to the entrance of the tunnel leading to the active site [3], as in the E542K and E542R variants, results in the repulsion of the positively charged ferricenium ion Fc+. By contrast, the replacements at position Leu537 showed a significant, positive effect on kcat, Fc+, especially for L537W where kcat, Fc+ was increased by more than two-fold when d-glucose was the saturating substrate. This could be of interest for the application of P2Ox in the anodic reaction in biofuel cells based on mediated electron transfer. For mediated electron transfer, certain mediators, such as ferrocenes, Os-redox polymers or other complexed metal ions, collect electrons, resulting from the oxidation of the sugar, at the active site of the enzyme and transfer these to the electrode. In a biofuel cell based on an enzyme that is electrically wired to the electrode in this way, the current measured as an analytical response signal represents the actual turnover rate of the enzyme [15], and therefore a P2Ox variant with an increased kcat for the mediator (electron acceptor) will certainly be of interest. Recently, it was shown that TmP2Ox can communicate efficiently with electrodes by using either ferrocenes or other complexed metal ions [15,16]. It was further demonstrated that the E542K variant, which is characterized by a lower kcat for Fc+ than the wild-type enzyme, also performs significantly worse in bioelectrochemical studies than the wild-type, confirming the results of the kinetic characterization using Fc+ in the present study. The crystal structures of TmP2Ox, both in the unliganded recombinant form and in complex with an
+
+electron-donor substrate, have been studied in detail [3,4]. One characteristic feature is the substrate loop, which is in an open conformation when no substrate or an electron-donor substrate such as 2-fluoro-2deoxy-d-glucose is bound, and in a closed conformation when small electron-acceptor substrates are bound. The transition from the open to the closed active site involves a major reorganization of the substrate loop (residues 451­461). Two aromatic residues, Phe454 and Tyr456, which have no interaction with the active site in the open conformation, undergo major structural rearrangements during this transition. ° Notably, Tyr456 moves 9 A (together with Ser455) to completely close off the active site from the internal cavity of the homotetramer. Concomitantly, Phe454 ° rotates and moves some 7 A to fill the active site and pack against the FAD cofactor. In the loop between b-strand B6 in the substrate-binding domain and strand E2 in the hinge domain, two residues appear to act, at least partly, as structural determinants for the closed conformation of the substrate loop. The side chains of Met541 and Leu545 create a flat surface onto which Tyr456 stacks in its `swung-in' conformation observed in the closed state of the P2Ox active site [3,4]. These two residues are intervened by Glu542, the Oe2 atom of which forms a hydrogen bond to Ser153 Oc located in the nearby loop preceding b-strand D2 at the start of the oligomerization arm. The Oc atom of Ser153 in monomer A is also involved in a hydrogen-bond interaction with Asp124 in monomer D. The A-Ser153­d-Asp124 interaction helps to stabilize the association between the oligomerization arms in monomers A and D, as well as B and C. Moreover, it appears as if the interaction between Glu542 and Ser153 serves to secure the position of the hydrophobic Met / Leu platform for Tyr456 when the active site adopts its closed state. However, the Met / Leu platform does not appear to have any apparent function when the active site is in the open conformation because Met541 and Leu545 are then completely exposed to the solvent of the internal void, and distant from the aromatic side chain of Tyr456 in the substrate loop. When replacing Glu542 by Lys, the Glu542-Ser153 hydrogen bond is lost, and no additional hydrogen bond is offered to Lys542. The loss of the hydrogen bond may or may not affect the precise positioning of the aromatic ring of Tyr456 in the closed state. In the absence of a closed complex of E542K P2Ox, the effect of the loss of this hydrogen bond on the packing of the substrate loop is difficult to assess. However, any mutation that affects the structure and function of the substrate loop and / or the local environment of the
+787
+
+FEBS Journal 276 (2009) 776­792 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+Stabilization of pyranose oxidase
+
+O. Spadiut et al.
+
+flavin cofactor is likely to affect the kinetics of catalysis of either the reductive or oxidative half-reaction, or both. Such an effect could be either due to altered redox power of the cofactor and / or discrete conformational changes of amino acids critical for substrate binding and catalysis. As mentioned above, the Lys side chain points into the internal cavity of the tetramer and forms no hydrogen bonds to either protein or ordered solvent. Furthermore, the Lys replacement does not introduce any significant structural changes in either the monomer or tetramer structure of TmP2Ox in the folded state, and the corresponding mutation in PsP2Ox shows a Lys with the same side-chain conformation as that observed in the present study. For PsP2Ox, it was proposed that the increased thermostability of the E540K mutant may be due to an ionic effect assigned to the ability of the Lys side chain to relieve possible electrostatic repulsion between Glu542 and Asp124 in the wild-type enzyme at higher pH values [6]; however, because neither the pKa of Asp124 is known, nor the dependence of thermostability on pH, this hypothesis, although probable, remains unproven. As for the increased thermostability of P2Ox variants where Leu537 is replaced by either Gly or Trp, we observed distinct differences at the A / C interface. By introducing either Trp or Gly at position 537, tighter association between the A and C monomers can be achieved, although at different locations in the interface. Compared with L537G, additional favourable interactions are seen in E542K / L537W, where the A / D interface also is strengthened significantly by the tighter association of the oligomerization arms of monomers A and D. This is likely to explain why, although both Gly and Trp replacements increase stability to thermal unfolding, the Trp replacement is more thermostable overall. The largest difference between the structures is observed in the relative position of the head domain (Fig. 8); however, this is most likely due to differences in packing environment of the monoclinic and tetragonal crystal lattices rather than due to the amino-acid replacements per se. Thus, the subtle differences observed at the subunit interfaces discussed above are more likely determinants of increased thermostability.
+
+plasmids and, consequently, for the production of active P2Ox protein. The vector pET21d(+) was used throughout the study to express wild-type P2Ox and P2Ox variants containing a C-terminal His6-tag. Construction of the plasmid pHL2, which expresses the His-tagged wild-type TmP2Ox under the control of the T7 promoter, has been described previously [4]. E. coli cells were grown in TBampmedia (yeast extract 24 gÆL)1, peptone from casein 12 gÆL)1, glycerol 4 mLÆL)1; phosphate buffer 1 m, pH 7.5) under appropriate selective conditions (ampicillin was added to 100 mgÆL)1). The chemicals used were of the purest grade available and were purchased from Sigma (Vienna, Austria). Nucleotides, buffers and enzymes for molecular biology were from Fermentas (St Leon-Rot, Germany).
+
+Generation of mutants
+The TmP2Ox gene was mutated by a two-step site-directed mutagenesis procedure using PCR and digestion with DpnI [26]. For the replacement of Glu542 with Lys, the primers used were P2OE542K-for (5¢-GCAATTCATGAAGCCT GGT-3¢) and P2OE542K-rev (5¢-ACCAGGCTTCATGAA TTGC-3¢). The primers for constructing variant E542R were P2OE542R-for (5¢-GCAATTCATGCGGCCTGGT3¢) and P2OE542R-rev (5¢-ACCAGGCCGCATGAATTG C-3¢). For saturation mutagenesis of position Leu537, we used the primers P2O-Wobble-537-for (5¢-TCCTAC CCGGCTCCNNSCCGCAA-3¢) and P2O-Wobble-537-rev (5¢-TTGCGGSNNGGAGCCGGGTAGGA-3¢), where N = A, G, C or T, and S = G or C. To create double mutants at positions 537 and 542, we used the plasmids of variants L537G and L537W as templates for the PCR reactions, the forward primers P2OE542K-for and P2OE542R-for, and the reverse primers Double-G-rev (5¢-CATGAATT GCGGGCCGGAGCCG-3¢) and Double-W-rev (5¢-CA TGAATTGCGGCCAGGAGCCG-3¢). All primers were purchased from VBC Biotech (Vienna, Austria). The mutagenic PCR was performed under the conditions: 95 °C for 4 min; then 30 cycles of 94 °C for 30 s, 58 °C for 30 s and 72 °C for 16 min; with a final extension at 72 °C for 10 min. Each reaction contained 1· buffer (Fermentas), 0.1 lg of plasmid DNA, 2.5 U Pfu DNA polymerase (Fermentas), 10 lm of each dNTP and 5 pmol of each primer in a total volume of 50 lL. After PCR, the methylated template DNA was degraded by digestion with 10 U of DpnI at 37 °C for 3 h. The remaining PCR products were separated by agarose gel electrophoresis and purified using the Wizard SV Gel and PCR-Clean-Up System (Promega, Madison, WI, USA). Five microliters of each purified PCR product were transformed into chemically competent E. coli BL21 Star DE3 cells. The successful introduction of the desired mutations and the absence of further mutations were confirmed by DNA sequencing, which was performed as a commercial service (VBC-Biotech, Vienna, Austria).
+
+Experimental procedures
+Bacterial strains, plasmids and media
+E. coli strain BL21 Star DE3 (Invitrogen, Carlsbad, CA, USA), well suited for the bacteriophage T7 promoter-based expression system pET, was used as host for the expression
+
+788
+
+FEBS Journal 276 (2009) 776­792 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+O. Spadiut et al.
+
+Stabilization of pyranose oxidase
+
+Plasmidic DNA was extracted and used as template for DNA sequencing of the complete P2Ox-encoding sequence using the forward primer T7promfwd (5¢-AATACGACT CACTATAGGGG-3¢) and the reverse primer T7termrev (5¢-GCTAGTTATTGCTCAGCGG -3¢).
+
+Screening for improved P2Ox variants
+Position Leu537 of TmP2Ox was mutated by saturation mutagenesis, which allows the creation of a mutant library containing all possible codons at the target position. The size of the library, which subsequently has to be screened to cover all possible mutants, is determined by the mutagenic codon and the number of target sites. For mutation of position Leu537 by saturation mutagenesis, the primers used were of the NNS type, which defines the minimum library size to be screened to statistically cover 95% of all possible substitutions as 95 colonies [27]. Accordingly, a screening assay based on 96-well plates was used. Transformed E. coli BL21 Star DE3 cells were transferred from LB-ampicillin plates into microtiter wells containing 200 lL of liquid LBamp medium (`masterplates'). Cells were grown on a shaking incubator (150 r.p.m.) at 25 °C for 20 h. To induce protein expression, 10 lL of the cell suspension of each well were transferred into another 96-well plate containing 200 lL of 2· LBamp / lactose (yeast extract 10 gÆL)1, peptone from casein 20 gÆL)1, sodium chloride 5 gÆL)1, lactose 5 gÆL)1; ampicillin 100 mgÆL)1) per well, and incubated at 25 °C for another 20 h (`working plates'). The growth of the cells was measured in a plate reader (Sunrise Remote, Tecan, Groding, Austria) at ¨ 600 nm. Induced cells were sedimented in the wells by centrifugation (2300 g for 15 min) and the supernatant was discarded. The cells were lysed by adding 200 lL of 1· lysis buffer (CelLytic B Cell Lysis Reagent; Sigma) and incubated at 4 °C for 30 min. Subsequently, the plates were frozen at ­70 °C for 1 h and then thawed at room temperature to increase the efficiency of the lysis. Cell debris was removed by centrifugation, and 10 lL of the supernatant were added to 80 lL of chromogenic assay mixture (0.035 mgÆmL)1 of horseradish peroxidase and 0.7 mgÆmL)1 of ABTS in 50 mm phosphate buffer, pH 6.5). The reaction was started by adding either 10 lL of d-glucose or d-galactose (each 1 m), and recorded automatically at 420 nm and 30 °C by the plate reader. To test for increased thermostability, the microtiter plates containing the cell extracts were incubated at 65 °C for 10 min before performing the activity assay.
+
+concentration of 0.5%. After cultivation at 25 °C for an additional 20 h, cells were harvested by centrifugation (4200 g for 20 min), resuspended in phosphate buffer (50 mm, pH 6.5) containing phenylmethylsulfonyl fluoride (0.1%) and lysed by using a continuous homogenizer (APV Systems, Silkeborg, Denmark). The crude cell extract was obtained by centrifugation (150 000 g for 30 min at 4 °C) and then used for protein purification by IMAC using the ¨ AKTA purifier system (Pharmacia, Uppsala, Sweden) and the Bio-Rad Profinity IMAC Ni-Charged Resin (10 mL; Bio-Rad, Vienna, Austria). The column was pre-equilibrated with ten column volumes of buffer (50 mm KH2PO4, 0.5 m NaCl, 20 mm imidazole; pH 6.5). After applying the sample to the column, it was washed with five column volumes of the same buffer at a flow rate of 2 mLÆmin)1. Proteins were then eluted with a linear gradient (flow rate 1.5 mLÆmin)1 for 60 min) of the same buffer containing 1 m imidazole and monitored at 280 nm (protein content) and 456 nm (FAD content). The fractions containing eluted enzyme were pooled, and imidazole was removed by ultrafiltration using an Amicon Ultra Centrifugal Filter Device (Millipore, Billerica, MA, USA) with a 10 kDa cut-off membrane. The eluted, concentrated enzymes were washed three times with 10 mL of phosphate buffer (50 mm, pH 6.5), and finally diluted in this buffer to a protein concentration of 10­20 mgÆL)1.
+
+Electrophoresis
+Electrophoresis was performed principally as described by Laemmli [28]. Both native PAGE and SDS / PAGE were performed using a 5% stacking gel and a 10% separating gel on the PerfectBlue vertical electrophoresis system (Peqlab, Erlangen, Germany) and using the molecular mass standards High Molecular Weight Calibration Kit for native electrophoresis (Amersham Pharmacia, Piscataway, NJ, USA) and the Precision Plus Protein Dual Color Kit (Bio-Rad) for SDS / PAGE. Gels were stained with Coomassie brilliant blue.
+
+Enzyme activity assays
+P2Ox activity was measured with the standard chromogenic ABTS assay [29]. A sample of diluted enzyme (10 lL) was added to 980 lL of assay mixture containing horseradish peroxidase (142 U), ABTS (14.7 mg) and phosphate buffer (50 mm, pH 6.5). The reaction was started by adding d-glucose (20 mm). A420 was recorded at 30 °C for 180 s (e420 = 42.3 mm)1Æcm)1). One unit of P2Ox activity was defined as the amount of enzyme necessary for oxidation of 2 lmolÆmin)1 of ABTS (which equals the consumption of 1 lmolÆmin)1 of O2) under assay conditions. Protein concentrations were determined by the Bradford assay [30] using the Bio-Rad Protein Assay Kit (Bio-Rad) with BSA as standard.
+
+Protein expression and purification
+Cultures (2 L) of E. coli BL21 Star DE3 transformants were grown in TBamp in shaken flasks at 37 °C and 160 r.p.m. When D600 of 0.5­0.6 was reached, recombinant protein expression was induced by adding lactose to a final
+
+FEBS Journal 276 (2009) 776­792 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+789
+
+Stabilization of pyranose oxidase
+
+O. Spadiut et al.
+
+Steady-state kinetic measurements
+kcat were measured for the two electron donors d-glucose (0.1­50 mm) and d-galactose (0.1­200 mm) using the standard ABTS assay and oxygen (air saturation). In addition, steady-state kinetic constants were determined for the alternative electron acceptors 1,4-benzoquinone and the ferricenium ion Fc+ (using ferricenium hexafluorophosphate, Fc+PF6), as substrate; Aldrich, Steinheim, Germany). Appropriately diluted enzyme sample (10 lL) was added to 990 lL of assay buffer containing either d-glucose or d-galactose in a constant concentration of 100 mm, phosphate buffer (50 mm, pH 6.5) and 1,4-benzoquinone, which was varied in the range 0.01­1.5 mm. A290 was recorded at 30 °C for 180 s (e290 = 2.24 mm)1Æcm)1). FcPF6 was varied in the range 0.005­0.5 mm and A300 was recorded at 30 °C for 180 s (e300 = 4.3 mm)1Æcm)1). Kinetic constants were calculated by nonlinear least-square regression, fitting the data to the Henri­Michaelis­Menten equation.
+
+tropolarimeter (Jasco International Co., Tokyo, Japan) using protein samples at 8 lm concentration in 50 mm phosphate buffer (pH 6.4), 1 mm pathlength, thermostatted cuvettes and a Neslab RTE-100 computer-controlled thermostat (Neslab Inc., Portsmouth, NH, USA). Spectra were averaged over three scans. Processing of spectral data was performed by using the built-in jasco software of the spectropolarimeter. Thermal unfolding measurements were measured at 209 nm over the temperature range 25­80 °C. After reaching 80 °C, samples were cooled back to 25 °C. Data processing and evaluation were performed using the origin 7.5 software.
+
+Crystallization, data collection and refinement of the E542K and L537G mutants
+Crystals of the E542K, L537G and E542K / L537W mutants were produced using the hanging drop vapour diffusion method [35], essentially as described previously for recombinant P2Ox [4]. Drops were set up by mixing equal volumes of protein [4 mgÆmL)1 in 20 mm Mes (pH 5.2)] and reservoir [12­16% (w / v) monomethylether polyethylene glycol 2000, 0.1 m Mes (pH 5.2), 50 mm MgCl2, 25% glycerol]. Microseeding was used routinely. Prior to data collection, the crystals were frozen and vitrified in liquid nitrogen. Data for the E542K mutant were ° collected using synchrotron radiation (k = 0.918 A) at beamline 14.1 at BESSY (Berlin, Germany) and data for ° the L537G mutant (k = 1.042 A) were collected at beamline I911-2 (100 °K) at MAX-lab (Lund, Sweden). Data ° for the E542K / L537W mutant (k = 0.931 A) were collected at beamline ID14-3 at ESRF (Grenoble, France) (100 °K). All data were processed using xds [36]. The E542K and L537G mutants crystallize in space group P21 with eight monomers forming two tetramers in the asymmetric unit, whereas the E542K / L537W mutant crystallizes in space group P42212 with one monomer in the asymmetric unit. Phases were obtained by means of Fourier synthesis using the H167A P2Ox variant (PDB code 2IGO) [4] as the starting model. Crystallographic refinement was performed with refmac5 [37], and included anisotropic scaling, calculated hydrogen scattering from riding hydrogens, and atomic displacement parameter refinement using the translation, libration, screw-rotation (TLS) model. In the case of E542K and L537G, for each of the eight monomers (two tetramers) in the asymmetric unit, individual TLS groups were defined: the Rossmann domain (residues 44­79, 254­353, 552­618); the substrate-binding domain (residues 159­253, 354­551); the oligomerization arm (residues 111­158); and the lid (residues 80­110). For the E542K / L537W mutant, the TLS model was determined using the TLS Motion Determination server [38]. Corrections of the models were performed manually with the guidance of rA-weighted 2Fo­Fc and Fo­Fc electrondensity maps. The same set of Rfree reflections was used
+
+Thermal stability
+Kinetic stability of the TmP2Ox variants was determined by incubating the enzymes in appropriate dilutions in 50 mm phosphate buffer (pH 6.5) at 60, 70 and 75 °C, respectively, and by subsequent measurements of the enzyme activity (A) at various time points (t) using the standard ABTS assay and glucose as the substrate. A thermal cycler (thermocycler T3; Biometra, Gottingen, Germany) and thin-wall PCR tubes ¨ were used for all thermostability measurements. Residual activities (At / A0, where At is the activity measured at time t and A0 is the initial P2Ox activity) were plotted versus the incubation time. For those experiments where the inactivation followed apparent first-order kinetics, the inactivation constant kin was obtained by linear regression of ln (activity) versus time. The half-life values of thermal inactivation s1 / 2 were calculated using s1 / 2 = ln 2 / kin [23]. Thermodynamic stability (i.e. Tm) [23], was measured by DCS, as described previously [31,32], using a MicroCal VP-DSC instrument (MicroCal, Northampton, MA, USA) in the range 15­80 °C at a scan rate of 1 °CÆmin)1 on 0.2 gÆL)1 protein samples in 50 mm phosphate buffer (pH 6.4). Solutions were degassed by stirring under vacuum for 15 min at room temperature immediately before measurements. The solutions in the measuring cells were kept under pressure to prevent degassing during heating. The baseline was determined in an identical experiment with buffer in both cells and was subtracted. Data processing and evaluation were performed using origin 7.5 software (OriginLab Corporation, Northampton, MA, USA).
+
+CD measurements
+Far-UV CD spectra (190­240 nm) were recorded as described previously [33,34] at 25 °C on a Jasco J-720 spec-
+
+790
+
+FEBS Journal 276 (2009) 776­792 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+O. Spadiut et al.
+
+Stabilization of pyranose oxidase
+
+throughout all refinements, and noncrystallographic similarity restraints / constraints were not used. Model building, coordinate manipulation and least-squares comparisons were performed with the o [39] and coot [40] software. Figures 1 and 8 were prepared using pymol, version 0.93 [41].
+
+6
+
+Acknowledgements
+D.H. was supported by grants from the Austrian Science Fund (Translational Project L213-B11), whereas C.D. was supported by grants from the Swedish Research Council for Environment, Agricultural Sciences and Spatial Planning (Formas), the Swedish Research Council, the CF Lundstroms Foundation, ¨ and the Carl Tryggers Foundation. B.G.V. was supported by grants from Hungarian Scientific Research Fund (K68229); Howard Hughes Medical Institutes (#55005628 and #55000342), USA; Alexander von ´ Humboldt Foundation, Germany; JAP_TSZ_071128_ TB_INTER from the National Office for Research and Technology, Hungary; FP6 STREP 012127; FP6 SPINE2c LSHG-CT-2006-031220; TEACH-SG LSSGCT-2007-037198; INSTRUCT FP7-211252 from the ¨ EU; and Aktion Austria-Hungary #78OU3. We thank the beamline staff scientists at MAX-lab (Lund, Sweden), BESSY (Berlin, Germany) and ESRF (Grenoble, France) for support during data collection.
+
+7
+
+8
+
+9 10
+
+11
+
+12
+
+13
+
+References
+´ 1 Zamocky M, Ludwig R, Peterbauer C, Hallberg BM, Divne C, Nicholls P & Haltrich D (2006) Cellobiose dehydrogenase ­ a flavocytochrome from wood-degrading, phytopathogenic and saprotropic fungi. Curr Protein Pept Sci 7, 255­280. ´ ´ 2 Daniel G, Volc J & Kubatova E (1994) Pyranose oxidase, a major source of H2O2 during wood degradation by Phanerochaete chrysosporium, Trametes versicolor, and Oudemansiella mucida. Appl Environ Microbiol 60, 2524­2532. 3 Hallberg BM, Leitner C, Haltrich D & Divne C (2004) Crystal structure of the 270 kDa homotetrameric lignindegrading enzyme pyranose 2-oxidase. J Mol Biol 341, 781­796. 4 Kujawa M, Ebner H, Leitner C, Hallberg BM, Prongjit M, Sucharitakul J, Ludwig R, Rudsander U, Peterbauer C, Chaiyen P et al. (2006) Structural basis for substrate binding and regioselective oxidation of monosaccharides at C3 by pyranose 2-oxidase. J Biol Chem 281, 35104­ 35115. 5 Bannwarth M, Bastian S, Heckmann-Pohl D, Giffhorn F & Schulz GE (2004) Crystal structure of pyranose 14
+
+15
+
+16
+
+17
+
+18
+
+19
+
+2-oxidase from the white-rot fungus Peniophora sp. Biochemistry 43, 11683­11690. Bannwarth M, Heckmann-Pohl D, Bastian S, Giffhorn F & Schulz GE (2006) Reaction geometry and thermostable variant of pyranose 2-oxidase from the white-rot fungus Peniophora sp. Biochemistry 45, 6587­ 6595. Leitner C, Volc J & Haltrich D (2001) Purification and characterization of pyranose oxidase from the white-rot fungus Trametes multicolor. Appl Environ Microbiol 67, 3636­3644. Halada P, Leitner C, Sedmera P, Haltrich D & Volc J (2003) Identification of the covalent flavin adenine dinucleotide-binding region in pyranose 2-oxidase from Trametes multicolor. Anal Biochem 314, 235­242. Ghisla S & Massey V (1989) Mechanisms of flavoprotein-catalyzed reactions. Eur J Biochem 181, 1­17. ´ ´ Artolozaga MJ, Kubatova E, Volc J & Kalisz HM (1997) Pyranose 2-oxidase from Phanerochaete chrysosporium ­ further biochemical characterisation. Appl Microbiol Biotechnol 47, 508­514. Volc J & Eriksson K-E (1988) Pyranose 2-oxidase from Phanerochaete chrysosporium. Meth Enzymol 161, 316­ 322. Freimund S, Huwig A, Giffhorn F & Kopper S (1998) ¨ Rare keto-aldoses from enzymatic oxidation: substrates and oxidation products of pyranose 2-oxidase. Chem Eur J 4, 2442­2455. Haltrich D, Leitner C, Neuhauser W, Nidetzky B, Kulbe KD & Volc J (1998) A convenient enzymatic procedure for the production of aldose-free d-tagatose. Anal NY Acad Sci 864, 295­299. Leitner C, Neuhauser W, Volc J, Kulbe KD, Nidetzky B & Haltrich D (1998) The Cetus process revisited: a novel enzymatic alternative for the production of aldose-free d-fructose. Biocatal Biotrans 16, 365­382. Tasca F, Timur S, Ludwig R, Haltrich D, Volc J, Antiochia R & Gorton L (2007) Amperometric biosensors for detection of sugars based on the electrical wiring of different pyranose oxidases and pyranose dehydrogenases with osmium redox polymers on graphite electrodes. Electroanalysis 19, 294­302. Nazaruk E & Bilewicz R (2007) Catalytic activity of oxidases hosted in lipidic cubic phases on electrodes. Bioelectrochemistry 71, 8­14. Eijsink VG, Bjork A, Gaseidnes S, Sirevag R, Synstad B, van den Burg B & Vriend G (2004) Rational engineering of enzyme stability. J Biotechnol 113, 105­120. Unsworth LD, van der Oost J & Koutsopoulos S (2008) Hyperthermophilic enzymes ­ stability, activity and implementation strategies for high temperature applications. FEBS J 274, 4044­4056. Masuda-Nishimura I, Minamihara T & Koyama Y (1999) Improvement in thermal stability and reactivity
+
+FEBS Journal 276 (2009) 776­792 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+791
+
+Stabilization of pyranose oxidase
+
+O. Spadiut et al.
+
+20
+
+21
+
+22
+
+23
+
+24
+
+25
+
+26
+
+27
+
+28
+
+29
+
+30
+
+of pyranose oxidase from Coriolus versicolor by random mutagenesis. Biotechnol Lett 21, 203­207. Heckmann-Pohl DM, Bastian S, Altmeier S & Antes I (2006) Improvement of the fungal enzyme pyranose 2-oxidase using protein engineering. J Biotechnol 124, 26­40. Bastian S, Rekowski MJ, Witte K, Heckmann-Pohl DM & Giffhorn F (2005) Engineering of pyranose 2-oxidase from Peniophora gigantea towards improved thermostability and catalytic efficiency. Appl Microbiol Biotechnol 67, 654­663. Spadiut O, Leitner C, Tan TC, Ludwig R, Divne C & Haltrich D (2008) Mutations of Thr169 affect substrate specificity of pyranose 2-oxidase from Trametes multicolor. Biocatal Biotrans 26, 120­127. Polizzi KM, Bommarius AS, Broering JM & ChaparroRiggers JF (2007) Stability of biocatalysts. Curr Opin Chem Biol 11, 220­225. Lovell SC, Davis IW, Arendall WB, de Bakker PI, Word JM, Prisant MG, Richardson JS & Richardson DC (2003) Structure validation by Ca geometry: /, w and Cb deviation. Proteins 50, 437­450. Aymard C & Belarbi A (2000) Kinetics of thermal deactivation of enzymes: a simple three parameters phenomenological model can describe the decay of enzyme activity, irrespectively of the mechanism. Enzyme Microb Technol 27, 612­618. Li S & Wilkinson MF (1997) Site-directed mutagenesis: a two-step method using PCR and DpnI. Biotechniques 4, 588­590. Georgescu R, Bandara G & Sun L (2003) Saturation mutagenesis. In Directed Evolution Library Creation: Methods and Protocols (Arnold FH & Georgiou G, eds), pp. 75­83. Springer Verlag, New York, NY. Laemmli UK (1970) Cleavage of structural proteins during the assembly of the head of bacteriophage T4. Nature 227, 680­685. Danneel H-J, Rossner E, Zeeck A & Giffhorn F (1993) ¨ Purification and characterization of a pyranose oxidase from the basidiomycete Peniophora gigantea and chemical analyses of its reaction products. Eur J Biochem 214, 795­802. Bradford MM (1976) A rapid and sensitive method for the quantitation of microgram quantities of protein
+
+31
+
+32
+
+33
+
+34
+
+35 36
+
+37
+
+38
+
+39
+
+40
+
+41
+
+utilizing the principle of protein-dye binding. Anal Biochem 72, 248­254. ´ ´ Takacs E, Grolmusz VK & Vertessy BG (2004) A tradeoff between protein stability and conformational mobility in homotrimeric dUTPases. FEBS Lett 566, 48­54. ´ ´ ´ ´ Varga B, Barabas O, Kovari J, Toth J, Hunyadi-Gulyas E, Klement E, Medzihradszky KF, Tolgyesi F, Fidy J ¨ ´ & Vertessy BG (2007) Active site closure facilitates juxtaposition of reactant atoms for initiation of catalysis by human dUTPase. FEBS Lett 581, 4783­4788. ´ ´ ´ Molnar A, Liliom K, Orosz F, Vertessy BG & Ovadi J (1995) Anti-calmodulin potency of indol alkaloids in in vitro systems. Eur J Pharmacol 291, 73­82. ´ ´ ´ ´ ´ Kovari J, Barabas O, Takacs E, Bekesi A, Dubrovay Z, ´ ´ ´ Pongracz V, Zagyva I, Imre T, Szabo P & Vertessy BG (2004) Altered active site flexibility and a structural metal-binding site in eukaryotic dUTPase: kinetic characterization, folding, and crystallographic studies of the homotrimeric Drosophila enzyme. J Biol Chem 279, 17932­17944. McPherson A (1982) Preparation and Analysis of Protein Crystals. John Wiley & Sons, New York, NY. Kabsch W (1993) Automatic processing of rotation diffraction data from crystals of initially unknown symmetry and cell constants. J Appl Cryst 26, 795­800. Murshudov GN, Vagin AA & Dodson EJ (1997) Refinement of macromolecular structures by the maximum-likelihood method. Acta Crystallogr Sect D 53, 240­255. Painter J & Merritt EA (2006) Optimal description of a protein structure in terms of multiple groups undergoing TLS motion. Acta Crystallogr Sect D 62, 439­450. Jones TA, Zou J-Y, Cowan SW & Kjeldgaard M (1991) Improved methods for building protein models in electron density maps and the location of errors in these models. Acta Crystallogr Sect A 47, 110­119. Emsley P & Cowtan K (2004) Coot: model-building tools for molecular graphics. Acta Crystallogr Sect D 60, 2126­2132. DeLano WL (2002) The PyMOL Molecular Graphics System. DeLano Scientific, Palo Alto, CA. http:// www.pymol.org.
+
+792
+
+FEBS Journal 276 (2009) 776­792 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+

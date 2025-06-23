@@ -1,0 +1,323 @@
+Structural bases for recognition of Anp32/LANP proteins
+Cesira de Chiara, Rajesh P. Menon and Annalisa Pastore
+National Institute for Medical Research, The Ridgeway, London, UK
+
+Keywords ataxin 1; leucine-rich repeats; NMR; PP2A inhibitor; structure Correspondence A. Pastore, National Institute for Medical Research, The Ridgeway, London NW7 1AA, UK Fax: +44 208 906 4477 Tel: +44 208 959 3666 E-mail: apastor@nimr.mrc.ac.uk (Received 13 January 2008, revised 3 March 2008, accepted 14 March 2008) doi:10.1111/j.1742-4658.2008.06403.x
+
+The leucine-rich repeat acidic nuclear protein (Anp32a / LANP) belongs to a family of evolutionarily-conserved phosphoproteins involved in a complex network of protein­protein interactions. In an effort to understand the cellular role, we have investigated the mode of interaction of Anp32a with its partners. As a prerequisite, we solved the structure in solution of the evolutionarily conserved N-terminal leucine-rich repeat (LRR) domain and modeled its interactions with other proteins, taking PP2A as a paradigmatic example. The interaction between the Anp32a LRR domain and the AXH domain of ataxin-1 was probed experimentally. The two isolated and unmodified domains bind with very weak (millimolar) affinity, thus suggesting the necessity either for an additional partner (e.g. other regions of either or both proteins or a third molecule) or for a post-translational modification. Finally, we identified by two-hybrid screening a new partner of the LRR domain, i.e. the microtubule plus-end tracking protein Clip 170 / Restin, known to regulate the dynamic properties of microtubules and to be associated with severe human pathologies.
+
+The leucine-rich repeat acidic nuclear protein (Anp32a / LANP) is a member of the Anp32 family of acidic nuclear evolutionarily-conserved phosphoproteins, which present a broad range of activities [1]. They are characterized by the presence of a highly conserved N-terminal domain containing leucine-rich repeats (LRRs), motifs known to mediate protein­protein interactions, and of a C-terminal low-complexity region, mainly composed of polyglutamates. Since their first description in the neoplastic B-lymphoblastoid cell line and their reported association with proliferation [2], several Anp32a homologs, all derived from a common ancestor gene by subsequent duplication events, have been isolated in different tissues and differently named [1]. Members of the Anp32 family are widely recognized as nucleo-cytoplasmic shuttling phosphoproteins that are implicated in different signaling pathways and in a number of important
+
+cellular processes, which include cell proliferation, differentiation, caspase-dependent and caspase-independent apoptosis, tumor suppression, regulation of mRNA trafficking and stability, histone acetyltransferase inhibition, and regulation of microtubule-based functions [1,3]. The diverse activities of Anp32 proteins are achieved through an articulated network of interactions with several cellular partners. Among them, two proteins are of particular relevance from the clinical point of view. Anp32 proteins are powerful inhibitors of phosphatase 2A (PP2A), a major serine / threonine phosphatase involved in many essential aspects of cellular function [4­8]. PP2A, which is considered to be the principal guardian against cancerogenic transformation, is a dynamic, structurally diverse molecule found in several different complexes and able to react to a plethora of signals [9­12]. The N-terminal LRR
+
+Abbreviations Anp32a / LANP, leucine-rich repeat acidic nuclear protein; Atx1, ataxin-1; AXH, ataxin-1 homology; Gal-X, 5-bromo-4-chloroindol-3-yl b-D-galactoside; GST, glutathione S-transferase; HSQC, heteronuclear single quantum coherence; LRR, leucine-rich repeat; MAP, microtubule-associated protein; PP2A, phosphatase 2A; RDC, residual dipolar coupling; SCA1, spinocerebellar ataxia 1; TCEP, Tris(2-carboxyethyl)phosphine; +TIP, plus-end tracking proteins.
+
+2548
+
+FEBS Journal 275 (2008) 2548­2560 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+C. de Chiara et al.
+
+Study of the interactions of the Anp32a LRR module
+
+domain of Anp32 binds and strongly inhibits the enzyme catalytic subunit PP2A-C [3­7], whose structure in a heterotrimeric complex with the scaffolding A subunit and the regulatory B¢ / B56 / PR61 subunit was solved recently [13,14]. Although the role of phosphorylation in recognition remains debatable, interaction between Anp32a and PP2A-C has been independently confirmed by high-throughput yeast two-hybrid screening [15]. Involvement of Anp32 in spinocerebellar ataxia type 1 (SCA1) pathogenesis was also suggested, on the basis of the observation of an interaction with the SCA1 gene product ataxin-1 (Atx1) [16]. This protein belongs to a family involved in neurodegenerative diseases caused by anomalous expansion of polyQ tracts [17]. In SCA1, expanded Atx1 forms nuclear inclusions that are associated with cell death. Immunofluorescence studies demonstrated that Anp32a and Atx1 colocalize in nuclear matrix-associated subnuclear structures. The interaction was mapped onto the LRR and AXH domain of Anp32 and Atx1 respectively, and was shown to be stronger for expanded Atx1 [16,18]. The temporal and cell-specific expression pattern of Anp32 in cerebellar Purkinje cells, the primary site of pathology in SCA1, as well as its enhanced interaction with mutant Atx1, have suggested a role for Anp32a in SCA1 pathogenesis. Despite the importance of molecular interactions for the presumed cellular functions of Anp32a, very little is known about their structural bases. The structure of the Anp32 LRR domain was first predicted by homology [1] and more recently solved by X-ray crystallography [19]. Interestingly, although both reports described the domain as being formed by tandem LRRs, the structures differed in the number of repeats. This information is not just academic, as these details would allow accurate definition of the domain boundaries and help our understanding of how interactions could take place in different regions of the molecule. As part of a long-term function-oriented structural effort aimed at understanding the molecular bases of polyQ disease proteins, we report here a study of the structural determinants for the interactions of Anp32a with other partners. As a prerequisite for binding studies, we first solved the structure in solution of Anp32 by NMR spectroscopy. This technique, which does not need crystallization, also provides a powerful and flexible method for mapping binding interfaces. Our structure, as described in the following sections, reveals the presence of two extra N-terminal LRR motifs not observed in the crystal, and allows accurate definition of the C-terminal domain boundary. Experimental
+
+determination of the dynamic features of the domain in solution, together with a comparison with the structure of the spliceosomal U2A¢ in complex with U2B¢¢ [20], suggests new insights into the mechanism of Anp32 LRR­protein recognition. By a combination of chemical shift perturbation techniques, molecular docking and two-hybrid screening, we also probed the interaction with Atx1 and PP2A, and identified a new partner of the Anp32a LRR domain.
+
+Results
+Description of the Anp32a LRR domain structure in solution The construct used for structure determination covers residues 1­164 of the mouse Anp32a sequence [21]. These boundaries were chosen to include the sequence up to the beginning of the acidic repeats, where sequence conservation breaks down (data not shown). The resulting sample was stable and well behaved, providing NMR spectra typical of a folded monodisperse globular domain. The final representative family of the 10 lowest-energy structures after water refinement could be superimposed on the average structure ° with overall rmsd values of 0.71 ± 0.15 A and ° , for backbone and heavy atoms respec1.16 ± 0.16 A tively, in region 3­154 (Fig. 1). The structure was solved at high precision and has an excellent whatif score (Table 1). The domain topology (h1h2b1b2b3h3b4h4b5h5h6b6 b7b8) shows the secondary structure elements spatially arranged in the typical right-handed solenoid, which forms a curved horse-shoe fold. A canonical parallel b-sheet is present on the concave side, whereas the convex surface contains both well-defined but irregular secondary structure elements (in the first and second repeats) and helical regions. Among these, h1 and h6 are regular a-helices whereas h2, h3, h4 and h5 share features of 310-helices. A search for tertiary structure similarity performed by dali [22] indicates that the Anp32a LRR domain structure belongs to the SDS22like LRR subfamily [23]. Comparison with other Anp32 structures The Anp32a LRR domain is composed of five complete LRRs flanked by an a-helix at the N-terminus and by the C-terminal flanking motif termed LRRcap (SMART accession number SM00446), so far identified in several `SDS22-like and typical' LRR-containing proteins, such as U2A¢, TAP, RabGGT, and dynein LC1 [23]. The Anp32a LRRcap motif spans
+2549
+
+FEBS Journal 275 (2008) 2548­2560 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+Study of the interactions of the Anp32a LRR module
+
+C. de Chiara et al.
+
+A
+
+B
+Fig. 1. Solution structure of the LRR domain of murine Anp32a. (A) NMR bundle of the 10 best structures in terms of energy. (B) Average structure as obtained by the WHEATSHEAF algorithm [62]. Two orthogonal views are shown.
+
+residues Leu128 to Asp146, and includes h6, which belongs to the fifth LRR, and the short strand b6, which runs parallel to b5 and is antiparallel to b7. The solution and the crystal structures of the Anp32a LRR ° domain superimpose with a 1.1 A rmsd over the backbone atoms of the overlapping region 1­149 (Fig. 2A,B). Despite the structural similarity, only four repeats (44­65, 66­89, 90­114 and 115­138 in our structure) were identified in the crystal structure [19], whereas the first repeat (residues 19­43 in our structure) was considered by these authors to be an N-CAP. The presence of the first N-terminal LRR had also not been predicted [1], probably because of the low sequence conservation in this region. In our opinion, this region constitutes instead a bona fide full repeat. Residues 147­149, which are truncated in the crystal structure, form a b-hairpin (b7) with the strand 143­ 145 (b6). This region shares a remarkable similarity with U2A¢, the two protein with the highest structural homology: the two proteins can be superimposed with ° 2 A rmsd as calculated over 140 residues and have a dali z score of 17 (Fig. 2A,C). Although mainly unstructured, a short additional strand C-terminal to the hairpin (b8) is present in some of the NMR structures in region 149­164 (residues 151­153). This region, which constitutes the linker between the LRR domain and the acidic repeats, is thought to be involved in interactions with the INHAT complex and the phosphorylation-dependent tumor suppressive / proapoptotic activity, which have been mapped to residues 150­180 and 150­174, respectively [15,24,25]. Interestingly, this tail contains one of the two CK2 phosphorylation motifs (158­161) that have been proved to be natively phosphorylated [26], out of the four putative sites
+2550
+
+predicted by prosite [27]. As expected, the structure of this region is flexible and is likely to be involved in the regulation of phosphorylation-dependent functions of Anp32a [1,3]. Probing the dynamics in solution of the Anp32a LRR domain H­15N relaxation studies were carried out to assess the dynamic properties of the Anp32a LRR domain (Fig. 3). The correlation time, as estimated from the T1 and T2 relaxation data using the model-free approach [28], is 12.5 ± 0.1 ns at 27 °C, a value within the range expected for a single monomeric species of this size in solution [29]. The flat profile of the relaxation parameters along the sequence indicates that, with the exception of the first two N-terminal amino acids and of the C-terminal tail (Ala155­Val164), the structure is rigid and compact, which is in good agreement with what is observed from the local rmsd values and the residual dipolar coupling (RDC) values. Of the seven residues whose amide connectivities are missing in the 1 H­15N heteronuclear single quantum coherence (HSQC) spectrum at pH 7 (Met3, Asp4, Ile30, Glu31, Ile34, Glu35 and Val52) the last five belong to regions without a regular secondary structure. All seven residues, including Met3 and Asp4 at the N-terminus of h1, cluster together in the structure, suggesting that they experience chemical or conformational exchange. The C-terminus is unstructured and highly mobile approximately from residue 154 onwards. It is also interesting to note a clear correlation between T1 and RDC values and the secondary structure: the concave b-sheet is characterized by shorter T1 and positive RDC values, the latter indicating that
+1
+
+FEBS Journal 275 (2008) 2548­2560 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+C. de Chiara et al.
+
+Study of the interactions of the Anp32a LRR module
+
+Table 1. Structural statistics for the calculations of the Anp32a LRR domain. Final NMR restraints Total distance restraintsa Unambiguous / ambiguous Intraresidue Sequential Medium (residue i to i + j, j = 1­4) Long-range (residue i to i + j, j > 4) Dihedral angle restraintsb F w 1 DNH RDC Hydrogen bonds Deviation from idealized geometry ° Bond lengths (A) Bond angles (°) Improper dihedrals (°) Restraint violations ° Distance restraint violation > 0.5 A
+
+A
+
+5151 3774 / 1376 2021 1075 663 1392 89 89 92 20 0.003 ± 0.000 0.503 ± 0.011 1.442 ± 0.073
+
+B
+
+0 Dihedral restraint violation > 5° 0 ° Coordinate precision (A) with respect to the mean structure Backbone of structured regionsc 0.71 ± 0.15 Heavy atoms of structured regionsc 1.16 ± 0.16 d WHATIF quality check First-generation packing quality 0.01 Second-generation packing quality )2.44 Ramachandran plot appearance )2.77 v1­v2 rotamer normality )0.12 Backbone conformation )1.69 Procheck Ramachandran statistics (%) Most favored region 75.1 Additional allowed regions 23.8 Generously allowed regions 0.4 Disallowed regions 0.8
+a
+
+C
+
+Calculated for the 10 lowest-energy structures after water refinement. b Derived from 3J(HN, Ha) coupling constants and TALOS [48]. c Calculated for residues 3­154. The more positive the score, the better it is. Problematic structures typically have scores around )3. Wrong structures have scores lower than )3. d Calculated for residues 1­154.
+
+the corresponding residues are oriented parallel to the external magnetic field B0 when in the anisotropic medium [30]. Conversely, the NH vectors in the long helices (h1, h3, h4, and h6) running approximately parallel to each other are mainly perpendicular to the b-sheet vectors and, therefore, to B0 in the aligned medium. These results suggest that interactions with other molecules involving the LRR domain are not mediated by an induced fit mechanism but by semirigid docking of the partners onto the surface of the Anp32a LRR domain. Interactions with the INHAT complex, mapped to the flexible C-terminus, may induce structuring and stiffening of this region.
+
+Fig. 2. Comparison between the NMR (A) and the X-ray (B) structures of the Anp32a LRR domain, and U2A¢ (C) [20]. The coordinates were first superimposed using the DALI server, and then displaced.
+
+Modeling the interaction of Anp32a with other proteins on the basis of the U2A¢­U2B¢¢ structure The structural similarity with U2A¢, whose structure is known in a complex with its target U2B¢¢ [20], may provide valuable hints on how Anp32 interacts with its partners. We therefore analyzed this complex and compared its features with those of our structure. Recognition of the two molecules occurs by fitting a helix of U2B¢¢ (residues 25­35) into the concave surface of the U2A¢ LRR (Fig. 4). The size complementarity is almost perfect. The nearby N-terminal b-hairpin of
+2551
+
+FEBS Journal 275 (2008) 2548­2560 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+Study of the interactions of the Anp32a LRR module
+
+C. de Chiara et al.
+
+A
+
+B
+
+Fig. 4. Modeling the interactions of the Anp32a LRR domain. (A) Structure of the Anp32a LRR domain in a complex with the C subunit of PP2A as modeled by comparison with the U2A¢­U2B¢¢ complex. The other two subunits shield most of the surface of PP2A­C. (B) Structure of the U2A¢­U2B¢¢ complex [20].
+
+Fig. 3. Relaxation parameters and RDC values along the sequence of the Anp32a LRR domain. The data were recorded at 27 °C and 800 MHz.
+
+U2A¢ (residues 13­26) provides further interactions by wrapping around the other molecule on one side. There is also a good charge complementarity, as the concave surface of the U2A¢ LRR is negatively charged, whereas the U2B¢¢ helix, which is neutral overall, contains at least one positively charged residue (Arg28), which protrudes out into the solvent and is
+
+2552
+
+FEBS Journal 275 (2008) 2548­2560 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+C. de Chiara et al.
+
+Study of the interactions of the Anp32a LRR module
+
+able to form a salt bridge with Glu92 of U2A¢. Other contacts will contribute with hydrophobic interactions or intermolecular hydrogen bonds, which are likely to be responsible for the specificity of recognition, which seems to be tuned to the specific system. Accordingly, the U1A protein, which is closely related to U2B¢¢, does not form a stable complex with the U2A¢ LRR, whereas replacement of Asp24 and Lys28 with the homologous Glu and Arg of U2B¢¢ [20] is sufficient to re-establish formation of the complex [31]. We modeled, as a paradigmatic and particularly interesting example, a complex between PP2A and the Anp32a LRR. The structure of PP2A has recently been determined [13,14]. It consists of a heterotrimeric complex formed by the scaffolding subunit A, the regulatory subunit B¢ / B56 / PR61, and the catalytic domain C. Interaction with Anp32 has been shown to involve the catalytic subunit [15,32] and to inhibit its catalytic activity, both in the absence and in the presence of the scaffold subunit A and the regulatory subunit B, with apparent Ki in the low nanomolar range [4]. This implies that the interaction involves an exposed region of PP2A-C, without appreciable contributions from the other two subunits. Anp32 is also known to inhibit PP2A in a noncompetitive manner, i.e. without binding to the active site of the enzyme [4]. Finally, antibodies recognizing the fourth LRR of Anp32e / Cpd1 (residues 87­101) are known to block the inhibitory PP2A activity of Anp32e in protein extracts [7]. Taken together, these findings limit the region of interaction to the only exposed surface of PP2A-C that contains a semiexposed helix (residues 222­232). The model of an Anp32 LRR­PP2A complex, built using complex U2A¢­U2B¢¢ as a template, shows that, by analogy with this structure, helix 222-232 of PP2AC protrudes out enough to fit well into the groove formed by the concave surface of the LRR domain. Stabilizing interactions could form between His230 of PP2A-C and Asp119 and Asn94 of Anp32a. A salt bridge could form between Glu226 of PP2A-C and Lys67, Lys68 and Lys91. Testing the interaction with Atx1 experimentally Interaction between the Anp32a LRR domain and the Atx1 AXH domain was tested experimentally by NMR chemical shift perturbation, with the aim of mapping the surface of interaction between the two proteins. This method, which relies on the effect that binding of a molecule has on the electron distribution of another, causing a perturbation of its NMR spectrum, is routinely used to detect interactions and map them on the structures of the individual components.
+
+We titrated the LRR domain with the AXH domain since this region had been proposed to be essential for the interaction on the basis of deletion mutants [18]. When the effects were mapped onto the Anp32 surface (Fig. 5), they all clustered around the concave surface. However, even at high Atx1 AXH / Anp32a LRR ratios (3.5 : 1 and low ionic strength), we observed only minimal perturbations of the Anp32 LRR domain spectrum (i.e.: <0.05 ppm in the proton dimension), which were absent in spectra recorded at a higher ionic strength (150 mm NaCl). Likewise, when we titrated the Atx1 AXH domain with the Anp32a LRR domain, we observed only two very small effects. The interaction was independently probed by fluorescence spectroscopy, exploiting the intrinsic emission at 327 nm of the only Trp residue present in Atx1 (Trp658; Anp32a does not contain Trp residues) after sample excitation at 295 nm. During titration, fluorescence quenching was observed along with a 4 nm blue shift of the kmax of emission (from 327 to 323 nm), suggesting a decrease in the Trp solvent exposure consequent to interaction (data not shown). However, the decrease in fluorescence intensity was far from reaching a plateau even at the highest Anp32a / Atx1 ratio tested (60 : 1).
+
+Fig. 5. Probing the interaction between the Anp32a LRR domain and the AXH domain of Atx1 by chemical shift perturbation. Superimposition of the HSQC spectra of a 0.2 mM solution of 15N-labeled Anp32a LRR domain in 20 mM Tris (pH 7.0) and 2 mM TCEP, recorded at 600 MHz and 27 °C in the absence (blue) and in the presence (red) of a three-fold excess of unlabeled Atx1 AXH domain.
+
+FEBS Journal 275 (2008) 2548­2560 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+2553
+
+Study of the interactions of the Anp32a LRR module
+
+C. de Chiara et al.
+
+This evidence indicates that interaction between the two domains is very weak, i.e. with binding constants in the millimolar range. Although such binding is definitely too weak to be significant, it is certainly possible that, in vivo, the interaction is enhanced either by other regions of the two molecules or by post-translational modifications that are absent in our assays. Identification of new potential partners of the Anp32 LRR domain To identify new partners specific for the Anp32a LRR domain, we used a construct spanning the same region studied by structural techniques (residues 1­164) as a bait in a two-hybrid screening assay. This is at variance with previous studies, which were all carried out on the full-length protein, thus inferring the role of the LRR domain only indirectly. By screening of a human brain cDNA library (Clonetech, Mountain View, CA, USA) for a total of approximately 5 million clones, we found about 600 potential positives [i.e. hits that were positive both for quadruple-dropout media and for 5-bromo-4-chloroindol-3-yl b-d-galactoside (Gal-X) overlay assays]. Nearly 200 of these positives were sequenced. Among these, we identified 29 clones of the C-terminus of the microtubule-associated protein (MAP) Clip 170 / Restin, a microtubule plus-end tracking protein (+TIP), which associates with and regulates the dynamic properties of microtubules and of other MAPs [33] (Fig. 6). We tested the interaction further by expressing the full-length proteins in mammalian cells. In transfected COS cells, Anp32a was predominantly nuclear, with a limited number of cells showing extranuclear staining (Fig. 7A). In contrast, and as expected, Clip 170 was excluded from the nucleus and localized to the micro-
+
+tubule network. Partial colocalization of Clip 170 and Anp32a was observed in the microtubules of cells coexpressing these proteins and showing extranuclear staining of Anp32a (Fig. 7A, merged image). To further validate the interaction, we carried out coimmunoprecipitation experiments to test the ability of the endogenous proteins to associate. HeLa cell lysates were immunoprecipitated with antibodies to Anp32a or with antibodies to histone H3 as a negative control. The proteins from immunoprecipitation complexes were subjected to western blot analysis using antibodies to Clip 170. Clip 170 was associated with the complex pulled down by antibodies to Anp32a but not with the one pulled down by antibodies to histone H3 (Fig. 7B,C).
+
+Discussion
+Here, we have explored the interaction properties of the LRR domain of Anp32, a family of LRR proteins potentially implicated in several important cellular pathways. Two particularly interesting interactions have been described, with the PP2A phosphatase and with Atx1, two proteins of high medical importance. We first determined the domain boundaries of the domain by solving the solution structure at high resolution of a fragment spanning the whole conserved region up to some highly acidic repeats containing EAEEE motifs. We show that the domain contains a compact and rigid fold with five LRRs and a C-capping motif. The structural information was used to model the interaction with PP2A, which is known to be mainly mediated by the PP2A-C subunit. We suggest that, by analogy with the mode of recognition of U2B¢¢ by U2A¢, which has the highest structural similarity with the Anp32a LRR domain, the interaction
+
+A
+Bait
+BD-Lanp.NT
+
+Prey
+AD-Clip.CT
+
+Growth on QD plates
++ ­ ­ -
+
+X-Gal overlay
++ ­ ­ Fig. 6. Interaction of Clip 170 with Anp32a in a yeast two-hybrid system. (A) The N-terminus of Anp32a fused to the Gal4 DNAbinding domain (BD-Lanp.NT) interacts with the C-terminus of Clip 170 (AD-Clip.CT) fused to the Gal4 DNA activation domain as indicated by growth on quadruple-dropout (QD) plates and Gal-X overlay assays. There was no growth on QD plates when either the N-terminus of Clip 170 (residues 1­ 1164, BD-Clip.NT) or the Gal4 DNA-binding domain was used as prey. (B) Amino acid sequence of the region of Clip 170 interacting with Anp32a.
+
+BD-Lanp.NT
+
+AD-Clip.NT
+
+BD
+
+AD-Clip.CT
+
+B
+EMKKRESKFIKDADEEKASLQKSISITSALLTEKDAELEKLRNEVTVLRGENASAKSLHSVVQTLESDK VKLELKVKNLELQLKENKRQLSSSSGNTDTQADEDERAQESQIDFLNSVIVDLQRKNQDLKMKVEM MSEAALNGNGDDLNNYDSDDQEKQSKKKPRLFCDICDCFDLHDTEDCPTQAQMSEDPPHSTHHGS RGEERPYCEICEMFGHWATNCNDDETF
+
+2554
+
+FEBS Journal 275 (2008) 2548­2560 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+C. de Chiara et al.
+
+Study of the interactions of the Anp32a LRR module
+
+A
+
+B
+
+C
+
+Fig. 7. Anp32a and Clip 170 associate with each other in HeLa and transfected COS cells. (A) Colocalization of Clip 170 and Anp32a in COS cells that were transfected with a plasmid vector carrying V5-tagged Clip 170 and c-Myc-tagged Anp32a. Cells were analyzed by confocal microscopy. Clip 170 was localized in the microtubule network (green), and Anp32a (red) was predominantly nuclear, with some cells showing localization in the microtubules. The merged image shows colocalization of the proteins in the microtubules. (B) Expression of endogenous proteins in HeLa cells. HeLa cells were lysed in RIPA buffer, and input controls and immunoprecipitated samples were probed with the antibodies shown. (C). Interaction of endogenous Clip 170 and Anp32a in HeLa cells. HeLa cells were lysed in RIPA buffer and immunoprecipitated as above with antibodies to histone H3 or antibodies to Anp32a. Proteins were transferred onto a poly(vinylidene difluoride) membrane and probed with antibodies to Clip 170.
+
+involves the helix-spanning residues 222­230 of PP2AC [13,14]. This region is the only element of PP2A-C protruding out from the PP2A trimer, and its size and shape mean that it could easily fit into the complementary concave surface of the Anp32a LRR domain. We tested binding to the AXH domain of Atx1 experimentally by chemical shift perturbation assays. We observed only very minor effects, which are compatible, at the very best, with millimolar affinities. The effects could be observed only at low ionic strength, suggesting that the interaction is mainly of an electrostatic nature and is nonspecific. Would our results shed doubts on an interaction originally observed by two-hybrid screening? On the one hand, it is interesting to note that none of the high-throughput studies of the Atx1 interactome has reported any evidence for this interaction [34,35]. On the other hand, however, very recent data provide the first evidence of a functional link between Anp32a and Atx1, showing that Atx1 relieves the transcriptional repression induced by Anp32a in complex with E4F [36]. As addition of exogenous Anp32a restores repression, it was suggested that Atx1 sequesters Anp32a, releasing its interaction with E4F. Our evidence may therefore indicate that either a third component (which
+
+could be another region of one or both proteins or another molecule) or a post-translational modification is needed to give appreciable affinities. The second possibility seems currently most likely: both Atx1 and Anp32a are known to be natively phosphorylated, and phosphorylation has been shown to modulate some of their functions [1,3,37]. Atx1 contains two phosphorylation sites, both outside the AXH domain, one of which (Ser776) is located in the C-terminal region of the protein and is known to modulate the interaction with 14-3-3 [37,38]. Two in vivo CK2 phosphorylation sites (Ser158 and Ser204) have also been identified in Anp32a [26]. Phosphorylation of Ser158, which is immediately downstream of the LRR domain, could, for instance, induce a conformational change of the adjacent region, which could be required for Atx1 binding. Finally, we used yeast two-hybrid screening to identify new partners of Anp32a. To our knowledge, ours is the first study carried out using, for library screening, the LRR domain only, i.e. excluding the acidic C-terminus, which, being highly charged, could produce false positives. We observed an interaction between the Anp32a LRR domain and the microtubule +TIP Clip 170. This protein is known to associate
+2555
+
+FEBS Journal 275 (2008) 2548­2560 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+Study of the interactions of the Anp32a LRR module
+
+C. de Chiara et al.
+
+with microtubules and with other MAPs, and to regulate the dynamic properties of microtubules [33]. Identification of this new potential partner is particularly interesting, because Anp32a has already been reported to be involved in microtubule dynamics via its interaction with several members of the family of MAPs, i.e. MAP1B, MAP2, and MAP4 [39­41]. The interaction with MAP1B was suggested to modulate the effects of MAP1B in neurite extension [41]. Microtubule +TIPs have also been shown to be involved in modulating neuronal growth cones, the motile tips of growing axons [42,43]. Interaction of Clip 170 with microtubules has been suggested to be influenced by phosphorylation, as phosphorylation by a rampamycin-sensitive kinase (fluorescence recovery after photobleaching; FRAP) increases the interaction of Clip 170 with microtubules [44]. Interestingly, in our coimmunoprecipitation experiments, the Clip 170 band appeared to be more intense when the cell lysates incorporated a cocktail of phosphatase inhibitors, suggesting that the association may be modulated by phosphorylation events (not shown). Like Anp32, which is linked to the SCA1 pathology [16], Clip 170 is also known to be associated with human disease. The protein is overexpressed in Hodgkin's disease and anaplastic large cell lymphoma [45,46]. Clip 170 has also been shown to interact with the Lis1 protein, whose mutation causes type I lissencephaly, a severe brain developmental disease [47]. Therefore, our results point out to an important role of Anp32 proteins in human pathologies and encourage further studies to clarify the complete interactome of this protein.
+
+GST­Sepharose resin (GE Healthcare). Cleavage of the GST tag was achieved overnight at room temperature using the PreScission protease (GE Healthcare). The protein was further purified by HPLC size exclusion chromatography, using a prepacked HiLoad 16 / 60 Superdex 75 prep grade column (Pharmacia). The concentration of the NMR sample used for structural studies was typically in the range 0.3­0.7 mm, in a buffer containing 10 mm Tris / HCl and 2 mm Tris(2-carboxyethyl)phosphine (TCEP) at pH 7.0 in 90% H2O / 10% D2O. All the NMR experiments were performed at 27 °C on Bruker Advance and Varian Inova spectrometers, both equipped with cryoprobes and operating at 14.1 and 18.8 T, respectively, and on a Varian Inova spectrometer operating at 14.1 T. Samples of the Atx1 AXH domain (residues 567­689 and 567­694) were produced as previously described [18].
+
+Experimental restraints
+Resonance assignment of the LRR domain was performed as previously described [21]. Interproton distance restraints were derived from NOESY 15N HSQC and NOESY 13 C HSQC spectra acquired at 27 °C with mixing times of 100 ms on a Varian Inova spectrometer operating at 800 MHz 1H frequency. A set of 89 backbone / and u dihedral angles was obtained using the backbone torsion angle prediction package talos [48]. Amide protection was inferred from deuterium exchange measurements performed at 27 °C on a freeze-dried 15N-labeled sample redissolved in a Tris / HCl-buffered (pH 7.0) D2O solution and started immediately after redissolving the protein. The intensity decay of the NH signals extracted from a series of 40 1H­15N HSQCs of 35 min each allowed calculation of the exchange rates. Twenty slowly exchanging protons were identified as having an exchange time longer than 3 h. Among these, a hydrogen bond restraint was added if a hydrogen bond was consistently observed in at least 50% of the structures inspected at an advanced stage of the refinement. 1DNH RDCs were measured at 27 °C, aligning the protein in 5% n-dodecyl-penta(ethylene glycol) / n-hexanol (r = 0.92) using a buffer composed of 20 mm Tris / HCl, 2 mm TCEP and 0.02% NaN3 at pH 7.0. The liquid crystalline medium gave a stable quadrupolar splitting of the D2O signal of 21 Hz. The final concentration of the protein in this medium was  0.37 mm. 92 1JNH splittings were obtained from a J-modulated 15N­1H HSQC spectrum [49] for NH vectors with a heteronuclear NOE value higher than 0.75 and used for the purpose of structure validation using the program module [50]. The rmsd in hertz from RDC restraints (observed ­ calculated from structure generated without using RDCs) is 0.620 ± 0.035. T1, T2 and heteronuclear NOE measurements were performed at 27 °C and 800 MHz, using adapted standard
+
+Experimental procedures
+Protein sample preparation
+The LRR domain of Anp32a from Mus musculus (residues 1­164) was produced using an ampicillin-resistant glutathione S-transferase (GST)-3C expression vector with a human rhinovirus 3C protease recognition site. This construct resulted in the addition of five non-native residues (GPLGS) at the N-terminus of the protein. Isotopically 15 N-labeled and 13C / 15N-labeled samples were overexpressed in the Escherichia coli host strain BL21 (DE3) grown on a minimal medium containing [15N]ammonium sulfate and [13C]glucose as the sole sources of nitrogen and carbon respectively. The cells were grown at 37 °C until an attenuance (D) at 600 nm of 0.5 was reached, and then cooled to 18 °C, induced with isopropyl thio-b-d-galactoside (0.5 mm), and harvested after overnight expression. A standard purification protocol was performed, using Pharmacia
+
+2556
+
+FEBS Journal 275 (2008) 2548­2560 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+C. de Chiara et al.
+
+Study of the interactions of the Anp32a LRR module
+
+pulse sequences. The T1 / T2 ratios of residues not undergoing large amplitude motions or exchange were used to estimate the correlation time (sc), assuming the model-free approach [28]. Residues with T1 and T2 values that differed by more than one standard deviation from the mean were excluded from the sc calculation.
+
+Structure calculation for Anp32a
+Structure calculations were performed using the aria program (version 1.2) [51]. A typical run consisted of nine iterations. At each iteration, 20 structures were calculated by simulated annealing using the standard cns protocol [52] with numbers of steps equal to 15 000 and 12 000 in the first and second cooling stages of the annealing, respectively. Floating assignment for prochiral groups and correction for spin diffusion during iterative NOE assignment were applied as previously described [53,54]. At the end of each iteration, the best seven structures in terms of lowest global energy were selected and used for assignment of additional NOEs during the following iteration. In the final aria run, the number of structures generated in iteration 8 was increased to 100, and after refinement by molecular dynamics simulation in water of the 50 lowest-energy structures [55], the 10 lowest-energy structures were selected as representative of the Anp32a LRR domain structure and used for statistical analysis. In the final iteration, 3774 unambiguous and 1377 ambiguous NOEs were assigned. Among the 5151 total NOEs, 2021 were intraresidue, 1075 sequential, 663 medium range, and 1392 long range. Structure quality was evaluated using the programs procheck [56] and whatif [57]. The coordinates are deposited with the Protein Data Bank (accession code 2jqd).
+
+spectroscopy. Two different constructs of the Atx1 AXH domain with different C-terminal boundaries (residues 567­ 689 or residues 567­694) were used. Typically, 0.2­0.3 mm solutions of the 15N-labeled Anp32a LRR domain in 20 mm Tris (pH 7.0) and 2 mm TCEP were used for the NMR experiments. They were titrated with stepwise additions of concentrated stock solutions of unlabeled Atx1 AXH domain up to a two to threefold excess of this. The inverse titration using labeled Atx1 AXH domain and unlabeled LRR domain was also probed. The experiments were carried out at 27 °C, both at low ionic strength to enhance even weak electrostatic interactions, and at physiological ionic strength (150 mm NaCl). Fluorescence measurements were performed on a SPEX Fluoromaxspectrometer, by exciting at 295 nm (slit width 0.4 nm) a 10 lm sample of Atx1 AXH domain in 20 mm Tris (pH 7.0) and recording the emission intensity from 300 to 450 nm (slit width 1.5 nm). Titration was carried out by stepwise additions of a 0.87 mm stock solution of Anp32a LRR domain up to a 60 : 1 ratio. The data were evaluated using the origin program package (Micro-Cal Software, Bletchley, UK).
+
+Yeast two-hybrid analysis
+The DNA fragment encoding the murine Anp32a N-terminus (1­164 amino acids) was cloned into the pGBKT7 vector (Clontech, Mountain View, CA, USA) for expression as a Gal4 DNA-binding domain fusion protein. This bait was transformed into an AH 109 yeast strain and used to screen a human brain two-hybrid cDNA library from Clonetech as previously described [60]. DNAs recovered from clones selected by growth in quadruple-dropout media and Gal-X overlay assays were sequenced and compared with known sequences.
+
+Comparative modeling
+The structure of an Anp32a­PP2A complex was modeled on the U2A¢­U2B¢¢ coordinates (1a9n) [20]. The available information strongly indicates that the interaction is dominated by the C subunit of PP2A. Of this, the main region that protrudes out into solution and is not protected by interactions with the other two subunits comprises helix 222­232. Assuming a similar modality of interaction, we superimposed this region on helix 1 of U2B¢¢ (residues 24­34). The resulting complex did not involve major steric clashes except with the flexible C-terminus of Anp32a. The structure was energy minimized by the gromacs package [58] using the gromos96 force field [59] to relieve possible structural strain.
+
+Confocal microscopy
+cDNAs encoding full-length Anp32a and Clip 170 (GeneService, IMAGE 3592614) were cloned into the pBudCE4.1 vector (Invitrogen, Paisley, UK). The immunofluorescence assay was carried out essentially as described previously [61]. Briefly, COS cells were grown overnight in chamber slides and transfected with pBudCE4.1 vector expressing V5-tagged Clip 170 and cMyc-tagged Anp32a. Forty-eight hours after transfection, cells were fixed using 4.0% paraformaldehyde, permeabilized with 0.2% Triton X-100 / NaCl / Pi and probed with fluorescein isothiocyanate-conjugated antibodies to V5 (Invitrogen) and Cy3-conjugated antibodies to c-Myc (Sigma, Poole, UK) for 1 h at room temperature. After being washed with NaCl / Pi, slides were mounted using Citifluor (Agar Scientific) before analysis by confocal microscopy. Cells were visualized under a Leica laser
+
+Atx1 interactions
+Interaction of Anp32a with the Atx1 AXH domain was probed both by NMR spectroscopy and by fluorescence
+
+FEBS Journal 275 (2008) 2548­2560 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+2557
+
+Study of the interactions of the Anp32a LRR module
+
+C. de Chiara et al.
+
+scanning confocal microscope (TCS-SP1) equipped with a DM-RXE microscope and an argon­krypton laser. Images were acquired as single 0.2 lm transcellular optical sections and averaged over 20 scans / frame. Images were acquired sequentially, and appropriate emission filter settings and controls were included to minimize bleedthrough effects. Images were merged using the image j program (NIH, Bethesda). Merged images show the details observed in a single 0.2 lm optical section.
+
+Immunoprecipitation
+HeLa cells were grown to confluency and were subsequently lysed using RIPA buffer (50 mm Tris / HCl, pH 8.0, 150 mm NaCl, 0.5% sodium deoxycholate, 0.1% SDS, 1.0% NP-40, supplemented with complete protease inhibitor cocktail tablets (Roche, Basel, Switzerland). Cleared lysates were incubated with protein A and protein G agarose beads (Sigma) for 30 min, spun down to remove the beads, and incubated overnight at 4 °C with monoclonal antibodies to Clip 170 or polyclonal antibodies to Anp32a (Santacruz Biotech, Santa Cruz, CA, USA), or with polyclonal antibodies to histone H3 (Calbiochem), along with fresh protein A / G agarose beads. Beads were spun down and washed three times with RIPA buffer before being resuspended in SDS / PAGE sample buffer. Samples and input controls were analyzed by PAGE and western blotting using monoclonal antibodies to Clip 170, histone H3 or Anp32a.
+
+Acknowledgements
+We thank Drs N. Q. McDonald and B. O'Hara (Birbeck College, London) for providing the Lanp clone, which was produced from a cDNA originally provided by Dr A. Matilla (ICH, London), Filippo Prischi for help with the gromacs software, and Dr L Masino for helpful discussions. The project is under the Eurosca consortium.
+
+References
+1 Matilla A & Radrizzani M (2005) The Anp32 family of proteins containing leucine-rich repeats. Cerebellum 4, 7­18. 2 Malek SN, Katumuluwa AI & Pasternack GR (1990) Identification and preliminary characterization of two related proliferation-associated nuclear phosphoproteins. J Biol Chem 265, 13400­13409. 3 Santa-Coloma TA (2003) Anp32e (Cpd1) and related protein phosphatase 2 inhibitors. Cerebellum 2, 310­320. 4 Li M, Guo H & Damuni Z (1995) Purification and characterization of two potent heat-stable protein inhibitors of protein phosphatase 2A from bovine kidney. Biochemistry 34, 1988­1996.
+
+5 Li M, Makkinje A & Damuni Z (1996a) The myeloid leukemia-associated protein is a potent inhibitor of protein phosphatase 2A. J Biol Chem 271, 11059­11062. 6 Li M, Makkinje A & Damuni Z (1996b) Molecular identification of I1PP2A, a novel potent heat-stable inhibitor protein of protein phosphatase 2A. Biochemistry 35, 6998­7002. 7 Radrizzani M, Vila-Ortiz G, Cafferata EG, Di Tella MC, Gonzalez-Guerrico A, Perandones C, Pivetta OH, Carminatti H, Idoyaga Vargas VP & Santa-Coloma TA (2001) Differential expression of CPD1 during postnatal development in the mouse cerebellum. Brain Res 907, 162­174. ´ 8 Costanzo RV, Vila-Orti´ z GJ, Perandones C, Carminatti H, Matilla A & Radrizzani M (2006) Anp32e / Cpd1 regulates protein phosphatase 2A activity at synapses during synaptogenesis. Eur J Neurosci 23, 309­324. 9 Mumby M (2007) The 3D structure of protein phosphatase 2A: new insights into a ubiquitous regulator of cell signaling. ACS Chem Biol 2, 99­103. 10 Mumby M (2007b) PP2A: unveiling a reluctant tumor suppressor. Cell 130, 21­24. 11 Janssens V & Goris J (2001) Protein phosphatase 2A: a highly regulated family of serine / threonine phosphatases implicated in cell growth and signalling. Biochem J 353, 417­439. 12 Janssens V, Goris J & Van Hoof C (2005) PP2A: the expected tumor suppressor. Curr Opin Genet Dev 15, 34­41. 13 Xu Y, Xing Y, Chen Y, Chao Y, Lin Z, Fan E, Yu JW, Strack S, Jeoffrey PD & Shi Y (2006) Structure of the protein phosphatase 2A holoenzyme. Cell 127, 1239­1251. 14 Cho US & Xu W (2007) Crystal structure of a protein phosphatase 2A heterotrimeric holoenzyme. Nature 445, 53­57. 15 Stelzl U, Worm U, Lalowski M, Haenig C, Brembeck FH, Goehler H, Stroedicke M, Zenkner M, Schoenherr A, Koeppen S et al. (2005) A human protein­protein interaction network: a resource for annotating the proteome. Cell 122, 957­968. 16 Matilla A, Koshy BT, Cummings CJ, Isobe T, Orr HT & Zoghbi HY (1997) The cerebellar leucine-rich acidic nuclear protein interacts with ATX1. Nature 389, 974­ 978. 17 Masino L & Pastore A (2002) Glutamine repeats: structural hypotheses and diseases. Biochem Soc Trans 29, 41­60. 18 de Chiara C, Giannini C, Adinolfi S, de Boer J, Guida S, Ramos A, Jodice C, Kioussis D & Pastore A (2003) The AXH module: an independently folded domain common to ataxin-1 and HBP1. FEBS Lett 551, 107­112. 19 Huyton T & Wolberger C (2007) The crystal structure of the tumour suppressor protein pp32 (Anp32a):
+
+2558
+
+FEBS Journal 275 (2008) 2548­2560 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+C. de Chiara et al.
+
+Study of the interactions of the Anp32a LRR module
+
+20
+
+21
+
+22 23
+
+24
+
+25
+
+26
+
+27
+
+28
+
+29
+
+30
+
+31
+
+32
+
+33 34
+
+structural insights into Anp32 family of proteins. Prot Sci 16, 1308­1315. Price SR, Evans PR & Nagai K (1998) Crystal structure of the spliceosomal U2B¢¢­U2A¢ protein complex bound to a fragment of U2 small nuclear RNA. Nature 394, 645­650. de Chiara C, Kelly G, Frenkiel TA & Pastore A (2007) NMR assignment of the leucine-rich repeat domain of LANP / Anp32a. J Biomol NMR 38, 177. Holm L & Sander C (1996) Mapping the protein universe. Science 273, 595­603. Kobe B & Kajava AV (2001) The leucine-rich repeat as a protein recognition motif. Curr Opin Struct Biol 11, 725­732. Seo SB, Macfarlan T, McNamara P, Hong R, Mukai Y, Heo S & Chakravarti D (2002) Regulation of histone acetylation and transcription by nuclear protein pp32, a subunit of the INHAT complex. J Biol Chem 277, 14005­14010. Brody JR, Kadkol SS, Mahmoud MA, Rebel JM & Pasternack GR (1999) Identification of sequences required for inhibition of oncogene-mediated transformation by pp32. J Biol Chem 274, 20053­20055. Hong R, Macfarlan T, Kutney SN, Seo SB, Mukai Y, Yelin F, Pasternack GR & Chakravarti D (2004) The identification of phosphorylation sites of pp32 and biochemical purification of a cellular pp32-kinase. Biochemistry 43, 10157­10165. Bairoch A (1992) PROSITE: a dictionary of sites and patterns in proteins. Nucleic Acids Res 20(Suppl.), 2013­2018. Lipari G & Szabo A (1982) Model-free approach to the interpretation of nuclear magnetic resonance relaxation in macromolecules. 1. Theory and range of validity. J Am Chem Soc 104, 4546­4559. Maciejewski M, Liu D, Prasad R, Wilson S & Mullen G (2000) Backbone dynamics and refined solution structure of the N-terminal domain of DNA polymerase beta. Correlation with DNA binding and dRP lyase activity. J Mol Biol 296, 229­253. Sanders CR, Hare BJ, Howard KP & Prestegard JH (1993) Magnetically-oriented phospholipid micelles as a tool for the study of membrane-associated molecules. Prog Nucl Magn Reson Spectrosc 26, 421­444. Scherly D, Dathan NA, Boelens W, van Venrooij WJ & Mattaj IW (1990) The U2B¢¢ RNP motif as a site of protein­protein interaction. EMBO J 9, 3675­3681. Chen S, Li B, Grundke-Iqbal I & Iqbal K (2008) I1PP2A affects Tau phosphorylation via association with the catalytic subunit of protein phosphatase 2A. J Biol Chem doi: 10.1074/jbc.M709852200. Galjart N (2005) CLIPs and CLASPs and cellular dynamics. Nat Rev Mol Cell Biol 6, 487­498. Lim J, Hao T, Shaw C, Patel AJ, Szabo G, Rual JF, Fisk CJ, Li N, Smolyar A, Hill DE et al. (2006) A
+
+35
+
+36
+
+37
+
+38
+
+39
+
+40
+
+41
+
+42
+
+43
+
+44
+
+45
+
+46
+
+protein­protein interaction network for human inherited ataxias and disorders of Purkinje cell degeneration. Cell 125, 801­814. Gould R, Hubank M, Hunt A, Holton J, Menon RP, Revesz T, Pandolfo M & Matilla-Duenas A (2007) Down-regulation of the dopamine receptor D2 in mice lacking ataxin 1. Hum Mol Genet 16, 2122­2134. Cvetanovic M, Rooney RJ, Garcia JJ, Toporovskaya N, Zoghbi HY & Opal P (2007) The role of LANP and ataxin 1 in E4F-mediated transcriptional repression. EMBO Rep 8, 671­677. Emamian ES, Kaytor MD, Duvick LA, Zu T, Tousey SK, Zoghbi HY, Clark HB & Orr HT (2003) Serine 776 of ataxin-1 is critical for polyglutamine-induced disease in SCA1 transgenic mice. Neuron 38, 375­387. Vierra-Green CA, Orr HT, Zoghbi HY & Ferrington DA (2005) Identification of a novel phosphorylation site in ataxin-1. Biochim Biophys Acta 1744, 11­18. Ulitzur N, Humbert M & Pfeffer SR (1997) Mapmodulin: a possible modulator of the interaction of microtubule-associated proteins with microtubules. Proc Natl Acad Sci USA 94, 5084­5089. Ulitzur N, Rancano C & Pfeffer SR (1997) Biochemical characterization of mapmodulin, a protein that binds microtubule-associated proteins. J Biol Chem 272, 30577­30582. Opal P, Garcia JJ, Propst F, Matilla A, Orr HT & Zoghbi HY (2003) Mapmodulin / leucine-rich acidic nuclear protein binds the light chain of microtubuleassociated protein 1B and modulates neuritogenesis. J Biol Chem 278, 34691­34699. Lee H, Engel U, Rusch J, Scherrer S, Sheard K & Van Vactor D (2004) The microtubule plus end tracking protein Orbit / MAST / CLASP acts downstream of the tyrosine kinase Abl in mediating axon guidance. Neuron 42, 913­926. Zhou FQ, Zhou J, Dedhar S, Wu YH & Snider WD (2004) NGF-induced axon growth is mediated by localized inactivation of GSK-3beta and functions of the microtubule plus end binding protein APC. Neuron 42, 897­912. Choi JH, Bertram PG, Drenan R, Carvalho J, Zhou HH & Zheng XF (2002) The FKBP12-rapamycin-associated protein (FRAP) is a CLIP-170 kinase. EMBO Rep 3, 988­994. Bilbe G, Delabie J, Bruggen J, Richener H, Asselbergs FA, Cerletti N, Sorg C, Odink K, Tarcsay L, Wiesendanger W et al. (1992) Restin: a novel intermediate filament-associated protein highly expressed in the Reed­Sternberg cells of Hodgkin's disease. EMBO J 11, 2103­2113. Delabie J, Shipman R, Bruggen J, De Strooper B, van Leuven F, Tarcsay L, Cerletti N, Odink K, Diehl V, Bilbe G et al. (1992) Expression of the novel intermediate filament-associated protein restin in Hodgkin's dis-
+
+FEBS Journal 275 (2008) 2548­2560 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+2559
+
+Study of the interactions of the Anp32a LRR module
+
+C. de Chiara et al.
+
+47
+
+48
+
+49
+
+50
+
+51
+
+52
+
+53
+
+ease and anaplastic large-cell lymphoma. Blood 80, 2891­2896. Coquelle FM, Caspi M, Cordelieres FP, Dompierre JP, Dujardin DL, Koifman C, Martin P, Hoogenraad CC, Akhmanova A, Galjart N et al. (2002) LIS1, CLIP170's key to the dynein / dynactin pathway. Mol Cell Biol 22, 3089­3102. Cornilescu G, Delaglio F & Bax A (1999) Protein backbone angle restraints from searching a database for chemical shift and sequence homology. J Biomol NMR 13, 289­302. Ottinger M, Delaglio F & Bax A (1998) Measurement of J and dipolar couplings from simplified two-dimensional NMR spectra. J Magn Res 131, 373­378. Dosset P, Hus JC, Marion D & Blackledge M (2001) A novel interactive tool for rigid-body modeling of multidomain macromolecules using residual dipolar couplings. J Biomol NMR 20, 223­231. Linge JP, O'Donoghue SI & Nilges M (2001) Automated assignment of ambiguous nuclear Overhauser effects with ARIA. Methods Enzymol 339, 71­90. Brunger AT, Adams PD, Clore GM, DeLano WL, Gros P, Grosse-Kunstleve RW, Jiang JS, Kuszewski J, Nilges M, Pannu NS et al. (1998) Cystallography and NMR system: a new software suite for macromolecular structure determination. Acta Crystallogr 54, 905­921. Folmer RH, Hilbers CW, Konings RN & Nilges M (1997) Floating stereospecific assignment revisited: application to an 18 kDa protein and comparison with J-coupling data. J Biomol NMR 9, 245­258.
+
+54 Linge JP, Habeck M, Rieping W & Nilges M (2004) Correction of spin diffusion during iterative automated NOE assignment. J Magn Res 167, 334­342. 55 Linge JP, Williams MA, Spronk CA, Bonvin AM & Nilges M (2003) Refinement of protein structures in explicit solvent. Proteins 50, 496­506. 56 Laskowski RA, Rullman JA, MacArthur MW, Kaptein R & Thornton JM (1996) AQUA and PROCHECKNMR: programs for checking the quality of protein structures solved by NMR. J Biomol NMR 8, 477­486. 57 Vriend G (1990) WHAT IF: a molecular modelling and drug design program. J Mol Graph 8, 52­56. 58 Berendsen HJC, van der Spoel CD & van Drunen R (1995) GROMACS: a message-passing parallel molecular dynamics implementation. Comp Phys Commun 91, 43­56. 59 Van Gunsteren WF, Billeter S, Eising A, Hunenberger PH, Kruger P, Mark AE, Scott WRP & Tironi IG (1996) Biomolecular Simulations: the GROMOS96 Manual and User Guide. VdF: Hoshshulverlag AG an der ETH Zurich and BIOMOS b.v, Zurich, Gronigen. 60 Menon RP, Gibson TJ & Pastore A (2004) The C terminus of fragile X mental retardation protein interacts with the multi-domain Ran-binding protein in the microtubule-organising centre. J Mol Biol 343, 43­53. 61 Menon RP & Pastore A (2006) Expansion of amino acid homo-sequences in proteins: insights into the role of amino acid homo-polymers and of the protein context in aggregation. Cell Mol Life Sci 63, 1677­1685. 62 Thomas DJ & Pastore A (2004) WHEATSHEAF ­ an algorithm to average protein structure ensembles. Acta Crystallogr 61, 112­116.
+
+2560
+
+FEBS Journal 275 (2008) 2548­2560 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+

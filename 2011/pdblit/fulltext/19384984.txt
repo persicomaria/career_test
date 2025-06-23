@@ -1,0 +1,162 @@
+Evaluation at atomic resolution of the role of strain in destabilizing the temperature-sensitive T4 lysozyme mutant Arg 96 fi His
+
+Blaine H. M. Mooers, Dale E. Tronrud, and Brian W. Matthews*
+Howard Hughes Medical Institute, Institute of Molecular Biology and Department of Physics, 1229 University of Oregon Eugene, Oregon 97403-1229 Received 2 January 2009; Revised 21 February 2009; Accepted 12 February 2009 DOI: 10.1002/pro.93 Published online 23 February 2009 proteinscience.org
+
+Abstract: Mutant R96H is a classic temperature-sensitive mutant of bacteriophage T4 lysozyme. It was in fact the first variant of the protein to be characterized structurally. Subsequently, it has been studied extensively by a variety of experimental and computational techniques, but the reasons for the loss of stability of the mutant protein remain controversial. In the crystallographic ° refinement of the mutant structure at 1.9 A resolution one of the bond angles at the site of substitution appeared to be distorted by about 11, and it was suggested that this steric strain was one of the major factors in destabilizing the mutant. Different computationally-derived models of the mutant structure, however, did not show such distortion. To determine the geometry at the site of mutation more reliably, we have extended the resolution of the data and refined the wildtype ° (WT) and mutant structures to be better than 1.1 A resolution. The high-resolution refinement of ° the structure of R96H does not support the bond angle distortion seen in the 1.9 A structure determination. At the same time, it does confirm other manifestations of strain seen previously including an unusual rotameric state for His96 with distorted hydrogen bonding. The rotamer strain has been estimated as about 0.8 kcal/mol, which is about 25% of the overall reduction in stability of the mutant. Because of concern that contacts from a neighboring molecule in the crystal might influence the geometry at the site of mutation we also constructed and analyzed supplemental mutant structures in which this crystal contact was eliminated. High-resolution refinement shows that the crystal contacts have essentially no effect on the conformation of Arg96 in WT or on His96 in the R96H mutant. Keywords: T4 lysozyme; bond angle strain; rotamer strain; temperature-sensitive mutant; full matrix refinement Introduction
+Blaine H. M Mooers's current address is Department of Biochemistry and Molecular Biology, University of Oklahoma Health Sciences Center, Oklahoma City, OK 73126-0901. Dale E. Tronrud's current address is Department of Biochemistry and Biophysics, Oregon State University, Corvallis, OR 97331. Grant sponsor: NIH; Grant number: GM21967. *Correspondence to: Brian W. Matthews, Howard Hughes Medical Institute, Institute of Molecular Biology and Department of Physics, 1229 University of Oregon, Eugene, OR 97403-1229. E-mail: brian@uoregon.edu
+
+The temperature-sensitive mutant Arg96 ! His (R96H) of bacteriophage T4 lysozyme was originally selected by a random genetic screen1 and is about 3 kcal/mol less stable than the wildtype (WT) protein.2 In WT, the side-chain of Arg96 is located in a crevice on the C-terminal domain and is held in place by close contacts with the backbone carbonyls of several residues and the aromatic ring of Tyr88. The guanidinium group of the arginine, which is partially exposed to solvent, forms hydrogen bonds with the backbone carbonyls of Tyr88 and Asp89. One of these hydrogen
+
+C Published by Wiley-Blackwell. V 2009 The Protein Society
+
+PROTEIN SCIENCE 2009 VOL 18:863--870
+
+863
+
+Table I. Summary of X-ray Data Collection and Refinement Statistics
+Wildtype ° Resolution range (A) ° Wavelength (A) Observations used Unique reflections Completeness (%) Multiplicity I/r(I) in the highest resolution bin Rsym (%) Unit cell parameters ° a ¼ b (A) ° c (A) R-factor (%) Rfree (%) Number of protein atoms Number of solvent atoms ° Deviations in bond lengths (A) ° Deviations in angle distances (A) ° Protein temperature factors (A2) ° Solvent temperature factors (A2) PDB code 28.0­1.09 0.98 214,164 78,959 92.7 (89.6) 2.7 (2.4) 2.0 5.7 (35.0) 60.37 96.57 16.4 18.8 1308 260 0.015 0.029 18.1 30.9 3FA0 R96H 17.9­1.08 0.78 421,164 85,186 99.5 (96.7) 4.9 (3.4) 4.8 3.8 (23.0) 60.12 95.44 14.3 16.3 1315 274 0.015 0.029 16.7 28.0 3F8V D72A/R96H 19.7­1.2 0.98 371,451 63,952 99.7 (99.7) 5.8 (4.5) 4.9 5.7 (33.0) 60.21 97.09 14.7 16.9 1344 259 0.013 0.029 18.4 31.9 3FAD D72A 19.3­1.19 0.83 278,103 58,461 89.0 (70.4) 4.7 (3.5) 3.6 3.8 (21.5) 60.19 96.74 15.7 18.9 1348 266 0.021 0.029 20.7 31.2 3F9L
+
+Values for the outer shell of data are given in parentheses. The R-factor is computed including all of the data and without sigma or resolution cutoffs. Deviations in bond angles are given as the deviation in the distance between atoms 1 and 3, where atom 2 is at the vertex of the angle.
+
+bonds is lost when Arg96 is replaced with a histidine in the mutant R96H. The mutant protein has been the subject of extensive thermodynamic, crystallographic, and computational analysis,1­8 and different reasons have been suggested for its destabilization. An analysis of the crystal structure of R96H at a ° resolution of 1.9 A6 suggested that the introduction of the histidine side-chain introduced steric strain, as reflected by a large deviation from standard value in one of the bond angles at the a-carbon. This was suggested as one of the main factors contributing to the loss of stability of the mutant protein. Molecular dynamics simulation and computational analysis7,8 also suggested that His96 was under strain, but not in the manner described by Weaver et al.6 To help resolve this question, we have redetermined the structures of the wildtype and R96H mutant proteins to substantially higher resolution (better ° than 1.1 A). We have also constructed and determined the structures of supplemental mutant proteins designed to remove contacts from a neighboring molecule in the crystal that might influence the geometry of the side-chain at site 96. To further dissect the factors that contribute to stability, we have also made and analyzed all possible substitutions at site 96 (Mooers et al.,9 accompanying manuscript).
+
+was concern that the conformation of the key sidechain (Arg96 or His96) might be influenced by an adventitious contact in the crystal lattice. In particular, in the low-temperature structures of WT and R96H there appeared to be an intermolecular salt bridge between the residue at site 96 and Asp72* where the asterisk indicates that the residue is in a symmetryrelated molecule. We, therefore, constructed and analyzed two supplemental mutants. The first, D72A, removes the crystal contact from Arg96 in wildtype. The second, D72A/R96H, removes the contact from His96 in the mutant (R96H) structure. As will be discussed below, both of these crystallize isomorphously with WT and R96H.
+
+Structure analysis
+All four proteins crystallized isomorphously and their structures were determined at low temperature (100 K) to atomic resolution (Table I). The models have similar average B-values suggesting that they have similar atomic displacements due to thermal or statistical disorder. The standard uncertainties of the atomic coordinates11 were derived from the inverse of the leastsquares matrix at the end of the refinement. These in turn were used to derive the standard uncertainties of bond lengths, bond angles, and torsion angles.
+
+Results
+The structures of WT lysozyme10 and the temperaturesensitive mutant R96H had previously been determined at room temperature.6 By collecting X-ray data at low temperature, the resolution could be substantially improved. In analyzing these structures, there
+
+Structure at the mutation site
+The structures of the WT protein and R96H in the vicinity of the substitution are compared in Figure 1(a). The conformations of Arg96 and His96 and the intramolecular interactions that they make are essentially identical with those seen in the room temperature
+
+864
+
+PROTEINSCIENCE.ORG
+
+Role of Strain in T4 Lysozyme
+
+Figure 1. (a) Stereo figure comparing the structures of WT lysozyme (open bonds) and mutant R96H (black bonds) in the vicinity of the substitution. Amino acids are identified by the single-letter code. To the right of the figure are the residues Asp72 and Arg76 (highlighted with asterisks) that belong to a neighboring molecule in the crystal lattice. Hydrogen bonds are indicated by broken lines. HED166 is a molecule of hydroxyethyl disulfide, used as an aid to crystallization, which also binds in this vicinity. To avoid confusion, water molecules in the vicinity are not shown. (b) Comparison of the structure of WT lysozyme (open bonds) with R96H as seen in the structure of the double mutant D72A/R96H (solid bonds). All conventions are as in (a). In D72A/R96H (but not WT), Asp72 in the neighboring molecule is replaced by an alanine. Notwithstanding this change, the conformation of Arg96 is essentially identical with that seen in (a).
+
+structures.6 In particular, the side-chain of His96 has the same rotamer conformation and makes a single intramolecular hydrogen bond to the carbonyl oxygen of Tyr88. At low temperature, Arg96 in WT and His96 in R96H both make a hydrogen bond (or salt bridge) to Asp72* in a neighboring molecule. As well, Asp89 makes a salt bridge with Arg76* [Fig. 1(a)]. If Asp72 is replaced with alanine in either WT or R96H, the protein still crystallizes in the same crystal form (Table I). This suggests that the intermolecular interactions involving Asp72 are weak and are incapable of disrupting the formation of the crystal lattice. In the low-temperature crystal structure of D72A/R96H [Fig. 1(b)], the side-chain of His96 is seen to have the same conformation as in R96H, even though it can no longer interact with site 72 (alanine) in the adjacent mole-
+
+cule. In the D72A/R96H structure, the intermolecular salt bridge between Asp89 and Arg76* is maintained. It might be noted in passing that the double mutant D72A/R76A was also made to evaluate the role of Arg76. This mutant proved difficult to crystallize under standard conditions, suggesting that the side-chain of Arg76 may be important in obtaining well-ordered crystals. A series of substitutions at site 96 has been made and are described in the accompanying manuscript.9 In the present context, it may be noted that the mutant R96E also crystallizes isomorphously with WT and R96H, even though the negatively-charged sidechains of Glu96 and Asp72* are fairly close in the crystal lattice. The double mutant D72A/R96E also can be crystallized in the same form12 with very little change in the structure. These results all confirm that
+
+Mooers et al.
+
+PROTEIN SCIENCE VOL 18:863--870
+
+865
+
+Figure 2. Contour maps showing the difference in CaACa distances between mutants and wildtype T4 lysozyme. The change in the distance between the a-carbon atoms of any two residues i and j can be found at the corresponding coordinates (i,j). ° ° The starting contour level is at Æ0.16 A and the contour interval is 0.04 A. The positive contours (blue) indicate that a pair of atoms has moved further apart in the mutant relative to WT. Likewise, negative contours (red) indicate that a pair of atoms has moved closer together in the mutant. The elements of secondary structure are indicated along each axis: a-helices A to J and b-strands I and II. (a) R96H versus wildtype, (b) D72A/R96H versus wildtype.
+
+crystal contacts have very little influence on the geometry of the side-chain at site 96.
+
+Overall structure comparison
+The overall structures of R96H and WT are compared with the ``Shift Plot'' shown in Figure 2(a). This shows the changes in the separation of all pairs of Ca atoms in the mutant relative to WT. For the R96H structure in the context of the supplemental mutation D72A, however [Fig. 2(b)], most of the differences seen in Figure 2(a) disappear. As can be seen in Table I, the c cell edge of the R96H crystals is shorter than that of WT and D72A/R96H. The shortened c cell edge is associated with a change of about 1 in the hinge-bending angle between the N-terminal and C-terminal domains [Fig. 2(a)]. Such hinge-bending is common for T4 lysozyme.13 The lack of strong features in Figure 2(b) shows that, apart from the hinge-bending displacement, the overall structures of R96H and WT are very similar. Table II summarizes the agreement between the mutant and wildtype structures for the N- and C-terminal domains considered separately. As can be seen, the differences between the two versions of the R96H structure (i.e., R96H versus D72A/R96H) are essentially of the same magnitude as those between R96H (or D72A/ R96H) and WT. This suggests that the overall structures are essentially identical within experimental error.
+
+Discussion
+In the previous structure determination of the R96H lysozyme mutant, the CACaACb angle at the site of the
+
+mutation was observed to deviate from its ideal value by À11.1 .6 This was assumed to be one of the principal sources of instability in the mutant. Subsequent computational analyses7 did not find evidence for such strain and suggested other factors that might play a major role. The crystallographic refinement of R96H by Weaver et al.6 used an early version of TNT.14 Using the same X-ray data, Mattos et al.8 rerefined R96H using TNT,15 XPLOR,16 and CNS.17 The structure was also independently refined with TNT by D.E. Tronrud (coordinate set TNTR(3) quoted by Mattos et al.8). None of the above rerefinements showed the 11 distortion in the CACaACb bond of His96 seen by Weaver et al.6 We attribute this discrepancy to the different refinement protocols that were used, together with the inherent uncertainty in the model coordinates associ° ated with a 1.9 A resolution data set. Table III summarizes the geometry in the vicinity of site 96 as determined from the present, higher resolution analysis. In this case, the estimated uncertainty in most of the bond angles is between 1 and 2 . So far as individual bond angles are concerned there is no instance in which either the WT or R96H molecule deviates significantly from standard stereochemistry. In particular, the CACaACb angle of His96 is 109.0 in R96H and 105.8 in D72A/R96H. These are both somewhat less than the standard value of 110.1 but neither approaches the value of 99.9 reported by Weaver et al.6 Although this work does not support the suggestion that there is substantial strain in the CACaACb
+
+866
+
+PROTEINSCIENCE.ORG
+
+Role of Strain in T4 Lysozyme
+
+Table II. Summary of the Structural Changes in the Mutant Lysozymes
+Difference in structures Main chain atoms Protein pair R96H versus WT D72A/R96H versus WT R96H versus D72A/R96H D72A versus WT D72A versus R96H/D72A D72A versus R96H N-terminal ° domain (A) 0.068 0.096 0.102 0.074 0.103 0.085 C-terminal ° domain (A) 0.149 0.093 0.155 0.096 0.086 0.184 ° Side chain atoms with B <50 A2 N-terminal ° domain (A) 0.34 0.63 0.45 0.80 0.82 0.81 C-terminal ° domain (A) 0.46 0.41 0.57 0.66 0.76 0.76
+
+The values quoted are the root-mean-square deviations after least squares fitting of atoms from the N-terminal domain (residues 15­60) and the C-terminal domain (residues 81­161).
+
+bond angle of His96, it does confirm that this sidechain is under strain in the mutant structure. As discussed in detail by Tidor and Karplus7 and Mattos et al.,8 His96 in the mutant structure adopts a rotamer which is nonoptimal and can be considered as giving rise to a strain energy of about 0.8 kcal/mol. In contrast, the side-chain of Arg96 in the WT structure appeared to have a rotamer conformation that is common. These results are all confirmed by the present analysis. For His96, as seen in the R96H and D72A/ R96H crystal structures, the respective values for v1 are À75.4 and À78.0 , and for v2 are 169.8 and 154.1 (Table III). These are close to the values of
+
+À81 , 163 reported by Weaver et al.6 For Arg96, in the present WT structure, the v1, v2 values are À77 and 171 . These can be compared with the values of À80 , 178 from Weaver et al.6 If the rotamer strain energy is 0.8 kcal/mol or thereabouts,7,8 it would account for about 25% of the overall loss in stability of R96H relative to WT.
+
+Changes in hydrogen-bonding interactions
+The side-chain of residue 96 is wedged between the side-chain of Tyr88 and the backbone carbonyl atoms of residues 91­93 [Fig. 1(a)]. The Ne of the arginine makes a hydrogen bond with the backbone carbonyl of
+
+Table III. Geometry of Residue 96 in WT and R96H Mutant T4 Lysozyme
+Parameter Backbone bond angle ( ) NACaAC NACaACb CACaACb CaACbACc Histidine 96 bond angle ( ) CbACcACd2 CbACcANd1 Cd2ACcANd1 CcANd1ACe1 CcACd2ANe2 Cd2ANe2ACe1 Arginine 96 bond angle ( ) CbACcACd CcACdANe CdANeACf NeACfANg1 NeACfANg2 Ng1ACfANg2 Residue 96 torsion angle ( ) u x w v1 v2 v3 v4
+
+
+Standard value 111.2 111.2 110.1 113.8 131.2 122.7 106.1 109.3 107.2 109.0 111.3 112.0 124.2 120.0 120.0 119.7 (2.8) (2.8) (1.9) (1.0) (1.3) (1.5) (1.0) (1.7) (1.0) (1.0) (2.3) (2.0) (1.5) (1.9) (1.9) (1.8)
+
+WT Arg96 112.3 112.5 109.6 112.0 (1.3) (1.2) (1.2) (1.2)
+
+R96H His96 109.6 111.4 109.0 115.8 131.3 121.5 106.8 109.4 108.6 105.9 (1.2) (1.1) (1.0) (1.2) (1.6) (1.9) (1.6) (1.8) (1.7) (1.8)
+
+D72A/R96H His96 111.3 112.2 105.8 112.8 133.2 118.3 108.4 108.6 106.0 105.5 (1.5) (1.4) (1.5) (1.9) (3.0) (3.2) (2.4) (2.6) (2.3) (2.3)
+
+D72 Arg96 110.8 110.0 110.6 117.9 (2.1) (1.8) (1.8) (3.1)
+
+112.3 109.2 125.2 120.1 119.6 120.3 À52.8 À177.6 À41.7 À77.2 170.9 À177.1 178.9
+
+(1.4) (1.5) (1.9) (2.3) (2.3) (1.9) (1.8) (1.2) (1.7) (1.7) (1.6) (1.6) (1.9) À49.9 À174.9 À45.4 À75.4 169.8 (1.6) (0.9) (1.4) (1.7) (1.4) À50.5 À171.13 À44.2 À78.0 154.1 (2.1) (1.2) (1.8) (1.9) (1.9)
+
+109.2 109.1 124.5 122.4 120.4 117.1 À57.1 177.3 À38.9 À80.3 171.6 179.0 161.3
+
+(2.1) (2.5) (2.8) (3.8) (3.7) (3.7) (2.5) (1.5) (2.2) (2.4) (2.1) (2.0) (2.1)
+
+For the standard bond angles18 the numbers in parentheses are the standard deviations in the data base. For the bond angles calculated from the crystallographic models, the values in parentheses are the standard uncertainties derived from inversion of the normal matrix (see text).
+
+Mooers et al.
+
+PROTEIN SCIENCE VOL 18:863--870
+
+867
+
+Tyr88 and Ng2 makes a hydrogen bond with the backbone carbonyl of Asp89. In the mutant structure, the hydrogen bond to the carbonyl of Tyr88 is lost. These features were all seen previously6 and are confirmed by this work. In the crystal structures of the mutants R96H and D72A/R96H, Ne of His96 is in a position that is quite close to that of Ne of Arg96 in wildtype [Fig. 1(a)]. Superficially, the Ne of the imidazole appears to make a hydrogen bond with the backbone carbonyl of Tyr88 that is similar to that made by Ne of Arg96 (respective ° distances of 2.77 and 3.06 A). However, in the mutant structure, the angle His96 Ne2AHÁÁÁO(¼ ¼C) Tyr88 is 117.6 , that is, the NAH group is not pointed directly at the carbonyl oxygen. (The corresponding angle in WT is 145.4 ). Both in small molecule structures and in proteins, the NAHÁÁÁO angle is rarely less than 140 .19,20 Therefore, the hydrogen bond to the carbonyl oxygen of Tyr88 appears to be weakened by the Arg96!His substitution. These structural differences were noted by Weaver et al.6 and are confirmed by the present analysis.
+
+the goniometer head and exposing the crystal to the cold stream, a clean paper wick was used to orient the wedge-shaped crystal in the cryo loop so that the c-axis was oriented along the spindle axis. This also minimized turbulence in the cold stream and thus ensured rapid cooling.
+
+Data collection and processing
+Diffraction data were collected with a 345 mm diameter MAR-Research imaging plate detector at beamline ° 9-1 at SSRL. The crystals generally diffracted to 1.2 A or beyond but also gave an unacceptable number of ° overloaded reflections at resolutions lower than 1.7 A. To correctly measure the lower resolution reflections, the data were measured in three passes of progressively shorter exposure and greater crystal-to-film distance. The lowest-resolution pass was made with the beam attenuated by 90%. The highest-resolution pass was made with two expanded aluminum beamstops, each 1.6 mm thick and 25 mm in diameter, to protect the image plate from very intense reflections in the ° resolution range of 1.7 A to infinity. Images were indexed and integrated with MOSFLM (version 6.0).23 Data were scaled with the CCP4 program SCALA (version 2.4.3).24 The CCP4 (Collaborative Computational Project Number 4) program Truncate25 was used to convert the intensities to structure factors using the method of French and Wilson.26 To enable the monitoring of Rfree,27 5% of the reflections were randomly assigned to a test set with the CCP4 program FREERFLAG. Insofar as possible, reflections that were designated as being in the test set for wildtype were also designated as being in the test sets for the other refinements in Table I. This avoided contamination between the different data sets.
+
+Materials and Methods Crystallization
+The mutants D72A and D72A/R96H were made by introducing the D72A mutation on the appropriate template by two-stage PCR.21 Wildtype T4 lysozyme and the mutants were over-expressed in E. coli and purified as described.22 Trigonal crystals in space group P3221 grew in hanging drops at 4 C over 2M sodium:potassium phosphate solutions at pH 6.7 in 2 weeks using the protocol of Eriksson et al.22
+
+Crystal handling
+For X-ray diffraction data collection at 100 K, large crystals generally of the size 0.5 Â 0.6 Â 1.0 mm were mounted in a rayon cryo loop (Hampton Research) at SSRL beamline 9-1. Paratone-N (Exxon) was used to support the crystal in the cryo loop and to prevent the crystal from drying out during the transfer from a 200 lL drop of paratone to the nitrogen cold-stream. Three special precautions were developed to avoid damaging such large crystals during flash-cooling. First, after the transfer of the crystal to paratone, all droplets of mother liquor were pulled away from the surfaces of the crystal by the viscous forces generated behind an empty cryo loop as it was patiently dragged around the crystal about 1 mm away from the crystal surfaces. The crystal was transferred several times to clean droplets of paratone to separate it from the freed droplets of mother liquor in the paratone. Second, a paper tissue or wick was used to remove the excess paratone suspended in the cryo loop after scooping up the crystal. The minimization of the paratone in the loop accelerated the cooling of the crystal and thus avoided the formation of ice in the solvent channels of the crystal. Third, just before placing the cryo cap on
+
+Refinement
+The 298 K structure of wildtype T4 lysozyme refined ° at a resolution of 1.7 A28 (1L63.pdb) was selected as the starting model for all of the refinements. This model lacks the last two amino acids at the C-terminus and alternative conformations for disordered side chains and backbone regions. The Wilson B-factors of ° the 100 K data sets were lower ($12 A2) than that of ° 2). To accommothe room-temperature data set (22 A date this difference, the room-temperature B-factors were adjusted downward. The contribution of the bulk solvent to the diffraction was modeled in the refinement packages TNT and SHELXL using applications of Babinet's Theorem.15 The refinement package TNT was used to do ° rigid-body refinement at 4 A resolution and rigid-parts ° and 3.2 A.14,15,29 TNT was also ° refinement at 4.0 A used for coordinate and isotropic B-factor refinement interleaved with addition of solvent and model rebuilding as the resolution limit was gradually ° ° increased from 2.5 A to 1.2 A. Next, the refinement 30,31 package Refmac was used to initiate anisotropic
+
+868
+
+PROTEINSCIENCE.ORG
+
+Role of Strain in T4 Lysozyme
+
+temperature factor refinement. Rfree dropped by 4­6% after 10 cycles demonstrating that the change in refinement protocol was not leading to overfitting of the X-ray data. The resolution limit was gradually increased to the upper limit of each data set before switching to SHELXL. The resolution limits of the data sets for D72A and D72A/R96H were already at ° 1.2 A, so they were not refined with Refmac. Because Refmac does not allow inverting the least-squares matrix, we switched to the refinement package SHELXL32 which has this option. Refinement was continued against intensities rather than structure factors. Hydrogen atoms were added as riding atoms with their B-values constrained to be 1.2 times that of the atom to which they were attached. Rfree dropped another 0.5­1.0%. The occupancies of selected sidechains were allowed to vary with the constraint that they summed to 1.0. Water molecules with apparent partial occupancies were assigned occupancies of 0.5, but other than this the occupancies of the water molecules were not refined. Once the refinement was nearing the completion, the test and working sets were combined. Full matrix refinement was used to obtain estimates of the standard error of each parameter upon matrix inversion. The final coordinates of the restrained refinement along with the intensities have been deposited in the RCSB protein data bank. Access codes are given in Table I. Figures of molecular structures were rendered with MOLSCRIPT.33
+
+References
+1. Grutter MG, Hawkes RB, Matthews BW (1979) Molecular ¨ basis of thermostability in the lysozyme from bacteriophage T4. Nature 277:667­669. 2. Hawkes R, Grutter MG, Schellman J (1984) Thermody¨ namic stability and point mutations of bacteriophage T4 lysozyme. J Mol Biol 175:195­212. 3. Becktel WJ, Baase WA (1987) Thermal denaturation of bacteriophage T4 lysozyme at neutral pH. Biopolymers 26:619­623. 4. Becktel WJ, Schellman JA (1987) Protein stability curves. Biopolymers 26:1859­1877. 5. Kitamura S, Sturtevant JM (1989) A scanning calorimetric study of the thermal denaturation of the lysozyme of phage T4 and the Arg96!His mutant form thereof. Biochemistry 28:3788­3792. 6. Weaver LH, Gray TM, Grutter MG, Anderson DE, Wozniak ¨ JA, Dahlquist FW, Matthews BW (1989) High-resolution structure of the temperature-sensitive mutant of phage lysozyme, Arg 96 ! His. Biochemistry 28:3793­3797. 7. Tidor B, Karplus M (1991) Simulation analysis of the stability mutant R96H of T4 lysozyme. Biochemistry 30: 3217­3228. 8. Mattos C, Cohen JD, Green DF, Tidor B, Karplus M (2004) X-ray structural and simulation analysis of a protein mutant: the value of a combined approach. Proteins 55:733­742. 9. Mooers BHM, Baase WA, Wray JA, Matthews BW (in press) Contributions of all 20 amino acids at site 96 to the stability and structure of T4 lysozyme. Protein Sci 18:871­880. 10. Weaver LH, Matthews BW (1987) Structure of bacterio° phage T4 lysozyme refined at 1.7 A resolution. J Mol Biol 193:189­199. 11. Schwarzenbach D, Abrahams SC, Flack HD, Prince E, Wilson AJC (1995) Statistical descriptors in crystallography. II. Report of a working group on expression of uncertainty in measurement. Acta Crystallogr A 51: 565­569. 12. Mooers BHM, Matthews BW (2004) Use of an ion-binding site to by-pass the 1000-atom limit to structure determination by direct methods. Acta Crystallogr D 60: 1726­1737. 13. Zhang X-J, Wozniak JA, Matthews BW (1995) Protein flexibility and adaptability seen in 25 crystal forms of T4 lysozyme. J Mol Biol 250:527­552. 14. Tronrud DE, Ten Eyck LF, Matthews BW (1987) An efficient general-purpose least-squares refinement program for macromolecular structures. Acta Crystallogr A 43: 489­501. 15. Tronrud DE (1997) TNT refinement package. Methods Enzymol 277:306­319. 16. Brunger A, Karplus M, Petsko GA (1989) Crystallographic ¨ refinement by simulated annealing: application to crambin. Acta Crystallogr A 45:50­61. 17. Brunger AT, Adams PD, Clore GM, DeLano WL, Gros P, ¨ Grosse-Kunstleve RW, Jiang J-S, Kuszewski J, Nilges M, Pannu NS, Read RJ, Rice LM, Simonson T, Warren GL (1998) Crystallography & NMR system: a new software system for macromolecular structure determination. Acta Crystallogr D 54:905­921. 18. Engh RA, Huber R (1991) Accurate bond and angle parameters for X-ray protein structure refinement. Acta Crystallogr A 47:392­400. 19. Olovsson I, Jonsson P-G, Neutron diffraction studies of ¨ hydrogen bonded systems. In: Schuster P, Zundel G, Sandorfy C, Eds. (1976) The hydrogen bond-recent developments in theory and experiment, Vol. 2. Amsterdam: North Holland, pp 393­456.
+
+Conclusion
+In summary, the present study confirms the overall structures of WT and R96H reported by Weaver et al.6 The side-chain conformations of Arg96 in WT and His96 in the mutant remain the same but bond distortion at the a-carbon of His96 is not substantiated. That His96 makes a single distorted hydrogen bond is also confirmed. Steric strain is seen to contribute to the loss in stability of mutant R96H as manifested by an unusual rotamer conformation of the His96 sidechain, but not through bond angle distortion. In the crystal structures, there are contacts with a neighboring molecule at the site of the mutation but these are shown to have little if any effect on the structure.
+
+Acknowledgments
+We thank Hong Xiao for the help with over-expressing, purifying, and growing crystals of WT and mutant proteins, Dr. Martin Sagermann for the advice on cryo-crystallography, and Dr. Doug Juers for the help with data collection. We thank Dr. George Sheldrick for answering questions about SHELXL and Dr. Michael Quillin for the use of his computer program delta_ca for making delta difference plots. We are very grateful for access to synchrotron radiation at beamline 9-1, SSRL and also thank the SSRL staff members, Dr. Peter Kuhn, Dr. Mike Soltis, and Dr. Iana Cohen for the helpful discussions on high resolution data collection.
+
+Mooers et al.
+
+PROTEIN SCIENCE VOL 18:863--870
+
+869
+
+20. Baker EN, Hubbard RE (1984) Hydrogen bonding in globular proteins. Prog Biophys Mol Biol 44: 97­179. 21. Landt O, Grunert H, Hahn U (1990) A general method for rapid site-directed mutagenesis using the polymerase chain reaction. Gene 96:125­128. 22. Eriksson AE, Baase WA, Matthews BW (1993) Similar hydrophobic replacements of Leu99 and Phe153 with in the core of T4 lysozyme have different structural and thermodynamic consequences. J Mol Biol 229: 747­769. 23. Leslie AGW (1992) Recent changes to the MOSFLM package for processing film and image plate data. Joint CCP4 and ESF-EAMCB Newsletter on Protein Crystallography No. 26, Warrington, UK. 24. Evans PR (2006) Scaling and assessment of data quality. Acta Cryst D62:72­82. 25. Collaborative Computational Project, Number 4 (1994) The CCP4 suite: programs for protein crystallography. Acta Crystallogr D 50:760­763. 26. French GS, Wilson KS (1978) On the treatment of negative intensity observations. Acta Crystallogr A 34:517­525.
+
+27. Brunger AT (1992) Free R-value: a novel statistical ¨ quantity for assessing the accuracy of crystal structures. Nature 355:472­474. 28. Bell JA, Wilson KP, Zhang X-J, Faber HR, Nicholson H, Matthews BW (1991) Comparison of the crystal structure of bacteriophage T4 lysozyme at low, medium and high ionic strengths. Proteins 10:10­21. 29. Tronrud DE (1992) Conjugate-direction minimization: an improved method for the refinement of macromolecules. Acta Crystallogr A 48:912­916. 30. Murshudov GN, Vagin AA, Dodson EJ (1997) Refinement of macromolecular structures by the maximum-likelihood method. Acta Crystallogr D 53:240­255. 31. Murshudov GN, Vagin AA, Lebedev A, Wilson KS, Dodson EJ (1999) Efficient anisotropic refinement of macromolecular structures using FFT. Acta Crystallogr D 55: 247­255. 32. Sheldrick GM, Schneider TR (1997) SHELXL: high-resolution refinement. Methods Enzymol 277:319­ 343. 33. Kraulis PJ (1991) MOLSCRIPT: A program to produce both detailed and schematic plots of protein structures. J App Cryst 24:946­950.
+
+870
+
+PROTEINSCIENCE.ORG
+
+Role of Strain in T4 Lysozyme
+
+

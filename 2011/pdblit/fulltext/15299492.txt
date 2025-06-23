@@ -1,0 +1,845 @@
+548
+
+Acta Cryst. (1993). D49, 548-560
+
+Structure Determination and Refinement of Ribulose 1,5-Bisphosphate Carboxylase/Oxygenase from Synechococcus P C C 6 3 0 1 "
+BY JANET N E W M A N t AND CARL-IVAR BRANDI~N
+
+Department of Molecular Biology, Swedish University of Agricultural Sciences, Box 590, Biomedical Centre, 751 24 Uppsala, Sweden
+AND T. ALWYN JONES
+
+Department of Molecular Biology, University of Uppsala, Box 590, Biomedical Centre, 751 24 Uppsala, Sweden
+(Received 25 January 1993; accepted 25 May 1993)
+
+Abstract
+The structure of an activated quaternary complex of ribulose 1,5-bisphosphate carboxylase/oxygenase (rubisco) from Synechococcus PCC6301 has been solved by molecular replacement. The protein crystallizes in an orthorhombic P212121 unit cell with a complete L8S8 complex consisting of 4608 residues (37680 non-hydrogen atoms) in the asymmetric unit. Data were collected both on film and image plate using synchrotron radiation; there were 218276 unique reflections in the final 2.2 ]k data set. The eightfold non-crystallographic symmetry could be used both to improve map quality and to reduce the computing requirements of refinement. The coordinates were refined using strict non-crystallographic symmetry constraints. The stereochemistry of the final model is good, and the model has an R value of 20.0% for the reflections between 7 and 2.2 A.
+
+Introduction
+Ribulose 1,5-bisphosphate carboxylase/oxygenase (E.C. 4.1.1.39) is perhaps the world's most abundant protein,
+* Abbreviations used in this paper: rubisco, ribulose 1,5-bisphosphate carboxylase/oxygenase; 2CABP, 2-carboxyarabinitol bisphosphate - a tight-binding transition-state analogue; L, large subunit of rubisco; S, small subunit of rubisco; DESY, Deutsches Elektronen Synchrotron, Hamburg, Germany; 1, intensity c~lFol2; Rmerge, E(EIIi.h - (lh)[l(lh)), li.h = individual measurement of reflection h, (lh) -- mean intensity of that reflection summed over all measured symmetry-related reflections; R value, E[[Fol - IFcll/lgol, IFol = observed structure-factor amplitude, ]Fc[ = calculated structure-factor amplitude; r.m.s.d., root-mean-square deviation [E((x) - xi)2/n] I/2, (x) = arithmetic mean of sample, xi = sample point; n.c.s., non-crystallographic symmetry; SGI, Silicon Graphics Industries 310 VGX graphics workstation; ESV, Evans and Sutherland ESV l0 graphics workstation; wa, the weighting factor used during refinement by the program X-PLOR (this number is given by the check procedure in X-PLOR); rsfit, real-space residue fit of the model coordinates to the electron density, as described in Jones, Zou, Cowan & Kjeldgaard ( 1991); (Bt.), average value of the temperature factor (A 2) for the main-chain atoms of the large subunit; (Bs), average value of the temperature factor (A 2) for the main-chain atoms of the small subunit; CPU, central processor unit. t Author to whom correspondence should be addressed. © 1993 International Union of Crystallography Printed in Great Britain - all rights reserved
+
+and certainly the most abundant enzyme. The enzyme catalyses the addition of carbon dioxide to ribulose 1,5bisphosphate in the first step of the photosynthetic Calvin cycle. This is the only known way that large quantities of carbon can be incorporated into the biosphere (Andrews & Lorimer, 1987). However, the addition of molecular oxygen to the same substrate is also catalyzed by the enzyme, and this then leads to a net loss of carbon from the system and a concomitant use of energy and reducing power. In order to be competent for either reaction, the enzyme must undergo activation. This involves the condensation of a molecule of CO2 with an activesite lysine. The labile adduct is then stabilized by the binding of Mg 2+. There are two well characterized forms of rubisco: form II is a simple homodimer (L2) which is found in anaerobic bacteria, and form I is a hexadecamer of two types of subunit (L8S8) which is found in cyanobacteria, algae and plants. An L2 dimer is the smallest catalytically competent entity (Latimer, Lee, Mural, Soper & Hartman, 1987). The L2 dimer can be regarded as a building block of the more complicated enzyme, which consists of a core of four L2 dimers capped at each end by a tetramer of S subunits and can
+
+Fig. 1. The quaternary structure of the hexadecameric form I rubiscos. The egg shapes represent a dimer of L subunits, the triangles represent the small subunits. The symmetry associated with this arrangement of subunits is shown by the dotted lines.
+
+Acta Crystallographica Section D ISSN 0907-4449 © 1.093
+
+JANET NEWMAN, CARL-IVAR BRANDI~N AND T. ALWYN JONES thus be written more descriptively (L2)4($4) 2. The L8S8 complex has local 422 symmetry associated with it, as a result of this subunit arrangement (Fig. 1). The sequence homology between the L proteins of the form I rubiscos is very high, but there is less conservation of sequence in the S subunits. The L subunits of rubisco from Synechococcus and spinach share 80% identity, compared to the 40% identity in the S
+
+549
+
+subunits. Fig. 2 shows a sequence alignment of the L and S chains from spinach and Synechococcus. Despite the similarities in sequence, there is significant variation in the kinetic and specificity parameters amongst the form I rubiscos (Andrews & Lorimer, 1987). This enzyme is to be the target for protein engineering, with the ultimate aim of reducing or excluding the oxygenase activity, and thus it is crucial that there
+
+50
+
+I00
+
+~
+MSPQTETKAS blPK.QSA VGFKAGVKDY A.Y KLTYYTPEYE D.T .............. PK...L
+
+~
+TLDTDILAAF .....
+
+~
+RVSPQPGVPP F .......
+
+~
+A
+
+~ B ~
+EEAGAAVAAE D .....
+
+~
+SSTGTWTTVW TDGLTNLDRY L..DM ..... I ...............
+
+~c~
+KGRCYHIEPV K .......
+
+~D
+AGEENQYICY Q .... S.FAF
+
+150
+D~
+VAYPLDLFEE I .............. GSVTNMFTSI VGNVFGFKAL I RALRLEDLRI .S ..... I.F PVAYVKTFQG ...L
+
+add E a
+PPHGIQVERD
+
+&
+KLNKYGRPLL L .......
+
+~1
+
+~
+GCTIKPKLGL
+
+~aa~
+
+1 a(x
+
+aa~
+
+200 ~2
+
+SAKNYGRAVY
+
+ECLRGGLDFT
+
+IL ............
+
+................
+
+M ...............................
+
+250
+
+300
+
+~aa~a a~2aaaaa~ aa
+KDDENVNSQP ..... I ..... FMRWRDRFLF Q ........ CAEALYKAQA V.D.IH.S .............
+
+~3
+
+~
+V..P...E
+
+a~a ~a3aaaa~
+MKRAVFAREL ..... E..K..
+
+~
+GVPIVMHDYL .M..I...F.
+
+aaaaaaaa a~a~a~
+TGGFTANTTL .A ........ SHYCRDNGLL AKW .....
+
+~ ~5 ~
+LHIHRAMHAV V ...........
+
+ETGEIKGHYL
+
+NATAGTCEDM
+
+350
+
+400
+
+~
+IDRQKNHGMH .... R...I
+
+5~
+
+~
+
+~6 ~
+WGKLEGERD
+
+~
+
+~
+
+6 a ~
+
+~G~
+DDYTEKDRSR M. E.HI.A .....
+
+~H~
+GIYFTQSWVS VF...D.A.
+
+~ 7~
+TPGVLPVASG
+
+~
+GIHVWHMPAL
+
+7~
+TEIFGDDSVL V .........
+
+~ 8
+
+FRVLAKALRL .......
+
+SGGDHIHSGT
+
+ITLGFVDLLR DKA S .......
+
+C ........
+
+L ...........
+
+M ...................
+
+45O
+QFGGGTLGHP WGNAPGAVAN RVALEACVQA RNEGRDLARE GNTIIREATK WSPELAAACE VWKEIKFEFP AMDTV
+
+.................
+
+T ...................
+
+Y..
+
+.GD.L...G
+
+.........
+
+LD
+
+L ........
+
+E
+
+T..KL
+
+(a)
+
+MQVWPILGLK MSMKTLP--KER
+
+KFETLSYLPP
+R...F ......
+
+LTTEQLLAEV SDR.IA.QI
+
+NYLLVKGWIP E.MIEQ.FH.
+
+CLEFEV LI..NE
+
+VYREHDKSPG E ............
+
+YYDGRYWT~,~ EF ........
+
+Ki,PMFGCTDP
+L.D.KS.
+
+AQVVNEVEEV
+Q..LD..R.C
+
+KKAYPD RSE.G.
+
+120
+
+r IG[-'DNKRQV V A . . . . I K. C
+
+Q C : .SF I A Y K P " . 'i'V... V H R .
+
+AGY
+GR
+
+(b)
+F i g . 2.
+
+Alignment of spinach (upper row) and Synechococcus (lower row) sequences of the assignment is from Knight et al. ( 1 9 9 0 ) .
+
+(a) L
+
+and
+
+(b) S
+
+subunits. The secondary, structure
+
+550
+
+RUBISCO crystals were used to produce an 86.2% complete data set with an Rmerge of 10.5% for the 218 276 unique reflections between 100 and 2.2 ]k. Of these, 76.4% have 1 > 3or(/) (51.7% in the resolution shell 2.26-2.20/k) (Fig. 3).
+
+exists a system for producing modified enzyme. Ideally, an expression system for producing and modifying rubiscos from plants should be used; unfortunately, a number of factors - including a strict requirement for a chaperonin to fold and assemble the plant enzyme - forbid this. Although there is sequence similarity between the chaperonin used to aid assembly of rubisco in higher plants and E. coli chaperonin 60, correctly folded and active higher plant rubisco is not produced in E. coli (van der Vies & Ellis, 1991). However, there are efficient E. coli expression systems for a higher plantlike hexadecameric enzyme from cyanobacteria. The E. coli chaperonin 60 protein is apparently similar enough to the cyanobacterial chaperonin that it can be used in the folding and assembly of cyanobacterial nabisco. Thus the structure of nabisco from a cyanobacterium is a necessity for the intelligent planning and interpretation of mutation studies of the hexadecameric enzyme.
+
+Experimental
+Purification and crystallization of rubisco from Synechococcus PCC6301 has been described elsewhere (Newman & Gutteridge, 1990). The crystals are of the activated enzyme, with the tight-binding transitionstate analogue, 2CABP. The space group, although orthorhombic, was not known exactly as crystal morphology made it difficult to collect data around the 0k0 axis - the ambiguity was limited, however, to P21221 or P2 j 2 ]2 ~. Not until the translation functions were solved could the space group be unequivocally assigned to P2t2t2t.
+
+Data collection Data were collected on film at station 9.6 of SRS using a wavelength of 0.89/k. Oscillation steps of 0.5 ° were chosen to minimize overlaps given the unit cell of 223.9 x 111.9 x 199.7 ]k and the requirement to collect data to a nominal resolution of 2.2,/L One crystal was rotated through 45 ° giving data which were processed using an Uppsala modification of the program OSCGEN (Rossmann, 1979). Each digitized film was ;respected on a RAMTEK display to ensure that the predicted pattern matched that observed. Approximately 70% of a 3/k data set was collected on the MAR image plate on beamline X31 at the EMBL outstation, DESY, using four crystals. The wavelength used for that data collection was 1.48 ]k. These data were processed using the in-house modification of the MOSFLM film processing software (Leslie, Brick & Wonacott, 1986). Higher resolution data were collected using three more crystals at DESY, this time with a shorter wavelength of 1.01/k. The three data sets were scaled and merged with the programs ROTAVATA and AGROVATA from the CCP4 program package (SERC Daresbury Laboratory, 1979). A total of 852 051 measurements from eight
+
+Structure determination The model Coordinates of spinach rubisco with an R value of 24% to 2.4 ]k resolution (Brookhaven PDB code 8RUB) were kindly provided by Drs S. Knight and I. Andersson, and were used as the search model in the molecular-replacement procedure. These coordinates were of activated enzyme, with bound 2CABP. In order to facilitate comparison the numbering used for the spinach model was retained. There is an insertion of 12 residues in the spinach small subunit at residue 52; thus the Synechococcus numbering of the small subunit extends from 2 to 122, with a gap between residues 51 and 64, see Fig. 2. The search model was created by first translating the L4S4 complex which constitutes the asymmetric unit in the unit cell of the spinach crystal form such that the centre of gravity of the x and y coordinates were zero, applying a small rotation matrix (to align the fourfold exactly with the z axis) then applying a twofold rotation around x to generate the other half of an L8S8 complex. The side chains which differ from the Synechococcus sequence were trimmed to alanine (or glycine, if either sequence has a glycine). Rotation searches. Self-rotation functions (Rossmann & Blow, 1962) were run using POLARRFN in the CCP4 package (see Newman & Gutteridge, 1990). Using data between 10 and 6 A, and a radius of 35 A, a ~; = 90 ° search gave one clear peak at ~ = 175, ~ = 180 °. This suggested that the fourfold axis of the L8S8 molecule is almost parallel to the z direction. The peak, which is decidedly non-circular, also shows that this fourfold axis is not perfectly aligned. Whether or not the tilt could be
+IO0
+
+80
+
+'o O o
+0 . . . . . . . . . . . . . . . . . .
+
+lllI"
+. . ¢xl
+
+ooto
+
+~: e6 e6 e~ m e6 N ~
+
+t'q ,",i tq ~
+
+,"-,i t'q m
+
+R e s o l u t i o n bins ( A )
+
+Fig. 3. Completeness of the native Synechococcusdata as a function of resolution. The completeness is the ratio of the number of measured reflections to the number of possible unique reflections. Overall the data is 86.2% complete to 2.2 A. The lighter shaded region shows the data in each resolution bin with I > 3a(/).
+
+JANET NEWMAN, CARL-IVAR BRANDI~N AND T. ALWYN JONES seen in the rotation function was very dependent on the radius/resolution range used in the search - a search run using a radius of 15/k showed no signs of any tilting at all (Fig. 4). A n = 180 ° search using the resolution limits 10-6 A as above gave three peaks - those expected from the space group alone. As the fourfold axes could be superimposed, only a one-dimensional cross-rotation function was needed to completely define the rotation of the Synechococcus
+
+551
+
+900 °
+
+180 ~
+
+@
+
+0 0°
+
+\,
+
+-900'
+(a)
+
+900 °
+
+1800°
+
+O0
+
+enzyme with respect to the spinach enzyme. Such a search was run using the same program, and gave two very clear peaks, at n = 45 and 135 ° . Given the local fourfold symmetry of the molecule these two peaks are equivalent. In an attempt to pinpoint more exactly the tilt in the Synechococcus enzyme, further rotation functions were run using Fitzgerald's molecularreplacement program suite MERLOT (Fitzgerald, 1988). Initially, the implementation of the fast-rotation function (Crowther, 1972) was used. The highest peak from a n = 90 ° self-rotation function was a 2or peak at ~ -- 5, -- 175 ° suggesting that the fourfold axis is tilted in two planes. Cross-rotation functions were run first in CROSUM, then in LATSUM (Lattman & Love, 1972), eventually yielding the rotations (a = -40.7, ~ = 173.9 and 3' = 84.7 °) required to map the spinach coordinates onto the Synechococcus enzyme. Translation searches. Possible packing arrangements of the hexadecamer within the Synechococcus unit cell were examined using PACMAN (Bergdoll, unpublished results). When the space group P2122~ was used, it could be seen that there was only one degree of freedom in a translation search; the x and z translations were fixed at by packing constraints. Similarly, in P2t2~21, the z coordinate constrained to 0, requiring a twodimensional search only. The program package X-PLOR (Brfinger, 1992) was used to calculate one- and twodimensional translation searches in P21221 and P212121, respectively. As translation searches are notorious for being resolution sensitive, each translation function was repeated at various permutations of resolutions between 8 and 3 A. Each of the trials in P212121 yielded a high (> 10or) peak at the same position (0.375,0.19,0.0), whereas the highest peaks in the P21221 trials were only of the order of 2cr, and were not always found at the same position. Thus these searches suggested that the molecule should be positioned at 0.375, 0.19, 0.0 in a P212121 cell. This was checked by running a threedimensional translation search in X-PLOR in this space group (resolution range 8-5 A). The translation search l was run over the limits 0 -1, 0-7, 0-1. The highest peak from this three-dimensional search had a correlation of 0.42, and confirmed these values of the translation. Indeed, the top ten peaks of the translation function were clustered around the peak at 0.375, 0.190, 0.000.
+
+90O'
+(b)
+Fig. 4. Self-rotation functions (n = 90 °) with Synechococcusdata. The ,sensitivity of the function to the displacement of the local fourfold axis is dependent on the radius/resolution range chosen. The peak is quite smooth in (a), where the radius = 15 A (8-3 A data) and is clearly non-uniform in (b), where the radius = 35 A (8-6 A data).
+
+Refinement Initial refinement. A 5/k 21Fol - IFcI map calculated using the spinach model coordinates in the Synechococcus orientation was disappointing. Although secondary
+structural elements could be seen, they did not match the coordinates. CORELS (Sussman, Holbrook, Church & Kim, 1977) was used to refine the protein as a single rigid entity using reflections in the resolution range 10-8 A. Five cycles of refinement brought about a reduction in the R value from 46 to 37%, with a
+
+552
+
+RUBISCO the coordinates of model 2. This mask was manually edited in O to produce a smooth envelope with no aberrant points inside the mask. The transformations which map the LS monomer onto the other seven n.c.s.related monomers were generated in O. The r.m.s.d, of the overlap of the C a ' s from the LS monomer with the C a ' s from each of the other seven was approximately 0.5/k in all cases. This suggests that the differences seen in the large subunits that make up the K rubrum dimer are not as apparent in the catalytic dimers of the Synechococcus complex. Three cycles of phase refinement by averaging to a resolution of 2.2/~ were enough to achieve convergence. Each cycle of averaging consisted of a structure-factor calculation from a previous Fourierinverted averaged map (program SF,4LL - CPU time on an SGI ~ 15 min); scaling of the calculated and observed structure factors (program RST,4TS - CPU time on an SGI _~ 2 min); a Fourier transformation using 2[Fo[ - [Fc[ amplitudes and calculated phases (program F F T - CPU time on an SGI _~ 12 min); and averaging to produce a new map (program ,4 - CPU time on an ESV _~ 40 min). Both mask and maps were sampled at 0.7/~ which corresponds to a third of the highest resolution data. The three cycles of averaging reduced the R value of the
+
+corresponding increase in the correlation coefficient from 55 to 68%. No further improvement in the R value was obtained either by increasing the resolution of the refinement or by increasing the number of rigid groups in the refinement. A 5/k 2[Fo[ - IFcl map produced from the coordinates after rigid-body refinement in CORELS was of vastly improved quality. This truncated spinach model was minimized in X-PLOR, giving an R value of 24% for the reflections between 8 and 3/l, (model 0). In the L2 rubisco from Rhodospirillum rubrum, there are significant differences between the two L subunits (Schneider, Linqvist & Lundqvist, 1990). Thus 1 of model 0 (i.e. a dimer of large subunits and two associated small subunits) was initially rebuilt on the assumption that similar differences would be found in the four dimers that make up the Synechococcus enzyme. This rebuilding and all subsequent interactive manipulations of the coordinates were performed using the program O (Jones & Kjeldgaard, 1991). There was density for most of the pruned side chains in a 3.0,/~ 21Fol - IFA map generated in X-PLOR from model 0 (Fig. 5), as well as density for the phosphate groups of the bound transition-state analogue, 2CABP. The complete L8S8 was generated by rotating the rebuilt quarter of model 0 onto the position of the other three quarters. The transformations used were generated in O from the initial model 0. A standard X-PLOR slow-cool procedure from 3273 K using reflections between 8 and 2.8A was run using strict fourfold n.c.s, constraints and a quarter of the LsSs complex. The resulting coordinates had an R value of 23.2% (model 1). This slow-cool procedure required 17 d of CPU time (35 d real time) using one processor of an ALLIANT FX40. A 21Fol - IFA map to 3.0,/~ was generated using the CCP4 package, and showed continuous density for the 2CABP, which was built in by analogy to the 2CABP in the original spinach coordinates. The projected CPU requirements of continued refinement to higher resolution in X-PLOR were awe inspiring, so refinement was continued in PROLSQ (Hendrickson & Konnert, 1981). One cycle of the fast-Fourier transform version of PROLSQ took 40.5 C P U h on a VAX 8800. Eventually, the 12 cycles of PROLSQ were run on a Cray Y-MP where the cycle time was 2.5 CPU h. However, incorrect weighting factors were used which gave a distorted model with a higher R value of 33% to 2.5/k (model 2). To achieve more acceptable computing times, the refinement was continued (in X-PLOR) with strict n.c.s, constraints applied to a smaller non-crystallographic unit of one large and one small subunit. Averaging. Averaging was performed initially to improve map quality by exploiting the eightfold noncrystallographic symmetry to carry out phase refinement (Bricogne, 1976). The real-space averaging package ,4 (Jones, 1992) was used throughout the averaging process. A mask of an LS monomer was created from
+
+....... ·- . . ~
+
+:
+
+L.~ ....
+
+"
+
+~ '~~,,
+
+" ~:i~
+
+'~
+
+/
+
+i
+
+(a)
+
+¢.
+
+(b)
+
+Fig. 5. Densityappeared for manyof the truncated side chains in a 3.0/k 2[Fol - [Fc[map calculatedafter rigid-bodyrefinementin CORELSand energy minimizationin X-PLOR. (a) The isoleucine residue found in the spinach structure at position 140 of the L subunit, (b) the phenylalaninefound in Synechococcus rubisco. The density in both (a) and (b) is that of the cyanobacterialenzyme calculated with an alanine in that position.
+
+JANET NEWMAN, CARL-IVAR BRANDI~N AND T. ALWYN JONES inverted averaged map from 27.1 to 21.1% (Fig. 6). This high-quality averaged map was used to guide a rebuild of the model, and occasionally, missing side chains could be built into density. After rebuilding, the value of the model was 33%. Water molecules were added to the LS monomer at this stage where there was density and a suitable hydrogen-bonding environment. This rebuilt model (including 110 waters) was minimized using strict n.c.s, constraints and the reflections between 5 and 2.2/k to give model 3.
+
+553
+
+Table 1. Effect of wA (the weight given by the check
+
+option of X-PLOR) on the stereochemistry of the LS monomer after rebuilding model 2
+The R value was essentially constant (32.8%) for all of the trials. The column labelled coords gives the r.m.s.d, of the C,, positions before and after minimization; dist is the r.m.s.d, from ideal bond lengths (,~); angles is the r.m.s.d, from ideal bond angles ('); dihedrals is the r.m.s.d, from ideal dihedral angles ( ): and impr is the r.m.s.d, from ideal improper dihedral angles ( ) .
+R.m.s.d.
+
+Trial
+1 2 3 4 5 6 7 8 9
+
+w.~
+465980 419382 372784 326186 279588 232990 186392 139794 93196
+
+%
+I 0() 90 80 70 60 50 40 30 20
+
+Coords
+0.0266 0.0265 0.0265 0.0265 0.0265 0.0424 0.0424 0.0422 0.0421
+
+Dist
+0.138 0.138 0.138 0.138 0.138 0.078 0.078 0.078 0.078
+
+Angles
+6.244 6.242 6.242 6.242 6.244 5.710 5.712 5.712 5.714
+
+Dihedrals
+35.079 35.080 35.080 35.080 35.081 35.037 35.037 35.039 35.041
+
+lmpr
+5.169 5.170 5.170 5.170 5.171 4.615 4.617 4.619 4.620
+
+Refinement of the model with strict n.c.s, constraints.
+According to a recent report (Weis, Briinger, Skehel & Wiley, 1990) the weight given by the check procedure in X-PLOR tends to overweight the contribution of the X-ray terms at the expense of stereochemistry. Nine sets of 25 cycles of minimization were run on the rebuilt model 2 where the weighting factor was reduced in steps of 10% from the 'ideal' weight given by the check procedure. After each run the final coordinates were compared to the starting coordinates and were also analysed for poor stereochemistry. The results are summarized in Table 1. A weight of 50% of the 'ideal' gave a model with more tightly restrained stereochemistry. Unless otherwise stated, the weight used in all refinement was 50% of the 'ideal' weight from the X-PLOR check procedure. The parameter files used in the refinement were parhcsdx.pro and tophcsdx.pro, in which the force constants have been calculated from the variation in bond lengths found in molecules deposited in the Cambridge Structural Database (Engh & Huber, 1991). Rebuilt model 2 was refined using strict n.c.s, constraints for 100 cycles of Powell minimization, with a drop in R value from 33.2 to 27.2%. Refinement of the overall and subsequently individual temperature factors also using n.c.s, constraints resulted in a further decrease of the R factor to 22.6%. However, some waters from the monomer clashed with symmetry-related waters. Therefore, new waters were carefully checked for symmetry clashes. This eventually yielded 112 selfconsistent 'monomeric' water molecules. A complete cycle of reciprocal-space refinement with this protocol required 80 CPU h on the SGI.
+lo
+
+One of the weak points in the refinement was the assumption that the transformation matrices used in averaging and in refinement were correct. These transformations were refined by performing 100 cycles of minimization on the complete, unconstrained L8S8 molecule using the reflections between 5 and 2.2 A. The transformation operators which mapped the Ca positions of the LS monomer onto the other seven n.c.s.-related monomers after this refinement were used in the subsequent constrained refinements. The model after the refinement of the n.c.s, operators, model 5, had an R value of 21.4%. A comparison of the Ca positions of model 3 and model 5 showed that the errors in the original n.c.s, operators were small - the r.m.s.d.'s of the L and S subunits of these two models were 0.079 and 0.13 A, respectively. Further refinement included modification of the averaging mask, minor rebuilding, the location of further waters and more minimization in X-PLOR. Model 6 has an R factor of 20% for all reflections between 7.0 and 2.2 A, and contains 229 waters per n.c.s, asymmetric unit.
+Discussion
+
+Comparative packing Rubisco from Synechococcus crystallizes in a P212121
+cell with dimensions 223.9 × 1 l l.9 × 199.7/L The spinach model crystallizes in C2221 with dimensions 157.2 × 157.2 × 201.3/L The two cells have approximately the same dimension in the z direction, and the dimension of the P212121 cell is the diagonal of the C2221 cell; thus the cells have the same volume (Fig. 7). In both cases there are four complete molecules in the unit cell, so clearly the densityof the crystals must be the same: Vm = 2.32 ,/~ Da -3 (Matthews, 1968). The spinach i l L8S8 sits at 0, 5, 7, with the non-crystallographic fourfold axis almost parallel to the z direction. The fourfold axis is inclined 1.8 ° in the xz plane. The Synechococcus rubisco hexadecamer sits at 0.38,0.19,0 again with the local
+
+08 06
+04
+
+02
+oo o00
+| |
+
+0"10
+4Sln-~(/l A e
+
+0 20
+
+Fig. 6. Correlation coefficient versus 4sin20/A 2 of the initial Synechococcus coordinates (solid line) and a 21Fol - IFcl map after three cycles of real-space averaging (broken line).
+
+554
+
+RUBISCO contacts between two symmetry-related arginines. The contacts between symmetry-related L8S8 molecules are primarily mediated through this arginine, which makes extensive contacts to residues 21-24 of another small subunit. To accommodate these interactions, the molecule has shifted from the singular position it occupies in the spinach unit cell to the more general position seen in the Synechococcus unit cell.
+
+fourfold axis approximately parallel to z. Here the tilting in the fourfold axis is greater (6.3 ° ) and is perpendicular to the tilt seen in the spinach model. The spinach fourfold is close enough to the crystallographic twofold along z that the low-resolution reflections display pseudo tetragonality (Knight, Andersson & Br'~nd6n, 1990). No indication of any tetragonality is seen at any resolution in the Synechococcus data, doubtless the size of the tilt in the local fourfold precludes this. The axis is only very slightly (0.3 °) inclined in the xz plane. Also, the local twofold axes show a 49.5 ° deviation from the crystallographic screw axes. The question arises of why the cyanobacterial enzyme crystallizes in the lower symmetry space group. In spinach, the major contacts between the molecules in different layers are from residues 24-28 in the S subunit, which see the same residues in a crystallographically related L8S8 molecule. There is an unusual contact between symmetry-related glutamic acid residues at position 24. The Synechococcus sequence shows little conservation of the region 24-28 in the S subunit (Fig. 2) and in particular, Glu24 has been replaced with an arginine. Thus it appears that the tilting seen in the packing of the cyanobacterial enzyme is the result of minimizing the
+
+Structure
+The overall fold of the cyanobacterial enzyme is identical to that of the spinach enzyme, indeed the r.m.s.d. of the Ca positions is 0.33 A for the 467 residues of the large subunits. The small subunits show greater deviation in the position of the main-chain atoms (r.m.s.d. Ca = 2 A for 110 residues), but this is predominately caused by movement of the chain around the 12 amino-acid deletion. In brief, the L subunit of rubisco is a twodomain protein: the N-terminal domain is a 150-residue mixed a//3-domain and the remaining 300 or so residues make up a C-terminal /3/a-barrel. The S subunit has a single domain consisting of a central four-stranded /3-sheet covered on one side by two helices (Fig. 8). The extra 12 amino acids found in the spinach small
+
+.>
+
+!
+
+i ......
+
+"
+
+":-:
+
+: ................
+
+! ~"N
+
+,
+
+,.. ,,,~
+
+/'/
+
+,.
+
+(a)
+
+, ..
+!,
+b," I
+
+114
+
+I/4
+
+".
+!
+
+·
+
+b
+
+t'
+
+b
+
+b
+
+1P
+'
+
+:
+
+lZ
+
+~~"
+
+(b)
+Fig. 7. (a) The view down the z direction of the Synechococcus (red) and spinach (black) unit cells. The Synechococcus L8S8 is centred at 0.38, 0.19, 0 in a cell with dimensions a = 224, b = 112 and c = 200 A. The spinach L8S8 is centred at 0, 0.25, 0.25 in a C222] cell with dimensions a = b -- 158 and c = 200 A. (b) View perpendicular to (a). The dotted lines show the local symmetry axes.
+
+JANET NEWMAN,
+
+C A R L - I V A R B R A N D t ~ N A N D T. A L W Y N J O N E S
+
+555
+
+s u b u n i t e x t e n d t h e l o o p b e t w e e n s t r a n d s A a n d B. T h i s loop protrudes into the central cavity of the L core, and r e d u c e s t h e d i a m e t e r o f t h e c h a n n e l f r o m 19 to 17/~. T h e a c t i v e site is m a d e u p o f r e s i d u e s o f t h e l a r g e s u b u n i t
+
+o n l y , t h e s m a l l s u b u n i t s , s i t u a t e d at t h e e n d s o f t h e L8 c o r e , are t o o d i s t a n t to c o n t r i b u t e . R e s i d u e s o f b o t h d o m a i n s are f o u n d in t h e a c t i v e site. T h e b a r r e l o f o n e L subunit and the N-terminal domain of the other L subunit
+
+(a)
+
+(b)
+
+Fig. 8. (a) The large subunit of Synechococcus rubisco. This subunit has two domains; the N-terminal domain consists of a five-stranded mixed B-sheet with two helices covering one side of the sheet. A third small helix is makes up part of the connection between the domains The C-terminal domain is an eight-stranded/3/cz-barrel with an extension containing two short/3-strands between or6 and/37. There are a further two helices at the C terminus. The molecule is coloured so that the N terminus is blue and the C terminus red. The position of the active site is shown by the sugar molecule. (b) The secondary structure of the S subunit. This is a four-stranded antiparallel/3-sheet covered on one side by two helices. This molecule is also coloured blue to red from the N terminus to the C terminus.
+
+Fig. 9. A ribbon diagram of an/,2 dimer. The barrel of one L subunit is coloured blue, and the N-terminal domain of the same subunit, cyan. The barrel domain of the second L subunit is red, and its N-terminal domain is magenta. The yellow spheres are Mg2÷ ions, and show the positions of the active sites. Both this figure and the previous figure were generated in O.
+
+556
+
+RUBISCO secondary structure (Fig. 13). The average temperature factor for the main-chain of the S subunit was higher than that of the L subunit; this agrees with the quaternary structure, which shows that the small subunits are situated on the extremities of the L core. The peaks in the plots of (Bt.) and (Bs) occur in loop regions, with the exception of valine 113 of the small subunit. This residue is situated in the middle of the last fl-strand in the small subunit. Inspection of the density suggested that the residue could have been mis-sequenced since rotomer 2 of serine fits beautifully into the density (Fig. 14). There is a precedent for this substitution, the rubiscos from two algae have serine in position 113 of the small subunit (Knight et al., 1990). The pepflip option in O was used to calculate the r.m.s, fit of each peptide carbonyl. In this procedure, the residues from x - 2 to x + 2 for each residue x are compared to a cluster of pentapeptides of similar structure from a database of well refined structures. The agreement between the carbonyl O atom of residue x and the equivalent O atom of the cluster is then the pepflip value for that residue (Jones, Zou et al., 1991). A plot of the pepflip values is shown in Fig. 15. Each residue with a pepflip value of _>2.5 was examined more closely - the 15 residues with a pepflip value of >_ are summarized _ 2.5 in Table 2. In more detail, the proline at position L46 is flanked on one side by a glycine (position x + 1) and the subset of pentapeptides not containing a glycine in position x + 1 have the carbonyl O atom of the x position pointing in the opposite direction, and this gives the high pepflip value seen for proline L46. The same reasoning
+
+in the dimer make up one active site, and the barrel of the second L subunit combines with the N-terminal region of the first to create the other active site (Fig. 9). Quality o f the model An upper limit for the estimate of the error in the coordinates can be determined by plotting the R value from the coordinates versus the inverse of the Bragg spacing (Luzzati, 1952). A Luzzati plot of the coordinates is shown in Fig. 10; the error in the coordinates can be estimated from this plot to be close to 0.20 A. The quality of the electron-density maps produced from later models of the coordinates was very high. A typical aromatic ring is shown in Fig. 1 l(a). A 21Fol - IFcl map calculated using reflections between 10 and 2.2 ,/k showed continuous density for all main-chain atoms, excepting the first three residues of the large subunit, the last two residues of the small subunit and the region around residue 75 of the small subunit (Fig. 1 l b). With the exception of some long surface residues, the side chains are also well defined. The real-space fit of the coordinates to the averaged density was used to gauge the quality of the model at each step of the refinement (Jones, Zou et al., 1991). A plot of the fit of each residue to the density, Fig. 12(a), indicated the regions of the model which needed attention. Modification of the mask used in the averaging procedure coupled with minor rebuilding greatly improved the rsfit of the coordinates to the density (Fig. 12b). Some of the troughs in the rsfit plot were the result of having the wrong sequence at that point. Four such errors were discovered in this way: three were introduced while building the initial Synechococcus model and one is a putative sequence error. This involved residue 415 of the L subunit, which the primary sequence showed as a leucine, but the density suggests is a proline. The spinach sequence has a proline in this position, as do most of the form I enzymes. Plots of (Bt.) and (Bs) versus residue number were generated using a local set of data-visualization progrants (Kleywegt, unpublished results) and compared to
+04
+
+- )
+
+(-
+
+(a)
+
+03
+
+.....
+
+,~?
+
+~ ,ii~
+
+02
+
+01
+
+O0
+
+!
+
+20
+
+o~5
+
+o;o
+1/d
+
+03~
+
+0,o
+
+(b)
+Fig. 11. (a) Typical density for an aromatic side chain (Phe135 of the L subunit). The region of weakest density (b) is the loop of the small subunit (residues 73-75).
+
+Fig. 10. A Luzzati plot giving an estimation of the error in the coordinates. This plot suggests an error of between 0.2 and 0.25 A in the coordinates.
+
+JANET N E W M A N , C A R L - I V A R BR.ANDI~N A N D T. A L W Y N JONES
+1.0
+
+557
+
+0.8
+
+g
+
+o6
+0.4
+
+0.2
+
+|
+
+|
+
+!
+
+!
+
+;
+
+1 O0
+
+200
+
+300
+
+400
+
+/11~5 0
+
+Residue
+
+S s u b u n i t starts
+
+(a)
+10
+
+0.8' v
+
+g _ o ~
+
+06'
+
+04
+S s u b u n i t starts 0.2 0
+I ! i !
+i
+
+1 O0
+
+200 Residue
+
+300
+
+400
+
+500
+
+(b)
+Fig. 12. Real-space fit of the L S monomer to averaged density before (a) and after (b) mask modification. Open-headed arrows show the positions of incorrect side chains in the sequence. The dotted lines are at 80, 85 and 90% levels. The average correlation is 84% for (a) and 86% for (b).
+
+I O0
+
+=o
+
+80
+60 L93
+L2S
+
+.E 40 .=_ 2O 0 L47 L78
+
+L130
+
+L306
+
+L339
+
+L360
+
+393 L
+
+L43S L4~ L4SO
+
+.~"
+1
+
+, '-~
+O0
+
+~ . ~ " ~ , "---' . ~ '-~ y ~ " - ~ .
+200 Residue No. 300
+
+'~,~,-~.
+400
+
+He,x__
+500
+
+(a)
+1 O0
+
+~
+
+60
+
+~ f ~
+
+4o 2o
+0 50 Residue No. 1 O0
+
+S113
+
+150
+
+(b)
+Fig. 13. Averaged main-chain temperature factors v e r s u s residue number. The large subunit L is shown in (a) and the small subunit S in (b). The lower curve indicates secondary structure.
+
+558
+
+RUBISCO Table 2. Summary of the residues with a pepflip value of greater than 2.5
+Residue
+
+can be applied to the high pepflip value for leucine L178. Only four of the 20 pentapeptides extracted from the database had a glycine in position x + 1 and the only two peptides which had a carbonyl pointing in the same direction as L178 both had a glycine in the critical x + 1 position. The carbonyl O atom of glycine L122 adopts a non-standard conformation so that it can hydrogen bond to the main-chain N atom of residue 297 of another large subunit. Also, the carbonyl O atom of L296 embraces an unusual conformation to allow the main-chain N atom of L297 to make contact with the main-chain O atom of residue 122 in this second large subunit. The carbonyl O atom of L149 is involved in a solvent-mediated hydrogen bond to the side chain of arginine L285. Similarly, the O
+
+No. /-ll tA6 /-122 /-149 /-153 /-178 /,207 L296 L328 L330 L368 /-380 Sl2 Sl3 Sl4
+
+Pepflip value 3.045
+2.710 3.190
+
+Description N-terminus - no density at all
+Proline in a tight turn Glycine at the end of helix C
+
+3.319
+3.027 3.275 2.890
+
+Glutamine i'n a turn
+Histidine at the start of'the helix E Leucine at the dimer interface Aspartate at the dimer interface
+
+2.565
+2.941
+
+Alanine in a loop at the dimer interface
+Part of the P2 of CABP binding site
+
+3.279 2.699 2.635 2.677 2.616 2.966
+
+Part of the P2 of CABP binding site Tyrosine which stabilizes buried Arg L319? Both flanking residues bind CABP -This loop is part of the small/large interface
+
+·
+
+t
+
+j
+· ,' i
+
+s
+7'
+
+(a)
+
+,
+
+S
+
+(b)
+Fig. 14. Density o f S l 1 3 showing (a) the original valine and (b) the suggested serine. This putative sequencing error was discovered b y examination o f the plots s h o w n in Fig. 13.
+
+atom of L207 is also involved in the stabilization of the buried arginine L217. The carbonyl O atom of histidine L153 points away from the average position so that the two flanking main-chain N atoms can stabilize the buried side chain of aspartic acid 324. The carbonyl O atom of tyrosine L368 is involved in two hydrogen bonds to the main-chain N atoms of residues L370 and L371. The main-chain N atom of residue L328 is part of the cluster of charged atoms which make up the binding site for the second phosphate group of 2CABP. The carbonyl O atom of this residue assumes a non-standard orientation so that the N atom can interact, through a water, with one of the phosphate O atoms. A comparable interaction is seen between the main-chain N atom of L380 and an O atom of the first phosphate group of 2CABP. Here also, the carbonyl O atom is atypical so as to allow this interaction. The carbonyl O atom of the interesting threonine residue L330 is the first residue of loop 6 of the a//3-barrel. It is believed that this loop is only locked into position after the sugar substrate has bound; in the structure of rubisco from/Z rubrum, which has no bound inhibitor, this loop is disordered. Thus this residue is part of a hinge region, and the unusual conformation of the carbonyl O atom may reflect this.
+
+==
+
+i
+
+!
+
+i
+
+lOO
+
+i
+
+200
+Residue
+
+300
+
+400
+
+t
+f
+S subunit
+
+i
+
+500
+
+Fig. 15. Pepflip values v e r s u s residue number. The d a s h e d line shows the 2.5 threshold suggested by Jones e t al. Table 3 s u m m a r i z e s the residues which have~ a pepflip > _2.5. _
+
+J A N E T N E W M A N , C A R L - I V A R BR,~,NDI~N A N D T. A L W Y N JONES A scatter plot of the qo and ~b angles of every residue (Ramachandran & Sasisekharan, 1968) showed nine non-glycine residues which lie outside the allowed regions (Fig. 16). Of these, eight are also found as outliers in a Ramachandran plot of the spinach enzyme. Of these eight, seven are involved in subunit-subunit interactions, and only one is found on a loop near the active site (cf Herzberg & Moult, 1991). Table 3 summarizes these contacts. The outlier which is not conserved is valine L331, which is found at the beginning of the flexible loop 6. Studies by Chen & Spreitzer (1989) show this residue to be important for the specificity of the enzyme, and in particular the contacts that this residue makes with aspartic acid L338, which is on the other end of this loop, are interesting. Also noteworthy is that proline L46 is found as an outlier on the Ramachandran plot of the spinach enzyme; this perhaps reflects the high pepflip value seen for the corresponding residue in the Synechococcus enzyme.
+
+559
+
+Table 3. Summary of the residues that lie outside the
+
+allowed regions of Ramachandran plot
+$3 S13 SI 5 $71 L62 L207 L297 L331 L370 ~0 60 60 75 50 - 135 123 94 71 71 ~b 140 - 145 - 1 - 125 - 77 - 86 - 9 --97 18 Description Small/small subunit contacts -All on small/large subunit interfaces On a loop near the active site Forms part of the dimer interface Forms part of the dimer interface Starts loop 6 - important for specificity Makes a contact to a neighbouring dimer
+
+Table 4. Deviations from ideal stereochemistry of the
+
+LS monomer
+R.m.s. R.m.s. R.m.s. Rm.s. bond lengths (A) bond angles (') dihedral angles ( ) improper dihedral angles (') 0.008 1.259 26.121 2.446 No. No. No. No. of of of of deviations > deviations > deviations > deviations > 0.06 A IO 90 20 6 5 5 2*
+
+* B o t h residues which show > 20 ¢ d e v i a t i o n in the i m p r o p e r d i h e d r a l angles are a r g i n i n e residues (L215, L285).
+
+Concluding remarks
+The ability of rubisco to consume ribulose bisphosphate in two competing reactions, one desirable and the other wasteful has been the stimulus for many biochemical and structural studies of the enzyme. The partitioning of the substrate between the two reactions is dependent on the source of the protein: bacterial rubisco is faster, but less choosy than its higher plant relatives. The structures of rubisco available have not been ideal for detailed comparison. In the structure of the form II rubisco from R. rubrum the critical loop 6 is held open by
+
+* 1801 .
+
+fnl tq
+
+LO
+
+fl t
+
+~;+1 ' +% ~.. ++z~_., ' +*~ ++
++ + +
+( i i i
+
+tl :1 i t i i
+
+u
+
+9O
+
+crystallographic contacts, so that although the enzyme from this source shows large differences in kinetics and partitioning from the form II rubiscos, it was not possible to make a direct comparison with the structures of the quaternary complexes available from higher plants. Determining the structure of the quaternary complex of a cyanobacterial enzyme will allow the direct comparison of a less effective enzyme to those of higher plants. Synechococcus PCC6301 has been refined to an R value of 20% with very tight stereochemistry (Table 4). The refinement proceeded quickly, despite the poor initial model. The strict non-crystallographic symmetry was essential, in that it reduced the CPU requirement for refinement from the nearly impossible to the merely excessive. The agreement between the overlapped Ca positions of the monomer LS and all other noncrystallographically related chains after unconstrained refinement was 0.06/~, suggesting that the enzyme adheres quite well to the non-crystallographic symmetry; this is also seen in the very reasonable value for the final model. We would like to thank Dr Steve Gutteridge for providing both the enzyme and endless enthusiasm. Thanks also to the staff at the EMBL outstation, DESY, the Uppsala rubsico group and the Dupont experimental station computing service for access and help with the Cray Y-MP. This project was supported in part by Dupont and the Swedish Natural Science Research Council. The coordinates have been deposited with the Protein Data Bank.*
+
+\\
+
+÷
+
+÷
+
++~
+
+'-.
+~ ,..
+........... .'1 to )u tl tl
+
+,/,
+
+o
+
+._ ." ......... i ~ _ . ~
+
+,
+
+÷
+
+. . . . . . . . . . . . . . . . . ÷ i.l +
+
+L331
+
+-90
+
+tl
+l LI [I [I
+~) " ,
+
+tl
+
+-IBC
+
+I
+
+.
+
+)+m .
+
+i . . . .. . . l.. .
+
+l,
+
+~
+
+......
+
+J__
+
+i
+
+._l
+
+_ _
+
+80
+
+-90
+
+0 q~
+
+9
+
+~ 80
+
+Fig. 16. R a m a c h a n d r a n plot o f t h e LS m o n o m e r . T h e o u t l i e r s are c o n s e r v e d in t h e s p i n a c h s t r u c t u r e ( d a t a n o t s h o w n ) , e x c e p t for Val L331 ( m a r k e d ) .
+
+* Atomic coordinates and structure factors have been deposited with the Protein Data Bank, Brookhaven National Laboratory. Free copies may be obtained through The Technical Editor, International Union of Crystallography, 5 Abbey Square, Chester CH l 2HU, England ( S u p p l e m e n t a r y P u b l i c a t i o n No. S U P 3 7 0 8 9 ) . A list o f d e p o s i t e d d a t a is g i v e n at t h e e n d o f t h i s issue.
+
+560
+References
+
+RUBISCO
+KNIGHT, S., ANDERSSON,I. & BR~NDI~N,C. I. (1990). J. Mol Biol. 215, 113-160. LARIMER,F. W., LEE, E. H., MURAL,R. J., SOPER, T. S. & HARTMAN,F. C. (1987). Biol Chem. 262, 15327-15329. LA'rrMAN, E. E. & LOVE, W. E. (1972). Acta Cryst. B26, 1065-1068. LESLIE, A. G. W., BRICK, P. & WONACOTT,A. J. (1986). CCP4 Newsl. 18, 33-39. LUZZATI, V. (1952). Acta Cryst. 5, 802-810. MATrHEWS, B. W. (1968). J. Biol Chem. 33, 491-497. NEWMAN,J. & GUT~RIDGE, S. (1990). J. Biol Chem. 265, 15154-15159. RAMACHANDRAN,G. N. & SASISEKHARAN,V. (1968). Adv. Protein Chem. 28, 283-437. ROSSMANN, M. G. (1979). J. Appl. Cryst. 12, 225-238. ROSSMANN, M. G. & BLOW, D. M. (1962). Acta Cryst. 15, 24-31. SCHNEIDER, G., LINDQVlST, Y. & LUNDQVlST, T. (1990). J. Mol. Biol. 211, 989-1008. SERC Daresbury Laboratory (1979). The SERC Collaborative Computing Project in Crystallography. SERC Daresbury Laboratory, Warrington, England. SUSSMAN,J. L., HOLBROOK,S. R., CHURCH,G. M. & KIM, S. H. (1977). Acta Cryst. A33, 800-804. VIES, S. M. vAN DER & ELLIS, R. J. (1991). Annu. Rev. Biochem. 60, 321 - 347. WEIS, W. I., BRONGER, T. A., SKEHEL, J. J. & WILEY, D. C. (1990). J. Mol. Biol. 212, 737-761:
+
+ANDREWS,J. & LORIMER,G. (1987). The Biochemistry of Plants. Vol. 10, edited by M. D. HATCH,pp. 131-218. Orlando: Academic Press. BmCOGNE, G. (1976). Acta Cryst. A32, 832-847. BRONGER, T. A. (1992). X-PLOR Manual. Version 3.0. Yale Univ., New Haven, USA. CHEN, Z. & SPREITZER, IL J. (1989). J. Biol. Chem. 193, 839844. CROWTHER,R. A. (1972). The Molecular Replacement Method, edited by M. A. ROSSMANN,pp. 173-178. New York: Gordon & Breach. ENGH, R. A. & HUBER, R. (1991). Acta Cryst. A47, 392-400. FITZGERALD, P. i . D. (1988). J. Appl. Cryst. 21,273-278. HENDRICKSON, W. A. & KONNERT, J. H. (1981). Biomolecular Structure: Conformation, Function and Evolution, Vol. 1, edited by R. SRINIVASAN,pp. 43-57. Oxford: Pergamon Press. HEP,ZBERG, O. & MOULT, J. (1991). Proteins Struct. Funct. Genet. 11, 223 -229. JONES, T. A. (1992). In Proceedings of the CCP4 Study Weekend on Molecular Replacement, edited by E. J. DODSON. SERC Daresbury Laboratory, Warrington, England. JONES, T. A & KJELDGAARD,M. (1991). O Manual. Univ. of Uppsala, Sweden. JONES, T. A., Zoo, J. Y., COWAN,S. W. & KJELDGAARD,M. (1991). Acta Cryst. A47, 110-119.
+
+

@@ -1,0 +1,260 @@
+proteins
+STRUCTURE O FUNCTION O BIOINFORMATICS
+
+Water-mediated interactions between DNA and PhoB DNA-binding/transactivation domain: NMR-restrained molecular dynamics in explicit water environment
+Tsutomu Yamane, Hideyasu Okamura, Mitsunori Ikeguchi, Yoshifumi Nishimura, and Akinori Kidera*
+International Graduate School of Arts and Sciences, Yokohama City University, Yokohama, Japan
+
+ABSTRACT The solution structure of the complex between the transcription factor PhoB DNA-binding/transactivation domain and DNA was determined by NMR spectroscopy and simulated annealing in a periodic boundary box of explicit water with the particle mesh Ewald method. The refined structures provided better convergence and better local geometry compared with the structures determined in vacuum. The hydrogen bond interactions between the PhoB domain and DNA in the aqueous environment were fully formed. The complex structure was found to be very similar to the crystal structure, particularly at the PhoBDNA interface, much more so than expected from the vacuum structure. These results indicate the importance of the proper treatment of electrostatic and hydration influences in describing protein-DNA interactions. The hydration structures observed for the refined structures contained most of the crystal waters as a subset. We observed that various water-mediated PhoB-DNA interactions contributed to the molecular recognition between PhoB and DNA.
+C V 2008 Wiley-Liss, Inc.
+
+INTRODUCTION Protein-DNA recognition is governed mainly by electrostatic interactions.1 This immediately implies that the water environment plays an important role in mediating protein-DNA interactions by screening the bare Coulombic interactions.2 Nevertheless, in the conventional procedure for NMR structure refinement, restrained molecular dynamics (MD) simulations are performed in vacuum, with reduced or no electrostatic interactions.3 Such a refinement method cannot be expected to adequately take into consideration the effects of the ionic and hydrogen-bonding interactions between the surface atoms in the protein and those in the DNA. Recently, NMR refinement methods have been improved by adopting a more elaborate model for electrostatic interactions and the solvent environment, that is, the combined use of distance geometry and the latest simulation techniques.4≠9 Linge et al. carried out NMR refinement with appropriate treatment of electrostatic interactions in an explicit water environment.4 Chen et al. used the generalized Born model to model the water environment for NMR refinement.5,6 Both methods succeeded in improving local protein geometry relative to the geometry refined in vacuum. A number of NMR structures refined with explicit solvents already exist in the DRESS7 and RECOORD databases.8 However, the NMR structure of a protein-DNA complex has not yet been refined in the hydrated condition. In the present study, we assessed whether the explicit solvent model improves the NMR structure of a protein-DNA complex. In addition, in the process of NMR structure refinement, we identified water-mediated interactions between the protein and DNA. Water-mediated interactions between protein and DNA play an important role in determining the stability and specificity of proteinDNA recognition.2 Analyses of the crystal structures of protein-DNA complexes have revealed a number of interfacial water molecules linking the protein and DNA, which highlights the significant contributions of the water-mediated interactions to the molecular recognition process.10≠14 Here, we attempted to identify water-mediated interactions in the process of NMR structure refinement. Since direct experimental observation of hydrated water molecules is difficult, the interactions were identified in the process of NMR structure refineGrant sponsors: Ministry of Education, Science and Culture of Japan (Grant-in-Aid for Scientific Research); Ministry of Education, Culture, Sports, Science and Technology (the Protein 3000 project--a national project on protein structural and functional analyses) *Correspondence to: Akinori Kidera, International Graduate School of Arts and Sciences, Yokohama City University, Yokohama 230-0045, Japan. E-mail: kidera@tsurumi.yokohama-cu.ac.jp Received 25 July 2007; Revised 15 October 2007; Accepted 19 October 2007 Published online 10 January 2008 in Wiley InterScience (www.interscience.wiley.com). DOI: 10.1002/prot.21874
+
+Proteins 2008; 71:1970≠1983.
+
+Key words: PhoB; solution structure; explicit water refinement; watermediated interactions; DNA recognition; molecular dynamics simulation.
+
+1970
+
+PROTEINS
+
+C V 2008 WILEY-LISS, INC.
+
+Hydration Structures in a Protein-DNA Complex
+
+ment so as to satisfy the distance restraints as well as the energetic criteria. The confidence level associated with the interactions thus determined can be evaluated using the number of occurrences over many refinements and also by agreement with the water molecules observed in the crystal structure. The system for NMR structural determination was a DNA complex of the PhoB DNA-binding/transactivation domain, with an isolated form of the PhoB DNA-binding domain as a reference. PhoB is a transcription activator that is involved in the regulation of 39 genes constituting the pho regulon of bacteria.15,16 The PhoB protein comprises two functional domains, the regulatory/phosphorylated domain (1≠124) and the DNA-binding/transactivation domain (131≠229).17 Although binding to DNA is regulated by phosphorylation at the N-terminal domain by PhoR,18 it is the DNA-binding domain that has specific binding affinity to the DNA target sequence, the pho box.19 The NMR structure of the DNA-free form of the PhoB DNA-binding domain was solved by Okamura et al. (PDB: 1QQI)20 and the crystal structures of the DNA-bound and free-forms were solved by Blanco et al. (PDB: 1GXP and 1GXQ, respectively).17 The DNA-binding domain of PhoB belongs to the OmpR-PhoB family, consisting of an N-terminal four-stranded b-sheet and a winged helix motif. It was reported that the long loop between the second and third helices is responsible for the interaction with RNA polymerase.21 In the DNA-bound form, two PhoB DNA-binding domains bind in tandem to the pho box. However, a single chain of the PhoB DNAbinding domain is also able to bind to one of the binding sites in the pho box.20 The solution structure determined here is for the singlet form composed of the complex, comprising a single protein domain and a single binding site. Differences between the singlet solution structure and the tandem crystal structure will also be discussed here. In this paper, we present the refined solution structures of the DNA complex form and the isolated form of the PhoB DNA-binding/transactivation domain. These structures have improvements in structural quality relative to the structures refined in vacuum. Then, we present the hydration structure of the DNA complex, in which water-mediated interactions were observed between PhoB and DNA with a high level of confidence. METHODS
+NMR spectroscopy
+
+The DNA component of the complex comprised a 16-mer double-stranded oligodeoxyribonucleotide, 50 ACTGTCATAAATCTGT-30 , which was present in approximately equal proportions to the protein. The sample solution contains 1.0≠2.0 mM DNA-PhoB complex in 10 mM potassium phosphate buffer (pH 6.8) in H2O/2H2O (9/1) or 2H2O. NMR experiments were carried out at 310 K, using either a Bruker DRX-500 or DRX-600 spectrometer equipped with a triple resonance gradient probe. Data were processed and analyzed by using nmrPipe,22 nmrWish, and PIPP23 software. The 1H, 13C, and 15N resonance assignments of the complex are described by Okamura et al.20 The 1H resonance assignments of the DNA in the complex were performed with 2D NOESY, TOCSY, and DQF-COSY experiments with a 13C- or 13 15 C/ N-filtered pulse scheme. Distance restraints within the protein, within the DNA, and between the protein and DNA were obtained from 2D, 3D, and 4D 1H-1H NOESY spectra with a 13C-, 15N-, or 13C/15N-filtered and/or edited scheme. NOE mixing times for the NOESY spectra were 100 or 150 ms. Dihedral angle restraints for the backbone u angles were obtained from 3JHNHa coupling constants measured using a 3D HNHA experiment.
+
+Structure calculation
+
+The DNA-binding/transactivation domain of PhoB, corresponding to residues 126≠229, was overexpressed in E. coli and purified as described previously.20 To obtain a 13C/15N-labeled sample, the cells were grown in M9 minimal medium containing 15NH4Cl and 13C-glucose. NMR experiments for the isolated protein were carried out at 300 K, as described previously.20
+
+Experimental distance restraints were derived from the cross-peak intensities in the NOESY spectra. Distance restraints were generally classified into four groups: strong ∞ ∞ ∞ (1.8≠3.0 A), medium (1.8≠4.0 A), weak (1.8≠5.0 A), and ∞ ) according to the peak intensity. For very weak (1.8≠6.0 A the intramolecular restraints of the DNA only, the follow∞ ing classification was used: strong (1.8≠2.5 A), medium ∞ ), medium (2.3≠4.0 A), weak (2.5≠5.0 A), ∞ ∞ strong (1.8≠4.0 A ∞ ). Pseudoatom corrections were and very weak (2.5≠5.5 A applied to the upper bounds of the restraints. Hydrogen bond restraints of the protein backbone were identified by slowly exchanging amide protons with supplementary consideration of NOE connectivity, and were characterized ∞ using two distance restraints: 1.5≠2.3 A between HN and ∞ between N and O. Hydrogen bond O and 2.5≠3.3 A restraints within DNA were used to maintain the base pairs. Torsion angle restraints were derived from the 3 JHNHa coupling constants as 2908< u < 2408 for 3 JHNHa < 5.0 Hz and 21608< u < 2808 for 3JHNHa > 8.0 Hz. Torsion angle restraints for the DNA backbone, covering both the A- and B-forms of DNA, were employed so that the right-handed phosphate backbone was maintained, avoiding a local mirror image conformation. The a, b, g, e, and f torsion angles were restrained to be 2658∆ 508, 1808∆ 508, 608∆ 358, 1808∆ 508, and 2858∆ 508, respectively. In addition, because the pattern of NOE signals was typical of B-form DNA, the d torsion angle was restrained to 1458∆ 308. Weak planarity restraints for base pairs were also employed.
+PROTEINS
+
+1971
+
+T. Yamane et al.
+
+Table I
+The Simulated Annealing Protocol for the Structural Refinement
+
+Force constants for restraintsb Stage Equilibrium 1 Equilibrium 2 Simulated annealing Steps (ps) 50 50 40 100 720 Minimization 3,000 steps Temperature (K) 300 300 300?800 800 800?0 DNA Position harmonic restraint: 1 Dihedral angle: 400 Distance: 75 (50) Dihedral angle: 400 Distance: 75 Base pair planarity: 50 Dihedral angle: 400?0 Distance: 75 (50)?0 Dihedral angle: 0 Distance: 0 (50) Dihedral angle: 0?400 Distance: 0?75 (50) Dihedral angle: 400 Distance: 75 (50) Proteina
+
+a
+
+b
+
+The parenthesis is the scaling factor used in the refinement of the free-form. ∞ The force constants for dihedral angles and distance are kcal/(mol degree2) and kcal/(mol¡A2), respectively.
+
+Using the CNS program24 with the restraints described earlier, the structures of the DNA-free and DNA-bound forms of the PhoB domain were calculated. For the free-form, a simulated annealing protocol starting from an extended structure was used. Ten final structures were selected from 100 structures thus calculated, based on the following criteria: no distance violation ∞ greater than 0.2 A, no torsion angle violations greater than 28, and a low target energy value. For the bound form, we used the following two-step process. First, the structure of the protein was calculated only using the intraprotein restraints. Ten structures out of 100 were selected using the same criteria as for the free-form. Second, the protein and an idealized B-form of the 16-mer duplex DNA were docked using a simulated annealing protocol, in which all the distance restraints were employed with 150 different initial structures, with each one of the 10 protein structures calculated earlier placed ∞ randomly at 15 different positions 50 A apart from the DNA. Then, the docked structures were further refined using another simulating annealing process. Finally, 10 structures were selected from the 150 structures according to the criteria listed earlier.
+Structural refinement with explicit water
+
+The structures were further refined using the MARBLE MD simulation program25 in an explicit water environment. The restraint functions adopted in this process were the same as those used in CNS (distance: soft-square-well function; dihedral angle: quadratic square-well function26; planarity of DNA base pairs: planarity restraint27) with the default values of CNS, unless otherwise mentioned. The force fields used here were CHARMM22/CMAP28 and CHARMM2729 for the protein and DNA, respec-
+
+tively. Each structure obtained was placed in a periodic ∞ ∞ ∞ box with dimensions of about 75 A 3 75 A 3 75 A (for ∞ 3 64 A 3 64 A (the DNA-free ∞ ∞ the complex) and 64 A form) containing $12,000 and 8000 TIP3P water molecules,30 respectively. Counter ions were added to maintain the charge neutrality. The electrostatic interactions were calculated using the particle mesh Ewald method31 without any cutoff operation. The symplectic integrator for a rigid body was used with a time step of 2 fs, in which water molecules and CHx , NHx (x 5 1, 2, 3), SH, and OH groups were treated as rigid bodies. The velocity scaling method was used to control the temperature. The protonation states of the His, Glu, and Asp residues were determined for the PhoB-DNA complex and DNAfree form as follows. For His, long-range 1H-15N HSQC measurements were carried out to obtain the 15Nd1 and 15 Nd2 chemical shifts according to the method of Ref. 32. Out of six His residues, the experimental data clearly permitted assignment of the protonation states of the following five residues: His144:HSP, His164:HSE, His169:HSP, His182:HSE, and His198:HSD in PhoB-free, and His144:HSP, His164:HSE, His169:HSP, His182:HSE, and His198:HSP in the PhoB-DNA complex. Here, HSD, HSE, and HSP are His residues in which the delta nitrogen, epsilon nitrogen, and both nitrogens are protonated, respectively. For His211, the HSQC signals did not permit unique assignment of the protonation state, but the pKa value calculated using MEAD33 allowed us to assign the protonation state as His211:HSP for both the DNA-free and the PhoB-DNA complex. For Glu and Asp residues, we used the pKa values of MEAD,33 as well as the number of hydrogen bonds involved in the carboxylic group. On the basis of the calculations, we assigned that all Glu and Asp residues were dissociated, except for Glu191 and Glu207 in the PhoB-DNA complex, which were protonated.
+
+1972
+
+PROTEINS
+
+Hydration Structures in a Protein-DNA Complex
+
+The simulated annealing protocol was summarized in Table I. First, the initial structure was subjected to energy minimization using the steepest decent method, followed by an equilibration step of MD simulation for 50 ps at 300 K with positional harmonic restraints. Then, after an equilibrium MD run for 50 ps at 300 K with the NMR restraints, the simulated annealing process started. During the heating process, all scaling factors of the NMR restraints were linearly reduced with increasing temperature from 300 to 800 K over 40 ps. A cooling process followed the heating process, in which temperature was reduced to 0 K. Finally, the structure was energy-minimized. The total simulation time for generating a structure was about 19 ns, taking about 57 h in a 128 CPU parallel computer. During the annealing process, we used the force constant for the base pair planarity weaker than the default value of CNS in order to make the DNA molecule sufficiently flexible.
+Accession codes
+
+The coordinates of PhoB DNA complex have been deposited in the Protein Data Bank (PDB ID: 2Z33). RESULTS AND DISCUSSION
+Overall structure of the PhoB-DNA complex
+
+Based on the NMR restraints summarized in Table II, we generated 10 DNA-bound and DNA-free structures
+Table II
+Number of Restraints
+
+PhoB-DNA complex Protein Distance restraints Total Intraresidue Sequential Medium-range Long-range Dihedral angle restraint DNA Distance restraints Total Intraresidue Sequential Interstrand Dihedral angle restraints Protein-DNA PhoB free-form Distance restraint Total Intraresidue Sequential Medium-range Long-range Dihedral angle restraint
+
+for the PhoB DNA-binding/transactivation domain by using the refinement method with the explicit water environment, as well as 10 vacuum structures by using CNS software24 as a reference (see Methods for details). The refined structures in water are referred to as refW, and those in a vacuum as refV. None of the refW or refV ∞ structures had a distance violation over 0.2 A or a dihedral violation over 308. The DNA-free form of the PhoB domain was determined in the same way. Figure 1 shows (a) 10 superimposed refW structures of the DNA bound form of the PhoB DNA-binding domain and (b) a ribbon and stick model of the average structure. This structure comprises 104 residues from Met126 to Phe229, including the linker residues at the N-terminus. There are three a-helix bundles (a1≠a3) sandwiched by Nterminal and C-terminal antiparallel b-sheets formed by the strands b1≠b4 and b5≠b7, respectively. Helix a3 is the DNA recognition helix, and helices a2 and a3 and the a2≠ a3 loop form a helix-turn-helix DNA-binding motif. The a2≠a3 loop is called the transactivation loop, which reportedly interacts with the r70 subunit of RNA polymerase.21 The flexibility of this loop is argued to be a key feature in the transactivation activity (see later for discussion).17 The PhoB DNA-binding domain binds to the target DNA sequence in a tandem arrangement, in which two monomers of the PhoB domain bind head to tail to the two binding sites in the pho box.17 However, in the NMR experiment, in order to avoid overlaps in NOE peaks, we used a 16-bp DNA that has only a single binding site (50 -ACTGTCATAAATCTGT-30 ), and thus the system contains only a single PhoB domain bound to a single recognition sequence, as in the previous study.20 The influences of the tandem arrangement on the protein structure will be discussed later.
+Structural quality of the refined structures
+
+1746 394 462 438 452 53
+
+410 134 136 140 176 107
+
+1723 338 449 422 514 37
+
+``Sequential'' indicates the restraint between the neighboring residues, or |i 2 j| 5 1 for two residues i and j. ``Medium-range'' and ``long-range'' are for 2 |i 2 j| 4 and |i 2 j| ! 5, respectively.
+
+The quality of the refined refW structures was assessed by comparison with the refV structures. First, structural convergence was evaluated in terms of the root-meansquare deviation (RMSD) from the average coordinates, which are shown in the first part of Table III. The refW structures converge more than the refV structures, as shown by the smaller RMSD values of the refW structures. This means that the hydration effects and the electrostatic interactions in the refinement procedure appear to confine the structures to a narrower region. In other words, the information supplemented by the electrostatic and hydration interactions did not conflict with the information from the experimental NMR restraints, but rather helped to more precisely determine the structure. When the complex structures were superimposed using only the protein backbone, the RMSD values for DNA in the refW structures were found to decrease by as much ∞ as 1.8 A over the refV structures. The packing interactions between the protein and DNA were significantly
+PROTEINS
+
+1973
+
+T. Yamane et al.
+
+Figure 1
+(a) Ten superimposed refW backbones structures for the PhoB DNA-binding/transactivation domain complexed with DNA. Structures were drawn using PyMOL [http:// pymol.sourceforge.ne]. (b) Cartoon representation of the average structure for those given in (a). The right panel is the structure rotated 908. (c) Sequence and secondary structures of the PhoB DNA-binding/transactivation domain.
+
+1974
+
+PROTEINS
+
+Hydration Structures in a Protein-DNA Complex
+
+Table III
+Structure Statistics
+
+Structure convergence in RMSD from the average position ()a refW PhoB-DNA complex Total PhoB only DNA only Fitted to PhoB backbone PhoB free from Total 0.81 0.85 0.62 1.07 ∆ ∆ ∆ ∆ 0.09 (0.60 ∆ 0.11) 0.08 (0.39 ∆ 0.06) 0.13 (0.73 ∆ 0.15) 0.30 1.45 0.92 1.37 2.89 ∆ ∆ ∆ ∆ refV 0.49 (1.34 ∆ 0.51) 0.08 (0.46 ∆ 0.08) 0.63 (1.45 ∆ 0.64) 1.25
+
+1.10 ∆ 0.16 (0.56 ∆ 0.16) Results of PROCHECK (%) refW
+
+1.10 ∆ 0.11 (0.62 ∆ 0.08)
+
+refV 81.8 17.4 0.6 0.2
+
+Crystal structure 83.9 15.2 0.9 0.0 89.7 8.0 1.1 1.1
+
+PhoB-DNA complex Most favored regions Additional allowed regions Generously allowed regions Disallowed regions PhoB free-form Most favored regions Additional allowed regions Generously allowed regions Disallowed regions
+
+91.1 7.9 0.7 0.3
+
+90.8 70.9 7.6 25.5 1.0 1.9 0.6 1.7 Structure difference in RMSD between two structures ()b refW refV
+
+PhoB-DNA complex Total Crystal structure refV PhoB only Crystal structure refV DNA only (fitted to the PhoB backbone) Crystal structure refV PhoB free-form Crystal structure refV
+a b
+
+1.69 ∆ 0.16 (1.10 ∆ 0.14) 1.72 ∆ 0.14 (1.17 ∆ 0.14) 1.83 ∆ 0.19 (1.10 ∆ 0.16) 1.85 ∆ 0.15 (1.16 ∆ 0.15) 1.08 ∆ 0.19 (1.25 ∆ 0.23) 1.31 ∆ 0.29 (1.46 ∆ 0.36) 1.97 ∆ 0.18 (1.09 ∆ 0.17) 2.09 ∆ 0.19 (1.36 ∆ 0.18)
+
+2.04 ∆ 0.13 (1.38 ∆ 0.12) 2.19 ∆ 0.15 (1.35 ∆ 0.12) 1.52 ∆ 0.30 (1.71 ∆ 0.35) 2.31 ∆ 0.13 (1.50 ∆ 0.07)
+
+Average root-mean-square deviation of the 10 refined structures about the mean coordinates and the standard deviation. Average root-mean-square deviation (RMSD) of the 10 refined structures from the structure written in the first column. The RMSD values are for all nonhydrogen atoms and those in parentheses are for the backbone nonhydrogen atoms. The backbone atoms in DNA are P, O50 , C50 , C40 , C30 , O30 . The comparison was done for residues 132≠225 for PhoB and for residues 1≠32 (DNA). The average and the standard deviation were evaluated for 40 pairs between the NMR and the crystal structures and 100 pairs between the two NMR structures.
+
+improved in the hydrated environment of the refW structures. The RMSD values from the average coordinates are plotted for each residue in Figure 2(a). The smaller RMSD values for the refW structures than for the refV structures confirm the better convergence shown in Table II. For comparison, the RMSD values from the average coordinates for four molecules (chains A, B, E, and F) existing in the asymmetric unit of the crystal (1GXP) are also shown in Figure 2(b). There is a good correspondence in the peak positions at the transactivation loop (the a2≠a3 loop) and the a3-310 loop between the crystal and refW structures, whereas the refV structures do not show clear peaks at those regions, but retain high
+
+RMSD values, indicating that the inherent flexibility in PhoB is more properly represented in the hydrated environment of refW. The large RMSD values of the crystal structure at the transactivation loop suggest multiple conformations, which will be discussed in the next section. The structural quality was also assessed in terms of local backbone geometry according to the program PROCHECK34 (Table III). The proportion of residues residing in the most favored regions in the Ramachandran map was significantly increased in the refW structures relative to the refV for both the DNA-bound and DNAfree forms. An improvement in local geometry in hydrated protein models has already been observed for a
+PROTEINS
+
+1975
+
+T. Yamane et al.
+
+Differences between the solution and the crystal structures
+
+Figure 2
+(a) RMSD values from the average coordinates in the refW (solid line) and refV (dashed line) structures for Ca atoms of the PhoB-DNA complex. (b) Ca RMSD values among the four chains (A, B, E, and F) in the asymmetric unit in the crystal structure of the complex. (c) Ca RMSD values from each chain of the crystal structure (1GXP) averaged for each protein residue (upper) for refW (solid line) or refV (dashed line), and the number of violation of the distance ∞ restraints larger than 1.0 A averaged for each residue (lower). The four panels correspond to chains A, B, E, and F in the crystal structure. Secondary structures are shown at the top of the figure.
+
+number of refined structures in previous studies.4≠9 In the present study, there is another source of improvement in local geometry, that is, the use of the CHARMM22/CMAP force field.28 Using this force field, the main-chain dihedral potential can be more accurately treated in torsion potential with the cross-term between the / and w angles.
+
+Table III also summarizes the structural differences between the solution and crystal structures. The refW structures have smaller values of RMSD from the crystal structures compared with those of the refV structures. The decrease in the RMSD value is also seen in each element of the complex, PhoB and DNA, even in the freeform. Figure 2(c) shows the residue profiles for RMSD values from each chain of the crystal structures, which indicates multiple conformations at the transactivation (a2≠a3) loop. There are two types of crystal structures: the first comprises chains B and E, which resemble the solution structures, and the second comprises chains A and F, which have different loop structures. This difference can be confirmed by the numbers of violations of the distance restraints in the crystal structures [Fig. 2(c)]. In chains A and F, large violations were found at the transactivation loop, whereas chains B and E have no violation in the loop region. The peaks of the RMSD values at the a2≠a3 loop for B and E are thus due to poor convergence of the loop structure. This fact is reflected in the high correlation between the two profiles, shown by the convergence of the refW structures [Fig. 2(a)] and the RMSD values from the crystal structures [Fig. 2(c)], 0.90 for B and 0.84 for E (much larger than 0.71 for A and 0.69 for F), indicating that better convergence makes the structure closer to the crystal structure. Figure 3 shows the chain traces of the transactivation loop, clearly indicating two distinct conformations, one for chains A and F and the other for chains B and E. The refW structures belong to chains B and E group. The two groups are characterized by the direction of Asn187 and Val188 side-chains. In chains B and E, the side-chain of Asn187 points to the outside of the protein to form hydrogen bonds with the atom in neighboring cells (Asn187Od-Cyt8O4* and Asn187Nd-Cyt190 O2 in chain B, and Asn187Nd-Glu129Oe in chain E), whereas the side-chain of Val188 faces the inside of the protein. In chains A and F, the directions of the side-chains are reversed: the side-chain of Asn187 faces the inside of the protein to form intramolecular hydrogen bonds (Asn187Od-Asp192Od2 in chain A and Asn187NdGlu177Oe2 in chain F). This variety in conformations suggests that the flexible transactivation loop responds sensitively to subtle differences in the crystal environment, and adopts one of the two conformations accordingly. In solution, the loop adopts the conformation found in chains B and E, in which the polar side-chain of Asn187 is exposed to the solvent and the hydrophobic Val188 is buried inside. This flexibility of the transactivation loop is thought to be important for interactions with the r70 subunit of RNA polymerase.17 Another difference between the refW structures and the crystal structures is found at the tandem contact
+
+1976
+
+PROTEINS
+
+Hydration Structures in a Protein-DNA Complex
+
+Figure 3
+Stereo view of the transactivation loop, including the four chains of the crystal structure (1GXP)17 (A: cyan, B: magenta, E: yellow, and F: pink), and the 10 refW structures of the complex (thin red). The side-chains of Asn187 and Val188 of the crystal structure of the complex are shown as stick models.
+
+between the C-terminal region, including b6 and b7 of the upstream protomer, and the N-terminal region around b2, b3, and b4 of the downstream protomer.17 The tandem contact causes a local structural change at the b2≠b3 loop of the second molecule (see Fig. 4), in which RMSD values from the refW structures are about ∞ 2.0 A, confirmed in some distance violations [Fig. 2(c)]. Since the b2≠b3 loop of the first molecule has a crystal contact with a neighboring protein, all chains show similar deviations from the refW structures, as shown in Figure 2(c). Chemical shift perturbation experiments performed in solution for the tandem contact also showed that local influences existed at the b2≠b3 loop (Nishimura, 2006, personal communication, Yokohama City University, Japan). Figure 4 compares the b2≠b3 loop of the refW structures and the crystal structures. The tandem contact appears to pull the b2≠b3 loop up slightly toward the first molecule. This is the only influence of the tandem contact found in the comparison between the crystal and solution structures. In addition, we will show later that the tandem contact has a negligible effect on the interactions between PhoB and DNA.
+PhoB-DNA interface
+
+hydrogen bonds formed between PhoB and DNA are given in Figure 5(a). The differences in the distances clearly indicate that the hydrogen bonds are formed more tightly in the refW than in the refV structures. Several atom pairs in refV should be regarded as not forming hydrogen bonds. For the side-chain atoms involved in hydrogen bonds, Figure 5(b) shows the RMSD values from the corresponding atoms in the crystal structure. Proper treatment of the interactions in refW appears to make the side-chain structure closer to that in the crystal structure, as in the overall structure shown earlier. A representative example of the side-chain structure at the interface is shown in Figure 5(c). In refV, the side-chain charges of Arg176 and Arg193 were set to zero, and thus, these residues did not make contact with the phosphate group of Thy80 , whose charge is also ignored. On the other hand, the corresponding residues in refW form hydrogen bonds with Thy80 as in the crystal structures.
+Hydration structure in the refW structures
+
+The hydrogen bond at the PhoB-DNA interface was examined. The average donor≠acceptor distances of the
+
+After the last minimization step for refW (see the protocol in Table I), the protein and DNA are completely surrounded by water molecules with definite coordinates. Therefore, the hydration structures in the refW structures can be examined in detail, as for the crystal structures. Since the hydrated water molecules move together with
+PROTEINS
+
+1977
+
+T. Yamane et al.
+
+Figure 4
+Tandem contact region, chain B of the crystal structure (1GXP)17 (green), the 10 refW structures of the complex (red), and the 10 refW structures of the freeform (gray) shown superimposed on each other. The tandem contact between chains A and B in the crystal is shown (pink). The hydrogen bonds between chain A and B are drawn using black dashed lines, and the residues involved in the hydrogen bonds were shown as stick models.
+
+the flexible side-chains exposed to the solvent, it is not easy to compare the hydration structures near the bulk solvent region on the basis of coordinates. Therefore, we used ``hydration site'' and ``hydration water'' indices. A hydration site is a donor or an acceptor group of a protein or DNA with a hydrogen bond with water. Hydrogen bonds were identified using the hydrogen bond calculation program, HBPLUS.35 A hydration water is one that forms a hydrogen bond with the hydration site. Table IV lists the average number of hydration sites and hydration waters in the 10 refW structures and in the four crystal structures. The hydration sites and hydration waters in the crystal structures are expected to be a subset of those of the refW structures, since mobile water molecules, such as those bound to a flexible side-chain, could be invisible in the crystal structure. Figure 6 shows the number of hydration waters shared by N structures out of the 10 refW structures (1 N 10) for the bound form (a) and for the free form (c). Figure 6(b,d) are subsets of (a) and (c), respectively, for corresponding observation for the crystal structures. Most hydration waters were shared by many refW structures, which implies that these hydration waters, as determined in the refinement process, are reliable as a hydration model. Figure 6 also plots the number of hydration
+
+Figure 5
+(a) Average distance between the donor and acceptor of hydrogen bonds in the PhoB-DNA interface for the crystal structures (green), the refV structures (yellow) and the refW structures (red). The error bar represents the standard deviation. (b) RMSD values from the crystal structure, refV (yellow) and refW (red) for nonhydrogen atoms in the side-chains. (c) Examples of side-chain conformations of PhoB-DNA interface residues, Arg176, Arg193, and Thy80 , in the four chains of the crystal structure (green), refW (red) and refV (yellow). Broken lines indicate hydrogen bonds between PhoB and DNA.
+
+1978
+
+PROTEINS
+
+Hydration Structures in a Protein-DNA Complex
+
+Table IV
+Statistics of Hydration Water and Hydration Sites
+
+RMS fluctuation and the number of occurrence given in the figure.
+Hydration water
+
+Hydration site refW PhoB-DNA complex PhoB DNA PhoB-DNA interface PhoB free-form PhoB Crystal structure PhoB-DNA complex PhoB DNA PhoB-DNA interface PhoB free-form PhoB
+a
+
+144 ∆ 5 193 ∆ 4 (53 ∆ 2)a 25 ∆ 5 (12 ∆ 4)a 148 ∆ 6 32 ∆ 8 6 ∆ 2 (3 ∆ 2)a 13 (4)b 63
+
+213 ∆ 10 258 ∆ 5 (68 ∆ 3)a 12 ∆ 3 (7 ∆ 2)a 236 ∆ 9 21 ∆ 4 7 ∆ 3 (3 ∆ 2)a 4 (1)b 48
+
+The numbers are the average values for the 10 refW structures or for the four structures in the crystal with the corresponding standard deviations. The numbers in the parentheses are for those observed in the specific binding site (TGTCA) in DNA. In the calculation, the equivalent hydration sites, Nh1 and Nh2 for argnine, Oe1 and Oe2 for glutamic acid, and Od1 and Od2 for aspartic acid were not distinguished. b Hydration sites and waters on the interface were found only in chain B of the crystal structure.
+
+a. Ade90 has two water molecules bridging Asp196: one between Ade90 O2 and Asp196 O, and the other between Ade90 N7 and Asp196 Od. The former was also found in chain B of the crystal structure, but the latter was not. Chain B in the crystal has the structure most similar to the NMR structures [Fig. 2(c)]. These two water molecules are tightly bound, as evidenced by their very low RMSD values, 0.34 and 0.35, respectively. b. Thy80 is stabilized through the water-mediated interactions involving three residues, Arg176, Val218, and Gly222, in chain B of the crystal structure. The same hydrogen bonds were observed in four refW structures. c. A water molecule bridges Thy100 O2P and Arg203 Nh. Arg203 is highly conserved among the OmpR-PhoB family,17 and Nishimura et al. found that transcription activity was reduced by mutation of Arg203
+
+waters surrounded by protein or DNA atoms, that is, buried water molecules with accessibility of the water's oxygen to other water molecules being less than 0.3. This histogram indicates that variation in the hydration structures between the crystal and refW structures mostly occurred in buried water molecules, particularly in those with small N values. In other words, the variation mainly originated from subtle differences in the shape of the water binding pocket, inside which water molecules are situated. Nevertheless, about 80% of buried water molecules in the crystal structures were shared by more than five refW structures, and thus it can be concluded that the hydration water molecules in the crystal structures were reliably reproduced as a subset of the hydration water molecules of the refW structures. In many DNA-binding proteins, water molecules mediating protein-DNA interactions play a crucial role in determining binding specificity and affinity.36 In the crystal structure, however, no such water-mediated hydrogen bonds were observed between PhoB and the pho box of DNA (Table IV).17 Instead, there are two bridging water molecules at the interface outside the pho box. On the other hand, in the refW structures, we identified 10 water-mediated protein-DNA interactions that are shared by more than four refW structures. Figure 7(a≠f) show representative water molecules in the refW and crystal structures mediating PhoB-DNA interactions. It is seen in these models that the sidechains of the protein and the base or phosphate groups of DNA are well converged to the one close to the crystal structures. This indicates that these refW models of the protein-DNA interactions are reliable. The stability of the mediating water molecules may be estimated from the
+
+Figure 6
+Number of hydration waters shared by N refW structures (abscissa) (for the complex (a) and for the free-form (c)) (black) together with those waters whose accessibility is less than 30% (white). Number of hydration waters in the crystal structures shared by N refW structures (for the complex (b) and for the free-form (d)).
+
+PROTEINS
+
+1979
+
+T. Yamane et al.
+
+Figure 7
+Detailed views of the water-mediated interactions between PhoB and DNA. The red stick models are the refW structures and the light green models are the crystal structures (only chain B is shown in (a) and (b), but all four chains are shown in (c≠f)). The crystal water molecules are shown as a blue sphere. Numbers on the models are the RMS fluctuation for the water oxygen in Angstroms. Numbers on the scheme indicate the number of refW structures in which this interaction was found. (a) Ade90 has two water molecules bridging Asp196. One of these was also found in chain B in the crystal. (b) Thy80 is stabilized through water-mediated interactions involving Arg176, Val218, and Gly222. Chain B contains this water. (c) Water bridging Thy100 and Arg203. (d) Cyt6 in the pho box is recognized by a water-mediated hydrogen bond with Arg193. (e) Both Cyt100 and Gua110 are connected to Arg200 via two water molecules. (f) Thy3 forms two water-mediated hydrogen bonds to Glu159 and Arg201.
+
+1980
+
+PROTEINS
+
+Hydration Structures in a Protein-DNA Complex
+
+Figure 8
+Overview of the interactions between PhoB and DNA. Contacts found in more than four refW structures and in all four crystal structures are given here. Solid and dotted lines indicate hydrogen bonds and hydrophobic contacts, respectively. Contacts found in both the crystal and refW structures are given in red, and those found only in refW are in blue. The protein residues are colored as follows: hydrophobic contacts (green), hydrogen bonds whose frequency of occurrence are 40≠80% in refW (light orange), hydrogen bonds whose frequency of occurrence are more than 80% in refW (orange). The specific binding site is colored pale red.
+
+(Nishimura, 2006, personal communication). These facts suggest the importance of the bridging water. d. Cyt6 N4 in the pho box was recognized by a watermediated hydrogen bond with Arg193 O, which involves two different orientations of the water molecule. This is a hitherto unknown base recognition interaction. e. Both Thy100 and Gua110 are connected to Arg200 via two water molecules. f. Thy3 O2P forms two water-mediated hydrogen bonds to Glu159 Oe and Arg201 Nh. Glu159 is highly conserved in members of the OmpR-PhoB family.17 Mutation of Glu159 reduces transcription activity (Nishimura, 2006, personal communication) and a Arg201 mutant lost more than 50% of its DNA binding activity.21 These observations suggest that the water-mediated interactions described here may contribute significantly to the interaction between PhoB and DNA.
+
+CONCLUSIONS The hydrogen bonds and hydrophobic interactions between PhoB and DNA are summarized in Figure 8. All of the interactions existing in the crystal structures were also observed in the refW structures. For example, the hydrophobic interaction in the C5M methyl group of Thy5, which is important in pho box recognition,17 was observed in both the crystal and refW structures. The similarity of the PhoB-DNA interactions in the crystal and refW structures indicates that the tandem arrangement of PhoB proteins has only a small influence on PhoB-DNA interactions. In addition, some interactions that were not found in the crystal structures were observed in the refW structures. In particular, more water-mediated interactions between PhoB and DNA were observed in refW. As seen in other DNA-binding proteins,10≠14 water molecules may play an important role in PhoB-DNA interactions.
+PROTEINS
+
+1981
+
+T. Yamane et al.
+
+In summary, we determined the solution structure of the PhoB DNA-binding/transactivation domain complexed with DNA by using an NMR refinement method with full electrostatic interactions and an explicit water environment. The refW structures were of much better quality than the structures refined in vacuum. This indicates the importance of the proper treatment of electrostatic interactions in protein-DNA interactions, in which the electrostatic interactions are dominant. Moreover, in the refined structures, we found many water-mediated interactions between the protein and DNA, which contribute to the DNA recognition of the PhoB DNA binding/transactivation domain.
+
+ACKNOWLEDGMENTS The authors thank Dr. S. Fuchigami for valuable discussion. The simulations were performed at Supramolecular Biology, Yokohama City University.
+
+REFERENCES
+1. Lejeune D, Delsaux N, Charloteaux B, Thomas A, Brasseur R. Protein-nucleic acid recognition: statistical analysis of atomic interactions and Influence of DNA structure. Proteins 2005;61:258≠ 271. 2. Jayaram B, Jain T. The role of water in protein-DNA recognition. Annu Rev Biophys Biomol Struct 2004;33:343≠361. ® 3. Nilges M, Gronenborm AM, Brunger AT, Clore GM. Determination of three-dimensional structures of proteins by simulated annealing with interproton distance restraints. Application to crambin, potato carboxypeptidase inhibitor and barley serine proteinase inhibitor 2. Protein Eng 1988;2:27≠38. 4. Linge JP, Williams MA, Spronk CA, Bonvin AM, Nilges M. Refinement of protein structures in explicit solvent. Proteins 2003;50:496≠506. 5. Chen J, Im W, Brooks CL, III. Refinement of NMR structures using implicit solvent and advanced sampling techniques. J Am Chem Soc 2004;126:16038≠16047. 6. Chen J, Won H, Im W, Dyson HJ, Brooks CL, III. Generation of native-like protein structures from limited NMR data, modern force fields and advanced conformational sampling. J Biomol NMR 2005;31:59≠64. 7. Nabuurs SB, Nederveen AJ, Vranken W, Doreleijers JF, Bonvin AM, Vuister GW, Vriend G, Spronk CA. DRESS: a database of refined solution NMR structures. Proteins 2004;55:483≠486. 8. Nederveen AJ, Doreleijers JF, Vranken W, Miller Z, Spronk CA, ® Nabuurs SB, Guntert P, Livny M, Markley JL, Nilges M, Ulrich EL, Kaptein R, Bonvin AM. RECOORD: a recalculated coordinate database of 5001 proteins from the PDB using restraints from the BioMagResBank. Proteins 2005;59:662≠672. 9. Xia B, Tsui V, Case DA, Dyson HJ, Wright PE. Comparison of protein solution structures refined by molecular dynamics simulation in vacuum, with a generalized Born model, and with explicit water. J Biomol NMR 2002;22:317≠331. 10. Otwinowski Z, Schevitz RW, Zhang R-G, Lawson CL, Joachimiak A, Marmorstein RQ, Luisi BF, Sigler PB. Crystal structure of trp represser/operator complex at atomic resolution. Nature 1988;335: 321≠329. 11. Wilson DS, Guenther B, Desplan C, Kuriyan J. High resolution crystal structure of a paired (Pax) class cooperative homeodomain dimer on DNA. Cell 1995;82:709≠719.
+
+12. Davey CA, Sargent DF, Luger K, Maeder AW, Richmond TJ. Solvent-mediated interactions in the structure of the nucleosome core ∞ particle at 1.9 A resolution. J Mol Biol 2002;319:1097≠1113. 13. Chiu TK, Sohn C, Dickerson RE, Johnson RC. Testing water-mediated DNA recognition by the Hin recombinase. EMBO J 2002;21: 801≠814. ¥ 14. Chai J, Wu J-W, Yan N, Massague J, Pavletich NP, Shi Y. Features of a Smad3 MH1-DNA complex. J Biol Chem 2003;278:20327≠20331. 15. Wanner BL. Phosphorus assimilation and control of the phosphate regulon. In: Neidhardt FC, Curtiss RJ, Ingraham JL, Lin EC, Low KBJ, Magasanik B, Reznikoff W, Riley M, Schaechter M, Umbarger HE, editors. Escherichia coli and Salmonella typhimurium cellular and molecular biology. Washington, DC: American Society for Microbiology; 1996. pp 1357≠1381. 16. Kim SK, Kimura S, Shinagawa H, Nakata A, Lee KS, Wanner BL, Makino K. Dual transcriptional regulation of the Escherichia coli phosphate-starvation-inducible psiE gene of the phosphate regulon by PhoB and cyclic AMP (cAMP)-cAMP receptor protein complex. J Bacteriol 2000;182:5596≠5599. ® 17. Blanco AG, Sola M, Gomis-Ruth FX, Coll M. Tandem DNA recognition by PhoB, a two-component signal transduction transcriptional activator. Structure 2002;10:701≠713. 18. Wanner BL. Gene regulation by phosphate in enteric bacteria. J Cell Biochem 1993;51:47≠54. 19. Makino K, Shinagawa H, Amemura M, Nakata A. Nucleotide sequence of the PhoB gene, the positive regulatory gene for the phosphate regulon of Escherichia coli K-12. J Mol Biol 1986;190:37≠ 44. 20. Okamura H, Hanaoka S, Nagadoi A, Makino K, Nishimura Y. Structural comparison of the PhoB and OmpR DNA-binding transactivation domains and the arrangement of PhoB molecules on the Phosphate box.. J Mol Biol 2000;259:1225≠1236. 21. Makino K, Amemura M, Kawamoto T, Kimura S, Shinagawa H, Nakata A, Suzuki M. DNA binding of PhoB and its interaction with RNA polymerase. J Mol Biol 1996;259:15≠26. 22. Delaglio F, Grzesiek S, Vuister GW, Zhu G, Pfeifer J, Bax A. NMRPipe: a multidimensional spectral processing system based on UNIX PIPES. J Biomol NMR 1995;6:277≠293. 23. Garret DS, Powers R, Gronenborm AM, Clore GM. A common sense approach to peak picking in two-, three-, and four-dimensional spectra using automatic computer analysis of contour diagrams. J Magn Reson 1991;99:214≠220. ® 24. Brunger AT, Adams PD, Clore GM, DeLano WL, Gros P, GrosseKunstleve RW, Jiang J-S, Kuszewski J, Nilges M, Pannu NS, Read RJ, Rice LM, Simonson T, Warren GL. Crystallography and NMR system: a new software suite for macromolecular structure determination. Acta Crystallogr D 1998;54:905≠921. 25. Ikeguchi M. Partial rigid-body dynamics in NPT. NPAT and NPgT ensembles for proteins and membranes J Comput Chem 2004;25: 529≠541. ® 26. Clore GM, Nilges M, Sukumaran DK, Brunger AT, Karplus M, Gronenborn AM. The three-dimensional structure of a 1-purothionin in solution: combined use of nuclear magnetic resonance, distance geometry, and restrained molecular dynamics. EMBO J 1986;104: 2729≠2735. 27. Schomaker V, Waser J, Marsh RE, Bergman G. To fit a plane or a line to a set of points by least squares. Acta Crystallogr 1959;12: 600≠604. 28. MacKerell ADJ, Feig M, Brooks CLI. Extending the treatment of backbone energetics in protein force fields: limitation of gas-phase quantum mechanics in reproducing protein conformational distributions in molecular dynamics simulations. J Comput Chem 2004;25:1400≠1415. 29. Feller SE, Yin D, Pastor RW, MacKerell ADJ. Molecular dynamics simulation of unsaturated lipid bilayers at low hydration: parameterization and comparison with diffraction studies. Biophys J 1997; 73:2269≠2279.
+
+1982
+
+PROTEINS
+
+Hydration Structures in a Protein-DNA Complex
+
+30. Jorgensen WL, Chandrasekhar J, Madura JD, Impey RW, Klein ML. Comparison of simple potential functions for simulating liquid water. J Chem Phys 1983;79:926≠935. 31. Essmann U, Perera L, Berkowitz ML, Darden T, Lee H, Pedersen LG. A smooth particle mesh Ewald method. J Chem Phys 1995;103: 8577≠8593. 32. Pelton JG, Torchia DA, Meadow ND, Roseman S. Tautomeric states of the active-site histidines of phosphorylated and unphosphorylated IIIG1c, a signal-transducing protein from Escherichia coli, using two-dimensional heteronuclear NMR techniques. Protein Sci 1993;2:543≠558.
+
+33. Bashford D, Gerwert K. Electrostatic calculations of the pKa values of ionizable groups in bacteriorhodopsin. J Mol Biol 1992;224:473≠ 486. 34. Laskowski RA, MacArthur MW, Moss DS, Thornton JM. PROCHECK: a program to check the stereochemical quality of protein structures. J Appl Crystallogr 1993;26:283≠291. 35. McDonald IK, Thornton JM. Satisfying hydrogen bonding potential in proteins. J Mol Biol 1994;238:777≠793. 36. Tsui V, Radhakrishnan I, Wright PE, Case DA. NMR and molecular dynamics studies of the hydration of zinc finger-DNA complex. J Mol Biol 2000;302:1101≠1117.
+
+PROTEINS
+
+1983
+
+

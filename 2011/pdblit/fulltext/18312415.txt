@@ -1,0 +1,293 @@
+Effects of salt on the kinetics and thermodynamic stability of endonuclease I from Vibrio salmonicida and Vibrio cholerae
+Laila Niiranen1, Bjørn Altermark2, Bjørn O. Brandsdal2, Hanna-Kirsti S. Leiros2, Ronny Helland2, ° Arne O. Smalas2 and Nils P. Willassen1
+1 Department of Molecular Biotechnology, Institute of Medical Biology, Faculty of Medicine, University of Tromsø, Norway 2 Norwegian Structural Biology Centre (NorStruct), Department of Chemistry, Faculty of Science, University of Tromsø, Norway
+
+Keywords endonuclease I; kinetics; salt adaptation; thermodynamic stability; Vibrio Correspondence N. P. Willassen, Department of Molecular Biotechnology, Institute of Medical Biology, Faculty of Medicine, University of Tromsø, N-9037 Tromsø, Norway Fax: +47 776 453 50 Tel: +47 776 446 51 E-mail: nilspw@fagmed.uit.no (Received 24 October 2007, revised 14 December 2007, accepted 1 February 2008) doi:10.1111/j.1742-4658.2008.06317.x
+
+Adaptation to extreme environments affects the stability and catalytic efficiency of enzymes, often endowing them with great industrial potential. We compared the environmental adaptation of the secreted endonuclease I from the cold-adapted marine fish pathogen Vibrio salmonicida (VsEndA) and the human pathogen Vibrio cholerae (VcEndA). Kinetic analysis showed that VsEndA displayed unique halotolerance. It retained a considerable amount of activity from low concentrations to at least 0.6 m NaCl, and was adapted to work at higher salt concentrations than VcEndA by maintaining a low Km value and increasing kcat. In differential scanning calorimetry, salt stabilized both enzymes, but the effect on the calorimetric enthalpy and cooperativity of unfolding was larger for VsEndA, indicating salt dependence. Mutation of DNA binding site residues (VsEndA, Q69N and K71N; VcEndA, N69Q and N71K) affected the kinetic parameters. The VsEndA Q69N mutation also increased the Tm value, whereas other mutations affected mainly DHcal. The determined crystal structure of VcEndA N69Q revealed the loss of one hydrogen bond present in native VcEndA, but also the formation of a new hydrogen bond involving residue 69 that could possibly explain the similar Tm values for native and N69Qmutated VcEndA. Structural analysis suggested that the stability, catalytic efficiency and salt tolerance of EndA were controlled by small changes in the hydrogen bonding networks and surface electrostatic potential. Our results indicate that endonuclease I adaptation is closely coupled to the conditions of the habitats of natural Vibrio, with VsEndA displaying a remarkable salt tolerance unique amongst the endonucleases characterized so far.
+
+Extracellular and periplasmic enzymes of marine organisms are exposed to environments in which large variations in temperature and salinity can occur. Such conditions require the proteins to fold effectively and maintain their stability in spite of the stresses they face [1]. At the same time, enzymatic activity is dependent on fine-tuned structural flexibi-
+
+lity [2]. How do enzymes cope with these contradicting demands? The study of the structural and functional adaptation of proteins from extremophilic organisms is an active research area, and several interesting observations of the adaptive mechanisms have been made. The extreme temperature stability of thermophilic
+
+Abbreviations DSC, differential scanning calorimetry; EndA, endonuclease I; VcEndA, Vibrio cholerae endonuclease I; VsEndA, Vibrio salmonicida endonuclease I; Vvn, Vibrio vulnificus endonuclease I.
+
+FEBS Journal 275 (2008) 1593­1605 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+1593
+
+Effects of salt on Vibrio endonucleases
+
+L. Niiranen et al.
+
+proteins is thought to be a result of extensive intramolecular networks and compact packing that restrict their flexibility [3,4]. Psychrophilic enzymes, in contrast, are thermolabile and have been hypothesized to use increased flexibility to cope with the increased viscosity and decreased thermal vibrations at low temperature [5,6]. They may also use local flexibility to maintain a functional active site, whilst separate more rigid domains confer stability to their structure [7]. Compared with non-halophiles, halophilic proteins have an excess of acidic amino acid residues that create a negative surface potential and a protective hydrated ion network [1,8]. The charged surface is, however, destabilizing, especially at low salt concentrations [9], and most halophilic proteins are inactivated at NaCl or KCl concentrations below 2 m [1]. The structural basis of salt-tolerant activity remains to be elucidated, although electrostatic interactions have been implicated [10]. The salinity of seawater is significantly lower than that of extreme halophile habitats, so that only milder forms of adaptation may be necessary for periplasmic and extracellular proteins of marine organisms. The functional characterization of extremophilic proteins has so far focused on the obvious, i.e. the effects of temperature on thermophilic and psychrophilic proteins, and salinity on halophilic proteins. However, many of the environments in which extremophiles thrive are extreme with respect to more than just one parameter. For example, in the field of psychrophile research, the majority of enzymes studied so far have been extracellular and of marine origin [7], which poses a problem when conclusions are to be drawn about the mechanisms of cold adaptation. Are the observed adjustments a result of true adaptation to low temperature, or a combination of cold and salt adaptation? Choosing non-marine (freshwater) psychrophiles as study targets has been proposed as a solution [7]. The interplay between the two types of adaptation is, however, interesting in itself, and it is possible to design experiments in a manner that facilitates the separation of the two effects. The first steps towards this approach have been taken. In a comparative study of a marine psychrophilic and an estuarine mesophilic endonuclease I (EndA, EC 3.1.30) [11], the different salt optima of the enzymes were taken into consideration when the temperature-dependent enzymatic properties were characterized. In the discussion, the authors stressed the importance of performing measurements in buffers that were as physiological as possible. Similar to psychrophilic EndA, marine carrageenase was found to display an activity optimum around the salt concentration of seawater [12]. It
+1594
+
+appears that the choice of buffer and the determination of the salt dependence of the activity are important in comparative experiments on extracellular enzymes. EndA is a periplasmic or extracellular sugar nonspecific endonuclease. Its physiological function is not known, but it has been proposed to be involved in the prevention of the uptake of foreign DNA, the degradation of intestinal mucus to facilitate colonization, and the provision of nucleotides for the cells [13]. Although EndA has been isolated from many pathogenic bacteria, it does not appear to be involved in virulence [13­ 15]. It may, however, affect the bacterial survival rate through the degradation of neutrophil extracellular traps in mammals, and possibly also in fish [16,17]. The structures of three Vibrio endonucleases, V. salmonicida (VsEndA) [18], V. cholerae (VcEndA) [19] and V. vulnificus (Vvn) [20], are available, and also the structure for Vvn bound to 8 bp and 16 bp dsDNA [20,21]. A reaction mechanism has been proposed based on the protein­DNA complex structure [20]. Sequence identity between mature Vvn and VcEndA is 75% and between Vvn and VsEndA is 74%. The structural fold and the active site containing the catalytically important His80 are identical in all three structures. Temperature adaptation has not been found to affect the reaction mechanism of any homologous enzymes studied so far [22]. The thermal adaptation of VsEndA and VcEndA has been studied previously, revealing that VsEndA has a higher kcat value at 5­37 °C and is less thermostable than VcEndA [11]. The shape-complementary surface of Vvn contacts the DNA only at the backbone phosphate groups [20]. Comparisons of Vvn, VsEndA and VcEndA have revealed that most of the charged residues in the binding cleft are conserved [18]. The exceptions to this are two interesting regions with high-temperature B-factors pointed out by Altermark et al. [18]. The first is loop 51­54 which contains two more positive charges in VsEndA than in VcEndA, but is unlikely to contact DNA. The second is residues 69 and 71 which participate in the formation of the substrate binding site. These residues are Gln and Lys, respectively, in VsEndA, but both are replaced by Asn in VcEndA. Intuitively, such changes in charge and steric effects may alter substrate binding and salt sensitivity. In this study, the effect of NaCl concentration on the kinetic constants and thermodynamic stability of VsEndA and VcEndA was investigated. In addition, the effects of reciprocal mutations of two non-conserved DNA binding site residues (VsEndA, Q69N and K71N; VcEndA, N69Q and N71K) on the kinetics, thermostability and salt dependence of these enzymes
+
+FEBS Journal 275 (2008) 1593­1605 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+L. Niiranen et al.
+
+Effects of salt on Vibrio endonucleases
+
+were examined. Although salt stabilizes both native enzymes equally, VsEndA is adapted to retain activity at much higher salt concentrations than VcEndA. The relationship between these observations and the structure determined for the VcEndA N69Q variant, as well as the previously published native EndA structures, is discussed. A thorough decomposition of the thermodynamic data, together with mutational and structural investigations, was used to gain an insight into halotolerant adaptation.
+
+Results
+Protein production and thermal stability The VsEndA variants Q69N and K71N and the VcEndA variants N69Q and N71K were expressed in a soluble form at levels comparable with the native endonucleases. The mutations did not change the purification properties of the enzymes. The effect of NaCl on the thermal stability of VsEndA and VcEndA was investigated by performing differential scanning calorimetry (DSC) scans in the presence of different salt concentrations. The thermal stabilities of the mutated enzymes were determined at a single salt concentration (0.175 m for VcEndA and 0.425 m for VsEndA variants) chosen on the basis of the optimal activity conditions of the native enzymes [11]. The denaturation peaks were symmetrical, except for some exothermic distortion of the thermograms after the denaturation peak, especially in the VcEndA sample with 0.050 m NaCl. Visible aggregation was present in most samples after the thermal scan, and refolding experiments were not pursued. As shown in Fig. 1, NaCl stabilized both VsEndA and VcEndA by increasing the Tm value. Salt also affected the shape of the thermograms, making the denaturation peaks narrower and sharper with increasing salt concentration. DSC of VsEndA in 0.050 m NaCl was not performed because of sample instability. The symmetrical shape of the thermograms suggests that the transition proceeds via a single transition state. The increases in Tm from 0.175 to 1 m NaCl were 10.1 and 9.0 °C for VsEndA and VcEndA, respectively (Table 1). The DHcal values increased with salt concentration, except for VcEndA above 0.425 m NaCl, although DHeff also increased in this case. VsEndA Q69N showed a higher Tm value, but DHcal was unchanged. All other mutants showed Tm values comparable with the native enzyme, but a lower DHcal. The accordance between DHcal and the model-dependent van't Hoff enthalpy (DHeff) was best at moderate
+
+Fig. 1. Denaturation heat capacity curves of the native and mutant VsEndA (top) and VcEndA (bottom). Differential scanning calorimetry profiles were recorded at a scan rate of 1 °CÆmin)1 in a buffer containing 0.175, 0.425 and 1.00 M NaCl for native VsEndA, and also 0.050 M NaCl for native VcEndA. For VsEndA and VcEndA mutants, 0.425 and 0.175 M NaCl, respectively, were used. Thermograms were baseline-subtracted and normalized for protein concentration.
+
+salt concentrations, decreasing at high extreme concentrations and for the mutants. The denaturation heat capacity increment could not be determined because of irreversibility of unfolding. Kinetics Kinetic measurements were made in 0­0.6 m NaCl. Striking differences were observed in the Km and kcat values of the native endonucleases (Fig. 2). The Km value for VcEndA increased steeply at salt concentrations above 0.25 m. An equivalent increase was seen for VsEndA above 0.50 m NaCl. The kcat values also showed the same salinity optima: 0.25 m for VcEndA and 0.50 m for VsEndA. VsEndA was increasingly more efficient than VcEndA in terms of kcat / Km (Table 2) as the salt concentration increased. The kcat / Km salt optima were not very different for the two
+1595
+
+FEBS Journal 275 (2008) 1593­1605 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+Effects of salt on Vibrio endonucleases
+
+L. Niiranen et al.
+
+Table 1. Thermodynamic parameters of the thermal unfolding of VsEndA and VcEndA as a function of NaCl concentration determined by DSC. NaCl (M) VsEndAa Native Tm (°C) DHcal (kJÆmol)1) DHeff (kJÆmol)1)
+
+DHcal / DHeff
+
+Q69N K71N VcEndAa Native
+
+0.175 0.425 1.000 0.425 0.425 0.050 0.175 0.425 1.000 0.175 0.175
+
+41.8 44.8 51.9 49.0 45.3 48.8 52.9 56.8 61.9 52.6 53.7
+
+268 351 371b 359 194 324b 451 512 417 321 305
+
+275 406 468b 445 275 344b 478 528 560 415 385
+
+0.97 0.86 0.79 0.81 0.71 0.94 0.94 0.97 0.74 0.77 0.79
+
+The reciprocal mutations of the two residues participating in creating the substrate binding site affected both kinetic constants (Table 2). The variants displayed higher Km and kcat values, especially at high salt concentrations, except for the VcEndA N71K mutation which showed a decreased kcat value and a minimal effect on Km. The catalytic efficiency of all variants was decreased compared with the native enzymes. Interestingly, the salt optimum of VcEndA N69Q was shifted to zero salinity; both VsEndA variants were also more efficient than the native enzyme at zero salinity. Structure of VcEndA N69Q The crystal structure of VcEndA N69Q was deter° mined to 1.7 A resolution, and data collection and refinement statistics are presented in Table 3. The electron density was well defined for most of the protein chain, and the mutated structure was similar to the ° native VcEndA with an rmsd of 0.20 A for main chain atoms. Differences were found for Asn71 and the mutated residue 69. Electron density maps (Fig. 3) showed that the orientation of these side chains was different from the native structure. The side chain of Gln69 in VcEndA N69Q was rotated away from residue 72 and was unable to form the Asn69 OD1­ Arg72 N hydrogen bond, which has been suggested to stabilize the 69­72 loop in VcEndA [18]. Instead, Gln69 NE2 formed a hydrogen bond with Asn129 OD1 and a water-mediated hydrogen bond with Glu125 O. Gln69 OE1 in VcEndA N69Q interacted through water molecules to both the side chain of Arg67 and to Glu125 O. The orientation of Arg67 was slightly shifted relative to the native structure. Interestingly, the side chain of Asn71 in the mutated structure was also rotated, interacting only with a symmetry related molecule with a hydrogen bond to Glu179 O and a water-mediated bond to Gln180 O. Electrostatic calculations The electrostatic surface potentials of the enzyme variants were calculated at the optimal salinity of the native enzymes (Fig. 4). The effects of the mutations on the overall potentials were small, but some local changes were observed. The mutations of VsEndA appeared to result in a less positively charged surface by increasing the exposure of a negatively charged patch (VsEndA Q69N, Fig. 4B) or through the loss of a positive charge (VsEndA K71N, Fig. 4C). VcEndA N69Q mutation (Fig. 4E) led to the rotation of a neighbouring positive charge, Arg67, whereas, in
+
+N69Q N71K
+a
+
+Molecular masses: VsEndA, 25 005 Da; VcEndA, 24 732 Da; VsEndA mutants, 24 645 Da; VcEndA mutants, 24 991 Da. b Minimal values as a result of aggregation.
+
+Fig. 2. Plot of the kinetic parameters Km (A) and kcat (B) for native VsEndA (d) and VcEndA (s) in 0­0.6 M NaCl. The error bars represent maximum and minimum values.
+
+enzymes (0.175 and 0.1 m for VsEndA and VcEndA, respectively), but the optimum was much broader for VsEndA.
+1596
+
+FEBS Journal 275 (2008) 1593­1605 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+L. Niiranen et al.
+
+Effects of salt on Vibrio endonucleases
+
+Table 2. Kinetic constants for native and mutant VsEndA and VcEndA at 0­0.6 [NaCl] (M) VsEndA 0 0.100 0.175 0.250 0.350 0.425 0.500 0.600 kcat (s)1) 0 0.100 0.175 0.250 0.350 0.425 0.500 0.600 kcat / Km (s)1ÆlM)1) 0 0.100 0.175 0.250 0.350 0.425 0.500 0.600 Km (nM) 64.5 ± 32.0 ± 34.6 ± 49.5 ± 128 ± 186 ± 356 ± 1150 ± 2.77 ± 3.88 ± 7.35 ± 9.90 ± 15.8 ± 20.8 ± 22.4 ± 18.6 ± 42.9 122 213 200 123 112 62.8 16.1
+
+M
+
+NaCl. VcEndA N69Q VcEndA N71K VsEndA / VcEndA 4.8 4.5 14 21 230 340 100 283 650 2890 9220 ± ± ± ± ± 10 29 30 380 1910 67.5 78.6 129 567 2170 ± ± ± ± ± 7.3 8.8 14 79 320 1.8 0.72 0.30 0.11 0.060 0.068
+
+VsEndA Q69N VsEndA K71N VcEndA 10.1 96.5 ± 15.8 5.4 82.1 ± 10.7 5.2 93.5 ± 13.3 5.2 231 ± 35 13 377 ± 38 10 1240 ± 120 16 2540 ± 400 100 0.11 4.82 ± 0.16 0.15 7.64 ± 0.29 0.25 12.4 ± 0.5 0.25 23.8 ± 1.2 0.5 29.4 ± 1.2 0.4 43.7 ± 2.5 0.4 53.3 ± 5.8 0.9 50.0 93.1 133 103 78.0 35.1 21.0 67.5 82.5 92.9 99.3 248 975 1760 3.83 7.93 9.73 12.1 25.0 37.6 41.5 56.7 96.1 105 122 101 38.5 23.6 ± ± ± ± ± ± ± ± ± ± ± ± ± ± 14.6 12.0 12.0 15.5 18 64 280 0.12 0.34 0.33 0.5 0.6 1.3 4.2 35.6 44.1 115 440 2120 2720 ± ± ± ± ± ±
+
+2.40 4.05 5.75 6.39 4.43 1.95
+
+± ± ± ± ± ±
+
+0.07 0.09 0.21 0.13 0.33 0.17
+
+2.98 5.82 6.94 8.98 7.25
+
+± ± ± ± ±
+
+0.08 0.22 0.15 0.88 1.33
+
+1.62 2.88 4.18 4.68 4.86
+
+± ± ± ± ±
+
+0.04 0.08 0.13 0.29 0.48
+
+1.2 0.96 1.3 1.5 3.6 11
+
+67.5 91.7 50.1 14.5 2.09 0.717
+
+29.7 20.5 10.7 3.11 0.786
+
+24.0 36.6 32.3 8.25 2.23
+
+0.64 1.3 4.2 14 59 160
+
+VcEndA N71K (Fig. 4F), an increased positive surface potential was observed.
+
+Discussion
+For marine organisms and their extracellular proteins, adaptation to environmental conditions can be assumed to be somewhat more complex than simple temperature or salt adaptation. Previous studies of the two secreted endonucleases VsEndA (marine psychrophilic) and VcEndA (estuarine mesophilic) have shown that their activity is strongly dependent on temperature, but also on NaCl concentration [18]. We studied how different salt concentrations and mutations affect the stability and kinetic constants of VsEndA and VcEndA, and found the effects to be striking, especially for VsEndA. Thermal stability At 175 mm NaCl, the native enzymes display a difference of 11.1 °C in Tm. The difference in Tm and the calorimetric enthalpy is small compared with that found for extremophilic DNA ligases [23]. This confirms our previous finding that, for a psychrophilic enzyme, VsEndA has a relatively high temperature optimum and kinetic stability [11]. The reason for the
+
+small DTm may be linked to the charged residues, as the hydrophobic cores of the two enzymes are similar. The extra salt bridges in the C-terminus of VcEndA and the smaller repulsion between the positively charged residues are the likely cause for the increased Tm value compared with VsEndA. At concentrations less than 1 m, salt interacts with proteins in a non-specific manner by neutralizing charges. The addition of salt may lead to a decrease in intramolecular electrostatic repulsion, but an increase in the hydrophobic effect [24,25]. Quantitative studies of the effects of NaCl on protein thermostability are scarce, but, in general, it has been found that there is a direct relationship between salinity and the upshift in the thermal unfolding temperature Tm [26­28]. This agrees with our finding of a nearly equal increase in the Tm values of the two enzymes when salt is added, although the salt-induced increase in enthalpy is more pronounced in VsEndA than in VcEndA. A salt-induced increase in Tm with a simultaneous decrease in DHcal has been proposed to result from stronger but less cooperative intramolecular interactions [29]. In this context, cooperativity means that the protein structure unfolds as a single unit (one single transition), as opposed to several more or less independent units (several transitions). The increase in Tm and DHcal of EndA with increasing salt concentration
+1597
+
+FEBS Journal 275 (2008) 1593­1605 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+Effects of salt on Vibrio endonucleases
+
+L. Niiranen et al.
+
+Table 3. X-ray data collection and crystallographic refinement statistics for the VcEndA N69Q structure. Data collection X-ray source Space group ° Unit cell (A) ° Resolution (A) (highest bin) ° Wavelength (A) No. unique reflections Multiplicity Completeness (%) Mean (<I> / <rI>) R-sym (%)a ° Wilson B-factor (A2) Refinement PDB entry ° Resolution (A) R-factor (all reflections) (%) R-free (%)b No. of atoms No. of water molecules No. of other molecules ° rmsd bond lengths (A) rmsd bond angles (deg) ° Average B-factor (A2) All atoms Protein Water molecules / Mg2+ / Cl) Ramachandran plot Most favoured regions (%) Additionally allowed regions (%) Generously allowed regions (%)
+a
+
+In-house rotation anode P 212121 a = 40.26, b = 64.41, c = 75.64 25.00-1.70 (1.79-1.70) 1.54180 22 098 2.9 (2.8) 99.3 (99.1) 12.8 (2.2) 6.5 (35.6) 20.5 2VND 15.00-1.70 19.7 25.9 1928 223 1 Mg2+, 1 Cl) 0.017 1.520 17.1 16.1 24.4 / 22.7 / 11.1 93.9 5.5 0.6
+
+increase in Tm of VsEndA and VcEndA may suggest that VsEndA does not have any specific ion binding sites on its surface relative to VcEndA, and is not halophilic. The more highly charged surface of VsEndA may, however, constitute a more cooperative solvent ion binding network, which makes it possible for the enzyme to better tolerate fluctuations in salt concentration. The observed general decrease in DHcal / DHeff with increasing salt concentration may imply that the theoretical model used is unable to tackle the increased cooperativity of unfolding, but may also be explained by an increase in the degree of irreversible unfolding (Table 1). The reversibility of thermal unfolding of a halophilic b-lactamase has been found to be inversely dependent on salt concentration, and has been proposed to be caused by the salting-out effect of NaCl [28]. NaCl can neutralize the surface charges of unfolded proteins and facilitate aggregation. Kinetics The release of coordinated ions and water molecules from the solvation shells of enzymes and substrates provides a positive entropic effect that drives substrate binding. This effect is dependent on both temperature and salt concentration [32,33]. At elevated salt concentrations or low temperatures, the gain in entropy on release of ions is reduced and substrate binding is therefore weaker [33]. This makes binding of highly charged DNA very challenging for marine enzymes. DNA binding to non-halophilic proteins has been found to be inversely dependent on salt concentration [32,34], whereas the binding efficiency of halophilic proteins appears to actually increase with increasing salt concentration [35,36]. A halophilic nuclease from Micrococcus varians [37] with maximal activity in 3­4 m NaCl displays an excess of acidic residues characteristic of many halophilic enzymes. It is possible that this enzyme has a binding mechanism involving counterion uptake, similar to that proposed for the halophilic Pyrococcus woesei TATA-box binding protein [36]. Contrary to these halophilic proteins, VsEndA displays an excess of basic residues contacting the negatively charged substrate, and the Km value increases with increasing salt concentration, although this occurs at a much higher salinity than for VcEndA. In our previous study of EndA temperature adaptation, the more positively charged surface of VsEndA was considered not to decrease the Km value relative to VcEndA [11]. These measurements were made at the respective optimal salt concentrations of the enzymes, where the Km values were found to be of the
+
+P P P P R-sym = ( h I | Ii(h) ­ <I(h)> |) / ( h I I(h)), where Ii(h) is the ith measurement of reflection h and <I(h)> is the weighted mean of all measurements of h. b 5% of the reflections were used in the R-free calculations.
+
+could therefore be interpreted, conversely, as increased cooperativity of unfolding and a more compact structure as a result of stronger intramolecular interactions. These salt-induced effects on DHcal and DHeff are stronger in VsEndA, possibly because of the increased number of solvent-exposed charged and hydrophobic residues relative to VcEndA, as found when viewing the molecular surfaces and their amino acid properties. This indicates a certain degree of salt dependence of VsEndA stability, but is in disagreement with the observation that the Tm values for both enzymes are equally affected by salt addition. It has been suggested that salt stabilizes halophilic proteins to a greater extent than non-halophilic proteins, and that halophilic proteins are destabilized by low salt concentrations [9]. Both effects may originate from the characteristic high negative surface potential of halophilic proteins and increased solvent ion binding [8,30,31]. The equal
+1598
+
+FEBS Journal 275 (2008) 1593­1605 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+L. Niiranen et al.
+
+Effects of salt on Vibrio endonucleases
+
+Fig. 3. (A) Electron density (2Fo ­ Fc at 1r contoured in blue) and omit (Fo ­ Fc at 3r contoured in green) maps illustrating the orientation of Asn71 and the N69Q mutation in the VcEndA N69Q structure. (B) Superposition of the VcEndA N69Q mutant (red), native VcEndA (blue) and VsEndA (green) structures. (C) A partial sequence alignment of VsEndA and VcEndA. The asterisks indicate the non-conserved residues selected for mutagenesis, and the plus sign denotes the catalytically important His80. Sequence numbering follows that of Vvn [20].
+
+same magnitude. This can be explained by the similar or slightly lower electrostatic surface potential of VsEndA compared with VcEndA at the respective optimal salinities (Fig. 4A,D). The results of the present study show that the Km values are strongly affected by the NaCl concentration, similar to the surface charge of the enzyme. The higher positive charge of VsEndA therefore decreases Km, but this is a method of coping with the charge shielding of buffer solutes rather than low temperatures. The higher charge may allow VsEndA to retain sufficient charge, even at relatively high salinity, to enable tight substrate binding, contrary to VcEndA. The salt adaptation of kinetic constants as striking as that observed in the present study has not been presented previously. Only two comparative studies of the salt-dependent kinetics of a non-halophilic and a saltadapted enzyme have been published to date. In the comparison of halotolerant Dunaliella salina carbonic anhydrases dCA I and dCA II and the human homologue in 0­0.5 m NaCl, the largest differences were found in the Km values [10,38]. Similar to our results, the halotolerant enzymes retained a low Km, whereas the Km value of the non-halophilic enzyme increased
+
+considerably with the addition of salt. These results imply that Km salt tolerance is a feature typical to halotolerance. The role of kcat is less clear. Both Bageshwar et al. [38] and Premkumar et al. [10] found kcat to be increased only slightly by salt, whereas we observed a large effect for kcat for both VsEndA and VcEndA at high salinity. The higher catalytic rate may reflect the dependence of kcat on the substrate binding and dissociation rate constants, as found in the cold adaptation of cod trypsin [39], or, in the case of VsEndA, may be linked in some way to cold adaptation, where an increase in kcat is a typical mechanism [7]. A high kcat value may also be a feature of salt tolerance, but more studies on halotolerant enzymes are required to verify this. The addition of salt may cause the EndA substrate binding cleft to reach a more optimal configuration for enzyme catalysis, thereby affecting kcat. The DSC thermograms indicate that salt constricts the structural fluctuations of the enzyme. At a certain concentration, these fluctuations may become optimal for enzymatic turnover, whereas, at salt concentrations above the optimum, the structure becomes too rigid and will function less optimally. If the stabilizing effect of salt is caused mainly by the weakening
+1599
+
+FEBS Journal 275 (2008) 1593­1605 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+Effects of salt on Vibrio endonucleases
+
+L. Niiranen et al.
+
+A
+
+D
+
+B
+
+E
+
+C
+
+F
+
+Fig. 4. Electrostatic surface potentials in the DNA binding groove of VsEndA with a modelled DNA (A), VsEndA Q69N (B) and VsEndA K71N (C) all in 0.425 M NaCl, and VcEndA (D), VcEndA N69Q (E) and VcEndA N71K (F) all in 0.175 M NaCl. The black arrows show the mutated residues. The surface potential is coloured from )10 kT / q (red) to 10 kT / q (blue).
+
+of repulsive charges, it is reasonable to imagine that VsEndA must be screened by a higher salt concentration than VcEndA to be able to function optimally. Effects of mutations The point mutations are not in the immediate vicinity of the active site situated at the bottom of the positively charged pocket, but are still likely to affect the shape, stability and charge of the DNA binding site (Fig. 4). The Asn69 side chain in VcEndA forms a
+1600
+
+hydrogen bond to Arg72 N, which may stabilize this loop region relative to Vvn and VsEndA [19], whereas the hydrogen bond observed in the VcEndA N69Q structure (Gln69 to Asn129) stabilizes other regions. The characterization of the VcEndA N69Q mutant (Table 2) shows higher Km and kcat values compared with native VcEndA. The lost hydrogen bond (from 69 to 72) in VcEndA N69Q may increase the flexibility of the 69­72 loop, possibly explaining the decreased binding affinity and increased catalytic rate. In addition, the shape of the DNA binding pocket in VcEndA
+
+FEBS Journal 275 (2008) 1593­1605 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+L. Niiranen et al.
+
+Effects of salt on Vibrio endonucleases
+
+N69Q is slightly altered as both residues 71 and 69 are moved in the crystal structure (Fig. 3), and the current orientation of Gln69 is different from the Vvn­DNA structure (Fig. 3B) and very close to a modelled DNA backbone, possibly explaining the higher Km values (Table 2). Gln69 in VsEndA is poorly defined in the native crystal structure, and the characterization of the VsEndA Q69N mutant (Table 2) reveals poorer DNA binding and an increased kcat with a maximum at 0.5 m NaCl. The Gln69 side chain in the Vvn­DNA ° structure (PDB 1OUP) is less than 3.2 A from the DNA backbone, and mutation to the shorter Asn in VsEndA Q69N may prevent the formation of favourable DNA­enzyme interactions, and lead to the higher Km values observed. In addition, the Asn69 to Arg72 hydrogen bond lost in the VcEndA N69Q structure may be formed in VsEndA Q69N, although this should be verified by structural studies. This additional hydrogen bond may explain the increased stability of the VsEndA Q69N mutant, and the subsequent decrease in flexibility may further impair substrate binding and contribute to the higher Km values. The introduction or removal of a positively charged residue (N71K and K71N) has a large effect on the electrostatic surface potential (Fig. 4). However, the VcEndA N71K mutant has a binding affinity and turnover comparable with the native VcEndA. Being more distal from DNA, as observed in the Vvn­DNA structure, residue 71 may have less influence on DNA binding than residue 69. Interestingly, kcat starts to decrease when the salt concentration exceeds 0.25 m for both native VcEndA and VcEndA N69Q, but this is not observed for the VcEndA N71K variant. The VsEndA K71N mutant shows poorer DNA binding and increased kcat compared with VsEndA, indicating that the positive charge is more important for DNA binding in VsEndA than in VcEndA. No side chain contacts are seen for residue 71 in the native structures or models of the mutants. As the longer side chain of lysine has more rotamers, the N71K substitution in VcEndA may stabilize the structure by increasing the rotational entropy, whilst retaining the backbone interactions. An increase of 1 °C is observed for the Tm value of this mutant. In VsEndA K71N, both DHcal and the cooperativity of unfolding are decreased, possibly indicating changes in the hydrogen bonding networks. The increase in Km may be the result of a slightly enlarged binding site or less positive charge. Indeed, the changes seen in the electrostatic surface potential of each of the mutants (Fig. 4) match surprisingly well with their kinetic results. Both VsEndA mutants and the VcEndA N69Q mutant show more dispersed or less positive charge, and, accord-
+
+ingly, display higher and more salt-sensitive Km values. VcEndA N71K does not display a lower Km value, but one similar to the native enzyme, in spite of the acquisition of an additional positive charge, possibly because of other effects caused by the mutation. Even minor changes in protein structure, such as single amino acid replacements, can induce a significant change in the cooperativity of unfolding, and be detected as changes in the effective (van't Hoff) enthalpy [40]. In the DSC experiments, only the VsEndA Q69N mutation had the expected effect, increasing the stability via both Tm and the cooperativity of unfolding, although the DHcal value was comparable with that of the native enzyme. Whether or not local changes are reflected in the global hydrogen bonding networks, and how widespread are their effects, cannot be discerned from the native and mutant crystal structures. Effects on hydrogen bonding networks may change the electron density distribution around and in the active site and, together with small conformational alterations, may speed up the rate-limiting step of hydrolysis. Such long-range effects have been proposed to be the cause of more mesophilic-like kinetic behaviour in psychrophilic a-amylase, where single amino acid mutations were introduced outside the catalytic cleft [22,41]. The identity of the rate-limiting step in the endonuclease reaction mechanism is not known. However, the high catalytic efficiency of both VsEndA and VcEndA (kcat / Km in the region of 108 s)1Æm)1) shows that the reaction is nearly diffusion controlled, suggesting that the rate-limiting step is either substrate binding or dissociation. As all mutations affect Km, especially at high salt concentrations, the optimization and salt tolerance of binding interactions are most probably hampered by the mutations by electrostatic, steric or flexibility effects. The less tight binding of DNA may enable the enzymes to release the products more easily, thus leading to the observed increase in the kcat values of three of the variants. Similarly, the seven-fold higher kcat value of the hyperactive variant of Escherichia coli dihydrofolate reductase, compared with the wild-type enzyme, has been suggested to result from increased flexibility and size of the substrate binding cleft, leading to an increased product dissociation constant [42].
+
+Conclusions
+The experiments conducted in this study show that the secreted endonuclease VsEndA from the marine psychrophilic V. salmonicida is remarkably salt tolerant and therefore unique amongst the endonucleases characterized so far. Salt has striking effects on the kinetic
+1601
+
+FEBS Journal 275 (2008) 1593­1605 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+Effects of salt on Vibrio endonucleases
+
+L. Niiranen et al.
+
+constants of VsEndA, and the high positive charge of VsEndA is considered to be essential in counteracting the charge shielding of buffer solutes and maintaining a low Km at high salinity. It is possible that Km salt tolerance will emerge as a general feature for halotolerant proteins. The role of the high kcat value observed for VsEndA is less clear, and more studies on halotolerant enzymes are required to elucidate this further. The salt-induced increase in enthalpy and cooperativity of unfolding is more pronounced in VsEndA. This effect indicates the formation of a more compact structure through the strengthening of intramolecular interactions or the weakening of intramolecular repulsive forces, and the salt dependence of VsEndA stability. The higher positive electrostatic surface potential of VsEndA compared with VcEndA plays a key role in adaptation. On the whole, the characteristics of VsEndA and VcEndA illustrate the fine-tuned adaptation to their natural environments.
+
+Enzyme assay
+Enzyme activity measurements were assayed in triplicate at 23 °C in 75 mm Tris / HCl, pH 8.0 and pH 8.5 (VcEndA and VsEndA, respectively), 5 mm MgCl2 and 0­0.6 m NaCl. Eight different concentrations (12­1470 nm) of DNaseAlert substrate (DNaseAlertÔ QC System Kit; Ambion, Austin, TX, USA) were used for the kinetic measurements, and 200 nm substrate for the other activity measurements. The total reaction volume was 100 lL and reactions were started by the addition of 10 lL of enzyme diluted in reaction buffer. Protein LoBind tubes from Eppendorf (Hamburg, Germany) were used for enzyme dilutions because of the sticky nature of the enzyme. The detailed assay procedure is described elsewhere [11]. sigmaplot software (Systat Software, San Jose, CA, USA) was used for data analysis, and Vmax and Km values were calculated by fitting the velocity data to the Michaelis­Menten equation.
+
+Differential scanning calorimetry
+Differential scanning calorimetry experiments were conducted on a Nano-Differential Scanning Calorimeter III, model CSC6300 (Calorimetry Sciences Corporation, Lindon, UT, USA). Preparations of the native enzymes were first filtered with a 0.45 lm Spin-X centrifuge tube filter (Corning, Corning, NY, USA), and then dialysed overnight at 4 °C against 1 L of dialysis buffer (50 mm Hepes, 5 mm MgCl2, pH 8.0) containing 0.050, 0.175, 0.425 or 1.00 m NaCl. Slide-A-Lyzer dialysis discs from Pierce (Rockford, IL, USA) with a 2 kDa cut-off were used. The protein concentration of the dialysed enzyme solution was determined using BioRad Protein Assay Dye Reagent Concentrate (BioRad, Hercules, CA, USA) with bovine serum albumin (Sigma) as standard. The dialysates were used as blank references in DSC runs. Reference buffers and samples were carefully degassed before loading into the DSC cells. The scans were performed at a constant pressure of 304 kPa in the range 15­75 °C or 20­80 °C with a heating rate of 1 °CÆmin)1. Thermograms were analysed according to a single non-two-state transition model in which Tm, DHcal and DHeff were fitted independently using cpcalc software (Calorimetry Sciences Corporation).
+
+Materials and methods
+Site-directed mutagenesis and plasmid purification
+Residue targets for mutagenesis were selected on the basis of the sequence and structural alignments of Vvn, VsEndA and VcEndA. The selected residues 69 and 71 were nonconserved between VsEndA and VcEndA, located in the DNA binding region and close to the active site. Site-directed mutagenesis was performed using a QuikChange SiteDirected Mutagenesis Kit (Stratagene, Cedar Creek, TX, USA), as described in the manual. The oligonucleotides were synthesized by Sigma-Aldrich (St Louis, MO, USA). Mutated plasmids were transformed into E. coli TOP10 cells (Invitrogen, Carlsbad, CA, USA), and plasmid extraction was performed using QIAprep minipreps (Qiagen, Hilden, Germany) or the alkaline lysis method [43].
+
+Expression and purification
+The expression and purification of recombinant VsEndA and VcEndA native enzymes and mutants were performed as described previously [11] with a few modifications. Cells were cultured in either shake-culture flasks or a Techfors S fermenter (Infors, Bottmingen, Switzerland). The culture temperature was kept at 37 °C until glucose was depleted, after which the temperature was adjusted to 22 °C before expression was induced. The cells were harvested when they reached the stationary phase and were collected by centrifugation. For periplasmic fractionation, the cells were resuspended in a 1 : 10 culture volume of fractionation buffer, and incubated on ice for 1­1.5 h before the supernatant was collected.
+
+Crystallization, data collection and structure determination
+The mutant VcEndA N69Q was crystallized in similar conditions as native VcEndA [19] using the hanging drop vapour-diffusion technique at room temperature with 6.2 mgÆmL)1 of protein in 50 mm Tris / HCl pH 8.0, 5 mm MgCl2 and 0.6 m NaCl. Drops were made by mixing 1 lL of protein with 1 lL of reservoir solution consisting of 0.1 m sodium acetate, 0.3 m ammonium acetate, 10 mm magnesium sulphate and 26% PEG8000. Crystals of about
+
+1602
+
+FEBS Journal 275 (2008) 1593­1605 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+L. Niiranen et al.
+
+Effects of salt on Vibrio endonucleases
+
+500 · 200 · 20 lm3 were transferred to cryoprotectant solution with 30% PEG8000, 15% glycerol and the other reservoir additives, and flash-cooled in liquid nitrogen. Data were collected at the in-house MicroMax-007 HF rotating anode from Rigaku (Osaka, Japan) with an R-AXIS IV detector, a 60 s exposure time per image and 0.5° oscillation, and a total of 78° of data were used in the final data set. The data were integrated with the program mosflm [44], scaled with scala, and the structure factors obtained with truncate in the ccp4 program suite [45]. The structure was solved by molecular replacement using the program molrep [46] in ccp4 and the structure of native VcEndA (PDB code 2G7E) as a search model. The structure was refined in refmac5 [47] interspersed with rounds of manual model building in O [48] based on rA-weighted 2Fo ­ Fc and Fo ­ Fc electron density maps. The final model was validated using procheck [49].
+
+Molecular modelling and electrostatic calculations
+Continuum electrostatic calculations were carried out using the delphi program package [50,51]. The parse3 set of atomic radii [52], together with formal charges, was used in all calculations. The electrostatics were determined using the linear Poisson­Boltzmann equation and a three-dimensional grid with a size of 165 · 165 · 165. Stepwise focusing was used to increase the accuracy [53]. Initially, a rough grid was calculated with Coulombic boundary conditions, and the resulting grid was adopted as the boundary condition for one further focused calculation. The protein molecules occupied 90% of the box in the final calculations. The molecular surface was calculated using a solvent probe of ° 1.4 A. The solvent was described using a dielectric constant of 80, whereas the protein was treated with a dielectric constant of 4. The calculations were carried out using the optimal salt concentrations of the native enzymes. The structures used for the calculations were VcEndA (PDB 2G7F), VcEndA N69Q (this study, PDB 2VND) and VsEndA (PDB 2PU3). The VcEndA N71K mutant was generated from 2G7F, and the mutants of VsEndA were generated from native VsEndA.
+
+Acknowledgements
+We thank Annfrid Sivertsen, Stefan Hauglid and Bjarte Lund for technical assistance. This study was supported by The National Programme for Research in Functional Genomics in Norway (FUGE) in The Research Council of Norway.
+
+References
+1 Madern D, Ebel C & Zaccai G (2000) Halophilic adaptation of enzymes. Extremophiles 4, 91­98.
+
+2 Miller GP & Benkovic SJ (1998) Stretching exercises ­ flexibility in dihydrofolate reductase catalysis. Chem Biol 5, R105­R113. 3 Hough DW & Danson MJ (1999) Extremozymes. Curr Opin Chem Biol 3, 39­46. 4 Li WF, Zhou XX & Lu P (2005) Structural features of thermozymes. Biotechnol Adv 23, 271­281. 5 Zecchinon L, Claverie P, Collins T, D'Amico S, Delille D, Feller G, Georlette D, Gratia E, Hoyoux A, Meuwis MA et al. (2001) Did psychrophilic enzymes really win the challenge? Extremophiles 5, 313­321. 6 Hochachka PW & Somero GN (1984) Biochemical Adaptation. Princeton University Press, Princeton, NJ. 7 Siddiqui KS & Cavicchioli R (2006) Cold-adapted enzymes. Annu Rev Biochem 75, 403­433. 8 Mevarech M, Frolow F & Gloss LM (2000) Halophilic enzymes: proteins with a grain of salt. Biophys Chem 86, 155­164. 9 Elcock AH & McCammon JA (1998) Electrostatic contributions to the stability of halophilic proteins. J Mol Biol 280, 731­748. 10 Premkumar L, Greenblatt HM, Bageshwar UK, Savchenko T, Gokhman I, Sussman JL & Zamir A (2005) Three-dimensional structure of a halotolerant algal carbonic anhydrase predicts halotolerance of a mammalian homolog. Proc Natl Acad Sci USA 102, 7493­ 7498. 11 Altermark B, Niiranen L, Willassen NP, Smalas AO & Moe E (2007) Comparative studies of endonuclease I from cold-adapted Vibrio salmonicida and mesophilic Vibrio cholerae. FEBS J 274, 252­263. 12 Ohta Y & Hatada Y (2006) A novel enzyme, lambdacarrageenase, isolated from a deep-sea bacterium. J Biochem (Tokyo) 140, 475­481. 13 Focareta T & Manning PA (1991) Distinguishing between the extracellular DNases of Vibrio cholerae and development of a transformation system. Mol Microbiol 5, 2547­2555. 14 Wu SI, Lo SK, Shao CP, Tsai HW & Hor LI (2001) Cloning and characterization of a periplasmic nuclease of Vibrio vulnificus and its role in preventing uptake of foreign DNA. Appl Environ Microbiol 67, 82­88. 15 Moulard M, Condemine G & Robert-Baudouy J (1993) Search for the function of the nuclease NucM of Erwinia chrysanthemi. FEMS Microbiol Lett 112, 99­103. 16 Buchanan JT, Simpson AJ, Aziz RK, Liu GY, Kristian SA, Kotb M, Feramisco J & Nizet V (2006) DNase expression allows the pathogen group A Streptococcus to escape killing in neutrophil extracellular traps. Curr Biol 16, 396­400. 17 Palic D, Ostojic J, Andreasen CB & Roth JA (2006) Fish cast NETs: neutrophil extracellular traps are released from fish neutrophils. Dev Comp Immunol 31, 805­816.
+
+FEBS Journal 275 (2008) 1593­1605 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+1603
+
+Effects of salt on Vibrio endonucleases
+
+L. Niiranen et al.
+
+18 Altermark B, Helland R, Moe E, Willassen NP & Sma° las AO (2008) Structural adaptation of endonuclease I from the cold-adapted and halophilic bacterium Vibrio salmonicida. Acta Crystallogr D Biol Crystallogr, doi:10.1107/S0907444908000097. 19 Altermark B, Smalas AO, Willassen NP & Helland R (2006) The structure of Vibrio cholerae extracellular endonuclease I reveals the presence of a buried chloride ion. Acta Crystallogr D Biol Crystallogr 62, 1387­1391. 20 Li CL, Hor LI, Chang ZF, Tsai LC, Yang WZ & Yuan HS (2003) DNA binding and cleavage by the periplasmic nuclease Vvn: a novel structure with a known active site. EMBO J 22, 4014­4025. 21 Wang YT, Yang WJ, Li CL, Doudeva LG & Yuan HS (2007) Structural basis for sequence-dependent DNA cleavage by nonspecific endonucleases. Nucleic Acids Res 35, 584­594. 22 D'Amico S, Gerday C & Feller G (2003) Temperature adaptation of proteins: engineering mesophilic-like activity and stability in a cold-adapted alpha-amylase. J Mol Biol 332, 981­988. 23 Georlette D, Damien B, Blaise V, Depiereux E, Uversky VN, Gerday C & Feller G (2003) Structural and functional adaptations to extreme temperatures in psychrophilic, mesophilic, and thermophilic DNA ligases. J Biol Chem 278, 37015­37023. 24 Nishimura C, Uversky VN & Fink AL (2001) Effect of salts on the stability and folding of staphylococcal nuclease. Biochemistry 40, 2113­2128. 25 Lanyi JK (1974) Salt-dependent properties of proteins from extremely halophilic bacteria. Bacteriol Rev 38, 272­290. 26 Dragan AI, Li Z, Makeyeva EN, Milgotina EI, Liu Y, Crane-Robinson C & Privalov PL (2006) Forces driving the binding of homeodomains to DNA. Biochemistry 45, 141­151. 27 Waldron TT, Schrift GL & Murphy KP (2005) The salt-dependence of a protein­ligand interaction: ion­protein binding energetics. J Mol Biol 346, 895­ 905. 28 Tokunaga H, Arakawa T, Fukada H & Tokunaga M (2006) Opposing effects of NaCl on reversibility and thermal stability of halophilic beta-lactamase from a moderate halophile, Chromohalobacter sp. 560. Biophys Chem 119, 316­320. 29 Chan HK, Au-Yeung KL & Gonda I (1996) Effects of additives on heat denaturation of rhDNase in solutions. Pharm Res 13, 756­761. 30 Fukuchi S, Yoshimune K, Wakayama M, Moriguchi M & Nishikawa K (2003) Unique amino acid composition of proteins in halophilic bacteria. J Mol Biol 327, 347­ 357. 31 Richard SB, Madern D, Garcin E & Zaccai G (2000) Halophilic adaptation: novel solvent protein interactions observed in the 2.9 and 2.6 A resolution structures
+
+32
+
+33
+
+34
+
+35
+
+36
+
+37
+
+38
+
+39
+
+40
+
+41
+
+42
+
+of the wild type and a mutant of malate dehydrogenase from Haloarcula marismortui. Biochemistry 39, 992­ 1000. Ha JH, Capp MW, Hohenwalter MD, Baskerville M & Record MT Jr (1992) Thermodynamic stoichiometries of participation of water, cations and anions in specific and non-specific binding of lac repressor to DNA. Possible thermodynamic origins of the ``glutamate effect'' on protein­DNA interactions. J Mol Biol 228, 252­264. Fogolari F, Elcock AH, Esposito G, Viglino P, Briggs JM & McCammon JA (1997) Electrostatic effects in homeodomain­DNA interactions. J Mol Biol 267, 368­381. Record MT Jr, Zhang W & Anderson CF (1998) Analysis of effects of salts and uncharged solutes on protein and nucleic acid equilibria and processes: a practical guide to recognizing and interpreting polyelectrolyte effects, Hofmeister effects, and osmotic effects of salts. Adv Protein Chem 51, 281­353. Britton KL, Baker PJ, Fisher M, Ruzheinikov S, Gilmour DJ, Bonete MJ, Ferrer J, Pire C, Esclapez J & Rice DW (2006) Analysis of protein solvent interactions in glucose dehydrogenase from the extreme halophile Haloferax mediterranei. Proc Natl Acad Sci USA 103, 4846­4851. Bergqvist S, Williams MA, O'Brien R & Ladbury JE (2003) Halophilic adaptation of protein­DNA interactions. Biochem Soc Trans 31, 677­680. Kamekura M & Onishi H (1978) Properties of the halophilic nuclease of a moderate halophile, Micrococcus varians subsp. halophilus. J Bacteriol 133, 59­ 65. Bageshwar UK, Premkumar L, Gokhman I, Savchenko T, Sussman JL & Zamir A (2004) Natural protein engineering: a uniquely salt-tolerant, but not halophilic, alpha-type carbonic anhydrase from algae proliferating in low- to hyper-saline environments. Protein Eng Des Sel 17, 191­200. Asgeirsson B & Cekan P (2006) Microscopic rate-constants for substrate binding and acylation in cold-adaptation of trypsin I from Atlantic cod. FEBS Lett 580, 4639­4644. Privalov GP & Privalov PL (2000) Problems and prospects in microcalorimetry of biological macromolecules. Methods Enzymol 323, 31­62. D'Amico S, Gerday C & Feller G (2001) Structural determinants of cold adaptation and stability in a large protein. J Biol Chem 276, 25791­25796. Iwakura M, Maki K, Takahashi H, Takenawa T, Yokota A, Katayanagi K, Kamiyama T & Gekko K (2006) Evolutional design of a hyperactive cysteineand methionine-free mutant of Escherichia coli dihydrofolate reductase. J Biol Chem 281, 13234­ 13246.
+
+1604
+
+FEBS Journal 275 (2008) 1593­1605 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+L. Niiranen et al.
+
+Effects of salt on Vibrio endonucleases
+
+43 Sambrook J, Fritsch EF & Maniatis T (1989) Molecular Cloning: A Laboratory Manual. Cold Spring Harbor Laboratory Press, Cold Spring Harbor, NY. 44 Powell HR (1999) The Rossmann Fourier autoindexing algorithm in MOSFLM. Acta Crystallogr D Biol Crystallogr 55, 1690­1695. 45 Collaborative Computational Project Number 4 (1994) The CCP4 suite: programs for protein crystallography. Acta Crystallogr D Biol Crystallogr 50, 760­763. 46 Vagin A & Teplyakov A (1997) MOLREP: an automated program for molecular replacement. J Appl Crystallogr 30, 1022­1025. 47 Murshudov GN, Vagin AA & Dodson EJ (1997) Refinement of macromolecular structures by the maximum-likelihood method. Acta Crystallogr D Biol Crystallogr 53, 240­255. 48 Jones TA, Zou JY, Cowan SW & Kjeldgaard M (1991) Improved methods for building protein models in electron density maps and the location of errors in these models. Acta Crystallogr A 47, 110­119.
+
+49 Laskowski RA, Moss DS & Thornton JM (1993) Mainchain bond lengths and bond angles in protein structures. J Mol Biol 231, 1049­1067. 50 Rocchia W, Alexov E & Honig B (2001) Extending the applicability of the nonlinear Poisson­Boltzmann equation: multiple dielectric constants and multivalent ions. J Phys Chem B 105, 6507­6514. 51 Rocchia W, Sridharan S, Nicholls A, Alexov E, Chiabrera A & Honig B (2002) Rapid grid-based construction of the molecular surface and the use of induced surface charge to calculate reaction field energies: applications to the molecular systems and geometric objects. J Comput Chem 23, 128­137. 52 Sitkoff D, Sharp KA & Honig B (1994) Accurate calculation of hydration free-energies using macroscopic solvent models. J Phys Chem 98, 1978­1988. 53 Moreira IS, Fernandes PA & Ramos MJ (2005) Accuracy of the numerical solution of the Poisson­ Boltzmann equation. J Mol Struct-Theochem 729, 11­18.
+
+FEBS Journal 275 (2008) 1593­1605 ª 2008 The Authors Journal compilation ª 2008 FEBS
+
+1605
+
+

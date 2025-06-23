@@ -1,0 +1,1197 @@
+709
+
+Acta Cryst. (1994). DS0, 709-730
+
+Accuracy and Precision in Protein Crystal Structure Analysis: Two Independent Refinements of the Structure of Poplar Plastocyanin at 173 K
+BY BARRY A. FIELDS
+
+Department of Inorganic Chemistry, University of Sydney, Sydney 2006, Australia
+HANS H . BARTSCH, HANS D . BARTUNIK AND FRANK CORDES*
+
+Max-Planck Research Unitfor Structural Molecular Biology, DES Y, Notkestrasse 85, 22603 Hamburg, Germany
+AND
+
+J. MITCHELL GUSS AND
+
+HANS C. FREEMAN
+
+Department of Inorganic Chemistry, University of Sydney, Sydney 2006, Australia
+(Received 20 September 1993; accepted 17 March 1994)
+
+Abstract
+
+The structure of the copper protein plastocyanin from poplar leaves (Populus nigra var. italica) at 173 K has been subjected to two independent refinements, usin~ a single set of synchrotron X-ray data at 1.6 A resolution. Energy-restrained refinement using the program EREF resulted in lower root-mean-square deviations from ideal geometry (e.g. 0.011 ]k for bond lengths) but a higher residual R (0.153) than restrained least-squares refinement using the program PROLSQ (0.014 A, 0.132). Electron-density difference maps in both refinements provided evidence for disorder at some side chains and solvent atoms, and the PROLSQ refinement made allowance for this disorder. The number of solvent sites identified at the 4cr(p) level was 171 in the EREF refinement and 189 in the PROLSQ refinement; 159 of the solvent sites are common to both refinements within 1 A. The rootmean-square differences between the atomic positions produced by the two refinements are 0.08 A for C a atoms, 0.08 A for backbone atoms and 0.12 A for all non-H atoms (excluding six obvious outliers) of the protein molecule. The two sets of Cu-ligand bond lengths differ by up to 0.07 A,, and the ligandCu-ligand angles by up to 7°. At 173 K the volume of the unit cell is 4.2% smaller than at 295 K. Greater order in the solvent region is indicated by the location of 79 more solvent sites, the identification of extensive networks of hydrogen-bonded rings of solvent molecules, and a general decrease in the thermal parameters. Within the unit cell, the protein molecules are significantly translated and rotated from their positions at ambient temperature. An
+* Present address: Institut f/Jr Kristallographie, Freie Universit/it Berlin, Takustrasse 6, D-1000 Berlin 53, Germany. ~31994 International Union of Crystallography Printed in Great Britain all rishts reserved
+
+important structural change at low temperature is a 180° flip of the peptide group at Ser48-Gly49. Nearly all other significant differences between the structures of the protein at 173 and 295 K occur at exposed side chains. If the backbone atoms in the 173 and 295 K structures are superposed, excluding atoms involved in the peptide flip, the root-meansquare difference between the positions of 393 atoms is 0.25 A. Two internal water molecules, not included in previous descriptions of poplar plastocyanin, have been located. The plastocyanin Cu-site geometry at 173 K is not significantly different from that at 295 K. If plastocyanin undergoes a change in Cu-site geometry at low temperature, as has been suggested on the basis of resonance Raman spectroscopic evidence, then the change is not detected within the limits of precision of the present results.
+
+Introduction
+
+The 'blue' copper protein plastocyanin has been well characterized by crystallographic structure analysis (Colman et al., 1978; Guss & Freeman, 1983; Guss, Harrowell, Murata, Norris & Freeman, 1986; Collyer, Guss, Sugimura, Yoshizaki & Freeman, 1990; Guss, Bartunik & Freeman, 1992), N M R spectroscopy]" (Moore et al., 1991), electronic spectroscopy (Penfield, Gewirth & Solomon, 1985;
+t Abbreviations used: PoPc, poplar plastocyanin in the oxidized (Cu ~t) state; PEG, polyethyleneglycol; EXAFS, extended X-ray absorption fine structure; EM, energy minimization; LT, 173 K; MD, molecular dynamics; NMR, nuclear magnetic resonance; r.m.s., root mean square; rR, resonance Raman; RT, 295 K; IPCY, Protein Data Bank reference to atomic positional coordinate set for PoPc at RT and 1.6A resolution; IPLC, Protein Data Bank reference to atomic positional coordinate set for PoPc at 1.33 A resolution.
+
+Acta Crystalh)graphica Section D
+ISSN 0907-4449 ~ 1994
+
+710
+
+PLASTOCYANIN AT 173 K Cu--S(Met) bond' (Woodruff, Norton, Swanson & Fry, 1984; Blair et al., 1985). The putative short Cu--S(Met92) bond deduced from the EXAFS was subsequently shown to be an artefact caused by noise in the data (Penner-Hahn, Murata, Hodgson & Freeman, 1989), but the hypotheses derived from the rR measurements remained to be tested. Experiments on the stabilization of PoPc crystals at low temperature were accordingly undertaken (see Experimental, below), and ultimately made it possible to record a set of diffraction data at 173 K on a two-dimensional detector at the DESY synchrotron. The fact that the research was a collaboration between two groups of investigators who were separated geographically by a very large distance provided an opportunity to conduct an experiment on the nature of the refinement process. It was agreed that the two groups of investigators would not communicate with each other until each was convinced that its refinement calculations were complete. Further, since the two groups were experienced in the use of two different refinement protocols, it was agreed that the Sydney group would use the restrained least-squares program PROLSQ (Hendrickson & Konnert, 1980) while the Hamburg group would use the energy-constrained leastsquares program E R E F (Jack & Levitt, 1978). Lists of atomic positional and thermal parameters were exchanged only when the two independent refinements had converged. The refinement protocols are summarized in Fig. 1.
+
+Gewirth, Cohen, Schugar & Solomon, 1987), vibrational spectoscopy (Woodruff, Norton, Swanson & Fry, 1984; Blair et al., 1985; Han et al., 1991), X-ray absorption spectroscopy (Scott, Hahn, Doniach, Freeman & Hodgson, 1982; Penner-Hahn, Murata, Hodgson & Freeman, 1989; Murphy, Hasnain, Strange, Harvey & Ingledew, 1990), elecrochemistry (Bfichi, Bond, Codd, Huq & Freeman, 1992) and kinetic measurements (Jackman, McGinnis, Powls, Salmon & Sykes, 1988; Kyritsis et al., 1991). A quantum-mechanical treatment of the 'blue' copper site is available (Gewirth & Solomon, 1988). The biological role of plastocyanin is electron transport between photosystems II and I in plants and some photosynthetic algae. Much of the relevant literature has been reviewed by Sykes (1990). In understanding the properties of the protein it has frequently been helpful to know that the Cu atom has a distorted tetrahedral coordination geometry and that it is bound to two N~(His) atoms at about 2.0A, a S(Cys) atom at about 2.1 A and a S(Met) atom at about 2.8/~. The Cu atom is slightly displaced from the plane of the two NS(His) atoms and the S(Cys) atom, and the long Cu--S(Met) bond is approximately perpendicular to that plane. The dimensions of the Cu site were originally revealed by the refinement of the structure of plastocyanin from poplar leaves (Populus nigra var. italica) at ambient temperature using data to 1.6 A resolution (Guss & Freeman, 1983). This structure is now known at 1.33 A resolution (Guss, Bartunik & Freeman, 1992). Our interest in studying the structure of poplar plastocyanin (PoPc) at low temperature when it was already well known at ambient temperature was aroused by two observations which suggested that the geometry of the copper site changes when the protein is cooled. First, an early set of extended X-ray absorption fine structure (EXAFS) data recorded from oriented plastocyanin crystals at 175205 K yielded a new Fourier transform feature which was provisionally assigned to a contribution from a sulfur ligand at 2.4 A from the Cu atom (PennerHahn, Murata, Hodgson & Freeman, 1989). A plausible interpretation of this assignment was that the long Cu--S(Met92) bond (2.9 A), which does not contribute to the EXAFS at ambient temperature (Scott et al., 1982), is replaced by a bond about 2.4 A long at low temperature (Penner-Hahn & Hodgson, 1986). Second, it was reported that changes in the resonance Raman (rR) spectrum of plastocyanin close to the freezing point of water can be attributed to a change in the Cu--S~'(Cys84)--Ct~---C'~ dihedral angle, 'the formation of a weak but significant C u - S(Met92) bond', and the resulting inhibition of 'large-amplitude motions of the Cu atom perpendicular to the NzS(Cys) plane, which are permitted at room temperature due to the virtual absence of a
+
+Experimental
+Plastocyan& crystals at 173 K Crystals of PoPc were grown as described by Chapman et al. (1977) and kept in a storage buffer containing 75% saturated ammonium sulfate and 0.1 M phosphate at pH 6.0. Experiments to exchange the ammonium sulfate/sodium phosphate buffer solution against a suitable cryo-solvent were successful only at temperatures above 248 K. Below this temperature, test photographs taken with synchrotron X-radiation invariably revealed powderdiffraction rings from residual ice or precipitated salts. Extrapolation from the best results suggested that in order to reach 173 K it would be necessary to use 60% methanol, but the crystals did not survive in such a solvent mixture even at 248 K. The problems was finally overcome by a combination of solvent-exchange and snap-freezing. Immediately before the low-temperature experiment, crystals were transferred into saturated polyethylene glycol (PEG 6000) at 279 K. A single crystal was mounted with as little PEG as possible on a thin glass spatula attached to the base of a cold chamber (Bartunik &
+
+FIELDS, BARTSCH, B A R T U N I K , CORDES, GUSS A N D F R E E M A N Schubert, 1982). The crystal and the spatula were shock-frozen in liquid nitrogen. The cold chamber was then closed and mounted on an ArndtWonacott rotation camera modified for use with a
+
+711
+
+FAST two-dimensional detector. The temperature was kept below 153 K. Subsequently the temperature was adjusted to 173 K, the variation during the data collection being less than 1 K.
+
+REFINEMENT PROTOCOL
+Data: 19763 observat,ons, 7393 ,ndependent reflections w,th 6 0,&, ~>d ,> 1.6A. R m,,~o= 6.7% (intensities). 69% complete to 1 6,~, Cell parameters - Low temp. 29 18.46 29, 56.64A - Room temp 29 60, 46.86, 57.60A
+
+Model: "Shrunk" coordinates from 16A room temperature structure (1PCY) Atoms with B > 35A2 and solvent omitted. R = 0.39 Model: "Shrunk" coordinates from 1 6,&, room temperature structure (1PCY). All atoms including solvent. R = 0.35
+
+R,g~d body refinement (X-PLOR) Rotatton -0.66.0.13, 1.10 ° Translation -0.11, -0.13, -0.02A R = 0.36
+
+Energy refinement (EREF) and map inspection (FRODO) MoLecular dynamics refinement Reciprocal space LS refinement (PROLSQ) and map inspection (FRODO) R =0132 (GROMOS) at an intermediate stage. R = O153
+
+Sydney
+Number of protein atoms Number of water atoms Disordered sidechains Average B for protein Average B for water Cu-ligand bond lengths: Cu-N(His 37) -S(Cys 84) -N(His 87) -S(Met 92) RmsA from 1.33.~ structure (backbone) RmsA from ideal PROLSQ bond lengths Rms.~ from ideal EREF bond lengths Rms.~ between structures (backbone) 198A 2.14A 1.95A 278A o26A 1462 189 Ser 56, Glu 79, Ser 85 5.3A ~ 17.8A 2
+
+Hamburg
+739 171 Not available in EREF 8.2A 2 21 0A z
+
+2.05A 2.21A 1.96A 2.78A 0.26A
+0 020A
+
+0.014A
+
+o.o11A
+
+o.o8A
+
+Fig. 1. Summary of the PROLSQ (Sydney) and EREF (Hamburg) refinements of the plastocyanin structure using a single set of diffraction data recorded at 173 K. The total occupancy of the protein non-H-atom sites in both models is 738. The 1462 atoms in the Sydney model comprise 747 non-H atoms, 714 H atoms, and the Cu atom. The nine additional non-H-atom sites in the Sydney model represent the alternate conformers of three disordered side chains.
+
+712
+
+P L A S T O C Y A N I N AT 173 K grams PROLSQ (Hendrickson & Konnert, 1980) and EREF (Jack & Levitt, 1978), respectively. The EREF refinement included an intermediate stage of molecular dynamics refinement using GROMOS (van Gunsteren & Berendsen, 1987). Starting phases for the PROLSQ and EREF refinements were derived from the coordinates of the roomtemperature structure of PoPc refined at 1.6A resolution (Guss & Freeman, 1983; Protein Data Bank entry 1PCY).
+
+Data collection
+Diffraction data were collected from two crystals using the double focusing beamline X31 at HASYLAB/EMBL. The X-ray wavelength was 1.009,~ with a 0.1% band width. The data were recorded with a FAST area detector (Enraf-Nonius), the normal to the detector being inclined by 11 ° above the incident beam. The crystal-to-detector distance had been calibrated by multiple measurements on well characterized orthorhombic trypsin crystals. The program M A D S Y N was used for data collection as a series of 0.1 ° rotation exposures, orientation matrix refinement and data processing. M A D S Y N is based on the program M A D N E S (Messerschmidt & Pflugrath, 1987); it has been adapted for use with the FAST detector combined with an Arndt-Wonacott camera. Crystal number 1 (with outer dimensions 570 x 290 x 340 Ixm) was mounted with c parallel to the spindle axis, and crystal number 2 (460 × 350 x 250 lx m) with b parallel to the spindle axis. Under the conditions of the experiments (beam divergence and wavelength spread), the unit-cell dimensions were reproducible to within 0.1 A. The averaged values derived from multiple measurements on crystals number 1 and number 2 were a = 29.18 (3), b = 46.29 (7), c = 56.64 (13) A, V= 76.506 (370)A3; the space group was the same as at room temperature, P2~2~2~. The crystals of PoPc at room temperature have unit-cell dimensions (fitted to 0 values on a four-circle diffractometer) a = 29.60 (1), b = 46.86 (3), c = 57.60 (3) A, V= 79.894 (120),~3. Thus the unit-cell volume was significantly (4.2%) smaller at 173 K, the reductions in the unit-cell edges a, b and c being 1.4, 1.2 and 1.7%, respectively. Cooling caused a broadening of the crystal mosaicity by about 0.3 °. Diffraction data were collected to 1.6 A resolution. The entire data set consisted of 19 763 intensity measurements corresponding to 7933 unique reflections. The total exposure time was 4.8 h. Merging of the data using the program PROTEIN (Steigemann, 1974) yielded 7393 unique reflections with R m e r g e = 0.067 in I (after rejection of 6.8% of all unique reflections).* A reflection was rejected if one value of the scaled intensity differed from the mean by ___30%. The data set included 69.3% of all possible reflections to 1.60 A. The completeness in the last shell (1.66-1.60 A) was 48.6%.
+
+PROLSQ refinement
+The initial values of the calculated structure amplitudes Fc and phases ~0c included only the contributions of the protein atoms in the 1PCY coordinate set. Atoms with B > 35 A 2 and all solvent atoms were omitted. In view of the significant and anisotropic shrinkage of the unit cell, the model was first subjected to 50 cycles of rigid-body refinement using the program X-PLOR (Br~inger, Karplus & Petsko, 1989). The refinement, based on the data in the range 5.5---d---2.5 A, caused the molecule to undergo rotations of -0.66, 0.13, 1.10 ° and translations of - 0.11, - 0.13, - 0.02 ,~ with respect to the x, y, z axes. The residual R decreased from 0.39 to 0.36. Refinement was continued with the restrained reciprocal-space least-squares program PROLSQ (Hendrickson & Konnert, 1980). Models were fitted to electron-density maps by means of the program FRODO (Jones, 1978). A total of 50 rounds of refinement were performed, a typical 'round' consisting of several cycles of PROLSQ least-squares calculation followed by the calculation and inspection of 2 F o - F c and/or Fo-Fc electron-density maps. The range of the data included in the calculations was gradually increased from 5.5 _> d-> 2.5 ,~, to 6.0 -> d ___ 1.6/k. During the first 20 PROLSQ cycles the temperature factors B of all atoms were fixed at 10 A 2. In subsequent cycles the temperature factors of non-H atoms were treated as variables. The restraints applied to the values of B are discussed later (see Comparison between two independent refinements, Temperature parameters). Protein H atoms were included in the model at calculated positions towards the end of the refinement. They were given temperature factors equal to those of the atoms to which they were bonded. Solvent atoms were added to the model when the residual R had dropped to 0.30 for the data in the range 6.0 _> d___ 2.0 ~. Peaks at or above the 4o~(p) level in Fo-Fc maps were modeled as an O(water) atom if they had at least one plausible h~cdrogenbonding partner within the range 2.5-3.3 A. Peaks identified as solvent but making a contact shorter than 2.5 A with another solvent atom were modeled as a disordered solvent atom and refined with occu-
+
+Structural
+
+refinements
+
+As indicated above, the low-temperature data were used in two independent refinements of the structure. The calculations were made by means of the pro* Residuals: R = ~llFol - Igll/ZIFol;R=ersc= Y(L - ~)/~L.
+
+FIELDS, BARTSCH, BARTUNIK, CORDES, GUSS AND FREEMAN
+
+713
+
+Table 1. Refinement statistics for PROLSQ pancy 0.5. Peaks which made any other forbidden refinement: weighting parameters, and deviations from close contact were excluded. The temperature factors target values of solvent atoms were restrained to B >_ 2 A2. * Two neighbouring peaks buried beneath the surface of the The structural results discussed in this paper were derived from molecule persisted throughout the refinement, having refinement calculations using the target values o- and yielding the heights > 4tr(,o) in the final F,,- F,, map. Although deviations a listed under 'original restraints'. T h e o-'s and deviations A listed under ' R T restraints' refer to a subsequent repetition these peaks made several favourable hydrogeno f the final refinement cycles using the five times larger target bonding contacts, they were excluded from convalues o- that had been used in the R T refinement at 1.33 A sideration as O(water) by the rigorous application of resolution (Guss, Bartunik & Freeman, 1992), see text. a lower limit (3.1 A) for contacts with C atoms. In or R.m.s. A Worst A ZwA 2 the EREF refinement (see below), the lower limit was Bonding distances (A) applied less rigorously and analogous peaks were 0.014 0.062 Bond length 0.030 0.029 0.130 Angle distance 0.040 modelled as solvent. 0.90 x 1 0 3 0.050 0.030 0.121 Continuous density in (Fo- F~) maps contoured at Interplanar distance 0.017 0.118 X--H bond distance 0.100 the 3o-(p) level revealed 12 of the 14 side chains that 0.015 0.067 X--H angle distance 0.080 did not lie in density in the RT 1.6A structure: 0.19 × 103 0.010 0.034 Planar groups (/k) 0.020 0.79 × 102 0.150 0.124 0.458 Glul8, Lys26, Ser45, Lys54, Glu59, Asp61, Asn64, Chiral volumes (/k 3) Lys66, Ser75, Glu79, Lys95 and Asn99. The N o n - b o n d e d contacts (A) remaining two side chains, Lys30 and Glu60, were Single torsion 0.128 0.376 0.500 not as well defined. The electron-density features Multiple torsion 0.195 0.773 0.500 0.89 x 102 0.192 0.492 0.500 associated with them in (Fo- Fc) and 'omit' maps Hydrogen bond (X... Y) 0.133 0.476 Hydrogen bond (X--H.-.Y) 0.500 (the latter calculated with the omission of seven side chains at a time) were significant but not continuous. T o r s i o n angles ('3 5.0 2.3 Only three side chains (Ser56, Glu79 and Ser85) Peptide plane to (0, 18if:) 49.2 . 0.79 x 102 Staggered (---60, 180") 15.0 10.4 were ultimately modelled as disordered, despite the Orthonormal ( _ 90°) 23.8 22.0 9.7 fact that various types of electron-density map had suggested the presence of disorder at two more T h e r m a l factors (A2), original restraints 1.0 1.6 5.7 (Glu60 and Lys95). In the final model, Ser56 was Main chain (1 2) Main chain (1 3) 1.5 1.9 8.0 refined with its O r atom distributed over two sites Side chain (1-2) 1.0 2.6 10.2 0.37 x 10 3 1.5 3.6 14.7 having occupancies 0.3 and 0.7, respectively. The Side chain (1-3) X--H bond 2.0 1. I 4.1 electron density identified as O~(Ser56) had origin- X--H angle 2.0 1.9 10.5 ally suggested a model with this atom distributed equally over three sites, but two of the sites coalesced T h e r m a l factors (/k2), R T restraints 5.0 2.3 9.7 during refinement. The side chains of Glu79 and Main chain (i-2) Main chain (1-3) 7.5 2.6 12.2 Ser85 were each modelled as two conformers with Side chain (1-2) 5.0 4.4 25.6 0.37 X 102 7.5 5.3 27.8 occupancy 0.5. The difference between the two con- Side chain (1-3) X--H bond 10..0 2.2 9.7 formers of Glu79 was a - 9 0 ° rotation about X--H angle 10.0 3.3 20.1 C~--C 6. Attempts to refine Glu60 and Lys95 with Restraints against excessive shift two side-chain conformers were unsuccessful, and Positional parameters (A) 0.1 --these residues were included in the final model as Thermal parameters (·2) 3.0 . . . . single conformers (temperature factors ( B ) = 2 0 , 14 A2). Diffraction data 0.7376 x 104 13.0 --During the concluding stages of the refinement, Structure-factor modulus [tr(F) = 13.0, w = tr- 2(F)] the persistence of residual electron density in the immediate vicinity of the Ser48-Gly49 peptide group created doubts about the correctness of the model in this region. The best way to adjust the model was not obvious, since the electron-density in this region was * A referee has suggested that restraining B to ___2 A 2 m a y have relatively weak. The existence of the problem was masked the presence o f heavier atoms/molecules. This hypothesis noted at the time when the atomic coordinates from was not tested systematically, but the available evidence suggests the two independent refinements were exchanged. In that the assignment o f the solvent sites is correct. Only nine the Hamburg analysis, the Ser48-Gly49 peptide solvent sites have the m i n i m u m value B = 2 A 2, r o u n d e d to the nearest integer (Table S1; see f o o t n o t e concerning S u p p l e m e n t a r y group had been adjusted manually by about 180 c Material). Eight o f these nine sites were refined with occupancy with respect to the Sydney conformation at an early 0.5, so that the electron density would p r o b a b l y not be identifiable stage. Though the relevant maps are no longer as a heavier atom/molecule even if B were lower. T h e ninth site, accessible, it seems likely that the inclusion of solvent W104, was refined with occupancy 1.0; it requires no c o m m e n t atoms in the Hamburg model (see below) had since B is above the m i n i m u m (2.4/k2).
+
+7, I
+
+714
+
+P L A S T O C Y A N I N AT 173 K The residual R decreased from 0.35 to 0.25 after one cycle of refinement. This rapid improvement resulted essentially from a reduction in the phase errors which were initially present due to the substantial difference between the cell constants of the low-temperature structure as compared to the roomtemperature structure. In total about 40 alternating cycles of E R E F and B-factor refinement were calculated, interspersed with re-adjustment of parts of the structure on the graphics system and location of a large number of solvent molecules, which were not present in 1PCY, in density. Intramolecular hydrogen bonds were defined on the basis of their bond lengths ( < 3.35 A) and bond angles using the program H Y B A C (Levitt, 1975). Hydrogen bonds between main-chain atoms were required to have, in addition, an electrostatic interaction energy more negative than - 0 . 5 kcal m o l - l as calculated with the program D S S P (Kabsch & Sander, 1983). Peaks were identified as solvent if they were at or above the 40.(p) level in Fo - F~ maps and were within 2.5-3.5 A of a potential hydrogenbonding partner. As the refinement progressed, 3.5o-(p) peaks were also accepted if they met the geometrical criteria. The final model consisted of 738 protein non-H atoms, one Cu atom and 171 water molecules. The residual R for this model was 0.153, including all reflections. Refinement statistics were subsequently generated with the program P R O C H E C K (see below).
+Combined energy minimization and M D refinement
+
+resulted in better phases by the time when the electron density at Ser48-Gly49 was inspected. The correctness of the 'flipped' conformation was immediately confirmed by means of an 'omit' map for the Sydney model (i.e. an Fo - F,. map where the contributions of Ser48-Gly49 to the values F~ and ~c were omitted). The model was adjusted and the refinement was continued for nine more rounds. The final model consisted of the Cu atom, 747 protein non-H atoms with total occupancy 738, 714 protein H atoms, and 189 O(water) atoms with total occupancy 174. The residual R was 0.132 for the 7393 independent reflections with 6.0___d-> 1.6 A. Other refinement statistics at listed in Table 1.*
+E R E F refinement
+
+The starting model, comprising all protein and solvent atoms listed for 1PCY, had a residual R = 0.35 for reflections in the range 6.0 _> d-> 1.6 A. The model was improved on the basis of 2 F o - F,. and F , , - F c difference maps using the program F R O D O (Jones, 1978). The main chain was adjusted in the vicinity of residue Ser48 where the angle ~b was changed by almost 180 °. A number of side chains that were not or only partly defined in 1PCY were located in electron density. The structure was subjected to combined crystallographic and energy refinement using the program suite E R E F (Jack & Levitt, 1978). The Cu atom was left unrestrained. For all other atoms, restraints were used; parameters defining the potential energy were taken from Levitt (1974). Unrestrained isotropic temperature factors of the individual atoms were refined with the programs D E R I V and S H I F T S (H. Deisenhofer, personal communication). Structure factors were calculated with a program (S. J. Remington, personal communication) based on the F F T method by Ten Eyck (1977). E R E F minimizes the function,
+f ( E , A ) = E + wA,
+
+where E is the potential energy, A = ~(IFol- 4Fcl)2, and w is a weight factor. During most of the refinement calculations, a small value of w = 0.0001 was chosen in order to stress geometrical restraints; these restraints were relaxed (w = 0.0002) during the final stages of refinement. * Atomic coordinates, atomic thermal parameters and structure factors have been deposited with the Protein Data Bank, Brookhaven National Laboratory [References: IPNC (PROLSQ refinement), 1PND (EREF refinement)]. These data, together with Tables SI and $2 (water molecule environments, and additional refinement statistics as mentioned in text) have also been deposited with the IUCr (Reference: AM0011). Copies may be obtained through The Managing Editor, International Union of Crystallography, 5 Abbey Square, Chester CHI 2HU, England.
+
+At an intermediate step of the E R E F calculations, crystallographic refinement using molecular dynamics (MD) was carried out. The aim of the calculations was to investigate whether M D refinement could locate a number of residues in density without the need for manual adjustment using computer graphics. In particular, the side chains of six lysine residues (Lys26, 30, 54, 66, 77 and 95) were only partly defined at this stage. The M D calculations were made with the program G R O M O S (van Gunsteren & Berendsen, 1987) in which the energy of the molecule is defined by a semi-empirical function. The protocol was similar to that adopted by Fujinaga, Gros & van Gunsteren (1989). The integration steps were 0.002 ps over a time range of 2 ps. Restraints on the bonded interatomic distances suppressed molecular vibrations corresponding to higher frequencies. Electrostatic pair exchange interactions were calculated for distances < 8 ,~ between polar and charged groups with charges - 1 to + 1. The energy function contained two auxiliary terms. One of these provided a coupling to the experimentally determined X-ray
+
+FIELDS, BARTSCH, B A R T U N I K , CORDES, GUSS A N D F R E E M A N structure factors (Briinger, 1988),
+
+715
+
+Ej.= (1/o-2)(SIFcl - !F,,i)2,
+where 1/o-2 is a weighting factor and S is a scaling factor. The second auxiliary term described a harmonic potential applied to all atoms in order to keep them near their position in the initial structure. Only the side-chain atoms of the six lysine residues were exempted from this restraint. The starting model for the MD calculations consisted of 738 protein non-H atoms, the Cu atom and 146 water molecules; the residual R was 0.235. In trial calculations, the value of R increased unless the weighting parameter ¢r was in the range 50-100. A starting value o- = 100 and stepwise reduction to o" = 40 resulted in an improvement of R to 0.210, and located three of the lysine residues (Lys54, 66, 77) in density without operator intervention. Some atomic positions changed by as much as 3 ,~. The other three lysines required larger changes in atomic position which made manual adjustment on the graphics necessary. In parallel with the M D calculations, the initial structure was subjected to 50 steps of 'steepest descent' energy minimization (EM) calculations. The EM refinement resulted in an r.m.s, shift of 0.22 A, in the atomic positions summed over all atoms but, in contrast with the M D refinement, moved none of the lysine side-chain atoms into density.
+
+Table 2. Comparison between PROLSQ and EREF refinements
+T h e following c o m p a r i s o n s were m a d e by m e a n s o f the p r o g r a m P R O C H E C K ( L a s k o w s k i , M a c A r t h u r & T h o r n t o n , 1993). T h e "typical' values are t a k e n f r o m that p r o g r a m .
+
+PROLSQ value
+Main-chain parameters S.d. of peptide bond planarity (~) ( ) S.d. of C" tetrahedral distortion (O ( ) Bad non-bonded contacts per 100 residues S.d. of hydrogen-bond energies (kJ mol ~) Residues in most favoured regions of Ramachandran plot (%) Side-chain torsion angles S.d. of x~ gauche minus ( ) S.d. ofxL trans ( ) S.d. o f x t gauche plus C) S.d. of .~'~pooled C) S.d. of X2 trans C) 2.2 2.3 1.0 2.9 91.5
+
+EREF value
+7.0 2.3 1.0 3.3 91.0
+
+'Typical' value 6.0 3.1 1.4 2.9 87.5
+
+9.1 6.0 10.5 9.3 7.7
+
+8.7 6.8 9.7 9.0 7.0
+
+14.5 16.1 14.5 15.1 18.2
+
+assess the extent to which the results had been influenced by the choice of refinement parameters. We refer to these calculations at relevant points in the text.
+
+Comparison between two independent refinements
+Several previous discussions of the plastocyanin structure have addressed the problem of estimating the accuracy and precision of the protein coordinates in general and the metal-site geometry in particular (Guss & Freeman, 1983; Guss, Harrowell, Murata, Norris & Freeman, 1986; Guss, Bartunik & Freeman, 1992). The present work provides an additional insight into this problem by comparing models derived from a single set of LT diffraction data via two independent refinements. The most likely causes of differences between the refined models are differences in refinement methodology, operator intervention, and/or refinement strategy. (i) Differences in methodology. EREF and PROLSQ introduce restraints in different ways, give different weights to the restraints in relation to the crystallographic observations, use different values to represent ideal geometry, and have different capacities to deal with disordered side chains and partially occupied solvent sites. Such differences are obviously capable of affecting the refinements. A similar conclusion was reached, for example, by Rydel, Tulinsky, Bode & Huber (1991). (ii) Differences in operator intervention. The refinement steps most likely to be affected by operator intervention are those where human pattern recognition plays an important role, i.e. the assignment of side-chain conformations and solvent sites. For example, the decision whether an electron-
+
+Further refinement statistics
+Some comparative statistics for the PROLSQ and EREF refinements are shown in Table 2. The statistics were generated by means of the program PROCHECK which analyses a given structure in terms of 'typical' values for geometrical parameters derived from a survey of well refined structures (Laskowski, Macarthur & Thornton, 1993). The values listed in Table 2 reveal no substantial differences between the PROLSQ and EREF refinements, with the exception of the standard deviation in to (the parameter characterizing the planarity of a peptide group). The standard deviations (PROLSQ, 2.2~; EREF, 7.0°; 'typical' value, 6.6 °) and maximum deviations (PROLSQ, 7.1°; EREF, 24.5°; not shown in Table 2) in to show that, while the EREF results may be described as 'typical', the restraints on peptide group planarity are more effective in PROLSQ than in EREF. A more detailed discussion is given under the heading Effects of restraints on atomic positional coordinates, below.
+
+Additional refinement trials
+After the conclusion of the PROLSQ and EREF refinements, a number of calculations were made in order to test the robustness of the results and to
+
+716
+
+P L A S T O C Y A N I N AT 173 K positions agree within 0.4/k. The significance of the largest differences is discussed later. The slightly greater detail in the Sydney model (allowance for three disordered side chains and 27 disordered solvent sites) has no significant effect on the cited statistics. The solvent structures in the two models are also closely similar. Cooling the crystals to 173 K has resulted in increased detail in the solvent region. The Hamburg and Sydney LT models have 171 and 189 solvent sites, respectively; 159 solvent sites are common to both models, i.e. occur within 1 A of each other (Fig. 3). Table S1, comprising details of the environments of the water molecules in both models, has been deposited as Supplementary Material.*
+
+density feature represents a single atom or a superposition of partial atoms can be influenced by operational accidents such as the order of the directions from which the electron density is viewed, or even by subjective factors such as the operator's past experience. We expect differences between the EREF and PROLSQ models to have arisen in this way, even though the effects may be difficult to quantitate. The effects of operator intervention on the outcomes of a refinement have been demonstrated previously (Guss, Bartunik & Freeman, 1992). (iii) Differences in refinement strategy. The EREF and PROLSQ refinement strategies differed in the choice of starting models (EREF, all atoms listed in 1PCY, including solvent; PROLSQ, only protein atoms with B_< 35 A2), the treatment of H atoms (EREF, H atoms added at calculated positions after refinement converged; PROLSQ, H atoms included in refinement model), and the treatmetnt of atomic temperature parameters (EREF, unrestrained; PROLSQ, restrained). The possibility that the choice of starting model in the EREF refinement resulted in better phases, and thus facilitated the recognition of a 'peptide flip' at an early stage of the refinement, has already been mentioned. Evidence that the differences between the starting models were not propagated to the final refinements is provided by the fate of the 44 solvent molecules in 1PCY. Despite the fact that these solvent molecules were excluded from the PROLSQ starting model but included in the EREF starting model, 29 were located in both refinements, and 10 were located in neither refinement. (Two more turned up only in the PROLSQ refinement, and the remaining three only in the EREF refinement.) Thus the possibility of bias in the refinements from the starting models can be rejected. Similarly, it is unlikely that the final results were affected significantly by differences in the treatment of H atoms: in principle the inclusion of H atoms makes the restraints on non-bonded contacts more realistic, but it has been shown elsewhere that - at least in a PROLSQ refinement - the effect on the positions of the non-H atoms is small (Guss, Bartunik & Freeman, 1992). The effects of treating temperature factors differently require further discussion (see Temperature parameters, below).
+
+Effect of restraints on atomic positional coordinates
+The residual R from the PROLSQ (Sydney) refinement, 0.132, is significantly lower than that from the EREF (Hamburg) refinement, 0.153 (Fig. 1). The order is reversed if the r.m.s, deviations from ideal bond lengths as defined in the libraries of the respective programs are compared (PROLSQ, 0.014 A,; EREF, 0.011 A,). This illustrates the balance between two refinement objectives - to minimize the differences between the observed and calculated structure amplitudes on the one hand, and the deviations from a set of ideal geometrical criteria on the other hand. In the present work the relative weights that control this balance were chosen subjectively on the basis of past practice. The weights used in the PROLSQ refinement were in fact identical with those used in the original RT refinement at 1.6 ,~ resolution (Guss & Freeman, 1983). * See footnote concerning Supplementary Material.
+
+~ - ,
+
+~
+
+·
+
+1
+
+,
+
+r--r
+
+~
+
+-
+
+~
+
+7
+
+r7
+
+t
+~o,
+
+SlOe
+
+chain
+
+5er
+
+f
+
+L. . . . . . . .
+
+1
+
+Atomic positional coordinates
+The protein models derived from the PROLSQ (Sydney) and EREF (Hamburg) refinements are in close agreement (Fig. 2). The r.m.s, differences between the atomic coordinates in the two models are 0.08 ,~ for C" atoms, 0.08/~ for backbone atoms, and 0.24 A for side-chain atoms. The maximum difference between the positions of a backbone atoms is 0.28 A, and 96% of the side-chain atom
+
+~l J llf,~i H,rllihll i i,lh, i ~rlJ I,J,~h , llJi, I Jll~,, I~, I~,1, I~lrl~llll;ll~rll~'"lll~ll"llllrrll~lrll~lIIIIli'~l~ Ililllllqlllllllllll'U~r'll~Ul"l~ill I j
+m! BaCKbOne 50 60 Residue n u m b e r 70 80 90
+
+]
+
+° L0 . . .aO. . . . 20. . . . .30. . . . .aO. . . . . . .
+
+100
+
+J
+
+Fig. 2. Differences between the atomic positions refined by PROLSQ and EREF, respectively. The differences shown for each residue are r.m.s, values averaged over (top) the side-chain atoms, and (bottom) the backbone atoms (N, C", C, O).
+
+FIELDS, BARTSCH, B A R T U N I K , CORDES, GUSS A N D F R E E M A N In order to assess the extent to which the atomic coordinates were influenced by the geometrical restraints in the two refinement programs, both the PROLSQ and EREF models were subjected to ten further cycles of PROLSQ refinement in which only the atomic positional parameters were varied and the restraints on them were switched off. The coordinates used for the unrestrained refinements were taken directly from the outputs of the final restrained refinement cycles (PROLSQ, all non-H and H atoms; EREF, non-H atoms). The choice of PROLSQ as the program for the unrestrained refinement of both models is unlikely to have affected the outcome since the temperature factors were kept constant and only minimization of Y~w(AF)2 was involved. The r.m.s, shifts resulting from this type of calculation can be used as conservative indicators of the errors in the atomic positions (Chambers & Stroud, 1979). The additional cycles of unrestrained refinement of the PROLSQ model resulted in r.m.s, changes of 0.10, 0.11 and 0.13 ]k in the positions of the protein
+
+717
+
+backbone atoms, non-H atoms and side-chain atoms, respectively. The corresponding r.m.s, shifts for the EREF model were 0.12, 0.15 and 0.18 A, respectively. The uncertainty calculated in this way for the backbone atom positions in the PROLSQ model, 0.10 A, is consistent with an estimate derived from the r.m.s, difference between the PROLSQ and EREF models (see below). Similar values (r.m.s. shift 0.14 A, accompanied by a decrease in R from 0.125 to 0.103) were reported for a protease-B/inhibitor complex at 1.8 A resolution (Read, Fujinaga, Sielecki & James, 1983). During the unrestrained refinements, the residual R for the EREF model decreased from 0.153 to 0.138, and that for the PROLSQ model from 0.132 to 0.111. The slightly smaller decrease in R for the EREF model when the restraints were relaxed is consistent with other evidence (see below) that most of the variables were restrained more effectively in PROLSQ than in EREF. Such comparisons are complicated by the fact that the models produced by the original refinement, and therefore used for the
+
+o·
+·
+
+· · oB e ·
+
+· 9
+·
+
+· · · rio ·
+·
+
+· ·can · ® o
+
+· ·
+·
+
+·
+
+·
+
+o~
+
+o·
+·
+
+·
+·
+
+q~
+
+.· · . . ~ ~ ..~ ~ ' . ~ .
+
+,~.&
+~ ~ ~
+
+·
+
+.o ·
+·
+
+·
+
+. _Z."rka'.. - : :~-
+
+·
+
+,...
+
+:
+--.-~
+· ·
+
+~I ( :" _ ~ " ~
+
+..
+
+"' °"
+_
+
+~ / ~ . ' '
+
+''®
+
+1~ , ( / 1 ® . / . %
+·
+
+f 3"."
+
+%®
+
+·
+
+· ·
+
+·
+
+·
+
+·
+
+· 0~
+· · °o ·
+
+.
+· ® ® · · ~oO ~ ·
+
+t
+
+· · e@
+
+®
+
+®
+
+~ o
+
+·
+
+·
+
+;
+~ · \/'l./°'" J,./d''\\ _ o/o· ~
+®
+
+....
+· .
+® ·
+
+~,
+o
+
+.. ~,~,~ .'"
+
+{--~ .~
+o
+
+Fig. 3. The plastocyanin molecule (C ~ atoms, Cu atom and Cu-binding side chains) and solvent atoms in the crystal at 173 K. Small circles denote solvent atoms; filled circles, solvent atoms found in both refinements; circles with dot, additional solvent atoms found in the Sydney refinement; plain circles, additional solvent atoms found in the Hamburg refinement. The arrow indicates the location of Ser48-Gly49 (see Figs. 7 and 8). The top and bottom parts of the figure are related by a rotation of 180 ° about the vertical axis.
+
+718
+
+P L A S T O C Y A N I N AT 173 K differences between the values for adjacent atoms. In EREF the structure factors were calculated with a fast Fourier transform algorithm using an atomic model in real space, and during refinement the B's were unrestrained. When the EREF model was subjected to further refinement by PROLSQ, including the application of PROLSQ restraints on the temperature parameters, the average values (B) for various types of atom decreased until they were close to the values obtained in the original PROLSQ refinement ((B) for EREF model after PROLSQ refinement, followed by (B_) for PROLSQ model: protein atoms, 5.7, 5.3 A2; solvent atoms, 19.1, 17.8 ,~2; all atoms, 8.6, 8.0 A2). Given the better agreement with the Wilson-plot value, and the greater chance of errors arising from sampling in the FFT calculation of structure factors affecting the B's, we conclude that the PROLSQ values are more likely to be correct. We are, however, left with the possibility that the B's produced by PROLSQ were artificially low as a result of too tight restraints (i.e. too low target o-'s). It seemed prudent to test this hypothesis because the target tr's
+
+unrestrained refinements, were not entirely equivalent (H atoms being included only in the PROLSQ model). In a second test of the restraints, the final EREF model (non-H atoms) was subjected to 15 cycles of restrained PROLSQ refinement. Predictably, the imposition of PROLSQ restraints caused the EREF model to change towards the PROLSQ ideal geometry. The r.m.s, deviation between the two sets of 396 backbone-atom positions decreased from 0.08 to 0.05 ~,. There were improvements in the r.m.s. and maximum deviations from all PROLSQ target values except those for multiple-torsion contacts, hydrogen-bonded contacts, staggered torsion angles and orthonormal torsion angles. Particularly large improvements occurred in the deviations from the target values for planar groups and for torsion angles involving peptide planes, indicating that the relevant restraints were substantially more effective in PROLSQ than in EREF. Table $2 summarizing the refinement statistics has been deposited as Supplementary Material.* During the restrained PROLSQ refinement, the residual R for the EREF model (as calculated by PROLSQ) decreased to 0.151. The difference between this value and the residual R = 0.132 for the PROLSQ model could be attributed almost entirely to the effect of H atoms. The residual calculated for the PROLSQ model without H atoms was 0.149. Deleting the H atoms from the 1.33 A RT model of Guss, Bartunik & Freeman (1992) resulted in similar changes (from R =0.141 to 0.154 for the data to 1.6 A, and from R = 0.151 to 0.163 for the data to 1.33 A resolution).
+
+o
+
+r
+
+,
+
+w
+
+·
+
+,
+
+·
+
+,
+
+,
+
+|
+
+,
+
+r
+
+o
+
+EFIEF
+
+"~o C,.l
+
+b ~o
+a] c m o
+
+llli,,llllIlr,~r,i~,~ll,,,IfIIIlllr,lUlIirlInr l,HIIllq IIl"UIl[ll'""""&'""I
+PROLSQ
+.t___J__l , 1 · t · 1 , 1 · t 1 1 , I · ,
+
+Illl El,J,,iJlJlh,J,JII,,l,lIII 1111,1JJl,l ill,11, ilJJl,ll ,IJ,llJ,,,,,
+~ _ ~ J
+
+Temperature parameters
+The variations of B as a function of residue number are similar in the Sydney and Hamburg refinements (Fig. 4). The actual B's are, however, consistently higher in the Hamburg (EREF) refinement. Are the EREF B's systematically too high, or are the PROLSQ B's too low? A Wilson plot for the LT data provides qualitative evidence that the former is the case (Fig. 5). The isotropic temperature factor deduced from the Wilson plot, B = 6.6,~2, is in better agreement with the average value (B) = 8.0 ,~2 from the PROLSQ refinement than with the average value (B) = 11.0 A 2 from the EREF refinement. The systematic difference between the PROLSQ and EREF results arises from the way in which the atomic B's were calculated and refined. In PROLSQ the structure factors were calculated using a trigonometric expression in reciprocal space, and the B's were restrained during refinement to prevent large * See footnote concerning Supplementary Material.
+
+o
+
+0
+
+I0
+
+20
+
+30
+
+40 50 60 R e s i d u e numOer
+
+70
+
+80
+
+90
+
+100
+
+(a)
+
+o
+
+Set
+
+~o LC~
+
+2
+rn o
+
+,l,,,,h ,,,,,,,,, ,,,, J,, , ,,,,,, ,, I,IL, 1,,,
+PROL SQ
+
+.g
+
+Illll '11 IIl'"'l""' 1 '" ,ll 'l" I, q, '"l 'l'r ,~r ',r, I '"" ,ll r,,
+
+,,, ,,,
+,~,
+
+0
+
+10
+
+20
+
+30
+
+40
+Res 1due
+
+50
+
+60
+n u m b e r
+
+70
+
+80
+
+90
+
+100
+
+(b) Fig. 4. Temperature factors averaged over (a) backbone atoms N, C", C, O, and (b) side-chain atoms of each residue. Above line, EREFrefinement; below line, PROLSQ refinement.
+
+FIELDS, BARTSCH, BARTUNIK, CORDES, GUSS A N D F R E E M A N for temperature factors in the LT refinement (listed under 'original restraints' in Table 1) were only one-fifth of the values used in the RT refinement of PoPc (Guss, Bartunik & Freeman, 1992). The last six PROLSQ refinement cycles were, therefore, repeated with the original target o-'s multiplied by 5 and 50, respectively. The former value made the target cr's equal to those used in the RT refinement. The (B) for protein atoms, 5.3/k 2, increased only to 5.5 and 5.6 A 2 when the target 0% were multiplied by 5 and 50, respectively. In neither case was the change significant. Thus the possibility that the PROLSQ B's were systematically too low as a result of excessive restraints can be eliminated. The statistics for the LT refinement with target o-'s increased by a factor of 5 (i.e. equal to those in the RT refinement) are included in Table 1 under 'RT restraints'. It is not surprising that relaxing the restraints led to increases in the largest differences ('Worst A') and the r.m.s. A's. On the other hand, the further tenfold increase in the target cr's left the refinement statistics (not shown) almost unchanged, indicating that the LT temperature parameters were effectively unrestrained when they were refined with the RT target o-'s.
+
+719
+
+Table 3. Estimates of the uncertainty of atomic posi-
+
+tions in PoPc at L T
+Backbone atoms Overall Side-chain atoms
+
+(A)
+Luzzati plot R.m.s. difference between PROLSQ and EREF models R.m.s. change when restraints released PROLSQ model EREF model Estimated uncertainty in PoPc at RT and 1.6 A, resolution (Guss & Freeman, 1983) -0.08
+
+(A)
+0.13 0.12
+
+(A)
+-0.24
+
+0.10 0.12
+
+0.11 0.15
+
+0.13 0.18
+
+0.10
+
+-
+
+--
+
+Accuracy and precision of the L T model
+A Luzzati plot (Luzzati, 1952) calculated with the Fc~ values from the Sydney refinement leads to an estimated maximum average error of about 0.13 ,~ in the atomic positions (Fig. 6). This global estimate is likely to be too high for the positions of the protein backbone atoms, and too low for the positions of the side-chain atoms and solvent atoms: the atomic positions in the backbone are least likely - and those in
+
+exposed side chains and solvent sites most likely - to have been affected by software options for handling disorder and by operator intervention. We have already seen that agreement between the two refined models is much better along the protein backbone than at the side chains and in the solvent region. For the backbone atoms a plausible estimate of the uncertainty is provided by the r.m.s, difference between their positions in the Sydney and Hamburg models, 0.08 A. The fact that the difference is small suggests that the two refinements have determined these atomic positions equally accurately, within the limits of precision permitted by the data. The r.m.s. change during an unrestrained refinement calculation (see above) leads to a slightly higher value, 0.10 A, consistent with the fact that the uncertainty in the atomic positions is not caused solely by differences between the two refinements. Accordingly we treat 0.10 A as a quasi-e.s.d. It is equivalent to the estimated uncertainty of the backbone atom positions in the 1.6/k RT structure analysis of PoPc, where it was possible to calculate the r.m.s, difference between two models that had been refined using independent
+
+m l
+
+~f
+
+;~
+· ·
+" --.... -.
+
+o[o i mL
+
+. . . . .
+
+-
+
+-~-= .
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+i.....
+0 20A
+
+q
+
+i
+
+,~
+v
+... "3
+
+[
+o':'
+
+---..
+
+·
+-----....
+
+4
+
+o
+
+/j'"
+I /i-
+
+J .
+i
+
+t12 2kl D
+
+1
+·
+·
+
+/
+
+/"
+
+/-"
+
+0:51-
+
+j
+
+.
+
+"
+
+-,i
+,-ql r'i
+
+-1
+L]E -Ci"
+J / J J
+
+3. ~0~
+
+i
+
+o
+
+·
+
+~
+
+J
+
+.,-
+
+z ~
+
+]
+
+-" 3 - 0 ' .
+
+L' [4;.~
+
+-:.' ' : 2
+
+() 0,4
+
+0
+
+0'5
+a
+
+O 06
+
+0
+
+07
+
+60~
+
+209
+
+C
+
+'-
+
+5 lnaO/~
+
+° I ~
+o i~. _~ C C.C~
+
+j~
+i.
+
+~
+" ,. . . . . . 0.1~
+
+~
+0
+25 0,3 0 3,5 0,4
+
+Fig. 5. Wilson plot calculated from the observed intensities/~¢~ at 173 K and the values o f fN,~os.., averaged over ranges o f 2 sin20/a 2. The average temperature factor B = 6.6 A 2 derived from the plot is in g o o d agreement with the average B = 8.0 A 2 calculated from the PROLSQ refinement.
+
+O
+
+0 2 s]n£/~.
+
+Fig. 6. Luzzati plot calculated from the values o f F obs2at 173 K and the values o f F~.~2 after the PROLSQ refinement.
+
+720
+
+PLASTOCYANIN AT 173 K Table 4. Comparisons between side-chain conformations in PoPc at R T (295 K) and L T (173 K)
+Description of side chain at LT* Description of side chain at R T t Two Single conformers conformer (disordered) Notes Glu 18 (a) Glu59 (a) Asn99 (a) Ser45 (a) Lys54 (a) Asp61 (a),(h) Asn64 (a),(b),(e) Ser75 (a) Ser56 (b),(f) Ser85 Lys26 Pro36 Glu43 Ser48 Ser58 Glu60 Glu68 Lys95 Lys30 Lys66 Glu71 Glu79 (a),(b) (b)
+
+data sets (Guss & Freeman, 1983). A summary is given in Table 3. The indications that the present 1.6 A LT models have approximately the same precision as the 1.6 A RT model can be rationalized as follows: On the one hand, the mosaic spread of the LT crystals was larger and the diffraction data were less complete; on the other hand, the data were good enough to reveal additional details of the molecular structure and the solvent structure. While it is important to establish the general precision of the molecular structure, the chemically most interesting parameters are the dimensions of the Cu site. Here the analogy between the precisions of the 1.6 A LT and RT models is particularly helpful. The r.m.s, differences between the Cu-ligand bond lengths and bond angles in the two LT refinements are 0.05 A and 3 °, respectively. While statistics based on samples of four bond lengths and six angles must be treated with caution, the use of r.m.s, differences as estimates of the precision of the LT Cu-site geometry is supported by the fact that they are identical with the estimated standard deviations in the 1.6 A R T model.
+Atomic positions in exposed side chains and solvent region
+
+Single conformer Same as at RT Single conformer Same as one conformation at RT
+
+Disordered, two conformers same as two conformers at RT Disordered, two conformers one conformer same as at RT Single conformer not same as RT
+
+(b),(c)
+(g)
+
+(c),(h)
+(c),(d),(h) (a),(b),(d)
+
+Single conformer not same as conformers at RT Disordered, two conformers neither conformer same as at RT
+
+(a),(b) (i) (a)
+
+In contrast with the positions of atoms in the polypeptide backbone and internal side chains, the positions of surface side-chain and solvent atoms have a high probability of being influenced by software options for handling disorder and by differences in operator intervention during the later stages of a refinement. In the present work there are seven differences ---0.4 A between the Sydney and Hamburg models, and all of them occur at side chains: Lys26 at C 8 and C ", Pro36 at C y, Glu43 at O ~i, Ser56 at C a and O y, Asn64 at C r, N 82 and O BI, Lys66 at N ¢, and Lys95 at C 8, C" and N ¢. The differences between the final models probably originated from different interpretations of similar electon-density features by two knowledgable operators. A conservative approach is to regard these side chains as relatively poorly defined (Table 4).
+
+Notes: (a) Side chain in electron density at LT, but not at RT and 1.6 A resolution. (b) Side chain with one or more atomic positions differing by _>0.4 A in the P R O L S Q and E R E F LT models. (c) Side chain difficult to locate in electron density at LT. (d) Evidence for disorder in LT electron density, but refined as single conformer. (e) Residue with largest change in backbone position on cooling (see Figs. 9 and 10). ( f ) Only residue that is disordered in both LT and RT models. (g) Residue involved in peptide flip (see Figs. 7, 8 and 10). (h) See Fig. 15. (i) See Fig. 16. * The LT atomic positions are taken from the P R O L S Q refinement. t The RT atomic positions are taken from the refinement at 1.3 A resolution (Guss, Bartunik & Freeman, 1992).
+
+Description of low-temperature structure and comparison with ambient-temperature structure
+Other proteins for which high-resolution structures at low temperatures have been determined include bovine pancreatic trypsinogen at 103 and 173 K (Walter et al., 1982), sperm-whale metmyoglobin at 80, 115, 165 and 185K (Parak et al., 1987), flavodoxin at 123 K (Watt, Tulinsky, Swenson & Watenpaugh, 1991), rat trypsin-S195C at 123 K
+
+(Wilke, Higaki, Craik & Fletterick, 1991), ribonuclease at seven temperatures between 98 and 260 K (Tilton, Dewan & Petsko, 1992), and bovine pancreatic trypsin at 220 K (H. H. Bartsch & H. D. Bartunik, unpublished work). As in the present work, the temperature factors in these lowtemperature structures are generally lower than at ambient temperature, and enhanced contrast in the electron-density maps enables additional atoms (mainly solvent) which are disordered at ambient temperature to be located.
+The PoPc unit cell at 173 K
+
+The changes in unit-cell dimensions when PoPc crystals are cooled from room temperture to 173 K correspond to a shrinkage of 4.2% in the unit-ceU volume [1.7% (1.0 A) along c, 1.4% (0.4/~) along a,
+
+FIELDS, BARTSCH, BARTUNIK, CORDES, GUSS A N D F R E E M A N and 1.3% (0.6 A) along b]. There is clear evidence from the X-PLOR rigid-body refinement preceding the Sydney PROLSQ calculations that the protein molecules adjust to the decreased volume by rotating about 1° with respect to the unit-cell axes. The reduction of the unit-cell volume of PoPc by 4.2% lies in the range of shrinkages which have been reported for bovine pancreatic trypsinogen at 173 K (0.4%), sperm-whale met-myoglobin at 185 K (2.8%), flavodoxin at 123 K (5.3%), and rat trypsinS195C at 123 K (7.5%). More of the unit-cell shrinkage can be attributed to the solvent than to the protein. If the radius of gyration of the PoPc molecule, R g y r , is calculated from the coordinates of the 396 polypeptide backbone atoms, its value decreases from 12.31 ,~ at RT to 12.22 A at LT. The change in R g y r corresponds to a decrease of - 2 % in the molecular volume. Since the decrease in the unit-cell volume is 4.2%, and if the fraction of the unit cell occupied by solvent is 36% as in the RT structure (Chapman et al., 1977), then it follows that the decrease in the volume occupied by solvent is - 8 % . For flavodoxin [60% solvent (v/v)], the protein volume decreases by - 3 % and the solvent volume by - 7 % (Watt, Tulinsky, Swenson & Watenpaugh, 1991). For rat trypsin-S195C, an even larger decrease in R g y r f r o m 1 5 . 8 t o 1 5 . 5 / ~ ( 5 % ) i s observed (Wilke, Higaki, Craik & Fletterick, 1991). Whether the volume occupied by solvent is smaller at LT because there are fewer solvent molecules, or whether the same number of solvent molecules are packed more efficiently, remains to be determined. The greater detail seen in the solvent region suggests that the solvent is more ordered at low temperature, but does not prove that the average volume per solvent molecule is reduced.
+
+721
+
+Table 5. Dimensions of the Cu site in poplar plastocyanin at low and ambient temperatures
+S Y D , s t r u c t u r e a t 173 K r e f i n e d b y PROLSQ ( S y d n e y ) ; H A M , s t r u c t u r e at 173 K r e f i n e d b y EREF ( H a m b u r g ) ; 1.33 A , s t r u c t u r e at 295 K r e f i n e d b y PROLSQ ( G u s s , B a r t u n i k & F r e e m a n , 1992). SYD C u - l i g a n d b o n d l e n g t h s (/k) Cu--N(His37) Cu--N(His87) Cu--S(Cys84) Cu--S(Met92) Deviations of Cu from planes of best Cu-.-N(His37),S(Cys84),N(His87) Cu..-N(His37),S(Cys84),S(Met92) Cu.-.S(Cys84),N(His87),S(Met92) H y d r o g e n b o n d to S ( C y s 8 4 ) ( A ) (Asn38)N--H.-.S(Cys84) B o n d a n g l e s at C u a t o m ( ) N(His37)--Cu--N(His87) N (His37)---Cu--S(Cys84) N(His37)--Cu--S(Met92) N(His87)---Cu--S(Cys84) N(His87)--Cu--S(Met92) S(Cys84)--Cu--S(Met92) B o n d a n g l e s a t l i g a n d a t o m s C) C~'--N (His37)--Cu C~--N(His37)--Cu C~'--N(His37)~C ~ C ~'--N (His87)--Cu C'--N(His87)---Cu C~'--N(His87)--C ~ Ca--S(Cys84)--Cu C~--S(Cys84)...N(Asn38) Cu--S(Cys84).-.N(Asn38) C :'--S(Met92)---C u C~--S(Met92)--Cu C~--S(Met92)--C " D i h e d r a l a n g l e s a t C u site (7) Cu--N(His37)--C~'---C a2 Cu--N(His37)--C~--N . . . . N(His37)--Cu--S(Cys84)----Ct~ N ( H i s 3 7 ) - - C u - - S ( M e t 9 2 ) - - C ~' N(His37)---Cu--S(Met92)--C ~ N(H is37)---Cu--N(His87)--C ~' Cu--N(His87)---C~'---C~ Cu--N(His87)---C"--N ~ N(His87)---Cu--S(Cys84)---Ca N(His87)---Cu--S(Met92)---C ~ N(His87)---Cu--S(Met92)--C': N(His87)--Cu--N(His37)---C ~' Cu--S(Cys84)---CO--C " 1.98 1.95 2.14 2.78 fit (~,) 0.37 0.69 0.74 HAM 2.05 1.95 2.20 2.78 1.33 A 1.91 2.06 2.07 2.82
+
+0.47 0.70 0.74
+
+0.36 0.65 0.70
+
+3.55
+
+3.47
+
+3.51
+
+103 132 88 114 107 108
+
+102 128 95 I 15 107 107
+
+97 132 88 121 101 110
+
+129 122 108 129 126 105 106 112 107 131 98 96
+
+132 112 110 129 123 107 107 I11 108 130 97 98
+
+129 123 106 126 124 105 111 108 109 127 96 98
+
+-
+
+The Cu-site geometry at 173 K
+The dimensions of the Cu site at low and ambient temperatures are compared in Table 5. Neither the differences between the Sydney and Hamburg dimensions at LT, nor the differences between the LT models at 1.6 A resolution and the RT model at 1.33 A resolution, are significant in terms of the estimated standard deviations [0.05 A and 3 ° at 173 K (present work), 0.04A and 2.5 ° at 295 K (Guss, Bartunik & Freeman, 1992)]. The difference between the two Cu--N(His) bond lengths, which is significant in the RT model at 1.33 ,~ resolution, is not observed at 1.6 A resolution in the LT or RT models. Apparent discrepancies between the values of some dihedral angles in the three refinements may be ignored. They are associated with the absence of restraints on the deviations of the Cu atom from the imidazole ring planes of His37 and His87 (B. A.
+
+-
+
+-
+
+S(Cys84)--C~--C"--N
+Cu--S(Met92)---CY--C a C'--S(Met92)---C~'--C t~ S(M e t 9 2 ) - - C : ' - - C ~ - - C " S(Met92)--Cu--S(Cys84)--C ~
+
+171 172 107 157 51 148 175 176 115 100 154 139 171 172 71 177 170 - 4
+
+150 - 157 - 114 157 51 157 174 - 174 116 -99 155 153 - 169 169 76 - 178 172 - 2
+
+165 - 166 - 110 161 56 167 159 - 159 113 - 102 153 147 - 168 169 68 173 166 - 3
+
+Fields, J. M. Guss & H. C. Freeman, unpublished work).
+
+A 'peptide flip'at residues 48-49
+The most notable difference between the molecular structures at LT and RT occurs at residues 48-49
+
+722
+
+PLASTOCYANIN
+
+AT T a b l e 6.
+
+173 K
+
+( T a b l e 6, F i g s . 7 a n d 8). T h e L T s t r u c t u r e c o r r e sponds to a type I reverse turn (Venkatachalam, 1 9 6 8 ) w i t h (P48 = - 4 7 ° , ~48 = - 3 0 ° , ~049 = - 9 4 ° , ///49 = -- 50. A t R T t h i s r e v e r s e t u r n is a t y p e II t u r n (Venkatachalam, 1 9 6 8 ) w i t h ~048 = - 55 °, ~48 = 133 °, ~o49 = 9 0 °, ~P49 = 14°. B o t h t y p e s o f t u r n h a v e a O...H--N bond between r e s i d u e s 4 7 a n d 50. A plausible explanation for the interconversion is t h a t the two conformations o f t h e m o l e c u l e lie in s h a l l o w free-energy minima with approximately equal free e n e r g i e s , a n d t h a t s m a l l c h a n g e s in m o l e c u l a r p a c k -
+
+Protein and solvent contacts ( < 3 . 3 5 A ) in the vicinity of Ser48-Gly49 at 173 K (LT) and at 2 9 5 K (RT)
+Contacts Residue 11e46 133 102 186 203 244 Val50 Asn99i' 157 300 203 Glu59 299 299 128 Pro47 Pro47 Ser85v" Ser85v" Pro86 Ser#85 TM Ser # 85TM
+TM
+
+Residue Ser48
+
+Gly49
+
+N...O N.--O,. O.-.O, O...O, O...Ow O..-O~ C.-'N O y'''OT O~""O,. Ca".Ow C ~-''O.. C"'"O C .... Ow N.-.O~ N-.-O~. N.-.C N.-.O O..'O:' O-.'C ~ O-..N O'"O ~ O-'-C~ O-.-O,~
+
+TM
+
+TM
+
+Distance LT 3.0 3.0 2.8 --2.8 -2.8 3.1 3.3 -3.3 3.0 2.4 -3.3 3.1 2.5 3.2 3.3 2.5 3. I
+--
+
+(A) RT --t 2.8 -2.6 3.2 * 3.3 3.1 3.3 * 3.3 3.2 * * 3.0 --2.7 3.3 ---
+
+129
+
+3.2
+
+Fig. 7. 'Peptide flip' at Ser48-Gly49. The conformation at residues 48-49 is shown at 173 K (heavy lines) and at 295 K (light lines).
+
+Symmetry codes: (iv) ~ + x, ~ - y, 1 - z; (vii) 1 - x, - ~ + y, ~ - z. · Solvent atoms not located in the structure at RT. · Dashes (--) denote distances -> 3.35 A. # Symbol denotes a conformer of a disordered residue.
+
+~ ~
+
+~
+
+o o / - ,"-° ..,o
+
+o ~
+o o
+
+N99 [
+
+/-,
+
+/ ?1 . \ o/....
+
+o
+
+>
+
+V
+$85
+
+,a
+
+-
+
+~) o
+
+O0
+
+P88~..~
+
+o
+
+7
+
+1
+
+~
+
+o
+
+0~
+
+I
+
+Fig. 8. Environment of Ser48Gly49 in the crystal structure of poplar plastocyanin (top) at 173 K, and (bottom) at 295 K.
+
+FIELDS, BARTSCH, BARTUNIK, CORDES, GUSS A N D F R E E M A N ing (such as those associated with changes in the ordering of the solvent and in the volume of the unit cell) suffice to freeze out one conformation at LT and another at RT. Peptide flips in response to changes in molecular packing have been reported previously [for example, at Gly78 in two ortho-
+
+723
+
+51de
+
+chaln
+
+[
+
+/
+
+~ ' ~o: Lh I IIHIJ 1[ ] h,h I I ,11[II
+Eo.
+rr gackDone
+
+I
+
+IIIi, I iI lit, i
+.
+
+rhombic crystal forms of trypsin (Bartunik, Summers & Bartsch, 1989)]. Two independent observations on plastocyanin support this hypothesis. (i) In the structure analysis of cucumber plastocyanin (Garrett, 1987), one of the two molecules in the asymmetric unit has the same conformation as poplar plastocyanin at RT. The second molecule of the asymmetric unit has a disordered Ser48-Gly49 peptide group, the two conformers differing by a 180 ° peptide flip. (ii) In a N M R structure analysis of French bean plastocyanin (Moore et al., 1991), about 60% of a family of structures generated from the N M R data in solution have the same conformation at residues 48-49 as poplar plastocyanin in the crystal structure at RT. The remaining 40% of the structures in solution have the same 'peptide flipped' conformation as found in the present work. The molecular structure of PoPe at 173 K: polypeptide backbone
+
+[
+
+0
+
+10
+
+20
+
+30
+
+Residue numDer
+
+40
+
+50
+
+60
+
+¢0
+
+80
+
+90
+
+100
+
+Fig. 9. Differences between a t o m i c positions at 295 K (1.33 A structure) a n d 173 K (PROLSQ refinement). Differences are r.m.s, deviations averaged o v e r (top) side-chain a t o m s , and ( b o t t o m ) b a c k b o n e a t o m s , respectively, o f each residue.
+
+The peptide flip is not the only significant difference between the LT and RT structures. Superposition of 393 backbone N, C ~, C and O atoms ( P R O L S Q LT model, 1.33 A R T model, three atoms omitted at residue 48) yields a r.m.s difference of
+
+0
+
+l
+Legend
+. . . . . r.. . . . . . . . .
+
+:i/
+~'Y
+/
+
+. .
+
+:~
+
+"
+
+:|:
+
+,
+
+.
+
+:;.
+
+7"'
+
+/
+o *
+
+1
+4
+
+0.25 _< M) < 0.35 · · 0.35 < &D < 0.50 AD > 0.50
+
+.....
+
+i
+
+.
+: /
+
+/
+
+. . . . . . . .
+
+2'2
+
+' '
+
+' ' ' ' '~
+
+'
+
+'
+
+-
+
+60
+
+70
+
+83
+
+90
+
+,30
+
+Residue number Fig. 10. A matrix plot (Berghuis & Brayer, 1992) of the differences between C .... C" distances at 173 and 295 K. The value at the point i,j represents ADe--e = (Ci~)p - (Cv) e where (C,i)e and (Co.)e are the C .... C a distances between the ith and jth residues at temperatures P and Q, respectively. The values plotted in the upper and lower triangles are AD2~5. ~73 K and AD,73-295 K, respectively. Only positive values of AD are shown. The plot is based on the PROLSQ (Sydney) positions of the C ~ atoms at 173 K. The most prominent individual effects occur at Ser48 and Asn64. The fact that there is a greater density of positive AD's in the upper triangle indicates that the C .... C" distances at 173 K are systematically smaller than at 295 K, consistent with other evidence that cooling causes a slight shrinkage of the molecule (see text).
+
+724
+
+P L A S T O C Y A N I N AT 173 K Two buried solvent molecules An aspect of the protein structure not previously noted in PoPc crystals is the existence of two buried (internal) water molecules, W333 and W334 (Table S 1; see footnote concerning Supplementary Material). In the Hamburg refinement these two water molecules were included at an early stage. In the Sydney refinement the same electron-density features were observed but were not included in the model because they made short contacts with several C atoms. Two analogous electron-density peaks [>3tr(p)] in the 1.33 A R T analysis had earlier been rejected as solvent for the same reason (Guss, Bartunik & Freeman, 1992). The unequivocal identification of two solvent molecules in the same region of the oleander plastocyanin structure (Tong, 1991) strongly indicates that the internal solvent molecules in poplar plastocyanin are real. The omission of W333 and W334 from the refinement of the Sydney model did not lead to any significant differences from the Hamburg model in the surrounding protein structure. As shown in Fig. 11, the two internal solvent molecules act as bridges between backbone amide groups of residues 22-25 at the 'southern' ends of fl-strands 2 and 3, and residues 72-74 on fl-strand 6. Thus they fill the gap in a classic fl-bulge (Richardson, Getzoff & Richardson, 1978) between two anti-parallel fl-strands. We note that the residues that are in contact with the internal solvent molecules are among those whose polypeptide backbone atoms undergo concerted changes in position when the crystals are cooled (see above). The molecular structure of PoPe at 173 K: side chains When all 738 non-H atoms in the LT and RT models of the molecule are superposed, 26 atoms
+
+0.25 A. In terms of the quasi-e.s.d, discussed earlier, 0.10A, individual differences larger than the r.m.s. value 0.25 A are highly significant. Figs. 9 and 10 are complementary illustrations of the changes in the polypeptide-atom positions. Fig. 9 is a conventional line diagram in which the changes averaged over the backbone atoms NC~CO of each residue are plotted against residue number. The majority of the atoms undergoing substantial movements when the crystals are cooled occur at loops near the north and south ends of the molecule [8-9, 21-26, 34-36, 47-49 (non-/3 strand 5), 58-60, 62-67, 69-70 (fl-strand 6), 73-76 (fl-strand 6), 88-90]. A more detailed analysis not elaborated here shows that the movements at residues 8-9, 21-26, 58-60, 66--67, 69-70 and 73-76 are towards the centre of mass of the molecule; only the movement at 62-65 is away from the centre of mass. The largest individual changes occur at Ser48 (obviously due to the peptide flip) and at Asn64, a residue with a large temperature factor (Fig. 12) and other symptoms of flexibility (Table 4). The locations of the cited residues in the molecule can be inferred from the atomic labels in Fig. 3. Fig. 10 is a matrix plot (Berghuis & Brayer, 1992) showing the differences between C .... C a distances for all possible pairs of C a atoms. A coherent row or column of positive or negative differences indicates that a particular C" atom has moved with respect to a series of other C ~' atoms, i.e. that its position has changed significantly. In agreement with Fig. 9, Ser48 and Asn64 are identified as the residues undergoing the largest changes in position, and concerted movements are seen to occur at the other groups of residues mentioned above. An important additional conclusion from Fig. 10 is that cooling causes a slight shrinkage of the molecule (see figure caption). Thus the conclusion drawn earlier from the decrease in the unit-cell volume is supported.
+
+~
+0
+
+I27
+
+I~,6
+
+Fig. 11. Two water molecules W333 and 141334, partially buried in the gap between a /3-bulge in strand 3 and the antiparallel strand 6 of the polypeptide. The distance between W333 and I4'334 is 2.8 A (Hamburg model). Hydrogen bonds: I4/333 to Glu25 O, 2.7/~,; Va172 O, 2.7 ,~,; Leu74 N, 2.8 A. I4'334 to Ser22 O, 3.2/~,; Glu25 O, 2.7/~; Glu25 N, 3.1 A; Leu74 O, 2.7/~,; IAu74 N, 2.7 A. Short contacts: I4"333 to I1e27 C ~, 3.0 A; I1e27 C ~, 3.0/~,; Ala73 C", 2.9A; Ala73 C, 3.2/~,. I4/334 to Ile21 C n~, 3.0/k.
+
+FIELDS, BARTSCH, B A R T U N I K , CORDES, GUSS A N D F R E E M A N have deviations _> 1 A . t If these atoms are excluded, superposition of the remaining 712 protein atoms yields an r.m.s, difference of 0.29/k, not much larger than the value for the polypeptide backbone atoms (see above). An important difference between the descriptions of the side chains at LT and RT is that there are only three disordered side chains in the LT model (Ser56, Glu79 and Ser85), but nine disordered side chains in the RT model (Lys30*, Ser45*, Lys54*, Ser56*, Asp61*, Asn64*, Lys66*, Glu71* and Ser75*). Only one side chain, Ser56, is described as disordered and having similar conformers in both models. Five side chains in the LT model have the same conformation as one of the two conformers of the corresponding side chains in the RT model (Ser45, Lys54, Ser75, Asp61 and Asn64). At 12 side chains there are substantial changes in conformation (Lys26, Lys30, Pro36, Glu43, Ser48, Ser58, Glu60, Lys66, Glu68, Glu71 and Glu79). The existence of individual differences _>IA between the LT and RT atom positions in some of these side chains has already been noted. Comparisons between side-chain conformations at LT and RT are summarized in Table 4. Only two of the differences in side-chain conformation are associated with differences in intramolecular hydrogen bonding. At RT, both conformers of Lys30* form a long intramolecular salt bridge (4.1 A) with Asp20~1; at LT, Lys30 N ~ is hydrogen bonded to Gly67 O. At RT, Ser58 O r forms an intramolecular hydrogen bond to Glu60 0"2; at LT, Glu60 O "1 is hydrogen bonded to Asn76 N ~2 in a neighbouring molecule (see Fig. 15, below). The interactions ascribed to the side chains of Lys26 and Lys66* at RT remain intact despite the changes in conformation, since the positions of the N ~ atoms remain unchanged. The structure o f PoPc at 173 K: temperature parameters The average value ( B ) = 6.6 A 2 derived from the Wilson plot for the data at 173 K (Fig. 5) is significantly lower than the value ( B ) = 15.5 A 2 calculated from the deposited (1PLC) B's at 295 K. While the individual B's are lower at 173 K, the general trends in the temperature factors plotted as functions of residue number are similar at 173 and 295 K (Fig. 12). The effects of cooling are, however, not uniform throughout the molecule. At 295 K, the backbone atoms with the highest temperature factors occur at Gly24, Glu25, Asn64* and Ser75*. At 173 K, the
+t The differences _>1 ,~, occur at side-chain atoms of Lys26, Lys30*, Lys54*, Ser58, Glu60, Asp61*, Asn64*, Lys66*, Glu68, Glu71*, Glu79, Lys 95, and at all atoms except N of Ser48. Asterisks denote residues that are disordered in the RT structure at 1.33 A resolution (Guss, Bartunik & Freeman, 1992).
+
+725
+
+backbone atoms with the highest temperature factors occur at Pro47, Ser48, Asn64 and Ala65. As noted by Cusack (1992), while the overall behaviour of crystallographic B factors is typically biphasic, individual residues within a protein exhibit a wide range of temperature dependences indicating local variations in dynamical behaviour. Increased order in solvent region* There are significant differences between the solvent structures at LT and RT. The number of indentifiable solvent sites has increased by 70% from 110 at RT to 189 at LT. The shrinkage of the unit cell and the significant re-orientation of the protein molecules are associated with changes in the positions of many solvent sites. Only 63 of the solvent molecules in the LT model lie within 1.0 ,~ of a solvent site with occupancy _>0.50 in the RT structure. The average B for these 63 solvent molecules has * In the description of the LT solvent structure, it is assumed that the solvent molecules are water. The Sydney (PROLSQ) coordinates are used except where noted otherwise.
+
+o
+
+,
+
+,
+
+,
+
+o
+
+295K
+
+LO
+
+2~
+mo
+
+I I1'111 mlq ,l ,',1,1l[ 11'@111 HI ,11 III II'HIIlllN'm' llll'","l
+173K
+
+]
+
+I
+
+i,IL ,11
+90 100
+
+0
+
+0
+
+I0
+
+20
+
+30
+
+40 50 60 Res iOue number
+
+70
+
+80
+
+(a)
+
+295K
+
+o & o
+
+mo
+
+~o
+
+,,,!,,,,,,, !I,!,!L Ib , !,,, !,'
+173K 0 10 20 30
+
+,, ,,, ,,,,,,,,
+
+II1 'Ill'~ I'"lqqilII qi
+
+I ,11 ,l,l
+i , i , i
+
+40 50 60 R e s i d u e number
+
+70
+
+80
+
+90
+
+100
+
+(o) Fig. 12. Temperature factors (B) averaged over (a) backbone atoms, and (b) side-chain atoms of each residue. Above line, 295 K; below line, 173 K.
+
+726
+
+PLASTOCYANIN AT 173 K ordered near hydrophobic regions of the protein surface is well known (Teeter, 1991). Examples of similar hydrogen-bonded solvent clusters in other proteins are 'four pentagonal rings ... along a hydrophobic surface at an intermolecular contact' in crambin (Teeter, 1984), and 'a five-membered ring system covering an exposed non-polar side chain (Val)' in 2-Zn insulin (Baker, Dodson, Dodson, Hodgkin & Hubbard, 1987). Some statistics of the types of contact made by the solvent molecules in the LT crystals (RT values in parentheses) are: 4 (18) are hydrogen bonded only to protein atoms, 127 (76) are hydrogen bonded both to protein atoms and to other water molecules, and the remaining 58 (16) are hydrogen bond only to other water molecules. The 131 (94) water molecules making contacts with the protein include 46 (22) that are hydrogen bonded only to side chains, 49 (40) that
+
+decreased from 28 A 2 at RT to 11 A 2 at LT. As we shall show below, the number of solvent molecules hydrogen bonded only to other solvent molecules has increased more (from 16 to 58, 260%) than the number hydrogen bonded to protein atoms (from 94 to 131, 40%). The generally lower B's of the solvent molecules and the fact that a larger number of solvent sites can be located are symptoms of greater order in the solvent region at LT. Two extended networks of water molecules can be identified. Both networks occur in regions of close approach between protein molecules. One network includes several five- and six-membered rings as well as three-, four- and > sixmembered rings (Fig. 13). In the other network, an almost planar five-membered ring is wedged between Phe35 of one protein molecule and Phe70 of another (Fig. 14). The tendency of the water structure to be
+
+o
+
+o
+
+o o o M57 o o
+
+o o
+
+o
+
+M57
+
+o
+
+f
+0
+
+o
+O" 0
+
+7o
+0
+
+o o
+o ~ ^ o o
+
+o o
+· o o
+
+o
+
+o o
+o o
+
+o o
+
+o
+
+~
+
+;
+
+o
+
+o@
+o
+
+o
+
+Fig. 13. Ordered water structure including one three-membered ring, four pentagons and five hexagons at an intermolecular contact region. Near the bottom of the figure, a water molecule (with B = 5 A 2) is within hydrogen-bonding distance of two peptide O atoms, one peptide N atom and two other water O atoms. For clarity only the C~------O groups of Phe41, Met57 and Pro86 are shown.
+
+o
+
+o
+
+o
+
+o
+
+T69
+
+o
+
+o
+
+. r~
+
+o
+
+o
+
+T69
+
+.
+
+oo
+
+o.
+
+o
+
+o
+
+Q
+
+Fig. 14. Pentagonal ring of hydrogen-bonded water molecules between two exposed hydrophobic residues, Phe35 and Phe70, in neighbouring protein molecules. The pentagon is almost planar, and the water molecules in it have low temperature factors (B = 6, 6, 8, 10 and 10 A2). Three atoms in the pentagon each form a hydrogen bond to a protein atom.
+
+FIELDS, BARTSCH, Table
+
+BARTUNIK,
+
+CORDES,
+
+GUSS AND
+
+FREEMAN
+
+727
+
+7. lntermolecular hydrogen bonds in poplar plastocyanin crystals at 173 K ( L T ) and 295 K ( R T ) d x ,. (A) Contacts:{: LT RT Asp8 O ...Serl 7" Oy 2.7 2.9 Ser20 O~' ...Asp61 ' O~ ~' 2.5 2.6 Gly24 O ...Asn64' Na2 3.3 3.2 Asp44 Oa~ ...Thr69 O~'l .... 2.9 3.1 ASlM40 a2 "'GIu71.... O"l * 3.2 Asp44 Oa2 .'.Glu71.... 0 "2 * 3.0 Asp44 Oa2 ...Glu71'"' 0 "2 * 3.2"t" Ser48 O~" ""Asn99" OT 2.8 3.1 Gly49 O ...Ser85'" O~ " 2.5 2.7 Asp51 Oal .-.Gly89'" N 2.9 2.9 Lys54 Nc ...Gly88 O~1 2.6 2.9 Glu60 O"~ '"Asn76 Na2 '~ 3.0 * Glu60 O ...Asn99 N a2 ~' 3.0 2.7 I I Symmetry codes:(i) - x , - ~ + y , ~ - z ; ( i v ) : + x , 2 - y , 1 - z ; ( v ) .~+ x. y, 1 - z; (vii) 1 - x, - 2 + Y, ~ - z; (viii) 1 ± x, y, z; 1 I ( i x ) ! - x , ~ + y , ~ - z : ( x i ) ~ - x , 1 - y , - 2 + z ; (xii) ~ - x , 1 - y ,
+TM
+
+m i n o r (Table 7). Seven i n t e r m o l e c u l a r h y d r o g e n b o n d s are shorter, a n d o n l y three are longer, at L T t h a n at RT. A t LT, G l u 6 0 f o r m s an i n t e r m o l e c u l a r h y d r o g e n b o n d ( G l u 6 0 O'~...N ~2 A s n 7 6 , 3.0 A). A t RT, this i n t e r a c t i o n is n o n - e x i s t e n t or very w e a k (3.5 A), a n d - as m e n t i o n e d earlier - G l u 6 0 f o r m s a n i n t r a m o l e c u l a r h y d r o g e n b o n d to Ser58 O ~' (Fig. 15). In c o n t r a s t w i t h the relatively small c h a n g e s in direct i n t e r m o l e c u l a r p r o t e i n - p r o t e i n i n t e r a c t i o n s , c o o l i n g causes a s u b s t a n t i a l r e a r r a n g e m e n t o f c o n -
+
+~?
+* At LT, Asp44 and Glu71 are bridged by two water molecules (see text and Fig. 7). t Alternate conformer of Glu71 at RT. + At RT, this distance is 3.5 A, and Glu60 O ~2 is hydrogen + bonded to Ser58 O:' (see text and Fig. 16).
+
+~SerSB
+
+c ~ °~\ItGlu6 Serf8 0 ,
+
+are h y d r o g e n b o n d e d o n l y to b a c k b o n e a m i d e groups, a n d 36(32) t h a t are h y d r o g e n b o n d e d b o t h to side c h a i n s a n d to b a c k b o n e a m i d e g r o u p s . T h e r e are w a t e r - p r o t e i n h y d r o g e n b o n d s at all side c h a i n s w i t h c h a r g e d or p o l a r f u n c t i o n a l g r o u p s , w i t h the exception o f Asn31, Asn38, Ser56 a n d the f o u r C u - b i n d i n g residues His37, Cys84, His87 a n d Met92. In the original 1.6/~ RT structure, the exposed N ( i m i d a z o l e ) a t o m o f His87 was t h o u g h t to be h y d r o g e n b o n d e d to a s o l v e n t m o l e c u l e . T h e a b s e n c e o f this s o l v e n t m o l e c u l e f r o m the LT s t r u c t u r e is c o n s i s t e n t w i t h the 1.33/~ R T structure. H o w e v e r , as discussed e l s e w h e r e (Guss, B a r t u n i k & F r e e m a n , 1992), the lack o f a h y d r o g e n - b o n d e d s o l v e n t m o l ecule d o s e n o t alter the d e s c r i p t i o n o f N'2(His87) as a protonated N(imidazole) atom. T h e total n u m b e r s o f w a t e r - O ( p e p t i d e ) a n d w a t e r N ( p e p t i d e ) c o n t a c t s are 90 (69) a n d 34 (32), respectively. T h e ratio 90:34 = 2.65:1 agrees w i t h the value 2.8:1 o b t a i n e d by F i n n e y (1979) for a s a m p l e o f ten refined p r o t e i n structures. T h e a p p a r e n t l y global validity o f this statistic reflects the p r o p o r t i o n o f H to O a t o m s in H 2 0 , the ability o f O ( p e p t i d e ) a t o m s to accept m o r e t h a n o n e h y d r o g e n b o n d w h e r e a s N(peptide) atoms can donate only one proton, and the fact t h a t the O ( p e p t i d e ) a t o m but n o t the N ( p e p t i d e ) a t o m o f P r o residues can p a r t i c i p a t e in hydrogen bonds.
+
+Fig. 15. A significant change in intra- and intermolecular hydrogen bonding. At 295 K (light bonds), the OH group of Ser58 is hydrogen bonded to the COO- group of Glu60. At 173 K (heavy bonds), the intramolecular hydrogen bond from Ser58 is made with the backbone >NH of Asp61, while the COO of Glu60 forms an additional hydrogen bond with the side-chain amide group of Asn76 in a neighbouring molecule.
+
+o
+
+o
+
+4
+
+Direct and solvent-bridged intermolecular contacts
+D i f f e r e n c e s b e t w e e n the direct i n t e r m o l e c u l a r p r o t e i n - p r o t e i n c o n t a c t s at L T a n d R T are o n l y
+
+Fig. 16. Increased order at 173 K. In the structure at 295 K (top), the side chain of Glu71 is disordered. A direct COO-...H +... OOC interaction with the side chain of Asp44 in an adjacent molecule can be inferred (Guss, Bartunik & Freeman, 1992). At 173 K (bottom), the intermolecular link between the COO- groups of the same residues is made via two bridging water molecules.
+
+728
+
+PLASTOCYANIN AT 173 K between 295 and 173 K is in conflict with the LT rR results. However, we cannot eliminate the possibility that structural changes which are detected by rR spectroscopy are lost in the noise of the crystal structure analysis. In commenting on the relationship between the two types of experiment we labour under the difficulty that we can estimate the precision of the crystallographic results, but that we have no estimates for the magnitudes of the structural changes that would be required to account for the reported temperature dependence of the rR spectra. Our conclusions are as follows. (i) Change in the Cu--S(Met92) bond length Within the limits of precision, the hypothesis that the Cu--S(Met92) bond becomes shorter when the protein is cooled below about 273 K can be eliminated. This conlusion is based not merely on Table 5 but also on the following computational experiment. The conformation of the Met92 side chain was modified in a plausible way using FRODO to reduce the Cu--S(Met92) distance to 2.4 A. Six cycles of PROLSQ least-squares refinement were carried out. The Met92 side chain returned to its original conformation with Cu--S~2 = 2.77 (5)A. The other three Cu-ligand bond lengths changed by less than 0.01 A and the residual R remained unchanged (0.132). An alternative hypothesis - that, as the temperature is reduced, the protein contains an increasing proportion of molecules with a shorter C u - S(Met92) distance - cannot be eliminated. To test this hypothesis, the Met92 side chain was replaced by two plausible conformers, each with occupancy 0.5, having Cu--S~2 -- 2.4 and 3.2 A, respectively. It is to be noted that the positions of S~2 in the two conformers differed by only 0.8 A, half the limit of resolution of the diffraction data. After 15 cycles of PROLSQ refinement, both conformers had changed in the direction of the unmodified conformation but had not converged (Cu--S~2 = 2.65, 2.93 A). Again the other three Cu-ligand bond lengths and the residual R were unchanged. (ii) Change in anisotropic vibrations of the Cu atom The crystallographic data neither support nor eliminate the hypothesis that at LT the large-amplitude thermal vibrations of the Cu atom perpendicular to the plane of the three strong Cu-ligand bonds are inhibited by a strengthening of the Cu--.S(Met92) interaction. The isotropic temperature factor of the Cu atom decreased from B = 8.8 A 2 at RT to B = 4.6 A 2 at LT. An Fo-Fc map using the LT diffraction data had negative peaks along the Cu--N(His37) and Cu--S(Cys84) bonds, and a positive peak between
+
+tacts via bridging solvent molecules. The number of water molecules identified in intermolecular bridges remains almost constant (36 versus 33). The positions of the bridging water molecules, however, are significantly different. 12 bridging water sites are unique to the LT structure. Conversely, ten bridging water sites are unique to the RT structure. Among the 45 bridging protein-solvent hydrogen bonds that are common to the LT and RT structures, 30 are shorter at LT. The fact that the average temperature factor of the bridging waters at LT is very low ((B) = 13 ,~2) is consistent with the greater ordering of the solvent in the LT structure. The LT structure provides one example of ordered solvent replacing the second conformer of a disordered side chain in the 1.33 A R T structure. In the LT model, the carboxylate group of Glu71 is hydrogen bonded to three solvent molcules (W234, W240 and W267). W234 and W267 act as bridges to the carboxylate of Asp44 in a neighbouring molecule (Fig. 16, bottom). A high degree of order is indicated by low temperature factors at the bridging solvent oxygens (12 and 15 A 2) and the side chains of Asp44 and Glu71 ((B) = 4.9 and 5.4 A2). At LT there is thus no hint of disorder at the side chain of Glu71. In the RT structure, the Glu71 side chain was modelled as disordered and making a hydrogen-bonded - - C O O - --.H +... - O O C - - contact with the side chain of Asp44 (Fig. 16, top). The effect of cooling the crystal has been the replacement of the second conformer of the Glu71 side chain by W234 and W240; the occupancy of the latter is, however, only partial (Table S1; see footnote concerning Supplementary Material). Is there a change in Cu-site geometry at low temperature? The present work was undertaken largely to test a hypothesis based on resonance Raman experiments that the Cu-site geometry in plastocyanin changes significantly when the protein is cooled to below - 2 7 3 K (Woodruff, Norton, Swanson & Fry, 1984; Blair et al., 1985). Three changes in the Cu-site geometry were proposed: (i) a decrease in the C u - S(Met92) bond length, (ii) a consequential inhibition of large-amplitude vibrations of the Cu atom perpendicular to the N2S(Cys) plane, and (iii) a change in the Cu--Sr(Cys84)--Ct~---C '~ dihedral angle. Whether the proposed structural changes were derived from a correct assignment of rR frequencies is a separate question. Our concern was (and remains) whether the LT crystal structure analysis is capable of casting any light on the rR spectroscopic changes that were reported to occur at - 2 7 3 K. At first sight, the absence of a significant change in the crystallographically determined Cu-site geometry
+
+FIELDS, BARTSCH, B A R T U N I K , CORDES, GUSS A N D F R E E M A N the Cu atom and S(Met92). An Fo-/5, map calculated with the 1.33 A R T data was qualitatively similar. The maps showed that the Cu-atom vibrations are anisotropic at RT and remain so at LT, but they did not eliminate the hypothesis that the amplitude or frequency of vibration undergoes a change. An attempt to test for a change in anisotropy at the Cu site by calculating a n FLT,~oL x -- FRT.~oR v electron-density difference map was unsuccessful. The movement of the molecules within the unit cell swamped any changes in the temperature factors at the Cu site. The displacement of the Cu site produced a large positive electron-density difference at the LT Cu position and a corresponding negative feature at the RT Cu position. (iii) Change in the Cys84 side-chain conformation Within the limits of precision, the LT structure analysis provides no evidence for a change in the Cu--S~(Cys84)--Ct~--C" dihedral angle (Table 5). The conformation of the Cu-binding Cys side chain is highly conserved in 'blue' copper proteins and may indicate a favoured pathway for electron transfer (Han et al., 1991). (iv) Summary There is no crystallographic evidence to support the hypothesis that the plastocyanin Cu site undergoes a structural change involving the side chains of Cys84 and/or Met92 at LT. We recall that LT EXAFS measurements on solutions and crystals of poplar plastocyanin likewise yielded no evidence of a shorter Cu--S(Met92) distance; temporary doubts about this conclusion were caused by an artefact (Penner-Hahn, Murata, Hodgson & Freeman, 1989). On the other hand, it is possible that rR measurements are sensitive to temperature-dependent structural changes that are simply undetectable by X-ray diffraction and X-ray spectroscopy.
+
+729
+
+increase of order in the solvent region. Additional solvent sites have been identified. The temperature factors in the solvent region are substantially lower than at RT. Within the limits of precision, the Cu-site geometry remains unchanged. There are only minor changes in the polypeptide backbone conformation, except for a peptide flip at Ser48-Gly49. Independent evidence from N M R spectra and from the structure analyses of other plastocyanins indicates that the two conformations at residues 48-49 are easily interconvertible. Side chains with significantly different conformations at LT occur at four Lys residues (26, 30, 66, 95), five Glu residues (43, 60, 68, 71, 79), two Ser residues (48, 58), and Pro36. At five other side chains, the LT model has a single conformer with the same conformation as one of two conformers modelled at RT (Ser45, Lys54, Asp61, Asn64 and Ser75). One residue is modelled as disordered at LT but not at RT, one of the LT conformers having the same conformation as in the RT model. An unexpected discovery is two water molecules, buried beneath the protein molecular surface and omitted from earlier descriptions of the plastocyanin structure. This work was supported by the Australian Research Council (grant A28930307 to H C F and JMG) and by the German Federal Minister for Research and Technology (BMFT, under the contract number 05 180MP B 0). Helpful discussions with Drs W. H. Woodruff and T. M. Loehr are gratefully acknowledged.
+
+References BAKER, E. N., DODSON, E., DODSON, G., HODGKIN, D. & HUBBARD, R. (1987). In Crystallography in Molecular Biology, edited by D. MORAS, J. DRENTH, B. STRANDBERG, n. SUCK W. WILSON, pp. 179-192. New York: Plenum Press. BARTUNIK, H. D. · SCHUBERT, P. (1982). J. Appl. Cryst. 15, 227-23 I. BARTUNIK, H. D., SUMMERS, L. J. & BARTSCH, H. H. (1989). J. Mol. Biol. 210, 813-828. BERGHUIS, A. M. 8~ BRAYER, G. D. (1992). J. Mol. Biol. 223, 959-976. BLAIR, D. F., CAMPBELL, G. W., SCHOONOVER,J. R., CHAN, S. I., GRAY, H. B., MALMSTROM, B. G., PECHT, I., SWANSON, B. I., WOODRUFF, W. H., CHO, W. K., ENGLISH, A. M., FRY, H. A., LUM, V. & NORTON, K. A. (1985). J. Am. Chem. Sot'. 107, 5755-5766. BRUNGER, A. T. (1988). In Crystallographic Computing 4: Techniques and New Technologies, edited by N. W. ISAACS& M. R. TAYLOR, pp. 126-140. Oxford Univ. Press. BRONGER, A. T., KARPLUS, M. & PETSKO, G. A. (1989). Acta Cryst. A45, 50-61. B1]CHI, F. N., BOND, A. M., CODD, R. M., HUQ, L. N. & FREEMAN, H. C. (1992). Inorg. Chem. 31, 5007-5014. CHAMBERS, J. L. & STROUD, R. M. (1979). Acta Cryst. B35, 1861-1874.
+
+Concluding remarks
+There is close agreement between models of poplar plastocyanin obtained by two independent refinements using a single set of LT diffraction data. Differences that appear to be statistically significant in terms of the precision of the individual analyses can in general be attributed to the different force fields used in the refinement programs, and to different interpretations of electron-density maps. Cooling the crystals of poplar plastocyanin from 295 to 173 K causes a significant reduction in the volume of the unit cell, a rotation of the protein molecules with respect to the unit-cell axes, and an
+
+730
+
+PLASTOCYANIN
+
+AT
+
+173 K
+
+CHAPMAN, G. V., COLMAN,P. M., FREEMAN,H. C., Guss, J. M., MURATA M., NORRIS, V. A., RAMSHAW, J. A. M. & VENKATAPPA, M. P. (1977). J. Mol. Biol. 110, 187-189. COLLYER, C. A., GUSS, J. M., SUGIMURA, Y., YOSHIZAKI, F. & FREEMAN, H. C. (1990). J. Mol. Biol. 211,617-632. COLMAN, P. M., FREEMAN, H. C., Guss, J. M., MURATA, M., NORRIS, V. A., RAMSHAW, J. A. M. ~ VENKATAPPA, M. P. (1978). Nature (London), 272, 319-324. CUSACK, S. (1992). CurT. Biol. 2, 411-413. FINNEY, J. L. (1979). In Water, a Comprehensive Treatise, Vol. 6, edited by F. FRANKS, pp. 47-122. New York: Plenum Press. FUJINAGA, M., GROS, P. & VAN GUNSTEREN,W. F. (1989). J. Appl. Cryst. 22, 1-8. GARRETT, T. P. J. (1987). PhD thesis, Univ. of Sydney, Australia. GEWIRTH, A. A., COHEN, S. L., SCHUGAR, H. J. ~ SOLOMON, E. I. (1987). lnorg. Chem. 26, 1133-1145. GEWIRTH, g. A. ~ SOLOMON,E. I. (1988). J. Am. Chem. Soc. 110, 3811-3819. Guss, J. M., BARTUNIK, H. D. ~ FREEMAN, H. C. (1992). Acta Cryst. B48, 790-811. Guss, J. M. ~ FREEMAN,H. C. (1983). J. Mol. Biol. 169, 521-563. Guss, J. M., HARROWELL, P. R., MURATA, M., NORRIS, V. A. & FREEMAN, H. C. (1986). J. Mol. Biol. 192, 361-387. HAN, J., LOEHR, T. M., FREEMAN, H. C., CODD, R., HUQ, L., BEpPU, T., ADMAN, E. T. ~ SANDERS-LOEHR, J. (1991). Biochemistry, 30, 10904-10913. HENDRICKSON, W. A. & KONNERT, J. H. (1980). In Computing in Crystallography, edited by R. DIAMOND, S. RAMASESHAN& K. VENKATESAN, pp. 13.01-13.23. Bangalore: Indian Academy of Sciences. JACK, A. & LEVITT, M. (1978). Acta Cryst. A34, 931-935. JACKMAN, M. P., MCGINNIS, J., POWLS, R., SALMON, G. A. SYKES, A. G. (1988). J. Am. Chem. Soc. 110, 5880-5887. JONES, T. A. (1978). J. Appl. Cryst. 11,268-272. KABSCH, W. 8/. SANDER,C. (1983). Biopolymers, 22, 2577-2637. KYRITSIS, P., LUNDBERG, L. G., NORDING, M., VANNGARD, T., YOUNG, S., TOMKINSON,N. P. & SYKES, A. G. (1991). J. Chem. Soc. Chem. Commun. pp. 1441-1442. LASKOWSKI, R. A., MACARTHUR, M. W. & THORNTON, J. M. (1993). J. Appl. Cryst. 26, 283-291. LEVITT, M. (1974). J. Mol. Biol. 82, 393-420. LEVITT, M. (1975). Personal communication cited by C. CHOTmA [Nature (London) (1975), 254, 304-308]. LUZZATI, V. (1952). Acta Cryst. 5, 802-810. MESSERSCHMIDT, g. 8/. PFLUGRATH, J. W. (1987). J. Appl. Cryst. 20, 306-315.
+
+MOORE, J. M., LEPRE,C. A., GIPPERT,G. P., CHAZIN,W. J., CASE, D. A. ~ WRIGHT, P. E. (1991). J. Mol. Biol. 221, 533-555. MURPHY, L. M., HASNAIN, S. S., STRANGE, R. W., HARVEY, I. & INGLEDEW, W. J. (1990). In ?(-ray Absorption Fine Structure, edited by S. S. HASNAIN, pp. 152--154. Chichester: Ellis Horwood. PARAK, F., HARTMANN, H., AUMANN, K. D., REUSCHER, H., RENNEKAMP, G., BARTUNIK, H. D. & STEIGEMANN,W. (1987). Fur. Biophys. J. 15, 237-249. PENEIELD, K. W., GEWIRTH, A. A. & SOLOMON, E. I. (1985). J. Am. Chem. Soc. 107, 4519-4529. PENNER-HAHN, J. E. & HODGSON, K. O. (1986). In Structural Biological Applications of ?(-ray Absorption, Scattering, and Diffraction, edited by H. D. BARTUNIK& B. CHANCE, pp. 35-47. New York: Academic Press. PENNER-HAHN, J. E., MURATA, M., HODGSON, K. O. & FREEMAN, H. C. (1989). Inorg. Chem. 28, 1826-1832. READ, R. J., FUJINAGA, M., SIELECKI,A. R. ~ JAMES, M. N. G. (1983). Biochemistry, 22, 4420-4433. RICHARDSON, J. S., GETZOFF, E. D. ~ RICHARDSON,D. C. (1978). Proc. Natl Acad. Sci. USA, 254, 2574--2578. RYDEL, T. J., TULINSKY, A., BODE, W. & HUBER, R. (1991). J. Mol. Biol. 221, 583-601. SCOTT, R. A., HAHN, J. E., DONIACH, S., FREEMAN, H. C. HODGSON, K. O. (1982). J. Am. Chem. Soc. 104, 5364-5369. STEIGEMANN, W. (1974). PhD thesis, Technische Univ. M~inchen, Germany. SYKES, A. G. (1990). Struct. Bonding, 75, 175-224. TEETER, M. M. (1984). Proc. Natl Acad. Sci. USA, 81, 6014-6018. TEETER, M. M. (1991). Annu. Rev. Biophys. Chem. 20, 577-600. TEN EYCK, L. F. (1977). Acta Cryst. A33, 486-492. TILTON, R. F., DEWAN, J. C. & PETSKO, G. A. (1992). Biochemistry, 31, 2469-2481. TONG, H. (1991). PhD thesis, Univ. of Sydney, Australia. VAN GUNSTEREN, W. F. (~. BERENDSEN, H. J. C. (1987). GROMOS, Groningen Molecular Simulation Library. Groningen, The Netherlands: BIOMOS b.v. VENKATACHALAM,C. M. (1968). Biopolymers, 6, 1425-1436. WALTER, J., STEIGEMANN, W., SINGH, T. P., BARTUNIK, H. D., BODE, W. & HUBER, R. (1982). Acta Cryst. B38, 1462-1472. WATT, W., TULINSKY,A., SWENSON, R. P. & WATENPAUGH,K. D. (1991). J. Mol. Biol. 218, 195-208. WILKE, M. E., HIGAKI, J. N., CRAIK, C. S. ~ FLETTERICK, R. J. (1991). J. Mol. Biol. 219, 511-523. WOODRUFF, W. H., NORTON, K. A., SWANSON, B. I. ~g FRY, H. A. (1984). Proc. Natl Acad. Sci. USA, 81, 1263-1267.
+
+

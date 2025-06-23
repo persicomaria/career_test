@@ -1,0 +1,207 @@
+research papers
+Acta Crystallographica Section D
+
+Biological Crystallography
+ISSN 0907-4449
+
+Refinement of the arginine kinase transition-state Ê analogue complex at 1.2 A resolution: mechanistic insights
+The three-dimensional crystal structure of an arginine kinase Ê transition-state analogue complex has been re®ned at 1.2 A resolution, with an overall R factor of 12.3%. The current model provides a unique opportunity to analyze the structure of a bimolecular (phosphagen kinase) enzyme in its transition state. This atomic resolution structure con®rms in-line transfer of the phosphoryl group and the catalytic importance of the precise alignment of the substrates. The structure is consistent with a concerted proton transfer that has been proposed for an unrelated kinase. Re®nement of anisotropic temperature factors and translation±libration±screw (TLS) analyses led to the identi®cation of four rigid groups and their prevalent modes of motion in the transition state. The relative magnitudes of the mobility of rigid groups are consistent with their proposed roles in catalysis.
+Received 10 April 2002 Accepted 12 August 2002
+
+Mohammad S. Yousef,a²³ Felcy Fabiola,a² James L. Gattis,b Thayumanasamy Somasundarama and Michael S. Chapmana,b*
+Institute of Molecular Biophysics, Florida State University, Tallahassee, FL 32306-4380, USA, and bDepartment of Chemistry and Biochemistry, Florida State University, Tallahassee, FL 32306-4380, USA
+a
+
+PDB Reference: AK-TSAC, 1m15, r1m15sf.
+
+² These authors contributed equally to this work. ³ On leave of absence from the Biophysics Department, Faculty of Science, Cairo University, Egypt. § These authors contributed equally to this work.
+
+1. Introduction
+Arginine kinase (AK) is an invertebrate homalogue of mammalian creatine kinase (CK); both enzymes belong to the phosphagen kinase family. These enzymes play an important role in cells by buffering ATP concentration depending on cellular energy requirements (Ellington, 2001; Schlattner et al., 1998). Phosphagen kinases catalyze the reversible transfer of a phosphoryl group between ATP and a phosphagen, in this case arginine phosphate: arginine  MgATP2 3arginine phosphate  MgADPX Although phosphagen substrates are quite different, AK and CK are thought to share a common mechanism of associative in-line -phosphoryl transfer (Hansen & Knowles, 1981). Several phosphagen kinase structures have been solved at different resolutions: ®rstly chicken sarcomeric mitochondrial Ê CK (Mt-CKsar) at $3 A with and without ATP (Fritz-Wolf et al., 1996) and AK from the horseshoe crab Limulus polyphemus as a transition-state analogue complex (TSAC) at Ê 1.86 A (Zhou et al., 1998), then the following, all as substrateÊ free enzymes: rabbit muscle CK (M-CK) at 2.35 A (Rao et al., Ê 1998), chicken cytosolic brain-type CK at 1.4 A (Eder et al., 1999), human ubiquitous mitochondrial CK (Mt-CKubi) at Ê Ê 2.7 A (Eder et al., 2000), cytosolic bovine retinal CK at 2.3 A Ê (Shen et al., 2001). (Tisi et al., 2001) and human M-CK at 3.5 A Owing to substrate-induced conformational changes (Zhou et al., 2000), it is only AK-TSAC that gives clear structural evidence of the catalytic mechanism. ADP and arginine are bound in a dead-end complex with nitrate mimicking a trigonal phosphoryl group during in-line transfer (Hansen & Knowles, 1981; McLaughlin & Cohn, 1972; Milner-White & Watts, 1971).
+Yousef et al.
+
+
+Correspondence e-mail: chapman@sb.fsu.edu
+
+# 2002 International Union of Crystallography Printed in Denmark ± all rights reserved
+
+Acta Cryst. (2002). D58, 2009±2017
+
+Arginine kinase transition-state analogue complex
+
+2009
+
+research papers
+Protein structures at atomic resolution are relatively rare. However, recent advances have resulted in an improved ability to obtain atomic resolution diffraction from protein crystals and to subsequently determine structures at atomic and subatomic resolution (Dauter et al., 1997; Longhi et al., 1998). Atomic resolution data, by Sheldrick's criteria, extend Ê to 1.2 A or better with at least 50% of the diffraction intensities of the outer resolution shell above 2' (Sheldrick, 1990). Ê With data to 1.2 A or better, it is possible to re®ne parameters that describe not only the overall motion of model atoms, but which directions of motion are preferred. Higher resolution X-ray data for arginine kinase have enabled us to re®ne individual atomic displacement parameters anisotropically. The preferred direction of atomic displacements can be rationalized in terms of the enzyme mechanism. The translation±libration±screw (TLS) method provides an alternative formalism to represent molecular motions by constrained rigid groups of atoms. Schomaker & Trueblood (1968) showed that the anisotropic displacements of rigid groups of atoms could be described by three tensors: translation (T), libration (torsional vibration) (L) and screwrotation (S). TLS re®nement involves far fewer parameters (six from T, six from L and eight from S for each rigid group) compared with the re®nement of individual atomic displacement parameters. It has been used for several macromolecular re®nements (Holbrook & Kim, 1984; Holbrook et al., 1985; Howlin et al., 1989; Sali et al., 1992; Papiz & Prince, 1996). TLS re®nement requires the prior designation of rigid groups of atoms and the results may be sensitive to this choice. However, methods are now available for the ®tting of TLS parameters to the re®ned individual anisotropic displacement parameters (Stec et al., 1995; Harata et al., 1998, 1999; Wilson & Brunger, 2000). Thus, the designation of rigid groups can be crossvalidated in studies at high enough resolution for both TLS and individual anisotropic displacement parameters re®nements. A survey of literature and the Protein Data Bank indicates that arginine kinase, at 42 kDa, is among the largest protein structures re®ned at atomic resolution (Teixeira et al., 2001). It is also the only high-resolution structure of a bimolecular enzyme as a transition-state analogue in which the components are bound independently (and not covalently joined in a bisubstrate complex) in an active site that has not been mutated to slow or stop the reaction. Thus, this offers a unique opportunity to examine the role of unperturbed substrate alignment in the enzyme catalysis of multi-substrate reactions, complementing earlier studies of substrate±cofactor interactions (Mesecar et al., 1997). Detailed studies of a bimolecular transition-state complex were motivated by unresolved issues of how the catalysis of multi-substrate reactions may differ fundamentally from the unimolecular systems (proteases, glycosidases, nucleases etc.) that have been studied more extensively. It is widely recognized that part of the catalytic effect may be achieved by prealigning the reactants on favorable reaction trajectories. However, there is little consensus as to its importance among the various means of enhancing rate (Warshel, 1998; Bruice &
+Table 1
+Data-processing statistics.
+Outer-shell values are shown in parentheses. Ê Resolution range (A) No. of observations No. of unique re¯ections Completeness (%) Rsym (%) I/'(I) Ê Unit-cell parameters (A) Space group 20±1.2 (1.23±1.20) 1112071 115910 96.2 (71.5) 4.8 (32.3) 24 (2.1) a = 65.393, b = 70.312, c = 80.139 P212121
+
+Benkovic, 2000; Lau et al., 2000; Villa et al., 2000). Some of the contention has arisen from a narrow focus on entropic terms, but calculations on unimolecular and bimolecular systems indicate that the adoption of near-attack conformers is accompanied by larger enthalpic changes than entropic (Lightstone & Bruice, 1996, 1998). Thus, there are compelling reasons to understand substrate pre-alignment whenever it is possible to observe it directly. Ê The 1.86 A resolution structure of the transition-state analogue showed that the active site positioned the reactants along the optimal reaction trajectory, at least approximately (Zhou et al., 1998). Understanding the precision of alignment presented a crystallographic challenge, because the parameters of interest were unrestrained non-bonded distances and angles between substrate molecules. Thus, the crystallographic challenge of the re®nement of a 42 kDa enzyme at Ê 1.2 A resolution was undertaken.
+
+2. Materials and methods
+2.1. Data collection and processing
+
+AK from horseshoe crab was expressed, puri®ed and complexed with analogue components (ADP, nitrate and arginine) as previously described (Zhou et al., 1997). AK-TSAC crystals were then obtained at pH 7.5 by equilibrating against 15±20% PEG 6000 using previously reported crystallization conditions (Zhou et al., 1997). Cryocrystallographic data on several crystals were collected on beamline Ê X12-B (! = 0.95 A) at the National Synchrotron Light Source at Brookhaven National Laboratory. The ®nal data set was collected by ¯ash-cooling one crystal (0.4 Â 0.5 mm) in a nitrogen stream maintained at 100 K. Data were collected with an oscillation width of 0.5 using a Quantum 4 CCD detector (ADSC, Poway, California, USA), a sample-to-detector distance of 100 mm and exposures of 60 s. Integration and scaling of the synchrotron data set was performed using the HKL suite of programs, DENZO, XDISPLAYF and SCALEPACK (Otwinowski & Minor, 1997). Table 1 shows the statistics of the data processing.
+2.2. Structure refinement
+
+Ê The 1.86 A AK-TSAC structure (Zhou et al., 1998) was used as the starting model for re®nement. The same reference set of È 3% of the re¯ections used in the calculation of Rfree (Brunger, Ê 1992) was extended to include 1.86±1.2 A data. A working set
+Acta Cryst. (2002). D58, 2009±2017
+
+2010
+
+Yousef et al.
+
+
+
+Arginine kinase transition-state analogue complex
+
+research papers
+of the remaining 97% of the re¯ections was used throughout CNS and SHELXL97 re®nement using data in the resolution Ê range 6.0±1.2 A (low-resolution terms were truncated for improved scaling). È Rigid-body re®nement using CNS (Brunger et al., 1998) and Ê with ®xed thermal factors of 15 A2 improved the model from R and Rfree of 27.9 and 28.2% to 27.5 and 28.1%, respectively. Several rounds of positional re®nement by simulated annealing, along with B-factor re®nement, water picking and manual rebuilding of the model reduced R and Rfree to 16.1 and 17.49%, respectively (Fig. 1). Further re®nement used SHELXL97 (Sheldrick & Schneider, 1997). Ten cycles of conjugate-gradient least-squares re®nement with individual isotropic thermal factors led to no improvement. Progress was made with conjugate-gradient anisotropic re®nement using six-parameter anisotropic displacement parameters with restraints for bond lengths, angles, planarity, chirality and antibumping. There was dramatic improvement in R and Rfree to 11.7 and 14.7%, respectively, demonstrating that the anisotropic re®nement was meaningful. The model improved to R and Rfree of 11.6 and 12.9%, respectively, with the addition of a further 60 water molecules using the automated watersearching program SHELXWAT (Sheldrick & Schneider, 1997). New atoms were always re®ned isotropically before making them anisotropic. Riding H atoms were generated using SHELXL on the basis of the expected stereochemistry. Although hydrogen positions could not be discerned directly from the difference map, the addition of H atoms to the model resulted in signi®cant improvement (R and Rfree = 11.0 and 12.3%, respectively). The hydrogen coordinates were not re®ned explicitly, but implicitly based on the positions of bonded heavier atoms. Final re®nement used all the data including test re¯ections previously set aside for cross-validation. This re®nement converged to an R factor of 10.7% for 42 267 re¯ections with Fo > 4'(Fo) and 12.3% for all 105 688 re¯ections Ê (Fo > 0) in the range 6±1.2 A. Fig. 1 shows the progress of re®nement and Tables 2 and 3 show the relevant statistics.
+2.3. Final model
+
+Lys151, Arg312 and Ser318. (The most striking case is Ser154, where three conformations were clearly visible in the electron density.) In addition to the transition-state analogue components, the ®nal model contains a second bound nitrate, far from the active site and of no biochemical signi®cance. The details of the ®nal model are provided in Table 2. In order to estimate the error in the ®nal model, a ®nal cycle of blocked full-matrix least-squares re®nement (FMLS) was
+
+Figure 1
+
+Progress of re®nement. R and Rfree calculations are based on 2' and 4' cutoffs for CNS and SHELXL, respectively.
+
+After each of the re®nement rounds, the model was inspected manually using (2Fo À Fc) Fourier maps visualized in the program O (Jones et al., 1991). During rebuilding, all electron-density peaks greater than 5' in a (Fo À Fc) map were checked for indications that coordinates, B factors or occupancies needed to be changed. At the end of re®nement, the (Fo À Fc) map was essentially featureless. The backbone is well ordered and multiple conformations are restricted to some disordered side chains. Two alternate rotamers were modelled for residues Lys28, Met46, Lys102,
+Acta Cryst. (2002). D58, 2009±2017
+
+Figure 2
+
+(a) Precise alignment of the substrates in the active site as revealed by the 2Fo À Fc electron-density map contoured at 3'. (b) The in-line transfer of the phosphoryl group and the hydrogen-bond geometry between O1 of ADP and O1 of nitrate. Angles in parentheses correspond to the optimal reaction trajectory (Zhou et al., 1998).
+Yousef et al.
+
+
+Arginine kinase transition-state analogue complex
+
+2011
+
+research papers
+Table 2
+Final re®nement statistics.
+Re®nement programs Ê Resolution in ®nal re®nement (A) No. of re¯ections R factor including all data (I > 0') (%) R/Rfree (I > 4') (%) No. of protein atoms No. of water molecules No. of other molecules No. of alternate conformations Ê Mean B factors (A2) All atoms Protein Main chain Side chain Water molecules Substrates R.m.s. deviation from ideal geometry Ê Bond length (A) (with/without restraints) Bond angle ( ) (with/without restraints) Ê Luzzati coordinate error² (A) Ramachandran plot³ Residues in most favoured region (%) Residues in additional allowed region (%) Residues in generously allowed region (%) Residues in disallowed region
+² Luzzati (1952). ³ Ramakrishnan & Ramachandran (1965).
+
+CNS, SHELXL 6±1.2 102470 12.25 10.82/12.25 2866 557 1 arginine, 2 NO3, 1 ADP, 1 Mg+2 7 amino acids 16.7 16.8 14.8 17.5 35 10 0.013/0.089 1.33/2.61 0.04 92.3 7.1 0.6 0.0
+
+A Luzzati plot (Luzzati, 1952) was used to estimate the Ê accuracy of atomic positions (0.04 A). PROCHECK was used to perform the geometric analysis of the ®nal model (Laskowski et al., 1993). A Ramachandran plot (Ramakrishnan & Ramachandran, 1965) of the observed values of conformational angles for the model shows no residues in the disallowed region. The program PARVATI (Merritt, 1999) was used to analyse the ®nal distribution of B-factor anisotropy among the protein and solvent.
+
+2.4. Molecular-mechanics calculation
+
+Table 3
+
+Crystallographic R (for all data) and Rfree (for all data) as a function of resolution.
+Ê Resolution range (A) 100±4.8 4.8±3.4 3.4±2.8 2.8±2.4 2.4±2.1 2.1±2.0 2.0±1.8 1.8±1.7 1.7±1.6 1.6±1.5 1.5±1.45 1.45±1.39 1.39±1.33 1.33±1.28 1.28±1.24 1.24±1.20 Rfree 28.4 13.9 12.5 12.7 12.1 12.1 11.3 11.9 14.1 14.3 14.4 14.6 16.4 17.8 21.2 21.8 R 21.0 13.4 11.9 10.9 10.4 10.7 10.3 10.6 10.7 11.9 12.6 13.9 15.5 17.1 19.3 21.4
+
+Molecular-mechanics calculations were performed using the DISCOVER program with the AMBER force ®eld (Biosym Ê Technologies). The close proximity (2.8 A) between the nitrate O1 and the ADP phosphate O1 led us to consider protonation of one or the other, hydrogen bonding between them and possible proton transfer associated with phosphoryl transfer. ADP protonation states were determined by pK calculations with the ®nite difference Poisson Boltzman method using Delphi (Yang et al., 1993) and also with molecular-mechanics calculations. The molecular-mechanics calculations were used to assess the consistency of several possible protonation states with the experimentally determined atomic coordinates: (i) a negative unit charge assigned to the ADP O1 and to the nitrate O1 in the presence of Mg2+; (ii) a hydrogen ®xed on O1 and a negative unit charge assigned to the nitrate O1; (ii) a partial charge of À0.33 assigned to each of the three O atoms of the nitrate and a negative unit charge to the ADP O1.
+
+2.5. TLS refinement
+
+performed with no restraints, which provided a more reliable estimate of coordinate errors. The protein was divided into 30 blocks of 15 residues, each with a one-residue overlap. The Ê ®nal values of the standard deviation parameters were 0.089 A  for bond lengths and 2.61 for bond angles for the unrestrained model. These values are substantially higher than those obtained after imposition of stereochemical restraints Ê (0.013 A for bond lengths, 1.33 for bond angles for the restrained model); however, unrestrained bond lengths and angles have the advantage of being dependent only on the experimental X-ray data and therefore not biased by target values; the unrestrained model was not used for any further re®nement.
+
+In order to assess the rigidity of the protein, the structure was divided into different rigid groups and TLS re®nements were performed. The selection of the rigid groups was based on the Rosen®eld et al. (1978) rigid-body postulate, where the possible quasi-rigid groups in a protein are identi®ed from low Á values. The postulate is based on the assumption that as the interatomic distances within a rigid body are ®xed, the difference in the projections of the anisotropic displacement parameters of two atoms in a rigid body (the `Á' value) must be zero. This applies to all pairs of atoms in a rigid body and not just bonded pairs. Since proteins are never completely rigid, possible quasi-rigid groups are identi®ed from low values of Á for the group of atoms. Á-matrix analysis showed four rigid groups within the protein (see Fig. 5). To validate the rigid-body designation from the Á-matrix analysis, alternate rigid-group assignments were tested as follows. (a) The entire protein. (b) Two groups: (i) residues 2±99 (small domain) and (ii) residues 100±357 (large domain). (c) Three groups: (i) residues 2±99 (small domain); (ii) residues 100±308 and 320±357 and (iii) residues 309±318 (loop 1).
+Acta Cryst. (2002). D58, 2009±2017
+
+2012
+
+Yousef et al.
+
+
+
+Arginine kinase transition-state analogue complex
+
+research papers
+(d) Four groups: (i) residues 2±99 (small domain), (ii) residues 100±280 (large domain), (iii) residues 281±308 (loop 2) and (iv) residues 309±357 (terminal domain). Ê The 1.86 A structure was the basis for the selection of cases (b) and (c), as it was shown that AK consists of a small domain (residues 2±99), a large domain (100±357) and a catalytic loop (309±318) within the large domain (Zhou et al., 1998). The selection of case (d) was based on the Á-matrix analysis. In every case, the temperature-factor pro®le obtained from the re®ned individual anisotropic displacement parameters (represented by their isotropic equivalent Uiso) was compared with that calculated from the TLS re®nement. TLS re®nement was performed using the program RESTRAIN (Collaborative Computational Project, Number 4, 1994) and TLS tensors were determined by the least-squares method using C atoms. The resulting TLS tensors were analyzed using the program TLSANL; the program ANISOANL (Collaborative Computational Project, Number 4, 1994) was used to produce temperature-factor plots. alignment is underestimated by the approximations of current theory. Notable also is the lack of disorder in the substrates. Not being part of the polypeptide chain, one might expect the motion of the substrates to be less restrained. However, the Ê mean isotropic B factor for substrates (10 A2) is lower than for Ê 2) and the same as internal amino acids. Thus, the protein (17 A active site is not only pre-aligning them, but also constraining their motional freedom, reducing the entropy of activation. It is noteworthy to mention that, although there are no covalent bonds to constrain them, the positions and geometry of the substrate-analogue components are remarkably consistent with the presumptive transition state in which a trigonal phosphoryl group is partially covalently bound midway between the ADP and arginine acceptor/leaving groups (Hansen & Knowles, 1981; McLaughlin & Cohn, 1972; Milner-White & Watts, 1971). For example, the observed distance between guanidino N and O through the analogue Ê nitrate is 6 A, which is identical to that which is expected of the transition state (Hansen & Knowles, 1981). Furthermore, the position of the nitrate of the analogue is not constrained by (partial) covalent bonding to the -phosphoryl or guanidinium, yet is positioned nearly exactly where the -phosphoryl would be expected (Figs. 2a and 2b) in the transition state. These observations, along with the angles of approach discussed previously, con®rm that this dead-end inhibitory complex mimics the actual transition-state complex very well. Ê 3.1.2. Concerted proton transfer. The distance of 2.8 A between ADP O1 and O1 of nitrate indicates a likely hydrogen bond (Fig. 2b). Molecular-mechanics calculation Ê showed that the distance would be 3.2 A without a shared proton. With different hypothetical charge/protonation states, we obtained a close approximation to the X-ray geometry only when O1 of ADP was uncharged (i.e. either protonated or double bonded) and a unit negative charge was assigned to the
+
+3. Results and discussion
+3.1. Enzyme mechanism 3.1.1. In-line transfer of the phosphoryl group and precise alignment of the substrates. The high quality of the electron-
+
+density map allows precise modeling of the active site and substrates (Fig. 2a). With the non-reactive nitrate mimicking the analogous phosphoryl of the transition state, it is clear that substrates are positioned near optimally for the in-line transfer of the phosphoryl group (Fig. 2b). The donor and the acceptor atoms (ADP-O3 and guanidyl N2 of substrate arginine) are positioned to form bonds almost orthogonal to the nitrate plane, just 3 and 2 from ideal, respectively. Regarding the nucleophilic attack by the guanidyl N2, the optimal angle for the attacking lone pair is $110 to the N2ÐC bond in a plane perpendicular to the guanidine plane (Zhou et al., 1998). The C ÐN2ÐN approach angle between arginine and nitrate (mimicking P) is $112 , 2 from ideal. È For the reverse reaction, extended Huckel calculation of phosphate valence electron density suggests that the optimal angle for nucleophilic attack by ADP-O3 is 100 (Zhou et al., 1998) with respect to the P±O3 bond. The observed P±O3±N (P ) angle is $96 , 4 from optimal. The r.m.s. deviation from ideal trajectories of the four angles of approach is 2.9 , which is little more than the 2.6 estimated error in unrestrained angles. This precision of alignment is similar to that envisioned in Koshland's orbital steering (Dafforn & Koshland, 1971), even though the calculations have been called into question by Jencks (Page & Jencks, 1971). The alignment is more precise than required by Jenck's estimation of the impact of entropy on reaction rate. At this stage, it is not possible to differentiate between several possibilities: (i) whether the precise alignment is purely accidental, (ii) whether the enzyme has evolved to exploit even marginal improvements in rate achievable with very precise alignment or (iii) whether the catalytic effect of precise
+Acta Cryst. (2002). D58, 2009±2017
+
+Figure 3
+
+The proposed proton-transfer mechanism for the half-reaction. Arrows indicate the motion of electrons. Arginine is initially phosphorylated at the guanidino nitrogen N.
+Yousef et al.
+
+
+Arginine kinase transition-state analogue complex
+
+2013
+
+research papers
+O1 of the nitrate. pKa values of the ADP  O atoms, calculated by the ®nite difference Poisson Boltzman method (Yang et al., 1993), show that the O2 is double bonded and that O1 and O3 are mostly protonated when bound in the active site. These calculations are consistent with 31P NMR data that show that the pKa value of the -phosphate of MgADP increases from 6 (in solution) to 7.5 upon binding to arginine kinase in a TSA complex (Rao & Cohen, 1977). These various arguments point to the O1 being predominantly protonated under physiological conditions. This can be rationalized by the proximity of negative charges in its environment. O1 is Ê $2.8 A from both the ADP O1 and the nitrate O1. There may be minor differences between the TSA complex and the real transition state. Nitrate has a lower pK than ADP, so a shared proton would be located predominantly on the -phosphate (Izzat & Christensen James, 1970). In the actual transition state, it might be more equally shared, but present nonetheless, leading us to propose a concerted proton transfer synchronized with the phosphoryl transfer (Fig. 3). The proposed concerted proton transfer follows other precedents in phosphoryl-transfer reactions. A similar proposal resulted from quantum-mechanical calculations for the reaction of cyclic 3H ,5H -adenosine monophosphate (cAMP) dependent protein kinase (Hutter & Helms, 1999) and for UMP/CMP kinase (Hutter & Helms, 2000). The calculations showed that in both systems phosphoryl transfer is accompanied by simultaneous transfer of a proton. For arginine kinase, the implications of the proton transfer would be that loss of the O1 proton would lead to electron migration towards P. Excess negative charge on P would facilitate the migration of the O3 electron, thus enhancing nucleophilic attack during the formation of the new bond with P . Upon bond formation, excess charge on P (N in our substrate analogue) would lead to electron migration towards the O1 of the phosphoryl (O1 of nitrate in the analogue), favouring acceptance of the O1 proton. The cycle is complete. It is, of course, impossible to distinguish cause and effect, because the whole process would be concerted. 3.1.3. Mg2+ ion. The preferred coordination number of Mg2+ is six and magnesium has a strong preference to bind to O atoms as electron donors (Katz et al., 1996). Crystallographic database analysis on small-molecule structures showed that the metal±oxygen distances lie in the range 2.00± Ê Ê 2.15 A, with a mean of 2.07 A (Harding, 1999). In the current crystal structure, the metal±oxygen distances range from 2.01± Ê Ê 2.15 A (mean of 2.07 A) and form an octahedral coordination sphere around the metal. The high-resolution structure shows that Mg2+ in the active site has two coordination spheres (Fig. 4): the ®rst sphere is of Ê radius $2 A, consisting of O1, O1 of ADP, O1 of the nitrate and three water molecules as coordinating elements. The Ê second sphere is of radius $4 A, consisting of Glu224, Glu225 and Glu314. The distance between the carboxyl O atom of Ê these residues and Mg2+ are 4.2, 4.4 and 4.1 A, respectively. These negatively charged residues interact indirectly with Mg2+ via hydrogen bonds bridged by three Mg2+-liganding water molecules. Glu314 and Glu225 are catalytically important residues, holding the substrate arginine in place and perhaps acting upon it, in an acid±base catalytic role (Zhou et al., 1998). The coordination of Mg2+ plays an important role in the catalysis at several levels. If it is removed from molecularmechanics models, the distance between phosphate O1 and Ê nitrate O1 increases from 2.8 to 4.7 A. Thus, the Mg2+ allows close approach of the -phosphoryl and -phosphate groups. Secondly, the Mg2+ is essential in con®guring the active site. The catalytic Glu314 that is in the second coordination sphere
+
+Figure 5 Figure 4
+
+Ê Coordination of Mg2+ in the active site. Distances are shown in A.
+
+The Á matrix. Shading corresponds to the Á values. Blocks of uniformly light shading indicate possible rigid bodies. This ®gure was produced with the program ANISOANAL (Collaborative Computational Project, Number 4, 1994).
+Acta Cryst. (2002). D58, 2009±2017
+
+2014
+
+Yousef et al.
+
+
+
+Arginine kinase transition-state analogue complex
+
+research papers
+is within a loop that is disordered and folded away from the active site in substrate-free structures of creatine kinase (Fritz-Wolf et al., 1996). The role of the Mg2+ in stabilizing the new position of Glu314 in the substrate-bound closed enzyme structure may explain the solution-scattering observations that binding of ADP or ATP with Mg2+ elicits a large conformational change, but not the free nucleotide without Mg2+ or the guanidine substrate (Forstner et al., 1998).
+3.2. Analysis of thermal motion
+
+The high-resolution data allows the variation in each position to be described by six anisotropic displacement parameters. The mean anisotropy (related to the lengths of the shortest and longest principal axis of the corresponding ellipsoid) is 0.42 for the protein, with a standard deviation of 0.12. This means that the ellipsoids Figure 6 approximating the thermal motion of Comparison of isotropic equivalent atomic displacement factors (Uiso) supports the four-rigid-group model. Uiso calculated directly from the TLS re®nement is plotted in blue and Uiso from the atoms are twice as large in one direction individual anisotropic displacement parameters of SHELXL re®nement is in red. (a) A TLS model as the other. This is typical of the values in which the entire protein has been considered as a rigid group; (b) a TLS model with two rigid found in an earlier survey of other groups; (c) a TLS model with three rigid groups; (d) the TLS model with four rigid groups as proteins (Merritt, 1999). Also, atoms indicated by the Á analysis. See x2.5. near the center of the molecule have rather isotropic displacements, but regions that are exposed to the solvent region exhibit greater anisotropic motion. Á-matrix analysis (Fig. 5) indicated four rigid groups. The designation of the exact boundaries of different groups was adjusted based on our prior knowledge of the structure (Zhou et al., 1998). The designated rigid groups are: (i) residues 2±99 (small domain), (ii) Figure 7 residues 100±280 (large domain), (iii) Stereoview of the segmented domain TLS model. The librational tensors are shown in colors that residues 281±308 (loop 2) and (iv) correspond to the coloring of the domains in the C trace: orange, small domain (2±99); cyan,Cterminal domain (309±357); red, loop (281±308). The length of the axes is proportional to the residues 309±357 (terminal domain). magnitude of libration. Although the length of the red axis appears to show that the libration of the Comparison of the isotropic equivalent loop is small, it is in fact the largest but looks smaller because the direction of view is almost directly displacement factors calculated from down the axis. There is no prevalent motion associated with the large (green) domain (100±280). The substrates are shown in ball-and-stick representation. the TLS and ADP re®nements con®rmed that the rigid-body designaThe direction and magnitude of librational components of tions from Á-matrix analysis were reasonable, as the correthe TLS model with four rigid groups are given in Table 4. The lation was much improved compared with when the protein principal axes of the libration tensors are shown in Fig. 7. was considered as a single rigid body (Fig. 6a). Two and three Unlike libration, the translational and screw tensors have rigid-group models were insuf®cient to obtain good agreement eigenvalues that are approximately equal in all the directions between TLS and anisotropic displacement parameter for the different rigid groups (data not shown), indicating the re®nement, especially for loop regions (Figs. 6b and 6c). The translational and screw disorder was largely isotropic. The best ®t was obtained only with the four-rigid-group TLS model librational motion of the large domain (100±280) is also small (Fig. 6d).
+Acta Cryst. (2002). D58, 2009±2017 Yousef et al.
+
+
+Arginine kinase transition-state analogue complex
+
+2015
+
+research papers
+Table 4
+Eigenvectors and eigenvalues of libration tensors for the protein rigid groups in the TLS re®nement.
+The protein is split into four rigid groups (L1±L4; see text). Eigenvector L1 0.354 À0.908 0.881 0.405 À0.314 0.111 0.225 0.246 0.943 Eigenvalue 0.789 1.443 7.688 1.446 0.729 1.485 5.476 5.233 23.311 6.306 3.241 1.974
+
+L2
+
+0.707 À0.349 À0.615 0.056 0.895 À0.443 0.705 0.279 0.652 0.538 0.784 0.310 À0.810 0.583 À0.067 À0.233 À0.215 0.948 0.800 À0.440 À0.407 0.440 0.892 À0.101 0.407 À0.098 0.908
+
+contributor to bimolecular catalysis. The capability, at high resolution, of re®ning atomic displacement factors shows that motion within the active site is frozen. Substrate B factors are lower than those of protein and most catalytic residues are contained within the least mobile enzyme rigid group. The high-resolution structure indicates the presence of a hydrogen bond between the -phosphate and our analogue of the -phosphate, implying that the reaction is likely to proceed with a concerted proton transfer between - and -phosphates as the PÐN bond is formed/broken. We thank Eliza Ruben for the pK calculation and gratefully acknowledge the funding of National Institute of Health for the project R01GM55837.
+
+L3
+
+L4
+
+References
+Bruice, T. C. & Benkovic, S. J. (2000). Biochemistry, 39, 6267±6274. È Brunger, A. T. (1992). Nature (London), 355, 472±475. È Brunger, A. T., Adams, P. D., Clore, G. M., DeLano, W. L., Gros, P., Grosse-Kunstleve, R. W., Jiang, J. S., Kuszewski, J., Nilges, M., Pannu, N. S., Read, R. J., Rice, L. M., Simonson, T. & Warren, G. L. (1998). Acta Cryst. D54, 905±921. Collaborative Computational Project, Number 4 (1994). Acta Cryst. D50, 760±763. Dafforn, A. & Koshland, D. E. Jr (1971). Proc. Natl Acad. Sci. USA, 68, 2463±2467. Dauter, Z., Lamzin, V. S. & Wilson, K. S. (1997). Curr. Opin. Struct. Biol. 7, 681±688. Eder, M., Fritz-Wolf, K., Kabsch, W., Wallimann, T. & Schlattner, U. (2000). Proteins, 39, 216±225. Eder, M., Schlattner, U., Becker, A., Wallimann, T., Kabsch, W. & Fritz-Wolf, K. (1999). Protein Sci. 8, 2258±2269. Ellington, W. R. (2001). Annu. Rev. Physiol. 63, 289±325. Forstner, M., Manfred, K., Laggner, P. & Wallimann, T. (1998). Biophys. J. 75, 1016±1023. Fritz-Wolf, K., Schnyder, T., Wallimann, T. & Kabsch, W. (1996). Nature (London), 381, 341±345. Hansen, D. E. & Knowles, J. R. (1981). J. Biol. Chem. 256, 5967±5969. Harata, K., Abe, Y. & Muraki, M. (1998). Proteins, 30, 232±243. Harata, K., Abe, Y. & Muraki, M. (1999). J. Mol. Biol. 287, 347±358. Harding, M. M. (1999). Acta Cryst. D55, 1432±1443. Holbrook, S. R., Dickerson, R. E. & Kim, S. (1985). Acta Cryst. B41, 255±262. Holbrook, S. R. & Kim, S. H. (1984). J. Mol. Biol. 173, 361±388. Howlin, B., Moss, D. S. & Harris, G. W. (1989). Acta Cryst. A45, 851± 861. Hutter, M. C. & Helms, V. (1999). Protein Sci. 8, 2728±2733. Hutter, M. C. & Helms, V. (2000). Protein Sci. 9, 2225±2231. Izzat, M. R. & Christensen James, J. (1970). Handbook of Biochemistry, edited by H. A. Sober, 2nd ed., p. J-66. Boca Raton, FL, USA: CRC Press. Jones, T. A., Zou, J.-Y., Cowan, S. W. & Kjeldgaard, M. (1991). Acta Cryst. A47, 110±119. Katz, A. K., Glusker, J. P., Beebe, S. A. & Bock, C. W. (1996). J. Am. Chem. Soc. 118, 5752±5763. Laskowski, R. A., MacArthur, M. W., Moss, D. S. & Thornton, J. M. (1993). J. Appl. Cryst. 26, 283±291. Lau, E. Y., Kahn, K., Bash, P. A. & Bruice, T. C. (2000). Proc. Natl Acad. Sci. USA, 97, 9937±9942. Lightstone, F. C. & Bruice, T. C. (1996). J. Am. Chem. Soc. 118, 2595± 2605. Lightstone, F. C. & Bruice, T. C. (1998) Bioorg. Chem. 26, 193±199. Longhi, S., Czjzek, M. & Cambillau, C. (1998). Curr. Opin. Struct. Biol. 8, 730±737.
+Acta Cryst. (2002). D58, 2009±2017
+
+and isotropic. However, the librational motions of the small domain, loop and the terminal domain are of different magnitudes and directions, indicating anisotropic librational disorder and the prevalence of the librational motion in the rigid-body motion of the protein. The magnitude of the librational motion of the loop (281± 308) is about four times greater than that of the C-terminal domain (309±357) and the librational motion of the C-terminal domain is about three times greater than that of the small domain (2±99). The high-mobility loop bridges between two subdomains; the large domain (100±280) and the C-terminal domain (309±357). Contained within the less mobile large domain are residues Arg124, Arg126, Arg229, Cys271, Thr273 and Arg280 (that help to hold the substrates in place) and a catalytic residue, Glu225. The C-terminal domain includes catalytically important residues Arg309 and Glu314. The small domain (2±99) is also less mobile and includes residues Gly64, Val65, Gly66 and Tyr68, which help to hold the substrate arginine in place, and segment 61±65, which was proposed to be a speci®city loop (Suzuki et al., 1997; Zhou et al., 1998). Thus, subdomains that have catalytically important residues exhibit the least mobility in the transition-state con®guration. In summary, the TLS analyses showed that transition-state structure of ariginine kinase consists of four rigid bodies. One domain is stationary, while libration is the prevalent mode of motion of the three other domains. Translation and screwrotation motions are restricted. Thus, in addition to the previously characterized induced-®t closure of the active site (Forstner et al., 1998; Zhou et al., 2000) on each catalytic cycle, there is a reduction in the mobilities of the different rigid groups as the closed active form is stabilized in the transition state. In conclusion, analysis at atomic resolution gives coordiÊ nates with precision of about 0.04 A, suf®cient now to con®rm that the reactants are pre-aligned precisely. The precision is unexpectedly high (within 2.9 of the optimal attack con®guration), suggesting that there has been evolutionary selection for substrate pre-alignment and that it is an important
+
+2016
+
+Yousef et al.
+
+
+
+Arginine kinase transition-state analogue complex
+
+research papers
+Luzzati, V. (1952). Acta Cryst. 5, 802±810. McLaughlin, A. & Cohn, C. M. (1972). J. Biol. Chem. 247, 4382±4388. Merritt, E. A. (1999). Acta Cryst. D55, 1109±1117. Mesecar, A. D., Stoddard, B. L. & Koshland, D. E. Jr (1997). Science, 277, 202±206. Milner-White, E. J. & Watts, D. C. (1971). Biochem. J. 122, 727±740. Otwinowski, Z. & Minor, W. (1997). Methods Enzymol. 276, 307±326. Page, M. I. & Jencks, W. P. (1971). Proc. Natl Acad. Sci. USA, 68, 1678±1683. Papiz, M. Z. & Prince, S. M. (1996). Proceedings of the CCP4 Study Weekend. Macromolecular Re®nement, edited by E. Dodson, S. Moore & S. Bailey, pp. 115±123. Warrington: Daresbury Laboratory. Ramakrishnan, C. & Ramachandran, G. N. (1965). Biophys. J. 5, 909± 933. Rao, B. D. & Cohen, M. (1977). J. Biol. Chem. 252, 3344±3350. Rao, J. K., Bujacz, G. & Wlodawer, A. (1998). FEBS Lett. 439, 133± 137. Rosen®eld, R. E., Trueblood, K. N. & Dunitz, J. D. (1978). Acta Cryst. A34, 828±829. Sali, A., Veerapandian, B., Cooper, J. B., Moss, D. S., Hofmann, T. & Blundell, T. L. (1992). Proteins, 12, 158±170. Schlattner, U., Forstner, M., Eder, M., Stachowiak, O., Fritz-Wolf, K. & Wallimann, T. (1998). Mol. Cell. Biochem. 184, 125±140. Schomaker, V. & Trueblood, K. N. (1968). Acta Cryst. B24, 63±76. Sheldrick, G. M. (1990). Acta Cryst. A46, 467±473. Sheldrick, G. M. & Schneider, T. R. (1997). Methods Enzymol. 277, 319±343. Shen, Y. Q., Tang, L., Zhou, H. M. & Lin, Z. J. (2001). Acta Cryst. D57, 1196±1200. Stec, B., Zhou, R. & Teeter, M. (1995). Acta Cryst. D51, 663±681. Suzuki, T., Kawasaki, Y., Furukohri, T. & Ellington, W. R. (1997). Biochim. Biophys. Acta, 1343, 152±159. Teixeira, S., Lo Leggio, L., Pickersgill, R. & Cardin, C. (2001). Acta Cryst. D57, 385±392. Tisi, Y., Bax, B. & Loew, A. (2001). Acta Cryst. D57, 187±193. Villa, J., Strajbl, M., Glennon, T. M., Sham, Y. Y., Chu, Z. T. & Warshel, A. (2000). Proc. Natl Acad. Sci. USA, 97, 11899±11904. Warshel, A. (1998). J. Biol. Chem. 273, 27035±27038. Wilson, M. A. & Brunger, A. T. (2000). J. Mol. Biol. 301, 1237±1256. Yang, A. S., Gunner, M. R., Sampogna, R., Sharp, K. & Honig, B. (1993). Proteins, 15, 252±265. Zhou, G., Ellington, W. R. & Chapman, M. S. (2000). Biophys. J. 78, 1541±1550. Zhou, G., Parthsarathy, G., Somasundaram, T., Ables, A., Roy, L., Strong, S. J., Ellington, W. R. & Chapman, M. S. (1997). Protein. Sci. 6, 444±449. Zhou, G., Somasundaram, T., Blanc, E., Parthsarathy, G., Ellington, W. R. & Chapman, M. S. (1998). Proc. Natl Acad. Sci. USA, 95, 8449±8454.
+
+Acta Cryst. (2002). D58, 2009±2017
+
+Yousef et al.
+
+
+
+Arginine kinase transition-state analogue complex
+
+2017
+
+

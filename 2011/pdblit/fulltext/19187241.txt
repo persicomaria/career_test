@@ -1,0 +1,406 @@
+Tamavidins ­ novel avidin-like biotin-binding proteins from the Tamogitake mushroom
+Yoshimitsu Takakura1, Masako Tsunashima1, Junko Suzuki1, Satoru Usami1, Yoshimitsu Kakuta2, Nozomu Okino2, Makoto Ito2 and Takeshi Yamamoto1
+1 Plant Innovation Center, Japan Tobacco, Inc., Shizuoka, Japan 2 Department of Bioscience and Biotechnology, Graduate School of Bioresource and Bioenvironmental Sciences, Kyushu University, Fukuoka, Japan
+
+Keywords avidin; biotin binding; crystal structure; Escherichia coli; interaction Correspondence Y. Takakura, Plant Innovation Center, Japan Tobacco, Inc., 700 Higashibara, Iwata, Shizuoka 438-0802, Japan Fax: +81 538 33 6046 Tel: +81 538 32 8291 E-mail: yoshimitsu.takakura@ims.jti.co.jp (Received 24 November 2008, revised 22 December 2008, accepted 24 December 2008) doi:10.1111/j.1742-4658.2009.06879.x
+
+Novel biotin-binding proteins, referred to herein as tamavidin 1 and tamavidin 2, were found in a basidiomycete fungus, Pleurotus cornucopiae, known as the Tamogitake mushroom. These are the first avidin-like proteins to be discovered in organisms other than birds and bacteria. Tamavidin 1 and tamavidin 2 have amino acid sequences with 31% and 36% identity, respectively, to avidin, and 47% and 48% identity, respectively, to streptavidin. Unlike any other biotin-binding proteins, tamavidin 1 and tamavidin 2 are expressed as soluble proteins at a high level in Escherichia coli. Recombinant tamavidin 2 was purified as a tetrameric protein in a single step by 2-iminobiotin affinity chromatography, with a yield of 5 mg per 100 mL culture of E. coli. The kinetic parameters measured by a BIAcore biosensor indicated that recombinant tamavidin 2 binds biotin with high affinity, in a similar manner to binding by avidin and streptavidin. The overall crystal structure of recombinant tamavidin 2 is similar to that of avidin and streptavidin. However, recombinant tamavidin 2 is immunologically distinct from avidin and streptavidin. Tamavidin 2 and streptavidin are very similar in terms of the arrangement of the residues interacting with biotin, but different with regard to the number of hydrogen bonds to biotin carboxylate. Recombinant tamavidin 2 is more stable than avidin and streptavidin at high temperature, and nonspecific binding to DNA and human serum by recombinant tamavidin 2 is lower than that for avidin. These findings highlight tamavidin 2 as a probable powerful tool, in addition to avidin and streptavidin, in numerous applications of biotin-binding proteins.
+
+Avidin from chicken egg-white and its bacterial analogue, streptavidin, from the actinobacterium Streptomyces avidinii are homotetrameric proteins that bind biotin with very high affinity at Kd values of 6 · 10)16 and 4 · 10)14 m, respectively. This level of affinity is the highest known in nature between a ligand and a protein [1]. The (strept)avidin­biotin interaction is of great technical value and is widely employed or exam-
+
+ined as a universal tool in numerous medical, biological, biochemical and biotechnological applications [2­4]. Each monomer of (strept)avidin noncovalently binds one molecule of biotin. A biotin molecule bound to a monomer contacts with another monomer through the dimer­dimer interface, and this intersubunit contact is essential for exceptionally high affinity [5­7].
+
+Abbreviations AVR protein, avidin-related protein; CAPS, 3-(cyclohexylamino)-1-propanesulfonic acid; IPTG, isopropyl thio-b-D-galactoside; SPR, surface plasmon resonance.
+
+FEBS Journal 276 (2009) 1383­1397 ª 2009 The Authors Journal compilation ª 2009 FEBS
+
+1383
+
+Novel biotin-binding proteins
+
+Y. Takakura et al.
+
+Avidin was originally discovered during the study of biotin [8], whereas streptavidin was discovered during screening for antibiotics [9,10]. Avidin is a basic glycoprotein [11], whereas streptavidin is a neutral protein without carbohydrate chains [12]. Avidin and steptavidin have different amino acid compositions [13,14]; the overall identity between the two proteins in the primary structure is only approximately 30%. By comparison, analysis of the crystal structure of avidin and streptavidin has revealed a similar arrangement of amino acids in the biotin-binding pockets of both proteins [5,6]. Certain properties of these proteins are undesirable in various applications. For example, it is quite difficult to express avidin and streptavidin as soluble proteins in Escherichia coli. As these proteins tend to accumulate in inclusion bodies, renaturation and tedious downstream processing are required in the preparation of active proteins [15,16]. Expression in E. coli is preferable because of the low cost of production and the potential for further engineering; thus, biotin-binding proteins that can be efficiently produced in E. coli are highly sought after. A drawback specific to avidin is its high level of nonspecific binding to various biological components at physiological pH [17,18]; this high level of nonspecific binding is probably a result of the high isoelectric point of avidin (pI $ 10.5), limiting the application of the protein. Other organisms represent alternative sources for improved biotin-binding proteins. Historically, avidin and streptavidin were the only known biotin-binding proteins; however, there have been several reports of avidin-like proteins in birds and bacteria. For example, avidin-related (AVR) proteins, which are encoded by avidin-related genes (avr genes), share a sequence identity of 68­78% with avidin [19]. When the AVR proteins are produced in insect cells, differences are found in some of the protein properties when compared with avidin, including pI, glycosylation and biotin binding [20]. Avidins from egg-white of duck, goose and ostrich show different immunological cross-reactivity when compared with avidin from chicken [21]. Furthermore, biotin-binding proteins sharing a sequence identity of over 98% with streptavidin have been purified from Streptomyces venezuelae, and termed streptavidin v1 and streptavidin v2 [22]. Recently, avidin-like proteins, termed bradavidin and rhizavidin, have also been found in nitrogen-fixing symbiotic bacteria, and their potential for medical applications has been demonstrated [23,24]. However, only a limited number of biotin-binding proteins have been characterized in detail, and there has been no report to date of such proteins occurring in organisms other than birds and bacteria.
+1384
+
+Novel avidin-like biotin-binding proteins were discovered in a basidiomycete fungus, Pleurotus cornucopiae (the Tamogitake mushroom), during investigations of antifungal proteins from edible mushrooms. The unique and useful properties of these novel biotin-binding proteins are reported in this study.
+
+Results
+Antifungal protein from P. cornucopiae In the screening for antifungal proteins from edible mushrooms with activity against Magnaporthe grisea, which is a causal agent of rice blast, a crude protein from P. cornucopiae (known as the Tamogitake mushroom) showed strong antifungal activity. The antifungal protein was purified from P. cornucopiae via three chromatographic steps and heat treatment. SDS-PAGE revealed that the purified fraction contained a single 15 kDa polypeptide (Fig. 1A). The N-termini of the purified protein, and two kinds of 14 kDa peptide from the lysyl endopeptidase and the V8 protease digests of the protein, were sequenced. Because these sequences overlapped partly, a single stretch of 67 amino acid residues was determined (Fig. 2). A database search revealed that this sequence shared significant homology with streptavidin from S. avidinii, an avidin-like biotinbinding protein. If the protein from P. cornucopiae has the ability to bind biotin, which is known as an essential factor for the growth of M. grisea, depletion of biotin should result in antifungal activity. We showed that the addition of biotin to the assay medium abolished the antifungal activity induced by this protein, as in the case of avidin and streptavidin (Fig. 1B). This provided the first indication that the antifungal protein was a biotin-binding protein. cDNA cloning and primary protein structures of tamavidins Two PCR products were amplified from P. cornucopiae cDNA with degenerate primers based on the determined amino acid sequence (Table 1). One PCR product (from TMF2 and TMR2) encoded a peptide sequence identical to the corresponding region of the experimentally determined amino acid sequence. This clone was used as a screening probe and a full-length cDNA clone of 671 bp, which encoded a protein of 143 amino acids, was obtained. The protein shared a sequence identity of 47% and 31% with streptavidin and avidin, respectively (Fig. 2). Therefore, the protein and gene were termed tamavidin 1 (for tamogitake avidin 1) and tam1, respectively. The pI of tamavidin 1
+
+FEBS Journal 276 (2009) 1383­1397 ª 2009 The Authors Journal compilation ª 2009 FEBS
+
+Y. Takakura et al.
+
+Novel biotin-binding proteins
+
+A
+
+Q-
+
+Se
+
+a ph
+
+ro
+
+atm e6 tre oQ os r °C on pe 65 M Su
+
+se
+
+en
+
+t
+
+94 67 43 30 20.1 14.4 (kDa)
+B
+
+­ Control
+(No protein)
+
+­ Protein + Biotin
+(100 ng·mL­1)
+
+­ Protein
+in in ­1 ) din ein ote ­ vid ·mL tavi L 1 ) prot pr A µg p m al al ­1 ) (1 Stre µg· ng ­1 ) ng L (1 tifu mL tifu ·m · ng An µg An
+(1 (5 0
+Fig. 1. Purification of an antifungal protein from P. cornucopiae. (A) Silver-stained SDS-PAGE during purification. The arrow indicates the purified protein. (B) Antifungal activity of the purified protein and biotin-binding proteins. The growth of M. grisea in a microtitre plate was inhibited by the proteins, and the activity was abolished by biotin.
+
+and 36% with tamavidin 1, streptavidin and avidin, respectively (Fig. 2). The second protein and gene were termed tamavidin 2 and tam2, respectively. The pI of tamavidin 2 (M1 to K141) was calculated to be 7.4, and a cysteine residue, C135, was present in the C-terminal region. Tamavidin 1 and tamavidin 2 showed no significant amino acid sequence identity to bradavidin. Nucleotide sequence data are available in the DDBJ / EMBL / GenBank databases under the accession numbers AB102784 for tam1 and AB102785 for tam2. Many of the amino acid residues involved in biotin binding in avidin and streptavidin [5,6] were well conserved in tamavidin 1 and tamavidin 2, but there were some notable differences. For example, the amino acid residues corresponding to N49, W79 and T90 in streptavidin were E40, F69 and S80, respectively, in tamavidin 1, and the residue corresponding to N49 in streptavidin was D40 in tamavidin 2 (Fig. 2). The avidin fingerprint string, WXN(E / Q / N / D) XGSX(M / L / F)X(I / V)X7,12GX(F / Y)X17,36(F / W)XVX (F / W)X3,10(S / A)X(T / S)X(W / F)XGX5,14(M / I / F / L)XXX (W / Y)X16,21(D / N)XF, has been proposed previously [23]. This string is also well conserved in tamavidin 1 and tamavidin 2, with specific differences including a sixth residue of G in the conserved string instead of N in tamavidin 2, and an 11th residue of I / V in the conserved string instead of L in tamavidin 1 and tamavidin 2. Expression of tamavidins in E. coli The full-length open reading frames from cDNAs of tamavidin 1 (M1 to E143) and tamavidin 2 (M1 to K141), and the open reading frames for putative mature proteins of tamavidin 1 (L8 to E143) and tamavidin 2 (L8 to K141) with a translation initiation codon, were integrated into the expression vector pTrc99A. The recombinant proteins were expressed at a high level from both of the full-length versions. These proteins were clearly visible as major bands in SDS-PAGE (Fig. 3A) and reached 10% of the total soluble proteins extracted at pH 11 from E. coli. By comparison, expression was not detected in E. coli transformed with the truncated versions (data not shown). Attempts were then made to purify the recombinant proteins from the extracts using 2-iminobiotin. Recombinant tamavidin 2 was successfully purified in a single step by column chromatography with 2-iminobiotin­ agarose (Fig. 3B). The yield of the recombinant protein was approximately 2 mg (> 95% purity) from 100 mL of the E. coli culture incubated with 1 mm isopropyl thio-b-d-galactoside (IPTG) at 25 °C
+1385
+
+(M1 to E143) was calculated to be 6.2, and no cysteine residues were present. The N-terminus of the purified protein corresponded to L8 of the deduced amino acid sequence. The molecular mass of 15 kDa determined by SDS-PAGE for the purified protein was close to the 15 158 Da calculated for the peptide between L8 and E143, which was thus considered as the mature protein of tamavidin 1. The second PCR product (from TMF1 and TMR1) encoded a polypeptide sharing 75% sequence identity with the experimentally determined amino acid sequences. A full-length cDNA clone of 840 bp, obtained as described above, encoded a protein of 141 amino acids showing a sequence identity of 66%, 48%
+
+FEBS Journal 276 (2009) 1383­1397 ª 2009 The Authors Journal compilation ª 2009 FEBS
+
+Novel biotin-binding proteins
+
+Y. Takakura et al.
+
+Fig. 2. Amino acid sequences of biotin-binding proteins. The full-length sequences of tamavidin 1 and tamavidin 2 and the mature sequences of streptavidin (GenBank accession number P22629) and avidin (P02701) are aligned. Residues conserved in three or more of the sequences are shown in white type. Arrows and bars indicate the localization of the successive b-strands and helices, respectively, based on the crystal structure of tamavidin 2 (Fig. 4B). The N-terminal amino acids experimentally determined for the purified protein are underlined in grey. Residues that interact directly with biotin in tamavidin 2 (Fig. 5), streptavidin [5] and avidin [6] are marked by asterisks beneath each sequence. Table 1. Primers used in this study. Alternative bases for a certain position are shown in parentheses (I, inosine). Restriction sites are shown in italic type. Primer TMF1 TMF2 TMR1 TMR2 TM100N-BspH TM100C-Hin TM75N-BspL TM75C-Hin BradN-BspH BradC-Hin Sequence (5¢- to 3¢) GT(A / G)TT(C / T)TC(A / G)AAI(G / C)(A / T)IAC (A / G / C / T) CCIA(A / G)IGT(A / G / C / T)AC(A / G / C / T) CC(C / T)TG(A / G / C / T)CC AC(A / G / C / T)GG(A / G / C / T)AC(A / G / C / T)TGGTA (C / T)AA(C / T)G GA(A / G)(C / T)TIGGI(A / T)(G / C)(A / G / C / T)AC (A / G / C / T)ATGAA CCCATCATGAAAGACGTCC TGAAAAGCTTTCACTCGAACTTCAAC ACCAACATGTCAGACGTTCAA ATGAAAGCTTTTACTTCAACCTCGG TCATGAGGCACTTCAACG GCGAATTCAAGCTTCTACTTCTTGGTGTTC
+
+100 mL of the E. coli culture. A large proportion of the recombinant protein was found in the flowthrough fraction. Conversely, when the extract was applied to a biotin­agarose column, virtually all recombinant tamavidin 1 bound tightly to the column and could not be eluted. Thus, tamavidin 1 did not appear to bind 2-imminobiotin, despite a strong affinity for biotin. Molecular mass and subunit association of tamavidins The molecular masses of recombinant tamavidin 1 and tamavidin 2 were estimated by gel filtration chromatography to be 50 and 47 kDa, respectively. By comparison, the apparent molecular masses of tamavidin 1 and tamavidin 2 were estimated to be 16 and 15.5 kDa, respectively, by SDS-PAGE under denaturing conditions (Fig. 3A), and 60 kDa when heat treatment was omitted before loading (Fig. 3C for tamavidin 2). In addition, two bands at 15.5 and 30 kDa were observed for tamavidin 2 by SDS-PAGE when the sample was treated at 95 °C without reducing agent (Fig. 3C). These data suggest that both tamavidin 1 and tamavidin 2 are homotetramers in the native form, and that dimers of tamavidin 2 form under certain conditions. MALDI-TOF MS analysis of recombinant tamavidin 2 revealed a large peak at m / z = 15 146, corresponding to the monomer, and two small peaks at m / z = 30 335, corresponding to the dimer, and m / z = 60 932, corresponding to the tetramer. When
+
+for 5 h, with a recovery rate of approximately 80% (Table 2). The yield was 13 times higher than that observed for bradavidin expressed under the same conditions (Table 2). When the culture period was prolonged to 22 h, the yield of recombinant tamavidin 2 increased by 2.5-fold (5 mg per 100 mL of culture) (Fig. 3B, Table 2). Thus, tamavidin 2 is a biotin-binding protein that can be prepared efficiently in sufficient quantity by expression in E. coli. Further protein characterization focused on tamavidin 2. By comparison, the recovery rate for recombinant tamavidin 1 by 2-iminobiotin chromatography was very low, and the yield was only 0.01 mg from
+1386
+
+FEBS Journal 276 (2009) 1383­1397 ª 2009 The Authors Journal compilation ª 2009 FEBS
+
+Y. Takakura et al.
+
+Novel biotin-binding proteins
+
+A
+
+or ct ve in 1 n 2 n y i i pt vid id id em ma mav dav n A Ta Ta Bra
+
+B
+n tio m n -th in ro u gh ct d io n t ac io n fr
+
+C
+Temperature RT 95 RT 95 95 2-mercaptoethanol ­ ­ + + + Biotin ­ ­ ­ ­ +
+
+So
+
+b lu
+
+le
+
+f
+
+c ra
+
+w flo
+
+g
+
+a fr
+
+C
+
+u ol
+
+W
+
+h as
+
+El
+
+e ut
+
+M
+
+94 67 43 30
+
+20 14 (kDa)
+Fig. 3. SDS-PAGE stained with Coomassie brilliant blue of biotin-binding proteins expressed in E. coli. (A) Total soluble proteins extracted in CAPS buffer (pH 11) from cells of E. coli cultured in Luria­Bertani broth containing 1 mM IPTG at 25 °C for 5 h. Arrows indicate the expressed proteins (tamavidin 1, 16 kDa; tamavidin 2, 15.5 kDa). (B) 2-Iminobiotin column chromatography of tamavidin 2 expressed in E. coli cultured in Luria­Bertani broth containing 1 mM IPTG at 25 °C for 22 h. Arrowhead indicates the purified tamavidin 2. (C) Tamavidin 2 was incubated with or without 2-mercaptoethanol in 1· SDS sample buffer at room temperature (RT) or 95 °C (95) with or without biotin. Size markers are in lane M. Monomer, dimer and tetramer are shown with filled, grey and open arrowheads, respectively.
+
+Table 2. Protein characteristics. The association rate constants (ka) to biotin of tamavidin 2 and other biotin-binding proteins, measured by a BIAcore biosensor, are indicated. The yields of the recombinant protein affinity purified from the soluble protein of E. coli cultured at 25 °C for 5 h are shown. At the transition temperature (Tr), half of the protein is tetrameric and the other half is monomeric in the absence (first value) and presence (second value) of biotin. At Tm, the activity of fluorescence quenching becomes half of that in the nonheated protein sample. The calculated isoelectric points (pI) and the degree of nonspecific binding to DNA and human serum protein are also indicated. Association rate constant (ka) to biotin-LC-BSAa (M)1Æs)1) (1.0 (1.4 (2.0 (8.7 ± ± ± ± 0.3) 0.4) 0.3) 3.7) · · · · 10 106 106 103
+6
+
+Protein Tamavidin 2 Streptavidin Avidin Bradavidin
+a
+
+Yield of protein expressed in E. coli (mg per 100 mL culture) 2 (5) NTc 0.1e 0.15
+b
+
+Thermal stability SDS-PAGE Tr (°C) 78 72d 58d 65f 99.9 < 100d 100d 85f Fluorescent biotin Tm (°C) 85.2 ± 0.1 74.3 ± 0.7 78.8 ± 0.4 NT pI 7.4 6.1 9.5 6.3 Nonspecific binding (DNA and human serum protein) Low Low High NT
+b
+
+Tamavidin 2 and bradavidin were prepared in this study. Avidin (egg-white) and streptavidin (S. avidinii) were from Sigma. of incubation in parentheses. c NT, not tested. d Bayer et al. [32]. e Airenne et al. [30]. f Nordlund et al. [23].
+
+Yield after 22 h
+
+the recombinant protein was treated with biotin, the peaks representing the dimers and tetramers were markedly higher (data not shown), suggesting that biotin binding promoted the formation of the tetrameric quaternary structure. Furthermore, the fluorescence from 1 nmol of biotin­4-fluorescein was compensated for by 0.274 nmol of recombinant tamavidin 2, indicating that 1 mol of tamavidin 2 bound 3.6 mol of biotin­4fluorescein. Similarly, 1 mol of streptavidin bound 3.4 mol of biotin­4-fluorescein in this assay. Therefore,
+
+as for streptavidin, it is probable that one molecule of tamavidin 2 binds four molecules of biotin (one molecule per subunit). Kinetic parameters of tamavidin 2 for binding to biotin and 2-iminobiotin The interaction between tamavidin 2 and biotin or 2-iminobiotin was examined using the surface plasmon resonance (SPR)-based BIAcore biosensor (Table 2). The on-rate of biotin binding of recombinant
+1387
+
+FEBS Journal 276 (2009) 1383­1397 ª 2009 The Authors Journal compilation ª 2009 FEBS
+
+Novel biotin-binding proteins
+
+Y. Takakura et al.
+
+tamavidin 2 was 1.0 · 106 m)1Æs)1. This value was comparable with but slightly lower than that of streptavidin (1.4 · 106 m)1Æs)1), half that of avidin and two orders of magnitude higher than that of bradavidin. The off-rates of biotin binding of recombinant tamavidin 2, streptavidin and avidin were low, and below the measurable limit of 5 · 10)6 s)1 of the biosensor system. The off-rate of bradavidin was (1.6 ± 1.1) · 10)4 s)1. The on- and offrates of 2-iminobiotin binding of tamavidin 2 were determined to be (1.0 ± 0.2) · 104 m)1Æs)1 and (8.7 ± 2.0) · 10)4 s)1, respectively, with a resulting dissociation constant of (8.7 ± 2.0) · 10)8 m. These values were similar to those reported previously for avidin (1.6 · 104 m)1Æs)1, 3.1 · 10)4 s)1 and 2.0 · 10)8 m, respectively) [18]. These results suggest that tamavidin 2 has high affinity for biotin and 2-iminobiotin at a similar level as avidin and streptavidin. Crystal structure of tamavidin 2 The crystal structure of the recombinant tamavidin ° 2­biotin complex was refined to a resolution of 1.3 A (Table 3). Structural data are available in the Protein Data Bank database under the accession number 2ZSC for the tamavidin 2­biotin complex. Two tamavidin 2­biotin complexes appear in an asymmetric unit (Fig. 4A, monomers 1 and 2, and monomers 3 and 4). Two of the biotin-binding pockets are embedded in the asymmetric unit, and each pocket is formed mainly within a monomer. Interestingly, each monomer contributes the tryptophan at position 108 (W108) to its partner as an additional component of the biotin-binding site. The area of the interface between monomers 1 and 2 (3 and 4) is, however, smaller than that between monomers 1 and 4 (2 and 3). Tamavidin 2 is a tetramer with D2 symmetry (Fig. 4A), and each monomer is an eight-antiparallel b-stranded b-barrel structure with two helices (Fig. 4B). Superposition of the two monomers in the ° asymmetric unit led to an rmsd value of 0.19 A for 122 Ca atoms. Thus, the monomers are identical. The overall three-dimensional structures determined for tamavidin 2 are markedly similar to those of streptavidin and avidin (Fig. 4C). Superposition of tamavidin 2 and streptavidin and of tamavidin 2 and avidin ° resulted in relatively low rmsd values of 0.92 A (for ° 114 Ca pairs) and 1.37 A (for 106 Ca pairs), respectively. There was a high degree of similarity within the b-barrel folds among the three proteins, and differences in the structures occurred in several of the loop regions (Fig. 4C). The number of residues in the loop region (S36 to V41) between the third and fourth b-strands of tamavidin 2, which was expected
+1388
+
+Table 3. Data collection and refinement statistics for X-ray crystallography of tamavidin 2­biotin complex. Data collection Space group Unit cell parameters
+
+Beam line ° Wavelength (A) ° Resolution range (A) Number of reflections Observed / unique Redundancy Rsyma,b I / r (I)a Completeness (%) Refinement statistics ° Resolution range (A) Number of reflections Working set / test set Completeness (%) Rcrystc (%) / Rfreed (%) Rmsd ° Bond length (A) / bond angles (deg) ° Average B-factor (A2) / number of atoms Protein Biotin Glycerol Mg Water Ramachandran analysis Most favoured (%) Allowed (%) Generously allowed (%) Disallowed (%)
+a
+
+C2 ° a = 78.38 A ° b = 80.02 A ° c = 55.73 A b = 132.32° PF NW12 1.000 50.0­1.3 238 286 / 61 099 3.9 (3.7) 0.118 (0.470) 2.0 (1.0) 97.4 (100)
+
+18.7­1.3 57 683 / 3072 97.5 19.9 / 23.8 0.008 / 1.4 10.8 / 2061 8.5 / 32 34.7 / 54 17.8 / 3 29.1 / 450 90.9 8.1 0.5 0.5
+
+b
+
+Values in parentheses are of the highest resolution shell. P P Rsym ¼ ðI À hIiÞ= hIi, where I is the intensity measurement of a given refraction and ÆIæ is the average intensity of multiple P P measurements of this refraction. c Rcryst ¼ jFobs À Fcal j Fobs, where Fobs and Fcal are the observed and calculated structure factor amplitudes. d Rfree value was calculated for Rcryst using only an unrefined randomly chosen subset of reflection data (5%).
+
+to become ordered on binding of biotin, as reported in avidin and streptavidin [5,6], was the same as that for streptavidin and shorter than that for avidin by three residues. The overall polar and hydrophobic interactions of biotin with tamavidin 2, streptavidin and avidin were similar. In tamavidin 2, the four tryptophan residues (W69, W80 and W96 in one monomer and W108 in another) comprised the hydrophobic core of the biotin-binding site, which was identical to that in streptavidin (Fig. 5). In avidin, the composition of the hydrophobic core residues was different and comprised five hydrophobic residues (two F and three W
+
+FEBS Journal 276 (2009) 1383­1397 ª 2009 The Authors Journal compilation ª 2009 FEBS
+
+Y. Takakura et al.
+
+Novel biotin-binding proteins
+
+A
+
+B
+
+H2
+
+1
+
+3
+
+Biotin S8 S6 S7 124
+
+S3 S5 S4 S2 S1
+
+4
+
+2
+
+H1 2
+
+C
+Fig. 4. Crystal structure of tamavidin 2. (A) Quaternary structure of the tamavidin 2­biotin complex. There are two monomers in the asymmetric unit [monomer 1 (pink) and monomer 2 (yellow)/monomer 3 (blue) and monomer 4 (green)]. (B) Ribbon diagram of a monomer of the tamavidin 2­biotin complex. Eight b-strands (S1­S8) and two helices (H1, H2) are shown. (C) Stereofigures of superposition in the tamavidin 2­biotin complex (green), streptavidin­biotin complex (blue) and avidin­biotin complex (red).
+
+residues). In tamavidin 2, the biotin bicyclic ring formed hydrogen bonds with six residues (N14, S18, Y34, S36, T78 and D116) (Fig. 5). The hydrogenbonding networks in this region were conserved among all three proteins. In contrast with these similarities, the hydrogen-bonding interactions with the biotin carboxylate were different among the three proteins. Only one hydrogen bond was formed between tamavidin 2 and biotin carboxylate (Fig. 5). The hydrogen bond with S76 of tamavidin 2 was equivalent to that with S88 of streptavidin and that with S75 of avidin. Another hydrogen bond was formed between biotin carboxylate and streptavidin (Fig. 5, N49 main chain), and four more hydrogen bonds were formed between biotin carboxylate and avidin. The C-terminal region (E125 to the C-terminus) of recombinant tamavidin 2 appeared to be crystallographically disordered, and a single cysteine residue (C135) was present in the region. Dimer formation detected by electrophoresis (Fig. 3C) was most
+
+probably the result of the intermonomeric disulfide bridge between the cysteines. If this is the case, the bridge should have formed between monomers 1 and 3, and between monomers 2 and 4 (Fig. 4A), based on the three-dimensional distances. Immunological comparison of tamavidin 2 with the other biotin-binding proteins The antibody raised against recombinant tamavidin 2 did not react with avidin or streptavidin in ELISA. Similarly, the antibodies raised against avidin and streptavidin did not react with tamavidin 2. These results suggest that tamavidin 2 is immunologically distinct from avidin and streptavidin. Thermal stability of tamavidins The thermal stabilities of recombinant tamavidin 1 and tamavidin 2 were compared with those of other
+1389
+
+FEBS Journal 276 (2009) 1383­1397 ª 2009 The Authors Journal compilation ª 2009 FEBS
+
+Novel biotin-binding proteins
+
+Y. Takakura et al.
+
+I74 A86 S100 S112 S76 S88 W69 W79 L98 L110 T78 T90 V41 A50 D40 (main chain) N49 (main chain)
+
+W108* W120* V38 V47
+
+W96 W108 W80 W92
+
+S36 S45
+
+Y34 Y43
+
+S18 S27 N14 N23
+
+D116 D128
+
+Fig. 5. Superposition of the biotin-binding sites of tamavidin 2 (green) and streptavidin (blue), and the bound biotins (grey for tamavidin 2 and blue for streptavidin). The electron density maps (omit Fo ) Fc map contoured at 4.5r) of biotin bound to tamavidin 2 are shown. The amino acid residues of tamavidin 2 and streptavidin are shown in green and black, respectively. *W108 in tamavidin 2 comes from another monomer, as does W120 in streptavidin. Conserved hydrogen bonds are represented by yellow broken lines. Unique bonds in the tamavidin 2­biotin complex, where a water molecule functions to bridge the hydrogen bond, and a unique hydrogen bond in the streptavidin­biotin complex are represented by black and red broken lines, respectively.
+
+biotin-binding proteins. The transition temperatures (Tr) of tamavidin 1 and tamavidin 2, in which half of the protein is in the tetrameric form and the other half is in the monomeric form in SDS-PAGE in the absence of biotin, were 76 and 78 °C, respectively. The Tr value for tamavidin 2 was higher than the reported values for avidin, streptavidin and bradavidin by 20, 6 and 13 °C, respectively (Table 2). The thermal stabilities of recombinant tamavidin 1 and tamavidin 2 in the presence of biotin were extremely high; the proteins mostly remained in the tetrameric form, despite treatment at 99.9 °C. The temperature causing 50% reduction of the biotin­4-fluorescein binding activity of recombinant tamavidin 2 was calculated to be 85.2 °C, whereas this temperature for streptavidin and avidin was 74.3 and 78.8 °C, respectively (Table 2). These results indicate that tamavidins are more stable than avidin and streptavidin at high temperatures. The storage stability of tamavidin 2 is also very high; the biotin-binding activity of recombinant tamavidin 2 rarely decreased in solution at 4 °C, at least for 1 year.
+1390
+
+Nonspecific binding activity of tamavidin 2 The nonspecific DNA-binding activity of recombinant tamavidin 2 was markedly lower than that of avidin and similar to that of streptavidin (Table 2). In addition, the nonspecific binding of recombinant tamavidin 2 to human serum proteins was significantly lower than that of avidin and similar to that of streptavidin (Table 2).
+
+Discussion
+Tamavidin 1 and tamavidin 2 are novel biotin-binding proteins from a basidiomycete fungus. They are the first avidin-like proteins found in organisms other than birds and bacteria. Our preliminary study indicated that other basidiomycete fungi appear to have biotinbinding activity (data not shown). Thus, avidin-like proteins may not be rare in fungi and such proteins may be more widely distributed than previously thought. Previous reports of biotin-binding activity in frog egg jelly [25] and in turtle eggs [26] also imply the
+
+FEBS Journal 276 (2009) 1383­1397 ª 2009 The Authors Journal compilation ª 2009 FEBS
+
+Y. Takakura et al.
+
+Novel biotin-binding proteins
+
+presence of biotin-binding proteins in amphibians and reptiles. The biological significance of biotin-binding proteins in an organism of origin remains unclear. One hypothesis is that these proteins may be involved in defence against microorganisms. Avidin is induced by E. coli and viral infection and by cellular damage in chickens [27,28]. Streptavidin was discovered as an antimicrobial agent in culture filtrates of S. avidinii in the screening of antibiotics [9,10,12]. In this study, we have shown that tamavidin 1 inhibits the fungal growth of M. grisea by causing the deficiency of biotin (Fig. 1B). It is of interest to investigate whether tamavidins are induced by biotic or abiotic stress. Tamavidins have strong binding activity for biotin. The association rate constant (on-rate) of tamavidin 2 to biotin was comparable with the values for avidin and streptavidin (Table 2). The dissociation rate constant (off-rate) of tamavidin 2 to biotin was lower than the detection limit of the BIAcoreÒ 3000 biosensor, as were the values for avidin and streptavidin to biotin. Moreover, the dissociation constant (Kd) of tamavidin 2 to 2-iminobiotin was similar to that of avidin. Thus, these results suggest that tamavidin 2 is usable in a diverse range of applications of avidin­biotin technology. The on-rates of biotin binding of avidin and streptavidin obtained from our SPR data were lower than those measured in the previous solution studies [1,29] by at least one order of magnitude. This discrepancy may be a result of the limitation of surface-based methods, as described previously [29]. Future work should include the measurement of rate constants for the biotin binding of tamavidin 2 in free solution. In this study, X-ray crystallographic analysis depicted a striking homology between tamavidin 2 and (strept)avidin in the secondary, tertiary and quaternary structures, as well as in the distributions of polarity and hydrophobicity of the amino acid residues binding biotin. Investigations of the crystal structure of tamavidin 2 also detected differences between tamavidins and (strept)avidin. For example, tamavidin 2 has a smaller number of hydrogen bonds with biotin carboxylate than do either avidin or streptavidin. These differences in hydrogen bonding may explain the slightly lower association rate constant (ka) of tamavidin 2 to biotin compared with those of avidin and streptavidin to biotin. Unlike other biotin-binding proteins, the tamavidins were expressed at a very high level in E. coli as soluble proteins. It has been reported that streptavidin and avidin are produced in E. coli at 3.9­6.5 mg per 100 mL [15] and 2 mg per 100 mL [16] of culture, respectively. However, in both cases, the proteins become localized within insoluble inclusion bodies and
+
+must be solubilized by strong denaturing agents, such as a high concentration of guanidine hydrochloride, and must be allowed to refold by repeated dialysis. By comparison, tamavidin 2 was readily purified in a single step by 2-iminobiotin affinity chromatography with a yield of 5 mg per 100 mL of E. coli culture without method optimization (Fig. 3B, Table 2). The potential exists for improvement in the production of tamavidin 2 by optimization of the culture conditions, for example by using a fermenter. When avidin is expressed in E. coli, a part of the expressed protein is soluble, but its expression level is low (0.1 mg per 100 mL of culture) [30]. Bradavidin from Bradyrhizobium japonicum can be expressed in E. coli with a yield of 0.15 mg per 100 mL of culture under the conditions used in this study (Table 2). Similarly, the yield of rhizavidin from Rhizobium etli in E. coli in a soluble form has been reported to be 0.4 mg per 100 mL of culture [24]. Furthermore, a recent study has indicated that a bacterial signal peptide increases the expression of avidin in E. coli in soluble form to 1 mg per 100 mL of culture [31]. By comparison, the yield of tamavidin 2, which was soluble without signal peptides and other modifications, was markedly higher than that of avidin and other avidin-like proteins by 5- to 50-fold. Further studies are needed to determine the underlying differences between tamavidins and other biotin-binding proteins, including the higher expression in E. coli, and the mechanism underlying the lack of growth inhibition of E. coli on possible depletion of biotin by tamavidins. Commercially, avidin is purified from egg-white and streptavidin is purified from culture filtrates of S. avidinii, thus posing problems including batch-to-batch fluctuations in quality [32,33]. Furthermore, S. avidinii requires lengthy culture periods of up to 10 days, and the processes required to purify the proteins from heterogeneous molecules are time consuming and laborious. Avidin and streptavidin can be produced in baculovirus-infected insect cells [34,35] and streptavidin can be produced using a special strain of Bacillus subtilis in a special biotin-free medium [36,37], but these alternatives are relatively inefficient and costly and require a high level of technical expertise. Therefore, tamavidin 2, which can be expressed at high levels in E. coli and readily purified, has a clear advantage over other biotin-binding proteins for low-cost production and further engineering potential. The stability of biotin-binding proteins at high temperatures is a critical factor in many applications. If biotin-binding proteins can withstand temperatures higher than 95 °C, PCR may be performed. Efforts to enhance the thermal stability of streptavidin and avidin
+1391
+
+FEBS Journal 276 (2009) 1383­1397 ª 2009 The Authors Journal compilation ª 2009 FEBS
+
+Novel biotin-binding proteins
+
+Y. Takakura et al.
+
+have been made by introducing intermonomeric disulfide bridges [38,39] or by partial replacement of a short stretch of the sequence with the corresponding region of an AVR protein [40]. Tamavidin 2 is ideal for high-temperature applications and further engineering because its thermal stability (Tm for binding to fluorescent biotin) is higher than that of streptavidin and avidin by approximately 11 and 6 °C, respectively (Table 2). Avidin has a high isoelectric point (pI $ 10.5) and is notorious for the high level of charge-driven nonspecific binding of various biological molecules [17,18]. In addition, a carbohydrate moiety of avidin, which accounts for 10% of the molecular mass of the protein, is a source of nonspecific binding activity. Therefore, avidin derivatives with reduced charges and without carbohydrate chains have been developed by chemical and enzymatic modifications or by genetic engineering [18,41]. The low pI values of tamavidin 1 (calculated pI value of 6.2) and tamavidin 2 (calculated pI value of 7.4) may overcome the problems associated with charge-driven nonspecific binding activity. In this study, we confirmed that the nonspecific binding activities of tamavidin 2 for DNA and human serum proteins were clearly lower than those of avidin and comparable with those of streptavidin (pI $ 6) (Table 2). This result suggests that tamavidin 2 has the potential for the specific detection of DNA or components of human serum in basic and applied studies. The nature of the difference between tamavidin 1 and tamavidin 2, and its biological significance, are poorly understood. It was noted during the screening of cDNA that the steady-state mRNA level of tamavidin 1 was 20 times higher than that of tamavidin 2 (data not shown). Tamavidin 1 should be much more abundant in the mushroom. Thus, in this study, it appears that tamavidin 1 is the primary antifungal protein purified from P. cornucopiae. Although tamavidin 1 and tamavidin 2 were efficiently expressed in E. coli at high levels, tamavidin 2 showed high binding activity to 2-iminobiotin, whereas that of tamavidin 1 was poor. It has been reported that the affinity of the W79F mutant of streptavidin for 2-iminobiotin is less than that of wild-type streptavidin, whereas the affinity of this mutant for biotin is as high as that of wild-type streptavidin [42]. The amino acid residue corresponding to tryptophan (W) at position 79 in streptavidin is phenylalanine (F) in tamavidin 1 and tryptophan (W) in tamavidin 2 (Fig. 2). This may partly explain the reason for the poor binding of tamavidin 1 to 2-iminobiotin and the strong binding to biotin. This study clearly demonstrates the advantages of tamavidin 2 over avidin, streptavidin and other biotin1392
+
+binding proteins. Thus, tamavidin 2 has potential as a powerful and versatile tool in a wide range of applications utilizing (strept)avidin­biotin technology. Tamavidin 2 also has potential as a unique model protein in studies of intersubunit and ligand­protein interactions.
+
+Experimental procedures
+Purification of antifungal protein
+Protein was extracted from P. cornucopiae fruit bodies, which were obtained from a local market (Iwata, Japan), in Buffer A (50 mm Tris / HCl, pH 8.0, containing 50 mm NaCl). The crude protein sample (150 mg) was loaded onto an anion-exchange column [1.5 cm in diameter · 10 cm in length; filled with Q Sepharose FF (Amersham Biosciences, Piscataway, NJ, USA)] pre-equilibrated with Buffer A. The protein was eluted with a linear gradient of increasing NaCl concentration. The fractions (120­240 mm NaCl) were assayed for antifungal activity against M. grisea in microtitre plates according to the procedure described previously [43]. The active fractions were pooled, heat-treated at 65 °C for 20 min and applied to a second anion-exchange column (MonoQ HR 5 / 5; Amersham Biosciences) pre-equilibrated with Buffer A. The fractions (200­260 mm NaCl) with antifungal activity were pooled, concentrated and subjected to gel filtration chromatography on Superose 6 HR10 / 30 (Amersham Biosciences) pre-equilibrated with Buffer A. Each fraction was assayed for antifungal activity and then separated by SDS-PAGE [44] on 15% gels. Proteins were stained by Coomassie brilliant blue G-250 (Sigma, St Louis, MO, USA) or by a silver staining kit (Wako Pure Chemicals, Osaka, Japan). The molecular masses of the proteins separated by SDS-PAGE were estimated on the basis of the mobility of the low-molecular-mass electrophoresis calibration sample consisting of phosphorylase b (molecular mass, 94 kDa), BSA (67 kDa), ovalbumin (43 kDa), carbonic anhydrolase (30 kDa), trypsin inhibitor (20.1 kDa) and a-lactoalbumin (14.4 kDa) from Amersham Biosciences. The 15 kDa band of the active fraction was excised, digested partially by lysyl endopeptidase (Wako Pure Chemicals) or V8 protease (Wako Pure Chemicals) in the gel, and separated again by SDS-PAGE. The amino acid sequence was determined with a G1005A Protein Sequencing System (Hewlett Packard, Palo Alto, CA, USA).
+
+Construction of a cDNA library and isolation of full-length cDNAs
+Total RNA was extracted from a fruit body of P. cornucopiae by the conventional SDS­phenol method. Poly(A)+ RNA was purified from total RNA using an mRNA purification kit (Amersham Biosciences). A cDNA library was constructed using a ZAP cDNA synthesis kit (Stratagene,
+
+FEBS Journal 276 (2009) 1383­1397 ª 2009 The Authors Journal compilation ª 2009 FEBS
+
+Y. Takakura et al.
+
+Novel biotin-binding proteins
+
+La Jolla, CA, USA) and Gigapack Gold packaging extract (Stratagene). The sense (TMR1 and TMR2) and antisense (TMF1 and TMF2) primers, corresponding to the experimentally determined amino acid sequence of the purified protein, were designed for PCR (Table 1). PCR was performed with ExTaq DNA polymerase (Takara Biochemicals, Shiga, Japan). The PCR products were cloned into pCRII (Invitrogen, Carlsbad, CA, USA). The products from two primer combinations (TMF2 / R2 and TMF1 / R1) were excised by EcoRI digestion from pCRII, gel purified, labelled with [32P]dCTP using a Multiprime DNA labelling system (Amersham Biosciences) and used as hybridization probes in the screening of full-length cDNAs. cDNA clones were recovered as plasmid DNA (pBluescript) by in vivo excision and subjected to sequence analyses.
+
+ter · 3 cm in length) pre-equilibrated with the same buffer. After the flow-through fraction had been obtained, the column was washed with 5 mL of 50 mm CAPS at pH 11.0 containing 500 mm NaCl. The recombinant protein was eluted with 1.5 mL of 50 mm ammonium acetate at pH 4.0. The purified protein (tamavidin 2) was used to raise antibodies in rabbits. Biotin­agarose column chromatography was performed according to Laitinen et al. [46]. The protein was eluted with 1.5 mL of 50 mm ammonium acetate at pH 4.0, 100 mm glycine at pH 2.8 or 400 mm acetic acid.
+
+Quantification of purified tamavidin 2
+The molar extinction coefficient of recombinant tamavidin 2 was calculated to be 41 750 m)1Æcm)1Æsubunit)1 at 280 nm (0.68 at 0.25 mgÆmL)1) from its amino acid sequence. The affinity-purified recombinant protein was dialysed against 10 mm ammonium acetate and lyophilized. The dry protein powder (3 mg) was measured, dissolved in 20 mm potassium phosphate buffer at pH 6.5, and diluted to 0.25 mgÆmL)1. The actual absorbance value at 280 nm was 0.67, which was 98% of the theoretical value, indicating that the concentration of the recombinant protein could be calculated from A280 measurements. Molar extinction coefficients of 24 280 [47], 41 820 [48] and 39 380 m)1Æcm)1Æsubunit)1 [23] at 280 nm were used for avidin, streptavidin and bradavidin, respectively.
+
+Expression in E. coli
+The open reading frame was amplified from a tam1 cDNA clone using the primer pair TM100N-BspH and TM100CHin (Table 1), and cloned into pCRII. After the sequence had been verified, the cloned PCR product was excised by BspHI and HindIII digestion and cloned between the NcoI and HindIII sites of the expression vector pTrc99A (Amersham Biosciences). Similarly, the PCR product from the primer pair TM75N-BspL and TM75C-Hin (Table 1) was digested with BspLU 11 and HindIII to clone tam2 into pTrc99A. The bradavidin gene [23] was PCR amplified by the primers BradN-BspH and BradC-Hin (Table 1) from a colony of Bradyrhizobium japonicum NBRC14792. After the sequence had been verified, the PCR product was digested with BspHI and HindIII, and cloned between the NcoI and HindIII sites of pTrc99A. The E. coli strain BL21, harbouring one of the expression vectors, was grown in Luria­Bertani broth containing ampicillin at 37 °C until the absorbance at 600 nm (A600) reached between 0.5 and 0.8. Then, 1 mm (final concentration) of IPTG (Wako Pure Chemicals) was added to the culture, which was then shaken further for 5 h or overnight in flasks at 25 or 37 °C. The bacterial pellet was collected by centrifugation and stored at )80 °C until analysis.
+
+Gel filtration chromatography
+The recombinant tamavidins were subjected to gel filtration on Superose 6 HR10 / 30 pre-equilibrated with 50 mm Tris / HCl, pH 8.0, containing 500 mm NaCl. The column had been calibrated with the gel filtration standard sample consisting of thyroglobulin (molecular mass, 670 kDa), c-globulin (158 kDa), ovalbumin (44 kDa), myoglobin (17 kDa) and cyanocobalamin (1.35 kDa) from Bio-Rad Laboratories (Hercules, CA, USA).
+
+Mass spectrometry
+Recombinant tamavidin 2 was dissolved in 0.1% trifluoroacetic acid and 50% CH3CN at a concentration of 10 mgÆmL)1, purified by ZipTip C4 (Millipore, Bedford, MA, USA) and applied to a MALDI plate. After air drying, sinapinic acid was added to the sample as the matrix solution. After air drying again, the sample was subjected to MALDI-TOF MS (AXIMA-CFR, Shimadzu Biotech, Kyoto, Japan).
+
+Iminobiotin column chromatography and preparation of antibodies
+Iminobiotin­agarose column chromatography was performed according to Hofmann et al. [45] with some modifications. Typically, total soluble proteins were extracted from the bacterial pellet from 25 mL of the culture in 3 mL of 50 mm 3-(cyclohexylamino)-1-propanesulfonic acid (CAPS) (Sigma) buffer, pH 11.0, containing 50 mm NaCl, and cell debris and insoluble proteins were removed by centrifugation. Then, the supernatant was passed through a 2-iminobiotin­agarose (Sigma) column (0.5 cm in diame-
+
+Assay using fluorescent biotin
+The activity of binding of biotin­4-fluorescein (Molecular Probes, Inc., Eugene, OR, USA) was assayed by the method
+
+FEBS Journal 276 (2009) 1383­1397 ª 2009 The Authors Journal compilation ª 2009 FEBS
+
+1393
+
+Novel biotin-binding proteins
+
+Y. Takakura et al.
+
+reported by Kada et al. [49]. When biotin­4-fluorescein is bound to biotin-binding proteins, the fluorescence is quenched. Briefly, 200 lL of assay buffer (50 mm NaPO4, 100 mm NaCl, 1 mm EDTA, pH 7.5) containing 0­ 486 pmol of the proteins and 1 nmol of biotin­4-fluroescein were incubated at room temperature for 10 min in a microtitre plate. The fluorescence in each well was measured with a LAS-3000 imaging system (FUJIFILM, Tokyo, Japan).
+
+was immobilized to 4000­6000 resonance units on the sensor chip as described, and iminobiotin­BSA was used as the sample at concentrations of 18.75, 37.5, 75, 150, 300 and 600 nm. The running buffer consisted of 50 mm borate buffer, pH 9.5, 150 mm NaCl and 0.005% Tween-20. The dissociation was measured for 10 min. The dissociation constant (Kd) was calculated from kd / ka. All other conditions and the data mining method were the same as those for biotin-binding.
+
+Analysis of protein­biotin interactions and kinetics by the BIAcore biosensor
+Kinetic parameters (ka and kd) were evaluated with a BIAcoreÒ 3000 biosensor based on SPR (BIAcore Inc., Uppsala, Sweden). BSA was conjugated with the N-hydroxysuccinimide ester of biotin (EZ-LinkÒ NHS-LC-biotin; Pierce Biotechnology Inc., Rockford, IL, USA) and coupled to a CM5 sensor chip. Biotin-conjugated BSA was prepared according to Qureshi et al. [48] and immobilized on the dextran matrix of the sensor chip using the amine coupling method. There were four flow cells per sensor chip for the BIAcoreÒ 3000 system. The conjugate was immobilized on the second and fourth flow cells (FC-2 and FC-4, respectively) to 200­300 resonance units. The first and third flow cells (FC-1 and FC-3) were used as negative controls (BSA only) for background correction. The recombinant tamavidin 2 was passed through FC-1 and FC-2, and avidin (Sigma), streptavidin (Sigma) or bradavidin (purified by a 2-iminobiotin column in this study) was passed through FC-3 and FC-4 in a running buffer [10 mm Hepes, pH 7.4, 150 mm NaCl, 3 mm EDTA, 0.005% Surfactant 20 (BIAcore Inc.)] at a flow rate of 20 lLÆmin)1 for 2 min. Dissociation of the sample was monitored in running buffer for 60 min. As it was impossible to dissociate biotin-binding proteins (tamavidin 2, avidin and streptavidin) from the sensor chip, the chip could not be regenerated. Instead, protein samples of 3.125, 6.25, 12.5, 25, 50 and 100 nm were measured in order of increasing concentration. All measurements were performed at 25 °C. Association rate constants (ka) and dissociation rate constants (kd, obtained only from bradavidin) for the interactions between the samples and biotin were calculated from the sensorgrams obtained by a nonlinear, global fitting method using the BIAcore data analysis software BIAevaluation 4.1. As the regeneration process was not performed, the Rmax value (maximum binding quantity of the samples) decreased gradually whenever the samples were measured at each concentration. Therefore, the data were analysed by local fitting at each concentration. Only the data originating from the concentrations that could be approximated to the 1 : 1 (Langmuir) binding model were adopted. Molecular masses of 60.9 kDa for tamavidin 2, 63.1 kDa for avidin, 53.4 kDa for streptavidin and 57.5 kDa for bradavidin [23] were used. For 2-iminobiotin binding, EZ-LinkÒ NHS-iminobiotin (Pierce Biotechnology Inc.) was used. In this case, the biotin-binding protein (10 mm acetic acid buffer, pH 5.0)
+
+Crystallization, X-ray data collection, structure solution and refinement of tamavidin 2
+The complex between recombinant tamavidin 2 and biotin was prepared using a 1 : 10 molar ratio, and excess biotin was removed by gel filtration. Crystallization was carried out at 20 °C using the hanging-drop vapour-diffusion method. After the protein solution (6.8 mgÆmL)1 recombinant proteins in 25 mm Mes, pH 6.0, 100 mm NaCl) and a reservoir solution (25% PEG 3350, 0.2 m MgCl2 and 0.1 m Bistris, pH 5.5) had been mixed in a ratio of 1 : 1 (v / v), crystals were grown for 14 days. A single crystal was transferred to crystallization solution containing 25% (v / v) glycerol. The crystal was mounted on a cryo-loop and then flash-cooled in a stream of nitrogen gas at 100 K using a cryosystem (Rigaku Corp., Tokyo, Japan). X-Ray diffraction data were collected using a Quantum 210 CCD detector (ADSC, Poway, CA, USA) and synchrotron ° radiation (1.000 A wavelength) at the beamline NW12 at PF (Ibaragi, Japan). Diffraction data were processed with the program package hkl2000 [50]. The crystals belonged to the space group C2. The unit cell parameters were ° ° ° a = 78.38 A, b = 80.02 A, c = 55.73 A and b = 132.32°. Data collection statistics are summarized in Table 3. The crystal structure of recombinant tamavidin 2 was determined by molecular replacement using molrep [51]. Streptavidin (Protein Data Bank accession entry 1SLG) was used as the searching model. The tamavidin 2 model was built automatically with arp / warp [52], and manually modified with the coot program [53]. Several iterative rounds of model building were performed in coot and refined using refmac5 [54]. Finally, two monomers of tamavidin 2 (S2­T124), two biotin, nine glycerol, three magnesium ions and 450 water molecules were located and included in the refinement. R factor and Rfree values for the structure were 19.9% and 23.8%, respectively. The quality of the structures was evaluated with procheck [55]. All statistics for refinement are given in Table 3.
+
+ELISA for immunological cross-reactivity
+Recombinant tamavidin 2, streptavidin and avidin at 50 lgÆmL)1 in 50 mm sodium carbonate buffer (pH 9.5) were attached to a microtitre plate at 25 °C for 4 h and blocked with NaCl / Pi containing 0.05% Tween-20 (NaCl / Pi-T). Polyclonal rabbit antibodies against each
+
+1394
+
+FEBS Journal 276 (2009) 1383­1397 ª 2009 The Authors Journal compilation ª 2009 FEBS
+
+Y. Takakura et al.
+
+Novel biotin-binding proteins
+
+protein were diluted 1 : 2000 with NaCl / Pi-T and incubated with protein-coated plates at 25 °C for 1 h. After washing with NaCl / Pi-T, goat anti-rabbit IgG alkaline phosphatase (Bio-Rad Laboratories) diluted 1 : 5000 in NaCl / Pi-T was used as a second antibody at 25 °C for 1 h. Finally, p-nitrophenyl phosphate (1 mgÆmL)1, Sigma) was used as a substrate molecule, and the absorbance at 450 nm was measured by a microplate reader (Infinite M200; Tecan Group Ltd, Mannedorf, Switzerland). ¨
+
+Norway) according to the manufacturer's instructions. The beads were incubated in NaCl / Pi containing 0.5 lgÆmL)1 of human serum protein for 1 h at room temperature, washed three times with NaCl / Pi-T and resuspended in 2· SDS sample buffer, and then heated at 70 °C for 40 min to peel human serum protein. After the beads had been removed, the supernatant was subjected to SDS-PAGE. The gel was stained with a silver stain kit (Wako Pure Chemicals), and the intensity of the protein bands was quantified by the LAS-3000 imaging system.
+
+Thermal stability of proteins
+To determine the transition temperatures (Tr) [32], the proteins (0.2 lgÆlL)1) were incubated in 1· SDS sample buffer (50 mm Tris / HCl, pH 6.8, 3% 2-mercaptethanol, 1% (w / v) SDS, 10% glycerol) at various temperatures (25, 50, 60, 70, 75, 80, 90 and 99.9 °C) and subjected to SDS-PAGE. The temperatures at which half of the protein was tetrameric and the other half was monomeric, in the absence and presence of biotin, were calculated. For the assay using fluorescent biotin, proteins were incubated at various temperatures (25, 50, 60, 70, 80 and 90 °C) for 20 min in 20 mm potassium phosphate buffer (pH 7.0). The proteins were then added to 150 lL of the assay buffer containing biotin­4-fluroescein in the wells of a microtitre plate. After incubation at room temperature for 20 min, the fluorescence was measured at an excitation wavelength of 460 nm and an emission wavelength of 525 nm using an Infinite M200 microplate reader (Tecan Group Ltd). The temperature Tm at which the activity of fluorescence quenching in the heated protein sample was half that in the nonheated (room temperature) protein sample was calculated.
+
+General methods
+DNA was manipulated according to the methods described by Sambrook et al. [56]. Restriction endonucleases were from Takara Biochemicals or Roche Diagnostics K. K. (Tokyo, Japan). DNA was sequenced by the dideoxy chain termination method [57] with an ABI PRISM fluorometric autocycle sequencer (Model 310 Genetic Analyser, Applied Biosystems, Foster City, CA, USA). Both DNA strands were sequenced. DNA and amino acid sequences were analysed by genetyx-win version 8 (Genetyx Co, Tokyo Japan), and database searches were performed using the blast program in GenBank.
+
+Acknowledgements
+The authors wish to thank Miss Reika Takakura for obtaining the Tamogitake mushrooms. They acknowledge Drs Yoshisuke Nishi and Toshihiko Komari for reviewing the manuscript. This work was performed in part at Orynova K.K. Beamline staff are thanked for their kind assistance with data collection from the synchrotron radiation of NW12, PF. This work was supported in part by a grant from the National Project on Protein Structural and Functional Analyses from the Ministry of Education, Culture, Sports, Science and Technology, Japan (Y.K.).
+
+Nonspecific binding of DNA
+Nonspecific binding of DNA was determined according to the method described by Marttila et al. [18]. Briefly, several amounts of salmon sperm DNA were blotted onto a Hybond N+ nylon membrane (Amersham Biosciences), and the blot was incubated with avidin, streptavidin or tamavidin 2. After washing, the blot was incubated with avidin antibodies (Abcam Inc., Cambridge, MA, USA), streptavidin antibodies (Sigma) or tamavidin 2 antibodies, prediluted to the same titre. The goat anti-rabbit IgG alkaline phosphatase (1 : 1000 dilution) was used as secondary antibody, and the blot was stained with an Alkaline Phosphatase Substrate Kit II (Vector Laboratories, Inc., Burlingame, CA, USA); the signal intensity was quantified by the LAS-3000 imaging system.
+
+References
+1 Green NM (1990) Avidin and streptavidin. Meth Enzymol 184, 51­67. 2 Schetters H (1999) Avidin and streptavidin in clinical diagnosis. Biomol Eng 16, 73­78. 3 Wilchek M & Bayer EA (1990) Introduction to avidin­ biotin technology. Meth Enzymol 184, 5­13. 4 Laitinen OH, Nordlund HR, Hytonen VP & Kulomaa ¨ MS (2007) Brave new (strept)avidins in biotechnology. Trends Biotechnol 25, 269­277. 5 Weber PC, Ohlendorf DH, Wendoloski JJ & Salemme FR (1989) Structural origins of high-affinity biotin binding to streptavidin. Science 243, 85­88.
+
+Nonspecific binding of human serum protein
+Biotin-binding proteins were covalently immobilized to Dynabeads M-270 Carboxylic Acid (Dynal Biotech, Oslo,
+
+FEBS Journal 276 (2009) 1383­1397 ª 2009 The Authors Journal compilation ª 2009 FEBS
+
+1395
+
+Novel biotin-binding proteins
+
+Y. Takakura et al.
+
+6 Livnah O, Bayer EA, Wilchek M & Sussman JL (1993) Three-dimensional structures of avidin and the avidin­ biotin complex. Proc Natl Acad Sci USA 90, 5076­ 5080. 7 Sano T & Cantor CR (1995) Intersubunit contacts made by tryptophan 120 with biotin are essential for both strong biotin binding and biotin-induced tighter subunit association of streptavidin. Proc Natl Acad Sci USA 92, 3180­3184. 8 Eakin RE, Snell EE & Williams RJ (1941) The concentration and assay of avidin, the injury-producing protein in raw egg white. J Biol Chem 140, 535­543. 9 Chaiet L, Miller TW, Tausig F & Wolf FJ (1963) Antibiotic Msd-235. II. Separation and purification of synergistic component. Antimicrob Agents Chemother (Bethesda) 161, 28­32. 10 Tausig F & Wolf FJ (1964) Streptavidin ­ a substance with avidin-like properties produced by microorganisms. Biochem Biophys Res Commun 14, 205­209. 11 Woolley DW & Longsworth LG (1942) Isolation of an antibiotin factor from egg white. J Biol Chem 142, 285­ 290. 12 Chaiet L & Wolf FJ (1964) The properties of streptavidin, a biotin-binding protein produced by streptomycetes. Arch Biochem Biophys 106, 1­5. 13 Gope ML, Keinanen RA, Kristo PA, Conneely OM, Beattie WG, Zarucki-Schulz T, O'Malley BW & Kulomaa MS (1987) Molecular cloning of the chicken avidin cDNA. Nucleic Acids Res 15, 3595­3606. 14 Argarana CE, Kuntz ID, Birken S, Axel R & Cantor CR (1986) Molecular cloning and nucleotide sequence of the streptavidin gene. Nucleic Acids Res 14, 1871­ 1882. 15 Sano T & Cantor CR (1990) Expression of a cloned streptavidin gene in Escherichia coli. Proc Natl Acad Sci USA 87, 142­146. 16 Nardone E, Rosano C, Santambrogio P, Curnis F, Corti A, Magni F, Siccardi AG, Paganelli G, Losso R, Apreda B et al. (1998) Biochemical characterization and crystal structure of a recombinant hen avidin and its acidic mutant expressed in Escherichia coli. Eur J Biochem 256, 453­460. 17 Morpurgo M, Radu A, Bayer EA & Wilchek M (2004) DNA condensation by high-affinity interaction with avidin. J Mol Recognit 17, 558­566. 18 Marttila AT, Laitinen OH, Airenne KJ, Kulik T, Bayer EA, Wilchek M & Kulomaa MS (2000) Recombinant NeutraLite avidin: a non-glycosylated, acidic mutant of chicken avidin that exhibits high affinity for biotin and low non-specific binding properties. FEBS Lett 467, 31­36. 19 Keinanen RA, Wallen MJ, Kristo PA, Laukkanen MO, Toimela TA, Helenius MA & Kulomaa MS (1994) Molecular cloning and nucleotide sequence of chicken avidin-related genes 1­5. Eur J Biochem 220, 615­621.
+
+20 Laitinen OH, Hytonen VP, Ahlroth MK, Pentikainen ¨ OT, Gallagher C, Nordlund HR, Ovod V, Marttila AT, Porkka E, Heino S et al. (2002) Chicken avidin-related proteins show altered biotin-binding and physico-chemical properties as compared with avidin. Biochem J 363, 609­617. 21 Hytonen VP, Laitinen OH, Grapputo A, Kettunen A, ¨ Savolainen J, Kalkkinen N, Marttila AT, Nordlund HR, Nyholm TK, Paganelli G et al. (2003) Characterization of poultry egg-white avidins and their potential as a tool in pretargeting cancer treatment. Biochem J 372, 219­225. 22 Bayer EA, Kulik T, Adar R & Wilchek M (1995) Close similarity among streptavidin-like, biotin-binding proteins from Streptomyces. Biochim Biophys Acta 1263, 60­66. 23 Nordlund HR, Hytonen VP, Laitinen OH & Kulomaa ¨ MS (2005) Novel avidin-like protein from a root nodule symbiotic bacterium, Bradyrhizobium japonicum. J Biol Chem 280, 13250­13255. 24 Helppolainen SH, Nurminen KP, Maatta JA, Halling ¨ ¨ ¨ KK, Slotte JP, Huhtala T, Liimatainen T, Yla-Herttu¨ ala S, Airenne KJ, Narvanen A et al. (2007) Rhizavidin ¨ ¨ from Rhizobium etli: the first natural dimer in the avidin protein family. Biochem J 405, 397­405. 25 Green NM (1975) Avidin. Adv Protein Chem 29, 85­133. 26 Korpela JK, Kulomaa MS, Elo HA & Tuohimaa PJ (1981) Biotin-binding proteins in eggs of oviparous vertebrates. Experientia 37, 1065­1066. 27 Elo HA, Raisanen S & Tuohimaa PJ (1980) Induction of an antimicrobial biotin-binding egg white protein (avidin) in chick tissues in septic Escherichia coli infection. Experientia 36, 312­313. 28 Korpela J, Kulomaa M, Tuohimaa P & Vaheri A (1983) Avidin is induced in chicken embryo fibroblasts by viral transformation and cell damage. EMBO J 2, 1715­1719. 29 Hyre DE, Le Trong I, Merritt EA, Eccleston JF, Green NM, Stenkamp RE & Stayton PS (2006) Cooperative hydrogen bond interactions in the streptavidin­biotin system. Protein Sci 15, 459­467. 30 Airenne KJ, Sarkkinen P, Punnonen EL & Kulomaa MS (1994) Production of recombinant avidin in Escherichia coli. Gene 144, 75­80. 31 Hytonen VP, Laitinen OH, Airenne TT, Kidron H, ¨ Meltola NJ, Porkka EJ, Horha J, Paldanius T, Maatta ¨ ¨ ¨ ¨ ¨ JA, Nordlund HR et al. (2004) Efficient production of active chicken avidin using a bacterial signal peptide in Escherichia coli. Biochem J 384, 385­390. 32 Bayer EA, Ehrlich-Rogozinski S & Wilchek M (1996) Sodium dodecyl sulfate-polyacrylamide gel electrophoretic method for assessing the quaternary state and comparative thermostability of avidin and streptavidin. Electrophoresis 17, 1319­1324.
+
+1396
+
+FEBS Journal 276 (2009) 1383­1397 ª 2009 The Authors Journal compilation ª 2009 FEBS
+
+Y. Takakura et al.
+
+Novel biotin-binding proteins
+
+33 Sano T, Pandori MW, Chen X, Smith CL & Cantor CR (1995) Recombinant core streptavidins. A minimum-sized core streptavidin has enhanced structural stability and higher accessibility to biotinylated macromolecules. J Biol Chem 270, 28204­28209. 34 Karp M, Lindqvist C, Nissinen R, Wahlbeck S, Akerman K & Oker-Blom C (1996) Identification of biotinylated molecules using a baculovirus-expressed luciferase­streptavidin fusion protein. Biotechniques 20, 452­456. 35 Airenne KJ, Oker-Blom C, Marjomaki VS, Bayer EA, Wilchek M & Kulomaa MS (1997) Production of biologically active recombinant avidin in baculovirusinfected insect cells. Protein Expr Purif 9, 100­108. 36 Nagarajan V, Ramaley R, Albertson H & Chen M (1993) Secretion of streptavidin from Bacillus subtilis. Appl Environ Microbiol 59, 3894­3898. 37 Wu SC, Qureshi MH & Wong SL (2002) Secretory production and purification of functional full-length streptavidin from Bacillus subtilis. Protein Expr Purif 24, 348­356. 38 Reznik GO, Vajda S, Smith CL, Cantor CR & Sano T (1996) Streptavidins with intersubunit crosslinks have enhanced stability. Nat Biotechnol 14, 1007­1011. 39 Nordlund HR, Laitinen OH, Uotila ST, Nyholm T, Hytonen VP, Slotte JP & Kulomaa MS (2003) Enhanc¨ ing the thermal stability of avidin. Introduction of disulfide bridges between subunit interfaces. J Biol Chem 278, 2479­2483. 40 Hytonen VP, Maatta JA, Nyholm TK, Livnah O, ¨ ¨ ¨ ¨ Eisenberg-Domovich Y, Hyre D, Nordlund HR, Horha ¨ ¨ J, Niskanen EA, Paldanius T et al. (2005) Design and construction of highly stable, protease-resistant chimeric avidins. J Biol Chem 280, 10228­10233. 41 Marttila AT, Airenne KJ, Laitinen OH, Kulik T, Bayer EA, Wilchek M & Kulomaa MS (1998) Engineering of chicken avidin: a progressive series of reduced charge mutants. FEBS Lett 441, 313­317. 42 Chilkoti A, Tan PH & Stayton PS (1995) Site-directed mutagenesis studies of the high-affinity streptavidin­biotin complex: contributions of tryptophan residues 79, 108, and 120. Proc Natl Acad Sci USA 92, 1754­1758. 43 Takakura Y & Kuwata S (2003) Purification, characterization, and molecular cloning of a pyranose oxidase from the fruit body of the basidiomycete, Tricholoma matsutake. Biosci Biotechnol Biochem 67, 2598­2607. 44 Laemmli UK (1970) Cleavage of structural proteins during the assembly of the head of bacteriophage T4. Nature 227, 680­685. 45 Hofmann K, Wood SW, Brinton CC, Montibeller JA & Finn FM (1980) Iminobiotin affinity columns and their
+
+46
+
+47
+
+48
+
+49
+
+50
+
+51
+
+52
+
+53
+
+54
+
+55
+
+56
+
+57
+
+application to retrieval of streptavidin. Proc Natl Acad Sci USA 77, 4666­4668. Laitinen OH, Airenne KJ, Marttila AT, Kulik T, Porkka E, Bayer EA, Wilchek M & Kulomaa MS (1999) Mutation of a critical tryptophan to lysine in avidin or streptavidin may explain why sea urchin fibropellin adopts an avidin-like domain. FEBS Lett 461, 52­58. Hytonen VP, Nyholm TK, Pentikainen OT, Vaarno J, ¨ Porkka EJ, Nordlund HR, Johnson MS, Slotte JP, Laitinen OH & Kulomaa MS (2004) Chicken avidin-related protein 4 / 5 shows superior thermal stability when compared with avidin while retaining high affinity to biotin. J Biol Chem 279, 9337­9343. Qureshi MH, Yeung JC, Wu SC & Wong SL (2001) Development and characterization of a series of soluble tetrameric and monomeric streptavidin muteins with differential biotin binding affinities. J Biol Chem 276, 46422­46428. Kada G, Falk H & Gruber HJ (1999) Accurate measurement of avidin and streptavidin in crude biofluids with a new, optimized biotin­fluorescein conjugate. Biochim Biophys Acta 1427, 33­43. Otwinowski Z & Minor W (1997) Processing of X-ray diffraction data collected in oscillation mode. Meth Enzymol 276, 307­326. Vagin A & Teplyakov A (1997) molrep: an automated program for molecular replacement. J Appl Crystallogr 30, 1022­1025. Morris RJ, Perrakis A & Lamzin VS (2003) arp / warp and automatic interpretation of protein electron density maps. Meth Enzymol 374, 229­244. Emsley P & Cowtan K (2004) Coot: model-building tools for molecular graphics. Acta Crystallogr D: Biol Crystallogr 60, 2126­2132. Murshudov GN, Vagin AA & Dodson EJ (1997) Refinement of macromolecular structures by the maximum-likelihood method. Acta Crystallogr D: Biol Crystallogr 53, 240­255. Vaguine AA, Richelle J & Wodak SJ (1999) sfcheck: a unified set of procedures for evaluating the quality of macromolecular structure-factor data and their agreement with the atomic model. Acta Crystallogr D: Biol Crystallogr 55, 191­205. Sambrook J, Fritsch EF & Maniatis T (1989) Molecular Cloning: A Laboratory Manual, 2nd edn. Cold Spring Harbor Laboratory Press, Cold Spring Harbor, NY. Sanger F, Nicklen S & Coulson AR (1977) DNA sequencing with chain-terminating inhibitors. Proc Natl Acad Sci USA 74, 5463­5467.
+
+FEBS Journal 276 (2009) 1383­1397 ª 2009 The Authors Journal compilation ª 2009 FEBS
+
+1397
+
+

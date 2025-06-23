@@ -1,0 +1,216 @@
+J. Biochem. 142, 113­121 (2007) doi:10.1093/jb/mvm120
+
+The Cooperative Role of OsCnfU-1A Domain I and Domain II in the Iron­Sulphur Cluster Transfer Process as Revealed by NMR
+Tomohide Saio1, Hiroyuki Kumeta1, Kenji Ogura1, Masashi Yokochi1, Munehiko Asayama2, Shizue Katoh3, Etsuko Katoh3, Keizo Teshima4 and Fuyuhiko Inagaki1,*
+Laboratory of Structural Biology, Graduate School of Pharmaceutical Science, Hokkaido University, Sapporo, Hokkaido, Japan; 2Laboratory of Molecular Genetics, College of Agriculture, Ibaraki University, Ami 3-21-1, Ibaraki 300-0393, Japan; 3Biochemistry Department, National Institute of Agrobiological Science, Tsukuba, Ibaraki 305-8602, Japan; and 4Faculty of Integrated Arts and Sciences, Hiroshima University, 1-7-1 Kagamiyama, Higashi-Hiroshima 739-8521, Japan Received March 7, 2007; accepted May 6, 2007; published online June 1, 2007
+1
+
+OsCnfU-1A is a chloroplast-type Nfu-like protein that consists of tandem repeats sharing high sequence homology. Domain I of this protein, but not domain II, has a C-X-X-C motif that is thought to assemble an iron­sulphur cluster. Herein we report the solution structure of OsCnfU-1A domain I (73­153). Although OsCnfU-1A domain I is structurally similar to OsCnfU-1A domain II (154­226), the electrostatic surface potential of the 2 domains differs. Domain I has an acidic surface, whereas that of domain II is predominantly basic. Chemical shift perturbation studies on OsCnfU1A domain I and domain II with ferredoxin revealed negligible chemical shift changes in domain I, whereas much larger chemical shift changes were observed in domain II. The residues with larger chemical shift changes were located on the basic surface of domain II. Considering that ferredoxin is predominantly negatively charged, we propose the following hypothesis: First, an iron­sulphur cluster is assembled on domain I. Next, domain II interacts with the ferredoxin, thus tethering domain I close to the ferredoxin. Finally, domain I transfers the iron­sulphur cluster to the ferredoxin. Thus, domain II facilitates the efficient transfer of the iron­ sulphur cluster from domain I to the ferredoxin. Key words: cell-free protein synthesis, Fe­S cluster, Nfu-like protein, NMR structure, Oryza sativa.
+Abbreviations: CnfU, C-termainal domain of NifU; [Fe-S], iron-sulphur; FNR, ferredoxin-NADPþ reductase; HIRA, histone cell-cycle regulation defective homology A; HIRIP5, HIRA-interacting protein 5; HSQC, heteronuclear single quantum correlation; IscU, iron-sulphur cluster assembly protein U; NOESY, nuclear overhauser effect spectroscopy; RMSD, root mean square deviation; SiR, sulphite reductase.
+
+Downloaded from http://jb.oxfordjournals.org at SLUB Dresden on May 4, 2010
+
+Proteins containing iron­sulphur ([Fe­S]) clusters are widely expressed in various organisms from lower bacteria to higher eukaryotes, and are involved in a variety of cellular processes, including regulation of gene expression, carbon metabolism, respiration, nitrogen fixation and DNA repair (1­3). In the nitrogen-fixing bacteria, Azotobacter vinelandii, NifS, a L-cysteine desulphurase that catalyses the removal of sulphur from L-cysteine, and NifU, an acceptor protein for iron and sulphur, are known to be involved in the assembly of [Fe­S] clusters. The [Fe­S] clusters are subsequently transferred to a receptor protein (4). NifU has a modular structure comprising three distinct domains (Fig. 1), two of which are potential sites for [Fe­S] cluster assembly. One is an iron­sulphur cluster assembly protein U (IscU)-type domain at the N-terminus that contains three conserved cysteine residues, and the other is a Nfu-type domain at the C-terminus that has a conserved C-X-X-C motif (5, 6). Both the N- and C-terminal domains are capable of transferring the assembled [Fe­S] clusters
+
+*To whom correspondence should be Tel.: þ81-11-706-9011, Fax: þ81-11-706-9012, E-mail: finagaki@pharm.hokudai.ac.jp Vol. 142, No. 1, 2007
+
+addressed:
+
+to apo-nitrogenase. However, the central domain contains a permanent, redox-active [Fe­S] cluster ligated by four cysteine residues and is thought to play a redox role in recruiting Fe for cluster formation or in mediating the cluster assembly/release processes. Homologues of the N- and C- terminal domains of NifU are found in various organisms. For instance, IscU-type domains are found in A. vinelandii IscU, Haemophilis infulenzae IscU (7) and Human IscU. Likewise, Nfu-type domains are found in Arabidopsis thaliana Nfu-I/-III, A. thaliana CnfU-IVa/-IVb/-V, Mouse HIRIP5, Oryza sativa CnfU and cyanobacterial CnfU (Fig. 1). In plants and cyanobacteria, Nfu-like proteins are required for essential processes such as photosynthesis and respiration. All of these proteins have sequences similar to the C-terminal domain of NifU, and demonstrate strict conservation of the C-X-X-C motif, which is the predicted site for [Fe­S] cluster assembly. The A. thaliana has five Nfu-type proteins that are classified into two types, mitochondria-type (AtNfu-I/-III) and chloroplast-type (AtCnfU-IVa/-IVb/-V), with a target signal to each organelle (6). In vitro analysis demonstrated that AtCnfU-V could assemble the [Fe­S] cluster and transfer it to apo-ferredoxin (8). Plant-type 113
+ß 2007 The Japanese Biochemical Society.
+
+114
+AvNifU AvIscU HiIscU HsIscU MmHIRIP5 AtNfu-I/III AtCnfU-IVa/IVb/V OsCnfU-1A SyCnfU
+
+T. Saio et al. Spectra Stable Isotopes (Columbia, MD). Creatine kinase, creatine phosphate and E. coli total tRNA were obtained from Roche (Basel, Switzerland). The plasmid pET21d containing the gene encoding His-tagged OsCnfU-1A domain I was used as a template. For the cell-free reaction, we designed a new reaction vessel to improve the efficiency of both the dialysis and sample collection. The reaction vessel consists of upper and lower parts that are screwed together to form a cap for a 15 ml tube. The dialysis membrane is set between the two parts and, thus, the screw cap works as a dialyser. Up to 2 ml of the reaction mixture can be applied and, after incubation, the internal reaction mixture can be collected by centrifugation to minimize its loss. A comparison of thioredoxin yield using the present reaction vessel and a commercially available vessel (Spectra/PoreTM) showed that the yield for the former was twice that of the latter. OsCnfU-1A domain I was prepared using the reaction vessel with 1 ml of reaction mixture, which was dialysed against 10 ml of buffer solution following a previously reported protocol (14). The cell-free protein synthesis was carried out for 20 h at 30 8C After incubation, 1 ml of the reaction mixture was centrifuged at 3,500 rpm for 10 min and the supernatant was diluted with 3 ml of binding buffer (20 mM sodium phosphate buffer at pH 7.4 containing 500 mM NaCl and 15 mM imidazole), applied to a 1-ml HisTrap column (GE Healthcare) and then washed with 5 column volumes of binding buffer. The protein was eluted with 3 column volumes of elution buffer (20 mM sodium phosphate buffer at pH 7.4 containing 500 mM NaCl and 500 mM imidazole). The eluted protein was applied to a HiLoad 16/60 Superdex 75 pg (GE Healthcare) equilibrated with 20 mM sodium phosphate buffer at pH 7.0 containing 150 mM NaCl, 1 mM dithiothreitol (DTT) and 0.05% NaN3. The protein was then equilibrated against an appropriate buffer and concentrated for further experiments using Vivaspin 15R (Sartorius). The final yield of OsCnfU-1A domain I from 1 ml of reaction mixture was 1.3 mg. NMR Spectroscopy and Structural Calculations--2D and 3D NMR experiments were carried out using Varian UNITY inova spectrometers operating at 800 and 600 MHz. The NMR sample contained 0.6 mM 13 15 C/ N-labeled OsCnfU-1A domain I in 20 mM sodium phosphate (pH 7.0 or pH 7.5), 150 mM NaCl, 10 mM DTT, 10% D2O and 0.05% NaN3. The 1H, 13C and 15 N resonance assignments were carried out using the following set of standard spectra measured at pH 7.5 and 25 8C; 1H-15N HSQC, 1H-13C HSQC, HNCO, HNCA, HN(CO)CA, HNCACB, CBCA(CO)NH, HNCAHA, HBHACONH, CCH-TOCSY, HC(C)H-TOCSY, HBCBCGCDHD and HBCBCGCDCEHE. The 1H, 13C, 15 N chemical shifts were referred to DSS according to the IUPAC recommendation. Inter-proton distance restraints for structural calculations were obtained from 13C-edited NOESY-HSQC and 15N-edited NOESY-HSQC spectra with a 150 ms mixing time at pH 7.0 and 25 8C. Spectra were processed by NMRPipe (15). Data analysis was assisted by the Olivia program developed in our laboratory (Yokochi et al., http://fermi.pharm.hokudai. ac.jp/olivia/). The structures were calculated using the CYANA software package (16) based on the inter-proton distance
+J. Biochem.
+
+IscU-type
+
+Nfu-type
+
+Fig. 1. Schematic representation of NifU/Nfu-like proteins. Schematic domain structures of Azotobacter vinelanddii NifU (AvNifU), Azotobacter vinelanddii IscU (AvIscU), Haemophilus influenzae IscU (HiIscU), Human IscU (HsIscU), Mouse HIRIP5 (MmHIRIP5), A. thaliana Nfu-I/-III (AtNfu-I/-III), A. thaliana CnfU-IVa/-IVb/-V (AtCnfU-IVa/-IVb/-V), O. sativa CnfU-1A (OsCnfU-1A) and cyanobacterial CnfU (SyCnfU) are shown, respectively. The grey-coloured domain represents the IscU-type domain that has three conserved cysteine residues and can assemble the transient [Fe­S] cluster. Nfu-type domains with the C-X-X-C motif are coloured black and those without the C-XX-C motif are coloured white. The striped box represents domain N (6). The dotted box represents the domain with a permanent Fe­S cluster. The white and grey sticks represent mitochondria and plastid targeting sequences, respectively.
+
+Downloaded from http://jb.oxfordjournals.org at SLUB Dresden on May 4, 2010
+
+ferredoxin has one [Fe­S] cluster per molecule and functions mainly in photosynthesis through the distribution of electrons from Photosystem I, the membranebound protein complex, to various ferredoxin-dependent enzymes, such as ferredoxin-NADPþ reductase (FNR) and sulphite reductase (SiR) (9). A mutant Arabidopsis that lacks AtCnfU-V exhibits a dwarf phenotype with faint pale-green leaves and impaired ferredoxin accumulation in the chloroplast (8). The chloroplast-type Nfu-like proteins have two unique tandem NifU C-terminal-like domains, domain I and domain II, downstream of the chloroplast target signal sequence (Fig. 1) (6, 10). Although the amino acid sequences of domain I and domain II are very similar (30­40% similarity), only domain I contains the C-X-X-C motif. Thus, domain I is thought to work as a scaffold for [Fe­S] cluster assembly, whereas the functional role of domain II remains unknown. In our previous article, we reported the NMR structure of domain II of chloroplast-type Nfu-like protein OsCnfU1A isolated from O. sativa [OsCnfU-1A (154­226)] (11). Herein we report the NMR structure of domain I of that protein [OsCnfU-1A (73­153)]. The structures of domain I and domain II may provide the key to reveal the functional role of each domain in the biosynthesis of ferredoxin.
+MATERIALS AND METHODS
+
+Sample Preparation by Cell-Free System--OsCnfU-1A domain I was expressed in a cell-free system using Escherichia coli S30 extract. S30 extract was prepared according to the previous reports (12, 13). A mixture of 20 13C/15N-labeled amino acids was purchased from
+
+Solution Structure of OsCnfU-1A Domain I restraints from the NOESY spectra and the angular restraints from the TALOS program (17). One hundred structures were calculated individually using 10,000 steps of simulated annealing, and a final ensemble of 20 structures was selected based on CYANA target function values. The atomic coordinates and structural restraints for the OsCnfU-1A domain I structure have been deposited in the Protein Data Bank, www.pdb.org (PDB ID code 2JNV). Chemical Shift Perturbation Experiment--OsCnfU-1A domain I and domain II were titrated with Equisetum Arvense ferredoxin I, respectively. The titration experiment was carried out in 20 mM sodium phosphate (pH7.0) containing 100 mM NaCl, 10 mM DTT, 10% D2O and 0.05% NaN3. Unlabeled ferredoxin was added to 15N-labeled OsCnfU-1A domain I/domain II at molar ratios (ferredoxin/OsCnfU-1A) of 0, 0.5, 1.0 and 2.0. Chemical shift perturbations in OsCnfU-1A domain I and domain II were monitored in 2D 1H-15N HSQC experiments. The weighted-average of chemical shift variations was calculated according to the formula: Á(p.p.m.) ¼ [(ÁdHN)2 þ (ÁdN/5)2]1/2.
+RESULTS AND DISCUSSION
+
+115 OsCnfU-1A domain I is shown in Fig. 3B. The structure of OsCnfU-1A domain I has two a-helices (a1: Ala77-Asp94 and a2: Ser122-Lys137) and an anti-parallel/parallel b-sheet comprised of three strands (b1: Ala99-Ile103, b2: Val107-Lys111 and b3: Ala143-Glu145). This protein has an a­b sandwich structure containing two a-helices located on one side of the b-sheet. The loop region between b2 and a2, where the conserved C-X-X-C motif is located, has low structural convergence (Fig. 3A) as residues in this region had very weak or no cross-peaks in the 1H-15N HSQC spectrum. Structural Comparison among Nfu-like Proteins--The structure of OsCnfU-1A domain I was compared with those deposited in the Protein Data Bank using the Dali search engine (19). The most similar structures were those of OsCnfU-1A domain II (PDB code 1TH5, Z score 7.2) and an Nfu-type protein with PDB code 1VEH (Z score 3.8), the C-terminus domain of mouse HIRA (Histone cell-cycle regulation defective homology A) -interacting protein 5 (HIRIP5). The overlays of OsCnfU-1A domain I with domain II and HIRIP5 are shown in Fig. 4A and B, respectively. These proteins have common a­b sandwich architectures with a kink at a1 of the proline residue that overlap well; however, major differences are found in the regions surrounding the loop between b2 and a2, where the C-X-X-C motif exists in both OsCnfU-1A domain I and HIRIP5 (shown in the stick models in Fig. 4A and B). Amino acid sequences of OsCnfU-1A domain I/II, AtCnfU-IVa domain I/II, AtCnfU-V domain I/II, cyanobacterial CnfU and HIRIP5 were aligned based on information from the structure of OsCnfU-1A domain I/II and HIRIP5 (Fig. 4C). Hydrophobic residues (a1: Val80, Val83, Leu84, Val87, Pro89, Leu91, b1: Val98, Leu100, Ile103, b2: Val107, Val108, Leu110, Leu112, a2: Ile126, Ile130, Leu134, Ile138, Pro139, b3: Val141, Val144, Val147) are either well conserved or type-conserved. Except for Pro89, Val107, Pro139 and Val147, all these residues form a hydrophobic core that is surrounded by two a helices and a b-sheet (Fig. 4D), showing that the Nfu-type domain is actually a conserved structural domain. It should be noted that the two conserved residues, Arg88 and Pro89, exist in the kink at a1. Electrostatic Surface Potential of Nfu-like Proteins-- The electrostatic surface potential of OsCnfU-1A domain I, OsCnfU-1A domain II and HIRIP5 was calculated using APBS tools from the PyMOL program (http://www.pymol.org). Although these proteins have similar scaffolds, their electrostatic surface potentials are quite different from each other, as shown in Fig. 5. Notably, OsCnfU-1A domain II has an extensive basic surface comprised of Arg202, Arg205, Lys210, Arg213 (a2) and Lys186, Lys191 (b-sheet), whereas domain I has Ile124 and Met135 instead of the Arg202 and Arg213 in domain II, respectively (Fig. 4C). In addition, Glu131 and Glu145 are located on the surface of OsCnfU-1A domain I. The positive electrostatic potential of Arg109, Lys127, Arg128 and Arg132 is suppressed by the neutral electrostatic potential of Ile124 and Met135 and by the negative electrostatic potential of Glu131 and Glu145. Thus, the corresponding surface of domain I is acidic. In HIRIP5, the basic surface residues on a2 of OsCnfU-1A
+
+Downloaded from http://jb.oxfordjournals.org at SLUB Dresden on May 4, 2010
+
+NMR Spectroscopy and Structural Calculation--The H-15N HSQC spectra of OsCnfU-1A domain I at pH 7.0 and pH 7.5 are shown in Fig. 2A and B, respectively. A greater number of cross peaks than expected for domain I were observed in the 1H-15N HSQC spectrum at pH 7.0, suggesting that two or more components are present at pH 7.0. At pH 7.5, an appreciable number of cross peaks that corresponded to the signals possibly derived from the unstructured components were found to disappear from the 1H-15N HSQC spectrum. However, due to the fast amide proton exchange with water protons, neither a sufficient number nor sufficient S/N of NOESY peaks for structural calculation was detected at pH 7.5. Thus, we assigned the OsCnfU-1A domain I main- and side-chain resonances independently at pH 7.5 and pH 7.0, using a suite of NMR measurements in order to confirm the resonance assignments for the globular component of domain I at pH 7.0. Main chain assignments yielded two sets of assignments for the C-terminal region (Ile138Glu151) of OsCnfU-1A domain I. TALOS predicted that one set corresponds to a b-strand and the other corresponds to a random-coil. The truncation of domain II may lead to instability of the C-terminus of domain I, resulting in equilibrium between the b-strand and the random-coil. Finally, we calculated the three-dimensional structure of the globular component of OsCnfU-1A domain I using a total of 1347 distance restraints and 102 dihedral restraints (Table 1). Figure 2C shows the 1H-15N HSQC spectrum of OsCnfU-1A domain I at pH 7.0 with the assignments of the globular component. The Structure of OsCnfU-1A Domain I--The overlay of 20 structures with the lowest CYANA energy is shown in Fig. 3A. These structures have an average backbone ° RMSD of 0.52 A for the structured region (Ala77-Ala115 and Ser122-Glu145) and they present no distance viola° tions of 4 0.2 A or angle violations larger than 38 (Table 1). The ribbon model of the lowest energy structure of
+1
+
+Vol. 142, No. 1, 2007
+
+116
+A B
+
+T. Saio et al.
+
+Downloaded from http://jb.oxfordjournals.org at SLUB Dresden on May 4, 2010
+
+C
+G78 105 G129 G95 G96 G114 G72 G153 T92 M135 D140N T152 D97 R132 E102 S82 N106ND2 N106ND2 Q86NE2 N79ND2 Q86NE2 V87 Y90 N79ND2 Q86 K137 D94 R136 A143 110
+
+115 N (ppm) 120 125 130
+15
+
+L134 T148 T125 R133 R128 V141 D85 T76 I124 E81 L91 V144 L84 I138 V107 R88NE E131 V80 N79 K127 I130 V147 R88 V83 K111 L73 L75 I103 I126 L123 L100 Q113 L110 A93N A115 A77 E145 E151 N106 V98 R109 A99 H101 L112 A142 V108
+
+A104
+
+9.0
+
+8.5
+
+8.0
+1
+
+7.5 H (ppm)
+
+7.0
+
+6.5
+
+Fig. 2. 2D 1H-15N HSQC spectra of OsCnfU-1A domain I at 600 MHz and 258C. (C) The assignments of the backbone amide different pH conditions. (A) 1H-15N HSQC spectrum at pH 7.0, groups of OsCnfU-1A domain I labelled on the 2D 1H-15N HSQC 600 MHz and 258C. (B) 1H-15N HSQC spectrum at pH 7.5, spectrum at pH 7.0, 600 MHz and 258C.
+
+J. Biochem.
+
+Solution Structure of OsCnfU-1A Domain I
+Table 1. Structural statistics of OsCnfU-1A domain II. NOE distance constraints Short range (intra-residue and sequential) Medium range (2 |i À j| 4) Long range (|i À j|44) Restraint violations ° Distance restraints violated by 40.2 A Torsion angle restraints violated by 438 RMSD of structural coordinates Backbone atoms All heavy atoms Ramachandran plot Most-favoured regions Additionally allowed regions Generously allowed regions Disallowed regions 1347 717 265 365 0 0 ° 0.52 A ° 0.92 A 79.0% 21.0% 0.1% 0.0%
+
+117
+
+Downloaded from http://jb.oxfordjournals.org at SLUB Dresden on May 4, 2010
+
+domain II are replaced by neutral residues except for Lys165; however, there are five acidic residues in the C-terminal region (Glu178, Glu180 and Glu183) and on the b-sheet (Glu142 and Glu143) that cover the surface so that the electrostatic surface potential of HIRIP5 is strongly acidic. Thus, although Nfu-type domains have a common scaffold, it is the differences in their electrostatic surface potential that provide these domains with specific functional roles. Chemical Shift Perturbation Study of OsCnfU-1A Domain I and Domain II with Ferredoxin--In order to clarify the interactions of OsCnfU-1A domain I and domain II with ferredoxin, we carried out a chemical shift perturbation study on OsCnfU-1A domain I and domain II with ferredoxin. Small chemical shift perturbations were observed upon the addition of ferredoxin to OsCnfU-1A domain I even at a molar ratio of 2.0, whereas larger chemical shift perturbations were observed for domain II at a molar ratio of 0.5. The results of the chemical shift perturbation studies for domain I and domain II are summarized in Fig. 6A and B, respectively. Although domain I showed negligible small chemical shift perturbation effects, larger chemical shift changes were observed for the backbone amides of Tyr171, Gly187, Ile206, Lys210, Gln223 and Leu225 followed by Ile168, Thr195, Ala198, Ala207, Ser209, Leu224 and Ser226 (Fig. 6B­D), which are located on the basic side of OsCnfU-1A domain II (Fig. 6E). It should be noted that the titration experiment on OsCnfU-1A domain II with domain I indicated no specific interactions between them (data not shown). In the above titration experiment, we used holoferredoxin and apo-OsCnfU-1A domain I, which are at variance with the physiological conditions in which the [Fe­S] cluster is transferred from holo-OsCnfU-1A to the apo-ferredoxin. Though the 1H-15N HSQC spectrum of apo-ferredoxin showed an increased number of signals that corresponded to the random-coiled structure, most of the signals were similar to those of the holo-form that were assigned to the b-sheet backbone structure (Teshima, K., unpublished data), showing that apo-ferredoxin possesses the same core structure as
+Vol. 142, No. 1, 2007
+
+Fig. 3. Calculated structure of OsCnfU-1A domain I. (A) Ensemble of the 20 lowest energy structures displayed in stereo. The structural models were aligned for the backbone atoms of A77-A115 and S122-E145. Two a-helices composed of A77-D94 and S122-K137 are shown in red, and three b-strands composed A99-I103, V107-K111 and A143-E145 are shown in blue. The structures are drawn using the program MOLMOL (18). (B) Ribbon model of the lowest energy structure of domain I displayed in stereo. The cysteine side chains on the C-X-X-C motif are shown in a stick model.
+
+holo-ferredoxin except for the region around the [Fe­S] cluster binding region. Thus, we expected that apoferredoxin retained an acidic surface similar to that of holo-ferredoxin and the present results can also be applied to holo-OsCnfU-1A­apo-ferredoxin binding. It should be noted that apo-ferredoxin was unstable and was precipitated within 12 h (Teshima, K., unpublished data). Residues of Nfu-like Proteins Responsible for Ferredoxin Binding--AtCnfU-V and cyanobacterial CnfU, a Nfu-like protein from cyanobacterium Synechocystis PCC6803, were both reported to transfer [Fe­S] clusters to ferredoxin in vitro (8, 20). Thus, the amino acid residues that comprise the basic surface of the OsCnfU-1A domain II were compared with those of cyanobacterial CnfU, AtCnfU-V and its minor homologue, AtCnfU-IVa (Fig. 4C). Three basic residues of OsCnfU-1A domain II, Lys191, Arg205 and Arg213, are identical in domain II and are type-conserved in cyanobacterial CnfU, whereas one of these basic residues is replaced by a neutral residue in domain I. In addition,
+
+118
+
+T. Saio et al.
+
+Downloaded from http://jb.oxfordjournals.org at SLUB Dresden on May 4, 2010
+
+Fig. 4. Overlay of the backbone structure of OsCnfU-1A domain I with those of proteins with the most similar structures. (A) Overlay of the backbone structure of OsCnfU-1A domain I (blue) with OsCnfU-1A domain II (pink) (PDB code: 1TH5). (B) Overlay of the backbone structures of OsCnfU-1A domain I (blue) with mouse HIRIP5 C-terminal domain (yellow) (PDP code: 1VEH). The cysteine side chains on the C-X-X-C motif of OsCnfU-1A domain I and HIRIP5 are shown in a stick model. (C) Alignment of the amino acid sequences of OsCnfU-1A domain I/II, AtCnfU-IVa domain I/II, AtCnfU-V domain I/II, cyanobacterial CnfU (SyCnfU) and HIRIP5 based on the structural information. Amino acid sequences are first aligned using GENETIX (Cosmo Bio Co., LTD), and then modified based on
+
+the two pairs of overlaid structures shown in (A) and (B). Acidic residues and basic residues are shaded red and blue, respectively. Hydrophobic residues are shaded yellow. The six basic residues of OsCnfU-1A domain II, K186, K191, R202, R205, K210 and R213, and the corresponding residues of OsCnfU-1A domain I, AtCnfU-IVa domain I/II, AtCnfU-V domain I/II and cyanobacterial CnfU (SyCnfU) are boxed in blue. The two acidic residues in OsCnfU-1A domain I, E131 and E141, and the corresponding residues of OsCnfU-1A domain II, AtCnfU-IVa domain I/II, AtCnfU-V domain I/II, cyanobacterial CnfU (SyCnfU) are boxed in red. (D) Ribbon model of OsCnfU-1A domain I with its hydrophobic residues comprising the structural core in stereo.
+
+two acidic residues of OsCnfU-1A domain I, Glu131 and Glu145, are conserved in domain I and cyanobacterial CnfU, whereas they are replaced by neutral residues in domain II. Thus, these three basic residues seem to be important for the interaction with ferredoxin, and the two acidic residues appear to inhibit their interaction. In fact, the backbone amide groups of domain II that showed larger chemical shift perturbations in the titration experiment with ferredoxin are mostly located in the region close to these basic residues. Notably, the hydrophobic patch composed of Leu224 and Leu225 is located on this surface. (Fig. 6D and E). Thus, OsCnfU-1A domain II uses the positively charged surface
+
+formed by Lys191, Arg205 and Arg213 and the neighbouring hydrophobic patch for the interaction with ferredoxin. Ferredoxin is known to transfer electrons to FNR or SiR (21, 22). The crystal structure of the complex between ferredoxin and FNR (23), and biochemical and NMR experiments on ferredoxin and SiR (24­26) reveal the electrostatic interaction between ferredoxin and FNR, or ferredoxin and SiR, utilizing acidic residues from ferredoxin and basic residues from FNR and SiR. From these facts, it is reasonable to assume that OsCnfU-1A domain II interacts with ferredoxin using its basic surface.
+J. Biochem.
+
+Solution Structure of OsCnfU-1A Domain I
+
+119
+
+A
+
+B
+
+C
+
+R132 E131
+
+R128 R213 K127
+
+K210
+
+R202
+
+D140 E145 R109 K191 K186
+
+R205
+
+E178
+
+E180
+
+Downloaded from http://jb.oxfordjournals.org at SLUB Dresden on May 4, 2010
+
+D143 E183 E142
+
+180°
+
+Fig. 5. Electrostatic surface potential of OsCnfU-1A domain I (A), OsCnfU-1A domain II (B) and mouse HIRIP5 C-terminal domain (C). Top panel: ribbon model of three proteins. Middle panel: electrostatic surface potential presented in the same orientation as in the top panel.
+
+Lower panel: Rotation by 1808 along the axis. Positive and negative surface potentials are coloured blue and red, respectively. The structures are drawn using the program PyMOL with APBS tools (http://www.pymol.org/).
+
+A Model for the Iron­Sulphur Cluster Transfer--There are several chloroplast-type Nfu-like proteins containing a tandem repeat of two Nfu-type domains in which domain I, but not domain II, has a C-X-X-C motif. However, the role of domain II in the [Fe­S] cluster assembly process has remained elusive. Here, we solved the structure of chloroplast-type Nfu domain I and domain II from O. Sativa, thereby revealing the role of domain II from a structural basis. As domain I does not have any specific interaction with ferredoxin whereas domain II interacts with ferredoxin through its unique predominantly positively charged surface, we proposed that the [Fe­S] cluster is assembled and transferred to ferredoxin according to the following scheme: First, the [Fe­S] cluster is formed on domain I; second, domain II interacts with the ferredoxin thus tethering domain I close to the ferredoxin and, finally, domain I transfers the [Fe­S] cluster to the ferredoxin. Thus, domain II woks as a scaffold to link domain I and ferredoxin and to facilitate the efficient transfer of the [Fe­S] cluster from domain I to the ferredoxin. Considering that AtCnfU-V exists as a dimer in its holo-form (8), it is possible that full-length OsCnfU-1A also forms a dimer in the first step of this process.
+Vol. 142, No. 1, 2007
+
+Cyanobacterial CnfU was shown to transfer the [Fe­S] cluster to ferredoxin in vitro, though cyanobacterial CnfU is composed of a single domain lacking a positively charged domain II (20). The three basic residues of OsCnfU-1A domain II are type-conserved in cyanobacterial CnfU (Fig. 4C). However, the acidic residues of OsCnfU-1A domain I are also conserved in cyanobacterial CnfU as well as in domain I of AtCnfU-IVa/-V, thus providing a partially acidic surface on cyanobacterial CnfU similar to that of OsCnfU-1A domain I. It can, therefore, be said that cyanobacterial CnfU possesses the properties of both domain I and II necessary to bind ferredoxin and transfer the [Fe­S] cluster to the ferredoxin. In addition to the interaction with ferredoxin, it has been reported that chloroplast-type Nfu-like proteins have other binding proteins, such as subunits of photosystem I (8, 27). Although the direct interaction between them has not yet been proven, domain II may be involved in the interaction with these proteins, as well as with ferredoxin. Further experiments will be required to elucidate our present hypothesis together with the other proposed functions of domain II.
+
+120
+A 0.1 B 0.1
+
+T. Saio et al.
+
+ (ppm)
+
+0.05
+
+ (ppm)
+150
+
+0.05
+
+0.0
+80 90 100 110 120 130 140
+
+0.0
+160 170 180 190 200 210 220
+
+Downloaded from http://jb.oxfordjournals.org at SLUB Dresden on May 4, 2010
+
+Residue number
+C D E
+R213 R205 L224 Q223 L225 T195 S226 L225 K191
+
+Residue number
+F
+
+K210 I206 S209 L224
+
+180°
+
+G187
+
+A207
+
+Y171
+
+Fig. 6. Chemical shift perturbations of OsCnfU-1A domain I and domain II upon complex formation with ferredoxin. Weighted-average 1H and 15N chemical shift changes of OsCnfU-1A domain I and domain II upon the addition of equimolar ferredoxin are plotted against the residue number in (A) and (B), respectively. Colour codes are plotted on the right: 0­0.03 p.p.m. (grey), 0.03­0.04 p.p.m. (cyan), 0.04­0.05 p.p.m. (marine) and 40.05 p.p.m. (blue). The chemical shift changes REFERENCES 1. Matsubara, H. and Saeki, K. (1992) Structural and functional diversity of ferredoxins and related proteins. Adv. Inorg. Chem. 38, 223­280 2. Cammack, R. (1992) IronÀsulfur clusters in enzymes: themes and variations. Adv. Inorg. Chem. 38, 281­322 3. Johnson, M.K. (1998) Iron-sulfur proteins: new roles for old clusters. Curr. Opin. Chem. Biol. 2, 173­181 4. Yuvaniyama, P., Agar, J.N., Cash, V., Johnson, M.K., and Dean, D.R. (2000) NifS-directed assembly of a transient [2Fe-2S] cluster within the NifU protein. Proc. Natl Acad. Sci. USA 97, 599­604 5. Smith, A.D., Jameson, G.N.L., Dos Santos, P.C., Agar, J.N., Naik, S., Krebs, C., Frazzon, J., Dean, D.R., Huynh, B.H., and Johnson, M.K. (2005) NifS-mediated Assembly of [4Fe-4S] Clusters in the N- and C-terminal Domains of the NifU Scaffold Protein. Biochemistry 44, 12955­12969 6. Leon, S., Touraine, B., Ribot, C., Brait, J.F., and Lobreaux, S. (2003) Iron-sulfur cluster assembly in
+
+are mapped on the ribbon model (C) and the surface (D) of the OsCnfU-1A domain II structure. Residues are coloured according to the colour codes above. Electrostatic surface potentials of OsCnfU-1A domain II (E) and Equisetum Arvense ferredoxin (PDB code: 1FRR) (F) are shown. Positive and negative surface potentials are coloured blue and red, respectively. The structures are drawn using the program PyMOL with APBS tools (http://www.pymol.org/). plants: distinct NFU proteins in mitochondria and plastids from Arabidopsis thalina. Biochem. J. 371, 823­830 Ramelot, T.A., Cort, J.R., Goldsmith-Fischman, S., Kornhaber, G.J., Xiao, R., Shastry, R., Acton, T.B., Hoing, B., Montelione, G.T., and Kennedy, M.A. (2004) Solution NMR Structure of the Iron-Sulfur Cluster Assembly Protein U (IscU) with Zinc Bound at the Active Site. J. Mol. Biol. 344, 567­583 Yabe, T., Morimoto, K., Kikuchi, S., Nishio, K., Terashima, I., and Nakai, M. (2004) The Arabidopsis Chloroplastic NifU-Like Protein CnfU, Which Can Act as an Iron-Sulfur Cluster Scaffold Protein, Is Required for Biogenesis of Ferredoxin and Photosystem I. Plant Cell 16, 993­1007 Fukuyama, K. (2004) Structure and function of plant-type ferredoxins. Photosynth. Res. 81, 289­301 Katoh, S., Murata, K., Kubota, Y., Kumeta, H., Ogura, K., Inagaki, F., Asayama, M., and Katoh, E. (2005) Refolding and purification of recombinant OsNifU1A domain II that was expressed by Escherichia coli. Protein Expr. Purif. 43, 149­156 J. Biochem.
+
+7.
+
+8.
+
+9. 10.
+
+Solution Structure of OsCnfU-1A Domain I
+11. Kumeta, H., Ogura, K., Asayama, M., Katoh, S., Katoh, E., Teshima, K., and Inagaki, F. (2007) The NMR structure of the domain II of a chloroplastic NifU-like protein OsNIfU1A. J. Biomol. NMR 38, 161­164 12. Kramer, G., Kudlicki, W., and Hardesty, B. (1999) Cell-free coupled transcription/translation systems. in Protein Expression: A Practical Approach (Higgins, S.J. and Hames, B.D., eds.) pp. 201­223 Oxford University Press, New York 13. Kigawa, T., Yabuki, T., Matsuda, N., Matsuda, T., Nakajima, R., Tanaka, A., and Yokoyama, S. (2004) Preparation of Escherichia coli extract for highly productive cell-free protein expression. J. Struct. Funct. Genom. 4, 1­6 14. Torizawa, T., Shimizu, M., Taoka, M., Miyano, H., and Kainosho, M. (2004) Efficient production of isotopically labeled proteins by cell-free synthesis: A practical protocol. J. Biomol. NMR 30, 311­325 15. Delaglio, F., Grzesiek, S., Vuister, G., Zhu, W., Pfeifer, J., and Bax, A. (1995) NMRPipe: a multidimensional spectral processing system based on UNIX pipes. J. Biomol. NMR 6, 277­293 16. Herrmann, T., Guntert, P., and Wuthrich, K. (2002) Protein NMR Structure Determination with Automated NOE Assignment Using the New Software CANDID and the Torsion Angle Dynamics Algorithm DYANA. J. Mol. Biol. 319, 209­227 17. Cornilescu, G., Delaglio, F., and Bax, A. (1999) Protein backbone angle restraints from searching a database for chemical shift and sequence homology. J. Biomol. NMR 13, 289­302 18. Koradi, R., Billeter, M., and Wuthrich, K. (1996) MOLMOL: a program for display and analysis of macromolecular structures. J. Mol. Graph. 14, 51­55 19. Holm, L. and Sander, C. (1995) Dali: a network tool for protein structure comparison. Trends Biochem. Sci. 20, 478­480
+
+121
+20. Nishio, K. and Nakai, M. (2000) Transfer of Iron-Sulfur Cluster from NifU to Apoferredoxin. J. Biol. Chem. 275, 22615­22618 21. Arakaki, A.K., Ceccarelli, E.A., and Carrillo, N. (2000) Plant-type ferredoxin-NADPþ reductases: a basal structural framework and a multiplicity of functions. FASEB J. 50, 1408­1412 22. Yonekura-Sakakibara, K., Onda, Y., Ashikari, T., Tanaka, Y., Kusumi, T., and Hase, T. (2000) Analysis of Reductant Supply System for Ferredoxin-Dependent Sulfite Reductase in Photosynthetic and Nonphotosynthetic Organs of Maize. Plant Physiol. 122, 887­894 23. Kurisu, G., Kusunoki, M., Katoh, E., Yamazaki, T., Teshima, K., Onda, Y., Kimata-Ariga, Y., and Hase, T. (2001) Structure of the electron transfer complex between ferredoxin and ferredoxin NADPþ reductase. Nat. Struct. Biol. 8, 117­121 24. Saito, T., Ikegami, T., Nakayama, M., Teshima, K., Akutsu, H., and Hase, T. (2006) NMR Study of the Electron Transfer Complex of Plant Ferredoxin and Sulfite Reductase. J. Biol. Chem. 281, 10482­10488 25. Akashi, T., Matsumura, T., Ideguchi, T., Iwakiri, K., Kawakatsu, T., Taniguchi, I., and Hase, T. (1999) Comparison of the Electrostatic Binding Sites on the Surface of Ferredoxin for Two Ferredoxin-dependent Enzymes, Ferredoxin-NADPþ Reductase and Sulfite Reductase. J. Biol. Chem. 41, 29399­29405 26. Hirasawa, M., Nakayama, M., Kim, S., Hase, T., and Knaff, D.B. (2005) Chemical modification studies of tryptophan, arginine and lysine residues in maize chloroplast ferredoxin:sulfite oxidoreductase. Photosynth. Res. 86, 325­336 27. Touraine, B., Boutin, J.P., Marion-Poll, A., Briat, J.F., Peltier, G., and Lobreaux, S. (2004) Nfu2: a scaffold protein required for [4Fe-4S] and ferredoxin ion-sulfur cluster assembly in Arabidopsis chloroplasts. Plant J. 40, 101­111
+
+Downloaded from http://jb.oxfordjournals.org at SLUB Dresden on May 4, 2010
+
+Vol. 142, No. 1, 2007
+
+

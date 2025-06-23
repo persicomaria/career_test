@@ -1,0 +1,300 @@
+proteins
+STRUCTURE O FUNCTION O BIOINFORMATICS
+
+Rational design of peptides active against the gram positive bacteria Staphylococcus aureus
+´ ` Celine Landon,1* Florent Barbault,2 Michele Legrain,3 Marc Guenneugues,4 1 and Francoise Vovelle ¸
+1 Centre de Biophysique Moleculaire, CNRS UPR4301, University of Orleans, rue Charles Sadron, ´ ´ 45071 Orleans, cedex 2, France 2 ITODYS, 75005 Paris, Cedex 05, France 3 Laboratoire de Biochimie et de Biologie Moleculaire, CHRU Hautepierre, 67098 Strasbourg, Cedex, France ´ 4 Canceropole du Grand-Est, Hopital Hautepierre, 67098 Strasbourg, Cedex, France ^
+
+ABSTRACT In an attempt to increase the antimicrobial activity of the insect defensin from Anopheles gambiae, which is active against Staphylococcus aureus at low concentration, hybrid defensins were designed by combining conserved sequence regions and variable regions of insect defensins. Their activity against S. aureus strains sensitive and resistant to conventional antibiotics was evaluated, and the toxicity of the most active molecules was tested. The three-dimensional structure of Anopheles gambiae defensin and five hybrids were determined by NMR and molecular modelling. This strategy led to the design of two chimeric defensins with increased activity compared with the native molecule, but one of them appears to be toxic to mice at a rather low concentration. The structure of the CSab motif, which is a characteristic of insect defensin, is sensitive to sequence modifications, in particular in the N-terminal loop. The existence of the CSab is most probably a prerequisite for the stability and the activity of the molecule, but is not sufficient by itself since the hybrid displaying the best defined structure is not active against the tested strains. The analysis of the structure, in relation with the activity and the toxicity data, underlines the importance of turns and of the N-terminal loop. Residues located in the turns contributing to the preservation of positive electrostatic areas at the surface of the molecules seem particularly important for the activity of the molecule, while residues involved in the N-terminal loop are both involved in the modulation of the activity and the toxicity of the molecule.
+C V 2008 Wiley-Liss, Inc.
+
+INTRODUCTION The alarming increase of multi-drug-resistant bacteria, which cause infections associated with high mortality and morbidity in immuno-depressed patients, has stimulated considerable efforts to identify novel therapeutics with mechanisms radically different from those of existing antimicrobial agents. More than 95% of Staphylococcus aureus strains are now resistant to penicillin, 60% to methicillin and several cases of S. aureus resistance to vancomycin, the last resort in treating S. aureus infections, have been reported in United States, Japan and Europe.1 Among the five or six novel classes of antibiotics under development, antimicrobial peptides (AMPs) constitute a new field of investigations. AMPs represent an important component of the natural defences of all living organisms against invading pathogens. AMPs are small (<10 kDa), cationic, and generally amphipathic molecules. They exhibit a wide spectrum of activity for micro-organisms, including gram positive and gram negative bacteria, yeast, fungi, viruses, and protozoa. On the basis of their 2D and 3D structures, the presence or absence of disulfide bridges, they have been divided into several categories. The first category includes linear peptides that adopt an a-helical structure in membrane mimetic solvent, for example cecropins2­4 and magainins.5 A second group involves cysteine containing peptides with a few of known AMP forming a b-hairpin such as tachyplesins, thanatin, androctonin, gomesin, and protegrins.6­11 Other cysteine containing AMPs adopt a more elaborate structure such as defensins with a b or a-b fold (for review see12­14). An additional group of AMPs involves peptides rich in specific unmodified amino acids such as cathelidicins,15 indolicins,16 and tritripticin17 contrasting with some
+
+Proteins 2008; 72:229­239.
+
+Key words: insect defensin; NMR; three-dimensional structure; CSab; motif; electrostatic potential; hydrophobic potential; antibacterial activity; cytotoxicity; Staphylococcus aureus; Anopheles gambiae; antimicrobial peptides.
+
+The Supplementary Material referred to in this article can be found online at http:// www.interscience.wiley.com/jpages/0887-3585/suppmat/ ´ ´ *Correspondence to: Celine Landon, Centre de Biophysique Moleculaire, rue Charles Sadron, ´ 45071 Orleans, cedex 2, France. E-mail: landon@cnrs-orleans.fr. Received 12 July 2007; Revised 17 October 2007; Accepted 1 November 2007 Published online 23 January 2008 in Wiley InterScience (www.interscience.wiley.com). DOI: 10.1002/prot.21912
+
+C V 2008 WILEY-LISS, INC.
+
+PROTEINS
+
+229
+
+C. Landon et al.
+
+AMPs produced by bacteria containing modified amino acids such as Nisin.18 The fundamental structural principle of most AMPs is their ability to adopt an amphipathic structure with the cationic amino acids and the hydrophobic ones clustered in distinct domains. Although their exact mechanism of action is still unclear, there is a consensus to consider that AMPs selectively disrupt the bacterial membranes.19,20 Such a mechanism makes the acquisition of resistance highly improbable since, for this purpose, a microbe would have to redesign its membrane, changing its composition or its organization. So far, more than 800 AMPs have been identified in various organisms, including invertebrates, vertebrates, and plants. In particular, insects have developed a remarkably efficient defence system based principally on the synthesis of numerous AMPs.13,21,22 These molecules have proven to be efficient over millennia without the help of lymphocytes or antibodies and have permitted insects to live in symbiosis with microbes. Since insects represent $60% of the living species, they constitute a unique reservoir of AMPs. Among the known insect AMPs, several present wide activity spectra against gram positive, gram negative bacteria, yeast, and filamentous fungi,22 while others display a marked specificity. For example, drosomycin23 and heliomicin24 are efficient against yeast and fungi. Other insect defensins are mainly active on gram positive bacteria22 including pharmaco-resistant strains. Such molecules represent good candidates for designing new antimicrobial therapeutic agents. A common procedure for this purpose is to use site directed mutagenesis based on the analysis of the 3D structures and on the physical properties that may be derived from the 3D structure. Using this approach, we successfully designed highly potent antifungal agents using heliomicin as starting probe.25 In the present work, we have used a new strategy consisting in the design of chimeric molecules based on the 1D and 3D structures of insect defensins. The objective is to have in hands peptides highly efficient against pharmaco-resistant gram positive strains with a special focus on Staphylococcus aureus strains resistant to vancomycin. The first antibacterial insect defensin (defensin A) was isolated from the moth Phormia terranovae and we have determined its 3D structure by NMR spectroscopy.26 The structure includes a N-terminal loop followed by an a helix linked to the antiparallel two-stranded b-sheet by two disulfide bridges forming the CSab structural motif (cysteine stabilized alpha helix beta sheet). Since the discovery of Phormia defensin more than 60 insect defensins were isolated,13 in particular the defensin from the insect vector Anopheles gambiae. This defensin is active against S. aureus27 and proves to be efficient against sensitive strains as against resistant and multi-resistant strains. The alignment of 40 sequences (see Fig. 1 in Ref. 28) has
+
+Figure 1
+Sequence alignment of Anopheles gambiae defensin (reported as anopheles or Def-AAA) with the four defensins used to build the hybrid defensins (Belostoma, Tenebrio, Acrocinus and Drosophila) and with the five hybrid defensins: Def-AAB, Def-BBB, Def-BAT, Def-AcAA, Def-DAA). The V1, V2, and V3 variable regions are underlined by stars, the conserved regions of Anopheles defensin are in bold. The positions of the secondary structures of each hybrid defensin are underlined. Residues involved in helix are underline by @ and residues involved in the strands of b-sheet are underscored .The global charge of each defensin is given assuming that the histidines are protonated. *For Def-BAT, the two strands do not form an anti-parallel b-sheet.
+
+allowed defining three variable regions separated by three substantially conserved regions (at least 60% of identical residues) and corresponding to specific elements of the 3D structure. From these observations, we have built a series of hybrid peptides mixing variable regions from various defensins. Among these 45 designed defensins, several prove to be more potent than A. gambiae defensin against S. aureus strains. Interestingly, some show toxicity for mammalian cells, while others are non toxic. The 3D structure of A. gambiae defensin and of five selected hybrid defensins was determined by NMR and molecular modelling techniques. This work evidenced that the more structured peptides are not always the more active and demonstrates the importance of the N-terminal loop for the activity and also for the cytotoxicity of the molecule. MATERIALS AND METHODS
+Construction of hybrid defensins, production in yeast and purification
+
+Hybrid defensins were assembled by PCR and produced in the yeast Saccharomyces cerevisiae as described by Legrain et al.28 The purification procedure used was the standard protocol already used for insect defensins and presented in Hetru et al.29 and Landon et al.25
+NMR experiments
+
+A standard set of 2D 1H NMR experiments (DQFCOSY, 80-ms TOCSY, and 120-ms NOESY) was performed, for all the considered peptides, on 2 mM solutions prepared in a 40 mM sodium acetate buffer at pH
+
+230
+
+PROTEINS
+
+Rational Design of Peptides
+
+4.9 and at 293 K. An additional set of data (recorded at 303 K) was used to resolve assignment ambiguities due to spin system overlaps. Exchange kinetics of amide protons were estimated from 1D and short 2D-TOCSY spectra recorded at 293 K, after dissolution in D2O. All spectra were recorded on a VARIAN INOVA NMR spectrometer equipped with a z-axis field-gradient unit and operating at a proton frequency of 600 MHz. The NMR data sets were processed using the NMRPipe/NMRDraw software package.30,31
+Structure calculations
+
+H chemical shifts were assigned according to classical procedures. NOE cross-peaks were integrated and assigned within the NMRView software.30 Since the disulfide pairing is already known, covalent bonds were built between the sulphur atoms of the paired cysteines. Structure calculations were performed with the ARIA 1.1 software.32 The calculations were initiated using the default parameters of ARIA and a first set of easily assigned NOEs. At the end of each run, the new assignments proposed by ARIA were checked manually and introduced (or not) in the following calculation. This iterative process was repeated until complete assignment of the NOESY map. A last run of 100 structures was then performed with the final list of NOE derived distance restraints, in which no restraint can be rejected. The 10 structures with the lowest energy were considered as characteristic of the peptide structures. Representation and quantitative analysis of the calculated structures were performed using MOLMOL33 and in-house programs. RESULTS
+Alignment of the defensin sequences
+
+1
+
+expressed in yeast, purified, and tested for activity. Five of them, which were produced in a sufficient amount and exhibiting interesting biological properties, were selected for further structural analysis by NMR and molecular modelling techniques. These five selected hybrid defensins are Def-BAT, Def-BBB, Def-ABB, Def-AcAA, and DefDAA, where the last three letters indicate the origin of the sequence of the variables regions in the order V1,V2,V3 (Fig. 1). A means originated from Anopheles gambiae, B from Belostoma gigas, T from Tenebrio mollitor, Ac from Acrocinus longimanus, and D from Drosophila melanogaster. A sequence alignment of Anopheles (Def-AAA), Belostoma, Tenebrio, Acrocinus, and Drosophila defensins and of the five hybrids is reported in Figure 1.
+Antimicrobial essays and in vivo toxicity studies
+
+The insect defensins, selectively active against bacteria, include a consensus motif of cysteines: C---CXXXC----C---CXC--- forming three disulfide bridges with the following pairing Cys1-Cys4, Cys2-Cys5, and Cys3-Cys6. The alignment of 40 defensin sequences (see Fig. 1 in Ref. 28) reveals the presence of three conserved regions (more than 60% of identity and only conservative mutations) and of three variable regions. The variable region V1 corresponds to the end of the N-terminal loop, V2 to the T1 turn (between the a helix and the first strand of the b-sheet), and V3 includes the T2 turn between the two strands of the b-sheet and the second strand of the b-sheet (Fig. 1).
+Construction of hybrid defensins
+
+A series of hybrid defensins were built by combining the conserved regions of Anopheles gambiae sequence and variable regions of different defensins. On these bases, 70 chimeric defensins were designed, 45 of which were
+
+Antimicrobial properties of the peptides against S. aureus multi sensitive (clinical strain n, 21; gift from IBMC, Strasbourg France) and multi resistant strains (clinical strain 4, gift from G. Prevos, Institute of bacteliorogy, Strasbourg France) were assessed following a liquid growth inhibition assay as described in Legrain et al.28 The activity of each peptide was evaluated at different concentrations following a serial dilution28 and characterized by the IC90, which corresponds to the peptide concentration required to inhibit 90% of bacterial growth. Def-AAA is active at a concentration of 6.25 lg/mL against a S. aureus sensitive strain but also on a resistant strain, a feature unique among the 40 insect aligned defensins (Dimarcq personnal communication). Among the five hybrid defensins tested Def-AcAA (ETD-P1263 in Ref. 28) and Def-DAA appear to be more efficient than Def-AAA on the multi resistant and sensitive strains (Table I). For this reason, they were considered as good candidates for the development of therapeutic agents. However, the more efficient one (Def-DAA) is highly toxic, with a lethal dose of 30 mg/kg, while the lethal dose is higher than 100 mg/kg for Def-AcAA and DefAAA. Such toxicity impedes the use of Def-DAA for medical applications but can help us, first to understand the origin of this toxicity, and second to elaborate less toxic compounds. In this respect, 13 mutants of DefDAA defensin were expressed and their in vivo toxicity on healthy mice was evaluated. Def-DAA differs from Def-AcAA by only four residues, in the V1 segment. Therefore, the four mutations K8I, W9F, W11V, T14A were tested. A series of double and triple mutants was also considered. All the mutants are active against sensitive and resistant strains of S. aureus, but at higher concentration than Def-DAA, with a factor ranging from 2 to 16 (Table I). All the mutants are less toxic than Def-DAA except one (W11V) but are more toxic than Def-AcAA. To compare the therapeutic value of the various
+PROTEINS
+
+231
+
+C. Landon et al.
+
+Table I
+Antibacterial Activity and Toxicity of the Various Defensins
+
+Peptide Def-AAA Def-ABB Def-BBB Def-BAT Def-AcAA Def-DAA W9F K8I,W9F W9F,W11V K8I,W9F,W11V W9F,T14A K8I,W9F,T14A W11V,T14A K8I,W11V,T14A W11V K8I,W11V K8I
+
+V1-sequence ----GFGVGSS ----GFGVGSS FSSQWVTPNDS FSSQWVTPNDS ----IFNVNHA ----KWNWNHT ----KFNWNHT ----IFNWNHT ----KFNVNHT ----IFNVNHT ----KFNWNHA ----IFNWNHA ----KWNVNHA ----IWNVNHA ----KWNVNHT ----IWNVNHT ----IWNWNHT
+
+I1 6.25 >25 10 6.25 1.56 0.75 4 2­4 4­8 2­4 2­4 2­4 4 4 2­4 4 2
+
+I2 6.25 >80 >80 6.25 3.125 1.5 4 2­4 8­16 2­4 2­4 2­4 8­16 2­4 4­8 4 4
+
+T1 100 ND ND ND 100 8 10 10 15 20 10 20 10 20 5 10 10
+
+T2 >100 ND ND ND >100 30 >30 >30 30 >30 >30 >30 30 >30 10 >30 >30
+
+TV* 16 ND ND ND 64 12 2.5 5 3.8 5 5 10 2.5 5 2.5 2.5 5
+
+ND not determined. I1, IC90 (inihibitory concentration, lg/mL) on multi-sensitive S. aureus strain (strain 21: amoxillin, erythromycin, pefloxacin, penicillin, kanamycin, tobramycin, gentamycine, amikacin, rifampicin, oxacillin, chloramphenicol, imipenem, methicillinl and vancomycin sensitive). I2, IC90 (lg/ml) on multi resistant S. aureus strain (strain 4: amoxillin, erythromycin, pefloxacin, penicillin, kanamycin, tobramycin, gentamycine, amikacin, rifampicin, oxacillin, chloramphenicol, imipenem, methicillin and vancomycin resistant). T1, dose causing the first signs of toxicity on mice (mg kg21). T2, lethal dose (mg kg21). TV 5 T1/I1 T14A and K8I,T14A mutants are not expressed.
+
+mutants, we have calculated the ratio (TV) between the concentration causing the first signs of toxicity on mice and the IC90 value on the multi-resistant S. aureus strain. A high value corresponds to a better therapeutic value. DefAcAA, with a ratio of 64, appears clearly as the best molecule, followed by the wild-type Def-AAA with a ration of 16. The single mutation V11W leads to a 6-fold decrease of this index showing the importance of the loop for the toxicity (Table I). Since the toxicity of the most interesting molecules were evaluated in vivo, the efficacy of Def-AcAA was also evaluated in vivo, in a S. aureus peritonitis model on mice as described by Legrain et al.28 and compared with that of Def-AAA. In a multi sensitive S. aureus peritonitis model, both Def-AAA and Def-AcAA are efficient on mice at a dose of 3 mg/kg. In a multi resistant S. aureus peritonitis model, a treatment with vancomycin requires a dose of 10­30 mg/kg, Def-AcAA and Def-AAA are efficient at a dose of 3 mg/kg and 10 mg/kg, respectively.28
+Three-dimensional structures
+
+sequential, and easy-determined long-range peaks were assigned. Additional assignments were progressively proposed during the ARIA runs, and manually validated. The final numbers of distance restraints (more than 15 per residue) used in the last run of ARIA calculations are detailed in Table II. The solution structures of each defensin are represented by the 10 lowest energy conformers refined in a shell of water (Fig. 2). These structures were deposited in the Protein Data Bank with the following entry codes: 2NY8 for Def-AAA, 2NY9 for Def-ABB, 2E3E for DefBBB, 2E3F for Def-BAT, 2NZ3 for Def-AcAA, and 2E3G for Def-DAA. All these structures are in agreement with
+
+Table II
+Number of NOE Used to Determine the Structures of the Various Defensins
+
+Peptide Def-AAA Def-ABB Def-BBB Def-BAT Def-AcAA Def-DAA
+
+Total 627 765 507 625 755 746
+
+IntraResidue i2j50 305.7 338.7 300.7 348.2 329.0 311.8
+
+Sequential i2j51 149.8 165.0 121.8 138.2 202.7 172.5
+
+Medium range 2 i2j<5 85.5 111.5 31.0 66.8 122.7 130.2
+
+Long range i2j!5 86.0 149.8 53.5 71.8 100.7 131.5
+
+The quality of the NMR spectra was very good for all peptides and allows the assignment of nearly all proton resonances. Tables containing the proton chemical shifts are available as supplementary material. NOE peaks were picked and integrated in NMRView.31 A first set of about 200­300 intra-residue,
+
+Fractional numbers correspond to peaks with multiple assignments.
+
+232
+
+PROTEINS
+
+Rational Design of Peptides
+
+% Ra
+
+0.13 0.04 0.43 0.18 0.09 0.13 Def-AAA Def-ABB Def-BBB Def-BAT Def-AcAA Def-DAA 4.36 2.79 5.18 6.44 3.22 2.77 Æ Æ Æ Æ Æ Æ 0.87 0.41 1.37 1.93 0.34 0.52 3.59 1.98 4.10 4.98 1.96 1.40 Æ Æ Æ Æ Æ Æ 1.26 0.46 1.22 1.39 0.31 0.36 0.98 0.80 1.25 0.82 0.65 0.69 Æ Æ Æ Æ Æ Æ 0.21 0.18 0.40 0.19 0.18 0.18 0.55 0.65 0.84 0.80 0.47 0.56 Æ Æ Æ Æ Æ Æ 0.12 0.16 0.29 0.22 0.17 0.15 (27­30;36­39) (25­31;34­40) (33­35;38­40) (31­34;39­42)b (28­31;35­39) (28­31;35­39) 0.38 0.46 0.52 0.42 0.45 0.51 Æ Æ Æ Æ Æ Æ 0.13 0.18 0.20 0.13 0.16 0.18 (17­24) (13­24) (21­28) (19­28) (14­24) (16­24) 3.78 2.39 4.28 4.84 2.11 1.58 Æ Æ Æ Æ Æ Æ 1.04 0.60 1.22 1.32 0.46 0.62 (2­16) (2­12) (2­20) (2­18) (2­13) (2­15) 0.28 0.08 0.69 0.23 0.23 0.36 Æ Æ Æ Æ Æ Æ
+
+(31­35) (32­33) (36­37) (35­37) (32­34) (32­34)
+
+88 93 82 86 93 83
+The position and length of secondary structure element vary from one defensin to the other. Consequently the RMSD are calculated for different numbers of residues for each defensin (given in parenthesis) a Percentage of residues in the favourable regions of the Ramachandran plot. b For Def-BAT, the RMSD on the b-sheet is calculated on the two strands even if they do not really form a b-sheet.
+
+Figure 2
+Superposition of the 10 best models for each hybrid defensin.
+
+RMSD Calculated on Various Selections of Atoms
+
+Global fold comparison
+
+Despite a similar global fold, the details of the structures of the various defensins are rather different. In particular, the secondary structure positions and lengths differ from one defensin to the other (Figs. 1 and 2).
+
+Table III
+
+RMSD ()
+
+All atoms
+
+the experimental data; there is no violation of distance ° restraints larger than 0.3 A. The global fold of the six defensins displays the same general features: a N-terminal loop L1, followed by a helix and a two-stranded antiparallel b-sheet forming the CSab motif,26 except for Def-BAT for which the two extended strands do not form the sheet. The helix is separated from the b-sheet by a turn (T1) and the two strands of the b-sheet by turn T2. Most of the residues (82­97%) are found in the favourable regions of the Ramachandran plot. The residues found in the less favourable regions correspond to the N-terminal flexible loop. The quality of the NMR structures depends on the molecule considered. On the whole, the secondary structure elements are well defined, in particular, the a-helix for which the pairwise RMSD values are always less than ° 0.5 A (Table III). In contrast, in most cases the N-terminal loop is highly variable with RMSD values larger than ° 2 A. The highest values are found for Def-AAA, DefBBB, and Def-BAT in correlation with a smaller number of NOEs than for the other defensins (Table II). The three other (Def-DAA, Def-AcAA, and Def-ABB) hybrids showing a much better definition of the N-terminal loop, in particular Def-DAA for which the pairwise RMSD is ° only 1.58 A.
+
+Backbone Ca atoms
+
+Ca of secondary structures
+
+b-sheets
+
+Helix
+
+L1 loop
+
+T2
+
+PROTEINS
+
+233
+
+C. Landon et al.
+
+Table IV
+RMSD Between the Structures of the Chimeric Defensins and DEF-AAA
+
+RMSD () Def-AAA/ Def-AAA/ Def-AAA/ Def-AAA/ Def-AAA/ Def-ABB Def-BAT Def-BBB Def-AcAA Def-DAA
+
+Secondary structures 2.02 2.50 3.40 2.17 1.22
+
+Helices 0.54 0.46 1.16 0.8 0.57
+
+b-sheets 2.06 2.17 2.63 0.87 1.09
+
+The residues used for the superposition are based on the secondary structure of Def-AAA: 16­39 for secondary structures, 16­24 for the helices, and 27­39 for the b-sheets.
+
+different, even if the sequence is conserved in this part of the molecule. The rest of the molecule, particularly L1 loop, plays a very important role in its conformation. For Def-BAT, even if residues 31­34 and 39­42 are in an extended conformation, they do not form the characteristic hydrogen bond network of an antiparallel b-sheet, the two strands being too far apart. In fact, the NOE connectivity's characteristic of a b-sheet are not found in this particular defensin and H$D exchange experiment confirmed that the b-sheet is not formed (data not shown).
+Loop L1
+
+The RMS differences between the lowest energy structure of Def-AAA and the chimeric defensin structures were calculated on various segments of the backbone of the molecules (Table IV). Owing to the large flexibility of L1, this part was systematically excluded from our comparison. Def-AAA was considered as our reference molecule since all other defensins were designed on the basis of its primary structure. As shows in Figure 1, the relative position of the secondary structure elements can vary considerably from one molecule to the other.
+Helix
+
+It is clear that the peptide segment better conserved over these defensins is the helix (RMSDs ranging between ° 0.46 and 1.16 A). The length of the helix varies from 7 to 11 residues independently of the sequence (Figs. 1 and 2), for example, Def-AAA has a very short helix (7 residues), while Def-ABB, with the same sequence presents a much longer helix (11 residues). The helix always ends at the same position on a Arg or a Lys residue (position 23 in Def-AAA numbering). This residue is followed by an Arg or Gly residue adopting a left handed helical conformation whatever the defensin considered and the NÀ ÀH group of this Arg or Gly residue is involved in a hydrogen bond with the carbonyl group of Cys3 (cysteine numbering). Interestingly, on each structure the NÀ group of the ÀH following Tyr residue (Tyr25, Def-AAA numbering) is also hydrogen bonded to the C¼ of this cysteine (i ­ 5 posi¼O tion), stabilizing the conformation of the T1 turn.
+b-Sheets
+
+Loop L1 displays a very high variability, in particular in Def-BBB and Def-BAT with the sequence of the extended loop of Belostoma defensin, and in Def-AAA where the large number of Gly and Ser residues may account for this particular variability (Table III). The position of the loop, with respect to the rest of the molecule, is determined by several long range NOEs and the conformation of the Cys1-Cys4 disulfide bridge. These few NOEs fix the L1 loop in a rather constant orientation with respect to the rest of the molecule, even if the geometry of the loop is highly variable (Fig. 2). For example, in Def-AcAA and Def-DAA, the L1 loops adopt an orientation perpendicular to the helix, but they are symmetrically oriented compared with the Def-AAA loop. This particular orientation of L1 in Def-DAA allows to accommodate the bulky side chain of Trp11 inside the loop, sandwiched between the end of L1, and the end of strand 1 of the b-sheet.
+Distribution of residues at the surface of the peptides
+
+The b-sheet structure is highly affected by sequence modifications, especially when the second strand (included in V3) is mutated compared with Def-AAA. It is the case of Def-ABB, Def-BBB, and Def-BAT for which ° RMSDs are larger than 2.0 A. On the contrary when the sequence of the second strand is not mutated (Def-AcAA ° and Def-DAA) these RMSDs remain around 1 A. As for helical regions, the length and positions of the strands forming the anti-parallel b-sheet are variable and do not depend on the sequence (Figs. 1 and 2). For example, the conformation of Def-ABB and Def-BBB b-sheets is very
+
+The hydrophobic or electrostatic potentials were calculated at the surface of each defensin using the MOLCAD option of SYBYL (TRIPOS Inc., St. Louis, MO, 1999) (Fig. 3). They can vary from one peptide to the other and also (since for several peptides L1 loop is not well defined) from one structure to the other. However for a same peptide, the distribution of potential always displays common features meaning that general rules can be pictured out. The potentials are represented in Figure 3 for one of the 10 best structures, for each molecule. The hydrophobic potentials range from 20.22 to 10.13, none of the peptides is amphiphilic. All of them present a number of hydrophobic patches associated to hydrophobic and aromatic side chains distributed all over the surface. Some of them correspond to conserved residues: L5, L15, L21, Y25, and Y29; the other being more specific to each molecule: For example Ile8/Phe9 for Def-AcAA, Ile34 for Def-ABB, Phe8, Trp12, and Val13 for Def-BAT or Def-BBB. If we consider that the histidines are protonated, all peptides are cationic, their global charge varing from 15 to 17 (see Fig. 1). As a consequence, the electrostatic
+
+234
+
+PROTEINS
+
+Rational Design of Peptides
+
+Figure 3
+Hydrophobic and electrostatic potentials at the surface of the defensins. First panel: Def-AAA, Def-ABB, and Def-AcAA; second panel: Def-BAT, Def-BBB, and Def-DAA. Two orientations are shown. For each orientation, from the left to the right: the global fold, the hydrophobic potentials and the electrostatic potentials are represented. For the electrostatic potential, cationic poles are coloured in red-brown, anionic regions are in blue, and neutral regions are in green. For the hydrophobic potential, hydrophobic regions are in brown, hydrophilic one in blue and intermediate regions are in green.
+
+PROTEINS
+
+235
+
+C. Landon et al.
+
+potentials are principally positive (Fig. 3), ranging from 299 to 1316 kcal mol21 as calculated by SYBYL. The surface of the reference molecule, Def-AAA, is essentially positive except for the L1 loop region (segment 4­10). A large positive area, situated at the end of the helix, T2 turn and at the C-terminus is formed by the conserved residues: Arg26 and Arg39 on face A (left part of Fig. 3) and His19, Arg23, and Arg24 on face B (right part of Fig. 3) (Arg24 is not conserved in Def-BBB and DefABB). In addition, Lys33 forms a positive patch in the T2 turn region. On face B, the positive zones are well preserved in Def-AcAA, Def-BAT, and Def-DAA, and are slightly modified in Def-ABB and Def-BBB with the contribution of additional cationic residues (K31, H36 and K35, H40, respectively). Face A shows more variability as some molecules display a more positive face originating from additional cationic residues. For example, His13 for Def-AcAA and Def-DAA, Lys8 enhancing the positive area at proximity of Arg26 and Arg39 in Def-DAA, and in Def-ABB, Lys31 near Lys33 enhances the second patch. In the opposite, the sequences with a Belostoma loop (Def-BAT and Def-BBB) display a more negative surface in the L1 region (due to serine residues at position 7, 9, and 10) and at the beginning of the helix (due to Asn16 and Asp17). In this latter case, there is no positive area at the bottom of the molecule (orientation of Fig. 3). Face A is particularly negative in the case of Def-BBB with the presence of Asp43 in the C-terminal part of the molecule. DISCUSSION We have determined the 3D structure and evaluate the activity of Anopheles gambiae defensin (Def-AAA) and of five hybrid defensins designed by combining conserved and variable sequence regions of different insect defensins. Our objective was to establish structure-activity and structure-toxicity relationships for this class of peptides with a special focus on their activity against multi resistant Staphylococcus aureus isolates to design more potent and nontoxic molecules.
+Structure of Def-AAA
+
+CSab motifs are almost identical, and the RMSD between the coordinates of the structurally aligned Ca ° atoms of two selected structures is 1.1 A for 24 aligned residues. However, the L1 loop of plectasin is two residues shorter than Def-AAA one and much better defined. The structural analogies are not so noticeable for the mussel defensin MGD-1 from Mytilus galloprovinciali35 and the Crassostrea gigas oyster defensin.36 These molecules, which have an additional disulfide bridge, have a much shorter sequence than Def-AAA, lacking a large part of loop L1. Their primary structure is more similar to that of insect defensins from ancient orders like the dragonfly defensin37 that was not included in our initial analysis of 40 insect defensins. MGD-1 presents a long helix that does not superpose well to that of Def-AAA, while the b-sheets and T1 turns of both molecules fitted ° fairly well (RMSD 1.5 A for 20 aligned residues). On the contrary, the helix and T1 turn of the Cg defensin and Def-AAA are quite similar, while the b-sheet adopts different positions (RMSD 1.25 for 17 aligned residues).
+How to maintain the CSab motif?
+
+A first requirement in the design of bioactive defensin analogues is to maintain the CSab motif that is essential for the stability of the molecule. The analysis of the structure of Def-AAA and of the five hybrid defensins evidences that the CSab motif does not suffer any kind of sequence modification. The preservation of the disulfide bridge array is not sufficient to maintain the motif and several rules emerge from the analysis of the six structures determined herein.
+Helix
+
+The 3D structure of Def-AAA presents the general features of the antibacterial invertebrate defensin scaffold,26 characterised by the presence of the CSab motif. This motif includes an a helix and a two stranded b-sheet stabilized by the 2­5 and 3­6 disulfide bridges. The structure is further stabilized by the 1­4 additional bridge ensuring the packing of the L1 loop on the T2 turn between the two strands of the b-sheet. However, this structural arrangement does not prevent a high variability of the L1 loop. This structure compared well with that of plectasin, the defensin from the fungus P. nigrella (1ZFU).34 The
+
+The helix is present in all molecules and always ends at the same position. The end of the a-helix and the two first residues of turn T1 corresponding to the V2 variable region, adopt very similar geometry in all structures, Arg/Lys23 residues assuming the same conformation on each structure, with a conserved hydrogen bond network for the two sequences considered. In contrast, the first residue of the helix vary from one molecule to the other even with a similar sequence. The helix is probably able to extend in its N-terminal part in a membrane environment. For example, Def-AcAA, (u,w) angles of residues Ile8 to His13 are closed to the helical region of the Ramachadran plot, showing the high propensity of this region to adopt a helical conformation. For Def-DAA, there is a noncanonical additional helix formed by residues Asn12His13-Thr14 that is preceding the 16­24 helix.
+b-Sheet
+
+The b-sheet appears to be very sensitive to sequence modifications, for example in Def-BAT, an hybrid between Anopheles and Tenebrio defensin, the b-sheet is
+
+236
+
+PROTEINS
+
+Rational Design of Peptides
+
+not formed at all. As already pointed out, sequence modifications in this region affect the length of the helix. It is also much affected by the conformation and orientation of the L1 loop. The b-sheet of Def-BBB and Def-ABB, although with a similar sequence, are very dissimilar. The long loop of Belostoma seems to perturb the correct fold of this region. More generally, the structures with an ill defined L1 loop are those in which the CSab motif is the less well preserved (Def-BAT, Def-BBB and Def-AAA to a less extend). The preservation of the CSab motif is important to ensure the stability of the molecule; however it is not sufficient to ensure the activity as exemplified by Def-ABB that presents the best defined structure without being efficient against the tested strains.
+How to build a more active defensin against S. aureus?
+
+The mode of action of insect defensins is not yet elucidated. Insect defensins are specific of bacteria; they are principally active against gram positive bacteria22 and none of them presents an amphiphilic character (Fig. 3), as generally observed for AMPs, in particular helical or b-sheet AMP showing much larger activity spectra and acting directly with bacterial or fungal membranes. This makes a direct interaction with bacterial membranes very unlikely and favour the existence of a specific receptor as already shown for insect and plant antifungal defensins.38,39 However the kinetic of action of antifungal defensins is considerably slower (Bulet, personal communication) than that of antibacterial insect defensins,40 suggesting a different mechanism. These contradictory results underline the need for specific studies aimed at the elucidation of the actual mode of action of insect defensins. Nevertheless, in the absence of such knowledge, it is possible to identify some important features for the activity of defensins that can help to improve their efficacy. All these molecules are cationic and (as shown in Figure 3) surfaces are globally positive. The electropositive poles (and in particular the large electropositive area including residues of the helix), T1 turn, and the C-terminus seem to be important for the antimicrobial activity. When the sequence RRYR (positions 23­26, Def-AAA numbering) is replaced by the sequence KGYR (in Def-BBB and Def-ABB) the antibacterial activity is reduced, especially against resistant strains of S. aureus. The most active molecule (Def-DAA) is the most electropositive one, showing a highly positive area originating from the particular conformation of the loop, which favours the proximity of several lysines and arginines. Such feature could be important for the initial interaction of the peptide either with bacterial membranes or with a possible receptor. Several mutants of Def-DAA affecting the charge of this segment (muta-
+
+tions of one of the Arg residues by Gly or Met, data not shown) were three to six times less active. In addition, it should be noted that the presence of these electropositive poles is a common features to the three defensins that are active at low concentration against S. aureus (plectasin, mussel defensin MGD-1, and oyster Cg defensin). The other region that could easily be altered to build more active molecules is the L1 loop. Def-AcAA differs from native Def-AAA by only five residues of the V1 region (Fig. 1) and is two times more active. Def-DAA differing from Def-AcAA by only four residues is also two times more potent than Def-AcAA. The conformation of the loop is probably determinant and also its flexibility, which is thought to favour the interaction of the peptide with its putative receptor. Some particular conformations are probably more favourable for an optimal interaction, than others. For example, the loops of the more potent molecules Def-AcAA and Def-DAA, although with different orientations, superposed rather well, while there is no defined structure for Def-AAA, which is less active.
+How to build a less toxic defensin?
+
+As most wild-type insect defensins, Def-AAA is not toxic. In contrast, the most potent molecule (Def-DAA) is the most toxic molecule, while Def-AcAA and several other hybrids are slightly less efficient but have no toxicity in vivo in our tests on mice. To define the responsible residues for this toxicity, a series of mutant were designed and tested for activity and toxicity (Table I). Residue at position eight appears as a key residue for toxicity. Mutants with a lysine at this position (as for Def-DAA) are more toxic than the mutants with an isoleucine (as for Def-AcAA). The K8I mutation induces an important modification of the charge state in this part of the molecule, which leads to a less toxic (but still active) molecule. To design new molecules, it should be preferable to have a hydrophobic residue at this position than a positively charge one. Replacement of W9 by F in the different mutants leads to molecules with the same or slightly less toxicity. The single mutation W11V makes the molecule more toxic, but it can be compensated by a mutation of the aromatic residue in position 9: the double mutant W9F, W11V is less toxic. This is probably due to the influence of the bulky tryptophan residues on the loop conformation. The mutation T14A has no significant implication on the toxicity. As a conclusion, in term of toxicity, the best molecule is the quadruple mutant K8I, W9F, W11V, T14A, corresponding to Def-AcAA that appears also as the molecule with the best therapeutic value (TV). All other mutants and Def-DAA display much smaller values of TV showing that Def-AcAA is most probably the best candidate for a therapeutic application.
+PROTEINS
+
+237
+
+C. Landon et al.
+
+CONCLUSION Our strategy has allowed us to design two molecules more potent than Def-AAA against S. aureus. The analysis of their 3D structure shows that the CSab, and particularly the b-sheet is sensitive to sequence modifications and that the stability of the motif can be also affected by sequence changes in loop L1. The existence of the CSab is probably a prerequisite for the activity of the molecule, but is not a sufficient condition. Residues of the T1 and T2 turns contributing to the preservation of positive electrostatic areas at the surface of the molecules seem particularly important for the activity, but we have shown that residues of loop L1 are both involved in the modulation of the activity and also of the toxicity of the molecule. Such observations may help to design more potent and less toxic molecules. ACKNOWLEDGMENTS The authors want to thanks Jean Luc Dimarcq for valuable suggestions and Philippe Bulet for critical reading of the manuscript. They wish also to acknowledge Henri Labbe for its contribution to the NMR work. Henri Labbe died 4 years ago. REFERENCES
+1. Breithaupt H. The new antibiotics. Nat Biotechnol 1999;17:1165­ 1169. 2. Boman HG, Steiner H. Humoral immunity in Cecropia pupae. Curr Top Microbiol Immunol 1981;94/95:75­91. 3. Steiner H, Hultmark D, Engstrom A, Bennich H, Boman HG. Sequence and specificity of two antibacterial proteins involved in insect immunity. Nature 1981;292:246­248. 4. Holak TA, Engstrom A, Kraulis PJ, Lindeberg G, Bennich H, Jones TA, Gronenborn AM, Clore GM. The solution conformation of the antibacterial peptide cecropin A: a nuclear magnetic resonance and dynamical simulated annealing study. Biochemistry 1988;27:7620­ 7629. 5. Maloy WL, Kari UP. Structure-activity studies on magainins and other host defense peptides. Biopolymers 1995;37:105­122. 6. Kawano K, Yoneya T, Miyata T, Yoshikawa K, Tokunaga F, Terada Y, Iwanaga S. Antimicrobial peptide, tachyplesin I, isolated from hemocytes of the horseshoe crab (Tachypleus tridentatus). NMR determination of the beta-sheet structure. J Biol Chem 1990;265: 15365­15367. 7. Mandard N, Bulet P, Caille A, Daffre S, Vovelle F. The solution structure of gomesin, an antimicrobial cysteine-rich peptide from the spider. Eur J Biochem 2002;269:1190­1198. 8. Mandard N, Sy D, Maufrais C, Bonmatin JM, Bulet P, Hetru C, Vovelle F. Androctonin, a novel antimicrobial peptide from scorpion Androctonus australis: solution structure and molecular dynamics simulations in the presence of a lipid monolayer. J Biomol Struct Dyn 1999;17:367­380. 9. Mandard N, Sodano P, Labbe H, Bonmatin JM, Bulet P, Hetru C, Ptak M, Vovelle F. Solution structure of thanatin, a potent bactericidal and fungicidal insect peptide, determined from proton twodimensional nuclear magnetic resonance data. Eur J Biochem 1998; 256:404­410. 10. Aumelas A, Mangoni M, Roumestand C, Chiche L, Despaux E, Grassy G, Calas B, Chavanieu A. Synthesis and solution structure of 11.
+
+12. 13. 14. 15.
+
+16.
+
+17.
+
+18.
+
+19.
+
+20. 21. 22.
+
+23.
+
+24.
+
+25.
+
+26.
+
+27.
+
+28.
+
+29.
+
+30.
+
+31.
+
+the antimicrobial peptide protegrin-1. Eur J Biochem 1996;237:575­ 583. Fahrner RL, Dieckmann T, Harwig SS, Lehrer RI, Eisenberg D, Feigon J. Solution structure of protegrin-1, a broad-spectrum antimicrobial peptide from porcine leukocytes. Chem Biol 1996;3:543­ 550. Ganz T. Defensins: antimicrobial peptides of vertebrates. C R Biol 2004;327:539­549. Bulet P, Stocklin R. Insect antimicrobial peptides: structures, properties and gene regulation. Protein Pept Lett 2005;12:3­11. Thomma BP, Cammue BP, Thevissen K. Plant defensins. Planta 2002;216:193­202. Xu T, Levitz SM, Diamond RD, Oppenheim FG. Anticandidal activity of major human salivary histatins. Infect Immun 1991;59:2549­ 2554. Selsted ME, Miller SI, Henschen AH, Ouellette AJ. Enteric defensins: antibiotic peptide components of intestinal host defense. J Cell Biol 1992;118:929­936. Lawyer C, Pai S, Watabe M, Borgia P, Mashimo T, Eagleton L, Watabe K. Antimicrobial activity of a 13 amino acid tryptophanrich peptide derived from a putative porcine precursor protein of a novel family of antibacterial peptides. FEBS Lett 1996;390:95­98. de Vos WM, Mulders JW, Siezen RJ, Hugenholtz J, Kuipers OP. Properties of nisin Z and distribution of its gene, nisZ, in Lactococcus lactis. Appl Environ Microbiol 1993;59:213­218. Hancock RE, Sahl HG. Antimicrobial and host-defense peptides as new anti-infective therapeutic strategies. Nat Biotechnol 2006;24: 1551­1557. Yount NY, Bayer AS, Xiong YQ, Yeaman MR. Advances in antimicrobial peptide immunobiology. Biopolymers 2006;84:435­458. Dimarcq JL, Bulet P, Hetru C, Hoffmann J. Cysteine-rich antimicrobial peptides in invertebrates. Biopolymers 1998;47:465­477. Bulet P, Hetru C, Dimarcq JL, Hoffmann D. Antimicrobial peptides in insects; structure and function. Dev Comp Immunol 1999;23: 329­344. Fehlbaum P, Bulet P, Michaut L, Lagueux M, Broekaert WF, Hetru C, Hoffmann JA. Insect immunity. Septic injury of Drosophila induces the synthesis of a potent antifungal peptide with sequence homology to plant antifungal peptides. J Biol Chem 1994;269: 33159­33163. Lamberty M, Ades S, Uttenweiler-Joseph S, Brookhart G, Bushey D, Hoffmann JA, Bulet P. Insect immunity. Isolation from the lepidopteran Heliothis virescens of a novel insect defensin with potent antifungal activity. J Biol Chem 1999;274:9320­9326. Landon C, Barbault F, Legrain M, Menin L, Guenneugues M, Schott V, Vovelle F, Dimarcq JL. Lead optimization of antifungal peptides with 3D NMR structures analysis. Protein Sci 2004;13:703­ 713. Cornet B, Bonmatin JM, Hetru C, Hoffmann JA, Ptak M, Vovelle F. Refined three-dimensional solution structure of insect defensin A. Structure 1995;3:435­448. Vizioli J, Richman AM, Uttenweiler-Joseph S, Blass C, Bulet P. The defensin peptide of the malaria vector mosquito Anopheles gambiae: antimicrobial activities and expression in adult mosquitoes. Insect Biochem Mol Biol 2001;31:241­248. Legrain M, Guenneugues M. Anti-bacterial peptides, genes coding for peptides, transformed organisms, vectors, preparation thereof and compositions containing same. Eur Pat. WO03097680, http:// v3.espacenet.com. France: Patent europeen offic'; 2003. pp. 1­38. Hetru C, Bulet P. Strategies for the isolation and characterization of antimicrobial peptides of invertebrates. Methods Mol Biol 1997;78: 35­49. Delaglio F, Grzesiek S, Vuister GW, Zhu G, Pfeifer J, Bax A. NMRPipe: a multidimensional spectral processing system based on UNIX pipes. J Biomol NMR 1995;6:277­293. Johnson BA, Blevins RA. NMRview: a computer program for the visualization and analysis of NMR data. J Biomol NMR 1994;4:603­614.
+
+238
+
+PROTEINS
+
+Rational Design of Peptides
+
+32. Linge JP, O'Donoghue SI, Nilges M. Automated assignment of ambiguous nuclear overhauser effects with ARIA. Methods Enzymol 2001;339:71­90. 33. Koradi R, Billeter M, Wuthrich K. MOLMOL: a program for display and analysis of macromolecular structures. J Mol Graph 1996; 14:51­55, 29­32. 34. Mygind PH, Fischer RL, Schnorr KM, Hansen MT, Sonksen CP, Ludvigsen S, Raventos D, Buskov S, Christensen B, De Maria L, Taboureau O, Yaver D, Elvig-Jorgensen SG, Sorensen MV, Christensen BE, Kjaerulff S, Frimodt-Moller N, Lehrer RI, Zasloff M, Kristensen HH. Plectasin is a peptide antibiotic with therapeutic potential from a saprophytic fungus. Nature 2005;437:975­980. 35. Yang YS, Mitta G, Chavanieu A, Calas B, Sanchez JF, Roch P, Aumelas A. Solution structure and activity of the synthetic four-disulfide bond Mediterranean mussel defensin (MGD-1). Biochemistry 2000;39:14436­14447. 36. Gueguen Y, Herpin A, Aumelas A, Garnier J, Fievet J, Escoubas JM, Bulet P, Gonzalez M, Lelong C, Favrel P, Bachere E. Characterization of a defensin from the oyster Crassostrea gigas. Recombinant
+
+37.
+
+38.
+
+39.
+
+40.
+
+production, folding, solution structure, antimicrobial activities, and gene expression. J Biol Chem 2006;281:313­323. Bulet P, Cociancich S, Reuland M, Sauber F, Bischoff R, Hegy G, Van Dorsselaer A, Hetru C, Hoffmann JA. A novel insect defensin mediates the inducible antibacterial activity in larvae of the dragonfly Aeschna cyanea (Paleoptera, Odonata). Eur J Biochem 1992;209: 977­984. Thevissen K, Warnecke DC, Francois IE, Leipelt M, Heinz E, Ott C, Zahringer U, Thomma BP, Ferket KK, Cammue BP. Defensins from insects and plants interact with fungal glucosylceramides. J Biol Chem 2004;279:3900­3905. Lobo DS, Pereira IB, Fragel-Madeira L, Medeiros LN, Cabral LM, Faria J, Bellio M, Campos RC, Linden R, Kurtenbach E. Antifungal Pisum sativum defensin 1 interacts with Neurospora crassa cyclin F related to the cell cycle. Biochemistry 2007;46:987­996. Cociancich S, Ghazi A, Hetru C, Hoffmann JA, Letellier L. Insect defensin, an inducible antibacterial peptide, forms voltage-dependent channels in Micrococcus luteus. J Biol Chem 1993;268:19239­ 19245.
+
+PROTEINS
+
+239
+
+

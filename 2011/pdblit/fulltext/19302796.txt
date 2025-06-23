@@ -1,0 +1,391 @@
+FEBS 33992 22 April 2010
+
+ARTICLE IN PRESS
+FEBS Letters xxx (2010) xxx­xxx
+
+No. of Pages 9, Model 5G
+
+1
+
+journal homepage: www.FEBSLetters.org
+
+2
+
+Review
+
+3 4 5 6 7
+
+a b
+
+Department of Chemistry, Biochemistry and Biophysics, University of Gothenburg, Box 462, S-405 30 Göteborg, Sweden Department of Cell and Molecular Biology, University of Gothenburg, Box 462, S-405 30 Göteborg, Sweden
+
+a r t i c l e
+
+i n f o
+
+a b s t r a c t
+
+D
+
+1 0 2 2 11 12 13 14 15 16 17 18 19 20 21
+
+Article history: Received 7 April 2010 Accepted 14 April 2010 Available online xxxx Edited by Jan Rydström Keywords: Aquaporin Membrane protein structural biology X-ray diffraction
+
+TE
+
+Aquaporin-mediated water transport across cellular membranes is an ancient, ubiquitous mechanism within cell biology. This family of integral membrane proteins includes both water selective pores (aquaporins) and transport facilitators of other small molecules such as glycerol and urea (aquaglyceroporins). Eukaryotic aquaporins are frequently regulated post-translationally by gating, whereby the rate of flux through the channel is controlled, or by trafficking, whereby aquaporins are shuttled from intracellular storage sites to the plasma membrane. A number of high-resolution Xray structures of eukaryotic aquaporins have recently been reported and the new structural insights into gating and trafficking that emerged from these studies are described. Basic structural themes reoccur, illustrating how the problem of regulation in diverse biological contexts builds upon a limited set of possible solutions. Ó 2010 Published by Elsevier B.V. on behalf of the Federation of European Biochemical Societies.
+
+PR
+
+8
+
+OO
+
+Susanna Törnroth-Horsefield a, Kristina Hedfalk a, Gerhard Fischer a, Karin Lindkvist-Petersson b, Richard Neutze a,*
+
+F
+
+Structural insights into eukaryotic aquaporin regulation
+
+23 24 25 26 27 28 29 30 31 32 33 34
+
+36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60
+
+1. Introduction
+
+EC
+
+35
+
+Water homeostasis is central to the physiology of all living cells. All biological membranes have an intrinsic water permeability that depends upon their lipid composition. Nevertheless, the invention of an ancient water transport facilitator by the duplication and fusion of a three trans-membrane helix motif [1] enabled the host to tune the water of it biological membranes, and hence control the flux of water into and out of cells [2]. Besides water, some aquaporin family members have also developed other specificities such as glycerol [3], urea [3], arsenite [4] and carbon dioxide [5,6] specific channels, where the name aquaglyceroporin has been coined to represent those aquaporins that facilitate the passage of small polar molecules in addition to water. Evolutionary advantages conveyed by aquaporins have made the aquaporin gene ubiquitous throughout nature. In prokaryotic and other micro-organisms, aquaporins are believe to aid survival by providing protection against osmotic shock and rapid freezing [7]. For higher eukaryotes, the aquaporin family members have been shown to perform a diverse range of physiological functions including (but by no means limited to) concentrating urine in the kidneys [8], controlling glycerol uptake into cells [9], actively maintaining water homeostasis within the brain [10]; extrude water in sweat, saliva and tear glands [11], maintain the buoyancy of fish-eggs in seawater [12]; tightly regulate plant cell osmolarity [13] and drive the opening and closing of flower petals [14]. Aqu-
+
+* Corresponding author. Fax: +46 31 786 3910. E-mail address: richard.neutze@chem.gu.se (R. Neutze).
+
+aporins have also been implicated in cell migration during tumor growth [15], they facilitate the uptake of glycerol during the blood phase of the malaria parasite [16], and they accelerate swelling in brain edema [17], all of which make aquaporins attractive potential pharmaceutical targets for inhibition [18­20]. Structural studies of aquaporins initially focused on the seemingly contradictory requirements of allowing water molecules to move across the biological membrane almost at the diffusion rate while preventing the passage of protons. From the first high-resolution structures of aquaporin family members solve by electron diffraction [21] and X-ray diffraction [22] an ``hourglass" fold, initially suggested from sequence considerations [23], was confirmed. As illustrated in Fig. 1, the aquaporin fold is formed by six transmembrane a-helices that surround a single, narrow aqueous pathway through the membrane. Loops B and E (Fig. 1A and B) which each contain the aquaporin signature NPA-motif (asparagine, proline, alanine), form half transmembrane helices and fold into the channel from opposite sides of the membrane, effectively creating a seventh broken-trans-membrane helix with the NPA-motifs placed at the center of the channel (Fig. 1C). Since a-helices have a natural dipole moment, these two halfhelices both focus their positive dipole on the center of the channel, creating an electrostatic barrier for the movement of protons and inducing a complementary alignment of the dipole moments of water molecules as they move past the NPA aquaporin signature motif [24­26]. Water selectivity is achieved by the existence of a constriction region located at the extracellular side of the channel. This constriction region contains a conserved ar/R motif which acts as a selectivity filter (Fig. 1C). In the aquaglyceroporins this con-
+
+61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89
+
+0014-5793/$36.00 Ó 2010 Published by Elsevier B.V. on behalf of the Federation of European Biochemical Societies. doi:10.1016/j.febslet.2010.04.037
+
+Please cite this article in press as: Törnroth-Horsefield, S., et al. Structural insights into eukaryotic aquaporin regulation. FEBS Lett. (2010), doi:10.1016/ j.febslet.2010.04.037
+
+UN
+
+CO
+
+RR
+
+FEBS 33992 22 April 2010
+2
+
+ARTICLE IN PRESS
+S. Törnroth-Horsefield et al. / FEBS Letters xxx (2010) xxx­xxx
+
+No. of Pages 9, Model 5G
+
+91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111
+
+CO
+
+90
+
+striction region is tuned to allow the transport of larger molecules and it is believed that both the polarity and diameter of this region of the pore is crucial for achieving the facilitated transport of polar solutes other than water [27,28]. With these structural foundations established for understanding functionality and selectivity of aquaporin family members, attention has more recently turned towards the question of how aquaporins are regulated post-translationally. Phosphorylation of conserved serine or theronine residues is suggested to play a role in both gating and trafficking of eukaryotic aquaporins [18,29­ 34]. Changes in pH [35­37], changes in divalent cation concentrations [35,36,38­40], and changes in osmolality [41­43] can also directly influence the water permeability of the plasma membrane in various cells. Recent high-resolution X-ray and electron diffraction structures of plant [44], yeast [45] and mammalian [21,46­53] aquaporins have shed new light on how aquaporins are regulated at a molecular level. In this mini-review we emphasize recent advances in aquaporin structural biology that have provided new insight into the structural mechanism of eukaryotic aquaporin gating and trafficking. In particular we discuss the similarities that arise in the position of key residues which gate the water transport channels across the plant, yeast and animal kingdoms, and the way in
+
+RR
+
+Fig. 1. Structural overview of aquaporins.(A) Topology map showing the basic aquaporin fold and highlighting regions that appear to be unusually long. (B) Overall structure of aquaporin family members, highlighting the six trans-membrane fold (blue) and the two half-helices (yellow) which enter in from loops B and E to form a pseudo seventh transmembrane helix. (C) Details of the NPA and ar/R motifs of the aquaporin family, with water molecules shown in red. (B) and (C) Drawn from the X-ray structure of human AQP5 [53].
+
+EC
+
+TE
+which specific key structural motifs involved in gating appear to also influence trafficking. These findings illustrate how common structural principles have evolved to regulate aquaporins across all three major eukaryotic kingdoms, emphasizing how the basic aquaporin fold facilitates only a limited number of solutions to the problem of post-translational regulation. 2. Regulated aquaporins of known structure Thirteen crystal structures of aquaporins have been reported beyond 3.5 Å resolution to date using both electron and X-ray diffraction. These structures are bacterial AQPZ [27,54] and GlpF [22,25] from Escherichia coli; archaeal AQPM [55] from Methanothermobacter marburgensis; AQY1 [45] from the yeast Pichia pastoris; PfAQP [56] from the microbial parasite Plasmodium falciparum; plant SoPIP2;1 [44] from spinach; ovine [47,48] and bovine [49] AQP0; human [21] and bovine [50] AQP1; human [46] and rat [51,52] AQP4; and human AQP5 [53]. Compelling biochemical evidence exists in support of the gating of the plant plasma membrane aquaporins by pH [37], divalent cations [57,58], and phosphorylation [38,42]. Intuitively it is easy to comprehend why the water permeability of plant plasma mem-
+
+D
+
+PR OO
+
+F
+
+112 113 114 115 116 117
+
+UN
+
+118 119 120 121 122 123 124 125 126 127 128 129 130 131
+
+Please cite this article in press as: Törnroth-Horsefield, S., et al. Structural insights into eukaryotic aquaporin regulation. FEBS Lett. (2010), doi:10.1016/ j.febslet.2010.04.037
+
+FEBS 33992 22 April 2010
+
+ARTICLE IN PRESS
+S. Törnroth-Horsefield et al. / FEBS Letters xxx (2010) xxx­xxx
+
+No. of Pages 9, Model 5G
+
+3 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216
+
+132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 196 197
+
+branes needs to be actively regulated, since water tension and osmotic gradients are integral to all aspects of plant physiology. In particular, the turgor pressure maintains the very structure and rigidity of plant cells, whereas plant wilting arises as a macroscopic manifestation of the loss of osmotic balance due to water shortage. Under conditions of drought stress and, perhaps more surprisingly, flooding, plants respond by rapidly closing all plasma membrane aquaporins. This initial response allows the cell to buy time to switch on more expensive biochemical responses such as synthesizing compensating osmolytes [59], although the reasons for the flooding response are less apparent [60]. Recent studies have also shown that plant aquaporin activity may be regulated by light [61], and in addition to post-translational regulation by gating, plant plasma membrane aquaporins are further regulated by trafficking from the plasma membrane to intracellular storage vesicles [31], again in response to external stress. Evidence for the gating of yeast aquaporins first emerged for the glycerol facilitator Fps1 of Saccharomyces cerevisiae for which the release of glycerol following a drop in external osmolarity was shown to depended upon the presence of the gene encoding Fps1 [62]. Glycerol transport rates were subsequently shown to be regulated by short domains of both the N-terminus [41] and the C-terminus [63] that are required for the retention of cellular glycerol under hypertonic stress. The pure-water transport facilitator AQY1 of P. pastoris has also been demonstrated to be regulated by the N-terminus [45]. In particular the deletion of its extended N-terminus, mutation of an N-terminal tyrosine residue, and the mutation of a serine residue in loop B, all induced a dramatic increase in water transport activity for AQY1 [45]. The question as to why it may be necessary to tune the water permeability of the plasma membrane of microbes is not as immediately obvious as for plants. Nevertheless, the prevention of cell rupture under conditions of sudden osmotic shock, such as when ripe fruit burst or rain drops strike, and during sudden freezing and thawing [7,45], as may occur when rain strikes frozen ground or animals breath in and expel microbes in subzero climates, appear plausible survival advantages conveyed by aquaporins. Biochemical studies implying that mammalian aquaporins of known structure are gated have been more controversial. AQP0 is found exclusively within the plasma membrane of vertebrate eye lens fiber cells. These thin, elongated cells are filled with transparent crystalline proteins that maintain the transparency of the eye lens. Both excess hydration and dehydration of their intracellular space impairs the transparency of the lens, and AQP0 has evolved to become a poor water facilitator which maintains water homeostasis throughout the lens without being susceptible to rapid changes in osmolarity, such as arising from tears. AQP0 also participates in membrane contacts between stacked lens fiber cells [64] and specific mutations of AQP0 have been identified as a cause of cataracts [65,66]. Although AQP0 has a water transport permeability only a few percent of that of AQP1 at pH 6.5 [67], it has been suggested that this water activity is reduced three-fold at pH 7.5 by gating [35,68]. It has also been proposed that AQP4, which is found within astrocytes, lungs and in the collecting duct of the kidneys, is regulated by phosphorylation. Activation of protein kinase C in kidney cells expressing AQP4 significantly decreased their membrane permeability, but this effect was not observed when Ser180 was mutated [69]. Since GFP labeled variants of AQP4 using the same cells did not imply regulation by trafficking, it was concluded that the effect of Ser180 phosphorylation was to mediate water permeability by gating. Whereas questions remain concerning the physiological significance of mammalian aquaporin gating, there is no doubt that the trafficking of mammalian aquaporins plays a key role in maintaining water homeostasis throughout the body. Aquaporin trafficking was first recognized for AQP2 in connection with its role in concentrating urine within the kidneys [70] and it remains the best char-
+
+3. Structural mechanisms of gating It is simple to understand how flow of water through a tap is regulated by opening or closing a valve that widens or constricts the path available for the passage of water. X-ray structures of eukaryotic aquaporins have revealed that the same principle also applies at a molecular level when regulating the movement of water into and out of cells. Pioneering high-resolution structures of aquaporin family members [21,22,50] revealed that the water translocation channel is wide enough to allow a single, continuous file of water molecules to stretch across a entire membrane (Fig. 1C), although it narrows slightly at the extracellular constriction site defined by the ar/R selectivity filter, and is somewhat wider in this region for aquaglyceroporin family members [22,56]. High-resolution structures of gated aquaporins show that the cytoplasmic entry into these water channels contains a second, significantly narrower constriction site (Fig. 2A) which significantly hinders the movement of water molecules. Although molecular dynamics simulations imply that a small residual water permeability remains for the closed conformations [44,45,80], the creation of a second energy barrier to water permeation enables these trans-membrane water channel to be opened and closed at the single molecule level. Three eukaryotic aquaporin structures solved at high-resolution reveal the presence of this second constriction site: mammalian AQP0 found in the eye lens [47­49], a plant plasma membrane aquaporin SoPIP2;1 [44], and a yeast plasma membrane aquaporin AQY1 [45]. Moreover, for all three cases this cytoplasmic constriction site is defined by the insertion of a residue into the pore, which is a tyrosine residue in the cases of AQP0 and AQY1, and a leucine residue for SoPIP2;1. When overlaid, it is striking that all three structures place the position of the key ``blocking residue" at the same position within the water channel (Fig. 2B). This is despite the very different position of these residues in sequence, with Y31 of AQY1 located in the N-terminus, Y149 of AQP0 located in loop B, and Leu197 of SoPIP2;1 located in loop D (Fig. 3). These structural findings present an elegant example of convergent evolution, since these three aquaporin structures each sample the major divisions within the eukaryotic kingdom of animals, plants and yeast. Thus the challenge of regulating the flow of water across biological membranes by gating has been solved independently several times, with different solutions in terms of sequence offering the conceptually similar solutions in terms of structure. It is not difficult to imagine how conformational changes triggered by phosphorylation or other triggering events could induce
+
+PR
+
+OO
+
+acterized of all trafficked aquaporins [71,72]. Specifically, vasopressin activates a signaling cascade which results in the phosphorylation of AQP2, which in turn triggers its redistribution from intracellular storage vesicles into the plasma membrane thereby enhancing its water permeability [70,72]. Site-specific phosphorylation of AQP1 [43,73], AQP2 [74,75], AQP5 [76­78] and AQP8 [79] has also been implicated to trigger membrane specific trafficking. In all cases, aquaporin trafficking is used to initiate a biological response that is rapid in relation to that which could be achieved by regulation at the gene level. For example, in addition to the role in urine concentration played by the trafficking of AQP1 and AQP2 in the kidneys, AQP8 trafficking occurs in the liver, and the production of tears, sweat and saliva are all controlled by the trafficking of AQP5 within specific glands. Virtually no structural details are known concerning the mechanism of how aquaporin phosphorylation leads to the recognition of the flagged protein and its subsequent translocation into the plasma membrane, although several different protein:protein interactions are essential which involve the usual suspects such as SNARE proteins [71,72].
+
+F
+
+217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251 252 253 254 255 256 257 258 259 260
+
+Please cite this article in press as: Törnroth-Horsefield, S., et al. Structural insights into eukaryotic aquaporin regulation. FEBS Lett. (2010), doi:10.1016/ j.febslet.2010.04.037
+
+UN
+
+CO
+
+RR
+
+EC
+
+TE
+
+D
+
+FEBS 33992 22 April 2010
+4
+
+ARTICLE IN PRESS
+S. Törnroth-Horsefield et al. / FEBS Letters xxx (2010) xxx­xxx
+
+No. of Pages 9, Model 5G
+
+Fig. 2. Comparison of the gating mechanisms of eukaryotic aquaporins. (A) Calculation of the pore diameter of plant SoPIP2;1 (green), sheep AQP0 (purple), human AQP4 (red) and yeast AQY1 (orange). (B) Structural overlay of SoPIP2;1 (green), AQP0 (purple) and AQY1 (orange) showing how the key residues blocking each of these closed channels.
+
+261 262 263 264 265 266 267 268 269 270 271 272 273 274 275 276 277 278 279 280 281 282 283 284 285
+
+structural perturbations of these gated aquaporins in a manner which displaces the key blocking residues and thereby opens the channel, in analogy with the opening of a tap. Indeed, for both SoPIP2;1 and AQY1 molecular dynamics simulations were used to explore the extent to which known (and postulated) phosphorylation events could induce channel opening. Both studies indicated that phosphorylation of a key serine residue in loop B (Ser115 in SoPIP2;1, Fig. 3A and B and Ser107 in AQY1, Fig. 3C) could induce conformational changes leading to enhanced water transport activity [44,45]. In the case of SoPIP2;1, a low-resolution crystal structure of the open conformation has also been determined and this revealed that loop D, which contains the blocking residue Leu197 (Figs. 2B and 3A), was entirely displaced by a half-helix extension of helix 1 into the cytoplasm, bringing the SoPIP2;1 structure closer to that of the mammalian aquaporins and removing the hydrophobic plug which blocks the water channel. Crystal structures of single and double mutants of SoPIP2;1 designed to mimic phosphorylated states of this spinach aquaporin revealed a significant rearrangement of the N-terminus disrupting the divalent cation binding site central to the gating mechanism. However, the conformation of loop D was not significantly changed and an open conformation was not achieved [80]. From the crystal structure of the yeast AQY1, which contains an extended N-terminal coiled helical bundle with a superficial resemblance to the mechanosensitive ion channel MscL [81], we
+
+RR
+
+EC
+
+TE
+proposed that mechanosensitive gating of AQY1 may impart resistance to osmotic shock and freezing while maintaining a relatively non-porous membrane under normal conditions. Molecular dynamics simulations of both a stretched and twisted membrane implied that the AQY1 channel could be opened by mechanical forces, and the mode of opening was similar to that observed when mutating Ser107 to an aspartate residue [81]. Functional studies have also suggested the possibility of aquaporin mechanosensitivity for AQY1 of S. cerevisiae [82] and for the plant plasma membrane aquaporins [83]. For mammalian AQP0 nature has evolved to hinder the flux of water through the eye lens through a similar structural mechanism to that used to close AQY1 and SoPIP2;1 (Fig. 2A). Unlike SoPIP2;1 and AQY1, however, the water transport activity of AQP0 is always drastically lowered relative to that of the other pure-water facilitators, being of the order of 2­6% of that of AQP1 [35,68]. This exceptionally low activity is presumably integral to the dual function of AQP0 to maintain water homeostasis in the eye lens and form tight-junction contacts between lens fiber cell membranes. AQP0 tetrameric contacts observed within 2D crystals have been suggested to mimic the AQP0 packing within lens fiber cell junctions [64] whereas that observed in 3D crystals is considerably different [49]. Comparison of the X-ray structure [49] and electron diffraction structures [48] reveals that the extracellular loop A has noticeably different conformations in the two crystal forms [84],
+
+D
+
+PR OO
+
+F
+
+286 287 288 289 290 291 292 293 294 295 296 297 298 299 300 301 302 303 304 305 306 307 308 309 310
+
+Please cite this article in press as: Törnroth-Horsefield, S., et al. Structural insights into eukaryotic aquaporin regulation. FEBS Lett. (2010), doi:10.1016/ j.febslet.2010.04.037
+
+UN
+
+CO
+
+FEBS 33992 22 April 2010
+
+ARTICLE IN PRESS
+S. Törnroth-Horsefield et al. / FEBS Letters xxx (2010) xxx­xxx
+
+No. of Pages 9, Model 5G
+
+5
+
+Fig. 3. Detailed view of the phosphorylation sites in regulated aquaporins. (A) Crystal structure of SoPIP2;1 reveals how loop D caps the protein from the cytoplasm and places Leu197 in a position blocking the water channel. (B) Close up view of the site of regulation of SoPIP2;1 illustrating the phosphorylation site Ser115, the pH regulation site His193, and the divalent cation binding site (black ball). (C) Crystal structure of AQY1 showing the putative phosphorylation site Ser107 and Tyr31 which blocks the yeast aquaporin channel. (D) Structure of loop D of AQP5 overlaid upon that of AQP4. Ser152 and 156 of AQP5 are known phosphorylation sites, as is Ser180 of AQP4.
+
+EC
+
+311 312 313 314 315 316 317 318
+
+CO
+
+supporting the proposal that AQP0 contacts could induce a gating effect due to close contacts between the extracellular domains [47,48]. A possible mechanism of pH sensitive gating of AQP0 due to changes in the protonation states of Tyr40 [35,68] or Tyr149 [47], however, is not supported by comparison of these crystal structures since the pH effect would imply that the electron diffraction structure, which was crystallized at lower pH than the X-ray structure, would be relatively open yet the opposite is true. 4. B-loop regulation and interactions with the N-terminus
+
+RR
+
+TE
+tains a divalent cation binding site occupied by Cd2+ in the structure but which is presumably Ca2+ in vivo. This structural finding locates the divalent cation site, Ser115 and His193 all in close proximity and unifies the disparate mechanisms of pH, divalent cation and phosphor-regulation within one structural umbrella. Moreover, the water transport regulation effect of Ser274 can also be understood since this residue interacts with loop D of a neighboring protomer in a way that stabilizes the closed conformation [44]. Water transport activity measurements of plasma membrane aquaporins with the Cd2+ ligands Glu31 and Asp28 mutated (Fig. 3B) showed the effects of divalent cation and pH inhibition were lost in these mutants [58], consistent with this structural mechanism. Phosphorylation of Ser115 was also postulated to disrupt this connectivity between loop B, loop D and the N-terminus, and thereby induce a conformational change to an open conformation. Somewhat disappointingly, the crystal structure of the S115E mutant showed loop D to remain in the closed conformation, although this mutation did disrupt the Cd2+ binding site and induced a conformational change of the N-terminus [80] (Fig. 4A). Whereas molecular dynamics trajectories with Ser115 phosphorylated indicated a partial opening of the channel [44], similar simulations of the S115E mutant did not successfully open the channel, from which it was concluded that the additional negative charge and bulk of a phosphorylated serine were essential to drive the conformational change of loop D required to open the channel [80]. On the other hand, mutation of Ser188 in loop D to a glutamate yielded a measurable increase in water transport activity
+
+D
+
+PR
+
+OO
+
+F
+
+336 337 338 339 340 341 342 343 344 345 346 347 348 349 350 351 352 353 354 355 356 357 358 359 360 361 362
+
+319 320 321 322 323 324 325 326 327 328 329 330 331 332 333 334 335
+
+Plant plasma membrane aquaporins can be closed by adding divalent cations [57] or lowering the pH, whereupon a strictly conserved histidine residue in loop D becomes protonated [37]. Conversely, channel opening is believed to be induced by phosphorylation of the conserved Ser115 found in loop B (Ser126 in maize PIP2;1, [85]) at the cytoplasmic end of helix 3, and the effect is enhanced by the phosphorylation of Ser274 near the C-terminus [38,42]. From the crystal structure of SoPIP2;1 (Fig. 3A and B) it became apparent how these very distinct biochemical signals, separated in both space and sequence, could combine within a single mechanism of plant aquaporin gating [44]. Specifically, the key residue blocking the channel of SoPIP2;1 is the conserved Leu197 (Fig. 2) of an extended loop D (Fig. 1A). This extended loop caps the channel entrance from the cytoplasm since it is structurally anchored by a water-mediated network of H-bond interactions to loop B and the N-terminus (Fig. 3B), which also con-
+
+Please cite this article in press as: Törnroth-Horsefield, S., et al. Structural insights into eukaryotic aquaporin regulation. FEBS Lett. (2010), doi:10.1016/ j.febslet.2010.04.037
+
+UN
+
+FEBS 33992 22 April 2010
+6
+
+ARTICLE IN PRESS
+S. Törnroth-Horsefield et al. / FEBS Letters xxx (2010) xxx­xxx
+
+No. of Pages 9, Model 5G
+
+Fig. 4. Structural overlays of eukaryotic aquaporins. (A) Overview of loop B and the N-terminus. (B) Close up views of conserved H-bond interactions between the triad formed by an aspartic acid, arginine and glutamate residues. Aquaporin structures are colored as: SoPIP2;1 (green), S115E mutant of SoPIP2;1 (light grey); AQY1 (orange); AQP1 (dark grey); AQP4 (red); and AQP5 (blue).
+
+363 364 365 366 367 368 369 370 371 372 373 374 375 376 377 378 379 380 381 382 383 384 385 386 387 388 389 390 391 392 393 394 395 396 397 398 399 400 401 402 403 404 405 406
+
+[80], as did mutation of the corresponding residue Ser203 of maize PIP2;1 [85], suggesting that this may be an additional site for regulation. We previously noted that several of the key residues involved in the regulatory mechanism of SoPIP2;1, such as Glu31, Ser115 and Arg118, are well conserved in the sequences of mammalian aquaporins [84]. Although the crystal structures of AQP0 and AQP1 do not show this triad since the N-terminus is located further from loop B in these structures (Fig. 4A), in the crystal structure of human AQP5 this triad formed by glutamate, serine and arginine residues is perfectly conserved structurally (Fig. 4B). These conserved interactions thus anchor the AQP5 N-terminus to loop B in a manner similar to that of the plant aquaporin although, unlike SoPIP2;1, this region forms H-bond interactions to the C-terminal domain of AQP5 [53] rather than to loop D. Since Ser83 of AQP5 is not found in a consensus phosphorylation site its potential role in the regulation of AQP5 must be indirect, if it has any role to play at all. It is tantalizing to note that the corresponding Ser111 of AQP4 lies in an almost identical cAMP and cGMP-dependent phosphorylation side to that of Ser115 of SoPIP2;1 and phosphorylation of Ser111 has been suggested to increase the water conductance of AQP4 by 40% [86]. Although the crystal structure of AQP4 [46] showed Ser111 and Lys114 to adopt conformations similar to the corresponding residues in AQP5 and SoPIP2;1 (Fig. 4B), the water pore is undoubtedly open (Fig. 2A) and the N-terminus of AQP4 was not resolved in the structure, probably due to trypsin treatment cleaving both N- and C-termini during crystallization. Since AQP4 does not have a negatively charged residue that corresponds to Glu31 of SoPIP2;1 or Glu4 of AQP5, the potential interactions of loop B with the N-terminus must be speculative. Moreover, loop D of AQP4 is four residues shorter than its counterpart in SoPIP2;1 (Fig. 1A), making it unlikely that their respective gating mechanisms are similar. Curiously residues 23­32 of the N-terminus of AQP4, which contains a phosphorylation site at Thr32, have also been recently identified as a key determinants governing protein:protein interactions with Na+/K+ ATPase and mGluR5 in astrocytes [87]. These interactions lead to a microdomain formation that is suggested to enhance the efficiency of potassium and glutamate clearance after neuron activity. Phosphorylation has also been identified as a mechanism of post-translational regulation of the yeast aquaglyceroporin Fps1 of S. cerevisiae with Thr231, located near the cytoplasmic end of helix 1, being phosphorylated in vivo and this residue's phosphoryla-
+
+EC
+
+tion state critically affects activity [88]. Although we were not able to confirm if AQY1 is phosphorylated in vivo, the S107D mutant showed a fourfold increase in water transport activity relative to the wild-type protein whereas the activity of the S107A mutant was almost unaffected [45]. Molecular dynamics simulations of the S107D mutant also indicated a significantly reduce energy barrier to water transport for the modified protein. Fig. 3C shows how Ser107, which is located in loop B at the cytoplasmic end of helix 2, connects via a sequence of H-bond interactions to Tyr31, the key residue blocking the channel. Should this residue be phosphorylated in vivo then it seems plausible to expect that structural perturbations may even displace Tyr31 from the channel and thereby achieve an open conformation.
+
+PR OO
+
+F
+
+407 408 409 410 411 412 413 414 415 416 417 418 419
+
+TE
+
+D
+
+5. Regulation sites in the D loop and interactions with the C-terminus Evidence has recently emerged to suggest that plant plasma membrane aquaporins are also regulated by phosphorylation dependent trafficking. Specifically, when the roots of the model plant Arabidopsis thaliana were treated with salt and hydrogen peroxide, treatments known to strongly decrease the plasma membrane water permeability, the phosphorylation states of Ser280 and Ser283 were altered [31]. Moreover, using a green fluorescent protein (GFP) fusion, the phosphorylation of Ser283 was shown to be required to target AtPIP2;1 to the plasma membrane, and under salt stress the dephosphorylation of Ser283 led to accumulation of AtPIP2;1 in intracellular structures. Ser283 of AtPIP2;1 corresponds to Ser277 of SoPIP2;1, three residues beyond the point to which the X-ray structure of the C-terminus was resolved. Considerably more is known regarding the mechanism of trafficking of mammalian aquaporins. The role of AQP2 in urine concentration stimulated by the antidiuretic hormone vasopressin has long been recognized [70] and has been studied extensively ever since [18,30]. Phosphorylation of Ser256 in the N-terminus of AQP2 by protein kinase A [29] flags the protein for membrane trafficking from intracellular storage vesicles to the apical plasma membrane of the kidney collecting duct, thereby enhancing water retrieval. An additional C-terminal phosphorylation site at Ser269 has also recently been suggested to be involved in AQP2 trafficking [32]. Several candidate AQP2 binding proteins have been suggested to participate in recognizing the modified protein and guiding it into the apical plasma membrane [89].
+
+420 421 422 423 424 425 426 427 428 429 430 431 432 433 434 435 436 437 438 439 440 441 442 443 444 445 446 447
+
+Please cite this article in press as: Törnroth-Horsefield, S., et al. Structural insights into eukaryotic aquaporin regulation. FEBS Lett. (2010), doi:10.1016/ j.febslet.2010.04.037
+
+UN
+
+CO
+
+RR
+
+FEBS 33992 22 April 2010
+
+ARTICLE IN PRESS
+S. Törnroth-Horsefield et al. / FEBS Letters xxx (2010) xxx­xxx
+
+No. of Pages 9, Model 5G
+
+7
+
+448 449 450 451 452 453 454 455 456 457 458 459 460 461 462 463 464 465 466 467 468 469 470 471 472 473 474 475 476 477 478 479 480 481 482 483 484 485 486 487 488 489 490
+
+Unfortunately the electron diffraction crystal structure of AQP2 was solved only to limited resolution [90] and therefore does not provide atomic level insight into the mechanism of AQP2 trafficking. Nevertheless an X-ray structure of AQP5, which is the closest homolog of AQP2 and is also regulated by trafficking, has been solved to high-resolution [53]. AQP5 trafficking is involved in the excretion of moisture from tear, sweat and salivary glands [18]. Movement of AQP5 from an intracellular storage sites or lipid rafts to the plasma membrane [77,78] is again believed to be triggered by modifications to a number of potential phosphorylation sites, with direct experimental support suggesting a regulatory role for Ser152 [33] and Ser156 [34] in loop D and Thr259 of the C-terminus having also been discussed [78]. Since the structure of the C-terminus of could only be built as far as Pro245, little could be concluded regarding a possible role for Thr259 in AQP5 trafficking. All interactions of loop D residues, however, could be clearly identified [53]. This region forms a close association with a proline rich loop connecting helix 6 to a short cytoplasmic a-helix of the C-terminus. Highly conserved H-bond interactions are visible (Fig. 5B) for AQP5 between Tyr221 and Pro227 of the C-terminal loop, and Asp151 and Arg152 of loop D, both of which are located near the two loop D phosphorylation sites Ser152 and Ser156 (Fig. 3D). Although it seems highly likely that the addition of a phosphate group on either of these two serine residues would have structural repercussions extending to the C-terminus, the details of how these structural changes may be transduced into a signal for trafficking can only be guessed at. AQP1 has also been shown to be regulated by trafficking in kidney cells [43] but loop D, which is structurally very similar to that of AQP5, does not contain any putative sites of phosphorylation. Rather it has been suggested that AQP1 trafficking may be regulated in the N-terminus [91]. A phosphorylation site is also found in loop D of AQP4 at position Ser180 [69] (corresponding to Ser152 of AQP5), and phosphorylation of this site is believed to reduce water transport activity approximately by half due to gating. From the electron diffraction structure of AQP4 it was speculated that phosphorylated Ser180 may interact with several positively charged residues of the C-terminus and thereby induce a conformational change that partially blocks the cytoplasmic entrance to the water channel [51]. In this context it is noteworthy that the suggested interactions within AQP4 of Ser180 in loop D with Lys259 in the C-terminus are similar to the opening mechanism suggested from molecular dynamics
+
+TE
+
+simulations of the gating of SoPIP2;1 via phosphorylation of Ser188 in loop D [80]. Specifically, during these trajectories phosphorylated Ser188 formed a salt bridge with Lys270 in the C-terminus, thereby removing loop D from its conformation blocking the plant aquaporin channel. Although it is not immediately obvious how a similar interaction between loop D and the C-terminus could lead to the partial blocking of the AQP4 water channel, it is intriguing how key ideas underlying the structural mechanisms of aquaporin gating reoccur. 6. Concluding remarks We previously suggested that the mechanisms of aquaporin gating could be divided into the categories of aquaporins that block the channel by ``capping" and aquaporins that mediate channel activity by ``pinching" [84]. From this perspective SoPIP2;1 and AQY1 are clearly ``cappers" that dramatically reduce their water transport activity through gating [45,57,58], where loop D and the N-terminus, respectively, cap the channel from the cytoplasm and this places a key residue blocking the movement of water (Fig. 2B). In this context AQP0 represents a special case since its cytoplasmic entrance appears to always be blocked by Tyr149, yet this activity may be further adjusted [35,68] by small conformational changes that ``pinch" on either constriction region of the pore [47,49,84]. Since the crystal structures of AQP4 [46,51,52] do not indicate a second constriction region on the cytoplasmic half of the channel (Fig. 2B) they provide limited insight into a possible mechanism of gating. Nevertheless, it should be kept in mind that the neither the N- nor C-terminus were resolved these structures and, since the closure of AQP4 is believed to reduce its water transport activity only by a half [69] AQP4 regulation might be achieved by ``pinching" rather than ``capping". Comparison of the crystal structures of the aquaglyceroporins GlpF [22] and PfAQP [56] indicates that large differences in water transport activity may be achieved by subtle effects such as changes in the H-bond interactions of the conserved arginine of the ar/R selectivity filter [56] and changes in the electrostatic environment of the extracellular pore entrance [92]. Structural understanding of the mechanism of aquaporin trafficking is still in its infancy, although the similarities apparent between the known sites of AQP5 phospho-regulation [53] and the gating mechanisms of other eukaryotic aquaporins provide tantalizing hints into how trafficking flags may be recognized. New
+
+PR
+
+Fig. 5. Structural overlays of eukaryotic aquaporins. (A) Overview of loop D and the C-terminus. (B) Close up views of conserved H-bond interactions between loop D and the loop that links helix 6 to a short C-terminus a-helix. Aquaporin structures are colored as: AQP0 (purple); AQP1 (dark grey); AQP4 (red); and AQP5 (blue).
+
+OO
+
+F
+
+491 492 493 494 495 496 497 498 499
+
+D
+
+EC
+
+500 501 502 503 504 505 506 507 508 509 510 511 512 513 514 515 516 517 518 519 520 521 522 523 524 525 526 527 528 529 530 531
+
+Please cite this article in press as: Törnroth-Horsefield, S., et al. Structural insights into eukaryotic aquaporin regulation. FEBS Lett. (2010), doi:10.1016/ j.febslet.2010.04.037
+
+UN
+
+CO
+
+RR
+
+FEBS 33992 22 April 2010
+8 532 533 534 535 536 537 538 539 540 541 542 543 544 545 546 547 548 549 550 551 552 553 554 555 556 557
+
+ARTICLE IN PRESS
+S. Törnroth-Horsefield et al. / FEBS Letters xxx (2010) xxx­xxx
+
+No. of Pages 9, Model 5G
+
+Acknowledgements We acknowledge financial support from the Swedish Science Research Council (VR) and the European Commission Marie Curie Training Network Aquaglyceroporins and the Integrated Project EDICT. References
+
+558 559 560 561 562 563 564 565 566 567 568 569 570 571 572 573 574 575 576 577 578 579 580 581 582 583 584 585 586 587 588 589 590 591 592 593 594 595 596 597 598 599 600 601 602 603
+
+[1] Preston, G.M. and Agre, P. (1991) Isolation of the cDNA for erythrocyte integral membrane protein of 28 kilodaltons: member of an ancient channel family. Proc. Natl. Acad. Sci. USA 88, 11110­11114. [2] Preston, G.M., Carroll, T.P., Guggino, W.B. and Agre, P. (1992) Appearance of water channels in Xenopus oocytes expressing red cell CHIP28 protein. Science 256, 385­387. [3] Borgnia, M., Nielsen, S., Engel, A. and Agre, P. (1999) Cellular and molecular biology of the aquaporin water channels. Annu. Rev. Biochem. 68, 425­458. [4] Liu, Z., Shen, J., Carbrey, J.M., Mukhopadhyay, R., Agre, P. and Rosen, B.P. (2002) Arsenite transport by mammalian aquaglyceroporins AQP7 and AQP9. Proc. Natl. Acad. Sci. USA 99, 6053­6058. [5] Blank, M.E. and Ehmke, H. (2003) Aquaporin-1 and HCO3(À)-Cl-transportermediated transport of CO2 across the human erythrocyte membrane. J. Physiol. 550, 419­429. [6] Uehlein, N., Lovisolo, C., Siefritz, F. and Kaldenhoff, R. (2003) The tobacco aquaporin NtAQP1 is a membrane CO2 pore with physiological functions. Nature 425, 734­737. [7] Tanghe, A., Van Dijck, P. and Thevelein, J.M. (2006) Why do microorganisms have aquaporins? Trends Microbiol. 14, 78­85. [8] Chen, Y.C., Cadnapaphornchai, M.A. and Schrier, R.W. (2005) Clinical update on renal aquaporins. Biol. Cell 97, 357­371. [9] Fruhbeck, G. (2005) Obesity: aquaporin enters the picture. Nature 438, 436­ 437. [10] Amiry-Moghaddam, M. and Ottersen, O.P. (2003) The molecular basis of water transport in the brain. Nat. Rev. Neurosci. 4, 991­1001. [11] Nejsum, L.N. et al. (2002) Functional requirement of aquaporin-5 in plasma membranes of sweat glands. Proc. Natl. Acad. Sci. USA 99, 511­516. [12] Fabra, M., Raldua, D., Power, D.M., Deen, P.M. and Cerda, J. (2005) Marine fish egg hydration is aquaporin-mediated. Science 307, 545. [13] Maurel, C., Javot, H., Lauvergeat, V., Gerbeau, P., Tournaire, C., Santoni, V. and Heyes, J. (2002) Molecular physiology of aquaporins in plants. Int. Rev. Cytol. 215, 105­148. [14] Azad, A.K., Katsuhara, M., Sawa, Y., Ishikawa, T. and Shibata, H. (2008) Characterization of four plasma membrane aquaporins in tulip petals: a putative homolog is regulated by phosphorylation. Plant Cell Physiol. 49, 1196­1208. [15] Saadoun, S., Papadopoulos, M.C., Hara-Chikuma, M. and Verkman, A.S. (2005) Impairment of angiogenesis and cell migration by targeted aquaporin-1 gene disruption. Nature 434, 786­792. [16] Promeneur, D., Liu, Y., Maciel, J., Agre, P., King, L.S. and Kumar, N. (2007) Aquaglyceroporin PbAQP during intraerythrocytic development of the malaria parasite Plasmodium berghei. Proc. Natl. Acad. Sci. USA 104, 2211­2216. [17] Manley, G.T., Fujimura, M., Ma, T., Noshita, N., Filiz, F., Bollen, A.W., Chan, P. and Verkman, A.S. (2000) Aquaporin-4 deletion in mice reduces brain edema after acute water intoxication and ischemic stroke. Nat. Med. 6, 159­163.
+
+UN
+
+CO
+
+RR
+
+EC
+
+TE
+
+D
+
+PR OO
+
+experimental approaches must be developed to identify, characterize and stabilize the transient protein:protein interactions that mammalian aquaporins undergo when trafficked from intercellular storage vesicles or lipid rafts to the apical plasma membrane [72,89], and vice versa. Although the goal of recovering high-resolution structures revealing these interactions in exquisite detail may require decades of work, the dramatic progress in understanding the structural biology of aquaporin family members over the previous decade bodes well for future studies. Indeed, the very same reasons of ease of overproduction and relative stability [93] that have made aquaporins attractive membrane protein targets for structural investigations, may aid the development of new structural methods for characterizing aquaporin trafficking. Membrane fusion steps required for aquaporin trafficking share features common to any other endocytosis or exocytosis event, which are basic cellular processes persuasive throughout nature central to neuron firing, entry into the cell nucleus, and cell metabolism, to name but a few examples. Thus novel structural insights into the mechanism of aquaporin trafficking will have very broad implications regarding the molecular mechanisms of cellular regulation in all spheres of biology.
+
+[18] King, L.S., Kozono, D. and Agre, P. (2004) From structure to disease: the evolving tale of aquaporin biology. Nat. Rev. Mol. Cell Biol. 5, 687­698. [19] Morishita, Y., Sakube, Y., Sasaki, S. and Ishibashi, K. (2004) Molecular mechanisms and drug development in aquaporin water channel diseases: aquaporin superfamily (superaquaporins): expansion of aquaporins restricted to multicellular organisms. J. Pharmacol. Sci. 96, 276­279. [20] Castle, N.A. (2005) Aquaporins as targets for drug discovery. Drug Discov. Today 10, 485­493. [21] Murata, K., Mitsuoka, K., Hirai, T., Walz, T., Agre, P., Heymann, J.B., Engel, A. and Fujiyoshi, Y. (2000) Structural determinants of water permeation through aquaporin-1. Nature 407, 599­605. [22] Fu, D., Libson, A., Miercke, L.J., Weitzman, C., Nollert, P., Krucinski, J. and Stroud, R.M. (2000) Structure of a glycerol-conducting channel and the basis for its selectivity. Science 290, 481­486. [23] Jung, J.S., Preston, G.M., Smith, B.L., Guggino, W.B. and Agre, P. (1994) Molecular structure of the water channel through aquaporin CHIP. The hourglass model. J. Biol. Chem. 269, 14648­14654. [24] de Groot, B.L. and Grubmuller, H. (2001) Water permeation across biological membranes: mechanism and dynamics of aquaporin-1 and GlpF. Science 294, 2353­2357. [25] Tajkhorshid, E., Nollert, P., Jensen, M.O., Miercke, L.J., O'Connell, J., Stroud, R.M. and Schulten, K. (2002) Control of the selectivity of the aquaporin water channel family by global orientational tuning. Science 296, 525­530. [26] de Groot, B.L. and Grubmuller, H. (2005) The dynamics and energetics of water permeation and proton exclusion in aquaporins. Curr. Opin. Struct. Biol. 15, 176­183. [27] Savage, D.F., Egea, P.F., Robles-Colmenares, Y., O'Connell, J.D. and Stroud, R.M. (2003) Architecture and selectivity in aquaporins: 2.5 Å X-ray structure of aquaporin Z. PLoS Biol. 1, E72. [28] Wang, Y., Schulten, K. and Tajkhorshid, E. (2005) What makes an aquaporin a glycerol channel: a comparative study of AqpZ and GlpF. Structure 13, 1107­ 1118. [29] Fushimi, K., Sasaki, S. and Marumo, F. (1997) Phosphorylation of serine 256 is required for cAMP-dependent regulatory exocytosis of the aquaporin-2 water channel. J. Biol. Chem. 272, 14800­14802. [30] Takata, K., Matsuzaki, T. and Tajika, Y. (2004) Aquaporins: water channel proteins of the cell membrane. Prog. Histochem. Cytochem. 39, 1­83. [31] Prak, S., Hem, S., Boudet, J., Viennois, G., Sommerer, N., Rossignol, M., Maurel, C. and Santoni, V. (2008) Multiple phosphorylations in the C-terminal tail of plant plasma membrane aquaporins: role in subcellular trafficking of AtPIP2;1 in response to salt stress. Mol. Cell Proteomics 7, 1019­1030. [32] Hoffert, J.D. et al. (2008) Vasopressin-stimulated increase in phosphorylation at Ser269 potentiates plasma membrane retention of aquaporin-2. J. Biol. Chem. 283, 24617­24627. [33] Karabasil, M.R., Hasegawa, T., Azlina, A., Purwanti, N., Purevjav, J., Yao, C., Akamatsu, T. and Hosoi, K. (2009) Trafficking of GFP-AQP5 chimeric proteins conferred with unphosphorylated amino acids at their PKA-target motif ((152)SRRTS) in MDCK-II cells. J. Med. Invest. 56, 55­63. [34] Woo, J. et al. (2008) Membrane trafficking of AQP5 and cAMP dependent phosphorylation in bronchial epithelium. Biochem. Biophys. Res. Commun. 366, 321­327. [35] Nemeth-Cahalan, K.L., Kalman, K. and Hall, J.E. (2004) Molecular basis of pH and Ca2+ regulation of aquaporin water permeability. J. Gen. Physiol. 123, 573­ 580. [36] Zelenina, M., Bondar, A.A., Zelenin, S. and Aperia, A. (2003) Nickel and extracellular acidification inhibit the water permeability of human aquaporin3 in lung epithelial cells. J. Biol. Chem. 278, 30037­30043. [37] Tournaire-Roux, C., Sutka, M., Gabot, H., Gout, E., Gerbeau, P., Luu, D., Bligny, R. and Maurel, C. (2003) Cytosolic pH regulates root water transport during anoxic stress through gating of aquaporins. Nature 425, 393­397. [38] Johansson, I., Karlsson, M., Shukla, V.K., Chrispeels, M.J., Larsson, C. and Kjellbom, P. (1998) Water transport activity of the plasma membrane aquaporin PM28A is regulated by phosphorylation. Plant Cell 10, 451­459. [39] Zelenina, M., Tritto, S., Bondar, A.A., Zelenin, S. and Aperia, A. (2004) Copper inhibits the water and glycerol permeability of aquaporin-3. J. Biol. Chem. 279, 51939­51943. [40] Gunnarson, E., Axehult, G., Baturina, G., Zelenin, S., Zelenina, M. and Aperia, A. (2005) Lead induces increased water permeability in astrocytes expressing aquaporin 4. Neuroscience 136, 105­114. [41] Tamas, M.J. et al. (2003) A short regulatory domain restricts glycerol transport through yeast Fps1p. J. Biol. Chem. 278, 6337­6345. [42] Johansson, I., Larsson, C., Ek, B. and Kjellbom, P. (1996) The major integral proteins of spinach leaf plasma membranes are putative aquaporins and are phosphorylated in response to Ca2+ and apoplastic water potential. Plant Cell 8, 1181­1191. [43] Conner, M.T., Conner, A.C., Brown, J.E. and Bill, R.M. Membrane trafficking of aquaporin 1 is mediated by protein kinase C via microtubules and regulated by tonicity. Biochemistry 49, 821­823. [44] Törnroth-Horsefield, S., Wang, Y., Hedfalk, K., Johanson, U., Karlsson, M., Tajkhorshid, E., Neutze, R. and Kjellbom, P. (2006) Structural mechanism of plant aquaporin gating. Nature 439, 688­694. [45] Fischer, G. et al. (2009) Crystal structure of a yeast aquaporin at 1.15 Å reveals a novel gating mechanism. PLoS Biol. 7, e1000130. [46] Ho, J.D., Yeh, R., Sandstrom, A., Chorny, I., Harries, W.E., Robbins, R.A., Miercke, L.J. and Stroud, R.M. (2009) Crystal structure of human aquaporin 4 at 1.8 A and its mechanism of conductance. Proc. Natl. Acad. Sci. USA 106, 7437­7442.
+
+Q1
+
+604 605 606 607 608 609 610 611 612 613 614 615 616 617 618 619 620 621 622 623 624 625 626 627 628 629 630 631 632 633 634 635 636 637 638 639 640 641 642 643 644 645 646 647 648 649 650 651 652 653 654 655 656 657 658 659 660 661 662 663 664 665 666 667 668 669 670 671 672 673 674 675 676 677 678 679 680 681 682 683 684 685 686 687 688 689
+
+Please cite this article in press as: Törnroth-Horsefield, S., et al. Structural insights into eukaryotic aquaporin regulation. FEBS Lett. (2010), doi:10.1016/ j.febslet.2010.04.037
+
+F
+
+FEBS 33992 22 April 2010
+
+ARTICLE IN PRESS
+S. Törnroth-Horsefield et al. / FEBS Letters xxx (2010) xxx­xxx
+
+No. of Pages 9, Model 5G
+
+9 760 761 762 763 764 765 766 767 768 769 770 771 772 773 774 775 776 777 778 779 780 781 782 783 784 785 786 787 788 789 790 791 792 793 794 795 796 797 798 799 800 801 802 803 804 805 806 807 808 809 810 811 812 813 814 815 816 817 818 819 820 821 822 823 824 825 826 827 828 829 830
+
+Please cite this article in press as: Törnroth-Horsefield, S., et al. Structural insights into eukaryotic aquaporin regulation. FEBS Lett. (2010), doi:10.1016/ j.febslet.2010.04.037
+
+UN
+
+690 691 692 693 694 695 696 697 698 699 700 701 702 703 704 705 706 707 708 709 710 711 712 713 714 715 716 717 718 719 720 721 722 723 724 725 726 727 728 729 730 731 732 733 734 735 736 737 738 739 740 741 742 743 744 745 746 747 748 749 750 751 752 753 754 755 756 757 758 759
+
+[47] Gonen, T., Sliz, P., Kistler, J., Cheng, Y. and Walz, T. (2004) Aquaporin-0 membrane junctions reveal the structure of a closed water pore. Nature 429, 193­197. [48] Gonen, T., Cheng, Y., Sliz, P., Hiroaki, Y., Fujiyoshi, Y., Harrison, S.C. and Walz, T. (2005) Lipid-protein interactions in double-layered two-dimensional AQP0 crystals. Nature 438, 633­638. [49] Harries, W.E., Akhavan, D., Miercke, L.J., Khademi, S. and Stroud, R.M. (2004) The channel architecture of aquaporin 0 at a 2.2-A resolution. Proc. Natl. Acad. Sci. USA 101, 14045­14050. [50] Sui, H., Han, B.G., Lee, J.K., Walian, P. and Jap, B.K. (2001) Structural basis of water-specific transport through the AQP1 water channel. Nature 414, 872­ 878. [51] Hiroaki, Y. et al. (2006) Implications of the aquaporin-4 structure on array formation and cell adhesion. J. Mol. Biol. 355, 628­639. [52] Tani, K., Mitsuma, T., Hiroaki, Y., Kamegawa, A., Nishikawa, K., Tanimura, Y. and Fujiyoshi, Y. (2009) Mechanism of aquaporin-4's fast and highly selective water conduction and proton exclusion. J. Mol. Biol. 389, 694­706. [53] Horsefield, R. et al. (2008) High-resolution X-ray structure of human aquaporin 5. Proc. Natl. Acad. Sci. USA 105, 13327­13332. [54] Jiang, J., Daniels, B.V. and Fu, D. (2006) Crystal structure of AqpZ tetramer reveals two distinct Arg-189 conformations associated with water permeation through the narrowest constriction of the water-conducting channel. J. Biol. Chem. 281, 454­460. [55] Lee, J.K., Kozono, D., Remis, J., Kitagawa, Y., Agre, P. and Stroud, R.M. (2005) Structural basis for conductance by the archaeal aquaporin AqpM at 1.68 A. Proc. Natl. Acad. Sci. USA 102, 18932­18937. [56] Newby, Z.E.R., O'Connell, J., Robles-Colmenares, Y., Khademi, S., Miercke, L.J. and Stroud, R.M. (2008) Crystal structure of the aquaglyceroporin PfAQP from the malarial parasite Plasmodium falciparum. Nat. Struct. Mol. Biol. 15, 619­ 625. [57] Alleva, K., Niemietz, C.M., Sutka, M., Maurel, C., Parisi, M., Tyerman, S.D. and Amodeo, G. (2006) Plasma membrane of beta vulgaris storage root shows high water channel activity regulated by cytoplasmic pH and a dual range of calcium concentrations. J. Exp. Bot. 57, 609­621. [58] Verdoucq, L., Grondin, A. and Maurel, C. (2008) Structure-function analysis of plant aquaporin AtPIP2;1 gating by divalent cations and protons. Biochem. J. 415, 409­416. [59] Chen, T.H. and Murata, N. (2002) Enhancement of tolerance of abiotic stress by metabolic engineering of betaines and other compatible solutes. Curr. Opin. Plant Biol. 5, 250­257. [60] Holbrook, N.M. and Zwieniecki, M.A. (2003) Plant biology: water gate. Nature 425, 361. [61] Kim, Y.X. and Steudle, E. (2009) Gating of aquaporins by light and reactive oxygen species in leaf parenchyma cells of the midrib of Zea mays. J. Exp. Bot. 60, 547­556. [62] Tamas, M.J. et al. (1999) Fps1p controls the accumulation and release of the compatible solute glycerol in yeast osmoregulation. Mol. Microbiol. 31, 1087­ 1104. [63] Hedfalk, K. et al. (2004) A regulatory domain in the C-terminal extension of the yeast glycerol channel Fps1p. J. Biol. Chem. 279, 14954­14960. [64] Costello, M.J., McIntosh, T.J. and Robertson, J.D. (1989) Distribution of gap junctions and square array junctions in the mammalian lens. Invest. Ophthalmol. Vis. Sci. 30, 975­989. [65] Francis, P., Berry, V., Bhattacharya, S. and Moore, A. (2000) Congenital progressive polymorphic cataract caused by a mutation in the major intrinsic protein of the lens, MIP (AQP0). Brit. J. Ophthalmol. 84, 1376­1379. [66] Geyer, D.D. et al. (2006) Novel single-base deletional mutation in major intrinsic protein (MIP) in autosomal dominant cataract. Am. J. Ophthalmol. 141, 761­763. [67] Chandy, G., Zampighi, G.A., Kreman, M. and Hall, J.E. (1997) Comparison of the water transporting properties of MIP and AQP1. J. Membr. Biol. 159, 29­39. [68] Nemeth-Cahalan, K.L. and Hall, J.E. (2000) pH and calcium regulate the water permeability of aquaporin 0. J. Biol. Chem. 275, 6777­6782. [69] Zelenina, M., Zelenin, S., Bondar, A.A., Brismar, H. and Aperia, A. (2002) Water permeability of aquaporin-4 is decreased by protein kinase C and dopamine. Am. J. Physiol. Renal. Physiol. 283, F309­F318. [70] Deen, P.M., Verdijk, M.A., Knoers, N.V., Wieringa, B., Monnens, L.A., van Os, C.H. and van Oost, B.A. (1994) Requirement of human renal water channel aquaporin-2 for vasopressin-dependent concentration of urine. Science 264, 92­95.
+
+[71] Knepper, M.A. and Inoue, T. (1997) Regulation of aquaporin-2 water channel trafficking by vasopressin. Curr. Opin. Cell Biol. 9, 560­564. [72] Nedvetsky, P.I., Tamma, G., Beulshausen, S., Valenti, G., Rosenthal, W. and Klussmann, E. (2009) Regulation of aquaporin-2 trafficking. Handbook Exp. Pharmacol., 133­157. [73] Han, Z. and Patil, R.V. (2000) Protein kinase A-dependent phosphorylation of aquaporin-1. Biochem. Biophys. Res. Commun. 273, 328­332. [74] de Mattia, F., Savelkoul, P.J., Kamsteeg, E.J., Konings, I.B., van der Sluijs, P., Mallmann, R., Oksche, A. and Deen, P.M. (2005) Lack of arginine vasopressininduced phosphorylation of aquaporin-2 mutant AQP2-R254L explains dominant nephrogenic diabetes insipidus. J. Am. Soc. Nephrol. 16, 2872­ 2880. [75] McDill, B.W., Li, S.Z., Kovach, P.A., Ding, L. and Chen, F. (2006) Congenital progressive hydronephrosis (cph) is caused by an S256L mutation in aquaporin-2 that affects its phosphorylation and apical membrane accumulation. Proc. Natl. Acad. Sci. USA. [76] Yang, F., Kawedia, J.D. and Menon, A.G. (2003) Cyclic AMP regulates aquaporin 5 expression at both the transcriptional and post-transcriptional levels through a protein-kinase pathway. J. Biol. Chem. 278, 2775­2779. [77] Ishikawa, Y. et al. (2005) Identification of AQP5 in lipid rafts and its translocation to apical membranes by activation of M3 mAChRs in interlobular ducts of rat parotid gland. Am. J. Physiol. Cell Physiol. 289, C1303­C1311. [78] Kosugi-Tanaka, C., Li, X., Yao, C., Akamatsu, T., Kanamori, N. and Hosoi, K. (2006) Protein kinase A-regulated membrane trafficking of a green fluorescent protein-aquaporin 5 chimera in MDCK cells. Biochim. Biophys. Acta. [79] Garcia, F., Kierbel, A., Larocca, M.C., Gradilone, S.A., Splinter, P., Larusso, N.F. and Marinelli, R.A. (2001) The water channel aquaporin-8 is mainly intracellular in rat hepatocytes, and its plasma membrane insertion is stimulated by cyclic AMP. J. Biol. Chem. 276, 12147­12152. [80] Nyblom, M. et al. (2009) Structural and functional analysis of SoPIP2;1 mutants adds insight into plant aquaporin gating. J. Mol. Biol. 387, 653­668. [81] Chang, G., Spencer, R.H., Lee, A.T., Barclay, M.T. and Rees, D.C. (1998) Structure of the MscL homolog from Mycobacterium tuberculosis: a gated mechanosensitive ion channel. Science 282, 2220­2226. [82] Soveral, G., Madeira, A., Loureiro-Dias, M.C. and Moura, T.F. (2008) Membrane tension regulates water transport in yeast. Biochim. Biophys. Acta 1778, 2573­2579. [83] Wan, X., Steudle, E. and Hartung, W. (2004) Gating of water channels (aquaporins) in cortical cells of young corn roots by mechanical stimuli (pressure pulses): effects of ABA and of HgCl2. J. Exp. Bot. 55, 411­422. [84] Hedfalk, K., Tornroth-Horsefield, S., Nyblom, M., Johanson, U., Kjellbom, P. and Neutze, R. (2006) Aquaporin gating. Curr. Opin. Struct. Biol. 16, 447­456. [85] Van Wilder, V., Miecielica, U., Degand, H., Derua, R., Waelkens, E. and Chaumont, F. (2008) Maize plasma membrane aquaporins belonging to the PIP1 and PIP2 subgroups are in vivo phosphorylated. Plant Cell Physiol. 49, 1364­1377. [86] Gunnarson, E. et al. (2008) Identification of a molecular target for glutamate regulation of astrocyte water permeability. Glia 56, 587­596. [87] Illarionova, N.B., Gunnarson, E., Li, Y., Brismar, H., Bondar, A., Zelenin, S. and Aperia, A. (2009) Functional and molecular interactions between aquaporins and Na,K-ATPase. Neuroscience. [88] Thorsen, M. et al. (2006) The MAPK Hog1p modulates Fps1p-dependent arsenite uptake and tolerance in yeast. Mol. Biol. Cell 17, 4400­4410. [89] Noda, Y. and Sasaki, S. (2005) Trafficking mechanism of water channel aquaporin-2. Biol. Cell 97, 885­892. [90] Schenk, A.D., Werten, P.J., Scheuring, S., de Groot, B.L., Muller, S.A., Stahlberg, H., Philippsen, A. and Engel, A. (2005) The 4.5 A structure of human AQP2. J. Mol. Biol. 350, 278­289. [91] Fotiadis, D., Suda, K., Tittmann, P., Jeno, P., Philippsen, A., Muller, D.J., Gross, H. and Engel, A. (2002) Identification and structure of a putative Ca2+-binding domain at the C terminus of AQP1. J. Mol. Biol. 318, 1381­1394. [92] Beitz, E., Pavlovic-Djuranovic, S., Yasui, M., Agre, P. and Schultz, J.E. (2004) Molecular dissection of water and glycerol permeability of the aquaglyceroporin from Plasmodium falciparum by mutational analysis. Proc. Natl. Acad. Sci. USA 101, 1153­1158. [93] Oberg, F., Ekvall, M., Nyblom, M., Backmark, A., Neutze, R. and Hedfalk, K. (2009) Insight into factors directing high production of eukaryotic membrane proteins; production of 13 human AQPs in Pichia pastoris. Mol. Membr. Biol. 26, 215­227.
+
+EC
+
+TE
+
+D
+
+PR
+
+OO
+
+F
+
+CO
+
+RR
+
+Q2
+
+

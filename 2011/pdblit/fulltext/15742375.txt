@@ -1,0 +1,325 @@
+From the Insoluble Dye Indirubin towards Highly Active, Soluble CDK2-Inhibitors
+Rolf Jautelat,*[a] Thomas Brumby,[a] Martina Schäfer,[b] Hans Briem,[c] Gerhard Eisenbrand,[d] Stefan Schwahn,[d] Martin Krüger,[a] Ulrich Lücking,[a] Olaf Prien,[a] and Gerhard Siemeister[e]
+Dedicated to Prof. Helmut Vorbrüggen on the occasion of his 75th birthday The natural product indirubin (1) is part of the class of indigo dyes, employed by mankind since the Bronze Age for textile coloring.[1] These indigo dyes were traditionally obtained by processing of precursor compounds occurring in a number of plants and marine animals and consisted mainly of indigo (5; blue) with a small percentage of indirubin (1; purple). In the course of an intensive effort to prepare synthetic indigo as a further program for the rapidly expanding dye industries, the first total synthesis of indirubin (1) was achieved in 1870 by Adolf von Bayer.[2] Shortly thereafter, the total synthesis of indigo was achieved, and synthetic indigo became a major product of the dye industries. Eventually, this dye chemistry laid the foundation for the first synthetic drugs including arsphenamine, acetaminophen, and acetyl salicylic acid. More than 100 years later in 1979, indirubin was reported in a seminal publication to be the active constituent of a traditional Chinese antileukemia remedy.[3] This finding prompted further investigations into the pharmacological properties of the indirubins[4, 5, 6] and resulted in a 1999 report by Eisenbrand, Johnson, Mejier, and co-workers, who showed that indirubin and close analogues are ATP-competitive inhibitors of the enzyme CDK2 (1: IC50 = 2 mm; see Table 1), a key target in the ongoing search for novel antitumor therapies.[7, 8] This discovery places indirubin in the larger class of ATP-competitive CDK inhibitors of the oxindole family, such as 2, 3, and 4 (Scheme 1).[8, 9] In this publication, the X-ray structure of the related indirubin-5-sulfonic acid (20; IC50 =
+[a] Dr. R. Jautelat, Dr. T. Brumby, Dr. M. Krüger, Dr. U. Lücking, Dr. O. Prien Medicinal Chemistry, Research Center Europe Schering AG, 13342 Berlin (Germany) Fax: (+ 49) 304-681-8170 E-mail: rolf.jautelat@schering.de [b] Dr. M. Schäfer ET/Structural Biology, Research Center Europe Schering AG, 13342 Berlin (Germany) [c] Dr. H. Briem CDCC/Computational Chemistry, Research Center Europe Schering AG, 13342 Berlin (Germany) [d] Prof. Dr. G. Eisenbrand, Dr. S. Schwahn Department of Chemistry Division of Food Chemistry and Environmental Toxicology University of Kaiserslautern Erwin-Schrçdinger-Straße 52, 67663 Kaiserslautern (Germany) [e] Dr. G. Siemeister Corporate Research, Experimental Oncology Schering AG, 13342 Berlin (Germany)
+
+ChemBioChem 2005, 6, 531 ­540
+
+DOI: 10.1002/cbic.200400108
+
+ 2005 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+531
+
+Table 1. Physicochemical and pharmacological characterization of indirubin derivatives; see Experimental Section for details on the employed methods.
+
+Cpd.
+
+X desired profile
+
+Y
+
+c log D À1 to + 5 2.5 3.7 À2.1 2.3 2.0
+
+CDK2 [mm] < 0.1 2 1 0.5 0.04 0.04
+
+Sw [mg LÀ1] > 40 <1 <1 n.d. <1 <1
+
+MCF7 [mm] <1 > 10 8 > 10 > 10 0.4
+
+Series A: First exploration of indirubin scaffold 1 =O H 14 =O Br 20 =O SO2OH 8 =O SO2NMe2 32 =NOH SO2NMe2 Series B: Polar substituents on 5-sulfonamides 33 =O SO2NH(CH2)2OH 34 =O SO2NH(CH2)2COOH 35 =O
+
+1.3 À1.4 À0.3
+
+0.08 1.5 0.45
+
+<1 > 40 34
+
+> 10 n.d. n.d.
+
+36 22 23
+
+=O =O =NOH SO2NMe(CH2)2N(Me)2 SO2NMe(CH2)2N(Me)2
+
+1.4 1.5 1.2
+
+0.02 0.01 0.04
+
+6 12 18
+
+0.5 < 0.1 < 0.1
+
+25
+
+SO2NMe(CH2)2N(Me)2
+
+À1.1
+
+0.9
+
+n.d.
+
+n.d.
+
+36
+
+as in comp. 25
+
+SO2NMe2
+
+À0.2
+
+0.08
+
+5
+
+> 10
+
+Series C: Quaternary center on 3'-position 26 27 a Br SO2NMe2 SO2NMe2 3.3 1.9 3 0.07 9 > 40 0.9 0.7
+
+27 b
+
+1.9
+
+0.6
+
+16
+
+2.2
+
+29 a
+
+SO2NMe2
+
+2.4
+
+0.09
+
+31
+
+0.2
+
+29 b
+
+SO2NMe2
+
+2.4
+
+4
+
+34
+
+n.d.
+
+31 a
+
+SO2NMe2
+
+0.3
+
+3
+
+n.d.
+
+n.d.
+
+31 b
+
+SO2NMe2
+
+0.3
+
+> 10
+
+n.d.
+
+n.d.
+
+37
+
+1.6
+
+1.6
+
+n.d.
+
+n.d.
+
+532
+
+ 2005 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim www.chembiochem.org
+
+ChemBioChem 2005, 6, 531 ­540
+
+Table 1. (Continued)
+
+Cpd.
+
+X desired profile
+
+Y
+
+c log D À1 to + 5
+
+CDK2 [mm] < 0.1
+
+Sw [mg LÀ1] > 40
+
+MCF7 [mm] <1
+
+Series D: Combination of 3'-quaternary center and polar 5-sulfonamides 28 a SO2NMe(CH2)2N(Me)2 SO2NMe(CH2)2N(Me)2 1.0 0.07 > 40 (710)[a] > 40 (655)[a] < 0.1
+
+28 b
+
+1.0
+
+0.4
+
+n.d.
+
+30 a
+
+SO2NMe(CH2)2N(Me)2
+
+1.5
+
+0.04
+
+> 40 (418)[a]
+
+< 0.1
+
+30 b
+
+SO2NMe(CH2)2N(Me)2
+
+1.5
+
+0.6
+
+> 40 (438)[a]
+
+n.d.
+
+[a] Additional solubility values were determined by the flask method (thermodynamic solubility; Sw(t)).
+
+Scheme 1. Known ATP-competitive CDK2 inhibitors incorporating the oxindole motive--and indigo; the year that CDK2 activity was first reported for these types of compounds is given in brackets.
+
+0.5 mm; see Table 1) bound to CDK2 gave the first insight into the binding mode of these novel inhibitor structures incorporating the oxindole motif.[7] Taken together, the indirubins were discovered to be a new lead series in the search for therapeutically relevant CDK2 inhibitors. The drawbacks of these early indirubins were those already known: very low aqueous solubility, causing poor absorption and low cellular activity (see Table 1).[5, 7] Thus, a group from Schering AG, Berlin and the Eisenbrand group set out in a joint effort to prepare indirubin derivatives that could overcome these issues and deliver novel compounds with high CDK2 potency (IC50 < 0.1 mm), good water solubility (Sw > 40 mg LÀ1), and high activity in suppressing the in vitro growth of the MCF7 cancer cell line (MCF7 < 1 mm; the desired profile is listed in Table 1) as the prerequisite for further in vivo evaluation. In addition, a colorless compound was preferred. This communication highlights the findings of our recent work toward indirubin derivatives with the desired properties. Only a small number of indirubins are commercially available. Our first entry into this class was thus to follow a wellChemBioChem 2005, 6, 531 ­540 www.chembiochem.org
+
+known modular approach towards indirubins by the condensation of an indoxyl equivalent, such as 6, and an isatin, such as 7 (Table 2). Commonly employed indoxyl derivatives of the indoxyl O-acetate (e.g., 6), indoxyl N,O-diacetate (e.g., 9), and indoxyl N-acetate (e.g., 15) type provided good yields on basic and/or on acidic coupling with different isatins (see Table 2, entries 1, 2, and 5). To obtain access to more indoxyl derivatives via the large class of commercially available indoles, we first employed a method that allowed for the oxidation of indole N-benzenesulfonates (e.g., 16) into the corresponding indoxyl N-benzenesulfonates (e.g., 12; see Scheme 2).[10] Attempts to employ these indoxyl N-benzenesulfonates in couplings with isatins to yield the corresponding indirubins were successful under basic conditions, but with low yields (Table 2, entry 4). Under acidic conditions such attempts failed (decomposition of the indoxyl species on extended reaction times), since the acidic cleavage of N-benzenesulfonates occurs only under harsh conditions and this cleavage is required for the condensation reaction. We therefore modified the protocol and employed a variety of indole N-acetates--such as 17 and 18--as starting materials.
+
+ 2005 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+533
+
+Table 2. Access to indirubins through coupling of indoxyl derivatives with isatins.
+
+Finally, we were also successful in employing commercially available indoxyl O-sugars such as 10 as donor components in the condensation reaction (see Table 2, entry 3).
+Cond. A 98 % 67 % Cond. B 93 % n.a.[a]
+
+No. 1 2
+
+Indoxyl 6: R, Y = H, X = OAc 9: R = H, X, Y = OAc 10: R = Cl, Y = H, X =
+
+Isatin 7: A = SO2NMe2 7: A = SO2NMe2
+
+Product 8: R = H, A = SO2NMe2 8: R = H, A = SO2NMe2
+
+Series A: First exploration of the indirubin scaffold
+
+With these methods to hand, we prepared a set of explorative 3 7: A = SO2NMe2 11: R = Cl, A = SO2NMe2 86 % n.a.[a] indirubin derivatives from the approximately 25 commercially available isatins, the approxi4 12: R = H, X = O, Y = SO2Ph 13: A = Br 14: R = H, A = Br 0% 32 % mately 15 indoxyl derivatives 5 15: R = H, X = O, Y = Ac 13: A = Br 14: R = H, A = Br 70 % 59 % and some custom isatins and indoxyls. The first SARs and SPRs (structure­property relation[a] n.a. = not applicable. ships) thus generated agreed with the published X-ray data,[7, 11] and with our in-housegenerated X-ray structure of 5-bromoindirubin (14) bound to CDK2 (see Figure 1 a). Only positions 5, 3', 4', and 5' appeared to be readily amenable for substitutions (see Figure 1 c), while substituents in positions 1, 6, 7, 6', and 7' lead to loss of activity (data not shown). The increase in CDK2 potency (by a factor of 25) observed with the dimethylsulfonamide substitution in position 5 of Scheme 2. Oxidative synthesis of indoxyl N-acetates. Reagents and conditions: compound 8 lead to a CDK2 IC50 of 0.04 mm (see Table 1). Thus, a) Monoperoxymagnesium phthalate (MMPP; 1 equiv), AcOH, 125 8C, 2 h. . 8 emerged as a lead structure for further optimization efforts. However, 8, as well as related close analogues (data not This delivered the desired indoxyl N-acetates, though in lower shown), still shared the indirubin "textile-dye property" of yields than the corresponding indoxyl N-benzenesulfonates. aqueous insolubility. This prevented any in vivo studies and Not surprisingly, attempts to extend this oxidative method to was also most likely the reason for strong fluctuations of celluelectron-deficient indole derivatives such as 1-acetyl-5-nitrolar activity in this series (compare 8 and 32, Table 1), since indole failed. compounds of very low solubility lead to unpredictable effects
+
+Figure 1. a) Top view of 5-bromoindirubin 14 (color-by-atom) superimposed with ATP (purple) in the ATP binding niche of CDK2. The 5-bromoindirubin binds in the deep, relatively flat pocket of CDK2, and mimics the hydrogen-bond pattern to the hinge region observed in the ATP structure. The position 1 amide donates a hydrogen bond to the backbone carbonyl oxygen of Glu81, whereas the position 2 carbonyl acts as a hydrogen-bond acceptor for the backbone nitrogen of Leu83. The position 1' nitrogen acts as a hydrogen bond donor to the backbone carbonyl oxygen of Leu83. b) Schematic depiction of 5-bromoindirubin in the ATP-binding pocket. c) Display of positions amenable for modifications.
+
+534
+
+ 2005 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim www.chembiochem.org
+
+ChemBioChem 2005, 6, 531 ­540
+
+on testing in in vitro (and in vivo) systems; the compounds precipitate when added to aqueous biological systems, for example, or stick to certain compartments of the cell. To overcome this low solubility, two strategies were examined, based on the empirical Equation (1), that puts the solutbility pf an organic compound in water (log S) in relation to its affinity to water (log D) and the affinity of the compound to itself (mm.p.):[12] log S ¼ Àlog DÀ0:01 m:p: ð1Þ
+
+Series B: Polar substituents on 5-sulfonamides The first strategy was to increase the affinity to water (decrease log D) by introducing polar groups--either into the core structure or attached to it. However, this strategy has limitations, as very polar molecules (log D < À1) will no longer passively penetrate physiological lipid bilayers.[13] Since lead compound 8 had a c log D (calculated log D) of 2.3, there was scope left for increasing polarity. In pursuit of this strategy, inspection of the available X-ray data in combination with modeling studies identified the 5-position (pointing towards the polar triphosphate channel), the 3'-position (pointing towards the ribose pocket), and the 5'-position (pointing towards the aqueous surroundings at the end of the pocket) as promising positions to attach polar functionality (see Figure 1 b). We expected that these polar side chains would increase not only aqueous solubility but also the affinity to the ATP binding pocket through interaction with the corresponding polar pockets (triphosphate channel, ribose pocket). First, 1 was converted via the corresponding 5-indirubinsulfonic acid 20 into the sulfonyl chloride species 21, which was then treated with large number of nucleophiles, mostly amines, by parallel synthesis techniques (see Scheme 3). While amino alcohol side chains did not substantially increase the solubilities of these compounds (Sw < 1 mg LÀ1 in all cases; example 33 in Table 1), polar amino acid side chains (e.g., 34) and amino polyols (e.g., 35) diminished CDK2 potency below our IC50 threshold of 0.1 mm. Finally, utilization of basic diamine side chains gave access to new indirubin derivatives such as 22, with good CDK2 potency (0.01 mm), markedly increased solubility (12 mg LÀ1), and excellent cellular activity
+
+(< 0.1 mm). The basic sulfonamide 22 was then coupled in the 3'-position with further solubility-increasing elements, namely oxime ethers, firstly by treatment with hydroxylamine to yield 23 and subsequently by treatment under basic conditions with various nucleophiles such as the sugar building block 24. While the simple oxime derivative 23 displayed a slight increase in solubility (18 mg LÀ1 compared to the 12 mg LÀ1 of the 3'-keto species 22) and retained its activity, all corresponding oxime ethers (e.g., 25) displayed unacceptable decreases in CDK2 activity. All other attempts to substantially increase the solubility of the lead compound 8, variously through the 3'-position (other oxime ether derivatives) or through the 4'- and 5'-positions, while maintaining CDK potency were unsuccessful (data not shown).
+
+Series C: Deplanarization--quaternary center at the 3'-position The second strategy was to decrease planarity. Because of the inherent "textile-dye nature" of the indirubins--being completely flat and rigid--these molecules form adhesive crystal packings; this is reflected by the high melting points (> 300 8C) of these compounds, which are rather modest in size and polarity.[14] The probability was therefore high that disturbing the flatness of these molecules should reduce their propensity for tight crystal packing, thus decreasing their melting point and resulting in increased water solubility. Inspection of the X-ray data and corresponding modeling studies revealed the 3'-position as a potential handle through which to "break" the planarity of the indirubins without risking loss of CDK2 potency in the rather flat binding pocket (see Figure 2). In a first study, a suspension of 5-bromoindirubin (14) in THF was treated with an excess of methylmagnesium bromide at room temperature (see Scheme 4). Nucleophilic attack took place at the more active 3'-carbonyl group to provide the corresponding tertiary alcohol 26. Although starting material 14 and product 26 are similar in c log D, they differ strongly in m.p. (> 300 8C for 14 but 231 8C for 26) and, nicely following the empirical Equation (1), the "quaternary indirubin" 26 showed--in contrast to 14--a measurable (!) water solubility of 9 mg LÀ1 (see Table 1).
+
+Scheme 3. Synthesis of basic indirubin sulfonamides. Reagents and conditions: a) SO2Cl2 (80 equiv) 80 8C, 3 h, 75 %; b) N,N,N'-trimethylethylenediamine (1.8 equiv), DMAP (cat), 60 8C, 8 h, 85 %; c) NH2OH (1 equiv), KOH (20 equiv), EtOH, 2 h, reflux, 32 %; d) 24 (3.6 equiv), TMG (4 equiv), EtOH, 6 h, reflux, 30 % (DMAP = 4-dimethylaminopyridine, TMG = tetramethylguanidine).
+
+ChemBioChem 2005, 6, 531 ­540 www.chembiochem.org
+
+ 2005 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+535
+
+Figure 2. a) Side view of 5-bromoindirubin 14 illustrating the relatively flat cleft of the ATP binding pocket of CDK2. b) The scaffold of the quaternary indirubin 37 is in almost the same position as the 5-bromoindirubin 14 and forms the same hydrogen-bond pattern to the hinge region of CDK2. In addition, the hydroxy oxygen atom in the 3' position forms a weak hydrogen bond to the carbonyl oxygen of Ile10, whereas the methyl group is in the hydrophobic environment of the Leu134 side chain. This interaction pattern suggests that even though the racemate was soaked into the CDK2 crystal, only the S form of the quaternary compound has bound. Furthermore, both oxygens of the sulfonamide group are close to the main-chain amide of Asp145 and the side-chain nitrogen of Lys33.
+
+tencies of these products with 3'-quaternary centers were generally lower than those of the corresponding 3'-keto compounds by factors of 2 to 10, but in many cases still met our threshold of < 0.1 mm (27 a: 0.07 mm, 29 a: 0.09 mm). In all cases the (+) enantiomer was more active than the (À) enantiomer by a factor of 10 to 50 (vide infra). The solubility was in or above our standard measurement range (27 a > 40 mg LÀ1) and the inhibition of tumor cell growth met our criteria (29 a: 0.7 mm). As expected, increased bulk in the near vicinity of the 3'-position lead to decreased binding, since there is only limited space in the binding pocket (data not shown). In an attempt to mimic the ribose pocket of ATP, additional hydroxy groups were introduced into the allyl side chain Scheme 4. Generation of quaternary indirubins through Grignard reactions: a) MeMgBr (4­ of 29 under standard dihydroxylation condi9 equiv; 3 m in ether), 4!20 8C, 1 h, solvents and yields specified within the scheme; b) allylmagtions.[15] However, neither of the racemic diasternesium bromide (6 equiv, 2 m in THF), 10!20 8C, 1 h; c) NMO (2.2 equiv), OsO4, THF/H2O, RT, 5 h, 62 % (NMO = N-methylmorpholine oxide). eomers 31 a and 31 b showed sufficient CDK2 potency (see Table 1). Our initial assumption regarding the 3'-position, based on the X-ray data and modeling studies, was finally proved correct by obtaining an X-ray of the With this result in hand, we set out to prepare numerous quaternary indirubin 37 in conjunction with the CDK2 protein. "quaternary indirubins", mainly in combination with 5-sulfonIndirubin 37 was used in a racemic form in the experiment, amides (see Scheme 4). Because of the lack of solubility of our and the electron density data showed that it was well located starting materials in THF at room temperature, we also emin the CDK binding pocket. The newly formed hydrogen bond ployed THF/pyridine mixtures or even pure pyridine as the solbetween the 3'-hydroxy group of 37 and the carbonyl of Ile 10 vent for the Grignard reactions. The Grignard reaction prewas readily visible from the X-ray analysis (see Figure 2 b). vailed in a wide range of yields (see Scheme 4) and transThus, although one cannot discriminate between the two formed the intensely purple starting materials into pale yellow enantiomers in terms of electron density (a methyl group vs. a products, as a direct consequence of the disturbance of the exhydroxyl group being in the 3'-position) the new hydrogen tended delocalized p-system through the transformation of bond clearly showed that only the 3'S form was bound in the the 3'-carbonyl into a tertiary alcohol. The resulting racemic ATP pocket of CDK2. compounds were then separated by chiral HPLC. The CDK2 po-
+
+536
+
+ 2005 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim www.chembiochem.org
+
+ChemBioChem 2005, 6, 531 ­540
+
+Series D: Combination of 3'-quaternary center and polar 5-sulfonamides Finally, the combination of increasing polarity in the side chain and decreasing planarity in the core structure propelled the water solubility to values above our standard upper measuring limit of 40 mg LÀ1; for example, 28 a and 30 a (see Scheme 4 and Table 1). In addition, their water solubilities were determined by a thermodynamic method (flask method), good water solubility being found for both 28 a (710 mg LÀ1) and 30 a (418 mg LÀ1)--with the expected trend of a higher solubility for 28 a than for 30 a. These compounds proved to be high in CDK2 potency (30 a: 0.04 mm) and showed strong anitproliferative activity against the MCF7 cell line (30 a: < 0.1 mm). As observed before, the (+) enantiomers were always of higher activity than their (À) counterparts.
+
+Selectivity of the new indirubin derivatives against other targets Meijer and co-workers reported a number of indirubins to be low nanomolar inhibitors of glycogen synthase kinase-3b (gsk3).[16, 17] Gsk3 may be involved in a number of diseases, including diabetes, neurodegenerative disorders, inflammation, infectious diseases, and, last but not least, cancer. However, it currently seems that it indeed has multiple roles and thus we were not interested in a gsk3 component of our anticancer CDK2-inhibitors. While the early compounds 14, 20, and 32 (see Table 3) show significant to strong gsk3 inhibition--in line
+
+Table 3. Selectivity of the optimized indirubins against several kinases. Cpd. Desired profile 14 20 32 28 a 28 b 30 a 30 b CDK2 [mm] < 0.1 1 0.5 0.04 0.07 0.4 0.04 0.6 gsk3 [mm] > 10 0.08 0.3 4 > 10 > 10 > 10 > 10 InsR [mm] > 10 > 10 > 10 n.d. > 10 > 10 > 10 > 10 EGFR [mm] > 10 > 10 > 10 n.d. > 10 > 10 > 10 > 10 c-kit [mm] > 10 > 10 > 10 n.d. > 10 > 10 > 10 > 10 KDR [mm] > 10 > 10 > 10 n.d. > 10 > 10 > 10 > 10
+
+specific CYP enzymes, which then "toxify" the initially nontoxic AhR activator, for example, by epoxidation.[22] In addition, the past decade has brought evidence that the AhR is an active participant in the control of cell homeostasis. In line with these observations, two structure classes acting as AhR agonists have shown potent antitumor activity against breast and mammary tumors in animal studies, while showing low toxicity.[22, 23] For indirubins it has been reported that simple, low-substituted derivatives are potent AhR activators. The cytotoxic effects of indirubins appear to be mediated by CDK2 in an AhR-independent manner. However, several 1-methylindirubins, devoid of any CDK2 (and gsk3) activity, showed strong cytostatic effects.[21] Thus the AhR-binding properties of indirubins may well contribute to their reported in vivo effects on leukemia. We currently do not possess data on the AhR properties of our advanced indirubin derivatives such as 30 a/b, and further investigations should add valuable pieces to the "AhR puzzle". Finally, indirubin (1) has been reported to be a nonselective inhibitor of targets other than kinases (b-lactamase, chymotrypsin, malate dehydrogenase) at higher micromolar levels (> 20 mm).[24] This effect is exerted by a nonspecific aggregate formation of indirubin (and also of a number of other nonspecific inhibitors). The mechanism for this aggregate formation is currently unknown, thus we can not exclude the possibility that our advanced indirubin derivatives, such as 30 a/b, may also possess this property and exert it at concentrations well above the 10 mm tested in our assays. However, we can state that the observed low nanomolar CDK2 inhibition of 30 a/b is due to the specific binding at the ATP side, as indicated by the several X-rays of related indirubins in this and other publications, and that the submicromolar concentrations needed for inhibition of cancer cell growth in vitro (< 0.1 mm) would make the necessity for a 100-fold higher in vivo concentration unlikely.[25] Strongly supported by X-ray data and modeling studies, we have succeeded in deriving from the initial lead compound indirubin (1) a number of readily soluble, almost colorless derivatives that potently and selectively inhibit the activity of the CDK2 enzyme and control the growth of MCF7 cancer cells in vitro.[26] Further results of our investigations into this fascinating class of molecules will be reported in due course.
+
+Experimental Section
+with data on similar compounds already reported--our later compounds 28 a/b and 30 a/b are devoid of this activity (see Table 3). This elimination of gsk3 activity, while maintaining good CDK2 activity, is not compromised by any loss of selectivity against other kinases, such as EGFR, c-kit, InsR, and KDR (see Table 3). Recently there have been several reports showing that indirubins activate the aryl hydrocarbon receptor (AhR).[18, 19, 20, 21] AhR, also known as the dioxine receptor, is an orphan nuclear transcription factor, similar to the hormone receptors, that plays an important and long-known role in the regulation of xenobiotic metabolism. AhR activation itself does not lead to toxic or carcinogenic effects, as the known toxins and carcinogens acting via the AhR do so by AhR-induced expression of
+ChemBioChem 2005, 6, 531 ­540 www.chembiochem.org
+
+Pharmacological characterization of indirubin derivatives CDK2: GST-tagged recombinant human CDK2 kinase (50 ng) complexed with GST-tagged human cyclin E expressed in SF-9 cells (Proqinase, Germany) was incubated for 10 min at 22 8C in the presence of different concentrations of test compounds in a Tris/HCl assay buffer [40 mL, 62.5 mm, pH 8.0, MgCl2 (10 mm), dithiothreitol (1.0 mm), sodium orthovanadate (0.1 mm), PEG 20000 (0.025 % v/v), ATP (0.5 mm), g-33P ATP (0.2 mCi per well), calf thymus histone type IIIS (1 mm, Sigma­Aldrich, Germany), dimethyl sulfoxide (1.25 %, v/v), Nonidet P40 (0.05 %)]. The reaction was stopped by the addition of a solution of EDTA in water (0.25 m, 10 mL, pH 7.5). A quantity (15 mL) of each reaction mixture was transferred to P30 filter sheets (Wallac, Germany), washed with phosphorous acid (0.5 %, 3  10 min), and subjected to scintillation counting with MeltiLex A scintillator sheets (Wallac, Germany) and a Micobeta counter
+
+ 2005 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+537
+
+(Wallac, Germany). Half-maximal inhibition (IC50) of CDK2/cyclin E activity was determined as the inhibitor concentration resulting in 50 % of substrate phosphorylation between maximal substrate phosphorylation in the presence of solvent and background phosphorylation in the presence of inactivated CDK2. GSK3b: Human recombinant gsk3b (10 mU per well) expressed in SF-9 cells (Upstate Biotech, UK) was incubated for 30 min at 22 8C in the presence of different concentrations of test compounds in a Mops assay buffer [30 mL, 4 mm, pH 8.0, MgCl2 (0.5 mm), MnCl2 (0.5 mm), Mg acetate (2.5 mm), dithiothreitol (1.0 mm), ATP (0.5 mm), g-33P ATP (62.5 nCi per well), biotinylated gsk3b substrate peptide (4 mm, Biosynthan, Germany), dimethyl sulfoxide (1.25 % v/v), Nonidet P40 (0.002 %)]. The reaction was stopped by the addition of Stopp solution [EDTA; 20 mL, 5 mm, pH 7.5, Triton X100 (0.1 %), ATP (50 mm), streptavidin SPA beads (0.25 mg per well, Amersham, UK)]. The mixture was precipitated by centrifugation at 1500 rpm and subjected to scintillation counting on Topcount equipment. Half-maximal inhibition (IC50) of gsk3b activity was determined as the inhibitor concentration resulting in 50 % of substrate phosphorylation between maximal substrate phosphorylation in the presence of solvent and background phosphorylation in the presence of inactivated gsk3b. InsR: GST-tagged recombinant human Ins-R kinase domain (Proqinase, Germany) expressed in SF-9 cells was used as kinase. Biotinylated poly-(Glu,Tyr) (Cis biointernational, France) was used as substrate for the kinase reaction. Ins-R ( % 15 ng, depending on activity) was incubated for 10 min at 22 8C in the presence of different concentrations of test compounds in a Hepes/NaOH assay buffer [15 mL, 50 mm, pH 7.5, MgCl2 (5 mm), MnCl2 (5 mm), dithiothreitol (1.0 mm), sodium orthovanadate (3 mm), PEG 20000 (0.025 % v/v), ATP (5 mm), substrate (12 ng), dimethyl sulfoxide (1.5 % v/v)]. The reaction was stopped by the addition of a solution of HTRF detection reagents [5 mL, streptavidine-XL665 (20 ng) and PT66-Eu(K) (5 ng Cis biointernational)] in an aqueous EDTA solution [0.5 m, bovine serum albumin (1 % w/v) in HEPES/NaOH, 50 mm, pH 7.0]. The resulting mixture was incubated for a further 2 h at 22 8C to allow the binding of the biotinylated peptide to the streptavidineXL665, and the amount of phosphorylated product was subsequently evaluated by HTRF measurement in a Rubystar (BMG, Germany). EGFR: EGFR protein (Sigma, # E2645) affinity purified from human carcinoma A431 cells was used as kinase. Biotinylated poly(Glu,Ala,Tyr) (Cis biointernational, France) was used as substrate for the kinase reaction. EGFR (0.5 U) was incubated for 20 min at 22 8C in the presence of different concentrations of test compounds in a Hepes/NaOH assay buffer [15 mL, 50 mm, pH 7.0, MgCl2 (25 mm), MnCl2 (5 mm), sodium orthovanadate (0.5 mm), ATP (1 mm), substrate (34 ng), dimethyl sulfoxide (1.5 % v/v)]. The reaction was stopped by the addition of a solution of HTRF detection reagents [streptavidine-XL665 (125 ng) and PT66-Eu(K) (5 ng, 5 mL; Cis biointernational)] in an aqueous EDTA solution [0.5 m, bovine serum albumin (1 % w/v) in HEPES/NaOH, 50 mm, pH 7.0]. The resulting mixture was incubated for a further 2 h at 22 8C to allow the binding of the biotinylated peptide to the streptavidine-XL665 and the amount of phosphorylated product was subsequently evaluated by HTRF measurement in a Rubystar (BMG, Germany). c-kit: GST-tagged recombinant human c-kit kinase domain expressed in SF-9 cells was used as kinase. Biotinylated poly(Glu,Tyr) (Cis biointernational, France) was used as substrate for the kinase reaction. c-kit was incubated for 10 min at 22 8C in the presence of different concentrations of test compounds in a Hepes/NaOH assay
+
+buffer [15 mL, 50 mm, pH 7.0, MgCl2 (25 mm), MnCl2 (5 mm), dithiothreitol (1.0 mm), sodium orthovanadate (0.5 mm), ATP (3 mm), substrate (50 ng), glycerol (10 % v/v), dimethyl sulfoxide (1.5 % v/v)]. The reaction was stopped by the addition of a solution of HTRF detection reagents [streptavidine-XL665 (100 ng) and PT66-Eu(K) (6 ng, 5 mL; Cis biointernational) in an aqueous EDTA solution [0.5 m, bovine serum albumin (1 %, w/v) in HEPES/NaOH, 50 mm, pH 7.0]. The resulting mixture was incubated for a further 2 h at 22 8C to allow the binding of the biotinylated peptide to the streptavidine-XL665, and the amount of phosphorylated product was subsequently evaluated by HTRF measurement in a Rubystar (BMG, Germany). KDR: GST-tagged recombinant human KDR kinase domain expressed in SF-9 cells was used as kinase. Biotinylated poly(Glu,Ala,Tyr) (Cis biointernational, France) was used as substrate for the kinase reaction. KDR was incubated for 20 min at 22 8C in the presence of different concentrations of test compounds in a Hepes/NaOH assay buffer [15 mL, 50 mm, pH 7.0, MgCl2 (25 mm), MnCl2 (5 mm), dithiothreitol (1.0 mm), sodium orthovanadate (0.5 mm), ATP (1 mm), substrate (350 ng), glycerol (10 % v/v), dimethyl sulfoxide (1.5 % v/v)]. The reaction was stopped by the addition of a solution of HTRF detection reagents [streptavidineXL665 (175 ng) and PT66-Eu(K) (7.5 ng, 5 mL; Cis biointernational)] in an aqueous EDTA solution [0.5 m, bovine serum albumin (1 % w/v) in HEPES/NaOH (pH 7.0, 50 mm)]. The resulting mixture was incubated for a further 2 h at 22 8C to allow the binding of the biotinylated peptide to the streptavidine-XL665 and the amount of phosphorylated product was subsequently evaluated by HTRF measurement in a Rubystar (BMG, Germany). MCF7: MCF7 cells (ATCC, USA) were seeded in RPMI 1640 medium (Biochrome, Germany) supplemented with fetal calf serum (10 %, PAA, Austria), l-glutamine (2 mm), estradiol (0.1 nm), and insulin (1 U mLÀ1) at 5000 cells per well in 96-well plates. Cells were allowed to adhere for 24 h, and then fresh growth medium plus compounds were added. The final concentration of the solvent DMSO was 0.5 %. After 4 days of continuous incubation, the cells were fixed with glutaraldehyde and stained with crystal violet, and the absorbance was recorded at 595 nm. All measurements were performed in quadruplicate. The values were normalized to the absorbance of solvent-treated cells (= 100 %), and the absorbance of a reference plate which was fixed at the time point of compound application (= 0 %). Half-maximal growth inhibition (IC50) was determined as compound concentration required to achieve 50 % inhibition of cellular growth. Physicochemical calculations and characterization c log D: Calculation was performed with the ACD/log D program version 6.0. (Advanced Chemistry Development, Inc, Toronto, Canada) Sw: This was determined by turbidimetric measurements (kinetic solubility). A solution of the compound in DMSO (10 mm) was added gradually to aqueous buffer. Turbidity was measured by its effect on the transmission of light. The experiment was run at 25 8C in phosphate buffer at pH 7.4. The instrument was a HACH turbidimeter, the software for analysis and evaluation was an inhouse program. The system was calibrated with phenanthrene. Sw(t) (solubility in water determined by the flask method--thermodynamic solubility): A saturated solution of the compound in phosphate buffer at pH 7.4 was stirred at 25 8C for 22 h. The solid was separated by filtration, and the concentration of compound in the solution was determined by quantitative HPLC. HPLC: Waters
+ChemBioChem 2005, 6, 531 ­540
+
+538
+
+ 2005 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim www.chembiochem.org
+
+2695/PDA. Column: Xterra MS C 18 4.6  30 mm. Eluent: A: water/ 0.025 % NH3, B: CH3CN/0.025 % NH3. Gradient: 0­3 min 20!80 % B, 3­5 min 80 % B, 5­6 min 20 % B. Crystallographic data for CDK2 in complexes with compounds 14 and 37: a) CDK2­14 complex: orthorhombic, space group P212121, crystal dimensions 0.1  0.1  0.05 mm3, cell dimensions a = 53.685(10), b = 71.918(10), c = 71.22(10) , V = 277 684 3, Z = 4, T = 100 K, l = 0.933  (Synchrotron), max. resolution = 1.9 , 146 442 reflections collected, of which 20 611 are independent [Rint = 0.054, Friedel mates are merged], completeness = 97 %, R1 = 22.9 % for I > 2 s(I) and Rfree = 29.7 %, b) CDK2­37 complex: orthorhombic, space group P212121, crystal dimensions 0.3  0.3  0.2 mm3, cell dimensions a = 53.679(2), b = 69.526(3), c = 71.168(3) , V = 260 657 3, Z = 4, T = 100 K, l = 1.54178  (Cu-radiation), max. resolution = 2.6 , 73 463 reflections collected, of which 8542 are independent [Rint = 0.091, Friedel mates are merged], R1 = 26.7 % for I > 2 s(I) and Rfree = 32.2 %. Crystals of CDK2 were grown at 20 8C by vapor diffusion. CDK2 (1­ 298) at 5­7 mg mLÀ1 was mixed and equilibrated against PEG 3350 (10 %), ammonium acetate (0.2 m) at pH 7.8 (Hepes). Compound 14 was cocrystallized with CDK2, whereas 37 was soaked in existing CDK2 crystals. Prior to data collection, the crystals were transferred to a cryo-buffer containing PEG 3350 (10 %) and glycerol ( % 25 %) at pH 7.8 and were then flash-cooled in a cold nitrogen stream. Intensity data for 14 was collected at the synchrotron at the ESRF in Grenoble, and 37 was recorded on a rotating-anode system equipped with a three-circle diffractometer and Smart 6000 CCD area detector. The data for 14 were integrated with the HKL2000 package,[27] data for 37 were integrated with the SAINT program and corrected semiempirically for systematic errors such as absorption with the program SADABS. Both structures were solved with the aid of the program AMoRe.[28] Compound 14 was refined by use of SHELXL,[29] whereas 37 was refined with the CNS module in the Quanta program. The crystallographic data for both structures have been deposited with the Brookhaven Data Bank (PDB), Brookhaven National Laboratory, under the access codes 2BHE and 2BHH. Selected Synthetic Procedures Indirubin-5-sulfonyl chloride (21): Thionyl chloride (32 mL, 440 mmol, excess) was added slowly at RT to indirubin-5-sulfonic acid (20; 2 g, 5.48 mmol).[7] The mixture was then stirred at 80 8C for 3 h. After cooling down, it was cautiously poured into ice/ water, and the mixture was stirred for an additional 20 min. The precipitate was filtered off, washed with water, and vacuum dried at RT to yield indirubin-5-sulfonyl chloride 21 (1.49 g, 4.13 mmol, 75 %). 1H NMR (400 MHz, [D6]DMSO): d = 7.04 (t, J = 7 Hz, 1 H), 7.43 (d, J = 8 Hz, 1 H), 7.60­7.55 (m, 2 H), 7.66 (d, J = 7.5 Hz, 1 H), 9.12 (d, J = 2 Hz, 1 H), 11.03 (s, 1 H), 11.05 ppm (s, 1 H); 13C NMR (100 MHz, [D6]DMSO): d = 188.2, 171.0, 152.3, 141.6, 140.8, 138.3, 136.9, 126.8, 124.1, 122.5, 121.2, 120.4, 118,9, 113.3, 108.2, 106.3 ppm; MS (EI): m/z (%): 362 (40) [M] + , 360 (100) [M] + , 261 (40), 233 (35); HRMS (EI) C16H9N2O4SCl calcd: 359.9972; found 359.9965 [M] + . Basic indirubin 22: A solution of indirubin-5-sulfonylchloride (21; 599 mg, 1.66 mmol), DMAP (30 mg, 0.25 mmol, 0.15 equiv), and N,N,N-trimethylethylenediamine (0.42 mL, 3.24 mmol, 2 equiv) in EtOH (10 mL) was stirred for 8 h at 60 8C. After the mixture had cooled, the crystalline precipitate was filtered off, washed with water and with ethanol, and vacuum-dried at 60 8C to yield 22 (601 mg, 1.47 mmol, 85 %). 1H NMR (300 MHz, [D6]DMSO): d = 2.77 (s, 3 H), 2.83 (s, 6 H), 3.3 (br s, 4 H), 7.08 (t, J = 8 Hz, 1 H), 7.13 (d, J =
+ChemBioChem 2005, 6, 531 ­540 www.chembiochem.org
+
+8 Hz, 1 H), 7.47 (d, J = 8 Hz, 1 H), 7.62 (t, J = 8 Hz, 1 H), 7.70­7.77(m, 2 H), 9.23 (d, J = 1 Hz, 1 H), 11.23 (s, 1 H), 11.47 ppm (s, 1 H); 13C NMR (100 MHz, [D6]DMSO): d = 188.7, 170.7, 152.4, 143.6, 139.5, 137.2, 129.4, 128.0, 124.5, 123.1, 121.7, 121.6, 118.8, 113.5, 109.4, 104.2, 56.6, 47.4, 44.9, 35.0 ppm; MS (EI): m/z (%): 426 (7) [M] + , 425 (12), 384 (15), 383 (70), 276 (65), 275 (100); HRMS (EI) C21H22N4O4S calcd: 426.1362; found 426.1344 [M] + . Quaternary indirubins 30 a/30 b: A solution of methylmagnesium bromide in diethyl ether (3 m, 1 mL, 3 mmol, 1 equiv) was added slowly to a cold (+ 4 8C) solution of basic indirubin 22 (1.28 g, 3.0 mmol) in pyridine (50 mL) and THF (25 mL). Afterwards, the mixture was stirred for 30 min at RT. The mixture was then poured into a cold (0 8C), saturated ammonium chloride solution, diluted with water, and extracted with AcOEt (3  ). The combined organic layer was dried (MgSO4) and concentrated. The residue was purified by flash chromatography (silica gel, CH2Cl2 !CH2Cl2/MeOH 4:1) to afford the racemic mixture 30 a/30 b (595 mg, 43 %). This material was subjected to preparative chiral HPLC (Chiralpak AS 10m, hexane/EtOH 2:1) to yield 30 a (209 mg, 15 %, 0.45 mmol) and 30 b (215 mg, 15 %, 0.46 mmol). Compound 30 a: [a]22 = + 286.8 (c = 0.15, MeOH); 1H NMR D (400 MHz, [D6]DMSO): d = 2.13 (s, 6 H), 2.38 (t, J = 7 Hz, 2 H), 2.84 (dd, J = 13 Hz, 8 Hz, 1 H), 2.94­3.03 (m, 3 H), 4.82 (d, J = 17.5 Hz, 1 H), 4.92 (dd, J = 10.5 Hz, 2 Hz, 1 H), 5.36­5.46 (m, 1 H), 6.80 (s, 1 H), 7.00­7.04 (m, 2 H), 7.22­7.30 (m, 2 H), 7.40­7.43 (m, 2 H), 8.63 (d, J = 2 Hz, 1 H), 10.94 (s, 1 H), 11.33 ppm (s, 1 H); 13C NMR (100 MHz, [D6]DMSO): d = 169.9, 164.3, 142.4, 140.2, 133.0, 131.0, 129.1, 127.7, 123.3, 123.1, 123.0, 122.0, 121.0, 119.2, 111.4, 108.4, 94.6, 82.1, 56.6, 47.5, 44.9, 40.8, 35.0 ppm; MS (EI): m/z (%): 468 (6) [M] + , 427 (85), 425 (50), 383 (15), 254 (100); HRMS (EI) C24H28N4O4S calcd: 468.1831; found 468.1834 [M + ]. Compound 30 b: [a]22 = À286.4 (c = 0.17, MeOH); all other analytiD cal data identical to 30 a.
+
+Acknowledgements
+We would like to thank M. Mçwes and K. Joachim for technical support, U. Ganzer for physicochemical characterization of the compounds, and U. Ebespächter for protein production of CDK2. Keywords: biological activity · enzymes · medicinal chemistry · natural products · structure­activity relationships
+[1] [2] [3] [4] [5] [6] [7] J. Balfour-Paul, Indigo, British Museum Press, London, 1998. A. von Bayer, P. Emmerling, Ber. Dtsch. Chem. Ges. 1870, 515. L. M. Wu, Y. P. Yang, Z. H. Zhu, Comm. Chin. Herb. Med. 1979, 9, 6. K.-M. Wu, M.-Y. Zhang, Z. Fang, L. Hunag, Yaoxue Xuebao 1985, 20, 821. Y. C. Gu, G. L. Li, Y. P. Yang, J. P. Fu, C. Z. Li, Yaoxue Xuebao 1989, 24, 629. R. Han, Stem Cells 1994, 12, 53. R. Hoessel, S. Leclerc, J. A. Endicott, M. E. M. Nobel, A. Lawrie, P. Tunnah, M. Leost, E. Damiens, D. Marie, D. Marko, E. Niederberger, W. Tang, G. Eisenbrand, L. Meijer, Nat. Cell Biol. 1999, 1, 60. A. Huwe, R. Mazitschek, A. Giannis, Angew. Chem. 2003, 115, 2170; Angew. Chem. Int. Ed. 2003, 42, 2122. W. Grell, R. Walter, A. Heckel, F. Himmelsbach, H. Wittneben, J. v. Meel, N. Redemann, R. Haigh, in PCT WO9951590, 1999. S. C. Conway, G. W. Gribble, Heterocycles 1990, 30, 627. T. G. Davies, P. Tunnah, L. Meijer, D. Marko, G. Eisenbrand, J. A. Endicott, M. E. M. Noble, Structure 2001, 9, 389. S. H. Yalkowski, S. C. Valvani, J. Pharm. Sci. 1980, 69, 912 H. van de Waterbeemd, D. A. Smith, K. Beaumont, D. K. Walker, J. Med. Chem. 2001, 44, 1313
+
+[8] [9] [10] [11] [12] [13]
+
+ 2005 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+539
+
+[14] M. Y. Tesconi, H. Samuel in Handbook of Property Estimation Methods for Chemicals (Ed.: R. S. M. Boethling, D. C. Donald), Lewis, Boca Raton, FA, 2000, p. 3. [15] S. J. Danishefsky, M. J. O. Grandi, C. A. Coburn, R. C. A. Isaacs, J. Org. Chem. 1993, 58, 7728. [16] S. Leclerc, M. Garnier, R. Hoessel, D. Marko, J. A. Bibb, G. L. Snyder, P. Greengard, J. Biernat, Y.-Z. Wu, E.-M. Mandelkow, G. Eisenbrand, L. Meijer, J. Biol. Chem. 2001, 276, 251. [17] L. Meijer, A.-L. Skaltsounis, P. Magiatis, P. Polychronopoulos, M. Knockaert, M. Leost, X. P. Ryan, C. A. Vonica, A. Brivanlou, R. Dajani, Chem. Biol. 2003, 10, 1255. [18] J. Adachi, Y. Mori, S. Matsui, H. Takigami, J. Fujino, H. Kitagawa, C. A. Miller III, T. Kato, K. Saeki, T. Matsuda, J. Biol. Chem. 2001, 276, 31 475. [19] F. P. Guengerich, M. V. Martin, W. A. McCormick, L. P. Nguyen, E. Glover, C. A. Bradfield, Arch. Biochem. Biophys. 2004, 423, 309. [20] K. Sugihara, S. Kitamura, T. Yamada, T. Okayama, S. Ohta, K. Yamashita, M. Yasuda, Y. Fujii-Kuriyama, K. Saeki, S. Matsui, T. Matsuda, Biochem. Biophys. Res. Commun. 2004, 318, 571. [21] M. Knockaert, M. Blondel, S. Bach, M. Leost, C. Elbi, G. L. Hager, S. R. Nagy, D. Han, M. Denison, M. Ffrench, X. P. Ryan, P. Magiatis, P. Polychro-
+
+[22] [23] [24] [25] [26]
+
+[27] [28] [29]
+
+nopoulos, P. Greengard, L. Skaltsounis, L. Meijer, Oncogene 2004, 23, 4400. T. D. Bradshaw, V. Trapani, D. A. Vasselin, A. D. Westwell, Current Pharmaceutical Design 2002, 8, 2475. S. Safe, A. McDougal, Int. J. Oncol. 2002, 20, 1123. S. L. McGovern, B. K. Shoichet, J. Med. Chem. 2003, 46, 1478 J. Seidler, S. L. McGovern, T. N. Doman, B. K. Shoichet, J. Med. Chem. 2003, 46, 4477. For a recent related work on indirubins that acknowledges the importance of solubility but does not address this aspect, see: P. Polychronopoulos, P. Magiatis, A.-L. Skaltsounis, V. Myrianthopoulos, E. Mikros, A. Tarricone, A. Musacchio, S. M. Roe, L. Pearl, M. Leost, P. Greengard, L. Meijer, J. Med. Chem. 2004, 47, 935. Z. Otwinowski, W. Minor, Methods Enzymol. 1997, 276, 307. J. Navaza, Acta Crystallogr. A 1994, 50, 157. G. M. Sheldrick, T. R. Schneider, Methods Enzymol. 1997, 277, 319.
+
+Received: April 19, 2004
+
+540
+
+ 2005 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim www.chembiochem.org
+
+ChemBioChem 2005, 6, 531 ­540
+
+

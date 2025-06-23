@@ -1,0 +1,180 @@
+Supporting Information
+© Wiley-VCH 2007
+69451 Weinheim, Germany
+
+Fast High-resolution Protein Structure Determination using unassigned NMR data
+
+by Jegannath Korukottu, Monika Bayrhuber, Pierre Montaville, Vinesh Vijayan, Young-Sang Jung, Stefan Becker, Markus Zweckstetter
+
+Supporting Fig. S1. FastNMR flow chart. FastNMR starts from unassigned chemical shifts, RDCs and NOE peak lists. It consists of three major phases: (A) Backbone assignment and fold determination. (B) Side chain assignment, NOE analysis and NOE-based structure calculation. (C) Refinement to a high-resolution structure. All steps are done automatically by FastNMR. Interactive work is confined to the processing of NMR spectra and the preparation of input lists.
+
+1
+
+Supporting Table S1. NMR experiments recorded on ubiquitin, Conk-S1 and Conk-S2. Spectrometers were chosen according to availability. For Conk-S1 and Conk-S2, multiple samples were required due to fast degradation of the protein.
+NMR experiment (for a review see[1]) 3D HNCACB[10] Experimental details 1) 600cryo, NS: 16, d1: 1s, 512x25x45 pts SW 15N: 33.16ppm 13C: 65.00ppm 2) 900, NS: 24, d1: 1s, 512x25x50 pts SW 15N: 20.72ppm 13C: 45.92ppm 3e) 900, NS:32, d1: 1s, 1024x25x50 pts SW 15N: 26.00ppm 13C: 64.01ppm 1)600cryo, NS: 8, d1: 1s, 512x25x50 pts SW 15N 33.16ppm 13C 65.00ppm 1) 600cryo, NS: 8, d1: 1s, 512x25x64 pts SW 15N 32.997ppm 1Hind 10.00ppm 2) 900, NS: 8, d1: 1s, 512x30x70 pts SW 15N: 20.73ppm 1Hind: 10.00ppm 3) 600cryo, NS: 8, d1: 1s, 512x25x100 pts SW 15N: 26.00ppm 1Hind: 12.00ppm 1) 600cryo, NS: 8, d1: 1s, 512x25x64 pts SW 15N: 32.997ppm 13C: 66.29ppm 2) 900, NS: 8, d1: 1s, 512x30x70 pts SW 15N: 20.73ppm 13C: 66.49ppm 3d) 900, NS:16, d1: 1s, 1024x24x48 pts SW 15N: 25.67ppm 13C: 63.94ppm 1) taken from BMRB (1D3Z.mr) 2) 700, NS: 64, d1: 1s, (512x70)x2 ptsf SW 15N: 24.97ppm 3d) 600cryo, NS: 32, d1: 1s, (512x100)x2 ptsf SW 15N: 23.00ppm 1) RDCs for ubiquitin were taken from BMRB (1D3Z.mr) 2) 900, NS: 8, d1: 1s, (512x44x28)x3 ptsg SW 15N: 20.73ppm 13C: 9.99ppm 2c) 800, NS: 12, d1: 1s, (512x44x28)x3 ptsh SW 15N: 20.73ppm 13C: 8.28ppm 3) 700, NS: 8, d1: 1s, (512x22x20)x3 ptsg SW 15N: 25.65ppm 13C: 11.99ppm 3e) 700, NS: 16, d1: 1s, (512x24x25)x3 ptsh SW 15N: 25.65ppm 13C: 11.99ppm 2) 900, NS: 8, d1: 1s, (512x25x54)x4 ptsg SW 15N: 20.73ppm 13C: 45.92ppm 2c) 800, NS: 12, d1: 1s, (512x22x48)x4 ptsh SW 15N: 20.69ppm 13C: 44.96ppm 3) 700, NS: 8, d1: 1s, (512x22x35)x4 ptsg SW 15N: 25.65ppm 13C: 59.98ppm 3e) 700,NS: 24, d1: 0.9s, (512x19x30)x4 ptsh SW 15N: 25.65ppm 13C: 59.98ppm 1) 700, NS: 16, d1: 1s, 1024x26x56 pts SW 15N: 33.08ppm 1Hind: 10.06ppm 2) 800, NS: 8, d1: 1s, 512x130x32 pts SW 15N: 21.20ppm 1Hind: 10.04ppm 3) simultaneous 3D 15N13C-edited NOESY[2] 600cryo, NS: 4, d1: 1s, 1024x100x60 pts NMR parameters Restraints
+
+13
+
+C,13C,1HN,15N
+
+/ backbone dihedral angles
+
+chemical shifts l
+
+3D CBCA(CO)NHa[11] 3D H(CCO)NHTOCSY[13]
+
+13
+
+C, 1H chemical
+
+shifts of aliphatic side chain l
+
+3D C(CO)NHTOCSY[14]
+
+2D 15N-13C , 13C-13C difference experiments[15, 16]
+
+3
+
+JCC, 3JNC, scalar couplings
+
+1 angles
+
+3D RDC-TROSYHNCO[4,12]
+
+1
+
+DN-H, 1DC-N,
+
+Orientation of one-bond vectors
+
+1
+
+DC-H, 1DC-C RDCs
+
+3D RDCCBCA(CO)NHb[3,4, 11]
+
+3D 15N-edited NOESY
+
+NOE peak
+
+Distance
+
+2
+
+3D 13C-edited NOESY
+
+SW Hind: 10.0ppm 15N: 26.00ppm 13C: 63.99ppm 1) 600cryo, NS: 16, d1: 1s, 512x42x64 pts SW 13C: 55.61ppm 1Hind: 11.00ppm 2) 600, NS: 16, d1: 1s, 512x60x50 pts SW 13C: 39.76ppm 1Hind: 11.43ppm 3) see 3D 15N-edited NOESY
+
+volumes
+
+restraints
+
+1) 1.5 mM ubiquitin sample, measured at 298 K, pH 6.6. 2) 1 mM Conk-S1 sample, measured at 305 K. // 2c) 0.5 mM Conk-S1 sample, measured at 305 K, pH 5.2. 3) 0.6 mM Conk-S2 sample, measured at 310 K. // 3d) 0.4 mM Conk-S2 sample, measured at 310 K. // 3e) 0.2mM Conk-S2 sample, measured at 310 K, pH 6.3. a The CBCA(CO)NH is not required, when C-C or C-H RDCs are measured with a CBCA(CO)NH (see b). b RDC-TROSY-HNCO and RDC-CBCA(CO)NH indicate TROSY-HNCO and CBCA(CO)NH experiments modified for fast measurement of RDCs.[3, 4] f The experiments were measured for aromatic and aliphatic residues separately. g Isotropic and h anisotropic sample. i These experiments are recorded in an interleaved manner and the coupling values are extracted from the difference (chemical shift or intensity) between 2 experiments. When 2 or 3 RDCs are measured based on the same reference experiment, at total of 3 (x3) or 4 (x4) experiments are required.[3, 4] j NS = number of scans; d1 = recovery delay; pts = number of complex data points (F3 x F2 x F1). k RDCs in Conk-S1 were measured in 85.5% 0.1 M sodium acetate buffer, pH 5.2, 9.5% 2H2O, 4.3% pentaethylene glycol monododecyl ether (C12E5) and 0.7% n-hexanol. For RDC measurements in Conk-S2, 10 mg/ml Pf1 bacteriophage were used. l Different spectra were referenced internally to the CBCA(CO)NH spectrum. Peak picking was done automatically with SPARKY (T. D. Goddard and D. G. Kneller, SPARKY 3, University of California, San Francisco, CA). 13C and 15N chemical shifts were referenced indirectly.
+
+3
+
+Supporting Fig. S2. Comparison of predicted chemical shifts with experimental values obtained from 3D HC(CO)NH- and C(CO)NH-TOCSY experiments recorded on ubiquitin. (A) 13C chemical shifts were predicted using a artifical neural network as implemented in the software Proshift [5] from a structure that deviates 2.4 Å from the native structure (PDB code: 1d3z [6]). Note that the comparison does not include C and C chemical shifts as these are assigned based on the chemical shift information obtained from backbone triple-resonance NMR experiments. empirical rules as implemented in the software SHIFTS
+[7]
+
+(B) 1H chemical shifts were predicted using
+
+from the same structure as in A). (C) Same as A) but using a
+
+structure that deviates 3.5 Å from the 1d3z structure. (D) 1H chemical shifts were predicted using empirical rules as implemented in the software SHIFTS from the same structure as in C). The straight lines bracket the range ± 0.3 ppm between measured and predicted 1H chemical shifts and ± 1.3 ppm between measured and predicted 13C chemical shifts.
+
+4
+
+Supporting Table S2. NMR chemical shift assignments obtained by FastNMR
+Protein # of residues Chemical shifts a Backbone assignment (%) b
+13
+
+Side chain assignment (%) c Start d Final e
+13
+
+C
+
+1
+
+H
+
+C
+
+1
+
+H
+
+Conk-S1
+
+60
+
+C/C
+
+100 (97)
+
+100.0/ 0 89.7/ 10.3 (70.0/ 0 62.8/ 7.2
+
+100.0/ 0 93.7/ 6.3 70.0/ 0 65.6/ 4.4)
+
+Ubiquitin
+
+76
+
+C/C
+
+95 (92)
+
+90.0/ 0 88.5/ 11.5 (50.0/ 0 57.4/ 7.4
+
+90.0/ 0 96.7/ 3.3 50.0/ 0 62.8/ 2.1)
+
+Chemical shifts used to establish sequential connectivity. Percentage of assigned experimental spin systems. Assignment scores with respect to the total number of assignable residues are given in brackets. c Percentage of measured side chain chemical shifts that were assigned by FastNMR. Unambiguous ("numerator") and ambiguous ("denominator") assignment scores are listed. Assignment scores with respect to the total number of side chain atoms are given in brackets. d Start: prior to starting the NOE analysis in stage B of FastNMR. e Final: upon completion of FastNMR. As part of the iterative NOE assignment and structure calculation, the NOE assignment is selected that produces the best-fit between the experimental NOE distance restraints and those back-calculated from the structure. Thus, during stage B the number of unambiguously assigned proton chemical shifts was increased from 89.7 to 93.7% for Conk-S1 and from 88.5 to 96.7% for ubiquitin. The assignments are highly useful for further NMR studies, such as relaxation time measurements to probe backbone and side chain motions.
+b
+
+a
+
+5
+
+Supporting Table S3. Deviation between different 3D structures of ubiquitin and cross-validation by 1D(CH) and 1 D(C,C) RDCs.a
+
+Structure 1ubq 1d3z 1d3z refined FastNMR RDC crossvalidation e
+a
+
+1ubq b
+
+1d3z c 0.35 0.45 0.56 0.99 f
+
+1d3z refined d 0.52 0.45 0.41 0.98
+
+0.52 0.55 0.97
+
+FastNMR 0.55 0.56 g 0.41 g
+
+0.97
+
+Values given are rmsd values in Å and calculated for residues 2-72 between the mean structure of the NMR ensembles or the 1.8 Å X-ray structure. b 1.8 Å X-ray structure of ubiqutin (PDB code: 1ubq). c NMR solution structure of ubiquitin, which was determined with an extremely large number of experimental restraints, including six different types of RDCs (PDB code: 1d3z). d Structure of ubiquitin that was recalculated from the distance restraints, dihedral angles and three types of RDCs (1DN-H, 1DC1 N, DC-C), which are available from the PDB (PDB code: 1d3z.mr). e Pearson's correlation coefficient for the comparison of 62 1DC-H and 39 1DC-C RDCs with values back-calculated from the various structures using singular-value decomposition. f Note that the very high RDC correlation is due to the fact that the 1DC-H and 1DC-C RDCs were used in the structure calculation of 1d3z. g Note that the rms deviation of the 20 lowest-energy structures of the FastNMR ensemble with respect to the average structure of this ensemble is 0.42 Å, whereas the maximum deviation of any of the 20 structures of the ensemble with respect to the average structure is 0.58 Å.
+
+6
+
+Supporting Fig. S3. Comparison of per-residue Ramachandran plot quality Z-score between FastNMR structures and conventionally determined structures. (A) PDB (2CA7) structure (red) and FastNMR structure (green) of Conk-S1. (B) FastNMR structure of ubiquitin (green) and structure of ubiquitin recalculated from manually evaluated NMR data deposited in PDB (1D3Z.mr) (red). Average values for the twenty lowest-energy structures are shown. Additional structural statistics can be found in Table 1 in the manuscript.
+
+7
+
+Supporting Notes: Robustness of FastNMR Many different tests were performed to highlight the reliability of FastNMR and to show that FastNMR works for real experimental data. These tests are explained in the following in detail:
+
+FastNMR only produces correct high-resolution structures For testing the robustness of FastNMR, the FastNMR structure determination of the 60-residue neurotoxin Conk-S1 was interrupted prior to entering the NOE analysis step (see Supporting Fig. S1) and protein folds, Sfold, were selected that, on purpose, covered a wide range of deviations (~2 - 7 Å) from the native structure, Snative. These Sfold conformations were fed into the following stages of the FastNMR calculation resulting in a large number of different ensembles, Sfinal, each containing 20 structures. The energy of these structures was compared to the rms (root-mean-square) deviation from the manually determined solution structure Snative of Conk-S1 (Supporting Fig. S4A). Two groups of structures were observed. In one group, the 20 lowest-energy structures didn't converge to the same fold or, despite they had the same fold, the conformation differed by more than 5 Å from the native structure, i.e. rms(Sfinal - Snative) > 5 Å. The conformations belonging to this group did not properly fulfill all experimental restraints, as indicated by the very high energies. Structures in the second group had very low total energies and were very close to the manually determined NMR structure of Conk-S1.
+
+FastNMR tolerates missing and wrong backbone assignments With respect to backbone chemical shifts, the FastNMR structure of Conk-S1 (Fig. 1C and Table 1 in main manuscript) was determined using 1HN, 15N, 13C(i), 13C(i-1), 13C(i) and 13C(i-1) chemical shifts. These chemical shifts had been obtained from a 3D HNCACB and a 3D CBCA(CO)NH experiment. To test the influence of lower data quality, the 13C(i) and 13C(i-1) chemical shifts were removed from the input lists and FastNMR was rerun. This corresponds to the situation in which connectivity information is only available from a HNCA experiment. Actually, the situation is even more challenging, as 13C chemical shifts obtained from HNCACB and CBCA(CO)NH spectra are less accurate due to the lower resolution of these spectra compared to HNCA and HN(CO)CA spectra. Due to the lower quality of the input data, only 93% of all backbone signals (54 residues) were assigned prior to entering the NOE analysis, whereas 97 % had been assigned when C connectivity information was included. Despite the missing backbone assignments, FastNMR produced a structure that was very close to the manually determined structure, with an rms deviation of 0.8 Å for the backbone heavy atoms (data not shown). With the reduced lists of backbone chemical shifts (without 13C(i) and 13C(i-1) chemical shifts) the robustness tests described above were repeated, i.e. the FastNMR structure determination of the 60-residue neurotoxin Conk-S1 was interrupted prior to entering the NOE analysis step, protein folds were selected that covered a wide range of deviations from the native structure, and the selected conformations were fed into the following stages of FastNMR. To make the tests even more demanding, the backbone assignment of two residues was interchanged, i.e. two residues were wrongly assigned on purpose. Nevertheless, all structures, which fulfilled the experimental restraints and had very low energies, deviated by less than 1.0 Å from the native conformation (Supporting Fig. S4B).
+
+How much is the intermediate backbone conformation allowed to deviate from the correct structure, such that FastNMR converges to a high-resolution structure? To address this question, we compared the deviation of the backbone conformations, selected in our robustness tests, from the native structure, rms(Sfold - Snative), with the deviation of the structures, obtained from these backbone conformations after completion of FastNMR, again from the native structure, rms(Sfinal - Snative). In all cases, FastNMR produced a high-resolution structure of Conk-S1 when the backbone conformation, prior to entering side chain chemical shift assignment, deviated by less than ~3.5 Å from the native structure (Supporting Fig. S4C). Whereas for ab initio prediction this cannot generally be achieved, backbone conformations of domain-sized proteins obtained from NMR-based iterative backbone assignment and fold determination in most cases fulfill this requirement.[8, 9] Note that no information about homology to proteins with known 3D structures is used in FastNMR, but could easily be incorporated. Supporting Fig. S4D shows the comparison of rms(Sfold - Snative) with rms(Sfinal - Snative) for the robustness tests, in which no C connectivity information was used. Despite the missing and two wrong backbone assignments, the convergence properties are very similar. When rms(Sfold - Snative) is smaller ~3.5 Å, FastNMR converges to a high-resolution structure of Conk-S1. Only in two cases (marked in red in Fig. S4D) FastNMR did not converge to a high-resolution structure despite the fact that the intermediate fold deviated by only ~3 Å from the native structure. However, both these structures have very high energies (Supporting Fig. S4B) clearly identifying them as not converged. Noteworthy in one case, FastNMR converged to a highresolution structure (backbone rmsd of 0.7 Å to the native structure) although the backbone conformation prior to side chain chemical shift assignment deviated by 5.8 Å from the native structure (Supporting Fig. S4D).
+
+8
+
+FastNMR tolerates spurious peaks and multiple conformations In the various 3D experiments, in which the magnetization is detected on the 1HN nuclei, one pair of 1HN and 15N chemical shifts is expected for each amino acid in the protein except for prolines and the C-terminal residue. However, when parts of the protein exchange between different conformations, backbone signals can be missing if the exchange is intermediate on the NMR time scale, or additional signals can be present if the exchange is slow on the NMR time scale. Additional signals can also be due to spectral artifacts. The influence of multiple conformations and spurious peaks on the performance of FastNMR was tested for the 76-aa protein ubiquitin. The ten most C-terminal residues were removed from the primary sequence of ubiquitin, while keeping all 70 experimentally observed spin systems. Despite the presence of four spin systems, which did not correspond to any position in the primary sequence, FastNMR calculated a high-resolution structure of ubiquitin (data not shown). The tests on ubiquitin are strongly supported by the results obtained from the de novo FastNMR structure determination of the 65-aa toxin Conk-S2. Initially, Conk-S2 NMR samples were prepared in 50 mM sodium acetate buffer, pH 5.2. In a first 2D 1 H-15N HSQC recorded on Conk-S2, however, about 95 peaks potentially corresponding to 1H/15N backbone nuclei were present. Therefore, the pH was raised to pH 6.3 (50 mM sodium phosphate buffer). At pH 6.3, 60 backbone signals were visible in the 2D 1H-15N HSQC spectrum and in the triple-resonance spectra, roughly fitting to the expected 59 backbone signals (Conk-S2 contains 5 prolines). The high-resolution structure of Conk-S2 was then determined at pH 6.3 (see Fig. 1A and Table 1 in main manuscript). FastNMR not only produced the high-resolution structure of Conk-S2, but also the assignment of backbone and side chain resonances. Surprisingly, only for 53 residues the backbone signals (and therefore also the side chain resonances) had been assigned by FastNMR, i.e. seven backbone signals remained unassigned. Therefore, additional triple-resonance experiments (3D HNCO, 3D HN(CA)CO, 3D HNCA and 3D HN(CO)CA) were measured to see if the remaining seven 1H/15N backbone signals could be assigned. Manual analysis of the six 3D triple resonance spectra finally proofed that two of these signals correspond to V64 and G65. The others five spin systems, however, were multiple conformations of residues G65 (2x), V64 (1x), R6 (1x). One spin system could not be assigned. In addition, after close inspection of some weaker spin systems (not counted in the seven) were assigned to residues Q58, Q61 and Y62. No signals were observed for residues S8, G42, T53 and N54 due to chemical exchange intermediate on the NMR time scale. Thus, FastNMR was able to determine a high-resolution de novo structure of Conk-S2 despite significant complications due to chemical exchange.
+
+9
+
+Supporting Fig. S4. Stability tests of FastNMR performed on Conk-S1. For testing the robustness of FastNMR, protein folds, Sfold, were selected prior to entering the NOE analysis (see Supporting Fig. 1) that, on purpose, covered a wide range of deviations from the native structure, Snative. These Sfold conformations were fed into the remainder of the FastNMR calculation resulting in a large number of different ensembles, Sfinal, each containing 20 structures. In panels A and C, 97% of backbone resonances were assigned automatically by FastNMR (using C and C connectivity information and four types of RDCs) prior to entering the NOE analysis. After removing C connectivity information from the input to FastNMR, panels B and D, FastNMR obtained backbone assignments for only 93 % of residues. In addition, we exchanged the assignment of two out of the 93% assigned residues on purpose, to probe the influence of wrong backbone assignments. (A) and (B): Comparison of the energy of Sfinal structures with the rms deviation of these structures from the conventionally determined solution structure (PDB code: 2CA7), rms(Sfinal - Snative). Panel A is identical to Fig. 1D in the main manuscript. (C) and (D): Evaluation of the required accuracy of the protein fold, Sfold. The deviation of Sfinal ensembles from the native structure (PDB code: 2CA7), rms(Sfinal - Snative), was compared to the rms deviation of the native structure from the selected fold, rms(Sfold. - Snative). These data show that the deviation of the backbone-only conformation from the native structure, rms(Sfold. - Snative), has to be less than 3.5 Å to achieve convergence to a high-resolution structure using FastNMR. Note that in two cases (marked red in panel D) FastNMR did not converge to a high-resolution structure despite the fact that the intermediate fold deviated by only ~3 Å from the native structure. Both of these problematic cases, however, are unambiguously identified as not converged by their high final energy (marked red in panel B). [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] A. Bax, S. Grzesiek, Accounts. Chem. Res. 1993, 26, 131. Y. Xia, A. Yee, C. H. Arrowsmith, X. Gao, J. Biomol. NMR 2003, 27, 193. J. J. Chou, A. Bax, J. Am. Chem. Soc. 2001, 123, 3844. V. Vijayan, M. Zweckstetter, J. Magn. Reson. 2005, 174, 245. J. Meiler, J. Biomol. NMR 2003, 26, 25. G. Cornilescu, J. L. Marquardt, M. Ottiger, A. Bax, J. Am. Chem. Soc. 1998, 120, 6836. K. Osapay, D. A. Case, J. Biomol. NMR 1994, 4, 215. Y. S. Jung, M. Sharma, M. Zweckstetter, Angew. Chem.-Int. Edit. 2004, 43, 3479. C. A. Rohl, D. Baker, J. Am. Chem. Soc. 2002, 124, 2723. M. Wittekind, L. Mueller, J. Magn. Reson. 1993, B101, 201 S. Grzesiek, A. Bax, JACS 1992, 114, 6291 J. J. Chou, F. Delaglio, A. Bax, J. Biomol. NMR 2000, 18, 101 G. T. Montelione, B. A. Lyons, S. D. Emerson, M. Tashiro, J. Am. Chem. Soc. 1992, 114, 10974 S. Grzesiek, J. Anglister, A. Bax, J. Magn. Reson. B. 1993, 101, 114 J.-S. Hu, S. Grzesiek, A. Bax, JACS 1992, 119, 1803 J.-S. Hu, A. Bax, J. Biomol. NMR 1997, 9, 323
+
+10
+
+

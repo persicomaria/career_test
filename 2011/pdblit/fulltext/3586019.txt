@@ -1,0 +1,562 @@
+J. Mol. Biol. (1982) 160, 623-639
+
+Structure of Thermolysin Refined at 1.6 A Resolution
+M. A. HOLMES AND B. W. MATTHEWS Institute of Molecular Biology and Department of Physics University of Oregon, Eugene, OR 79403, U.S.A. (Received 19 February 1982, and in revised form 26 May 1982)
+The structure of the thermostable protease thermolysin has been refined by a restrained least-squares procedure at a nominal resolution of 1.6 A to a conventional R-value of 21.3% for 34,671 observed reflections (or R = 195% for reflections with F, > 3a(Fo)). The refined structure was constrained to adhere to known stereochemistry, with root-mean-square deviations of O-021 A from ideal bond lengths and 2.9" from ideal bond angles. The final model included 173 solvent molecules, which were given unit occupancies. Seven of these are "buried" wit'hin the protein. Atoms with the least apparent thermal motion tend to be those that are most deeply buried within the two domains of the structure. The active-site zinc tetrahedral co-ordination. Unusual features of the is shown to have approximately structure, confirmed by the refinement, include a cis-proline, a y-turn, and a single turn of left-handed x-helix. The refinement shows that thermolysin does not contain unusual structures and supports our previous assertion that the thermostability of thermolysin and of thermostable proteins in general is due to a combination of factors which. in different instances, can include hydrophobic interactions, hydrogen bonding, ionic interactions. disulfide linkages, metal binding and other forms of stabilization.
+
+1. Introduction
+The crude atomic co-ordinates obtained from fitting a model of an enzyme to a
+
+medium resolution (2.5 to 4.0 A) electron density map can yield much information about the structure of the molecule, including the geometry of the active site and the spatial disposition of amino acid residues implicated in catalysis. However, these initial atomic co-ordinates are not reliable enough to define the changes in enzyme conformation that may occur during catalysis. To examine subtle details of structure, atomic co-ordinates that have been refined against high-resolution data are needed. In this paper, we describe the high-resolution refinement of the structure of native thermolysin and discuss the results of the refinement. The structure of thermolysin, a heat-stable protease, M, 34,600, was initially determined at 2.3 A resolution (Matthews et al., 1972a,1974; Colman et al., 1972). The overall structure consists of two roughly spherical domains with a deep cleft across the middle of the molecule, between the two domains. This cleft contains the active site. Crystallographic studies of the binding of inhibitors to thermolysin have revealed the probable mode of binding of extended substrates and have suggested a
+823 0022-2836/82/280623-17 $03.00/O
+
+p' 1982 Academic Press Inc. (London) Ltd
+
+624
+
+11. A. HOLMES
+
+AND
+
+B. LV. MATTHEWS
+
+mechanism Matthews,
+
+of action for the enzyme (e.g. see Weaver 1977: Holmes & Matthews, 1981).
+
+ef (xl., 1977: Kestrr
+
+R
+
+2. Data Collection (a) (`ryelal<s
+Crystals of thermolysin used for high-resolution data collection were grown as described previously (Matthews rt al.. 197%) with the modification that the pmtein solution included 2.5 M-C&I. The "standard mother liquor" used was 001 M-ealrium acetate. @Ol >r-Tris. and 79; (v/v) dimethgl sulfoxide, adjusted to pH 7.2.
+(b) Intensity tnewurrvnrn~t
+
+The 2.3 A resolution data set was collected previously It? the mrthod of pretessicIn photography (Colman et al., 1972). A 1.6 A resolution data set was obtained using oscillation photography on an Elliot GX-21 rotating anode generator equipped with a graphitta monochromator and a collimator with adjustable apertures (Schmid et nl.. 1981). The generator was run at 55 kW on a focal spot mea&ring 0.5 mm x 50 mm. A cylindrical cassette was used in conjunction with a modified Enraf-Nonius precession camera with a stepping motor driven by a microprocessor controller. A pair of reference pins in the cassette eliminated the need for fiducial marks on the film other than the direct beam (Schmid et ccl.. 1981). Two films of Kodak No-Screen X-ray film were included in each oscillation film pa'k [cf. Matthews et al., 19726). Although a number of strong reflections were "overloaded" on the second film, these reflection intensities were obtained from the previously measured precession data set. The oscillation films were processed using a program based on that of M. G. Rossmann (Rossmann, 1979: Schmid et al., 1981). Statistics are given in Table I. Th(a merged high-resolution data set contains approximately 95% of the data to 1.7 `4 resolution. but beyond this point the data become very weak and only 27"4, of the reflections between 1.7 .!! and 1.6 A were recorded.
+
+Oscillation
+
+data wt
+
+Number of film packs
+
+Total number of measurements Sumber of unique reflections
+Lkvrrage Raym (7;) t$ R mer%e including partial reflrctions$j/ (%) R merge without partial reflertions (9,)
+
+Merged oucillation/preceuuion data set Rmerge (`&) bet.wren oscillation and precession data Number of unique reflectionsc t R = ZII-J1/Zl.
+is the R-value for symmetry-related intensities recorded on the same tiln. 3 mcqe is the R-value for Intensities measured on different films or from different data sets. II Partial reflections are measured by summing 2 or more components recorded on adjacent films as described by Schmid rt al. (1981). 7 The additional reflections relative to the oscillation data alone are mainly intense. low-resolutior~. reflections that were "overloaded" on the oscillation films. 6% 34.97 I
+
+STRUCTURE
+
+OF THERMOLYSIN
+
+AT
+
+1.6 A RESOLUTION
+
+625
+
+3. Refinement
+(a) Method of refinement
+
+The refinement of thermolysin was carried out by the restrained least-squares procedure of Hendrickson & Konnert (1980: see also Sielecki et al., 1979). The original program was separated into two parts: PROLSF, which produces the matrix elements for the structure factor derivatives, and PROLSO, which completes the parameter shifts. This division of the single program into two parts increases efficiency for the VAX computer (P. Briley, personal communication). One change was made to the "standard groups dictionary" that defines the ideal geometry used in the stereochemical restraints. On the basis of small molecule geometry. the arginine side-chain had been defined as having just the last four atoms coplanar, but we found it necessary to set the last five atoms coplanar in order to prevent large, inexplicable shifts in the arginine side-chain atoms (possibly due to an undetected error in the program). The initial model protein co-ordinates were those of Matthews et ~2. (1974). In all cycles of refinement, an inner resolution limit of 10.0 A was used. The computing time on a VAX 1l/780 computer needed for a cycle of refinement for the thermolysin space group P6,22, with approximately 2500 atoms, was about 15 central processor unit hours for the 14,000 reflections in the 2.3 A resolution data set and was 21 central processor unit hours with a floating point accelerator in place for the 35,000 reflections in the high-resolution data set. (The floating point accelerator halved the amount of central processor time needed by this particular program.) Over 90% of the computing time required for a cycle is spent calculating the struct'ure factors and their derivatives. (b) Course and progress of rejinement The progress of the refinement of the thermolysin structure is summarized graphically in Figure 1. The first 20 cycles of refinement were carried out with the 2.3 g precession data set, the initial cycle consisting of stereochemical idealization only. Difference maps were calculated and water molecules added to the structure after cycles 7 and 15. Halfway through, after the tenth cycle, individual at,omic temperature factors were introduced. One set of weights for structure factors and stereochemistry was used throughout. The entire refinement proceeded very smoothly, with the only manual adjustment to the protein itself being a change in the temperature factor of a methionine sulfur atom. The results of this initial refinement proved to be very valuable in understanding, and later refining, the structures of several thermolysin-inhibitor complexes (Holmes & Matthews, 1981). High-resolution refinement began at cycle 21 with the introduction of the 1.6 A resolution merged oscillation-precession data set. All the data between IO.0 A and 1.6 A were used immediately, and an additional 37 cycles of refinement were performed. These cycles include various "experimentations" with the stereochemical idealization parameters. A difference map was calculated and water molecules were added to the structure after cycle 34. At various times, water
+
+626
+
+M. A. HOLMES
+
+AND
+
+B. W. MATTHEWS
+
+35-. 30. 25. 20 .
+
+2.3 a-t-l.6
+
+H I
+
+65
+
+*.. `.* -*..* ....... ... *...*
+. ..* **.... .....
+
+*-I...... **.......***
+
+. . . . . . . . . . . . . . . .._... -*................. ,,//,,,/,/,,,,, ,,,,,/, 50 40
+
+I I
+
+60
+
+`"bet /,,// ,,,, / /,,,,,/,,,/,/,,,/,,/,,, 0 IO 20
+
+155
+
+30
+
+Reflnement cycle
+
+FIG:. I. Summary of the course of the t,hwmolysin wfinement showing thra crystallographic R-value (A), root-mean-square discrepancy between the phase angles determined by isomorphous replacement and those calculated from the model (a). and root-mean-square discrepancy of the model from ideal bond lengths (m) and planarity (a).
+
+molecules that had very high temperature factors or formed bad interatomic contacts were deleted from the co-ordinate list. During the high-resolution refinement. some changes were made with the structure factor weighting. In the latter cycles, the standard deviations used were either bhr value estimated from film processing (cf. Table 2) or a minimum threshold value of 30. This rather conservative approach was used, since the estimated values do not take into account, systematic errors, for example due to absorption. and it was felt that they TABLE 2
+AYructure factor stat&k jir thP rt$ned ,model
+
+No. of
+Resolution 1O+A~o .50-3.5
+352.9
+
+W,,)
+o(Fo)
+1W.i %i
+
+(A)
+
+reflections 1450 2880 3638 4223 4370 4173 4227 4114 3741 1855 34.671 28.7 I2
+
+114'" F, / 9x 76
+
+All If,"
+"24 IX
+
+F, > 30( i",) `2.1
+150
+
+2.9-25 p.`,-.z.z 2.2-2.0 2.0-19 1.9--l+ 1%I.7 1.7-l% (hi-all
+
+8.1 1km I 54 19.1 23.2 29. I 34.2 41.1
+
+59 46 41 37 33 31 35 II
+
+Ii.8 195 20.4 "1.3 24.0 2X.2 355 42% 2 I .:I
+
+173 1X.9 I94 20.0 "15 23.7 335 19.3
+
+STRUCTURE
+
+OF THERMOLYSIN
+
+AT
+
+1.6 ,ti RESOLUTION
+
+627
+
+might be unrealistically low in some cases. Towards the end of the refinement, the bond length and bond angle weights were tightened to improve the stereochemistry of the model. Later, interatomic contact restraints were added and torsion angle and chiral center weights were tightened. The final crystallographic R-value for the 1.6 A data is 21.3% for a model that includes 173 water molecules. The root-meansquare shift between the starting co-ordinates and the final refined values is 0.56 A for all atoms in the structure and 648 A for main chain atoms. The structure factors and refined parameters for the thermolysin structure have been deposited in the Brookhaven Protein Data Bank (Bernstein et aE., 1977). The fact that no manual adjustment of the protein conformation was required during refinement is unusual. In retrospect, a number of factors contributed to the excellent set of starting co-ordinates. The original electron density map of thermolysin (Matthews et al., 1972a ; Colman et al., 1972) was of high quality and was further improved by the inclusion of additional isomorphous derivatives (Matthews et al., 1974). Also, the resolution (2.3 A) was higher than most isomorphous replacement maps. Finally, the atomic co-ordinates were obtained by placing markers directly on the map sections rather than measuring them from a wire model (Matthews et al., 1974).
+(c) Agreement of the rejned model with the diffraction
+
+data
+
+During the course of the refinement of the thermolysin structure, the R-value decreased from 39.1% to 21.3% (Fig. 1; Table 2). The discrepancy between the phases calculated from the model and the multiple isomorphous replacement phases from 160 A to 2.3 A resolution decreased from a root-mean-square value of 68" to one of 57". This agreement especially improved after cycles 7 and 15, when new water molecules were added to the model (Fig. 1). If the initial isomorphous replacement phases are very poor, then the model phases may tend to move away from the isomorphous replacement phases as the refinement proceeds. On the other hand, if the initial isomorphous replacement phases are good, then these phases will be a better approximation to the correct values than those provided by the original model, which not only includes coordinate errors, but usually does not include solvent, and assumes an overall thermal factor. In such cases, of which thermolysin is an example, the discrepancy between the isomorphous replacement and the model phases will decrease as the refinement proceeds to a limiting value determined by errors in the isomorphous replacement phases and also, presumably, by limitations in the refined model. At the completion of the high-resolution refinement, the mean value of the phase discrepancy (aMis- acalJ was 35", bespeaking the accuracy of the isomorphous replacement phases. For these phases, the mean figure of merit was O-79 (Matthews et al.. 1974), corresponding to a mean error in phase of 38" (Blow & Crick, 1959 ; Dickerson et al., 1961), in good agreement with the value of 35". (d) Agreement
+of the model with ideal stereochemistry
+
+The deviations of the refined model of thermolysin from ideal geometry are given in Table 3. The distribution of the deviations of the bond lengths and angles from
+
+628
+
+M. A. HOLMES
+
+AND TABLE
+
+B. W. MATTHEWS 3
+
+Deviation
+
+from ideal geometry
+
+Bond lengths (A) Bond angles (deg.) Planarity (A) Chiral volume (A3) Non-bonded contacts Separated by a single torsion angle (A) Separated bv multiple torsion angles. including van der 6'aals' contact and hydrogen bonds (A) Torsion angles (deg.) Planar Staggered Orthonormal The entries in the Table give the root-mean-square deviations of the listed parameters from "ideal" values. The chiral volume for a C", for example. is enclosed by C". @. C and S and ensures that the correct handedness is maintained; planar torsion angles occur in peptides and amides. staggered torsion angles occur between tetrahedral carbon atoms and orthonormal torsion angles occur between tetrahedral and trigonal carbons.
+
+their ideal values corresponds to the range of values observed in "small molecule" structure determination. Thus the refinements program allows physically reasonable deviations from ideal geometry to occur. The average bond length and bond angle values for the peptide group are given in Table 4. In no case is there a significant difference between the average value of a parameter and the "optimum" restrained value, although it can be noted that the tetrahedral angles at the alphacarbon atoms are more variable than the other angles. The average value of the angle at the alpha-carbon is greater than the tetrahedral value of 109%". but only marginally so. The refinement program PROLSQ has the capability of restraining van der
+
+Average peptide geometry
+Bonds Restrained value (A) Average value (A) Root-nlean-square deviation (A)
+
+Angles
+
+(deg.)
+
+t w = 180' corresponds to a planar peptidr
+
+bond
+
+STRUCTURE 0.36 0.32 0.28r
+
+OF THERMOLYSIN
+
+AT
+
+1.6 A RESOLUTION . r=o.z E
+
+629
+
+sin 8
+
+FIN:. 2. Luzzati plot (Luzzati,
+
+1952). The plotted R-values are for reflections with B', > 3uFu,
+
+Waals' contacts. When a pair of atoms tend to move too close together, a term is added to the least-squares matrices to ensure that the approach is within acceptable limits. This type of restraint was not included in the first 49 cycles of refinement, because the program did not recognize the possibility of various hydrogen bonds involving water molecules. Neither were interactions involving the metal ions recognized. Since the contacts restraint was not used, the model was periodically screened for bad interatomic contacts. The worst contacts always involved water molecules, in which cases the offending molecules would be deleted from the co-ordinate list. This procedure gave quite acceptable root-mean-square deviations from ideality for interatomic contacts; namely, 0.34 A for contacts involving atoms 1 and 4 of a single torsion angle and 0.19 A for contacts between atoms further removed in the chemical structure of the protein (including water molecules). The last eight cycles of refinement included corrected contact restraints (although salt linkages were still not recognized), and resulted in only slightly improved deviations from ideality. (e) Error in the refined model Figure 2 is a Luzzati diagram (Luzzati, 1952) for the refined thermolysin structure. Except for the extreme low-angle and high-angle data, the points lie between the line for a mean co-ordinate error of 0.15 A and that for an error of 0.20 A. However, the Luzzati plot leads to an overestimation of the error in the model, as it assumes that error in the co-ordinates is the only cause of disagreement between Fcalc and Fobs. Thus we conclude that the mean error in the refined thermolysin structure is not more than 0.15 A.
+
+4. Conformation
+
+of the Molecule
+
+As discussed above, the refinement of thermolysin caused only small adjustments in the atomic co-ordinates. In no case was it necessary to invert a peptide bond or
+
+630
+
+M. A. HOLMES
+
+AND
+
+B. W. MATTHEWS
+
+12c
+
+6C
+
+3
+
+0
+0 316X X26
+
+-60
+Xl52 -120
+
+1590X
+
+0
+
+o--xx
+
+______ 0
+-120
+
+!., 1. -60 I 0
+
+I 60
+
+I
+120
+
+FIG. 3. Conformational diagram for the backbone of thermolysin. "allowed" regions for a hard-sphere model are numbered.
+
+Residues that are outside the
+
+otherwise modify the backbone conformation. For this reason, the extensive discussion of the secondary structure of thermolysin given previously (Matthews et al., 1974) applies without change, and need not be repeated here. Unusual features of the structure confirmed by the refinement include a cis peptide bond at ProSI, a y-turn at Thr26 and a single turn of left-handed n-helix including Asp226-Asn227Gly228-Gly229. A plot of the backbone dihedral angles for refined thermolysin is shown in Figure 3. This plot is very similar to that one based on the initial model (Matthews et al., 1974). Most of the non-glycine residues that were outside the "allowed" regions for an empirical hardsphere model in the initial structure remain outside in the refined structure. This result indicates that the "disallowed" combinations of dihedral angles seen in Figure 3 are not due to experimental error, since they have survived the refinement process. The co-ordination of the active-site zinc ion is approximately tetrahedral (Table 5) with three protein ligands and a bound water molecule. Rees et al. (1981) have recently reported that for carboxypeptidase A the zinc co-ordination of Glu72 is bidentate, resulting in overall pentaco-ordination of the metal. However, for thermolysin the co-ordinating oxygen, OEl of Glu166. is 2.1 A from the zinc. whereas the second oxygen, OE2, is 2.7 A away. Therefore, the refinement supports tetrahedral zinc co-ordination in native thermolysin, although pentaco-ordination is observed in some inhibitor complexes (e.g. see Holmes & Matthews, 1981).
+
+STRUCTURE
+
+OF THERMOLYSIN
+
+AT 1.6A
+
+RESOLUTION
+
+631
+
+TABLE 5 Zinc co-ordination
+Ligand His142 NE2 His146 NE2 GM66 OEl H,O 0392 Ligands H20-ZnZfPNE2 144 H20-Zn'+-NE2 146 H,O-Zn'+-OEl 166 142NE2-Zn*+-OEl 166 146NE2-Zn *+-OEl 166 142NE2-Zn*+-NE2 146 Distance (A) 2.10 2.08 2.08 1a3 Angle (deg.) 1186 118.1 94.4 127.7 94.7 102.4
+
+TABLE
+
+6
+
+Calcium
+L&and Distance (A) Cal Aspl8.5 ODl Asp185 OD2 Clu177 OEl Glu177 OE2 Glu190 OEl Glu190 OE2 (~1~187 0 Asp183 0 Asp138 ODl H,O 0346 H,C) 0353 H,O 0475 Ca2 2.43 2.52 2.53 2.42 240 2.51 2.29 246 2.62 2.46 2.16 2.40 237
+
+ligand
+
+distances
+Distance (A) Ca3 Ligand Distance (A) ca4 Tyr193 0 Thr194 0 Thr194 OGl TIC197 0 Asp200 ODl H,O 0354 H,O 0480 2.43 2.54 2.48 2.31 2.24 2.42 2.35
+
+Ligand
+
+Asp57 ODl Asp57 OD2 Asp59 ODl Glu61 0 H,O 0419 Hz0 0482 H,O 0503
+
+2.23 2.7 1 2.34 2.18 2.40 2.36 2.29
+
+The geometry at the four calcium-binding sites is summarized in Table 6. Apart from small adjustments in the individual ligand distances, the description of the calcium-binding sites given previously (Matthews et al., 1974) still applies. The calcium to calcium distance at the double metal binding site is confirmed to be 3.83 A.
+
+5. Protein Dynamics
+The individual atomic temperature factors obtained by refining a protein structure contain contributions from thermal vibrations, disorder of the crystal, and conformational variability among the molecules in the crystal (e.g. see Frauenfelder et al., 1979; Artymiuk et al., 1979; Sternberg et al., 1979). Frauenfelder et al. analyzed atomic displacements in metmyoglobin, considering the sum of
+
+632
+
+M. A. HOLMES
+
+AND
+
+B. W. MATTHEWS
+
+223
+
+FIG. 4. Stereo diagram illustrating the apparent thermal motion of t,he thermolysin molecule. Larger circles correspond to residues with greater apparent motion. The radius of each c~wlr l\as obtained 1)~ taking the average R value for all atoms in that residue, subtracting a constant value of 4.0 AZ (in order to make differences in apparent motion more obvious) and drawing the circle at t,hr SO'?; probabilit? level (Johnson, 196.5).
+
+vibrational and conformational contributions and subtracting out crystal disorder contributions. They reasoned that the conformational contribution is large, since the atomic displacements reach large values relative to typical vibrational displacements. Artymiuk et al. carried out independent refinements of two homologous lysozymes that crystallize in unrelated space groups and found that the thermal displacements in the two enzymes agreed closely, suggesting that crystal packing effects are not serious and that displacements in the crystal are related t,o those t'hat occur in solution. With these findings in mind. we have analyzed the temperature factors obtained during t'he thermolysin refinement. atoms of thermolysin, with the Figure 4 is a stereo drawing of the alpha-carbon radius of each atom proportional to the displacement calculated from the average temperature factor for the residue. Figure 5 shows the average mean-square displacement plotted along the polypeptide chain. For the most part, the residues on the surface of the molecule have higher average temperature factors. while the internal residues have lower average temperature factors. Regions of highest, mobility occur for exposed surface loops in the vicinity of residues 128,180 and 225, as well as the amino and carboxyl termini. The two long ni-helices that cross in the middle of the molecule (residues 137 to 151 and 160 to 180) have relatively low motion. as does the other long helix (residues 65 to 87). which is also largely buried. Thermolysin consists of two distinct domains, joined by a single helix (residues 137 to 151). As can be seen in Figure 5, the thermal motion in the C-terminal domain, which is predominantly a-helical, is, on the average, slightly larger than in the N-terminal domain, which contains mostly p-sheet. Because of the distinctive domain structure, we have analyzed the average displacement as a function of distance both from the center of each domain and from the center of the whole
+
+STRUCTURE
+
+OP THERMOLYSIN
+
+AT
+
+l.Sip
+
+RESOLUTION
+
+633
+
+Ca2
+
+Cal
+
+Ca4
+
+0.25
+
+0.05b
+
+HHH
+
+H
+
+HHH
+
+HHH
+
+H-
+
+H
+
+HH
+
+HHH
+
+HHHHH
+
+MF
+
+0.00 0
+
+B
+
+p 20
+
+,p 40
+
+, 60
+
+01 80
+
+,P, 100
+
+,Q 120 140
+
+]Q,
+
+0
+
+QPQ 260 280
+
+0
+
+a 300
+0
+
+160 180 200 220 240
+number
+
+Residue
+
+FIG. 5. Apparent thermal motion of thermolysin plotted as a function of position along the polypeptide chain, Values plotted are the average for all atoms in a given residue. Thin bars and thick bars show the locations of p-sheet strands and helices, respectively. Also shown are the locations of all residues that arc ligands to the active-site zinc ion and the 4 bound calcium ions.
+
+molecule (Fig. 6). The obvious result, as seen previously by others, is that atoms within the molecule (i.e. within about 10 A of either the center of gravity of the individual domains (Fig. 6(a) and (c)) or the whole molecule (Fig. 6(b) and (d)) have relatively low and more-or-less equal motion, whereas residues outside 10 A, which includes surface residues, begin showing a wide range of displacements. Careful inspection of Figure 6 suggests that the atoms with the least motion tend to be closer to the domain center (Fig. 6(a) and (c)) rather than the molecular center. In ot,her words, the residues that are buried most deeply within the protein tend to be those with the least apparent motion. This finding tends to support the argument that apparent "thermal motion" seen in protein crystals is relevant to motion in solution (cf. Frauenfelder et al., 1979; Artymiuk et al., 1979). If the "B values" of a protein crystal were dominated by crystal disorder, then they would be expected to have a minimum value at the center of gravity of the whole protein. The fact that this is not the case for thermolysin suggests that crystal disorder is not the dominant factor. There is no clear correlation between the locations of the bound calcium ions and regions of low or high motion (Fig. 5). However, the three zinc ligands, as well as all the residues in the active site region (Fig. 5) do have relatively low apparent displacements. This is in contrast to lysozyme where Artymiuk et al. (1979) found the active site is to be located in a region of high displacement. However, in contrast to hen lysozyme, bound competitive inhibitors are not observed to cause conformational changes in thermolysin (e.g. see Holmes & Matthews, 1981, and references therein).
+
++ + + + + + t ++ 1 : + l +++ + ; + + *
++
++++ + +
+
+0 4 0 xl
+0 E
+++
+
+* +
+l + ++ + i+`t+d + + ++y
+
+*+
++ ++ t'
+
++ i+`t+d + ++ +++z ~. ++ +
++ + : + *++ **++++ *+ *+ +*+ + ++
+
++ +
++ :;
+
+l
+
++*
+
+++?P& +
+
++ ++ +: ;+ + + ++*+$f+ +++ ,+:* : +
++ ++ + ++ +: :+ + + + +*+$f+ ++ + ++:* : + c + + +$ +*++ + )I
+
++++ +;+
+
++t+* ft +**
+
++
+
+;s;+++#++
+
+-; +
+
++
+
++t+
+
+l
+
++?4,+ $p+ ,J*? ++ +
+* + ++* + + + `+ ++ + -0 + : +
+
+0 do
+
+0
+
++
++
+
+++
+++
+
++Q +t' + ,% , .+# t + t + + + +t'
+
+; ;
+
+0
+
+4
+
++ +
+cl :: :
+++ + +
+
++
+
++
+
++ +
+
++t
+
++ ++
++++ I+ l +
+
++ 0
+::
+
++
+
++
+
+++
+
++ + +
+
+"`++p l + t *+t.+:+* ++: 1$+ * + `4 r+ + `y+ + t t+ f*+ *+++ + t t * +*
+
+_
+
+0
+
+`D 0 Al 0 -i 0 ;t
+
+0
+
+STRUCTUREOFTHERMOLYGINAT
+
+1.6A RESOLUTION
+
+635
+
+6. Solvent Structure
+A total of 173 water molecules was included during refinement. For these, the refined individual temperature factors range from 9 6' to 82 A2. Occupancies of the water molecules were not refined. Presumably, the overall R-value could have been reduced somewhat by allowing water molecules with partial occupancy, but this was not attempted. The active site of the enzyme contains about a dozen water molecules, many of which are displaced when inhibitors and, presumably, substrate molecules bind to thermolysin. The active site Zn ' + has a water molecule as a ligand in addition to three side-chain ligands, and the four calcium ions are also co-ordinated by both protein and water ligands (Tables 5 and 6). Other water molecules bind to surface atoms of the protein or fill small hydrophilic crevices (cf. Birktoft & Blow, 1972; Bode & Schwager, 1975; Watenpaugh et al., 1978). Some of the water molecules bound to surface protein atoms are shared between two neighboring protein molecules. There are seven water molecules that are "buried" within the protein, two of these occurring in the region of the Cal-Ca2 binding site. A summary of the environment of the water molecules is given in Table 7. To construct the Table, we listed all atoms within 3.2 A of each water molecule (cf. Watenpaugh et al., 1978) and then divided the water molecules into groups according to whether they had one, two, three. .close contacts with surrounding atoms. These contacts can be regarded as potential hydrogen bonds, although we did not check the detailed geometry in each case. As can be seen from the Table, most of the water molecules make one, two or three hydrogen bonds with neighboring atoms (including other solvent molecules). There are four water molecules with six potential ligands within 3.2 A. In each of these cases, the water molecule in question is a calcium ligand and is, in addition, hydrogen-bonded to one, two or three other water molecules. Thus, the calcium binding sites tend to be both hydrated and compact. On average, the solvent atoms that are seen in the crystal structure make more contacts with the protein than with other solvent atoms. Solvent atoms with the maximal number of contacts are those most intimately associated with the protein. As seen in Table 7, these maximally bonded atoms are those with the lowest apparent motion, no doubt because their motion tends to reflect that of the protein to which they are hydrogen-bonded. Also, the variability in thermal motion of the multiliganded solvent atoms, as estimated by the standard deviations quoted in Table 7, is less than that for solvent atoms with only one or two contacts. One striking result that can be seen in Table 7 is that many more water molecules form hydrogen bonds with oxygen atoms than with nitrogen atoms. Including other solvent atoms, the ratio is 5 to 1, and for hydrogen bonds to the protein it is 3 to 1. In part, this discrepancy is due to the fact than an amide nitrogen can donate only a single hydrogen bond, whereas a carbonyl oxygen can accept hydrogen bonds from more than one water molecule. Also, an oxygen atom can accept hydrogen bonds over a rather wide angular range (i.e. from water molecules that occupy a range of positions), whereas a water molecule accepting a hydrogen bond from a nitrogen must occupy a position more-or-less colinear with the N-H bond.
+
+Average Typo HJI 0 OX mfw-square displacement (A2)
+
+of iuteracting ,I'
+
+atom NX C'a2 + zn"+
+
+PIlTumber of interactions 1bf.r water moleculf~
+
+Numbw of wa.ter molecules in class
+
+1 2 3 4 5 ?54 52 36 11 1 0.51 kO.19 0,43 * 0.18 0,29 _t 0. I 6 @21*0.12 0.25 18 `n Jl 40 14 2 IX 26 26 7
+
+11 23 18 14
+
+4 7 14 4
+
+3 11 9 2
+
+1 3
+
+1
+
+6 1 02 1+ om
+1 I9 15.8
+
+8
+
+I -i
+84
+
+2 5
+73 29 PA
+
+4
+8 1
+
+Total
+
+STRUCTURE
+
+OF THERMOLPSIN
+
+AT
+
+1.6 i% RESOLUTION
+
+637
+
+In addition, side-chain hydroxyl and protonated carboxyl groups are versatile in that they can either donate or accept hydrogen bonds, while side-chain nitrogen atoms are capable only of donating hydrogen bonds. It appears that every backbone nitrogen and carbonyl oxygen that is "inside" the protein is in a position to participate in hydrogen bonding of one sort or another. Considering the entire protein, 84 of the peptide carbonyl oxygen atoms are within hydrogen-bonding distance of a water molecule, whereas this occurs for only 29 peptide nitrogen atoms.
+
+7. Thermostability
+One of the initial motivations for determining the structure of thermolysin was to obtain insights into the mechanism of thermostability. Following the initial struct'ure determination, we concluded that the enhanced thermostability of thermostable proteins cannot be attributed to a single determinant but, in general, arises from a combination of small differences in hydrophobic character, metal binding, hydrogen bonding, ionic interactions and so on (Matthews et al., 1974; Weaver et al., 1976). Subsequent studies have provided additional support for this rationalization. In the case of the bacterial ferredoxins, Perutz & Raidt (1975) have argued that, salt bridges are of prime importance whereas, in hemoglobin, salt bridges, hydrogen bonds and non-polar bonds may provide extra energy of stabilization. Walker et al. (1980) have also argued that ionic interactions are important. Argos et al. (1979) have carried out a statistical analysis of amino acid substitutions in thermophilic and mesophilic ferredoxins and dehydrogenases in an attempt to explain the differences in stability of these molecules. In agreement with Matthews et al. (1974). Argos et al. (1979) concluded that thermal stability is achieved by the addition of many small changes throughout a protein molecule. They also suggested that stabilization of therm&table proteins is enhanced by having a higher proportion of helix-stabilizing residues in helices, and similarly for sheets. In an alternative approach to understanding the molecular basis of the of proteins, we have analyzed a series of temperature-sensitive stabilization mutants of phage lysozyme (e.g. see Griitter et al., 1979 ; Schellman et al., 1981). These studies show directly that substantial changes in the thermal stability of a protein can result from the replacement of a single amino acid residue, with practically no change in the backbone structure of the molecule. In addition, it has been found that the replacement of one amino acid residue with another can, in different cases, lead to very different changes in stability. For example, one t,emperature-sensitive mutant lysozyme has the substitution Thr -+ Ala, while another such mutant has exactly the opposite substitution. i.e. Ala -+ Thr (M. G. Griitt*er Us B. W. Matt,hews. unpublished results). In this case, there is no net change of charge. Clearly, the consequences of substituting one amino acid residue for anot,her depend on the environment of that particular residue. These findings are consistent with our previous inferences from the thermolysin structure concerning the thermostability of proteins. The important point) is that the net free energy of stabilization of a protein is numerically small (e.g. 10 to 20 kcal), but this
+
+638
+
+M. A. HOLMES
+
+AND B. W. MATTHEWS
+
+number represents a difference between energy terms that are themselves large : t'hc principal contribution to stabilization coming from hydrophobic interactions, and the principal destabilization term being due to the entropy cost of holding t'he protein in its defined tertiary conformation. Thermostable proteins, such as thermolysin, differ from their mesophilic counterparts in having a slightly higher net energy of stabilization but, as the thermolysin structure shows, t'his does not require special structural features. In the case of thermolpsin, t'hr bound calcium ions must contribute to the overall stability of the molecule and. as w have suggested previously (Matthews et al., 1974), may help protect surfact, loops of bhc enzyme against autolysis. However, we believe that the use of bound metals is just one possible mode of stabilization. Similarly, ionic interactions may also play a significant role but we do not believe that increased thermostability ppr RPis always due exclusively to an increased number of ionic interactions. Rather. we suggest that in a given instance a variety of stabilizing effects can contribute : these include hydrophobic int,eractions, ionic and hydrogen bonding, metal binding, disulfidr bonds, stabilization of secondary structure. and so on.
+Prior to the work described here. a partial refinement, of the thermolysin structure at 2.3 x was carried out by Dr Lynn F. Ten Eyck (unpublished result). We thank Dr Ten Eyck for several computer programs and for discussions on refinement techniques. We also t,hank our co-workers Drs R. Fisher. M. F. Schmid and I,. H. Weaver as well as Drs P. Brilry, W. A. Hendrickson and A. R. Sielecki for various help with dat,a collection and with computational and refinement procedures. This work was support,ed in part by grants from the National Science Foundation (PCM 8014311). the National Institutes of Health (GM 20066) and the M. J. Murdocbk Charitable Trust.
+
+REFERENCES Argos, P.. Rossmann, M. G., &au, I`. M., Zuber. H.. Frank. (:. & Tratschin. J. 1). (1979). Biochemistry. 18, 5698&5703. Artymiuk. I'. J., Blake. C. C. F., Grace. D. E. I'.. Oatlry. S. J.. Phillips. I). (`. & Sternberg. M. J. E. (1979). Nakure (London). 280. 563-568. Bernstein, F. C., Koetzle. I. F., Williams, U. J. B.. Meyer. E. F.. Jr. Brice. M. (`., Rodgtbrs. J. R.. Kennard. 0.. Shimanouchi. T. & Tasumi, M. (1977). J. Mol. Biol. 112, 535-542. Birktoft, J. J. $ Blow, D. M. (1972). J. Mol. Biol. 68, 187-240. Blow, D. M. & Crick, F. H. C. (1959). Acta Crystallogr. 12, 794-802. Bode. W. & Schwager, P. (1975). J. Mol. Biol. 98, 693S717. Colman, P. M., Jansonius, J. N. & Matthews. B. W. (1972). J. Mol. Biol. 70. 701-724. Dickerson, R. E.. Kendrew, J. C. & Strandberg, B. E. (1961). Actn (`rystallogr. 14.1188-l 195. Frauenfelder, H., Petsko, G. A. 8r Tsernoglou. D. (1979). .htUrP (London). 2&O, 558-563. &titter, M. G.. Hawkes, R. B. & Matthews, B. W. (1979). Xaturr (London). 277. 667-669. Hendrickson, W. A. & Konnert, J. H. (1980). In Computing in Crystallography (Diamond. R.. Ramaseshan, S. & Venkatesan, K.. eds), pp. 13.01~13.23. Indian Academy of Sciences. Bangalore. Holmes, M. A. & Matthews, B. W. (1981). Biochemistry, 20, 6912%6920. Johnson, C. K. (1965). Oak Ridge National Laboratory. Publication ORNL-37!)4. Kester, W. R. & Matthews, B. W. (1977). Biochemistry. 16. 25f)6-2516. Luzzatti, P. V. (1952). Acta Crystallogr. 5, 802-810. Matthews, B. W., Jansonius, J. N., Colman, 1'. M., Shoenborn. H. I'. & 1)upourqur. I). (1972a). Nature New Biol. 238, 37-41.
+
+STRUCTURE OF THERMOLYS-fN
+
+AT 16 A RESOLUTION
+
+639
+
+Matthews. B. W., Klopfenstein, C. E. & Colman, P. M. (19726). J. Phys. E. Sci. Instrum. 5, 353-359. Matthews, B. W., Weaver, L. H. & Kester, W. R. (1974). J. Biol. Chem. 249, 8030-8044. Perutz, M. F. & Raidt, H. (1975). AUure (London), 255. 256-259. Rees, D. C., Lewis, M., Honzatko, R. B., Lipscomb, W. N. & Hardman. K. D. (1981). Proc. ,Vat. Acad. Sci., U.S.A. 78, 34083412. 12, 225-238. Rossmann, M. G. (1979). J. AppZ. Crystallogr. Schellman, ?J.A., Lindorfer, M., Hawkes, R. & Griitter, M. (1981). Biopolymers, 20.1989-1999. Schmid, M. F., Weaver, L. H., Holmes, M. A., Griitter, M. G., Ohlendorf, D. H., Reynolds, R. A., Remington, S. J. & Matthews, B. W. (1981). Acta crystallogr. sect. A, 37,701-710. Sirlecki. A. R., Hendrickson. W. A.. Broughton, C. G.. Delbaere, I,. T. J., Brayer. G. D. & James, M. N. G. (1979). J. Mol. BioZ. 134. 781-804. Sternberg. M. J. E.. Grace, D. E. P. & Phillips, D. C. (1979). J. Mol. Biol. 130, 231-253. 108, 581-586. Walker, J. E., Wonacott, A. J. & Harris, J. I. (1980). Eur. J. B&hem. Watrnpaugh. K. D.. Margulis. T. N.. Sieker, I,. C. & Jensen, L. H. (1978). J. Mol. BioZ. 122, 175190. Weaver, L. H., Kester, W. R., Ten Eyck, L. F. & Matthews, B. W. (1976). In Symposium on Enzymes and Proteins from Thermophilic Microorganisms (Zuber. H.. ed.), pp. 31-39, Birkhauser-Verlag, Base]. Weaver. L. H.. Kester. W. R. & Matthews. B. W. (1977). J. Mol. Biol. 114. 119-132.
+
+Edited
+
+by R. Huber
+
+

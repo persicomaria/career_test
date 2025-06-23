@@ -1,0 +1,373 @@
+Relationship between the structure of SET/TAF-I /INHAT and its histone chaperone activity
+Shinsuke Muto*, Miki Senda§, Yusuke Akai§, Lui Sato*, Toru Suzuki¶, Ryozo Nagai, Toshiya Senda , and Masami Horikoshi***
+*Laboratory of Developmental Biology, Institute of Molecular and Cellular Biosciences, University of Tokyo, 1-1-1 Yayoi, Bunkyo-ku, Tokyo 113-0032, Japan; Horikoshi Gene Selector Project, Exploratory Research for Advanced Technology, Japan Science and Technology Agency, 5-9-6 Tokodai, Tsukuba, Ibaraki 300-2635, Japan; Departments of Cardiovascular Medicine and ¶Clinical Bioinformatics, Graduate School of Medicine, University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-8655, Japan; §Japan Biological Information Research Center, Japan Biological Informatics Consortium, 2-42 Aomi, Koto-ku, Tokyo 135-0064, Japan; and Biological Information Research Center, National Institute of Advanced Industrial Science and Technology, 2-42 Aomi, Koto-ku, Tokyo 135-0064, Japan Edited by Roger D. Kornberg, Stanford University School of Medicine, Stanford, CA, and approved January 15, 2007 (received for review May 9, 2006)
+
+Histone chaperones assemble and disassemble nucleosomes in an ATP-independent manner and thus regulate the most fundamental step in the alteration of chromatin structure. The molecular mechanisms underlying histone chaperone activity remain unclear. To gain insights into these mechanisms, we solved the crystal structure of the functional domain of SET/TAF-I /INHAT at a resolution of 2.3 Å. We found that SET/TAF-I /INHAT formed a dimer that assumed a ``headphone''-like structure. Each subunit of the SET/ TAF-I /INHAT dimer consisted of an N terminus, a backbone helix, and an ``earmuff'' domain. It resembles the structure of the related protein NAP-1. Comparison of the crystal structures of SET/TAFI /INHAT and NAP-1 revealed that the two proteins were folded similarly except for an inserted helix. However, their backbone helices were shaped differently, and the relative dispositions of the backbone helix and the earmuff domain between the two proteins differed by 40°. Our biochemical analyses of mutants revealed that the region of SET/TAF-I /INHAT that is engaged in histone chaperone activity is the bottom surface of the earmuff domain, because this surface bound both core histones and doublestranded DNA. This overlap or closeness of the activity surface and the binding surfaces suggests that the specific association among SET/TAF-I /INHAT, core histones, and double-stranded DNA is requisite for histone chaperone activity. These findings provide insights into the possible mechanisms by which histone chaperones assemble and disassemble nucleosome structures.
+nucleosome chromatin transcription replication repair
+
+ukaryotic DNA is packaged into nucleosomes that consist of dsDNA and four different basic proteins (H2A, H2B, H3, and H4) called core histones (1, 2). Three types of factors are known to be involved in altering chromatin structure, namely, histonemodifying enzymes, ATP-dependent chromatin-remodeling complexes, and histone chaperones (3­8). The roles played by the two former enzymes in chromatin remodeling have been extensively studied. However, much less is understood about the molecular mechanisms underlying histone chaperone activity, which assemble or disassemble the DNA around core histones and thereby form and disrupt the nucleosome, respectively. In general, a molecular chaperone is a molecule that associates with a target protein and prevents its aggregation. Because histones and DNA form aggregates when mixed directly under physiological conditions, histone chaperones must associate with free histones to prevent their improper interactions with DNA. In addition, histone chaperones facilitate the accurate deposition of free histones onto DNA. Conversely, histone chaperones also play important roles in the removal of histones from nucleosomes, which must occur before the DNA can be replicated (9), repaired (10), and transcribed (11). All histone
+www.pnas.org cgi doi 10.1073 pnas.0603762104
+
+E
+
+chaperones have nucleosome assembly activity, and at least some, and perhaps all, including CIA/ASF1, have nucleosome disassembly activity (12). Some histone chaperones function with components of several chromatin-related complexes, including histone acetyltransferases (13), histone deacetylases (14), and ATP-dependent chromatin-remodeling complexes (15). Thus, in concert with other chromatin-related factors, histone chaperones play an important role in nuclear events that involve chromatin templates. Although the structure of histone chaperones has been studied such structural analyses have not particularly advanced our understanding of the molecular bases underlying histone chaperone activity (16­21). For example, although structural analysis of nucleoplasmin advocates a model of its histone storage activity, it did not explain how nucleoplasmin functions in nucleosome assembly (16). To address the molecular basis of histone chaperone activity in more detail, we here analyzed the structure of SET/TAF-I /INHAT. SET/TAF-I /INHAT was first identified as a translocation breakpoint-encoded protein in acute undifferentiated leukemia (22). It is a multifunctional protein that has been shown to bind preferentially to histone H3 (23­25), exhibit histone chaperone activity (26), interact with various factors such as DNA-binding proteins (27, 28) and proteases (29), and regulate transcription (27, 28, 30, 31), replication (32), and apoptosis (33). In addition, SET/TAF-I / INHAT inhibits the activity of histone acetyltransferases, which suggests that it regulates the nuclear activity that arises from the chemical modification of core histones (34). Here, we determined the crystal structure of the functional domain of human SET/TAF-I /INHAT and compared it to that of yeast NAP-1 (21). As we show here, this histone chaperone adopts a symmetrical dimerized form that has a ``headphone''like shape, which is interesting given that histones form symmetrical octamers. Moreover, the fact that it forms dimers suggests that it may function differently from other histone chaperones such as the nucleoplasmin family, which forms a
+Author contributions: M.H. designed research; S.M., M.S., Y.A., L.S., and T. Senda performed research; S.M., M.S., Y.A., L.S., T. Suzuki, R.N., T. Senda, and M.H. analyzed data; and S.M. and M.H. wrote the paper. The authors declare no conflict of interest. This article is a PNAS direct submission. Freely available online through the PNAS open access option. Data deposition: The atomic coordinates have been deposited in the Protein Data Bank, www.pdb.org (PDB ID code 2E50). **To whom correspondence should be addressed. E-mail: horikosh@iam.u-tokyo.ac.jp. This article contains supporting information online at www.pnas.org/cgi/content/full/ 0603762104/DC1. © 2007 by The National Academy of Sciences of the USA
+
+PNAS
+
+March 13, 2007
+
+vol. 104
+
+no. 11
+
+4285­ 4290
+
+BIOCHEMISTRY
+
+A [kDa]
+80 60 50 40
+30 20
+
+wt C
+
+B
+Core histones
+
+wt
+Core histones H2A-H2B
+
+C
+Core histones H2A-H2B (H3-H4) 2
+
+H2A-H2B
+
+H3 H2A H2B H4
+
+1
+
+2
+
+1
+
+2
+
+3
+
+4 wt
+
+5
+
+6
+
+7
+
+8 C
+
+9
+
+C
+
+Histone agarose
+
+D [Competitor]
+Core histones (H3-H4)2 BSA
+
+wt C
+
+1
+
+2
+
+1
+Core histones control
+
+2
+
+3 -
+
+4
+
+5
+
+6
+
+E
+R S
+
++ wt C
+
+wt
+
+C
+
+assay, the WT protein bound all four core histones whereas the C deletion protein bound histones H3 and H4 (Fig. 1B). This implies that the N-terminal region of SET/TAF-I /INHAT is sufficient for the binding activity to histone H3 and H4. On the other hand, the C-terminal acidic stretch is required to form a complex with all core histones, H2A, H2B, H3, and H4. In addition, both of the WT and SET/TAF-I /INHAT C proteins bound histone­agarose (Fig. 1C) and eluted off when adding histone H3 and H4 as a competitor (Fig. 1D). We confirmed that SET/TAF-I /INHAT specifically bound histone­agarose but not protein A-agarose (data not shown). Although the histone binding activities are different between WT and C proteins (Fig. 1B), the two showed similar histone chaperone activities (Fig. 1E). Thus, the acidic stretch of SET/TAF-I /INHAT was not necessary for binding activity to histone H3 and H4 and histone chaperone activity, although it was required for histone H2A­H2B binding activity. These results showed that SET/TAFI /INHAT has histone chaperone activity specific to histone H3 and H4. Therefore, to investigate the molecular basis underlying the histone chaperone activity of SET/TAF-I /INHAT, we determined the crystal structure of the SET/TAF-I /INHAT C mutant (37).
+SET/TAF-I /INHAT C Dimers Assume a Headphone-Like Shape. We
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+Fig. 1. Functional activities of SET/TAF-I /INHAT C. (A) Coomassie brilliant blue staining of purified SET/TAF-I /INHAT WT (lane 1) and C (lane 2) proteins. (B) Complex formation of SET/TAF-I /INHAT with core histones. After incubating histones H2A­H2B, H3, and H4, or all four core histones with Ni-NTA agarose beads, which captured SET/TAF-I /INHAT WT (lanes 1­3), C (lanes 4 ­ 6), and no protein (lanes 7­9), the bead-bound fraction was resolved by SDS/PAGE and stained with Coomassie brilliant blue. (C) Interaction of SET/TAF-I /INHAT WT (lane 1) and C (lane 2) proteins with histone­agarose. (D) Histone binding specificity of SET/TAF-I /INHAT WT and C by competition assay. Shown is eluted SET/TAF-I /INHAT in supernatant after addition of 100 pmol (lanes 1 and 4), 350 pmol (lanes 2 and 5), and 1,000 pmol (lanes 3 and 6) of competitor proteins [core histones, (H3-H4)2, and BSA] to SET/TAF-I / INHAT-bound histone­agarose. (E) Histone chaperone activity of SET/TAF-I / INHAT C. Circular plasmid DNA (lane 1) was relaxed by topoisomerase I and then incubated with (lanes 2­ 4) or without (lanes 5­7) core histones plus SET/TAF-I /INHAT WT (lanes 3 and 6), SET/TAF-I /INHAT C (lanes 4 and 7), or no protein (lanes 2 and 5). Under these conditions, a small amount of supercoiled DNA formed in the absence of SET/TAF-I /INHAT (lane 2). R, relaxed; S, supercoiled.
+
+(H3-H4) 2
+
+(H3-H4) 2
+
+decamer (16, 18) and CIA/ASF1, which exists as a monomer (17, 19, 20). Mutational analysis revealed that the bottom of the ``earmuff domain'' of SET/TAF-I /INHAT binds both core histones and dsDNA and is also involved in regulating histone chaperone activity. This overlap or closeness of the binding surfaces suggests that the specific association among SET/TAFI /INHAT, core histones and dsDNA plays a key role in histone chaperone activity. Thus, the structural analysis of SET/TAFI /INHAT may provide further insights into why some histone chaperones have disparate functions. Collectively, our findings provide insights into the action of histone chaperones. Results
+The Acidic Stretch of SET/TAF-I /INHAT Is Unnecessary for Either Its Histone Chaperone or Core Histone-Binding Activities. Histone chap-
+
+determined the crystal structure of SET/TAF-I /INHAT C by the MAD method [supporting information (SI) Table 1]. SET/ TAF-I /INHAT C forms a dimer that assumes a headphonelike shape. The dimers are 110 50 50 Å3 in size, and each subunit consists of an N terminus, a backbone helix, and an earmuff domain (amino acids 1­24, 25­78, and 79­225, respectively) (Fig. 2 A and B). SET/TAF-I /INHAT and its putative alternatively spliced variant TAF-I differ only in their Nterminal domains (38). This domain is probably highly mobile in solution because the electron density of the residues between the 1- and 2-helices could not be observed (Fig. 2 A). In the crystal, the 1-helix is sandwiched by two earmuff domains originating from the adjacent molecule. It remains unclear whether this interaction is of biological significance. The 51-aa-long backbone helix is bent at 50°, and in the dimer the two backbone helices interact hydrophobically in an antiparallel manner (SI Fig. 5 A and B). A pseudo twofold axis runs perpendicular to the backbone helix (Fig. 2B and SI Fig. 5 A and B). The residues contributing to dimer formation are A31, H34, I35, V38, I42, L45, A49, I53, V56, Y60, R64, F67, F68, R71, L74, and I78 (SI Fig. 5B). This finding is compatible with a report showing that the V38E/I42S/L45E/A49E and V38S/I42S/L45S/ A49S mutants are unable to dimerize (39). The earmuff domain, which is attached to the concave side of the backbone helix, forms an structure in which six -helices are located on four-stranded antiparallel -sheets (Fig. 2C). The electron density of the residues between the 4-strand and 6-helix (residues 168­188) could not be observed (Fig. 2 A), which suggests that the lower part of the earmuff domain is highly mobile in aqueous solution. This is supported by the fact that the peptide bond between amino acid residues K176 and A177, which are located in this putative mobile region, is reported to be cleaved by the cytotoxic T lymphocyte protease granzyme A (40).
+Structural Comparison with NAP-1. The primary structure of SET/
+
+erones often exhibit long acidic stretches; however, recent studies have shown that removal of these residues from NAP-1, nucleoplasmin, CIA/ASF1, and NO38 does not impair their histone chaperone or core histone-binding activities (16­18, 21, 35, 36). To determine whether the acidic stretch of 40 aa in the C-terminal region of SET/TAF-I /INHAT is required for its core histone-binding and histone chaperone activities, we purified a protein containing only the N-terminal amino acids 1­225, which lacks the acidic stretch (Fig. 1A). On Ni-NTA pull-down
+4286 www.pnas.org cgi doi 10.1073 pnas.0603762104
+
+TAF-I /INHAT is similar to that of NAP-1 (Fig. 2 A), whose crystal structure was reported very recently (21). Comparison of the crystal structure of SET/TAF-I /INHAT with that of NAP-1 revealed that the two proteins are also folded similarly except for a helix of NAP-1 (helix 3) that has been inserted between the backbone helix (part of domain I) and the earmuff domain (domain II) [the domains of NAP-1 that are shown in parentheses refer to the previously published designations (21)] (Fig. 2 A). The rms deviation derived from the least-squares fittings of
+Muto et al.
+
+Fig. 2. Structure of SET/TAF-I /INHAT C. (A) Amino acid sequences of SET/TAF-I /INHAT and NAP-1. The -helices (yellow) and -strands (green) in the sequences are indicated. Residues modified by site-directed mutagenesis (see Fig. 4 A­C and SI Table 2) are red, and those with no observable electron density are not capitalized. Residues in the acidic stretch are gray. (B) Overall structure of the SET/TAF-I /INHAT C dimer, with the pseudo twofold axis highlighted in red. (C) The structure of the earmuff domain.
+
+the corresponding 156 C atoms of each subunit was on average 3 Å. This large rms deviation is mainly due to two reasons. First, the shapes of the backbone helices differ, as a top view of the NAP-1 backbone helix shows a sigmoid shape (21) whereas that of SET/TAF-I /INHAT is nearly straight (Fig. 3A). Second, the relative disposition of the backbone helix and the earmuff domain differs between the two proteins, as an outward rotation of 40° is required to superimpose the earmuff domain of SET/TAF-I /INHAT onto the corresponding domain of NAP-1 (Fig. 3A). In addition, the disposition of the N-terminal helices of the two proteins differ, because helix 1 of NAP-1 interacts with the earmuff domain (domain II) of another subunit in the dimer whereas the corresponding helix ( 1) of SET/TAF-I /INHAT interacts with an adjacent dimer molecule in the crystal lattice. Despite these differences, the core structures of the earmuff domains of the two proteins are similar with an average rms deviation of 1.9 Å for 106 C atoms. The highly conserved hydrophobic cores of the two proteins suggest that they are evolutionarily closely related. The differences between the earmuff domains of the two proteins exist in helix 7 of SET/TAFI /INHAT, as the corresponding helix of NAP-1 (helix 6) is
+
+10 residue longer (Figs. 2 A and 3B) and protrudes from the earmuff domain. Additionally, there are some deletions in the loop region of SET/TAF-I /INHAT compared with that of NAP-1 (Figs. 2 A and 3A).
+The Electrostatic Potential of the SET/TAF-I /INHAT C Dimer. Anal-
+
+ysis of the electrostatic potential of the SET/TAF-I /INHAT C dimer indicates that the convex surface of the backbone helix is positively charged because of the basic residues K26, R44, K59, K62, K70, and K77 (SI Fig. 6A). The electrostatic properties of the two sides of the earmuff domain differ; SET/TAF-I / INHAT C has both acidic and basic faces (SI Fig. 6B). The -helix side of the earmuff domain contains negatively charged acidic residues (E98, E101, E102, D165, D202, E203, E206, D210, and D211), and this negatively charged area extends across the same side of the backbone helix (E25, E33, D36, E37, D43, E47, and E51). In addition, there are only three basic residues on this surface (H89, H105, and K164). In contrast, the opposite surface possesses more basic than acidic residues (14 vs. 11), resulting in a slightly positively charged surface. Because it was difficult to predict from the electrostatic potentials which
+
+Fig. 3. Comparison of the structures of SET/TAF-I /INHAT and NAP-1. (A) Bottom (Left) and front (Right) views of the superimposed structures of NAP-1 (green) and SET/TAF-I /INHAT (red). The yellow helices indicated by the arrows are the extra helix of NAP-1 that is inserted between the backbone helix and the earmuff domain (domain II). The rotation angle for the superimposition of the earmuff domains of NAP-1 and SET/TAF-I /INHAT is given in the front view. Helices in the earmuff domain are not shown for clarity. (B) The superimposition of the earmuff domains of NAP-1 (green and blue) and SET/TAF-I /INHAT (red). The extra residues that are unique to the NAP-1 structure are shown in blue. The corresponding residues of fragment A could not be modeled in the present study because of disordering. Fragment B is a long insertion of NAP-1 (see Fig. 2 A).
+
+Muto et al.
+
+PNAS
+
+March 13, 2007
+
+vol. 104
+
+no. 11
+
+4287
+
+BIOCHEMISTRY
+
+A
+R A C H I L B F K G F B
+
+K E H
+
+L I C A
+
+D
+wt A B C D E F G H I J K L M N O P Q R
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9 10 11 12 13 14 15 16 17 18 19
+
+E
+90
+
+wt A B C D E
+
+F
+
+G H
+
+I
+
+J
+
+K
+
+L M N O P Q R
+
+B
+A C H I L M N E K O B F G
+
+B A E Q P
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9 10 11 12 13 14 15 16 17 18 19 20
+
+F
+wt A B
+C
+
+R D
+
+C D
+
+E
+
+F G H
+
+I
+
+J
+
+K
+
+L M
+
+N O P Q R
+
+P
+
+N
+
+1
+90
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9 10 11 12 13 14 15 16 17 18 19
+
+C
+N
+
+G
+L O P Q R G K G P O K L R D N
+
+wt A B
+
+C D
+
+E
+
+F
+
+G H
+
+I
+
+J
+
+K L M
+
+N O P Q R
+
+D C
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9 10 11 12 13 14 15 16 17 18 19
+
+Fig. 4. Mapping of SET/TAF-I /INHAT activities. (A­C) Location of triple mutated residue sets as observed from the top view (A), side view (B), and bottom view (C) of SET/TAF-I /INHAT. For detailed information, see SI Table 2. (D) SDS/PAGE of the SET/TAF-I /INHAT WT and mutant proteins and staining with Coomassie brilliant blue. For full gel information, see SI Fig. 7. (E) Histone chaperone activities of the SET/TAF-I /INHAT WT and mutant proteins. The estimated relative net activity of each mutant is as follows: WT, 100; A, 103; B, 94; C, 98; D, 87; E, 91; F, 97; G, 99; H, 97; I, 104; J, 98; K, 98; L, 93; M, 88; N, 38; O, 36; P, 67; Q, 64; R, 95 (see Materials and Methods). (F and G) Histone-binding (F) and dsDNA-binding (G) activities of the SET/TAF-I /INHAT WT and mutant proteins. The bound proteins were detected by immunoblot analysis using anti-His antibodies. Mutants N, O, and P demonstrated impaired binding activities. The estimated relative histone binding activity of each mutant is as follows: WT, 100; A, 98; B, 101; C, 91; D, 127; E, 98; F, 108; G, 103; H, 101; I, 108; J, 106; K, 96; L, 81; M, 100; N, 0; O, 0; P, 5; Q, 70; R, 122. The estimated relative DNA binding is as follows: WT, 100; A, 71; B, 89; C, 114; D, 121; E, 123; F, 117; G, 124; H, 138; I, 88; J, 77; K, 79; L, 73; M, 64; N, 5; O, 7; P, 0; Q, 29; R, 59 (see Materials and Methods).
+
+surfaces were critical for histone chaperone function, we mutated most of the surface amino acid residues in sets of three (Figs. 2 A and 4 A­C). This helped us to identify the functional region, as described below.
+The Earmuff Domain Binds Both Core Histones and dsDNA and Is Involved in Histone Chaperone Activity. We constructed 18 mutants
+
+in which three spatially successive amino acid residues were converted into alanine residues (Fig. 4 A­C and SI Table 2) and purified these proteins to near homogeneity (Fig. 4D and SI Fig. 7). The expression, solubilization, and purification of all mutant proteins were almost the same as those of the WT protein. Mutants N (S162A/K164A/D165A) and O (T191A/T194A/ D195A), whose modifications were located at the bottom of the earmuff domain, demonstrated impaired histone chaperone activity ( 35% of WT activity) (Fig. 4E). In addition, the activities of mutants P (D202A/E203A/E206A) and Q (K209A/ D210A/D211A) were marginally decreased ( 65% of WT activity). Further mapping of the histone-binding surface indicated that mutants N, O, and P exhibited decreased interaction with core histones (Fig. 4F). The triple mutations of N, O, and P form a line from the lower region of the earmuff domain to its internal side (Fig. 4C and SI Fig. 8). It is of note that the CD spectra of the mutants N, O, P, and Q showed that these mutants folded properly (data not shown). Given that histone chaperones regulate interactions between core histones and DNA, it is
+4288 www.pnas.org cgi doi 10.1073 pnas.0603762104
+
+possible that these proteins interact directly with both molecules. Thus, we investigated the association of WT and mutant SET/ TAF-I /INHAT proteins with dsDNA and found impaired binding in mutants N, O, and P (Fig. 4G). Although the bottom of the earmuff domain is negatively charged (SI Fig. 6C), the region where the electron density is not observed (residues 168­188) and which may cover the negatively charged surface has several basic residues, namely, three lysine and three arginine residues (Fig. 2 A). Our experiments with the 18 mutants suggest that this lower part of the earmuff domain is used for binding both core histones and dsDNA and thus is responsible for the histone chaperone activity of the protein. Discussion Structural analysis of the functional domain of SET/TAF-I / INHAT revealed that it forms a dimer with a headphone-like structure. Recently, the structure of NAP-1, a related histone chaperone, was reported (21). Although the overall structures of NAP-1 and SET/TAF-I /INHAT were similar, the relative disposition of the earmuff domains differed significantly. This structural disparity may be responsible for some differences in how the structures of the two proteins relate to their functions. Park and Luger (21) predicted that the acidic lower part of the earmuff domain of NAP-1, with the support of the acidic stretch, is involved in neutralizing and binding the basic N-terminal histone tails. In NAP-1, the lower part of the earmuff domain (domain II) is composed of the 1-, 4-, 5-, and 6-helices
+Muto et al.
+
+along with a short helix between 4 and 5 (Fig. 3A). Our biochemical analysis of SET/TAF-I /INHAT, however, did not suggest that the corresponding helices of SET/TAF-I /INHAT ( 1, 3, 4, 5, and 7) are involved in histone binding. Instead, residues on helix 6, on the loop after 4, and on the N-terminal part of the helix 7 were identified to interact with histones (Fig. 4F). If the equivalent residues would be involved in the histone binding of NAP-1, this would result in two putative binding sites in the NAP-1 dimer that face distinct directions; as a result, NAP-1 could interact with two histone molecules (or complexes) (Fig. 3A). Alternatively, NAP-1 and SET/TAF-I /INHAT simply might use different residues to bind histones. Clarification of this issue will require the functional analysis of NAP-1 based on its tertiary structure. Our structural and biochemical analyses demonstrated that the bottom of the earmuff domain of SET/TAF-I /INHAT interacts with both dsDNA and core histones. The strong correlation between the DNA-binding and histone chaperone activities of the SET/TAF-I /INHAT triple mutants suggests that the DNA-binding of SET/TAF-I /INHAT is a requisite step in its histone chaperone activity. Because the dsDNA- and core histone-binding surfaces in SET/TAF-I /INHAT overlap (or lie very closely adjacent to each other), the dsDNA and core histones may be closely enough juxtaposed upon binding to the earmuff domain that they form a prenucleosome complex with SET/TAF-I /INHAT. SET/TAF-I /INHAT could then guide the dsDNA onto specific sites of the core histones and thereby determine the initiation site for DNA-winding. These specific interactions between the three components thus appear to play a fundamental role in the histone chaperone activity of SET/ TAF-I /INHAT. Such specific interactions could also prevent the nonproductive aggregation of the components. DNA, histones, and SET/TAF-I /INHAT may associate in two different ways. The first scenario involves a complex that is composed only of DNA, histones, and SET/TAF-I /INHAT. In this complex, either both earmuff domains of the dimer bind histones and DNA simultaneously or one earmuff domain binds histones while the other binds DNA. In the second scenario, the complex includes not just DNA, histones, and SET/TAF-I / INHAT but also another factor or an additional molecule of SET/TAF-I /INHAT acts as a bridge between the SET/TAFI /INHAT-histone and SET/TAF-I /INHAT-DNA complexes. Further cocrystal structural studies will provide a greater understanding of the relationship between the structures of histone chaperones and their chaperone functions. Materials and Methods
+Preparation of Recombinant Proteins. The SET/TAF-I / INHAT C region was PCR-amplified and subcloned into pET14b (Novagen, Darmstadt, Germany). The SET/TAF-I / INHAT triple mutation constructs were generated by sitedirected PCR mutagenesis. The His-tagged SET/TAF-I / INHAT WT, C, and mutant proteins were overexpressed and purified as described previously (37). Before histone-binding, DNA-binding, and histone chaperone assays, the recombinant proteins were dialyzed in dialysis buffer [20 mM Tris HCl (pH 7.9), 100 mM NaCl, 10% glycerol, 10 mM 2-mercaptoethanol, and 0.5 mM PMSF]. Histone Chaperone Assay. Histone chaperone activity was mea-
+
+stopped by adding a 1/3 volume of stop buffer (1% SDS and 500 g ml 1 proteinase K) followed by incubation at 30°C for 15 min. The plasmids were then extracted by using phenol-chloroform followed by ethanol precipitation and separated by 1% agarose gel electrophoresis. The histone chaperone assay was done in duplicate. The DNA bands were quantified by densitometry using the program ImageJ (41). The activity of each mutant was calculated as (band density of the supercoiled DNA)/(band density of all of the DNA); these values were expressed as relative activities by normalization with the WT value and background. Core histones were prepared from HeLa cells essentially as described previously (42).
+Histone-Binding Assay. Histone-binding assays were performed by
+
+Ni-NTA Pull-Down Assay. Ni-NTA pull-down assays were per-
+
+formed by incubating 20 l of Ni-NTA His Bind resin (Novagen) with 100 pmol SET/TAF-I /INHAT (WT or C proteins) in binding buffer [20 mM Tris HCl (pH 8.0), 300 mM KCl, 20% glycerol, 0.2 mM EDTA, 0.1% NP-40, 30 mM imidazole, and 2 mM PMSF] at 4°C for 30 min, followed by washing three times in the same buffer. The matrix-bound proteins were then mixed with X. laevis recombinant histones [50 pmol of core histone, 100 pmol of H2A­H2B, or 50 pmol of (H3-H4)2] in 200 l of binding buffer at 4°C for 50 min. After washing three times, the bead-bound fraction was resolved by SDS/PAGE and stained with Coomassie brilliant blue.
+Crystal Structure Determination. Three Met residues were introduced at positions 104, 145, and 166 for the MAD phasing (Fig. 2 A). The selenomethionyl mutant (L104M, L145M, and L166M) was crystallized by the sitting drop vapor diffusion method as described previously (37). MAD data collections at 100 K were performed by using a Quantum 210 CCD camera at beamline NW12 of Photon Factory (PF)-AR in KEK (Tsukuba, Japan). Diffraction data were processed and scaled by using the program package HKL2000 (44) (SI Table 1). SHELXD (45) and SHARP (46) were used to determine the selenium sites and phases, respectively. Electrondensity modification and model building were performed by using SOLMON (47) and XtalView (48), respectively. The highresolution data set for crystallographic refinement (2.3-Å resolution) was collected at 100 K by using a Quantum 4R CCD camera at beamline 6A of PF in KEK. Crystallographic refinement was
+PNAS March 13, 2007 vol. 104 no. 11 4289
+
+sured as described previously (36). Briefly, 3 pmol SET/TAFI /INHAT (WT or mutants) and 2 pmol core histones were allowed to form complexes in assembly buffer [10 mM Tris HCl (pH 8.0), 150 mM NaCl, 1 mM EDTA, and 100 g ml 1 BSA] during a 15-min incubation at 30°C. Circular DNA (0.05 pmol) was relaxed by using 5 units of topoisomerase I (Promega, Madison, WI), then incubated with the histone chaperone/ histone complexes at 30°C for 45 min. The reactions were
+Muto et al.
+
+BIOCHEMISTRY
+
+incubating 37.5 g of histone­agarose [calf thymus core histones conjugated to agarose (Sigma, St. Louis, MO)] with 0.25 pmol His-tagged SET/TAF-I /INHAT (WT or mutant proteins) in binding buffer [20 mM Tris HCl (pH 7.5), 100 mM NaCl, 10% glycerol, 1 mM EDTA, 50 mM 2-mercaptoethanol, and 0.25 mM PMSF] at 4°C for 30 min, followed by four washes in binding buffer. For competition experiments, increasing amounts of the each competitor protein [recombinant Xenopus laevis core histones or (H3-H4)2, or BSA] were added to the washed agarose in a total of 120 l of binding buffer. After incubation for 60 min at 4°C, supernatant was separated from agarose beads by centrifugation and precipitated by TCA. Western blot analysis was performed by separating the washed agarose and supernatant by SDS/PAGE and transferring it to a poly(vinylidene difluoride) membrane, followed by probing and visualization using an anti-HIS probe antibody (Santa Cruz Biotechnology, Santa Cruz, CA) and SuperSignal reagents (Pierce, Rockford, IL), respectively. The suitability of these histone­agarose complexes for our histone-binding experiments was substantiated by an experiment that showed that, although GST did not bind to them, the histone-binding corepressor SMRT (43) interacted specifically with them (data not shown). The Western-blotted bands were quantified by densitometry using the program ImageJ (41). The relative activity to WT SET/TAF-I /INHAT was then calculated for each mutant.
+
+performed by using CNS (49) and REFMAC5 (50). The TLS parameters were refined by REFMAC5 (50). The final model comprises 694 residues of the two dimers. A total of 91.3% of all residues fall in the most favored Ramachandran category, with 8.4% in the allowed category, 0% in the generously allowed category, and 0.3% in the disallowed category.
+Structural Analysis and Molecular Graphics. The buried accessible
+
+0.25 pmol SET/TAF-I /INHAT (WT or mutant proteins) in binding buffer at 4°C for 30 min, followed by four washings in the same buffer. Immunoblot analysis was performed as described above. The DNA-binding assay was done in duplicate. The Western-blotted bands were quantified by densitometry using the program ImageJ (41). The relative activity to WT SET/TAFI /INHAT was then calculated for each mutant.
+We thank R. Natsume and N. Adachi for technical support. This research was supported in part by Grants-in-Aid for Science Research from the Ministry of Education, Culture, Sports, Science and Technology of Japan; the Ministry of Health, Labor and Welfare of Japan; the New Energy and Industrial Technology Development Organization; and Exploratory Research for Advanced Technology of the Japan Science and Technology Agency.
+28. Miyamoto S, Suzuki T, Muto S, Aizawa K, Kimura A, Mizuno Y, Nagino T, Imai Y, Adachi N, Horikoshi M, Nagai R (2003) Mol Cell Biol 23:8528 ­ 8541. 29. Beresford PJ, Kam CM, Powers JC, Lieberman J (1997) Proc Natl Acad Sci USA 94:9285­9290. 30. Matsumoto K, Okuwaki M, Kawase H, Handa H, Hanaoka F, Nagata K (1995) J Biol Chem 270:9645­9650. 31. Gamble MJ, Erdjument-Bromage H, Tempst P, Freedman LP, Fisher RP (2005) Mol Cell Biol 25:797­807. 32. Matsumoto K, Nagata K, Ui M, Hanaoka F (1993) J Biol Chem 268:10582­ 10587. 33. Fan Z, Beresford PJ, Oh DY, Zhang D, Lieberman J (2003) Cell 112:659­672. 34. Seo SB, McNamara P, Heo S, Turner A, Lane WS, Chakravarti D (2001) Cell 104:119­130. 35. Fujii-Nakata T, Ishimi Y, Okuda A, Kikuchi A (1992) J Biol Chem 267:20980­ 20986. 36. Umehara T, Chimura T, Ichikawa N, Horikoshi M (2002) Genes Cells 7:59­73. 37. Muto S, Senda M, Adachi N, Suzuki T, Nagai R, Senda T, Horikoshi M (2004) Acta Crystallogr D 60:712­714. 38. Nagata K, Kawase H, Handa H, Yano K, Yamasaki M, Ishimi Y, Okuda A, Kikuchi A, Matsumoto K (1995) Proc Natl Acad Sci USA 92:4279­4283. 39. Miyaji-Yamaguchi M, Okuwaki M, Nagata K (1999) J Mol Biol 290:547­557. 40. Beresford PJ, Zhang D, Oh DY, Fan Z, Greer EL, Russo ML, Jaju M, Lieberman J (2001) J Biol Chem 276:43285­43293. 41. Abramoff MD, Magelhaes PJ, Ram SJ (2004) Biophotonics Int 11:36­42. 42. Simon RH, Felsenfeld G (1979) Nucleic Acids Res 6:689­696. 43. Privalsky ML (2004) Annu Rev Physiol 66:315­360. 44. Otwinowski Z, Minor W (1997) Methods Enzymol 276:307­326. 45. Schneider TR, Sheldrick GM (2002) Acta Crystallogr D 58:1772­1779. 46. de La Fortelle E, Bricogne G (1997) Methods Enzymol 276:472­494. 47. Abrahams JP, Leslie AG (1996) Acta Crystallogr D 52:30­42. 48. McRee DE (1993) Practical Protein Crystallography (Academic, San Diego). 49. Brunger AT, Adams PD, Clore GM, DeLano WL, Gros P, Grosse-Kunstleve ¨ RW, Jiang JS, Kuszewski J, Nilges M, Pannu NS, et al. (1998) Acta Crystallogr D 54:905­921. 50. Murshudov GN, Vagin AA, Dodson EJ (1997) Acta Crystallogr D 53:240­255. 51. DeLano WL (2002) The PyMOL Molecular Graphics System (DeLano Scientific, San Carlos, CA). 52. Collaborative Computational Project, Number 4. (1994) Acta Crystallogr D 50:760­763.
+
+surface area was calculated by the formula [(area of monomer area of monomer) area of dimer]. The molecular graphics were prepared by PyMOL (51). Least-squares fittings were carried out by using the program LSQKAB from the CCP4 program suite (52).
+DNA-Binding Assay. The DNA-binding assays were performed by
+
+incubating 5
+
+l of calf thymus dsDNA­cellulose (Sigma) with
+
+1. Kornberg RD (1974) Science 184:868­871. 2. Luger K, Mader AW, Richmond RK, Sargent DF, Richmond TJ (1997) Nature 389:251­260. 3. Jenuwein T, Allis CD (2001) Science 293:1074­1080. 4. Mellor J (2005) Mol Cell 19:147­157. 5. Horn PJ, Peterson CL (2002) Science 297:1824­1827. 6. Tyler JK (2002) Eur J Biochem 269:2268­2274. 7. Akey CW, Luger K (2003) Curr Opin Struct Biol 13:6­14. 8. Loyola A, Almouzni G (2004) Biochim Biophys Acta 1677:3­11. 9. Shibahara K, Stillman B (1999) Cell 96:575­585. 10. Gaillard PH, Martini EM, Kaufman PD, Moustacchi E, Almouzni G (1996) Cell 86:887­896. 11. Chen H, Li B, Workman JL (1994) EMBO J 13:380­390. 12. Adkins MW, Howar SR, Tyler JK (2004) Mol Cell 14:657­666. 13. Osada S, Sutton A, Muster N, Brown CE, Yates JR, III, Sternglanz R, Workman JL (2001) Genes Dev 15:3155­3168. 14. Kutney SN, Hong R, Macfarlan T, Chakravarti D (2004) J Biol Chem 279:30850­30855. 15. LeRoy G, Orphanides G, Lane WS, Reinberg D (1998) Science 282:1900­1904. 16. Dutta S, Akey IV, Dingwall C, Hartman KL, Laue T, Nolte RT, Head JF, Akey CW (2001) Mol Cell 8:841­853. 17. Daganzo SM, Erzberger JP, Lam WM, Skordalakes E, Zhang R, Franco AA, Brill SJ, Adams PD, Berger JM, Kaufman PD (2003) Curr Biol 13:2148­2158. 18. Namboodiri VM, Akey IV, Schmidt-Zachmann MS, Head JF, Akey CW (2004) Structure (London) 12:2149­2160. 19. Mousson F, Lautrette A, Thuret JY, Agez M, Courbeyrette R, Amigues B, Becker E, Neumann JM, Guerois R, Mann C, Ochsenbein F (2005) Proc Natl Acad Sci USA 102:5975­5980. 20. Padmanabhan B, Kataoka K, Umehara T, Adachi N, Horikoshi M (2005) J Biochem 138:821­829. 21. Park Y-J, Luger K (2006) Proc Natl Acad Sci USA 103:1248­1253. 22. von Lindern M, van Baal S, Wiegant J, Raap A, Hagemeijer A, Grosveld G (1992) Mol Cell Biol 12:3346­3355. 23. Okuwaki M, Nagata K (1998) J Biol Chem 273:34511­34518. 24. Matsumoto K, Nagata K, Okuwaki M, Ttsujimoto M (1999) FEBS Lett 463:285­288. 25. Seo SB, Macfarlan T, McNamara P, Hong R, Mukai Y, Heo S, Chakravarti D (2002) J Biol Chem 277:14005­14010. 26. Kawase H, Okuwaki M, Miyaji M, Ohba R, Handa H, Ishimi Y, Fujii-Nakata T, Kikuchi A, Nagata K (1996) Genes Cells 1:1045­1056. 27. Suzuki T, Muto S, Miyamoto S, Aizawa K, Horikoshi M, Nagai R (2003) J Biol Chem 278:28758­28764.
+
+4290
+
+www.pnas.org cgi doi 10.1073 pnas.0603762104
+
+Muto et al.
+
+

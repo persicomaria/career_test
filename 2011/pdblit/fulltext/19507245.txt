@@ -1,0 +1,115 @@
+proteins
+STRUCTURE O FUNCTION O BIOINFORMATICS
+
+STRUCTURE NOTE
+
+X-ray structure and kinetic properties of ornithine transcarbamoylase from the human parasite Giardia lamblia
+Andrey Galkin,1 Liudmila Kulakova,1 Rui Wu,2 Maozhen Gong,2 Debra Dunaway-Mariano,2 and Osnat Herzberg1*
+1 W.M. Keck Laboratory for Structural Biology, Center for Advanced Research in Biotechnology, University of Maryland Biotechnology Institute, Rockville, Maryland 2 Department of Chemistry and Chemical Biology, University of New Mexico, Albuquerque, New Mexico
+
+Key words: ornithine transcarbamoylase; Giardia lamblia; arginine dihydrolase pathway; crystal structure; x-ray crystallography.
+
+INTRODUCTION Ornithine transcarbamoylase (OTC; EC 2.1.3.3, also known as ornithine carbamoyltransferase) catalyzes the reversible conversion of citrulline to carbamoyl phosphate (CP) and L-ornithine in the arginine dihydrolase pathway. This pathway is used by a number of microorganisms, including Giardia lamblia to generate ATP fermentatively from arginine.1,2 G. lamblia OCT (glOTC) was shown to be one of the 16 immunodominant proteins, underscoring the importance of the arginine catabolism pathway in the characterization of the parasite.3 Moreover, recently glOTC was identified as one of the major proteins released into the medium after brief interaction of Giardia with human intestinal epithelial cells. Therefore, it was suggested that targeting glOTC for immunoneutralization may represent a useful therapeutic strategy for treating giardiasis.4 Multiple crystal structures of OTCs were determined from prokaryotic and eukaryotic organisms. Currently, 26 structures of OTCs from 10 organisms have been deposited in the PDB5 under the OTC or ornithine carbamoyltransferase names. In this work, we have undertaken glOTC purification and crystal structure determination to assist with the characterization of this attractive therapeutic drug target for the potential treatment of the parasitic infection. We have compared the active sites of glOTC and human OTC (hOTC)6 to identify potential structural features, which may be exploited to develop selective inhibitors of the parasitic enzyme.
+
+EXPERIMENTAL
+Gene cloning, protein expression, and purification
+
+The trophozoites of G. lamblia isolate WB were grown as described previously.7 The genomic DNA was isolated by using the DNA STAT kit (Stratagene). The gene encoding glOTC was amplified using PfuTurbo DNA polymerase (Stratagene), genomic DNA, and 50 - and 30 end primers. The PCR product was inserted into the pDEST-HisMBP expression vector as described by Waugh and coworkers.8 For protein production, the glOTC was expressed in E. coli strain BL21(DE3)Star as a maltose binding protein (MBP) fusion product. Cells were grown in Overnight Express Instant TB autoinduction medium (Novagen) for 20 h at 308C. The cells were broken by sonication, and the soluble fraction was applied on a NiNTA affinity column. After elution and concentration, the glOTC MBP-fusion protein was applied onto a preparative size exclusion column, Sephacryl 100. MBP was removed by treatment of the fusion protein with tobacco etch virus (TEV) protease,9 at a molar ratio of 60:1, followed by chromatography on a Ni-NTA affinity column.
+Grant sponsor: National Institute of Health; Grant number: R01 AI059733. *Correspondence to: Osnat Herzberg, Center for Advanced Research in Biotechnology, 9600 Gudelsky Drive, Rockville MD 20850. E-mail: herzberg@umbi.umd.edu Received 17 March 2009; Revised 2 April 2009; Accepted 22 April 2009 Published online 4 May 2009 in Wiley InterScience (www.interscience.wiley.com). DOI: 10.1002/prot.22469
+
+C V 2009 WILEY-LISS, INC.
+
+PROTEINS
+
+1049
+
+A. Galkin et al.
+
+The protein was further purified by ion-exchange chromatography on a SOURCE 15 Q column (Amersham Biosciences). Fractions containing protein were collected, dialyzed against 50 mM Tris-HCl (pH 7.5) and 50 mM NaCl, and concentrated up to 35 mg/mL. Protein integrity and purity was assessed by polyacrylamide gel electrophoresis in the presence of SDS. The native mass was measured by size exclusion chromatography using a Superdex-200 HR 10/30 column (Amersham Bioscience) ¨ in conjunction with an AKTA purifier 10.
+Steady-state kinetic analysis: conversion of L-citrulline 1 phosphate to L-ornithine 1 carbamoyl phosphate
+
+Table I
+X-Ray Data Collection and Refinement Statistics Space group % solvent No. molecule in asymmetric unit Data collection Cell dimension: a, b, c () Resolution range () No. observations No. unique reflections Completeness (%)a Rmergeb Refinement statistics No. reflections No. residues No. water molecules Rcrystc Rfreed RMS deviation Bonds () Angles (8)
+a b c
+
+P63 42 1 a 5 b 5 95.49 c 5 56.96 20­2.0 146433 19980 99.3 (99.9) 0.069 (0.306) 19952 304 267 0.197 0.255 0.017 2.0
+
+Reaction solutions (1 mL) initially contained L-citrulline at varied concentration (0.5­5 fold Km) and 20 mM sodium phosphate (or sodium phosphate at varied concentration (0.5­5 fold Km) and 60 mM L-citrulline), glOTC, 2 mM glucose, 0.9 mM ADP, 30 mM MgCl2, 0.2 mM NADP, 0.03 lM G. lamblia carbamate kinase, 10 U hexokinase, 5 U glucose 6-phosphate dehydrogenase in 50 mM Tris-HCl (pH 8.0, 378C). The reaction progress was monitored at 340 nm (De 5 6.2 mM21 cm21). The initial velocities (Vo) measured as a function of the concentration of the varied substrate, [S], were fitted with KinetAsyst to the equation Vo 5 Vmax[S]/(Km 1 [S]) to obtain the maximum velocity (Vmax) and the Michaelis constant (Km). The kcat was calculated from the ratio of the Vmax and the enzyme concentration.
+Conversion of L-ornithine 1 carbamoyl phosphate to L-citrulline 1 phosphate
+
+The values in parentheses are for the highest resolution shell. Rmerge 5 Shkl [(Sj|Ij ­ h I i |)/Sj|Ij|], for equivalent reflections. Rcryst 5 Shkl | |Fo| 2 |Fc| |/Shkl |Fo|, where Fo and Fc are the observed and calculated structure factors, respectively. d Rfree is computed for 5% of reflections that were randomly selected and omitted from the refinement.
+
+where Ki is the inhibition constant and [I] is the PALO concentration.
+Crystallization, data collection, and structure determination
+
+Reaction solutions (1 mL) initially contained L-ornithine at varied concentration (0.5­5 fold Km), 10 mM carbamoyl phosphate (or carbamoyl phosphate at varied concentration (0.5­5 fold Km), and 10 mM L-ornithine) and glOTC in 50 mM Tris-HCl (pH 8.0) at 378C. The reaction progress was determined using a fixed-time colorimetric assay for L-citrulline.10 The kcat and Km values were calculated from the initial velocity data as described earlier.
+Determination of the inhibition constant for N-phosphonoacetyl-L-ornthine (PALO)
+
+PALO was synthesized as described previously by Morizono et al.11 The competitive inhibition constant for PALO was determined by fitting the initial velocities measured for reactions initially containing (0.0, 0.05, 0.09, or 0.13 lM PALO), L-citrulline (5­100 mM), 20 mM sodium phosphate, 2 mM glucose, 0.9 mM ADP, 30 mM MgCl2, 0.2 mM NADP, 0.03 lM carbamate kinase, 10 U hexokinase, 5 U glucose 6-phosphate dehydrogenase, and glOTC in 50 mM Tris-HCl (pH 8.0, 378C) with KinetAsyst. The initial velocity data were analyzed using the equation Vo 5 Vmax[S]/(Km (1 1 [I]/Ki) 1 [S]),
+
+Crystals were obtained at 208C by the vapor diffusion method in hanging drops. The protein solution was mixed with an equal volume of mother liquor containing 30% Polyethylene Glycol Monomethyl Ether 550, 0.1M NaCl, and 0.1M Bicine buffer (pH 9.0) and equilibrated against the mother liquor reservoir. The crystals dif° fracted X-rays to a resolution of 2.0 A and required a period of 3­5 days to appear. Diffraction data were acquired using an RAXIS IV11 image plate detector mounted on a Rigaku rotating anode MicroMax 007 Xray generator (Rigaku MSC). Data processing was carried out using the CrystalClear program, version 1.3.6 (Rigaku MSC). The statistics of data collection are provided in Table I. The structure was determined by the Molecular Replacement method using the computer program Phaser12 and the Pyrococcus furiosus OTC structure13 as the search model. The difference Fourier maps indicated that some glOTC segments had to be modified compared with the P. furiosus OTC (residues 3­4, 34­37, 149­156, 210­216, and 323­325). Structure refinement was carried out using the CNS program.14 The resulting models were inspected and modified on a graphics workstation using program ``O''.15 Water molecules were added to the model based on the Fo 2 Fc Difference Fourier electron density map (where Fo and Fc are the observed and calculated structure factors, respectively), using peaks
+
+1050
+
+PROTEINS
+
+Structure of Giardia Ornithine Transcarbamoylase
+
+with density !3r as the acceptance criteria. Refinement statistics are provided in Table I. RESULTS AND DISCUSSION
+Expression, purification, and kinetic properties of glOTC
+
+Table II
+Steady-State Kinetics for glOTC Substrate
+L-citrulline
+a
+
+Km (mM) 10.4 2.3 0.11 0.13 Æ Æ Æ Æ 0.9 0.2 0.01 0.01
+
+kcat (s21) 8.1 7.9 94.2 82 Æ Æ Æ Æ 0.2 0.2 0.3 1
+
+kcat/Km (s21M21) 7.8 3.4 8.8 6.5 3 3 3 3 102 103 105 105
+
+phosphateb c L-ornithine Carbamoyl phosphated
+a b c
+
+The N-terminally His-tagged MBP fusion glOTC was expressed in soluble form in E. coli and remained soluble after digestion with TEV protease and removal of the MBP. The mass of the purified glOTC was determined to be $90 kDa (using the molecular marker from Amersham), which based on a theoretical subunit mass of 36494.2 Da defines the quaternary structure as homotrimeric. The steady-state catalytic rate constants measured at pH 8.0 and 378C are reported in Table II. The bisubstrate analog PALO is a competitive inhibitor versus L-citrulline at saturating phosphate (10-fold Km). Because the phosphate is expected to compete with the PALO for binding to the free enzyme, the experimental Ki value of 0.025 Æ 0.009 lM is expected to be somewhat larger than the actual Ki value. The kinetic and inhibition constants of glOTC are in the range
+
+Reactions contained 20 mM phosphate. Reactions contained 60 mM L-citrulline. Reactions contained 10 mM carbamoyl phosphate. d Reactions contained 10 mM L-citrulline.
+
+observed for other OTCs and similar to that of the human11 and porcine16 enzymes.
+Overall structure of glOTC
+
+The glOTC crystal contains one protein molecule in the asymmetric unit and the crystallographic 3-fold symmetry generates a trimeric structure [Fig. 1(A)], consistent with the association state measured in solution (vide supra). Human OTC also associates into trimers. Crystal
+
+Figure 1
+Overall fold, active site architecture of glOTC, and sequence alignment of glOTC and hOTC. (A) Ribbon diagram representation of the protein trimer. The Ni21 ion at the center of the trimer is shown as magenta sphere. (B) Stereoscopic view of the glOTC active site superposed with the hOTC/PALO active site. The carbon atoms are colored green (glOTC) and magenta (hOTC). Other atomic colors are as follows: oxygen, red; nitrogen, blue; phosphor, orange; and sulfur, yellow. Black residue labels correspond to glOTC, except that the two residues labeled in magenta color (His117 of a neighboring subunit and Met268) are hOTC residues that are disordered in the glOTC structure (Ser82 and Tyr245, respectively). (C) Sequence alignment of glOTC and hOTC. Identical residues are blocked in blue and residues surrounding the active site are indicated by red triangles.
+
+PROTEINS
+
+1051
+
+A. Galkin et al.
+
+contacts are mediated by a Ni21 ion that presumably originated from the Ni-NTA column. The Ni21 occupies a special position on the 3-fold symmetry axis, and it coordinates three His71 residues and three water molecules. The model of the glOTC molecule includes 304 of the 326 amino acid residues. Missing from the model are residues that were not associated with interpretable electron density: one N-terminal residue remaining after TEV cleavage (Gly), three OTC N-terminal residues, and 17 residues of two flexible loops associated with the active site (loop1--residues 78­87, and loop2--residues 244­ 251). Both of these loops play an important role in sequestering the substrates from bulk solvent. As with all OTCs, the molecule consists of N-terminal and C-terminal domains of similar size, known as the CP and aminoacid binding domains. A DALI17 search identified the Mycobacterium tuberculosis OTC as the glOTC closest structure (pdb code 2i6u, with Z-score of 42.8 ° and a root-mean-squares deviation (RMSD) of 1.2 A for 289 aligned a-carbon atoms that share 37% sequence identity). Each domain exhibits an a/b topology with a central b-pleated sheet flanked by a-helices. The domains are connected by two interdomain helices (residues 133­149 and 301­332), and the cleft between two domains comprises the active site. The CP binding domains are located in the interior of the trimer, and the aminoacid binding domains are located further from the trimer center. By analogy to the many known OTC structures, residues from both domains are involved in catalysis.
+Active site comparison with human OTC (hOTC)
+
+hOTC and its sequence, GANSNVGGKE (rsidues 78­87) does not contain a His residue. Modeling indicates that the most probable equivalent glOTC residue to the hOTC His117 is Ser81. This is an important difference because all ureotelic OTCs have His at this position linking the phosphate oxygen of CP to Asn121 (hOTC numbering) in a potential pathway for transferring a proton between the solvent and CP.6 The second significant sequence difference between the hOTC and glOTC active sites occurs in the disordered loop2 (glOTC residues 244­251). In hOTC, Met286 is stationed close to the carboxyl end of the bound PALO [Fig. 1(B)]. In contrast to hOTC, the equivalent residue in glOTC sequence is Tyr245, which introduces different space and electrostatic constraints. Other residues of both loops may play an important role in defining the active site cleft, in affecting ligand interactions and in sequestering the catalytic site from solvent. Yet, these loops exhibit no sequence homology between hOTC and glOTC, thus providing opportunities for designing selective inhibitors. Structures of liganded glOTC will provide better insight into strategies of inhibitor design. ACKNOWLEDGMENTS The PDB entry code is 3grf. REFERENCES
+1. Biagini GA, Yarlett N, Ball GE, Billetz AC, Lindmark DG, Martinez MP, Lloyd D, Edwards MR. Bacterial-like energy metabolism in the amitochondriate protozoon Hexamita inflata. Mol Biochem Parasitol 2003;128:11­19. 2. Knodler LA, Sekyere EO, Stewart TS, Schofield PJ, Edwards MR. Cloning and expression of a prokaryotic enzyme, arginine deiminase, from a primitive eukaryote Giardia intestinalis. J Biol Chem 1998;273:4470­4477. 3. Palm JE, Weiland ME, Griffiths WJ, Ljungstrom I, Svard SG. Identification of immunoreactive proteins during acute human giardiasis. J Infect Dis 2003;187:1849­1859. 4. Ringqvist E, Palm JE, Skarin H, Hehl AB, Weiland M, Davids BJ, Reiner DS, Griffiths WJ, Eckmann L, Gillin FD, Svard SG. Release of metabolic enzymes by Giardia in response to interaction with intestinal epithelial cells. Mol Biochem Parasitol 2008;159:85­91. 5. Dutta S, Burkhardt K, Swaminathan GJ, Kosada T, Henrick K, Nakamura H, Berman HM. Data deposition and annotation at the worldwide protein data bank. Methods Mol Biol 2008;426:81­101. 6. Shi D, Morizono H, Ha Y, Aoyagi M, Tuchman M, Allewell NM. 1.85-A resolution crystal structure of human ornithine transcarbamoylase complexed with N-phosphonacetyl-L-ornithine. Catalytic mechanism and correlation with inherited deficiency. J Biol Chem 1998;273:34247­34254. 7. Wieder SC, Keister DB, Reiner DS. Mass cultivation of Giardia lamblia in a serum-free medium. J Parasitol 1983;69:1181­1182. 8. Nallamsetty S, Austin BP, Penrose KJ, Waugh DS. Gateway vectors for the production of combinatorially-tagged His6-MBP fusion proteins in the cytoplasm and periplasm of Escherichia coli. Protein Sci 2005;14:2964­2971. 9. Nallamsetty S, Kapust RB, Tozser J, Cherry S, Tropea JE, Copeland TD, Waugh DS. Efficient site-specific processing of fusion proteins by tobacco vein mottling virus protease in vivo and in vitro. Protein Expr Purif 2004;38:108­115.
+
+The glOTC is a potential anti giardiasis drug target, and therefore features that distinguish it from the human counterpart are of special interest for the development of selective inhibitors. The two enzymes share only 30% sequence identity, suggesting an opportunity to exploit their differences in drug development. In contrast to the catabolic glOTC, human OTC is a ureotelic enzyme that catalyzes the formation of citrulline from CP and L-ornithine in the urea cycle.18 Superposition of the glOTC and hOTC structures using the hOTC/PALO complex structure (pdb entry code 1oth)6 yielded a RMSD of 1.6 ° A for 288 aligned a-carbon atoms. The superposition and the sequence alignment show that the active sites of both enzymes are very similar and most of the residues around the bound PALO are identical [Fig. 1(B,C)]. However, there are two notable exceptions related to residues located on the disordered loops of the glOTC structure. His117 in hOTC is located on a loop analogous to the disordered loop 1 of glOTC. The His117 from an adjacent hOTC subunit interacts with the phosphonate group of PALO [Fig. 1(B)]. The glOTC loop1 is one amino acid residue longer than that of
+
+1052
+
+PROTEINS
+
+Structure of Giardia Ornithine Transcarbamoylase
+
+10. Boyde TR, Rahmatullah M. Optimization of conditions for the colorimetric determination of citrulline, using diacetyl monoxime. Anal Biochem 1980;107:424­431. 11. Morizono H, Tuchman M, Rajagopal BS, McCann MT, Listrom CD, Yuan X, Venugopal D, Barany G, Allewell NM. Expression, purification and kinetic characterization of wild-type human ornithine transcarbamylase and a recurrent mutant that produces `late onset' hyperammonaemia. Biochem J 1997;322 (Part 2):625­631. 12. McCoy AJ, Grosse-Kunstleve RW, Storoni LC, Read RJ. Likelihoodenhanced fast translation functions. Acta Crystallogr D Biol Crystallogr 2005;61 (Part 4):458­464. 13. Massant J, Wouters J, Glansdorff N. Refined structure of Pyrococcus furiosus ornithine carbamoyltransferase at 1.87 A. Acta Crystallogr D Biol Crystallogr 2003;59 (Part 12):2140­2149.
+
+¨ 14. Brunger AT, Adams PD, Clore GM, DeLano WL, Gros P, GrosseKunstleve RW, Jiang JS, Kuszewski J, Nilges M, Pannu NS, Read RJ, Rice LM, Simonson T, Warren GL. Crystallography & NMR system: a new software suite for macromolecular structure determination. Acta Crystallogr D Biol Crystallogr 1998;54 (Part 5):905­921. 15. Kleywegt GJ, Jones TA. Software for handling macromolecular envelopes. Acta Crystallogr D Biol Crystallogr 1999;55 (Part 4):941­944. 16. Koger JB, Howell RG, Kelly M, Jones EE. Purification and properties of porcine liver ornithine transcarbamylase. Arch Biochem Biophys 1994;309:293­299. 17. Holm L, Sander C. Protein structure comparison by alignment of distance matrices. J Mol Biol 1993;233:123­138. 18. Snodgrass PJ. The effects of pH on the kinetics of human liver ornithine­carbamyl phosphate transferase. Biochemistry 1968;7:3047­3051.
+
+PROTEINS
+
+1053
+
+

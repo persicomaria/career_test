@@ -1,0 +1,248 @@
+Crystal structure of the soluble form of the redox-regulated chloride ion channel protein CLIC4
+Dene R. Littler1,2, Nagi N. Assaad1,2, Stephen J. Harrop1,2, Louise J. Brown1,2,3, Greg J. Pankhurst2, Paolo Luciani4, Marie-Isabel Aguilar5, Michele Mazzanti4, Mark A. Berryman6, Samuel N. Breit2 and Paul M. G. Curmi1,2
+1 2 3 4 5 6 School of Physics, University of New South Wales, Sydney, Australia Centre for Immunology, St Vincent's Hospital and University of New South Wales, Sydney, Australia Department of Chemistry and Biomolecular Sciences, Macquarie University, Sydney, Australia Department of Cellular and Developmental Biology, University of Rome `La Sapienza', Rome, Italy Department of Biochemistry and Molecular Biology, Monash University, Clayton Victoria, Australia Department of Biomedical Sciences, Molecular and Cellular Biology Program, Ohio University College of Osteopathic Medicine, Athens, OH, USA
+
+Keywords CLIC4; glutathione S-transferase; ion channel; redox regulation; X-ray crystallography Correspondence P.M.G. Curmi, School of Physics, University of New South Wales, Sydney, NSW 2052, Australia Fax: +61 29385 6060 Tel: +61 29385 4552 E-mail: p.curmi@unsw.edu.au (Received 29 June 2005, revised 29 July 2005, accepted 9 August 2005) doi:10.1111/j.1742-4658.2005.04909.x
+
+The structure of CLIC4, a member of the CLIC family of putative intracel° lular chloride ion channel proteins, has been determined at 1.8 A resolution by X-ray crystallography. The protein is monomeric and it is structurally similar to CLIC1, belonging to the GST fold class. Differences between the structures of CLIC1 and CLIC4 are localized to helix 2 in the glutaredoxinlike N-terminal domain, which has previously been shown to undergo a dramatic structural change in CLIC1 upon oxidation. The structural differences in this region correlate with the sequence differences, where the CLIC1 sequence appears to be atypical of the family. Purified, recombinant, wildtype CLIC4 is shown to bind to artificial lipid bilayers, induce a chloride efflux current when associated with artificial liposomes and produce an ion channel in artificial bilayers with a conductance of 30 pS. Membrane binding is enhanced by oxidation of CLIC4 while no channels were observed via tip-dip electrophysiology in the presence of a reducing agent. Thus, recombinant CLIC4 appears to be able to form a redox-regulated ion channel in the absence of any partner proteins.
+
+The chloride intracellular channels (CLICs) are a recently discovered family of unusual intracellular chloride ion channel proteins with six human family members designated CLIC1 to CLIC6. The CLIC proteins are highly conserved in vertebrates, with related proteins in invertebrates. Each CLIC protein contains a conserved C-terminal 240-residue module which, in the soluble form of the protein, is a structural homologue of the glutathione S-transferases (GSTs) [1,2]. CLIC5B and CLIC6 both possess an additional large hydrophilic N-terminal domain (170 and 440 residues, respectively), not present in other CLICs.
+
+CLIC4 (also called mtCLIC, HuH1 and p64H1) was the first human CLIC to be identified [3]. It is expressed in a wide variety of tissues and is highly conserved across species [4­8]. The intracellular localization of CLIC4 varies considerably among different cultured cell lines and tissues, ranging from the plasma membrane [5,7,9] to various intracellular organelles including the inner mitochondrial membrane [10], the caveolae and trans-Golgi network [5], the ER [4] and large dense core vesicles [6]. The cellular localization of CLIC4 appears to be intimately linked to membranes, scaffolding proteins and the cytoskeleton [7,9,11,12].
+
+Abbreviations CLIC, chloride intracellular ion channel; CLIC4(ext), fusion protein consisting of human CLIC4 where the last two residues are replaced by a 16 amino acid peptide; GST, glutathione S-transferase; NLS, nuclear localization sequence.
+
+4996
+
+FEBS Journal 272 (2005) 4996­5007 ª 2005 FEBS
+
+D. R. Littler et al.
+
+Crystal structure of the soluble form of CLIC4
+
+Multiple stress inducers result in translocation of CLIC4 to the nucleus, possibly via an internal nuclear localization sequence 199KVVAKKYR206 [13]. The biological function of CLIC4 is currently being elucidated. Studies in Xenopus laevis show that CLIC4 is expressed early in embryogenesis and that it is developmentally regulated [14]. In mammalian cell lines, increases in CLIC4 gene expression have been linked to differentiation of keratinocytes [8] and adipocytes [15] as well as TGF-b1-mediated transdifferentiation of fibroblasts into myofibroblasts [16]. One of the most interesting functions of CLIC4 is its involvement in apoptosis [8,10,17,18]. Like other CLIC proteins, CLIC4 appears to have both a soluble, GST-like form and an integral membrane form, which is resistant to alkali treatment [4,5]. Proteinase K treatment of microsomes containing CLIC4 results in a 27 kDa reduction in the size of the protein, leaving a 6 kDa fragment [4]. This supports the hypothesis that the integral membrane form of the protein has a single transmembrane region near the N-terminus running from approximately Cys35 to Val57 [4]. Experiments characterizing the channel properties of CLIC4 have produced varying results. Patch-clamp studies of CLIC4-associated plasma membrane channel activity in transfected human embryonic kidney HEK293 cells revealed an anion channel activity of around 1 pS conductance [19], while the incorporation of vesicles containing purified CLIC4 from these cells into lipid bilayers resulted in anion channel activity with a conductance of 10­50 pS [4,19]. The reason for the difference between these two results is not clear [20]. The inhibition of the CLIC4 conduction observed in HEK293 cells via antibodies indicates that the C-terminal portion of the protein (residues 60­253) resides in the cytoplasm [19]. Similar experiments have demonstrated that the integral membrane form of CLIC1 crosses the membrane an odd number of times (most probably once) leaving a cytoplasmic C-terminus and an exterior N-terminus [21]. To date, structural studies on CLIC proteins have focused on CLIC1 [1,22]. The structure of the soluble form of CLIC1 has been determined, showing that it has a GST fold with a covalent binding site for glutathione [1]. More recently, CLIC1 has been shown to undergo a major conformational change on oxidation [22]. In this reversible transition, the N-domain of CLIC1 is completely rearranged, resulting in the exposure of a large, hydrophobic surface, concomitant with the formation of an intramolecular disulfide bond between Cys24 and Cys59. In vitro, this new conformation is stabilized by noncovalent dimerization. We
+FEBS Journal 272 (2005) 4996­5007 ª 2005 FEBS
+
+have proposed that in vivo the conformation observed in the oxidized state represents an intermediate membrane docking form [22]. Given that Cys59 is unique to CLIC1 (Ala70 in CLIC4), it is important to characterize the structure of CLIC4 and to determine whether its channel activity is ° redox-regulated. In this paper, we report the 1.8 A resolution crystal structure of the soluble form of a human CLIC4 with a C-terminal extension, CLIC4(ext), where the last two amino acids of CLIC4 have been serendipitously replaced by a 16-residue peptide. The structure shows a two domain, GST-like protein, which is highly homologous to that of the soluble form of CLIC1 [1]. Differences between the structures are analyzed using Ramachandran and real-space distance measures. The observed differences are localized to the region around helix 2 (N-terminal domain), which, in CLIC1, undergoes a dramatic structural change induced by oxidation [22]. Recombinant Escherichia coli expressed soluble, wild-type CLIC4 associates with lipid bilayers, as monitored by surface plasmon resonance, and at low pH induces the efflux of chloride ions from artificial liposomes in a concentration-dependent manner. The interaction between CLIC4 and the lipid bilayers is enhanced when CLIC4 is oxidized. Tip dip electrophysiological recordings show that recombinant CLIC4 produces ion channels in artificial bilayers with a conductance of approximately 30 pS under nonreducing conditions while no channel activity was observed under reducing conditions (5 mm dithiothreitol). Thus, like CLIC1, recombinant CLIC4 appears to be capable of forming ion channels in synthetic bilayers under nonreducing conditions in the absence of any partner proteins.
+
+Results
+Structure of the CLIC4 A fusion protein was accidentally constructed (due to a PCR primer error), consisting of the human CLIC4 sequence where the last two residues, Thr252 and Lys253, were replaced by a 16-residue peptide (sequence: PSKVPKGEFQHTGGRY). The resultant protein, called CLIC4(ext), was highly soluble and monomeric in solution. It crystallized in the space group P21212 and the structure of CLIC4(ext) was ° determined at 1.8 A resolution, with one molecule per asymmetric unit (Fig. 1; Table 1). The structure of CLIC4(ext) (Fig. 1A) closely resembles that of the soluble form of CLIC1 (Fig. 1B) [1], and thus belongs to the GST superfamily. CLIC4(ext) is monomeric in the crystal and has approximate
+4997
+
+Crystal structure of the soluble form of CLIC4
+
+D. R. Littler et al.
+
+A
+
+B
+
+C
+
+D
+
+Fig. 1. Overall crystal structure of CLIC4. (A) Ribbon diagram showing the crystal structure of CLIC4(ext), where the last two residues of the wild-type CLIC4 sequence have been replaced by a 16 residue peptide (top left hand corner). (B) The structure of CLIC1 in the same orientation as CLIC4 in (A). (C) A stereogram showing the Ca trace of CLIC4 with every 10th residue numbered. (D) A stereogram showing a superposition of the backbone traces of CLIC4 (green) and CLIC1 (mauve).
+
+Table 1. Data reduction and refinement statistics. Reflections (unique) ° Completeness (1.9­1.8 A shell) ° I / r (1.9­1.8 A shell) ° Rmerge (1.9­1.8 A shell) Boverall Protein (water) atoms ° R factor (1.9­1.8 A shell) ° Rfree (1.9­1.8 A shell) RMSD bond lengthsa RMSD bond anglesa Ramachandran plotb Most favored region Additionally allowed Generously allowed Disallowed
+a
+
+116 791 (25 137) 99.9% (99.9%) 8.4 (1.3) 0.063 (0.58) ° 27.6 A2 1884 (158) 0.195 (0.28) 0.231 (0.33) ° 0.016 A 1.46° 93.5% 6.0% 0.5% (Asp87) 0% [38].
+
+From
+
+REFMAC V
+
+[35].
+
+b
+
+From
+
+PROCHECK
+
+° dimensions of 50 · 40 · 20 A3. CLIC4 has two domains: an N-terminal domain (residues 16­105) with a thioredoxin fold, closely resembling glutaredoxin; and an all a-helical C-terminal domain. The observed structure consists of residues 16­163 and 173­257 with
+4998
+
+the break in density corresponding to the flexible foot loop between helix 5 and helix 6 (Fig. 1A, bottom left), which is not ordered in the CLIC4(ext) structure. This flexible loop is unique to the CLIC proteins and it is not seen in the GSTs. The foot loop in both CLIC1 and CLIC4(ext) structures appears to hinge at two residues that are conserved in all vertebrate CLIC sequences: Pro158 and Arg176. The side chain guanidinium group of Arg176 forms a charged hydrogen-bonding network with backbone carbonyl oxygen groups from both sides of the foot loop (Fig. 2A). An identical structure is observed for CLIC1. The foot loop does not appear to be present in the sequences of the invertebrate CLICs from Drosophila melanogaster (AAF48326), Anopheles gambia (EAA45365) and Schistosoma japonica (AAP06293), however, it may be present in the sequence of the Caenorhabditis elegans CLIC (AAQ75554). In the CLIC4(ext) crystal structure, the N-terminal side of the foot loop is anchored via interactions with residues near the reactive Cys35 of a neighboring molecule. Clear electron density was observed for Glu162, whose side chain forms hydrogen bonds with
+FEBS Journal 272 (2005) 4996­5007 ª 2005 FEBS
+
+D. R. Littler et al.
+
+Crystal structure of the soluble form of CLIC4
+
+A
+
+B
+
+C
+
+D
+
+the backbone and side chain of Asn34 and the side chain of Lys24. This crystal contact stabilizes the structure of the leading side of the foot loop. The putative internal nuclear localization sequence (NLS) of CLIC4 (residues 199­206: KVVAKKYR) is located at the C-terminus of helix 6 (Fig. 2B). Three basic residues, Lys199, Lys203 and Lys204 form the solvent exposed face of helix 6 near its C-terminus, while Arg206 is on the top of the molecule, in the loop leaving helix 6 and it points in the opposite direction to the other basic residues (Fig. 2B). The structure of the NLS is almost identical to that seen in CLIC1, with the exception that the residue equivalent to Lys199 is Gln188 in CLIC1. We note that in the crystal structures of NLS peptides binding to their target importin / karyopherin family proteins [23­25], the NLS adopts an extended conformation so as to position the basic NLS residues into the appropriate binding pockets. Thus, for folded CLIC4 to use this nuclear import machinery, the C-terminus of helix 6 is likely to have to partially unfold so as to allow interaction between its NLS and importin / karyopherin protein. The C-terminal extension of CLIC4(ext) was important for crystallization, as no crystals of the wild-type protein have been grown to date. In the crystal structure, an extended chain can be seen which includes residues Pro252 to Lys257. These residues make a crystal contact with one face of a neighboring molecule which comprises b-strands 3 and 4 and helix 3. Ser253 makes backbone and side chain hydrogen bonds with the side chain of Glu97, while the backbone carbonyl of Ser256 makes a hydrogen bond to the side chain of Asn81. The intervening residues of the C-terminal extension interact with the neighboring monomer via hydrophobic contacts. Comparison with the structure of the soluble form of CLIC1 Human CLIC1 and CLIC4 share 67% sequence identity with a high degree of structural homology as demonstrated by a root mean square deviation (RMSD) of ° 0.77 A between the Ca atoms over residues 17­159 and 175­251 (Fig. 1D). The backbone structures overlay well except for the region around helix 2 (including connecting loops, Leu59 to His74) and the flexible foot loop (Leu159 to Thr175). For the most part, side chains adopt the equivalent rotamer in both structures. For example, Trp218 on helix 7 is conserved in vertebrate CLICs with the exception of CLIC1, where it is replaced by His208 (Fig. 2C) and CLIC3, where it is replaced by arginine. In the structural overlay (Fig. 2C), Trp218
+4999
+
+Fig. 2. Detailed views of the CLIC4 structure. (A) Arg176 locks the two ends of the foot loop into place via a network of hydrogen bonds centered on it side chain guanidinium group. (B) The NLS of CLIC4 situated at the C-terminus of helix 6 and the subsequence loop. (C) Side chains in CLIC4 and CLIC1 adopt equivalent rotamers. Here Trp218 (CLIC4) and His208 (CLIC1) each stabilize the loop connecting helices 6 and 7 by forming equivalent hydrogen bonds to backbone carbonyl groups. (D) An overlay of the loop connecting helix 2 to b-strand 3 from CLIC4 (green and red) and CLIC1 (atomic colors). All parts of this figure are in stereo.
+
+FEBS Journal 272 (2005) 4996­5007 ª 2005 FEBS
+
+Crystal structure of the soluble form of CLIC4
+
+D. R. Littler et al.
+
+(CLIC4) and His208 (CLIC1) stabilize the loop connecting helices 6 and 7 by forming side chain hydrogen bonds to the two carbonyl groups straddling Pro211, which is conserved in all CLICs (including invertebrate CLICs) except CLIC5 from X. laevis (AAH56036) where this residue is a serine. A more detailed comparison between the CLIC4 and CLIC1 structures is shown in Fig. 3, which plots the Ramachandran distances (blue) and real-space distances (red) for the Ca atoms. For the most part, there are only minor differences in /­w angles between the CLIC4 and the CLIC1 structures with major differences centered in three regions: the loop connecting
+
+the C-terminus of helix 2 to b-strand 3; the hairpin connecting b-strands 3 and 4; and residues bounding the flexible foot loop. Just past the C-terminus of helix 2, there are two peaks in the Ramachandran distance plot (Fig. 3). The first occurs in the loop between helix 2 and b-strand 3 representing the sequence 71-PGTHPP-76 (corresponding to the sequence 60-PGGQLP-65 in CLIC1). In both CLIC1 and CLIC4 the last proline of these sequences adopts the cis conformation, which is a conserved feature of thioredoxin fold proteins [26]. This cis proline is adjacent to the redox site (Cys35 in CLIC4) and it has been shown to line the covalent
+
+Fig. 3. Structural comparison of CLIC4 with CLIC1 as a function of sequence. The figure shows the Ramachandran distance (blue) and realspace distance (red) between equivalent residues in the CLIC4 and CLIC1 structures. Below the graphs are the CLIC4 and CLIC1 sequences in one letter code plus the secondary structure elements observed in both structures. The highlighted residues show: yellow, conserved cysteine residues; green, putative transmembrane domain; and blue, NLS.
+
+5000
+
+FEBS Journal 272 (2005) 4996­5007 ª 2005 FEBS
+
+D. R. Littler et al.
+
+Crystal structure of the soluble form of CLIC4
+
+glutathione binding site in CLIC1 [1]. In CLIC4 this cis proline is preceded by a second proline, which is a leucine in CLIC1. This sequence alteration appears to result in a large rearrangement of the /­w angles for the loop between Pro71 and Pro76 (Figs 2D and 3). A change of 164° in the w angle of the proline at the beginning of this loop region causes helix 2 to be rotated by 15° with respect to helix 2 in the CLIC1 structure. This movement is evident in the real-space distance plot (Fig. 3). The double proline observed at the C-terminus of this loop (N-terminal of b-strand 3) is conserved in all vertebrate CLIC2, CLIC4, CLIC5 and CLIC6 sequences. We note that in CLIC1 and CLIC3 sequences the double proline is replaced by Leu-Pro. The second Ramachandran distance peak occurs for Asn81 and Ser82 occupying positions i + 1 and i + 2 within a type I¢ b-hairpin turn between b-strands 3 and 4. The corresponding b-hairpin turn in CLIC1 forms a type II¢ b-hairpin turn at residues Gly70 and Thr71. CLIC1 is unique in having a Gly-Thr pair within the b-hairpin while CLICs 2­6 all contain either Asn or Asp followed by a Gly or Ser (Lys in CLIC2) and are thus likely to adopt a type I¢ hairpin turn similar to that of CLIC4. Both the Ramachandran and real-space differences indicate that the observed parts of the foot loop differ between the CLIC1 and CLIC4 structures (Fig. 3). For the CLIC1 structures [1,22], the foot loop differs between each independent molecule where its conformation appears to be dominated by crystal packing interactions. Thus, the foot loop is likely to be only partially ordered in solution and differences between the CLIC1 and CLIC4 structures within this region are likely to reflect this flexibility. Membrane binding, liposome chloride efflux and bilayer electrophysiology Both the wild-type CLIC4 and CLIC4(ext) constructs were tested for functionality with similar results. The proteins were assayed for lipid binding using surface plasmon resonance measurements via a Biacore L1 chip that had been coated with unilamellar phosphatidylcholine liposomes. Binding at neutral pH could not be detected, however, a concentration dependent binding was observed at lower pH values. Figure 4A shows the binding curves for 100, 200, 300 and 400 lgÆmL)1 of wild-type CLIC4 at pH 5.0. Chloride efflux experiments have been used previously to test the functionality of recombinant CLIC1 [22,27]. In the current experiments, CLIC4 was added to a suspension of liposomes, which had been loaded
+FEBS Journal 272 (2005) 4996­5007 ª 2005 FEBS
+
+with 200 mm KCl. CLIC4-dependent chloride efflux was triggered by the addition of the potassium ionophore valinomycin. In order to normalize the efflux results, the chloride efflux concentration is compared to the total chloride concentration contained in the liposomes by rupturing the liposomes with detergent (Triton X-100). The percentage of chloride released is pH dependent (Fig. 4C), increasing at low pH. This dependence resembles that observed for the channel activity of recombinant CLIC1 [28]. The chloride efflux is dependent on the concentration of CLIC4 (Fig. 4D) in a manner that is similar to that observed for CLIC1 [27]. CLIC4 was tested for channel activity via tip dip electrophysiology. Recombinant CLIC4 was added to the bath solution of a tip-dip experimental apparatus so as to reach a final concentration of 10 ngÆmL)1. After bilayer formation on the electrode tip, we waited until single channel activity was clearly detected where the experiment was carried on under a repetitive voltage step of 50 mV and 500 ms duration. We then used a voltage steps protocol from )80 to +80 mV (20 mV steps) to obtain channel openings at each potential. Amplitude histograms were used to calculate the exact single-channel size and the current values were used to build current / voltage (i / V) relationships. Linear regression fit was used to interpolate experimental current amplitude at the different potentials. Slope conductance was calculated for different experiments. In Fig. 5, we show an example of current recordings (Fig. 5A) and i / V relationships (Fig. 5B) for an experiment presenting current events with at least two levels. Five independent experiments were analyzed and, in each case, we observed at least two conductance levels which we tentatively interpret as two independent channels. The average conductance values for the three lowest current levels were 30.2 ± 1.4, 58 ± 2.1, and 86 ± 2.7 pS. Given that these levels are approximately multiples of 30 pS, we tentatively interpret them as representing one, two and three independent CLIC4 channels, respectively. Redox regulation Given that CLIC1 channels are redox regulated, the effects of H2O2 oxidation and dithiothreitol reduction were tested on CLIC4. After incubation of CLIC4 with 2 mm H2O2 for 2 h at 18 °C, the protein continued to run as a monomer on size exclusion chromatography column (Superdex 75). This differs from the behavior of CLIC1, which forms a noncovalent dimer concomitant with the formation of an intramolecular disulfide bond between Cys24 and Cys59.
+5001
+
+Crystal structure of the soluble form of CLIC4
+
+D. R. Littler et al.
+
+Fig. 4. Biophysical characterization of CLIC4. (A) Shows the surface plasmon resonance traces for the binding of CLIC4 (wt) to an L1 chip (Biacore) that has previously been coated with unilamellar liposomes so as to form a lipid bilayer. The traces show the injection of BSA (1 mgÆmL)1) as a blocker, and subsequently, varying concentrations of CLIC4 (100, 200, 300 and 400 lgÆmL)1) coinjected with BSA (1 mgÆmL)1). The data shown are representative of two independent experiments. (B) Shows surface plasmon resonance sensograms for the binding of both peroxide-treated and untreated CLIC4 to an L1 chip (BIAcore) that has previously been coated with unilamellar liposomes so as to form a lipid bilayer. The traces represent injections of 200 lgÆmL)1 CLIC4 (either peroxide-treated or untreated) coinjected with BSA. The data shown are representative of two independent experiments. (C) pH effect on CLIC4 chloride efflux (30 lgÆmL)1 CLIC4 final concentration). CLIC4 plus vesicles (n) or control buffer plus vesicles (m) were added to the required pH chloride-free buffer. The percentage chloride release was measured 240 s after the addition of 1 lM valinomycin. Triton X-100 was added (1% v / v) to normalize the chloride release from liposome vesicles. (D) Effect of concentration on CLIC4 chloride efflux. CLIC4 was added over the range of 3­27 lgÆmL)1 final concentration. Percentage chloride released was measured 240 s after the addition of 1 lM valinomycin.
+
+This difference between CLIC1 and CLIC4 is not unexpected since Cys59 in CLIC1 is not conserved in other CLIC proteins and corresponds to Ala70 in CLIC4. However, oxidation of CLIC4 via incubation with 0.4 mm H2O2 at room temperature for one hour dramatically increased its affinity for liposomes as measured by surface plasmon resonance (Fig. 4B). Furthermore, in the presence of 5 mm dithiothreitol, no CLIC4 channel activity was observed in the tip dip bilayer electrophysiology system (in 5 different experiments, the current was recorded for one hour alternating holding potential between +50 and )50 mV every minute). Thus, the channel formed by purified recombinant CLIC4 in artificial lipid bilayers appears to be under redox control.
+5002
+
+Discussion
+The structure of the soluble form of the CLIC4 mutant, CLIC4(ext) resembles that of CLIC1 as expected from the high level of sequence identity (67%). Differences between the two structures are localized to helix 2 and surrounding loops in the N-domain and the flexible foot loop in the C-domain, with the latter being due to the flexibility of this region. While the position of helix 2 and the preceding loop in CLIC4(ext) differ from those observed in CLIC1, this can be accounted for by rigid body displacement of this region. However, the loop connecting helix 2 to b-strand 3 shows marked differences in /­w angles that appear to be related to sequence differences. We note that the sequence of CLIC4 in this region is
+FEBS Journal 272 (2005) 4996­5007 ª 2005 FEBS
+
+D. R. Littler et al.
+
+Crystal structure of the soluble form of CLIC4
+
+A
+40
+
+B
+
+30
+
+10
+
+Fig. 5. Electrophysiological characterization of CLIC4 Tip Dip experiment using wild-type recombinant CLIC4. (A) Shows single-channel recordings at different membrane potentials (reported on the right of each trace) during a one second voltage step. In this experiment we observed at least two current levels. (B) Shows the current / voltage relationship shows two distinct conductances. From a linear regression fit we calculated the two different conductances of 31 (n) and 57 (d) pS.
+
+­20
+
+­40
+
+­60 I pA
+
+typical for all vertebrate CLIC2, CLIC4, CLIC5 and CLIC6 sequences, thus, the structure observed in CLIC4 is likely to be representative of the majority of vertebrate CLICs. Like CLIC1, wild-type CLIC4 shows properties that are consistent with the purified, soluble protein being able to integrate into lipid bilayers and form an ion channel in the absence of any accessory proteins. Our data show that CLIC4 binds to lipid bilayers, induces the efflux of chloride ions from liposomes in the presence of the ionophore valinomycin and produces channel events in a lipid bilayer as measured by tip-dip electrophysiology. The conductance of the base channel (30 ± 2 pS) is similar to that observed for purified CLIC1 under identical conditions (28 ± 9 pS [22,28]). Together, these findings suggest that purified recombinant, soluble CLIC4 can bind to lipid bilayers and conduct a chloride ion current. Thus, the recombinant wild-type CLIC4 protein appears to be sufficient for ion channel activity at low pH in artificial lipids. Our functional assays indicate that like CLIC1, the CLIC4 ion channel activity is regulated by redox conditions. Oxidation of CLIC4 promotes binding to lipid bilayers while no channel activity was observed in the presence of the reducing agent, dithiothreitol, using tip-dip electrophysiology. Thus, it appears that under the conditions tested so far, oxidation plays a key role for the transition of CLIC4 from the soluble form to an active integral membrane ion channel.
+FEBS Journal 272 (2005) 4996­5007 ª 2005 FEBS
+
+Recently, we have shown that on oxidation CLIC1 adopts a conformation that differs significantly from the soluble, GST-like structure [1,22]. This structural change in CLIC1 is stabilized by the formation of an intramolecular disulfide bond between Cys24 and Cys59, where the latter residue is unique to CLIC1. This conformation has been proposed to be the membrane docking form of CLIC1. This gives rise to two key questions. First, does CLIC4 adopt a similar conformation in order to dock with lipid bilayers? Second, does oxidation control channel activity in both CLIC1 and CLIC4 via a common mechanism? To examine the first question, the residue Cys59 in CLIC1 corresponds to Ala70 in CLIC4 and is also an alanine in all other vertebrate CLIC sequences known to date. Thus, CLIC4 (as well as CLICs 2­6) cannot form a similar disulfide bond to stabilize the conformation observed in CLIC1 under oxidizing conditions. However, this warrants further investigation because CLIC4 may still undergo a structural transition similar to that proposed for CLIC1 during membrane docking. If CLIC4 did undergo such a transition, it may be either transient or else stabilized directly by interacting with the lipid bilayer. The differences between CLIC1 and the CLIC4(ext) structure in the loop preceding the conserved cis Pro76 may be relevant to the issue of structural transitions. In the structure of CLIC1, the region around Pro65 (equivalent to CLIC4 Pro76) acts like a hinge, facilitating the structural change observed on oxidation [22].
+5003
+
+Crystal structure of the soluble form of CLIC4
+
+D. R. Littler et al.
+
+This region shows marked sequence and structural differences in CLIC4 when compared to CLIC1 with the CLIC4 sequence being typical of other CLIC proteins (except for CLIC1 and CLIC3). It is possible that this segment acts as a hinge in CLIC proteins other than CLIC1, however, in these CLICs, any structural change in this region would not be stabilized by the formation of an intramolecular disulfide bond. To address the second question (common mechanism for redox control of channel activity), both our current and our previous experiments show that nonreducing conditions are essential for recombinant CLIC1 or CLIC4 to show channel activity [22]. This implies that in the absence of other proteins or cellular factors, oxidation of the purified recombinant CLIC is necessary for the formation of ion channels in synthetic lipid bilayers. If this oxidative activation mechanism is shared by CLIC1 and CLIC4, then it must be linked to one of the conserved cysteine residues (Cys35, Cys189 and Cys234 in CLIC4) rather than the formation of the disulfide bond seen in the CLIC1 dimer [22]. The recently reported structure of the integral membrane ClC chloride ion channel [29] cautions against premature models of the CLIC channel. Unlike the other channels, the ClC structure does not show a simple pore structure consisting of a `hole through the membrane'. Instead, the channel appears to consist of two chloride binding sites inside the ClC dimer that are accessible from either side of the membrane. Intriguingly, each ClC monomer is made up of two structurally similar domains (presumably due to gene duplication), each comprising approximately 250 residues. These domains interact in an antiparallel manner to form the chloride channel. Our results show that CLIC4 is very similar to CLIC1 in both its structural and its molecular function. Like CLIC1, CLIC4 forms an ion channel whose activity appears to be redox-regulated. However, the oxidation of CLIC4 does not stabilize the radical conformational change that we have observed in CLIC1 [22]. Thus, key questions remain as to the precise role of oxidation in controlling CLIC protein function.
+
+CLIC4(ext) or GCAAGCTTTTACTTGGTGAGTCTTT TGGC for wild-type CLIC4. The products were TA-cloned (Invitrogen, Inc., Carlsbad, CA, USA) and sequences verified by DNA sequencing. Plasmids were digested with BamHI and cloned into pGEX-2T (Amersham Pharmacia Biotech, Piscataway, NJ, USA).
+
+Protein expression and purification
+Recombinant CLIC4 and CLIC4(ext) proteins were expressed and purified as described previously for CLIC1 with only minor modifications [1,22]. E. coli BL21 (DE3) cells containing the pGEX-2T plasmid and CLIC4(ext) or CLIC4 were cultured overnight in LB (100 lgÆmL)1 ampicillin). 2YT media (1.2 L; 16 g L)1 tryptone (Oxoid), 5 g L)1 yeast extract (Oxoid) and 5 gÆL)1 NaCl, 100 lgÆmL)1 ampicillin) was inoculated 50 : 1 from the overnight culture and grown at 37 °C. The expression of recombinant CLIC4 was induced at an attenuance of 1.0 cm)1 at 600 nm with 1 mm isopropyl thio-b-d-galactoside for 4 h. The cells were then harvested and resuspended in 30 mL phosphate buffered saline containing 10 mm dithiothreitol and stored at )80 °C until required. Bacterial lysate was prepared with two passes through a French pressure cell. Triton X-100 was added to the lysate to 2% v / v and incubated at room temperature for 30 min with agitation. The homogenate was then allowed to bind to glutathione-sepharose 4B media (Amersham Biosciences) as per the manufacturer's instructions before washing with 300 mL phosphate-buffered saline (1 mm dithiothreitol) and equilibration in 20 mm Tris-base, 150 mm NaCl, 2.5 mm CaCl2, 0.5 mm dithiothreitol, 1 mm NaN3 pH 8.4. The bound fusion protein was then cleaved by thrombin at a fusion protein­thrombin weight ratio of 50 : 1 for 16 h at room temperature. The eluted protein was then dialyzed into buffer A (20 mm Hepes, 50 mm NaCl, 1 mm dithiothreitol, 1 mm NaN3 pH 7.0) and loaded on a Fractogel EMD DEAE650(M) anion-exchange column pre-equilibrated in buffer A. The protein was eluted with a 300 mL gradient of buffer A to buffer B (20 mm Hepes, 1 m NaCl, 1 mm dithiothreitol, 1 mm NaN3 pH 7.0). The eluted protein was then concentrated and subsequently loaded onto a Superdex 75 column (Amersham Biosciences) pre-equilibrated with a buffer composed of 20 mm Hepes, 100 mm KCl, 1 mm dithiothreitol, 1 mm NaN3 pH 7.0). The eluted protein was concentrated to 24 mgÆmL)1, flash frozen in liquid nitrogen and stored at )80 °C until required.
+
+Experimental procedures
+Cloning
+To generate GST fusion proteins, cDNA encoding fulllength human CLIC4 (9) was amplified by PCR using primers that generated BamHI and either KpnI or HindIII restriction sites at the ends. The primers were sense: CGCGGATCCATGGCGTTGTCGATGCCGC and antisense: AGGTACCTTACTTGGTAGTCTTTTGGC for
+
+Crystallization
+CLIC4(ext) crystals were obtained by the hanging-drop vapor-diffusion method. Equal volumes (3 lL) of 14 mgÆmL)1 protein solution and reservoir solution were placed over 1 mL of reservoir solution, which consisted of
+
+5004
+
+FEBS Journal 272 (2005) 4996­5007 ª 2005 FEBS
+
+D. R. Littler et al.
+
+Crystal structure of the soluble form of CLIC4
+
+0.2 m NH4F, 20% (w / v) polyethylene glycol 3350. Crystals grew at room temperature over a 2-week period.
+
+Membrane binding via surface plasmon resonance
+Surface plasmon resonance experiments were carried out with a Biacore 2000 analytical system using the L1 sensor chip. Methods were largely based on the protocol of Subasinghe et al. [37]. Briefly, the chip surface was first cleaned with an injection of Chaps (40 lm) followed by an injection of running buffer (10 mm phosphate, 10 mm Mes, 150 mm NaCl, pH 5.0) to ensure all detergent was removed from the system. Small unilamellar liposomes of phosphatidylcholine (soybean phosphatidylcholine, Sigma P-5638), prepared by lipid extrusion, were then injected to generate a bilayer on the chip surface. The surface was then briefly exposed to sodium hydroxide (10 mm) to remove any multilamellar structures. Any remaining exposed surfaces of the L1 chip were blocked with BSA (1 mgÆmL)1 in running buffer) during the first phase of a coinjection. BSA ± CLIC4 (100­400 lm) was then introduced in the second phase of the coinjection. This strategy minimizes any possibility of nonspecific binding of CLIC4. After the coinjection, the chip surface was stripped of all protein with an injection of 50 : 50 mixture of 100 mm HCl and isopropanol. For oxidation experiments, dithiothreitol was removed from the protein sample using a PD-10 desalting column. The protein concentration was measured by recording the absorbance at 280 nm. A 40 m excess of H2O2 was added and incubated for 60 min at room temperature prior to coinjection with BSA as described above.
+
+Data collection and processing
+CLIC4(ext) crystals were progressively transferred into a cryoprotectant solution consisting of reservoir solution and glucose (final concentration of 300 mgÆmL)1) before flashfreezing and mounting at 100 K. Diffraction data were obtained at 100 K on a Mar345 image plate mounted on a Nonius rotating anode generator using Cu Ka radiation and Osmic confocal mirror optics. The crystals diffracted ° ° to 1.8 A resolution in the space group P21212 (a ¼ 77.72 A, ° ° b ¼ 79.48 A, c ¼ 42.60 A). Data were processed with the programs mosflm [30] and scala [31].
+
+Structure determination and refinement
+The CLIC1 monomer structure (1K0M) was used as a molecular replacement probe using the CCP4 program AMoRe [32]. An initial phasing molecule consisting of CLIC1 residues 6­165, 175­241 was used in the program wARP [33] for phase refinement. The resulting electron density map was clear and the CLIC4 sequence built onto the original CLIC1 model in the program o [34]. This was refined using maximum likelihood methods (program refmac v [35]). The final model consists of residues 16­163 and 173­257 plus 158 water molecules. Residues Pro76 and Pro102 have cis peptide bonds. The final R-factor is 0.195, with Rfree 0.231 (Rfree calculated with 5% of the data )1280 reflections). The data reduction and refinement statistics are summarized in Table 1. Residue Asp87 (N-terminus of helix 3) is in the generously allowed region of the Ramachandran plot, however, its electron density is excellent. The CLIC4(ext) coordinates and structure factors have been deposited in the Protein Data Bank (accession code 2AHE).
+
+Chloride efflux
+Chloride efflux assay of CLIC4 channel activity was performed as described previously [22]. Briefly, 400 nm unilamellar liposomes (soybean phosphatidylcholine / cholesterol, 9 : 1, w / w; Sigma P-5638 and C-8662, respectively) were prepared by extrusion (Avestin Lipofast extruder) in 5 mm sodium phosphate buffer 200 mm KCl pH 6.0. Extravesicular chloride was removed by desalting on Bio-Gel P6DG spin columns (Bio-Rad Laboratories Inc) equilibrated in 330 mm sucrose, 5 mm sodium phosphate at the required pH (pH range 5.5­8.5). CLIC4 was also equilibrated into the same pH buffer and added to the liposomes in a total volume of 4 mL. A chloride selective electrode (Radiometer Pacific) was used to monitor the potential driven chloride efflux from the vesicles upon the addition 1 lm valinomycin. Triton X-100 was added to a final concentration of 1% after 240 s to normalize chloride release from vesicles.
+
+Ramachandran and real-space distances
+To locate structural changes in an unbiased fashion, two measures were used: the Ramachandran distance and a real-space distance. The Ramachandran distance, D, was computed by comparing the Ramachandran plots for CLIC1 and CLIC4(ext) using the equation: D ¼ fðUCLIC4 À UCLIC1 Þ2 þ ðWCLIC4 À WCLIC1 Þ2 1=2 The Ramachandran distance is measured in degrees. To compute the real-space distance, the CLIC4(ext) and CLIC1 structures were superposed using the least squares program lsqman [36] as implemented in the program o [34]. Using the superposed coordinates, the real-space distance between each pair of corresponding Ca atoms was also computed.
+
+Electrophysiology
+Single-channel recordings from lipid bilayers were obtained using the tip-dip method, as previously described [28]. In brief, patch clamp pipettes (Garner Glass 7052) were made
+
+FEBS Journal 272 (2005) 4996­5007 ª 2005 FEBS
+
+5005
+
+Crystal structure of the soluble form of CLIC4
+
+D. R. Littler et al.
+
+using a P97 Sutter Instruments puller (Novato, CA, USA), coated with Sylgard (Dow Corning, Midland, MI, USA) and fire-polished to a tip diameter of 1­1.5 lm and 5­7 megaohm resistance. The same solution was used both in the bath and in the pipette (140 mM KCl, 1.5 MgCl2, 10 mM Hepes, pH 6). As soon as the pipette tip reached the bath solution, a phospholipid monolayer (phosphatidylcholine, Avanti Polar Lipids, Inc., Birmingham, AL, USA) was spread on the surface. The electrode was repeatedly passed through the surface of the solution until the pipette resistance rose above 5 GW. Purified recombinant CLIC4 protein (2 lgÆmL)1) was then added to the bath. An Axopatch 1D amplifier and pClamp 7 (both from Axon Instruments, Novato, CA, USA) were used to record and analyze singlechannel currents. Current recordings were digitized at 5 kHz and filtered at 800 Hz. Experiments carried out under reducing conditions are as described above with the exception that 5 mM dithiothreitol was added to the bath and pipette solutions prior to the addition of protein.
+
+Acknowledgements
+This work has been funded by: the National Health & Medical Research Council of Australia; the Australian Research Council; the University of New South Wales; the New South Wales Health Research & Development Infrastructure grant; Wellcome Trust Grant 052458, the Italian Ministry of University and Research (MIUR); `La Sapienza' University; and Ohio University.
+
+References
+1 Harrop SJ, DeMaere MZ, Fairlie WD, Reztsova T, Valenzuela SM, Mazzanti M, Tonini R, Qiu MR, Jankova L, Warton K et al. (2001) Crystal structure of a soluble form of the intracellular chloride ion channel CLIC1 (NCC27) at 1.4-A resolution. J Biol Chem 276, 44993­45000. 2 Dulhunty A, Gage P, Curtis S, Chelvanayagam G & Board P (2001) The glutathione transferase structural family includes a nuclear chloride channel and a ryanodine receptor calcium release channel modulator. J Biol Chem 276, 3319­3323. 3 Howell S, Duncan RR & Ashley RH (1996) Identification and characterisation of a homologue of p64 in rat tissues. FEBS Lett 390, 207­210. 4 Duncan RR, Westwood PK, Boyd A & Ashley RH (1997) Rat brain p64H1, expression of a new member of the p64 chloride channel protein family in endoplasmic reticulum. J Biol Chem 272, 23880­23886. 5 Edwards JC (1999) A novel p64-related Cl­ channel: subcellular distribution and nephron segment-specific expression. Am J Physiol 276, F398­F408.
+
+6 Chuang JZ, Milner TA, Zhu M & Sung CH (1999) A 29 kDa intracellular chloride channel p64H1 is associated with large dense-core vesicles in rat hippocampal neurons. J Neurosci 19, 2919­2928. 7 Berryman M & Bretscher A (2000) Identification of a novel member of the chloride intracellular channel gene family (CLIC5) that associates with the actin cytoskeleton of placental microvilli. Mol Biol Cell 11, 1509­1521. 8 Fernandez-Salas E, Sagar M, Cheng C, Yuspa SH & Weinberg WC (1999) p53 and tumor necrosis factor alpha regulate the expression of a mitochondrial chloride channel protein. J Biol Chem 274, 36488­36497. 9 Berryman MA & Goldenring JR (2003) CLIC4 is enriched at cell­cell junctions and colocalizes with AKAP350 at the centrosome and midbody of cultured mammalian cells. Cell Motil Cytoskeleton 56, 159­172. 10 Fernandez-Salas E, Suh KS, Speransky VV, Bowers WL, Levy JM, Adams T, Pathak KR, Edwards LE, Hayes DD, Cheng C et al. (2002) mtCLIC / CLIC4, an organellular chloride channel protein, is increased by DNA damage and participates in the apoptotic response to p53. Mol Cell Biol 22, 3610­3620. 11 Suginta W, Karoulias N, Aitken A & Ashley RH (2001) Chloride intracellular channel protein CLIC4 (p64H1) binds directly to brain dynamin I in a complex containing actin, tubulin and 14­3)3 isoforms. Biochem J 359, 55­64. 12 Shanks RA, Larocca MC, Berryman M, Edwards JC, Urushidani T, Navarre J & Goldenring JR (2002) AKAP350 at the Golgi apparatus. II. Association of AKAP350 with a novel chloride intracellular channel (CLIC) family member. J Biol Chem 277, 40973­ 40980. 13 Suh KS, Mutoh M, Nagashima K, Fernandez-Salas E, Edwards LE, Hayes DD, Crutchley JM, Marin KG, Dumont RA, Levy JM et al. (2004) The organellular chloride channel protein CLIC4 / mtCLIC translocates to the nucleus in response to cellular stress and accelerates apoptosis. J Biol Chem 279, 4632­4641. 14 Shorning BY, Wilson DB, Meehan RR & Ashley RH (2003) Molecular cloning and developmental expression of two chloride intracellular channel (CLIC) genes in Xenopus laevis. Dev Genes Evol 213, 514­518. 15 Kitamura A, Nishizuka M, Tominaga K, Tsuchiya T, Nishihara T & Imagawa M (2001) Expression of p68 RNA helicase is closely related to the early stage of adipocyte differentiation of mouse 3T3-L1 cells. Biochem Biophys Res Commun 287, 435­439. 16 Ronnov-Jessen L, Villadsen R, Edwards JC & Petersen OW (2002) Differential expression of a chloride intracellular channel gene, CLIC4, in transforming growth factor-beta1-mediated conversion of fibroblasts to myofibroblasts. Am J Pathol 161, 471­480.
+
+5006
+
+FEBS Journal 272 (2005) 4996­5007 ª 2005 FEBS
+
+D. R. Littler et al.
+
+Crystal structure of the soluble form of CLIC4
+
+17 Chen L, Wu W, Dentchev T, Zeng Y, Wang J, Tsui I, Tobias JW, Bennett J, Baldwin D & Dunaief JL (2004) Light damage induced changes in mouse retinal gene expression. Exp Eye Res 79, 239­247. 18 Holtz WA & O'Malley KL (2003) Parkinsonian mimetics induce aspects of unfolded protein response in death of dopaminergic neurons. J Biol Chem 278, 19367­ 19377. 19 Proutski I, Karoulias N & Ashley RH (2002) Overexpressed chloride intracellular channel protein CLIC4 (p64H1) is an essential component of novel plasma membrane anion channels. Biochem Biophys Res Commun 297, 317­322. 20 Ashley RH (2003) Challenging accepted ion channel biology: p64 and the CLIC family of putative intracellular anion channel proteins (Review). Mol Membr Biol 20, 1­11. 21 Tonini R, Ferroni A, Valenzuela SM, Warton K, Campbell TJ, Breit SN & Mazzanti M (2000) Functional characterization of the NCC27 nuclear protein in stable transfected CHO-K1 cells. FASEB J 14, 1171­ 1178. 22 Littler DR, Harrop SJ, Fairlie WD, Brown LJ, Pankhurst GJ, Pankhurst S, DeMaere MZ, Campbell TJ, Bauskin AR, Tonini R et al. (2004) The intracellular chloride ion channel protein CLIC1 undergoes a redoxcontrolled structural transition. J Biol Chem 279, 9298­ 9305. 23 Conti E, Uy M, Leighton L, Blobel G & Kuriyan J (1998) Crystallographic analysis of the recognition of a nuclear localization signal by the nuclear import factor karyopherin alpha. Cell 94, 193­204. 24 Matsuura Y, Lange A, Harreman MT, Corbett AH & Stewart M (2003) Structural basis for Nup2p function in cargo release and karyopherin recycling in nuclear import. EMBO J 22, 5358­5369. 25 Cingolani G, Bednenko J, Gillespie MT & Gerace L (2002) Molecular basis for the recognition of a nonclassical nuclear localization signal by importin beta. Mol Cell 10, 1345­1353. 26 Eklund H, Gleason FK & Holmgren A (1991) Structural and functional relations among thioredoxins of different species. Proteins 11, 13­28. 27 Tulk BM, Schlesinger PH, Kapadia SA & Edwards JC (2000) CLIC-1 functions as a chloride channel when
+
+28
+
+29
+
+30
+
+31
+
+32 33 34
+
+35
+
+36 37
+
+38
+
+expressed and purified from bacteria. J Biol Chem 275, 26986­26993. Warton K, Tonini R, Fairlie WD, Matthews JM, Valenzuela SM, Qiu MR, Wu WM, Pankhurst S, Bauskin AR, Harrop SJ et al. (2002) Recombinant CLIC1 (NCC27) assembles in lipid bilayers via a pHdependent two-state process to form chloride ion channels with identical characteristics to those observed in CHO cells expressing CLIC1. J Biol Chem 26, 26. Dutzler R, Campbell EB, Cadene M, Chait BT & MacKinnon R (2002) X-ray structure of a ClC chloride ° channel at 3.0 A reveals the molecular basis of anion selectivity. Nature 415, 287­294. Leslie AGW (1992) Recent changes to the MOSFLM package for processing film and image plate data in joint CCP4 + ESF-EAMCB. Newsletter on Protein Crystallography, no. 26. CCP4, CCLRC Daresbury Laboratory, Cheshire, UK. Collaborative Computing Project 4 (1994) The CCP4 suite: programs for protein crystallography. Acta Cryst D 50, 760­763. Navaza J (1994) AMoRe: an automated package for molecular replacement. Acta Cryst D 50, 157­163. Lamzin VS & Wilson KS (1993) Automated refinement of protein models. Acta Cryst D 49, 129­149. Jones TA, Zou JY, Cowan SW & Kjeldgaard M (1991) Improved methods for binding protein models in electron density maps and the location of errors in these models. Acta Crystallogr A 47, 110­119. Murshudov GN, Vagin AA & Dodson EJ (1997) Refinement of macromolecular structures by the maximum likelihood method. Acta Crystallogr D 53, 240­ 255. Kleywegt GJ & Jones TA (1994) A super position in. ESF / Ccp4 Newsletter 31, 9­14. Subasinghe S, Unabia S, Barrow CJ, Mok SS, Aguilar MI & Small DH (2003) Cholesterol is necessary both for the toxic effect of Abeta peptides on vascular smooth muscle cells and for Abeta binding to vascular smooth muscle cell membranes. J Neurochem 84, 471­ 479. Laskowski RA, MacArthur MW, Moss DS & Thornton JM (1994) PROCHECK: a program to check stereochemical quality of protein structures. J Appl Cryst 26, 283­291.
+
+FEBS Journal 272 (2005) 4996­5007 ª 2005 FEBS
+
+5007
+
+

@@ -1,0 +1,450 @@
+Published online February 2, 2006
+826­839 Nucleic Acids Research, 2006, Vol. 34, No. 3 doi:10.1093/nar/gkj482
+
+Crystal structure determination and site-directed mutagenesis of the Pyrococcus abyssi aCBF5­ aNOP10 complex reveal crucial roles of the C-terminal domains of both proteins in H/ACA sRNP activity
+Xavier Manival, Christophe Charron, Jean-Baptiste Fourmann, Fran¸ ois Godard, c Bruno Charpentier* and Christiane Branlant
+´ ´ Laboratoire de Maturation des ARN et Enzymologie Moleculaire, UMR 7567 UHP-CNRS, Universite des ´ ` Sciences et Techniques Henri Poincare Nancy I, 54506 Vandoeuvre-Les-Nancy cedex, France
+Received December 8, 2005; Revised and Accepted January 14, 2006
+
+Downloaded from http://nar.oxfordjournals.org at Sachsische Landesbibliothek - Staats- u. Universitaetsbibliothek Dresden on May 21, 2010
+
+ABSTRACT In archaeal rRNAs, the isomerization of uridine into pseudouridine (C) is achieved by the H/ACA sRNPs and the minimal set of proteins required for RNA: C-synthase activity is the aCBF5­aNOP10 protein pair. The crystal structure of the aCBF5­aNOP10 heterodimer from Pyrococcus abyssi was solved at ° 2.1 A resolution. In this structure, protein aNOP10 has an extended shape, with a zinc-binding motif at the N-terminus and an a-helix at the C-terminus. Both motifs contact the aCBF5 catalytic domain. Although less efficiently as does the full-length aNOP10, the aNOP10 C-terminal domain binds aCBF5 and stimulates the RNA-guided activity. We show that the C-terminal domain of aCBF5 (the PUA domain), which is wrapped by an N-terminal extension of aCBF5, plays a crucial role for aCBF5 binding to the guide sRNA. Addition of this domain in trans partially complement particles assembled with an aCBF5DPUA truncated protein. In the crystal structure, the aCBF5­aNOP10 complex forms two kinds of heterotetramers with parallel and perpendicular orientations of the aNOP10 terminal a-helices, respectively. By gel filtration assay, we showed that aNOP10 can dimerize in solution. As both residues Y41 and L48 were needed for dimerization, the
+
+dimerization likely takes place by interaction of parallel a-helices.
+
+INTRODUCTION Ribose 20 -O-methylations and conversion of uridines into pseudouridines (Y) are the two most frequent posttranscriptional modifications in RNAs (1,2). Several of these modifications were found to be of functional importance for RNA folding or activity (3­6). In bacteria, U to Y conversions are catalyzed by RNA:Y-synthases consisting of a unique polypeptide, that ensures the RNA substrate recognition and provides the catalytic activity (7­9). In archaea and eukarya, the pseudouridylation and 20 -O-methylation reactions can be catalyzed by ribonucleoprotein particles (denoted snoRNPs in eukarya and sRNPs in archaea) [for review, (10,11)]. They consist of a guide RNA (C/D box RNAs for 20 -O-methylation and H/ACA box RNAs for pseudouridylation) and a set of 4 to 5 proteins. Recent reconstitution experiments demonstrated the involvement of proteins L7Ae, aCBF5, aNOP10 and aGAR1 in formation of fully active archaeal H/ACA sRNPs (12,13). This revealed a high degree of conservation between archaeal H/ACA sRNPs and eukaryal H/ACA snoRNPs. Indeed, eukaryal snoRNPs contain a set of proteins (Nhp2p, Cbf5p/Dyskerin, Nop10p and Gar1p) very similar to that of archaeal H/ACA sRNPs (14­16).
+
+*To whom correspondence should be addressed. Tel: +33 3 83 68 43 16; Fax: +33 3 83 68 43 07; Email: bruno.charpentier@maem.uhp-nancy.fr Present address: ´ ´ ´ Fran¸ ois Godard, Institut de Biochimie et de Genetique Cellulaire (IBGC), UMR5095 Universite Bordeaux2- CNRS, 1 rue Camille Saint-Saens, c 33077 Bordeaux cedex, France The authors wish it to be known that, in their opinion, the first two authors should be regarded as joint First Authors Ó The Author 2006. Published by Oxford University Press. All rights reserved. The online version of this article has been published under an open access model. Users are entitled to use, reproduce, disseminate, or display the open access version of this article for non-commercial purposes provided that: the original authorship is properly and fully attributed; the Journal and Oxford University Press are attributed as the original place of publication with the correct citation details given; if an article is subsequently reproduced or disseminated not in its entirety but only in part or as a derivative work this must be clearly indicated. For commercial re-use, please contact journals.permissions@oxfordjournals.org
+
+Nucleic Acids Research, 2006, Vol. 34, No. 3
+
+827
+
+In both C/D and H/ACA RNPs, the base pair interactions formed by the guide RNAs and the target RNAs define the positions to be modified [reviewed in (10,11)]. The H/ACA pseudouridylation guides have highly conserved characteristic features. As well in archaea, as in eukarya, they contain characteristic stem­loop structures with an internal loop that is complementary to the target RNA (17,18). This stem­loop structure is always flanked by an ANA trinucleotide (more generally ACA). The ACA trinucleotide of archaea H/ACA sRNAs is required for H/ACA sRNPs assembly (12,13). It is needed to recruit protein aCBF5 carrying the conserved motifs I and II found in bacterial RNA:Y-synthases. The amounts of aCBF5­sRNA complexes formed by Baker et al. (12) were much higher as the ones obtained in our previous study (13). We do not know whether this difference is due to the use by Baker et al. (12) of a Pyrococcus furiosus aCBF5 protein carrying an additional His-tag sequence, and/or to peculiar properties of the modified P.furiosus H/ACA sRNA that was used by these authors. Binding of protein aCBF5 to the guide sRNA is required for recruitment of protein aNOP10 in the RNP (12,13). We showed that this pair of proteins is the minimal set of proteins required to get an RNA guided RNA:Y-synthase activity (13). Indeed, using an in vitro transcribed H/ACA sRNA, an RNA substrate, and the recombinant proteins aNOP10 and aCBF5, we were able to reconstitute particles that catalyzed U to Y conversion at the expected position in the RNA substrate (13). This was at low yields, and addition of the L7Ae and aGAR1 recombinant proteins led to the reconstitution of a fully active H/ACA sRNP (more active than the one obtained by Baker et al. (12), this may be due to the presence of Histags in all the proteins used by these authors). In spite of the presence of the conserved RNA:Y-synthase motifs I and II in protein aCBF5, this protein has no detectable RNA:Y-synthase activity alone (13). Thus, association of aCBF5 with aNOP10 and the H/ACA guide sRNA is required to stimulate the aCBF5 activity. It was thus of high importance to understand how binding of aNOP10 to aCBF5 may contribute to the aCBF5 activation. As we showed that the aCBF5 and aNOP10 proteins were able to interact together and to form a stable complex in the absence of the guide RNA, we crystallized this complex and solved its 3D structure by X-ray crystallography. The archaeal aCBF5 enzymes share sequence similarity with the bacterial TruB RNA:Y-synthase, which is involved in Y55 formation in all bacterial tRNAs (19). The 3D structure of the unbound Escherichia coli TruB (ecTruB) protein has been solved (20), as well as, those of the E.coli and Thermotoga maritima TruB (tmTruB) proteins bound to a tRNA fragment (20,21). Thus, we compared these various structures to that established for the aNOP10­ aCBF5 complex. Finally, based on the established aCBF5­ aNOP10 structure, we tested the functional importance of some of the aNOP10 and aCBF5 domains by using sitedirected mutagenesis. The mutated proteins were used for in vitro reconstitution of sRNP particles and the RNA:Y-synthase activities of reconstituted particles were measured. In this paper, we describe the 3D structure of the Pyrococcus abyssi aCBF5­aNOP10 complex at 2.1 s resolution, as well as, investigations on the functional roles of the N- and C-terminal domains of aNOP10 and the C-terminal domain of aCBF5.
+
+MATERIALS AND METHODS Oligonucleotides Fragments of the aNOP10 and aCBF5 oral reading frames (ORFs) were obtained by PCR amplification with pairs of primers containing some of the primers already described (13). For fragment aNOP10-Nt production, we used the aNOP10-50 and aNOP10-Nt-30 primers (50 -CTCGAGTCAGTGGGCTACTTTAGTCTTTTC-30 , the underlined sequence introduces a restriction site). For production of fragment aNOP10-Ct, the primers used were: aNOP10-Ct-50 (50 -AGATCTCCACCAAGGTTCTCACCCGAGGAT-30 ) and aNOP10-30 . For fragment aCBF5DPUA production, the amplification was done with primers aCBF5-50 and aCBF5DPUA-30 (50 -CTCGAGTCAATGTTCAACAGCTTTCTCC-30 ), and for fragment PUA production, we used primers PUA-50 (50 -GGATCCTTGCCTAAGATATGGATAAAG-30 ) and aCBF5-30 . PCR amplifications were also used to generate mutations within the aNOP10 C-terminal domain: variants aNOP10L48A and aNOP10Y41A were obtained with the oligonucleotide pairs 50 -GGTGAATACAGAAGGAGGGCTAAGAGGGAACTCCTGGGA-30 and 50 -TCCCAGGAGTTCCCTCTTAGCCCTCCTTCTGTATTCACC-30 , and 50 -TTCTCACCCGAGGATCCAGCTGGTGAATACAGAAGGAGG-30 and 50 -CCTCCTTCTGTATTCACCAGCTGGATCCTCGGGTGAGAA-30 , respectively. DNA templates for T7 in vitro transcription of the WT Pab91 and PAb91mtACA sRNAs and for the RNA-S substrate were obtained by PCR amplification as described previously (13). Recombinant protein production Recombinant pGEX-6P-1 (Pharmacia) vectors producing the full-length P.abyssi proteins L7Ae, aCBF5, aNOP10 and aGAR1 fused to glutathione S-transferase (GST) were previously constructed (13). The DNA fragments encoding truncated aNOP10 (aNOP10-Nt and aNOP10-Ct) and aCBF5 (aCBF5DPUA and PUA) proteins were PCR-amplified as described above and cloned between the BamHI and XhoI restriction sites of plasmid pGEX-6P-1. The resulting plasmids are denoted pGEX-6P1-aNOP10-Nt, pGEX-6P1-aNOP10-Ct and pGEX-6P1-aCBF5DPUA and pGEX-6P1-PUA, respectively. The recombinant GST-fusion proteins were produced in E.coli BL21 CodonPlus cells (Novagen). They were purified under native conditions using Glutathione­Sepharose 4Fast Flow (Pharmacia), and the archaeal proteins were eluted from the beads after cleavage with the PreScission Protease as described previously (22). Conditions used for protein crystallization Protein aCBF5 was mixed with protein aNOP10 at a molar ratio of 1:1.2. Crystals of the P.abyssi aCBF5­aNOP10 complex were grown by vapor phase diffusion in hanging drops. Drops were made at 293 K by mixing 1 ml of the concentrated proteins mixture (70 mg mlÀ1) and 3 ml of a reservoir solution containing 1 M di-potassium phosphate and 100 mM sodium acetate at pH 5.5. Crystals were flash-frozen in liquid ethane in the mother liquor with addition of 30% (v/v) glycerol as a cryoprotectant. The aCBF5­aNOP10 crystals were in space group P21212 with unit-cell parameters a ¼ 136.4 s, b ¼ 136.8 s, c ¼ 59.3 s. There was two aCBF5­aNOP10
+Downloaded from http://nar.oxfordjournals.org at Sachsische Landesbibliothek - Staats- u. Universitaetsbibliothek Dresden on May 21, 2010
+
+828
+
+Nucleic Acids Research, 2006, Vol. 34, No. 3
+
+complexes per asymmetric unit, consistent with a Matthews's coefficient of 3.27 s3 DaÀ1 and the solvent content is of 62.1%. Crystals of SeMet-incorporated proteins were obtained under conditions similar to those for the wild-type complex. Data collection and structure determination SAD data from a (SeMet)-labeled crystal flash-frozen at 100 K were collected at the absorption peak up to 2.7 s resolution at the BM14 beamline of the European Synchrotron Radiation Facility (ESRF, Grenoble). The dataset was indexed and scaled using HKL2000 (23). Eighteen of the 20 possible selenium sites were found and refined at 2.7 s resolution using SOLVE (24), which produced a mean figure of merit of 0.41 and an overall score of 70. After density modification with RESOLVE, the mean figure of merit was of 0.73. The experimental electron density map was clearly interpretable and allowed tracing of both the aNOP10 and aCBF5 molecules, which is consistent with the positions of all 18 selenium sites used for phasing. The model was built using O (25) and refined by CNS (26) with the maximum likelihood target using amplitude and experimental phase distributions. A native dataset at 2.1 s resolution was collected at 100 K on beamline ID14-4 at the ESRF. Data were indexed and scaled up using XDS (27). The initial aCBF5­aNOP10 model was improved by alternating cycles of simulated annealing refinement against the native dataset using CNS (26) and manual remodeling using O (25). The final model was refined to an Rfactor of 22.4% and an Rfree of 25.2% (Table 1) and includes residues 12­138 and 153­334 of aCBF5 (chain A), residues 12­138 and 151­334 of aCBF5 (chain C), residues 4­56 of aNOP10 (chain B and D), 5 phosphate ions, 2 zinc ions and 250 water molecules.
+Table 1. Data collection and refinement statistics Data collection Datasets ° Wavelength (A) ° Resolution (A)a Rsym (%)a,b Multiplicity I/sIa Completeness (%)a Refinement and model quality ° Resolution (A) Reflections work set Reflections test set Rfactor(%)c Rfree(%)d No. of protein atoms No. of water molecules ° R.m.s.d. bonds (A) R.m.s.d. angles ( ) Ramachandran plot (%) Most favored Favored Allowed Disallowede
+a b
+
+Gel filtration experiments Gel filtration experiments were performed using an AKTA explorer high-performance liquid chromatography (HPLC) (Amersham Biosciences) system, Superdex 75 or 200 HR columns (Amersham Biosciences) at a constant flow rate (0.5 ml/min) using 20 mM HEPES buffer (pH 7.5), 1 mM DTT, 300 mM NaCl. Proteins were detected at 280 nm using a dual-wavelength ultraviolet (UV) detector (260­280 nm). SDS­PAGE gel analysis of each fraction was performed to confirm the assignments of the retention peaks. For molecular mass estimation, the LMW Gel Filtration Calibration Kit and HMW Gel Filtration Calibration Kit (Amersham Biosciences) were applied to the Superdex 75 and 200 column, respectively. Electrophoresis mobility shift assays (EMSA) The DNA sequence of the sRNAs Pab91-WT and Pab91mtACA were PCR-amplified from P.abyssi GE5 genomic DNA, using a forward primer containing a T7 promoter (13). These DNA fragments were used as templates for in vitro transcription of 32P-labeled sRNAs (13). sRNP complexes were formed as described previously (13). Briefly, 50 fmol of a labeled sRNA was mixed in buffer D [150 mM KCl, 1.5 mM MgCl2, 0.2 mM EDTA and 20 mM HEPES (pH 7.9)] with recombinant full-length or truncated proteins (200 nM each) and the mixture was incubated for 10 min at 65 C. The sRNPs formed were resolved in 6% non-denaturing polyacrylamide gels. To test for the Pab91 sRNP target RNA association (complex CII), 2.5 pmol of the previously described (13) RNA-S target RNA, which is complementary to the pseudouridylation pocket of sRNA Pab91, were added in the incubation mixture. The dried gels were analyzed with a phosphorimager (Typhoon 9410, Amersham Biosciences) and the amounts of radioactivity in the bands were estimated with the ImageQuant software. The percentage of radioactivity in each of the RNP band as referred to the total radioactivity in the lane was systematically established. All the gel shift experiments were repeated three times and representative examples are shown in the figures. In vitro RNA:pseudouridylation assays The RNA:Y-synthase activities of the reconstituted sRNPs were tested by the nearest-neighbor approach (7). Conditions for time course analysis of the in vitro pseudouridylation reaction are detailed in (13). Typically, 4 pmol of unlabeled sRNA and 150 fmol of target RNA, that was labeled by [a-32P]CTP incorporated in the course of transcription, were mixed at 65 C with the wild-type or variant L7Ae, aCBF5, aNOP10 and aGAR1 proteins. Aliquots were collected at different time points and the reaction was stopped by phenol­chloroform extraction followed by ethanol precipitation. The recovered target RNAs were digested with RNase T2. The resulting 30 -mononucleotides were subjected to monodimensional chromatography on thin-layer cellulose plates, as described previously (13). The radioactivity in the bands were quantified with a phosphorimager (Amersham Biosciences) using the ImageQuant software. The amounts of Y formation as a function of time were determined taking into account the total number of U residues in the target RNA.
+
+Downloaded from http://nar.oxfordjournals.org at Sachsische Landesbibliothek - Staats- u. Universitaetsbibliothek Dresden on May 21, 2010
+
+Native 0.9686 30­2.1 (2.2­2.1) 6.8 (50.8) 7.2 15.6 (4.9) 99.8 (100) 30­2.1 62 200 3334 22.4 25.2 5777 250 0.006 1.49 91.7 8.0 0 0.3
+
+SeMet 0.9777 50­2.7 (2.8­2.7) 10.8 (41.1) 12.9 9.7 (2.1) 95.7 (96.9)
+
+The number in parenthesesP for the highest resolution shell. is Pi Rsym ¼ P jI ihkl ÀhI hkl ij= hkl jI hkl j where i is the number of reflections hkl. hkl P c Rfactor ¼ hkl jjFo ðhklÞj À jFo hkljj= hkl jFo ðhklÞj. d Rfree was calculated using 5% of the reflections left out of refinement. e Residue Glu94 (f ¼ 43 ; y ¼ À115 ) in aCBF5 is located in the i + 1 position of a bII0 turn.
+
+Nucleic Acids Research, 2006, Vol. 34, No. 3
+
+829
+
+Coordinates The coordinates of the P.abyssi aCBF5­aNOP10 complex have been deposited in the Protein Data Bank (accession code 2AUS).
+
+RESULTS Crystals and structure determination The P.abyssi proteins aCBF5 and aNOP10 were mixed at a molar ratio of 1:1.2 and good quality crystals were obtained (see Materials and Methods for details on crystallization conditions and crystal analysis). The structure was solved by single anomalous diffraction (SAD). The initial phases were calculated to 2.7 s, by using the SAD data collected from a selenomethionine (SeMet)-labeled crystal of the aCBF5­aNOP10 complex. Selenium was found at 18 of the 20 possible selenium sites. Phase improvement by means of density modification resulted in a well defined electron density map, that allowed us to build a 3D model for both the aCBF5 and aNOP10 molecules. The final structure of the aCBF5­ aNOP10 complex was refined against the dataset collected from a native crystal to an Rfactor of 22.4% and an Rfree of 25.2%, including all reflections between 30 and 2.1 s resolution (Table 1). The asymmetric unit was found to contain two aCBF5­aNOP10 complexes, 5 phosphate ions, 2 zinc ions and 250 water molecules. Superimposition of the two independent aCBF5­aNOP10 heterodimers in the asymmetric unit yields a r.m.s deviation of 1.08 s for 1424 backbone atoms. In the established structure, over 91% of the residues are within the most favored regions in a Ramachandran plot, as defined by PROCHECK (28). Only well-ordered Glu94 of both aCBF5 molecules have unfavorable main-chain torsion angles (f ¼ 43 ; y ¼ À115 ), but these torsion angles are consistent with the location of Glu94 in the i + 1 position of a bII0 turn (29,30). Structure overview of the aCBF5­aNOP10 complex In the crystal, the aNOP10 structure consists of a zinc-binding motif at the N-terminal end, a linker region and a a-helix at the C-terminal end (Figure 1A). The overall structure presents no structural homology with previously determined protein structures, as shown by a Dali search (http://www.ebi.ac.uk/ dali/). However, the zinc-binding motif (Figure 1B), that contains a cluster of four cysteines (C8-X2-C11-X8-C20-X2-C23), can be superimposed with a similar cluster present in the P.abyssi factor aIF2 (residues 56­81). The deviation for 26 Ca atoms is of 0.41 s r.m.s. The aIF2 factor is the archaeal counterpart of the eukaryotic translation initiation factor IF2-a (19). The electron density map of aNOP10 clearly shows the presence of a tetra-coordinated metal and a zinc atom was detected by X-ray fluorescence measurement. Moreover, alignment of the aNOP10 sequences from various archaeal species strongly indicates the presence of a zinc knuckle in all members of this protein family. Furthermore, the four cysteines are strictly conserved (Figure 1C). In contrast, this cysteine cluster is not found in the eukaryal Nop10 proteins (data not shown). In the crystal, each of the aNOP10 proteins are bound with one aCBF5 molecule, and two independent aCBF5­aNOP10 heterodimers are each related to an
+
+identical heterodimer via crystallographic 2-fold axes. They form heterotetramers by interaction of two aNOP10 proteins (Figure 1D and E). The structure of aCBF5 consists of two distinct domains (Figure 2A): a large catalytic domain and a small C-terminal domain corresponding to a PUA domain (pseudouridine synthase and archaeosine transglycosylase domain) (31). The overall fold of aCBF5 is similar to that of the tmTruB enzyme (20), with a 2.95 s r.m.s. deviation for 257 Ca atoms (Figure 2C). Comparison of the aCBF5 and tmTruB catalytic domains revealed two major differences: the deletion of two sequences of 17 residues, and the insertion of an additional a-helix (11 residues) in protein aCBF5 compared to tmTruB. Interestingly, this additional a-helix is also found in ecTruB (helix a6) (21). The two Ins1 and Ins2 sequences, which are deleted in aCBF5, are present in both tmTruB and ecTruB and are located in the thumb-loop. These Ins1 and Ins2 sequences are considered to be characteristic features of the TruB RNA:Y-synthase family (21). Comparison of the aCBF5 and tmTruB C-terminal domains reveals several differences. First, in aCBF5 the sequence between the b-strands b16 and b17 is lacking 4-residues compared to that in tmTruB and the resulting truncated sequence forms an additional a-helix (a9). Secondly, seven additional residues extend the C-terminus of aCBF5 compared to that of tmTruB. Finally, 33 additional residues are present at the N-terminus of aCBF5. They are wrapping the C-terminal PUA domain and form one additional b-strand (b18), that is located at one extremity of the b-sheet (Figure 2A). To superimpose the C-terminal domain of aCBF5 with that of the RNA-free ecTruB, a rigid body movement of the tip of the C-terminal domain toward the catalytic domain of aCBF5 with a maximum displacement of 5 s is needed (Figure 2B). Superimposition of aCBF5 with the RNA-bound ecTruB requires a second rigid body movement of the C-terminal domain toward the RNA of the ecTruB­RNA complex, with a maximum displacement of 5 s at the tip of the C-terminal domain (Figure 2C). The latter movement is also needed to superimpose the ecTruB RNA-free form with the RNA-bound tmTruB (20). aCBF5, dyskerin and TruB share a common active site The aCBF5 catalytic domain folds into an extensive b-sheet. At one side of the faces of the sheet, a cleft is delineated by helices a2 and a5 and loops b11-a5, b2-b3 and a2-b4. According to previous analysis on the TruB enzyme, the active site lies at the bottom of this cleft (21). Indeed, an aspartate residue (Asp82 in aCBF5, Aps48 in ecTruB and Asp125 in the human dyskerin) is conserved in all known RNA:Y-synthases (32,33), and it was already shown to be essential for RNA:Ysynthase activity (13), as well in the TruB enzymes (34), as in protein aCBF5 (35). In the TruB enzymes, two tyrosine residues (Tyr76 and Tyr179 in ecTruB) were shown to play an important role in orientation of the target uracil base (21). These residues are conserved in aCBF5. In the RNA-bound ecTruB, Tyr179 stacks against the sugar of the uracil substrate, and the aromatic ring of Tyr76 makes a stacking interaction with the uracil base (21). Both interactions are proposed to orientate the C6 atom towards the carboxylate of the catalytic aspartate
+
+Downloaded from http://nar.oxfordjournals.org at Sachsische Landesbibliothek - Staats- u. Universitaetsbibliothek Dresden on May 21, 2010
+
+830
+
+Nucleic Acids Research, 2006, Vol. 34, No. 3
+
+A
+N
+
+B
+Downloaded from http://nar.oxfordjournals.org at Sachsische Landesbibliothek - Staats- u. Universitaetsbibliothek Dresden on May 21, 2010
+
+31 Cys20 Cys8
+
+C
+
+Cys23
+
+Cys11
+
+C
+Pyrococcus abyssi Pyrococccus horikoshii Pyrococcus furiosus Archaeoglobus fulgidus Methanococcus jannaschii Thermococcus kodakaraensis Thermoplasma acidophilum Thermoplasma volcanium Methanopyrus kandleri Aeropyrum pernix Pyrobaculum aerophilum Methanosarcina acetivorans
+
+1
+
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+---- Zinc-binding domain ----
+
+-- -helix --
+
+         MRFRIRKCPKCGRYTL-KETCPVCGEKTKVAHPPRFSPEDPYGEYRRRLKRELLGIGRKEK MRFRIRKCPRCGRYTL-KEICPVCGEKTKVAHPPRFSPEDPYGEYRRRLKRELLGIGRKEK MRFRIRKCPKCGRYTL-KEVCPVCGEKTKVAHPPRFSPEDPYGEYRRRWKREVLGIGRKEK MKVLMRKCGKCGRYTL-KERCPVCGERTHMPIPPRFSIEDPYGKYRRKLRKEIGFFSFRR MVEMRMKKCPKCGLYTL-KEICPKCGEKTVIPKPPKFSLEDRWGKYRRMLKRALKNKNKAE MHFRIRKCPNCGRYTL-KEVCPVCGSETKVAHPPRFSPEDPYGEYRRRLKRELLGIGRR MKSLIRKCPRCHAYTM-EEKCPKCGSDTYIAVPPRYSPVDRFRKYRIEELRGEIDGENSGDQI MKSLIRKCRKCGRYTM-EEICPVCGSQTYIAVPPRFSPVDRFKKYRMEELLEGKYGKNNSGKV MPKRLRRCKECGEYTLQRDKCPHCGGDLEVPHPHRFSPEDPYGKYRRKLKKRVWAEKFGPPSGEGD MQWLLRKCRRCGRYTLRRDACPVCGGPVAVPHPPRFSPDNRFIKYRYELQKKLGLIPP MKSLLRRCVNCGEYTLSKDKCPRCGGAVRVPHPPKFSPEDKYQKYRILQKLLMGKLPIRDETKERLLRDLT MGQKIRKCKNCGRYTL-REKCPVCGGVTLPAIPARFSPQDPYGKYRRLAKKG
+
+D
+
+E
+
+Asp82
+
+Figure 1. The P.abyssi aNOP10 3D structure in aCBF5­aNOP10 crystals (A) Ribbon representation. The Zn2+ ion detected in the crystal structure is represented by a red ball. The arrow indicates the position of the C-terminal end truncation in the aNOP10-Nt variant protein produced in this study (see Figure 4A). (B) Close-up view of the 2Fo-Fc electron density map (blue), contoured at 1.2 s, in the region of the zinc-binding domain. The zinc atom is drawn in red. The simulated annealing omitted Fo-Fc map (green) of the zinc ion is contoured at 5 s. (C) Sequence alignments of archaeal aNOP10 proteins. Residues involved in the side-chain interactions between proteins aNOP10 and aCBF5 and in the aNOP10 homodimerization are indicated by white and black diamonds, respectively. Sequences are retrieved from the SWISS-PROT database. (D and E) Ribbon representation of the two distinct aCBF5­aNOP10 heterotetramers formed by aNOP10 dimerization and found in the crystal.
+
+to favor the reaction (21). It is also proposed that Tyr179 acts as a general base for the proton abstraction, which is required in the last step of Y formation (36). An Arg residue (Arg181 in ecTruB) also participates to the active site by formation of a
+
+salt bridge and two hydrogen bonds with the catalytic Asp48 residue (21). The superimposition of the 3D structure of the aCBF5 catalytic domain on to those of the RNA-free and RNA-bound ecTruB structures (20) shows the presence
+
+Nucleic Acids Research, 2006, Vol. 34, No. 3
+
+831
+
+A
+6
+
+Downloaded from http://nar.oxfordjournals.org at Sachsische Landesbibliothek - Staats- u. Universitaetsbibliothek Dresden on May 21, 2010
+
+C
+
+Asp82
+
+249 N 9 18
+
+B
+
+6
+
+6
+
+C
+
+C
+
+N 9
+
+N 9
+
+C
+
+90°
+
+6
+
+6
+
+N
+
+9
+
+C
+
+N
+
+9
+
+C
+
+D
+Arg181 Tyr179 Arg181 Tyr179
+
+Asp82
+
+Asp82 Tyr110 Tyr110
+
+Fhy
+
+Figure 2. The P.abyssi aCBF5 structure in aCBF5­aNOP10 crystals and its comparison with the E.coli and T.maritima TruB 3D structure (ecTruB and tmTruB, respectively) (A) Ribbon representation of the established aCBF5 structure. The position of the C-terminal extremity (249) of the variant aCBF5 protein aCBF5DPUA produced in this study is represented (see Figure 4). The N-terminal extension is drawn in yellow. (B) Superimposition of the aCBF5 3D structure (green) with that of the free ecTruB (blue) (20). (C) Superimposition of the aCBF5 3D structure (green) with that of the RNA-bounded tmTruB (red) (20). Note that aCBF5 is oriented differently (rotation by 90 ) in (B) and (C). (D) Superposition of the catalytic residues of protein aCBF5 (green) with the corresponding residues from the RNA-free ecTruB protein (blue) (20) and the RNA-associated tmTruB protein (red) (20). The aCBF5 amino acids numbering is used. The position identified for 5-fluoro-6-hydroxypseudouridine (5FhY) after catalysis by the ecTruB protein is indicated (21).
+
+832
+
+Nucleic Acids Research, 2006, Vol. 34, No. 3
+
+in the active site of aCBF5 of four residues (Asp82, Tyr110, Tyr179 and Arg181, respectively), which are homologous to the ecTruB Asp48, Tyr76, Tyr179 and Arg181 residues, respectively. The two sets of four residues have similar locations in the active sites of both enzymes (Figure 2D). As, the conformations of these residues are modified upon RNA binding on the ecTruB enzyme, it was also interesting to compare the conformations of their lateral chains in the available 3D structures. Upon RNA binding, the Asp48 conformation is modified, as it forms an ionic interaction with residue Arg181 (20). On the other hand, Tyr179 moves toward and clamps the uracil ring into a productive orientation for catalysis (20). Interestingly, the conformation of the catalytic Asp82 residue in the aCBF5 structure is closer to that of the catalytic Asp48 residue in the RNA-bound forms of ecTruB and tmTruB, than to the one of this residue in the unbound form of ecTruB (Figure 2D). Remarkably also, the position of Tyr179 in aCBF5 is closer to that in the bound forms of ecTruB and tmTruB, than to that in free ecTruB. Thus, in the aCBF5­aNOP10 complex, residues of the aCBF5 catalytic site likely have a conformation, which is favorable for catalysis of the U to Y conversion. aNOP10 interacts with the catalytic domain of aCBF5 In the crystal structure, the aCBF5­aNOP10 interface (1292 s2) involves 26% of the total solvent-accessible surface area of aNOP10 and 9% of the total solvent-accessible surface area of aCBF5. Indeed, the surface of aNOP10 is strongly involved in the heterodimer interface and half of this interface is nonpolar. The side-chain interactions formed in the crystal are both of hydrophobic and of ionic types (Figure 3). Two distinct hydrophobic surfaces are observed at the heterodimer interface. The first one includes the hydrophobic residues at the surface of the zinc-binding motif. They are involved in formation of a hydrophobic cluster with hydrophobic residues from the contiguous b-strands b4 and b11 of protein aCBF5. The second hydrophobic surface involves residues on one face of the C-terminal a-helix in protein aNOP10 and hydrophobic residues of the helices a1, a6 and a7 in protein aCBF5. Besides these hydrophobic contacts, basic residues of the C-terminal a-helix and at the surface of the zincbinding domain of protein aNOP10 form ionic interactions with acidic residues in protein aCBF5. These aCBF5 residues belong to helix a6 and to the loops located upstream of b11 and a6, respectively. Moreover, one phosphate ion is found at the interface between proteins aNOP10 and aCBF5 and it interacts with the side-chains of residues Arg46 and Arg50 from aNOP10 and His225 from aCBF5. Distinct roles of the aNOP10 N- and C-terminal domains In our recent study (13), we showed that a complex designated RNP3 (Figure 4B, lane 2) is formed by direct interaction between proteins aCBF5 and L7Ae and the Pab91 sRNA. In the presence of protein aNOP10, complex RNP3 is converted into an RNP5 complex (Figure 4B, lane 4). As protein aNOP10 did not show direct sRNA binding activity, protein aCBF5 is proposed to drive the incorporation of protein aNOP10 into the sRNP (12,13). In addition, protein aNOP10 is required for incorporation of the RNA substrate
+
+A
+11 4
+
+B
+Downloaded from http://nar.oxfordjournals.org at Sachsische Landesbibliothek - Staats- u. Universitaetsbibliothek Dresden on May 21, 2010
+
+1
+
+7
+
+6
+
+C
+31
+
+D
+
+180°
+
+E
+
+90°
+
+F
+
+90°
+
+Figure 3. Interface between proteins aNOP10 and aCBF5 in the crystal (A) Ribbon representation of the aCBF5­aNOP10 heterodimer and (B) molecular surface of the aNOP10 (orange) and aCBF5 (green) surface in the crystal. (C, D) Hydrophobic (gray), acidic (red) and basic (blue) residues at the aCBF5­aNOP10 interfaces are represented in aCBF5 (C) and aNOP10 (D). (E) Calculated electrostatic potential for the aCBF5­aNOP10 complex mapped on its molecular surface. Positive and negative potential are drawn in blue and red, respectively. (F) Ribbon representation of the aCBF5­aNOP10 complex in the same orientation as in (E). Views in (A­C) have the same orientation; view in (D) is rotated by 180 and the aCBF5­aNOP10 structure in (E and F) is rotated by 90 .
+
+(Figure 4B, lanes 3 and 5) (13) leading to the formation of the CII complex (marked by asterisks in Figure 4B). This complex has a higher electrophoretic mobility compared to complex RNP5 (Figure 4B, lanes 4 and 5). As both the N- and C-terminal fragments of aNOP10 interact with aCBF5
+
+Nucleic Acids Research, 2006, Vol. 34, No. 3
+
+833
+
+A
+aNOP10 aNOP10-Nt aNOP10-Ct
+1 1 8 11 20 23 60 31 32 60
+
+CC C C
+8 11 20 23
+
+CC C C
+
+B
+
+aNOP10 WT -Nt -Ct - + + + + + + + + L7Ae/aCBF5 RNA substrate - - + - + - + - +
+
+-Nt -Ct + + - +
+
+RNP5 RNP3 RNP1 sRNA
+RNP5 CII RNP3 RNP1
+
+*
+
+* CII *
+
+1 2 3 4 5 6 7 8 9 10 11 27 10 8 2 94 86 77 2 3 6 91 94 70 5 87 89 90 12 94 21
+
+C
+ (mol.mol-1)
+1,0
+
+(LCG) + aNOP10
+0,8
+
+0,6
+
+(LCG) + aNOP10-Ct
+
+0,4
+
+0,2
+
+(LCG) + aNOP10-Nt + aNOP10-Ct (LCG) + aNOP10-Nt
+0 20 40 60 80
+
+0,0
+
+Time (min)
+
+Figure 4. Analysis of the functional roles of the N- and C-terminal domains of protein aNOP10. (A) Schematic representation of the aNOP10 fragments used in this study. The four cysteine residues of the zinc finger domain of protein aNOP10 are indicated. (B) Analysis by gel mobility shift assays of complex CII formation. The radio-labeled Pab91 sRNA (50 fmol) was incubated with the L7Ae and aCBF5 proteins (200 nM each) and, as indicated on top of the lanes, either the WT aNOP10 protein (lanes 4 and 5), the Nt or Ct aNOP10 fragments (lanes 6­9) or both fragments (lanes 10 and 11). Formation of complex CII (marked by an asterisk) was tested in the presence of the RNA substrate, as indicated on top of the lanes. The percentages of Pab91 sRNA present in each complexes as referred to the total RNA amount in the lane is indicated below each lane. (C) Time course analyses of Y formation in the RNA substrate. The unlabeled Pab91 sRNA was mixed with the labeled RNA substrate and the three L7Ae, aCBF5 and aGAR1 proteins (LCG) plus either the full-length aNOP10, fragment aNOP10-Nt, fragment aNOP10-Ct or the two aNOP10 fragments. The amounts of Y residue formed were estimated by 1D TLC. They are expressed in moles of Y residue formed per moles of RNA substrate.
+
+according to our 3D structure analysis, we tested whether one of them or both are required to recruit the RNA substrate during complex CII formation. To this end, two aNOP10 fragments (aNOP10-Nt and aNOP10-Ct) were produced and purified. The aNOP10-Nt fragment contained the zinc-binding domain and the aNOP10-Ct fragment carried the 29 Cterminal residues with the a-helix (Figure 4A). Interestingly, the formation of an RNP5-like complex (containing proteins L7Ae, aCBF5 and aNOP10-Nt) demonstrated the association of fragment aNOP10-Nt with the aCBF5 protein bound to the guide. However, no CII complex was detected, upon addition of the RNA substrate (Figure 4B, lanes 6 and 7). On the contrary, although no RNP5-like complex was formed upon incubation of protein aCBF5 with the guide RNA and the aNOP10-Ct fragment, a complex expected to correspond to the CII complex was assembled in the presence of the RNA substrate (Figure 4B, lanes 8 and 9). When formation of complex CII was tested in the presence of the two aNOP10-Nt and aNOP10-Ct fragments, a complex with an electrophoretic mobility lower than that of complex CII was obtained (Figure 4B, lane 11). The RNA:Y-synthase activity of the reconstituted sRNPs was measured by use of the nearestneighbor approach described in Materials and Methods. According to the data obtained, the aNOP10-Ct fragment was sufficient to get an active particle (Figure 4C). Indeed, after a 80 min incubation of the guide sRNA and the RNA substrate with the L7Ae, aCBF5, aGAR1 and aNOP10-Ct protein set, more than 50% of the RNA substrates were modified. In contrast, a very low activity was obtained when using the aNOP10-Nt fragment. Hence, the C-terminal domain of aNOP10 alone is able to stimulate the aCBF5 activity. Nevertheless, the kinetics of the reaction was slower as compared to that obtained for the fulllength aNOP10 protein. Surprisingly, in the presence of the two aNOP10-Nt and aNOP10-Ct fragments, the rate of the reaction was very low. It was similar to that found for the aNOP10-Nt fragment alone. Thus, addition of the aNOP10-Nt fragment counteracted the positive effect of the aNOP10-Ct fragment. Taken together, we concluded that the full stimulation of the aCBF5 activity requires the aNOP10 C- and N-terminal domains and the integrity of the linker fragment. We then tested whether the presence of the Zn2+ ion was important for sRNP activity. To this end, a aNOP10C11S variant protein lacking one of the four cysteine residues required for Zn2+ binding was produced. The mutation had no effect on RNP5 and CII complex formation, and on the catalytic property of the reconstituted particles (data not shown). We, thus, concluded that the presence of a Zn2+ ion in aNOP10 is not required for RNP assembly and activity. The PUA domain is required for aCBF5 binding to the sRNA To test whether the PUA domain has a functional role in H/ACA sRNP assembly and function or whether the aCBF5 catalytic domain is sufficient for production of active sRNPs, we produced an aCBF5DPUA protein missing the C-terminal PUA domain (Figure 5A) and studied sRNP assembly with this protein. As shown in Figure 5, upon incubation of the
+
+Downloaded from http://nar.oxfordjournals.org at Sachsische Landesbibliothek - Staats- u. Universitaetsbibliothek Dresden on May 21, 2010
+
+834
+
+Nucleic Acids Research, 2006, Vol. 34, No. 3
+
+A
+aCBF5 aCBF5PUA PUA
+1
+I
+II
+
+B
+250 249 250
+
+PUA
+
+334
+
+1
+
+I
+
+II
+
+L7Ae aCBF5 aCBF5PUA aNOP10
+
+-
+
++ + -
+
++ + +
+
++ + -
+
++ + +
+
+Downloaded from http://nar.oxfordjournals.org at Sachsische Landesbibliothek - Staats- u. Universitaetsbibliothek Dresden on May 21, 2010
+
+PUA
+
+334
+
+C
++L7Ae/aNOP10 aCBF5 aCBF5PUA PUA RNA substrate RNP5 CII + + + + + + + + + + +
+
+RNP5 RNP3 RNP1 sRNA
+RNP5 RNP3 RNP1 1 2 3 4 5 21 2 92 71 94 94
+
+D
+ (mol.mol-1)
+
+*
+
+*
+
+*
+
+1,0
+
+LCNG
+0,8
+
+RNP1 sRNA
+1 2 3 4 5 6 RNP5 17 <1 <1 CII 87 8 23 RNP1 71 9 89 87 88 69
+
+0,6
+
+LCNG + PUA
+
+0,4
+
+0,2
+
+LCNG LCNG + PUA Pab91mtACA
+0 20 40 60
+
+0,0
+
+Time (min)
+
+80
+
+Figure 5. PUA trans-complementation of the aCBF5 activity. (A) Schematic representation of the aCBF5 protein with the N-terminal extension found in the RNAguided Y-synthases (black box), the highly conserved motifs I and II in the catalytic domain, and the pseudouridine synthase archeosine transglycosylase domain, PUA (white) are represented. The two aCBF5 fragments used in this study (aCBF5DPUA and PUA) are shown below. (B) Analysis by EMSA of the complexes formed with the radio-labeled Pab91 sRNA (50 fmol), proteins L7Ae and aNOP10 and either the full-length aCBF5 or the aCBF5DPUA fragment (200 nM each). The RNP complexes identified by phosphorimager analysis are numbered according to (13). The percentages of radioactivity in each complexes as compared to the total amounts of radioactivity in the lanes are given below the lanes. (C) Analysis by EMSA of complex CII formed with the wild-type or variant aCBF5 proteins. Complex CII formation was tested by incubation of the Pab91 sRNA with proteins L7Ae and aNOP10 (200 nM) and either the full-length aCBF5 protein (lanes 1 and 2) or the truncated aCBF5DPUA protein (200 nM) (lanes 3­6) in the presence (lanes 5 and 6) or absence (lanes 3 and 4) of the PUA fragment (200 nM). A 50 molar excess of unlabeled RNA substrate was added to the mixture (as indicated above each lane). Complexes were fractionated by gel electrophoresis. The nomenclature is according to (13) and the CII complexes are marked by an asterisk. The percentages of Pab91 sRNA present in each RNP as referred to the total RNA amount in the lane are given below the lanes. (D) Time course analyses of in vitro pseudouridylation reactions. The unlabeled WT Pab91 (filled symbols) or Pab91mtACA (open symbols) sRNA (4 pmol) was incubated at 65 C with the labeled RNA substrate (150 fmol) and various combinations of the core proteins : L7Ae (L), aCBF5 (C) or aCBF5DPUA (DC) with or without the PUA fragment.
+
+radio-labeled sRNA Pab91 with the aCBF5DPUA and L7Ae proteins, only the L7Ae-containing complex (RNP1) was formed (Figure 5B, lane 4). The same result was obtained in the presence of aNOP10 (Figure 5B, lane 5). In addition, when the RNA substrate was added to the incubation mixture containing the guide sRNA and the L7Ae, aCBF5DPUA and aNOP10 protein set, the CII complex was formed at very low yield (Figure 5C, lane 4). Accordingly, time course analysis of the pseudouridylation reaction revealed a very low efficiency of particles reconstituted with the truncated aCBF5 protein. Only 10% of the RNA substrate molecules were modified after a 80 min incubation
+
+(Figure 5D). We, thus, concluded that the PUA domain has a crucial role for aCBF5 binding to the Pab91 sRNA and as a result for proper H/ACA sRNP assembly. Interestingly, when the PUA domain was added in trans in the reaction mixture, a higher amount of CII complex was formed (Figure 5C, compare lane 6 with lane 4) and the rate of the reaction was enhanced. After a 80 min incubation, about 70% of the RNA substrate molecules were modified (Figure 5D). When the same assay was repeated with the variant Pab91mtACA, containing an ACA to UGU substitution (13), the addition of the PUA domain had no positive effect on the sRNP activity (Figure 5D). We concluded that
+
+Nucleic Acids Research, 2006, Vol. 34, No. 3
+
+835
+
+the PUA domain of protein aCBF5 likely interacts with the conserved ACA sequence in the H/ACA sRNA. The aNOP10 Tyr41 and Leu48 residues are necessary for aNOP10 dimerization As described above, the aCBF5­aNOP10 heterodimers were found in two kinds of heterotetramer structures in the crystal (Figure 1D and E). Formation of these heterotetramers relies on aNOP10 dimerization. In one heterotetramer, the aNOP10 dimerization interface is formed of the two C-terminal a-helices, which are parallel to each other (Figure 6A), and the interface buries a quite large solvent-accessible surface area of 1507 s2. This interface involves the hydrophobic residues Tyr41, Leu48 and Leu52, which are located on one face of the a-helix (Figure 6C). In addition, two phosphate ions are bound at the N-terminal end of the a-helices and form hydrogen bonds with the Ser36 residues of both aNOP10 molecules. In the second heterotetramer, the aNOP10 dimerization interface buries a much lower solvent-accessible surface area (798 s2). The two a-helices are perpendicular to each other and only the N-terminal part of these helices are involved in the interface (Figure 6B). The Tyr41 and Tyr44 residues from both a-helices form a small aromatic cluster (Figure 6D) and no phosphate ion is bound unlike in the other dimer. Analytical gel filtration analysis (Figure 6E and F) showed that the pure aNOP10 protein migrates as two peaks corresponding to a monomer­dimer equilibrium with a high proportion of the monomer form. These results suggested that in the absence of protein aCBF5, protein aNOP10 forms homodimers in solution. When the aNOP10 and aCBF5 proteins were mixed at a 1.2:1 ratio, two main peaks were obtained, in addition to the peak corresponding to the residual free aNOP10 protein (Figure 6E). They corresponded to aCBF5­aNOP10 heterodimers and heterotetramer, e.g. an heterodimer of two aCBF5­aNOP10 heterodimers. Therefore, in accordance with the crystal structure, the aNOP10-aCBF5 heterodimers can form heterotetramers in solution, likely via the aNOP10­aNOP10 interaction. In order to get an idea of the kind of aNOP10 homodimers formed in solution, we produced two aNOP10 protein variants. In variant aNOP10Y41A, residue Tyr41 involved in both types of aNOP10 dimers was mutated, and in variant aNOP10L48A we mutated residue Leu48, which is expected to be only involved in the formation of homodimers with two parallel helices. As shown by gel filtration assays, both amino acids substitutions abolished homodimer formation, which is in favor of the formation of homodimers with parallel helices in solution. DISCUSSION As stated in the introduction, the aCBF5 RNA:Y-synthase of archaeal H/ACA sRNPs is inactive by itself. It needs association with the aNOP10 protein and the H/ACA sRNA to become active. The present study brings important information for understanding this peculiar property of the archaeal aCBF5 enzyme. This is as much important, as the observed peculiarities of aCBF5 compared to other RNA:Y synthases, are likely shared with its eukaryotic counterparts (Cbf5p/Dyskerin).
+
+Similarities and differences between the aCBF5 and TruB 3D structures As the TruB enzyme, protein aCBF5 consists of a large catalytic domain and a small C-terminal PUA domain. However, one important difference between aCBF5 and TruB is the presence of a 33 residues additional N-terminal sequence that wraps the PUA domain. This additional sequence is found in all the characterized archaeal aCBF5 enzymes and is also present in their eukaryal counterparts. To test for its function we tried to produce an aCBF5 protein truncated of this N-terminal additional sequence. This was not possible because the truncated protein turned to be unstable when produced in E.coli. Hence, we concluded that the 33 N-terminal residues of the P.abyssi aCBF5 protein are important for the correct folding and/or the stability of the enzyme. Wrapping of the PUA domain by the N-terminus may also be important for its precise positioning relative to the catalytic domain. This may be as much important as our data demonstrate a role of the PUA domain in aCBF5 binding to the sRNA. Previous (12,13) and present results strongly support the idea that aCBF5 association with the guide sRNA depends upon the ACA conserved motif of H/ACA sRNAs. Interestingly, the PUA domain was originally found in the archeosine tRNA-guanine transglycosylase (ArcTGT) (31), that modifies G15 of the D-arm of tRNA (37,38). The 3D structure analysis of a tRNA bound ArcTGT revealed the interactions of the PUA domain with the acceptor stem and the CCA terminus of the tRNA (39). In addition, in TruB, the PUA domain is also expected to interact with the tRNA acceptor arm (40). Although the observed interactions essentially concern the backbone of the RNA, PUA domains seem to develop preferential interactions with NCA trinucleotide sequences (21). The ACA trinucleotide in H/ACA sRNAs is located at a constant distance of the targeted uridine in the sRNA­target RNA complex (14 to 16 bp flanked by the ACA motif) [(41) and S. Muller, F. Leclerc and C. Branlant, unpublished data]. This constant distance may represent a key determinant for a good positioning of the targeted uridine in the active site. Concerning RNA binding, it is interesting to note that because the aCBF5­aNOP10 interaction masks the negative charges present on the surface of protein aCBF5, the surface formed by association of proteins aCBF5 and aNOP10 is mostly positively charged (Figure 3E). This surface electrostatic potential is highly favorable for a large interaction with the guide RNA and the RNA substrate. Hence, masking negative charges on the aCBF5 surface may be one of the multiple roles played by protein aNOP10. It might also be that the aNOP10 interaction in the aCBF5­aNOP10 complex is responsible for the difference of conformation of residues Tyr179 and Asp82 in the active site, as compared to those of their counterparts in the RNA-free ecTruB enzyme (20). Based on the observed conformation of these two residues in the aCBF5­aNOP10 complex, a more limited induced fit should be needed for substrate binding, as compared to the ecTRuB enzyme. This may explain our previous observation of a high catalytic efficiency of the Pab91 reconstituted sRNP when the small RNA-S substrate was used (100% of RNA modification after a 5 min incubation of the RNA­protein mixture) (13).
+Downloaded from http://nar.oxfordjournals.org at Sachsische Landesbibliothek - Staats- u. Universitaetsbibliothek Dresden on May 21, 2010
+
+836
+
+Nucleic Acids Research, 2006, Vol. 34, No. 3
+
+A
+
+B
+Downloaded from http://nar.oxfordjournals.org at Sachsische Landesbibliothek - Staats- u. Universitaetsbibliothek Dresden on May 21, 2010
+
+C
+
+Ser36
+
+D
+
+Pi Tyr41 Tyr41
+
+Leu48 Tyr44 Leu52
+
+E
+
+Superdex 200
+
+F
+
+Superdex 75
+
+Absorbance at 280 nm
+
+aNOP10-aCBF5 heterodimer (46 kDa)
+
+Absorbance at 280 nm
+
+aNOP10 WT monomer
+
+aCBF5 monomer (38 kDa) aNOP10-aCBF5 heterotetramer (92 kDa)
+
+aNOP10 monomer (7.5 kDa) aNOP10 dimer (15 kDa)
+
+aNOP10 Y41A
+
+aNOP10 WT dimer
+
+aNOP10 L48A
+
+Elution time (min)
+
+Elution time (min)
+
+Figure 6. Analysis of protein aNOP10 dimerization by gel filtration (A, B, C and D) Ribbon representation of the two distinct aNOP10 dimers (A) and (B) found in the crystal structure and their corresponding close-up views (C) and (D). (E) Dimer formation analysis by gel filtration. The purified aNOP10 protein and aCBF5 protein alone, or a mixture of these two proteins in a 1.2:1 molar ratio were incubated as described in Materials and Methods and were analyzed by gel filtration on a Superdex 200. The elution profiles are represented in orange, green and blue, respectively. The inset represents the elution times of standard molecular markers as a function of the log of their molecular weights (Da): bovin gamma globulin (158 000 Da), BSA (67 000 Da), chicken ovalbumin (43 000 Da), chymotrypsinogen A (25 000), equine myoglobin (17 500 Da), Ribonuclease A (13 700) and Vitamin B12 (1350 Da). (F) Effects of the Y41A and L48A amino acids substitutions in aNOP10 on the dimerization properties. Fractionation was performed on a Superdex 75 column. The elution profiles of the WT, L48A and Y41A variant proteins are drawn in red, green and blue, respectively. The inset represents elution times of standard molecular markers as a function of the log of their molecular weights (Da): chicken ovalbumin (43 000 Da), chymotrypsinogen A (25 000) and Ribonuclease A (13 700).
+
+The numerous interactions between aCBF5 and aNOP10 play differential roles in aCBF5 activation Our crystal structure reveals a very elongate shape of protein aNOP10. This very elongated shape allows the
+
+interaction of protein aNOP10 with the two lobs of the aCBF5 catalytic domain. Such an elongated shape was already found for several ribosomal proteins (42). In spite that both the N- and C-terminal domains of protein aNOP10 can form
+
+Nucleic Acids Research, 2006, Vol. 34, No. 3
+
+837
+
+ionic and hydrophobic interactions with aCBF5 (Figure 3), the C-terminal part of protein aNOP10 does not form a stable complex with protein aCBF5 bound to the sRNA (Figure 4B). For integration in the RNP complex the aNOP10 C-terminal domain needs the presence of the RNA substrate and particles reconstituted with this fragment are active (60% of the WT activity with a lag period in the kinetics) (Figure 4C). In contrast, the aNOP10 N-terminal domain that contains the Zn2+ binding domain has the capability to bind protein aCBF5, however, active particles are not generated with this domain (Figure 4B and C). In addition, mutation of one of the four cysteines (C11) of the Zn2+ binding site had no effect on the RNA:Y-synthase activity. This is in contrast to finding of a requirement of Zn2+ ions for activity of the Saccharomyces cerevisiae Pus1p RNA:Ysynthase (43). The present data show that the aNOP10 Zn2+ ion is not essential for sRNP activity. However, the aNOP10 N-terminal domain may reinforce the sRNP activity by: (i) a role in anchoring the aNOP10 protein on to the aCBF5 protein, (ii) modifying the conformation of the aCBF5 active site and/or (iii) remodeling the structure of the guide RNA, as very recent proposed for the eukaryal Nop10 protein (44). Indeed, after submission of this article, an NMR spectroscopy study of the interaction between the yeast Nop10p protein and one stem­loop structure of a human H/ACA snoRNA was published by the J. Feigon's laboratory (44). The authors propose that the folded N-terminal region of Nop10p interacts weakly with the snoRNA, in the region at the junction between the lower stem and the pseudouridylation pocket. As the pseudouridylation pocket is partially structured in absence of proteins (44), such an interaction may participate in the opening of the pseudouridylation pocket to favor duplex formation between the guide and the substrate RNAs. In light of this hypothesis, it will be interesting to test whether the lower sRNP activity, that we observed when using the aNOP10 C-terminal domain as compared to the full-length aNOP10 protein, is in part due to the absence of remodeling of the guide RNA structure by the aNOP10 N-terminal domain. Indeed, in the absence of the aNOP10 N-terminal domain, only 60% of the RNA substrate molecules were modified and a lag period was observed in the kinetics of the reaction (Figure 4C). As the RNA-duplex formed by the guide RNA and the RNA substrate is able to generate a stable interaction between protein aCBF5 and the aNOP10 C-terminal domain, leading to a functional particle, we conclude that this RNA duplex is able to supply, at least partially, for the absence of the anchoring aNOP10 N-terminal domain. Surprisingly, no sRNP activity was observed when the C- and N-terminal domains of protein aNOP10 were present together as separate entities. Several explanations can be proposed for this observation. First, an aberrant structure may be formed by interaction of the two halves of aNOP10. Secondly, the aNOP10 N-terminal domain may interact with both lobs of the aCBF5 catalytic domain, thus, avoiding the binding of the aNOP10 C-terminal domain. Finally, and more simply there may be a negative effect of the charged carboxylate at the extremity of the aNOP10 N-terminal domain. It may interfere with the aCBF5 active site, for instance by formation of an ion pair with the catalytic Asp82 residue.
+
+Is the aNOP10 dimerization of functional importance? Surprisingly, our crystals contained two kinds of aNOP10 dimers (Figure 1D and E; Figure 6). This suggests that the two kinds of dimers may exist in equilibrium in solution. However, according to our site-directed mutagenesis analysis only dimers with parallel a-helices are stable in solution. Interestingly, in the crystal, these dimers with parallel ahelices contained two phosphate ions hydrogen-bonded with residue S36. This opens the question of a possible involvement of dimer formation in RNA binding. As no phosphate ion was found in the dimers with perpendicular helices, the involvement of a conformational transition from one dimer conformation to the other one may participate to the dissociation of the modified substrate RNA. During the time that this paper was evaluated, the 3D structures of the aCBF5­aNOP10 complex from Methanococcus jannaschii, and of the Nop10 proteins from S.cerevisiae and M.jannaschii have been solved (44,45). Our data on the P.abyssi aCBF5­aNOP10 complex are in perfect agreement with those obtained for the M.jannaschii complex. Moreover, our data reinforce the idea that the C-terminal a-helix of aNOP10 is stabilized upon interaction with aCBF5 (45). By inspection of the data obtained by Hamma et al. (45) for the M.jannaschii aCBF5­aNOP10 complex (PDB ID 2apo), we observed that the asymmetric unit contains only one heterodimer that is related to an identical heterodimer via a crystallographic 2-fold axis. Interestingly, the quaternary structure for the heterotetramer found in their crystal corresponds to the P.abyssi heterotetramer in which the two aNOP10 a-helices are perpendicular to each other. In the M.jannaschii quaternary structure, the aromatic cluster located at the interface of the aNOP10 helices is formed by the Trp42 and Tyr45 residues, corresponding to the Tyr41 and Tyr44 residues found in the P.abyssi aNOP10 cluster (Figure 1C). Thus, both the P.abyssi and the P.jannaschii aCBF5­aNOP10 complexes are found as heterotetramers in crystal structures. In connection with a possible role of these aCBF5­aNOP10 tetramers, it should be noticed, that in eukarya most of the guide H/ACA snoRNAs contain two stem­loop structures with a pseudouridylation pocket. As they both have to be associated with a CBF5­NOP10 complex, one may imagine a synergistic binding of the two complexes by heterotetramer formation. Although the presence of two stem­loop structures is not a general rule in archaeal H/ACA sRNAs, some of these sRNAs also have two stem­loop structures [(41) and S. Muller, F. Leclerc and C. Branlant, unpublished data]. Conservation of aCBF5 and aNOP10 in eukarya The present data are important for the understanding of the structure of eukaryal H/ACA snoRNPs and their mechanism of action. Indeed, the archaeal and eukaryal CBF5 and NOP10 proteins are highly conserved in the two kingdoms of life and, up to now, no reconstitution of active the H/ACA snoRNP was achieved using purified recombinant proteins and in vitro transcribed RNAs (46). This is essentially due to the difficulty to produce the eukaryal proteins CBF5 and GAR1 of H/ACA snoRNP complexes in a soluble form. Such difficulty also impairs their crystallization and 3D structure determination. However, based on the present data, one may model the 3D structure of the eukaryal CBF5­NOP10
+
+Downloaded from http://nar.oxfordjournals.org at Sachsische Landesbibliothek - Staats- u. Universitaetsbibliothek Dresden on May 21, 2010
+
+838
+
+Nucleic Acids Research, 2006, Vol. 34, No. 3
+
+complex. Interestingly, a linked has been established between a genetic disease, designated as X-linked dyskeratosis congenita (DC), and mutations found in the Dyskerin gene (47). The most frequent mutations (48) are located in the PUA domain and the N-terminal extension that wraps the PUA domain. In agreement with the present data, this strengthens the importance of this domain in H/ACA snoRNP assembly. In vertebrates, in addition to snoRNAs and scaRNAs (49), the telomeric RNA also contains an H/ACA domain that binds the complete set of NHP2, CBF5/Dyskerin, NOP0 and GAR1 proteins from H/ACA snoRNPs (50,51). Patients suffering from DC were found to have a decreased level of telomerase (52). We are presently generating the most prevalent mutations found in the Dyskerin encoding gene into the aCBF5 gene in order to test for their effects on aCBF5 binding to the sRNA, sRNP assembly and sRNP activity.
+
+ACKNOWLEDGEMENTS Christine Loegler is warmly thanked for technical assistance. The authors are grateful to ESRF for access to the BM14 beamline and the authors thank Hassan Belrhali for assistance with data collection. J.-B.F. is a fellow from the ` ´´ ´ ` ´ ` French Ministere delegue a l'Enseignement superieur et a la Recherche. The work was supported by the Centre National ` de la Recherche Scentifique (CNRS), the French Ministere de la Recherche et des Nouvelles Technologies (MRNT), ´ the Actions Concertees Incitatives (ACI) Microbiologie and ´ BCMS of the french MRNT and the Bioingenierie PRST of ´ the Conseil Regional Lorrain. Funding to pay the Open Access publication charges for this article was provided by the Service Commun de Documentation de I'UHP-Nancy I. Conflict of interest statement. None declared.
+
+REFERENCES
+1. Cavaille,J. and Bachellerie,J.P. (1998) SnoRNA-guided ribose methylation of rRNA: structural features of the guide RNA duplex influencing the extent of the reaction. Nucleic Acids Res., 26, 1576­1587. 2. Massenet,S., Mougin,A. and Branlant,C. (1998) In Grosjean,H. and Benne,R. (eds), The Modification and Editing of RNA. ASM Press, Washington, DC, pp. 201­228. 3. Yang,C., McPheeters,D.S. and Yu,Y.T. (2005) Psi35 in the branch site recognition region of U2 small nuclear RNA is important for pre-mRNA splicing in Saccharomyces cerevisiae. J. Biol. Chem., 280, 6655­6662. 4. King,T.H., Liu,B., McCully,R.R. and Fournier,M.J. (2003) Ribosome structure and activity are altered in cells lacking snoRNPs that form pseudouridines in the peptidyl transferase center. Mol. Cell, 11, 425­435. 5. Lapeyre,B. and Purushothaman,S.K. (2004) Spb1p-directed formation of Gm2922 in the ribosome catalytic center occurs at a late processing stage. Mol. Cell, 16, 663­669. 6. Donmez,G., Hartmuth,K. and Luhrmann,R. (2004) Modified nucleotides at the 50 end of human U2 snRNA are required for spliceosomal E-complex formation. RNA, 10, 1925­1933. 7. Motorin,Y., Keith,G., Simon,C., Foiret,D., Simos,G., Hurt,E. and Grosjean,H. (1998) The yeast tRNA:pseudouridine synthase Pus1p displays a multisite substrate specificity. RNA, 4, 856­869. 8. Nurse,K., Wrzesinski,J., Bakin,A., Lane,B.G. and Ofengand,J. (1995) Purification, cloning, and properties of the tRNA psi 55 synthase from Escherichia coli. RNA, 1, 102­112. 9. Wrzesinski,J., Nurse,K., Bakin,A., Lane,B.G. and Ofengand,J. (1995) A dual-specificity pseudouridine synthase: an Escherichia coli synthase
+
+purified and cloned on the basis of its specificity for psi 746 in 23S RNA is also specific for psi 32 in tRNA(phe). RNA, 1, 437­448. 10. Omer,A.D., Ziesche,S., Decatur,W.A., Fournier,M.J. and Dennis,P.P. (2003) RNA-modifying machines in archaea. Mol. Microbiol., 48, 617­629. 11. Bachellerie,J.P., Cavaille,J. and Huttenhofer,A. (2002) The expanding snoRNA world. Biochimie, 84, 775­790. 12. Baker,D.L., Youssef,O.A., Chastkofsky,M.I., Dy,D.A., Terns,R.M. and Terns,M.P. (2005) RNA-guided RNA modification: functional organization of the archaeal H/ACA RNP. Genes Dev., 19, 1238­1248. 13. Charpentier,B., Muller,S. and Branlant,C. (2005) Reconstitution of archaeal H/ACA small ribonucleoprotein complexes active in pseudouridylation. Nucleic Acids Res., 33, 3133­3144. 14. Henras,A., Henry,Y., Bousquet-Antonelli,C., Noaillac-Depeyre,J., Gelugne,J.P. and Caizergues-Ferrer,M. (1998) Nhp2p and Nop10p are essential for the function of H/ACA snoRNPs. EMBO J., 17, 7078­7090. 15. Watkins,N.J., Gottschalk,A., Neubauer,G., Kastner,B., Fabrizio,P., Mann,M. and Luhrmann,R. (1998) Cbf5p, a potential pseudouridine synthase, and Nhp2p, a putative RNA-binding protein, are present together with Gar1p in all H BOX/ACA-motif snoRNPs and constitute a common bipartite structure. RNA, 4, 1549­1568. 16. Lafontaine,D.L., Bousquet-Antonelli,C., Henry,Y., CaizerguesFerrer,M. and Tollervey,D. (1998) The box H + ACA snoRNAs carry Cbf5p, the putative rRNA pseudouridine synthase. Genes Dev., 12, 527­537. 17. Ganot,P., Caizergues-Ferrer,M. and Kiss,T. (1997) The family of box ACA small nucleolar RNAs is defined by an evolutionarily conserved secondary structure and ubiquitous sequence elements essential for RNA accumulation. Genes Dev., 11, 941­956. 18. Ni,J., Tien,A.L. and Fournier,M.J. (1997) Small nucleolar RNAs direct site-specific synthesis of pseudouridine in ribosomal RNA. Cell, 89, 565­573. 19. Watanabe,Y. and Gray,M.W. (2000) Evolutionary appearance of genes encoding proteins associated with box H/ACA snoRNAs: cbf5p in Euglena gracilis, an early diverging eukaryote, and candidate Gar1p and Nop10p homologs in archaebacteria. Nucleic Acids Res., 28, 2342­2352. 20. Pan,H., Agarwalla,S., Moustakas,D.T., Finer-Moore,J. and Stroud,R.M. (2003) Structure of tRNA pseudouridine synthase TruB and its RNA complex: RNA recognition through a combination of rigid docking and induced fit. Proc. Natl Acad. Sci. USA, 100, 12648­12653. 21. Hoang,C. and Ferre-D'Amare,A.R. (2001) Cocrystal structure of a tRNA Psi55 pseudouridine synthase: nucleotide flipping by an RNA-modifying enzyme. Cell, 107, 929­939. 22. Charron,C., Manival,X., Charpentier,B., Branlant,C. and Aubry,A. (2004) Purification, crystallization and preliminary X-ray diffraction data of L7Ae sRNP core protein from Pyrococcus abyssi. Acta. Crystallogr. D, 60, 122­124. 23. Otwinowski,Z. and Minor,W. (1997) Processing of X-ray diffraction data collected in oscillation mode. Methods Enzymol., 276, 307­326. 24. Terwilliger,T.C. and Berendzen,J. (1999) Automated MAD and MIR structure solution. Acta. Crystallogr. D Biol. Crystallogr, 55, 849­861. 25. Jones,T.A., Zou,J.Y., Cowan,S.W. and Kjeldgaard (1991) Improved methods for building protein models in electron density maps and the location of errors in these models. Acta. Crystallogr. A, 47, 110­119. 26. Brunger,A.T., Adams,P.D., Clore,G.M., DeLano,W.L., Gros,P., Grosse-Kunstleve,R.W., Jiang,J.S., Kuszewski,J., Nilges,M., Pannu,N.S. et al. (1998) Crystallography & NMR system: a new software suite for macromolecular structure determination. Acta. Crystallogr. D, 54, 905­921. 27. Kabsch,W. (1993) Automatic processing of rotation diffraction data from crystals of initially unknown symmetry and cell constants. J. Appl. Crystallogr., 26, 795­800. 28. Laskowski,R.A., MacArthur,M.W., Moss,D.S. and Thornton,J.M. (1993) PROCHECK: a program to check the stereochemical quality of protein structures. J. Appl. Crystallogr., 26, 283­291. 29. Hutchinson,E.G. and Thornton,J.M. (1994) A revised set of potentials for beta-turn formation in proteins. Protein Sci., 3, 2207­2216. 30. Gunasekaran,K., Ramakrishnan,C. and Balaram,P. (1996) Disallowed Ramachandran conformations of amino acid residues in protein structures. J. Mol. Biol., 264, 191­198.
+
+Downloaded from http://nar.oxfordjournals.org at Sachsische Landesbibliothek - Staats- u. Universitaetsbibliothek Dresden on May 21, 2010
+
+Nucleic Acids Research, 2006, Vol. 34, No. 3
+
+839
+
+31. Aravind,L. and Koonin,E.V. (1999) Novel predicted RNA-binding domains associated with the translation machinery. J. Mol. Evol., 48, 291­302. 32. Huang,L., Pookanjanatavip,M., Gu,X. and Santi,D.V. (1998) A conserved aspartate of tRNA pseudouridine synthase is essential for activity and a probable nucleophilic catalyst. Biochemistry, 37, 344­351. 33. Gu,X., Liu,Y. and Santi,D.V. (1999) The mechanism of pseudouridine synthase I as deduced from its interaction with 5-fluorouracil-tRNA. Proc. Natl Acad. Sci. USA, 96, 14270­14275. 34. Ramamurthy,V., Swann,S.L., Paulson,J.L., Spedaliere,C.J. and Mueller,E.G. (1999) Critical aspartic acid residues in pseudouridine synthases. J. Biol. Chem., 274, 22225­22230. 35. Zebarjadian,Y., King,T., Fournier,M.J., Clarke,L. and Carbon,J. (1999) Point mutations in yeast CBF5 can abolish in vivo pseudouridylation of rRNA. Mol. Cell. Biol., 19, 7461­7472. 36. Phannachet,K., Elias,Y. and Huang,R.H. (2005) Dissecting the roles of a strictly conserved tyrosine in substrate recognition and catalysis by pseudouridine 55 synthase. Biochemistry, 44, 15488­15494. 37. Watanabe,M., Nameki,N., Matsuo-Takasaki,M., Nishimura,S. and Okada,N. (2001) tRNA recognition of tRNA-guanine transglycosylase from a hyperthermophilic archaeon, Pyrococcus horikoshii. J. Biol. Chem., 276, 2387­2394. 38. Ishitani,R., Nureki,O., Fukai,S., Kijimoto,T., Nameki,N., Watanabe,M., Kondo,H., Sekine,M., Okada,N., Nishimura,S. et al. (2002) Crystal structure of archaeosine tRNA-guanine transglycosylase. J. Mol. Biol., 318, 665­677. 39. Ishitani,R., Nureki,O., Nameki,N., Okada,N., Nishimura,S. and Yokoyama,S. (2003) Alternative tertiary structure of tRNA for recognition by a posttranscriptional modification enzyme. Cell, 113, 383­394. ´ ´ 40. Ferre-D' Amare,A.R. (2003) RNA-modifying enzymes. Curr. Opin. Struct. Biol., 13, 49­55. 41. Tang,T.H., Bachellerie,J.P., Rozhdestvensky,T., Bortolin,M.L., Huber,H., Drungowski,M., Elge,T., Brosius,J. and Huttenhofer,A. (2002) Identification of 86 candidates for small non-messenger RNAs from the archaeon Archaeoglobus fulgidus. Proc. Natl Acad. Sci. USA, 99, 7536­7541.
+
+42. Ramakrishnan,V. and Moore,P.B. (2001) Atomic structures at last: the ribosome in 2000. Curr. Opin. Struct. Biol., 11, 144­154. 43. Arluison,V., Hountondji,C., Robert,B. and Grosjean,H. (1998) Transfer RNA-pseudouridine synthetase Pus1 of Saccharomyces cerevisiae contains one atom of zinc essential for its native conformation and tRNA recognition. Biochemistry, 37, 7268­7276. 44. Khanna,M., Wu,H., Johansson,C., Caizergues-Ferrer,M. and Feigon,J. (2006) Structural study of the H/ACA snoRNP components Nop10p and the 30 hairpin of U65 snoRNA. RNA, 12, 40­52. ´ ´ 45. Hamma,T., Reichow,S.L., Varani,G. and Ferre-D'Amare,A.R. (2005) The Cbf5-Nop10 complex is a molecular bracket that organizes box H/ACA RNPs. Nature Struct. Biol., 12, 1101­1107. 46. Wang,C. and Meier,U.T. (2004) Architecture and assembly of mammalian H/ACA small nucleolar and telomerase ribonucleoproteins. EMBO J., 23, 1857­1867. 47. Heiss,N.S., Knight,S.W., Vulliamy,T.J., Klauck,S.M., Wiemann,S., Mason,P.J., Poustka,A. and Dokal,I. (1998) X-linked dyskeratosis congenita is caused by mutations in a highly conserved gene with putative nucleolar functions. Nature Genet., 19, 32­38. 48. Meier,U.T. (2005) The many facets of H/ACA ribonucleoproteins. Chromosoma, 114, 1­14. 49. Darzacq,X., Jady,B.E., Verheggen,C., Kiss,A.M., Bertrand,E. and Kiss,T. (2002) Cajal body-specific small nuclear RNAs: a novel class of 20 -O- methylation and pseudouridylation guide RNAs. EMBO J., 21, 2746­2756. 50. Dez,C., Henras,A., Faucon,B., Lafontaine,D., Caizergues-Ferrer,M. and Henry,Y. (2001) Stable expression in yeast of the mature form of human telomerase RNA depends on its association with the box H/ACA small nucleolar RNP proteins Cbf5p, Nhp2p and Nop10p. Nucleic Acids Res., 29, 598­603. 51. Pogacic,V., Dragon,F. and Filipowicz,W. (2000) Human H/ACA small nucleolar RNPs and telomerase share evolutionarily conserved proteins NHP2 and NOP10. Mol. Cell. Biol., 20, 9028­9040. 52. Mochizuki,Y., He,J., Kulkarni,S., Bessler,M. and Mason,P.J. (2004) Mouse dyskerin mutations affect accumulation of telomerase RNA and small nucleolar RNA, telomerase activity, and ribosomal RNA processing. Proc. Natl Acad. Sci. USA, 101, 10756­10761.
+
+Downloaded from http://nar.oxfordjournals.org at Sachsische Landesbibliothek - Staats- u. Universitaetsbibliothek Dresden on May 21, 2010
+
+

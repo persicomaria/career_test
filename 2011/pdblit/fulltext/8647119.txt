@@ -1,0 +1,509 @@
+Eur. J. Biochem. 237, 726-735 (1996) 0 FEBS 1996
+
+An NMR-derived model for the solution structure of oxidized Thermotoga maritima 1[Fe,-S,] ferredoxin
+Heinrich STICHT', Gudrun WILDEGGER', Detlef BENTROP I, Beatrice DARIMONT', Reinhard STERNER2 and Paul ROSCH'
+
+' Lehrstuhl fur Biopolymere, Universitat Bayreuth, Germany ' Abteilung Biophysikalische Chemie, Biozentruni, Universitat
+(Received 4 JanuaryR8 February 1996)
+-
+
+Basel, Switzerland
+
+EJB 960012/3
+
+The solution structure of the 60-residue 1[Fe,-S,] ferredoxin from the hyperthermophilic bacterium Thermotoga maritima was determined based on 683 distance and 35 dihedral angle restraints that were obtained from NMR data. In addition, data known from crystallographic studies of ferredoxins was used for modeling of the iron-sulfur cluster and its environment. The protein shows a globular fold very similar to the fold of the related 1 [Fe,-S,] ferredoxins from Desulfovibrio gigas and Desuljovibrio africanus, and elements of regular secondary structure similar to those in other ferredoxins were found in the 2: maritima protein. In particular, the ?: rnaritimu protein displayed a @-sheetstructure made up of strands located at the very NH, and COOH termini of the protein, and an internal rx-helix. The internal @-sheetobserved in the D. gigas and D. africunus ferredoxins could not be confirmed in 7: muritima ferredoxin and is thus suggested to be only weakly present or even absent in this protein. This result suggests that thermostability in ferredoxins is not necessarily correlated with the content of stable elements of regular secondary structure.
+
+Keywords; Ferredoxin; NMR ; protein structure ; iron-sulfur proteins ; Thermotoga maritima.
+
+revealed that Fd.,, contains a single Fe,S, cluster and a disulfide bond. Fd.,.,, is extremely thermostable and shows high sequence similarities to ferredoxins of hyperthermophilic Archaea, with identities of 73% and 45% between FdT,, and the proteins from Thermococcus litoralis (Fd,,) and Pyr;ococcus furiosus (Fd,,; Busse et al., 1992), respectively (Table 1).The sequence identity to ferredoxins from mesophilic bacteria such as Desulfovibrio gigas (Fd,,; Bruschi, 1979; Travis et al., 1971) and Desulfovibrio africanus (Fd,,; Bruschi and Hatschikian, 1982) is 39% and 25 %, respectively (Table 1). The conformations of '1[Fe,S,] Fd,,, and l[Fe,S,] Fdn. are known from X-ray structure analysis (Kissinger et al., 1991; SCry et al., 1994), and the secondary structure of 1[Fe,S,] Fd,, has been characterized by NMR spectroscopy (Teng et al., 1994). Recently, about 85% of the 'H resonances of FdT,,,were assigned and the secondary structure elements delineated on basis of the information from two-dimensional NMR experiments (Wildegger et al., 1995). The secondary structure of Fd,,, is very similar to 1[Fe,S,] Fd,, and 1[Fe,S,] FdD, secondary structures (Kissinger et al., 1992 ; SCry et al., 1994; Wildegger et al., 1995). To date, however, no three-dimensional structure of a Fe,S,cluster ferredoxin from a hyperthermophilic organism is known in atomic detail. An atomic model of FdTm,based on NMRCorrespondence to P. Rosch, Lehrstuhl fur Biopolymere, Universitat Bayreuth, D-95440 Bayreuth, Germany derived distance and dihedral angle restraints, should thus add Fax: +49 921 55 35 44. to our knowledge of, among others, principles that determine Note. This paper is dedicated to Prof. Herberhold, an eminent inorprotein thermostability. ganic chemist, on the occasion of his 60thbirthday Difficulties with the NMR analyses of ferredoxins arise from Abbreviations. 2D, two-dimensional; Ap, Aquifex pyrophilus; Av, their paramagnetic iron-sulfur clusters. To overcome these probAzotobacter vinelandii ; Bt, Bucillus thermoiproteolyticus; Ca, Clostridium acidurici; Dg, Desulfovibrio gigas; Da, Desulfovibrio africanus; lems, at least two different approaches have been described: Pochapsky et al. (1994) modeled the cluster environment by DSSP, definition of secondary structure of proteins;Fd, ferredoxin ; Fd,, using X-ray data in molecular dynamics calculations, whereas Fd,,, Fd,,,, Fd,., Fd,,, Fd,,,Fd,,, Fd.,,, Fd,,,, ferredoxins from the respective species ; MD, molecular dynamics; Pa, Peptococcus uerogenes;Pf, Banci et al. (1994) used pseudo amino acids in distance geometry calculations for cluster modeling. We decided to use the apPyroLoccusfi~riosLis;RMSD, root mean square deviation ; SA, simulated annealing ;Tm, Thermotoga muririnza ; T1, Thermococcus IitoraliJ. proach suggested by Pochapsky et al. (1994) and used informa-
+
+Thermotoga maritima is a hyperthermophilic bacterium (Stetter et al., 1990) with a maximal growth temperature of 90°C (Huber et al., 1986). Together with Aquifex pyrophilus (Huber et al., 1992), 7: maritima is the only known exception to the rule that hyperthermophilic microorganisms can be classified as Archaea. In addition, as 7: maritima and A. pyrophilus represent the most original and most slowly evolving branches of bacteria, these species may have retained more characteristic properties of the presumed last common ancestor of life than most other known organisms. Ferredoxins are small iron-sulfur electron transport proteins that are involved in crucial metabolic processes such as photosynthesis, oxidative phosphorylation, or nitrogen fixation (for reviews see Beinert, 1990; Matsubara and Saeki, 1992). The function of these proteins is accomplished by Fe,S, clusters (mainly in plants and animals) or Fe,S, (Fe,S,) clusters (mainly in prokaryotes). Ferredoxin from 7: muritima (Fd,,) functions as an electron carrier for pyruvate oxidoreductase (Blarney et al., 1994). Recently, the gene encoding Fd,,,, was cloned and expressed in Escherichia coli (Darimont and Sterner, 1994). These studies
+
+Sticht et al. (Eur: J. Biochem. 237)
+
+727
+
+Table 1. Amino acid sequence alignment of l[Fe,S,I cluster ferredoxins. Asterisks below the sequences denote amino acid identity between all ferredoxins. Crosses mark amino acids that are conserved between ferredoxins of hyperthermophilic organisms only. The sequence alignment was performed with the CLUSTALW program (Higgins et al., 1992) using standard parameters. The secondary structure elements found in the Desulfovibrio gigas ferredoxin (Kissinger et al., 1991) are indicated in the bottom line (a, a-helix; b, ,%sheet; t, turn). The identitylsimilarity values in the bottom table result from pairwise alignments using the same program and standard parameters. The Fd,, numbering scheme is given at the top. T.m., Thermntoga maritima (Darimont and Sterner, 1994); Pf, Pyrococcus furiosus (Busse et al., 1992); TI, Therrnococcus litoralis (Busse et al., 1992); Dg, Desulfovihrio gigas (Travis et al., 1971; Bruschi et al., 1979); Da, Desulfovibrio africanus (Bruschi et al., 1982; Davy et al., 1994; SCry et al., 1994).
+Sequences
+to
+
+Tm TI
+
+P f
+Die Dfl
+Da
+
+-MKVRVDADAC -MKVSVDKDAC AWKVSVDQDTC --PIEVNDD-C ARKFYVDQDEC
+
+20 IGCGVCENLC IGCGVCASIC IGDAICASLC MACEACVEIC IACESCVEIA
+
+30 PDVFQLGDDG PDVFEMDDDG PDVFEMNDEG PDVFEMNEEG PGAFAMDPEI
+
+xx *x * *
+bbbb ttt
+
+xx
+
+*
+aaaaa
+
+x
+
+*xx*
+
+xx
+
+tttbbbtt t
+
+40 KAKVLQPETD ___ KAKALVAETD KAQPKVEVIEDEEL D---KAWINPDSD E---KAYVKDVEGA * X t bbbb tt
+
+50 -LPCAKDAADS -LECAKEAAES -YNCAKEAMEA -LDCVEEAIDS SQEEVEEAMDT
+
+60 CPTGAISVEECPTGAITVE-CPVSAITIEEA CPAEAIVRSCPVQCIHWEDE
+
+xxx *
+aaaaaaaaaa
+
+**
+
+x* x
+
+tt bbbb
+
+Identitylsimilarity values Species Identity
+%
+
+Similarity
+
+I: maritima I: litoralis P furiosus D . gigas D. africanus
+
+100 73 45 39 25
+
+100 83 83 61 41
+
+tion on the geometry of the Fe,S, cluster and its environment available from other sources such as crystallographic (Adman et al., 1973, 1976; Backes et al., 1991; Duke et al., 1994; Fukuyama et al. 1988, 1989; Stry et al., 1994; Stout, 1989; Stout et al., 1988) and NMR studies (Donaire et al., 1994; Teng et al., 1994) of homologous ferredoxins. Based on this information, we computer-modeled the Fe,S, cluster and its surroundings (Pochapsky et al., 1994). This strategy resulted in the dermination of the solution structure of Fd,, with a quality that allowed comparison to other ferredoxins and to suggest explanations for its biochemical properties (Darimont and Sterner, 1994).
+
+Table 2. Type and number of experimental restraints. Values in parentheses include ambiguous NOES that were assigned from crudely defined structures and used in the final stages of the structure determination only.
+Type of restraint Number 637 (683) 382 126 53 ( 71) 76 (104)
+
+MATERIALS AND METHODS Sample preparation and NMR experiments. FdT, was heterologously expressed in E. coli and purified as described (Darimont and Sterner, 1994). All NMR experiments were performed on Bruker AMX400 and AMX600 spectrometers operating at proton resonance frequencies of 400 MHz and 600 MHz, respectively. The samples contained 2-5.5 mM protein in either D,O or H,O/D,O (9: 1) at pH 6.0. The temperature was kept at either 288 K, 303 K, or 310 K. Experimental details, assignment procedures, and examples for the quality of the NMR spectra were reported earlier (Wildegger et al., 1995). NOE restraints. Distance information was obtained from two-dimensional NOESY spectra in H,O/D,O (9: 1) and in pure D,O with mixing times of 100 ms, 200 ms and 300 ms. Peak intensities were estimated from the number of contours in contour plots of NOESY spectra. NOE cross peaks were grouped into three distance categories according to their intensities : strong, 0.18-0.27 nm; medium, 0.18-0.4 nm; weak, 0.180.5 nm; 0.05 nm was added to distances involving methyl protons or non-stereospecifically assigned methylene protons (Wuthrich et al., 1983). Furthermore, the upper limit for dis-
+
+NOEs Total [i-j] = 0 [i-j] = 1 [i-j] = 2, 3, 4, 5 [i-j] > 5 Hydrogen bonds from slow NH-exchange from indirect evidence Disulfide bond Cys20-Cys43 Dihedral angle restraints Non-NMR restraints distances dihedral angles
+
+5 8 1 35 10 12
+
+tances involving methyl protons was increased by 0.05 nm (Clore et al., 1987; Wagner et al., 1987). 637 unambiguously assigned NOES were used for the initial structure calculations (Table 2 ) . All NOEs were checked after the calculation by inspection of the initial structures. Ambiguities in the assignment procedure of NOESY cross peaks that arouse from chemical shift degeneracies were resolved by inspecting crudely defined structures (Kraulis et al., 1989; Qi et al., 1994). If only one assignment was possible on the basis of measured distances, the NOE distance restraint was incorporated into subsequent structure calculations (Qi et al., 1994). Applying this strategy yielded 28 long-range and 18 medium-range NOE distance restraints in addition to those that were derived from urnambiguously as-
+
+728
+
+Sticht et al. ( E m J. Biochem. 237)
+
+signed NOESY crosspeaks in the first round of structure calculations. Hydrogen bonding restraints. Hydrogen bonds were deduced by two different strategies. For the first group of hydrogen bonds, slow amide proton exchange was taken as evidence that the amide proton was involved in a hydrogen bond. In order to identify the corresponding hydrogen bond acceptor, crudely defined structures that were calculated without explicit hydrogen bond restraints were screened for N - 0 distances of less than 0.33 nm. For each backbone hydrogen bond two restraints were included in the calculations: d,,-,, = 0.17-0.23 nm, dN.o = 0.24-0.33 nm (Kraulis et al., 1989). A second group of hydrogen bonds involving the Fe,S, cluster and the ligating Cys residues is highly conserved among all Fe,S, ferredoxins (Backes et al., 1991). These hydrogen bonds cannot be deduced directly from NMR experiments as paramagnetic effects impede the assignment of the protons involved. Amide proton resonances that showed broad lines or could not be detected in standard 2D-NMR experiments were checked for a possible participation in such hydrogen bonds in the initial structures. The distances for these hydrogen bonds were deduced from the crystallographic structures of homologous Fe,S, ferredoxins (Backes et al., 1991). For each hydrogen bond two restraints were included in the calculations: d,,~, = 0.220.30 nm, o!,+~ 0.31-0.39 nm. = Disulfide bonds and pattern of the ligating Cys residues. A disulfide bond between Cys20 and Cys43 has been suggested on the basis of titration of free SH groups (Darimont and Sterner, 1994). In order to verify this disulfide bond, two independent structure determinations, with and without the disulfide bond, were performed. The pattern of the ligating Cys residues was deduced by performing separate calculations for different orientations of the polypeptide chain around the Fe,S, cluster. From theoretical considerations on cluster geometry, one could deduce two binding patterns that differed in the linkages made by Cysl6 and Cys.51. In the first orientation, Cysl6 was linked to Fe3 and Cys51 was linked to Fe4 of the cluster. These two linkages, and hence the chirality of the cluster, were interchanged in the second orientation. Dihedral angle restraints. Torsional angle restraints were derived from 35,,,, coupling constants. Coupling constants for non-Gly residues were extracted from a DQF-COSY spectrum recorded at 303 K with 4K data points in F2 and 512 experiments in F1 by standard procedures (Neuhaus et al., 1985). Application of zero filling yielded 16K data points, corresponding to a resolution of 0.4 Hz in F2. The imprecision that resulted from this procedure was taken into account by allowing deviations of 40" from the measured angle without penalty. A total of 35 dihedral angle restraints was obtained from the spectra (Table
+
+This conservation comprises the spatial arrangement and the dihedral angles of the four ligating cysteines, as well as eight hydrogen bonds between amide protons and sulfur atoms of the cluster or the ligating cysteines. The common geometry is further confirmed independently by NMR investigation of Fd, (Gorst et al., 1995a). Taking into account the high sequence similarity between Fd,, and the ferredoxins listed above (Darimont and Sterner, 1994), the common features of the local geometry of the cluster (Backes et al., 1991 ; Donaire et al., 1994) seemed well suited to be converted into appropriate distance and dihedral angle restraints. The geometry of the cluster was modeled by fixing bond lengths and angles between the iron and the sulfur atoms of the cluster. In order to establish the correct orientation of the ligating Cys, 10 distance restraints and 12 dihedral angle restraints were added. Comparing distances and angles among the different crystallographic structures indicated that a distance range of -C40 pm and a dihedral angle range of -C 40" appropriately reflected the conformational freedom apparent from the crystal structures. These procedures proved to be sufficient to maintain the geometry of the cluster and its environment during the molecular dynamics (MD) calculations. Parameters for the Fe& cluster. Bridging-inorganic sulfur atoms of the Fe,S, cluster are named SN, N = 1-4, and sulfur atomes of ligating Cys are named Sy; the numbering scheme for the cluster is adopted from Fd,, (Backes et al., 1991). Bond lengths (values for Fd,,; Kissinger et al., 1991): Fe-S, 225 pm; Fe-S,., 230 pm. Bond angles: Fe-S-Fe, 74"; S-Fe-S, 104"; S-FeS,, 114". Nonbonded parameters and charges (Briinger, 1993): Fe, E = 0.418 kJ/mol, G = 115 pm, charge = +2.5; S, E = 0.18 kJ/mol, o = 336.76 pm, charge = -2.0. Distance restraints between u-carbons of the ligating Cys, 2 40 pm, as suggested for Fe,S, ferredoxins and confirmed from X-ray data (Pochapsky et al., 1994): Cysl0-Cysl3, 770 pm; Cys10-Cysl6, 1070 pm; Cysl0-Cys51, 870 pm; Cysl3-Cys16, 810 pm; Cysl3-Cys51, 850 pm; Cysl6-CysS1, 670 pm. Distance restraints between Ca protons of ligating Cys and cluster iron atoms, 2 4 0 p m (Donaire et al., 1994): CyslO-Fel, 340 pm; Cys13-Fe2, 490 pm; Cys16-Fe3, 510 pm; Cys51-Fe4, 340 pm. Dihedral angle restraints of the ligating Cys ( f40") : N-Cu-CLjSy: CyslO, -177"; CySl3, 75"; Cysl6, 58"; C y ~ 5 1 ,-177"; C~H-C<L-C/M~I: CySl0, -60"; C y ~ l 3 , 170"; Cys16, 170"; Cys.51, -60" ; Cu-CB-Sy-Fel (CyslO), 62"; Ca-Cij-Sy-Fe2 (Cys13), -60"; Ca-Cp-Sy-Fe3 (Cysl6), -1 12"; Ca-Cjj-Sy-Fe4 (CysSI), 85". Hydrogen bonds involving the Fe,S, cluster or ligating Cys (Backes et al., 1991): N(Ile1 1)-S2(FeS), N(Glyl2)Sy(CyslO), N(Gly14)-S1 (FeS), N(VallS)-Sy(Cys13), N(Cysl6) S4 (FeS), N(Ala32)-Sy(CyslO), N(Thr53)-S(Cys51), N(Ala55)Sy(Cys53) were all set to 350240 pm. MD calculations. Bonds and angles were added to the standard X-PLOR force field. The distance restraints on the ligating 2). Non-NMR restraints used for modeling of the cluster and cysteines were set-up by use of fake NOE distance and dihedral its environment. From NMR studies of Fd., (Teng et al., 1994) angle restraints. The X-PLOR 3.1 package (Briinger, 2993) was and Fd,,,, (Wildegger et al., 1995) it is apparent that protons in used to calculate three-dimensional structures from the NMRless than ~ 5 0 pm distance from the Fe atom of an Fe-S cluster based restraints. The standard protocols for cih initio simulated 0 are not detectable by standard NMR methods. For this reason annealing (SA) and SA refinement were applied with minor we generated a model for the Fe,S, cluster and its ligating Cys modifications as below. For the incorporation of the NMR-dethat was largely based on the crystal structures of Fd,, (SCry et rived distance restraints an iterative approach was used that al., 1994) and of ferredoxins with one or two Fe,S, clusters from started from a subset of the experimental data. The initial structure calculations started from an extended Peptococcus aerogenes (Fd,, ; Adman et al., 1973, 1976), Azototemplate with satisfactory local geometry and corrections for bacter vinelnndii (Fd,,.; Stout, 1989; Stout et al., 1988), Bacillus tlzermoproteol.ytic.us (Fd,,; Fukuyama et al. 1988, 1989), Clos- pseudoatoms. At this stage of the calculations, only distance retridiurii ucidurici (Fd,.,l; Duke et al., 1994). Additional informa- straints derived from unambiguously assigned NOESY crosstion was obtained from NMR studies on Fd,, (Donaire et al., peaks and no hydrogen bonds were incorporated. In order to 1994) and Fd,, (Teng et al., 1994). The folding of the Fd,,, Fd,,,, remove some close nonbonded contacts, 200 cycles of unand Fd,, polypeptide chains shows that the protein structure is restrained energy minimization were performed using the Powell highly conserved in the cluster vicinity (Backes et al., 1991). algorithm (Powell, 1977).
+
+Sticht et al. ( E m J. Biochem. 237)
+
+729
+
+In the SA procedure, 40ps of MD were calculated at 1000 K, the final 15 ps with an increased weight on geometry and an asymptote with a steeper slope. Electrostatic and hydrogen bonding interactions were not incorporated explicitly, and van der Waal's interactions were described by a simplified repulsive ('repel') energy term. No nonbonded, attractive forces were used. For the NOE effective energy term representing the interproton distances, a soft square-well potential function was applied. The system was cooled to 100 K in 50 ps followed by 500 cycles of energy minimization. Timesteps of 2 fs (high-temperature phase) and of 1 fs (cooling phase) were applied. The resulting SO initial structures that were calculated without explicit hydrogen bond restraints were screened for short NO or short N-S distances consistent with the observation of slow amide proton exchange or paramagnetic line broadening. The corresponding distance restraints were included as described above. NOESY cross peaks that could be assigned unambiguously on the basis of these initial structures were also included in the following calculations. A total of 683 distance restraints and 35 dihedral angle restraints were used for the final structure calculations (Table 2). The calculations were performed as described above for the initial structure calculations, with minor modifications. The high-temperature phase of the calculations lasted 60 ps, the final 20 ps with increased weight on geometry and a steeper asymptote. A 60-ps cooling stage followed. Subsequently, a refinement protocol of the slow-cooling type was applied. The system was cooled from 1000 K to 100 K within 40 ps employing a 1-fs timestep. The NOE effective energy term was represented by a square-well potential function. Finally, 1000 cycles of restrained energy minimization were run. Of the resulting 50 structures those 20 structures which showed the lowest internal energy and the least number of violations of the experimental data were selected for further characterization. Unrestrained molecular dynamics calculations were performed using the parameters for the polypeptide chain and the TIP3P water model (Jorgensen et al., 1983) that are supplied with the standard X-PLOR force field (Brunger, 1993). The starting structure of FdT,, was obtained from restrained MD calculations as described above. Out of SO calculated structures, the one that showed the lowest internal energy and the best agreement with the experimental data was chosen for the MD calculations. The starting structure for Fd,, was obtained from the Brookhaven Protein Data Bank, accession code IFXD, and hydrogen atoms were added using the SYBYL molecular modeling software. For the simulations a cubic water box consisting of 8000 water molecules with a length of 6.22 nm in each dimension was set-up, based on an equilibrated box of 12.5 water molecules as supplied with the X-PLOR program package. The overlay was archived by placing the protein in the center of the water box and by deleting all solvent molecules closer than 0.26 nm to any heavy atom of the protein. Close nonbonded solute-solvent interactions were removed in two steps. First, 100 cycles of conjugate gradient energy minimization (Powell, 1977) were performed, keeping the positions of all protein atoms fixed. In the next 300 cycles of energy minimization, a harmonic potential was used to restrain the peptide to its original conformation. During the first 15 ps of the MD calculations the system was gradually heated to 303 K while coupled to an external water bath (Berendsen et al., 1984). The MD calculations were performed using the Verlet algorithm (Verlet, 1967) with a timestep of 1 fs. A dielectric constant of 1.0 was applied with a scaling factor of 0.4 for 1-4 electrostatic interactions. All nonbonded interactions were cut-off at a distance of 0.85 nm.
+
+Table 3. Main-chain hydrogen bonds. The hydrogen bonding pattern was deduced by the criteria given in the text from the structures resulting from the molecular dynamics calculations. In order to obtain a greater statistical significance, all SO structures obtained after the MD simulation were used as a basis. Hydrogen bonds are reported if the frequency of occurrence was higher than or equal to 40%.
+Amino acid providing Frequency
+
+NH
+
+0
+%
+
+Arg4 Asp6 Cysl0 Cysl0 Leu 19 cys20 Val23 Phe24 Leu35 Thr39 Ah47 Ah48 Ah48 Asp49 SerSO SerSO cyss1 GlyS4 SerS7
+
+SerS7
+Ala5S Asp6 Ala7 Cyslh Cysl6 cys20 Cys2O Val23 Pro37 cys43 Ah44 Lys4S Asp46 Asp46 Ah47 Ah47 cyss1 Arg4
+
+68 92 52 64 96 100 92 78 96 100 100 100 40 90 100 78 98 72 68
+
+The heating stage was followed by 200 ps of MD at 303 K using the same parameters as described above. During the whole simulation minimum image periodic boundary conditions were used. Coordinates, energies, and velocities were saved every 0.5 ps for further analysis. Simulations and analysis were performed on Cray YMP/EL and Hewlett Packard HP 735 computers. A 1-ps simulation required about 2 h of cpu time on a Cray YMP/EL computer. Structure analysis. Elements of regular secondary structure were deduced from analysis of the definition of secondary structure of proteins (DSSP; Kabsch and Sander, 1983) and from analysis of the hydrogen bonding pattern (Table 3). A hydrogen bond was postulated if two criteria were met (Levitt and Sharon, 1988; Qi et al., 1994): an 0 . H distance of less than 260pm and an 0 . H-N angle of more than 120". This criterion proved important for the analysis of regions that lacked elements of regular secondary structure. Salt bridges were deduced from distances of less than 400 pm between atoms of potentially ionizable side chains (Barlow and Thornton, 1983), and the accessible surface area was calculated using the X-PLOR program. Turns were characterized according to the standard nomenclature (Creighton, 1993).
+
+RESULTS AND DISCUSSION Description of the structure. An overlay of 10 structures obtained from the MD calculations shows the major structural elements of Fd,.,,,: an antiparallel, two-stranded B-sheet, Met1 Asp6 and Ala.55-Glu60, an a-helix, Cys43-Ser50, and four pturns, Ala7-Cys10, Cys20-Phe24, Pro37-Thr39, and Cys51GlyS4 (Figs 1 and 2). The p-sheet is distorted towards both termini. This distortion is in agreement with the amide hydrogen exchange pattern, as slow hydrogen exchange is observed only for Arg4, Asp6 and SerS7 in the inner part of the p-sheet
+
+730
+TIC
+
+Sticht et al. (Eur: J . Biockem. 237)
+
+Fig. 2. MOLSCRIPT representation of the three-dimensional structure of Fd.,.,.
+
+,
+Fig. 1. Superposition of 10 backbone structures of FdT,. The 10 structures were obtained from restrained MD calculations and showed the
+
+lowest internal energy and the smallest number of violations of the experimental data. Two different views of the molecule (A, B) are shown. For clarity, only a subset of the amino acid positions is labeled.
+
+(Wildegger et al., 1995). Ala7-CyslO forms a type 111 p-turn that is most probably stabilized by a hydrogen bond between Ala7 and CyslO (Table 3). The region CyslO-Cysl6 contains three of the four cluster-ligating Cys and is therefore underdetermined from NMR data. Modeling of this region using the restraints given in Materials and Methods yields a structure that is consistent with the NMR-derived experimental data (Fig. 3). Cysl6-Cys20 can adopt either a-helical or /I-turn-like structure, as deduced from the values of the 4 and angles and a possible hydrogen bond between the slowly exchanging amide proton of Cys20 and the carbonyl oxygen of Cysl6. This region is known to be a-helical in Fds,, Fd,,, Fd,,, andFd,, (Fukuyama et al., 1989; Kissinger et al., 1991; SCry et al., 1994; Teng et al., 1994). The low number of direct experimental restraints in this region, however, did not allow unambiguous classification of this structural element in Fd,, by NMR. A hydrophobic core is formed mainly by the highly conserved region Cys20-Leu26 (Table 1). Val23 and Phe24 are buried in the interior of the protein and thus seem to play a critical role in the stabilization of the tertiary structure. The low exchange rate of the amide protons of Val23 and Phe24 (Wildegger et al., 1995) is explained by a turn-like structure in which both amide protons were hydrogen bonded to the carbony1 oxygen of Cys20 (Table 3). For two other slowly exchanging amide protons, Gin25 and Leu26, no appropriate hydrogen bond acceptor could be deduced from the calculated structures.
+
+Fig. 3. Detailed view of the Fe,S, cluster and the disulfide bond. Cys
+
+residues are shown in ball and stick representation. Yellow and orange balls indicate sulfur and iron atoms of the cluster, respectively. The conformation of the protein backbone is indicated by a violet tube.
+
+Therefore, the low exchange rate might be due to the relatively low solvent accessibility of this region (Fig. 4). Gly27-Gin36 form a loop that appears to be rather flexible according to our NMR data (Figs 1 and 5 ) , although a /I-sheet in this region was observed in other ferredoxins (Fukuyama et al., 1989; Kissinger et al., 1991; SCry et al., 1994; Teng et al., 1994). The stretch Gly27-Gln36 did not show slowly exchanging protons, /I-sheet type patterns in the NOESY data, or shifts of the CaH resonances to lower field. Adoption of multiple conformations of this sequence region is further evidenced by the observation of two sets of resonances for Va134, Leu35, and
+
+Sticht et al. ( E m J . Biochern. 237)
+
+731
+I
+
+v
+
+2.0
+
+1
+
+w
+
+fn 50
+
+I
+
+0
+2
+
+E c 1.5
+
+5 m
+0
+L
+
+40
+
+2
+u )
+
+8 m
+v
+
+1.0
+0.5
+0.0
+
+30
+f z 0
+L .
+
+c
+
+a,
+
+2
+
+20
+
+a,
+L3
+
+10
+
+20
+
+30 40 Residue Number
+
+50
+
+60
+
+z
+
+5
+
+10
+0
+5
+
+Fig. 4. Solvent-accessible surface area along the polypeptide chain. The accessible surface area was calculated by using a radius of 160 pm for a water molecule.
+
+10 15 20 25 30 35 40 45 50 55 60
+
+Residue Number
+
+A
+040 35
+
+030
+h
+
+\ 4
+I
+
+Fig. 6. NMR-derived structure information is not equally distributed over the Fd,, amino acid sequence. Numbers of interresidual NOEs that were assigned from NMR spectra are plotted versus amino acid seqence. Diamonds indicate the sequence positions of the Cys residues that ligate the Fe,S, cluster.
+
+v
+
+$
+
+0254 0.20
+0.15
+0.10
+
+p, -_
+
+-/
+
+0.05
+
+5
+
+10 15 20 25 3 0 35 40 45 50 55 60 Residue number
+
+B
+040
+
+3
+
+0.35
+
+4
+-/
+I
+
+I
+
+v
+
+0.30 025
+
+I
+
+I
+
+5 0.20 :
+015
+0.10 0.05
+
+observed in the region Gly27-Gln36 is due to a lack of secondary structure elements rather than to a lack of experimental data. Therefore, the inner p-sheet I1 suggested for similarity reasons (Wildegger et al., 1995) is not supported by the present structure determination. Residues Pro37 -Thr39 form an inverse y-turn that is stabilized by a hydrogen bond between the carbony1 oxygen of Pro37 and the amide proton of Thr39 (Table 3). Thr39 is inaccessible to water (Fig. 4), explaining the low exchange rate of the Thr39(0yH) (Wildegger et al., 1995). Cys43 -SerSO forms a helical secondary structure. This helix can be characterized as a regular a-helix from Cys43 to Ala48, as evidenced by the upfield shift of the CaH resonances and slowly exchanging amide protons of Ala47 and Ah48 (Wildegger et al., 1995). A 3,,,-helical conformation, as evidenced by an alternative hydrogen bonding pattern, is possible towards the COOH-terminus of the helix, including Asp49 and Ser.50. Cys43, the NH,-terminal residue of the helix, is most likely involved in a disulfide bond with Cys20. Accordingly, helix fraying is only observed near the COOH-terminus. This helix and the COOH-terminal p-strand are connected by a typeI p-turn formed by residues Cys51 -Gly54. The reduced number of distance restraints available from NMR data for this region, due to its proximity to the cluster, was supplemented by two hydrogen bonds between the amide protons of Thr53 and Ala55 and the sulfur of Cys.51 as deduced from similarity considerations.
+
+5
+
+10 15 20 25
+
+30 35 40 45 50 55 60
+
+Overall quality of the resulting structures. Summarizing all
+available NOE data (Table 2), more than 11 NoEdresidue could be assigned on average. Since 9 residues were not detected in standard 2D-NMR spectra and thus did not provide meaningful NOEs, an average number of 13 NoEdassigned residue is implied. The low number of NMR-derived distance restraints from ' CyslO-Cysl6, Ala32Lys33 and Cys51 -Ala55 (Fig. 6) is consistent with the fact that these regions are close to the Fe,S, cluster, as is the case in structures of homologous ferredoxins (SBry et al., 1994). A high number of NOEs was found in the sequence region Leu1 9-Phe24, particularly for the highly conserved hydrophobic side chains of Val23 and Phe24 (Table 1 , Fig. 6). Most of the long-range NOES that determine the threedimensional structure originate in this region (Fig. 7). None of the 20 structures that were selected after MD calculations showed distance violations of more than 40 pm or dihedral angle violations greater than 5" for either NMR-derived or
+
+Residue number
+
+Fig. 5. Position dependence of the quality of calculated structures. RMSD values/residue for the 20 Fd,, structures obtained after MD calculations are plotted versus amino acid sequence. The RMSD values for the backbone atoms are shown in A and for all heavy atoms in B.
+
+Gln36 (Wildegger et al., 1995). In Fdug,the Ca atoms of Ala31 and Val32 are located 520 pm and and 860 pm from the closest Fe atom of the cluster (Kissinger et al., 1991). This can explain the absence of resonances from the corresponding residues Ala32 and Lys33 in Fd,, by paramagnetic effects. Nevertheless, the approximately five interresidual NoEdresidue as observed in this sequence region (Fig. 6) may generally be considered sufficient to identify elements of regular secondary structure. Thus, taking all the evidence together, we conclude that the flexibility
+
+732
+
+Sticht et al. ( E M J. Biochem. 237)
+180
+
+40
+R
+
+;
+rc
+a,
+
+301
+
+1
+
+I
+
+.... .... ........ ...... ..... ....... ...... .... .. ....... ....... ... ..... ...... ...... ...... ..... .... ...... ... ..... . ............. .. ... ..... . .... .... .. ........ ..
+
+. .. .
+
+120
+
+60
+h
+
+al
+
+2
+a
+
+cr,
+
+9
+3
+
+0
+
+-60
+
+..
+'
+
+-120
+
+... ..
+
+I
+
+I
+
+'
+
+I
+
+'
+
+I
+
+'
+
+I
+
+'
+
+.. ... ..
+60
+
+-180 -180
+
+-120
+
+-60
+
+0
+
+60
+
+120
+
+180
+
+10
+
+20
+
+30
+
+40
+
+50
+
+@ (degree)
+
+Residue number
+
+Fig. 7. Summary of the spatial interactions between the amino acids of Fd.,,. Dots in the matrix plot represent NOEs that were observed between the corresponding residues. Table 4. Molecular dynamics statistics. Energy contributions to the structure and deviations from standard geometry. E,,,,, total energy ; E,,, van der Waals energy; E,,, effective NOE energy term. The energy values result from the target function used for the MD calculations as described in the text. The electrostatic energy (E,,,,) term was not included in the target function. It is calculated as an independent check to indicate the validity of the structure determiniation procedure (Nilges et al., 1988). All values are mean values over 20 refined structures, values in parentheses are standard deviations from this mean.
+Parameter Average energies E,,, Unit Value
+
+Fig. 8. Ramachandran plot derived from the 20 Fd,, structures resulting from restrained MD calculations. Angles for Gly residues are represented by hollow circles, for the other amino acids by filled circles. The positive angles of more than 60" are from Gly27 and Gly30.
+
+getically favorable conformations. Larger conformational freedom was observed for the angles of residues Gly27 and Gly30. The high RMSD values determined for these residues (Fig. 5A) is reflected by the scattering of the corresponding angles in the Ramachandran plot, showing positive values exceeding 60".
+
++
+
+!d/mol kJ/mol Ed,, kJ/mol ENOE kUmol El,,,,,,, kJlmol E.,,,,iC kJ/mol E,",,,,,,,.. kJ/mol Edlhrdr,l Himol RMS-deviations from idealized geometry NOEs Pm bonds Pm angles deg impropers de& RMS-deviations among structures backbone Pm all heavy atoms Pm
+Evnw
+
+2253 (2184 ) 206 ( 2 32 ) -7599 (2198 ) 852 (2 64 ) 140 (3 14 ) 904 (+ 69 ) 146 ( 5 25 ) 4.6 ( 3 1.7) I 1 0.97 (20.04) 0.75 (20.03) 78 122
+
+non-NMR data. The average root-mean-square deviation (RMSD) for all residues between the individual structures was 78 pm for the backbone atoms and 122 pm for all heavy atoms (Table 4). RMSD values of more than 100 pm for the backbone atoms were found only in small stretches of the polypeptide chain such as the termini and the Leu26-Asp29 region (Fig. 5A). The RMSD of all heavy atoms was lower than 150 pm for most parts of the protein (Fig. 5B) with the exceptions of regions with highly solvent-accessible amino acid side chains. The Ramachandran plot for the 20 final structures (Fig. 8) shows negative 4 angles for all non-Gly residues as expected for ener-
+
+Tests of disulfide bonds and cluster geometry. Calculations based on experimental data (Table 2) with and without the Cys20-Cys43 disulfide bond were indistinguishable with respect to energy and number of violations of the resulting structures. In addition, the distance between the two Cys sulfurs in the calculation without the disulfide bond was shorter than 430 pm in all calculated structures. This confirmed the presence of the disulfide bond independently of earlier chemical analysis (Darimont and Sterner, 1994). At the same time, this result supports the suggestion that the presence or absence of the disulfide bridge in single-cluster Fe& ferredoxins does not significantly affect the overall fold of the protein (Kissinger et al.. 1991; SCry et al., 1994). Instead, the disulfide bond may be important for additional stabilization of the protein structure, and its potential redox activity may be required for the function of this electron transfer protein (Macedo et al., 1994; Gorst et al., 1995b). Analysis of the MD calculations showed a total energy of the target function of 2253 kJ/mol (Table 4), and no violations of the experimental data, Calculations for an alternative orientation of the polypeptide chain around the Fe,S, cluster as described in Materials and Methods resulted in a total energy of the target function of 10647 kJ/mol. This large difference corresponded to at least six violations of experimental data larger than 50 pm, as well as to large violations of bond and improper angles. Thus, the arrangement of the polypeptide chain as deduced from analysis of homologous structures was by far the energetically most favorable. Unrestrained MD calculations. MD calculations to judge the
+stability of peptide structure were performed recently on, for example, the human parathyroid hormone fragment (1 -37); [PTH(l-37); Marx et al., 19951 and on the H8-C5 a-helix of myoglobin (van Buuren and Berendsen, 1993). In the latter case,
+
+Sticht et al. (Eul: J. Biochern. 237l
+012-1
+
+733
+
+I
+
+A
+
+0.00
+
+j
+0
+
+I
+
+I
+
+I
+
+50
+
+100
+
+150
+
+200
+
+time (ps)
+
+Fig. 9. Unrestrained MD calculation based on the X-ray structure of Fd,, and thepresent structure of Fd,,. A plot showing the RMSD value of the time-dependent structures compared to the starting structure versussimulated time at 303 K is shown. Clearly, the structures are of comparable stability under the conditions of the simulation.
+
+B
+
+these MD calculations showed the instability of the isolated helix, whereas in the case of PTH(1-37) it could be shown that the structure of this peptide is stable on the 200-ps time scale. In order to verify the structure of Fd,, as determined by NMR and restrained MD calculations with cluster modeling parameters, we thus performed a 200-ps unrestrained MD calculation on Fd,,, and, for comparison, on the X-ray stucture of Fd,,. Both protein structures showed a highly similar degree of stability as judged from the low variation of the RMSD values of either protein at this temperature and on this time scale (Fig. 9). All conformational elements deduced from the claculated structures remain conserved during the whole MD run. In the case of major structural rearrangements, much larger RMSD values would be observed, such as the 0.2-0.3-nm increase reported even for the helix-unfolding in short peptides (Tirado-Rives and Jorgensen, 1991 ; deLoof et al., 1992). These calculations thus lend additional credibility to the approach of a combination of experimental structural data determining approximately 90% of the total volume of the protein structure and models derived from X-ray structural data on homologous proteins.
+
+Fig. 10. Fd,, has a structure similar to Fd,, and Fd,,.. (A) Overlay of the backbone atoms of Fd,,,, (bold lines) and Fd,,, (thin lines). (B): Overlay of the backbone atoms of Fd,,,, (bold lines) and Fd,, (thin lines).
+
+Comparison to other ferredoxins. The structures of three bacterial ferredoxins with a single Fe& (Fe,S,) cluster are known from X-ray crystallography, Fd,, (Fukuyama et al., 1989), Fd,, (Kissinger et al., 1991), and Fd,, (Sky et al., 1994). The smaller of these ferredoxins, that is Fd,, and Fd,,, show sequence identities to Fd,, of more than 25% (Table 1 ; Darimont and Sterner, 1994). In addition, for the Fe,S, cluster Fd,,, which has 45% sequence indentity to Fd,,,, (Table I), secondary structure elements were deduced from 'H-NMR investigation (Teng et al., 1994). All these ferredoxins contain comparable structural elements such as two short double-stranded P-sheets, two a-helices, and several turns (Table 5).
+
+Fd,,, Fd,,, Fd,,, and Fd,, share sequence identities of up to 45% and sequence similarity of up to 83% (Table 1). This corresponds to their high structural similarity on the level of the global fold. The two-stranded P-sheet consists of two strands in bacterial ferredoxins, whereas a third strand was suggested to exist in Fd,,. Minor differences between Fd,,,, and Fd,, are found in the length and the arrangement of the second a-helix. As in Fd,,, this 8-amino-acid helix starts with a Cys residue in Fd,,. In Fd,, it contains 12 residues with Glu40 at its NH,-terminus (Teng et al., 1994). Comparison of Fd,,, with these ferredoxins shows that the topology and the structural elements of Fd,,,, are very similar to those observed in the smaller ferredoxins, Fd,, and Fd,, (Fig. 10; Kissinger et al., 1991 ; SCry et al., 1994). Ferredoxin from B. thermoproteolyticus has some additional insertions and extensions (Fukuyama et al., 1989) as compared to Fd,,,,, Fd,,,, and Fd,,. Optimal superposition of the Va15-Leu26 and Lys31-Ile56 backbone atoms in Fd,,,, with the corresponding structures in Fd,, and Fd,, (Fig. 10) yield backbone RMSD values of 152 pm and 188 pm, respectively. Closer comparison of
+
+Table 5. Comparison of the secondary structure elements among different ferredoxins containing a single Fe,S, (Fe,S,) cluster. Dots indicate undefined secondary structure, dashes indicate gaps in the alignment (see Table 1). The existence of the stuctural elements in small letters cannot be deduced safely from the NMR data. In Fd,,,, the P-sheet is two residues shorter than in the other ferredoxins listed above. The sequences were Kissinger et al. (1991) for Desulfovihrio gigas and Stry et al. (1994) for Desulfovibrio obtained from Teng et al. (1994) for P~~rococcusfuriosus,
+africanus.
+
+Tm Pf Dg Da
+
+10 B-BBBBBTTTT BBBBB TTTT B-BBBTTT-T BBBBDTTT
+
+. . . . .hhhhh
+. . . .HHHHHT
+HHHHH
+
+20
+
+hhhhhT
+
+30 TTTT . . . . . . TTTFBBBTTT TTTBBBTTTT TTTBBBBTTT
+
+-
+
+..
+
+. .
+
+40
+
+. .TTT.
+
+-BBB HH T.B----BB.TTTT. TBBBB TT HHH
+
+50 .-.HHHHHHHH HHHHHHHHHHH .-HHHHHHHHH HHHHHHH --
+
+60 TTTT.BBBBBtttt BBBBB TTTT.BBB--B TT BBBB
+
+134
+
+Sticht et al. (Eur: J. Biochem. 237)
+
+the secondary structure elements shows that the terminal P-sheet in Fd,,, is similar in length to that of Fd,,, Fd,,, and FdPf,and distortion of the terminal residues of the ,!I-sheet was also observed in the X-ray structure of Fdm,. A similar distortion can also be deduced from the hydrogen exchange data of Fd,,. The third ,&strand that was suggested from NMR secondary structure data for Fd,,, Va139-Glu41 (Teng et al., 1994), is not present in either of the Fd,,, Fd,,, Fd,,, Fd,,,, proteins (Table 5). From our data, only a lower total amount of regular secondary structure could be determined for Fd,, than could be determined for related ferredoxins (Table 5). In particular, the internal P-sheet that is found in all closely related ferredoxins cannot be established safely in Fd,, from our NMR data (Table 5). Our data are also compatible with this moderately conserved (Table 1) region forming a flexible loop in Fd,, (Fig. 5). Flexibility of this region seems to be a common feature at least of bacterial ferredoxins, as high B-factors were observed in the crystal structures for the corresponding sequence stretches in Fd,, (Asp28-Lys33; SCry et al., 1994) and in Fd,, (Glu26Gly28; Kissinger et al., 1991). The analogous residues Asp27 and Asp28 are disordered in the crystal structure of 2[Fe,S,] Fd,, (DuCe et al., 1994). The inherent flexibility of this region and its relatively high solvent-accessible surface area (Figs 4 and 5 ) may indicate a possible role as a contact area in proteinprotein interactions with reaction partners of Fd ,.",. Fd,, and Fd,, both contain five structural turns (Kissinger et al., 1991; SCry et al., 1994). These turns, with the exception of the central turn, are also present in Fd,,,. The fourth turn from the NH,-terminus is also missing in Fd,,, where Asp occupies the sequence position corresponding to Pro37 in Fd,,,; the related sequence in Fd,, is Pro36-Asp37-Ser38, similar to Pro37Glu38-Thr39 in FdTm. The fifth turn, initiating at the fourth cluster ligand, is common to all ferredoxins listed. It is stabilized by a hydrogen bond between the amino acid i carbonyl oxygen (Cys51 in Fd,,), and the amino acid i+3 backbone amide proton (Gly54 in FdT,,). Evidence for the existence of such a turn in Fd,, was recently established by NMR (Gorst et al., 1995a) and for Fd,,, Fd,,, and Fdc. by X-ray analysis (Duke et al., 1994; Kissinger et al., 1991 ; SCry et al., 1994). The hydrophobic core including the conserved residues Val23 and Phe24 is present in all available ferredoxin structures. Minor differences in the orientation of the side chains between Fd.,,, and Fd,, are evidenced by the lack of NOES between the aromatic ring of Phe24 and Cys20 in Fd.,,,.
+
+(Chan et al., 1995). The accessible surface area of Fd,,, (38.39 nm2), however, is only marginally smaller than is the accessible surface area of either Fd,, (38.99 nm2) or Fd,, (39.97 nm'). FdT,,,,as well as Fd,, and FdT,(from sequence similarity; Table I), contain three Ala residues in the second a-helix, whereas Fd,, and Fd,, helices contain only a single Ala in the corresponding region, supporting the idea that Ala residues specifically increase the thermostability of a-helices (MenendezArias and Argos. 1989). Summarizing, the current data on ferredoxins are clearly insufficient to suggest profound explanations for protein thermostability. They do, however, support the notion that no single, large-scale structural rearrangement is necessary to generate heat-stable from heat-labile protein structures.
+We are indebted to Prof. K. Kirschner, for many stimulating discussions and encouragement, and Andrea Hage for excellent technical assistance. Financial support by the Swiss National Science Foundation (no. 31-3236991) to Prof. Kirschner, and fellowships from the Fonds der Chemischen Industrie to HS and PR are gratefully acknowledged.
+
+REFERENCES
+Adman, E. T., Sieker, L. C. & Jensen, L. H. (1973) The structure of bacterial ferredoxin, J. Biol. Chem. 248, 3987-3996. Adman, E. T., Sieker, L. C. & Jensen, L. H. (1976) Structure of Peptococcus aerogenes ferredoxin, J . Biol. Chem. 251, 3801 -3806. Backes, G., Mino, Y., Loehr, T. M., Meyer, T. E., Cusanovich, M. A,, Sweeney, W. V., Adman, E. T. & Sanders-Loehr, J. (1991) The environment of Fe,S, clusters in ferredoxins and high-potential iron proteins. New information from X-ray crystallography and resonance Raman spectroscopy, J. Am. Chem. Soc. 113, 205552064, Banci, L., Bertini, I., Eltis, L. D., Felli, I. C., Kastrau, D. H. W., Luchinat, C., Piccioli, M., Pierattelli, R. & Smith, M. (1994) The threedimensional structure in solution of the paramagnetic high-potential iron-sulfur protein I from Ectothiorhodospira halophila through nuclear magnetic resonance, Eur: J. Biochem. 225, 71 5-725. Barlow, D. J. & Thornton, J. M. (1983) Ion-pairs in proteins, 1. Mol. Biol. 168, 867-885. Beinert, H. (1990) Recent developments in the field of iron-sulfur proteins, FASEB 1. 4, 2483-2491. Berendsen, H. J . C., Postma, . . M., van Gunsteren, W. F., DiNiola, IP. A. & Haak, J. R., (1984) Molecular dynamics with coupling to an external bath, J. Chem. Phys. 81, 3684-3690. Blarney, J. M., Mukund, S. & Adams, M. W. (1994) Properties of a thermostable 4Fe-ferredoxin from the hyperthermophilic bacterium Thermotogu maritima, FEMS Microbiol. Lett. 121, 165-169. Brunger, A. (1993) X-PLOR 3.1 manual, Yale University Press, New Haven. Bruschi, M. (1979) Amino acid sequence of Desulfovibrio gigas ferredoxin: Revisions, Biochem. Biophys. Res. Commun. 91, 623-628. Bruschi, M. & Hatschikian, E. C. (1982) Non-heme iron proteins of Desulfovibrio : the primary structure of ferredoxin I from Desulfovibrio africanus, Biochimie 64, 503-507. van Buuren, A. R. & Berendsen, H. J. (1993) Molecular dynamics simulation of the stability of a 22-residue a-helix in water and 30% trifluoroethanol, Biopolymers 33, 1159- 1166. Busse, S. C., La-Mar, G. N., Yu, L. P., Howard, J. B., Smith, E. T., Zhou, Z. H. & Adams, M. W. (1992) Proton NMR investigation of the oxidized three-iron clusters in the ferredoxins from the hyperthermophilic archae Pyrococcu.y furiosus and Thermococcus litoralis, Biochemistry 31, 11 952-11 962. Chan, M. K., Swarnalatha, M., Kletzin, A., Adams, M. W. W. & Rees, D. C. (1995) Structure of a hyperthermophilic tungstopterin enzyme, aldehyde ferredoxin oxidoreductase, Science 267, 1463- 1469. Clore, G. M., Gronenborn, A. M., Nilges, M. & Ryan, C. A. (1987) Three-dimensional structure of potato carboxypeptidase inhibitor in solution. A study using nuclear magnetic resonance, distance geometry, and restrained molecular dynamics, Biochemistry 26, 80128023.
+
+Structural basis of thermostability in Fe,S, ferredoxins. Fd,, contains 18 non-exchanging protons (Teng et al., 1994), whereas Fd,, contains only 11 such protons (Wildegger et al., 1995). Thus, the stabilization mechanism via a high number of backbone hydrogen bonds as suggested for Fd,,, (Teng et a]., 1994) is not confirmed for Fd,,,, on the basis of our data. Based on modelling studies, it was postulated that heat-stable clostridial ferredoxins were stabilized by additional salt bridges, compared to their mesostable counterparts (Perutz and Raidt, 1975). This idea is supported by comparisons of highresolution X-ray structures of meso- and thermo-stable glyceraldehyde-3-phosphate dehydrogenases (Korndorfer et al., 1993, malate dehydrogenases (Kelly et al., 1993), and indolglycerolphosphate synthases (Hennig et al., 1996) as well as by comparison of the NMR and the X-ray structures of Fe,S, ferredoxins (Baumann and Sticht, personal communication). No additional salt bridges, however, were found in Fd,,, as compared to Fd,,, (SCry et al., 1994). It was also postulated that the extreme thermostability of aldehyde ferredoxin oxidoreductase from R furiosus is related to a relatively small accessible surface area of these proteins
+
+Sticht et al. (EM J. Biochem. 237l Creighton, T. E. (1993) Proteins - structures and molecular properties, W. H. Freeman & Co., New York. Darimont, B. & Sterner, R. (1994) Sequence, assembly and evolution of a primordial ferredoxin from Thermotoga maritima, EMBO J. 13, 1772- 1781. Davy, S. L., Breton, J., Osborne, M. J., Thomson, A. J., Thurgood, A. P., Lian, L. Y., Petillot, Y., Hatchikian, C. & Moore, G. R. (1994) MCD and 'H-NMR spectroscopic studies of Desulfovibrio africanus ferredoxin I : revised amino-acid sequence and identification of secondary structure, Biochim Biophys Acta 1209, 33-39. Donaire, A., Gorst, C. M., Zhou, Z. H., Adams, M. W. W. & LaMar, G. N. (1994) 'H NMR investigations of the electronic structure of the four-iron ferredoxin from the hyperthermophilic archaeon Thermococcu.s litoralis, J. Am. Chem. Soc. 116, 6841 -6849. Duke, E. D., Fanchon, E., Vicat, J., Sieker, L. C., Meyer, J. & Moulis, J. M. (1994) Refined crystal structure of the 2[4Fe-4S] ferredoxin from Clostridium acidurici at 1. 84 A resolution, J. Mol. Biol. 243, 683-695. Fukuyama, K., Nagahara, Y., Tsukihara, T., Katsube, Y., Hase, T. & Matsubara, H. (1988) Structure of [$Fe-4S] ferredoxin from Bacillus thermoproteolyticus refined at 2.3 A resolution. Structural comparisons of bacterial ferredoxins, J. Mol. Biol. 199, 183-193. Fukuyama, K., Matsubara, H., Tsukihara, T. & Katsube, Y. (1989) Tertiary structure of Bacillus thermoproteolyticus [4Fe-4S] ferredoxin, J. Mol. Biol. 210, 383-398. Gorst, C. M., Yeh, Y. H., Teng, Q., Calzolai, L., Zhou, Z. H., Adams, M. W. & La-Mar, G. N. (1995a) 'H-NMR investigation of the paramagnetic cluster environment in Pyrococcus furiosus three-iron ferredoxin : sequence-specific assignment of ligated cysteines independent of tertiary structure, Biochemistry 34, 600-610. Gorst, C. M., Zhou, 2. H., Ma, K., Teng, Q., Howard, J. B., Adams, M. W. W. & LaMar, G. N. (1995b) Biochemistry 34, 8788-8795. Hennig, M., Darimont, B., Sterner, R., Kirschner, K. & Jansonius, J. N. (1996) Structure, in press. Higgins, D. G., Bleasby, A. J. & Fuchs, R. (1992) CLUSTAL V: improved software for multiple sequence alignments, Comput. Appl. Biosci. 8, 189-191. Huber, R., Langworthy, T. A,, Konig, H., Thomm, M., Woese, C. R., Sleytr, U. B. & Stetter, K. 0. (1986) Arch. Microbiol. 144, 324333. Huber, R., Wilharm, T., Huber, D., Trincone, A,, Burggraf, S., Konig, H., Rachel, R., Rockinger, I., Fricke, H. & Stetter, K. 0. (1992) Thermotoga maritima sp. nov. represents a new genus of unique extremely thermophile eubacteria growing up to 9 0 T , System. Appl. Microbiol. 15, 340-351. Jorgensen, W. L., Chandrasekhar, J. Madura, J. D. Impey, R. W. & Klein, M. L. (1983) Comparison of simple potential functions for simulating liquid water, J. Chem. Pliys. 79, 926-935. Kabsch, W. & Sander, C. (1983) Dictionary of protein secondary structure : Pattern recognition of hydrogen-bonded and geometrical features, Biopolymers 22, 2577 -2637. . Kelly, C. A., Nishiyama, M., Ohnishi, Y., Beppu, T. & Birktoft, J. ! (1993) Determinants of protein thermostability observed at the 1.9 A crystal structure of malate dehydrogenase from the thermophilic bacterium Thermus flavus, Biochemistry 32, 3913 -3922. Kissinger, C. R., Sieker, L. C., Adman, E. T. & Jensen, L. H. (1991) Refine! crystal structure of ferredoxin I1 from Desulfovibrio gigas at 1.7A, J. Mol. Biol. 219, 693-715. Korndorfer, I., Steipe, B., Huber, R., Tomschy, A. & Jaenicke, R. (1995) The crystal structure of holo-glyceraldehyde-3-phosphate dehydrogenaseofrom the hyperthermophilic bacterium Thermotoga maritima at 2.5 A resolution, J. Mol. Biol. 246, 511-521. Kraulis, P. J., Clore, G. M., Nilges, M., Jones, T. A,, Petterson, G., Knowles, J. & Gronenborn, A. (1989) Determination of the threedimensional solution structure of the C-terminal domain of cellobiohydrolase I from Trichoderma reesei. A study using nuclear magnetic resonance and hybrid distance geometry-dynamical simulated annealing, Biochemistry 28, 7241 -7257. Levitt, M. & Sharon, R. (1988) Accurate simulation of protein dynamics in solution, Proc. Natl Acad. Sci. USA 85, 7557-7561. DeLoof, M., Nilsson, L. & Rigler, R. (1992) Molecular dynamics simulation of galanin in aqueous and nonaqueous solution, J. Am. Chem. SOC. 114, 4028-4035. Macedo, A. L., Moura, I., Surerus, K. K., Papaefthymiou, V., Liu, M. Y., LeGall, J., Munck, E. & Moura, J. J. (1994) Thiol/disulfide for-
+
+735
+
+mation associated with the redox activity of the [Fe,S,] cluster of Desulfovibrio gigas ferredoxin 11. 'H-NMR and Mossbauer spectroscopic study, J. Biol. Chem. 269, 8052-8058. Marx, U., Austermann, S., Bayer, P., Adermann, K., Ejchart, A,, Sticht, H., Walter, S., Schmid, F. X., Jaenicke, R., Forssmann, W.-G., & Rosch, P. (1995) The structure of human parathyroid hormone 1 37 in physiological solution, J. Biol. Chem. 270, 15 194-15202. Matsubara, H. & Saeki, K. (1992) Structural and functional diversity of ferredoxins and related proteins, Adv. Inorg. Chem. 38, 223-280. Menendez-Arias, L. & Argos, P. (1989) Engineering protein thermal stability. Sequence statistics point to residue substitutions in a-helices, J. Mol. Biol. 206, 397-406. Neuhaus, D., Wagner, G., Vasak, M., Kagi, J. H. R. & Wiithrich, K. (1985) Systematic application of high-resolution, phase sensitive two-dimensional 'H-NMR techniques for the identification of the amino-acid-proton spin systems in proteins, Eur: J. Biochem. 151, 257-273. Nilges, M., Clore, M. G. & Gronenborn, A. M. (1988) Determination of three-dimensional structures of proteins from interproton distance data by dynamical simulated annealing from a random array of atoms, FEBS Lett. 239, 129-136. Perutz, M. F. & Raidt, H. (1975) Stereochemical basis of heat stability in bacterial ferredoxins and in haemoglobin A2, Nature 255, 256259. Pochapsky, T. C., Ye, X. M., Ratnaswamy, G. & Lyons, T. A. (1994) An NMR-derived model for the solution structure of oxidized putidaredoxin, a 2-Fe. 2-S ferredoxin from Pseudomonas, Biochemistry 33, 6424-6432. Powell, M. J. D. (1977) Restart procedures for the conjugate gradient method, Mathemat. P r o p 12, 241 -254. Qi, P. X., Di-Stefano, D. L. & Wand, A. J. (1994) Solution structure of horse heart ferrocytochrome c determined by high-resolution NMR and restrained simulated annealing, Biochemistry 33, 6408-641 7. Skry, A., Housset, D., Serre, L., Bonicel, J., Hatchikian, C., Frey, M. & Roth, M. (1994) Crystal structure of the ferredoxin I from Desulfovibrio ufricanus at 2.3 A resolution, Biochemistry 33, 15408-15417. Stetter, K. O., Fiala, G., Huber, G., Huber, R. & Segerer, A . (1990) Hyperthermophilic microorganisms, FEMS Microbiol. Rev. 75, 117124. Stout, G. H., Turley, S., Sieker, L. C. & Jensen, L. H. (1988) Refinement of the 7 Fe ferredoxin from Azotobacter vinelandii at 1.9 A resolution, Proc. Natl Acad. Sci. USA 85, 1020-1020. Stout, C. D. (1989) RFfinement of the 7 Fe ferredoxin from Azotobacter vinelandii at 1.9 A resolution, J. Mol. Biol. 205, 545-55. Teng, Q., Zhou, Z. H., Smith, E. T., Busse, S . C., Howard, J. B., Adams, M. W. & La-Mar, G. N. (1994) Solution 'H NMR determination of secondary structure for the three-iron form of ferredoxin from the hyperthermophilic archaeon Pyrococcus furiosus, Biochemistry 33, 6316- 6326. Tirado-Rives, J. & Jorgensen, W. L. (1991) Molecular dynamics simulations of the unfolding of an a-helical analogue of ribonuclease A Speptide in water, Biochemistry 30, 3864-3879. Travis, J., Newmann, D. J., LeGall, J. & Peck, H. D. (1971) The amino acid sequence of ferredoxin from the sulfate reducing bacterium, Drsulfovihrio gigas, Biochem. Biophys. Res. Commun. 45, 452-458. Verlet, L. (1967) Computer experiments on classical fluids. I. Thermodynamical properties of Lennard Jones molecules, Phys. Rev. 159, 98103. Wagner, G., Braun, W., Havel, T. F., Schaumdnn, T., Go, N. & Wiithrich, K. (1987) Protein structure in solution by nuclear magnetic resonance and distance geometry: The polypeptide fold of the basic pancreatic trypsin inhibitor determined using two different algorithms DISGEO and DISMAN, J. Mol. Biol. 196, 611 -639. Wildegger, G., Bentrop, D., Hage, A,, Sterner, R. & Rosch, P. (1995) 'H nuclear-magnetic-resonance investigation of oxidized Fe,S, ferredoxin from Thermotoga maritima. Hyperfine-shifted resonances, sequence-specific assignments and secondary structure, Eur J. Biochem. 229, 658-668. Wiithrich, K., Billeter, M., Braun, W. (1983) Pseudo-structures for the 20 common amino acids for use in studies of protein conformations by measurements of intramolecular distance constraints with nuclear magnetic resonance, J. Mol. Biol. 169, 949-961.
+
+

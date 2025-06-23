@@ -1,0 +1,168 @@
+research papers
+Acta Crystallographica Section D
+
+Biological Crystallography
+ISSN 0907-4449
+
+Anomalous signal of phosphorus used for phasing DNA oligomer: importance of data redundancy
+
+Zbigniew Dautera* and Dorota A. Adamiakb
+Synchrotron Radiation Research Section, Macromolecular Crystallography Laboratory, National Cancer Institute and NSLS, Brookhaven National Laboratory, Building 725A-X9, Upton, NY 11973, USA, and bInstitute of Bioorganic Chemistry, Polish Academy of Sciences, Noskowskiego 12, PL-617 Poznan, Poland
+a
+
+The crystal structure of a left-handed Z-DNA hexamer duplex d(CGCGCG)2 has been solved based on the anomalous diffraction signal of inherent P atoms using data collected at Ê the single wavelength of 1.54 A. The anomalous signal of about 2% of the total diffracted intensity, constant for all nucleic acids, may be generally useful for solving crystal structures of DNA and RNA oligomers. The multiplicity of intensity measurements is shown to crucially affect the data quality and the ability to solve the phase problem. The Ê anisotropic model re®ned to an R factor of 8.9% at 0.95 A resolution.
+
+Received 22 January 2001 Accepted 1 April 2001
+
+PDB Reference: d(CGCGCG)2, 1ick.
+
+Correspondence e-mail: dauter@bnl.gov
+
+1. Introduction
+The crystal structures of (deoxy)ribonucleic acid oligomers can be solved by molecular replacement (MR) if a plausible search model is available or by the use of heavy atoms introduced into the structure through multiple isomorphous replacement (MIR) or multiwavelength anomalous dispersion (MAD). Structures of small oligomers with very well diffracting crystals can sometimes be solved by direct methods. This is analogous to solving crystal structures of proteins. However, there are some differences in the practical application of these methods, resulting from differences in the chemical nature and three-dimensional architecture of these two kinds of biological macromolecule. The selection of DNA search models for MR poses a relatively easy problem in comparison with proteins. In contrast to the multitude of protein folds, there are only a few possible variations of basic double-helical DNA structures, although longer oligomers can be bent to different degrees. Some more complicated DNA structures do exist, however [e.g. tetraplexes (Phillips et al., 1997) and triplexes (Rhee et al., 1999)]. The relative rigidity of double-helical DNA makes the selection of the search model easier, but the internal helical symmetry of DNA leads to pseudo-solutions and complicates the choice of a correct solution in the rotation and translation functions. The introduction of heavy atoms for the MIR approach involves the same complications for nucleic acids oligomers as for proteins (Boggon & Shapiro, 2000). The derivatization by heavy metals cannot be predictably controlled and often leads to deterioration of the crystalline order and diffraction quality or non-isomorphism in relation to the native or other derivative crystals. By analogy to the use of selenomethionine as a vehicle for MAD phasing of proteins, which is currently the most commonly used method of solving novel protein crystal structures (Hendrickson, 1999), a similar role is played for DNA by 5-bromouracil, which is almost isostructural with
+Acta Cryst. (2001). D57, 990±995
+
+# 2001 International Union of Crystallography Printed in Denmark ± all rights reserved
+
+990
+
+Dauter & Adamiak
+
+
+
+Phasing using phosphorus anomalous signal
+
+research papers
+thymine and can be used for MAD phasing based on the anomalous scattering of bromine. Technically, the simplest approach to phasing macromolecular crystal structures is the use of a single-wavelength anomalous dispersion (SAD) signal. A few successful applications of this approach have been reported, such as the solution of the structure of crambin from the anomalous signal of sulfur (Hendrickson & Teeter, 1981), metallothionein based on cadmium (Furey et al., 1986), neurophysin based on iodine (Chen et al., 1991), IF3N based on lead (Biou et al., 1995) and rusticyanin based on copper (Harvey et al., 1998). The interest in this approach has recently been revived (e.g. Langs et al., 1999; Liu et al., 1999; Brodersen et al., 2000; Rice et al., 2000; Wang et al., 2000) owing to recent progress in datacollection technology and phasing software. Improved synchrotron beamlines equipped with CCD or imaging-plate detectors as well as modern data-processing software can very accurately estimate re¯ection intensities and their uncertainties. Direct-methods programs based on the shake-and-bake principle (SnB, Smith et al., 1998; SHELXD, Sheldrick, 1998) for ®nding anomalous scatterer positions and powerful phasing algorithms, especially those based on maximum likelihood (SHARP, de La Fortelle & Bricogne, 1997; MLPHARE, Otwinowski, 1991) or direct methods (OASIS; Hao et al., 2000), often lead to rapid and easy structure solution. SAD phasing requires an accurate measurement of re¯ection amplitudes, since the anomalous signal constitutes only a small fraction of the total crystal scattering. On the basis of simulated error-free data, Wang (1985) showed that the anomalous signal of two sulfurs within a single disul®de bridge in a protein of 114 residues, using Cu K wavelength data where the average ratio of Bijvoet difference to protein amplitude hÁFanom/Fi is only 0.6%, can lead to an interpretable electron-density map. The ®rst application of this kind, the solution of the structure of crambin (Hendrickson & Teeter, 1981), relied on the anomalous signal of six sulfurs in 46 residues, with hÁFanom/Fi of 1.4%. It was also possible to phase lysozyme with ten sulfurs and eight chlorides per 129 amino acids with hÁFanom/Fi of 1.5% (Dauter et al., 1999). Crambin and lysozyme contain higher amounts of sulfurbearing residues (cysteines and methionines) than average proteins. Moreover, they are small and their crystals diffract strongly, which makes it possible to measure re¯ection intensities accurately. For most protein crystals, it is rather impractical to expect the data accuracy to exceed 1%, which would be necessary for the routine phasing of crystals from the anomalous signal of sulfur naturally occurring in proteins. Apart from certain tRNAs containing naturally occurring thio-modi®ed nucleoside residues, nucleic acids do not contain sulfur, but a considerable amount of phosphorus is present naturally in all DNA and RNA. Every nucleotide contains one phosphate group, with the possible exception of the termini; therefore, the amount of phosphorus is almost constant in all Ê nucleic acids. At wavelength 1.54 A, phosphorus has an f HH value of 0.433 electrons and sulfur 0.556 electrons as estimated by CROSSEC (Cromer, 1983). The expected value of
+Acta Cryst. (2001). D57, 990±995
+
+hÁFanom/Fi for data collected from DNA crystals by using such a wavelength is therefore about 2.0%. The anomalous signal of phosphorus in DNA is thus signi®cantly higher than the signal from sulfur in proteins, even those containing an unusually high amount of cysteines and methionines. To test the feasibility of using phosphorus for SAD phasing of nucleic acids, we used a crystal of the hexamer duplex d(CGCGCG)2 containing ten phosphates in the molecule. Such DNA oligomers are known to diffract to atomic resolution (Wang et al., 1979; Gessner et al., 1989). Diffraction data were collected with synchrotron radiation of wavelength Ê 1.54 A, equivalent to that from the copper-target source.
+
+2. Diffraction data
+d(CGCGCG)2 was crystallized at 293 K by vapor diffusion. Hanging drops contained 5 mg mlÀ1 DNA, 30 mM cacodylate buffer pH 7.0, 15 mM MgCl2, 10 mM spermine and 5% MPD. The well solution was 37.5% MPD. A crystal of dimensions 0.1 Â 0.3 Â 0.4 mm was frozen directly from the mother liquor in a stream of nitrogen gas at 160 K using an Oxford Cryosystems device. Diffraction data were collected at the X8C beamline of the National Synchrotron Light Source, Brookhaven National Laboratory on the ADSC Quantum4 CCD detector and were processed using the HKL2000 suite (Otwinowski & Minor, 1997). Two data sets were measured from the same crystal, the ®rst Ê Ê with wavelength 1.54 A to a resolution of 1.5 A and the second Ê Ê with wavelength 0.98 A to a resolution of 0.95 A. Multiple passes of data with different exposure times were recorded in both cases to ensure the adequate counting of weak highresolution data and very strong low-resolution re¯ections. The total rotation in each pass was 360 for long-wavelength data and 180 for short-wavelength data, the latter being used for re®nement only. To investigate the effect of multiplicity of measurements on the resulting accuracy of intensities, the long-wavelength data were processed in four sets, using images corresponding to 360, 270, 180 or 90 of the total rotation. However, all of these data sets were complete; they were labeled L360, L270, L180 and L90, respectively. The short-wavelength data, labeled S180, were used only for the re®nement of the model. The data-collection parameters are summarized in Table 1. The quality and completeness of all data sets were high. The Ê resolution of the data set S180 was limited to 0.95 A by the geometry of the CCD camera and by the monochromator setup at the synchrotron beamline. The crystal had the potential to diffract to even higher resolution, as evidenced by the relatively low Rmerge of 13% and I/'(I) of 10 in the highest resolution shell. The quality factors of all long-wavelength Ê data sets were excellent. The resolution range of 1.5 A for this crystal contained mostly strong re¯ections, which could be measured very accurately. However, there are small but signi®cant differences in the quality factors of the four longwavelength sets. Initially, judging from Rmerge, Ranom and ÁFanom/F, it seems that the quality of the L90 data set is best and that of L360
+Dauter & Adamiak
+
+
+Phasing using phosphorus anomalous signal
+
+991
+
+research papers
+Table 1
+Diffraction data statistics.
+Ê Values in parentheses refer to the highest resolution shell, 0.97±0.95 A for Ê short-wavelength data and 1.55±1.50 A for long-wavelength data. Beamline Space group Unit-cell paraÊ meters (A) Data set Ê Wavelength (A) No. of passes Ê Resolution (A) No. of re¯ections Measured Unique Completeness (%) I/'(I) R(I)merge² (%) R(I)anom³ (%) |ÁFanom|/F (%)
+² R(I)merge = jI   I À ja2. 
+
+Table 2
+
+Phasing results.
+(a) Direct-methods solutions of phosphorus sites. Number of good solutions per 1000 phase sets. Data set SHELXS SHELXD SnB L360 3 448 17 L270 0 358 7 L180 0 102 2 L90 0 12 0
+
+X8C (NSLS) P212121 a = 17.81, b = 31.42, c = 44.00 S180 0.98 4 20±0.95 L360 1.54 3 25±1.5 L270 1.54 3 25±1.5 L180 1.54 3 25±1.5 L90 1.54 3 25±1.5
+
+193475 80781 60603 40348 20159 16121 4281 4280 4279 4253 99.8 (98.8) 99.9 (100.0) 99.9 (99.9) 99.8 (99.9) 98.2 (95.7) 58.7 (9.7) 66.9 (23.1) 3.8 (12.9) 2.7 (6.0) 1.4 (2.5) 2.1 (3.2)
+hkl 
+
+(b) Figure-of-merit (FOM) values, correlation coef®cients of the DM map with the (Fobs, 9calc) map and average differences between SHARP or DM phases and those calculated from the re®ned model. Data set SHARP FOM DM FOM SHARP map CC DM map CC hÁ9(SHARP)i ( ) hÁ9(DM)i ( ) L360 0.52 0.78 0.66 0.85 42.6 35.4 L270 0.50 0.75 0.63 0.80 46.5 40.2 L180 0.47 0.72 0.62 0.70 46.8 43.8 L90 0.41 0.70 0.57 0.57 49.8 52.4
+
+58.0 (20.0) 2.6 (5.4) 1.6 (3.0) 2.3 (3.6)
+hkl
+
+45.5 (15.8) 2.3 (4.7) 1.6 (3.5) 2.3 (4.0)
+= 
+
+32.5 (12.0) 2.1 (4.4) 1.8 (3.5) 2.5 (4.2)
+hkl jI 
+
+
+i
+
+jIihkl À hI hkl ij/
+
+
+
+hkl hI
+
+i. ³ R(I)anom
+
+À I À j/
+
+worst. In fact, the L360 data set is obviously the best, as evidenced by its highest value of I/'(I), which is twice as high as that for the L90 data set. This is in perfect agreement with statistical expectations, where a fourfold increase in measurement redundancy should lead to a twofold decrease in the standard deviations. The Rmerge factor in its commonly    hkl À hI hkl ij/ hkl hI hkl i, does not take used form, hkl  i jIi into account the multiplicity of measurements and increases with data redundancy, whereas the averaged intensities become more accurate. Modi®ed versions of Rmerge have been proposed (Diederichs & Karplus, 1997; Weiss & Hilgenfeld, 1997); unfortunately, however, they are not widely utilized in common practice. A similar argument applies to ÁFanom/F, where errors in both the numerator and the denominator cause its value to tend toward unity, which does not re¯ect a higher amount of the anomalous signal. The accuracy of the anomalous measurements should be judged instead by how close the calculated value is to the level expected from the known number of anomalous scatterers and total number of 1a2 1a2 atoms, ÁFanom/F = 21/2(f HH NA )/(6.7NP ) (Hendrickson & Ogata, 1997). For the L360 data set, this value (2.1%) is closest to the theoretically estimated 1.9% (Fig. 1).
+
+The ten phosphorus sites were subjected to re®nement of their parameters and phase calculation by SHARP (de La Fortelle & Bricogne, 1997) followed by density modi®cation with DM (Cowtan & Zhang, 1999) in the `COMBINE PERTURB' mode, assuming 25% solvent in the crystal. In this process, only a single data set was used in each case, so that the phases were estimated solely on the basis of Bijvoet differences. For all four data sets, the same protocol was used with structure amplitudes and anomalous differences prepared by TRUNCATE (French & Wilson, 1978). The results of the phase estimation are summarized in Table 2(b) and illustrated in Fig. 2. Table 2 also contains a comparison of the experimental phases and electron-density maps with those obtained after ®nal re®nement of the structure. As can be seen in Fig. 2,
+
+3. Phasing using long-wavelength data sets
+Several direct-methods jobs were run based on Bijvoet differences within four long-wavelength data sets using the programs SHELXS (Sheldrick, 1986), SHELXD (Sheldrick, 1998) and SnB (Weeks & Miller, 1999); the results are summarized in Table 2(a). The differences in the accuracy of intensity estimations are clearly pronounced here. The L360 data set led to the clear solution of the anomalous-scatterers substructure by all programs, whereas the L90 data set failed to produce a good solution by SHELXS or SnB within 1000 phase sets.
+
+Figure 1
+
+The ÁFanom/F ratio for long-wavelength data sets as a function of resolution.
+Acta Cryst. (2001). D57, 990±995
+
+992
+
+Dauter & Adamiak
+
+
+
+Phasing using phosphorus anomalous signal
+
+research papers
+the performance of the L360 data set was very good; L270 and L180 produced interpretable maps but L90 failed to produce a satisfactory map. In the case of the L90 data set, the phases obtained after DM were worse than those obtained directly from SHARP before DM. The 25% solvent content in the crystal was very low, so naturally the density-modi®cation procedure was not very effective. However, even in this process based on averaged structure factors without using the anomalous signal the differences in data accuracy among the four L sets were apparent.
+
+4. Structure
+The crystal of d(CGCGCG)2 is isomorphous with the structure 2dcg from the Protein Data Bank (Wang et al., 1979). The initial atomic model was taken from 2dcg and re®ned with the program SHELXL (Sheldrick & Schneider, 1997) against all Ê F 2 of the S180 data set at 0.95 A resolution. The re®nement proceeded in steps, ®rst isotropically then anisotropically, and riding H atoms were added at calculated positions. Stereochemical restraints (Parkinson et al., 1996) were used with
+
+Figure 2
+
+Ê Experimental solvent-¯attened electron-density maps at 1.5 A resolution plotted at the 1' level and calculated for the four long-wavelength data sets: (a, b) L360, (c) L270, (d) L180 and (e) L90. This ®gure was prepared with BOBSCRIPT (Esnouf, 1999).
+Acta Cryst. (2001). D57, 990±995 Dauter & Adamiak
+
+
+Phasing using phosphorus anomalous signal
+
+993
+
+research papers
+Table 3
+Re®nement statistics.
+R factor (%) (No. of re¯ections) R factor, F > 4'(F) (No. of re¯ections) DNA-atom sites Ligand-atom sites Solvent-atom sites R.m.s.d. from idealized geometry Ê Bond lengths (A) Ê Angle distances (A) Ê Chiral volumes (A3) Ê Planarity (A3) 8.71 (16102) 8.65 (15782) 240 24 74 0.018 0.036 0.052 0.157
+
+average values in both models are given together with r.m.s. deviation from the mean as well as the standard library values. The spread of estimated bond lengths in 2dcg is not much higher than in the anisotropically re®ned model, con®rming that both models are highly accurate. The small differences can be attributed in part to variations in crystallization conditions and the different temperatures of the experiments.
+
+5. Conclusions
+The small but signi®cant anomalous scattering signal of phosphorus, with its theoretical contribution of less than half Ê of the electron units at wavelength 1.54 A, proved to be suf®cient for successful SAD phasing of the structure of a lefthanded Z-DNA oligomer with a molecular mass of about 5 kDa. This approach can be suggested as a general method of solving nucleotide crystal structures, since DNA and RNA contain practically constant amounts of phosphorus which should provide an anomalous diffraction signal of about 2% of the total scattering. For well diffracting crystals, it is possible to collect diffraction data with such accuracy by using the contemporary technology of X-ray sources, detectors and data-processing software, even in a home laboratory, as evidenced by the solution of crambin (Hendrickson & Teeter, 1981). On the other hand, one should be aware of the adverse effect of the radiation damage caused by extremely bright synchrotron radiation. To achieve successful phasing, it is probably more important to concentrate on the data accuracy rather than on the extension of the resolution limit. Comparison of four data sets processed with different multiplicity of measurements showed that the differences in data quality, which seemed almost insigni®cant relative to standard data-processing quali®ers, were crucial in the practical application of solving the structure. The best quali®er of the diffraction data quality among those routinely used is the I/'(I) ratio, whereas the standard Rmerge does not re¯ect the true accuracy of the merged data. It should be noted that the uncertainties of measured intensities, '(I), must be estimated, checked and corrected, since counting statistics cannot be directly applied to CCD or image-plate detectors, which do not measure individual X-ray quanta (Dauter, 1999). All routinely used data-processing programs provide the means to check and correct the estimated uncertainties. The behavior of I/'(I) for four data sets was in perfect agreement with the statistical expectation that doubling the number of measurements would lead to a 21/2 increase in the data accuracy. The signi®cance of the anomalous signal can be judged from the ÁFanom/F ratio at a different resolution. This ratio should tend to the value expected from the crystal content, especially at low resolution. If the value is much higher than expected this suggests that the anomalous signal is not highly accurately measured. As is usually the case in macromolecular crystallography, it is not possible to formulate general rules and conditions for the success of phasing based on such a weak anomalous signal as that provided by phosphorus in nucleic acids. More trials are required to test the applicability of this approach.
+Acta Cryst. (2001). D57, 990±995
+
+default SHELXL weights. Three blocks of the least-squares matrix were used encompassing individual DNA chains and all solvent, magnesium and spermine atoms. The model inspections and corrections were performed using the graphics display program QUANTA (Molecular Simulations Inc., San Diego). The ®nal R factor is 8.89% on all 16 102 re¯ections. The re®nement statistics are given in Table 3. The re®ned structure is almost identical to 2dcg, except that only one molecule of spermine was identi®ed instead of two in 2dcg. Therefore, the structural details of the model will not be discussed further here. The uncertainties of atomic coordinates within the molecule of d(CGCGCG)2 are in the range Ê Ê 0.007±0.012 A for C, N and O and 0.003±0.005 A for P. The accuracy of the bond lengths is similar, within the 0.007± Ê 0.010 A margin; for the bond angles, the accuracy is about 0.5 . The current model was re®ned anisotropically with the contribution of H atoms included, whereas the 2dcg structure was re®ned isotropically without contributing H atoms to 14% Ê at 0.9 A resolution against 15 000 re¯ections above 2'(F). However, the accuracy of the present model seems to be only marginally higher than that of the original structure of Wang et al. (1979). This has been a remarkable achievement for the 2dcg structure, which contains more than 300 atoms and was determined more than 20 y ago. Because the 2dcg model was not re®ned by full-matrix least-squares minimization, it is dif®cult to compare the accuracy of individual atomic parameters, but the r.m.s. displacement of 240 atoms for the two Ê superimposed models is 0.085 A. It is also possible to compare the variation of lengths of equivalent bonds in six copies of CG pairs (Fig. 3), where the
+
+Figure 3
+
+Averaged bond lengths within the pairs of CG bases. For each bond, the average value of its length is given with the r.m.s.d. from the mean for the current model (top row) and for the 2dcg model (second row); the library value for each bond length is given in the third row.
+
+994
+
+Dauter & Adamiak
+
+
+
+Phasing using phosphorus anomalous signal
+
+research papers
+The authors are grateful to Joel Berendzen for providing synchrotron beam time at the X8C beamline at NSLS, to M. Kluge for assistance with crystallization, and to Anne Arthur for editorial help. The DNA hexamer was kindly donated by R. Kierzek.
+Langs, D. A., Blessing, R. H. & Guo, D. Y. (1999). Acta Cryst. A55, 755±760. Liu, Y.-D., Harvey, I., Gu, Y.-X., Zheng, C.-D., He, Y.-Z., Fan, H.-F., Hasnain, S. S. & Hao, Q. (1999). Acta Cryst. D55, 1620±1622. Liu, Z.-J., Vyotski, E. S., Rose, J., Rosenbaum, G., Lee, J. & Wang, B.-C. (2000). Am. Crystallogr. Assoc. Meet. Abstr., p. 99. Newton, M. G., Rose, J. P., Liu, Z.-J., Foundling, S., Sparks, R. & Wang, B.-C. (2000). Am. Crystallogr. Assoc. Meet. Abstr., p. 52. Otwinowski, Z. (1991). Proceedings of the CCP4 Study Weekend. Isomorphous Replacement and Anomalous Scattering, edited by W. Wolf, P. R. Evans & A. G. W. Leslie, pp. 80±86. Warrington: Daresbury Laboratory. Otwinowski, Z. & Minor, W. (1997). Methods Enzymol. 276, 307±326. È Parkinson, G., Vojtechovsky, J., Clowney, L., Brunger, A. T. & Berman, H. M. (1996). Acta Cryst. D52, 57±64. Phillips, K., Dauter, Z., Murchie, A. I. H., Lilley, D. M. J. & Luisi, N. (1997). J. Mol. Biol. 273, 171±182. Rhee, S., Han, Z. J., Liu, K., Miles, H. T. & Davies, D. R. (1999). Biochemistry, 38, 16810±16815. Rice, L. M., Earnest, T. N. & Brunger, A. T. (2000). Acta Cryst. D56, 1413±1420. Sheldrick, G. M. (1986). SHELXS86. Program for Crystal Structure È Solution. University of Gottingen, Germany. Sheldrick, G. M. (1998). Direct Methods for Solving Macromolecular Structures, edited by S. Fortier, pp. 401±411. Dordrecht: Kluwer Academic Publishers. Sheldrick, G. M. & Schneider, T. R. (1997). Methods Enzymol. 277, 319±343. Smith, G. D., Nagar, B., Rini, J. M., Hauptman, H. A. & Blessing, R. H. (1998). Acta Cryst. D54, 799±804. Wang, A. H.-J., Quigley, G. J., Kolpak, F. J., Crawford, A. L., van Boom, J. H., van der Marel, G. & Rich, A. (1979). Nature (London), 282, 680±686. Wang, B. C. (1985). Methods Enzymol. 115, 90±112. Wang, B.-C., Chen, C.-J., Liu, Z.-J., Wu, C. K., Schubot, F. D., Rosenbaum, G., Vysotski, E. S., Lee, J., Dailey, H. A., Ferrara, J., Schiffer, M., Pokkulur, P. R., Joachimiack, A., Zhang, R., Howard, A., Chrzas, J., Robbins, A. H. & Rose, J. P. (2000). Am. Crystallogr. Assoc. Meet. Abstr., p. 66. Weeks, C. M. & Miller, R. (1999). J. Appl. Cryst. 32, 120±124. Weiss, M. S. & Hilgenfeld, R. (1997). J. Appl. Cryst. 30, 203±205.
+
+References
+Biou, V., Shu, F. & Ramakrishnan, V. (1995). EMBO J. 14, 4056±4064. Boggon, T. J. & Shapiro, L. (2000). Structure, 8, R143±R149. Brodersen, D. E., de La Fortelle, E., Vonrhein, C., Bricogne, G., Nyborg, J. & Kjeldgaard, M. (2000). Acta Cryst. D56, 431±441. Chen, C.-J., Rose, J. P., Rosenbaum, G. & Wang, B.-C. (2000). Am. Crystallogr. Assoc. Meet. Abstr., p. 76. Chen, L., Rose, J. P., Breslow, E., Yang, D., Chang., W. R., Furey, W. F., Sax, M. & Wang, B. C. (1991). Proc. Natl Acad. Sci. USA, 88, 4240± 4244. Cowtan, K. D. & Zhang, K. Y. J. (1999). Prog. Biophys. Mol. Biol. 72, 245±270. Cromer, D. T. (1983). J. Appl. Cryst. 16, 437±438. Dauter, Z. (1999). Acta Cryst. D55, 1703±1717. Dauter, Z., Dauter, M., de La Fortelle, E., Bricogne, G. & Sheldrick, G. M. (1999). J. Mol. Biol. 289, 83±92. Diederichs, K. & Karplus, P. A. (1997). Nature Struct. Biol. 4, 269±275. Esnouf, R. M. (1999). Acta Cryst. D55, 938±940. French, G. S. & Wilson, K. S. (1978). Acta Cryst. A34, 517±525. Furey, W. F., Robbins, A. H., Clancy, L. L., Winge, D. R., Wang, B. C. & Stout, C. D. (1986). Science, 231, 704±710. Gessner, R. V., Frederick, C. A., Quigley, G. J., Rich, A. & Wang, A. H.-J. (1989). J. Biol. Chem. 264, 7921±7935. Hao, Q., Gu, Y. X., Zheng, C. D. & Fan, H. F. (2000). J. Appl. Cryst. 33, 980±998. Harvey, I., Hao, Q., Duke, E. M., Ingledew, J. & Hasnain, S. S. (1998). Acta Cryst. D54, 629±635. Hendrickson, W. A. (1999). J. Synchrotron Rad. 6, 845±851. Hendrickson, W. A. & Ogata, C. M. (1997). Methods Enzymol. 276, 494±523. Hendrickson, W. A. & Teeter, M. M. (1981). Nature (London), 290, 107±113. La Fortelle, E. de & Bricogne, G. (1997). Methods Enzymol. 276, 472± 494.
+
+Acta Cryst. (2001). D57, 990±995
+
+Dauter & Adamiak
+
+
+
+Phasing using phosphorus anomalous signal
+
+995
+
+

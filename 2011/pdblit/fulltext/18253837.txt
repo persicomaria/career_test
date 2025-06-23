@@ -1,0 +1,93 @@
+J Biomol NMR (2008) 40:219­224 DOI 10.1007/s10858-008-9222-x
+
+NMR STRUCTURE NOTE
+
+The NMR structure of the NIPP1 FHA domain
+Hiroyuki Kumeta Æ Kenji Ogura Æ Souichirou Adachi Æ Yuko Fujioka Æ Kiminobu Tanuma Æ Kunimi Kikuchi Æ Fuyuhiko Inagaki
+
+Received: 9 October 2007 / Accepted: 10 January 2008 / Published online: 6 February 2008 Ó Springer Science+Business Media B.V. 2008
+
+Biological context Although the nuclear inhibitor of PP1 (NIPP1) was originally discovered as a potent and specific inhibitor of protein Ser/Thr phosphatase-1 (PP1), NIPP1 is also involved in transcription and pre-mRNA splicing via mechanisms that are not related to PP1 activity (Beullens and Bollen 2002). NIPP1 acts as a transcriptional repressor by binding to the Polycomb protein, EED (embryonic ectoderm development) (Eynde et al. 2004), and appears to be required for the assembly of splicesomes, the protein-RNA complexes that catalyze pre-mRNA splicing. The spliceosomal function of NIPP1 requires both its C-terminal domain and its N-terminal Forkhead-associated (FHA) domain. FHA domains are a class of ubiquitous signaling modules that appear to function through interactions with Ser/ Thr phosphorylated target proteins. Several high-resolution NMR structures of FHA domains have been reported (Durocher et al. 2000; Byeon et al. 2001; Li et al. 2002; Stavridi et al. 2002; Byeon et al. 2005) and their ligand specificities have been identified using short phosphopeptides comprised of 6­15 residues. The Rad53 FHA1 domain specifically recognizes the phosphothreonine (pThr)-containing peptides with Asp at the +3 position
+
+(pTXXD), while the Rad53 FHA2 and Chk2 FHA domains bind the pThr-containing peptides that have either Leu or Ile at the +3 position (pTXXL/I) (Durocher et al. 2000; Liao et al. 2000; Byeon et al. 2001). The FHA domain of human Ki67, on the other hand, interacts with the human nucleolar protein hNIFK by recognizing a 44-residue fragment, hNIFK226­269, phosphorylated at Thr234. The recognition of the hNIFK peptide by the Ki67 FHA domain required the pThr site and was not consistent with the pTXXD/L/I rule. Thus, the complex structure with the polypeptide revealed another recognition mode of target polypeptides by the FHA domain (Byeon et al. 2005). The NIPP1 FHA domain interacts with essential splicing factors, CDC5L (Boudrez et al. 2000) and SAP155 (Boudrez et al. 2002), and a cell cycle-regulated kinase, MELK (Vulsteke et al. 2004). The NIPP1 FHA domain recognizes sequences containing pThr in the Thr-Pro dipeptide-rich region of the target proteins. Mutagenesis studies of SAP155 and MELK revealed that the phosphorylation site essential for binding to the NIPP1 FHA domain do not conform to the pTXXD/I/L motif, like Ki67 FHA. Here, we report the solution structure of the NIPP1 FHA domain and study the recognition mode of the target polypeptides derived from MELK by NIPP1 FHA.
+
+H. Kumeta Á K. Ogura Á S. Adachi Á Y. Fujioka Á F. Inagaki (&) Laboratory of Structural Biology, Graduate School of Pharmaceutical Sciences, Hokkaido University, Sapporo, Hokkaido 060-0812, Japan e-mail: finagaki@pharm.hokudai.ac.jp K. Tanuma Á K. Kikuchi Division of Biochemical Oncology and Immunology, Institute for Genetic Medicine, Hokkaido University, Sapporo, Hokkaido, Japan
+
+Methods and results The GST-tagged NIPP1 FHA domain (1­132) was produced in BL21(DE3) cells transformed by the pGEX-6P-1 (GE Healthcare Bio-Sciences) plasmid. The coding region of the GST-tag sequence and PreScission protease cleavage site was added to the N-terminus. The protein was isotopically 13C- and 15N-labeled by growing E. coli in M9 minimal medium containing 15NH4Cl (1 g/l) and
+
+123
+
+220
+
+J Biomol NMR (2008) 40:219­224 Table 1 Structural statistics of the NIPP1 FHA domain NOE distance constraints Short range (intraresidue and sequential) Medium range (2 B |i - j| B 4) Long range (|i - j| [ 4) ° Number of distance violations [0.3 A ° Structural coordinates rmsd (A) Backbone atoms All heavy atoms Ramachandran plot Most favored regions Additionally allowed regions Generously allowed regions Disallowed regions 56.2% 41.7% 1.8% 0.3% 3,907 1,928 458 1,521 0 0.16 0.53
+
+C-glucose (2 g/l) as the sole nitrogen and carbon sources, respectively. Cells were grown at 37°C in M9 medium. Protein expression was induced by addition of isopropyl-1thio-b-galctopyranoside to a final concentration of 1 mM at 16°C. The cells were cultured at 16°C and were lysed. The GST-fused NIPP1 FHA domain was purified using a glutathione-Sepharose 4B column (GE Healthcare BioSciences), and GST was excised from the NIPP1 FHA domain with PreScission protease (GE Healthcare BioSciences). Then, the excised GST and PreScssion protease were removed from NIPP1 FHA domain on a glutathioneSepharose 4B column. NIPP1 FHA was further purified using a Superdex75 gel filtration column (GE Healthcare Bio-Sciences). Finally, NIPP1 FHA was concentrated using a Centriprep 10K ultra filtration system (Millipore) and then applied to NMR experiments. All the NMR measurements were carried out at 25°C and the sample was prepared in 20 mM phosphate buffer (pH 7.0) and 150 mM NaCl in the presence of 1 mM DTT. Two- and three-dimensional NMR experiments were performed on Varian UNITY inova spectrometers operating at 800 and 600 MHz. Spectra were processed using NMRPipe (Delaglio et al. 1995) and data analysis was performed with the help of the Sparky program (Kneller and Goddard 1997). 1H, 13C and 15N resonance assignments were carried out using the following set of spectra; 1 H­15N HSQC, 1H­13C HSQC, HN(CO)CA, HNCA, CBCA(CO)NH, HNCACB, HNCO, (HCA)CO(CA)NH, HBHA(CO)NH, HN(CA)HA, HC(C)H-TOCSY, (H)CCHTOCSY, HbCbCgCdHd, HbCbCgCdCeHe, and HACAN. All of the backbone amide resonances were assigned except for Ser7, Gly8, Ser9, Ser10, Gly34 and His98. Nearly complete side-chain assignments were also accomplished. The 1H, 13C and 15N chemical shifts were referenced to DSS according to IUPAC recommendations. Interproton distance restraints for structural calculation were obtained from 13C-edited NOESY-HSQC and 15 N-edited NOESY-HSQC spectra using a 100 ms mixing time. The structure was calculated using the CYANA 2.1 software package (Herrmann et al. 2002). As input for the final calculation of the three-dimensional structure of the NIPP1 FHA domain, a total of 3,907 distance restraints were used (Table 1). At each stage, 100 structures were calculated using 30,000 steps of simulated annealing, and a final ensemble of 20 structures was selected based on CYANA target function values. The atomic coordinates have been deposited in the Protein Data Bank (PDB code: 2JPE). The overlay of the 20 structures and the ribbon model of the lowest energy structure of the NIPP1 FHA domain are shown in Fig. 1a and b, respectively. The N-terminal residues (1­10) exhibited flexible random conformation characteristics. The core structure of the NIPP1 FHA domain (11­132) comprises 11 b-strands linked by several
+
+13
+
+loops to form two large twisted antiparallel b-sheets and an additional short a-helix, essentially identical with those from Rad53 and Ki67, although sequence homology among them was generally low (Fig. 2d). The conserved residues; i.e., Gly52, Arg53, Ser68 and His71 (shown in red in Fig. 2d), were located on the loops at the top of the structure (Fig. 1b, 2a), and the Ne2 of the His71 imidazole ring was protonated even at pH 7.0, which is a common feature of FHA domains. The structures of the loops were well defined as there were a number of NOEs especially among the b3­a, b4­b5, b6­b7 and b10­b11 loops that surround His71 (Fig. 2a). Compared with the structures of the Rad53 FHA1 domain complexed with the pTXXD peptide (Fig. 2b) and the Rad53 FHA2 domain complexed with the pTXXL peptide (Fig. 2c), these loop regions of the NIPP1 FHA domain are considered to recognize the pThr peptide and the conserved residues located on the loops play pivotal roles in the recognition of the pThr residue containing sequence. To identify the pThr peptide recognition site of the NIPP1 FHA domain, the chemical shift changes of the 15N labeled NIPP1 FHA domain upon binding to the synthesized pThr MELK peptide (A470RNQCLKE(pT)PIKIPVNST487) (Sigma) (Vulsteke et al. 2004) were studied using 1H­15N HSQC spectra (Fig. 3a). Several amide peaks were perturbed in an intermediate exchange process but most peaks showed a fast exchange process on the NMR chemical shift time scale (Fig. 3a). The results of the chemical shift perturbation studies are summarized in Fig. 3b and mapped on the NIPP1 FHA domain structure (Fig. 3c). These results suggested that the NIPP1 FHA domain recognized the MELK peptide using the loops at the top of the structure.
+
+Discussions Herein we present the NMR structure of the NIPP1 FHA domain and report the pThr binding site identified by
+
+123
+
+J Biomol NMR (2008) 40:219­224
+
+221
+
+A
+
+B
+
+Fig. 1 Solution structure of the NIPP1 FHA domain. (a) Overlay of the ensemble of 20 final energy-minimized CYANA structures in stereo where heavy atoms from 20 to 125 are superimposed. The side
+
+chains for 11­132 are shown in cyan. (b) Ribbon diagrams of the lowest energy structure in stereo. The structures were drawn using MOLMOL (Koradi et al. 1996) and PyMOL respectively
+
+chemical shift perturbation studies. The binding site of the NIPP1 FHA domain was quite similar to those identified for other FHA domains. Several FHA domains have target motifs (pTXXD/I/L) and the essential residues of the FHA domains for recognition of the +3 residue (D/I/L) have been examined. The Arg83 side chain of the Rad53 FHA1 domain is required for recognition of Asp at the +3 position (Fig. 2b), and the Ile681 side chain of the Rad53 FHA2 domain interacts with Leu at the +3 position (Fig. 2c). In the NIPP1 FHA domain, Ser66 and Phe117 correspond to those two
+
+residues, respectively (Fig. 2a, d). The replacement of Arg with Ser may abolish the ionic interaction. The Phe117 side chain is located in the hydrophobic core formed by the b5 and b11 and does not seem to interact with the residue at the +3 position (Fig. 2a) since no chemical shift change was observed for F117 upon addition of the MELK peptide (Fig. 3b). The phosphorylated 44-residue hNIFK peptide has an additional binding site at the C-terminus that forms an intermolecular b-sheet with the Ki67 FHA domain, thus enhancing the binding affinity to the Ki67 FHA domain
+
+123
+
+222 Fig. 2 Comparison of the FHA domains. (a) The target peptide recognition site of the NIPP1 FHA domain, (b) Rad53 FHA1 complexed with the pTXXD peptide (Durocher et al. 2000, PDB ID: 1G6G), and (c) Rad53 FHA2 complexed with the pTXXL peptide (Byone et al. 2001, PDB ID: 1J4L). The side chains of key residues for recognition of pThr and the +3 position residue (Arg70, Arg83, Ser85, Asn86 and His88 in Rad53p FHA1; Arg605, Ser619, Arg620, His622 and Ile681 in Rad53 FHA2) and those for corresponding residues in NIPP1 FHA (Arg53, Ser66, Ser68, Arg69, His71 and Phe117 in NIPP1 FHA) are shown in a stick model. (d) Structure-based sequence alignment of the FHA domains. Conserved residues are colored red. The residues responsible for specificity at the +3 position are colored green
+
+J Biomol NMR (2008) 40:219­224
+
+A
+
+B
+
+C
+
+D
+
+(Kd = 0.077 lM) (Byeon et al. 2005). The association of the NIPP1 FHA domain with the MELK peptide was weak, since the chemical shift perturbation of the amide peaks was not saturated even at 16 molar equivalents of the peptide (Fig. 3a). Considering that the truncation of 10 residues from the C-terminus of the hNIFK peptide
+
+significantly reduced the binding affinity to the Ki67 FHA domain (Kd = 14 lM) (Byeon et al. 2005), it is possible that the MELK peptide (18 residues) in the present study lacks the additional binding region. Further study is required to elucidate the binding mode of the NIPP1 FHA domain using the longer phosphorylated MELK peptide.
+
+123
+
+J Biomol NMR (2008) 40:219­224 Fig. 3 The phosphorylated MELK peptide recognition by the NIPP1 FHA domain. (a) Superposition of the 1H­15N HSQC spectra of the 15Nlabeled NIPP1 FHA domain upon addition of 0.0 (red), 0.5 (orange), 1.0 (yellow), 2.0 (light green), 4.0 (green), 8.0 (cyan), 16.0 (blue), and 20.0 (purple) molar equivalents of the MELK peptide, respectively. The peaks that exhibited the intermediate exchange process were assigned based on the analysis of the free and the complexed forms (b) Chemical shift perturbation of the main chain amide groups of the NIPP1 FHA domain upon addition of up to 20 molar equivalents of the MELK peptide. Dppm was defined as ((DNppm/5)2 + (DHNppm)2)1/2. The residues with Dppm [ 0.6 are shown in red, 0.6 [ Dppm [ 0.4 in orange, and 0.4 [ Dppm [ 0.2 in yellow. The residues with fast chemical exchange process exhibited small Dppm and are colored in gray. (c) The mapping of residues with large chemical shift changes on the NIPP1 FHA domain structure, where the same color codes as in (b) are used. (c) (right) was generated by the rotation of (c) (left) by 90° around X-axis
+
+223
+
+A
+
+B
+
+C
+
+References
+Beullens M, Bollen M (2002) The protein phosphatase-1 regulator NIPP1 is also a splicing factor involved in a late step of spliceosome assembly. J Biol Chem 277:19855­19860
+
+Boudrez A, Beullens M, Groenen P, Eynde AV, Vulsteke V, Jagiello I, Murray M, Krainer AR, Stalmans W, Bollen M (2000) NIPP1mediated interaction of protein phosphatase-1 with CDC5L, a regulator pre-mRNA splicing and mitotic entry. J Biol Chem 275:25411­25417
+
+123
+
+224 Boudrez A, Beullens M, Waelkensm E, Stalmans W, Bollen M (2002) Phosphorylation-dependent interaction between the splicing factors SAP155 and NIPP1. J Biol Chem 277:31834­31841 Byone I-JL, Yongkiettrakul S, Tsai M-D (2001) Solution structure of the yeast Rad53 FHA2 complexed with a phosphothreonine peptide pTXXL: comparison with the structures of FHA2-pYXL and FHA1-pTXXD complexes. J Mol Biol 314:577­588 Byone I-JL, Li H, Song H, Gronenborn AM, Tsai M-D (2005) Sequential phosphorylation and multisite interactions characterize specific target recognition by the FHA domain of Ki67. Nat Struct Mol Biol 12:987­993 Delaglio F, Grzesiek S, Vuister G, Zhu W, Pfeifer J, Bax A (1995) NMRPipe: a multidimensional spectral processing system based on UNIX pipes. J Biomol NMR 6:277­293 Durocher D, Taylor IA, Sarbassova D, Haire LF, Westcott SL, Jackson SP, Smerdon SJ, Yaffe MB (2000) The molecular basis of FHA domain: phosphopeptide binding specificity and implications for phospho-dependent signaling mechanisms. Mol Cell 6:1169­1182 Eynde AV, Nuytten M, Dewerchin M, Schoonjans L, Keppens S, Beullens M, Moons L, Carmeliet P, Stalmans W, Bollen M (2004) The nuclear scaffold protein NIPP1 is essential for early embryonic development and cell proliferation. Mol Cell Biol 24:5863­5874 Herrmann, T, Guntert, P, Wuthrich, K (2002) Protein NMR structure determination with automated NOE assignment using the new
+
+J Biomol NMR (2008) 40:219­224 software CANDID and the torsion angle dynamics algorithm DYANA. J Mol Biol 319:209­227 Kneller DG, Goddard TD (1997) SPARKY 3.105 edit. University of California, San Francisco, CA Koradi R, Billeter M, Wuthrich K (1996) MOLMOL: a program for display and analysis of macromolecular structures. J Mol Graph 14:51­55, 29­32 Li J, Williams BL, Haire LF, Goldberg M, Wilker E, Durocher D, Yaffe MB, Smerdon SJ (2002) Structural and functional versatility of the FHA domain in DNA-damage signaling by the tumor suppressor kinase Chk2. Mol Cell 9:1045­1054 Liao H, Yuan C, Su M-I, Yongkiettrakul S, Qin D, Li H, Byeon I-JL, Pei D, Tsai M-D (2000) Structure of the FHA1 domain of yeast Rad53 and indentification of binding sites for both FHA1 and its target protein Rad9. J Mol Biol 304:941­951 Stavridi ES, Huyen Y, Loreto IR, Scolnick DM, Halazonetis TD, Pavletich NP, Jeffrey PD (2002) Crystal structure of the FHA domain of the Chfr mitotic checkpoint protein and its complex with tungstate. Structure 10:891­899 Vulsteke V, Beullens M, Boudrez A, Keppens S, Eynde AV, Rider MH, Stalmans W, Bollen M (2004) Inhibition of spliceosome assembly by the cell cycle-regulated protein kinase MELK and involvement of splicing factor NIPP1. J Biol Chem 279:8642­ 8647
+
+123
+
+

@@ -1,0 +1,237 @@
+Published on Web 05/15/2009
+
+Elucidation of the Phosphate Binding Mode of DING Proteins Revealed by Subangstrom X-ray Crystallography
+Dorothee Liebschner, Mikael Elias, Sebastien Moniot,|, Bertrand Fournier, ` Ken Scott,§ Christian Jelsch, Benoit Guillot, Claude Lecomte, and Eric Chabriere*, `
+Cristallographie Resonnance Magnetique et Modelisations, CNRS UMR 7036 Nancy-UniVersite, 54506 VandoeuVre-les-Nancy, France, Architecture et Fonction des Macromolecules Biologiques, CNRS-UniVersite de la Mediterranee, 13288 Marseille, France, and School of Biological Sciences, The UniVersity of Auckland, Auckland, New Zealand
+Received March 11, 2009; E-mail: eric.chabriere@afmb.univ-mrs.fr
+
+Abstract: PfluDING is a bacterial protein isolated from Pseudomonas fluorescens that belongs to the DING protein family, which is ubiquitous in eukaryotes and extends to prokaryotes. DING proteins and PfluDING have very similar topologies to phosphate Solute Binding Proteins (SBPs). The three-dimensional structure of PfluDING was obtained at subangstrom resolution (0.88 and 0.98 Å) at two different pH's (4.5 and 8.5), allowing us to discuss the hydrogen bond network that sequesters the phosphate ion in the binding site. From this high resolution data, we experimentally elucidated the molecular basis of phosphate binding in phosphate SBPs. The phosphate ion is tightly bound to the protein via 12 hydrogen bonds between phosphate oxygen atoms and OH and NH groups of the protein. The proton on one oxygen atom of the phosphate dianion forms a 2.5 Å low barrier hydrogen bond with an aspartate, with the energy released by forming this strong bond ensuring the specificity for the dianion even at pH 4.5. In particular, contrary to previous theories on phosphate SBPs, accurate electrostatic potential calculations show that the binding cleft is positively charged. PfluDING structures reveal that only dibasic phosphate binds to the protein at both acidic and basic phosphate, suggesting that the protein binding site environment stabilizes the HPO42form of phosphate.
+
+Introduction
+
+DING proteins constitute an intriguing protein family that was identified in a wide range of organisms, from prokaryotes to eukaryotes.1-3 The name of these 38 kDa proteins comes from the sequence of their four conserved N-terminal residues. Despite the seemingly ubiquitous occurrence of DING proteins in animals, plants, and fungi, they are systematically absent from eukaryotic genome databases.4 Consequently, available eukaryotic DING protein sequences are essentially constituted of N-terminal sequencing and internal peptide sequences. The sequence of the Human Phosphate Binding Protein (HPBP) is the only complete eukaryotic DING protein sequence and was obtained by a tandem use of X-ray crystallography and mass spectrometry.5 HPBP is a hydrophobic plasmatic apolipoprotein associated with human paraoxonase, for which heterologous
+
+production remains problematic.6 The tertiary structure of HPBP confirmed that DING proteins possess very similar topologies as bacterial phosphate solute binding proteins (SBPs). They fit a model known as the "Venus flytrap", in which two globular domains hinge together to form the phosphate-binding site, with eight conserved residues H-bonded to phosphate.7,8 Recently, a bacterial DING protein from Pseudomonas fluorescens was isolated and successfully expressed. It possesses a high sequence similarity with eukaryotic DING proteins,9 suggesting that the protein family extends to the prokaryotes.4 This protein has mitogenic activity toward human fibroblasts, which is consistent with similar activity ascribed to human DING proteins.10-12 There is only one complete DING gene sequence from eukaryotes. As PfluDING yields crystals diffracting to very high resolution, it offers the most convenient model for pursuing
+(5) Diemer, H.; Elias, M.; Renault, F.; Rochu, D.; Contreras-Martel, C.; Schaeffer, C.; Dorsselaer, A. V.; Chabriere, E. Proteins 2008, 71, 1708­1720. (6) Rochu, D.; Chabriere, E.; Renault, F.; Elias, M.; Clery-Barraud, C.; Masson, P. Biochem. Soc. Trans. 2007, 35, 1616­1620. (7) Morales, R.; et al. Ann. Pharm. Fr. 2007, 65, 98­107. (8) Morales, R.; et al. Structure 2006, 14, 601­609. (9) Scott, K.; Wu, L. Biochim. Biophys. Acta 2005, 1744, 234­244. (10) Hain, N.; Stuhlmuller, B.; Hahn, G.; Kalden, J.; Deutzmann, R.; Burmester, G. J. Immunol. 1996, 157, 1773­1780. (11) Adams, L.; Davey, S.; Scott, K. Biochim. Biophys. Acta 2002, 1586, 254­264. (12) Belenky, M.; Prasain, J.; Kim, H.; Barnes, S. J. Nutr. 2003, 133, 2497S­2501S.
+J. AM. CHEM. SOC. 2009, 131, 7879­7886
+9
+
+Present address: Institut fur Chemie and Biochemie/Kristallographie, ¨ Freie Universitat Berlin, 14195 Berlin, Germany. ¨  CNRS UMR 7036 Nancy-Universite. `  CNRS-Universite de la Mediterranee. ` ` ` § The University of Auckland. (1) Berna, A.; Bernier, F.; Scott, K.; Stuhlmuller, B. FEBS Lett. 2002, ¨ 524, 6­10. (2) Maro, A. D.; Maio, A. D.; Castellano, S.; Parente, A.; Farina, B.; Faraone-Mennella, M. R. J. Biol. Chem. 2009, 390, 27­30. (3) Pantazaki, A. A.; Tsolkas, G. P.; Kyriakidis, D. A. Amino Acids 2008, 34, 437­448. (4) Berna, A.; Bernier, F.; Chabriere, E.; Perera, T.; Scott, K. Int. ` J. Biochem. Cell Biol. 2008, 40, 170­175.
+|
+
+10.1021/ja901900y CCC: $40.75  2009 American Chemical Society
+
+7879
+
+ARTICLES
+
+Liebschner et al.
+Table 1. Data Collection and Refinement Statistics
+crystalpH4.5 crystalpH8.5
+
+structure-function relationships in DING proteins. The PfluDING structure was determined and found to be highly similar to that of HPBP.13,14 Mutant proteins deficient in phosphatebinding ability and truncated forms of PfluDING suggest that the mitogenic activity of PfluDING is related to the Venus flytrap motion of the structure induced by the phosphate binding.13 The binding mechanism of phosphate SBPs was previously investigated, showing that the phosphate is sequestered in a conserved cleft, completely buried in the closed form of the protein.8 The dibasic phosphate anion was described as being bound by a rich network comprising 12 hydrogen bonds. Eleven of them involve dipolar donor groups with five backbone N-H groups, mostly located at the N-terminal end of four helices; two N-H side chains from an Arg residue; and four from side chain O-H hydroxyl groups (e.g., Ser 32 in HPBP and PfluDING). An Asp carboxylate, the only acceptor group in the pocket, makes a hydrogen bond with the only proton available on dibasic phosphate.8,13 This key residue is believed to be responsible for the discrimination by 5 orders of magnitude between the closely related chemical species, dibasic phosphate and sulfate.15 Indeed, sulfate at physiological pH does not possess any proton and will be repelled by the aspartate residue. This hydrogen bond between the anion and the Asp carboxylate is unusual, as it was described to be particularly short in phosphate binding proteins13,16 including an atomic resolution structure at 0.98 Å.17 Despite the short O...O distance, this hydrogen bond, surprisingly, is claimed not to be stronger than other hydrogen bonds.17 Since phosphate SBPs have been shown to bind phosphate with high affinity at pH 8 and 4.5, the binding mode of monobasic phosphate was hypothesized.15 Because the -OH of Ser 32 is the only other group favorably positioned to accept an oxygen electron lone pair of a second phosphate proton (on O3), it was proposed that this hydroxyl group flipped to accept the second hydrogen of monobasic phosphate.15 The electrostatic potential of the protein was calculated, and surprisingly, the binding cleft was described as negative although it binds a negatively charged ligand.18 It has been proposed that this peculiar feature of an anion bound within a negative environment would increase the discrimination between negative substrates. In this way, it was hypothesized that only anions perfectly matching the hydrogen bond network are capable of binding and compensating the unfavorable electrostatic interaction of the anion.18 Here, we report the subangstrom structure of PfluDING at two different pH values (4.5 and 8.5). The quality of the obtained diffraction data gives new insights into the molecular basis of phosphate binding via the direct observation of hydrogen atoms. Moreover, this highly accurate model has also permitted us to calculate precise electrostatic potential maps of the phosphate
+(13) Ahn, S.; Moniot, S.; Elias, M.; Chabriere, E.; Dim, D.; Scott, K. FEBS ` Lett. 2007, 581, 3455­3460. (14) Moniot, S.; Elias, M.; Kim, D.; Scott, K.; Chabriere, E. Acta ` Crystallogr., Sect. F 2007, 63, 590­592. (15) Luecke, H.; Quiocho, F. A. Nature 1990, 347, 402­406. (16) Vyas, N. K.; Vyas, M. N.; Quiocho, F. A. Structure 2003, 11, 765­ 774. (17) Wang, Z.; Luecke, H.; Yao, N.; Quiocho, F. A. Nat. Struct. Biol. 1997, 4, 519­522. (18) Ledvina, P. S.; Tsai, A. L.; Wang, Z.; Koehl, E.; Quiocho, F. A. Protein Sci. 1998, 7, 2550­2559.
+7880 J. AM. CHEM. SOC.
+9
+
+0.953 P21 a ) 36.97 b ) 124.39 c ) 41.02 ) 116.55 resolution (Å) 50-0.98 no. of unique reflections (last bin) 185 558 (44 846) redundancy (last bin) 5.4 (3.1) completeness (last bin) 98.1 (94.0) a Rmerge (last bin) 4.3 (7.5) I/(I) (last bin) 24.4 (10.4) Rcrystb (%) 8.44 c Rfree (%) 10.71 water molecules 1234 double conformations 95 average B factor (Å2) 6.4 (only protein atoms) 0.014 rmsdd bond length (Å) rmsdd bond angle (deg) 2 Ramachandran analysis:e favored regions (%) 98.7 allowed regions (%) 1.3 outliers (%) 0
+
+wavelength (Å) space group unit cell parameters (Å, deg)
+
+0.750 P21 a ) 36.96 b ) 124.90 c ) 40.92 ) 116.31 50-0.88 253 101 (42 675) 6.1 (3.1) 97.4 (91.8) 5.3 (43.8) 16.6 (2.6) 12.76 14.81 1368 97 6.7 0.014 2 98.5 1.5 0
+
+a . b after MoPro refinement. c Same definition as for Rcryst, but for 5% of the reflections which were not used for refinement. d Root mean square deviation from the Engh & Huber standard dictionary. e Calculated with Molprobity.
+
+binding cavity, showing that the binding cleft has a globally positive potential.
+Materials and Methods Crystallization and Data Collection. The recombinant DING protein from P. fluorescens was overexpressed in Escherichia coli and purified as described previously.9 Crystals of PfluDING at pH 4.5 were obtained as described by Moniot et al.14 Some of them were soaked for 24 h into a Tris-HCl 0.5 M buffer solution at pH 8.5 containing 26% PEG 8000 and Li2SO4 200 mM. Diffraction data collections were performed at the ESRF (Grenoble, France) at beamlines ID14-4 and ID-29. The mother liquor was used as a cryoprotectant, and all crystals were flash frozen in liquid nitrogen at 100 K prior to data collections. Two data collections were performed for one crystal of each pH value. One data set concerns the high resolution reflections (d < 1.5 Å), and the second data set collects the low resolution reflections. This strategy prevents overloaded measurements. X-ray diffraction data were integrated, scaled, and merged with the program XDS19 (Table 1). Refinement Procedure. Initial phases were obtained using the model of PfluDING deposited in the PDB (code: 2q9t).14 The refinement was initially performed using REFMAC20 and subsequently with SHELXL 9721 and finally with MoPro.22 The structure was manually built using the graphics program Coot.23 Temperature factors for heavy atoms were refined anisotropically. To improve the model, hydrogen atoms were automatically generated using SHELXL. Hydrogen atoms able to rotate and located in the phosphate-binding site were omitted to avoid model bias. Thereafter, these hydrogen atoms were positioned manually according to significant electron density peaks in the Fobs - Fcalc residual map.
+(19) Kabsch, W. J. Appl. Crystallogr. 1993, 26, 795­800. (20) Murshudov, G. N.; Vagin, A. A.; Lebedev, A.; Wilson, K. S.; Dodson, E. J. Acta Crystallogr., Sect. D 1999, 55, 247­255. (21) Sheldrick, G. M.; Schneider, T. R. Methods Enzymol. 1997, 277, 319­ 343. (22) Jelsch, C.; Guillot, B.; Lagoutte, A.; Lecomte, C. J. Appl. Crystallogr. 2005, 38, 38­54. (23) Emsley, P.; Cowtan, K. Acta Crystallogr., Sect. D 2004, 60, 2126­ 2132.
+
+VOL. 131, NO. 22, 2009
+
+Subangstrom Structures of PfluDING
+
+ARTICLES
+
+During refinement, no constraints or restraints were applied on the geometry and bond lengths of the phosphate molecule. The last refinement steps were performed with MoPro using the ELMAM aspherical scattering factor library. First, the scaling factor and solvent parameters of the bulk solvent model24 were refined. Then, the position and the thermal displacement parameters of the phosphate ion and side chain atoms of residue Asp 62 (O1, O2, C, C , and CR) were refined with MoPro in several least-squares refinement cycles. Neither stereochemical nor thermal motion restraints were applied to the refined atoms. Final refinement statistics are shown in Table 1. Calculation of the Electrostatic Potential. The electrostatic potential can be calculated from accurate X-ray diffraction data, being the Fourier transform of F(H)/H2 in reciprocal space,25 or in direct space if the data are refined using a nonspherical atom model of the electron density.26 The ELMAM experimental electron density database27 was created by modeling the electron density of peptide crystals using the multipolar atom model (Hansen and Coppens model28). In this formalism, the multipolar atom electron density is described as a sum of three parts: the core, spherical valence, and multipolar electron density:
+
+The figures superposing the electron density or the electrostatic potential on the structural model were prepared with Pymol.31 Results Structures of PfluDING. Two structures of PfluDING were determined at subangstrom resolution. One was obtained from crystals grown at pH 4.5 (0.98 Å, PDB code 3G62), and the other from crystals grown at pH 4.5 and subsequently soaked at pH 8.5 (0.88 Å, PDB code 3G63). Both structures are highly similar, so that in the following tables and figures, we refer to the structure solved at pH 4.5, if not otherwise indicated. The major advantage of subatomic resolution for protein structures is that most hydrogen atoms can be located in difference Fourier electron density maps. This is the case for the present structures of PfluDING. Electron density peaks of a large part of the omitted hydrogen atoms, especially in regions of low thermal motion, appear clearly in Fobs - Fcalc maps. In the active site, hydrogen atom positions were determined using a minimum of the 3 level in the Fourier difference map and considering geometrical parameters lying within the usual ranges.32 Thus, most of the fixed and mobile hydrogen atoms can be placed according to the electron density (Figure 1). Phosphate Binding Site. The hydrogen atoms in the phosphate binding site are clearly visible in electron density maps. Hydrogen bonds that sequester the phosphate molecule are summarized in Table 2. Around the oxygen atom O3 of the phosphate ion, there are clear electron density peaks for interacting hydrogen atoms (Figure 2a). Notably, the electron density corresponding to the mobile hydrogen atom H of Ser 32 is clearly visible, pointing toward O3. Furthermore, no significant electron density peak appears close to O3. Thus, O3 accepts three hydrogen bonds in tetrahedral coordination; the donors are the main chain NH group of Gly 146 and Ser 32 as well as the Ser 32 side chain. Hence, it can be concluded that the phosphate O3 oxygen atom is unambiguously involved as the acceptor in three hydrogen bonds, meaning that O3 cannot be protonated. A similar analysis can be made for the oxygen atoms O1 and O4 of the phosphate moiety. The atom O1 accepts three hydrogen bonds in a tetragonal coordination. The backbone amide of Thr 8, the hydroxyl group of the same residue, and the N-H terminal group of Arg141 are donors. Concerning the oxygen atom O4, it interacts with four donors: the main chain N-H group of Thr 147 and the hydroxyl groups of Thr 147 and Ser 145 (Figure 2b). A fourth donor, a N-H of an Arg 141 side chain, forms a noncanonical hydrogen bond with O4 because the D-H...A angle (132.5°) is far from 180° (see Table 2). The phosphate atom O2 accepts one hydrogen bond from the backbone N-H of Leu 9. Furthermore, O2 is in close proximity to O2 from the carboxylate side chain of Asp 62. The oxygen-oxygen distance is 2.502(6) and 2.495(7) Å in the PfluDING structures at pH 4.5 and 8.5, respectively. A small peak in the residual electronic density map between phosphate O2 and Asp 62 O2 atoms is visible at a 2.2  level and at a distance of 0.88 Å from atom O2 (see Table 2) but cannot be attributed with certainty to a hydrogen atom. A similar feature can be observed in the structure at pH 8.5, the electron density peak being more distant from atom O2 (1.00 Å) (Figure 3). Since the electron density can be smeared out by thermal motion,
+(31) DeLano, W. L. Pymol; DeLano Scientific LLC: San Carlos, CA, 2008 (http://www.pymol.org). (32) Steiner, T. Angew. Chem., Int. Ed. 2002, 41, 48­76.
+J. AM. CHEM. SOC.
+9
+
+r Fatom(b) ) Fcore(r) + Pval3Fval(r) +
+
+  R
+3 l)0
+
+lmax
+
+nl(r)
+
+m)-l
+
+P
+
+l
+
+lmylm(,
+
+)
+
+(1)
+
+Fcore and Fval are the spherical core and valence electron density, respectively. The last term describes the nonspherical deformation density. Pval and Plm are population coefficients,  and  represent expansion/contraction parameters. Rnl are radial functions of Slater type, and ylm are real spherical harmonic functions, permitting us to model the deviation from the spherical symmetry of the valence electron density. Consequently, the electrostatic potential can also be subdivided:29
+
+V(r) ) Vneu + Vval + Vmul
+
+(2)
+
+Vneu is the potential computed from the spherical neutral atoms. Vval is derived from the spherical valence atomic charges (Nval Pval). Vmul corresponds to the multipolar part of the electrostatic potential. This formalism is implemented in the program VMoPro,22 and electrostatic potential maps can be generated for any protein refined at atomic resolution. The structural model after the MoPro refinement has been used for the potential calculations. Atomic charges and multipole parameters (up to octupoles for C, O, and N atoms and to dipoles for H atoms) were transferred from the ELMAM database. The covalent X-H bonds have been elongated to standard neutron distances.30 Afterward, the protein was neutralized electrically, so that the sum of all charges was zero. The charge shift was 2 × 10-3electrons per atom, which is below the standard deviation usually observed for refined valence populations in small molecules. Finally, the electrostatic deformation potential V(r) of the protein was calculated using only Vval and Vmul from eq 2. The phosphate moiety, water, and solvent molecules were not included to estimate only the protein potential.
+(24) Fokine, A.; Urzhumtsev, A. Acta Crystallogr., Sect. D 2002, 58, 1387­ 1392. (25) Stewart, R. F. God. Jugosl. Cent. Kristalogr. 1982, 17, 1­24. (26) Ghermani, N.; Lecomte, C.; Bouhmaida, N. Z. Naturforsch. A 1993, 48, 91­98. (27) Zarychta, B.; Pichon-Pesme, V.; Guillot, B.; Lecomte, C.; Jelsch, C. Acta Crystallogr., Sect. A 2007, 63, 108­125. (28) Hansen, N. K.; Coppens, P. Acta Crystallogr., Sect. A 1978, 34, 909­ 921. (29) Ghermani, N.; Bouhmaida, N.; Lecomte, C. Acta Crystallogr., Sect. A 1993, 49, 781­789. (30) Allen, F. H. Acta Crystallogr., Sect. B 1986, 42, 515­522.
+
+VOL. 131, NO. 22, 2009
+
+7881
+
+ARTICLES
+
+Liebschner et al.
+
+to the negatively charged phosphate species. Notably, the potential around the negatively charged residue Asp 62 is close to neutral.
+Discussion Hydrogen Bond Network in the Phosphate Binding Site. The subangstrom X-ray structures of PfluDING give precious information concerning the phosphate binding mode. The phosphate ion is interacting via numerous hydrogen bonds with protein side chains or main chain amide groups (Table 2). The phosphate oxygen atom O1, as well as O3, accepts three hydrogen bonds. O4 is involved in four hydrogen bonds. Therefore, O1, O3, and O4 are not protonated. The interaction between the phosphate oxygen atom O2 and O2 from the carboxylate side chain of Asp 62 is noteworthy. As previously said, this H-bond is very short (2.50 Å). An electron density peak appears at a low sigma level in Fobs - Fcalc Fourier maps. This peak could correspond to a hydrogen atom bound to atom O2, which is compatible with the bond lengths and geometry observed locally. However, such a hydrogen atom cannot be placed with certainty due to the weakness of the density peak. Regarding the short O2...O2 distance and ideal H-bond geometry, one could expect that a hydrogen atom bound to O2 would be well-defined, similarly to the other hydrogen atoms H-bonded to the phosphate ion (Table 2). Different phenomena can weaken the electron density of a hydrogen atom in omit-H difference maps. However, the thermal motion in the active site of PfluDING is very low (see Table 3). It is thus unlikely that thermal motion is the cause of the difficulty to see this hydrogen atom in the electronic density map. The hydrogen atom could, on the other hand, be disordered and display alternative sites along the O2...O2 interaction.33 The short distance O2...O2 (2.50 Å) is typical for low barrier hydrogen bonds (LBHBs).17,34,35 In this particular type of H-bond, the hydrogen atom should be dynamically distributed between the two implicated oxygen atoms. This makes it more difficult to observe the hydrogen atom via X-ray or even neutron diffraction.36 In the case of PfluDING, the low electron density of this H-atom strongly suggests that its position is diffuse. In addition, the weak electron density peak suggesting that the phosphate O2 is protonated is compatible with the LBHB concept, as the 2.5 Å LBHBs are known to be asymmetric. The hydrogen atom is thus likely to be distributed between two low energy positions, the main being close to the phosphate O2 atom and the second closer to the Asp 62 O2 atom. The P-O bond lengths of the phosphate ion are consistent with this hypothesis, as seen in Table 3. According to the structural data deposited in the Cambridge Data Bank on the HPO43- anion, longer P-O distances are observed for protonated oxygen atoms. In 31 structures of HPO42- with a crystallographic agreement factor better than 5%, the average P-O distance for protonated oxygen atoms is 1.59(1) Å, whereas it is 1.52(1) Å for the nonprotonated oxygen atoms. (The average value is over X-ray structures deposited in the Cambridge Data Bank, containing a dibasic phosphate moiety
+(33) Boukhris, A. Elaboration et etude cristallographique haute resolution ` ` de phosphate diacide d'ammonium et de potassium (ADP et KDP) et de leur solution mixte K1-x(NH4)xH2PO4, Thesis, University of Marrakesh, Morocco, and Nancy Universite, France, 1995. (34) Gilli, G.; Gilli, P. J. Mol. Struct. 2000, 552, 1­15. (35) Cleland, W. W.; Frey, P. A.; Gerlt, J. A. J. Biol. Chem. 1998, 273, 25529­25532. (36) Cleland, W. W. Arch. Biochem. Biophys. 2000, 382, 1­5.
+
+Figure 1. Seeing a clear view of the hydrogen atoms in PfluDING structures. (a) Water 5022 and its hydrogen bond network in the structure obtained at pH 4.5. (b) Close-up of Phe 292 side chain in the pH 4.5 structure. (c) Close-up of Leu 9 in the structure obtained at pH 8.5 The maps show the Fobs - Fcalc difference electron density, the contour level is 2.9  for (a), 3,6  for (b), and 3.1  for (c). Hydrogen atoms have been omitted in the structure factor calculation. The electron density of fixed (Phe 292) and mobile hydrogen atoms (Leu 9) sticks out clearly and evidences the quality of the diffraction data.
+
+the phosphate ion and the aspartic acid have been further inspected. It appears that the thermal displacement parameters of the atoms are very low for a protein (Table 3). The Beq factor of phosphate O2 and Asp 62 O2 are 2.8(2) and 4.2(3) Å2, respectively. Thus, it is surprising that this hydrogen atom does not appear more clearly in the electron density map. The P-O bond lengths of the phosphate molecule have been investigated. In phosphate moieties, longer P-O distances are found for protonated oxygen atoms. As observed in Table 3, the P-O bond length is the longest in both structures. Finally, the obtained structural data of PfluDING show clearly 11 hydrogen atoms involved in hydrogen bonds with the phosphate molecule (Figure 4). The O1, O3, and O4 phosphate oxygen atoms are each involved as acceptor atoms in at least three hydrogen bonds. Hence, these oxygen atoms cannot be protonated. The case of O2 will be discussed below.
+Electrostatic Potential. The experimental attribution of hydrogen atom location allows us to calculate the precise electrostatic potential of PfluDING (Figure 5). The potential in the cavity turns out to be largely positive and complementary
+7882 J. AM. CHEM. SOC.
+9
+
+VOL. 131, NO. 22, 2009
+
+Subangstrom Structures of PfluDING
+Table 2. Summary of Hydrogen Bonds That Sequester the Phosphate Ion
+oxygen residue Ha Da sigmab distance H...Aa (Å) distance D...A (Å) angle D-H...A (deg)
+
+ARTICLES
+
+Beqc of D (Å2)
+
+O1 O2 O3 O4
+
+ARG 141 THR 8 THR 8 LEU 9 ASP 62 SER 32 SER 32 GLY 146 THR 147 THR 147 SER 145 ARG 141
+
+HH2 H1 H0 H0 H H0 H H0 H1 H0 H HH1
+
+NH2 O1 N N O2 N O N O1 N O NH1
+
+4.3 3.4 5.1 5.5 2.2 4.5 3.2 4.5 3.2 5.0 3.4 4.5
+
+1.99 1.96 1.94 2.08 1.59d 2.02 1.89 1.92 1.87 2.11 1.90 2.22
+
+2.84 2.69 2.77 2.93 2.50 2.77 2.66 2.75 2.67 2.94 2.69 2.87
+
+166.4 147.1 161.4 168.0 168.5d 145.4 156.4 161.5 168.2 163.3 163.2 132.5
+
+4.3 3.6 3.4 3.1 4.2 3.2 3.7 3.2 3.5 3.1 3.6 4.3
+
+a H, D, and A are the hydrogen, donor, and acceptor atoms in the hydrogen bond, respectively. b Sigma is the minimum contour level of electron density (in  units) permitting the location of the hydrogen atom in the omit-H Fobs - Fcalc electron density map. c Equivalent isotropic Beq factor of the donor atom. d The H...A distance and the angle are according to the electron density peak visible in the difference density map.
+
+Figure 2. View of the phosphate binding site in the structure obtained at pH 4.5 and Fobs - Fcalc difference electron density map (blue). (a) Coordination of phosphate oxygen atom O3. (b) Coordination of phosphate oxygen atom O4. The contour levels are 2.5  and 2.6  in (a) and (b), respectively. In the model used for the difference map calculation, the hydrogen atoms which are H-bonded to the phosphate oxygen atoms are omitted.
+
+Figure 3. Interaction between oxygen atom O2 of the phosphate ion and O2 of Asp 62 in (a) the pH 4.5 structure of PfluDING and (b) the pH 8.5 structure of PfluDING. The positive difference Fourier map is contoured at 2  in (a) and 1.8  in (b). The electron density peak is located at a distance of 0.88 and 1.00 Å from O2 in the pH 4.5 and pH 8.5 structures, respectively.
+
+noncovalently bonded to other molecules and having a crystallographic R factor better than 5%.) In the PfluDING case, the P-O2 distance is 1.56 Å, which is below 1.59 Å for a totally protonated oxygen atom. This also supports that O2 is partially protonated. Furthermore, the P-O1 and P-O3 distances are 1.52 and 1.53 Å, respectively, suggesting that the phosphate double bond is delocalized between these atoms. This structural study shows that the bound phosphate ion partly possesses one hydrogen atom; thus, PfluDING binds
+
+dibasic phosphate even at pH 4.5. Moreover, since the hydrogen bond network is identical in both PfluDING structures at pH 4.5 and 8.5, this demonstrates that PfluDING binds dibasic phosphate (HPO42-) at both pH values. Different binding modes for monobasic and dibasic phosphate were hypothesized for phosphate-SBPs. For dibasic phosphate, the hydrogen bond network in phosphate-SBPs is identical to that found in PfluDING.15 For monobasic phosphate (H2PO4-) binding, it has
+J. AM. CHEM. SOC.
+9
+
+VOL. 131, NO. 22, 2009
+
+7883
+
+ARTICLES
+Table 3. Thermal Displacement Parameters Beq (Å2) and Bond Lengths (Å) of the Phosphate Ion and the Asp 62 Side Chaina
+Thermal Motion atom crystalpH4.5 crystalpH8.5
+
+Liebschner et al.
+
+Phosphate
+
+P O1 O2 O3 O4 O2 O1 C
+
+3.16(8) 3.4(3) 2.8(2) 3.1(2) 3.2(3) 4.2(3) 4.3(3) 3.3(5)
+
+3.3(1) 3.9(3) 3.5(3) 2.8(3) 3.2(3) 3.9(3) 3.8(3) 3.1(5)
+
+Asp 62
+
+Bond Lengths
+
+Phosphate P-O distances
+
+O1 O2 O3 O4 O2 O1
+
+1.522(6) 1.561(7) 1.533(7) 1.555(8) 1.26(1) 1.26(1) 2.502(6)
+
+1.529(6) 1.559(7) 1.528(7) 1.541(8) 1.26(1) 1.22(1) 2.495(7)
+
+Asp 62 C-O distances O2-O2 distance
+a
+
+The values and their errors (between parentheses) are taken from the MoPro last least-squares refinement. No restraints or constraints have been applied on the listed atoms during the refinement. The errors are underestimated here as the refinement was performed only on local atoms.
+
+been hypothesized that a donor hydroxyl group (which corresponds to Ser 32 in PfluDING) flips and becomes the acceptor for the second phosphate hydrogen atom.15 However, in the PfluDING structure at pH 4.5, the hydrogen atom on -OH of Ser 32 is still H-bonded to the phosphate ion (Figure 2). Indeed,
+
+PfluDING at pH 4.5 binds dibasic phosphate, and no flip of Ser32 -OH is required. Electrostatic Potential of the Phosphate Binding Cleft. In the phosphate binding site, the electrostatic potential turns out to be largely positive (Figure 4). The electrostatic potential in the vicinity of the carboxylate side chain of Asp 62 is almost neutral. There are local dipoles (O-H and N-H groups) and two charged residues in the binding cleft: an aspartic acid (Asp 62) and an arginine (Arg 141). The positive potential is partly due to the positive charges of the hydrogen atoms lining the phosphate binding cavity. The arginine side chain and four nearby N-termini of R-helices increase this effect. The positive potential in the phosphate binding site region is in accordance with the ability of PfluDING to bind negatively charged ions. Former calculations of the electrostatic potential of phosphate binding protein (PBP) led to a negative potential in the active site.37 The program used for the calculation was GRASP,38 which calculates the electrostatic potential using the Poisson-Boltzmann equation. In the case of PBPs, default values for charges (full charges) and salt concentration (0.0) were applied.37 This means that formal charges were used for lysines, arginines, glutamic acids, aspartic acids, and the termini. Contrary to the VMoPro calculation which takes into account all atom charges and higher multipoles for example, the positive partial charges of hydrogen atoms have not been taken into account explicitly. As already shown, there are numerous local dipoles of N-H amide and O-H hydroxyl groups in the active site. In particular, three R-helices directly interact with the phosphate through amide groups, and one R-helix is in close proximity. The positive potential of the cleft is mainly due to these polarized groups and to the positively charged Arg
+
+Figure 4. Schematic diagram of the experimentally determined hydrogen bond network involving the phosphate molecule sequestered in the PfluDING
+
+binding site. Distances between the acceptor atoms (phosphate oxygen atoms) and the hydrogen atoms are indicated.
+7884 J. AM. CHEM. SOC.
+9
+
+VOL. 131, NO. 22, 2009
+
+Subangstrom Structures of PfluDING
+
+ARTICLES
+
+Figure 5. (a) Deformation electrostatic potential without the phosphate moiety shown as color-coded map displayed on the surface in the phosphate binding cleft (0.7 Å probe radius). Negative, zero, and positive potential are displayed in red, white, and blue, respectively. The scale goes from -0.2 |e|/Å to + 0.2 |e|/Å. (b) Electrostatic potential in the plane through H0 (Leu 9) - O2 - O2. The scale goes from -1.0 |e|/Å (red) to +1.0 |e|/Å (blue); the increment is 0.05 |e|/Å. Zero potential is displayed in white.
+
+141. Only one negatively charged residue is in the binding cleft (Asp 62). It is likely that a general negative shift occurred in the final electrostatic potential, when only this negative charge was taken into account, but not the local dipoles. The electrostatic potential of PBP was recalculated with VMoPro, which uses experimental charge densities for all protein atoms,27 and led, similarly to the case of PfluDING, to a positive potential in the binding cleft (see supplementary data). Thus, the approximation of formal charges for only the charged side chains seems not sophisticated enough for electrostatic potential calculations in this type of binding cavity. The high resolution data allow us to calculate the electrostatic deformation potential for PfluDING. For the first time, a protein structure of atomic resolution has been interpreted using transferred charges and multipoles from the ELMAM data bank. As the resolution usually obtained in protein diffraction experiments is not high enough to refine experimentally the charge density parameters, the use of an appropriate electron density description offers the possibility
+
+to calculate easily electrostatic properties which would be otherwise inaccessible. Molecular Mechanism of the Phosphate Binding. According to the subangstrom crystal structures, PfluDING sequesters dibasic phosphate even at acidic pH 4.5, although monobasic phosphate is predominant in solution. In relation to the positive electrostatic potential of the binding cleft, this strongly suggests that the PfluDING binding site is able to attract and stabilize selectively dibasic phosphate. The nonprotonation of the phosphate oxygen atoms O1, O3, and O4 is favored in the binding cleft due to the presence of numerous donating hydrogen bonds. In addition, the formation of an LBHB between Asp62 and the phosphate O2 atom suggests that the pKa values of the two hydrogen bond partners are in the same range.35 Since the pKa of H2PO4-/ HPO42- in solution is higher by more than 3 units than the pKa of the aspartic acid side chain, this confirms the strong influence of the positive electrostatic potential of the binding cleft decreases the pKa of the bound phosphate ion. On the other hand, as the Asp62 carboxylate group is located in the protein binding cleft, its pKa value is expected to be increased due to the desolvation effect. Our results are in agreement with energy determinations for PBPs.17 To determine the energy contribution of the short hydrogen bond O2...O2, a mutant D56 N was designed.17 In this mutant, the distance between O2 and O2 of N56 has increased to 2.6 Å (structure resolution 1.9 Å, PDB code 1ixi) compared to the wild type distance of 2.5 Å (structure resolution 0.98 Å, 1ixh) and has shifted from an LBHB to a normal H-bond. The phosphate binding free energy was slightly changed; G between wild type and the mutant is +0.3 kcal/ mol, albeit energies of 12-24 kcal/mol are expected for an LBHB.39 The binding energy of the phosphate ion to the protein is constituted by hydrogen bonds and electrostatic attraction. In the mutant, the energy contribution due to hydrogen bonds decreases, because the LBHB no longer exists. On the other hand, the electrostatic contribution has been largely modified. Indeed, the negative charge (Asp) in the binding site has been replaced by a neutral residue (Asn). Thus, the positive global electrostatic potential of the binding cleft is likely to increase, and the interaction with the negatively charged phosphate ion is reinforced. The shift in the electrostatic charge of the binding cleft is likely to compensate for the loss of the LBHB and explains why the free energy was similar for the wild type and the mutant proteins.
+Conclusion
+
+The subangstrom resolution structure of PfluDING at two different pH values (4.5 and 8.5) allowed us to identify a large part of hydrogen atom positions in the PfluDING structure. More precisely, we experimentally determined the molecular mechanism of phosphate binding in a phosphateSBP. Particularly, we found that, at either pH value (4.5 or 8.5), PfluDING binds dibasic phosphate using the same mechanism. The binding cleft of this highly accurate model, contrary to previously published results,37 was found to have a positive electrostatic potential, as determined for the first time from the ELMAM database. The positive electrostatic potential and numerous H-bond donors in the binding cleft
+(37) Ledvina, P. S.; Yao, N.; Choudhary, A.; Quiocho, F. A. Proc. Natl. Acad. Sci. U.S.A. 1996, 93, 6786­6791. (38) Nicholls, A.; Sharp, K. A.; Honig, B. Proteins 1991, 11, 281­296.
+J. AM. CHEM. SOC.
+9
+
+VOL. 131, NO. 22, 2009
+
+7885
+
+ARTICLES
+
+Liebschner et al.
+
+could decrease the proton affinity of the phosphate ion and explain why PfluDING binds dibasic phosphate even at an acidic pH. The phosphate molecule accepts 11 hydrogen atoms and donates its only hydrogen atom to Asp 62, forming an LBHB. This hydrogen bond network is probably the key that explains the very high affinity of phosphate-SBPs for their ligand. The LBHB is likely to be responsible for the dibasic phosphate binding specificity, allowing it to discriminate against closely related chemical species like sulfate.
+(39) Garcia-Viloca, M.; Gonzalez-Lafont, A.; Lluch, J. M. J. Am. Chem. Soc. 1997, 119, 1081­1086.
+
+Acknowledgment. The authors thank Prof. Enrique Espinosa for fruitful discussions. This work was partly funded by the Agence Nationale de la Recherche, programme blanc (Grant LibrarEnergy). D.L. and M.E. are doctoral fellows supported by the French Ministry of Research. Supporting Information Available: Complete refs 7 and 8. This material is available free of charge via the Internet at http:// pubs.acs.org.
+
+JA901900Y
+
+7886
+
+J. AM. CHEM. SOC.
+
+9
+
+VOL. 131, NO. 22, 2009
+
+

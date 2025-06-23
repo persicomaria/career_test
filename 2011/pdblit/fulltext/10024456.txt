@@ -1,0 +1,195 @@
+Volume41, number2
+
+CHEMICAL PHYSICSLETTERS
+
+15
+
+July 1976
+
+FIITSNG ATOMIC SCATTERING FACTORS TO i%lOLECULAR CHARGE DiSTRIBWTiQNS John RYS, Hzrry F. KING and Philip COPPENS
+Departrqent of Clremisity, Stare CIniversicy of New York at Buffalo. Buffalo. New York 1421-K USA and Cheniistry Department, Brookhaven Nat&al Laboratory. Upton. New York 11973. USA
+
+Received April1976 6
+
+Spherical pseudoatoms are defined by a least squares fit to a molecular charge distribution. Results are given for the water molecule. X-ray scattering factor cUrves and density difference maps are used to compare the hydrogen and oxygen pseudoatoms with Hartree-Fock isoIated atoms.
+
+I. Introduction The scattering factors most commonly used in the refinement of crystal structures are obtained from atomic Flartree-Fock calculations. Such a modei suffers from the obvious defect that the true molecular charge distributicn is not a superposition of atomic densities. The deficiencies of the model have long been recognized. Coppens [l] has discussed the systematic biasing of atomic parameters through the use of free-atom scattering factors in X-ray structure refinements. There is some evidence that the use of scattering factors computed from molecule-optimized Slater-type orbit& [2] can improve the agreement between X-ray and neutron thermal parameters, and between experimentaI scale factors and those determined in a least squares adjustment of the calculated structure factors [3,4]. Stekut, Bentley and Goodman [5] (hereafter referred to as SBG) and Bentley and Stewart [6] employed a two-center multipole expansion through quadrupolar deformation terms to obtain scattering factors which satisfactorily reproduce the molecular scattering of first row hydrides and of BF, CO and N2. Within the framework of spherical scattering factors, the superposition-of-atomic-densities-model can be improved by defming spherical "atomic" densities which "best" reproduce the molecular charge distribution. In addition, the centers of the spherical densities can be allowed to float off the nuclear positions.
+
+Scattering factors obtained from these spherical densities inherently reflect some of the redistribution'of charge density that accompanies molecule formation. In this note we define a spherical pseudoatom and examine the quality of fit in a water molecule. In succeeding papers we will investigate the dependence of the derived scattering factors on the SCF basis set, the transferability of the scattering factors between chemical environments, and the effect of the scattering factors on crystal structure refmements.
+
+2. Theory Let p(r) be a molecular charge density from an ab initio wavefunction. The least squares best fit p&r) to the molecular density is found by minimizing the integral E = s df(p-pf)* = (@-@)2), subject to the normalization constraint (&)=QJ)=iv.
+(1)
+
+(2)
+
+We define a measure of the quality of the fit by the quantity (7= (e/(p2>)112
+.
+
+c33)
+
+A basis set of fitting functions centered at R i (not necessarily any of the nuclear positions) is chosen,
+
+383
+
+where ri E ir-Rii. The vector c of coefficients is obt&red by reqhing that the integral (I j be stationary w&b respect to a change in c, i.e.
+
+for all i. It follows from(4) and (5) that
+C= The G-~(awm). &rar@an (6)
+
+multiplier h is given by (7)
+
+A 1 (&Q?-G-QQ[&3-lH, where the following definitions have been used: 9
+Hj
+
+=(P@)
+=(#j(ri)L
+
+@jCrjl)3
+
+09
+
+@I
+
+Cjj
+
+=
+
+SBG show &at (12) can be used to obtain directly the scattering factors fd (s) for all centers Q by solving a set of simultaneous linear equations for a given value of s. This is repeated point by point for ah desired s. One can recover the real space radial distribution p,(i) by numerically inverting (I I). There are computational advantages to the SBG approach, especially if scattering factors are the ultimate goal. We are interested in both pu (r) and f, (s) and have decided to explore the direct approach of fitting in real space. In principle, the two methods yield identical results. Two forms of fitting functions have been investigated. Spherical gaussians, pi = exp(-A jrz), used in the present study, lead to computationally attractive expressions for the integrals $ and Gjj, but optimization of the non-linear parameters is both necessary and time consuming. An alternative basis set of greater flexibility is constructed from polynomials in rj defined on an interval (nil b$, pi = rri - $(ni+bi)lni, ai<ri<hbi. (14)
+
+(@jCrj)cpi(ri))*
+
+Cl01
+
+For a complete set of fitting functions the nonnalization condition (22) is automatically satisfied. Inclusion of the XH term in (6) requires little computational effort, and guarantees neutrality at each stage of basis set construction. The fitted density can be rearranged into a sum of spherical contributions pe from each center 0~.The Fourier transformation of p@ results in the "atomic"' scattering factors f`,(s),
+
+Preliminary work indicates that the added complexities of integral evaluation are more than compensated by the improved rate of convergence of p&(r) and
+
+f,(s)3. Rest&s for the water moIecuIe The scattering factors from a spherical gaussian fit to the density of a water molecule are given in tables 1 and 2. The SCF calculation used a (10,6/4,1) set of gaussian primitives contracted into a (6,3/3,1) basis. Table 1 was obtained by requiring that the nuclear positions and fitting centers coincide (o = O.OI66). This constraint was relaxed in obtaining table 2, for which a 0.14 A shift of the hydrogen center along the bond toward the oxygen nucleus resulted in the rn~urn variance (o = 0.0 156). This dis~la&emen~ is accompanied by the acquisition of electron density by the hydrogen pseudoatom, and is consistent in magnitude with the shifts observed for hydrogen atoms in X-ray refinements. Movement of the oxygen center along the Cz-axis failed to improve the fit. In figs. 1 and 2 a comparison is made between the scattering factors of table 2 and Hartree-Fock freeatom scattering factors 171. No significant difference between the two curves for oxygen is seen at high
+
+In (1 I ), s = 4~s~~~~ and lo is the zeroth order spttericaf Bessel function. TI1epresent study is complementary to that of SBG. Our pseudoatom corresponds to their monopole expansion (but can simi.larlybe extended to higher multipoles). The processes of least squares fitting and Fourier transformation commute so that {I) coufd equivalently have been expressed as an integral over all of reciprocal space, E = (2a)13 JdSlF(S)-Ff(S)i'
+= minimum.
+
+(I21
+
+Here, F(s) = l&p(r) etiSrh 384 03 analogous relation h&s between Ff(sj and p&Q.
+
+Volume 41, number 2
+
+CHEMICAL PHYSICS L ET-iXRS
+
+15 July 1976
+
+Table 1 Oxygen (fo) and hydrogen VHj scatteringfactors from a least squaresfit to tke density of a water molecule. Fitting centersare fued at nuclei
+
+Table 2 Oxygen Ub, and hydrogen VHI scattering factors from e least squares fit to the density of a fvater molecule. The hydrogen fitting center has been floated 0.14 A into the bond sine/x(A-`)
+0.00 0.05 0.10
+
+sine/k(A-t)
+0.00 0.05 0.10 0.15 0.20 0.25 0.30 0.35 0.40 0.45 0.50 0.55 0.60 0.65 0.70 0.75 0.80 0.85 0.90 0.95 1.00 1.05 8.868 8.628 7.961 7.010 5.965 4.988 4.165 3.508 2.993 2.594 2.294 2.075 1.917 1.799 1.708 1.632 1.568 1.512 1.463 1.417 1.375 1.334 1.294 1.255 1.216 1.178 1.140 1.102 1.065 1.028 0.991 0.955 0.920 0.885 0.85 1 0.818 0.786 0.755
+
+fH
+0.566 0.540 0.479, 0.407 0.341 0.285 0.241 0.210 0.184 0.156 0.124 0.091
+
+fo 8.840
+8.587 7.895 6.933 5.897 4.940 4.136 3.496 2.997 2.611 2.314 2.089 1.921 1.796 1.702 1.62? 1.566 1.512 1.463 1.418 1.375 1.334 1.294 1.255
+
+fn
+
+0580
+0.560 0.504 0.431 0.356 0.292 0.244 0.208 0.180 0.154 0.128 0.102 0.077 0.055 0.03? 0.024 0.016 0.010 0.008 0.007 0.006 0.006 0.006 0.005
+
+0.15
+0.20 0.25 0.30 0.35 0.40 0.45 0.50 0.55 0.60 0.65 0.70 0.75 0.80 0.85 0.90 0.95 1.00 1.05 1.10 1.15 1.20 1.25 1.30 1.35 1.40 1.45 1.50 1.55 1.60 1.65 1.70 1.75 1.80 1.85 1.9c 1.95 2.00
+
+0.063
+0.041 0.026 0.017 0.012
+
+0.010 0.009 0.009 0.009
+0.008 0.007 0.006 0.005 0.004 0.003 0.003 0.002 0.002 0.002 0.002 0.002 0.002 0.001 0.001 0.001 0.001
+
+1.10 1.15
+1.20 1.25 1.30 1.35 1.40 1.45 1.50 1.55 1.60 1.65 1.70 1.75 1.80
+1.85 l-90
+
+1.216
+1.178
+
+1.140
+1.102 1.065 1.028 0.991 0.955 0.920 0.885 0.851 0.818 0.786 0.755 0.725 0.696
+
+0.005 0.004 0.004 0.003
+0.002 0.002 0.002 0.001
+
+0.001 0.001 0.001 0.00 1
+0.001 0.001 0.001 0.000 0.000
+
+1.95
+2.00
+
+0.725 0.696
+0.668
+
+0.001 0.001 0.001
+
+0.668
+
+sine/h where scattering is attributed to the core electrons_ The effects of bonding are evident in the appreciable deviations for sin6/h less than approximately 0.4 A-l _ `I&e contraction of the hydrogen pseudoatom relative to the isolated atom is evident in fig. 2. Fig. 3 is a density difference map, i-e_ SCF molec-
+
+ular density minus superimposed SCF atomic densities. The three nuclei he in the plane of the page with the line between the oxygen and one of the protons
+
+shown in the figure. The other half of +Jze molecule is the mirror image of this one and is not shown. This
+contour map clearly demonstrates the effects of chemi-
+
+Vrifume 4 1, numb& 2
+
+CHEMICAL PHYSICS LETTERS
+
+15 July 1976
+
+1
+
+0.4 Q6 0.8 SIN 6/X [ii-`,
+
+1.0
+
+Fig. 2. Hartree-Fock sod pseudoatom scattering factors for hydrogen. The Hartree-Focic curve hasfH = 1.0 at sin@h = 0.
+
+0.2
+
+0.4
+
+0.6 SIN 8/X
+
+0.8 (it-`,
+
+1.0
+
+1.2
+
+1.4
+
+&_ 1. Hartree-Fock and pseudoatom scattering factors for oxygen. The Hartree-Fock curve hasfo = 8.0 at sine/A = 0.
+
+cal bond formation. The molecular vravefunction assigns more charge near the hydrogen than does the superposition of atomic densities. The excess density is about 0.6 e/A3 in a region 0.09 to 0.35 A from the proton. There is an even greater build up, 0.9 e/A3, in the lone pair region on the back side of the oxygen and in the K-sheU region in the immediate vicinity of the nucleus. (The scale of this map is obviously not appropriate for describing details in the K-shell region.) This excess density is pulled in from the tails of the atomic distributions and also from the bonding region nearer the oxygen. The atomic densities were calculated from Stewart's gaussian fits to Clementi's ST0 SCF atomic orbit& with a spherically averaged den= &y for the atomic ground state of the oxygen atom f8] _ Although fig. 3 contains some features which are basis set dependent, it is a qualitatively correct illustration of the failure of the superposition of HartreeFock atomic densities (and therefore, of free-atom scattering factors), In fig. 4, oxygen and hydrogen pseudoatoms are subtracted from the SCF molecular density. These maps describe the optimum fit that can be achieved 586
+
+Fig. 3. (Hz0 - isolated atoms) density difference map. Contour intervals are 0.1 ejA3 _ Dotted lines are negative contours, the zero contour is a dashed lie_
+
+Volume 41, number 2
+
+CHEMICAL PHYSLCS LETTERS
+
+15 July 1976
+
+Fig. 4. (Hz0 - pseudoatoms) density difference map. Contours as in fig_ 3. Dark circles represent positions of fitting centers. In (a), the hydrogen fitting center has been floated 0.14 A into tile bond. In (b), the fitting centers are fi..ed at the nuclei.
+
+with a monopole expansion. Fig. 4b employs pseudoatoms obtained from the least squares criterion with fitting centers fuced at the nuclei. The lone-pair and bonding regions are significantly more compact. The peak heights in both regions are about 0.2 e/A3 lower than in fig. 3. Although floating the hydrogen fitting center by 0.14 a (fig. 4a) produces only small modifications at the oxygen, the relatively featureless region around the hydrogen demonstrates a dramatic _ improvement in the description of much of the bonding in the water molecule. An adequately flexible basis of fitting functions guarantees an exact fit to the density at a fitting center. Thus, in figs. 4a and 4b, the fitting centers lie on zero contours and further improvement in that region cIearIy requires higher multipole fitting functions. Comparison of figs. 3 and 4b reveals that the pseudohydrogen function is greater than the true hydrogen atom function at the proton position in keeping with our earlier remark about the contraction of the hydrogen function. Expression (11) implies that f,(O) is the total charge associated with p,(r) so that fig. 4b corresponds to a net positive charge of 0.434e on each hydrogen and -0.868e on oxygen. These num-
+
+bers differ substantially from a Mulliken population analysis of the SCF density, which assigns oxygen a net charge of -0.622e and each hydrogen a charge of +031 le.
+
+Acknowledgement This work was supported in part by the National Science Foundation under ME'S7102783AOS.
+
+References r11 P_ Coppens. Acta Cryst. A25 (1969) 1813. t21 R-F. Stewart, J. Chem. whys. 53 (1970) 205. 8 131 P. Coppens, Trans. Am. Cryst. A~SOC. (1972) 93.
+
+141 P. Coppens and E.D. Stevens, Acta Cryst. A3 1 (1975) 612. t51 R.F. Stewart. J. Bentley and 6. Goodman, f. Chem. Phys. 63 (1975) 3786. t61 J. Bentley and R.F. Stewart, J. Chem. Phys. 63 (J975) 3794. [71 international Tables for X-ray Crystallography, Vol. 4 (Kynoch Press, Birmingham, 1974) p. 72-73. 181 R-F. Stewart, J.Chem. Phys. 50 (1969) 2485. 387
+
+

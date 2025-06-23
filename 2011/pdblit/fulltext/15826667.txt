@@ -1,0 +1,770 @@
+Molecular Cell
+
+Article
+Together, Rpn10 and Dsk2 Can Serve as a Polyubiquitin Chain-Length Sensor
+Daoning Zhang,1 Tony Chen,1 Inbal Ziv,2 Rina Rosenzweig,2 Yulia Matiuhin,2 Vered Bronner,3 Michael H. Glickman,2,* and David Fushman1,*
+1Department of Chemistry and Biochemistry, Center for Biomolecular Structure and Organization, University of Maryland, College Park, MD 20910, USA 2Department of Biology, Technion­Israel Institute of Technology, 32000 Haifa, Israel 3Bio-Rad, Bio-Rad Haifa, Ltd., Protein Function Division, Technion City, 32000 Haifa, Israel *Correspondence: glickman@tx.technion.ac.il (M.H.G.), fushman@umd.edu (D.F.) DOI 10.1016/j.molcel.2009.11.012
+
+SUMMARY
+
+As a signal for substrate targeting, polyubiquitin meets various layers of receptors upstream to the 26S proteasome. We obtained structural information on two receptors, Rpn10 and Dsk2, alone and in complex with (poly)ubiquitin or with each other. A hierarchy of affinities emerges with Dsk2 binding monoubiquitin tighter than Rpn10 does, whereas Rpn10 prefers the ubiquitin-like domain of Dsk2 to monoubiquitin, with increasing affinities for longer polyubiquitin chains. We demonstrated the formation of ternary complexes of both receptors simultaneously with (poly)ubiquitin and found that, depending on the ubiquitin chain length, the orientation of the resulting complex is entirely different, providing for alternate signals. Dynamic rearrangement provides a chain-length sensor, possibly explaining how accessibility of Dsk2 to the proteasome is limited unless it carries a properly tagged cargo. We propose a mechanism for a malleable ubiquitin signal that depends both on chain length and combination of receptors to produce tetraubiquitin as an efficient signal threshold.
+INTRODUCTION Posttranslational modification of cellular proteins by ubiquitin influences protein-protein interactions, alters recognition by binding partners, and serves to target proteins to cellular compartments (e.g., Ikeda and Dikic, 2008). The best-studied outcome of ubiquitination is targeting to the proteasome, which is responsible for the degradation of most cytosolic and endogenous proteins (reviewed in Glickman and Ciechanover, 2002). The majority of substrate proteins are tagged not by a single ubiquitin (Ub) but by a polyubiquitin (polyUb) chain in which Ub monomers are linked to each other at a lysine residue on the preceding Ub. It was shown that lysine 48 linkages are among the most prevalent in the cytosol (Matiuhin et al., 2008). Since polyUb chain lengths of n R 4 are preferred for recognition and efficient degradation by the 26S proteasome (Thrower
+
+et al., 2000), K48-linked polyUb is thought to act as a universal signal for targeting proteins to the 26S proteasome. Once bound by the proteasome, substrate proteins are deubiquitinated, unfolded, and subsequently degraded. Even though the general pathway of the ubiquitin-proteasome system is charted, there are still many critical unanswered questions regarding the mechanism of Ub signal recognition, transport of the ubiquitinated substrates to the proteasome, and their subsequent processing for degradation. Several protein families have drawn attention due to their ability to recognize and bind both polyUb and proteasomes; therefore, they may possibly function as shuttling factors for polyubiquitinated substrates. One of these putative shuttles is Rpn10, a polyUb-binding protein distributed between the proteasome-bound and unassociated forms (or ``pools'') (Fu et al., 1998; Glickman et al., 1998; van Nocker et al., 1996). Other proteins that have garnered a lot of attention as shuttles of polyUb conjugates have a Ub-like (UBL) domain at (or near) the N terminus and a Ub-associated (UBA) domain at the C terminus (Chen and Madura, 2002). UBL domains can interact with subunits in the proteasome (e.g., Elsasser and Finley, 2005; Hartmann-Petersen and Gordon, 2004), whereas the UBA domain has an affinity for Ub or polyUb, or both (Raasi et al., 2005). Some of these UBL-UBA proteins have more than one UBA domain. Prominent members of the UBL-UBA family are Rad23, Dsk2, and Ddi1 (and their mammalian homologs hHR23, hPLIC/ubiquilin, and hDDI1, respectively). Several proteasomal subunits have been identified as interacting directly with the UBL domains of Rad23 or Dsk2: Rpn10/S5a, Rpn1, Rpn2, Rpn13, Pre1, and Pre2 subunits, although the primary proteasome UBL receptor is apparently Rpn1 (Elsasser and Finley, 2005; Hartmann-Petersen and Gordon, 2004). Because of the bifunctional nature of recognition signals that the UBL-UBA proteins carry, they can bridge ubiquitinated substrates and the proteasome, possibly triggering subsequent events at the proteasome leading to substrate degradation. Underlying their importance, the correct levels of UBL-UBA proteins must be tightly controlled as both hyper- and hypolevels lead to alterations in the cellular Ub landscape; proteolytic defects; and, in the case of Dsk2, even cell-cycle arrest and cell death (Matiuhin et al., 2008). This recent observation singled out Dsk2 as a potent polyUb-binding protein influencing the global Ub landscape, chain specificity, and rates of cellular protein turnover, although
+
+1018 Molecular Cell 36, 1018­1033, December 24, 2009 ª2009 Elsevier Inc.
+
+Molecular Cell
+Rpn10/Dsk2 as Polyubiquitin Chain-Length Sensor
+
+it did not provide the mechanism for how abundance of such a protein leads to pervasive deleterious effects. Not only is the precise role of polyUb shuttles still vague, the proteasome itself also has an inherent capacity to bind polyUb chains and polyubiquitinated cargo without need for attachment of auxiliary Ub-binding proteins (Bech-Otschir et al., 2009). Two subunits responsible for anchoring polyUb chains at the proteasome are Rpn10/S5a (Deveraux et al., 1994; Verma et al., 2004a; Young et al., 1998) and Rpn13 (Husnjak et al., 2008; Seong et al., 2007b). The Ub-binding activity of Rpn10/S5a has been mapped to a Ub-interacting motif (UIM) (Hofmann and Falquet, 2001; Wang et al., 2005). Even though alternate pathways exist, a significant portion of cellular proteins targeted to the proteasome require this Ub-binding capacity of Rpn10 for efficient turnover by the proteasome (Mayor et al., 2007). An early study showed that the UIM-containing part of Rpn10 is dispensable in budding yeast but is required for degradation of a subset of polyubiquitinated targets (van Nocker et al., 1996). For example, turnover of targets such as Sic1 or Gcn4 in vivo is inhibited in Drpn10 (Glickman et al., 1998; Seong et al., 2007a; Verma et al., 2004a). Likewise, while wild-type proteasome is able to degrade polyubiquitinated Sic1 in the absence of UBL-UBA proteins, proteasomes purified from Drpn10 are defective at degrading Sic1 or polyUb conjugates in vitro (Glickman et al., 1998; Verma et al., 2004a). That Rpn10 can bind polyUb conjugates supports its role as a direct Ub receptor in the proteasome; however, the role of Rpn10 is not limited to anchoring of Ub conjugates, since Rpn10DUIM proteasomes degrade some of the same substrates that are stable with proteasomes from Drpn10 (Fu et al., 1998; Verma et al., 2004a). Moreover, the roles of Rpn10 and Rad23 are not fully redundant, since mutations in Ub (L69S, L67S) that abolish Ub binding to Rpn10/S5a but do not affect its binding to Rad23/hHR23A result in accumulation of nondegraded polyubiquitinated substrates and lethality of yeast cells (Haririnia et al., 2008). The convoluted network of interactions between substrates and the proteasome is not only a consequence of the multitude of overlapping delivery proteins and receptors but is also an outcome of the capacity of these Ub-binding proteins to interact with each other. The dual nature of most cargodelivery proteins--harboring both UBL domains and Ub-binding domains--begets the potential for many dimeric partners at or upstream to the proteasome. In this context, S5a had been intensively investigated for interactions with Ub or UBL domains. S5a contains two UIMs, and both have a single-helix structure (Hofmann and Falquet, 2001; Wang et al., 2005), although UIM-2, the one nearest the C terminus, appears to have a higher affinity for Ub and UBLs (Wang et al., 2005; Young et al., 1998). Hydrophobic residues on UIMs of S5a (Wang et al., 2005) recognize the complementary so-called hydrophobic patch (L8, I44, H68, V70) on one face of Ub (Beal et al., 1996). The single UIM located at the C terminus of Rpn10 has high sequence homology to UIM-1 of S5a; however, the residues participating in binding of polyUb have not been mapped at the molecular level, and the structure of Rpn10 has not been determined. Interestingly, the polyUb-binding role seems to map to the proteasome-associated pool of Rpn10 (Verma et al., 2004a), whereas the affinity for UBL domains has so far been documented for the unassoci-
+
+ated pool (Matiuhin et al., 2008). Thus, the two properties of Rpn10, binding polyUb chains and attaching to monoUb-like domains, may be mapped to two pools of Rpn10 as an integral proteasome subunit and in the unassociated ``free form'' (Glickman et al., 1998). That UIM-containing proteins from the S5a/Rpn10 family can bind to the Ub signal directly and also to Ub shuttles of the UBL-containing family, such as hHR23 (Kang et al., 2007) or Dsk2 (Matiuhin et al., 2008), raises interesting possibilities. For instance, proteasomal targeting may not follow independent parallel pathways but rather a convoluted network, a product of crosstalk between different components. In a recently proposed model (Kang et al., 2007), hHR23A mediates the interaction between polyUb and S5a, resulting in a ternary complex. This naturally raises the philosophical question, ``Why would a UBL-containing protein be needed to mediate polyUb targeting?'' Furthermore, how does the sequence diversity in UBLcontaining shuttles complement the linkage/length diversity of their polyUb cargo? In a broader sense, it is still unclear where the polyUb chain-length requirement comes from, or how is tetra-lysine 48-linked-Ub an optimal signal? And ultimately, what is the primary signal that is actually recognized by the proteasome (i.e., chains versus their shuttles)? In the current study, we chose the three-way relationship between Rpn10, Dsk2, and (poly)Ub as a paradigm for understanding determinants that shape the Ub signal. RESULTS Dsk2 Is the Strongest Rpn10 Binder among the Ub Shuttles As a first step in addressing the preceding questions, we screened the UBL domains of the known Ub shuttles in yeast for their ability to bind the UIM-containing region of Rpn10 (Rpn10204­268): Rad23, Dsk2, Ddi1, Ubp6, and monoUb (as control). Of the four UBLs, only the Dsk2 and Rad23 UBLs showed distinct binding to Rpn10 in our NMR experiments (Figures 1A­1E, see Figure S1 available online). Likewise, the addition of unlabeled Rpn10204­268 to 15N-Dsk2-UBL or 15 N-Rad23-UBL at a 1:1 molar ratio caused perturbations in distinct NMR signals of these UBLs (Figures 1F and 1H), indicating a specific interaction. Based on the overall smaller magnitude of shifts in 15N-Rpn10 signals caused by Rad23-UBL compared to those caused by Dsk2-UBL (Figures 1A and 1B, Figure S1), we conclude that the Rad23-UBL/Rpn10 interaction is relatively weaker. In order to directly compare the affinities of Rad23 and Dsk2 for Rpn10, we performed a competition assay (see Figures 1F­1I and Figure S2). Indeed, the addition of Dsk2-UBL at a 1:1 molar ratio to a preformed complex of Rad23-UBL/Rpn10 caused Rpn10-perturbed 15N-Rad23-UBL signals to shift back to their free-state positions, indicating that Dsk2 outcompetes Rad23 for Rpn10 association (Figures 1H and 1I). In line with this conclusion, in a reverse competition assay, 15N-Dsk2-UBL signals remained at their Rpn10-bound positions after Rad23-UBL was added in equimolar ratio to 15 N-Dsk2-UBL/Rpn10 (Figures 1F and 1G, Figure S2). Taken together, these two screens substantiate the unique relationship between Rpn10 and Dsk2.
+
+Molecular Cell 36, 1018­1033, December 24, 2009 ª2009 Elsevier Inc. 1019
+
+Molecular Cell
+Rpn10/Dsk2 as Polyubiquitin Chain-Length Sensor
+
+Screening UBLs for binding to Rpn10
+
+A
+___ 15N-Rpn10 ___ 15N-Rpn10 + UBL
+
+B
+
+C
+
+D
+1
+
+E
+
+H, ppm
+
+Competition for Rpn10 binding
+___ ___ ___
+
+N-UBL N-UBL/Rpn10 15N-UBL/Rpn10 + competitor
+15 15
+
+15N-Dsk2UBL + Rpn10
+
+58 40
+
+32
+
+15N-Dsk2UBL + Rpn10 + Rad23
+
+58 40
+
+32
+
+18
+
++ Rad23
+28
+
+18
+
+28
+
+73
+
+F H
+
+73
+
+G I
+
++ Dsk2
+15N-Rad23UBL + Rpn10 15
+
+N-Rad23UBL + Rpn10 + Dsk2 1
+
+1
+
+H, ppm
+
+H, ppm
+
+Rpn10 Binding to full-length Dsk2
+15
+
+J
+
+N-Dsk2+Rpn10
+
+15
+
+K
+
+XUBA
+ + 71
+
+60 
+
++
+
+ 14
+
++ + 34
+
+___ ___
+
+15 15
+
++
+
+
+N-Dsk2 N-Dsk2/Rpn10 free 15N-Dsk2-UBL bound 15N-Dsk2-UBL
+
+1
+
+H, ppm
+
+Figure 1. Comparison of UBL Domains Binding to Rpn10
+UBL domains of proteasome-interacting proteins were added at equimolar ratio to the UIM-containing segment of Rpn10 (Rpn10204­268). 2D 1H-15N HSQC NMR spectra of 15N-labeled Rpn10204­268 were collected (Figure S1), and a representative region is shown in (A)­(E). Overlaid are spectra of Rpn10204­268 alone (black) and in the presence (blue) of a UBL of (A) Dsk2, (B) Rad23, (C) Ub, (D) Ddi1, or (E) Ubp6. A reciprocal experiment compares NMR spectra of a 15N-labeled UBL of (F) Dsk2 or (H) Rad23 alone (black) and in the presence of a molar equivalent of Rpn10204­268 (blue). Competition assays comparing the relative affinities of Dsk2 and Rad23 for Rpn10: (G) a molar equivalent of Rad23 added to prebound Dsk2-UBL/Rpn10204­268 did not perturb Dsk2-UBL spectra (overlaid in green), whereas (I) a molar equivalent of Dsk2-UBL added to prebound Rad23-UBL/Rpn10204­268 returned Rad23-UBL signals (green) to their reference position (black), indicating that Dsk2 efficiently displaced Rad23 on Rpn10. (J­L) Interaction of Rpn10 with full-length Dsk2: spectra of 15N-Dsk2 alone (blue) or in the presence of a molar equivalent of Rpn10204­268 (green). The corresponding signal of the same residue in Dsk2-UBL serves as a reference for the free (crosses) or Rpn10-bound state (diamonds). XUBA in (K) indicates a (unassigned) signal of Dsk2-UBA. (L) Same as in (J) and (K) but for indole NH group of W14 in full-length Dsk2.
+
+1020 Molecular Cell 36, 1018­1033, December 24, 2009 ª2009 Elsevier Inc.
+
+15
+
+N, ppm
+
+N-Dsk2+Rpn10  48 +
+
+15
+
+L
+
+N-Dsk2+Rpn10
+
+15
+
+N, ppm
+
+16
+
+16
+
+15
+
+N, ppm
+
+15
+
+N, ppm
+
+Molecular Cell
+Rpn10/Dsk2 as Polyubiquitin Chain-Length Sensor
+
+To verify that an isolated UBL domain possesses the same Rpn10-binding properties as full-length Dsk2, we performed a similar assay, this time with 15N-labeled full-length Dsk2. Note that intramolecular UBL-UBA interactions cause slight shifts of the UBL signals in the context of full-length Dsk2 compared to the corresponding signals of free UBL (Figures 1J­1L). However, once in the complex with Rpn10, the NMR signals of the UBL domain of full-length Dsk2 superimpose well with the corresponding peaks of UBL alone in complex with Rpn10 (Figures 1J­1L). This indicates that isolated UBL is recognized by Rpn10 in the same manner as the UBL domain in the context of full-length Dsk2. Furthermore, the NMR spectrum of 15N-labeled full-length Dsk2 in complex with fulllength Rpn10 superimposes well with that in complex with Rpn10204­268 (Figure S3), strengthening the conclusion that it is the UIM-containing region of Rpn10 that comes in contact with Dsk2. These results justify the use of the UBL and UIM domains as a means to study the nature of the interaction between Dsk2 and Rpn10. These findings agree with the previous study, which showed that Dsk2 interacts with Rpn10 through its UBL domain (Matiuhin et al., 2008). Both proteins can also interact with Ub; therefore, in order to understand the competition of these two receptors for each other and for Ub, we first obtained structural information on Rpn10 and Dsk2 independently, mapped out their binding interface, and modeled their binary complexes. Structural Characterization of Dsk2-UBL and Rpn10-UIM Domains by NMR Taking advantage of their modular architecture, we initially focused on structural characterization on the cointeracting domains of Dsk2 and Rpn10: the UBL and UIM domains, respectively. Complete NMR resonance assignment for 1H, 15N, and 13 C nuclei of Dsk2-UBL domain was carried out previously (Chen et al., 2008). The chemical shifts, NOESY spectra, 15N relaxation data, and residual dipolar couplings measured in Dsk2-UBL all are in general agreement (Figure S4) with predictions from the crystal structure of Dsk2-UBL (PDB ID code 2BWF); therefore, we conclude that the structure determined in the crystal form is largely preserved in solution and can be used in our NMR studies to map the binding interactions. No 3D structure is available for Rpn10. Using NMR measurements on the UIM-containing construct (Rpn10204­268), we obtained an almost complete assignment of the backbone resonances for the stretch of residues from G204 to L246 (except for P222 and P226 and, due to signal overlap, E237 and E238). Of multiple UIM-containing proteins, the UIM in Rpn10 is most similar to UIM-1 of its ortholog S5a (Hofmann and Falquet, 2001). In fact, the two stretches--residues F218­E244 of Rpn10 and F206­E232 of S5a--share 81% identity and 100% sequence similarity (Figure S5). Residues E215­E245 within UIM-1 of S5a form a single a helix (Wang et al., 2005), and it is natural to expect a similar structure for the homologous region of Rpn10. Indeed, based on the multiple lines of evidence presented in the Supplemental Data, the UIM region of Rpn10 (V220­E244) is structurally similar to that of UIM-1 of S5a (V208­E232), with residues E227­E244 defining the hallmark a helix in Rpn10. We note that the regions N- and C-terminal to
+
+the UIM region in the Rpn10204­268 fragment are largely flexible (Figure S6). Mapping the Interactions between Rpn10 and Ubiquitin or Dsk2-UBL Rpn10 interacts with both Dsk2-UBL (Figure 1 and Matiuhin et al., 2008) and Ub (Figure 1C and Figure S1), though in fact Rpn10/S5a was initially identified as a multiUb chain-binding protein (MCB1; Deveraux et al., 1994; van Nocker et al., 1996). With the structures of Dsk2-UBL and Rpn10-UIM, we set to determine the binding interface of UIM with UBL and compare it to that of UIM with monoUb or K48-linked chains. To map residues participating in intermolecular interactions, we used shifts (called chemical shift perturbations, CSPs) and broadening (attenuation) of NMR signals. Both CSPs and signal broadening are a direct consequence of changes in the local environment due either to direct involvement of the corresponding group (residue) in the binding interaction or to a secondary effect of structural rearrangements. Strong signal attenuation as opposed to CSP usually reflects intermediate or slow (on the NMR chemical shift time scale) exchange between the free and ligand-bound states of the protein, due to slow on/off kinetics. In addition, the broadening effect could also be nonspecific, due to an increase in the apparent size of the molecule (slower tumbling). The Segment of Rpn10 that Binds Dsk2-UBL Extends beyond the Canonical LAL/MAL Motif Titration of 15N-Rpn10204­268 with monoUb, polyUb, and Dsk2UBL allowed us to map and compare the Rpn10 residues involved in binding to these ligands (Figure 2). In general, the binding surface on Rpn10204­268 comprises a predominantly hydrophobic stretch spanning the canonical LAMAL motif at the beginning of the UIM's a helix (L228­S235) as well as some of the disordered residues N-terminal to it (G219­P226). The surface of Rpn10204­268 perturbed by Ub chains (Ub2 or Ub4) is essentially the same as that involved in monoUb binding (Figure 2). This contact area is generally similar to the recognition surface on each of the two UIMs in S5a (determined in complex with monoUb or di-Ub [Haririnia et al., 2007; Wang et al., 2005; Zhang et al., 2009]; see also Figure S7). Even though polymerization leads to tighter Rpn10 binding (evident from strong signal attenuations, Figure 2), it does not engage additional sites on the Rpn10 surface. This finding suggests that Rpn10 interacts with individual Ub units within the chain. That the mode of recognition remains the same, whether Rpn10 binds mono- or polyUb, is further corroborated by the fact that the NMR signals of Rpn10 shift in the same directions upon titration with monoUb or Ub2 (Figure S7), indicating a similar change in the chemical environment. Association of Rpn10 with Dsk2, which also appears tighter compared to monoUb (strong signal attenuations, Figure 2), expands the interaction region beyond the canonical LAL/MAL motif and includes a stretch of polar a-helical residues (Q240, Q241, R242) C-terminal to it (Figure 2). In addition, stronger CSPs were observed in the disordered region (e.g., M216, D221) N-terminal to the helix. This suggests that Rpn10-Dsk2 is a tighter partnership compared to Rpn10-monoUb, which will be put to test in the subsequent sections.
+
+Molecular Cell 36, 1018­1033, December 24, 2009 ª2009 Elsevier Inc. 1021
+
+Molecular Cell
+Rpn10/Dsk2 as Polyubiquitin Chain-Length Sensor
+
+218
+
+UIM
+
+
+244
+
+N
+0.4 0.3 0.2 0.1 0.0 200 0.4 0.3 0.2 0.1 0.0 200 0.4 0.3 0.2 0.1 0.0 200 0.4 0.3 0.2 0.1 0.0 200
+
+C
+Rpn10 + Ub
+E238 A231
+
+180o
+
+CSP, ppm
+
+R233
+
+L228 D225
+
+210
+
+220
+
+230
+
+240
+
+250
+
+260
+
+270
+
+Rpn10 + Ub2
+E238 A231 S223 M224
+
+CSP, ppm
+
+L228 D225 V220 M224
+
+210
+
+220
+
+230
+
+240
+
+250
+
+260
+
+270
+
+Rpn10 + Ub 4
+S235 L234 A231 L228 E227 D225 V220 G219 R242 S235 L234 A231
+
+CSP, ppm
+
+L234 R233 M230 E227 S223 G219 M224
+
+210
+
+220
+
+230
+
+240
+
+250
+
+260
+
+270
+
+Rpn10 + UBL
+
+Q241 Q240 L234
+
+CSP, ppm
+
+D225
+
+210
+
+220
+
+230
+
+240
+
+250
+
+260
+
+270
+
+Residue number
+N-Rpn10 +Dsk2UBL R242
+15 15
+
+C
+N-Rpn10 +Ub R242 N, ppm
+
+C
+
+A L
+
+L
+
+N
+
+N
+
+A
+
+M
+
+Q240
+
+Q241
+
+Q240
+
+Q241 R233
+
+R233
+1
+
+H, ppm
+
+Figure 2. Mapping the Rpn10 Surface of Interaction with Ub, PolyUb, and Dsk2-UBL
+(Left) CSPs (black bars) for backbone amides in Rpn10204­268 upon addition of ligand (Ub[n] or UBL). Grey bars indicate residues exhibiting strong signal attenuation (>80%) in the presence of the binding partner. (Bottom) Overlays of 2D NMR spectra of 15N-Rpn10204­268 alone (black contours) and in complex with Dsk2UBL (blue contours; left) or Ub (right) highlight differences in perturbations in residues Q240­R242 upon binding to these proteins. (Right) Surface of Rpn10-UIM (encompassing the a helix E227­E244 and N-terminal extension F218­P226), with residues perturbed by each ligand colored red (CSP > 0.07 ppm and/or signal attenuation >80%). Note the unique perturbations in residues 240­242 (indicated by red numbers) caused by Dsk2-UBL binding. The conserved LAMAL residues are highlighted in the cartoon at the bottom of the figure.
+
+1022 Molecular Cell 36, 1018­1033, December 24, 2009 ª2009 Elsevier Inc.
+
+15
+
+Molecular Cell
+Rpn10/Dsk2 as Polyubiquitin Chain-Length Sensor
+
+The Surface of Dsk2-UBL that Binds Rpn10 Extends beyond the Hydrophobic Patch The site-specific character of the observed perturbations in 15 N-Ub or Ub2 (15N-labeled on proximal Ub) upon titration with Rpn10204­268 (Figures 3A and 3B) clearly points to the L8-I44H68-V70 hydrophobic patch of Ub as the central surface of contact (Figure 3G). The Rpn10-interacting surfaces on Ub and Ub2 are generally consistent with those involved in S5a binding (Haririnia et al., 2007; Wang et al., 2005; Zhang et al., 2009). It is striking how similar the Rpn10-binding surface of the Ub is, whether as a free unit or conjugated on K48 (Figures 3D and 3E); this finding further supports the conclusion from the previous section that the polymerization does not alter the mode of recognition by the Rpn10 receptor. Combined with the fact that the dimensions of the receptor (the UIM unit) are basically identical to a single Ub unit (Figure 3I), this indicates that the unit of recognition is a single Ub and not a polyUb. Nevertheless, the larger number of strongly attenuated residues in Ub2 indicates stronger Rpn10 binding (slower off-rates) in the case of Ub chains. This could be due to a ``local concentration'' effect, which makes rebinding to the same chain after dissociation more likely. A similar titration of 15N-Dsk2-UBL with the UIM-containing region of Rpn10 resulted in site-specific perturbations in its NMR spectra covering the surface of the protein centered around residues I45, H69, and V71 (Figures 3C, 3F, and 3H). These residues superimpose well with their conserved counterparts I44, H68, and V70 that define the canonical hydrophobic patch on Ub (Figures 3G and 3H). However, compared to Ub (Figures 3A and 3D), several additional sites on Dsk2-UBL participate in Rpn10 binding. These include the H61-D64 stretch in the b4/b5 loop and residues K72­R74 C-terminal to b5. We recall that in the reverse titration (15N-Rpn10204­268/Dsk2-UBL, Figure 2), additional perturbations were also observed in Rpn10 residues Q240­R242 and M216, D221. Both these results point to larger binding surfaces involved in pairing of Rpn10 with Dsk2-UBL than with Ub (Figures 3D and 3F). In fact, Dsk2/Rpn10 association is apparently tight, given that signals of several UBL (Figure 3C) and Rpn10 (Figure 2) residues were severely attenuated. A model of the Rpn10/Dsk2 complex (Figure 3J) highlights the complementarity of these additional contacts, most notably between H61-D64 of Dsk2 and N240-R242 of Rpn10. These additional interactions are primarily electrostatic or polar in nature and extend the axis of contact along the a helix in Rpn10 on one face and the b5 strand (beyond the V71­H69 stretch) in Dsk2-UBL on the matching face (Figure 3H). These additional contacts could account for the apparently stronger affinity of Dsk2-UBL/Rpn10 versus Ub/Rpn10 binding. To validate our homology-based models of the Rpn10/Ub and Rpn10/Dsk2 complexes (Figures 3I and 3J), we used sitedirected spin labeling, which provides information on the orientation and distance between the two proteins in the complex. Briefly, a nitroxyl spin label, (1-oxy-2,2,5,5-tetramethyl-3pyrroline-3-methyl) methanesulfonate (MTSL), was covalently attached to Rpn10204­268 at position 247 through disulfide bond to the side chain of a cysteine introduced as a substitute for R247 (details in the Supplemental Data). We chose residue
+
+247 for spin labeling because it is positioned outside the region involved in interactions with Ub or Dsk2, and its location near the C terminus of the a helix should allow unambiguous determination of the UIM's orientation with respect to its binding partner (see Figure 3). Note that our NMR data presented in Table S1 and Figure S6 indicate that Rpn10's a helix remains intact in the Dsk2-bound state. The unpaired electron spin of MTSL causes distance-dependent attenuation of NMR signals ° that can be detected at distances up to 20 A. This allowed us to reveal residues that are in close proximity to the spin label. Indeed, strong signal attenuations observed in both Ub and Dsk2-UBL upon binding to MTSLdRpn10 were highly site specific, and all could be mapped to the part of Ub or Dsk2 surface facing the C terminus of the UIM helix (see Figures 3K and 3L and Figure S8). Moreover, as shown in the Supplemental Data, the actual location of the unpaired electron of the spin label can be calculated from the collective signal attenuations measured in Ub or UBL. For both complexes, the result (gold ball in Figures 3K and 3L and Figure S8) agrees well with the expected location of Rpn10's residue 247 extrapolated from the orientation of the UIM-1 a helix (cyan ball, Figures 3K and 3L and Figure S8). Therefore we conclude that these spinlabeling data provide independent experimental evidence for Rpn10/Ub and Rpn10/Dsk2 complexes shown in Figures 3I and 3J. Rpn10 Binds Dsk2-UBL Tighter than Ubiquitin Due to Unique Interactions Having obtained evidence for stable complexes between UIM and a number of ligands, we set out to quantify the stoichiometry and strength of interactions. In the case of Rpn10 binding to Dsk2-UBL or monoUb, the magnitude of CSPs of residues participating in interactions from either binding partner saturate at approximately 1:1 molar ratio (Figures 4A and 4B). Furthermore, the striking similarity of the binding curves observed in the forward and reverse NMR titrations indicates a 1:1 stoichiometry of these complexes. To quantify the binding interactions, we derived the dissociation constants from the NMR titration data (Figures 4A­4C) and independently by surface plasmon resonance (SPR) measurements (Figures 4D­4F) (details in the Supplemental Data). The data from both methods, summarized in Table 1, are in good agreement and indicate that Rpn10 has strong binding preference for Dsk2-UBL over monoUb. The broader interaction surface of Dsk2-UBL may be the underlying mechanism for its slower exchange (i.e., on/off kinetics; Figures 3A and 3C) and tighter affinity constant compared to monoUb (Table 1, Figures 4D and 4E). The binding surfaces in the Rpn10/Dsk2 complex (summarized in Figures 3J and 4H) raise an interesting hypothesis that the electrostatic interaction between the charged side chains of D64 on Dsk2 and R242 on Rpn10 accounts for a great deal of the tighter binding measured for Rpn10 with Dsk2 over that with Ub. An alignment of Dsk2-UBL with Ub showed that D64 in Dsk2 corresponds to K63 in Ub (see Table S2). Therefore we mutated D64 to a lysine. Indeed, a single-point substitution mutation D64K resulted in a significant reduction in the strength of Rpn10/UBL binding (Table 1, Figure 4D), essentially
+
+Molecular Cell 36, 1018­1033, December 24, 2009 ª2009 Elsevier Inc. 1023
+
+Molecular Cell
+Rpn10/Dsk2 as Polyubiquitin Chain-Length Sensor
+
+A
+0.8
+
+B
+Ub + Rpn10
+0.8
+
+C
+Ub2(prox) + Rpn10
+0.8
+
+UBL+ Rpn10
+
+0.6
+
+0.6
+
+0.6
+
+CSP, ppm
+
+0.4
+
+0.4
+
+0.4
+
+0.2
+
+0.2
+
+0.2
+
+0.0 0 10 20 30 40 50 60 70
+
+0.0 0 10 20 30 40 50 60 70
+
+0.0 0 10 20 30 40 50 60 70
+
+Residue number
+
+Residue number
+
+Residue number
+D64 Q63 H6 H61 Y46 S67 H69 I45 L70 K8
+
+D
+
+E
+
+F
+
+A46 T7 L8
+
+A46 G47
+
+H68 T7 V70 L8
+
+S47 K49
+
+V71 K72 R43
+
+Ub
+
+Ub2 N
+G
+H68 V70 L8
+
+UBL
+H
+
+S73 Q74
+
+I44
+
+I45
+
+H69 V71
+
+MTSL
+
+Ub
+247
+
+UBL C C
+J L
+
+K
+
+I
+
+Ub/Rpn10
+Figure 3. Mapping the Rpn10-Interacting Sites on Ub, Ub2, and Dsk2-UBL
+
+UBL/Rpn10
+
+(A­C) CSPs for backbone amides in Ub, Ub2 (proximal Ub), or Dsk2-UBL at the endpoint of titration with Rpn10204­268 (black bars). The gray bars indicate residues exhibiting strong signal attenuation (>80%). (D­F) Maps of the perturbed residues (CSP > 0.07 ppm and/or signal attenuation > 80%) on the surface of Ub, Ub2, or Dsk2-UBL. Strongly attenuated residues are indicated by residue numbers. Residues perturbed only in Dsk2 (61­64 and 72­74) are marked in red. (G and H) Structural cartoons of Ub and UBL highlighting hydrophobic patch. (I and J) Complexes of Rpn10/Ub (I) and Rpn10/UBL (J) modeled as detailed in the Supplemental Data agree with the binding interface as determined by NMR (A­F and Figure 2; perturbed residues are color coded accordingly). (K and L) Experimental validation of complexes using site-directed spin labeling of Rpn10 (details in the Supplemental Data). Residues strongly attenuated (>54%) in Ub (K) or Dsk2 (L) upon attachment of MTSL to residue 247 in Rpn10 are shown in blue. The gold ball in (K) and (L) represents the position of the unpaired electron of MTSL reconstructed from the measured signal attenuations (Figure S8). The approximate location of Rpn10's residue 247 (backbone nitrogen) is shown as the cyan-colored ball.
+
+1024 Molecular Cell 36, 1018­1033, December 24, 2009 ª2009 Elsevier Inc.
+
+Molecular Cell
+Rpn10/Dsk2 as Polyubiquitin Chain-Length Sensor
+
+A
+1.0
+
+B
+1.0
+
+C
+0.8 0.6 0.4
+15
+
+Normalized CSP
+
+Normalized CSP
+
+0.8 0.6 0.4
+15
+
+M230 N, ppm
+15
+
+0.2 0.0 0 1 2
+
+15
+
+N-Rpn10 + Ub N-Ub + Rpn10
+4 5
+
+0.2 0.0
+
+N-Rpn10 + UBL N-UBL + Rpn10
+3 4
+
+M243
+
+3
+
+0
+
+1
+
+2
+
+[Rpn10]/[Ub] or [Ub]/[Rpn10]
+
+[Rpn10]/[UBL] or [UBL]/[Rpn10]
+
+1H, ppm
+
+D
+800
+
+E
+Rpn10 +
+
+1000 800
+
+F
+Ub4
+SPR signal
+
+1000 800 600 400 200 0
+
+600
+
+UBL UBL (D64K)
+
+SPR signal
+
+SPR signal
+
+600 400 200 0
+
+Ub2 FL_Dsk2 Ub Rpn10 +
+
+400
+
+Ub
+200
+
+0 0 10 20 30 40 50 60
+
+UIM + Ub UIM + Ub2 UBA + Ub UBA + Ub2
+0 10 20 30 40 50 60
+
+0
+
+10
+
+20
+
+30
+
+Ligand Concentration, M
+
+Ligand Concentration, M
+
+Ligand Concentration, M
+
+G
+
+K63
+
+R242
+
+H
+
+D64
+
+R242
+
+Ub/Rpn10
+Figure 4. Quantification of Interaction Equilibria
+
+UBL/Rpn10
+
+(A and B) NMR titration curves for Rpn10 binding to Ub (A) or Dsk2 (B): normalized CSPs (averaged over six to fourteen participating residues) as a function of ligand/protein molar ratio. Results for 15N-labeled Ub (A) or Dsk2-UBL (B) titrated with unlabeled Rpn10204­268 are in red. Reverse titrations of 15N-Rpn10204­268 with unlabeled Ub or Dsk2-UBL are superimposed in blue. The error bars represent standard deviations. (C) Illustration of shifts in 15N-Rpn10204­268 signals upon titration with Dsk2-UBL (Dsk2:Rpn10 molar ratios are 0 [black], 0.21 [purple], 0.43 [light green], 0.64 [orange], 0.85 [blue], 1.07 [magenta], 1.45 [dark green], 1.83 [yellow], and 2.21 [red]). (D and E) Titration curves obtained from SPR measurements for pairwise interactions between Rpn10204­268 and Ub, Ub2, Ub4, full-length Dsk2, Dsk2-UBL (WT or D64K mutant). (F) Likewise for Rpn10204­268 or Dsk2-UBA and either Ub or Ub2. All curves in (A), (B), and (D)­(F) are a nonlinear fit of data points to a 1:1 binding model (Supplemental Data). (G and H) Models of Rpn10 complexed to Ub or Dsk2-UBL highlight differences in binding contacts. (H) Residues R242 (Rpn10) and D64 (UBL), uniquely perturbed in Rpn10/Dks2 binding, are colored red and magenta, respectively, pointing to possible salt bridge upon reorientation of the corresponding loop in UBL.
+
+converting the UBL into a ``Ub'' molecule (as far as the Rpn10 binding is concerned). This supports an electrostatic contribution to the enhanced affinity of Rpn10 for UBL over that for monoUb (highlighted in Figures 4G and 4H).
+
+Chain-Length Binding Preferences of Rpn10 The tighter binding constant of Dsk2-UBL/Rpn10 association suggests that Dsk2 would outcompete monoUb for binding to Rpn10. Indeed, this property was verified by a direct NMR
+
+Molecular Cell 36, 1018­1033, December 24, 2009 ª2009 Elsevier Inc. 1025
+
+15
+
+Molecular Cell
+Rpn10/Dsk2 as Polyubiquitin Chain-Length Sensor
+
+Table 1. Dissociation Constants for Mutual Binding Interactions between Rpn10, Ub, and Dsk2 Kd [mM] Protein Rpn10-UIM Rpn10-UIM Rpn10-UIM Rpn10-UIM Rpn10-UIM Rpn10-UIM Dsk2-UBA Dsk2-UBA Dsk2-UBA
+a
+
+Titrant (Ligand) Dsk2-UBL Dsk2 (full-length) Dsk2-UBL D64K Ub Ub2 (K48-linked) Ub4 (K48-linked) Ub Ub2 (K48-linked) Ub4 (K48-linked)
+
+NMRa 3.5 ± 0.7 ­ 39.0 ± 17.0 44.5 ± 14.8 ­ ­ ­ ­ ­
+
+SPRb 9.0 ± 1.7 12.5 ± 3.1 31.8 ± 1.6 42.7 ± 1.0 13.3 ± 0.6 0.204 ± 0.013 1.7 ± 0.8 0.056 ± 0.003 0.061 ± 0.002
+
+(Figure 5B). Together, the affinities measured by SPR or NMR titrations (summarized in Table 1), NMR competition studies, and protein pull-downs demonstrate a hierarchy in affinities for Rpn10 association: Ub4 > Ub2 zDsk2-UBL > monoUb. The UBA Domain Binds Ubiquitin Tighter Than Rpn10 Does At this point we recall that Dsk2 can interfere with Ub/Rpn10 binding not only by presenting a UBL domain to the UIM motif (this study and Matiuhin et al., 2008) but also by its intrinsic affinity for Ub through its UBA domain. It has already been shown that UBA domains from the Dsk2 family are among the tighter Ub recognition elements (Raasi et al., 2005). Indeed, our SPR measurements confirm the Dsk2-UBA's strong affinity even for monomeric Ub (Figure 4F, Table 1). Therefore we performed NMR competition assays to compare the relative affinities of UBA and Rpn10 for polyUb species (Ub2 and Ub4). In these experiments, the UBA of hPLIC-1/Ubiquilin-1 (UQ1), the human version of Dsk2, was used, the structure of which is remarkably similar to that of Dsk2-UBA (Zhang et al., 2008). UQ1-UBA has been extensively studied by NMR in our laboratory (Zhang et al., 2008). Most importantly, the UBA domains from the two orthologs (UQ1 and Dsk2) have almost identical polyUb-binding properties (Raasi et al., 2005), and both have strong affinities for monoUb. It is important to note that the surface of Ub recognized by either Rpn10-UIM (Figure 3) or Dsk2/UQ1 UBAs (Ohno et al., 2005; Zhang et al., 2008) is the same and centered around the same hydrophobic patch. That both Rpn10 and Dsk2 interact with the same residues in Ub precludes the possibility that they could share the same Ub unit. Indeed, and in agreement with the higher affinity of Ub for UBA over Rpn10 (Table 1), adding UBA to a preformed complex of monoUb and 15N-labeled Rpn10 essentially caused a complete transfer of the Ub molecule to UBA (Figure 5C and Figure S9). Interestingly, in a similar assay involving an equimolar ratio of UBA, Ub2, and Rpn10, the UBA also efficiently trapped Ub2 (Figure 5D and Figure S9). For now we conclude that binding of UBA, with the higher affinity, will preclude sharing of di-Ub with Rpn10, probably due to steric occlusion. Apparently, a single UBA domain blocks Rpn10 access to both Ub moieties in Ub2. This then raises the question: if the chain were longer, would it be possible for the UBA and UIM to share the same chain? Rpn10 and a UBA Can Simultaneously Share a Single PolyUb Chain Based on the preceding observation, we hypothesize that a long enough chain will provide a sufficient number of unbound Ub units for cobinding of two or more receptors. To test this hypothesis, we first demonstrated the formation of a ternary complex Dsk2UBA/polyUb/Rpn10 by biochemical pull-downs. The addition of Ub4 at equimolar ratio to the UBA-containing region of Dsk2 (Dsk2DUBL) retains both proteins to the Rpn10 column, whereas Dsk2DUBL alone had no affinity for Rpn10 (Figure 6A). We conclude that a polyUb chain can link the UBA and Rpn10 in a ternary complex. Similar results were obtained with Rpn10204­268 (Figure 6B), pointing to the role of the UIM as the polyUb receptor within the Rpn10 protein.
+
+The NMR data reported here were averaged over the results of a forward and reverse (where the ``protein'' and the ``titrant'' were swapped) titrations; see Figure 4. b The SPR data reported here represent the mean and the standard deviation over three independent measurements for each complex.
+
+competition assay (Figure 5A). At this stage we note that polymerization of Ub has been shown to enhance its affinity for the proteasome, and in particular for the S5a (Beal et al., 1998; Thrower et al., 2000). Interestingly, in a similar assay, Dsk2UBL was unable to efficiently displace Ub2 on Rpn10 (Figure 5B), and neither could Ub2 fully displace Dsk2-UBL even when in excess, thus suggesting comparable affinities of the two proteins. This prompted us to rigorously quantify binding affinities of Rpn10 for Ub and polyUb chains relative to that for UBL under identical experimental conditions. Equilibrium constants determined by SPR for association of Ub(n) with Rpn10-UIM show that affinity increases over two orders of magnitude with increasing chain length from monoto tetraUb (Table 1, Figures 4E and 4F). Although Dsk2 has a single UBL unit, its affinity for Rpn10-UIM is comparable to that of Ub2, fully five times tighter than monoUb (Table 1 and Figures 4D and 4E). As mentioned above, strong NMR signal attenuation (Figure 2) also pointed to an increase in the affinity of Rpn10 with the length of Ub chain (though strong signal attenuations preclude accurate quantification by NMR). In fact, NMR competitions confirm that the preferences of Rpn10 in solution are the same as those determined by SPR for immobilized Rpn10-UIM: Ub2 binds Rpn10-UIM comparably to Dsk2-UBL (Figures 5A and 5B), while Ub4 can displace Dsk2-UBL quite efficiently (Figure 5B). The same trend in the binding preferences holds for full-length Rpn10, as evident from a separate direct competition assay using biochemical pull-downs (Figure 5E). Extensive washes prior to elution render biochemical pull-downs sensitive to fast off-rates. Thus, monoUb is not retained at all on an affinity column of immobilized Rpn10 (Figure 5E), in line with the low affinity and fast exchange rates measured for this pair (Figures 2­5 and Table 1). However, the more ``sticky'' substrates, UBL and Ub4, are efficiently isolated via the Rpn10 column. When present simultaneously in solution, Ub4 outcompetes UBL (Figure 5E), supporting the results from NMR competitions
+
+1026 Molecular Cell 36, 1018­1033, December 24, 2009 ª2009 Elsevier Inc.
+
+Molecular Cell
+Rpn10/Dsk2 as Polyubiquitin Chain-Length Sensor
+
+In order to obtain further information on the orientation and stoichiometry of this ternary complex, we took a more pinpointed approach. Given that the UBA and UIM separately displayed dramatically different affinities for Ub (Table 1), we initially designed several experiments in order to obtain detailed information on the order of binding to a single polyUb chain. Upon mixing 15N-Rpn10204­268 and Ub4 in a 1:0.9 molar ratio (Figure S10), many of the Rpn10 NMR signals attenuated beyond detection, reflecting formation of the complex as we described earlier (Figure 2). Although UBA exhibits significantly higher affinity for polyUb (Table 1 and Figures 4 and 5), addition of UQ1-UBA at a 1:1 and then 2:1 molar ratio to Ub4 did not significantly affect the spectra of 15N-Rpn10204­268, indicating that Rpn10 remained in the Ub4-bound state (Figure S10). This could occur if the two receptors cobind a single chain. Only when the UBA was present in a 4:1 molar ratio to Ub4 (i.e., one UBA per Ub) did most attenuated peaks in Rpn10 become fully visible again. The resulting Rpn10204­268 signals overlapped very well with those of free Rpn10204­268 (Figure S10), suggesting that all Ub units in the mix were sequestered by the tighter binder of the two, UBA. This observation is in line with the ability of UBA to outcompete Rpn10 for Ub and Ub2 binding (Figure 5C and 5D). We then performed a reverse titration experiment, starting with a 1:1 mixture of 15N-labeled UQ1-UBA and Ub4 (i.e., four Ub units per UBA) (Figure S11). The CSPs and signal attenuations indicated that UQ1-UBA was in the bound state (Zhang et al., 2008). Addition of Rpn10204­268 to this sample in a 2:1 molar ratio to Ub4 had no major impact on the UBA spectrum, indicating that UBA remained in the bound state. These reciprocal assays demonstrate the possibility that chains with unmasked Ub units are capable of being shared simultaneously by different receptors. In order to directly demonstrate simultaneous binding of Rpn10 and UBA to a single chain, 15N-Rpn10204­268 and 15 N-UQ1-UBA were mixed in an equimolar ratio, and unlabeled Ub4 was later added to this sample in small increments. Note that the NMR spectrum recorded prior to addition of Ub4 superimposes perfectly with the spectra of the two receptors recorded separately, indicating that there is no interaction between Rpn10204­268 and UQ1-UBA (Figure S12). The spread in the NMR signals (Figure S12) allowed us to dissect changes in either protein upon titration with Ub4 in the same sample (Figure S13). The first to show attenuation were signals of UQ1-UBA residues already at the first steps of Ub4 titration, followed by attenuation in the Rpn10 signals only at higher concentrations of Ub4 (Figures S13) reflecting the stronger affinity of UBA for (poly)Ub. At a molar ratio of 1:1:1 Ub4: UBA:Rpn10, strong signal attenuations were observed both in UQ1-UBA and Rpn10-UIM residues, indicating that at these conditions both receptors were bound to Ub4. All these results clearly demonstrate that despite the higher affinity of UBA for Ub, and although UBA outcompetes Rpn10 for binding to shorter chains, Rpn10 and Dsk2 can cobind to Ub4 or longer chains, provided there are enough Ub moieties in the chain unmasked by UBA. Together these results provide direct evidence for a single polyUb chain shared between multiple receptors.
+
+Ub Chain-Length-Dependent Rearrangements of the Dsk2/PolyUb/Rpn10 Ternary Complex Having dissected possible interactions between either of the two receptors with mono or polyUb, or with each other, we are now finally in a position to consolidate. From all our data presented above, it is evident that Dsk2 and Rpn10 are mechanistically linked in two distinct ways: directly, via the UBL/UIM association, and indirectly, through a shared Ub chain. The various modes of mutual competition raise the question: ``What is the resulting orientation of Dsk2/polyUb/Rpn10 in the ternary complex?'' As we described above, in a binary complex of Rpn10 with fulllength Dsk2, the UBL is bound to the UIM (Figures 1J­1L) and therefore masked from competing interactions (see also Matiuhin et al., 2008). To this complex we added polyUb chains and tracked NMR signals that we could positively identify as emanating from 15N-labeled UBL domain (e.g., W14, A34, G48, Y60, and V71 in Figures 6C and 6D). The addition of polyUb caused shifts in the UBL signals to their free state, indicating the unmasking of UBL due to the preference Rpn10-UIM has for polyUb over that for Dsk2 (Figure 6C). At the same time, the UBA signals of Dsk2 strongly attenuated (e.g., XUBA disappeared in Figure 6C), confirming that UBA also enters into a tight complex with polyUb. The resulting ternary complex in which polyUb is shared by UBA and Rpn10-UIM and the UBL is unmasked is shown schematically in Figure 6E (bottom right) and Figure S15A. By contrast, while also binding to the UBA domain, resulting in CSPs of UBA signals (XUBA in Figure 6D), monomeric Ub caused only insignificant shifts in the UBL signals (Figure 6D) even when added in 8-fold excess to the Dsk2/Rpn10 complex, in line with the stronger preference of Rpn10-UIM for UBL over monoUb (Table 1, Figure 5). Thus we conclude that, even in excess, monoUb is unable to pry apart the UBL from its complex with the UIM, although it associates with Dsk2 by binding to its UBA domain. The resulting ternary complex in which Dsk2 bridges Rpn10 and monoUb is shown schematically in Figure 6E (top right) and Figure S15B. To summarize, two very different orientations of ternary complexes form between Dsk2, Rpn10, and (poly)Ub depending on the length of the polyUb chain (Figure 6E). DISCUSSION The comparison of Ub-binding affinities suggests (this study and Raasi et al., 2005) that Dsk2-UBA is one of the tightest Ub binders and that it may be adapted to bind monoUb. This predicts that Dsk2 may somehow be involved in controlling the levels of monoubiquitinated proteins. Due to their high affinity for Ub even in its monomeric form, abnormally elevated levels of Dsk2 may trap proteins with single Ub modifications (monoubiquitinated proteins), interfering with the Ub system from properly extending the chains or from properly targeting these conjugates to their cellular destinations. Indeed, overexpression of DSK2 uniquely alters the cellular Ub landscape, causing a sharp increase in absolute levels of Ub conjugates both in the form of multiple monoUb modifications and as polyUb chains (Matiuhin et al., 2008). The total level of multiple monoubiquitination increased 3-fold in whole-cell extracts upon induction of Dsk2. Of the remaining high MW conjugates, a threefold increase
+
+Molecular Cell 36, 1018­1033, December 24, 2009 ª2009 Elsevier Inc. 1027
+
+Molecular Cell
+Rpn10/Dsk2 as Polyubiquitin Chain-Length Sensor
+
+1028 Molecular Cell 36, 1018­1033, December 24, 2009 ª2009 Elsevier Inc.
+
+Molecular Cell
+Rpn10/Dsk2 as Polyubiquitin Chain-Length Sensor
+
+of lysine 48 linkages over lysine 63-linked chains was measured. The stabilization of Ub conjugates coupled with the slower turnover of ubiquitinated substrates and increased protein stability leads to severe growth phenotypes and cell death (Matiuhin et al., 2008). These deleterious effects associated with elevated Dsk2 explain the need to regulate its cellular levels and filter its accessibility to the proteasome. Overexpression of other polyUb shuttles that were tested did not lead to similar effects. Moreover, only full-length Dsk2 displayed such cytotoxicity when overly abundant, whereas a version lacking the proteasome targeting signal, the UBL domain, was innocuous, pointing to involvement of a functional protein able to target cargo to the proteasome (Matiuhin et al., 2008). The results in the current study provide a mechanistic explanation to previous biological observations. The tight affinity of Dsk2-UBA for monoUb and for short chains necessitates filtering mechanisms to limit premature cargo delivery. Through its ability to differentiate between Dsk2 and Ub, Rpn10 is able to mask the UBL domain of Dsk2 and thereby impose a threshold on the access of Dsk2 to downstream targets such as the proteasome. However, once Dsk2 associates with longer chains, the resulting complex may be able to bypass the filter through a fascinating mechanism of dynamic rearrangement that leads to exposure of the UBL domain (Figure 6, Figure S15). TetraUb chains are the shortest chain length that can drive this rearrangement efficiently. Together, these studies begin to shed light on the complexity of the Dsk2-interaction network and how, through competing interactions, full-length Dsk2 can help shape the Ub signal. The small, yet significant, differences in their sequence and binding surfaces make it likely that other substrate-delivery proteins, polyUb shuttles, and assorted Ub domain proteins are also subject to dedicated filters and selection processes. One of the intriguing aspects of the Ub-proteasome system (UPS) is that substrates are targeted to the proteasome by means of polymeric chains. What is the benefit of polymeric modifications, and why is posttranslational modification by a mere Ub unit insufficient? One of the obvious answers is that chain length could enhance the efficiency of targeting; therefore diversity in chain length and linkage type may provide for hierarchy in targeting. It comes, therefore, as somewhat of a puzzle that some of the Ub receptors are incredibly efficient in recognizing already a single Ub moiety. For instance, the UBA domain of Dsk2 (see above) or Pru of Rpn13 (Husnjak et al., 2008) binds monomeric Ub tighter than some other receptors bind polyUb. Moreover, some proteins (e.g., the UBL-UBA shuttle family) are
+
+targeted to the proteasome via a single UBL domain. Clearly, Ub (and its kin) can serve as efficient signals even as monomers. In fact, monoubiquitination may even serve as a proteasome targeting signal under some conditions (Guterman and Glickman, 2004; Hershko and Heller, 1985; Kravtsova-Ivantsiv et al., 2009). Another benefit of a polymeric modification is that it could provide for a flexible signal. Various layers of shuttles/receptors together with chain extenders (E4s) and chain trimmers (DUBs), by either enhancing the signal or interfering with it, give the UPS a means for quality control upstream to the irreversible step of degradation by the proteasome. On the receiving end, a plethora of Ub-binding proteins displaying an array of affinities for various chain-length and linkage types await these chains. These Ub-binding proteins are thought to shuttle substrates to the proteasome, raising yet another question: why are Ub conjugates funneled through another layer of selection when they have an intrinsic capacity to bind to the proteasome? The current study reveals how Rpn10 and Dsk2 function together as a Ub chain-length sensor that provides a possible mechanism for selection of linkages above a certain threshold simultaneously filtering uncharged shuttles (Figure 6E). Through competing interactions and by sharing a Ub chain, the resulting ternary complex of Dsk2/polyUb/Rpn10 is dynamic and can be rearranged depending on the length of the chain. The UBA domain of Dsk2 outcompetes the Rpn10-UIM for binding to mono- or to di-Ub; therefore, at a 1:1 ratio only chains of three units or longer have ``overhanging'' Ub units capable of binding to Rpn10. However, since the UBL domain of Dsk2 binds to the same UIM of Rpn10 in this complex stronger than monoUb does and comparable with Ub2, even a tri-Ub chain should not provide an ``overhang'' sufficient to compete with the UBL for Rpn10 binding. The result is that in the presence of Dsk2, tetraUb is the shortest chain with sufficient Ub capacity to extend beyond the grip of the UBA and bind Rpn10 (Figure 6E). This observation nicely complements the early findings that polyUb chains of n R 4 are efficient signals for proteasomal targeting (Thrower et al., 2000). For multiple ligands to play musical chairs with their receptors, the same surface on a given receptor must be capable of distinguishing from among a broad range of potential ligands. As a case in point, a single amino acid residue can account for a 5-fold difference in binding affinity of two similar ligands: Ub and Dsk2-UBL (Figure 4, Table 1). Thus the D64K mutation essentially converts the affinity of Dsk2-UBL for Rpn10 into
+
+Figure 5. Competition Assays Reveal Hierarchy in Binding between Rpn10, Dsk2, and (Poly)Ub
+(A) Representative 2D NMR spectra of 15N-Ub (left) or 15N-Ub2 (proximal Ub, right) alone (black contours), overlaid with spectra upon binding to Rpn10204­268 (blue), and after subsequent addition of Dsk2-UBL (green). (B) Overlays of NMR spectra of 15N-Dsk2-UBL alone (black), upon binding to Rpn10204­268 (blue), and after subsequent addition (green) of Ub2 (left) or increasing amounts of Ub4, from one Ub unit (middle) to one Ub4 chain per Dsk2 (right). To guide the eye, blue and green arrows in (A) and (B) show shifts in peak positions caused by the corresponding binding events. Dsk2-UBL can outcompete monoUb for binding to Rpn10, whereas Ub4 can outcompete Dsk2-UBL. (C and D) Representative regions of 2D NMR spectra of 15N-Rpn10204­268 free (left) and bound (middle) to (C) Ub or (D) Ub2. UBA can outcompete Rpn10 for binding to both monoUb and Ub2 (right). Shifts in peak positions are indicated by red arrows. Underlined residue numbers indicate signals broadened beyond detection. (E) Pull-down assays with full-length Rpn10. Rpn10 was crosslinked to activated Sepharose beads and mixed with either monoUb, polyUb, or recombinant purified Dsk2-UBL in PBS buffer; washed extensively; and eluted with 8M urea. Samples of starting material are shown on the left resolved on 18% SDS-PAGE. All monoUb was washed off, and none was detected in the elution. By contrast, Dsk2-UBL and polyUb were retained on the Rpn10 column. Elution samples of competition binding are shown on the right.
+
+Molecular Cell 36, 1018­1033, December 24, 2009 ª2009 Elsevier Inc. 1029
+
+Molecular Cell
+Rpn10/Dsk2 as Polyubiquitin Chain-Length Sensor
+
+A
+UBA polyUb Rpn10 column 170 130 100 70 55 40
+
+Input
+
+Elution
+
+B
+UBA polyUb  UBA UIM column
+
+Input
+
+Elution
+
++ -
+
++ +
+
++ -
+
++ +
+
++ -
+
++ +
+
++
+
++ -
+
++ +
+
++
+ UBA
+
+ Ub
+
+C
+
+15
+
+N-Dsk2/Rpn10 + polyUb
+
+N-Dsk2/Rpn10 + polyUb 48 + XUBA 60 +
+15
+
+15
+
+N-Dsk2/Rpn10 + polyUb + 14
+
++ 34
+
+D
+15
+
+71 +
+
++ 14
+
++ 34
+15N-Dsk2/Rpn10 15N-Dsk2/Rpn10 15N-Dsk2/Rpn10
+
++
+
++ polyUb or 4xUb + 2xpolyUb or 8xUb free 15N-Dsk2-UBL
+
+1
+
+H, ppm
+
+E
+
+Dsk2 Rpn10 Ub Ub2 Ubn
+Ub Ub
+
+UBL
+UBA
+
+Ub UBL
+UBA
+
+Ub UBL Rpn10
+UBA
+
+Ub
+
+Rpn10
+
+n<4
+
+Rpn10
+
+Ub
+
+Ub
+
+n4
+Ub
+
+Ub Rpn10
+
+Ub
+
+Ub
+
+Ub
+UBA
+
+19S ?
+UBL
+
+Ub
+
+Ub
+
+Figure 6. Together, Rpn10 and Dsk2 Act as a Ub Chain-Length Sensor
+(A) Pull-down assays show that full-length Rpn10 forms a ternary complex with polyUb and Dsk2DUBL. Purified Dsk2DUBL, polyUb (n R 4), or premixed Dsk2DUBL and polyUb (in a 1:1 ratio) were applied to an affinity column generated from Rpn10 crosslinked to Sepharose (Supplemental Data). (B) Similar results were obtained for binding to the UIM-containing construct of Rpn10204­268. (C) Overlay of representative regions of 2D NMR spectra of full-length 15N-Dsk2 in a 1:1 complex with Rpn10204­268 (green, as in Figures 1J and 1L) and upon subsequent addition of polyUb chains (n R 4) in approximately 1:1:1 (red) or 2:1:1 (blue) molar ratio. PolyUb causes the UBL signals to return to their positions in free isolated UBL, determined independently (indicated by crosses). Signals of UBL residues that interact with UIM (W14, G48, Y60, and
+
+1030 Molecular Cell 36, 1018­1033, December 24, 2009 ª2009 Elsevier Inc.
+
+15
+
+N-Dsk2/Rpn10 + monoUb
+
+N-Dsk2/Rpn10 + monoUb 48 + XUBA 60 +
+15
+
+15
+
+N-Dsk2/Rpn10 + monoUb
+
+N, ppm
+
+71
+
++
+
+Molecular Cell
+Rpn10/Dsk2 as Polyubiquitin Chain-Length Sensor
+
+that of Ub for the same receptor. Contribution of a hydrophilic interaction to binding of a member of the Ub family (Dsk2-UBL in this study) improves our current understanding of Ub recognition. Until now, most studies identified the canonical hydrophobic patch and matching hydrophobic residues in the receptor as critical for recognition of Ub and most UBL domains by the major classes of receptors (whether UBA, UIM, Cue, or others [Hurley et al., 2006]). The protocols researchers use to affinity purify, trap, isolate, or wash Ub family members will have to be carefully assessed if they want to study the unique properties of these signals that differ in their binding properties. Interestingly, in the strength of its interaction with the UIM of Rpn10, Ub falls between the UBLs of Dsk2 and Rad23. Other Ub-binding proteins may vary in their binding preferences. It may be concluded that without accurate data on the comparative properties and binding affinities for various Ub family members, merely stating that a protein has a Ub-binding domain might be insufficient to explain its overall role in the context of the UPS. While shuttles of Ub conjugates support degradation, they can also, paradoxically, oppose UPS activity (Chen et al., 2001; Matiuhin et al., 2008; Raasi and Pickart, 2003). High concentrations of Ub binders ``decorating'' a polyUb ``tree'' could make the Ub signal inaccessible; thus their biological abundance must be under very strict control (as in the case of ubistatins [Verma et al., 2004b] or Dsk2 [Matiuhin et al., 2008]). Rad23 displays a concentration-dependent inhibitory effect on polyUb chain formation and substrate turnover (Ortolan et al., 2000). Likewise, excess Rpn10 effectively protects model substrates from proteolysis (Deveraux et al., 1995; Verma et al., 2004a). PolyUb conjugates accumulate upon overexpression of DSK2, and half-life of short-lived proteins is extended, eventually leading to cell death (Matiuhin et al., 2008). These references, together with the data presented in this manuscript, uphold a model whereby Ub-binding proteins may function in more ways than merely cargo shuttles. Extrapolating beyond the interesting relationship we uncovered between Rpn10 and Dsk2, we expect that other Ub-binding partners also participate in shaping the Ub signal by serving as filters and/or enhancers for specific chain types. An additional example whereby a Ub chain may relay between multiple receptors is the case of hHR23A/S5a (Kang et al., 2007), where hHR23A recognizes and binds polyUb via the UBA-2 domain and docks via its UBL domain on UIM-2 of S5a. Subsequently, UIM-1 of S5a recognizes and binds polyUb to complete the tran-
+
+sition. Undoubtedly these examples only scrape the tip of the iceberg. A broad interaction sphere ``decorating,'' masking, or chaperoning Ub conjugates adds to the heterogeneity of the signal in terms of chain length and linkage type. The combinatorics of Ub-binding proteins and other factors (DUBs, E2s, E3s, etc.) contribute to the richness of the Ub signal landscape. It is by extending the complexity of previous studies that we show how two receptors working in tandem (Rpn10 and Dsk2) are able to discriminate between Ub chains below and above the threshold of four. Neither of them is able to do so alone. These findings alter our conception of the ubiquitin signal: (1) Ub might not be the ultimate signal but apparently serves in coordination with an assortment of receptors and shuttles that ``decorate'' the chain; and (2) depending on the length of the chain, this assemblage reorients, presenting alternative signals to the downstream components, such as the proteasome.
+EXPERIMENTAL PROCEDURES Full-length Rpn10 and Dsk2 constructs from Saccharomyces cerevisiae were expressed and purified as described previously (Matiuhin et al., 2008). The UIM-containing C-terminal construct of Rpn10 (referred to as Rpn10204­268) contained residues G204­K268 from the Rpn10 sequence. Residue Q261 was mutated to Tyr for quantification purposes. Expression and purification of human Ub and assembly of K48-linked polyUb chains were carried out as described (Varadan et al., 2002). The expression and purification of the UBA domain of ubiquilin-1 is detailed elsewhere (Zhang et al., 2008). UBL domains from four yeast proteins were used in this study: Dsk2, Rad23, Ubp6, and Ddi1. Details on cloning, expression, and purification of the proteins and biochemical characterization of binding are in the Supplemental Data. Samples for NMR studies were prepared in 20 mM phosphate buffer (pH 6.8) containing 7% D2O and 0.02% (w/v) NaN3. All NMR data were acquired at 22 C­23 C on a Bruker 600 MHz spectrometer. The experiments and data analysis are detailed in the Supplemental Data. SPR measurements were performed using ProteOn XPR36 instruments developed by Bio-Rad Haifa (Haifa, Israel) (see the Supplemental Data). SUPPLEMENTAL DATA Supplemental Data include Supplemental Experimental Procedures, 2 tables, 15 figures, and Supplemental References and can be found with this article online at http://www.cell.com/molecular-cell/supplemental/S10972765(09)00826-0. ACKNOWLEDGMENTS This work was supported by National Institutes of Health (NIH) grant GM065334 to D.F. and by Israel Science Foundation and United States-Israel Binational Science Foundation grants to M.H.G. The sabbatical of D.F. at the
+
+V71) shift upon addition of polyUb. The unshifted signal of A34 serves as a control for a residue that does not directly participate in Rpn10 binding (see Figures 1K and 3). (D) Overlay of NMR spectra of full-length 15N-Dsk2 in a 1:1 complex with Rpn10 (green) and upon subsequent addition of monoUb in 4:1 (red) or 8:1 (blue) molar ratios. In this case, the UBL signals remain essentially in the Rpn10-bound state. To guide the eye, positions of the corresponding NMR signals of free UBL (obtained from a separate experiment) are indicated in (C) and (D) as crosses or a dashed line for W143. UBA residues experience binding to both mono- and polyUb. For example, a signal indicated by XUBA (middle-column spectra) shifts upon addition of monoUb (D) but attenuates beyond detection in the presence of polyUb (C). These data demonstrate that by sharing a polyUb chain, the complex of Rpn10 and Dsk2 rearranges to unmask the UBL domain (as schematically shown in E [bottom right], see also Figure S15A). However, the strong preference of UIM for UBL alongside the stronger affinity of UBA for monoUb results in a different ternary complex in which Dsk2 links Ub and Rpn10 (E [top right] and Figure S15B). (E) A chain-length sensor. Possible ternary complexes formed by two Ub receptors in mixture with Ub chains of various lengths. The hierarchy of affinities of receptors for each other and for (poly)Ub provides a chain-length-sensitive mechanism able to shape Ub signaling. In a ternary complex with monoUb or short chains, Dsk2 mediates their interaction with Rpn10 and could enhance targeting of monoUb to downstream elements. By contrast, longer polyUb chains (n R 4) can be shared by Rpn10 and Dsk2; the UBL domain is unmasked in the resulting ternary complex and is available for interactions that recognize the ``UBL signal.''
+
+Molecular Cell 36, 1018­1033, December 24, 2009 ª2009 Elsevier Inc. 1031
+
+Molecular Cell
+Rpn10/Dsk2 as Polyubiquitin Chain-Length Sensor
+
+Technion was supported in part by a fellowship from the Lady Davis Foundation. We thank Ananya Majumdar (Johns Hopkins University) for help with setting up triple-resonance NMR experiments and Noa Reis for help with cloning and design of constructs. Received: March 17, 2009 Revised: August 24, 2009 Accepted: October 21, 2009 Published: December 24, 2009
+
+Hershko, A., and Heller, H. (1985). Occurrence of a polyubiquitin structure in ubiquitin-protein conjugates. Biochem. Biophys. Res. Commun. 128, 1079­1086. Hofmann, K., and Falquet, L. (2001). A ubiquitin-interacting motif conserved in components of the proteasomal and lysosomal protein degradation systems. Trends Biochem. Sci. 26, 347­350. Hurley, J.H., Lee, S., and Prag, G. (2006). Ubiquitin-binding domains. Biochem. J. 399, 361­372. Husnjak, K., Elsasser, S., Zhang, N., Chen, X., Randles, L., Shi, Y., Hofmann, K., Walters, K.J., Finley, D., and Dikic, I. (2008). Proteasome subunit Rpn13 is a novel ubiquitin receptor. Nature 453, 481­488. Ikeda, F., and Dikic, I. (2008). Atypical ubiquitin chains: new molecular signals. `Protein Modifications: Beyond the Usual Suspects' Review Series. EMBO Rep. 9, 536­542. Kang, Y., Chen, X., Lary, J.W., Cole, J.L., and Walters, K.J. (2007). Defining how ubiquitin receptors hHR23a and S5a bind polyubiquitin. J. Mol. Biol. 369, 168­176. Kravtsova-Ivantsiv, Y., Cohen, S., and Ciechanover, A. (2009). Modification by single ubiquitin moieties rather than polyubiquitination is sufficient for proteasomal processing of the p105 NF-kB precursor. Mol. Cell 33, 496­504. Matiuhin, Y., Kirkpatrick, D., Ziv, I., Kim, W., Dakshinamurthy, A., Kleifeld, O., Gygi, S.P., Reis, N., and Glickman, M.H. (2008). Extraproteasomal Rpn10 restricts access of the polyubiquitin-binding protein Dsk2 to proteasome. Mol. Cell 32, 415­425. Mayor, T., Graumann, J., Bryan, J., MacCoss, M.J., and Deshaies, R.J. (2007). Quantitative profiling of ubiquitylated proteins reveals proteasome substrates and the substrate repertoire influenced by the Rpn10 receptor pathway. Mol. Cell. Proteomics 6, 1885­1895. Ohno, A., Jee, J., Fujiwara, K., Tenno, T., Goda, N., Tochio, H., Kobayashi, H., Hiroaki, H., and Shirakawa, M. (2005). Structure of the UBA domain of Dsk2p in complex with ubiquitin molecular determinants for ubiquitin recognition. Structure 13, 521­532. Ortolan, T.G., Tongaonkar, P., Lambertson, D., Chen, L., Schauber, C., and Madura, K. (2000). The DNA repair protein rad23 is a negative regulator of multi-ubiquitin chain assembly. Nat. Cell Biol. 2, 601­608. Raasi, S., and Pickart, C.M. (2003). Rad23 ubiquitin-associated domains (UBA) inhibit 26 S proteasome-catalyzed proteolysis by sequestering lysine 48-linked polyubiquitin chains. J. Biol. Chem. 278, 8951­8959. Raasi, S., Varadan, R., Fushman, D., and Pickart, C.M. (2005). Diverse polyubiquitin interaction properties of ubiquitin-associated domains. Nat. Struct. Mol. Biol. 12, 708­714. Seong, K.M., Baek, J.H., Ahn, B.Y., Yu, M.H., and Kim, J. (2007a). Rpn10p is a receptor for ubiquitinated Gcn4p in proteasomal proteolysis. Mol. Cells 24, 194­199. Seong, K.M., Baek, J.H., Yu, M.H., and Kim, J. (2007b). Rpn13p and Rpn14p are involved in the recognition of ubiquitinated Gcn4p by the 26S proteasome. FEBS Lett. 581, 2567­2573. Thrower, J.S., Hoffman, L., Rechsteiner, M., and Pickart, C.M. (2000). Recognition of the polyubiquitin proteolytic signal. EMBO J. 19, 94­102. van Nocker, S., Sadis, S., Rubin, D.M., Glickman, M., Fu, H., Coux, O., Wefes, I., Finley, D., and Vierstra, R.D. (1996). The multiubiquitin-chain-binding protein Mcb1 is a component of the 26S proteasome in Saccharomyces cerevisiae and plays a nonessential, substrate-specific role in protein turnover. Mol. Cell. Biol. 16, 6020­6028. Varadan, R., Walker, O., Pickart, C., and Fushman, D. (2002). Structural properties of polyubiquitin chains in solution. J. Mol. Biol. 324, 637­647. Verma, R., Oania, R., Graumann, J., and Deshaies, R.J. (2004a). Multiubiquitin chain receptors define a layer of substrate selectivity in the ubiquitin-proteasome system. Cell 118, 99­110. Verma, R., Peters, N.R., D'Onofrio, M., Tochtrop, G.P., Sakamoto, K.M., Varadan, R., Zhang, M., Coffino, P., Fushman, D., Deshaies, R.J., and King,
+
+REFERENCES Beal, R., Deveraux, Q., Xia, G., Rechsteiner, M., and Pickart, C. (1996). Surface hydrophobic residues of multiubiquitin chains essential for proteolytic targeting. Proc. Natl. Acad. Sci. USA 93, 861­866. Beal, R.E., Toscano-Cantaffa, D., Young, P., Rechsteiner, M., and Pickart, C.M. (1998). The hydrophobic effect contributes to polyubiquitin chain recognition. Biochemistry 37, 2925­2934. Bech-Otschir, D., Helfrich, A., Enenkel, C., Consiglieri, G., Seeger, M., Holzhutter, H.G., Dahlmann, B., and Kloetzel, P.M. (2009). Polyubiquitin substrates allosterically activate their own degradation by the 26S proteasome. Nat. Struct. Mol. Biol. 16, 219­225. Chen, L., and Madura, K. (2002). Rad23 promotes the targeting of proteolytic substrates to the proteasome. Mol. Cell. Biol. 22, 4902­4913. Chen, L., Shinde, U., Ortolan, T.G., and Madura, K. (2001). Ubiquitin-associated (UBA) domains in Rad23 bind ubiquitin and promote inhibition of multiubiquitin chain assembly. EMBO Rep. 2, 933­938. Chen, T., Zhang, D., Matiuhin, Y., Glickman, M., and Fushman, D. (2008). 1H, 13C, and 15N resonance assignment of the ubiquitin-like domain from Dsk2p. Biomol. NMR Assign. 2, 147­149. Deveraux, Q., Ustrell, V., Pickart, C., and Rechsteiner, M. (1994). A 26 S protease subunit that binds ubiquitin conjugates. J. Biol. Chem. 269, 7059­7061. Deveraux, Q., van Nocker, S., Mahaffey, D., Vierstra, R., and Rechsteiner, M. (1995). Inhibition of ubiquitin-mediated proteolysis by the Arabidopsis 26 S protease subunit S5a. J. Biol. Chem. 270, 29660­29663. Elsasser, S., and Finley, D. (2005). Delivery of ubiquitinated substrates to protein-unfolding machines. Nat. Cell Biol. 7, 742­749. Fu, H., Sadis, S., Rubin, D.M., Glickman, M., van Nocker, S., Finley, D., and Vierstra, R.D. (1998). Multiubiquitin chain binding and protein degradation are mediated by distinct domains within the 26 S proteasome subunit Mcb1. J. Biol. Chem. 273, 1970­1981. Glickman, M.H., and Ciechanover, A. (2002). The ubiquitin-proteasome proteolytic pathway: destruction for the sake of construction. Physiol. Rev. 82, 373­428. Glickman, M.H., Rubin, D.M., Coux, O., Wefes, I., Pfeifer, G., Cjeka, Z., Baumeister, W., Fried, V.A., and Finley, D. (1998). A subcomplex of the proteasome regulatory particle required for ubiquitin-conjugate degradation and related to the COP9-signalosome and eIF3. Cell 94, 615­623. Guterman, A., and Glickman, M.H. (2004). Complementary roles for Rpn11 and Ubp6 in deubiquitination and proteolysis by the proteasome. J. Biol. Chem. 279, 1729­1738. Haririnia, A., D'Onofrio, M., and Fushman, D. (2007). Mapping the interactions between Lys48 and Lys63-linked di-ubiquitins and a ubiquitin-interacting motif of S5a. J. Mol. Biol. 368, 753­766. Haririnia, A., Verma, R., Purohit, N., Twarog, M.Z., Deshaies, R.J., Bolon, D., and Fushman, D. (2008). Mutations in the hydrophobic core of ubiquitin differentially affect its recognition by receptor proteins. J. Mol. Biol. 375, 979­996. Hartmann-Petersen, R., and Gordon, C. (2004). Proteins interacting with the 26S proteasome. Cell. Mol. Life Sci. 61, 1589­1595.
+
+1032 Molecular Cell 36, 1018­1033, December 24, 2009 ª2009 Elsevier Inc.
+
+Molecular Cell
+Rpn10/Dsk2 as Polyubiquitin Chain-Length Sensor
+
+R.W. (2004b). Ubistatins inhibit proteasome-dependent degradation by binding the ubiquitin chain. Science 306, 117­120. Wang, Q., Young, P., and Walters, K.J. (2005). Structure of S5a bound to monoubiquitin provides a model for polyubiquitin recognition. J. Mol. Biol. 348, 727­739. Young, P., Deveraux, Q., Beal, R.E., Pickart, C.M., and Rechsteiner, M. (1998). Characterization of two polyubiquitin binding sites in the 26 S protease subunit 5a. J. Biol. Chem. 273, 5461­5467.
+
+Zhang, D., Raasi, S., and Fushman, D. (2008). Affinity makes the difference: nonselective interaction of the UBA domain of Ubiquilin-1 with monomeric ubiquitin and polyubiquitin chains. J. Mol. Biol. 377, 162­180. Zhang, N., Wang, Q., Ehlinger, A., Randles, L., Lary, J.W., Kang, Y., Haririnia, A., Storaska, A.J., Cole, J.L., Fushman, D., and Walters, K.J. (2009). Structure of the s5a:k48-linked diubiquitin complex and its interactions with rpn13. Mol. Cell 35, 280­290.
+
+Molecular Cell 36, 1018­1033, December 24, 2009 ª2009 Elsevier Inc. 1033
+
+

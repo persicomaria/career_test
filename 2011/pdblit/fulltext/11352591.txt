@@ -1,0 +1,361 @@
+Computers & Operations Research 36 (2009) 1513 ­ 1528 www.elsevier.com/locate/cor
+
+A beam search algorithm for the circular packing problem
+Hakim Akeba, b , Mhand Hifib, c, , Rym M'Hallahd
+a Institut Supérieur du Commerce, 22 boulevard du Fort de Vaux, 75017 Paris, France b MIS, Axe Discrete Optimization and Reoptimization, Université de Picardie Jules Verne, 33 rue Saint-Leu, 80039 Amiens, France c CES, Equipe CERMSEM, MSE, Université Paris 1, 106-112 Bd de l'Hôpital, 75013 Paris, France d Department of Statistics and Operations Research, Kuwait University, P.O. Box 5969, Safat 13060, Kuwait
+
+Available online 21 February 2008
+
+Abstract In this paper, we propose to solve the circular packing problem (CPP) whose objective is to pack n different circles Ci of known radius ri , i  N = {1, . . . , n}, into the smallest containing circle C. The objective is to determine the radius r of C as well as the coordinates (xi , yi ) of the center of the packed circles Ci , i  N. CPP is solved by using an adaptive beam search algorithm that combines the beam search, the local position distance and the dichotomous search strategy. Decisions at each node of the developed tree are based on the well-known maximum hole degree that uses the local minimum distance. The computational results, on a set of instances taken from the literature, show the effectiveness of the proposed algorithm. 2008 Elsevier Ltd. All rights reserved.
+Keywords: Beam search; Circular packing; Dichotomous search; Diversification; Local-position distance; Maximum hole degree
+
+1. Introduction Cutting and packing problems are encountered in a variety of real world applications including the textile, apparel, naval, automobile, aerospace, and food industries. They generally consist of packing a set of items of known dimensions into one or more large objects or containers as to minimize the unused part of the objects or waste. The items and objects can be rectangular, circular, or irregular. This paper addresses the circular packing problem (CPP) where the items and objects are circles. This problem is of particular interest in bundling wires that connect a car's sensors to the display board [1,2]. The wires have to pass through a hole that will be drilled on the body of the car. The hole has to be large enough to allow all wires to pass, but as small as possible to avoid unnecessarily weakening the body. This problem is similarly of interest to the telecommunication/electrical/oil companies and refineries which have to pass bundles of different types of cables through cylindrical shapes over thousands of kilometers. The smaller the diameters of the cylinders, the cheaper the cost is. The CPP consists of packing n non-identical circles Ci of known radius ri , i  N = {1, . . . , n}, into the smallest containing circle C. The objective is to determine the radius r of C as well as the coordinates (xi , yi ) of the center of Ci , i  N . This problem is a variant of the two-dimensional open-dimension problem. It is a very difficult problem despite the smooth surfaces of its constraints.
+ Corresponding author at: CES, Equipe CERMSEM, MSE, Université Paris 1, 106-112 Bd de l'Hôpital, 75013 Paris, France. Tel.: +33 3 22 82 54 11; fax: +33 3 22 82 54 12. E-mail address: hifi@u-picardie.fr (M. Hifi).
+
+0305-0548/$ - see front matter doi:10.1016/j.cor.2008.02.003
+
+2008 Elsevier Ltd. All rights reserved.
+
+1514
+
+H. Akeb et al. / Computers & Operations Research 36 (2009) 1513 ­ 1528
+
+This paper solves CPP using an adaptive beam search (BS) algorithm that combines dichotomous search and widthfirst BS. The BS is a classical tree search method that was introduced in the context of scheduling (Ow and Morton [3]), but has since then been successfully applied to other combinatorial optimization problems (see Bennell and Song [4], Kap et al. [5] and Sabuncuoglu and Bayiz [6]). The proposed method can be viewed as an adaptation of the approaches proposed in Hifi and Saadi [7] and Akeb and Hifi [8] for special constrained strip/rectangular cutting/packing problems. The remainder of the paper is organized as follows. Section 2 provides a detailed review of CPP related literature. Section 3 explains the notion of maximum hole degree (MHD). Section 4 describes the mechanisms of a standard BS. Section 5 discusses the proposed adaptive heuristic; in particular its dichotomous search, its BS, and its diversification strategies. Section 6 presents the results and assesses the performance of the heuristic and its variations in terms of solution quality and runtime; highlighting the need for the diversification of the search. Finally, Section 7 summarizes the contributions of this paper and gives possible extensions. 2. Related works For the circular cutting/packing problem, most published papers focus on packing identical circular pieces [9­11]. The papers dealing with non-identical circles solve variants of the problem, in particular, packing circles into a rectangle. George et al. [12] propose a non-linear mixed integer program for packing circles of different diameters into a rectangle of fixed known dimensions. Since the model is of little practical use, they opt for constructive heuristics. Stoyan and Yaskov [13] address the problem of packing non-identical circles into a fixed width strip (i.e., an open dimension problem [14]), using a mathematical model that searches for feasible local optima using branch and bound and the reduced gradient method. Correia et al. [15] propose two new upper bounds for the problem. Huang et al. [16] construct two greedy heuristics which use a MHD rule and a look ahead search strategy. Hifi et al. [17] design a simulated annealing-based algorithm to pack non-identical circles into a strip of fixed dimensions (i.e., a single knapsack problem [14]). Akeb and Hifi [8] tackle the same problem using a BS combined with a minimum distance local position-based heuristic. Hifi and M'Hallah [18] propose a simple constructive heuristic and a genetic algorithm to pack circles into a rectangle of fixed width but of variable length (i.e., a single large object placement problem [14]). Birgin et al. [19] tackle the same problem using a non-linear model whose number of non-overlapping constraints is O(n2 ). For the same problem, Birgin and Sobral [20] propose a more efficient twice differentiable non-linear programming model that reduces the computational cost of reinforcing the no-overlap constraints. The model has been adapted to various types of containing objects and to the three-dimensional case. Packing non-identical circles into a containing circle of known radius has been studied by Hifi and M'Hallah [1], Sugihara et al. [2], Hifi and M'Hallah [21], Huang et al. [22], Wang et al. [23], Zhang and Deng [24]. Wang et al. [23] randomly generate an initial pattern, measure its infeasibility, and keep translating circles whose positions are infeasible until restoring feasibility. Zhang and Deng [24] combine Wang et al.'s [23] approach with simulated annealing to explore the neighborhood of the current solution, and tabu search to use jumps. Sugihara et al. [2] construct a sufficiently large circle that contains all circles, then reduce the radius of the containing circle using a shrink and shake iterative strategy. Hifi and M'Hallah [21] consider a dynamic adaptive iterative local search procedure. At each iteration, the heuristic identifies the set of potential best positions of a circle Ci , i  N , given the positions of the previously packed circles, and determines for each of these positions the coordinates and radius of the smallest containing circle. Hifi and M'Hallah [1] propose a three-phase approximate heuristic. During its first phase, it successively packs the ordered set of circles. It searches for each circle's "best" position given the positions of the already packed circles where the best position minimizes the radius of the current containing circle. During its second phase, it reduces the radius of the containing circle by applying both intensified and diversified strategies. During its third and last phase, it introduces a restarting procedure that explores the neighborhood of the current solution in search for a better ordering of the circles. Finally, Huang et al. [22] solve CPP using A1.0 and A1.5, which are extensions of the approach proposed in [16]. A1.0 and A1.5 use the notion of MHD of a position of a circle to be packed given a fixed value of r and the positions of already packed circles. A1.0 chooses for the circle to be packed the feasible position having the highest hole degree. It is run n(n - 1) times; each time starting with a different pair of the n circles. A1.5 is a modified version of A1.0 applying a look ahead search for every feasible corner position of the circle to be packed. Given the set of i packed circles, A1.5 packs Ci+1 in every feasible corner position and uses A1.0 to pack all remaining items. If it successfully packs all items, A1.5 stops; else, it chooses for Ci+1 the feasible corner position yielding the infeasible solution having the highest density and pursues packing the remaining circles. The description of the MHD strategy is detailed in the following section.
+
+H. Akeb et al. / Computers & Operations Research 36 (2009) 1513 ­ 1528
+
+1515
+
+3. The MHD strategy Herein, we describe a greedy heuristic [22] which uses the notion of the MHD strategy. Having positioned a set I i  N of circles, MHD positions Ci+1 , i  N \I i , into the MHD corner position among all its feasible positions in C--i.e., without overlapping any of the already packed circles. A corner position p i+1  PI i , the set of distinct corner positions of Ci+1 given I i , is a feasible position of Ci+1 in C such that Ci+1 is either tangent to two circles of I i or tangent to a circle of I i and to the perimeter of C. The hole degree of Ci+1
+i+1 p
+
+=1-
+
+d pi+1 ri+1
+
+,
+
+where d pi+1 =
+j I i \Tpi+1
+
+min
+
+{di+1,j }
+
+is the minimum distance between Ci+1 (when positioned in p i+1  PI i ) and already packed circles in I i excepting the two circles of Tpi+1 . The set Tpi+1 , pi+1  PI i , denotes the set of circles in I i used to determine p i+1 for Ci+1 . In addition, di+1,j = (xi+1 - xj )2 + (yi+1 - yj )2 - ri+1 - rj
+
+is the distance that separates Ci+1 and Cj , (i + 1, j )  N × N . Note that MHD is equivalent to the minimum local distance position (MLDP) used in Akeb and Hifi [8], which consists, for this case, in computing the smallest distance between the current element to pack and the already packed circles augmented with the large circle. 5 5 5 Fig. 1 illustrates PI 4 = {p1 , p2 , p3 }, the set of all feasible distinct corner positions of C5 given r and the positions 4 = {C , . . . , C }. The feasible corner position p 5 is tangent to C and C, p 5 to C and C , of the packed circles of I 1 4 2 1 2 1 2 5 and p3 to C3 and C. It follows that Tp5 = {C2 }, Tp5 = {C3 }, and Tp5 = {C1 , C2 }. The minimum distance between C5
+5 5 and already packed circles when positioned in p1 and p3 are d1,5 and d4,5 . The minimum distance between C5 and 5 already packed circles when positioned in p2 equals 0 since C5 happens to be also tangent to C3 . Specifically, for a fixed radius r and a pre-determined ordering of the circles, MHD proceeds as follows. It starts by positioning the first two circles tangent to each other and to the containing circle. The first circle C1 is set at (0, r1 - r), whereas the second circle C2 is positioned tangent to C1 and C as shown in Fig. 1. The remaining n - 2 circles are then successively positioned using the MHD rule.
+1 3 2
+
+d p5
+3
+
+5 p3 p1 5
+5 5
+
+4
+
+p2 5
+
+5
+
+3
+
+2 d p5
+1
+
+1
+
+Fig. 1. Feasible distinct corner positions of C5 .
+
+1516
+
+H. Akeb et al. / Computers & Operations Research 36 (2009) 1513 ­ 1528
+
+4. A beam search BS can be viewed as a truncated tree search solution procedure. It avoids exhaustive enumeration by performing a partial search of the solution space. At each level of the search tree, BS selects a subset of nodes, called the set of elite nodes, for further branching. The other nodes are simply discarded, and no backtracking is performed. The number of elite nodes to be investigated at each level is called the beam width. The subset containing the selected nodes are those having a high potential to lead to the optimal solution or an upper/lower bound. The potential of a node is assessed via an evaluation operator whose role is to provide a good separation mechanism of the nodes of each level of the developed tree. Fig. 2 provides a pseudo-code of a standard BS. As with branch and bound, an upper bound can be used to fathom nodes. Indeed, if an initial feasible solution is available, then it is set as the incumbent solution and its value is assigned to z . On the other hand, if no initial feasible solution is available, z is set to  (assuming that the problem at hand is a minimization problem). The BS is characterized by the beam width , which is a constant used for filtering the set of offspring nodes B . A node corresponds to a potential (partial) feasible solution. The set B of current nodes is initialized to the root node B0 , whereas the set B of offspring nodes is initialized to the empty set. A current node of B generates a set of offspring nodes, and adds them to B . If a node of B is a leaf (i.e., no further branching is possible out of ), then its objective function value z is computed and compared to z . If z < z , then the incumbent solution is set to the leaf node; z is then updated: z = z ; and is removed from B . The nodes of B are assessed using an evaluation operator, and ranked in a non-ascending order of their values. The first nodes of B are then chosen as the elite nodes; that is, they are appended to B, the set of nodes to be further investigated, whereas the remaining nodes of B are fathomed and B is reset to the empty set. This process is reiterated until no further branching is possible.
+
+Fig. 2. A standard beam search heuristic.
+
+H. Akeb et al. / Computers & Operations Research 36 (2009) 1513 ­ 1528
+
+1517
+
+5. An adaptive algorithm for CPP This section describes how BS is adapted to solve CPP. First, it explains how the sequential dichotomous search is combined with BS and MHD. Second, it details three diversification strategies that allow the heuristic to escape local minima. 5.1. Combining dichotomous and BS The proposed heuristic BS, summarized in Fig. 3 (and detailed at the end of the paper, Appendix A), is an adaptive procedure that uses a dichotomous search for the radius of the containing circle within an interval [r, r ], whose bounds ¯ ¯ r and r are dynamically updated. The lower bound r is updated every time the packing procedure, detailed in Fig. 4 and evoked by the iterative step of Fig. 3, yields an infeasible solution. The upper bound r is, on the other hand, set to ¯ the current radius every time the aforementioned packing procedure yields a feasible layout. The dichotomous search is stopped when the search interval width becomes smaller than the tolerance gap ; i.e., when r - r ¯ . Initially, r is set to
+n
+
+(ri2 ),
+i=1
+
+whereas r is set to 2 × r. For r  [r, r ], the packing procedure searches for a feasible layout of the ordered n circles using a width-first BS. ¯ Each node of the tree corresponds to a partial solution or packing. A node at level 1, labeled 1 , is characterized by · I 1 = {C1 }, where C1 has been packed tangent to C at position (0, r1 - r), 1 · I = N \{C1 , C2 } the set of n - 2 circles that have not yet been considered for packing, and · PI1 , the set of feasible distinct corner positions of C2 given the position of C1 . In general, a node at level l is characterized by the set I l of already positioned circles, the set PIl of feasible distinct
+l l
+
+corner positions of the circle Cl+1 to be packed, and the set I of circles that remain to be packed; i.e., I =N \I l \{Cl+1 }. Branching out of a node at level l is equivalent to choosing a position of PIl for Cl+1 . There are as many possible branches out of a node as there are elements in PIl . Out of all the nodes at level l, the positions having the largest hole degrees
+
+Fig. 3. The dichotomous search within the adaptive heuristic.
+
+1518
+
+H. Akeb et al. / Computers & Operations Research 36 (2009) 1513 ­ 1528
+
+Fig. 4. BeamSearch( l ): the beam search procedure within the adaptive heuristic.
+
+are chosen as branches to be further investigated, whereas all other nodes of level l are fathomed. In addition, a node whose PIl =  is fathomed since it yields no feasible packing of the n circles into C. Finally, a node whose I =  is a leaf; that is, the n circles have been packed into C, and a feasible solution is at hand. Such a node has level l = n. The search stops when B = .
+l
+
+5.2. Diversifying the search Exploring a wider solution space required the implementation of three diversification strategies. The first strategy consists of running BS with different beam widths. The second and third strategies, which yielded the heuristics labeled BS1 and BS2, change the starting solution of BS. BS1, described in Fig. 5, starts BS at most n different times. It starts with the circle C1 and r = (r + r)/2. If it finds a feasible solution, it updates r. Otherwise, it starts BS with a different circle that have not been used as a starting point for the solution. It continues updating r every time a feasible solution is obtained, and restarting BS with a different circle of N if an infeasible solution is encountered. The search is stopped when the interval width becomes too small or the search strategy exhausts the n starting alternatives without identifying a feasible packing of the n circles into a circle of radius r. In the second case, it updates r and initiates the search with a new r.
+
+H. Akeb et al. / Computers & Operations Research 36 (2009) 1513 ­ 1528
+
+1519
+
+Fig. 5. Algorithm BS1.
+
+Fig. 6. Algorithm BS2.
+
+BS2, described in Fig. 6, starts BS at most n(n - 1) times. It starts BS with the pair of circles (C1 , C2 ), and r = (r + r)/2. If it finds a feasible solution, it updates the upper bound r. Otherwise, it considers a different pair of circles that have not yet been used as a starting partial solution. It updates the lower bound r only if it exhausts all the n(n - 1) possible pairs without identifying a feasible packing of the n circles for the current r.
+
+1520
+
+H. Akeb et al. / Computers & Operations Research 36 (2009) 1513 ­ 1528
+
+It is noteworthy that a partial initial solution that yields an infeasible solution for a given r is no longer considered by BS1 or BS2 as a partial starting solution. In fact, it is not used in any future iteration of BS1 or BS2. 6. Computational results The objective of the computational investigation is twofold: (i) to assess the performance of the proposed adaptive heuristic when dealing with identical and non-identical circles and (ii) to study the need for the diversification strategies and their effect. Specifically, three versions of the adaptive heuristic are investigated: BS, BS1, and BS2; each is run with various beam widths. Unless differently stated, BS, BS1, and BS2 are run for all values of = 1, . . . , 100. The three heuristics are coded in C and run on an AMD Athlon XP2000+, 1.67 GHz and 512 Mb of RAM. 6.1. Heuristics' performance The heuristics are assessed in terms of their solutions' quality and their complexity. 6.1.1. Solution quality The heuristics are tested on three sets of instances. The first set consists of six instances; each characterized by n identical circles of radius ri = 1, i = 1, . . . , n, where n = 10, 20, 30, 40, 50, 60, 70, 90, and 100. This set is used to show that even though MHD is ill fitted for the identical circles, BS overcomes this poor performance thanks for its partial tree search. Table 1 displays the results obtained by existing heuristics and by BS, for these ten instances (obviously, there is no point in testing BS1 or BS2 since all circles are identical). Column 1 indicates n, the size of the instance. Columns 2­5 report, respectively, r, the best known radius as reported in [11], rA1.0 , rA1.5 , and rBS , the smallest radius obtained by applying A1.0, A1.5, and BS. Finally, columns 6 and 7 give the beam width BS that yielded rBS and tBS , the runtime in seconds when BS is applied with beam width BS . Table 1 shows that BS yields consistently better results that A1.0. Indeed, for every instance, rA1.0 > rBS (a minimization problem). The percent deviation of rA1.0 from r is on average 3.62%, and reaches 5.53% for n = 30 versus an average and a maximum percent deviation of rBS from r of 1.18% and 1.85%, respectively. These percent deviations are also lower than the 1.48% and 2.19% corresponding values for A1.5. Indeed, BS outperforms A1.5 for all instances with n 30. The second set has 12 instances consisting of the six problems of Stoyan and Yaskov [13], and six additional problems obtained by duplicating or concatenating the six original problems. These 12 instances, used as benchmark problems in [1,21], are interesting as they have not been specifically constructed for packing non-identical circles into a circle but for packing circles into a rectangle. Moreover, these problems include relatively large problems; thus, reflect the behavior of the proposed heuristics when the problem size increases (the instances can be downloaded from the following web page: http://www.laria.u-picardie.fr/hifi/OR-Benchmark/Circular). Table 2 displays for these 12 instances the results obtained by existing heuristics and by BS, BS1, and BS2. Columns 1 and 2 report the instance and its corresponding size n. Columns 3­5 indicate rA1.0 , rA1.5 , and rHM , the smallest radius obtained by applying, respectively, A1.0, A1.5, and the adaptive approach of Hifi and M'Hallah [21].
+Table 1 Results of BS for identical circles.
+n 10 20 30 40 50 60 70 80 90 100 r 3.8127 5.1213 6.1971 7.1231 7.9468 8.6454 9.3452 9.9674 10.5453 11.0817 rA1.0 3.9239 5.3844 6.5397 7.3374 8.0742 9.0361 9.6883 10.2276 10.8364 11.5742 rA1.5 3.8211 5.1476 6.3068 7.2764 8.0701 8.7426 9.5074 10.1852 10.7260 11.2891 rBS 3.8347 5.1601 6.2946 7.2133 8.0093 8.7064 9.4751 10.1264 10.6873 11.2865
+BS
+
+tBS 0.61 13.36 23.17 140.43 241.61 182.62 29.60 411.27 49.11 1459.76
+
+39 63 38 78 69 34 9 63 7 99
+
+H. Akeb et al. / Computers & Operations Research 36 (2009) 1513 ­ 1528
+Table 2 Performance of the adaptive heuristics on the instances of Stoyan and Yaskov.
+Instance SY1 SY2 SY3 SY4 SY5 SY6 SY1­4 SY5­6 SY10 SY20 SY30 SY40 n 30 20 25 35 100 100 110 200 300 200 250 350 rA1.0 7.30 6.34 6.45 9.16 13.20 14.95 rA1.5 7.21 6.27 6.42 9.05 13.17 14.94 rHM 7.2100 6.3393 6.4842 9.2745 13.2742 15.1476 14.8351 20.2022 22.9070 19.8020 20.3060 28.8889 rBS 7.2732 6.3125 6.4629 9.1633 13.1523 14.9832 14.4780 19.7817 22.6133 19.5531 20.0645 28.4238
+BS
+
+1521
+
+tBS 2.8 3.2 9.2 4.0 900 427 498 8856 7600 1853 2907 15 900
+
+rBS1 7.2484 6.2953 6.4304 9.0884 13.1103 14.8911 ­ ­ ­ ­ ­ ­
+
+BS1
+
+tBS1 119 31 227 9642 31 872 15 736
+
+rBS2 7.2146 6.2757 6.4092 9.0573 ­ ­ ­ ­ ­ ­ ­ ­
+
+BS2
+
+tBS2 17 066 550 1257 20 195
+
+13 45 63 12 87 45 39 95 23 22 18 26
+
+23 29 73 81 45 23
+
+81 29 23 56
+
+Column 6 indicates rBS , the smallest radius obtained when BS is applied. Column 7 shows the beam width BS that yielded rBS . Column 8 gives tBS , the runtime in seconds when BS is applied with beam width BS . Columns 9­11 and 12­14 report the same information as Columns 9­11 but for BS1 and BS2, respectively. BS was run for all 12 instances, but with up to 35, 50, 40, and 30 for SY10, SY20, SY30, and SY40, respectively. BS1 was run for the first six instances only (i.e., SY1­SY6), whereas BS2 was run only for the first four instances (i.e., SY1­SY4). BS matches or improves the results obtained by the adaptive approach of Hifi and M'Hallah [21], but at the cost of a higher computational time. BS improves some of the results obtained by A1.0 (exactly three out of the first six instances); however, it cannot compete with A1.5 for small problems (SY1­SY4). For large problems, BS improves the radius obtained by A1.5 for SY5 but not for SY6. It is noteworthy that A1.0 and A1.5 cannot solve the larger sized problems with (n 110). Indeed, the runtime of A1.5 is prohibitively high (several days) for small sized problems. The runtimes reported in [22] do not include the time of search for the smallest radius rA1.5 . It is simply the time required to pack the n circles in a circle of radius rA1.5 . Both BS1 and BS2 improve all the results obtained by A1.0 for the small sized problems SY1­SY4. In addition, BS1 improves the results obtained by A1.0 for the large sized problems SY5 and SY6. BS2 obtains comparable results to A1.5 for the three small sized problems SY1, SY2 and SY4 while it improves rA1.5 for SY3. The results further show that, for SY1­SY4, BS2 performs better than BS1 which in turn yields smaller radii than BS. The improvement is most likely due to the fact that BS2 investigates a larger portion of the solution space than BS1, which in turn investigates a larger portion of the solution space than BS. It is though worth mentioning that the solution space of BS is not necessarily embedded in that of BS1 which is not necessarily embedded in that of BS2. The third set has 24 instances tested in [22]. Table 3 records the best results obtained by A1.0, A1.5 and BS, BS1, and BS2. Columns 1 and 2 report the instance and its size n, whereas Columns 3­4 indicate rA1.0 and rA1.5 , the smallest radius obtained by A1.0 and A1.5, respectively. Columns 5­7 tally results relative to the application of BS: Column 5 indicates the smallest radius rBS obtained when BS is applied; Column 6 shows the beam width BS that yielded rBS , and Column 7 gives tBS the runtime in seconds when BS is applied with beam width BS . Columns 8­10 and 11­13 report the same information as Columns 5­7 but for BS1 and BS2, respectively. The analysis of the results of Table 3 shows that BS improves the results obtained by A1.0 in 16 out of 24 instances. However, it improves the results obtained by A1.5 only in one occasion out of 24. Therefore, the diversification of the search in the solution space is needed. Indeed, BS1 improves the results obtained by A1.0 in 23 out of 24 instances and those of A1.5 in 7 out of 24 instances. Similarly, BS2 improves all the results obtained by A1.0 and those obtained by A1.5 in 14 out 24 instances. Furthermore, either BS1 or BS2 improves the radius obtained by BS in 23 occasions and matches the result of BS in the other instance. Finally, BS2 improves the radius obtained by BS1 in 20 instances and matches it in two additional occasions. 6.1.2. Heuristics' complexity A1.0 and A1.5 [22] have a time complexity of the order of O(n4 |PI | + n6 ), and O(n5 |PI |2 + n7 |PI |), respectively, whereas the time complexity of BS can be determined as follows. Each iterative step of BeamSearch() is run n times;
+
+1522
+
+H. Akeb et al. / Computers & Operations Research 36 (2009) 1513 ­ 1528
+
+Table 3 Beam search results for NR instances.
+Instance NR10-1 NR11-1 NR12-1 NR14-1 NR15-1 NR15-2 NR16-1 NR16-2 NR17-1 NR18-1 NR20-1 NR20-2 NR21-1 NR23-1 NR24-1 NR25-1 NR26-1 NR26-2 NR27-1 NR30-1 NR30-2 NR40-1 NR50-1 NR60-1 n 10 11 12 14 15 15 16 16 17 18 20 20 21 23 24 25 26 26 27 30 30 40 50 60 rA1.0 102.29 61.58 66.08 114.83 38.99 39.15 144.51 129.26 49.60 198.88 126.69 123.55 150.70 176.65 140.17 192.68 249.93 306.25 225.46 178.90 174.93 360.75 381.05 525.57 rA1.5 99.89 60.71 65.30 113.84 38.97 38.85 143.44 128.29 49.25 197.40 125.53 122.21 148.82 175.47 138.38 190.47 246.75 303.38 222.58 178.66 173.70 357.00 380.00 522.93 rBS 100.2096 60.7100 66.1770 114.9881 39.1332 39.1465 144.5201 129.3405 49.3799 198.8163 126.4728 122.5748 149.9975 176.4390 139.5833 192.0539 249.3432 307.1960 224.5264 179.6901 175.0935 359.5155 380.0330 524.5508
+BS
+
+tBS 0.19 0.39 0.19 0.58 0.77 3.86 0.29 6.51 2.31 1.64 3.66 0.58 7.81 8.68 14.46 3.47 5.59 6.56 8.10 3.57 37.00 23.14 49.00 151.00
+
+rBS1 99.8851 60.7100 65.7576 114.5788 38.9561 38.8407 143.8962 128.0539 49.3029 198.2791 125.8659 122.3027 149.4128 175.8045 138.8035 190.6384 247.8069 304.8084 222.9574 178.9100 173.9421 357.5576 378.9722 521.6621
+
+BS1
+
+tBS1 0.29 2.89 2.60 35.19 1.64 9.93 67.49 27.29 59.59 7.91 23.24 12.71 121.00 250.00 268.00 334.00 27.00 206.00 47.56 415.00 74.60 1883.00 2409.00 3234.00
+
+rBS2 99.8851 60.7100 65.4752 114.2919 38.9441 38.8380 143.7176 128.5826 49.2069 198.2850 125.6316 122.2192 149.1351 175.4058 138.2778 190.1855 247.5464 303.2102 222.4896 178.0102 173.4359 357.0695 378.5854 521.2739
+
+BS2
+
+tBS2 19.13 28.25 4.70 151.00 59.46 1179.00 139.00 43.50 234.00 29.00 764.00 351.00 638.00 3072.00 510.00 1493.00 583.00 11 240.00 3750.00 5045.00 9217.00 22 140.00 21 400.00 13 975.00
+
+16 29 11 20 20 83 8 94 28 27 41 9 69 59 86 21 26 30 37 15 99 31 35 57
+
+3 29 15 79 5 21 91 39 100 10 18 12 65 92 98 93 9 41 17 66 13 57 60 39
+
+39 38 3 36 16 91 26 6 91 3 30 21 23 67 17 36 8 74 53 43 47 21 19 9
+
+i.e., once for every level of the branching tree. At each step, B has at most nodes, and for a given node of B, the degree of a corner position is computed in O( |PI ||I |). The corner positions are inserted into B , whose size is of the order of |PI |. B is then sorted in a non-increasing order of in O(|B | log(|B |)). The best elements of B replace the elements of B such that no two identical positions are represented by two different nodes of the same level of the tree: an operation of O( |B |). The computation of the corner positions of each newly created node is then undertaken in O( |I |2 |I |) since it requires the detection of the overlap of any of the positions of |I | with an already positioned circle of I for each of the nodes of B. Therefore, an iteration of Beamsearch() has a time complexity of ¯ ¯ the order of O( |Pi ||I | + |B | log(|B |) + |B | + |I |2 |I |); that is, of the order O(|B | log(|B |) + |I |2 |I |). 2 ||I |). ¯ Since |PI ||I | < |B | log(|B |), then each step of BeamSearch() is of the order of O( |PI | log( |PI |) + |I | ¯ Since the iterative step is run n times, the complexity of BS is of the order O( n(|PI | log( |PI |) + |I |2 |I |)). |PI | is 3 . However, for all practical instances, |P | is a lot smaller as shown not necessarily a function of n; it is bounded by n I ¯ by the examples given in [22]. Finally, the sizes of I and I are of the order of O(n). Subsequently, BS's complexity can be simplified to O( n(n3 + |PI | log( |PI |))). The complexity of BS1 and BS2 can therefore be deduced as follows. Since BS1 runs BS at most n times, its time complexity is O( n2 (n3 + |PI | log( |PI |))). Similarly, since BS2 runs BS at most n(n - 1) times, its time complexity is O( n3 (n3 + |PI | log( |PI |))). 6.2. Effect of the diversification strategies The computational investigation of the behavior of the adaptive heuristics indicates that the larger the solution space, the higher the chances of reaching a better quality solution. This conclusion is further elucidated by Figs. 7 and 8 which represent the variation of the radius of the containing circle as the beam width varies from 1 to 100 for instances SY2 and SY4, respectively. These two figures are representative of the overall behavior of BS, BS1, and BS2 for all tested instances. For a given , rBS is generally greater than rBS1 , which is in turn greater than rBS2 . Moreover, any of the search spaces has numerous local minima that are obviously not globally optimal; thus, any successful search strategy should account for this characteristic of the problem and adopt diversification strategies that allow the escape
+
+H. Akeb et al. / Computers & Operations Research 36 (2009) 1513 ­ 1528
+6.50
+BS BS1 BS2
+
+1523
+
+6.45
+
+Radius
+
+6.40
+
+6.35
+
+6.30
+
+6.25
+
+0
+
+20
+
+40 60 Beam Width
+
+80
+
+100
+
+Fig. 7. Variation of r as
+9.45 9.40 9.35 9.30 Radius 9.25 9.20 9.15 9.10 9.05 9.00 0 20
+
+increases for SY2.
+
+BS BS1 BS2
+
+40 60 Beam Width
+
+80
+
+100
+
+Fig. 8. Variation of r as
+
+increases for SY4.
+
+from these local optima. In this case, reordering the circles and using different values of seemed to be the adequate diversification strategies. There is no clear rule of thumb that selects the most appropriate beam width for BS, BS1, or BS2. r varies considerably as can be seen in Figs. 7­9. However, the general trend is that r tends to decrease as increases. The radius seems to oscillate; yet the oscillation step seems to decrease as increases. The best local optimum may be obtained for a small value of when the problem size is small, but that is very rare when the problem size is large. Furthermore, BS = BS1 = BS2 . Increasing the beam width by 1 may increase the radius for BS but decrease it for BS1 or BS2 or vice versa. The upper bound of should therefore rather be set as a function of runtime. The choice of the tolerance gap of the dichotomous search was mainly dictated by the precision of the radius being reported. It was chosen to be 10-4 . However, a preliminary study was undertaken to assess the adequacy of such a choice. An example of the results of this study is provided in Table 4. The analysis of the results indicated that a finer search may improve the final solution (without necessarily requiring more computational time), but such an improvement is not guaranteed. Indeed, a heuristic may not be able to pack the n circles into a circle of radius r while being able to pack them in a circle of radius r < r. This last observation further complicated the choice of the interval width. Indeed, the study further investigated the effect of the width of the search interval on solution quality and runtime.
+
+1524
+
+H. Akeb et al. / Computers & Operations Research 36 (2009) 1513 ­ 1528
+20.10 20.05 20.00 Radius 19.95 19.90 19.85 19.80 19.75
+
+0
+
+20
+
+40 60 Beam Width
+
+80
+
+100
+
+Fig. 9. Variation of rBS for SY56 as a function of
+
+.
+
+Table 4 Effect of the tolerance gap for the dichotomous search on solution quality and runtime for NR24-1.
+rBS 10 10-4 10-3
+-5 BS
+
+tBS 16.61 14.46 11.84
+
+rBS1 138.8851 138.8035 138.9069
+
+BS1
+
+tBS1 324.94 268.00 223.16
+
+rBS2 138.2776 138.2778 138.2779
+
+BS2
+
+tBS2 598.26 510.00 405.20
+
+139.5832 139.5833 139.5833
+
+86 86 86
+
+98 98 98
+
+17 17 17
+
+Table 5 Effect of the interval width of the dichotomous search on solution quality and runtime for NR24-1.
+r 1.5 × r 2.0 × r 2.5 × r rBS 139.5832 139.5833 139.5832
+BS
+
+tBS 13.82 14.46 14.71
+
+rBS1 138.8035 138.8035 138.9063
+
+BS1
+
+tBS1 270.11 268.00 272.31
+
+rBS2 138.2778 138.2778 138.2778
+
+BS2
+
+tBS2 494.32 510.00 495.80
+
+86 86 86
+
+98 98 98
+
+17 17 17
+
+Table 5 shows an example of this effect for the instance NR24-1. The solution quality is not determined by the width of the interval. Furthermore, the runtime does not necessarily increase when the interval width increases since it depends mainly on how many times the iterative step of the BS is executed. 7. Conclusion This paper solves the CPP using an adaptive heuristic. The heuristic combines dichotomous search with beam search and uses the notion of MHD to position a circle at each node of the BS tree. The search space of the heuristic is further diversified by running it with different beam widths and initial partial solutions. The heuristic improves existing solutions for most tested instances. It is fast for small to medium sized problems. Its runtime remains reasonable for large sized problems. The heuristic may yield better quality solutions if hybridized with diversification and intensification search strategies that allow the escape from local minima. Acknowledgment The authors thank two anonymous referees for their constructive remarks.
+
+H. Akeb et al. / Computers & Operations Research 36 (2009) 1513 ­ 1528
+
+1525
+
+Appendix A. In this section, we describe the pseudo-codes of the solution procedures used in Section 5. We first detail the main pseudo-code corresponding to the BeamSearch function; that is used by BS, BS1, and BS2. Second and last, we summarize the principle used by BS, BS1, and BS2 (as already described and discussed). A.1. A pseudo-code of the BeamSearch function The BeamSearch function receives the node , which is composed of a single circle when it is called either by BS or BS1, and of two circles when BS2 is used. The function considers a circular queue whose size is equal to 2 × (line 3). The used size is due to the fact that the queue can contain the nodes of the current level and the new generated ones (in the next level). The used index top (line 6) represents the position of the next element (node) to treat according to the index rear that indicates the position of a new element to insert.
+1: int Beamsearch(Node ) 2: { 3: list of nodes 4: list of positions 5: int 6: int 7: boolean 8: Queue[rear] = ; 9: rear = rear+1; 10: while (QueueEmpty = = false) 11: { 12: EvaluatePositions(Queue); 13: 14: 15: 16: 17: lp = MergePositionsOfTheQueue(Queue); if (|lp| = = 0) {QueueEmpty = true; return nbcircles;} Sort(lp); MarkOmegaBestDifferentPositions(lp); ReplacePositionsIntoTheQueue(Queue, lp);
+
+Queue[2* ]; lp; nbcircles = | .I |; top = 0, rear = 0; QueueEmpty = false; //enqueue the node
+
+//compute/update the hole degrees using //the last circle in I //all the nodes are leaves //by decreasing values of the hole degree //the min( , |lp|) first ones of list lp //replace the positions into their original //nodes by respecting their new order
+
+//create min( , |lp|) new nodes 18: for (each marked position p of each node 19: { new = ; 20: 21: PlaceTheNextCircleAtPosition( new , p); 22: remove_invalid_positions( new ); 23: compute_new_positions( new ); 24: Queue[rear] = new ; 25: rear = (rear+1) modulo 2  ; 26: nbcircles = max(| new .I |, nbcircles); 27: if (nbcircles = = n) return n; 28: } 29: top = top+min( , |lp|) modulo 2  ; 30: } 31: return nbcircles; 32: }
+
+in the Queue) //make a copy of //insert the next circle at position p //those overlaping the new inserted circle //by using the new inserted circle //inqueue the new node //update the maximum number of circles //all the circles have been placed //dequeue the processed nodes
+
+At the main loop while (line 10), for each position of each node of the queue, the value is either calculated or updated with EvaluatePositions(Queue) (line 12). Next, all the positions corresponding to the nodes are stored in the same list, namely lp, by applying the procedure MergePositionsOfTheQueue(Queue) (line 13). Herein, two cases can be distinguished: 1. The current list lp is reduced to an empty set: Then, the n circles cannot be packed and so, the function returns the maximum number of the circles packed (nbcircles, line 14).
+
+1526
+
+H. Akeb et al. / Computers & Operations Research 36 (2009) 1513 ­ 1528
+
+2. lp = : All positions are sorted in decreasing order according to the values of are marked (line 16).
+
+and the first positions of the list
+
+Line 17 uses ReplacePositionsInTheQueue(Queue,lp) procedure that places each position into its original node, but according to the new order and the marked positions. From line 18 to 27, BS selects the first predefined positions (the marked ones) of the current level, which will be considered for generating the nodes of the next levels according to the beam width. Finally, at line 29, once all the nodes of the current level are treated, these ones are dequeued. A.2. A pseudo-code of BS First, BS starts by sorting the circles in decreasing order of their radii (line 3). Second, it calculates both limits (lower and upper bounds) of the interval search (line 4). Third and last, the main loop while (from line 6 to line 12) uses the current interval search within the BeamSearch function; in this case, the loop stops when the tolerance gap is less than or equal to 10-4 . 1: 2: 3: 4: 5: 6: 7: 8: 9: 10: 11: 12: 13: 14: } void BS(Instance of circles N ) { Sort the circles in N in a non-increasing order of the radii;
+i=n 2 r= i=1 (ri ) ; r = 2 × r; = 0.0001; while (r - r > ) { r = (r + r)/2; Generate the initial node 1 by placing the largest circle c1 at position (0, r1 - r) and calculate all the possible positions for circles {c2 , . . . , cn }; nb = Beamsearch( 1 ); if (nb = = n) r = r; else r = r; }
+
+A.3. A pseudo-code of BS1 BS1 starts by modifying the first circle to pack. In this case, first, it sorts the elements of the set N in decreasing order of their radii (line 3) and it computes both lower and upper limits of the dichotomous interval search (line 4). It extracts then, from the sorted circles of N, the circles with different radii which induce the set M = {1, . . . , m} (line 5). For the rest of the algorithm BS1, it considers the diversification strategy, as explained in Section 5.2. 1: 2: 3: 4: 5: 6: 7: 8: 9: 10: 11: 12: void BS1(Instance of circles N ) { Sort the circles in N in a non-increasing order of the radii;
+i=n 2 r= i=1 (ri ) ; r = 2 × r; Set M = {1, . . . , m}, the subset of the circles of different radii of N; = 0.0001; Set k = 1, where ck is the first circle of M while (r - r > ) { r = (r + r)/2; Generate the initial node 1 by placing circle ck at position (0, rk - r) and calculate all the possible positions for circles N \{ck }; nb = Beamsearch( 1 );
+
+H. Akeb et al. / Computers & Operations Research 36 (2009) 1513 ­ 1528
+
+1527
+
+13: 14: 15: 16: 17:
+
+if (nb = =n) r = r; else if (k < m) k = k + 1; else {r = r; k = 1; }; } }
+
+A.4. A pseudo-code of BS2 The same idea, as considered in BS1, is used by BS2. Indeed, the set M of the different sorted circles is constructed and the rest of the algorithm tries a diversification strategy, as explained in Section 5.2. 1: 2: 3: 4: 5: 6: 7: 8: 9: 10: 11: void BS2(Instance of circles N) { Sort the circles in N in a non-increasing order of the radii;
+i=n 2 r= i=1 (ri ) ; r = 2 × r; = 0.0001; Set M = {1, . . . , m}, the subset of the circles of different radii of N ; Set k1 = 1 and k2 = 2 where ck1 and ck2 are the two first circles of M; while (r - r > ) { r = (r + r)/2; Generate the initial node 2 by placing circle ck1 at position (0, rk1 - r) and circle ck2 tangent to the container and to circle ck1 . Calculate all the possible positions for circles N \{ck1 , ck2 }; nb = Beamsearch( 2 ); if (nb = =n) r = r; else if (k2 < m and k2 = k1 - 1) k2 = k2 + 1; else if (k2 < m - 1 and k2 = =k1 - 1) k2 = k2 + 2; else if (k1 < m - 1) {k1 = k1 + 1; k2 = 1; } else {r = r; k1 = 1; k2 = 2;} } }
+
+12: 13: 14: 15: 16: 17: 18: 19:
+
+References
+[1] Hifi M, M'Hallah R. Adaptive and restarting techniques-based algorithms for circular packing problems. Computational Optimization and Applications 2008;39(1):17­35. [2] Sugihara K, Sawai M, Sano H, Kim DS, Kim D. Disk packing for the estimation of the size of wire bundle. Japan Journal on Industrial and Applied Mathematics 2004;21:259­78. [3] Ow PS, Morton TE. Filtered beam search in scheduling. International Journal of Production Research 1988;26:35­62. [4] Bennell JA, Song X. A beam search implementation for nesting problems. In: 3rd ESICUP meeting, Portugal, March 16­18, 2006. [5] Kap K, Jin K, Kwang R. A beam search algorithm for the load sequencing of outbound containers in port container terminals. OR Spectrum 2004;2693­116. [6] Sabuncuoglu I, Bayiz M. Job shop scheduling with beam search. European Journal of Operational Research 1999;114:390­412. [7] Hifi M, Saadi T. Using strip generation procedures for solving constrained two-staged cutting problems. In: The Fifth ALIO/EURO conference on combinatorial optimization, ENST, Paris, France, 2005. [8] Akeb H, Hifi M. Adaptive algorithms for circular cutting/packing problems. International Journal of Operational Research, to appear. [9] Graham RL, Lubachevsky BD. Repeated patterns of dense packings of equal disks in a square. The Electronic Journal of Combinatorics 1996;3:16. [10] Lubachevsky BD, Graham RL. Curved hexagonal packing of equal circles in a circle. Discrete and Computational Geometry 1997;18:179­94. [11] Mladenovi´ N, Plastria F, Urosevi´ D. Reformulation descent applied to circle packing problems. Computers & Operations Research c c 2005;32:2419­34. [12] George JA, George JM, Lamar BW. Packing different-sized circles into a rectangular container. European Journal of Operational Research 1995;84:693­712. [13] Stoyan YG, Yaskov GN. Mathematical model and solution method of optimization problem of placement of rectangles and circles taking into account special constraints. International Transactions in Operational Research 1998;5:45­57.
+
+1528
+
+H. Akeb et al. / Computers & Operations Research 36 (2009) 1513 ­ 1528
+
+[14] Wäscher G, Haussner H, Schumann H. An improved typology of cutting and packing problems. European Journal of Operational Research 2007;183(3):1109­30. [15] Correia MH, Oliveira JF, Ferreira JS. A new upper bound for the cylinder packing problem. International Transactions in Operational Research 2001;8:571­83. [16] Huang WQ, Li Y, Akeb H, Li CM. Greedy algorithms for packing unequal circles into a rectangular container. Journal of the Operational Research Society 2005;56:539­48. [17] Hifi M, Paschos VTh, Zissimopoulos V. A simulated annealing approach for the circular cutting problem. European Journal of Operational Research 2004;159:430­48. [18] Hifi M, M'Hallah R. Approximate algorithms for constrained circular cutting problems. Computers & Operations Research 2004;31:675­94. [19] Birgin EG, Martinez JM, Ronconi DP. Optimizing the packing of cylinders into a rectangular container: a nonlinear approach. European Journal of Operational Research 2005;160:19­33. [20] Birgin EG, Sobral FNC. Minimizing the object dimensions in circle and sphere packing problems. Computers & Operations Research 2008;35:2357­75. [21] Hifi M, M'Hallah R. A dynamic adaptive local search based algorithm for the circular packing problem. European Journal of Operational Research (special issue on cutting and packing) 2007;183(3):1280­94. [22] Huang WQ, Li Y, Li CM, Xu RC. New heuristics for packing unequal circles into a circular container. Computers & Operations Research 2006;33:2125­42. [23] Wang HQ, Huang WQ, Zhang QA, Xu DM. An improved algorithm for the packing of unequal circles within a larger containing circle. European Journal of Operational Research 2002;141(2):440­53. [24] Zhang DF, Deng AS. An effective hybrid algorithm for the problem of packing circles into a larger containing circle. Computers & Operations Research 2005;32(8):1941­51.
+
+

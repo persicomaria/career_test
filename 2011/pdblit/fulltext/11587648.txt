@@ -1,0 +1,625 @@
+[ 1]
+
+THIOLS IN RIBONUCLEOTIDE REDUCTASES
+
+1
+
+[1] Thiols in Redox M e c h a n i s m of Ribonucleotide R e d u c t a s e
+B y B R I T T - M A R I E SJ()BERG a n d M A R G A R E T A SAHLIN
+
+E n z y m a t i c R e d u c t i o n of R i b o n u c l e o t i d e s : A D e l i c a t e I n t e r p l a y between Radicals and Thiols Ribonucleotide reductases (RNRs) are central to all life on Earth, be it modem or the very first organisms that obeyed the central dogma of information flow at the junction between RNA and DNA worlds. RNRs catalyze the reduction of ribonucleotides to the corresponding deoxyribonucleotides, thereby providing cells with the necessary building blocks for DNA synthesis and repair. An elaborate allosteric regulation by ATP and deoxyribonucleoside triphosphates secures an adequate and balanced supply of the DNA precursors at any given moment, adding a global regulatory role to the enzyme (for a review on the allosteric regulation of RNRs, see Jordan and Reichard 1). Perhaps the most well-known feature of RNRs is a stable protein radical that is carded by two of the three hitherto known classes of RNR (Table I). The stable tyrosyl radical of class I RNRs was identified in the 1970s. 2'3 Since then photosystem II, prostaglandin H synthase, and galactose oxidase have also, been shown to harbor a stable tyrosyl radical (reviewed in Sj6berg and Sahlin4). Class II RNRs do not harbor a stable radical, but are AdoCbl dependent and, as shown later, this cofactor has the capacity to generate a transient radical in the enzyme. 5'6 Class III RNRs are only found in organisms capable of anaerobic growth and this class was not discovered until 1989. 7 It carries a stable but oxygen-sensitive glycyl radical. The first glycyl radical-containing enzyme to be characterized was pyruvate formate-lyase,8 and by now the family of glycyl radical-containing enzymes also includes benzylsuccinate synthase and a 2-keto acid formate-lyase (reviewed in Eklund and Fontecave9). Given these characteristics, one may wonder why RNRs are included in a volume on thiol enzymes, but it is indeed a very proper choice, as redox active
+I A. Jordan and P. Reichard, Annu. Rev. Biochem. 67, 71 (1998). 2 A. Ehrenberg and E Reichard, J. Biol. Chem. 247, 3485 (1972). 3 B.-M. Sj6berg, E Reichard, A. Grtislund, and A. Ehrenberg, J. Biol. Chem. 253, 6863 (1978). 4 B.-M. Sj~berg and M. Sahlin, "Encyclopedia of Life Sciences," Web Edition (2001). 5 R. L. Blakley, W. H. Onne-Johnson, and J. M. Bozdech, Biochemistry 18, 2335 (1979). 6 S. Licht, G. J. Gerfen, and J. A. Stubbe, Science 271, 477 (1996). 7 M. Fontecave, R. Eliasson, and E Reichard, Proc. Natl. Acad. Sci. U.S.A. 86, 2147 (1989). 8 A. F. Wagner, M. Frey, E A. Neugebauer, W. Schtifer, and J. Knappe, Proc. Natl. Acad. Sci. U.S.A. 89, 996 (1992). 9 H. Eklund and M. Fontecave, Struct. FoM Des. 7, R257 (1999). Copyright© 2002by AcademicPress. All fightsof reproductionin any formreserved. 0076-6879102$35.00
+
+METHODSIN ENZYMOLOGY,VOL.348
+
+2
+
+PROTEIN SENSORS OF REACTIVE OXYGEN SPECIES TABLE I CHARACTERISTICSOF THREE MAJOR RIBONUCLEOTIDEREDUCTASECLASSES
+
+[ 1]
+
+RNR class Structure I Ct2/~2
+
+Metal site Fe-O-Fe (in fl) Co (in AdoCbl)
+
+Stable radical/cofactor Tyr- 122a (in fl) AdoCbl (in c~)
+
+Radical transfer T y r . ~ ~ ~ Cys-439 a
+
+Reductant
+
+Occurrence
+
+Thioredoxin Aerobic proGlutaredoxin and eukaryotes H-Redoxin Thioredoxin Aerobic and anaerobic prokaryotes, Euglena Prokaryotes capable of anaerobic growth
+
+II
+
+a or a2
+
+Ado.--~ Cys-408 b
+
+III
+
+tz2
+
+Fe4S4 (in NrdG activase)
+
+GIy-580 c (in a)
+
+Ado. ---~---~Gly ·---~Cys-290c Formate
+
+a Numbering refers to E. coli class Ia RNR. b Numbering refers to L. leichmannii class II RNR. c Numbering refers to bacteriophage T4 class III RNR.
+
+cysteines, thiyl radicals, and thiol proteins are central to catalysis by all three classes of RNR. Comparative studies have confirmed that all classes are related via divergent evolution; class I and II have striking overall sequence similarities, and the known three-dimensional structures of class I and III show overwhelming structural similarity, despite no obvious sequence similarity. In fact, the arrangement of catalytically essential side chains in active sites has been preserved among class I RNR, class III RNR, and pyruvate formate-lyase. Common to all classes of RNR is a radical-based reaction mechanism, and it is by now almost an accepted fact that reduction of ribonucleotides has to adopt radical chemistry. Such restrictions for the chemistry of RNRs also restrict predictions on their evolution, as it is unlikely that a ribozyme could have handled radical chemistry in such a controlled fashion.l° The major criterion for distinguishing the three different classes of RNR is the mode by which the radical reaction is initiated. Because radicals are extremely reactive per se, special care has been invested by Nature in handling the radical chemistry of RNRs. In class I RNRs, the stable tyrosyl radical is stored in one component (called protein R2) of the holoenzyme. The radical is not mobilized until substrate is bound in the active site, which is localized approximately 30/~ away 11 and in the other component (protein R1). In class II RNRs, catalysis requires that the AdoCbl cofactor is cleaved homolytically to generate a transient 5'-deoxyadenosyl radical. In class III RNRs, the stable radical is generated by a
+1oA. Poole, D. Penny, and B.-M. Sjrberg, Chem. Biol. 7, R207 (2000). 11 U. Uhlin and H. Eklund, Nature 370, 533 (1994).
+
+[ 1]
+
+THIOLS IN RIBONUCLEOTIDEREDUCTASES
+
+3
+
+separate activating enzyme (NrdG) and is stored in the reductase proper (NrdD) at a glycyl moiety some distance from the active site. The overall mechanism for reduction of ribonucleotides can be described both as similar and as distinct among the three classes of RNR. This article emphasizes both these aspects, starting with the unifying steps of the mechanism. The common initial step is the formation of a transient thiyl radical at a fully conserved cysteine, located very close to the substrate and at hydrogen-bonding distance from the 3'-H of the ribose moiety (Fig. 1). The function of the transient thiyl radical is to initiate catalysis by abstracting the 3' hydrogen atom, thereby enabling the subsequent steps of the reaction mechanism (Scheme 1). Common to all three mechanisms is the involvement of at least one more cysteine residue, positioned to hydrogen bond to the Z - O H group of the substrate. The combined protonation of the Z-hydroxyl group and generation of a radical at 3'-C facilitates elimination of the Z - O H group as water, thereby generating a 2' radical intermediate (cf. Schemes 2 and 4). External reductants, such as NADPH (via the
+
+A
+
+B
+
+Cys408
+
+Tyr73~1
+Tyr
+
+356
+
+T~ 48
+
+t ~is 118 * Fe 1
+
+Tyr 1 2 2
+
+Asp84
+
+FIG. 1. Proposed generation of active site thiyl radicals in (A) E. coli class Ia ribonucleotide reductase [M. Sahlin and B.-M. SjOberg,Subcell. Biochem. 35, 405 (2000)], (B) L. leichmannii class II dbonacleotide reductase [J. A. Stubbe and W. A. van der Donk, Chem. Rev. 98, 705 (1998)], and (C) bacteriophageT4 class III ribonucleotidereductase [D. T. Logan,J. Andersson,B.-M. Sjtberg, and P. Nordlund, Science 283, 1499 (1999)].
+
+4
+
+PROTEIN SENSORS OF REACTIVE OXYGEN SPECIES
+
+[1]
+
+o
+
+t~
+
+tO
+
+O
+
+.t-
+
+O
+
+0
+
+I \
+
++
+
+°
+
+~
+
+g
+o n
+
+I
+
+[ 1]
+
+THIOLSIN RIBONUCLEOTIDEREDUCTASES
+
+5
+
+thioredoxin, glutaredoxin, or H-redoxin systems; classes I and II) or formate (class III), are involved indirectly or directly in the reduction step, and the cysteine closest to the 2' position participates as a reductant of the 2' position. After reduction of the 2' position, the cycle is completed by return of the initially abstracted 3' hydrogen atom, whereby the transient thiyl radical is regenerated (Scheme 1). The transient thiyl radical is by no means a stable entity, and it is plausibly participating in the mechanism only in concert with the subsequent steps. Concerted steps are conceivably also involved in radical transfer between the transient thiyl radical and the stable protein radical in the class I and III enzymes or the AdoCbl cofactor in the class II enzymes (cf. Fig. 1). M e t h o d s to S t u d y R e a c t i o n M e c h a n i s m of RNRs a n d to T r a p a n d I d e n t i f y I n t e r m e d i a t e s in t h e M e c h a n i s m
+RNR Assays
+
+Several different assays are available for testing the enzyme activity of RNRs. The most common assays are of three different types: (i) monitoring the production of deoxynucleotides by use of radioactively labeled substrate, (ii) monitoring the consumption of reducing equivalents (class I and II RNRs), and (iii) monitoring the turnover of AdoCbl cofactor (class II RNRs). The advantage of the first type is that it is a direct assay; however, there are few efficient separation systems for ribo- and deoxynucleotides, which is an intrinsic problem. Consequently, many different chromatographic methods have been employed to separate ribonucleosides from deoxyribonucleosides. In a more specialized assay that was originally developed in the early 1960s, 12 cytosine ribonucleoside monophosphate can be efficiently separated from cytosine deoxyribonucleoside monophosphate. In the authors' laboratory, the latter assay is still the workhorse. The direct assays are usually rather time-consuming, but permit the handling of many samples at a time, usually with high accuracy and sensitivity. The second type of assay measures in real time the consumption of an ultimate reductant (NADPH).13 Its major advantage is speed, and results are usually obtained within few minutes of reaction. The sensitivity of the assay is set by the absorption index of NADPH and cannot be brought to the same sensitivity as assays employing radiolabeled substrates or cofactors. As an indirect assay it is of course less accurate than those involving radiolabeled substrates. Special care has to be taken when this spectrophotometric assay is used on crude extracts. The third assay is based on the characteristic homolytic cleavage of the AdoCbl cofactor that accompanies class II RNR catalysis. During catalysis the 5' hydrogens of the methylene radical resulting from the cleavage of the 5'-tritiated cofactor equilibrates with the solvent to an extent that reflects the enzymatic activity of the 12p. Reichard,Biochim. Biophys. Acta 1000, 49 (1989). 13L. Thelander,B.-M. Sjtiberg,and S. Eriksson,Methods Enzymol. 51,227 (1978).
+
+6
+
+PROTEIN SENSORS OF REACTIVE OXYGEN SPECIES
+
+[1]
+
+TABLE II CHARACTERISTICS OF 2t SUBSTRATEANALOGS USED IN RIBONUCLEOTIDEREDUCTASE STUDIES Substituent at 2' position of ribonucleotide --N3
+
+Chemical/trivial name 2'-Azido-2'-deoxyribonucleotide
+
+Characteristics of reaction Tyrosyl radical decay, generation of nucleotide-and protein-linked nitrogenbased CzDP radical, release of base and PPi, formation of reactive furanone species, and alkylation of protein RI with resulting chromophore at 320 nm Tyrosyl radical decay, release of base, chloride, and PPi, formation of reactive furanone species, and alkylation of protein RI with resulting chromophore at 320 nm Tyrosyl radical decay, generation of substrate-based radical, release of base and fuoride, and alkylation of protein R1 with resulting chromophore at 334 nm Tyrosyl radical decay, generation of substratebased radical, release of base and fluoride, inactivation of protein R 1 depends on reaction conditions, and no formation of chromophore Tyrosyl radical decay, oxygen-dependent formation of protein-linked perthiyl radical
+
+Refs. a~d
+
+--C1
+
+2'-Chloro-2'-deoxyribonucleotide
+
+a, e
+
+=CHF
+
+(E)-2'-Fluoromethylene-2'deoxyribonucleotide
+
+f
+
+--F2
+
+Gemcitabine (2',T-difluoro-2'deoxyribonucleotide)
+
+g
+
+--SH
+
+2'-Mercapto-2 r-deoxyribonucleotide
+
+h
+
+a L. Thelander and B. Larsson, J. Biol. Chem. 251, 1398 (1976). b B.-M. Sj6berg, A. Gr~islund, and E Eckstein, J. Biol. Chem. 258, 8060 (1983). c W. A. van der Donk, J. Stubbe, G. J. Gerfen, B. E Bellew, and R. G. Griffin, J. Am. Chem. Soc. 117, 8908 (1995). d M. Ekberg, S. P6tsch, E. Sandin, M. Thunnissen, P. Nordlund, M. Sahlin, and B.-M. Sjtiberg, J. Biol. Chem. 273, 21003 (1998). e M. A. Ator and J. Stubbe, Biochemistry 24, 7214 (1985). f w . A. van der Donk, G. X. Yu, D. J. Silva, and J. Stubbe, Biochemistry 35, 8381 (1996). g W. A. van der Donk, G. X. Yu, L. Perez, R. J. Sanchez, J. Stubbe, V. Samano, and M. J. Robins, Biochemistry 37, 6419 (1998). h j. Coves, L. L. H. de Fallois, L. Le Pape, J. L. D6cout, and M. Fontecave, Biochemistry 35, 8595 (1996).
+
+e n z y m e . 14,15 B u l b - t o - b u l b d i s t i l l a t i o n w i l l e f f i c i e n t l y s e p a r a t e t h e s o l v e n t - r e l e a s e d r a d i o l a b e l f r o m t h e c o f a c t o r - b o u n d r a d i o l a b e l . T h e d i s a d v a n t a g e is a g a i n t h a t t h e a s s a y is i n d i r e c t , b u t t h e o v e r w h e l m i n g a d v a n t a g e s a r e t h e p o s s i b i l i t y to h a n d l e m a n y s a m p l e s at a t i m e a n d t h e s e n s i t i v i t y o f t h e assay. 14 H. E Hogenkamp, R. K. Ghambeer, C. Brownson, R. L. Blakley, and E. J. Vitols, Biol. Chem. 243, 799 (1968). 15 S. S. Licht, C. C. Lawrence, and J. Stubbe, J. Am. Chem. Soc. 121, 7463 (1999).
+
+[ 1]
+
+THIOLS IN RIBONUCLEOTIDEREDUCTASES
+1 0,8 ~" 0,60,4ity 0,20 0
+I I I I I I
+
+7
+
+5% wild type
+
+20
+
+40
+
+60 Time [s]
+
+80
+
+100
+
+120
+
+FIG.2. Decay of the tyrosyl radical with CzDP. Two hypothetical preparations are shown: one containing a mutant enzyme with 5% enzyme activity compared to the wild-type enzyme and one containing an inactive mutant enzyme contaminatedwith 5% wild-typeenzyme [A. L Persson, Ph.D. Thesis, StockholmUniversity, Stockholm, Sweden (1999)].
+
+Use of Substrate Analogs
+Early experiments to study the steps of the reaction mechanism of RNRs made use of substrate analogs with specific modifications at the 2' position of the sugar moiety, i.e., at the site where reduction takes place. As discussed later, several analogs of this type are mechanism-based suicidal inhibitors that interrupt the reaction at half-turnover, and identification of unprecedented radical intermediates has resolved discrete steps of the mechanism (Table II). The 2'-azido-2'-deoxyribonucleotide analogs have proved especially useful in differentiating between mutant proteins with low enzyme activity and inactive mutant proteins with low amounts of contaminating wild-type enzyme (Fig. 2). By measuring the decay of the stable RNR radical (tyrosyl or glycyl radical), a mutant protein with low intrinsic activity will show a slow decay of the protein-bound radical, whereas a radical-containing, inactive mutant protein preparation with a low amount of contaminating wild-type enzyme will show a fast decay of a fraction of the tyrosyl radical corresponding to the amount of wild-type contaminant. 16
+
+Radical-Induced Protein Truncation
+Managing free radicals is not without risk. Perturbations of the natural reactions often result in drastic deviations to the common mechanism, some of which lead to truncation of the polypeptide backbone. In at least two cases (the oxygen sensitivity 16I. Climent, B.-M. Sj6berg, and C. Y. Huang, Biochemistry31, 4801 (1992).
+
+8
+
+PROTEIN SENSORS OF REACTIVEOXYGEN SPECIES
+
+[ 1]
+
+of the class III glycyl radical 17 and the suicidal class I Escherichia coli protein R1 mutant C225S 18), such truncations have proven useful in delineating mechanistic steps. A simple assay of the integrity of the polypeptides by, e.g., SDS-PAGE, may well be justified as a routine analysis in all mechanistic studies with RNRs. In addition, the oxygen-dependent truncation of class III RNRs at the site of the glycyl radical 19 is an effective test for formation of the glycyl radical during physiological conditions. 17,2°
+Theoretical Studies
+
+In the last few years, quantum chemical calculations have strengthened and, in some cases, renewed the proposed reaction mechanisms for class I and II reductases, as well as class III reductases. 21-23
+Synthetic M o d e l Reactions
+
+Synthetic studies reveal that reduction of the ribose ring is a difficult task, not really feasible without employing radical chemistry. 24 Several research groups have strengthened this notion,25'26 and results from model compounds are in agreement with the proposed reaction mechanisms of RNRs and with theoretical calculations.
+Spectroscopic Methods to Trap and Characterize Short-Lived Intermediates in the Reaction
+
+Because the RNR reaction mechanism is radical based, electron paramagnetic resonance (EPR) and related techniques, as well as light absorption, are primary spectroscopic methods. With an overall rate constant of ca, 1.5-10 sec -1, it is important to link observed intermediates kinetically, making stopped-flow and rapid freeze quench (RFQ) important tools. 27,28 In RFQ the reacting mixture is
+
+17j. Andersson,M. Westman,M. Sahlin,and B.-M. SjOberg,J. Biol. Chem. 275, 19449 (2000). 18S. S. Mao, T. P. Holler, J. J. Bollinger,G. X. Yu, M. I. Johnston, and J. Stubbe,Biochemistry 31, 9744 (1992). 19D. S. King and P. Reichard,Biochem. Biophys. Res. Commun. 206, 731 (1995). 20p. Young,J. Andersson,M. Sahlin,and B.-M. Sj6berg,J. Biol. Chem. 271, 20770 (1996). 21p. E. M. Siegbahn,J. Am. Chem. Soc. 120, 8417 (1998). 22E Himo and P. E. M. Siegbahn,J. Phys. Chem. B 104, 7502 (2000). 23K.-B. Cho, E Himo, A. Gr~islund,and P. E. M. Siegbahn,J. Phys. Chem. B 105, 6445 (2001). 24R. Lenz and B. Giese,J. Am. Chem. Soc. 119, 2784 (1997). 25M. J. Robins,Z. Q. Guo, M. C. Samano,and S. E Wnuk,J. Am. Chem. Soc. 121, 1425 (1999). 26T. E. Lehmann,G. Muller, and A. Berkessel, Clin. Exp. lmmunol. 120, 317 (2000). 27G. Lassmann,L. Thelander,and A. Graslund,Biochem. Biophys. Res. Commun. 188, 879 (1992). 28j. M. Bollinger,W. H. Tong,N. Ravi, B. H. Huynh, D. E. Edmondson,and J. Stubbe,Methods Enzymol. 258, 278 (1995).
+
+[ 1]
+
+THIOLSIN RIBONUCLEOTIDEREDUCTASES
+
+9
+
+sprayed through a nozzle, giving fine droplets, which freeze immediately when they reach a - 1 2 0 ° isopentane bath. The frozen flakes are packed in the sample vessel, normally an EPR tube, and the samples are then stored at N2(liquid). EPR studies of intermediates in the RNR reaction are complicated by the fact that more than one paramagnetic species is normally present at any given time. In class I RNR reactions, the tyrosyl radical in protein R2 (Y122- in E. coli) is always present. In the wild-type reaction, this is the only signal observed, and it is neither perturbed nor changed in concentration during catalysis. In other cases the Y122. signal has to be subtracted to obtain the spectrum of the intermediate. Sometimes the kinetics give coexisting intermediates where the line shape of the individual paramagnetic species can be difficult to isolate. A means to separate two intermediates is to use 35- to 285-GHz EPR frequencies29,3° rather than the more common frequency around 9 GHz. High-frequency EPR will usually separate overlapping species and also give information about g anisotropy. Electron nuclear double resonance (ENDOR 31) can be used to determine hyperfine interactions and spin density distribution in combination with isotope-labeled compounds. Direct observation of cysteine-based radicals is possible in the case of perthiyl, sulfinyl, and disulfide anion (Table liD. In principle, thiyl radicals can also be detected by optical spectroscopy and EPR. However, the relaxation mechanisms and the short-lived nature of thiyl radicals make them unsuitable for direct observation in solution by EPR. In addition, little is known about the kinetics, relaxation, and EPR characteristics of protein-based thiyl radicals. Thiyl radicals are prone to undergo addition, electron transfer, or hydrogen abstraction reactions. For instance, glutathiyl (GS.) reacts with GS- to give the disulfide anion (GSSG'-), which, in the presence of oxygen, gives oxidized glutathione (GSSG) and superoxide radical
+( 0 2 ' - ) . 32
+
+Use of traditional spin traps may circumvent the problems with thiyl radicals. However, it has proven difficult in case of the RNR reactions. Most likely this is due to substrate bound in the active site during the life time of Cys., thus physically blocking direct interaction with the spin trap. The function of the protein is to direct the electron flow in an extremely precise manner to avoid damaging radical reactions. The reduction of ribose to deoxyribose presumably would result in ring cleavage if the protein did not orchestrate the electron flow. For example, irradiated nucleosides are cleaved at the ribose moiety after initial radical formation without elimination of the hydroxyl group in the 2' position. 33
+29 H. Levanon and K. M6bius, Annu. Rev. Biophys. Biomol. Struct. 26, 495 (1997). 30 C. C. Lawrence, M. Bennati, H. V. Obias, G. Bar, R. G. Griffin, and J. Stubbe, Proc. Natl. Acad. Sci. U.S.A. 96, 8979 (1999). 31 M. Bennati, C. T. Farrar, J. A. Bryant, S. J. Inati, V. Weis, G. J. Gerfen, P. Riggs-Gelasco, J. Stubbe, and R. G. Griffin, J. Magn. Reson. 138, 232 (1999). 32 B. Kalyanaraman, Biochem. Soc. Syrup. 61, 55 (1994). 33 W. A. Bernhard, J. HiJttermann, and A. Miiller, Radic. Res. 68, 390 (1976).
+
+10
+
+PROTEIN SENSORS OF REACTIVE OXYGEN SPECIES TABLE III CHARACTERISTICSOF SULFUR-CENTEREDFREE RADICALS Type of radical Thiyl (RS.) Perthiyl (RSS.) Disulfide radical anion (RSSR- (-)) Sulfonyl (RSO2.) Sulfinyl (RSO.) Cysteine thiyl peroxyl (RSOO.) g Values gll 2.3, g± 2.0 2.06, 2.026, 2.002 2.02, 2.02, 2.002 gav 2.005 2.02, 2.01, 2.003 2.035, 2.009, 2.003 ~-max(nm) 340 374 420 --540 Refs.
+a-c b, d c, e, f b b, g, h b
+
+[ 1]
+
+a D. J. Nelson, R. L. Petersen, and M. C. R. Symons, J. Chem. Soc. Perkin II, 2005 (1977). b B. C. Gilbert, in "Sulfur-Centered Reactive Intermediates in Chemistry and Biology" (C. Chatgilialogly and K.-D. Asmus, eds.), p. 135. Plenum Press, New York, 1990. c D. A. Armstrong, in "Sulfur-Centered Reactive Intermediates in Chemistry and Biology" (C. Chatgilialogly and K.-D. Asmus, eds.), p. 121. Plenum Press, New York, 1990. d j. Coves, L. L. H. de Fallois, L. Le Pape, J. L. D6cout, and M. Fontecave, Biochemistry 35, 8595 (1996). e D. N. R. Rao, C. R. Symons, and J. M. Stephenson, J. Chem. Soc. Perkin Trans. II, 727 (1983). f C. C. Lawrence, M. Bennati, H. V. Obias, G. Bar, R, G. Griffin, and J. Stubbe, Proc. Natl. Acad. Sci. U.S.A. 96, 8979 (1999). g M. Kohlberg, G. Bleifuss, B.-M. SjSberg, A. Grtislund, W. Lubitz, E Lendzian, and G. Lassmann, Arch. Biochem. Biophys., in press (2001). h S. G. Reddy, K. K. Wong, C. V. Parast, J. Peisach, R. S. Magliozzo, andJ. W. Kozarich, Biochemistry 37, 558 (1998).
+
+T h r e e R e d o x Active C y s t e i n e s in Active Site of C l a s s I a n d II RNRs Class I and II RNR ot-polypeptides have striking sequence similarities. The three-dimensional structure of the active site region of protein Rl of E. coli class la* RNR identifies three cysteine residues, which are conserved throughout the class I and II RNRs. 11 These are Cys-225, Cys-439, and Cys-462 in E. coli numbering (cf. Fig. IA and Scheme 2) and Cys-119, Cys-408, and Cys-419 in Lactobacillus leichmannii class II RNR numbering (cf. Fig. 1B). As mentioned earlier, generation of the thiyl radical differs dramatically among the three major classes of RNR. However, starting from the active site thiyl radical (Cys-439 in E. coli class I and Cys-408 in L. leichmannii classlI), the reaction mechanisms of class I and II RNRs are very similar. We will exemplify the mechanism by looking at the ternary complex of E. coli protein R1 with substrate (Scheme 2). 34,35 The initial
+*Class I RNRs are further subdivided into class Ia and class Ib. 34 M. Eriksson, U. Uhlin, S. Ramaswamy, M. Ekberg, K. RegnstrOm, B.-M. Sj6berg, and H. Eklund, Structure 5, 1077 (1997). 35 j. A. Stubbe and W. A. van der Donk, Chem. Rev. 98, 705 (1998).
+
+[ 1]
+
+THIOLS IN RIBONUCLEOTIDE REDUCTASES
+
+11
+
+T
+
+~
+
+{/]-
+
+;>"
+
+I:~
+
+~-~
+o
+n
+
+o,..
+o
+'-r -i-
+
+--~i_~O.T..O
+
+~- o
+
+.~
+=
+
+~,.~
+o
+0.
+O_
+
+o ,o
+~
+
+I
+
+e
+
+~
+
+O
+
+t-,l T ~
+
+~
+
+%)
+
+CO_ ;>..,
+
+I~
+~--7~= 7--o'-L " ~
+"nT
+
+~
+~ ~
+°
+~
+
+°-~_~o.~..°
+o'
+
+I
+
+~--=
+
+~.~
+0
+
+o
+I
+o
+O_
+
+~" m
+
+T'"
+
+--=
+
+e
+
+o
+
+o_
+O.
+
+"d
+
+X ~ ~=-~ ,~
+
+~---r
+
+..oJi~
+
+~:
+
+o
+
+o/ I ',~_o.?\~-,I-o ~
+I "
+o
+I:1.
+
+o
+
+I
+
+~--o'"
+
+~- ,~-..o -~
+o n
+
+12
+
+PROTEIN SENSORS OF REACTIVEOXYGENSPECIES
+
+[ 1]
+
+abstraction of the 3' hydrogen atom by the thiyl radical at Cys-439 is probably facilitated by hydrogen bonding of the 3'-OH group to Glu-441, which in the subsequent, plausibly concerted step mediates the elimination of the 2'-OH group as water, Also, Asn-437 is proposed to participate in the water elimination step. 22'36 Reduction of the 2' position is mediated by the adjacent Cys-225, which forms a radical. The second step of the reduction occurs concomitant with formation of an active site disulfide between Cys-225 and Cys-462. The reaction cycle is completed by return of the initially abstracted hydrogen atom from Cys-439 and regeneration of the transient thiyl radical at this position. Synthetic studies show that elimination of the 2'-OH group as water readily takes place in a (general) base-catalyzed step after the generation of a C3' radical. 24,25 Glu-441 is the base in the active site of E. coli class Ia RNR. 37 The rate-limiting step of the reaction is suggested to be the protonation of the 3'-oxygen of the 2'-deoxy-3'-keto species (cf. Schemes 2 and 4), and the overall reaction is exothermic by ca. 20 kcal/mol. 21
+Trapping Thiyl Radical
+
+No radical intermediate has ever been trapped in reactions of wild-type RNR and substrate. However, transient thiyl radicals have been generated in reactions with isolated class I protein R1 from E. coli (without protein R2 and substrate) and successfully scavenged by spin traps or by oxidation. 38 In one set of experiments, protein R1 thiols were oxidized by the Ce4+/nitriloacetate complex, and in another set, nitrosylated thiols in R1 were forced to release NO by illumination at 355 nm. In both experiments the formed radicals were trapped with phenyl-Ntert-butylnitrone (PBN), and the PBN adducts were consistent with protein-bound thiyl radical adducts. Indication of thiyl radicals in the form of sulfinyl radical RSO. was also found when PBN was omitted but oxygen was present. 38
+Mechanism-Based Radicals Observed in Reactions with Suicidal Substrate Analogs
+
+The first radical intermediate trapped in a RNR reaction was a nitrogencentered radical derivative in reactions with the substrate analog CzDP (2'-azido2'-deoxycytidine 5'-diphosphate) (Table II). 39 Saturating concentrations of CzDP and stopped-flow EPR were needed to demonstrate that decay of the Y122. radical was kinetically coupled to the growth of the nitrogen-centered radical. 4° Studies 36A. Kasrayan,A. L. Persson, M. Sahlin, and B.-M. Sjrberg, manuscript(2001). 37m. L. Persson, Ph.D. Thesis, StockholmUniversity,Stockholm,Sweden (1999). 38M. Kohlberg,G. Bleifuss,B.-M, Sjrberg, A. Gr~islund,W, Lubitz, E Lendzian, and G. Lassmann, Arch. Biochem. Biophys., in press (2001). 39B.-M. Sjrberg, A. Graslund, and E Eckstein,J. BioL Chem. 258, 8060 (1983). 40M. Ekberg, S. Prtsch, E. Sandin, M. Thunnissen, P. Nordlund, M. Sahlin, and B.-M. Sjrberg, J. BioL Chem. 273, 21003 (1998).
+
+[ 1]
+
+THIOLS IN RIBONUCLEOTIDE REDUCTASES
+
+13
+
+including isotope-labeled cysteine in protein R1, 15N-labeled substrate analog, and high-frequency EPR have shown that the radical is a modified cysteine of the RS-N.-Xtype, where X is either a nonprotonated oxygen or a carbon of the substrate sugar moiety.41 The same type of radical has been identified in class I RNRs from bacteriophage T4 (SjSberg et aL, unpublished) and mouse. 42 Substrate-based radicals have also been observed and identified in suicidal reactions with the substrate analogs gemcitabine (2',2'-difluoromethylene-2'deoxycytidine 5'-diphosphate) 43 and FMCDP (2'-fluoromethylene-2'-deoxycytidine 5'-diphosphate) 44 (Table II). Reactions in the presence of 2'-deoxy-2'-mercaptouridine 5'-diphosphate result in inactivation of the enzyme and formation of a perthiyl radical in protein R 1 at the expense of the tyrosyl radical in protein R2. 45 Experiments with mutant enzymes suggested Cys-225 (or Cys-462) as the likely site of the perthiyl radical. Trapping Disulfide Anion Radical An active site mutation (E441Q) in protein R1 of E. coli class Ia RNR proved instrumental in identifying one of the predicted radical intermediates in the reaction. 46 The mutant E441Q protein is suicidal, presumably because the reduction of the 3'-keto intermediate is hindered. Therefore, the reaction is stalled at the disulfide anion stage, and the cysteine-based radical has been identified.3° Decay of the disulfide anion intermediate in E441Q leads to formation of a substratebased radical, 46 plausibly at C4', 22'3° and eventually to the formation of furanone products. Additional experiments have shown that Cys-225, but not Cys-462, is required for the suicidal reaction of E441Q. 37 These sets of seminal experiments are the first to identify a radical intermediate in the proposed wild-type reaction mechanism of class I and II RNRs (cf. Scheme II). R e g e n e r a t i o n o f Active Site Dithiols According to experimental and theoretical suggestions, the Cys-225/Cys-462 disulfide in E. coli RNR is formed before the turnover cycle is completed (cf. Scheme 2). Erickson used single turnover experiments to show that formation of the disulfide is in fact kinetically competent, in agreement with the proposed
+41 W. A. van der Donk, J. Stubbe, G. J. Gerfen, B. E Bellew, and R. G. Griffin, J. Am. Chem. Soc. 117, 8908 (1995). 42 G. Behravan, S. Sen, U. Rova, L. Thelander, E Eckstein, and A. Graslund, Biochim. Biophys. Acta Gene Struct. Express 1264, 323 (1995). 43 W. A. van der Donk, G. X. Yu, L. Perez, R. J. Sanchez, J. Stubbe, V. Samano, and M. J. Robins, Biochemistry 37, 6419 (1998). 44 W. A. van der Donk, G. X. Yu, D. J. Silva, and J. Stubbe, Biochemistry 35, 8381 (1996). 45 j. Coves, L. L. H. de Fallois, L. Le Pape, J. L. D6cout, and M. Fontecave, Biochemistry 35, 8595 (1996). 46 A. L. Persson, M. Sahlin, and B.-M. Sj6berg, J. Biol. Chem. 273, 31016 (1998).
+
+14
+
+PROTEIN SENSORS OF REACTIVE OXYGEN SPECIES
+
+[ 1]
+
+RN r, -S225-$462
+
+~
+
+~ T R -SH225/SH462 ~
+lXX'~ _$754_$759
+
+/ (P)PPO~I ~0~ Base
+
+/
+
+2
+
+~
+Grx-S2
+
+n~, R -Sz25~s462 ~
+Grx-(SH)2 Trx-(SH)2 Trx-S2
+
+2 GSH
+
+GRox
+
+X X
+
+GS-SG
+
+TRox
+
+;><
+
+TRred
+
+GRred
+
+NADPH + H +
+
+NADP +
+
+NADPH + H +
+
+NADP +
+
+SCHEME 3. Proposed turnover cycle of class I and II ribonucleotide reductases (numbering refers to E. coli class Ia ribonucleotide reductase).
+
+turnover cycle shown in Scheme 3 47 and consistent with the results of Thelander in the 1970s. 48 Formation of the Cys-225/Cys-462 disulfide at the active site ofE. coli class Ia RNR precludes further catalytic cycles before it has been reduced. The physiological reductant for E. coli class Ia RNR is thioredoxin or glutaredoxin. 48a However,
+47 H. K. Efickson, Biochemistry 39, 9241 (2000). 48 L. Thelander, J. Biol. Chem. 249, 4858 (1974). 48a A. Vlamis-Gardikas and A. Holmgren, Methods Enzymol. 347, 286 (2002).
+
+[1]
+
+THIOLS IN RIBONUCLEOTIDE REDUCTASES
+
+15
+
+site-directed mutagenesis experiments have shown that neither thioredoxin nor glutaredoxin can interact directly with the active site disulfide. 49'5° Instead, two additional C-terminally located thiols, Cys-754 and Cys-759, act by disulfide exchange as the immediate reductants. In the next step, reduced thioredoxin (or glutaredoxin) reduces the C-terminal disulfide (Scheme 3). Preliminary kinetic studies (Climent, Huang, and SjOberg, unpublished results) indicate that the thioredoxin (or glutaredoxin)-mediated reduction of the RNR disulfide occurs by a concerted mechanism, implying that no mixed disulfide intermediate is ever formed during catalysis. L o n g - R a n g e R a d i c a l T r a n s f e r R e q u i r e d for G e n e r a t i o n o f T h i y l R a d i c a l in C l a s s I RNRs Generation of the active site thiyl radical in the R1 protein of class I RNRs requires the presence of a stable tyrosyl radical in the R2 protein. The process involves extremely long-range radical transfer because the site of the transient thiyl radical at Cys-439 in the R1 protein and the site of the stable radical at Tyr-122 in the R2 protein are approximately 30/~ apart (Fig. 1A). u Experimental, as well as theoretical, studies imply that at least part of the radical transfer is mediated via conserved hydrogen-bonded side chains (reviewed in Sahlin and Sj6bergS1).
+
+Stability and Reactivity of Tyrosyl Radical in Protein R2
+Formation of the iron tyrosyl radical center requires that oxygen binds to a diferrous iron center. The reaction includes the formation of high valent states of the iron ions and directs the formed reactive oxygen species to be reduced in a carefully controlled reaction. 52 Apart from the stable tyrosyl radical, the end products are a #-oxo bridge between the two ferric ions and water ligand. 52a The tyrosyl radical in protein R2 of E. coli has a remarkable stability with a half-life of weeks in concentrated (mM) samples at 4 °. The stability is attributed to the hydrophobic pocket, which surrounds Tyr-122. Once the radical is formed, it is surprisingly unreactive toward small molecules as well as oxygen. For instance, its reduction by the radical scavenger hydroxyurea has a second order rate constant of 0.5 M - 1 sec - 1at 25 °,53 which means that the tyrosyl radical in a 10 tiM solution of protein R2 remains for several minutes in millimolar hydroxyurea concentrations.
+49 A./~berg, S. Hahne, M. Karlsson, A. Larsson, M. Orm6, A./~hgren, and B.-M. SjOberg, J. Biol. Chem. 264, 12249 (1989). 50 S. S. Mao, T. P. Holler, G. X. Yu, J. M. Bollinger, S. Booker, M. I. Johnston, and J. Stubbe, Biochemistry 31, 9733 (1992). 51 M. Sahlin and B.-M. Sj~berg, Subcell. Biochem. 35, 405 (2000). 52 M. E. Andersson, M. HOgbom, A. Rinaldo-Matthis, K. K. Andersson, B.-M. SjOberg, and P. Nordlund, J. Am. Chem. Soc. 121, 2346 (1999). 52a M. Fontcave and C. Gerez, Methods Enzymol. 348, [2], 2002 (this volume). 53 M. Karlsson, M. Sahlin, and B.-M. SjOberg, J. Biol. Chem. 267, 12622 (1992).
+
+16
+
+PROTEIN SENSORS OF REACTIVE OXYGEN SPECIES
+
+[ 1]
+
+The tyrosyl radical in mammalian RNR is less protected and hence less stable than the E. coli enzyme. O b s e r v a t i o n o f T h i y l R a d i c a l in C l a s s II RNR Generation of the transient active site thiyl radical in class II RNRs does not involve a stable protein radical. Instead, the bound cofactor AdoCbl undergoes a homolytic cleavage to transiently generate a 5'-deoxyadenosyl radical (Ado.), which plausibly concertedly generates a kineticaIIy competent transient thiyl radical at Cys-408 in the class II enzyme of L. leichmannii (Fig. 1B). Presumably due to stabilization by magnetic interaction with the adjacent Co(II), it was possible to characterize the transient thiyl radical by EPR studies of the changes in the hyperfine structure in protein with deuterated cysteine and to estimate the distance between the Co nucleus and the Sy of the cysteine to 6 ~x.6'54 The short distance excludes any other participants in the thiyl radical generation in class II RNR than AdoCbl and Cys-408. A model reaction demonstrated that homolysis of AdoCbl is also the preferred pathway in an aprotic reaction, strengthening the proposed mechanism. 55 The thiyl radical-generating mechanism of class II RNRs is controversial, but does at least involve the coupled and possibly concerted steps Co-C cleavage, -S-H cleavage, and C-H (Ado-H) formation. TWo R e d o x - A c t i v e C y s t e i n e s in Active Site of C l a s s Ill RNRs The class III enzyme is oxygen sensitive and confined to strict anaerobes and facultative anaerobes growing in the absence of oxygen. Seemingly all glycyl radical enzymes found to date are anaerobic. The reaction mechanism of class III RNRs differs from those of class I and II RNRs in two aspects: generation of the transient thiyl radical and protonation of the 3'-keto intermediate. The transient thiyl radical is generated by radical transfer from an adjacent stable glycyl radical at Gly-580 in bacteriophage T4 NrdD (Fig. 1C). The crystal structure of the T4 NrdD mutant G580A shows a distance of 5.2/~ between C/~ at position 580 and Sy of Cys-290, 56 suggesting that the radical transfer does not involve any extra side chains. Interestingly, class III RNRs have only two conserved cysteines in the active site, Cys-79 and Cys-290 in bacteriophage T4 numbering (Scheme 4), and thereby lack the equivalent of Cys-462 in E. coli class Ia (cf. Scheme 2). This suggests major differences from the earlier described mechanisms involving formation of
+54 G. J. Gerfen, W. A. van der Donk, G. X. Yu, J. R. McCarthy, E. T. Jarvi, D. P. Matthews, C. Farrar, R. G. Griffin, and J. Stubbe, J. Am. Chem. Soc. 120, 3823 (1998). 55 j. M. Sirovatka and R. G. Finke, Biochemistry 39, 4640 (2000). 56 D. T. Logan, J. Andersson, B.-M. Sj0berg, and P. Nordlund, Science 283, 1499 (1999).
+
+[ 1]
+
+THIOLS IN RIBONUCLEOTIDE REDUCTASES
+
+17
+
+g)-
+
+~,-..
+
+~. b ~,-~ \:~-o ~ u I '~ = ~-"O~'r
+~ r..)
+0 r, r, 0
+
+&~ %0, ,oX:
+o
+
+im
+
+0 9 - ;~,
+
+~_~
+o
+
+.
+
+o
+
+E
+
+I
+
+°~..o//L =
+..-i
+
+03-~.
+
+..c}
+
+~-~ ~\.o~,T
+o
+
+o~ o
+
+"
+
+I
+o
+
+/~,t~
+-r
+
+o, ~
+"I--O T
+
+~
+,1~
+
+O_ n ft.
+
+~
+
+°
+K
+00;>-,
+
+o
+
+#T% O~ "'0
+°,.,_..oA-,o
+
+FT
+
+T
+
+o"
+,
+
+#,_~
+v I
+o
+0._ 0.. r,
+
+N
+
+I
+
+o b '¥--O~r
+
+0.. O_
+
+18
+
+PROTEIN SENSORS OF REACTIVEOXYGEN SPECIES
+
+[ 1]
+
+an active site disulfide. The reductant of the class III RNRs is formate, which is oxidized to carbon dioxide during catalysis. It is assumed that Cys-290 is the site of the initial transient thiyl radical that abstracts the 3' hydrogen atom and that Cys-79 reduces the 2' position of the substrate radical in reaction steps that are similar to those of class I and II RNRs. As shown in Scheme 4, formate may have a dual role in the reaction mechanism, acting both as a (general) base in the reaction by hydrogen bonding to the 3'-OH group and later as a two-electron reductant by reducing the formed Cys-79 radical and the 3'-keto intermediate. Completion of the turnover cycle is identical to that of class I and II RNRs with reintroduction of the hydrogen atom at C3' by Cys-290. The transient Cys-290 radical is then transferred to the stable position at Gly-580. The use of formate as a reductant and the absence of an equivalent of the third cysteine in class I and II RNRs means that no active site disulfide is formed in class III RNRs. Consequently, class III RNRs can work independently of thioredoxin, glutaredoxin, or any similar redoxin function. 2'-Azido-CTP is an efficient suicidal inhibitor of class III RNRs, but no CzTPderived long-lived radical intermediate has been trapped. 57,58 T h i o l s I n v o l v e d i n A c t i v a t i o n o f C l a s s III R N R
+Three Conserved Cysteines Involved as Ligands to Fe4S4 Cluster o f N r d G
+
+The introduction of the stable glycyl radical into NrdD is quite elaborate and involves a number of additional players. Central to the radical generation reaction is an activase, denoted NrdG, which harbors a redox active iron-sulfur cluster. Its physiologically important states are Fe4S4 l+ and Fe4S42+, but the metal cluster is very sensitive to oxidation, and several other nonfunctional redox forms have also been observed in laboratory experiments. 59,6° A protein engineering study has identified three conserved cysteine residues in E. coli NrdG that ligand the ironsulfur cluster. 61'62 Other known Fe4S4 clusters with only three cysteine ligands have a histidine, aspartate/glutamate, or serine as the fourth ligand. 61 However, an alignment of several different NrdG sequences did not identify any such conserved side chains, 62 suggesting that the fourth ligand of the iron-sulfur cluster in NrdG is another type of side chain or a solvent-derived ligand. This may explain the extreme oxygen sensitivity of the iron-sulfur cluster of NrdG. 57R. Eliasson, E. Pontis, E Eckstein, and E Reichard, J. BioL Chem. 269, 26116 (1994). 58j. Andersson,S. Bodevin,M. A. Westman,M. Sahlin, and B.-M. Sjtberg, J. Biol. Chem. 276, 40457 (2001). 59j. Tamarit,E. Mulliez, C. Meier, A. Trautwein, and M. Fontecave,J. Biol.Chem. 274, 31291 (1999). 60A. Liu and A. Gr~slund, J. Biol. Chem. 275, 12367 (2000). 61j. Tamarit, C. Gerez, C. Meier, E. Mulliez, A. Trautwein, and M. Fontcave,J. Biol. Chem. 275, 15669 (2000). 62j. Andersson, Ph.D. Thesis, StockholmUniversity, Stockholm, Sweden (2000).
+
+[ 1]
+
+THIOLSIN RIBONUCLEOTIDEREDUCTASES NADPHred NADP+ox
+
+19
+
+Flavodoxin reductaseox
+
+Flavodoxin reductasered
+
+Flavodoxinred
+
+Flavodoxino×
+
+NrdG/Fe4S42+ Methionine , . ~ ~
+
+NrdG/Fe4S4+ AdoMet
+
+Ado" ~
+
+J
+
+'
+
+" Ado NrdD/Glyo
+
+NrdD/GIy-H
+
+SCHEME Proposedactivationof class III ribonucleotidereductase. 5.
+
+Reduction of the iron-sulfur cluster is mediated by reduced flavin radical, and it has been shown that the physiological reducing system for the class III activase is the flavodoxin/flavodoxin reductase system (Scheme 5) (reviewed in Jordan and Reichardl). One-electron reduction by the reduced iron-sulfur center results in homolytic cleavage of the cofactor AdoMet to methionine and a 5'-deoxyadenosyl radical (Ado.). It is believed that Ado. is the ultimate generator of the stable glycyl radical in the NrdD protein (Fig. 1C), and it is especially interesting to note that it is the same active component, an Ado., that generates the transient active site thiyl radical in class II reductases (cf. Fig. 1B). Several features of class III RNRs, such as the overall structure of the active site region, the presence of a stable glycyl radical, the involvement of redox active cysteine residues forming transient thiyl radicals, and the entire glycyl
+
+20
+
+PROTEIN SENSORS OF REACTIVE OXYGEN SPECIES
+
+[1]
+
+radical-generating system with an AdoMet/iron-sulfur-dependent activase, are strikingly similar to that of the bacterial anaerobic enzyme pyruvate formatelyase. 9'63 Evidently class III RNR, pyruvate formate-lyase, and plausibly also other members of the glycyl radical enzyme family are related via divergent evolution, but it is not yet possible to designate any member as parent of the family.
+
+Cluster of Four Cysteines in NrdD Required for Generation of Stable Glycyl Radical
+A thorough protein engineering study of bacteriophage T4 NrdD has been performed to assess the importance of nine conserved cysteines. 17 In addition to the two catalytically essential cysteines mentioned earlier four other cysteines (Cys-543, Cys-546, Cys-561, Cys-564) in a C-terminal CXzC--CXzCcluster were found to be essential for the generation of the stable glycyl radical in T4 NrdD (Scheme 5). The cysteine cluster is reminiscent of a metal-binding motif, e.g., an iron-cysteine center or a zinc finger. It was proposed that this cluster, which is situated in a flexible part of the NrdD protein, is involved in radical transfer between AdoMet and Gly-580, 62 despite a considerable distance from Gly-580 (ca. 29 A).64 According to one report, the cluster has to be reduced for glycyl radical generation to occur.65 Ribonucleotide Reductases and Oxygen Species Anaerobic class Ill RNRs are particularly oxygen sensitive, resulting in cleavage of the polypeptide chain at the position of the glycyl radical residue. 19Theoretical calculations have indicated that the related reaction in pyruvate formate-lyase is assisted by a thiol group ofa cysteine close to the glycyl radical. 66 The suggested mechanism starts with the addition of oxygen to the glycyl radical, giving a glycyl peroxyl radical that abstracts a hydrogen from the thiol. The thiyl radical can then abstract the hydroxyl group from the glycyl hydroperoxide, giving GIy-O. and RS-OH, which finally is convened to GIy-OH and a sulfinyl RSO. radical. A similar mechanism might also cause the cleavage of the class HI polypeptide.19 Although naturally functional during aerobiosis, class I and II RNRs are sensitive to oxygen both during catalysis and in the resting state because thiols in the active site have to be reduced for the substrate to bind. 34 The active site is per definition more accessible to small molecules than other parts (e.g., the Tyr. ) because the ribonucleoside di- or triphosphate substrates have to enter/exit and be positioned relative to the active cysteines. In vivo the enzyme is protected from
+63 A. Becker, K. Fritz-Wolf, W. Kabsch, J. Knappe, S. Schultz, and A. F. Wagner, Nature Struct. Biol. 6, 969 (1999). 64 K.-M. Larsson, J. Andersson, B.-M. Sjt~berg, P. Nordlund, and D. T. Logan, Structure 9, 739 (2001). 65 D. Padovani, E. Mulliez, and M. Fontecave, J. Biol. Chem. 276, 9587 (2001). 66 j. W. Ganld and L. A. Eriksson, J. Am. Chem. Soc. 122, 2035 (2000).
+
+[2]
+
+TYROSYLRADICALSAND RNRs
+
+21
+
+oxygen species by dedicated enzyme systems (thioredoxin, glutaredoxin, and/or H-redoxin) that reduce the thiols during catalysis. Acknowledgments
+We thank Sabrina Bodevin, Per Siegbahn, and Rula Zain for valuable discussions, Annika Persson for help with Fig. 2, and Euan Gordon for linguistic help. Research in the authors' laboratory was supported by grants from the Swedish Cancer Foundation, the Swedish Foundation for Strategic Research, the Swedish Natural Science Research Council, and Carl Trygger's Foundation.
+
+[2] Tyrosyl Radicals and Ribonucleotide Reductase
+By MARC FONTECAVEand CATHERINEGEREZ
+Introduction DNA synthesis depends on a balanced supply of the four deoxyribonucleotides, which is achieved by reduction of the corresponding ribonucleoside diphosphates, NDPs, or triphosphates, NTPs. 1 This reaction is catalyzed by a fascinating family of radical metalloenzymes, named ribonucleotide reductases (RNRs). In contemporary metabolism, at least three distinct classes of RNR are found, having in common the requirement for a transient cysteinyl radical in the active site during catalysis. 2-5 The difference among the three classes resides in the cofactors used to generate the radical. Class I RNRs are strictly aerobic, found in all types of eukaryotes, several viruses, and a few prokaryotes, such as Escherichia coli. Protein R1, the large component, is the site where the reduction of ribonucleotides takes place. The electrons are provided by NADPH and transferred to R1 through the thioredoxin reductase/thioredoxin system. Protein R2, the small component, contains a stable tyrosyl radical essential for enzyme catalysis, as it serves to generate, through a long-range radical transfer reaction, the active cysteinyl radical in R1. 3 It also contains a nonheme diiron center, required for the oxygen-dependent generation of the tyrosyl radical. 6
+
+1 p. Reichard, Annu. Rev. Biochem. 57, 349 (1988). 2 M. Fontecave, Cell. Mol. Life Sci. 54, 684 (1998). 3 B.-M. SjOberg, Struc. Bond. 88, 139 (1997). 4 A. Jordan and E Reichard, Annu. Rev. Biochem. 67, 71 (1998). 5 j. Stubbe and W. A. van der Donk, Chem. Rev. 98, 705 (1998). 6 j. Stubbe and E Riggs-Gelasco, Trends Biochem. Sci. 23, 438 (1998).
+
+METHODSIN ENZYMOLOGY,VOL.348
+
+Copyright© 2002by AcademicPress. All rightsof reproductionin any formreserved. 0076-6879102 $35.00
+
+

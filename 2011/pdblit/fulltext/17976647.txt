@@ -1,0 +1,225 @@
+From RPA to BRCA2: lessons from single-stranded DNA binding by the OB-fold
+Alexey Bochkarev√ and Elena Bochkareva
+Recent years have witnessed tremendous progress in our structural and biophysical understanding of how replication protein A (RPA), a major nuclear ssDNA-binding protein (SSB), binds DNA. The four ssDNA-binding domains of RPA have the characteristic OB (oligonucleotide/oligosaccharide-binding) fold and contact DNA with specific polarity via a hierarchy-driven dynamic pathway. A growing mass of data suggest that many aspects of the ssDNA binding mechanism are conserved among SSBs of different origin. However, this conservation is not restricted to the SSB class. The concepts of ssDNA binding by the OB-fold, first derived from the RPA structure, have been successfully applied to the functional characterization of the BRCA2 (breast cancer susceptibility gene 2) protein. The BRCA2 structure, in its turn, has helped to better understand RPA function.
+Addresses Department of Biochemistry and Molecular Biology, University of Oklahoma Health Sciences Center, Oklahoma City, Oklahoma 73190, USA √ e-mail: Alexey-Bochkarev@ouhsc.edu
+
+able and the assistance of special factors, ssDNA-binding proteins (SSBs), is required [1≠4]. SSBs bind DNA with high affinity and little, if any, specificity. This binding plays several critical and conserved roles. First, SSB binding prevents DNA from interstrand and intrastrand re-annealing. Second, it protects solvent-exposed DNA bases from undesired chemical modification. Third, it mediates an ordered sequence of biochemical transformations in replication fork assembly, and contributes to decision making concerning whether base excision repair, nucleotide excision repair or recombination should be activated. The mechanism by which SSBs orchestrate these multiple functions remains unclear, but many new ideas are emerging from recent structural and functional studies. In the past few years, the structures of the DNA-binding domains (DBDs) of several SSBs, with and without ssDNA, have been solved, including Escherichia coli SSB [5,6] and the major nuclear SSB of eukaryotic cells, known as replication protein A (RPA) [7≠10,11]. In this review, we will use RPA to illustrate structural differences and similarities among SSBs. We will also discuss how the RPA structures helped to functionally characterize other proteins, including the breast cancer susceptibility gene 2 (BRCA2) protein [12].
+
+Current Opinion in Structural Biology 2004, 14:36≠42 This review comes from a themed issue on Protein≠nucleic acid interactions Edited by Gregory D Van Duyne and Wei Yang 0959-440X/$ ≠ see front matter ﬂ 2004 Elsevier Ltd. All rights reserved. DOI 10.1016/j.sbi.2004.01.001
+
+The role of RPA
+Human RPA was initially identified as a component of HeLa cell extracts that is absolutely necessary to support simian virus 40 (SV40) DNA replication. Subsequently, it was shown to be a redundant nuclear SSB necessary for such aspects of DNA metabolism as replication, recombination and repair. In humans, the three RPA subunits (RPA70, RPA32 and RPA14) are named according to their respective molecular weight [2≠4]. RPA does not possess any intrinsic enzymatic activity; it is a typical structural protein. In addition to DNA binding, the function of RPA is to orchestrate the specific interactions of nuclear proteins [13,14]. In this review, we will focus on advances in our structural understanding of RPA function in DNA binding.
+
+Abbreviations three-helix bundle 3HB BRCA2 breast cancer susceptibility gene 2 DBD DNA-binding domain ds double-stranded DSB double-strand break DSS1 deleted in split-hand/split-foot syndrome 1 HtH helix-turn-helix nt nucleotide NTD N-terminal multihelical domain OB-fold oligonucleotide/oligosaccharide-binding fold rmsd root mean square deviation RPA replication protein A single-stranded ss SSB ssDNA-binding protein XPA xeroderma pigmentosum group A protein
+
+Evolution of our understanding of the OB-fold
+The OB (oligonucleotide/oligosaccharide-binding) fold comprises a five-stranded b sheet coiled to form a closed b barrel and capped by an a helix located between the third and fourth b strands. This folding motif was first characterized in 1992 in four proteins that bind either
+www.sciencedirect.com
+
+Introduction
+DNA in any living species (cells, viruses and plasmids) undergoes multiple conversions from single-stranded (ss) to double-stranded (ds) form. Under physiological conditions, the existence of ssDNA is energetically unfavorCurrent Opinion in Structural Biology 2004, 14:36≠42
+
+RPA and BRCA2 Bochkarev and Bochkareva 37
+
+oligonucleotides or oligosaccharides [15]. In the ten years since then, the OB-fold family has evolved into a widely represented structural class. The pending SCOP (Structural Classification of Proteins) database (release 1.65) contains about 100 different OB-fold proteins deposited in the Protein Data Bank (PDB) by August 1st, 2003 ([16]; A Murzin, personal communication). During the past decade, the definition of the OB-fold has undergone several cycles of critical re-evaluation. First, it was accepted that the a helix capping one end of the barrel can be reduced to a single turn, an extended irregular loop [17] or a three-helix bundle (3HB) [11]. Second, the OB-fold loops can adopt different conformations; the barrel may be opened or closed [7,11]. Third, the OB-fold serves as a scaffold for more complicated structural entities. Different structural motifs, such as
+
+zinc fingers, zinc ribbons and `towers', were found inserted into the loops between the first and second (L12) [11,12,18], and the second and third (L23) [19] b strands.
+
+RPA structure
+The RPA heterotrimer consists of six OB-folds and one winged helix-turn-helix (HtH) domain; these are arranged into the three subunits and are connected by flexible linkers (Figure 1a). There are four OB-folds in the RPA70 subunit, termed RPA70N (amino acids 1≠ 110), RPA70A (amino acids 181≠290), RPA70B (amino acids 300≠420) and RPA70C (amino acids 436≠616) [7,8,11]. In RPA32, the central OB-fold, RPA32D (amino acids 43≠170), is flanked at the N terminus by unstructured RPA32N (amino acids 1≠41), which carries all known phosphorylation sites in human RPA, and at the
+
+Figure 1
+
+(a)
+
+RPA32
+1 43 171 200 270
+
+P RPA70 70N
+1 110 181
+
+D
+
+32C
+
+Zn A
+290 300
+
+B
+422 436
+
+C
+616
+
+RPA14
+1 121
+
+(b) L12 F238
+
+(c) 13.4 ≈ 336
+
+L12
+
+(d)
+
+L12
+
+Zn2+
+
+3
+
+5
+
+L45 6.3 ≈ 387
+
+F532 Y581 L45
+
+F269
+
+439 L45 420 616 181
+Current Opinion in Structural Biology
+
+290
+
+300
+
+ssDNA recognition by the OB-folds in RPA. (a) Schematic showing the domain structure of RPA. Domains are represented as boxes; their boundary residues are indicated. Zn, zinc ribbon; P, unstructured, phosphorylated N terminus of subunit RPA32. (b) Structure of RPA70 DBD-A (ribbon diagram) bound to ssDNA (stick model). Two conserved aromatics are shown in red [7]. (c) Flexible nature of the L12 and L45 loops; superposition of ssDNA-bound (yellow) and unbound (green) DBD-B (Ca trace). The maximal shifts of the L12 and L45 loops are indicated with dashed lines, and the size of the shift is indicated [10]. (d) Structural inserts, zinc ribbon (yellow) and 3HB (green), in DBD-C [11]. Figures generated with the program Ribbons [40]. www.sciencedirect.com Current Opinion in Structural Biology 2004, 14:36≠42
+
+38 Protein≠nucleic acid interactions
+
+C terminus by the HtH domain, RPA32C (amino acids 200≠270) [9,20]. The whole of RPA14 comprises a single OB-fold. The RPA70C OB-fold is distinct in that it contains two structural insertions not observed in the other RPA OB-folds; a zinc ribbon domain (in the tip of the L12 loop) and a 3HB (between the third and fourth b strands) (Figure 1d). RPA70B, RPA70C, RPA32D and RPA14 are flanked at the C terminus by an a helix. The subunit interface is mediated by three C-terminal helices (from RPA70C, RPA32D and RPA14) arranged in parallel. The structure of intact RPA is not yet known. Available electron microscopy and crystallography data suggested a hexamer of OB-folds centered on a multihelical bundle as a model for the apo RPA trimer (Figure 2a) [11,21].
+
+Comparison of the structures of RPA70AB in the apo form and bound to octadeoxynucleotide revealed the binding mechanism (Figure 1c) [10]. The L12 and L45 loops are flexible in the absence of DNA, and the binding pocket is open. Upon DNA loading, the loops clamp down on it and stabilize the complex in the closed conformation. Not every OB-fold domain of RPA binds ssDNA. The ssDNA binding activity correlates with the presence of two conserved aromatics, prototypes of which, F238 and F269 (Figure 1b), stack with DNA bases in the RPA70AB≠ssDNA structure ([6,11,19,22,23,24]; see also Update). Characteristically, RPA70N and RPA14 lack these aromatics. RPA binds ssDNA using the four ssDNA-binding OB-fold domains: DBD-A, DBD-B, DBD-C and DBD-D, which correspond to structural domains RPA70A, RPA70B, RPA70C and RPA32D, respectively. Binding follows a hierarchical assembly pathway in which DBD-A through DBD-D bind from the 50 to the 30 ends of a given sequence [25,26]. RPA14 does not contribute to DNA binding and there is some controversy regarding RPA70N [27,28,29]. The RPA heterotrimer binds DNA in several stages, with occlusion lengths of 8≠10, then 13≠14 and finally 30
+
+ssDNA binding mechanism
+The first insight into how the OB-fold binds ssDNA was provided by the structure of RPA70AB (RPA70A and RPA70B in tandem), the major ssDNA-binding domain of RPA, bound to octadeoxynucleotide [7]. DNA binding is mediated by three major structural elements of each OB-fold: the L12 and L45 loops, and the C-terminal part of b-strand 3 (b3) (Figure 1b). L12 provides basic amino acids to hydrogen bond with the DNA phosphates, and b3 and L45 each provide one conserved aromatic sidechain (F238 and F269, respectively) to stack with DNA bases.
+Figure 2
+
+(a)
+
+(b) 3 B C ? 70N D 14 D ? 14 A C ? 70N B A 5
+
+(c) 3 C D 14 B A 70N 5
+
+(d) 3 D C B A 70N ?
+Current Opinion in Structural Biology
+
+5
+
+14 ?
+
+Sequential binding model for RPA. (a) Unbound RPA in globular conformation. (b) Binding of 8 nt by DBD-A and DBD-B (8≠10 nt binding mode). (c) Binding of 13≠15 nt by DBD-A, DBD-B and DBD-C. (d) The four DBDs, together with RPA70N and RPA14, occlude $30 nt (30 nt binding mode) in an extended form. OB-folds are represented by palms (70N, RPA70N; 14, RPA14) and DBDs are labeled A≠D. Flexible linkers are represented by a wavy line. DNA is represented as an arrow; the 50 and 30 ends of the DNA are indicated. The C-terminal a helices are represented as circles and the dashed triangle indicates the three-helix subunit interface. Putative elements, the C-terminal a helix of RPA70N and the RPA70N≠RPA14 interaction, are labeled with a question mark. Current Opinion in Structural Biology 2004, 14:36≠42 www.sciencedirect.com
+
+RPA and BRCA2 Bochkarev and Bochkareva 39
+
+nucleotides (nt). A sequential binding model is currently accepted (Figure 2) [10]. Binding is initiated by DBD-A, the DBD with the highest affinity, followed by DBD-B [30,31]. Together, DBD-A and DBD-B comprise the major DBD (RPA70AB) and correspond to the wellcharacterized 8≠10 nt binding mode of the protein [32]. In the 13≠14 nt binding mode, RPA contacts DNA exclusively through the RPA70 subunit (DBD-A, DBD-B and DBD-C) [33]. The 30 nt mode is mediated by all four DBDs. As indicated by electron microscopy, RPA changes its conformation from globular to elongated upon DNA binding [34].
+
+Hunting for new SBBs
+Members of the OB-fold family do not generally exhibit detectible sequence identity [15]. Structural determinants for the OB-fold have been described [17]. Unfortunately, statistically reliable de novo prediction of the OBfold topology cannot be done at the moment. Weak sequence conservation among different DBDs helps to detect new members of this OB-fold subclass. The ssDNA-binding domains of RPA70 have been used to characterize several new SSBs in archaea. A homology search of the genome of the archaean Methanococcus jannaschii revealed four tandem repeats in ORF MJ1159 with significant sequence similarity to DBD-A [36]. Biochemical experiments confirmed ssDNA binding activity for the protein, which was called mjaSSB. This, in its turn, has been used to characterize yet another SSB in crenarchaea, Solfolobus solfataricus SSB [37].
+
+Regulatory role of the OB-fold
+Several recent structural findings demonstrate that the OB-fold can fulfill regulatory functions. The possibility of such regulation was first suggested by the structure of RPA70AB without DNA [10]. DBD-A and symmetryrelated DBD-B were packed in the crystals in such a way that DBD-B extends ssDNA-binding loop L12 into the DNA-binding cleft of DBD-A. Similar functionally important contacts have been reported to stabilize an interaction between two subunits in the telomeric SSB (Figure 3) [35]. The functional significance of this mechanism was outlined by demonstrating an overlap of the ssDNA- and XPA (xeroderma pigmentosum group A protein)-binding sites on DBD-A [29].
+Figure 3
+
+Understanding BRCA2 function
+A prominent example of how the RPA structure helped to establish a function for another protein is the recent analysis of the BRCA2 protein [12]. BRCA2 is a 3418 amino acid nuclear protein, mutations in which are associated with breast cancer susceptibility. Extensive genetic and biological analysis has implicated BRCA2 as an important tissue-specific component of recombinationmediated dsDNA break (DSB) repair, but the precise nature of its contribution to maintaining chromosome structure could not be defined [38]. The most conserved part of BRCA2 is its approximately 800 amino acid C-terminal region, called BRCA2DBD (Figure 4a). The structure of BRCA2DBD (bound to DSS1 [deleted in split-hand/split-foot syndrome 1] protein) revealed five structural domains [12]. Four of them, the N-terminal multihelical domain (NTD) and three OB-folds (OB1, OB2 and OB3), are arranged in a linear fashion. The fifth, the tower domain, is inserted into the L12 loop of the second OB-fold and protrudes away from the core.
+
+C
+
+160
+
+N
+
+194
+Current Opinion in Structural Biology
+
+Conservation of the ligand-binding surface of the OB-fold. Oligopeptide (yellow) binding by an OB-fold (light shading) from the large subunit of the O. nova telomere end binding SSB, as determined by Horvath et al. [35]. www.sciencedirect.com
+
+Several structural features underline the similarity between the RPA70AB≠ssDNA structure and the OB2≠ OB3 fragment of the BRCA2DBD structure. First, DBD-A is the closest structural homolog of OB2 (rmsd ∞ of 1.4 A for 82 [of 109] Ca atoms), as is DBD-B for OB3 ∞ (rmsd of 1.5 A for 84 Ca atoms). Second, the positions of the stacking aromatics in OB2 (W2909 and F2939) (Figure 4b) and OB3 (F3057) are conserved. Third, like DBD-A and DBD-B, OB2 and OB3 are arranged in tandem. Fourth, although OB3 is rotated by 658 (compared to DBD-B) along the axis running through the DNA-binding groove, the integrity of the DNA-binding groove is not affected. Based on the structural similarity, Yang et al. [12] solved the structure of BRCA2DBD in complex with oligo(dT)9. Qualitatively, the DNA binding mode of OB2≠OB3 is similar to that of RPA70AB. In the
+Current Opinion in Structural Biology 2004, 14:36≠42
+
+40 Protein≠nucleic acid interactions
+
+Figure 4
+
+(a)
+
+BRCA2DBD
+3HB T
+
+NTD OB1 OB2 OB3 1 2400 2590 2720 2970 3100 3418
+
+(b)
+
+3HB T
+F2762
+
+(c)
+
+3HB
+
+T L12 5 W2909 ~90∫ L45
+
+7.6 ≈ 2939 L12
+
+3 F2939 L45
+
+N C N C
+Current Opinion in Structural Biology
+
+ssDNA recognition by the second OB-fold (OB2) of BRCA2. (a) Schematic showing the domain structure of BRCA2DBD and its position in the BRCA2 protein. Domains are represented as boxes; their boundary residues are indicated. Three OB-folds (OB1, OB2, OB3) are shaded. The 3HB and tower (T) are shown in yellow. (b) A fragment of BRCA2 structure showing OB2 (ribbon diagram) bound to ssDNA (stick diagram), as determined by Yang et al. [12]. A fragment of the tower is colored in yellow and stacking aromatics are in red. 3HB is shown as a box. ∞ (c) Flexible nature of the L45 loop in BRCA2. Superposition (rmsd 1.2 A with 108 Ca atoms) of DNA-bound (yellow) and unbound (green) OB2 (Ca trace). See Figure 1 for more details.
+
+absence of DNA, the L45 loop of OB2 is flexible and structural data are consistent with the interpretation that the L12 loop may also be flexible (Figure 4c). The conformation of the loops is stabilized (closed) in the presence of DNA. This structural similarity suggested a function for BRCA2. BRCA2 was revealed to be involved in RAD51-mediated homologous recombination as a stimulator that helps to displace RPA and facilitates ssDNA≠ RAD51 nucleoprotein filament formation. This finding was further supported by the observation that the interaction between BRCA2 and RPA is compromised by a cancer-predisposing mutation in BRCA2 [39]. The authors also suggested two alternative explanations for how the NTD≠OB1 fragment of BRCA2 can bind ssDNA. First, OB1 may directly contact it. Second, part of DSS1, which is bound in the basic and highly aromatic groove in close proximity to the ssDNA-binding pocket of OB2, could dissociate as a result of competition with
+Current Opinion in Structural Biology 2004, 14:36≠42
+
+ssDNA. The absence of conserved aromatics in OB1, a common feature of many DBDs, supports the second scenario. The OB2 domain may contribute to protein≠ protein interaction. Interestingly, two OB-folds of the large subunit of the Oxytricha nova telomere end binding SSB are involved in DNA binding and a third OB-fold mediates subunit interaction [31].
+
+The tail of the tower
+Not only has the RPA structure helped to understand BRCA2 function, but also the BRCA2 structure has helped to understand RPA function too. The possibility of direct interaction between the zinc ribbon (inserted in the L12 loop of DBD-C) and ssDNA, the interaction that may play a regulatory role, has been hypothesized [11]. The BRC2DBD≠ssDNA structure strongly supports this notion, in that OB2 (in BRCA2) also contains an insert, the tower, in the L12 loop (Figure 4). In BRCA2, the L12proximal part of the tower provides F2762 for stacking with DNA. The L12-distal part of the tower is a 3HB (not shown) that shares similarity with 3HB dsDNA-binding
+www.sciencedirect.com
+
+RPA and BRCA2 Bochkarev and Bochkareva 41
+
+domains, clear indication of the regulatory function. Amazingly, DBD-C also contains a 3HB, although in a different position; it replaces the capping a helix.
+
+10. Bochkareva E, Belegu V, Korolev S, Bochkarev A: Structure of the major single-stranded DNA-binding domain of replication protein A suggests a dynamic mechanism for DNA binding. EMBO J 2001, 20:612-618. 11. Bochkareva E, Korolev S, Lees-Miller SP, Bochkarev A: Structure  of the RPA trimerization core and its role in the multistep DNAbinding mechanism of RPA. EMBO J 2002, 21:1855-1863. The authors determined the structure of a complex comprising RPA70C, RPA32D and RPA14. This revealed the unusual structure of RPA70C, and shed light on the assembly of the trimer and the mechanism of DNA binding. 12. Yang H, Jeffrey PD, Miller J, Kinnucan E, Sun Y, Thoma NH,  Zheng N, Chen PL, Lee WH, Pavletich NP: BRCA2 function in DNA binding and recombination from a BRCA2-DSS1-ssDNA structure. Science 2002, 297:1837-1848. This paper reports the structure of BRCA2DBD complexed with DSS1 and ssDNA [BRCA2DBD≠DSS1≠oligo(dT)9]. Biochemical data are provided that demonstrate the involvement of BRCA2 in recombinasemediated DSB repair. 13. Bae SH, Bae KH, Kim JA, Seo YS: RPA governs endonuclease switching during processing of Okazaki fragments in eukaryotes. Nature 2001, 412:456-461. 14. Zou L, Elledge SJ: Sensing DNA damage through ATRIP recognition of RPA-ssDNA complexes. Science 2003, 300:1542-1548. 15. Murzin AG: OB(oligonucleotide/oligosaccharide binding)-fold: common structural and functional solution for nonhomologous sequences. EMBO J 1993, 12:861-867. 16. Hubbard TJ, Ailey B, Brenner SE, Murzin AG, Chothia C: SCOP: a Structural Classification of Proteins database. Nucleic Acids Res 1999, 27:254-256. 17. Bycroft M, Hubbard TJ, Proctor M, Freund SM, Murzin AG: The solution structure of the S1 RNA binding domain: a member of an ancient nucleic acid-binding fold. Cell 1997, 88:235-242. 18. Shamoo Y, Friedman AM, Parsons MR, Konigsberg WH, Steitz TA: Crystal structure of a replication fork single-stranded DNA binding protein (T4 gp32) complexed to DNA. Nature 1995, 376:362-366. 19. Hollis T, Stattel JM, Walther DS, Richardson CC, Ellenberger T: Structure of the gene 2.5 protein, a single-stranded DNA binding protein encoded by bacteriophage T7. Proc Natl Acad Sci USA 2001, 98:9557-9562. 20. Bochkarev A, Bochkareva E, Frappier L, Edwards AM: The crystal structure of the complex of replication protein A subunits RPA32 and RPA14 reveals a mechanism for single-stranded DNA binding. EMBO J 1999, 18:4498-4504. 21. Alani E, Thresher R, Griffith JD, Kolodner RD: Characterization of DNA-binding and strand-exchange stimulation properties of y-RPA, a yeast single-strand-DNA-binding protein. J Mol Biol 1992, 227:54-71. 22. Pfuetzner RA, Bochkarev A, Frappier L, Edwards AM: Replication protein A. Characterization and crystallization of the DNA binding domain. J Biol Chem 1997, 272:430-434. 23. Kerr ID, Wadsworth RI, Cubeddu L, Blankenfeldt W, Naismith JH,  White MF: Insights into ssDNA recognition by the OB fold from a structural and thermodynamic study of Sulfolobus SSB protein. EMBO J 2003, 22:2561-2570. This paper describes the structural and functional analysis of Sulfolobus SSB, underlining the importance of two conserved aromatics for ssDNA binding by the OB-fold. 24. Saikrishnan K, Jeyakanthan J, Venkatesh J, Acharya N, Sekar K, Varshney U, Vijayan M: Structure of Mycobacterium tuberculosis single-stranded DNA-binding protein. Variability in quaternary structure and its implications. J Mol Biol 2003, 331:385-393. 25. de Laat WL, Appeldoorn E, Sugasawa K, Weterings E, Jaspers NG, Hoeijmakers JH: DNA-binding polarity of human replication protein A positions nucleases in nucleotide excision repair. Genes Dev 1998, 12:2598-2609. 26. Iftode C, Borowiec JA: 5( ! 3( molecular polarity of human replication protein A (hRPA) binding to pseudo-origin DNA substrates. Biochemistry 2000, 39:11970-11981. Current Opinion in Structural Biology 2004, 14:36≠42
+
+Conclusions
+Many SSB of different origin share common structural and functional features. This conservation is not reflected in sequence similarity. Nonetheless, these proteins may share a common OB-fold ancestor. Variety in the higher order structural assembly of the OB-fold proteins (E. coli SSB, mjaSSB, RPA, BRCA2) may reflect divergent evolutionary trajectories from shuffling the OB-folds.
+
+Update
+The recently reported structure of Pot1 (protection of telomeres 1) bound to ssDNA [41] supports the basic concepts of ssDNA binding by the OB-fold discussed in this review. This work also indicates that, depending on the sidechain composition, the OB-fold can bind ssDNA sequence specifically (Pot1) or sequence nonspecifically (RPA). Alternatively, RPA might have a hidden preference for some DNA sequences.
+
+Acknowledgements
+We thank Gillian Air for critical reading of the manuscript. This work was supported by National Institutes of Health grant GM61192 (to AB).
+
+References and recommended reading
+Papers of particular interest, published within the annual period of review, have been highlighted as:  of special interest  of outstanding interest 1. Lohman TM, Ferrari ME: Escherichia coli single-stranded DNA-binding protein: multiple DNA-binding modes and cooperativities. Annu Rev Biochem 1994, 63:527-570. Wold MS: Replication protein A: a heterotrimeric, singlestranded DNA-binding protein required for eukaryotic DNA metabolism. Annu Rev Biochem 1997, 66:61-92. Iftode C, Daniely Y, Borowiec JA: Replication protein A (RPA): the eukaryotic SSB. Crit Rev Biochem Mol Biol 1999, 34:141-180. Mer G, Bochkarev A, Chazin WJ, Edwards AM: Three-dimensional structure and function of replication protein A. Cold Spring Harb Symp Quant Biol 2000, 65:193-200. Raghunathan S, Ricard CS, Lohman TM, Waksman G: Crystal structure of the homo-tetrameric DNA binding domain of Escherichia coli single-stranded DNA-binding protein determined by multiwavelength x-ray diffraction on the selenomethionyl protein at 2.9-A resolution. Proc Natl Acad Sci USA 1997, 94:6652-6657. Raghunathan S, Kozlov AG, Lohman TM, Waksman G: Structure of the DNA binding domain of E. coli SSB bound to ssDNA. Nat Struct Biol 2000, 7:648-652. Bochkarev A, Pfuetzner RA, Edwards AM, Frappier L: Structure of the single-stranded-DNA-binding domain of replication protein A bound to DNA. Nature 1997, 385:176-181. Jacobs DM, Lipton AS, Isern NG, Daughdrill GW, Lowry DF, Gomes X, Wold MS: Human replication protein A: global fold of the N-terminal RPA-70 domain reveals a basic cleft and flexible C-terminal linker. J Biomol NMR 1999, 14:321-331. Mer G, Bochkarev A, Gupta R, Bochkareva E, Frappier L, Ingles CJ, Edwards AM, Chazin WJ: Structural basis for the recognition of DNA repair proteins UNG2, XPA, and RAD52 by replication factor RPA. Cell 2000, 103:449-456.
+
+2.
+
+3. 4.
+
+5.
+
+6.
+
+7.
+
+8.
+
+9.
+
+www.sciencedirect.com
+
+42 Protein≠nucleic acid interactions
+
+27. Gomes XV, Wold MS: Functional domains of the 70-kilodalton subunit of human replication protein A. Biochemistry 1996, 35:10558-10568. 28. Braun KA, Lao Y, He Z, Ingles CJ, Wold MS: Role of proteinprotein interactions in the function of replication protein A (RPA): RPA modulates the activity of DNA polymerase alpha by multiple mechanisms. Biochemistry 1997, 36:8443-8454. 29. Daughdrill GW, Buchko GW, Botuyan MV, Arrowsmith C, Wold MS,  Kennedy MA, Lowry DF: Chemical shift changes provide evidence for overlapping single-stranded DNA- and XPAbinding sites on the 70 kDa subunit of human replication protein A. Nucleic Acids Res 2003, 31:4176-4183. This paper provides conceptual insight into how ssDNA binding can regulate, and/or be regulated by, protein≠protein interaction; protein (XPA) and ssDNA compete for the same binding site. 30. Brill SJ, Bastin-Shanower S: Identification and characterization of the fourth single-stranded-DNA binding domain of replication protein A. Mol Cell Biol 1998, 18:7225-7234. 31. Arunkumar AI, Stauffer ME, Bochkareva E, Bochkarev A: Independent and coordinated functions of the replication protein A tandem high affinity ssDNA binding domains. J Biol Chem 2003, 278:41077-41082. 32. Blackwell LJ, Borowiec JA: Human replication protein A binds single-stranded DNA in two distinct complexes. Mol Cell Biol 1994, 14:3993-4001. 33. Lavrik OI, Kolpashchikov DM, Weisshart K, Nasheuer HP, Khodyreva SN, Favre A: RPA subunit arrangement near the 3(-end of the primer is modulated by the length of the template
+
+strand and cooperative protein interactions. Nucleic Acids Res 1999, 27:4235-4240. 34. Blackwell LJ, Borowiec JA, Masrangelo IA: Single-stranded-DNA binding alters human replication protein A structure and facilitates interaction with DNA-dependent protein kinase. Mol Cell Biol 1996, 16:4798-4807. 35. Horvath MP, Schweiker VL, Bevilacqua JM, Ruggles JA, Schultz SC: Crystal structure of the Oxytricha nova telomere end binding protein complexed with single strand DNA. Cell 1998, 95:963-974. 36. Kelly TJ, Simancek P, Brush GS: Identification and characterization of a single-stranded DNA-binding protein from the archaeon Methanococcus jannaschii. Proc Natl Acad Sci USA 1998, 95:14634-14639. 37. Haseltine CA, Kowalczykoski SC: A distinctive single-strand DNA-binding protein from the Archaeon Sulfolobus solfataricus. Mol Microbiol 2002, 43:1505-1515. 38. Venkitaraman AR: Cancer susceptibility and the functions  of BRCA1 and BRCA2. Cell 2002, 108:171-182. This excellent biochemical review summarizes information about BRCA1 and BRCA2. It is important for understanding the progress made by the structure/functional analysis of BRCA2. 39. Wong JM, Ionescu D, Ingles CJ: Interaction between BRCA2 and replication protein A is compromised by a cancer-predisposing mutation in BRCA2. Oncogene 2003, 22:28-33. 40. Carson M: Ribbons. Methods Enzymol 1997, 277:493-505. 41. Lei M, Podell ER, Baumann P, Cech TR: DNA self-recognition in the structure of Pot1 bound to telomeric single-stranded DNA. Nature 2003, 426:198-203.
+
+Current Opinion in Structural Biology 2004, 14:36≠42
+
+www.sciencedirect.com
+
+

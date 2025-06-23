@@ -1,0 +1,210 @@
+ARTICLE IN PRESS
+
+Solid State Nuclear Magnetic Resonance 30 (2006) 130≠134 www.elsevier.com/locate/ssnmr
+
+Decoupling residual dipolar coupling between spin pairs in CPMAS NMR
+Robin M. Orr, Melinda J. Duer√
+
+13
+
+C and14N
+
+University Chemical Laboratory, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK Received 2 May 2006; received in revised form 13 June 2006 Available online 29 June 2006
+
+Abstract Decoupling of the residual dipolar coupling between 13C and14N nuclei is investigated experimentally in a triple resonance experiment. It is shown that pulsed decoupling can be used to give enhanced sensitivity and reduced line widths and the technique is illustrated using short peptides. r 2006 Elsevier Inc. All rights reserved.
+
+1. Introduction In solid-state 13C magic-angle spinning (MAS) NMR spectra, the asymmetric splitting observed for signals arising from carbon nuclei of 13C≠14N spin pairs has been well documented [1≠8]. In general, a modulation of the lineshape is seen in the spectra of spin-1/2 nuclei that are dipolar coupled to a quadrupolar nucleus [1,3]. This effect can be shown to result from the quantisation axis of the 14 N spin deviating from the applied static field (B0) of the experiment if the 14N spin experiences a large quadrupole interaction. The orientation of the quantisation axis depends on the orientation of the quadrupole interaction with respect to B0 and results in the secular part of the dipolar Hamiltonian describing the dipolar coupling between the 13C and 14N spins having terms which do not average to zero under MAS. This effect is often referred to as a residual dipolar coupling. Various types of theoretical formulations to analyse this effect under MAS have been reported, including an adiabatic model [4], perturbation treatment [5], and an analytical density operator approach [6]. An average Hamiltonian approach leads to a first-order dipolar coupling contribution to nuclear spin Hamiltonian, which has its usual form, and a second-order dipolar≠quadrupolar cross-term that leads to the asymmetric splitting under MAS [8]. These studies
+√Corresponding author. Fax: +44 1223 336362.
+
+E-mail address: mjd13@cam.ac.uk (M.J. Duer). 0926-2040/$ - see front matter r 2006 Elsevier Inc. All rights reserved. doi:10.1016/j.ssnmr.2006.06.002
+
+show that the magnitude of the splitting and the lineshapes reflect the relative orientation of the quadrupolar and dipolar coupling interactions in the molecular frame and, in principle at least, can be used to determine this information [1≠8]. The magnitude of the splitting seen in the signals of 14Ncoupled nuclei scales inversely with the static magnetic field strength of the NMR experiment and at intermediate field strengths, such as 9.4 T, the splitting becomes quite small and often poorly resolved from the point of view of detailed analysis of the magnitude and relative orientation of nuclear spin interactions. Despite this, the line widths of signals from the carbon nuclei in 13C≠14N spin pairs are often still significantly greater than those from isolated spins, and typically of the order of 100 Hz when recorded at 9.4T. This can contribute to lower resolution and reduced sensitivity in the spectra of molecules containing carbon nuclei in near proximity to 14N, for instance, 13C nuclei in the main chain of peptides. For these reasons it may be helpful to be able to readily decouple this residual dipolar coupling. Ramanathan and Opella have demonstrated an approach to accomplish heterononuclear dipolar decoupling by means of overtone irradiation of the 14N nuclei in the sample [9], illustrating the technique for a single crystal sample of N-acetyl-D,L-valine, although wider application has not been reported. It should be noted that this method does not remove the effect of residual dipolar coupling because the |04 level is unaffected by the overtone
+
+ARTICLE IN PRESS
+R.M. Orr, M.J. Duer / Solid State Nuclear Magnetic Resonance 30 (2006) 130≠134 131
+
+irradiation. Overtone irradiation involves a direct excitation of the weakly allowed |¿1S≠|+1S transition by irradiating the 14N spins at roughly twice the Larmor frequency [10], since this transition is only affected to second order by the quadrupolar interaction; the range of resonance frequencies lies within the pulse bandwidth. In contrast, the single-quantum transitions are affected to first order by the quadrupole interaction, which has an interaction amplitude typically of the order of a few megahertz for organic molecules [2]. Consequently, when using a powder sample, direct excitation of single-quantum transitions in more than the small fraction of crystallite orientations containing nuclei that are close to resonance, is not possible with the currently achievable pulse bandwidths. Here, we show that it is possible to decouple 14N spins from 13C nuclei by irradiating the 14N nuclei at their Larmor frequency when recording spectra of rotating powder samples. The approach we have investigated involves applying pulses of length tp to the 14N nuclei at a rate of np during the acquisition of the 13C FID, whilst simultaneously decoupling 1H nuclei by the usual methods in a triple resonance experiment. The problem is similar to that investigated by Delevoye et al. for removing Jcoupling between 31P and 27Al nuclei in 31P MAS NMR [1]; in their study, application of a continuous low RF field strength irradiation was found to optimise the decoupling effect.
+
+nN were applied to the detailed in Fig. 1. 3. Results and discussion
+
+14
+
+N channel at a rate of np as
+
+Fig. 2 illustrates the typical results that we have obtained with pulsed 14N decoupling for the 13C NMR spectra of the peptides Ala≠Ala and Gly≠Pro≠Gly≠Gly. The advantage in terms of line width and peak height is clearly demonstrated. This gain in sensitivity is especially advantageous when performing two-dimensional experiments, such as recoupling experiments to record the 13C chemical shift anisotropy of 14N-coupled sites [13]. Further, removing the splitting in the direct dimension can simplify the complicated two-dimensional lineshapes that are otherwise observed [14]. As described previously, due to the large quadrupolar coupling experienced by the 14N nuclei, the mechanism for decoupling is unlikely to be direct excitation of the 14N single-quantum transitions. Instead, the decoupling is most likely to be mediated by an adiabatic process. When RF irradiation is applied to the 14N nuclei, for a large quadrupole coupling (nQ ) n1 , where n1 is the RF field strength and nQ the quadrupole coupling frequency) the 14 N eigenstates are essentially the unperturbed Zeeman
+DC F E BA
+
+2. Materials and methods Experiments were performed on a Bruker Avance spectrometer operating at 100.69 MHz for 13C. A Bruker triple resonance probe was used with 4 mm zirconia rotors and standard spinning hardware that stabilised the spinning frequency (nr) to within 72 Hz. SPINAL-64 [12] 1 H decoupling was applied with a field strength of $80≠90 kHz. The 14N field strength was measured using the signal from ammonium chloride, and the 14N offset frequency was set to ¿50 kHz relative to the 14N signal from an aqueous solution of glycine. All samples were obtained from Sigma-Aldrich and used without further purification. During signal acquisition, to decouple 14N from the 13C nuclei, pulses of length tp and field strength
+14N
+-1 vp
+
+180 175 170
+
+55
+
+50
+
+45
+
+(a)
+
+240 220 200 180 160 140 120 100 80 ppm
+
+60
+
+40
+
+20
+
+0
+
+-20
+
+180
+
+170
+
+70
+
+60
+
+50
+
+40
+
+p ...... (b) 240 220 200 180 160 140 120 100 80 ppm 60 40 20 0 -20
+
+v r-1 Rotor period 0 1 2 3
+Fig. 1. The decoupling pulse sequence used in the presented experiments. The duration of the pulses applied to the 14N channel is tp, with the rate of pulsing being np (the pulses start at time points spaced at intervals of n¿1). p nr is the spinning frequency.
+
+Fig. 2. (a) Spectrum of the Ala≠Ala dipeptide sample recorded with 14N decoupling, expansions of sites C, D, E and F are shown with the nondecoupled spectra overlaid (and offset for clarity) in grey. Decoupling parameters: nN º 17 kHz, nr º 5.0 kHz, np º 5.5 kHz, tp º 55 ms. (b) Spectrum of the peptide gly≠pro≠gly≠gly, expansions show the nondecoupled spectra superimposed in red. Decoupling parameters: nN º 24 kHz, nr º 7.5 kHz, np º 7.0 kHz, tp º 60 ms.
+
+ARTICLE IN PRESS
+132 R.M. Orr, M.J. Duer / Solid State Nuclear Magnetic Resonance 30 (2006) 130≠134
+
+functions. However, when the quadrupole coupling is small the eigenstates are a linear combination of the Zeeman functions [15]. If during the application of a pulse, the quadrupole coupling for a particular spin is initially large and then undergoes a change in sign (a ``zero crossing''), as a result of the rotation of the sample, the eigenstate of the spin evolves from one Zeeman function to another [15,16]. In the slow passage (adiabatic) limit, populations are transferred smoothly between the two Zeeman functions involved in the zero crossing, whilst in the sudden passage limit the populations of the spin states remain unchanged by a zero crossing. In the intermediate regime, partial transfer of the populations and their conversion to a variety of coherences occurs [15,17]. Vega defined an adiabaticity parameter a º n2/nQnr (nr is the spinning 1 frequency) as a guide to whether zero crossings are adiabatic (a ) 1) or sudden (a ( 1) [15], although adiabatic behaviour has been observed even for a % 1 [18]. If population transfer occurs sufficiently frequently for a 14 N nucleus coupled to a nearby 13C spin, then the residual dipolar coupling is averaged to zero. This has a close similarity with the proposed self-decoupling model for 13 C≠14N spin pairs, whereby the residual dipolar coupling is averaged if the quadrupolar spin relaxes sufficiently rapidly [19]. With the experimental parameters used in the experiments discussed here ao1, but nevertheless the observed decoupling effect indicates that significant population transfer still occurs. Detailed theoretical analysis of decoupling schemes is difficult in this case because the usual techniques of analysis, such as average Hamiltonian theory [20,21], cannot readily accommodate the adiabatic process that occurs during irradiation. A further effect that is observed upon applying decoupling to 14N is a small displacement of the isotropic frequencies of all the signals in the spectrum, corresponding to the Bloch≠Siegert shift [22]; for this reason, reference spectra should be recorded whilst using the chosen decoupling parameters.
+
+Accurate numerical simulation of the effects of 14N decoupling is hindered by the rapid variation of the quadrupolar interaction under MAS during the RF pulses, which would necessitate very short time increments during numerical evaluation of the Louville-von-Neumann equation of motion. Therefore, we have investigated experimentally the variation of the decoupling efficiency with the decoupling parameters, in preference to simulation of expected results. There are three experimental parameters for the 14N decoupling scheme used: the pulse length tp, the pulse rate np, and the RF field strength nN. In addition, there is a dependence on the sample spinning frequency nr. The decoupling was found to be independent of the 14N offset frequency, at least within a range of 7100 kHz from the aqueous glycine resonance, as expected for the adiabatic population transfer mechanism [23], and so in contrast to 1 H decoupling, careful setting of the 14N offset frequency is not necessary. Trends in the decoupling efficiency with the decoupling parameters were measured by comparison peak heights with and without decoupling for the six 13C signals in the spectrum of the dipeptide Ala≠Ala: site A at 18 ppm, site B at 19 ppm, site C at 49 ppm, site D at 51.5 ppm, site E at 170.5 ppm and site F at 178 ppm. Sites C≠E are all directly bonded to 14N, site C shows only a slight broadening due to residual dipolar coupling to 14N, whereas a clear splitting is resolved for sites D and E. Sites A, B and F are two bonds away from the nearest 14N nucleus and show no splitting due to coupling to 14N. A complex dependence on the rate of pulsing np is observed, Fig. 3. Sites A, B and F, which are not bonded to 14 N, are unaffected by the 14N decoupling, as one would hope. For the other three sites that are directly bonded to 14 N, when the pulse rate is equal to the sample spinning frequency, inferior decoupling is achieved compared with choosing np to be slightly greater, or lower, than the sample spinning frequency. Qualitatively, a consistent rationalisa-
+
+(a)
+
+(b)
+14
+
+(c)
+13
+
+(d)
+
+Fig. 3. Effect of the rate of pulsing np in the N decoupling sequence for the six C signals of Ala≠Ala at A: 18 ppm, B: 19 ppm, C: 49 ppm, D: 51.5 ppm, E: 170.5 ppm, F: 178 ppm. In each case the 14N RF field strength nN was 17 kHz and the pulse length tp 40 ms. Magic angle spinning frequencies nr used are shown in the figure.
+
+ARTICLE IN PRESS
+R.M. Orr, M.J. Duer / Solid State Nuclear Magnetic Resonance 30 (2006) 130≠134 133
+
+1.9 1.8 1.7 1.6 1.5 1.4 1.3 1.2 1.1 1.0 0.9 0.8 (a)
+
+Peak height/non-decoupled peak height
+
+vr = 5.0 kHz vp = 5.0 kHz
+
+1.9 1.8 1.7 1.6 1.5 1.4 1.3 1.2 1.1 1.0 0.9 0.8 (b)
+
+vr = 5.0 kHz vp = 5.5 kHz
+
+1.9 1.8 1.7 1.6 1.5 1.4 1.3 1.2 1.1 1.0 0.9 0.8 (c)
+
+vr = 7.5 kHz vp = 7.75 kHz
+
+Site A Site B Site C
+
+1.9 1.8 1.7 1.6 1.5 1.4 1.3 1.2 1.1 1.0 0.9 0.8 (d)
+
+vr = 10.0 kHz vp = 10.5 kHz
+
+Site E Site F
+
+10 15 20 25 Field strength / kHz
+
+10 15 20 25 Field strength / kHz
+
+10 15 20 25 Field strength / kHz
+
+10 15 20 25 Field strength / kHz
+
+Fig. 4. Effect of the decoupling field strength nN for 14N decoupling for the six 13C signals of Ala≠Ala at A: 18 ppm, B: 19 ppm, C: 49 ppm, D: 51.5 ppm, E: 170.5 ppm, F: 178 ppm. In each case the pulse length tp used in the decoupling sequence was 40 ms, the spinning frequency (nr) and rate of pulsing (np) used is shown in the figure.
+
+1.9 Peak height / non-decoupled peak height 1.8 1.7 1.6 1.5 1.4 1.3 1.2 1.1 1.0 0.9
+
+vr =5.0 kHz vp =5.0 kHz
+
+1.9 1.8 1.7 1.6 1.5 1.4 1.3 1.2 1.1 1.0 0.9
+
+vr =10.0 kHz vp =10.0 kHz Site A Site B Site C
+
+Site D Site E Site F
+
+1.9 1.8 1.7 1.6 1.5 1.4 1.3 1.2 1.1 1.0 0.9
+
+vr =7.5 kHz vp =7.75 kHz
+
+30 (a) 1.9 Peak height / non-decoupled peak height 1.8 1.7 1.6 1.5 1.4 1.3 1.2 1.1 1.0 0.9 20 (b)
+
+60 90 120 Pulse length / s
+
+150 (c) 1.9 1.8 1.7 1.6 1.5 1.4 1.3 1.2 1.1 1.0 0.9
+
+10
+
+20 30 40 Pulse length / s
+
+50
+
+60 (e) 1.9 1.8 1.7 1.6 1.5 1.4 1.3 1.2 1.1 1.0 0.9
+
+10
+
+20
+
+30 40 50 Pulse length / s
+
+60
+
+70
+
+vr =5.0 kHz vp =5.5 kHz
+
+vr =10.0 kHz vp =10.5 kHz
+
+vr =12.5 kHz vp =12.75 kHz
+
+40 60 80 Pulse length / s
+
+100
+
+120 (d)
+
+10
+
+20 30 40 Pulse length / s
+
+50
+
+60 (f)
+
+10
+
+20 30 40 Pulse length / s
+
+50
+
+Fig. 5. Dependence of peak height on the pulse length used in the 14N decoupling sequence for the six resonances of Ala≠Ala at A: 18 ppm, B: 19 ppm, C: 49 ppm, D: 51.5 ppm, E: 170.5 ppm, F: 178 ppm. The RF fields strength nN was 17 kHz in each case and the spinning frequency (nr) and rate of pulsing (np) as shown in the figure.
+
+ARTICLE IN PRESS
+134 R.M. Orr, M.J. Duer / Solid State Nuclear Magnetic Resonance 30 (2006) 130≠134
+
+tion of this effect is likely to be that when the rate of pulsing and spinning frequency coincide, during each decoupling pulse the same set of 14N nuclei undergo a zero-crossing, and hence population transfer. Thus, only a restricted set of crystallites experience decoupling. If the spinning frequency and pulse rate are offset from each other, then the set of crystallites that contain 14N nuclei that undergo a zero-crossing is different for each decoupling pulse, leading (over a period of time) to a decoupling effect over all crystallites. If the effect of the decoupling field strength is also considered, Fig. 4, it is observed that for nr º np º 5 kHz, the peak intensity of site F, along with sites A and B, decreases significantly as the RF field strength is increased. Site F is relatively remote from any 14N spin (its strongest 13 C≠14N dipolar coupling is ¿gCgNm_/(r3 4p) º ¿150 Hz, CN based on the reported crystal structure [24]) and one would hope not to see any effect from the decoupling sequence on the signal from this site. The decrease in signal intensity with increasing 14N RF field strength suggests significant dipolar recoupling occurs, because the population transfer between 14 N spin states interferes with MAS averaging of the firstorder 13C≠14N dipolar interaction in a similar manner to that used in TRAPDOR [25] and REAPDOR [26]. This has a greater effect when the population transfer is more efficient, i.e., as the adiabaticity parameter increases with the increasing field strength. For sites C≠E, their peak heights initially increase with the field strength, thus effective decoupling of 14N is being achieved; however, their signal intensity reaches a maximum. This is perhaps the result of a compromise between decoupling the dipolar≠quadrupolar cross-term which leads to the residual dipolar coupling we wish to remove and recoupling the first-order dipolar interaction between the 13C and 14N nuclei. This was also observed by Delevoye and co-workers in decoupling Jcoupling to 27Al in 31P MAS NMR [11]. Using np offset from nr gives quite different behaviour: sites A, B and F are only slightly affected by the decoupling pulses, even at the highest RF field strengths, and the other sites experience improved decoupling at all field strengths, which is the desired behaviour. Thus, the key to successful decoupling of the residual dipolar coupling is to ensure that the decoupling pulses are applied asynchronously with the sample spinning. The effectiveness of decoupling has a strong dependence on the decoupling pulse length tp, Fig. 5. The advantage of using a pulse rate that is incommensurate with the spinning frequency is clearly evident in Fig. 5(a≠d), where for the same pulse length a significant gain in decoupling efficiency is achieved. Also, there is an optimal pulse length for decoupling at lower spinning rates. At higher spinning frequencies the enhancement in peak height appears to approach a maximum, suggesting there is little gain in using pulses that exceed half a rotor period. This is advantageous from the point of view of reducing the time for which pulses are simultaneously applied to two channels of the probe, as it reduces the stress on the spectrometer hardware.
+
+In common with most decoupling sequences, experimental optimisation will be necessary to achieve the best results. It is clear that it is important to offset the rate of pulsing in the decoupling sequence from the sample spinning frequency. If this is done, for the range of spinning frequencies investigated; near optimum performance of the decoupling scheme can be achieved over a reasonably broad range of pulse lengths. With the current hardware limitations, the decoupling field strength is unlikely to be chosen to be too high; therefore, in setting up the decoupling sequence, one needs only to place the irradiation frequency close to the 14N resonances and to optimise the pulse lengths used for the chosen decoupling field strength to achieve effective decoupling of the residual coupling in 13C≠14N spin pairs. Acknowledgments R.M.O. is grateful to the Engineering and Physical Sciences Research Council (EPSRC) for a studentship. This work was performed as part of an EPSRC-funded project, GR/R96897. References
+[1] D.L. VanderHart, H.S. Gutowsky, J. Am. Chem. Soc. 89 (1967) 5056. [2] A.C. Olivieri, L. Frydman, L.E. Diaz, J. Magn. Reson. 75 (1987) 50. [3] R.K. Harris, A.C. Olivieri, Prog. Nucl. Magn. Reson. 24 (1992) 435. [4] A. Naito, S. Ganapathy, C.A. McDowell, J. Magn. Reson. 48 (1982) 367. [5] A.C. Olivieri, J. Magn. Reson. 81 (1989) 201. [6] S. Ding, C.A. McDowell, J. Chem. Phys. 107 (1997) 7762. [7] J.G. Hexem, M.H. Frey, S.J. Opella, J. Chem. Phys. 77 (1982) 3847. [8] Z. Gan, D.M. Grant, J. Magn. Reson. 90 (1990) 522. [9] K.V. Ramanathan, S.J. Opella, J. Magn. Reson. 78 (1988) 367. [10] R. Tycko, S.J. Opella, J. Chem. Phys. 86 (1987) 1761. [11] L. Delevoye, C. Fernandez, C.M. Morais, J.-P. Amoureux, V. Montouillout, J. Rocha, Solid State Nucl. Magn. Reson. 22 (2002) 501. [12] T. Braunoger, P. Wormald, P. Hodgkinson, Monatsh. Chem. 133 (2002) 1549. [13] S. Wi, H. Sun, E. Oldfield, M. Hong, J. Am. Chem. Soc. 127 (2005) 6451. [14] M. Strohmeier, D.W. Alderman, D.M. Grant, J. Magn. Reson. 155 (2002) 263. [15] A.J. Vega, J. Magn. Reson. 96 (1992) 50. [16] C.P. Grey, A.P.A.M. Eijkelenboom, W.S. Veeman, Solid State Nucl. Magn. Reson. 4 (1995) 113. [17] S.E. Ashbrook, S. Wimperis, J. Chem. Phys. 120 (2004) 2719. [18] E. Hughes, T. Gullion, A. Goldbourt, S. Vega, A. Vega, J. Magn. Reson. 156 (2002) 230. [19] A.C. Olivieri, J. Magn. Reson. 82 (1989) 342. [20] M. Ernst, J. Magn. Reson. 162 (2003) 1. [21] P. Hodgkinson, Prog. Nucl. Magn. Reson. 46 (2005) 197. [22] F. Bloch, A. Siegert, Phys. Rev. 57 (1940) 522. [23] Y. Ba, H.-M. Kao, C.P. Grey, L. Chopin, T. Gullion, J. Magn. Reson. 133 (1998) 104. [24] R.J. Fletterick, C.-C. Tsai, R.E. Hughes, J. Phys. Chem. 75 (1971) 918. [25] C.P. Grey, W.S. Veeman, A.J. Vega, J. Chem. Phys. 98 (1993) 7711. [26] T. Gullion, Chem. Phys. Lett. 246 (1995) 325.
+
+

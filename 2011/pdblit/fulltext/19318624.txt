@@ -1,0 +1,457 @@
+RESEARCH ARTICLE
+BIOCHEMISTRY
+
+An Intramolecular Switch Regulates Phosphoindependent FHA Domain Interactions in Mycobacterium tuberculosis
+Timothy J. Nott,1 Geoff Kelly,2 Lasse Stach,1 Jiejin Li,1 Sarah Westcott,1 Dony Patel,1 Debbie M. Hunt,3 Steven Howell,1 Roger S. Buxton,3 Helen M. O'Hare,4,5 Stephen J. Smerdon1*
+(Published 24 March 2009; Volume 2 Issue 63 ra12)
+
+Forkhead-associated (FHA) domains have gained considerable prominence as ubiquitous phosphothreoninedependent binding modules; however, their precise roles in serine and threonine kinase (STK) pathways and mechanisms of regulation remain unclear. From experiments with Rv1827, an FHA domain­containing protein from Mycobacterium tuberculosis, we derived a complete molecular description of an FHA-mediated STK signaling process. First, binding of the FHA domain to each of three metabolic enzyme complexes regulated their catalytic activities but did not require priming phosphorylation. However, phosphorylation of a threonine residue within a conserved amino-terminal motif of Rv1827 triggered its intramolecular association with the FHA domain of Rv1827, thus blocking its interactions with each of the three enzymes. The solution structure of this inactivated form and further mutagenic studies showed how a previously unidentified intramolecular phosphoswitch blocked the access of the target enzymes to a common FHA interaction surface and how this shared surface accommodated three functionally related, but structurally diverse, binding partners. Thus, our data reveal an unsuspected versatility in the FHA domain that allows for the transformation of multiple kinase inputs into various downstream regulatory signals.
+INTRODUCTION
+
+The importance of phosphorylation in cellular signaling processes is exemplified by the existence of more than 500 human genes that encode protein kinases (1) and of numerous phosphorylation-dependent protein interaction proteins and modules such as 14-3-3, BRCA1 (breast cancer 1) C-terminal (BRCT) repeats, Polo-box domains, WD40 repeats (also known as b-propeller domains), and forkhead-associated (FHA) domains, among others (2). FHA domains were first identified as regions of homology in a subset of forkhead family transcription factors (3). Their functional importance emerged from studies of the DNA-damage, checkpoint kinase Rad53 that suggested a primary role for these domains as Src homology 2 (SH2)­like modules that recognize and bind specifically to phosphorylated threonine (pThr) motifs in target proteins (4, 5). Orthologs of classical eukaryotic serine-threonine kinases (STKs) (6) have been identified in many microbial species (7) and their occurrence is highly correlated with the presence of FHA domain­containing proteins (8). Thus, a fundamental functional linkage between these two classes of proteins exists in both eukaryotes and prokaryotes, which provides an opportunity to further define the activities of this important class of signaling domains in an experimentally tractable bacterial system. In this respect, Mycobacterium tuberculosis (MTB) has become a focus for understanding STK and FHA domain functions because it appears to have a sophisticated, eukaryotic1 Division of Molecular Structure, MRC National Institute for Medical Research, The Ridgeway, Mill Hill, London NW7 1AA, UK. 2Biomedical NMR Centre, MRC National Institute for Medical Research, The Ridgeway, Mill Hill, London NW7 1AA, UK. 3Division of Mycobacterial Research, MRC National Institute for Medical Research, The Ridgeway, Mill Hill, London NW7 1AA, UK. 4Department of Infection, Immunity and Inflammation, University of Leicester, Leicester LE1 9HN, UK. 5Department of Biochemistry, University of Leicester, Leicester LE1 9HN, UK. *To whom correspondence should be addressed. E-mail: stephen.smerdon@ nimr.mrc.ac.uk
+
+like kinase-signaling network consisting of 11 STKs (PknA to PknL, with the exception of PknC), a serine-threonine phosphatase, and five FHA domain­containing proteins (9). Rv1827, a small 162­amino-acid residue, FHA domain­containing protein constitutes the major substrate for an essential kinase, PknB, in MTB cell extracts (10), in which it is specifically phosphorylated on Thr22 within a conserved N-terminal TTSVF motif that closely matches preferred PknB target sequences (11) (Fig. 1A). The functional importance of this observation was illuminated by the discovery that phosphorylation of the Corynebacterium glutamicum ortholog of Rv1827 (OdhI) within the TTSVF region abrogates its inhibition of a tricarboxylic acid (TCA) cycle enzyme, a-ketoglutarate dehydrogenase (OdhA) (12) (Fig. 1A). Here, we have combined structural and biochemical approaches to identify and characterize the protein interactions of Rv1827 in MTB and investigated the molecular bases of their regulation. These studies have revealed how a phosphorylation-independent FHA-binding activity is controlled through an intramolecular interaction brought about by the phosphorylation of Rv1827 by two distinct serine and threonine kinases, PknB and PknG (11, 13). Together, these observations inform our currently limited understanding of prokaryotic kinase signaling networks and of the function of the FHA domain and have wider importance for comprehending general mechanisms of the regulation of modular signaling proteins in eukaryotic systems.
+RESULTS
+
+Phosphoindependent interactions of the FHA domain regulate multiple TCA cycle enzymes
+We first sought to identify binding partners of Rv1827 in extracts of the H37Rv strain of MTB and found that glutathione-S-transferase (GST)­ fused full-length Rv1827 reproducibly and specifically bound to three high molecular weight proteins that were identified by mass spectrometry
+
+www.SCIENCESIGNALING.org
+
+24 March 2009
+
+Vol 2 Issue 63 ra12
+
+1
+
+RESEARCH ARTICLE
+(Fig. 1B, lane 3, and fig. S1). Two of these, Rv1248c (a-ketoglutarate decarboxylase; KGD) and Rv2476c [nicotinamide adenine dinucleotide (NAD)­dependent glutamate dehydrogenase; GDH], have recently been reported as inhibitory targets of Rv1827 (13), and we additionally identified Rv3859c [a-subunit (GltB) of the glutamate synthase (GS) complex] as a previously uncharacterized binding partner. Rv1248c is the ortholog of C. glutamicum OdhA, but in MTB it functions as a decarboxylase in a variant TCA cycle that appears to have been evolutionarily optimized for bacterial persistence in infected macrophages (14). Additional pull-down assays were carried out with PknB-phosphorylated Rv1827, the minimal FHA domain (amino acid residues 55 to 149) of Rv1827, or a mutant Rv1827 protein containing an alanine substitution of Ser95 (S95A), which is a conserved FHA domain residue whose mutation is known to abrogate binding to the pThr motif (Fig. 1B, lanes 4 to 6). Whereas interactions between Rv1827 and all three enzymes were apparFig. 1. Rv1827 interactions and kinase-mediated regulation of metabolic enzymes. (A) Rv1827 contains an FHA domain and a conserved N-terminal region encompassing phosphorylation sites for PknG and PknB. Mt, M. tuberculosis; Ml, M. leprae; Ms, M. smegmatis; Cg, C. glutamicum; Rf, Rhodococcus fascians; Nf, Nocardia farcinica. (B) Pull-down experiments with MTB extracts incubated with the indicated GST-fusion proteins. (C to E) Rv1827 (full), Rv1827-pThr22 (pThr22), Rv1827-FHA (FHA), and Rv1827-S95A (S95A) were assayed for their effects on the activity of purified KGD and GDH (C and D) and GS in M. smegmatis extracts (E). All data are shown as the mean ± SEM from three experiments. (F) The three enzymes regulated by Rv1827 lie at the crossroads of the TCA cycle. KGD (blue) decarboxylates a-ketoglutarate. GDH (green) and GS (red)/GlnA (glutamine synthetase, orange) function in the low- and high-affinity pathways of ammonia assimilation, respectively. Inhibition of KGD and GDH (dashed lines) by Rv1827 and its activation of GS (bold red lines) alter the flux of a-ketoglutarate toward glutamate synthesis. ADP, adenosine diphosphate.
+
+ently unaffected by removal of the N-terminal 54 amino acid residues of the protein, they are abolished by phosphorylation of Thr22. Furthermore, the phosphobinding-deficient Ser95Ala mutant Rv1827 (Rv1827-S95A) eliminated its interaction with GS; whereas its association with GDH was reduced, its binding to KGD was unaffected. In vitro enzyme assays showed that Rv1827 inhibited the activities of purified recombinant KGD and GDH (Fig. 1, C and D) and increased the activity of GS in Mycobacterium smegmatis and Mycobacterium bovis BCG (Bacille Calmette-Guérin) extracts (Fig. 1E). Because all three enzymes use a-ketoglutarate as a substrate, these data further suggest that Rv1827 exerts control at multiple, interdependent stages of the TCA cycle of MTB (Fig. 1F). The isolated FHA domain sufficed for all of the activities of Rv1827 and caused more potent inhibition of both KGD and GDH than did fulllength Rv1827, which implies that amino acid residues 1 to 54 may hinder the binding of the FHA domain to the target enzymes, even in the unphosB
+
+A
+
+Ferricyanide reduction (nmol min 1 mg 1)
+
+300
+
+NADH consumption (nmol min 1 mg 1)
+
+C
+
+D
+
+_
+
+_ _
+
+2.0
+
+_
+
+200
+
+1.5
+
+1.0
+
+100
+
+0.5
+
+0 0 1 2 3 4
+
+0.0 0 1 2 3 4
+
+NADH consumption (nmol min 1 mg 1)
+
+_
+
+E
+
+F
+2.0
+
+_
+
+1.5
+
+1.0
+
+0.5
+
+0.0 0 2 4 6
+
+www.SCIENCESIGNALING.org
+
+24 March 2009
+
+Vol 2 Issue 63 ra12
+
+2
+
+RESEARCH ARTICLE
+phorylated state. The effects of phosphorylation of Thr22 and of the S95A mutation (Fig. 1B) were largely recapitulated in the kinetic studies; phosphorylation of Thr22 blocked the regulatory activity of Rv1827 toward all three enzymes and the S95A mutation compromised Rv1827-mediated inhibition of GDH and activation of GS, with no effect on its ability to inhibit KGD (Fig. 1, D and E). The reduced ability of Rv1827-S95A to bind to and regulate the activities of GDH and GS is suggestive of classical pThr-dependent interactions. However, the Escherichia coli­expressed proteins used in our enzyme assays are unlikely to be phosphorylated and, consistent with this proposition, we have been unable to identify any phosphorylation sites in recombinant or native GDH or KGD by mass spectrometry. Therefore, the above experiments show that phosphorylation of Rv1827 by PknB regulated the interactions of its FHA domain with three functionally related enzymes of the TCA cycle
+Fig. 2. 1H-15N HSQC spectra of Rv1827 and Rv1827-pThr22. The spectra of Rv1827 (blue) and Rv1827-pThr22 (red) were acquired at 600 MHz at 25°C in 20 mM sodium acetate (pH 5.8), 50 mM NaCl with 10% 2H2O. Peaks folded in the 15 N dimension are shown as hollow contours. Assigned d-NH2 (asparagine) and -NH2 (glutamine) pairs are linked with horizontal bars. The insets at the lower right of each panel correspond to the crowded regions in the centers of the respective spectra. pThr22 is highlighted with a red ellipse. Unassigned peaks are not annotated.
+12 105
+
+and that association of Rv1827 with at least two, and most likely all three, involved a phosphoindependent FHA-binding function.
+
+Intramolecular interactions regulate the binding of Rv1827 to target enzymes
+In seeking a molecular explanation for these observations, we noticed that both Thr residues within the conserved T21T22SVF region conform to the optimal Rv1827-binding motif, T-X-X-f (where f represents a hydrophobic amino acid residue and X represents any residue), derived from oriented peptide library screens (5). Accordingly, isothermal titration calorimetry (ITC) measurements showed that short, synthetic phosphopeptides containing either pThr21 or pThr22 bound to Rv1827 with similar affinities (fig. S2). Further investigation was aided by the high specificity and activity of PknB toward
+11 10 9 8 7 6 5 105
+
+110
+
+110
+
+N (ppm)
+
+115
+
+115
+
+120
+
+120
+
+125
+
+125
+
+130
+
+130
+
+12 105
+
+11
+
+10
+
+9
+
+8
+
+7
+
+6
+
+5 105
+
+110
+
+110
+
+115
+
+115
+
+N (ppm)
+
+120
+
+120
+
+125
+
+125
+
+130
+
+130
+
+12
+
+11
+
+10
+
+9
+
+8
+
+7
+
+6
+
+5
+
+H (ppm)
+
+www.SCIENCESIGNALING.org
+
+24 March 2009
+
+Vol 2 Issue 63 ra12
+
+3
+
+RESEARCH ARTICLE
+the Thr22 site, which enabled us to produce a high yield of stoichiometrically phosphorylated protein (fig. S3A). A combination of limited proteolysis, dynamic light scattering, and multiangle laser light scattering (fig. S3, B to D) showed that phosphorylation of Thr22 completely protected Arg26 within the linker region from digestion by trypsin. In addition, phosphorylation resulted in a conformational compaction of the phosphorylated form which, nevertheless, remained monomeric, consistent with similar biophysical studies described recently (15) Although phosphorylation of Thr21 by PknG was less efficient than that of Thr22 by PknB in our hands, prolonged incubation at high concentrations of enzyme resulted in a product that similarly resisted tryptic digestion at Arg26 (fig. S3B). Together, these data suggest a mechanism for the regulation of intermolecular interactions of Rv1827 through intramolecular binding of its N-terminal region to the FHA domain after phosphorylation at either Thr21 or Thr22 by PknG or PknB, respectively. Rv1827 failed to yield diffraction-quality crystals. However, 1H-15N HSQC (heteronuclear single-quantum correlation) spectra of both proteins were of high quality, and assignment of these spectra showed chemical shift differences for a number of residues from the pThr22 region and the core FHA domain (Fig. 2). We therefore proceeded to a full solution structure determination of full-length Rv1827-pThr22 by multidimensional heteronuclear nuclear magnetic resonance (NMR) (Fig. 3A and table S1). The structure shows that residues 55 to 149 adopted a classical FHA domain fold consisting of a compact, 11-stranded b-sandwich topology (Fig. 3B). Amino acid residues 34 to 54 and the extreme N and C termini of Rv1827 were poorly defined, consistent with the increased internal mobility of these residues, an interpretation validated by 15N relaxation measurements (see below). In contrast, the location and orientation of the most highly conserved N-terminal residues (Fig. 1A) were well defined by a total of 65 longrange nuclear Overhauser effects (NOEs). Overall, amino acid residues 21 to 33 adopted an extended conformation that encompassed a short region with helical propensity (H1). This region followed a path across the surface of the FHA domain that was distinct from that previously observed in FHA domain­phosphopeptide complex structures (fig. S4) and
+
+Structure of the conformational switch of Rv1827
+To understand this mode of regulation of the FHA domain at the molecular level, we initially attempted structural analysis by x-ray crystallography, but extensive screening of either the pThr22 or nonphosphorylated forms of
+
+Rv1827
+8.8 122 123 124 8.7 8.6 8.5 8.4 8.3 8.2 8.1 8.0 7.9 7.8 7.7 7.6 122 123 124 125 126 127
+F25
+
+Rv1827 + pThr22 peptide
+8.8 8.7 8.6 8.5 8.4 8.3 8.2 8.1 8.0 7.9 7.8 7.7 7.6 122 123 124 125 126 127
+F25 R26 R26
+
+R26 F25 A27
+
+R26 F25 A27
+
+N ppm
+
+125 126
+
+15
+
+A27
+
+A27
+
+127 128 129 8.8 8.7 8.6 8.5 8.4 8.3
+1
+
+128 129 8.2 8.1 8.0 7.9 7.8 7.7 7.6 8.8 8.7 8.6 8.5 8.4 8.3
+1
+
+128 129 8.2 8.1 8.0 7.9 7.8 7.7 7.6
+
+H ppm
+
+H ppm
+
+FHA
+
+FHA
+
+resonances of residues in Rv1827
+
+FHA
+
+resonances of residues in Rv1827-pThr22
+
+P
+
+FHA
+
+resonances of residues in Rv1827 + pThr22 peptide
+forms are labeled. The new resonances of F25 and R26 on addition of phosphopeptide are indicated with arrows. Addition of phosphopeptide displaces A27 to a new, unknown location. Bottom: Cartoon representing the conformations of unphosphorylated Rv1827, Rv1827-pThr22, and Rv1827 bound to the pThr22-containing peptide (blue, red, and green with pink, respectively).
+
+Fig. 3. Characterization of the binding of Rv1827 to phosphopeptides derived from its own N-terminal region. Comparison of an equivalent region of the 1H-15N HSQCs of Rv1827 (blue, left) and Rv1827 after addition of 2.5 molar equivalents of pThr22-containing peptide as used in fig. S2 (green, right). Resonances of Phe25 (F25), Arg26 (R26), and Ala27 (A27) in the unphosphorylated (blue filled circles) and pThr22 (red filled circles)
+
+P
+
+www.SCIENCESIGNALING.org
+
+24 March 2009
+
+Vol 2 Issue 63 ra12
+
+15
+
+N ppm
+4
+
+RESEARCH ARTICLE
+ultimately directed the subsequent ensemble of loop conformations along one side of the FHA b sandwich. The dynamics of the full-length phosphorylated and nonphosphorylated proteins were investigated by measurements of 15N relaxation, for example, T2 (Fig. 3C) and T1/NOE (fig. S5). Regions of high mobility were apparent at the N- and C-termini and at the region corresponding to amino acid residues 34 to 54, whereas residues around pThr22 displayed dynamic behavior identical to that of the core FHA domain (Fig. 3C, upper panel). Remarkably, restricted (though still substantial) internal motion was also observed for the N-terminal region in the nonphosphorylated protein (Fig. 3C, lower panel). To investigate the possibility that the dynamic behavior of the N-terminal residues was the product of transient ordering within an otherwise unrestrained region, we titrated the pThr22-containing peptide (as used in the
+Fig. 4. NMR structural analysis of the intramolecular, pThr22-bound conformation of Rv1827. (A) Ca plot showing the ensemble of the 20 lowest-energy structures. The core FHA domain is shown with white loops connecting b-strands (red). Arg26, which is protected from trypsin digestion when Rv1827 is phosphorylated, and the H1 region are highlighted. The extreme N-terminal (residues 1 to 18) and C-terminal (residues 150 to 162) regions were not defined and have been omitted for clarity. (B) Ribbon representation of a single representative model from the NMR ensemble showing the 11 b-strands as red arrows with the molecular surface superimposed. Two conserved pThr-contact residues (Arg81 and Ser95) are shown in stick representation. (C) 15N-T2 relaxation values plotted against residue number for phosphorylated and nonphosphorylated Rv1827. (D) Model of the regulation of target enzymes by Rv1827. Rv1827 adopts multiple conformations in the open form. Prebinding of the N-terminal linker is highly stabilized in the "closed," inactive conformation by phosphorylation by PknB (this study) or PknG (13), disrupting the formation of the enzyme complex. Return to the "open" structure may then arise through action of the MTB Ser and Thr phosphatase, PstP.
+
+ITC experiments discussed previously) against nonphosphorylated Rv1827 and monitored 1H-15N chemical shift perturbations by NMR (Fig. 4). Upon addition of phosphopeptide, the chemical shifts of residues involved in phosphate binding recapitulated those of the Rv1827-pThr22 form. However, residues 21 to 30 moved to new locations in the 1H-15N HSQC spectrum distinct from those in either the unmodified or the modified protein spectra. This suggests that phosphopeptide interactions with the FHA domain induced changes in the chemical environment of these residues, presumably by displacement. We therefore propose that, rather than acting to tether a disordered N-terminal region, phosphorylation of Thr22 appears to stabilize a preexisting but low-occupancy association of residues 21 to 30 with the FHA domain. This explains a small but consistent decrease in the apparent affinity observed for the binding of pThr22- and pThr21-containing
+B
+
+A
+
+Arg 26
+
+C
+Rv1827-pThr
+600
+TTSVF motif Linker
+22
+
+D
+
+"Open"
+KGD GDH
+FHA FHA
+
+400
+FHA
+
+GS
+
+200
+A ATP
+
+P i
+
+PknB/G
+ADP
+
+PstP?
+
+0 0 20 40 60 80 100 120 140 160
+FHA
+P
+
+600
+TTSVF motif
+
+Rv1827
+Linker
+
+"Closed"
+
+400
+FHA
+
+200
+
+0 0 20 40 60 80 100 120 140 160
+
+www.SCIENCESIGNALING.org
+
+24 March 2009
+
+Vol 2 Issue 63 ra12
+
+5
+
+RESEARCH ARTICLE
+phosphopeptides to full-length unphosphorylated Rv1827 compared to the N-terminally truncated FHA domain alone (table S2). It additionally provides a rationale for the increased inhibition of KGD and GDH also apparent in our enzyme assays after deletion of residues 1 to 54 from full-length Rv1827 (Fig. 1). We conclude that interactions in the "prebound" or "open" form resemble those observed in the final "closed" conformation and that they contribute to the overall stability of intramolecular binding in the phosphorylated protein. Through these conformational effects, the phosphorylated N-terminal region can function as a molecular "off " switch, enabling robust competition for FHA domain interactions with target enzymes (Fig. 3D). viously identified as a possible site of FHA interactions by bioinformatics approaches (16) (Fig. 5A, right). Guided by these observations, we performed GST pull-down experiments, surface plasmon resonance (SPR) measurements, and enzyme assays to explore the effects of four mutations in Rv1827: two at positions usually associated with pThr-binding (Ser95 and Asn117) (5), and two at positions in the positively charged cleft (Lys141 and Arg143) (Fig. 5, B and C, and fig. S6). The results from all three approaches confirmed that the FHA surface involved in regulatory intramolecular interactions was, indeed, coincident with that used in binding to each of the enzyme complexes. Binding was specific because recognition of KGD, GDH, and GS was sensitive to different combinations of three of the four mutations in Rv1827 (Fig. 5D). However, each pairwise interaction was relatively insensitive to mutation at one of the positions, Ser95Ala (S95A), Asn117Ala (N117A), or Arg143Glu (R143E), and only Lys141Glu (K141E) had a substantial effect on binding to all three enzymes. The differential effects of the S95A, N117A, and R143E mutations on the binding and regulatory ability of Rv1827 preclude the possibility that these mutations were merely acting to either stabilize the prebound conformation or globally disrupt folding of the FHA domain because interB
+
+A common surface for FHA-enzyme interactions
+Given that the closed conformation of Rv1827 is incompatible with binding to the target enzymes, we reasoned that part, or all, of the extended FHA surface occluded by intramolecular association might be involved in interactions with these molecules. In addition to the pThr-binding site, this surface encompasses a shallow, positively charged cleft present on the concave face of the FHA domain that accommodates the H1 segment (Fig. 5A, left) and an adjacent region defined by residues from b7 and b10, preFig. 5. Identification of intramolecular and intermolecular Rv1827 interaction surfaces. (A) Properties of the FHA surface. Left: electrostatic potential with positive regions in blue, neutral in white, and negative in red. Right: a putative accessory FHA surface (green) identified by evolutionary trace analysis (16). (B) Location of residues selected for mutation with respect to the bound regulatory region. The orientation is rotated toward the viewer by ~30° with respect to those in (A). (C) Top: Pull-down assays with WT Rv1827 and the four indicated mutants of Rv1827. Middle: The "relative activity" of Rv1827 and its mutants at 4 mM on KGD (blue), GDH (green), and GS (red), normalized to that of the WT protein. Full titrations are shown in table S2. Bottom: Relative SPR binding to immobilised KGD and GDH. Values are the mean of three independent measurements and error bars represent the SEM (D) The effects on binding and enzyme inhibition or activation represented as three distinct but substantially overlapping subregions of the FHA surface. KGD, GDH, and GS each use three of the four mutated positions to specifically bind to Rv1827. Lys141 within the basic FHA region is the only residue whose mutation affects all three interactions.
+
+A
+
+Ser95 Lys141 Asn117 Arg143
+
+C
+
+K1
+
+N
+
+W
+
+R
+
+S9
+
+G
+
+7A 11
+
+D
+
+3E
+
+E
+
+ST
+
+41
+
+14
+
+T
+
+5A
+GDH GltB/GS KGD
+
+Relative "activity"
+
+1.0 0.5 0.0
+
+S9 5 K1 41
+N117 11
+
+Relative SPR binding
+
+KGD GDH GS
+1.0 0.5 0.0
+
+www.SCIENCESIGNALING.org
+
+24 March 2009
+
+R1 43
+Vol 2 Issue 63 ra12
+
+6
+
+RESEARCH ARTICLE
+molecular interactions with all three enzymes would be impeded in both scenarios. For the K141E mutation, the situation is less clear. However, the one-dimensional (1D) 1H NMR spectrum of this mutant was identical to that of the wild-type (WT) protein, effectively eliminating structural disruption as an explanation for the observed effects. Moreover, we saw only an approximately twofold reduction in the affinity of the full-length K141E mutant protein for the pThr22-containing peptide, which is inconsistent with a substantial stabilizing effect on the prebound structure and more likely reflects weak effects on the peptide-interaction surface of the FHA domain itself. Thus, we interpret the apparently complex pattern of mutational effects (Fig. 5C) in terms of a core FHA surface that is subtly tailored to accommodate three structurally diverse enzyme targets in a location that is responsive to regulatory phosphorylation of Rv1827. In a broader context, our results reveal a clear biological role for phosphoindependent interactions in the function of the FHA domain that may nonetheless involve residues integral to the canonical pThr-binding surface. As a consequence, we now suggest that abrogation of interactions through mutation of highly conserved pThr-binding residues cannot necessarily be taken as prima facie evidence for phosphorylation-dependent FHA binding in the absence of additional, supporting data.
+DISCUSSION
+
+tathione Sepharose 4B resin (Amersham) and gel filtration (Superdex 75 or 200, Pharmacia). Phosphorylation of Rv1827 at Thr22 was achieved by diluting the protein to between 0.25 and 1.0 mM in 50 mM tris-HCl (pH 8.0), 150 mM NaCl, and 5 mM MgCl2, supplemented with adenosine triphosphate at twice the final molar concentration of Rv1827 and adding PknB1-279 or full-length PknG to produce a final molar ratio of substrate:kinase of 250:1. Stoichiometric phosphorylation of Rv1827 at Thr21 and Thr22 was typically accomplished in 20 min or overnight for PknB or PknG, respectively, at room temperature.
+
+Preparation of samples for NMR analysis
+Recombinant, uniformly 15N- and 13C-labeled full-length Rv1827 proteins were expressed with the pGEX-6P-1 vector system (GE Healthcare) in Rosetta 2(DE3) pLysS E. coli (Novagen) grown in M9 minimal medium that contained ammonium chloride (99% 15N, Goss Scientific Instruments Ltd.) and D-glucose (13C6, Cambridge Isotope Laboratories Inc.) as the sources of nitrogen and carbon, respectively. Samples for analysis by NMR contained 0.75 to 1.0 mM uniformly 15N- and 13C-labeled Rv1827 (residues 1 to 162) in 90% H2O, 10% 2H2O containing 20 mM sodium acetate (pH 5.8) and 50 mM NaCl. Phosphorylation of uniformly 15N- and 13C-labeled Rv1827 was carried out as described above before dialysis into NMR buffer.
+
+Acquisition of NMR data
+All NMR spectra were acquired at 25°C on Varian Inova 800- and 600-MHz and Bruker Avance 700- and 600-MHz spectrometers. Assignment of 1 H, 15N, and 13C resonances of the backbone was achieved by analysis of HNCACB, CBCA(CO)NH, HN(CA)CO, HNCO, and HNCA tripleresonance experiments (25). Assignment of 1H, 15N, and 13C side-chain resonances was completed by (H)C(CCO)NH, H(CCCO)NH, 3D HCCH total correlation spectroscopy (TOCSY) and 15N-13C­resolved NOE spectra. T1, T2 and 1H-15N heteronuclear NOE relaxation experiments were performed at 600 MHz by standard methods. NMR spectra were processed with NMRPipe and analyzed with CARA/NEASY. Amide proton exchange was monitored by acquiring successive 15N-HSQC spectra after dissolution of lyophilized protein in 100% 2H2O containing 20 mM sodium acetate (pH 5.8) and 50 mM NaCl.
+
+Modular signaling architectures have evolved to provide multiple biological activities through combinatorial linkage of domains with specific function within a single molecule (17). Many such examples are now known, and FHA domains themselves are found in various modular signaling molecules in which their apparent phosphobinding function is complemented by other interaction domains, enzymatic activities, or both. In stark contrast, Rv1827 appears to perform a considerably more complex set of physiological tasks in spite of its deceptively simple architecture. Although it has only a single FHA domain and a seemingly unstructured N-terminal tail region, it nonetheless acts as either an activator or an inhibitor to regulate three core metabolic enzymes. Further, Rv1827 is a focal point for signaling crosstalk, serving as a substrate for at least two STKs: PknB, an essential regulator of cell morphology (11, 18), and PknG, a virulence factor contributing to survival in mice and infected macrophages (19, 20). Integration of multiple signaling inputs is made possible through a common structural response to the activities of PknB or PknG that sponsors a regulatory intramolecular interaction between the FHA domain of Rv1827 and pThr-containing motifs at its N-terminus. Intramolecular association has been observed previously in modular SH2 and SH3 domain­containing proteins such as Src family kinases (21), Crk (22, 23), and Itk (24), but to our knowledge, such a mechanism has not been previously described for any FHA domain­containing protein. Furthermore, intramolecular binding in Src, Crk, and Itk acts mainly to control the accessibility of pTyr (SH2) or PxxP (SH3) motif interaction surfaces on the SH2 or SH3 domains. In contrast, we have now shown how intramolecular binding can simultaneously modulate FHA domain interactions with both canonical pThr-motif ligands and, more importantly, multiple nonphosphorylated partners, substantially expanding the known repertoire of FHA domain activities and regulatory mechanisms.
+MATERIALS AND METHODS
+
+NMR structure calculations
+Structure calculations were performed with a restrained molecular dynamics­ simulated annealing protocol executed in CNS (Crystallography and NMR System) with ARIA (Ambiguous Restraints in Iterative Assignment) 1.2 (26). From 15N- and 13C-resolved 3D NOESY experiments (with a mixing time of 100 ms), 2017 interproton distance restraints were obtained and used in structure calculations (838 intraresidue, 414 sequential, 179 mediumrange, and 586 long-range distances). In addition to the NOE-derived distance restraints, 82 distance restraints for 41 hydrogen bonds, derived from amide proton exchange data combined with analysis of NOE connectivities, and 96 f-y angle restraints derived from TALOS (Torsion Angle Likelihood Obtained from Shift and sequence similarity) were included in the structure calculation. Structural representations were created with PyMOL (www.pymol.org/).
+
+Pull-down assays Protein expression and purification
+Recombinant WT and mutant Rv1827 proteins were expressed as rhinovirus 3C protease­cleavable GST fusions by the pGEX-6P1 vector system (GE Healthcare) in Rosetta 2(DE3) pLysS Escherichia coli (Novagen) grown in LB medium. Proteins were purified by affinity chromatography with gluMTB cell-free extract (lysate) was prepared from MTB H37Rv grown in 100 ml Dubos broth containing 0.05% Tween 80 (v/v) supplemented with 0.2% glycerol (v/v) and 4% Dubos medium albumin (v/v) in 1-liter polycarbonate culture bottles (Nalgene) in a Bellco roll-in incubator (at 2 rpm) at 37°C. When cultures reached an optical density (measured at 600 nm) of 0.8 to 1.0, bacteria were harvested by centrifugation (10,000g for 20 min). Cell pellets were washed with 20 ml 10 mM tris-HCl (pH 7.5) and resuspended
+
+www.SCIENCESIGNALING.org
+
+24 March 2009
+
+Vol 2 Issue 63 ra12
+
+7
+
+RESEARCH ARTICLE
+in 1.5 ml of 10 mM tris-HCl (pH 7.5) containing EDTA-free protease inhibitor cocktail (Roche). Bacteria were lysed in the presence of glass beads (150 to 212 mm, Sigma) in a Ribolyser (Hybaid), and the lysate was cleared by centrifugation and filtration through a low-binding Durapore 0.22 mm membrane filter (Ultrafree-MC, Millipore). Aliquots (10 ml) of glutathione Sepharose 4B resin (Amersham) preequilibrated in 50 mM tris-HCl (pH 8.0), 300 mM NaCl, and 0.5 mM tris-(carboxyethyl) phosphine were saturated with gel filtration­purified GST and GST-Rv1827 constructs. Unbound protein was removed by five cycles of centrifugation at ~500g for 3 min, aspiration of the supernatant, and resuspension of the sedimented resin in 0.5 ml of buffer, and each aliquot of saturated resin was mixed with 100 ml of clarified MTB cell-free lysate and incubated at 4°C for 3 hours with mixing. Unbound protein was removed as described. LDS sample loading buffer and NuPAGE Sample Reducing Agent were added directly to the recovered resin according to the manufacturer's instructions. Protein content was analyzed by SDS­polyacrylamide gel electrophoresis. The effects of WT and mutant Rv1827 proteins were measured in the presence of 4 mM a-ketoglutarate and 2 mM glutamine. All data were plotted with Graphpad Prism and curves were fit to a one-site binding model for activation or inhibition of activity by Rv1827.
+
+Surface plasmon resonance
+For binding studies by SPR, a CM5 sensor chip was used for immobilization of the ligand (KGD or GDH) through the amine-coupling technique, as described by the manufacturer. Samples of Rv1827 proteins were diluted to 15 mM in HBS-P Buffer (BIACore) and injected at a flow rate of 20 ml/min for 1 min over flow cells with immobilized KGD and GDH. The sensor chip surface was regenerated by washing for 10 min. Responses (in response units, RU) were taken 50 s after injection. The specific response for each sample was obtained by subtracting the signal from the ligandimmobilized flow cell and the corresponding blank flow cell. The percentage of binding was calculated from the specific responses of the various Rv1827 proteins divided by the specific response from WT Rv1827, which was assigned as 100%.
+
+Identification of proteins by mass spectrometry
+For protein identification, bands were excised from gels and subjected to tryptic in-gel digestion. A Reflex III MALDI (matrix-assisted laser desorption/ ionization) time-of-flight mass spectrometer (Bruker Daltonik GmbH, Bremen, Germany) equipped with a nitrogen laser and a Scout-384 probe was used to obtain positive ion mass spectra of digested proteins with pulsed ion extraction in reflectron mode. An accelerating voltage of 26 kV was used with detector bias gating set to 2 kV and a mass cutoff of m/z 650. A 0.3 ml aliquot of acidified digestion supernatant was deposited onto a thinlayer a-cyano-4-hydroxycinnamic acid/nitrocellulose matrix and allowed to dry before being rinsed with water. Analysis of the resulting spectra was carried out with Mascot software (Matrix Science Ltd.).
+
+SUPPLEMENTARY MATERIALS
+www.sciencesignaling.org/cgi/content/full/2/63/ra12/DC1 Methods Fig. S1. Identification of binding partners of Rv1827. Fig. S2. Rv1827 binds to phosphopeptides derived from its own N-terminal region. Fig. S3. Biophysical analysis of full-length Rv1827 and Rv1827-pThr22. Fig. S4. Comparison of the structures of Rv1827-pThr22 and the Chk2 FHA-phosphopeptide complex. Fig. S5. The 1H-15N heteronuclear NOE and T1 relaxation profiles for Rv1827 and Rv1827-pThr22. Fig. S6. Regulatory interactions of Rv1827 with KGD, GDH, and GS. Table S1. NMR refinement statistics for Rv1827-pThr22. Table S2. Comparison of ITC-derived binding parameters for full-length Rv1827 and the isolated FHA domain when titrated against pThr21- and pThr22-containing phosphopeptides.
+
+Enzyme assays
+Assays of the activities of MTB KGD (115 nM KGD and 3 mM aketoglutarate) and GDH (28.7 nM GDH, 5 mM NH4Cl, and 6 mM a-ketoglutarate) were performed as described previously (13). For assays of GS activity, extracts of M. bovis BCG (Pasteur) were prepared as follows. Cells were grown in Sauton's broth with ADC (albumin-dextrosecatalase) to mid-log phase. Cells were harvested, washed with phosphatebuffered saline (PBS), resuspended in PBS, and lysed by sonication. Insoluble material was removed by centrifugation and filtration. The concentration of protein was estimated by the Bradford assay. Extracts of M. smegmatis mc2 155 were prepared for GS assays as follows. Cells were grown in modified Sauton's broth in which asparagine was replaced by glutamine (4 mg/ml). At mid-log phase, cells were harvested and processed as described for M. bovis BCG. Assayed samples contained protein (0.28 mg/ml) from M. bovis BCG or protein (0.116 mg/ml) from M. smegmatis, 4 mM a-ketoglutarate, 2 mM glutamine, 1 mM NADH [reduced form of nicotinamide adenine dinucleotide (NAD+)], 10 mM MgCl2, and 100 mM NaCl in 100 mM sodium phosphate (pH 8.0). The background rate of NADH consumption in the absence of a-ketoglutarate or glutamine was subtracted from each data point. For both M. bovis BCG and M. smegmatis extracts, the a-ketoglutarate- and glutamine-dependent consumption of NADH was completely inhibited by azaserine (150 mM), a known inhibitor of glutamate synthases, whereas the consumption of NADH was increased by the addition of purified Rv1827 proteins. Extracts of M. smegmatis were used for assays as described in the legend for Fig. 1E, because their specific activity was higher than that of M. bovis BCG extracts. The dependence of the reaction on glutamine was measured at 5 mM a-ketoglutarate and 0.05 to 25 mM glutamine in the presence or absence of Rv1827 (2 mM), whereas a-ketoglutarate dependence was measured at 10 mM glutamine and 0.05 to 12 mM a-ketoglutarate in the presence or absence of Rv1827 (2 mM).
+
+REFERENCES AND NOTES
+1. G. Manning, D. B. Whyte, R. Martinez, T. Hunter, S. Sudarsanam, The protein kinase complement of the human genome. Science 298, 1912­1934 (2002). 2. B. T. Seet, I. Dikic, M. M. Zhou, T. Pawson, Reading protein modifications with interaction domains. Nat. Rev. Mol. Cell Biol. 7, 473­483 (2006). 3. K. Hofmann, P. Bucher, The FHA domain: A putative nuclear signalling domain found in protein kinases and transcription factors. Trends Biochem. Sci. 20, 347­349 (1995). 4. D. Durocher, J. Henckel, A. R. Fersht, S. P. Jackson, The FHA domain is a modular phosphopeptide recognition motif. Mol. Cell 4, 387­394 (1999). 5. D. Durocher, I. A. Taylor, D. Sarbassova, L. F. Haire, S. L. Westcott, S. P. Jackson, S. J. Smerdon, M. B. Yaffe, The molecular basis of FHA domain:phosphopeptide binding specificity and implications for phospho-dependent signaling mechanisms. Mol. Cell 6, 1169­1182 (2000). 6. S. K. Hanks, A. M. Quinn, T. Hunter, The protein kinase family: Conserved features and deduced phylogeny of the catalytic domains. Science 241, 42­52 (1988). 7. A. J. Cozzone, Role of protein phosphorylation on serine/threonine and tyrosine in the virulence of bacterial pathogens. J. Mol. Microbiol. Biotechnol. 9, 198­213 (2005). 8. M. Pallen, R. Chaudhuri, A. Khan, Bacterial FHA domains: Neglected players in the phospho-threonine signalling game? Trends Microbiol. 10, 556­563 (2002). 9. A. E. Greenstein, C. Grundner, N. Echols, L. M. Gay, T. N. Lombana, C. A. Miecskowski, K. E. Pullen, P. Y. Sung, T. Alber, Structure/function studies of Ser/Thr and Tyr protein phosphorylation in Mycobacterium tuberculosis. J. Mol. Microbiol. Biotechnol. 9, 167­181 (2005). 10. A. Villarino, R. Duran, A. Wehenkel, P. Fernandez, P. England, P. Brodin, S. T. Cole, U. Zimny-Arndt, P. R. Jungblut, C. Cerveñansky, P. M. Alzari, Proteomic identification of M. tuberculosis protein kinase substrates: PknB recruits GarA, a FHA domaincontaining protein, through activation loop-mediated interactions. J. Mol. Biol. 350, 953­963 (2005). 11. C. M. Kang, D. W. Abbott, S. T. Park, C. C. Dascher, L. C. Cantley, R. N. Husson, The Mycobacterium tuberculosis serine/threonine kinases PknA and PknB: Substrate identification and regulation of cell shape. Genes Dev. 19, 1692­1704 (2005).
+
+www.SCIENCESIGNALING.org
+
+24 March 2009
+
+Vol 2 Issue 63 ra12
+
+8
+
+RESEARCH ARTICLE
+12. A. Niebisch, A. Kabus, C. Schultz, B. Weil, M. Bott, Corynebacterial protein kinase G controls 2-oxoglutarate dehydrogenase activity via the phosphorylation status of the OdhI protein. J. Biol. Chem. 281, 12300­12307 (2006). 13. H. M. O'Hare, R. Durán, C. Cerveñansky, M. Bellinzoni, A. M. Wehenkel, O. Pritsch, G. Obal, J. Baumgartner, J. Vialaret, K. Johnsson, P. M. Alzari, Regulation of glutamate metabolism by protein kinases in mycobacteria. Mol. Microbiol. 70, 1408­1423 (2008). 14. J. Tian, R. Bryk, M. Itoh, M. Suematsu, C. Nathan, Variant tricarboxylic acid cycle in Mycobacterium tuberculosis: Identification of a-ketoglutarate decarboxylase. Proc. Natl. Acad. Sci. USA. 102, 10670­10675 (2005). 15. P. England, A. Wehenkel, S. Martins, S. Hoos, G. André-Leroux, A. Villarino, P. M. Alzari, The FHA-containing protein GarA acts as a phosphorylation-dependent molecular switch in mycobacterial signaling. FEBS Lett. 583, 301­307 (2009). 16. G. I. Lee, Z. Ding, J. C. Walker, S. R. Van Doren, NMR structure of the forkhead-associated domain from the Arabidopsis receptor kinase-associated protein phosphatase. Proc. Natl. Acad. Sci. U.S.A. 100, 11261­11266 (2003). 17. T. Pawson, Dynamic control of signaling by modular adaptor proteins. Curr. Opin. Cell Biol. 19, 112­116 (2007). 18. P. Fernandez, B. Saint-Joanis, N. Barilone, M. Jackson, B. Gicquel, S. T. Cole, P. M. Alzari, The Ser/Thr protein kinase PknB is essential for sustaining mycobacterial growth. J. Bacteriol. 188, 7778­7784 (2006). 19. S. Cowley, M. Ko, N. Pick, R. Chow, K. J. Downing, B. G. Gordhan, J. C. Betts, V. Mizrahi, D. A. Smith, R. W. Stokes, Y. Av-Gay, The Mycobacterium tuberculosis protein serine/ threonine kinase PknG is linked to cellular glutamate/glutamine levels and is important for growth in vivo. Mol. Microbiol. 52, 1691­1702 (2004). 20. A. Walburger, A. Koul, G. Ferrari, L. Nguyen, C. Prescianotto-Baschong, K. Huygen, B. Klebl, C. Thompson, G. Bacher, J. Pieters, Protein kinase G from pathogenic mycobacteria promotes survival within macrophages. Science 304, 1800­1804 (2004). 21. T. J. Boggon, M. J. Eck, Structure and regulation of Src family kinases. Oncogene 23, 7918­7927 (2004). 22. M. K. Rosen, T. Yamazaki, G. D. Gish, C. M. Kay, T. Pawson, L. E. Kay, Direct demonstration of an intramolecular SH2-phosphotyrosine interaction in the Crk protein. Nature 374, 477­479 (1995). 23. Y. Kobashigawa, M. Sakai, M. Naito, M. Yokochi, H. Kumeta, Y. Makino, K. Ogura, S. Tanaka, F. Inagaki, Structural basis for the transforming activity of human cancerrelated signaling adaptor protein CRK. Nat. Struct. Mol. Biol. 14, 503­510 (2007). 24. A. H. Andreotti, S. C. Bunnell, S. Feng, L. J. Berg, S. L. Schreiber, Regulatory intramolecular association in a tyrosine kinase of the Tec family. Nature 385, 93­97 (1997). 25. A. Bax, A. Grishaev, Weak alignment NMR: A hawk-eyed view of biomolecular structure. Curr. Opin. Struct. Biol. 15, 563­570 (2005). 26. J. P. Linge, S. I. O'Donoghue, M. Nilges, Automated assignment of ambiguous nuclear overhauser effects with ARIA. Methods Enzymol. 339, 71­90 (2001). 27. We thank S. Gamblin, K. Rittinger, A. Pastore, and S. Pennell for comments on the manuscript, T. Frenkiel for advice, and C. de Chiara for assistance with structure calculations. H.M.O. acknowledges funding from a Research Councils UK academic fellowship and the European Union FP6, and S.J.S. is grateful to the Medical Research Council, UK, for continuing support. Atomic coordinates and NMR constraints have been deposited with the Protein Data Bank, accession number 2KFU. Submitted 18 December 2008 Accepted 6 March 2009 Final Publication 24 March 2009 10.1126/scisignal.2000212 Citation: T. J. Nott, G. Kelly, L. Stach, J. Li, S. Westcott, D. Patel, D. M. Hunt, S. Howell, R. S. Buxton, H. M. O'Hare, S. J. Smerdon, An intramolecular switch regulates phosphoindependent FHA domain interactions in Mycobacterium tuberculosis. Sci. Signal. 2, ra12 (2009).
+
+www.SCIENCESIGNALING.org
+
+24 March 2009
+
+Vol 2 Issue 63 ra12
+
+9
+
+

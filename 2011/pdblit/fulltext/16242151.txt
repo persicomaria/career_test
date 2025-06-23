@@ -1,0 +1,254 @@
+Journal of Biotechnology 124 (2006) 258­270
+
+Substrate and inhibitor specificity of class 1 and class 2 histone deacetylases
+Christian Hildmann a , Dennis Wegener a,b , Daniel Riester a , Ren´ Hempel a , e c , Joachim Merana d , Laura Giurato e , Salvatore Guccione e , Andreas Schober Tine Kragh Nielsen f , Ralf Ficner f , Andreas Schwienhorst a,
+Department of Molecular Genetics and Preparative Molecular Biology Institute for Microbiology und Genetics, Grisebachstr. 8, 37077 Goettingen, Germany b Institute of Physical High Technology, Albert-Einstein-Strasse 9, 07745 Jena, Germany Center of Micro/nanotechnology, Technical University of Ilmenau, Gustaf-Kirchhoff-Straße 7, 98693 Ilmenau, Germany d Department of Molecular Biology, University of Innsbruck, Fritz-Pregl-Strasse 3/II, A-6020 Innsbruck, Austria e Molecular Modelling Laboratory, University of Catania, Viale Andrea Doria 6, I-95125 Catania, Italy f Abteilung f¨ r Molekulare Strukturbiologie, Institut f¨ r Mikrobiologie und Genetik & GZMB, u u Justus-von-Liebig Weg 11, 37077 G¨ ttingen, Germany o Received 9 August 2005; received in revised form 16 December 2005; accepted 13 January 2006
+a
+
+c
+
+Abstract Histone deacetylases (HDACs) are key enzymes in the transcriptional regulation of gene expression in eukaryotic cells. In recent years HDACs have attracted considerable attention as promising new targets in anticancer therapy. Currently, different histone deacetylase subtypes are divided into four groups denoted as classes 1­4. Here, we compare in more detail representatives of class 1 HDACs and FB188 HDAH as a close bacterial homologue of class 2 HDAC6, in regard of substrate and inhibitor specificity. Structure comparison is used to identify candidate regions responsible for observed specificity differences. Knowledge of these structural elements expedite studies on the biochemical role of different HDAC subtypes as well as the development of highly selective HDAC inhibitors as antitumor agents. © 2006 Elsevier B.V. All rights reserved.
+Keywords: Histone deacetylase; FB188 HDAH; Substrate specificity; Hydroxamate inhibitors; X-ray crystallographic structure; Cancer therapy
+
+1. Introduction
+ Corresponding author. Tel.: +49 551 393822; fax: +49 551 393805. E-mail address: aschwie1@gwdg.de (A. Schwienhorst).
+
+Histone deacetylases (HDACs) are key enzymes of chromatin remodeling complexes and play a central role in the transcriptional regulation of gene expression
+
+0168-1656/$ ­ see front matter © 2006 Elsevier B.V. All rights reserved. doi:10.1016/j.jbiotec.2006.01.030
+
+C. Hildmann et al. / Journal of Biotechnology 124 (2006) 258­270
+
+259
+
+in eukaryotic cells, i.e. in particular in the reversible acetylation of histones. The latter is controlled by the opposing activities of histone acetyltransferases (HAT) and HDAC, which catalyze the addition, or removal of acetyl moieties from the -amino groups of lysines near the amino termini of histones, respectively. In general, increased levels of histone acetylation are associated with increased transcriptional activity whereas decreased levels of acetylation are associated with repression of gene expression (Grunstein, 1997; Peterson, 2002; Wade et al., 1997). Both, the activity of HAT and in particular, HDAC, affect angiogenesis, cell-cycle arrest, apoptosis, terminal differentiation of different cell types and the pathogenesis of malignant disease (Chung, 2002). HDAC inhibitors such as trichostatin A (TSA) and trapoxin (TPX) were shown to inhibit cell proliferation, and induce differentiation and/or apoptosis and reversal of transformed cell morphology (Jung et al., 1999; Marks et al., 2000; Yoshida et al., 1995). Not surprisingly therefore, a number of HDAC inhibitors show a potency as promising antitumor agents with several drug candidates currently in phase I and II clinical trials (Johnstone, 2002; Rosato and Grant, 2003; Villar-Garea and Esteller, 2004). In addition, HDAC inhibitors are currently also evaluated as drug candidates for non-malignant diseases such as inflammatory diseases (Blanchard and Chipoy, 2005) and cardiac hypertrophy (Hamamori and Schneider, 2003). The role of HDACs, however, is not restricted to chromatin remodeling. At least, some HDACs can deacetylate non-histone proteins as well (Kouzarides, 2000). This has, e.g. been demonstrated for HDAC6, a tubulin deacetylase (Hubbert et al., 2002; Matsuyama et al., 2002; Zhang et al., 2003), and may also be true for other eukaryotic enzymes as well as bacterial histone deacetylase-like amidohydrolases (HDAHs) (Hildmann et al., 2004). Evolutionary, histone deacetylases constitute an ancient enzyme family that can be divided into four groups denoted as classes 1­4 (Gregoretti et al., 2004). Classes 1, 2 and 4 are closely related zinc-dependent enzymes, whereas class 3 histone deacetylases or sirtuins are structurally unrelated NAD-dependent deacetylase enzymes (Grozinger and Schreiber, 2002). The catalytic mechanism particularly of classes 1­4 enzymes is still under debate. Based on crystallographic structures of inhibitor-enzyme complexes, it was proposed
+
+that the active site zinc ion would bind to the carbonyl oxygen and polarize the carbonyl group and thereby increase the electrophilicity of the carbon. In addition, the zinc ion binds to the oxygen of a water molecule such that the nucleophilicity of the water oxygen is increased. The nucleophilicity of the water molecule is further increased by the negative charge of a buried Asp­His charge-relay system to which the water molecule is hydrogen bonded. The nucleophilic attack of the water molecule on the carbonyl carbon would lead to a tetrahedral oxyanion transition state that could be stabilized by the aforementioned zinc­oxygen contacts and by a potential hydrogen bond to the hydroxyl group of a tyrosine residue. Finally, the acetate would be released and the -nitrogen of the lysine residue would accept a proton from a second `outer' Asp­His charge-relay system. Class 1 enzymes (e.g. human HDAC1­3 and 8) are 350­500 amino acids in length and are in general ubiquitously expressed and primarily located in the nucleus (Ruijter et al., 2003). Many class 1 enzymes are wellknown transcriptional co-repressors. Class 2 enzymes (e.g. human HDAC5­9 and 10) span usually about 1000 amino acids. Their catalytic domain contains several conserved sequence motifs that are significantly different from those of class 1 enzymes (Grozinger and Schreiber, 2002; Leipe and Landsman, 1997). Class 2 enzymes display a more tissue-specific expression in mammals (Bertos et al., 2001; Fischle et al., 2001). Furthermore, these enzymes shuttle in and out of the nucleus in response to cellular signals and thus are at least in part cytoplasmic and in some cases acting on non-histone protein substrates (Kouzarides, 2000). In contrast to class 1 and class 2 enzymes, which have been found in all fully sequenced eukaryotic organisms, class 4 proteins have so far not been found in fungi. At least the most important member of this subgroup, HDAC11, shows tissue-specific expression (Gao et al., 2002). For HDAC classes 1­3 enzymes (but not yet for class 4 HDAC), bacterial homologues have been identified (Gregoretti et al., 2004). By far the best characterized examples of these bacterial HDAC-like enzymes are HDLP from A. aeolicus with 35.2% identity to human class 1 HDAC1 (Finnin et al., 1999) and HDAH from Bordetella/Alcaligenes species FB188 with 35% identity to human class 2 HDAC6. These enzymes also share a number of functional similarities with
+
+260
+
+C. Hildmann et al. / Journal of Biotechnology 124 (2006) 258­270
+
+eukaryotic HDACs. Both are zinc-dependent hydrolases that are able to deacetylate histones. They process -N-acetyl-lysine-containing substrates and are inhibited by hydroxamates (e.g. SAHA: suberoylanilide hydroxamic acid). At least for FB188 HDAH preliminary results on the biological function suggest that it is a protein deacetylase (Hildmann et al., 2004). As a major difference, HDAC6 consist of two fully functional and very similar HDAC domains in contrast to FB188 HDAH and other HDAC enzymes. So far, X-ray crystallographic structures had been solved for class 1 enzymes HDLP and HDAC8 (Finnin et al., 1999; Somoza et al., 2004; Vannini et al., 2004). Most recently, we have solved the first structure of a class 2 enzyme, i.e. FB188 HDAH (Nielsen et al., 2005). This prompted us to compare in more detail representatives of class 1 HDACs and FB188 HDAH as a close bacterial homologue of class 2 enzymes, i.e. particularly human HDAC6, in regard of substrate and inhibitor specificity. Structure comparison is used to identify candidate regions responsible for observed specificity differences. Knowledge of these structural elements may accelerate the design of HDAC-classselective or even type-specific HDAC inhibitors. 2. Material and methods 2.1. HDAC inhibitors SAHA, MS275, CypX and PPH were synthesized according to standard methods (Bouchain and Delorme, 2003; Munster et al., 2001; Nielsen et al., 2005). TSA was purchased from Sigma (Taufkirchen, Germany). Chlamydocin and HC-Toxin were a kind gift of J. Walton (MSU-DOE plant research laboratory, MI, USA. Tubacin was a kind gift of S.J. Haggarty and R. Mazitschek, MIT, Cambridge, USA. AphA 3c was kindly provided by G. Brosch and P. Loidl, University of Innsbruck, Austria. 2.2. Fluorogenic HDAC assays Boc-l-Lys( -acetyl)-MCA was purchased from Bachem (Weil am Rhein, Germany). All other reagents for organic synthesis were obtained from Sigma (Taufkirchen, Germany). Boc-l-Lys( trifluoroacetyl)-MCA was synthesized as described
+
+(Riester et al., 2004). FB188 HDAH was prepared as described elsewhere (Hildmann et al., 2004), human HDAC8 was expressed in E.coli and purified as described (Riester et al., 2004). Rat liver HDAC was purchased from Calbiochem (Bad Soden, Germany). All pipetting and fluorescence detection steps were carried out with the help of a robotic workstation (CyBiTM -Screen-Machine, CyBio AG, Germany) including a Polarstar fluorescence reader (BMG, Germany). Reactions were conducted in black 96-well microplates. In principle, HDAC assays were performed in the two-step fluorogenic assay as described (Wegener et al., 2003a,b) with reaction buffers slightly modified for optimal enzyme type activity (Riester et al., 2004). KM and Vmax values were determined using different substrate concentrations. The experimental data were analyzed using a Hanes plot. The AMC signals were recorded against a blank with buffer and substrate. All experiments were carried out in triplicate. IC values were determined as described (Wegener et al., 2003a,b). 2.3. Structure determination The crystal structure of FB188 HDAH was deter° mined at a resolution of 1.6 A with bound acetate (1ZZ0) as well as in complex with inhibitors SAHA (1ZZ1) and CYPX (1ZZ3) at a resolution of 1.57 ° and 1.75 A, respectively. Experimental details are described elsewhere (Nielsen et al., 2005). For HDAC8, the structure of Vannini et al. (2004) was chosen for comparison. All figures are made in PYMOL (The PyMOL Molecular Graphics System (2002), DeLano Scientific, San Carlos, USA). The FB188 HDAH structure was compared to the structures of HDAC8 (1W22) and HDLP (1C3P). 2.4. Molecular modelling The molecular modeling studies were carried on a SGI R5000 and OCTANE R12000 workstation operating under IRIX 6.5+. The PPH structure was built by the building option in the MacroModel software (Schrodinger Inc., Portland, USA; (Mohamadi et al., 1990)). Conformational analysis of both PPH and cypX were performed using the Monte Carlo Multiple Minimum (MCMM) search protocol as implemented in the MacroModel software. In our simulations, all of the
+
+C. Hildmann et al. / Journal of Biotechnology 124 (2006) 258­270
+
+261
+
+dihedral angles of single linear bonds were allowed to move freely, and the conformation was accepted if the energy was lower than that of the previous conformation or within a fixed energy window (20 kJ/mol) as selector. Prior to submitting the ligands to the search protocol, a minimization was carried out using the MMFF (Merck Molecular Force Field) force-field as implemented in MacroModel 8.1 (Mohamadi et al., 1990) with the GB/SA continuum water. Default options were used with the Polak­Ribiere Conjugate Gradient (PRCG) scheme, until a gradient of ° 0.001 kcal A-1 was reached. To search the conformational space, 5000 MC steps were performed on each starting conformation. To carry out the docking calculations, the software FLO+ (version April03), a `multifunctional' molecular design program, which uses an Amber/MM2force field (Thistlesoft, Colebrook, USA (McMartin and Bohacek, 1997)) was used. Docking studies were carried out by the QXP fulldock+ module (1000 cycles). The atom potential types bond orders were carefully checked to evaluate their correctness with respect to the intended structure (Uccello-Barretta et al., 2004). Prior to dock the ligands, the FLO minimization algorithm Dockmin was carried out. All pictures were obtained by the molecular representation option in the MacroModel software.
+
+3. Results and discussion 3.1. Substrate specificity The presence of several subtypes of HDAC and their differential expression suggests that different subtypes or even different domains of the same enzyme (like in HDAC6; (Haggarty et al., 2003; Matsuyama et al., 2002)) may operate on different molecular targets and/or in different functional contexts. In particular for histone deacetylation, it is known that different types of deacetylases recognize different and highly specific acetylation patterns on nucleosomes (Clemente et al., 2001; K¨ lle et al., 1999). Here, site specificity mainly o seems to depend on cofactors that form complexes with HDACs (Clemente et al., 2001). However, there is also increasing experimental evidence indicating that different subtypes of HDAC may also have intrinsic differences in substrate selectivity (Heltweg et al., 2004; Riester et al., 2004; Wegener et al., 2003a,b).
+
+To study this point, we compared substrate selectivities of four different enzyme preparations, rat liver HDAC (which is a mixture of HDAC1­3; (Riester et al., 2004)), recombinant human HDAC8, HDAC6-like FB188 HDAH and a variant thereof containing the mutation N185D (Table 1). The latter position concerns the part of the outer charge transfer relay system where the major difference in the set of active site amino acids between class 1 and class 2 HDAC can be found. In all class 1 enzymes, an aspartate is found at this position whereas class 2 enzymes either contain an asparagine or glutamine residue (Fig. 1). Two types of substrates were tested, Boc-l-Lys( acetyl)-MCA and Boc-l-Lys( -trifluoroacetyl)-MCA which differ not so much in their volume but in the electrophilicity of its carbonyl carbon atom (Table 1). Boc-l-Lys( -acetyl)-MCA turned out to be a good substrate for rat liver HDAC but not for HDAC8. On the other hand, wildtype FB188 HDAH and its mutant N185D also convert this substrate well with a sevenfold increase in KM and a two-fold decrease in Vmax in the mutant as compared to wildtype FB188 HDAH. The picture changed completely when using Boc-lLys( -trifluoroacetyl)-MCA as a substrate. Here, rat liver HDAC shows very low activity. In contrast, HDAC8 very efficiently converts this substrate. Wildtype FB188 HDAH and its mutant N185D both show comparable activities in the conversion of Boc-lLys( -trifluoroacetyl)-MCA. In comparison to wildtype FB188 HDAH, however, mutant N185D shows a two-fold decrease in KM and a two-fold increase in Vmax . Thus, FB188 HDAH which is known to have a high sequence similarity to HDAC6 (Hildmann et al., 2004) also functionally proved to be similar to HDAC6 which also converts substrates containing acetyl- and trifluoroacetyl-moieties with the same efficiency (Heltweg et al., 2004). Substrate Boc-l-Lys( acetyl)-MCA had a clear selectivity for rat liver HDAC and FB188 HDAH versus HDAC8, whereas Boc-lLys( -trifluoroacetyl)-MCA had a significant selectivity for FB188 HDAH and HDAC8 versus rat liver HDAC. Altogether, comparison of enzymes in particular of the same class (class 1 enzymes HDAC8 and rat liver enzymes HDAC1­3) as well as comparison of class 2 FB188 HDAH and its mutant N185D reveal that the major sequence difference in active site residues between class 1 and class 2, i.e. position 185 in the assumed `outer' charge transfer relay system
+
+262 Vmax (pmol s-1 mg-1 )
+
+C. Hildmann et al. / Journal of Biotechnology 124 (2006) 258­270
+
+Human HDAC8
+
+of FB188 HDAH), presumably is not responsible for differences in substrate selectivity between enzymes of different classes or subtypes. Since the active site structures of HDAC class 1 and class 2 representatives are very similar (Fig. 1), with the exception of the aforementioned difference in the outer charge transfer relay system, it may be justified to assume that class 1 and class 2 enzymes essentially behave very similar in the catalytic step. The observed differences in substrate conversion, however, may very well be caused by differences in substrate association or product release. Consistent with this view is the observation of significant differences between enzymes concerning the large tube-like internal cavity (Nielsen et al., 2005) below the active site which possibly functions as exit tunnel for the acetate product. 3.2. pH-dependence of enzyme activity
+Zn-IMAC purified HDAC-like amidohydrolase from Bordetella/Alcaligenes FB188 and its mutant N185D. No sufficient activity.
+
+Rat liver HDAC
+
+Vmax (pmol s-1 mg-1 ) KM ( M)
+
+>500 247 ± 89
+
+n.a.b 530 ± 30
+
+3.7 ± 1.7 105 ± 14
+
+KM ( M)
+
+4.41 ± 0.10 4.38 ± 0.41
+
+Table 1 KM and Vmax values for Boc-Lys(Ac)-MCA and Boc-Lys(TFA)-MCA
+
+To further study the effect of the N185D mutation on the deacetylation reaction, the conversion of Boc-lLys( -acetyl)-MCA was determined over a wide pH range (Fig. 2). The pH profiles were close to bellshaped with maxima for both, FB188 HDAH and its mutant N185D at approximately pH 10.3. The phenol ring of the active site tyrosine (Tyr312 in FB188 HDAH) could represent a residue with a pKa value in this range. However, it appears to be clear, that mutations in the `outer' charge transfer relay system, i.e. N185D, do not result in significantly altered pH maxima. In contrast, HDAC8 revealed a maximum at pH 8.7 which is in well correspondence with data published previously (Schultz et al., 2004). Groups in the active site that presumably have pKa values in the latter range include histidine residues of both charge transfer relay systems and Zn-bound water. In conclusion, other residues rather than the amino acids in the `outer' charge transfer relay system are responsible for differences in the pH-optima between FB188 HDAH and HDAC8. 3.3. Inhibitor selectivity Next, we compared the inhibitory activity of several HDAC inhibitors on different enzyme preparations (Table 2). Most known HDAC inhibitors consist of a metal-binding domain, a linker region and a cap
+
+Vmax (pmol s-1 mg-1 ) Vmax (pmol s-1 mg-1 ) KM ( M) KM ( M)
+
+HDAH N185Da
+
+FB188 HDAHa
+
+Boc-Lys(Ac)-MCA Boc-Lys(TFA)-MCA
+
+Substrates
+
+14.0 ± 3.0 39.8 ± 7.5
+
+136 ± 22 136 ± 12.9
+
+102.3 ± 11.5 61.77 ± 3.13 20.0 ± 2.2 261.7 ± 1.48
+
+a
+
+b
+
+C. Hildmann et al. / Journal of Biotechnology 124 (2006) 258­270
+
+263
+
+Fig. 1. Structures of the active site of (A) FB188 HDAH and (B) HDAC8. The zinc ion (purple sphere) and the amino acids (stick mode) supposed to be important for catalysis are highlighted. Note that class 1 and class 2 HDAC differ in the outer charge transfer relay system. Aspartic acid found in class 1 enzymes (Asp183 in HDAC8) is replaced by asparagine (Asn185 in FB188 HDAH) or glutamine in class 2 enzymes. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of the article.)
+
+group. Hydroxamates as very efficient bidentate zinc chelators in addition make contacts to residues that presumably are involved in catalysis, i.e. histidines of the two charge transfer relay systems and active site tyrosine (Figs. 1, 3A) present in all HDAC/HDAH structures solved so far (Finnin et al., 1999; Nielsen et al., 2005; Vannini et al., 2004). There are nevertheless significant differences between inhibitory activities of different hydroxamates (Table 2) with the largest range in IC50 values observed for class 1 enzymes particularly rat liver HDAC (between 1.3 nM and 86.65 M). Differences between enzymes presumably originate from the individual architecture of their linker and cap regions. As far as linker regions of HDAC inhibitors consist of long and straight aliphatic chains, e.g. like in suberoylanilide hydroxamic acid (SAHA) and presumably also in SAHA-derivative tubacin and the tetrapeptide inhibitors chlamydocin and HC toxin, they usually do not make direct contacts with the protein. In contrast, linkers of inhibitors with structured linker regions potentially could interact with the enzyme. Particularly inhibitors containing aromatic rings, such as 3-[4-(3-(3-chlorophenyl)-3-oxo-1-propen-1-yl)-1methyl-1H-pyrrol-2-yl]-N-hydroxy-2-propen-amide (APHA 3c; (Mai et al., 2003)) or phenylpropionylanilide hydroxamic acid (PPH) could in principle stack their cyclic moieties between two conserved
+
+phenylalanine side chains in the active site channel (Phe152/Phe208 in FB188 HDAH and HDAC8) as this has been proposed for the aliphatic ring in CYPX (Fig. 3A). To investigate if an aromatic ring in place of the aliphatic ring in CYPX could improve inhibitory activity, e.g. due to the possibility of ­ -interactions with Phe152 and Phe208, PPH and APHA 3c were characterized with respect to inhibition of FB188 HDAH. Whereas PPH showed only a very small increase in IC50 relative to that of CYPX, the IC50 value for APHA 3c increased by a factor of approximately 8, indicating that the replacement of the aliphatic ring in CYPX by an aromatic moiety does not increase affinity. To further analyze interactions of the inhibitor ring systems with the enzyme, we carried out docking experiments starting with the energy minimized conformations both of CYPX and PPH. As for CYPX, all of the previously reported interactions (Nielsen et al., 2005) are consistent with the docked structure. Differences between the crystal structure (Fig. 3A) and the docked structure (Fig. 3B) are observed in regard of the position of the 5-membered ring. However, the exact position of the ring in the crystal structure was reported to be difficult to predict due to a lack of electron density (Nielsen et al., 2005) which could indicate a certain degree of flexibility. In the docked structure of PPH (Fig. 3C) the aromatic ring does not have a coplanar orientation neither to
+
+264
+
+C. Hildmann et al. / Journal of Biotechnology 124 (2006) 258­270
+
+Table 2 IC50 ( M) values of HDAC inhibitors Inhibitors N185Da HDAHa HDAC8 RLHb
+
+TSA
+
+0.5843
+
+1.2030
+
+0.0530
+
+0.0013
+
+SAHA
+
+0.8160
+
+0.9517
+
+0.4004
+
+0.0096
+
+CYPX
+
+0.0914
+
+0.2900
+
+1.995
+
+1.002
+
+PPH
+
+0.1443
+
+0.3689
+
+1.156
+
+­
+
+APHA3c
+
+0.9690
+
+2.46
+
+5.90
+
+86.65
+
+Tubacin
+
+­
+
+3.147
+
+35.82
+
+0.8689
+
+Chlamydocin
+
+>300
+
+>300
+
+0.0702
+
+0.3260
+
+C. Hildmann et al. / Journal of Biotechnology 124 (2006) 258­270 Table 2 (Continued ) Inhibitors N185Da HDAHa HDAC8
+
+265
+
+RLHb
+
+HC-Toxin
+
+>300
+
+>300
+
+0.3388
+
+0.0102
+
+MS275
+
+103.5
+
+118.2
+
+22.17
+
+8.84
+
+a b
+
+Zn-IMAC purified HDAC-like amidohydrolase from Bordetella/Alcaligenes FB188 and its mutant N185D. Rat liver HDAC (mixture containing predominantly HDAC1­3; Riester et al., 2004).
+
+the Phe152 ring nor to the Phe208 ring. In both cases, the inhibitor rings appear to be closer to the Phe208 side chain. Thus, one has to consider a hydrophobic interaction, presumably with Phe208 rather than ­ -interactions. In this context, the slightly better inhibitory activity of CYPX relative to PPH may be explained by the more flexible, i.e. adaptable aliphatic ring in CYPX. The more significant loss of activity of APHA 3c relative to CYPX may largely be the result of unfavorable interactions of the cap group of the inhibitor. Since the motif of parallel phenylalanine side chains is present both in class 1 and class 2 enzymes, this region presumably is less important if the task is to construct class-selective inhibitors. Indeed, for PPH inhibition the difference in IC50 values between class 1 HDAC8 and class 2 FB188 HDAH is of the same order of magnitude as compared to the difference between FB188 HDAH and its mutant N185D (Table 2). However, besides the region of parallel Phe side chains there might be certain amino acid positions (i.e. Ile100) in the active site channel that could be targeted by the design of class-selective linkers. Since the so far solved structures of HDAC-like enzymes differ considerably in surface (loop) structures, the design of the cap region binding to the enzyme surface offers an additional possibility to achieve class- or even subtype selectivity. Assuming that the dimeric arrangement of monomeric enzyme
+
+molecules observed in crystals of FB188 HDAH and HDAC8 does not appear in solution, one has to consider the possibility that at least in some cases the cap groups like those of SAHA or TSA do not directly interact with the enzymes. Alternatively, one has to assume so far unknown contacts with the cap moieties adopting a different orientation in solution as compared to the that in the crystal conformation. Large caps like those of the cyclic tetrapeptides chlamydocin or HC-toxin, however, seem to impair binding to class 2 enzymes such as FB188 HDAH (Table 2). This observed selectivity, however, might in part also be the result of linker length, which is smaller in the case of tetrapeptide inhibitors as compared to relatively non-selective inhibitors like SAHA, thus bringing the cap closer to the surface of the enzyme. For HDAC6, the closest eukaryotic homologue of FB188 HDAH a similar selectivity has been observed (Furumai et al., 2001; Koeller et al., 2003). Structural differences at the entrance region of the active site between class 1 and class 2 enzymes may be responsible for this inhibitor selectivity. In FB188 HDAH, particularly two loops can be identified as candidate regions that may impair cyclic tetrapeptide binding. The first loop (amino acids 16­38 in FB188 HDAH) is not present in the structures of class 1 enzymes HDLP and HDAC8. Since class 2 enzymes do not show significant sequence similarities in this region, we have to wait for structures of other class 2 enzymes to decide whether the loop is indeed
+
+266
+
+C. Hildmann et al. / Journal of Biotechnology 124 (2006) 258­270
+
+Fig. 2. pH dependence of Boc-l-Lys( -acetyl)-MCA conversion using the two-step HDAC assay (Wegener et al., 2003a,b). The reactions of (A) FB188 HDAH, (B) mutant HDAH N185D and (C) HDAC8 are depicted.
+
+a class-specific structural feature. The second loop (amino acids 92­96) is in the rim area. Sequence alignment revealed significant differences not only between classes but also between individual enzymes. In the HDLP structure, the corresponding loop adopts a different conformation, in the HDAC8 model (1W22) the
+
+loop is completely absent indicating a high degree of flexibility. Since cyclic tetrapeptide inhibitors such as chlamydocin or HC-toxin do not belong to the class of hydroxamic acids but contain -keto epoxide instead of hydroxamic acid moieties, this difference, in principle, could also be responsible for class specificity of these inhibitors. However, work on hybrid inhibitors combining cyclic peptidic capping groups and hydroxamic acids as metal binding moieties indicate that selectivity, e.g. in the case of Cyl-1-like cyclic hydroxamic-acidcontaining peptide 31 is retained as compared to its parent -keto epoxide cyl-1 (Komatsu et al., 2001). Thus, selectivity in this case is presumably a property of the cap group and not so much of the metal binding moiety. The case might be different with other metal binding moieties such as the bulky N-(2-aminophenyl)formamide of MS275. In our experiments, rat liver HDAC (which is a mixture predominantly of HDAC1­3; (Riester et al., 2004)) showed an IC50 of 8.84 M for MS275 well in agreement with previous data (IC50: 4.8 M; (Suzuki et al., 1999)). Also in good agreement with published data (IC50 > 10 M; (Vannini et al., 2004)), MS275 proved to be a less effective inhibitor of HDAC8 with an IC50 > 20 M. For FB188 HDAH, MS275 was even less active as inhibitor with an IC50 > 100 M. Again, FB188 HDAH revealed functional similarities to HDAC6 which also is not inhibited efficiently by MS275 (Matsuyama et al., 2002). Altogether, these findings can be rationalized by comparing enzyme structures particularly at the bottom of the active site channel (Fig. 4). In HDAC8 the voluminous Trp141 would impair effective zinc binding by the bulky N-(2-aminophenyl)formamide moiety of MS275, as compared to a corresponding leucine in HDAC1­3 or a methionine in HDLP. In class 2 enzymes, the corresponding region (residues 135­140 in FB188 HDAH) adopts a significantly different conformation which also restricts space at the bottom of the active site. Besides the effect of the metal binding moiety there is some experimental evidence from hybrid inhibitors that the linker/cap region of MS275 may also contribute to subtype selectivity (Park et al., 2004). At this point it should be mentioned that some researchers consider non-hydroxamates such as MS275 to alternatively act through a kind of allosteric modulation from a binding site that is not the active site (Bouchain and Delorme, 2003). Structural analysis of
+
+C. Hildmann et al. / Journal of Biotechnology 124 (2006) 258­270
+
+267
+
+Fig. 3. Structures of inhibitor­HDAH complexes: (A) crystallographic structure of CYPX in complex with FB188 HDAH (Nielsen et al., 2005); (B) model of the structure of CYPX in complex with FB188 HDAH as deduced from molecular docking experiments using FLO+; (C) model of the structure of PPH in complex with FB188 HDAH applying the same methodology as in (B). (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of the article.)
+
+268
+
+C. Hildmann et al. / Journal of Biotechnology 124 (2006) 258­270
+
+Fig. 4. Structures of the loop regions at the bottom of the active site channel following 2 (HDAH) which corresponds to 3 in HDAC8 and HDLP: (A) structure of FB188 FB HDAH; (B) structure of HDAC8; (C) structure of HDLP. The zinc ion (purple sphere) and the amino acids (stick mode) important for the shape of the active site as well as the tube-like internal cavity are highlighted. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of the article.)
+
+C. Hildmann et al. / Journal of Biotechnology 124 (2006) 258­270
+
+269
+
+MS275-enzyme complexes is needed to resolve this issue. In conclusion, class 1 and class 2 HDACs show a number of interesting structural differences that should be considered when designing class-selective HDAC inhibitors. For this task, the most interesting regions include the rim of the active site channel, which presumably is important for the contact to the capping group of inhibitors and the bottom of the active site, which has to accommodate the metal binding moieties of different inhibitors. A promising alternative strategy towards class-selective or even subtype specific inhibitors would be to use the conspicuous differences in substrate specificity to construct more substratebased inhibitors. Here, however, further research is needed to resolve the catalytic mechanism, particularly the structure of the transition-state at sufficiently high resolution. The structural and kinetic information already available now will certainly help to design more selective HDAC inhibitors either as biochemical tools to elucidate the role of distinct HDAC subtypes or as highly selective drug candidates.
+
+Acknowledgements This work was in part supported by grant BioFuture 0311852 from the Bundesministerium f¨ r Forschung u und Technologie, Germany to A.S. and a FEBS shortterm fellowship to D.W. The gift of HDAC inhibitors by J. Walton (Michigan), S.J. Haggarty and R. Mazitschek (Cambridge), and G. Brosch and P. Loidl (Innsbruck) and is greatly acknowledged.
+
+References
+Bertos, N.R., Wang, A.H., Yang, X.-J., 2001. Class II histone deacetylase: structure, function, and regulation. Biochem. Cell Biol. 79, 243­252. Blanchard, F., Chipoy, C., 2005. Histone deacetylase inhibitors: new drugs for the treatment of inflammatory diseases? DDT 10, 197­204. Bouchain, G., Delorme, D., 2003. Novel hydroxamate and anilide derivatives as potent histone deacetylase inhibitors: synthesis and antiproliferative evaluation. Curr. Med. Chem. 10, 2359­ 2372. Chung, D., 2002. Histone modification: the "next wave" in cancer therapeutics. Trends Mol. Med. 8, S10­S11.
+
+Clemente, S., Franco, L., Lopez-Rodas, G., 2001. Distinct site specificity of two pea histone deacetylase complexes. Biochemistry 40, 10671­10676. Finnin, M.S., Donigian, J.R., Cohen, A., Richon, V.M., Rifkind, R.A., Marks, P.A., Breslow, R., Pavletich, N.P., 1999. Structures of a histone deacetylase homologue bound to TSA and SAHA inhibitors. Nature 401, 188­193. Fischle, W., Kiermer, V., Dequiedt, F., Verdin, E., 2001. The emergency role of class II histone deacetylases. Biochem. Cell Biol., 337­348. Furumai, R., Komatsu, Y., Nishino, N., Khochbin, S., Yoshida, M., Horinouchi, S., 2001. Potent histone deacetylase inhibitors built from trichostatin A and cyclic tetrapeptide antibiotics including trapoxin. Proc. Natl. Acad. Sci. U.S.A. 98, 87­92. Gao, L., Cueto, M.A., Asselbergs, F., Atadja, P., 2002. Cloning and functional characterization of HDAC11, a novel member of the human histone deacetylase family. J. Biol. Chem. 277, 25748­25755. Gregoretti, I.V., Lee, Y.-M., Goodson, H.V., 2004. Molecular evolution of the histone deacetylase family: functional implications of phylogenetic analysis. JMB 338, 17­31. Grozinger, C.M., Schreiber, S.L., 2002. Deacetylase enzymes: biological functions and the use of small-molecule inhibitors. Chem. Biol. 9, 3­16. Grunstein, M., 1997. Histone acetylation in chromatin structure and transcription. Nature 389, 349­352. Haggarty, S.J., Koeller, K.M., Wong, J.C., Grozinger, C.M., Schreiber, S.L., 2003. Domain-selective small-molecule inhibitor of histone deacetylase 6 (HDAC6)-mediated tubulin deacetylation. Proc. Natl. Acad. Sci. U.S.A. 100, 4389­ 4394. Hamamori, Y., Schneider, M.D., 2003. HATs off to Hop: recruitment of a class I histone deacetylase incriminates a novel transcriptional pathway that opposes cardiac hypertrophy. J. Clin. Invest. 112, 824­826. Heltweg, B., Dequiedt, F., Marshall, B.L., Brauch, C., Yoshida, M., Nishino, N., Verdin, E., Jung, M., 2004. Subtype selective substrates for histone deacetylases. J. Med. Chem. 47, 5235­5243. Hildmann, C., Ninkovic, M., Dietrich, R., Wegener, D., Riester, D., Zimmermann, T., Birch, O.M., Bernegger, C., Loidl, P., Schwienhorst, A., 2004. A new amidohydrolase from Bordetella/Alcaligenes strain FB188 with similarities to histone deacetylases. J. Bacteriol. 8, 2328­2339. Hubbert, C., Guardiola, A., Shao, R., Kawaguchi, Y., Ito, A., Nixon, A., Yoshida, M., Wang, X.-F., Yao, T.-P., 2002. HDAC6 is a microtubule-associated deacetylase. Nature 417, 455­458. Johnstone, R.W., 2002. Histone-deacetylase inhibitors: novel drugs for the treatment of cancer. Nat. Rev. 1, 287­299. Jung, M., Brosch, G., Kolle, D., Scherf, H., Gerhausen, C., Loidl, P., 1999. Amide analogues of trichostatin A as inhibitors of histone deacetylase and inducers of terminal cell differentiation. J. Med. Chem. 42, 4669­4679. Koeller, K.M., Haggarty, S.J., Perkins, B.D., Leykin, I., Wong, J.C., Kao, M.-C.J., Schreiber, S.L., 2003. Chemical genetic modifier screens: small molecule trichostatin suppressors as probes of intracellular histone and tubulin acetylation. Chem. Biol. 10, 397­410.
+
+270
+
+C. Hildmann et al. / Journal of Biotechnology 124 (2006) 258­270 strate specificity towards small synthetic substrates. Biochem. Biophys. Res. Commun. 324, 1116­1123. Rosato, R.R., Grant, S., 2003. Histone deacetylase inhibitors in cancer therapy. Cancer Biol. Ther. 2, 30­37. Ruijter, J.M.D., Gennip, A.H.V., Caron, H.N., Kemp, S., Kuilenburg, A.B.P.V., 2003. Histone deacetylases (HDACs): characterization of the classical HDAC family. Biochem. J. 370, 737­749. Schultz, B.E., Misialek, S., Wu, J., Tang, J., Conn, M.T., Tahilramani, R., Wong, L., 2004. Kinetics and comparative reactivity of human class I and class IIb histone deacetylases. Biochemistry 43, 11083­11091. Somoza, J.R., Skene, R.J., Katz, B.A., Mol, C., Ho, J.D., Jennings, A.J., Luong, C., Arvai, A., Buggy, J.J., Chi, E., Tang, J., Sang, B.-C., Verner, E., Wynands, R., Leahy, E.M., Dougon, D.R., Snell, G., Navre, M., Knuth, M.W., Swanson, R.V., McRee, D.E., Tari, L.W., 2004. Structural snapshots of human HDAC8 provide insights into the class I histone deacetylases. Structure 12, 1325­1334. Suzuki, T., Ando, T., Tsuchiya, K., Fukazawa, N., 1999. Synthesis and histone deacetylase inhibitory activity of new benzamide derivatives. J. Med. Chem. 42, 3001­3003. Uccello-Barretta, G., Balzano, F., Sicoli, G., Frigola, C., Aldana, I., Monge, A., Paolino, D., Guccione, S., 2004. Combining NMR and molecular modelling in a drug delivery context: investigation of the multi-mode inclusion of a new NPY-5 antagonist broomombenzenesulfonamide into -cyclodextrin. Bioorg. Med. Chem. 12, 447­458. Vannini, A., Volpari, C., Filocamo, G., Casavola, E.C., Brunetti, M., Renzoni, D., Chakravarty, P., Paolini, C., De Francesco, R., Gallinari, P., Steink¨ hler, C., 2004. Crystal structure of a eukaryotic u zinc-dependent histone deacetylase, human HDAC8, complexed with a hydroxamic acid inhibitor. PNAS 101, 15064­15069. Villar-Garea, A., Esteller, M., 2004. Histone deacetylase inhibitors: understanding a new wave of anticancer agents. Int. J. Cancer 112, 171­178. Wade, P.A., Pruss, D., Wolffe, A.P., 1997. Histone acetylation: chromatin in action. Trends Biochem. Sci. 22, 128­132. Wegener, D., Hildmann, C., Riester, D., Schwienhorst, A., 2003a. Improved fluorogenic histone deacetylase assay for high-throughput-screening applications. Anal. Biochem. 321, 202­208. Wegener, D., Wirsching, F., Riester, D., Schwienhorst, A., 2003b. A fluorogenic histone deacetylase assay well suited for highthroughput activity screening. Chem. Biol. 10, 61­68. Yoshida, M., Horinouchi, S., Beppu, T., 1995. Trichostatin A and trapoxin: novel chemical probes for the role of histone acetylation in chromatin structure and function. Bioessays 17, 423. Zhang, Y., Li, N., Caron, C., Matthias, G., Hess, D., Khochbin, S., Matthias, P., 2003. HDAC-6 interacts with and deacetylates tubulin and microtubules in vivo. EMBO J. 22, 1168­1179.
+
+K¨ lle, D., Brosch, G., Lechner, T., Pipal, A., Helliger, W., Taplick, J., o Loidl, G., 1999. Different types of maize histone deacetylases are distinguished by a highly complex substrate and site specificity. Biochemistry 38, 6769­6773. Komatsu, Y., Tomizaki, K.-Y., Tsukamoto, M., Kato, T., Nishino, N., Sato, S., Yamori, T., Tsuruo, T., Furumai, R., Yoshida, M., Horinouchi, S., Hayashi, H., 2001. Cyclic hydroxymic-acidcontaining peptide 31, a potent synthetic histone deacetylase inhibitor with antitumor activity. Cancer Res. 61, 4459­4466. Kouzarides, T., 2000. Acetylation: a regulatory modification to rival phosphorylation? EMBO J. 19, 1176­1179. Leipe, D.D., Landsman, D., 1997. Histone deacetylases, acetoin utilization proteins and acetylpolyamine amidohydrolases are members of an ancient protein superfamily. Nucleic Acids Res. 25, 3693­3697. Mai, A., Massa, S., Pezzi, R., Rotili, D., Loidl, P., Brosch, G., 2003. Discovery of (Aryloxopropenyl)pyrrolyl hydroxamides as selective inhibitors of Class IIa histone deacetylase homologue HD1-A. J. Med. Chem. 46, 4826­4829. Marks, P.A., Richon, V.M., Rifkind, R.A., 2000. Histone deacetylase inhibitors: inducers of differentiation or apoptosis of transformed cells. J. Natl. Cancer Inst. 92, 1206­1210. Matsuyama, A., Shimazu, T., Sumida, Y., Saito, A., Yoshimatsu, Y., Seigneurin-Berry, D., 2002. In vivo destabilization of dynamic microtubules by HDAC6-mediated deacetylation. EMBO J. 21, 6820­6831. McMartin, C., Bohacek, R.S., 1997. QXP: powerful, rapid computer algorithms for structure-based drug design. J. Comp. Aid. Mol. Des. 11, 333­344. Mohamadi, F., Richards, N.G.J., Guida, W.C., Liskamp, R., Lipton, M., Cauleld, C., Chang, G., Hendrickson, T., Still, W.G., 1990. MacroModel--an integrated software system for modeling organic and bioorganic molecules using molecular mechanics. J. Comput. Chem. 11, 440­467. Munster, P.N., Troso-Sandoval, T., Rosen, N., Rifkind, R., Marks, P.A., Richon, V.M., 2001. The histone deacetylase inhibitor suberoylanilide hydroxamic acid induces differentiation of human breast cancer cells. Cancer Res. 61, 8492­8497. Nielsen, T.K., Hildmann, C., Dickmanns, A., Schwienhorst, A., Ficner, R., 2005. Crystal structure of a bacterial class 2 histone deacetylase homologue. J. Mol. Biol. 354, 107­120. Park, J.-H., Jung, Y., Kim, T.Y., Kim, S.G., Jong, H.-S., Lee, J.W., Kim, D.-K., Lee, J.-S., Kim, N.K., Kim, T.-Y., Bang, Y.-J., 2004. Class I histone deacetylase-selective novel synthetic inhibitors potently inhibit human tumor proliferation. Clin. Cancer Res. 10, 5271­5281. Peterson, C.L., 2002. HDAC's at work: everyone doing their part. Mol. Cell 9, 921­929. Riester, D., Wegener, D., Hildmann, C., Schwienhorst, A., 2004. Members of the histone deacetylase superfamily differ in sub-
+
+

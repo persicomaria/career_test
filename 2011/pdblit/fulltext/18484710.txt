@@ -1,0 +1,298 @@
+Structure-Based Design of an Organoruthenium Phosphatidyl-inositol-3kinase Inhibitor Reveals a Switch Governing Lipid Kinase Potency and Selectivity
+Peng Xie,, Douglas S. Williams, G. Ekin Atilla-Gokcumen,¶, Leslie Milk§, Min Xiao, Keiran S. M. Smalley, Meenhard Herlyn, Eric Meggers,¶, and Ronen Marmorstein,,§,*
+
+ARTICLE
+A B S T R A C T Mutations that constitutively activate the phosphatidyl-inositol-3kinase (PI3K) signaling pathway, including alterations in PI3K, PTEN, and AKT, are found in a variety of human cancers, implicating the PI3K lipid kinase as an attractive target for the development of therapeutic agents to treat cancer and other related diseases. In this study, we report on the combination of a novel organometallic kinase inhibitor scaffold with structure-based design to develop a PI3K inhibitor, called E5E2, with an IC50 potency in the mid-low-nanomolar range and selectivity against a panel of protein kinases. We also show that E5E2 inhibits phospho-AKT in human melanoma cells and leads to growth inhibition. Consistent with a role for the PI3K pathway in tumor cell invasion, E5E2 treatment also inhibits the migration of melanoma cells in a 3D spheroid assay. The structure of the PI3K /E5E2 complex reveals the molecular features that give rise to this potency and selectivity toward lipid kinases with implications for the design of a subsequent generation of PI3K-isoform-specific organometallic inhibitors.
+
+ The Wistar Institute, Department of Chemistry, University of Pennsylvania, and §Graduate Group in Biochemistry and Molecular Biophysics, School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, ¶Current address: Department of Chemistry, Philipps-University Marburg, Marburg, Germany.
+
+P
+
+hosphatidyl-inositol-3-kinases (PI3Ks) are a family of heterodimeric dual-specific lipid kinases typically consisting of both regulatory and catalytic subunits. Different combinations of regulatory and catalytic subunits distinguish the three major classes of PI3Ks and confer diverse substrate specificity and mechanism of upstream signaling (1­3). Class I PI3Ks include four isoforms consisting of two subdivisions, class IA (PI3K , , ) and class IB (PI3K ). Upon activation by upstream signaling events, the class I PI3Ks phosphorylate the 3= position of the membraneembedded phosphatidylinositol 4,5-biphosphate (PIP2) to convert it to phosphatidylinositol 3,4,5-triphosphate (PIP3) (1, 4). PIP3 serves as an important second messenger molecule to recruit downstream PH domain containing effectors such as 3-phosphoinositide-dependent kinase (PDK) and AKT (also called protein kinase B), which in turn activate a variety of downstream effectors that turn on the signaling cascades leading to cell proliferation, survival, and cell growth (5). Disruption of the PI3K signaling pathway favoring progrowth signaling directly leads to and is exploited by a variety of diseases, most notably cancer. Indeed, PI3K enzymes have been known to have oncogenic properties for decades (6, 7). In particular, 30% of human cancer samples including malignant melanoma contain somatic mutations in the PIK3CA gene, which encodes the PI3K p110 catalytical subunit. Of these mutations, 80% consist of at least one of the two hotspot mutations conferring marked increase in PI3K kinase activ-
+
+*Corresponding author, marmor@wistar.org.
+
+Received for review February 25, 2008 and accepted April 15, 2008. Published online May 16, 2008 10.1021/cb800039y CCC: $40.75
+© 2008 American Chemical Society
+
+www.acschemicalbiology.org
+
+VOL.3 NO.5 · ACS CHEMICAL BIOLOGY
+
+305
+
+ity (8, 9). Although PI3K isoforms outside of PI3K have a weaker correlation with somatic activating mutations in primary tumor samples, overexpression of these functionally nonredundant isoforms of PI3K also have transforming abilities in cancers of specific tissue types (10). For example, PI3K and PI3K isoforms show increased expression levels in colon and bladder cancers and glioblastoma, respectively (10­12), and the PI3K isoform plays an important role in the progression of chronic myeloid leukemia (10, 13). In addition to human cancers, PI3K isoforms and have also been implicated in rheumatoid arthritis and other inflammatory immune disorders (14). The accumulating evidence implicating PI3K and other isoforms as major oncoproteins has pointed to PI3K as an important target for the development of small molecule inhibitors. To this end, Wortmannin and LY294002 were developed and are now widely used as PI3K inhibitors for cellular studies to elucidate the molecular mechanism of PI3K signaling (15­18). However, these inhibitors suffer from poor performance in terms of potency, stability, and isoform selectivity and are therefore not useful for therapeutic purposes. Recent improvements have been made using small, organic PI3Kspecific inhibitors (14, 19). Nonetheless, the rational development of potent and specific small molecule inhibitors against the PI3K lipid kinases remains a major challenge. The use of organometallic compounds as scaffolds for developing protein kinase inhibitors originated from mimicking staurosporine, which is a nonselective kinase inhibitor. This novel approach to develop kinase inhibitors has a number of advantages (20). Most notably, it facilitates the exploration of a large unexplored area of chemical space with relatively less synthetic effort than conventional synthetic organic chemistry approaches (21­23). In addition, the metal coordination bonds to ruthenium have been shown to be kinetically stable within a biological environment with no metal-related cytotoxicities (24­26). The efficacy of this method is highlighted by its use in developing the most potent and selective kinase inhibitors known for GSK3 (25) and PIM1 (27). Here we report an extension of this organometallic inhibitor scaffold design approach to the development of a potent and selective PI3K lipid kinase inhibitor, called E5E2, using combined efforts of medicinal chemistry, structure activity relationships, and structure-based design. We also report the crystal struc306
+VOL.3 NO.5 · 305­316 · 2008 XIE ET AL.
+
+ture of the PI3K /E5E2 complex to reveal the structural features underlying lipid kinase potency and selectivity with implications for the design of a subsequent generation of PI3K-isoform-specific organometallic inhibitors. RESULTS AND DISCUSSION Cocrystal Structure of PI3K in Complex with an Initial Organoruthenium Inhibitor Lead Compound. In order to identify initial lead inhibitors for PI3K from a pyridocarbazole organometallic ruthenium-based scaffold, a library of 75 compounds (22, 27) with a diverse configuration of ligands around the ruthenium metal (Figure 1, panel a) were screened against the human PI3K isoform using a fluorescence polarization-based kinase assay (Echelon Biosciences). From this library, we identified the racemic compound DW12, which bears an additional hydroxyl group on the indole group as the most potent compound with an IC50 value of 1 M using a Kinase Glo assay (Figure 1, panel a; Supplementary Figure S1). DW12 is also known to be a highly potent inhibitor for the protein kinases GSK3 (26) and PIM1 (23). In order to understand its mode of inhibition and to provide a structural platform for structure-based inhibitor optimization to improve potency as well as selectivity, we cocrystallized one enantiomer, named DW2, with human PI3K . The PI3K /DW2 cocrystals formed in the space group C2 with one protein/inhibitor complex per asymmetric unit cell, and the structure was determined by molecular replacement using the human unliganded PI3K structure as a search model. The strong electron density signal of the ruthenium atom and the proximal outline of the inhibitor allowed for the unambiguous placement of the DW2 inhibitor into the PI3K active site (Figure 1, panel b). The structure was refined to 2.8 Å resolution to excellent refinement statistics and geometrical parameters (Table 1). Overall, the protein component of the PI3K /DW2 structure adopts the same conformation as the unliganded PI3K protein, and the conservation of the overall structure suggests that the organoruthenium inhibitor binds to the PI3K ATP binding pocket without significant alteration of the native PI3K conformation (Figure 1, panel c). Detailed View of the Interactions between the PI3K Kinase Domain and DW2. As designed, the DW2 inhibitor occupies the ATP binding pocket of the kinase domain with a 2.4 Å displacement toward solvent exposed region relative to ATP (Figure 1, panel d). The maleimide moiety of the DW2 inhibitor largely overlaps
+www.acschemicalbiology.org
+
+ARTICLE
+a
+H N
+
+b
+O R1 Design O H N O HO N R2 X W Ru Z DW12 R3 N Y Screening N Ru C O N O H N O
+
+N
+
+O
+
+N
+
+O NH Staurosporine
+
+Compounds library
+
+c
+N-lobe
+
+d
+6 7 5 4 Activation loop ATP DW2 DW2 10 6 C-lobe 10 9 8 4 12 2 P-loop
+
+9 3
+
+e
+M804 E880 I881 I831 W812 H2O O1 N12 V882 O2 O4 F961 D884 I963 M953 T887 K890 D964 K802 S806
+
+f
+P-loop
+
+O2 Ru CO DW2 Cp CO O4
+
+Cp Activation loop
+
+Figure 1. Initial lead inhibitor identification and crystal structure of PI3K in complex with DW2. a) Chemical structures of staurosporine, the organoruthenium scaffold, and the initial lead inhibitor DW12 (racemate) identified from this library. b) Electron density map corresponding to DW2 of the PI3K /DW2 cocrystal structure, the map is contoured at 4 from a simulated annealing Fo Fc omit map without contribution from the DW2 inhibitor model. c) Overall structure of PI3K p110 catalytic subunit in complex with DW2; N-lobe, C-lobe, P-loop and activation loop of the kinase domain are color coded blue, red, cyan and yellow, respectively. Inhibitor DW2 is colored white with the ruthenium atom highlighted in magenta and coordination bonds displayed as magenta dashes. The same color coding scheme is preserved in all panels of this figure. d) Superposition of the DW2-bound PI3K p110 structure with the ATP-bound PI3K p110 complex (PDB 1E8X). ATP is colored orange, and secondary structure elements are assigned according to the numbering in the ATP complex structure (37). e) Details of DW2 interactions with PI3K . Hydrogen bonding interactions are represented with blue dashed lines. Atoms and ligands of interest are labeled and color coded blue. f) Surface representation of DW2 bound to the PI3K p110 active site.
+
+www.acschemicalbiology.org
+
+VOL.3 NO.5 · 305­316 · 2008
+
+307
+
+TABLE 1. Statistics of crystallographic data collection and
+
+structural refinement
+Data collection
+
+Beamline Complex Space group Cell dimensions a, b, c (Å) (deg) No. of unique reflections Resolution (Å) Rmergea,b I/ (I) Completeness (%) Multiplicity Rworkc/Rfreed (%/%) RMSD Bond lengths (Å) Bond angles (deg)
+a
+
+APS 23ID-D PI3K /DW2 C2 143.6, 68.1, 106.3 95.26 24,815 50 2.8 0.054 (0.423) 24.7 (2.3) 97.3 (80.2) 4.8 (3.6)
+Refinement
+
+NSLS X6A PI3K /E5E2 C2 145.1, 68.3, 107.0 95.14 18,708 50 3.2 0.065 (0.608) 19.7 (2.0) 99.2 (98.9) 3.8 (3.8) 26.5/30.5 0.012 1.55
+
+25.2/28.7 0.012 1.71
+
+Highest resolution shell is shown in parentheses. bRmerge I(hhkl |I(hkl) kl) | / hkl(hkl), where I(hkl) is the mean of the symmetry-equivalent reflections of I(hkl). cRwork ||Fo| |Fc|| / |Fo|. dRfree |Fc|| / T|Fo| (where T is T||Fo| a test data set of 9.3% of the total reflections randomly chosen and set aside before refinement).
+
+with the adenine moiety of ATP. The DW2 maleimide moiety and derivatized pyridocarbazole makes extensive hydrogen bonding interactions with both protein side chain and main chain atoms of the PI3K kinase domain (Figure 1, panel e). In particular, the N12 atom of the maleimide nitrogen forms water-mediated hydrogen bonds with the main chain carbonyl of residue Glu880, and the DW2 carbonyl oxygens, O1 and O2, of the maleimide moiety form hydrogen bonding interactions with the side chain oxygen of residue Glu964 and the main chain amide nitrogen of residue Val882, respectively. The O4 atom of the DW2 phenol moiety also hydrogen bonds to the main chain carbonyl of Val882 and main chain amide nitrogen of residue Asp884. Several van der Waals contacts stabilize the interaction between PI3K and DW2, including contacts between the inhibitor ring system with the side chains of residues Trp812, Met953, Ile881, Ile831, Met804, Ile963, Thr887, Val882, Phe961, and Ser806. The ruthenium coordination center of the DW2 inhibitor adopts a pseudotetrahedral geometry with the CO ligand pointing toward the C-lobe of the kinase domain and the cyclopentadiene (Cp) ligand pointing to the P-loop of the kinase. The CO ligand of the ruthenium makes hydrogen bonding contacts with the main chain amide nitrogen and side chain hydroxyl of residue Thr887, while the Cp ligand of the ruthenium makes van der Waals contacts with the aliphatic portions of Lys890 and Lys802. A surface representation of the DW2 inhibitor shows shape 308
+VOL.3 NO.5 · 305­316 · 2008 XIE ET AL.
+
+complementarity with the ATP binding pocket of PI3K , further supporting the favorable binding properties of the DW2 inhibitor with PI3K (Figure 1, panel f). Structure-Based Design of Second Generation PI3K Inhibitors. A superposition of the PI3K /DW2 structure with previously determined PI3K structures with conventional organic inhibitors such as staurosporine, myricetin, LY294002 (28), AS605240 (29), and PIK90 (30) reveals some unique features underlying the binding of DW2 to PI3K . While the maleimide, pyridine, and indole moieties of the DW2 inhibitor largely overlap with other inhibitors, the phenol moiety extends into a hinge region between the N-lobe and C-lobe of the kinase domain, representing a novel region of PI3K "inhibitor space" (Figure 2, panel a). The observation that the phenol ring of DW2 makes complementary interactions with the PI3K active site is particularly interesting, since the HB12 homologue missing this hydroxyl group does not inhibit PI3K at a comparable inhibitor concentration (Figure 2, panel c). This structural evidence suggests that this phenol moiety of DW2 be retained in a subsequent round of inhibitor optimization. Most notably, the DW2 inhibitor appears to be pushed out of the ATP binding pocket relative to the other inhibitors (Figure 2, panel a). This causes the maleimide nitrogen of DW2 to be too far away to directly contact the protein within the ATP binding pocket. Instead, the maleimide nitrogen makes water-mediated hydrogen bonding interactions with the protein backbone. This finding is in contrast to the previous cocrystal structure of organoruthenium inhibitors with similar scaffolds in complex with protein kinases such as GSK3 (unpublished data) and PIM1 (23), in which the maleimide nitrogen is in direct contact with the protein pocket, leaving essentially no space for additional modification on the imide nitrogen. On the basis of this observation, we hypothesized that a derivatization of the maleimide nitrogen, preferably to a hydrophobic group to complement a largely hydrophobic protein pocket in this region, might enhance protein interaction as well as improve kinase selectivity toward PI3K. Indeed, we observed a slight enhancement in inhibitory potency for PI3K along with a dramatic improvement in selectivity when a methyl group was introduced on the maleimide nitrogen (Figure 2, panel c). An overlay of DW2 with other PI3K inhibitors also shows that the other inhibitors occupy an overlapping region of PI3K inhibitor space that is not occupied by the
+www.acschemicalbiology.org
+
+ARTICLE
+a
+5 7 3 V882 3 K883 Cp K807 D836 180° 6 N 4 7 5 4 K833 K808 K807 P-loop Cp K833 D836 P-loop DFG motif D964 D950 K808
+
+b
+9 8 CO 4
+
+D884 9
+
+8 CO Novel PI3K inhibitor space
+
+D950
+
+Novel PI3K inhibitor space N
+
+c
+O R2 N
+
+R1 N
+
+d
+O OH O R3 N X= N H OH
+
+100 Percentage inhibition (%) 75 50 25 0 10-4
+
+E5 EAd125 DW12Me DW12
+
+Ru C O
+
+R4
+
+IC50 (µM) R2 H OH OH OH OH R3 H H H F F R4 H H H H X PI3K >>1a 0.75 0.5 0.18 0.04 GSK3 0.05 0.0014 >1 0.7 4
+
+R1 HB12 DW12 DW12Me EAd125 E5
+a
+
+H H CH3 CH3 CH3
+
+10-3
+
+10-2
+
+10-1
+
+100
+
+101
+
+102
+
+Inhibitor concentration (µM)
+
+100% PI3K activity at 1 µM of HB12
+
+Figure 2. Structure-based design of optimized inhibitor and structure activity relationship correlation. a) Superposition of the PI3K /DW2 complex structure with structures of PI3K bound to organic inhibitors. The color-coding scheme is as follows: white for DW2, orange for staurosporine, blue for myricetin, cyan for LY294002, red for AS605240, and magenta for PIK90. Pocket A is shown with key residues represented as sticks in CPK coloring. The arrow points to the N-lobe half of the kinase domain. b) Panel a rotated 180° along a horizontal axis. c) Modifications on DW12 and the corresponding IC50 values. d) Dose response curves for the compounds shown in panel c. All compounds were measured as racemic mixtures.
+
+DW2 inhibitor. In particular, the other PI3K inhibitors occupy a tunnel-like pocket (called pocket A hereafter) that extends into a space underneath the P-loop that is further defined by the 3 helix, the 4 7 strands, and the DFG motif of the activation loop (Figure 2, panel b). We attempted to derivatize the pyridine moiety that is placed in proximity to pocket A. Intriguingly, a fluorine substitution on the 3= position of pyridine moiety (EAd125) significantly increased its inhibitory potency against PI3K (Figure 2, panel c). The Cp and CO ligands of the ruthenium atom occupy a novel region of PI3K inhibitor space relative to
+www.acschemicalbiology.org
+
+other PI3K inhibitors and serves to cap off the relatively hydrophobic PI3K ATP binding pocket from solvent (Figure 2, panel b). The proximity of the Cp group to solvent suggests that more hydrophilic capping groups might enhance inhibitor binding. An exhaustive screening against a library of compounds with modifications on the Cp ligand of the parental EAd125 compound revealed several compounds that contained hydrogen bonding donors in this region of the molecule (Supplementary Figure S2). The most potent compounds from this series of DW2 analogues, E5, were separated into the pure enantiVOL.3 NO.5 · 305­316 · 2008
+
+309
+
+a
+Percentage inhibition (%) 100 75 50 In vitro IC50s 25 0 10-3 E5E2 0.039 10-2 10-1 100 E5E1 0.041 101 E5E2 E5E1
+
+b
+120 Remaining kinase activity 100 80 60 40 20 0
+
+BR AF BR AF V6
+
+PA K1
+
+E
+
+PI M 1
+
+Inhibitor concentration (µM)
+
+Figure 3. E5E2's activity for PI3K and kinase specificity screening. a) Dose response curves for the enantiomeric inhibitors E5E2 and E5E1. b) Activity of the human MST1, BRAFWT, BRAFV600E, PAK1, GSK3 , and PIM1 kinases at a final E5E2 concentration of 4 M. Data show mean of three independent experiments SEM.
+
+omers, named E5E1 and E5E2, and their PI3K inhibition properties were characterized. As illustrated in Figure 3, panel a, E5E1 and E5E2 displayed comparable IC50 values of 41 and 39 nM, respectively. Kinase Specificity of the E5E2 Inhibitor. To further characterize the role of methylation of the maleimide nitrogen on this new class of organoruthenium inhibitors in mediating inhibition of the PI3K lipid kinases over protein kinases, we assayed the E5E2 inhibitor against five human protein kinases (MST1, PAK1, BRAFWT and BRAFV600E, GSK3 , and PIM1) representing four major kinase families of STE, TKL, CMGC, and CAMK, respectively. This kinase panel screen revealed that the E5E2 inhibitor had significant selectivity toward PI3K over these protein kinases. In particular, the E5E2 inhibitor did not show appreciable inhibition for BRAFWT, BRAFV600E, PAK1 and MST1 and showed only 50% inhibition toward the GSK3 and PIM1 kinases at an inhibitor concentration of 4 M (Figure 3, panel b). Together, these results reveal that the E5E2 inhibitor exhibits nearly a 100 fold selectivity for PI3K over these representative protein kinases. The selectivity of E5E2 is quite remarkable considering that GSK3 and PIM1 are common targets for this class of organoruthenium inhibitors (25, 26, 31, 32). For comparison, we assayed a previously characterized PI3K inhibitor, LY294002 (15), against the same panel of kinases used in this study (Figure S3). Interestingly, we found that LY294002 was both less potent against PI3K and less specific for PI3K relative to the other kinases profiled in this study 310
+VOL.3 NO.5 · 305­316 · 2008 XIE ET AL.
+
+(compare Figure 3, panel b and Supplementary Figure S3). Cellular Activity of E5E1 and E5E2. Melanomas are tumors known to have high constitutive activity in the PI3K/AKT pathway (33, 34). To probe E5E1 and E5E2's ability to inhibit proliferation of melanoma cells, we examined the cellular response of E5E1 and E5E2 in a melanoma cell line. We found that both E5E1 and E5E2 were able to block the constitutive activity of AKT in a concentration-dependent manner (Figure 4, panel a). Similar levels of phospho-AKT inhibition were also seen following treatment with the PI3K inhibitor LY294002 (30 M). In contrast, no effects were seen upon the activity of the MAP kinase pathway, as shown by the lack of inhibition of ERK phosphorylation (Figure 4, panel a). Inhibition of the PI3K pathway in melanoma is also known to inhibit cell growth in 2D cell culture (35). In agreement with these findings, treatment of the 1205Lu melanoma cell line with increasing concentrations of E5E1, E5E2, and LY294002 was associated with an inhibition of cell proliferation (Figure 4, panel b). There appeared to be a close correlation between the concentrations of E5E1/E5E2 required to inhibit phospho-AKT and those required to inhibit proliferation. In contrast, treatment of primary human fibroblasts with LY294002 (10 M), E5E1 (10 M), or E5E2 (10 M) did not inhibit cell growth, demonstrating a lack of a general cytotoxic effect (data not shown). In 3D cultures of melanoma cells, infection with an adenovirus encoding for a dominant negative construct of PI3K is known to block cell
+www.acschemicalbiology.org
+
+G SK 3
+
+M ST 1
+
+3K 
+
+PI
+
+00
+
+ARTICLE
+migration (35). In agreement a b with these previous results, we E5E1 E5E2 E5E1 found that the invasion of pAKT E5E2 100 LY294002 melanoma cells grown as 3D tAKT collagen-implanted spheroids, pERK 80 could be completely blocked tERK 60 following treatment with either LY 0 1 3 10 30 LY 0 1 3 10 30 µM E5E1 or E5E2 (both 30 M) c 40 (Figure 4, panel c). Taken to30 µM E5E2 Control 30 µM E5E1 gether, we show that the PI3K 20 inhibitor E5 works both in vitro 0 and in vivo. 0.001 0.01 0.1 1 10 100 Crystal Structure of PI3K log (compound) (µM) in Complex with E5E2. To understand the structural basis Figure 4. E5E1 and E5E2 inhibit PI3K activity in vivo. a) Treatment of 1205Lu melanoma cells with LY294002 (30 M) or increasing concentrations of E5E1 or E5E2 were shown to reduce constitutive phospho-AKT activity. Cells for selective PI3K inhibition by were treated with drug for 1 h before being lysed and protein extracts were then resolved by Western blotting and E5E2 (Figure 5, panel a) and probed for expression of phospho-AKT, total-AKT (tAKT), phospho-ERK (pERK), and total ERK (tERK). b) 1205Lu also to confirm the design melanoma cells were treated with increasing concentrations of E5E1, E5E2, or LY294002 for 72 h, and cell surstrategies we inferred from vival was determined using the MTT assay. Data show mean of three independent experiments SEM. c) Reducstructural information of the tion of cell invasion and survival in a 3D model of melanoma. Collagen-implanted spheroids of 1205Lu melanoma cells were treated with compound for 72 h before being treated with calceim-AM (green, live cells) or ethidium PI3K /DW2 complex, we cobromide (red, dead cells). Note the lack of invading cells following compound treatment. Magnification: 10X. crystallized the PI3K /E5E2 Scale bar: 200 M complex and determined its structure by molecular replaceof the inhibitor binding cavity formed by side chains of ment with the PI3K extracted from the PI3K /DW2 residues Lys833, Asp964, Asp950, Lys808, Asp836, complex as a search model. The refined structure in and Lys807. The dihydroxy-tert-butyl (DHtB) group on the absence of the E5E2 inhibitor showed strong differthe amide linkage of the Cp ring sticks into the space ence electron density for the inhibitor allowing for the sandwiched by the main chain carbonyl and side chain unambiguous modeling of the inhibitor into the ATP binding site of PI3K (Figure 5, panel b). The E5E2 inhibi- of Ala805 as well as the side chain of Lys890. This places the two hydroxyl groups of the DHtB moiety in a tor showed electron density more clearly defined than favorable position to form hydrogen bonding interacthat of the DW2 inhibitor and also refined to lower B-factors, consistent with the more potent PI3K inhibi- tions with several main chain and side chain atoms in tion by the E5E2 inhibitor relative to DW2. An overlay of this region, although the electron density map correthe E5E2 and DW2 inhibitors in the PI3K active site re- sponding to the DHtB moiety is not well enough deveals that the two inhibitors bind in almost identical po- fined to assign details of the interaction. The close van der Waals surface complementarity between the derivatsitions except that E5E2 is bound 0.7 Å more deeply ized DHtB group and the adjacent protein also faciliin the active site pocket than DW2 (Figure 5, panel c). A detailed analysis of the PI3K /E5E2 complex shows tates binding. Moreover, the polar nature of the DHtB that the hydroxyl group of the ring system mediates hy- group on the rather hydrophobic Cp ring ligand also likely makes more complimentary interactions with the drogen bonding interactions with the Val882, Asp884, and Ala885 main chain atoms that are analogous to the solvent channel into the inhibitor binding pocket relative to the underivatized Cp ring. interactions that are mediated by the DW2 inhibitor Perhaps the most interesting feature of the PI3K (Figure 5, panel c). Although the fluorine substitution complex with E5E2 relative to its complex with the DW2 on the pyridine moiety of the pyridocarbazole does not inhibitor is the methyl derivatization on the maleimide make direct interactions with the protein, the highly moiety, which only slightly increases inhibitory potency electron-rich fluorine could mediate long-range electrostatic interactions with the highly polar proximal surface but significantly increases binding selectivity (Figure 2,
+Percent control cell growth
+
+www.acschemicalbiology.org
+
+VOL.3 NO.5 · 305­316 · 2008
+
+311
+
+a
+O HO F N Ru C O O HN E5E2 OH OH N N O
+
+b
+
+c
+5 7 3 K833 K808 D836 D964 S806 DW2 K807 D950 D884 9 4 T887 8 K890
+
+Y867 V882 K883
+
+A805
+
+E5E2
+
+Figure 5. Structure of the E5E2 inhibitor in complex with PI3K . a) Chemical structure of the E5E2 inhibitor. b) Electron density map corresponding to E5E2; the density is contoured at 3 from a simulated annealing Fo Fc omit map without the contribution from the E5E2 model. c) Superposition of the PI3K /E5E2 complex with the PI3K /DW2 complex. DW2 and E5E2 are shown in grey and green, respectively, and hydrogen bonding interactions are represented by blue dashed lines.
+
+panel c). In the PI3K /E5E2 structure this methyl group on the maleimide nitrogen is within van der Waals contact distance with a tyrosine residue (Tyr867) that is conserved among Class I PI3K enzymes but not present in protein kinases. Therefore, the methyl group of the E5E2 inhibitor is well accommodated in this pocket backed by Tyr867 of PI3K , which is in contrast to the limited space present in the same region of organometallic in-
+
+hibitors complex structures with protein kinases such as GSK3 and PIM1. Taken together, this analysis suggests that the maleimide methyl group of E5E2 inhibitor might be a particularly important kinase inhibitor specificity determinant of this inhibitor. Structural Basis of PI3K Specificity of the E5E2 Inhibitor. An overlay of the PI3K /E5E2 structure with several other kinase structures in addition to GSK3 and PIM1 including BRAF, STK10 (shares more than 65% sequence homology with MST1), and PAK1 reveals that while all of these kinases share a high degree of structural homology within the inhibitor binding site, there is significant difference in the Tyr867-bearing loop preceding the 6 strand. In particular, Pro866 of PI3K faces away from the methylated maleimide of E5E2, while the corresponding hydrophobic residues of the other kinases are in a position that would clash with the methyl group on the maleimide of the inhibitor (Figure 6, panel a). This modeling is consistent with the poor inhibitory properties of E5E2 for these other kinases. On the basis of the observations described above, we hypothesized that Tyr867 and Pro866 mediate important roles in the PI3K selectivity of the E5E2 inhibitor. To test this hypothesis, we carried out a site-directed mutagenesis of the BRAF kinase directed at increasing its sensitivity to the E5E2 inhibitor. Specifically, we mutated Leu514 of BRAF (analogous to Tyr867 of PI3K ) to the less bulky valine and alanine residues and compared the ability of these mutants to be inhibited by the E5E2 inhibitor. Consistent with our hypothesis, the
+
+a
+6 7
+
+b
+125 100 75 50 25 0 100
+4
+
+3 Y867 (PI3K) E5E2
+
+BRAF activity (%)
+
+BRAFWT BRAFL514V BRAFL514A 101
+
+L514 (BRAF) P866 V328 (PAK1) V94 (STK10) 8 CO DHtB-Cp
+
+E5E2 concentration (µM)
+
+Figure 6. Structural comparison of PI3K /E5E2 with other protein kinases. a) Superposition of the PI3K /E5E2 complex (green) with BRAFWT (yellow, PDB 1UWH), PAK1 (pink, PDB 1F3M) and STK10 (blue, PDB 2J7T) protein kinase structures. b) Dose­response curves of E5E2 to BRAFWT (grey) and BRAF mutants kinases (L514V in pink, L514A in purple) using an in vitro BRAF kinase assay (see Supporting Information).
+
+312
+
+VOL.3 NO.5 · 305­316 · 2008
+
+XIE ET AL.
+
+www.acschemicalbiology.org
+
+ARTICLE
+E5E2 inhibitor shows an IC50 of 10 M for the BRAF mutants, while the E5E2 inhibitor shows no detectable inhibition against wild-type BRAF at an inhibitor concentration of 10 M (Figure 6, panel b). Taken together, these results suggest that the specific methylation on E5E2 inhibitor complements with a unique conformation centered around Tyr867 on PI3K to mediate selective inhibition against PI3K lipid kinases over protein kinases. Furthermore, E5E2 also serves as an excellent lead compound for the further development of potent and specific organoruthenium PI3K inhibitors. A Molecular Switch Controlling Organometallic Inhibitor Selectivity for Lipid Kinases. The idea of using a pyridocarbazole organometallic scaffold as a template for designing protein kinase inhibitors stemmed from a chemical mimetic strategy based on the property of staurosporine as a nonselective kinase inhibitor and the versatility of ligand shuffling around the metal for specificity toward the intricate differences in kinase ATP binding pockets. A close examination of protein kinase structures in complex with staurosporine revealed a strikingly unified feature of two invariant direct hydrogen bonding interactions between the lactam moiety of staurosporine and the protein. The lactam moiety of staurosporine is exploited and converted into a maleimide moiety in the original design of the initial inhibitor derived from an organometallic scaffold to confer inhibitory potency. Structural studies centering on this new class of highly specific organoruthenium inhibitors, particularly in complex with two representative protein kinases GSK3 (unpublished data) and PIM1 (23), have confirmed that the two invariant hydrogen bonds are largely conserved in the binding of organoruthenium inhibitor in the protein kinase pocket. In the follow-up studies, it was discovered that a methyl group addition to the maleimide moiety nearly abolished the inhibitory activity. From the structural point of view, this is reasonably anticipated because a methyl group would disrupt the hydrogen bonding interactions mediated by the maleimide imide as well as introduce additional steric clashes with the protein. Despite the overall structural homology of PI3K lipid kinases with protein kinases, its mode of staurosporine binding is quite divergent. In particular, the direct hydrogen bonding interactions described above for protein kinases are not present in PI3K . This observation is mirrored in the structure of PI3K bound to the organoruthenium DW2 inhibitor. We took advantage of this feawww.acschemicalbiology.org
+
+ture by adding a methyl group on the maleimide imide (compound E5E2 and DW12Me) to occupy this space. As expected, these inhibitors were potent for PI3K but not for several protein kinases. From our structural analysis of the complex between PI3K and the E5E2 inhibitor, we identified a Tyr867 residue that plays a central role in accommodating the methylated imide and modeled the structural basis for why protein kinases cannot accommodate the methylated imide. We tested this modeling by producing a site-directed mutant of the BRAF protein kinases that resensitizes it to the E5E2 inhibitor. Our results highlight the importance of this methyl group on the maleimide moiety of our new class of organoruthenium inhibitor as a selectivity switch between PI3K lipid kinases and protein kinases. Future Design of Improved PI3K Inhibitors Using an Organoruthenium Scaffold. In this study, we have identified mid-low-nanomolar organoruthenium with significant selectivity toward PI3K, yet other structural aspects of our study can still be used as a guide to further improve PI3K potency and isoform selectivity. First, the fluorine atom of the pyridocarbazole ring faces the A pocket in the PI3K active site that would better accommodate a larger R group that could mediate direct hydrogen bonds. Second, a shallower pocket proximal to a maleimide carbonyl group (B pocket) formed by residues Asp964, Ile963, Tyr867, and Ile879 might accommodate a larger R group (Supplementary Figure S4, panel a). Both modifications are likely to increase PI3K potency and specificity. When overlaid with the recently published PI3K crystal structure (36), the E5E2 inhibitor of the PI3K /E5E2 structure would be predicted to make analogous interactions with PI3K . Nearly 70% of the residues of PI3K that make van der Waals contacts with the E5E2 inhibitor are conserved both in sequence and structure in PI3K (Supplementary Figure S4, panels b and c). This observation is consistent with the finding that the PI3K and isoforms are close "pharmologues" exemplified by their similarity for their sensitivity to isoform specific PI3K inhibitors (30). However, there are regions of divergence directly outside the E5E2 binding site that might be exploited for the design of organoruthenium inhibitors with PI3K isoform selectivity (Supplementary Figure S4, panels c e). In particular, the variations in the solvent exposed region of the ATP binding pocket provide an opportunity to identify a Cp derivatization that might distinguish between PI3K isoforms. In our preliminary studies we have shown
+VOL.3 NO.5 · 305­316 · 2008
+
+313
+
+that the E5E2 inhibitor is 5-fold more potent for PI3K over PI3K (data not shown), suggesting that the E5 inhibitor scaffold might indeed be exploited to develop isoform-specific PI3K inhibitors. Taken together, we have identified a new class of mid-low-nanomolar organoruthenium inhibitors against PI3K that also show significant selectivity against other
+
+protein kinase families. Crystallographic analysis of these inhibitors bound to PI3K reveals the mechanism of inhibition and identifies a structural switch that confers significant selectivity against PI3Ks over protein kinases. Our structural analysis also suggests further modifications to increase PI3K potency and PI3K isoform selectivity.
+
+METHODS
+Protein Expression and Purification. Baculovirus harboring the human PI3K p110 catalytic subunit construct spanning amino acid sequence 144 1202 ( PI3K ) was kindly provided by Dr. Roger L. Williams from the MRC, United Kingdom. PI3K protein was expressed essentially as previously described (28, 37) with minor modifications. PI3K was concentrated to 6 mg mL 1 as measured using a Bradford protein assay and frozen for storage. Crystallization, Inhibitor Soaking, and Data Collection. Initial crystals of PI3K were obtained using hanging drop vapor diffusion by mixing 1 L of PI3K protein (6 mg mL 1) with 1 L of crystallization solution (100 mM Tris pH 7.2, 200 mM ammonium sulfate, 21% PEG 4000). Diffraction quality crystals grew under streak seeding using initial crystals as seeds with a reduced percentage of PEG 4000 (15 18%). After seeding, crystals reached maximum size in 2 weeks and were subjected to soaking with inhibitor dissolved in cryoprotectant (100 mM Tris pH 7.2, 200 mM ammonium sulfate, 25% PEG 4000, 15% glycerol) with a concentration gradient of inhibitor from 1 M to 1 mM in 10-fold gradations. Crystals were incubated with a final inhibitor concentration of 1 mM in cryoprotectant for 4 h to overnight and finally flash frozen in liquid propane. Diffraction images were collected at 100 K using a MARCCD 300 detector at APS beamline 23ID-D (Argonne National Laboratory) or at NSLS beamline X6A (Brookhaven National Laboratory). Diffraction images were indexed, integrated, and scaled using the HKL2000 package (HKL Research). Scaled data were processed with the CCP4 suite (38). The space group was determined to be C2, and each asymmetric unit contains one molecule. Structural Determination and Refinement. PI3K inhibitor complex structures were solved by molecular replacement using MolRep (39) with the human unliganded PI3K structure (PDB 1E8Y) as the search model. The initial solution was refined by rigid body, simulated annealing, torsion angle dynamic, and B factor refinements using CNS (40), interspersed by manual adjustment of the protein model using Coot (41) and O (42). CNS parameter and topology files for organoruthenium inhibitors were generated utilizing the HIC-UP XDICT server (http://alpha2. bmc.uu.se/hicup/xdict.html), and the inhibitor models were manually placed into the electron density from the calculated Fo Fc map and were adjusted in Coot. This was followed by additional refinement using CNS, and the final model was checked for errors by using the CNS composite omit map for protein models and simulated annealing omit map for organoruthenium inhibitors. All structural superpositions were generated by overlaying the C positions of various previously determined PI3K/ inhibitor complex structures on the C of corresponding PI3K/ organoruthenium complex structures using secondary structure matching (SSM) in Coot (43). All structural graphics are generated in PyMol (DeLano Scientific LLC).
+
+Biochemical in Vitro Assays. PI3K Fluorescence Polarization Kinase Assay. This assay was purchased from Echelon Biosciences and was carried out for PI3K (p110 /p85 , Upstate) essentially as recommended by the manufacturer. The final concentrations of PtdIns(4,5)P2, detector, and red fluorescent probe were 10 M, 125 nM, and 10 nM, respectively. PI3K used for each reaction was 60 pmol. The reaction was carried out in 5 mM HEPES pH 7.0, 25 mM MgCl2, and 250 M ATP in 0.5 mL eppendorf tubes. Organometallic inhibitors were added from 4 stock solutions in 20% DMSO in reaction buffer. The final concentration of the inhibitors was 1 or 3 M in 5% DMSO. PI3K , PtdIns(4,5)P2, and different inhibitors were incubated for 15 min followed by the addition of MgCl2 and ATP. The reaction mixture (15 L) was incubated for 1 h, and 10 L of the mixtures was transferred into a 384-well plate. To each well was added 10 L of PtdIns(3,4,5)P3 detector followed by the addition of 5 L of red fluorescent probe. Afterward, fluorescent polarization was measured using and EnVision MultiLabel plate reader from PerkinElmer with appropriate filters (550 nm excitation/580 nm polarization emission). As controls, solutions with no inhibitor (100% enzyme activity) or 300 nM wortamannin (a known PI3K inhibitor that inhibits the kinase completely at 300 nM) were prepared. In order to investigate the potency of the inhibitors, mP values for different inhibitor containing solutions (with 3 or 1 M inhibitor) were compared with the theoretical mP values that would be obtained when 50% of the kinase is inhibited. This value was calculated using the equation (mP(100%enzyme activity) mP(0%enzyme activity))/2 followed by a background correction. PI3K Kinase-Glo Assay. Recombinantly expressed human PI3K catalytic domain was preincubated with various concentrations of inhibitors with a final DMSO concentration of 2% in reaction buffer (20 mM Tris pH 7.5, 100 mM NaCl, 10 mM MgCl2) for 1 h at RT before this mixture was added to a solution of 0.1 mg mL 1 D-myophosphatidylinositol 4,5-biphosphate (PtdIns(4,5)P2, Echelon Biosciences) and 10 M ATP. Fourteen pmoles of PI3K was used in compounds DW12, DW12Me, and EAd125 comparison, and 1.4 pmoles PI3K was used for compounds E5, E5E2, and E5E1 measurements. The kinase reaction was carried out in a 50 L final volume in a 96-well microtiter plate at 37 °C for 3 h before 50 L of Kinase-Glo (Promega) developing solution was added into the mixture to generate a luminescence signal. The signal was recorded using the PerkinElmer Wallac 1420 luminometer using a luminescence filter. Data were processed and IC50 values were derived from using 2% DMSO and with no kinase as controls and a sigmoidal dose response curve fitting by GraphPad Prism. Cell Proliferation (MTT) Assay. Cells were plated into a 96well plate at a density of 2.5 104 cells mL 1 and left to grow overnight. Cells were treated with increasing concentrations of E5E1 (0.03 30 M), E5E1 (0.03 30 M), or LY 294002 (Calbiochem, San Diego, CA) (0.01 30 M) in triplicate. In each instance cells were grown for 72 h before being treated with 20 L of MTT for 3 h (Sigma). After this time, the media was rapidly removed, and the MTT crystals were solubilized using DMSO. The resulting absorbance was read in a plate reader at 560 nm. Absorbance readings were subtracted from the value of blank
+
+314
+
+VOL.3 NO.5 · 305­316 · 2008
+
+XIE ET AL.
+
+www.acschemicalbiology.org
+
+ARTICLE
+wells, and the reduction in cell growth was calculated as a percentage of control absorbance in the absence of any drug. Data shows the mean of at least three independent experiments SEM. Western Blot Analysis. Proteins were extracted and blotted for as described in ref 44. After analysis, Western blots were stripped once and reprobed for -actin to demonstrate even protein loading. Antibodies to phospho-ERK, total-ERK, phosphoAKT, and total AKT were from Cell Signaling Technology, (Beverly, MA). The monoclonal antibody to -actin was from Sigma. 3D Spheroid Growth. Melanoma spheroids were prepared using the liquid overlay method. Briefly, 200 L of melanoma cells (25,000 cells mL 1) were added to a 96-well plate coated with 1.5% agar (Difco, Sparks, MD). Plates were left to incubate for 72 h, by which time cells had organized into 3D spheroids. Spheroids were then harvested using a P1000 pipet. The media was removed, and the spheroids were implanted into a gel of bovine collagen I containing EMEM, L-glutamine, and 2% FBS. Normal 2% melanoma media was overlaid on top of the solidified collagen. Spheroids were treated with either E5E1 (10 30 M) or E5E2 (10 30 M) before being left to grow for 72 h. Spheroids were then washed twice in PBS before being treated with calcein-AM, ethidium bromide (Molecular Probes, Eugene, OR) for 1 h at 37 °C, according to the manufacturer's instruction. After this time, pictures of the invading spheroids were taken using a Nikon-300 inverted fluorescence microscope. Synthesis of Organoruthenium Compounds. See Supporting Information for details. Acknowledgment: We thank Dr. Roger L. Williams (MRC, United Kingdom) for providing the baculovirus harboring the human PI3K p110 catalytic subunit, Ruchi Anand for carrying out the MST1 kinase assay, and Jasna Maksimoska for carrying out the PAK1 assay. This work was supported by NIH grants to R.M. (CA 94165), E.M. (GM 071695), M.H. (CA 80999), and K.S. (CA 93372) and an institutional grant to the Wistar Institute from the NCI (CA 01015). Part of this research was conducted on beamline X6A at the National Synchrotron Light Source at Brookhaven National Laboratory, which is supported by the U.S. Department of Energy under contract No. DE-AC02-98CH10886. Beamline X6A is funded by NIH/NIGMS under agreement Y1 GM0080-03. Part of this research was also conducted on beamline 23ID-D at the Advanced Photon Source, which is supported by the U.S. Department of Energy, Office of Science, Office of Basic Energy Sciences, under Contract No. W-31-109-ENG-38. The structures have been deposited to the Protein Data Bank under accession numbers 3CSF (PI3K /DW2) and 3CST (PI3K /E5E2). Supporting Information Available: This material is available free of charge via the Internet.
+6. Whitman, M., Kaplan, D. R., Schaffhausen, B., Cantley, L., and Roberts, T. M. (1985) Association of phosphatidylinositol kinase activity with polyoma middle-T competent for transformation, Nature 315, 239­242. 7. Sugimoto, Y., Whitman, M., Cantley, L. C., and Erikson, R. L. (1984) Evidence that the Rous sarcoma virus transforming gene product phosphorylates phosphatidylinositol and diacylglycerol, Proc. Natl. Acad. Sci. U.S.A. 81, 2117­2121. 8. Samuels, Y., Diaz, L. A., Jr., Schmidt-Kittler, O., Cummins, J. M., Delong, L., Cheong, I., Rago, C., Huso, D. L., Lengauer, C., Kinzler, K. W., Vogelstein, B., and Velculescu, V. E. (2005) Mutant PIK3CA promotes cell growth and invasion of human cancer cells, Cancer Cell 7, 561­573. 9. Samuels, Y., Wang, Z., Bardelli, A., Silliman, N., Ptak, J., Szabo, S., Yan, H., Gazdar, A., Powell, S. M., Riggins, G. J., Willson, J. K., Markowitz, S., Kinzler, K. W., Vogelstein, B., and Velculescu, V. E. (2004) High frequency of mutations of the PIK3CA gene in human cancers, Science 304, 554. 10. Vogt, P. K., Kang, S., Elsliger, M. A., and Gymnopoulos, M. (2007) Cancer-specific mutations in phosphatidylinositol 3-kinase, Trends Biochem. Sci. 32, 342­349. 11. Benistant, C., Chapuis, H., and Roche, S. (2000) A specific function for phosphatidylinositol 3-kinase (p85 -p110 ) in cell survival and for phosphatidylinositol 3-kinase (p85 -p110 ) in de novo DNA synthesis of human colon carcinoma cells, Oncogene 19, 5083­5090. 12. Mizoguchi, M., Nutt, C. L., Mohapatra, G., and Louis, D. N. (2004) Genetic alterations of phosphoinositide 3-kinase subunit genes in human glioblastomas, Brain Pathol. 14, 372­377. 13. Hickey, F. B., and Cotter, T. G. (2006) BCR-ABL regulates phosphatidylinositol 3-kinase-p110 transcription and activation and is required for proliferation and drug resistance, J. Biol. Chem. 281, 2441­2450. 14. Rommel, C., Camps, M., and Ji, H. (2007) PI3K and PI3K : partners in crime in inflammation in rheumatoid arthritis and beyond? Nat. Rev. Immunol. 7, 191­201. 15. Davies, S. P., Reddy, H., Caivano, M., and Cohen, P. (2000) Specificity and mechanism of action of some commonly used protein kinase inhibitors, Biochem. J. 351, 95­105. 16. Baggiolini, M., Dewald, B., Schnyder, J., Ruch, W., Cooper, P. H., and Payne, T. G. (1987) Inhibition of the phagocytosis-induced respiratory burst by the fungal metabolite wortmannin and some analogues, Exp. Cell Res. 169, 408­418. 17. Vlahos, C. J., Matter, W. F., Hui, K. Y., and Brown, R. F. (1994) A specific inhibitor of phosphatidylinositol 3-kinase, 2-(4-morpholinyl)-8phenyl-4H-1-benzopyran-4-one (LY294002), J. Biol. Chem. 269, 5241­5248. 18. Jacobs, M. D., Black, J., Futer, O., Swenson, L., Hare, B., Fleming, M., and Saxena, K. (2005) Pim-1 ligand-bound structures reveal the mechanism of serine/threonine kinase inhibition by LY294002, J. Biol. Chem. 280, 13728­13734. 19. Knight, Z. A., Chiang, G. G., Alaimo, P. J., Kenski, D. M., Ho, C. B., Coan, K., Abraham, R. T., and Shokat, K. M. (2004) Isoform-specific phosphoinositide 3-kinase inhibitors from an arylmorpholine scaffold, Bioorg. Med. Chem. 12, 4749­4759. 20. Meggers, E. (2007) Exploring biologically relevant chemical space with metal complexes, Curr. Opin. Chem. Biol. 11, 287­292. 21. Williams, D. S., Carroll, P. J., and Meggers, E. (2007) Platinum complex as a nanomolar protein kinase inhibitor, Inorg. Chem. 46, 2944­2946. 22. Bregman, H., Carroll, P. J., and Meggers, E. (2006) Rapid access to unexplored chemical space by ligand scanning around a ruthenium center: discovery of potent and selective protein kinase inhibitors, J. Am. Chem. Soc. 128, 877­884. VOL.3 NO.5 · 305­316 · 2008
+
+REFERENCES
+1. Fruman, D. A., Meyers, R. E., and Cantley, L. C. (1998) Phosphoinositide kinases, Annu. Rev. Biochem. 67, 481­507. 2. Vanhaesebroeck, B., and Waterfield, M. D. (1999) Signaling by distinct classes of phosphoinositide 3-kinases, Exp. Cell Res. 253, 239­254. 3. Domin, J., and Waterfield, M. D. (1997) Using structure to define the function of phosphoinositide 3-kinase family members, FEBS Lett. 410, 91­95. 4. Rodriguez-Viciana, P., Warne, P. H., Dhand, R., Vanhaesebroeck, B., Gout, I., Fry, M. J., Waterfield, M. D., and Downward, J. (1994) Phosphatidylinositol-3-OH kinase as a direct target of Ras, Nature 370, 527­532. 5. Vivanco, I., and Sawyers, C. L. (2002) The phosphatidylinositol 3-Kinase AKT pathway in human cancer, Nat. Rev. Cancer 2, 489­ 501.
+
+www.acschemicalbiology.org
+
+315
+
+23. Debreczeni, J. E., Bullock, A. N., Atilla, G. E., Williams, D. S., Bregman, H., Knapp, S., and Meggers, E. (2006) Ruthenium halfsandwich complexes bound to protein kinase Pim-1, Angew. Chem., Int. Ed. 45, 1580­1585. 24. Smalley, K. S., Contractor, R., Haass, N. K., Kulp, A. N., AtillaGokcumen, G. E., Williams, D. S., Bregman, H., Flaherty, K. T., Soengas, M. S., Meggers, E., and Herlyn, M. (2007) An organometallic protein kinase inhibitor pharmacologically activates p53 and induces apoptosis in human melanoma cells, Cancer Res. 67, 209­217. 25. Atilla-Gokcumen, G. E., Williams, D. S., Bregman, H., Pagano, N., and Meggers, E. (2006) Organometallic compounds with biological activity: a very selective and highly potent cellular inhibitor for glycogen synthase kinase 3, Chembiochem 7, 1443­1450. 26. Williams, D. S., Atilla, G. E., Bregman, H., Arzoumanian, A., Klein, P. S., and Meggers, E. (2005) Switching on a signaling pathway with an organoruthenium complex, Angew. Chem., Int. Ed. 44, 1984­ 1987. 27. Bregman, H., and Meggers, E. (2006) Ruthenium half-sandwich complexes as protein kinase inhibitors: an N-succinimidyl ester for rapid derivatizations of the cyclopentadienyl moiety, Org. Lett. 8, 5465­5468. 28. Walker, E. H., Pacold, M. E., Perisic, O., Stephens, L., Hawkins, P. T., Wymann, M. P., and Williams, R. L. (2000) Structural determinants of phosphoinositide 3-kinase inhibition by wortmannin, LY294002, quercetin, myricetin, and staurosporine, Mol. Cell 6, 909­919. 29. Camps, M., Ruckle, T., Ji, H., Ardissone, V., Rintelen, F., Shaw, J., Ferrandi, C., Chabert, C., Gillieron, C., Francon, B., Martin, T., Gretener, D., Perrin, D., Leroy, D., Vitte, P. A., Hirsch, E., Wymann, M. P., Cirillo, R., Schwarz, M. K., and Rommel, C. (2005) Blockade of PI3K suppresses joint inflammation and damage in mouse models of rheumatoid arthritis, Nat. Med. 11, 936­943. 30. Knight, Z. A., Gonzalez, B., Feldman, M. E., Zunder, E. R., Goldenberg, D. D., Williams, O., Loewith, R., Stokoe, D., Balla, A., Toth, B., Balla, T., Weiss, W. A., Williams, R. L., and Shokat, K. M. (2006) A pharmacological map of the PI3-K family defines a role for p110 in insulin signaling, Cell 125, 733­747. 31. Bregman, H., Williams, D. S., Atilla, G. E., Carroll, P. J., and Meggers, E. (2004) An organometallic inhibitor for glycogen synthase kinase 3, J. Am. Chem. Soc. 126, 13594­13595. 32. Meggers, E., Atilla-Gokcumen, G. E., Bregman, H., Maksimoska, J., Mulcahy, S. P., Pagano, N., and Williams, D. S. (2007) Exploring chemical space with organometallics: ruthenium complexes as protein kinase inhibitors, Synlett 8, 1177­1189. 33. Smalley, K. S., and Herlyn, M. (2005) Targeting intracellular signaling pathways as a novel strategy in melanoma therapeutics, Ann. N.Y. Acad. Sci. 1059, 16­25. 34. Stahl, J. M., Sharma, A., Cheung, M., Zimmerman, M., Cheng, J. Q., Bosenberg, M. W., Kester, M., Sandirasegarane, L., and Robertson, G. P. (2004) Deregulated Akt3 activity promotes development of malignant melanoma, Cancer Res. 64, 7002­7010. 35. Smalley, K. S., Haass, N. K., Brafford, P. A., Lioni, M., Flaherty, K. T., and Herlyn, M. (2006) Multiple signaling pathways must be targeted to overcome drug resistance in cell lines derived from melanoma metastases, Mol. Cancer Ther. 5, 1136­1144. 36. Huang, C. H., Mandelker, D., Schmidt-Kittler, O., Samuels, Y., Velculescu, V. E., Kinzler, K. W., Vogelstein, B., Gabelli, S. B., and Amzel, L. M. (2007) The structure of a human p110 /p85 complex elucidates the effects of oncogenic PI3K mutations, Science 318, 1744­1748. 37. Walker, E. H., Perisic, O., Ried, C., Stephens, L., and Williams, R. L. (1999) Structural insights into phosphoinositide 3-kinase catalysis and signalling, Nature 402, 313­320. 38. Collaborative Computational Project, Number 4 (1994) The CCP4 suite: programs for protein crystallography, Acta Crystallogr., Sect. D: Biol. Crystallogr. 50, 760­763.
+
+39. Vagin, A., and Teplyakov, A. (1997) MOLREP: an automated program for molecular replacement, J. Appl. Crystallogr. 30, 1022­ 1025. 40. Brunger, A. T., Adams, P. D., Clore, G. M., DeLano, W. L., Gros, P., Grosse-Kunstleve, R. W., Jiang, J. S., Kuszewski, J., Nilges, M., Pannu, N. S., Read, R. J., Rice, L. M., Simonson, T., and Warren, G. L. (1998) Crystallography & NMR system: A new software suite for macromolecular structure determination, Acta Crystallogr., Sect. D: Biol. Crystallogr. 54, 905­921. 41. Emsley, P., and Cowtan, K. (2004) Coot: model-building tools for molecular graphics, Acta Crystallogr., Sect. D: Biol. Crystallogr. 60, 2126­2132. 42. Jones, T. A., Zou, J. Y., Cowan, S. W., and Kjeldgaard, M. (1991) Improved methods for building protein models in electron density maps and the location of errors in these models, Acta Crystallogr., Sect. A: Found. Crystallogr. 47, 110­119. 43. Krissinel, E., and Henrick, K. (2004) Secondary-structure matching (SSM), a new tool for fast protein structure alignment in three dimensions, Acta Crystallogr., Sect. D: Biol. Crystallogr. 60, 2256­2268. 44. Smalley, K. S. M., Brafford, P., Haass, N. K., Brandner, J. M., Brown, E., and Herlyn, M. (2005) Up-regulated expression of zonula occludens protein-1 in human melanoma associates with N-cadherin and contributes to invasion and adhesion, Am. J. Pathol. 166, 1541­1554.
+
+316
+
+VOL.3 NO.5 · 305­316 · 2008
+
+XIE ET AL.
+
+www.acschemicalbiology.org
+
+

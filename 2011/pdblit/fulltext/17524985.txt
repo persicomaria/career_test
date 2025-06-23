@@ -1,0 +1,226 @@
+Computers in Biology and Medicine 37 (2007) 149 ­ 158 www.intl.elsevierhealth.com/journals/cobm
+
+A structural model for chorismate synthase from Mycobacterium tuberculosis in complex with coenzyme and substrate
+Cláudia Lemelle Fernandesa, b , Ardala Bredaa, c , Diógenes Santiago Santosd, e , Luiz Augusto Bassod , Osmar Norberto de Souzaa, c, d, e,
+a Laboratório de Bioinformática, Modelagem e Simulação de Biossistemas - LABIO, Faculdade de Informática, PUCRS, Brazil b Programa de Pós-Graduação em Ciências Biológicas - Bioquímica, UFRGS, Brazil c Programa de Pós-Graduação em Biologia Celular e Molecular, PUCRS, Brazil d Centro de Pesquisa em Biologia Molecular e Funcional, TECNOPUC, PUCRS, Brazil e Instituto de Pesquisas Biomédicas, PUCRS, Porto Alegre, RS, Brazil
+
+Abstract The enzymes of the shikimate pathway constitute an excellent target for the design of new antibacterial agents; chorismate synthase (CS) catalyzes the last step of this pathway. The prediction of Mycobacterium tuberculosis (MTB) CS three-dimensional structure and the geometric docking of the coenzyme FMN and the substrate EPSP were performed using the crystal structure of CS from Streptococcus pneumoniae as template. Energy minimization of the whole complex showed, as expected, that most of the template interactions are preserved in the MTB structure, except for HIS11, ARG139 and GLN255. However, novel interactions involving ARG111, GLY113 and SER317 were also observed. 2006 Elsevier Ltd. All rights reserved.
+Keywords: Shikimate pathway; Chorismate synthase; Molecular modeling; Energy minimization; Docking; Mycobacterium tuberculosis
+
+1. Introduction The shikimate pathway is the common way for the production of various products including folic acid, vitamin K, ubiquinone and the three aromatic amino acids, tryptophan, phenylalanine and tyrosine. In bacteria, fungi, plants and apicomplexan parasites, chorismate, the final product of the shikimate pathway, is the branch point in the biosynthesis for all these products that are essential for these species. The absence of the shikimate pathway in all other species makes it an attractive target for the development of new antibacterial agents [1,2]. Chorismate synthase (CS), the seventh and final step of the shikimate pathway, catalyzes the conversion of 5enolpyruvylshikimate 3-phosphate (EPSP) to chorismate in the presence of a reduced flavin mononucleotide (FMN) as a coenzyme [3]. The reaction mechanism of the shikimate pathway
+ Corresponding author.
+
+E-mail address: osmarns@inf.pucrs.br (Osmar Norberto de Souza). 0010-4825/$ - see front matter 2006 Elsevier Ltd. All rights reserved. doi:10.1016/j.compbiomed.2006.01.001
+
+has been studied extensively and revealed that the reaction of CS is unique in nature. The reaction involves a 1, 4 elimination of phosphate and the loss of a proton of the C-6 hydrogen. This consists in the formation of the second out of three necessary double bonds to build an aromatic ring (Fig. 1). The enzyme activity requires a reduced FMN molecule which is not consumed during the reaction [4]. The function of the reduced FMN in catalysis was extensively studied. The most accepted mechanism suggests a direct role of reduced FMN in the elimination reaction. FMN transfers the electron transiently to phosphate and the substrate donates an electron to regenerate the FMN. This reaction does not involve an overall change in the redox state [3,5]. Recently, with the first high-resolution X-ray structure of CS from Streptococcus pneumoniae (SPN) with the substrate and the coenzyme in the oxidized form [6], the structure of CS from Saccharomyces cerevisiae [7], and the structure of CS from Helicobacter pylori with the coenzyme in the reduced form [8], studies on the binding mode of substrate and coenzyme in the active site has been started.
+
+150
+
+C.L. Fernandes et al. / Computers in Biology and Medicine 37 (2007) 149 ­ 158
+
+How reduced FMN is obtained divides the CS into two classes, monofunctional and bifunctional. Bifunctional CS has an intrinsic ability to reduce flavin (specifically FMN) using NADPH. In monofunctional CS this catalytic activity is not present. The bifunctional enzyme is present in fungi and the monofunctional form in plants and bacteria [3].
+
+The active site of SPN CS is very hydrophilic and extremely basic, with six arginine and two histidine residues. The two histidines in the active site, HIS10 and HIS110, are present in both classes of CS and across all known species, being HIS10 part of a characteristic CS signature sequence [6]. HIS110 is involved in FMN binding while HIS10 protonates the
+
+COO
+
+H
+
+COO Chorismate Synthase FMNred HPO4
+2-
+
+1 3
+2-
+
+6 COO
+
+OPO3 OH
+
+O
+
+O OH
+
+COO
+
+Fig. 1. Reaction catalyzed by CS. The elimination of the 3-phosphate and the loss of a proton in C-6 introduce a second double bond in the ring.
+
+Fig. 2. CLUSTAL W pairwise sequence alignment between the target (MTB CS) and template (1QXO). The amino acid residues of the CS signatures (G-[DES]-S-H-[GC]-x(2)-[LIVM]-[GTIV]-x-[LIVT]-[LIV]-[DEST]-[GH]-x-[PV], [GE]-x(2)-S-[AG]-R-x-[ST]-x(3)-[VT]-x(2)-[GA]-[STAVY]-[LIVMF], R-[SHF]-D-[PSV]-[CSAVT]-x(4)-[SGAIVM]-x-[IVGSTAPM]-[LIVM]-x-E-[STAHNCG]-[LIVMA]) are underlined.
+
+C.L. Fernandes et al. / Computers in Biology and Medicine 37 (2007) 149 ­ 158
+
+151
+
+leaving phosphate group of EPSP. (The numbering of histidine residues corresponds to the alignment shown in Fig. 2; HIS10 and HIS110 match HIS17 and HIS106, respectively, in the SPN CS original sequence [9].) Site-directed mutagenesis studies indicated that mutation of HIS110 to an alanine reduces CS activity to 10%; and, in changing HIS10 to an alanine only 5% of the original activity can be observed, demonstrating the importance of these histidines in the CS reaction. These results are the same for both bifunctional and monofunctional CS enzymes [9]. The FMN coenzyme is deeply buried into the active site with EPSP blocking any possible exit. FMN makes one hydrogen bond to EPSP and a few polar interactions with the protein. On the other hand, EPSP makes several polar interactions and a few hydrophobic contacts with the protein [6]. Mycobacterium tuberculosis (MTB), the etiological agent of tuberculosis, is responsible for widespread human morbidity and mortality. The development of new effective chemotherapy should aid in the treatment and control of the disease. The World Health Organization (WHO) estimates that there were 8.8 million new cases of tuberculosis in 2002 and 4.4 million new cases in 2003. The global incidence rate of tuberculosis is growing at  1.1% per year and the number of cases at 2.4% per year. Through the years 1980­2004, a total of 81 million cases were reported to the WHO [10]. Sequencing of the MTB genome [11] has revealed a large number of individual enzymes potentially useful in drug design, including CS. Understanding the structure of MTB CS, together with its coenzyme and substrate binding modes, should facilitate the search for inhibitors of this enzyme as possible alternative agents to treat tuberculosis. In this work, we present three-dimensional (3D) structural models for CS from MTB and evaluate their interactions with the substrate EPSP and the coenzyme FMN by geometric docking and energy minimization studies. 2. Materials and methods The starting point of homology modeling is the identification of proteins in the protein data bank (PDB) [12] that are related to the target sequence and then select the templates. In this case, the structure prediction of CS from MTB was based on 3D structures for the homologous SPN CS protein (PDB ID: 1QXO), experimentally determined by X-ray diffraction at ° 2.0 A resolution [6]. Blastp [13] was used to search for templates. The next step is the multiple sequence alignment comparison. The objective of this alignment is to improve the sensitivity of the search and to find regions with high similarity. Possible templates and target sequences alignments were performed with CLUSTAL W [14] and required a small gap of four residues (insertions and/or deletions). The program MODELLER6v2 [15] was used to build the protein models, using the standard protocol of the comparative protein structure modeling methodology [16]. The best model of each enzyme was evaluated and selected according to their stereochemical quality analyzed with PROCHECK [17]. Val-
+
+idation of the models 3D profiles was performed with VERIFY 3D [18]. CS quaternary structure was built using other known CS structures [6­8,19], by structure fitting with SwissPdbViewer v3.7 [20]. The structures of EPSP and FMN were geometrically docked to the CS model of MTB using Swiss-PdbViewer v3.7 [20]. The topology of the CS-FMN-EPSP ternary complex, the FMN and EPSP charges and energy minimization, using the all-atom force field [21], were performed with the Leap, Antechamber and Sander modules, respectively, of AMBER 7 [22]. Hydrogen atom addition to the ligands and their optimization were performed with PRODRG2 server [23]. The ternary complex structure refinement (relaxation and optimization) was performed by two runs of energy mini° mization, each of 4000 steps, and a cutoff radius of 12 A for the evaluation of non-bonded interactions, with decreasing force restraints. In the first run the coenzyme and substrate molecules were constrained to their initial positions (called herein constrained model) whilst the enzyme was allowed to move. In the second run the enzyme, coenzyme and substrate were allowed to move by slowly decreasing the restraining force constant (called herein unrestrained model). Both minimized models have the N-terminal amino acid residue missing. All calculations were carried out on a 2.4 GHz Pentium IV PC. MTB CS structures (geometrically docked model, constrained and unrestrained models) were compared to the template by an evaluation of their root mean-square deviation (RMSD). Protein­ligand interactions were analyzed with LIGPLOT [24]. All protein figures were prepared with the PyMOL v0.98 graphics package [25]. 3. Results and discussion 3.1. Homology modeling CS is a protein of about 360­400 amino acid residues, except in apicomplexan parasites, where it has about 500 amino acids. It has a high degree of sequence conservation among species. The protein has three signature patterns (Fig. 2) from conserved regions rich in basic residues (mostly arginines) [26]. In the search for templates we found four candidates for modeling, CS of SPN (PDB ID: 1QX0) [6], Aquifex aeolicus (PDB ID: 1Q1L) [19], S. cerevisiae (PDB ID: 1R53) [7] and H. pylori (PDB ID: 1UMF) [8]. The CS from SPN was used as template to model the 3D structure of MTB CS. 1QX0 turned to be a very attractive template for its structure contained not only the enzyme, but the coenzyme FMN in the oxidized form and the EPSP substrate. In addition, as in MTB, CS from SPN is monofunctional. Fig. 2 shows a pairwise alignment between the target and template sequences, whose identity is over 40%, well above the 30% limit usually required for comparative protein structure modeling [16]. Ten models of the enzyme were built. They were evaluated by PROCHECK [17] and VERIFY 3D [18] in order to choose the best one. Out of 335 non-glycine and non-proline residues, 318 or 94.9% are located in the most favored regions of the Ramachandran plot, while for the SPN CS template this
+
+152
+180
+
+C.L. Fernandes et al. / Computers in Biology and Medicine 37 (2007) 149 ­ 158
+180 b 135 ~1 IIE 170 1 90 b ~b ~1 1 L a 0 -45 ALA 48
+~b
+
+~b
+b
+
+~b b
+
+135
+
+~b
+
+90
+
+Psi (degrees)
+
+a 0 A ~a -45
+
+Psi (degrees)
+
+45
+
+L
+
+45
+
+~a
+
+-90
+
+-90 -135 ~b b ~p p -135 -90 -45 0 45 90 ~b
+
+-135
+
+~p b p ~b 90 135 180
+
+-180
+
+-135
+
+-90
+
+-45
+
+0
+
+45
+
+-180
+
+135
+
+180
+
+(A)
+
+Phi (degrees)
+
+(B)
+
+Phi (degrees)
+
+Fig. 3. Ramachandran plot for the best model of MTB CS (A) and for the SPN CS template (B).
+
+Table 1 Ramachandran plot statistics for the best model of CS MTB and for the template
+Ramachandran plot statistics Model Template
+
+refined models (constrained and unrestrained) were 1.51, 1.57 ° and 1.58 A, respectively. Both the refined models and the geometrically docked model were analyzed regarding their interactions with FMN and EPSP.
+
+Residues in most favored regions [A,B,L] 318 94.9% 309 93.1% Residues in additional allowed regions [a,b,l,p] 15 4.5% 23 6.9% Residues in generously allowed regions 1 0.3% 0 0% [ a,  b,  l,  p] Residues in disallowed regions 1 0.3% 0 0% Number of non-glycine and non-proline residues 335 100.0% 332 100% Number of end-residues (excl. Gly and Pro) 1 2 Number of glycine residues (shown as triangles) 43 38 Number of proline residues 22 15 Total number of residues 401 387
+
+3.3. FMN interactions analysis FMN interactions were calculated with LIGPLOT [24] for each of the models generated: geometrically docked, constrained and unrestrained, and compared to those observed in SPN CS (Table 3 and Fig. 5B). Geometrically docked model: The interactions observed were similar to SPN, except one missing contact to GLN256 which in SPN corresponds to ASN251. The longer side chains of the nonconserved GLN256 and the conserved LYS315 are too close to FMN and thus need a conformational change to be properly accommodated. However, GLN256 makes an H bond with the FMN phosphate. LYS315 in MTB made an H bond with O3 in the aliphatic portion of FMN which was not present in SPN. All H bonds to FMN in SPN are also present in MTB, including the H bond with EPSP. Although this model presented some extra hydrophobic contacts, ILE255, ALA314 and ALA349, and one missing contact due to amino acid substitution, PRO314 in SPN corresponds to SER317 in MTB. Comparatively, MTB has more hydrophobic contacts (six) then the SPN (four). Constrained model: There was no change in the hydrophobic contacts involving amino acids ALA137, MET313, ILE316, ALA345 and ALA348. Hydrogen bonding to ALA256 and HIS114 as well as to EPSP did not change. LYS314 overlap with FMN was removed while keeping its H bonding intact. THR318 which had only one H bond to FMN, now has two extra H bonds. A new H bond is observed with amino acid GLY113, which had not been seen even in SPN; this residue is not part of CS signature, and is in a coil region at the active
+
+value is 93.1% (Figs. 3A and B, and Table 1). The root mean square (RMS) of planar atoms from best-fit plane are less than 0.02 for rings and 0.01 otherwise. The PROCHECK results are given in Table 2. The best model of MTB CS is illustrated in Fig. 4. These results attest to the quality of the MTB CS model as good and appropriate for docking studies. 3.2. Docking studies The coenzyme FMN and the EPSP substrate were geometrically docked into the active site of MTB CS. Based on the assumption that the binding is similar to SPN, we were able to geometrically place FMN and EPSP in their respective binding sites [6] and minimize the complex under two different conditions, thus producing the constrained and unrestrained models, as describe in the methods section. The backbone RMSD between the template, the geometrically docked model, and the
+
+C.L. Fernandes et al. / Computers in Biology and Medicine 37 (2007) 149 ­ 158
+Table 2 ° Quality of main-chain and side-chain parameters of modeled MTB CS. The model is verified at 2.0 A resolution
+Comparison values Stereochemical parameters Number of data pts Parameter value Typical value Band width
+
+153
+
+Number of bandwidths from mean
+
+Stereochemistry of main-chain %-tage residues in A, B, L Omega angle st. dev. Bad contacts 100 residues Zeta angle st. dev. H-bond energy st. dev. Overall G-factor Stereochemistry of side-chain Chi-1 gauche minus st. dev. Chi-1 trans st. dev. Chi-1 gauche plus st. dev. Chi-1 pooled st. dev. Chi-2 trans st. dev.
+
+335 400 3 358 238 401 56 89 121 266 72
+
+94.9 3.8 0.7 1.3 0.7 0.0 5.1 9.1 6.2 7.0 11.8
+
+83.8 6.0 4.2 3.1 0.8 -0.4 18.1 19.0 17.5 18.2 20.4
+
+10.0 3.0 10.0 1.6 0.2 0.3 6.5 5.3 4.9 4.8 5.0
+
+1.1 -0.7 -0.3 -1.1 -0.5 1.2 -2.0 -1.9 -2.3 -2.3 -1.7
+
+Table 3 Protein­coenzyme (CS­FMN) interactions observed in each of the MTB models and SPN
+Amino acids EPSP GLY HIS ALA ILE GLN/ASN ALA MET LYS ILE SER/PRO THR ALA ALA Number of interactions SPN Geometrically docked 403 -- 115 138 255 GLN256a 257 314 315a 317 -- 319 346 349 6/6a Constrained Unrestrained
+
+Fig. 4. Ribbon representation of MTB CS 3D structure. The structure contains 9 -helices and 15 -strands in a - - secondary structure arrangement, an uncommon architecture. The -helices are shown in light gray and the strands in black. Ligands are represented as spheres; EPSP in black and FMN in gray.
+
+4001 -- 110 133 -- ASN251 (2) 252 -- 311 313 PRO314 315 (2) 342 -- 7/4
+
+402 113 114 137 -- GLN255 256 313 314 316 SER317 318 (3) 345 348 9/6
+
+402 113 114 137 -- GLN255 256 313 314 (2) 316 SER317 318 (2) 345 -- 9/5
+
+site. GLN255 no longer overlaps with FMN, but lost its only H bond. Indeed, now this residue makes only a hydrophobic contact with FMN. Unrestrained model: The best model for CS­FMN interactions was the unrestrained, which reproduces very well the interactions observed at SPN CS. All H bonds previously observed are present in this model, except for changes at LYS314, with an extra H bond, and for a loss of one of the THR318 H bonds. The hydrophobic contact at ALA348 observed in the constrained model is lost, however it was also not observed in SPN (Fig. 5A). 3.4. EPSP interactions analysis Substrate­protein interactions were calculated with LIGPLOT [24] for each of the models generated: geometrically docked, constrained and unrestrained, and compared to those observed in SPN CS, as done for FMN (Table 4 and Fig. 6B).
+
+The first column indicates the ligand and amino acids involved in the interactions while the others indicate amino acid position. Residues GLN/ASN and SER/PRO are the only differences observed in the active site. Residues involved in H bond interactions and hydrophobic contacts are in italics and bold, respectively. Numbers in brackets correspond to the number of interactions made by the residue when different from 1. a Residues overlapped with FMN atoms.
+
+Geometrically docked model: The H bonds to EPSP in MTB CS are also very similar to those found in SPN. Three H bonds, involving amino acids HIS11, ARG49 and ARG139 were missing (HIS10, ARG48 and ARG134 in SPN), although ARG49 now makes a hydrophobic contact to EPSP. Furthermore, while ARG45 makes three H bonds to EPSP in SPN, in MTB ARG46 makes only one H bond. ARG40 changed from two to three H bonds, and ALA138 interaction remains the same. No hydrophobic contacts were observed in SPN while there are two in MTB, ARG49 (H bond interaction in SPN) and MET50.
+
+154
+
+C.L. Fernandes et al. / Computers in Biology and Medicine 37 (2007) 149 ­ 158
+
+Fig. 5. LIGPLOT representation of FMN binding pattern to MTB CS (A) and for the SPN CS template (B). Dotted lines represent the hydrogen bonds and the half circles the hydrophobic contacts.
+
+C.L. Fernandes et al. / Computers in Biology and Medicine 37 (2007) 149 ­ 158
+Table 4 Protein­substrate (CS­EPSP) interactions observed in each of the MTB models and SPN
+Amino acids FMN HIS ARG ARG ARG MET ARG SER ALA ARG Number of interactions SPN Geometrically docked 402 -- 40 (3) 46 49 50 -- -- 138 -- 6/2 Constrained Unrestrained
+
+155
+
+(Fig. 7I). Another key element that has correspondence in the MTB model is the interface formed by the extension of sheets from each monomer, bridging them through hydrogen bonds [6] (Fig. 7II). 4. Conclusions We have obtained a 3D structural model of MTB CS based on the crystal structure of an orthologous enzyme from SPN. In addition, we modeled the interactions of the coenzyme FMN and the EPSP substrate with the enzyme using a simple, geometric docking approach. After docking studies we performed refinement with energy minimization using two different protocols. The minimized structures showed improvements when compared to the geometrically docked one; amino acids that were overlapping with FMN were then better accommodated in the active site, thus rescuing an interaction between SER317 (PRO314 in SPN CS) and FMN. Another residue exchange occurs at GLN255 (ASN251 in SPN CS). Although two hydrogen bonds are lost, the overall number of H bonds is greater than in the SPN CS. The major difference in protein­substrate, CS­EPSP, interactions was the loss of HIS11 H bond, an interaction not seen in any of the models. This could be due to the fact that HIS11 is involved in neutralizing the departing phosphate group from ESPS by proton donation one step after FMN binding [6]. The FMN used in our studies is in the oxidized form, different from the redox state necessary for the reaction to take place. This may be the reason why the interaction was not observed here. Another possibility is that the phosphate portion to which HIS11 H bonds is very different from its crystallographic con° formation (1.2 A). Another important interaction that has been lost, that of ARG139 to the pyruvyl portion, could also be a consequence of conformational changes to ESPS after refinement. The pyruvyl portion where this interaction takes place moved during min° imization (1.7 and 1.4 A for the constrained and unrestrained models), thus placing its atoms far from the active site ARG139. Despite the differences reported here, MTB CS interactions with its coenzyme and substrate, best revealed by the unrestrained model, reproduces well the interaction patterns observed in the SPN CS template. This should be expected, to a certain degree, for CS have very similar physico-chemical properties (3) and, additionally, in the study reported here, both enzymes are monofunctional. Hence, we do not expect the activity or the catalytic cycle of MTB CS to be very different from that of SPN CS. Future work will consider molecular dynamics and docking simulations with the reduced FMN to further investigate MTB CS­FMN­EPSP interactions so as to improve our understanding about these interactions. Understanding the structure of MTB CS, together with its coenzyme and substrate binding modes, should provide ligand, as well as receptor-based pharmacophoric models to be used in high throughput virtual screening of small-molecule public libraries in order to accelerate the search for inhibitors of this enzyme as alternative agents to treat tuberculosis.
+
+5001 10 39 (2) 45 (3) 48 -- -- -- 133 134 9/0
+
+401 -- 39 (3) 45 -- -- -- -- 137 -- 6/0
+
+401 -- 39 (2) 45 -- -- 111 136 137 -- 6/1
+
+The first column indicates the ligand and amino acids involved in the interactions while the others indicate amino acid position. Residues involved in H bonds interactions and hydrophobic contacts are in italic and bold, respectively. Numbers in brackets correspond to the number of interactions made by the residue when different from 1.
+
+Constrained model: All H bonds to amino acids ARG39, ARG45 and ALA137 were preserved. However, two hydrophobic contacts observed previously were missing. Unrestrained model: The best model for CS­EPSP interactions was again the unrestrained; which reproduces very well the interactions observed in the SPN CS template. Differently from the constrained model, there are only two H bonds to ARG39, as observed in SPN CS. H bonds to ARG45 and ALA137 are maintained while a new H bond interaction is observed to the amino acid ARG111. This interaction was not seen in SPN CS; this residue is not part of the signature region as seen before for the FMN interaction to GLY113, which is also in a coil region at the active site. In addition, one new hydrophobic contact was observed at SER136, a coil residue in active site and part of the second signature region (Fig. 6). Evaluating structural differences of FMN and EPSP of each model with respect to the crystal structure, it can be observed that energy minimization of FMN did not alter its structure significantly; the ring portion of the unrestrained model is only slightly different. The EPSP structure, however, shows conformational changes after energy minimization. ° Its phosphate portion moved 1.2 A away from the crystallographic structure, which could explain the missing interactions to HIS11. 3.5. Quaternary structure The quaternary structure of MTB CS (Fig. 7) was built using other known CS structures by structure fitting with Swiss-PdbViewer v3.7 [20]. As expected, the major subunit contacts that are involved in structure stabilization are very similar to those observed in SPN CS. The main feature of CS subunit interface stabilization is a sandwich formed by adjacent antiparallel sheets from two adjacent subunits
+
+156
+
+C.L. Fernandes et al. / Computers in Biology and Medicine 37 (2007) 149 ­ 158
+
+Fig. 6. LIGPLOT representation of EPSP (Eps) binding pattern to MTB CS (A) and for the SPN CS template (B). Dotted lines represent the hydrogen bonds and the half circles the hydrophobic contacts.
+
+5. Summary The enzymes of the shikimate pathway constitute an excellent target for the design of new antibacterial agents. This path-
+
+way is found in bacteria, fungi, plants and apicomplexan parasites but is absent in mammals. CS catalyzes the last step of this pathway, the product of which is utilized in other enzymatic transformations like the biosynthesis of aromatic amino
+
+C.L. Fernandes et al. / Computers in Biology and Medicine 37 (2007) 149 ­ 158
+
+157
+
+Acknowledgments This project was supported by grants from CAPES and FAPERGS to O.N.S. and FINEP and Millennium Institute (CNPq/MCT) to D.S.S. and L.A.B.; C.L.F. and A.B., we are supported by MSc scholarships from CAPES. We also thank the referees for their valuable suggestions.
+
+References
+[1] R. Bentley, The shikimate pathway--a metabolic tree with many branches, Crit. Rev. Biochem. Mol. Biol. 25 (5) (1990) 307­384. [2] F. Roberts, C.W. Roberts, J.J. Johnson, D.E. Kyle, T. Krell, J. Coggins, G.H. Coombs, W.K. Milhous, S. Tzipori, D.J.P. Ferguson, D. Chakrabarti, R. McLeod, Evidence for the shikimate pathway in apicomplexan parasites, Nature 393 (1998) 801­805. [3] P. Macheroux, J. Schmid, N. Amrhein, A. Schaller, A unique reaction in a common pathway: mechanism and function of chorismate synthase in the shikimate pathway, Planta 207 (1999) 325­334. [4] P. Macheroux, S. Bornemann, S. Ghisla, R.N.F. Thorneley, Studies with flavin analogs provide evidence that a protonated reduced FMN is the substrate-induced transient intermediate in the reaction of Escherichia coli chorismate synthase, J. Biol. Chem. 271 (42) (1996) 25850­25858. [5] S. Bornemann, D.J. Lowe, R.N.F. Thorneley, The transient kinetics of Escherichia coli chorismate synthase: substrate consumption, product formation, phosphate dissociation, and characterization of a flavin intermediate, Biochemistry 35 (30) (1996) 9907­9916. [6] J. MaClean, S. Ali, The structure of chorismate synthase reveals a novel flavin binding site fundamental to a unique chemical reaction, Structure 11 (2003) 1499­1511. [7] S. Quevillon-Cheruel, N. Leulliot, P. Meyer, M. Graille, M. Bremang, K. Blondeau, I. Sorel, A. Poupon, J. Janin, H. van Tilbeurgh, Crystal structure of the bifunctional chorismate synthase from Saccharomyces cerevisiae, J. Biol. Chem. 279 (1) (2004) 619­625. [8] H.J. Ahn, H.-J. Yoon, B.I. Lee, S.W. Suh, Crystal structure of chorismate synthase: a novel FMN-binding protein fold and funcional insights, J. Mol. Biol. 336 (2004) 903­915. [9] K. Kitzing, S. Auweter, N. Amrhein, P. Macheroux, Mechanism of chorismate synthase. Role of the two invariant histidine residues in the active site, J. Biol. Chem. 10 (2004) 9451­9461. [10] World Health Organization, USA, Global Tuberculosis Control Report 2004, http://www.who.int/tb/publications/2005/en/index.html . [11] S.T. Cole, R. Brosch, J. Parkhill, T. Garnier, C. Churcher, D. Harris, S.V. Gordon, K. Eiglmeier, S. Gas, C.E. Barry, F. Tekaia, K. Badcock, D. Basham, D. Brown, T. Chillingworth, R. Connor, R. Davies, K. Devlin, T. Feltwell, S. Gentles, N. Hamlin, S. Holroyd, T. Hornsby, K. Jagels, A. Krogh, J. McLean, S. Moule, L. Murphy, K. Oliver, J. Osborne, M.A. Quail, M.-A. Rajandream, J. Rogers, S. Rutter, K. Seeger, J. Skelton, R. Squares, S. Squares, J.E. Sulston, K. Taylor, S. Whitehead, B.G. Barrell, Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence, Nature 393 (1998) 537­544. [12] H.M. Berman, J. Westbrook, Z. Feng, G. Gilliland, T.N. Bhat, H. Weissig, I.N. Shindyalov, P.E. Bourne, The protein data bank, Nucleic Acids Res. 28 (2000) 235­242. [13] S.F. Altschul, T.L. Madden, A.A. Schäffer, J. Zhang, Z. Zhang, W. Miller, D.J. Lipman, Gapped BLAST and PSIBLAST: a new generation of protein database search programs, Nucleic Acids Res. 25 (1997) 3389­3402. [14] J.D. Thompson, D.G. Higgins, T.J. Gibson, CLUSTAL W: improving the sensitivity of progressive multiple sequence alignment through sequence weighting, position-specific gap penalties and weight matrix choice, Nucleic Acids Res. 22 (22) (1994) 4673­4680. [15] A. Sali, T.L. Blundell, Comparative protein modelling by satisfaction of spatial restraints, J. Mol. Biol. 234 (3) (1993) 779­815.
+
+Fig. 7. The tetrameric conformation of MTB CS quaternary structure represented as ribbons. The arrow is pointing towards the FMN coenzyme and the EPSP substrate, both represented as spheres, in the active site of each subunit. I: the sandwich interactions. II: the sheet that bridges two subunits, fundamental to holding them together.
+
+acids, folate, vitamin K and ubiquinone. This reaction is the most unusual of the entire pathway and is unique in nature. It converts EPSP to chorismate in the presence of a reduced FMN coenzyme. Structure prediction used the comparative protein structure modeling methodology. The 3D structure prediction of the enzyme was performed using the crystal structure (PDB ID: 1QX0) of CS from SPN as template ( 42% identity), and the MODELLER6v2 package. Additionally, in order to understand the possible binding modes of coenzyme and substrate to the enzyme, FMN and EPSP, respectively, were geometrically docked to CS. Three different MTB CS models were produced and analyzed. The starting homology model indicated that the quality of the MTB CS structure is good enough and appropriate for docking studies. Despite its quality this initial model had some overlapping atoms between CS (GLN256 and LYS315) and FMN, hence further energy minimizations were performed to allow ligand and enzyme to relax in order to obtain a binding pattern as close as possible to that of SPN CS. Therefore, two minimized models were generated under different restraining (constrained and unrestrained) conditions, both showing structural improvements, such as amino acids rearrangements, that removed the overlapping. The unrestrained model turned to be best one, since it not only reproduced in MTB CS the binding pattern of FMN and EPSP observed in the template SPN CS, but also revealed novel interactions in the MTB ternary complex. This knowledge should facilitate the search for inhibitors of this enzyme as alternative agents to treat tuberculosis.
+
+158
+
+C.L. Fernandes et al. / Computers in Biology and Medicine 37 (2007) 149 ­ 158 [22] D.A. Case, D.A. Pearlman, J.W. Caldwell, T.E. Cheatham III, J. Wang, W.S. Ross, C.L. Simmerling, T.A. Darden, K.M. Merz, R.V. Stanton, A.L. Cheng, J.J. Vincent, M. Crowley, V. Tsui, H. Gohlke, R.J. Radmer, Y. Duan, J. Pitera, I. Massova, G.L. Seibel, U.C. Singh, P.K. Weiner, P.A. Kollman, AMBER 7, University of California, San Francisco, 2002. [23] A.W. Schuettelkopf, D.M.F. van Aalten, PRODRG--a tool for high-throughput crystallography of protein­ligand complexes, Acta Crystallogr. D60 (2004) 1355­1363. [24] A.C. Wallace, R.A. Laskowski, J.M. Thornton, LIGPLOT: a program to generate schematic diagrams of protein­ligand interactions, Protein Eng. Des. Sel. 8 (1995) 127­134. [25] W.L. DeLano, The PyMOL Molecular Graphics System, DeLano Scientific, San Carlos CA USA, 2002 http://www.pymol.org . [26] N. Hulo, C.J.A. Sigrist, V. Le Saux, P.S. Langendijk-Genevaux, L. Bordoli, A. Gattiker, E. De Castro, P. Bucher, A. Bairoch, Recent improvements to the PROSITE database, Nucleic Acids Res. 32 (2004) D134­D137.
+
+[16] M.A. Martí-Renom, A.C. Stuart, A. Fiser, R. Sánchez, F. Melo, A. Sali, Comparative protein structure modeling of genes and genomes, Annu. Rev. Biophys. Biomol. Struct. 29 (2000) 291­325. [17] R.A. Laskowski, M.W. MacArthur, D.S. Moss, J.M. Thornton, PROCHECK: a program to check the stereochemical quality of protein structures, J. Appl. Cryst. 26 (1993) 283­291. [18] R. Lüthy, J.U. Bowie, D. Eisenberg, Assessment of protein models with three-dimensional profiles, Nature 356 (1992) 83­85. [19] C.M. Viola, V. Saridakis, D. Christendat, Crystal structure of chorismate synthase from aquifex aeolicus reveals a novel beta alpha beta sandwich topology, Proteins 54 (1) (2004) 166­169. [20] N. Guex, M.C. Peitsch, SWISS-MODEL and The Swiss-PdbViewer: an environment for comparative protein modeling, Electrophoresis 18 (1997) 2714­2723. [21] W.D. Cornell, P. Cieplak, C.I. Bayly, I.R. Gould, K.M. Merz Jr., D.M. Ferguson, D.C. Spellmeyer, T. Fox, J.W. Caldwell, P.A. Kollman, A second generation force field for the simulation of proteins. Nucleic acids, and organic molecules, J. Am. Chem. Soc. 117 (1995) 5179­5197.
+
+

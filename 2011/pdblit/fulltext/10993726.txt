@@ -1,0 +1,172 @@
+Biochimica et Biophysica Acta 1478 (2000) 113^124
+www.elsevier.com/locate/bba
+
+Mechanisms for the enhanced thermal stability of a mutant of transcription factor 1 as explained by 1 H, 15N and 13C NMR chemical shifts and secondary structure analysis
+Hai M. Vu a , Weidong Liu a , Anne Grove b , E. Peter Geiduschek c , David R. Kearns aY *
+c
+
+Department of Chemistry and Biochemistry, University of California at San Diego, La Jolla, CA 92093, USA b Department of Biological Sciences, Louisiana State University, Baton Rouge, LA 70803, USA Department of Biology and Center for Molecular Genetics, University of California at San Diego, La Jolla, CA 92093, USA Received 4 October 1999; received in revised form 9 December 1999; accepted 9 December 1999
+
+a
+
+Abstract A variant of the bacteriophage SPO1-encoded transcription factor 1 (TF1) with two site-specific mutations (E15G and T32I) was shown to be more thermally stable and bind DNA more tightly compared to the wild-type protein. In order to understand the biochemical mechanisms underlying these properties, we are engaged in determining the solution structures of this mutant alone and in complex with DNA using nuclear magnetic resonance (NMR) spectroscopy. The first phase of this project is reported here, as we have completed most of the backbone and sidechain sequential NMR assignments of the mutant protein, TF1-G15/I32. Insights derived from the 1 H, 15 N and 13 C chemical shifts and from the secondary structure analysis provide us with an explanation for the noted increase in thermal stability of TF1-G15/I32. Compared to the structure of the wild-type protein, the L-sheet and the C-terminal helix remain largely unaffected whereas the mutations cause great changes in the first two helices and their enclosed loop. Specifically, we have found that the second helix is extended by one residue at its N-terminus and rotated in a way that allows Ala-37 to interact with Tyr-94 of the C-terminal helix. The loop has been found to become more rigid as a result of hydrophobic interactions between the flanking second and first helices and also between the second helix and the loop itself. Furthermore, the T32I mutation allows tighter packing between the second helix and the L-sheet. Collectively, these changes contribute to a more tightly associated dimer and hence, to a greater thermal stability. ß 2000 Elsevier Science B.V. All rights reserved.
+Keywords: Nuclear magnetic resonance; Transcription factor 1; Protein-DNA interaction
+
+Abbreviations: TF1, transcription factor 1; TF1-G15/I32, an E15G and T32I double mutant of TF1; TSP, 3-(trimethylsilyl)propionic2,2,3,3-d4 acid; NOE, nuclear Overhauser e¡ect; NOESY, nuclear Overhauser e¡ect spectroscopy; TOCSY, total correlation spectroscopy; DQF-COSY, double-quantum-¢ltered correlation spectroscopy; HMQC, heteronuclear multiple-quantum correlation spectroscopy; HSQC, heteronuclear single-quantum correlation spectroscopy; HNCACB, CBCA(CO)NH and HCCH-TOCSY denote 3D NMR experiments * Corresponding author. Fax: +1 (619) 534-0202; E-mail: drk@chem.ucsd.edu 0167-4838 / 00 / $ ^ see front matter ß 2000 Elsevier Science B.V. All rights reserved. PII: S 0 1 6 7 - 4 8 3 8 ( 9 9 ) 0 0 2 5 2 - 6
+
+114
+
+H.M. Vu et al. / Biochimica et Biophysica Acta 1478 (2000) 113^124
+
+1. Introduction Transcription factor 1 (TF1) is the Bacillus subtilis bacteriophage SPO1-encoded type II DNA binding protein (DBPII). Discovered originally as a selective inhibitor of phage transcription [1] and subsequently shown to be essential for viral multiplication [2], TF1 is a basic protein, a homodimer of 99 amino acid monomers [3]. The TF1 dimer binds preferentially and cooperatively to SPO1 DNA, which contains 5-hydroxymethyluracil (hmU) in place of thymine [4,5]. DNA containing 5-hmU is sequence-speci¢cally more £exible than its thymine counterpart [6], and it is this localized, sequence-dependent £exibility of hmU-DNA that provides selectivity for TF1 [7,8]. Upon binding, TF1 sharply bends DNA [9^11], a feature seen in other members of the DBPII family [12^14]. The solution structure of TF1 has been reported [15]. Scanning that structure from the N-terminus, each monomer comprises two K-helices (residues 1^ 13 and 21^40) separated by a turn (residues 14^20), a three-stranded L-sheet (residues 41^82) and a C-terminal helix (residues 83^99). Dimerization is maintained by hydrophobic interactions between the Vshaped N-terminal helices and the L-sheets. The second and third L-strands extend as a L-ribbon (residues 52^77) that binds DNA. The L-ribbon arm and the C-terminal helix are responsible for speci¢c binding of TF1 to hmU-DNA with the latter suggested to carry an additional function: dimer-dimer interactions of DNA-bound TF1 that lead to cooperativity in protein-DNA binding [15,16]. An interesting double mutant of TF1 (TF1-G15/ I32) has been constructed [16,17]. In this protein, Glu-15 in the ¢rst loop and Thr-32 at the distal end of the second helix are changed to glycine (E15G) and isoleucine (T32I), respectively. These mutations, far away from the DNA binding domains, cause TF1-G15/I32 to: (i) bind DNA 40 times more tightly, (ii) denature at 21³C higher temperature and (iii) reduce the monomer exchange rate by an order of magnitude [16], relative to the wild-type protein. To understand these changes, we are engaged in determining the solution structure of TF1G15/I32 using nuclear magnetic resonance (NMR) techniques. The ¢rst step toward a solution structure of a molecule is to assign chemical shifts to its atoms.
+
+Several selectively deuterated samples of the wildtype TF1 had to be generated for its 1 H and 15 N resonance assignments [18]. In this study, we have used conventional double and triple resonance NMR experiments on only two samples (a fully protonated, non-labeled sample and a uniformly 15 N-, 13 C-labeled sample) to achieve essentially complete 1 H, 15 N and 13 C resonance assignments of TF1G15/I32. These data, which will be further utilized to obtain a high-resolution structure, yield information about the secondary structures of the mutant protein and we report here a comparative analysis of these domains against their wild-type counterparts as an initial attempt to understand how the E15G and T32I substitutions could have given rise to such altered physical properties. 2. Materials and methods 2.1. Biosynthesis of TF1-G15/I32 The methods for overexpression and puri¢cation of unlabeled TF1-G15/I32 are similar to those used for wild-type TF1 [7,18]. Final conditions for NMR studies were: 2 mM TF1-G15/I32 dimer, 400 mM NaCl, 100 mM Na2 HPO4 adjusted to pH 6.7, 1 mM NaN3 , 0.5 mM 3-(trimethylsilyl)propionic2,2,3,3-d4 acid (TSP), 2 WM aprotinin, 90% H2 O, 10% D2 O in 600 Wl volume. For the overproduction of 15 N-, 13 C-doubly labeled protein, cells were grown in a minimal medium supplemented with amino acids and nucleic acids. At the time of induction, cells were spun down and resuspended in an expression solution that contained 15 NH4 Cl and 15 N-, 13 C-uniformly labeled amino acid mixture (Cambridge Isotope Labs). Eight liters of growth medium was used with 1 g of labeled amino acids and 2 g 15 NH4 Cl to yield V30 mg of uniformly labeled TF1-G15/I32. 2.2. NMR spectroscopy Data were acquired at 35³C on a Bruker DRX-600 spectrometer with a 5 mm inverse, triple resonance probe equipped with XYZ gradient coils (Bruker). Two-dimensional (2D) total correlation spectroscopy (TOCSY) [19] was run with spin-lock mixing times of 40, 50 and 75 ms. The water signal was suppressed
+
+H.M. Vu et al. / Biochimica et Biophysica Acta 1478 (2000) 113^124
+
+115
+
+by using the 3-9-19 pulse sequence with gradients [20]. 2D nuclear Overhauser e¡ect spectroscopy (NOESY) experiments [21,22] were obtained with 30, 100 and 150 ms mixing times. A double-quantum-¢ltered correlation spectroscopy (DQF-COSY) experiment [23] was also carried out using a gradient ratio of 1:2 for selection of double-quantum coherence. All spectra were acquired with 2048 complex points in t2 (4096 for DQF-COSY) and 512 complex points in the t1 dimension (971 for DQF-COSY). A 2D 1 H13 C heteronuclear multiple-quantum correlation spectroscopy (HMQC) experiment [24] was run with a gradient ratio of 17:20:25 to select 1 H-13 C peaks. The time domain matrix contained 2048U1024 (t2 Ut1 ) complex points. A 2D 1 H-15 N heteronuclear single-quantum correlation spectroscopy (HSQC) [25] spectrum was acquired with 2048 complex points in t2 and 256 in t1 dimension. A three-dimensional (3D) 1 H-15 N NOESY-HSQC spectrum [26] was acquired with a mixing time of 150 ms. Parameters in this experiment were similar to those in 2D NOESY and 2D HSQC experiments described above. The time domain matrix for 1 H, 15 N and 1 H was 1024 (t1 )U128 (t2 )U256 (t3 ), respectively. A HNCACB experiment [27] was run with 512, 40 and 50 complex points for 1 H (t3 ), 15 N (t2 ) and 13 C (t1 ), respectively. Thirty-two scans per FID were collected for a total of 5 days using the StatesTPPI method in t1 and echo/anti-echo-TPPI gradient selection in t2 . A CBCA(CO)NH [28] and an HCCHTOCSY [29] experiment were run for 3.5 days each to obtain respectively, matrices of 512U32U60 and 512U32U128 complex points. Data were processed with XWIN-NMR 1.3 (Bruker) and Felix 97.0 (Biosym Technologies). 1 H chemical shifts are reported down¢eld from internal TSP. The 15 N and 13 C chemical shifts were calibrated with QN /QH = 0.10132900 and QC /QH = 0.25144954 [30]. Secondary structures were predicted with the CSI program [31]. 3. Results As the ¢rst attempt to assign chemical shifts for TF1-G15/I32, we utilized 2D homonuclear experiments (DQF-COSY, TOCSY and NOESY) to identify spin systems and their sequential connection [32]. With this approach, only about 50% of the backbone
+
+was unambiguously assigned, as would be expected for a protein this size. Further assignments of the backbone and sidechains had to rely on information obtained from a number of 2D and 3D heteronuclear experiments on a uniformly 15 N-, 13 C-labeled sample. While numerous pulse sequences have been written [33,34] to determine chemical shifts of proteins of increasing sizes, we found that a combination of HNCACB, CBCA(CO)NH, HCCH-TOCSY, 1 H15 N HSQC, 1 H-13 C HMQC and 15 N-edited NOESY-HSQC experiments were adequate to ¢nish the 1 H, 15 N and 13 C assignments for the backbone and most of the aliphatic sidechains of the 99 residue TF1-G15/I32. 3.1. Chemical shifts and secondary structures Fig. 1 shows the ¢ngerprint region of TF1-G15/I32 from a DQF-COSY spectrum. It is well documented that K- and amide proton chemical shifts change signi¢cantly upon secondary structure formation [35]. Thus, the numbers of residues in the helical, L-strands and coil regions are proportional to the numbers of non-glycine resonances found between 3.40^ 4.10 ppm, 4.85^5.90 ppm and 8.20^9.00 ppm, respectively [35]. Application of this empirical approach to Fig. 1 yields 43% of K-helices, 26% of L-strands and 30% of coil conformations. For comparison, the NMR solution structure of wild-type TF1 [15] contains 49% helix, 23% L-sheet and 28% of loops and turns. The high helical content of TF1-G15/I32 is also re£ected in a rather poor dispersion of the amide proton chemical shifts [36] in a 1 H-15 N HSQC spectrum (Fig. 2) which shows all 94 expected cross peaks (99 amino acids less one N-terminal and four proline residues). In general, their positions relative to each other in this spectrum were similar to those reported for the wild-type protein [18]. However, signi¢cant shifts of peaks surrounding the mutated amino acids were observed, more so for the E15G than for the T32I substitutions (Table 1). Additional spin systems were unequivocally identi¢ed by slices taken from a 3D HCCH-TOCSY experiment. Shown in Fig. 3 are two such 1 H (F3)-1 H (F1) slices at carbon chemical shifts of 57 þ 0.5 ppm (A) and 65 þ 0.5 ppm (B), which illustrate nicely the correlations from the K-protons to the end of the sidechains for residues Ile-7, Val-19 and Val-36 (B) and for the AMX spin
+
+116
+
+H.M. Vu et al. / Biochimica et Biophysica Acta 1478 (2000) 113^124
+
+Fig. 1. The ¢ngerprint region taken from a DQF-COSY spectrum of TF1-G15/I32 which shows through-bond correlations between intraresidual amide and K-protons.
+
+systems of Asp-13, Phe-47, Phe-61 and Phe-97, from the K-protons to the L-protons (A). Also shown in Fig. 3A are some of the observable sidechain protons of Leu-85, Lys-87 and Lys-99. Sequential assignments were initially made on the basis of NOEs observed in 2D NOESY and 3D 15 Nedited NOESY-HSQC spectra, which were subsequently con¢rmed by the HNCACB and CBCA(CO)NH spectra. Fig. 4 displays NOEs in the NH region taken from a 2D NOESY spectrum at 150 ms mixing time. The dNN(i, i+1) NOEs (NOEs between the amide protons of residues i and i+1) were consecutively traced for residues 20^32 and 85^92. These NOEs and other connectivities are schematically drawn in Fig. 5, which shows signature NOEs for K-helices (strong dNN(i, i+1), weak dNN(i, i+2), weak to medium dKN(i, i+1), and weak dKN(i, i+3), dKL(i, i+3) [32]) from residues 3^13, 20^40
+
+Table 1 Amide proton and nitrogen chemical shifts of residues around the sites of amino acid substitution in TF1-G15/I32a Residue # 13 14 15b 16 17 30 31 32b 33 34 Wild-type TF1
+1
+
+Mutant TF1-G15/I32
+1
+
+H/ N (ppm)
+
+15
+
+H/15 N (ppm)
+
+7.86/121.48 8.02/123.96 8.07/121.55 7.99/120.48 7.97/125.26 7.97/123.23 9.36/122.53 8.25/123.65 7.96/119.12 8.41/123.98
+
+8.00/122.48 8.04/107.70 8.25/116.64 7.73/125.92 8.15/113.20 7.97/127.40 9.28/123.44 8.10/119.39 8.09/119.56 8.52/124.56
+
+a The mutant chemical shifts were taken from a 1 H-15 N HSQC spectrum (Fig. 2) and those of the wild-type were reported by Jia et al. [18]. b Denotes mutated residues.
+
+H.M. Vu et al. / Biochimica et Biophysica Acta 1478 (2000) 113^124
+
+117
+
+Fig. 2. A 1 H-15 N HSQC spectrum of TF1-G15/I32. Cross peaks between amide protons and their directly attached nitrogens are shown in this projection of 256 1 H planes in the F3 dimension onto a single plane.
+
+and 83^99. The amide protons of these residues were H-bond-protected from exchanging with solvent D2 O (data not shown). Note that the second helix in wild-type TF1 encompassed residues 21^40 [15]. Also shown in Fig. 4 is an NOE between the amide protons of Ser-20 and Ser-22. This dNN(Ser-20, Ser22) correlation and other NOEs (see below) indicate that the second helix in the mutant protein begins at Ser-20, not Val-21 as in the wild-type protein [15], and therefore is one residue longer than its wild-type counterpart. The NOE connectivity patterns in Fig. 5 also show, for residues 41^82, the presence of strong dKN(i, i+1), very weak dNN(i, i+1) and absence of other NOEs. These are indicative of backbone dihedral angles in the L-region of P,8 space [37]. Furthermore, long-range NOEs between the backbone
+
+protons in this region suggest an antiparallel L-sheet whose topology is very similar to that proposed for the wild-type protein [18]. The chemical shifts of the K-protons were indexed according to Wishart and Sykes [35] and presented in Fig. 5. The secondary structural elements derived from these chemical shift indices agree well with those suggested by the NOE patterns. While N15 N were determined from the 1 H-15 N HSQC spectrum, the backbone 13 C chemical shifts were derived largely from the 2D 13 C HMQC, 3D HNCACB and 3D CBCA(CO)NH spectra. The chemical shift index, when applied to the assigned K-carbons, suggests the same secondary structures as those derived from the homonuclear NOEs (see above and Fig. 5). Thus, the K-carbon 13 C chemical
+
+118
+
+H.M. Vu et al. / Biochimica et Biophysica Acta 1478 (2000) 113^124
+
+Fig. 3. Slices taken from a 3D HCCH-TOCSY spectrum. (A) 1 H (F3)-1 H (F1) slice at N13 C (F2) = 57 þ 0.5 ppm. The L-protons of AMX spin systems (D13, F47, F61 and F97) are labeled. Also labeled are the sidechain protons of L85, K87 and K99 of the C-terminal helix. (B) 1 H (F3)-1 H (F1) slice at N13 C (F2) = 65 þ 0.5 ppm. The L- and Q-protons of I7, V19 and V36 are well resolved and their chemical shifts agree with those obtained from TOCSY/NOESY spectra.
+
+shifts of the two mutated residues were found at 45.19 ppm (Gly-15) and 66.28 ppm (Ile-32), which fall within the helical range according to Wishart et al. [31,35]. Furthermore, the notion that the second helix is extended at its N-terminus is reinforced here as the K-carbon of Ser-20 resonated at 61.98 ppm. 3.2. NOEs caused by mutations A point of anchorage between the N-terminal end of the ¢rst helix and the core L-sheet was suggested for the wild-type protein due to long-range NOEs between Asn-2 and Gly-46 [18]. NOEs between these domains were also observed for the mutant protein
+
+(data not shown). In addition, a number of NOEs between the sidechain of Tyr-94 in helix 3 and Ala54, Arg-55 and Asn-56 of the L-ribbon arm were detected. If these residues were to belong to the same monomer, they would be too far apart for dipole-dipole interactions according to the wild-type structure. Hence, these NOEs are thought to arise from the intermonomeric interactions between Tyr94 of one monomer and the lower portion of the L-ribbon arm of the other. Another intermonomeric NOE of interest is that between the LCH3 of Ala-37 and the ring protons of Tyr-94. It should be noted that Ala-37 is on the exterior side of helix 2 and therefore faces water in the wild-type protein [15].
+
+H.M. Vu et al. / Biochimica et Biophysica Acta 1478 (2000) 113^124
+
+119
+
+Fig. 4. The NH-NH region of a 600 MHz NOESY spectrum of TF1-G15/I32. Shown here are the sequential connectivities from S20 to I32 which comprise most of the second K-helix and from L85 to L92 which belong to the C-terminal helix. The cross peak at the arrow is an NOE between the amide protons of S20 and S22.
+
+Interaction with Tyr-94 undoubtedly reduces the solvent exposure of the Ala-37 methyl group. As mentioned above, whereas the second helix of wild-type TF1 begins at Val-21 [15], we have obtained evidence that it starts at Ser-20 in the TF1G15/I32 protein (Figs. 4 and 5). An NOE between the K-proton of Ser-20 and the amide proton of Lys23 (Fig. 6A) was also observed. This NOE, together with the dNN(Ser-20, Ser-22) in Fig. 4 and others in Fig. 5 are strongly indicative of an K-helix [32]. Serine 20 also makes contact with the loop region as suggested by an NOE between the K-proton of Ser-20 and the NCH3 protons of Leu-16. An additional NOE between the second helix and its N-ter-
+
+minal loop comes from the OCH3 group of Met-24 and the NCH3 group of Leu-16 (Fig. 6B). These and the sequential NOEs (i, i+1) for residues 14^17 (Fig. 5), which are largely absent in wild-type TF1, suggest that the loop is more stable in the mutant than in the wild-type protein. Other NOEs that are seen only in TF1-G15/I32 include those between the NCH3 protons of Ile-32 and the ring protons of Phe-28 and Phe-47 (Fig. 7A). A helical wheel analysis suggests that the second helix is almost amphipathic and that residues 28 and 32 lie on the same hydrophobic face. In wild-type TF1, the hydroxyl group of Thr-32 might have diminished the hydrophobic interactions of interior
+
+120
+
+H.M. Vu et al. / Biochimica et Biophysica Acta 1478 (2000) 113^124
+
+Fig. 5. NOE connectivity pattern of TF1-G15/I32. The thickness of the horizontal bars re£ects the strength of the NOEs. Also shown here are the secondary structure elements suggested by the chemical shift indices of K-protons and K-carbons [35]. An index of 31 or +1 is indicated by a vertical line pointing down or up, respectively. No line means index zero. Asterisks signify no chemical shift available. For comparison, the secondary structures of wild-type TF1 [18] are included. The open box at the N-terminus signi¢es undetermined structure; wavy boxes are helices; black boxes denote loops and hatched boxes are L-strands.
+
+residues. Replacement of Thr-32 by an isoleucine surely overcomes this e¡ect and enhances hydrophobic packing of the protein core, especially between Ile-32 at the distal end of the second helix and Phe-47 of the L-sheet. Additional core packing that involves Ile-32 is suggested by the detection of an NOE between the Q-protons of Ile-32 and the NCH3 protons of Leu-48 (data not shown). More interesting, however, are the NOEs between the K-proton of Ile-32 and the N-protons of Leu-6 and between the N-protons of Leu-6 and the ring (2, 6H) protons of Phe-28 (Fig. 7B). These interactions between helices 1 and 2 in the mutant but not in the wild-type TF1
+
+suggest that they are closer together in the former than in the latter. They may also help to stabilize the loop between them. 3.3. Secondary structure comparison The secondary structure elements of TF1-G15/I32 are derived according to the chemical shift indices of Wishart et al. [31,35] and are schematically represented against the corresponding structure of wildtype TF1 in Fig. 5. At this level of comparison, the only notable di¡erence is that helix 2 in the mutant protein is longer than its wild-type counterpart by
+
+H.M. Vu et al. / Biochimica et Biophysica Acta 1478 (2000) 113^124
+
+121
+
+Fig. 6. NOEs demonstrating that the second helix in TF1-G15/I32 is one residue longer than its wild-type counterpart. (A) The arrow points to an NOE between the K-proton of S20 and the amide proton of K23. Also shown in A are the intraresidual correlations of S20. (B) An NOE arising from sidechain contact of residues L16 in the loop and M24 in the second helix. The NOESY spectrum was taken at 150 ms mixing time.
+
+one residue at the N-terminus. As pointed out above, the resulting shorter loop appears to be more rigid in TF1-G15/I32. The rest of the molecule and its amide exchange pattern remain structurally similar in TF1G15/I32 and wild-type TF1. 4. Discussion TF1 belongs to the DBPII family, which includes Escherichia coli's integration host factor and the ubiquitous bacterial HU proteins. High-resolution structures of these proteins have been solved [12,15,38,39] and all three proteins display a canonical structure of a dimer whose hydrophobic core consists of two N-terminal helices and a central three-stranded L-sheet. The antiparallel L-ribbon arms emanating from the second and third L-strands and the C-terminal helix of each monomer constitute the DNA binding domain. We have in our hands a double mutant of TF1 (E15G and T32I) whose altered physical properties are so compelling that its structure is justi¢ably needed in order to explain its enhanced stability and higher DNA a¤nity. At the ¢rst level of inspection, a replacement of glutamate by glycine in a loop at the N-terminus of a helix might give it more free-
+
+dom to rotate, and having isoleucine in place of threonine might allow additional core hydrophobic packing. We have obtained NMR data supporting these conjectures. The 1 H, 15 N and 13 C chemical shifts of the backbone and most of the sidechains of TF1-G15/I32 have been assigned. The secondary structures derived from these chemical shifts and NOE patterns suggest that the second helix of the mutant TF1 is longer than its wild-type counterpart by one residue at the N-proximal end (Fig. 5). Since this helix is involved in the dimerization process, its extension could help to increase dimer stability. It also means that its Nterminal loop is shorter, and hence more rigid. This extra rigidity is manifested through sequential (i, i+1) NOEs from the loop region (Fig. 5) which were not detected for the wild-type protein [18]. The new spatial rearrangement of the helix 1-loop-helix 2 unit may result in additional NOEs, which serve to further stabilize this domain of the protein. Thus, we have detected hydrophobic contacts between helices 1 and 2 (Leu-6^Ile-32 and Leu-6^Phe-28, Fig. 7B) and between helix 2 and the loop (Leu-16^Ser-20 and Leu-16^Met-24, Fig. 6B). A parallel observation was made for a related protein, Bacillus stearothermophilus DNA binding protein HU (BstHU). The melting temperature of BstHU was found to decrease
+
+122
+
+H.M. Vu et al. / Biochimica et Biophysica Acta 1478 (2000) 113^124
+
+Fig. 7. NOEs showing additional hydrophobic interactions seen in TF1-G15/I32. A exhibits contacts between the N-methyl protons of I32 and the aromatic protons of F28 and F47. B displays NOEs from the N-protons of L6 to the ring protons of F28 and to the K-proton of I32.
+
+by 10³C when its Gly-15 was replaced by Glu-15 and this reduction in thermostability was speculated to involve the disruption of helix 2-loop interactions [40]. Stabilization of the TF1-G15/I32 dimer does not just come from the N-terminal helices: two residues from the ¢rst L-strand, Phe-47 (Fig. 7A) and Leu-48, were seen to make hydrophobic contacts with Ile-32 of the second helix. Elsewhere, the NOE connectivity patterns of wildtype TF1 and TF1-G15/I32 remain similar (the apparent discrepancy between the NOE patterns presented here in Fig. 5 and those reported earlier for the wild-type TF1 is due to the fact that Fig. 5 only shows unambiguous NOEs), indicating that the L-sheet and the C-terminal helix do not di¡er signi¢cantly from the wild-type structure. For example, it was pointed out that in TF1 (and HU), there were contacts between helix 3 and the L-ribbon arm. We
+
+detected, for TF1-G15/I32, NOEs between Tyr-94 of helix 3 and three residues that comprise the lower portion of the L-ribbon arm. Furthermore, Ala-37 of wild-type TF1 (whose LCH3 group points to water) was suggested to be near Leu-92 of the paired monomer. We observed an intermonomeric NOE between Ala-37 and Tyr-94 in TF1-G15/I32. With the information at hand, it is not yet possible to specify how much the second helix has rotated to meet Tyr94 (the suggested kink at Lys-93 further complicates this judgment). Overall, it is the collective contribution of a longer second helix; a shorter, more rigid loop; additional hydrophobic interactions, mostly between helix 2 and helix 1 as well as between the loop and the L-sheet, that are responsible for the tighter association of the monomers, and hence the enhanced stability of the mutant. Since TF1 binds DNA as a dimer, shifting
+
+H.M. Vu et al. / Biochimica et Biophysica Acta 1478 (2000) 113^124
+
+123
+
+the monomerHdimer equilibrium to favor the dimer will increase a¤nity for DNA. How the spatial rearrangement of the N-terminal helices a¡ects DNA binding and whether the structure of TF1-G15/I32 allows redistribution of its electrostatic potential below the cradle in such a way that the distal ends of the DNA could be better guided down along the protein's sides are not known at this point. The answers to these questions must wait for the structure of the mutant protein to come into sharper focus. This work is currently under way. Acknowledgements We thank Dr. John Wright for his help with the NMR experiments. This work was supported in part by Grants from the NIGMS (GM40635 to D.R.K. and GM39418 to E.G.P.). References
+[1] D. Wilson, E.P. Geiduschek, A template-selective inhibitor of in vitro transcription, Proc. Natl. Acad. Sci. USA 62 (1969) 514^520. [2] M. Sayre, E.P. Geiduschek, TF1, the bacteriophage SPO1encoded type II DNA-binding protein, is essential for viral multiplication, J. Virol. 62 (1988) 3455^3462. [3] G. Johnson, E.P. Geiduschek, Puri¢cation of the bacteriophage SPO1 transcription factor 1, J. Biol. Chem. 247 (1972) 3571^3578. [4] J. Greene, L. Morrissey, L. Foster, E.P. Geiduschek, DNA binding by the bacteriophage SPO1-encoded type II DNAbinding protein, transcription factor 1: formation of nested complexes at a selective binding site, J. Biol. Chem. 261 (1986) 12820^12827. [5] J. Greene, L. Morrissey, E.P. Geiduschek, DNA binding by the bacteriophage SPO1-encoded type II DNA-binding protein, transcription factor 1: site-speci¢c binding requires 5-hydroxymethyluracil-containing DNA, J. Biol. Chem. 261 (1986) 12828^12833. [6] A. Grove, A. Galeone, L. Mayol, E.P. Geiduschek, Localized DNA £exibility contributes to target site selection by DNA-bending proteins, J. Mol. Biol. 260 (1996) 120^125. [7] A. Grove, A. Galeone, L. Mayol, E.P. Geiduschek, On the connection between inherent DNA £exure and preferred binding of hydroxymethyluracil-containing DNA by the type II DNA-binding protein TF1, J. Mol. Biol. 260 (1996) 196^206. [8] A. Grove, M. Figueiredo, A. Galeone, L. Mayol, E.P. Geiduschek, Twin hydroxymethyluracil-A base pair steps de¢ne
+
+[9]
+
+[10] [11]
+
+[12]
+
+[13] [14] [15]
+
+[16]
+
+[17]
+
+[18]
+
+[19]
+
+[20]
+
+[21]
+
+[22]
+
+[23] [24]
+
+[25]
+
+the binding site for the DNA-bending protein TF1, J. Biol. Chem. 272 (1997) 13084^13087. E.P. Geiduschek, G. Schneider, M. Sayre, TF1, a bacteriophage-speci¢c DNA-binding and DNA-bending protein, J. Struct. Biol. 104 (1990) 84^90. G. Schneider, M. Sayre, E.P. Geiduschek, DNA-bending properties of TF1, J. Mol. Biol. 221 (1991) 777^794. M. Silva, L. Pasternak, D. Kearns, Nuclear magnetic resonance-based model of a TF1/HmU-DNA complex, Arch. Biochem. Biophys. 348 (1997) 255^261. P. Rice, S. Yang, K. Mizuuchi, H. Nash, Crystal structure of an IHF-DNA complex a protein-induced DNA U-turn, Cell 87 (1996) 1295^1306. P. Rice, Making DNA do a U-turn: IHF and related proteins, Curr. Opin. Struct. Biol. 7 (1997) 86^93. A. Travers, DNA-protein interactions IHF-the master bender, Curr. Biol. 7 (1997) R252^R254. X. Jia, A. Grove, M. Ivancic, V. Hsu, E.P. Geiduschek, D. Kearns, Structure of the Bacillus subtilis SPO1-encoded type II DNA-binding protein TF1 in solution, J. Mol. Biol. 263 (1996) 259^268. L. Andera, E.P. Geiduschek, Determinants of a¤nity and mode of DNA binding at the carboxy terminus of the bacteriophage SPO1-encoded type II DNA-binding protein, TF1, J. Bacteriol. 176 (1994) 1364^1373. L. Andera, C.J. Spangler, A. Galeone, L. Mayol, E.P. Geiduschek, Interrelations of secondary structure stability and DNA-binding a¤nity in the bacteriophage SPO1-encoded type II DNA-binding protein TF1, J. Mol. Biol. 236 (1994) 139^150. X. Jia, J. Reisman, V. Hsu, E.P. Geiduschek, J. Parello, D. Kearns, Proton and nitrogen NMR sequence-speci¢c assignments and secondary structure determination of the Bacillus subtilis SPO1-encoded transcription factor 1, Biochemistry 33 (1994) 8842^8852. A. Bax, D. Davis, MLEV-17-based two-dimensional homonuclear magnetization transfer spectroscopy, J. Magn. Reson. 65 (1985) 355^360. M. Piotto, V. Saudek, V. Sklenar, Gradient-tailored excitation for single-quantum NMR spectroscopy of aqueous solutions, J. Biomol. NMR 2 (1992) 661^666. J. Jeener, B. Meier, P. Bachman, R. Ernst, Investigation of exchange processes by two-dimensional NMR spectroscopy, J. Chem. Phys. 71 (1979) 4546^4553. S. Macura, K. Wuthrich, R. Ernst, Separation and suppres« sion of coherent transfer e¡ects in two-dimensional NOE and chemical exchange spectroscopy, J. Magn. Reson. 46 (1982) 269^282. R. Hurd, Gradient-enhanced spectroscopy, J. Magn. Reson. 87 (1990) 422^428. J. Ruiz-Cabello, G. Vuister, C. Moonen, P. vanGelderen, J. Cohen, P. vanZijl, Gradient-enhanced heteronuclear correlation spectroscopy: Theory and experimental aspects, J. Magn. Reson. 100 (1992) 282^303. L. Kay, P. Keifer, T. Saarinen, Pure absorption gradientenhanced heteronuclear single quantum correlation spectros-
+
+124
+
+H.M. Vu et al. / Biochimica et Biophysica Acta 1478 (2000) 113^124 copy with improved sensitivity, J. Am. Chem. Soc. 114 (1992) 10663^10665. L. Kay, D. Marion, A. Bax, Practical aspects of 3D heteronuclear NMR of proteins, J. Magn. Reson. 84 (1989) 72^84. M. Wittekind, L. Mueller, HNCACB, a high-sensitivity 3D NMR experiment to correlate amide-proton and nitrogen resonances with the K- and L-carbon resonances in proteins, J. Magn. Reson. 101B (1993) 201^205. D. Muhandiram, L. Kay, Gradient-enhanced triple-resonance three-dimensional NMR experiments with improved sensitivity, J. Magn. Reson. 103B (1994) 203^216. A. Bax, G. Clore, A. Gronenborn, 1 H-1 H Correlation via isotropic mixing of 13 C magnetization, a new three-dimensional approach for assigning 1 H and 13 C spectra of 13 Cenriched proteins, J. Magn. Reson. 88 (1990) 425^431. A. Bax, S. Subramanian, Sensitivity-enhanced two-dimensional heteronuclear shift correlation NMR spectroscopy, J. Magn. Reson. 67 (1986) 565^569. D. Wishart, B. Sykes, F. Richards, Relationship between nuclear magnetic resonance chemical shift and protein secondary structure, J. Mol. Biol. 222 (1991) 311^333. K. Wuthrich, NMR of Proteins and Nucleic Acids, 1st edn., « John Wiley and Son, New York, 1986, pp. 117^175. G. Clore, A. Gronenborn, NMR of Proteins, 1st edn., CRC Press, Boca Raton, 1993, pp. 1^52. [34] G. Clore, A. Gronenborn, NMR structures of proteins and protein complexes beyond 20 000 Mr , Nat. Struct. Biol. NMR Suppl. 4 (1997) 849^853. [35] D. Wishart, B.Sykes, Chemical shifts as a tool for structure determination, in: Methods in Enzymology, Vol. 239, Academic Press, New York, 1994, pp. 363^392. [36] S. Grzesiek, H. Dobeli, R. Gentz, G. Garotta, A. Labhardt, « A. Bax, 1 H13 C, and 15 N NMR backbone assignments and secondary structure of human interferon-Q, Biochemistry 31 (1992) 8180^8190. [37] H. Dyson, M. Rance, R. Houghten, R. Lerner, P. Wright, Folding of immunogenic peptide fragments of proteins in water solution. I: Sequence requirements for the formation of a reverse turn, J. Mol. Biol. 201 (1988) 161^200. î [38] I. Tanaka, K. Appelt, J. Dijk, S. White, K. Wilson, 3 A
+
+[26] [27]
+
+[28]
+
+[29]
+
+[30]
+
+[31]
+
+[32] [33]
+
+Resolution structure of a protein with histone-like properties in prokaryotes, Nature 310 (1984) 376^381. [39] H. Vis, M. Mariani, C. Vorgias, K. Wilson, R. Kaptein, R. Boelens, Solution structure of the HU protein from Bacillus stearothermophillus, J. Mol. Biol. 254 (1995) 692^703. [40] S. Kawamura, Y. Kakuta, I. Tanaka, K. Hikichi, S. Kuhara, N. Yamasaki, M. Kimura, Glycine-15 in the bend between two K-helices can explain the thermostability of DNA binding protein HU from Bacillus stearothermophilus, Biochemistry 35 (1996) 1195^1200.
+
+

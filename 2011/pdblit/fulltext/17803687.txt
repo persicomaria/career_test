@@ -1,0 +1,286 @@
+The `pair of sugar tongs' site on the non-catalytic domain C of barley a-amylase participates in substrate binding and activity
+Sophie Bozonnet1,2, Morten T. Jensen2, Morten M. Nielsen1, Nushin Aghajari3, Malene H. Jensen3, Birte Kramhøft1,2, Martin Willemoes1,2, Samuel Tranier3, Richard Haser3 and Birte Svensson1,2 ¨
+1 Enzyme and Protein Chemistry, BioCentrum-DTU, Technical University of Denmark, Kgs. Lyngby, Denmark 2 Carlsberg Laboratory, Valby, Denmark ´ ´ 3 Laboratoire de BioCristallographie, Institut de Biologie et Chimie des Proteines, Universite de Lyon, France
+
+Keywords barley a-amylase; crystal structures; secondary carbohydrate-binding sites; starch granules; surface plasmon resonance Correspondence B. Svensson, Enzyme and Protein Chemistry, BioCentrum-DTU, Technical University of Denmark, Søltofts Plads, Bldg 224, DK-2800 Kgs. Lyngby, Denmark Fax: +45 45 88 63 07 Tel: +45 45 25 27 40 E-mail: bis@biocentrum.dtu.dk (Received 1 June 2007, revised 18 July 2007, accepted 1 August 2007) doi:10.1111/j.1742-4658.2007.06024.x
+
+Some starch-degrading enzymes accommodate carbohydrates at sites situated at a certain distance from the active site. In the crystal structure of barley a-amylase 1, oligosaccharide is thus bound to the `sugar tongs' site. This site on the non-catalytic domain C in the C-terminal part of the molecule contains a key residue, Tyr380, which has numerous contacts with the oligosaccharide. The mutant enzymes Y380A and Y380M failed to bind to b-cyclodextrin-Sepharose, a starch-mimic resin used for a-amylase affinity purification. The Kd for b-cyclodextrin binding to Y380A and Y380M was 1.4 mm compared to 0.20­0.25 mm for the wild-type, S378P and S378T enzymes. The substitution in the S378P enzyme mimics Pro376 in the barley a-amylase 2 isozyme, which in spite of its conserved Tyr378 did not bind oligosaccharide at the `sugar tongs' in the structure. Crystal structures of both wild-type and S378P enzymes, but not the Y380A enzyme, showed binding of the pseudotetrasaccharide acarbose at the `sugar tongs' site. The `sugar tongs' site also contributed importantly to the adsorption to starch granules, as Kd ¼ 0.47 mgÆmL)1 for the wild-type enzyme increased to 5.9 mgÆmL)1 for Y380A, which moreover catalyzed the release of soluble oligosaccharides from starch granules with only 10% of the wild-type activity. b-cyclodextrin both inhibited binding to and suppressed activity on starch granules for wild-type and S378P enzymes, but did not affect these properties of Y380A, reflecting the functional role of Tyr380. In addition, the Y380A enzyme hydrolyzed amylose with reduced multiple attack, emphasizing that the `sugar tongs' participates in multivalent binding of polysaccharide substrates.
+
+a-amylases (EC 3.2.1.1) are endo-hydrolases acting on a)1,4-glucosidic bonds in starch and related poly- and oligosaccharides. They belong to the very large glycoside hydrolase family 13 (GH13) that, together with GH70 and GH77, forms glycoside hydrolase clan
+
+H (GH-H), representing about 30 enzyme specificities (http://www.cazy.org). Secondary carbohydrate-binding sites are found either on the surface of the catalytic structural unit or on a separate carbohydrate-binding module (CBM) in some of the GH-H members [1].
+
+Abbreviations AMY1 and AMY2, barley a-amylases 1 and 2; BASI, barley a-amylase / subtilisin inhibitor; b-CD, b-cyclodextrin; CBM, carbohydrate-binding module; CBM20, carbohydrate-binding module family 20; Cl-pNPG7, 2-chloro-4-nitrophenyl b-D-maltoheptaoside; cv, column volume; DMA, degree of multiple attack; DP, degree of polymerization; GH13, glycoside hydrolase family 13; GH-H, glycoside hydrolase clan H; iBS, insoluble blue starch; RU, response unit; SBD, starch-binding domain; SPR, surface plasmon resonance; thio-DP4, methyl-4¢,4¢¢,4¢¢¢trithiomaltotetraoside.
+
+FEBS Journal 274 (2007) 5055­5067 ª 2007 The Authors Journal compilation ª 2007 FEBS
+
+5055
+
+a-amylase `sugar tongs' mutants
+
+S. Bozonnet et al.
+
+Plant a-amylases mobilize starch in plastids, tubers and seeds, and barley isozyme 1 and 2 (AMY1 and AMY2) are de novo synthesized in seed aleuron layers at germination encoded by two multigene families of $80% sequence identity and > 95% identity within a subfamily. Only one AMY1 and two AMY2 isoforms were found in germinating seeds from a total of 10 barley a-amylase encoding genes; these three proteins moreover underwent differential degradation during germination [2]. AMY1 and AMY2 have virtually identical three-dimensional structures composed of an N-terminal catalytic (b / a)8-barrel (domain A), a domain B, protruding between b-strand 3 and a-helix 3, and a C-terminal antiparallel b-sheet domain-C [3,4]. The isozymes show functional and stability differences and roles of selected amino acid residues were characterized by mutational analysis [5­12]. The A and B domains together form the active site [3,4]. Domain B is also associated with effects of Ca2+ on stability and activity [5,13] and with the AMY2-specific sensitivity to barley a-amylase / subtilisin inhibitor (BASI) [5,14,15]. AMY1 furthermore binds substrates ­ starch granules included ­ more tightly than does AMY2, which shows a higher turn-over rate than AMY1 [16­18]. Domain-C is present in almost all GH-H members and its functional role has not yet been assigned. Remarkably, the `sugar tongs' site defined around Tyr380 in domain-C of AMY1 and binding malto-oligosaccharide [4] was not occupied in the structure of AMY2 [3] although this critical tyrosine is conserved in AMY2. AMY1, AMY2, and other GH-H enzymes possess different secondary carbohydrate-binding sites that are not part of the active site area but which are situated on the surface of the catalytic domain or an intimately associated domain rather than on a CBM, e.g. a starch-binding domain (SBD) [1,3,4,19­22]. The role of multivalent binding in enzymatic degradation of polysaccharides is in general not clearly understood at the molecular level. In amylolytic enzymes such sites are thought to (a) ensure association with starch granules, (b) assist in disentangling of a-glucan chains, (c) guide the substrate chain to the active site, and (d) confer allosteric regulation. Multivalent binding is also envisaged in the multiple attack mechanism proposed in the late 1960s for amylose degradation by a-amylase, in which an initial endo-attack was followed by hydrolysis of more glucosidic bonds before the enzyme­substrate complex dissociated [23]. Multiple attack was later described for cellulases, chitinases, and pectinases and termed processivity [24]. Barley AMY1 hydrolyzes amylose with a degree of multiple attack (DMA) of 2; thus, after the initial
+5056
+
+cleavage, two substrate bonds were hydrolyzed with release of shorter products [12]. Whereas DMA was mostly reduced for AMY1 mutants in the substratebinding cleft, DMA values of 3.0 and 3.3 were found, respectively, for an AMY1­SBD fusion [25] having an SBD attached to the AMY1 C-terminus, and for the AMY1 Y105A mutant at the high-affinity subsite )6 [12]. However, because maltoheptaose was the major product released by wild-type AMY1 and all of the different variants, it was suggested that amylose was attached to the enzyme surface also outside the substrate-binding cleft [12]. The `sugar tongs' in domain-C [4,21] seemed an obvious candidate for such a binding site. ° Tyr380 cOH moved 3.1 A when the `sugar tongs' captured a ligand [4,21] and the engagement of Tyr380 in eight of 17 protein contacts with methyl-4¢,4¢¢,4¢¢¢trithiomaltotetraoside (thio-DP4) [4] underlines the central role of Tyr380 (Fig. 1). Similarly, maltoheptaose in the inactive catalytic nucleophile mutant D180A AMY1 curved with five visible rings around Tyr380. Two adjacent rings, in a second maltoheptaose molecule with five clearly defined rings, were stacked onto the indole side chains of Trp278Trp279 on the surface
+
+Fig. 1. Close-up view on the `pair of sugar tongs' binding site in the crystal structure of a-amylase 1 (AMY1) D180A, an inactive catalytic nucleophile mutant, in complex with maltoheptaose [21]. Important residues defining this site have been highlighted. Ser378 and Tyr380 are mutated in the present work. As continuous electron density was only found for five sugar rings, a pentasaccharide was modeled into the structure.
+
+FEBS Journal 274 (2007) 5055­5067 ª 2007 The Authors Journal compilation ª 2007 FEBS
+
+S. Bozonnet et al.
+
+a-amylase `sugar tongs' mutants
+
+of domain A [21]. Seven rings in a third maltoheptaose molecule occupied subsites )7 through )1 in the active site [21]. Noticeably, AMY2 accommodated the pseudotetrasaccharide inhibitor acarbose both at Trp276Trp277 and at the active site, but not at the `sugar tongs' [3]. Comparison of AMY1 and AMY2 structures [3,4] suggested that Pro376AMY2 ­ corresponding to Ser378AMY1 ­ rigidified the loop carrying Tyr378AMY2 (Tyr380 in AMY1), hindering the conformational shift needed in oligosaccharide binding [4]. Different secondary carbohydrate-binding sites are found in GH-H members, e.g. certain a-amylases [3,4,22,26­28], cyclodextrin glucosyltransferase [29], amylosucrase [30], amylomaltase [20], and Thermoactinomyces vulgaris I amylase [31]. The Pseudomonas maltotetraose-forming amylase structure closely resembles that of AMY1 but has no tyrosine at the position of Tyr380 [4]. Tyr380, however, is present in several plant a-amylases [32­34], including AMY2, which did not accommodate oligosaccharide at the `sugar tongs' in the structure [3]. In the present work, the `sugar tongs' site was demonstrated by site-directed mutagenesis of Tyr380 to be involved in enzymatic activity and confirmed to be particularly important for carbohydrate binding. However, mutating Ser378 in AMY1 to proline to mimic AMY2 did not elicit lack of binding as observed for the AMY2 structure [3]. The func-
+
+tional analysis of the surface site furthermore indicated a role in multivalent binding during polysaccharide processing.
+
+Results
+Choice and production of AMY1 `sugar tongs' mutants Tyr380 in the `sugar tongs' site on domain C of ° AMY1 (Fig. 1) shifted 3.1 A when binding a maltooligosaccharide [4,21] and the Y380A, Y380M, and Y380F enzymes were produced to investigate the importance of the aromatic side chain, tryptophan being omitted for steric reasons. The substituted methionine also represented a bean a-amylase [35] (Fig. 2). The lack of sugar binding at the conserved Tyr378 in the AMY2 / acarbose structure [3] was proposed to be due to lower mobility imposed by Pro376AMY2 (corresponding to Ser378AMY1, see Figs 1 and 2) on the Arg377­Phe388AMY2 loop. Hence the AMY2 mimic, AMY1 S378P, was constructed to check the impact of proline; S378T represented rice and millet a-amylases [33] (Fig. 2). The host Pichia pastoris secreted 10­44 mgÆL)1 wild-type and AMY1 mutants as estimated from specific activities against insoluble blue starch (iBS) of the purified enzymes (Table 1).
+
+Fig. 2. Sequence alignment of domain-C of barley AMY1 and AMY2, four other cereal amylases, and a legume a-amylase. The secondary structure of AMY1 is indicated above the alignment and mutated residues are highlighted in orange. Accession numbers are; wheat (AMY3): P08117; maize: Q41770; millet: Q7Y1C3; rice (AMY3): P27933; kidney bean: Q9ZP43.
+
+Table 1. Enzymatic properties of `sugar tongs' mutants of barley a-amylase 1 (AMY1). U, one enzyme unit is the amount required to cause an A620 increase of 1. iBS Specific activity (UÆmg)1) 1400 2000 2790 2695 2705 2500 4000 Amylose DP440 kcat (s)1) 95 149 162 163 144 185 721 ± ± ± ± ± ± ± 15 44 27 36 9 20 63 km (mgÆmL)1) 0.363 0.351 0.391 0.203 0.208 0.190 1.074 ± ± ± ± ± ± ± 0.023 0.083 0.146 0.130 0.058 0.010 0.283 kcat / Km (s)1 mL)1Æmg)1) 261.7 424.5 414.3 802.9 692.3 973.7 671.3 Cl-pNPG7 kcat (s)1) 19 34 56 59 48 52 86 ± ± ± ± ± ± ± 0.6 0.8 1.7 0.6 1.7 4.9 3.1 Km (mM) 0.669 0.871 0.724 0.861 0.735 0.758 2.125 ± ± ± ± ± ± ± 0.046 0.027 0.123 0.023 0.087 0.112 0.180 kcat / Km (s)1 mM)1) 28.4 39.0 77.3 68.5 65.3 68.6 40.5
+
+Enzyme Y380A Y380M Y380F S378P S378T AMY1 AMY2
+
+FEBS Journal 274 (2007) 5055­5067 ª 2007 The Authors Journal compilation ª 2007 FEBS
+
+5057
+
+a-amylase `sugar tongs' mutants
+
+S. Bozonnet et al.
+
+Similarly to the AMY1 wild-type, S378P, S378T and Y380F were obtained in $50% yield by affinity chromatography on b-cyclodextrin (b-CD)-Sepharose, whereas Y380A and Y380M AMY1 did not bind to the resin and were purified in $20% yield by ammonium sulfate precipitation and ion exchange chromatography (see Experimental procedures). Enzymatic activity of `sugar tongs' AMY1 mutants Replacement of Tyr380 by alanine and methionine caused 50­75% reduction in the activity of iBS (kcat), amylose DP440 (kcat / Km), and even the oligosaccharide Cl-pNPG7 (kcat / Km) (Table 1). The mutations reduced kcat for amylose and Cl-pNPG7 and doubled Km, whereas the conservative substitutions in Y380F, S378P, and S378T had no effect on enzyme kinetic parameters except for a twofold increase in Km for Y380F against the amylose (Table 1). This probably reflected that the mutant was unable to form the hydrogen bond between Tyr380 cOH and O2 of glucose as seen in the AMY1Æthio-DP4 complex [4]. Activity for iBS was routinely analyzed under saturating conditions (i.e. 6.25 mgÆmL)1 iBS), but in fact AMY1 showed a small and highly reproducible isozyme-characteristic activity maximum near 2 mgÆmL)1 iBS corresponding to 115% of the activity at 6.25 mgÆmL)1 iBS. This property was lost in Y380A, suppressed for Y380M, but retained by Y380F, S378P, and S378T AMYl, and was missing for AMY2 (data not shown). The earlier reported hydrolysis of the amylose of DP440 in a multiple attack mechanism [12] was confirmed for AMY1, which showed a DMA of 1.9 as determined from the ratio of rates of release of reducing groups in the fraction of small (i.e. ethanolsoluble) products over large (i.e. ethanol-precipitated) products (see Experimental procedures and [12]). The rates of product formation by the mutants (not shown) agreed with the activity levels described in Table 1. AMY1 Y380A had a DMA of 1.0 and thus released fewer short products per enzyme­substrate encounter than AMY1 wild-type, whereas AMY1 Y380M and S378P maintained a DMA of 2.0 and 2.2, respectively. Binding of b-cyclodextrin to `sugar tongs' mutants measured by surface plasmon resonance analysis Surface plasmon resonance (SPR) analysis was suitable for measuring the affinity in the low millimolar range of b-CD for AMY1. SPR sensorgrams clearly illustrated
+5058
+
+400
+
+300
+
+RU
+
+200
+
+100
+
+0 0 1 2 3 4 5 6
+
+-cyclodextrin (mM)
+Fig. 3. b-CD binding determined by SPR analysis. AMY1: d wildtype, s Y380A. Response unit (RU) values are corrected for the contribution given by a channel in the chip without bound enzyme protein.
+
+weaker binding to AMY1 Y380A than to wild-type enzyme (Fig. 3) and Kd was calculated to 1.40 mm for both Y380A and Y380M, i.e. sevenfold higher than Kd of AMY1 wild-type (Table 2). Y380F caused only a slight reduction in affinity for b-CD and the binding to S378P and S378T was essentially not affected by the mutations. In comparison, the Kd of AMY2 was threefold higher than that of AMY1 (Table 2). Effects of `sugar tongs' mutation on adsorption to and hydrolysis of starch granules Starch granules are the natural substrate for barley a-amylases and it was hypothesized that the `sugar tongs' might play a role in interaction with this substrate of giant size compared to the enzyme. The adsorption to barley starch granules of `sugar tongs' mutants was therefore examined. The Kd was 0.47 mgÆmL)1 for AMY1 wild-type and very similar for S378P, but 13-fold higher for AMY1 Y380A (Table 3). This indication of a
+Table 2. Binding of b-cyclodextrin (b-CD) to `sugar tongs' mutants and wild-type AMY1 and AMY2 as determined by SPR. See Experimental procedures for the SPR analytical procedure. Enzyme Y380A Y380M Y380F S378P S378T AMY1 AMY2 Kd (mM) 1.40 1.39 0.36 0.25 0.23 0.20 0.63 ± ± ± ± ± ± ± 0.23 0.65 0.02 0.03 0.02 0.04 0.27
+
+FEBS Journal 274 (2007) 5055­5067 ª 2007 The Authors Journal compilation ª 2007 FEBS
+
+S. Bozonnet et al.
+
+a-amylase `sugar tongs' mutants
+
+Table 3. Binding of `sugar tongs' mutants, wild-type AMY1 and AMY2 to barley starch granules. The binding was measured in the range 0.01­40 mgÆmL)1 starch granules (see Experimental procedures and [29] for details). (A) no b-CD; (B) in the presence of 0.5 mM b-CD. Enzyme A Y380A S378P AMY1 AMY2 B Y380A S378P AMY1 AMY2 6.86 2.93 2.85 4.63 ± ± ± ± 0.55 0.36 0.28 0.37 0.81 0.95 0.98 0.87 ± ± ± ± 0.02 0.02 0.02 0.02 5.90 0.57 0.47 1.27 ± ± ± ± 0.47 0.04 0.06 0.32 0.90 0.98 1.03 0.99 ± ± ± ± 0.05 0.01 0.04 0.03 Kd (mgÆmL)1) Bmax
+
+very important role of Tyr380 is in accordance with b-CD having no impact on the apparent affinity of AMY1 Y380A for starch granules, whereas the presence of 0.5 mm b-CD increased the apparent Kd four- to sixfold for AMY1 wild-type and S378P and AMY2 (Table 3), confirming competition in binding to starch
+
+granules. AMY2 showed threefold weaker affinity for barley starch granules than did both the wild-type and the AMY2 mimic, AMY1 S378P (Table 3). The `sugar tongs' substitution in AMY1 Y380A greatly influenced the hydrolytic activity against granular starch, with release of soluble reducing sugars from this substrate being strongly reduced (Fig. 4) to a kcat / Km value of $10% of that of AMY1 wild-type. In contrast to wild-type, substrate saturation was not achieved for AMY1 Y380A even at 400 mgÆmL)1 of starch granules and the shape of the corresponding activity curve indicated that loss in substrate affinity was a predominant factor in the reduced activity (Fig. 4). For AMY1 S378P, kcat and Km were similar to the wild-type values (Table 4), but AMY2 had inferior affinity. The corresponding activity curve (Fig. 4) allowed only estimation of kinetic parameters, the Km being considerably higher than in the case of AMY1, whereas the kcat for AMY2 appeared higher than for AMY1, as found in general for different substrates (Table 1). The activity was reduced in the presence of b-CD (Fig. 4; Table 4) due to competition with starch granule binding. The low activity hampered analysis of the effect of b-CD on AMY1 Y380A.
+
+Fig. 4. Rates of release of soluble reducing products from barley starch granules as catalyzed by AMY1, AMY2, and Y380A and S378P AMY1 in the absence (d), and in the presence (s) of 0.5 mM b-CD.
+
+FEBS Journal 274 (2007) 5055­5067 ª 2007 The Authors Journal compilation ª 2007 FEBS
+
+5059
+
+a-amylase `sugar tongs' mutants
+
+S. Bozonnet et al.
+
+Table 4. Hydrolysis of barley starch granules by `sugar tongs' mutants, wild-type AMY1 and AMY2. (A) no b-CD; (B) in the presence of 0.5 mM b-CD. NC, not calculated due poor affinity; ND, not determined due to low activity. See also Fig. 4. See Experimental procedures for details on the procedure. A kcat / Km (s)1 mLÆmg)1) 0.151 1.547 1.549 1.338
+
+Enzyme Y380A S378P AMY1 AMY2 B
+
+kcat (s)1) NC 149 ± 10 113 ± 12 251 ± 40
+
+Km (mgÆmL)1) NC 96 ± 23 73 ± 15 188 ± 26
+
+kcat Y380A S378P AMY1 AMY2 ND 150 ± 40 122 ± 8 220 ± 28
+
+Km,app ND 248 ± 54 273 ± 62 275 ± 28
+
+kcat / Km ND 0.605 0.449 0.802
+
+Crystal structures of AMY1 `sugar tongs' mutants in complex with acarbose The structures of AMY1 Y380A and S378P were compared with the wild-type enzyme [21] both in free form (not shown) and in complex with acarbose ­ a pseudotetrasaccharide inhibitor whose rings A and B correspond to the valienamine and 4-amino-4,6-dideoxy-a-d-glucose units in acarviosine, and rings C and D (reducing end) constitute a maltose unit linked to acarviosine (see Fig. 2 in [21]). Remarkably, comparison of the `sugar tongs' region indicated no conformational differences between AMY1 wild-type, S378P and Y380A acarbose complexes. The only obvious difference was found for the Ala211-Pro218 loop (Fig. 5)
+
+that connects b5 and a5 of the catalytic (b / a)8-barrel at the end of the aglycon-binding area of the active site cleft. Earlier, significant deviation was found in this region between the backbone conformation of AMY1 and AMY2 [36]. Thus Ca of Gly214 shifted 0.8, 1.2, ° and 1.4 A relative to AMY1 / acarbose for the three molecules A, B and C, respectively, present in the asymmetric unit of S378P / acarbose (see supplementary Table S1). At the `sugar tongs' of S378P / acarbose (molecule A) the electron density for rings B and C was very clear (Fig. 6A) and almost entirely defined for ring A; however, the density was badly defined for ring D, which therefore was not inserted for refinement. In molecule B of S378P / acarbose, rings B and C were completely defined, ring D was better defined than molecule A, and ring A was poorly defined. In molecule C, rings A­C were defined very clearly, whereas ring D lacked continuous electron density and was omitted from the refinement. In spite of cocrystallization, a hydrated calcium ion (Ca503) and not acarbose was bound at the active site of AMY1 S378P (not shown). Ca503 was also present in native S378P (not shown) and it was previously observed in
+
+Fig. 5. Stereo view of the overall fold of the superimposed threedimensional structures of wild-type AMY1 (in red [21]), the S378P (in blue) and the Y380A (in yellow) `sugar tongs' AMY1 mutants in complex with acarbose. The vertical arrow indicates the flexible loop region, Ala211­Pro218.
+
+Fig. 6. Close-up view on the `sugar tongs' binding site. (A) S378P / acarbose (molecule A), showing the bound sugar ligand (rings A, B, and C) and (B) Y380A / acarbose, which has no ligand bound at the `sugar tongs' site.
+
+5060
+
+FEBS Journal 274 (2007) 5055­5067 ª 2007 The Authors Journal compilation ª 2007 FEBS
+
+S. Bozonnet et al.
+
+a-amylase `sugar tongs' mutants
+
+AMY1Æthio-DP4 [4] as well as in AMY2ÆBASI (a proteinaceous inhibitor complex) [37], but so far not in native AMY1. At the surface-binding site containing Trp278Trp279 on the (b / a)8-barrel [3,4,21], electron density studies identified three sugar rings in AMY1 S378P / acarbose, and in wild-type AMY1 / acarbose sugar binding occurred at this site as well as to the active site cleft and the `sugar tongs' [21]. The three rings defined at the Trp278Trp279 site corresponded to acarbose with the reducing-end glucose cleaved off and with the same orientation, but shifting position by one sugar unit compared to the ligand in S378P / acarbose (molecule A). Thus acarbose rings A and B stacked onto Trp279 and Trp278, respectively, whereas ring C was in the bulk solvent (not shown). In wild-type AMY1 / acarbose, rings B and C stacked onto Trp279Trp278. As a curiosity, rings A and B modeled into the electron density on this surface site in AMY2 / acarbose [3] were at the same position as in the AMY2 mimic, S378P AMY1 / acarbose. In the structure of AMY1 Y380A / acarbose (see supplementary Table S1) only Trp278Trp279 and neither the `sugar tongs' nor the active site bound oligosaccharide. Two rings were conjectured from the electron density; a third may be present, but due to poor definition, water molecules were modeled into the electron densities. Thus the Y380A mutation in AMY1 destroyed accommodation of oligosaccharide (Fig. 6B) at the `sugar tongs', emphasizing the critical role of Tyr380. Inspection of the active site region in AMY1 Y380A suggested that neither oligosaccharide nor Ca503 was present as opposed to the S378P / acarbose (this work) and AMY1 / oligosaccharide structures [4,21]. Numerous attempts at collecting data of improved quality for AMY1 Y380A / acarbose failed and from the obtained structure it cannot be excluded that trace amounts of carbohydrate occupy the active site.
+
+Discussion
+Functional insight into amylolytic and related enzymes is poor in regard to carbohydrate-binding surface sites at a certain distance from the active site [3,4,20­22, 28­30] as opposed to sites residing on CBMs [1,39,40]. The discovery of oligosaccharide binding at the `sugar tongs' in the C-terminal domain in barley AMY1 [4,21] was therefore a welcome opportunity firstly to investigate a surface site by mutational analysis coupled with structure determination, carbohydrate binding and activity assays and, secondly, to learn more about the role of domain-C in GH-H. Cereal a-amylases do not hydrolyze b-CD, which thus can serve as
+
+a molecular model in emulating protein­starch interactions. Despite lack of binding to b-CD-Sepharose, the SPR procedure developed in the present work enabled analysis of b-CD affinity in the millimolar range for AMY1 Y380A and Y380M. The Kd of 1.40 mm for b-CD was increased sevenfold, confirming the critical functional role of Tyr380 in the `sugar tongs'. As b-CD-Sepharose did not retain these mutants, their still intact other surface site containing Trp278Trp279 was concluded to have very low affinity for b-CD. b-CD accordingly was seen to bind at the `sugar tongs', and not at Trp278Trp279 in the structure of AMY1 active site mutants (Tranier, Aghajari, Haser, Mori and Svensson, unpublished). Crystallography on AMY1 Y380A (present work) demonstrated that this substitution destroyed acarbose binding to the `sugar tongs', whereas acarbose bound to Trp278Trp279. Furthermore, acarbose occupied the `sugar tongs' in S378P / acarbose (the AMY2 mimic). Hence as AMY1 S378P and wild-type also shared the same affinity for b-CD, several properties of AMY1 S378P did not confirm the earlier suggestion that Pro376 (AMY2-numbering) caused the lack of ligand binding at the `sugar tongs' in the AMY2 structure [3,4]. The modest threefold weaker affinity seen for b-CD binding by AMY2 compared to AMY1 wild-type and S378P, possibly combined with different crystallization conditions for AMY1 and AMY2 [3,50,51], may have prevented oligosaccharide binding in the AMY2 crystal structure. Individual binding sites in multivalent protein­carbohydrate interactions are often of moderate affinity and a rather small energy difference between comparable binding events possibly elicits functional differences of AMY1 and AMY2 in mobilization of storage starch during germination. The `sugar tongs' site was critical for efficient binding to starch granules, as AMY1 Y380A showed a 13fold higher Kd of 5.9 mgÆmL)1 than did wild-type. The a-amylase from azuki bean in which methionine corresponds to AMY1 Tyr380, bound starch granules with a Kd similar to that of AMY1 Y380A [35] and oxidization to methionine sulfoxide further reduced the affinity [41,42]. These findings confirmed that the functional `sugar tongs' of a biologically relevant binding level of affinity was present in plant a-amylases. However, the precise natural role(s) of this site, for which distinct variation in affinity has so far been demonstrated for AMY1, AMY2 and the azuki bean enzyme, is not yet disclosed. Compared to AMY1, cyclodextrin glucosyltransferase from Bacillus circulans strain 251 having an SBD of CBM20, showed a 16-fold lower affinity for starch granules (Kd ¼ 7.6 mgÆmL)1), and its Kd increased
+5061
+
+FEBS Journal 274 (2007) 5055­5067 ª 2007 The Authors Journal compilation ª 2007 FEBS
+
+a-amylase `sugar tongs' mutants
+
+S. Bozonnet et al.
+
+only two- to threefold for SBD single and dual binding site mutants [29]. The homologous SBD of Aspergillus niger glucoamylase had Kd values of 6.4 and 28 lm for b-CD and of 0.95 and 17 lm for maltoheptaose for each of the two binding sites, respectively [40]. Thus AMY1 `sugar tongs' and these SBDs show very different ligand specificity, AMY1 having about 15-fold higher and 30-fold lower affinity for starch granules and b-CD, respectively, than does SBD. This is also reflected in the lower Bmax values found for the cyclodextrin glucosyltransferase [29]. AMY1 Y380A had only 10% hydrolytic activity of wild-type against starch granules apparently due to poor substrate binding. Furthermore, although b-CD did not inhibit AMY1-catalyzed hydrolysis of amylose [43], b-CD reduced the catalytic efficiency (kcat / Km) on starch granules, providing indirect support for the `sugar tongs' being involved in degradation of storage starch. Remarkably, the Km for hydrolysis of starch granules was about two orders of magnitude higher than the Kd for binding of AMY1 wild-type, mutants and AMY2. Even though activity and binding are measured at 37 °C and 4 °C, respectively, this difference is very large and may reflect that only a few a-glucan chains in the granules are readily hydrolyzed or that a major fraction of the products remains associated with the granules. The trend of an even slightly larger difference between Kd and Km for AMY1 Y380A compared with wild-type supported the role of the `sugar tongs' in activity, reflected also by a moderately reduced kcat for hydrolysis of amylose by AMY1 Y380A and Y380M and the unexpected decrease in activity for Cl-pNPG7 that covers only seven to eight active site subsites [44]. This latter loss in activity was speculated to stem from Cl-pNPG7 binding to the `sugar tongs', similarly to other oligosaccharides [21]. This binding may modulate activity, as supported by the very detailed study of acarbose inhibition kinetics of hydrolysis of amylose by barley a-amylase, where acarbose was concluded to occupy at least one secondary site in the productive enzyme­substrate complex and, furthermore, that this binding allosterically enhanced activity [46]. As orientation of maltoheptaose molecules bound to AMY1 D180A suggested that three different, rather than the same, a-glucan chains were accommodated at the active site and at the two surface sites [21], one cannot on a structural basis, model interactions in the multiple attack mechanism showing the substrate chain attached at the `sugar tongs'. Thus even though increased DMA of the AMY1­SBD fusion suggested that enzyme­substrate interactions at secondary binding sites were favoring multiple attack [12,25], in agreement with the
+5062
+
+reduced DMA of the AMY1 Y380A `sugar tongs' mutant, these effects may stem from allosteric regulation. The mutational analysis of the `sugar tongs' in barley AMY1 explored the role of this so far unique carbohydrate-binding surface site from plant a-amylases. This is the first demonstration of a function for a C domain from the large GH clan-H. The work contributes to the unraveling of the molecular basis of multivalent enzyme­polysaccharide interactions. One future aim is to extend this analysis to include different surface sites in AMY1 and AMY2 to gain insight into the putative cooperation among these sites and the active site.
+
+Experimental procedures
+Strains, plasmids and AMY2
+Escherichia coli DH5a and P. pastoris GS115, transformed with pPICZA (Invitrogen, Carlsbad, CA), were used for standard cloning and expression. pPICZA-amy1D9 encoded AMY1 (GenBank accession gi|113765) with a C-terminal nonapeptide truncation [10], here referred to as AMY1. AMY2 (gi|4699831) was purified from malt [45].
+
+Site-directed mutagenesis
+Standard cloning techniques were used [46]. Site-directed mutagenesis was done by the mega-primer method [47] using for S378P, 5¢-GATCGGGCCCAGGTACGACGTC GG-3¢; S378T, 5¢-GATCGGGACCAGGTACGACGTCG G-3¢; Y380A, 5¢-GATCGGGTCCAGGGCCGACGTC -GG-3¢; Y380M, 5¢-GATCGGGTCCAGGATGGACGT CGG-3¢; Y380F, 5¢-GATCGGGTCCAGGTTCGAC GTCGG-3¢ (underlined mutant codon) coding for the sense strand, and 5¢-TTTGGTACCTCAGTTCTTCTCCCAGA CGGCGTA-3¢ as antisense primer. Mutant cDNA was amplified using 5¢-TTTGAATTCCATGGGGAAGAACG GCAGC-3¢ as sense orientation primer and a purified megaprimer. Pfu DNA polymerase (Stratagene, La Jolla, CA) was used for PCR and products were cut by NarI and KpnI. The 700 bp fragments were purified (QIAquick gel extraction kit, QIAGEN, Germantown, MD) and subcloned in NarI, KpnIlinearized pPICZA-amy1D9. Plasmids were propagated in E. coli DH5a [low-salt LB, 25 lgÆmL)1 ZeocinÒ (Invitrogen, Carlsbad, CA)], purified (Midiprep Plasmid extraction kit, QIAGEN), sequenced (Big-Dye premix; ABI PRISM 310 Genetic Analyzer, Perkin Elmer Life Sciences, Waltham, MA), and BglII-linearized prior to transformation of P. pastoris by electroporation [48]. Transformants were identified on YPDS (1% yeast extract, 2% peptone, 2% glucose, 1 m sorbitol, 2% agar, 100 lgÆmL)1 Zeocin), transferred to methanol / starch plates and selected for a-amylase secretion by halos seen by exposure to I2 [10].
+
+FEBS Journal 274 (2007) 5055­5067 ª 2007 The Authors Journal compilation ª 2007 FEBS
+
+S. Bozonnet et al.
+
+a-amylase `sugar tongs' mutants
+
+Enzyme production and purification
+Pichia pastoris transformants were grown in 1 L BMGY (1% yeast extract, 2% peptone, 1% glycerol, 0.67% yeast nitrogen base, 100 mm K phosphate, pH 6.0, 0.1 lgÆmL)1 biotin) at 30 °C for 2 days in 5 L flasks to D600 $15 and the medium was changed for induction to 0.5 L BMMY (as BMGY with 0.5% methanol replacing glycerol) followed by 24 h incubation [9,10]. Secreted activity was assayed using insoluble blue starch (iBS). Cell harvest and induction were repeated two to three times and combined supernatants were concentrated to $300 mL (Pellicon, Millipore, Bedford, MA). AMY1 S378P / T, Y380F, and wild-type were purified on b-CD-Sepharose (diameter 2.6 cm; 0.2 mL resinÆmg)1 a-amylase) [10]. As Y380A / M AMY1 were not retained by b-CD-Sepharose, protein was precipitated from culture supernatants using 85% saturated ammonium sulfate, dissolved in 50 mm Na acetate, pH 5.5, 25 mm CaCl2, and chromatographed on Hi Load 26 / 60 Superdex 75 (GE Healthcare, Uppsala, Sweden) at 2.5 mLÆmin)1. Eluate with activity for iBS was dialyzed against 10 mm Hepes pH 7.0, 1 mm CaCl2, applied to Resource Q (6 mL column) equilibrated in buffer, and gradient-eluted [0­10%, 0.5 column volume (cv); 10­40%, 5 cv; 40­100%, 0.5 cv] at 1 mLÆ ¨ min)1 using buffer without and with 0.5 m NaCl (AKTAexplorer, GE Healthcare). Two forms of differing pI were resolved by anion exchange chromatography [10]. The firsteluting and highly active form was dialyzed (10 mm Mes, 25 mm CaCl2, pH 6.8) and concentrated (Centriprep YM10, Millipore), 0.02% (w / v) NaN3 was added, and the form kept at 4 °C, whereas the more acidic form containing glutathionylated Cys95 [49] was discarded. All steps were carried out at 4 °C. Proteins migrated as single bands in SDS / PAGE and showed pI ¼ 4.8 by isoelectric focusing [9].
+
+mined using copper-bicinchoninate with maltose as standard [10], and measured at A540 in microtiter plates. kcat and Km were obtained by fitting to the Michaelis-Menten equation (curve expert version 1.3, http://curveexpert. webhop.biz/).
+
+2-Chloro-4-nitrophenyl b-D-maltoheptaoside
+Initial rates of hydrolysis of Cl-pNPG7 (Merck, Darmstadt, Germany) at eight concentrations (0.25­10 mm) by 2.0­5.2 nm enzyme at 30 °C in 50 mm phosphate pH 6.8, 50 mm KCl, 0.02% NaN3, 3167 nkatÆmL)1 Saccharomyces cerevisiae a-glucosidase, and 50 nkatÆmL)1 almond b-glucosidase (both Sigma) were measured at 405 nm in microtiter plates using 4-nitrophenol as standard. kcat and Km were obtained as above.
+
+Starch granules
+Enzyme (final concentration 4­7 nm) was added to barley starch granules (Primalco, Helsinki, Finland) at 10 concentrations (0.8­400 mgÆmL)1) in 20 mm Na acetate, pH 5.5, 5 mm CaCl2, 0.005% BSA (w / v) agitated (1000 r.p.m.) at 37 °C. Hydrolysis was measured over 25 min as reducing power in supernatants of centrifuged (10 000 g, 5 min, room temperature) aliquots. kcat and Km were obtained as above. The effect of b-CD was determined in parallel.
+
+Standard deviations
+Standard deviations were calculated from triplicate experiments.
+
+Degree of multiple attack Enzyme activity Insoluble blue starch
+Enzyme was added (50 lL, final 1­12 nm) to 5 mg iBS (Amersham Biosciences) in 20 mm Na acetate pH 5.5, 5 mm CaCl2, 0.005% BSA (0.8 mL) and incubated at 37 °C. At 15 min, 0.5 m NaOH (200 lL) was added and after centrifugation (10 000 g, 3 min) the absorbance of the supernatants (300 lL, in duplicate) was measured at 620 nm in a microtiter plate reader (MRX-TC Revelation; Dynex Technologies, Richfield, MN). One enzyme unit is the amount causing an A620 increase of 1. The DMA was determined as described on amylose DP440 (final concentration in 1 mgÆmL)1) dissolved initially in dimethylsulfoxide and diluted with 20 mm Na acetate, 5 mm CaCl2, pH 5.5 to a final 2% dimethylsulfoxide [12]. Enzyme (final concentation 0.1­0.8 nm) was added to the substrate and aliquots were removed at appropriate time intervals guided by loss in iodine blue value [12]. DMA (Eqn 1) was calculated as described: DMA ¼ ðRVt =RVp Þ À 1 ðEqn 1Þ
+
+Amylose
+Initial rates of reducing power formation at six to nine concentrations (0.10­2.50 mgÆmL)1) of amylose DP440 (potato type III, Sigma, St. Louis, MO) by 0.47­1.0 nm enzyme in 20 mm Na acetate, pH 5.5, 5 mm CaCl2, 4% dimethylsulfoxide (w / v), 0.005% BSA (w / v) at 37 °C [10] were deter-
+
+where RVt and RVp are initial rates of reducing power formation in the total digest and in the ethanol-insoluble fraction, respectively [12]. The standard deviation was calculated from at least triplicate experiments.
+
+Surface plasmon resonance
+Enzyme (0.9­1.1 nmol in 30­100 lL) was biotinylated and immobilized on a streptavidin-coated chip, using BIAcore
+
+FEBS Journal 274 (2007) 5055­5067 ª 2007 The Authors Journal compilation ª 2007 FEBS
+
+5063
+
+a-amylase `sugar tongs' mutants
+
+S. Bozonnet et al.
+
+3000 (BIAcore AB, Uppsala, Sweden) at $5 ngÆmL)1 in running buffer [10 mm Mes, pH 6.5, 5 mm CaCl2, 0.005% (v / v) surfactant P20] for 4 min at 10 lLÆmin)1 [15] to reach 2000­3000 response units (RU). Sensorgrams (RU versus time) were recorded of b-CD (12 concentrations, 15 lm)7 mm) binding in running buffer at 30 lLÆmin)1 and 25 °C for 3 min, followed by 3 min dissociation in buffer. RU for a parallel flow cell without enzyme was subtracted and Kd was obtained by steady state affinity fitting analysis (biaevaluation 3.1 software). Experiments were carried out in triplicate.
+
+Binding to starch granules
+Enzyme (final 4­12 nm) was agitated 30 min with starch granules at 10­13 concentrations (0.01­40 mgÆmL)1) in 20 mm Na acetate, pH 5.5, 5 mm CaCl2, 0.005% BSA (w / v) at 4 °C (1000 r.p.m.), and centrifuged (10 000 g, 4 °C, 5 min). Activity on iBS was measured in the supernatant and Kd (Eqn 2) was determined as for cyclodextrin glucosyltransferase [29] where b is the bound enzyme fraction, [S] the starch concentration, and Bmax the maximum fraction of enzyme bound, which was derived by b¼ Bmax Â ½S ½S þ Kd ðEqn 2Þ
+
+° data up to 1.7 A combined with anisotropic B-factor refinement. Due to crystal isomorphism with Y380A, wild-type AMY1 [4] was used as the starting model in a difference Fourier (water molecules and calcium ions were omitted) to solve the structure of Y380A AMY1 / acarbose. Initial rigid body ° refinement included data to 3.5 A resolution; in the remaining refinements a simulated annealing protocol was used ° including data to 2.2 A followed by an isotropic B-factor refinement. Refinements (cns software [53]) were alternated with visual electron density map examination and manual building (graphics software turbo-frodo [54]). R- and R-free factors [55] were monitored to avoid over-refinement; R-free being calculated from a test set of 5% of the reflections randomly selected from all data. Based on inspection of 2Fo-Fc and Fo-Fc maps (contoured at 1 and 3 r, respectively), calcium ions were inserted and water molecules were added, respecting hydrogen-bonding distances and angles. Water molecules at similar positions in the respective structures have the same numbering. Acarbose was manually inserted in the electron density. Model qualities were examined with procheck [56] and whatcheck [57]. Refinement statistics are summarized in supplementary Table S1.
+
+Sequence alignment
+Domain-C sequences from selected a-amylases were aligned using clustalw [58]. Superimposition of secondary structures of AMY1 and rendering was done with the program espript [59].
+
+fitting plots of b versus [S] to a hyperbola (Curve Expert). The effect of b-CD on the binding was analyzed in parallel. Experiments were done in triplicate.
+
+Crystallization and data collection
+Y380A and S378P AMY1 were crystallized at conditions similar to AMY1 [50,51] and acarbose complexes were obtained by soaking and cocrystallization, respectively (see supplementary Table S1). Crystals, 0.5 · 0.02 · 0.01 mm3 (Y380A / acarbose) and 0.3 · 0.02 · 0.01 mm3 (S378P / acarbose), were cryo-protected by soaking a few seconds in mother liquor made up to 10% (w / v) in ethylene glycol and, for Y380A / acarbose, also 10 mm in acarbose. Data were collected at beamline ID14-4 (European Synchrotron Radiation Facility, Grenoble, France). Diffracted intensities were integrated and scaled (xds program package [52]). Crystal parameters and data collection statistics are given in supplementary Table S1.
+
+Acknowledgements
+Sidsel Ehlers, Mette Hersom Bien, Lone Sørensen (Carlsberg Laboratory) and Susanne Blume (Enzyme and Protein Chemistry, BioCentrum-DTU) are gratefully acknowledged for excellent technical assistance, and Peter K. Nielsen and Phaedria St. Hilaire for advice on SPR analysis. Xavier Robert and Maher Abou Hachem are thanked for stimulating discussions. This work was supported by the European Union Fourth Framework Program on Biotechnology (CT980022, AGADE) and Fifth Framework Program `Quality of Life and Management of Living Resources' (QLK3-2001­00149, CEGLYC), the Danish Natural Science Research Council, the Carlsberg Foundation, and a Ph.D. stipend from DTU (to MMN).
+
+Structure determination and refinement
+The S378P / acarbose structure was solved by molecular ° replacement with AMY1 at 1.5 A resolution (Protein Data Bank entry 1HT6) as search model [4], omitting water molecules and calcium ions, and using data in the resolution range ° 15­3.5 A (cns software [53]). Initial rigid body refinement ° included data to 3.5 A resolution; in the remaining refinements a simulated annealing protocol was used extending
+
+References
+1 Coutinho PM & Henrissat B (1999) Carbohydrateactive enzymes: an integrated database approach. In Recent Advances in Carbohydrate Bioengineering (Gilbert HJ, Davies G, Henrissat B & Svensson B, eds), pp. 3­12. The Royal Society of Chemistry, Cambridge, UK.
+
+5064
+
+FEBS Journal 274 (2007) 5055­5067 ª 2007 The Authors Journal compilation ª 2007 FEBS
+
+S. Bozonnet et al.
+
+a-amylase `sugar tongs' mutants
+
+2 Bak-Jensen SK, Laugesen S, Østergaard O, Finnie C, Roepstorff P & Svensson B (2007) Spatio-temporal profiling and degradation of a-amylase isozymes during barley seed germination. FEBS J 274, 2552­2565. 3 Kadziola A, Søgaard M, Svensson B & Haser R (1998) Molecular structure of a barley a-amylase-inhibitor complex: implications for starch binding and catalysis. J Mol Biol 278, 205­217. 4 Robert X, Haser R, Gottschalk TE, Ratajczak F, Driguez H, Svensson B & Aghajari N (2003) The structure of barley a-amylase isozyme 1 reveals a novel role of domain-C in substrate recognition and binding: a pair of sugar tongs. Structure 11, 973­984. ´ 5 Rodenburg KW, Vallee F, Juge N, Aghajari N, Guo X, Haser R & Svensson B (2000) Specific inhibition of barley a-amylase 2 by barley a-amylase / subtilisin inhibitor depends on charge interactions and can be conferred to isozyme 1 by mutation. Eur J Biochem 267, 1019­1029. 6 Jensen MT, Gottschalk TE & Svensson B (2003) Differences in conformational stability of barley a-amylase isozymes 1 and 2: Role of charged groups and isozyme 2 specific salt-bridges. J Cereal Sci 38, 289­300. 7 Søgaard M, Kadziola A, Haser R & Svensson B (1993) Site-directed mutagenesis of histidine 93, aspartic acid 180, glutamic acid 205, histidine 290, and aspartic acid 291 at the active site and tryptophan 279 at the raw starch binding site in barley a-amylase 1. J Biol Chem 268, 22480­22484. 8 Matsui I & Svensson B (1997) Improved activity and modulated action pattern obtained by random mutagenesis at the fourth beta-alpha loop involved in substrate binding to the catalytic (b / a)8-barrel domain of barley a-amylase 1. J Biol Chem 272, 22456­22463. 9 Gottschalk TE, Tull D, Aghajari N, Haser R & Svensson B (2001) Specificity modulation of barley a-amylase through biased random mutagenesis involving a conserved tripeptide in b(r) a loop 7 of the catalytic (b / a)8barrel domain. Biochemistry 40, 12844­12854. 10 Mori H, Bak-Jensen KS, Gottschalk TE, Motawia MS, Damager I, Møller BL & Svensson B (2001) Modulation of activity and substrate binding modes by mutation of single and double subsites +1 / +2 and ­ 5 / )6 of barley a-amylase 1. Eur J Biochem 268, 6545­6558. ´ 11 Bak-Jensen KS, Andre G, Gottschalk TE, Paes G, ¨ Tran V & Svensson B (2004) Tyrosine 105 and threonine 212 at outermost substrate binding subsites )6 and +4 control substrate specificity, oligosaccharide cleavage patterns, and multiple binding modes of barley a-amylase 1. J Biol Chem 279, 10093­ 10102. 12 Kramhøft B, Bak-Jensen KS, Mori H, Juge N, Nøhr J & Svensson B (2005) Involvement of individual subsites and secondary substrate binding sites in multiple attack on amylose by barley a-amylase. Biochemistry 44, 1824­1832.
+
+13 Abou Hachem M, Bozonnet S, Willemoes M, ¨ Kramhøft B, Fukuda K, Bønsager BC, Jensen MT, Nøhr J, Tranier S, Juge N, et al. (2006) Calcium ions, substrate binding surface sites, subsites and domains involved in polysaccharide, oligosaccharide, and protein inhibitor binding and activity of a-amylase. Biocatal Biotransformation 24, 83­93. 14 Rodenburg KW, Juge N, Guo XJ, Søgaard M, Chaix JC & Svensson B (1994) Domain B protruding at the third beta strand of the a / b barrel in barley a-amylase confers distinct isozyme-specific properties. Eur J Biochem 221, 277­284. 15 Nielsen PK, Bønsager BC, Berland CR, Sigurskjold BW & Svensson B (2003) Kinetics and energetics of the binding between barley a-amylase / subtilisin inhibitor and barley a-amylase 2 analyzed by surface plasmon resonance and isothermal titration calorimetry. Biochemistry 42, 1478­1487. 16 Søgaard M & Svensson B (1990) Expression of cDNAs encoding barley a-amylase 1 and 2 in yeast and characterization of the secreted proteins. Gene 94, 173­179. 17 Ajandouz EH, Abe J, Svensson B & Marchis-Mouren G (1992) Barley malt a-amylase. Purification, action pattern, and subsite mapping of isozyme 1 and two members of the isozyme 2 subfamily using p-nitrophenylated maltooligosaccharide substrates. Biochim Biophys Acta 1159, 193­202. 18 MacGregor AW & Balance DL (1980) Hydrolysis of large and small starch granules from normal and waxy barley cultivars by a-amylases from barley malt. Cereal Chem 57, 397­402. 19 Knegtel RM, Strokopotov B, Penninga D, Faber OG, Rozeboom HJ, Kalk KH, Dijkhuizen L & Dijkstra BW (1995) Crystallographic studies of the interaction of cyclodextrin glycosyltransferase from Bacillus circulans strain 251 with natural substrates and products. J Biol Chem 270, 29256­29264. 20 Przylas I, Tomoo K, Terada Y, Takaha T, Fujii K, Saenger W & Straeter N (2000) Crystal structure of amylomaltase from Thermus aquaticus, a glycosyltransferase catalysing the production of large cyclic glucans. J Mol Biol 296, 873­886. 21 Robert X, Haser R, Mori H, Svensson B & Aghajari N (2005) Oligosaccharide binding to barley a-amylase 1. J Biol Chem 280, 32968­32978. 22 Abe A, Tonozuka T, Sakano Y & Kamitori S (2004) Complex structures of Thermoactinomyces vulgaris R-47 a-amylase 1 with malto-oligosaccharides demonstrate the role of domain N acting as a starch-binding domain. J Mol Biol 335, 373­379. 23 Robyt JF & French D (1967) Multiple attack hypothesis of a-amylase action: action of porcine pancreatic, human salivary, and Aspergillus oryzae a-amylases. Arch Biochem Biophys 122, 8­16.
+
+FEBS Journal 274 (2007) 5055­5067 ª 2007 The Authors Journal compilation ª 2007 FEBS
+
+5065
+
+a-amylase `sugar tongs' mutants
+
+S. Bozonnet et al.
+
+24 Breyer WA & Matthews BW (2001) A structural basis for processivity. Protein Sci 10, 1699­1711. 25 Juge N, Nøhr J, Le Gal-Coeffet MF, Kramhøft B, ¨ Furniss CS, Planchot V, Archer DB, Williamson G & Svensson B (2006) The activity of barley a-amylase on starch granules is enhanced by fusion of a starch binding domain from Aspergillus niger glucoamylase. Biochim Biophys Acta 1764, 275­284. 26 Larson SB, Greenwood A, Cascio D, Day J & McPherson A (1994) Refined molecular structure of pig pancre° atic a-amylase at 2.1 A resolution. J Mol Biol 235, 1560­1584. 27 Brzozowski AM, Lawson DM, Turkenburg JP, ° Bisgard-Frantzen H, Svendsen A, Borchert TV, Dauter Z, Wilson KS & Davies GJ (2000) Structural analysis of a chimeric bacterial a-amylase. High-resolution analysis of native and ligand complexes. Biochemistry 39, 9099­9107. 28 Payan F & Qian M (2003) Crystal structure of the pig pancreatic a-amylase complexed with malto-oligosaccharides. J Protein Chem 22, 275­284. 29 Penninga D, van der Veen BA, Knegtel RM, van Hijum SA, Rozeboom HJ, Kalk KH, Dijkstra BW & Dijkhuizen L (1996) The raw starch binding domain of cyclodextrin glycosyltransferase from Bacillus circulans strain 251. J Biol Chem 271, 32777­32784. 30 Skov LK, Mirza O, Sprogøe D, Dar I, Remaud-Simeon M, Albenne C, Monsan P & Gajhede M (2002) Oligosaccharide and sucrose complexes of amylosucrase. Structural implications for the polymerase activity. J Biol Chem 277, 47741­47747. 31 Abe A, Yoshida H, Tonozuka T, Sakano Y & Kamitori S (2005) Complexes of Thermoactinomyces vulgaris R-47 a-amylase 1 and pullulan model oligossacharides provide new insight into the mechanism for recognizing substrates with a-(1,6) glycosidic linkages. FEBS J 272, 6145­6153. 32 Baulcombe DC, Huttly AK, Martienssen RA, Barker RF & Jarvis MG (1987) A novel wheat a-amylase gene (alpha-amy3). Mol General Genet 209, 33­40. 33 O'Neill SD, Kumagai MH, Majumdar A, Huang N, Sutliff TD & Rodriguez RL (1990) The a-amylase genes in Oryza sativa: characterization of cDNA clones and mRNA expression during seed germination. Mol Gen Genet 221, 235­244. 34 Young TE, DeMason DA & Close TJ (1994) Cloning of an a-amylase cDNA from aleurone tissue of germinating maize seed. Plant Physiol 105, 759­760. 35 Mori H, Kobayashi T, Tonokawa T, Tatematsu A, Matsui H, Kimura A & Chiba S (1998) Molecular cloning of an a-amylase gene from germinating cotyledons of kidney bean (Phaseolus vulgaris L. cv Toramame). J Appl Glycosci 45, 261­267. 36 Robert X, Haser R, Svensson B & Aghajari N (2002) Comparison of crystal structures of crystallographic
+
+37
+
+38
+
+39
+
+40
+
+41
+
+42
+
+43
+
+44
+
+45
+
+46
+
+47
+
+48
+
+studies of barley a-amylase 1 and 2: implications for isozyme differences in stability and activity. Biologia 57 / 11, 59­70. ´ Vallee F, Kadziola A, Bourne Y, Juy M, Rodenburg KW, Svensson B & Haser R (1998) Barley a-amylase bound to its endogenous protein inhibitor BASI: crystal ° structure of the complex at 1.9 A resolution. Structure 6, 649­659. Janecek S, Svensson B & MacGregor EA (2003) Relation between domain evolution, specificity, and taxonomy of the a-amylase family members containing a C-terminal starch-binding domain. Eur J Biochem 270, 635­645. Rodriguez-Sanoja R, Oviedo N & Sanchez S (2005) Microbial starch-binding domain. Curr Opin Microbiol 8, 260­267. Giardina T, Gunning AP, Juge N, Faulds CB, Furniss CS, Svensson B, Morris VJ & Williamson G (2001) Both binding sites of the starch-binding domain of Aspergillus niger glucoamylase are essential for inducing a conformational change in amylose. J Mol Biol 313, 1149­1159. Mori H (2006) Identification and manipulation of subsite structure and starch granule binding site in plant a-amylase. J Appl Glycosci 53, 51­56. Mar SS, Mori H, Lee JH, Fukuda K, Saburi W, Fukuhara A, Okuyama M, Chiba S & Kimura A (2003) Purification, characterization, and sequence analysis of two a-amylase isoforms from azuki bean, Vigna angularis, showing different affinity towards b-cyclodextrin sepharose. Biosci Biotechnol Biochem 67, 1080­1093. Oudjeriouat N, Moreau Y, Santimone M, Svensson B, Marchis-Mouren G & Desseaux V (2003) On the mechanism of a-amylase. Eur J Biochem 270, 3871­ 3879. ´ ´ Kandra L, Abou Hachem M, Gyemant G, Kramhøft B & Svensson B (2006) Mapping of barley a-amylases and outer subsite mutants reveals dynamic high-affinity subsites and barriers in the long substrate binding cleft. FEBS Lett 580, 5049­5053. Svensson B, Mundy J, Gibson R & Svendsen I (1985) Partial amino acid sequences of a-amylase isozymes from barley malt. Carlsberg Res Commun 50, 15­22. Sambrook J (1989) Molecular Cloning: A Laboratory Manual. Cold Spring Harbor Laboratory Press, Cold Spring Harbor, NY. Datta AK (1995) Efficient amplification using `megaprimer' by asymmetric polymerase chain reaction. Nucleic Acids Res 23, 4530­4531. Juge N, Andersen JS, Tull D, Roepstorff P & Svensson B (1996) Overexpression, purification, and characterization of recombinant barley a-amylases 1 and 2 secreted by the methylotrophic yeast Pichia pastoris. Protein Expr Purif 8, 204­214.
+
+5066
+
+FEBS Journal 274 (2007) 5055­5067 ª 2007 The Authors Journal compilation ª 2007 FEBS
+
+S. Bozonnet et al.
+
+a-amylase `sugar tongs' mutants
+
+49 Søgaard M, Andersen JS, Roepstorff P & Svensson B (1993) Electrospray mass spectrometry characterization of post-translational modifications of barley a-amylase 1 produced in yeast. Biotechnology 11, 1162­1165. 50 Robert X, Gottschalk TE, Haser R, Svensson B & Aghajari N (2002) Expression, purification and preliminary crystallographic studies of a-amylase isozyme 1 from barley seeds. Acta Crystallogr D Biol Crystallogr 58, 683­686. 51 Tranier S, Deville K, Robert X, Bozonnet S, Haser R, Svensson B & Aghajari N (2005) Insights into the `pair of sugar tongs' surface binding site in barley a-amylase isozymes and crystallization of appropriate sugar tongs mutants. Biologia (Bratisl) 60 / 16, 37­46. 52 Kabsch W (1993) Automatic processing of rotation diffraction data from crystals of initially unknown symmetry and cell constants. J Appl Cryst 26, 795­800. 53 Brunger AT, Adams PD, Clore GM, DeLano WL, ¨ Gros P, Grosse-Kunstleve RW, Jiang JS, Kuszewski J, Nilges M, Pannu NS, et al. (1998) Crystallography & NMR system: a new software suite for macromolecular structure determination. Acta Crystallogr D Biol Crystallogr 54, 905­921. 54 Roussel A & Cambillau C (1989) TURBO-FRODO. In Silicon Graphics Geometry Partner Directory, pp. 77­78. Silicon Graphics, Mountain View, CA. 55 Brunger AT (1992) The Free R value: a Novel Statisti¨ cal Quantity for Assessing the Accuracy of Crystal Structures. Nature 355, 472­475.
+
+56 Laskowski RA, MacArthur MW, Moss DS & Thornton JM (1993) PROCHECK: a program to check the stereochemical quality of protein structures. J Appl Cryst 26, 283­291. 57 Hooft RW, Vriend G, Sander C & Abola EE (1996) Errors in protein structures. Nature 381, 272. 58 Thompson JD, Higgins DG & Gibson TJ (1994) CLUSTAL W: improving the sensitivity of progressive multiple sequence alignment through sequence weighting, position-specific gap penalties and weight matrix choice. Nucleic Acids Res 22, 4673­4680. 59 Gouet P, Courcelle E, Stuart DI & Metoz F (1999) ESPript: analysis of multiple sequence alignments in PostScript. Bioinformatics 15, 305­308.
+
+Supplementary material
+The following supplementary material is available online: Table S1. Crystal data, data collection, and refinement statistics for `sugar tongs' AMY1 mutants in complex with acarbose This material is available as part of the online article from http://www.blackwell-synergy.com Please note: Blackwell Publishing is not responsible for the content or functionality of any supplementary materials supplied by the authors. Any queries (other than missing material) should be directed to the corresponding author for the article.
+
+FEBS Journal 274 (2007) 5055­5067 ª 2007 The Authors Journal compilation ª 2007 FEBS
+
+5067
+
+

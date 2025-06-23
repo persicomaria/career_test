@@ -1,0 +1,391 @@
+The EMBO Journal (2009) 28, 3103­3116 www.embojournal.org
+
+|&
+
+2009 European Molecular Biology Organization | All Rights Reserved 0261-4189/09
+
+THE
+
+EMBO
+JOURNAL
+
+Syp1 is a conserved endocytic adaptor that contains domains involved in cargo selection and membrane tubulation
+Amanda Reider1, Sarah L Barker1, Sanjay K Mishra2, Young Jun Im3, ´ Lymarie Maldonado-Baez1, James H Hurley3, Linton M Traub2 and Beverly Wendland1,*
+1 Department of Biology, The Johns Hopkins University, Baltimore, MD, USA, 2Department of Cell Biology and Physiology, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA and 3National Institutes of Health, Laboratory of Molecular Biology, Bethesda, MD, USA
+
+Internalization of diverse transmembrane cargos from the plasma membrane requires a similarly diverse array of specialized adaptors, yet only a few adaptors have been characterized. We report the identification of the muniscin family of endocytic adaptors that is conserved from yeast to human beings. Solving the structures of yeast muniscin domains confirmed the unique combination of an N-terminal domain homologous to the crescent-shaped membrane-tubulating EFC/F-BAR domains and a C-terminal domain homologous to cargo-binding l homology domains (lHDs). In vitro and in vivo assays confirmed membrane-tubulation activity for muniscin EFC/F-BAR domains. The lHD domain has conserved interactions with the endocytic adaptor/scaffold Ede1/eps15, which influences muniscin localization. The transmembrane protein Mid2, earlier implicated in polarized Rho1 signalling, was identified as a cargo of the yeast adaptor protein. These and other data suggest a model in which the muniscins provide a combined adaptor/membrane-tubulation activity that is important for regulating endocytosis. The EMBO Journal (2009) 28, 3103­3116. doi:10.1038/ emboj.2009.248; Published online 27 August 2009 Subject Categories: membranes & transport; structural biology Keywords: adaptor; endocytosis; F-BAR; mHD; Syp1
+
+Introduction
+Endocytosis is critical for maintaining cell homeostasis and regulating signal transduction and nutrient uptake (Sorkin and von Zastrow, 2002). More than fifty proteins contribute to the formation of clathrin-coated vesicles (CCV), most of which are conserved from yeast to human (EngqvistGoldstein and Drubin, 2003). The study of these proteins'
+*Corresponding author. Department of Biology, The Johns Hopkins University, 144 Mudd Hall, 3400 N. Charles Street, Baltimore, MD 21218 2685, USA. Tel.: þ 1 410 516 0460; Fax: þ 1 410 516 5213; E-mail: bwendland@jhu.edu Received: 18 May 2009; accepted: 31 July 2009; published online: 27 August 2009 & 2009 European Molecular Biology Organization
+
+contributions to CCV formation has greatly accelerated the understanding of the mechanisms of endocytosis. However, the wide array of plasma membrane (PM) protein cargo, and the relatively few with assigned adaptor proteins in the literature, suggests that there are more adaptor proteins that have yet to be identified. The in vivo assembly of clathrin triskelions into coats that surround cargo-loaded membrane vesicles requires assembly factors (Smythe et al, 1992). The Golgi/endosome-associated AP-1 and PM-associated AP-2 complexes were the first such factors to be identified, each composed of four non-identical subunits. The first cargo-binding subunit found was the C-terminal m homology domain (mHD) of the m2 subunit of AP-2; the mHD binds to YxxF (Tyr-any residue-any residuebulky hydrophobic residue) peptide motifs in the cytoplasmic tails of transmembrane cargo proteins (Ohno et al, 1995; Owen and Evans, 1998). Exhaustive genome mining of complete model organism genomes identified proteins with similarity to key domains of the AP complex subunits (Boehm and Bonifacino, 2001). This led to the discovery of the Golgi-localized g-subunit ear containing ARF-binding adaptor proteins, and supported trafficking functions for the stonins (Andrews et al, 1996; Hirst et al, 2000). Adaptors from each known mHDcontaining protein family (m-subunits, stonins, d-COP) bind to transmembrane cargo through the mHD (Jung et al, 2007). N-terminal BAR, N-BAR, and EFC/F-BAR domains are found in proteins that regulate membrane trafficking events by inducing membrane tubulation (reviewed in Itoh and De Camilli, 2006). The N-terminal domain of these proteins dimerizes into a curved structure that binds to liposomes and either senses or induces the curvature of the membrane bilayer to cause biophysical changes to the shape of the bilayer and to recruit other trafficking factors, such as the GTPase dynamin (Tsujita et al, 2006). Most EFC/F-BAR domain-family members localize to actin-rich structures (Qualmann and Kelly, 2000; Tsujita et al, 2006), whereas the protein FBP17 is recruited to clathrin-coated pits just before vesicle scission (Shimada et al, 2007). The closest homologue of FBP17 in yeast is the endocytic protein Bzz1, which also acts just before vesicle scission (Soulard et al, 2002; Sun et al, 2006). Although EFC/F-BAR proteins have been linked to clathrin-mediated endocytosis, this has been convincingly shown only for FBP17 and Bzz1. Syp1 is a poorly characterized yeast protein that has properties consistent with a function in endocytosis. Syp1 was originally identified as a suppressor of a yeast profilin deletion (Marcoux et al, 2000) and later as a suppressor of arf3D (Arf3 is the yeast homologue of Arf6, a mammalian regulator of endocytosis; (Lambert et al, 2007)). Syp1 also binds to septins (Qiu et al, 2008) and has been physically linked with cell polarity factors (Tarassov et al, 2008). Here, we present evidence that Syp1 has a function in endocytosis by binding directly to the endocytic adaptor/
+The EMBO Journal VOL 28 | NO 20 | 2009 3103
+
+Syp1 is a conserved endocytic adaptor A Reider et al
+
+scaffold protein Ede1, and that Syp1 is itself an endocytic adaptor for the transmembrane stress sensor protein Mid2. Analysis of Syp1 structure revealed earlier unrecognized EFC/F-BAR and mHD domains. The EFC/F-BAR domain induces membrane tubulation; the mHD binds directly to the cytosolic tail of the Mid2 cargo protein and mediates Mid2 internalization. Our studies show that Syp1 represents a novel type of endocytic adaptor protein that promotes vesicle tubulation and suggest that Syp1 may contribute to cell polarity and stress responses. We propose that Syp1 is the founding member of a novel family of adaptor proteins, the muniscin proteins, that also includes the human proteins FCHO1/2 and SGIP1.
+
+dissipation of End3-RFP (data not shown), again consistent with the behaviour of Ede1 fluorescent chimeras (Toshima et al, 2006). Further, the normal localization of Syp1-GFP is dependent on Ede1, as the Syp1-GFP patches are broader and less distinct in ede1D cells and show enhanced bud neck localization, whereas Ede1-GFP localization is unaffected in the absence of Syp1 (Figure 1C). Bud necks are polarized sites of bud emergence during G1 and cytokinesis during M phase, suggesting a potential function for Syp1 in directing endocytosis at these sites. Syp1 has a function in endocytosis Many endocytic mutants exhibit reduced growth at elevated temperatures on YPD and high salt media (Whitacre et al, 2001); similar to ede1D cells, these phenotypes were also seen for syp1D cells (Supplementary Figure S2A). Complementation tests with cells expressing Syp1 truncations showed that the conserved N-terminal domain of Syp1, syp11À265, was sufficient for complementing the growth defects of syp1D cells. We next asked whether syp1D cells exhibited defects in endocytosis of the fluid phase marker Lucifer yellow (LY), but obtained variable results that depended on the growth media. A defect in LY uptake was always seen in syp1D cells that were grown in rich media. In contrast, when the same cells were grown in synthetic media, the LY uptake defect was not observed (data not shown), indicating that the LY uptake defect in syp1D cells was growth medium dependent. Instead, we tested whether high copy SYP1 could suppress endocytic defects associated with deletion of EDE1. ede1D cells containing either empty vector, a single copy EDE1 plasmid, or a high copy SYP1 plasmid were incubated with LY for 2 h at 301C, washed, and examined by fluorescence microscopy. As expected, ede1D cells with empty vector showed diminished LY uptake, whereas ede1D cells overexpressing SYP1 showed a statistically significant partial restoration of LY uptake (Figure 2A, right; asterisk), although not to the levels of cells complemented with an EDE1 plasmid. Quantification of the percentage of cells with strong, intermediate, and weak vacuolar signal is presented in Figure 2B. Consistent with the partial suppression of endocytic defects, ede1D cells with high copy SYP1 also showed slightly improved growth at 381C (data not shown). Syp1 contains EFC/F-BAR and lHD domains that are conserved in human homologues Comparison of Syp1 homologues in fungi revealed that regions of highest homology are restricted to the N- and C-terminal domains, with lower homology for the middle region that contains a proline-rich domain (PRD). psi-BLAST searches indicated that the N-terminal domain exhibits earlier unappreciated homology with EFC/F-BAR domains (13% identity) and the C-terminal domain exhibits homology with mHD domains found in m subunits of the AP complexes (15­19% identity, Figure 3A). The human proteins FCHO1 and FCHO2 both contain each of these domains, as well as a centrally positioned PRD, suggesting homology to Syp1. Thus, we propose to name these proteins muniscins for the mHD and meniscus for the crescent-shaped EFC/F-BAR domain; this family is likely to extend beyond the proteins shown in Figure 3A, as BLAST searches identify homologues in other species. The human
+& 2009 European Molecular Biology Organization
+
+Results
+Syp1 directly binds Ede1 and is part of the early coat module Ede1 and eps15 are related endocytic adaptor/scaffold proteins that bind to Asn-Pro-Phe (NPF) tripeptide motif-containing adaptors through their N-terminal eps15 homology (EH) domains (Miliaras and Wendland, 2004). They also bind to ubiquitin-modified cargo proteins through their C-terminal ubiquitin-binding domains (Aguilar et al, 2003). To identify other Ede1 interacting partners, we conducted a yeast two-hybrid screen with the C-terminal domain of Ede1 (aa 843­1381) and identified the C-terminal region of Syp1 (aa 626­870; Figure 1A). This is a direct interaction through aa 1109­1247 of Ede1 and the Syp1 C-terminal region, as seen from a recombinant protein-binding assay with lysates from bacteria expressing GST-tagged sub-fragments of the original Ede1843À1381 piece incubated with beads bound to His6Syp1566À870 (Figure 1A; Supplementary Figure S1). Both Coomassie staining and a western blot with an anti-Ede1 antibody directed against aa 1177­1190 showed that both fragments containing this interval bind the Syp1mHD similarly, suggesting that the weaker signal seen with the anti-His6 antibody for the Ede1969À1247 fragment was due to epitope masking. The interaction is independent of the Ede1 ubiquitin-binding UBA domain (Figure 1A and data not shown) and agrees with a genome-wide TAP-tagged protein complex isolation study (Gavin et al, 2002) that identified a complex between Syp1, Ede1, another endocytic protein, Sla2, and the uncharacterized protein Ydr348c (Wesp et al, 1997; Gagny et al, 2000). Syp1 has an NPF motif in its C-terminus, but the interaction defined here is independent of a predicted Syp1 NPF/Ede1 EH domain interaction, as the interacting Ede1 fragment lacks the EH domains. Thus far, our attempts to identify an EH domain partner for the Syp1 NPF motif have been unsuccessful. Syp1 and Ede1 colocalization was examined by live imaging of yeast cells coexpressing endogenously tagged Syp1-GFP and Ede1-RFP. Both proteins were found together in cortical patches (Figure 1B). Time-lapse analyses showed that the lifetime of Syp1-GFP patches typically exceeded the two-minute span of the experiment, similar to the behaviour of Ede1-RFP and other components of the `early coat complex', as defined earlier (Kaksonen et al, 2005). Cells coexpressing Syp1-GFP and the `late coat complex' protein End3-RFP were also examined. This showed that Syp1-GFP remained immotile at the cell surface in which it dissipated just before the inward movement and B6­8 s before the 3104 The EMBO Journal VOL 28 | NO 20 | 2009
+
+Syp1 is a conserved endocytic adaptor A Reider et al
+
+A
+
+1341
+
+Ede1 EH EH
+
+EH PRD
+
+CC1
+
+CC2
+843
+
+UBA UBA
+870
+
+Y2H bait: Syp1
+
+Y2H prey:
+His6-tagged lysates: GST GST-Syp1566­870 1 2 3 1 2 3
+
+626
+NPF
+
+2
+
+3
+
++ +
+
++ +
+
++ +
+
++ +
+
++ +
+
++ +
+
++ +
+
++ +
+
+Unbound
+
+Ede1 C-term
+
+843
+
+Anti-His Bound 1109 1247 Syp1 binding
+
+Anti-Ede1
+
+1341
+
+UBA
+1247
+
+1 2 3
+B
+Syp1-GFP
+
+1117 969 1109
+Ede1-RFP
+
+Anti-Ede11177­1190
+
+UBA
+Merge
+
+Ede1-RFP
+
+Syp1-GFP 120 s
+
+C
+
+Syp1-GFP (ede1)
+
+Ede1-GFP (syp1)
+
+Figure 1 Syp1 and Ede1 interact directly and colocalize in vivo. (A) Upper: schematic of fragments used in the yeast two-hybrid (Y2H) experiment. EH, EH domain; PRD, proline-rich domain; CC, coiled coil; UBA, ubiquitin-associated domain; NPF, Asn-Pro-Phe tripeptide. Lower: recombinant protein-binding assay with GST or GST-Syp1566À870 bound to glutathione agarose beads incubated with lysates from bacteria expressing His6-tagged fragment of Ede1 as indicated in the schematic, and immunblotted with anti-His6 or anti-Ede11177À1190 antibodies. The black bar encompassing Ede11109À1247 constitutes the minimal-binding domain for Syp1566À870. (B) Upper: colocalization of Ede1-RFP and Syp1-GFP, each expressed from the endogenous gene with an integrated C-terminal fluorescent fusion protein. Lower: kymographs of time-lapse movies showing colocalization and similar dynamics of Ede1-RFP and Syp1-GFP proteins at cortical patches. (C) Localization of Syp1-GFP in ede1D cells and Ede1-GFP in syp1D cells. Images taken by fluorescence microscopy with appropriate filter sets. A full-colour version of this figure is available at The EMBO Journal Online.
+
+neuronal-specific protein SGIP1 (Uezu et al, 2007) does not contain any homology to EFC/F-BAR domains, but does have a PRD and a C-terminal mHD. Before our analyses, the homology of these proteins to mHDs had
+& 2009 European Molecular Biology Organization
+
+been overlooked. An additional region of homology between the FCHO1/2 and SGIP1 proteins was found (green box, Figure 3A) that was not detected in the Syp1 protein.
+The EMBO Journal VOL 28 | NO 20 | 2009 3105
+
+Syp1 is a conserved endocytic adaptor A Reider et al
+
+Figure 2 Syp1 is an endocytic protein. (A) Complementation of LY uptake defect in ede1D þ pRS416 (vector) cells by CEN EDE1 (single copy) and partial suppression by 2mSYP1 (high copy). Cells were incubated with 4 mg/ml LY for 1.5 h at 301C, washed, and examined by fluorescence microscopy with FITC filters. (B) Quantification of LY uptake experiment. For each condition, cells were quantified as strong ( þ ), intermediate (±), or weak/absent (À) vacuolar signal, and the percentage in each category was plotted. ede1D þ vector, n ¼ 107 cells; ede1D þ CEN EDE1, n ¼ 94 cells; ede1D þ 2mSYP1, n ¼ 88 cells; * represents statistical analysis using Fisher's exact test, two-tailed `mid-P' calculation o0.05.
+
+To determine whether the predicted EFC/F-BAR domain of Syp1 is structurally similar to that of other BAR-family ° domains, we determined its structure to 2.4 A resolution by X-ray crystallography (Figure 3B; Table I). The overall structure is a crescent-shaped homodimer. Two monomers related by a two-fold symmetry axis in the crystal interact tightly to form an antiparallel dimer with extensive buried surface area ° of 4000 A2. Consistent with dimer formation, both full-length Syp1 and the EFC/F-BAR domain migrated as dimers by gel filtration (data not shown). The EFC/F-BAR monomer consists of three central helices and six small helices with short connecting loops. The six long helices in the dimer form an ° 80 A-long helical bundle. The small helices cap the two ends of the long helical bundle. The side view of the dimer shows a slightly curved shape with convex and concave surfaces and two small protrusions extending from the concave surface. The Syp1 EFC/F-BAR domain has structural similarity to other EFC/F-BAR domains (Henne et al, 2007; Shimada et al, 2007; Wang et al, 2009) as scored by DALI (Holm and Sander, 1995). The core six helix bundle of 154 amino acids aligns with the structure of the FCHO2 F-BAR domain with an ° r.m.s.d. of 1.26 A (Figure 3C), whereas the extended helix bundle of 212 residues aligns with the structure of the FCHO2 ° F-BAR domain with an r.m.s.d. of 4.5 A. Similar to the FCHO2 EFC/F-BAR domain (Henne et al, 2007), the Syp1 EFC/F-BAR domain has an acidic surface potential on the convex side and a basic surface potential on the concave side (Supplementary Figure S3A), consistent with the concave surface providing a binding site for negatively charged phospholipids in membranes. Although our paper was under revision, the structure of the Pacsin F-BAR domain was published, which showed protrusions (referred to as `wedges') from the concave surface, similar to the Syp1 EFC/F-BAR domain. The Pacsin wedges were found to be somewhat flexible; whether these wedges are flexible domains in the Syp1 EFC/BAR domain awaits further experimentation, as the B-factors are low in this area of our crystal, suggesting that they may be relatively fixed. To test whether Syp1 contains a bona fide mHD, we determined the structure of the Syp1 C-terminal domain ° to 2.8 A resolution by X-ray crystallography (Figure 3D). 3106 The EMBO Journal VOL 28 | NO 20 | 2009
+
+The structure displays a primarily b-strand structure with a slightly bent brick-like organization, which has a similar topology to the earlier solved structure of the AP-2 m2 C-terminal domain (Owen and Evans, 1998). An alignment of the m2 and Syp1 mHDs had an r.m.s.d. of ° 1.58 A (Figure 3E). Surface potential and evolutionary conservation analyses revealed patches of acidic and basic characters (Supplementary Figure S3B); there is an indication of conservation of the basic patch, consistent with basic patches that bind PtdIns(4,5)P2 on the surfaces of other mHDs. However, we did not observe lipid binding for the Syp1 mHD (see below). Together, the structures of these two domains suggest a model in which Syp1 is a cargo adaptor that has intrinsic lipid-tubulation properties. Syp1 binds and tubulates liposomes in vitro The presence of an EFC/F-BAR domain predicts that Syp1 should bind and tubulate membranes. Recombinant Syp1, along with the individual Syp1 EFC/F-BAR and mHD domains, and the region between these domains (middle; aa 265­565) were purified and incubated with negatively charged brain Folch fraction liposomes (Folch and Lebaron, 1956), followed by centrifugation and SDS­PAGE analysis of supernatant and pellet fractions. Under the high salt conditions used in this experiment (to maintain solubility of full-length Syp1), only full-length Syp1 and the middle region bound to the Folch liposomes (Figure 4A). Densitometry results of Coomassie-stained gels from three independent experiments is shown (Figure 4A, right). The liposome binding of the middle region was further mapped to aa 265­365; within this span are two lysine-rich consensus motifs for binding PtdIns(4,5)P2 (Janmey et al, 1992; Yu et al, 1992). As expected, the EFC/F-BAR domain also bound to liposomes when the experiment was conducted at lower salt concentrations (Figure 4B). Increased salt concentration disrupted liposome binding of the EFC/F-BAR domain, consistent with an electrostatic interaction mediating the protein/lipid binding (Figure 4B). To determine whether the concave surface of the Syp1 EFC/ F-BAR domain is responsible for membrane interaction, we mutated a series of lysines in positions that might contribute
+& 2009 European Molecular Biology Organization
+
+Syp1 is a conserved endocytic adaptor A Reider et al
+
+Figure 3 Syp1 has EFC/F-BAR and mHD domains. (A) Human homologues of Syp1; % identity between the Syp1 domain and the human domains is indicated. EFC/F-BAR, extended FCH/FCH-BAR domain; PRD, proline-rich domain; mHD, m-subunit homology domain; green box, region of homology shared by human proteins. (B) Structure of the Syp1 EFC/F-BAR domain dimer. The dimeric module is composed of two monomers (coloured in green and light green) related by two-fold crystallographic symmetry axis in the crystal. The basic Lys residues selected for mutagenesis on the membrane-binding surface are shown in stick models. The pink solid line shows a putative curvature of the membranebinding surface of Syp1. (C) Alignment of the core helical bundles of the EFC/F-BAR domains of Syp1 (green) and FCHO2 (magenta). For the alignment of the central helix bundles, 75 Ca atoms from each monomer were used for superposition (see Materials and methods). (D) Structural model for the Syp1 mHD; the NPF (Asn-Pro-Phe) tripeptide motif is shown in stick models on the right side. (E) Superposition of the mHD domains of Syp1 (green) and m2 subunit of AP-2 (magenta); 154 equivalent residues out of 262 residues in Syp1 mHD were selected for ° superposition, resulting in an r.m.s.d. of 1.58 A.
+
+to binding (Figure 3B). In similar experiments performed on other EFC/F-BAR domains, basic-to-acidic changes near the ends of the dimer reduced lipid binding, presumably because of loss of end-to-end interactions of dimers during tubule formation, whereas basic-to-acidic changes near the centre of the dimer reduced the affinity of membrane association (Shimada et al, 2007). To create a concave surface with a strongly acidic potential, we mutated a patch of three basic residues near the centre, both individually and combined (K37E, K44E, K131E, 3K-E). We also mutated K162E, which is
+& 2009 European Molecular Biology Organization
+
+present at the tips of the Syp1 EFC/F-BAR dimer, and K69E, an adjacent residue to the basic patch (data not shown). These mutations were introduced into the Syp1 EFC/F-BAR domain and expressed as recombinant proteins to test for liposome binding and tubulation. This analysis revealed that, out of the residues tested, only the triple lysine basic patch contributed to the wild-type (WT) levels of membrane binding (Figures 3B and 4B). EFC/F-BAR domains have earlier been shown to mediate membrane tubulation. To explore the possibility that Syp1
+The EMBO Journal VOL 28 | NO 20 | 2009 3107
+
+Syp1 is a conserved endocytic adaptor A Reider et al
+
+tubulates membranes, 100 nm Folch liposomes were mixed with Syp1 protein, at two salt concentrations, and examined by negative stain electron microscopy. Unlike the liposome only controls, both Syp1 and the EFC/F-BAR domain alone
+
+(length 13.5 nm) induced tubulation of the liposomes; the tubules exhibited an average diameter of 18.1±2.2 nm (Figure 4C, data not shown). Earlier published results showed that the FCHO2 EFC/F-BAR dimer (length 19.5 nm)
+
+Table I Statistics of data collection, MIR phasing, and crystallographic refinement Crystal Construct 1 Native Residues Space group, unit cell Heavy atom soaking condition X-ray source ° Wavelength (A) ° Resolution (A) (last shell) Number of unique reflections I/s (last shell) Rsyma (%) Data completeness (%) Phasing Number of sites Isomorphous phasing power RCullis Mean FOM (SOLVE) Overall FOM after RESOLVE Refinement Number of protein atoms Number of waters Number of PEG atoms R factorb (%) Free R factorc (%) ° r.m.s. bond length (A) r.m.s. bond angle (deg) ° Average B-value (A2)d EFC/F-BAR residues 1­250 I222, a ¼ 52.9, b ¼ 98.0, c ¼ 138.6 0.2 M, 10 min CuKa 1.5418 2.4 (2.49­2.40) 14 372 16.0 (4.1) 14.0 (44.1) 99.1 (98.4) CuKa 1.5418 3.0 (3.11­3.00) 7496 26.2 (11.9) 9.1 (16.9) 99.9 (100) 4 0.80 ° 0.37 (50­2.9 A) ° 0.69 (50­2.4 A) 0.65 ° 0.42 (50­3.5 A) ° 0.66 (50­3.5 A) SER-CAT 22-ID 1.0000 2.8 (2.85­2.80) 12 752 46.3 (7.0) 9.2 (37.2) 100 (99.7) NaI derivative Native mHD residues 609­870 P6122, a, b ¼ 134.1, c ¼ 93.7 0.1 mM, 1 day CuKa 1.5418 3.8 (3.94­3.80) 4526 42.7 (14.5) 6.9 (20.8) 90.8 (92.7) 1 0.29 0.79 1 min CuKa 1.5418 3.8 (3.94­3.8) 4924 31.3 (7.7) 10.4 (34.7) 96.8 (98.2) 2 0.52 0.72 3 min CuKa 1.5418 3.5 (3.63­3.50) 5152 47.6 (17.4) 7.6 (20.5) 80.9 (84.1) 2 0.50 0.73 Construct 2 K2PtCl6 derivative Xe derivative 1 Xe derivative 2
+
+2083 203 0 18.9 (19.0) 24.2 (25.8) 0.007 1.1 33.3
+
+2022 11 27 23.2 (33.2) 27.5 (41.1) 0.007 1.4 56.8
+
+The values in parentheses relate to highest resolution shells. a Rsym ¼ ShSi|Ii(h)À/IS|/ShSiIi(h), where I is the observed intensity and /IS is the average intensity of multiple observations of symmetryrelated reflections. b R ¼ S||Fo|Àk|Fc||/S|Fo|, where Fo and Fc are observed and calculated structure factor amplitudes, respectively. c Rfree is calculated for a randomly chosen 5% of reflections; the R factor is calculated for the remaining 95% of reflections used for structure refinement. d Average B-value of all atoms in an asymmetric unit.
+
+Figure 4 Syp1 domains mediate membrane binding in vitro and in vivo. (A) Full-length Syp1 and the N-, middle, and C-terminal domains of Syp1 were tested for binding to liposomes. Upper: Folch liposomes (100 nm diameter) were mixed with Syp11À870 (full-length), Syp11À265 (EFC/ F-BAR), Syp1265À565 (middle), Syp1566À870 (mHD), pelleted, and supernatant versus pellet fractions separated by SDS­PAGE and stained with Coomassie. An identical experiment without liposomes (À) is shown. Lower: same experiment as above, but mapping the liposome-binding site in the middle fragment with Syp1265À365, Syp1366À465, and Syp1466À565. Quantification of three independent experiments is in the graph to the right; average±s.d. are shown. *unpaired t-test P-value ¼ 0.002. (B) Ionic interactions contribute to liposome binding by the Syp1 EFC/FBAR domain. Upper: increasing [imidazole] was mixed with Syp11À265, then tested for binding to liposomes. 10, 20, 40, 80, and 160 mM imidazole-containing buffer was used. Lower: Syp11À265 WT, K37E, K44E, K131E, and K37E/K44E/K131E triple mutant (3K-E) protein was tested for liposome binding as above using 10 mM imidazole-containing buffer. Quantification is in graphs to the right; average±s.d. are shown. (C) Tubulation of Folch liposomes was examined by negative stain EM; 100 nm liposomes were mixed with recombinant Syp1 middle or EFC/F-BAR domain (WT or 3K-E) protein for 1 or 5 min, adsorbed to a carbon-coated grid and stained with uranyl acetate. The average tubule diameter for the WT EFC domain was measured to be 18.1±2.2 nm (n ¼ 91). Scale bar, 200 nm. (D) Requirement of Syp1 domains for proper localization in vivo was tested with truncated proteins fused to GFP at the C-termini. Arrowheads indicate punctate or highly polarized localization of a GFP chimeric protein. Magnified views of Syp11À870-GFP, Syp11À565-GFP, and Syp1566À870-GFP are shown in the insets, noted as ( þ ). The schematic indicates the positions of each truncation, asterisks denote the lysine-rich putative PtdIns(4,5)P2-binding sites. A fullcolour version of this figure is available at The EMBO Journal Online.
+
+3108 The EMBO Journal VOL 28 | NO 20 | 2009
+
+& 2009 European Molecular Biology Organization
+
+Syp1 is a conserved endocytic adaptor A Reider et al
+
+induces tubules with a diameter of B25 nm (Henne et al, 2007); this is consistent with the muniscin family of adaptors forming tubules with slightly larger diameters than the length of their EFC/F-BAR domains. The Pacsin F-BAR domain with wedge motifs that resemble those in Syp1 also shows 18 nm tubules (Wang et al, 2009). In contrast, the mHD and membrane-binding middle domain, which contain no EFC/F-BAR
+
+domains, as well as the EFC/F-BAR3K-E mutant, did not show tubulation (Figure 4C and data not shown). Interestingly, the EFC/F-BAR3K-E mutant also failed to complement the growth defects of syp1D cells at elevated temperatures (Supplementary Figure S2B), indicating that the EFC/F-BAR3K-E mutant abrogates a physiologically important interaction that could contribute to the domain's
+
+Liposomes +
+
+S
+
+P
+
+S
+
+P
+
+S
+
+P
+
+S
+
+P
+
+50 000
+
+40 000
+
+- Syp1 S + - aa 265 ­365 Liposomes + [salt]: 10 mM S + - WT Middle (5 min) K37E K44E K131E EFC (1 min) 3xK-E P 20 mM S P 40 mM S P 80 mM S P 160 mM S P S P S aa 366­465 P S aa 466­565 P S P S P P EFC/F-BAR S P Middle S P muHD
+
+Arbitrary binding units
+
+30 000
+
+20 000
+
+10 000
+
+Liposomes:
+
+0
+
+- +
+Syp1
+
+- +
+EFC
+
+- +
+Middle
+
+- +
+HD
+
+- +
+
+- +
+
+- +
+466 ­ 565
+
+265­365 366 ­465
+
+50 000 Arbitrary binding units (×10 )
+3
+
+50 40 000 40 30 20 10 0 120 0 20 40 80 [Imidazole] (mM) 160
+
+Arbitrary binding units
+
+*
+
+30 000
+
+20 000
+
+10 000
+
+Liposomes: - +
+
+0
+
+EFC: EFC3xK-E(5 min)
+
+WT
+
+- + - + - + - + K37E K44E K131E 3K-E
+
+265 300 365
+
+527 566
+
+Syp1 1­870
+
+EFC/F-BAR
+
+*
+
+*
+
+PRD 265­527 middle
+
+HD
+
+870 566­870 HD
+
+1­265 EFC/F-BAR
+
+1­300
+
+1­365
+
+1­565
+
+566­870 (ede1)
+
+& 2009 European Molecular Biology Organization
+
+The EMBO Journal
+
+VOL 28 | NO 20 | 2009 3109
+
+Syp1 is a conserved endocytic adaptor A Reider et al
+
+lipid-binding and tubulation functions. Thus, the Syp1 EFC/ F-BAR has similar tubulation activity as other EFC/F-BAR proteins; further, lysines 37, 44, and 131 on the concave surface are not required for, but contribute to lipid binding, and are absolutely essential for both tubulation in vitro and function in vivo. Syp1 in vivo localization requires both EFC/F-BAR and lHD domains To better understand in vivo domain function, we asked which regions of Syp1 contribute to protein localization. GFP-tagged C-terminal truncations of Syp1 expressed from the endogenous promoter were generated as chromosomal integrations or as plasmids transformed into syp1D cells, and the resultant yeast strains were examined by fluorescence microscopy. Thus, in all cases, the fluorescently labelled fulllength Syp1 or Syp1 fragments replace the endogenous Syp1 protein in the cells. As expected, full-length Syp1-GFP localized to cortical patches and bud necks; in contrast, none of the individually tagged EFC/F-BAR, middle, or mHD domains recapitulated the normal punctate localization of Syp1 at the PM (Figure 4D, top row). Localization of the EFC/F-BAR-GFP chimera seemed largely cytosolic, suggesting that the membrane-binding activity of the EFC/F-BAR domain itself is insufficient for stable cortical interactions in vivo. However, the EFC/F-BAR domain alone can complement the growth defects of syp1D cells (Supplementary Figure S2), suggesting that this region retains some function in vivo. Consistent with this, photobleaching experiments and examination by confocal microscopy with a high sensitivity camera revealed a small transient pool of PMassociated EFC/F-BAR-GFP (Supplementary Figure S6). The mHD-GFP also seemed to be contained primarily in the cytosol, but showed some faint cortical punctae (arrowheads) that depended on Ede1 for localization (Figure 4D). There was no bud neck localization seen for any of the constructs lacking the mHD, suggesting that the mHD is necessary for localization of Syp1 to the bud neck. The middle domain alone showed both a cytosolic and an evenly distributed PM localization (lacking punctae), suggesting that although this region harbours efficient lipid bilayer interaction, it is not sufficient for localization to peripheral patches. Syp11À565-GFP, which comprises the EFC/F-BAR and middle domains, but lacks the Ede1-binding mHD, localized to less-defined PM patches that were similar to those seen with Syp1-GFP in ede1D cells (Figures 1C and 4D). Syp11À565-GFP also frequently showed highly polarized localization to bud tips (arrowheads, Figure 4D). Syp11À365-GFP, which contains both the EFC/F-BAR domain and the middle region subfragment that efficiently bound liposomes (possibly through two putative PtdIns(4,5)P2-binding sites; asterisks in schematic) showed a PM distribution similar to that of Syp11À565GFP, but lacked the polarized localization to bud tips. The shorter Syp11À300-GFP truncation lacking the second putative PtdIns(4,5)P2-binding site seemed to be almost entirely cytosolic (Figure 4D). This suggests that either both or just the second putative PtdIns(4,5)P2-binding site, together with the EFC/F-BAR domain, is necessary for efficient Syp1 localization to less-defined PM patches, and further supports the idea that the EFC/F-BAR domain has in vivo activity. Together, these data are consistent with the notion that the mHD-Ede1 interaction works in concert with the other 3110 The EMBO Journal VOL 28 | NO 20 | 2009
+
+domains of Syp1 to contribute to the normal patch distribution of Syp1-GFP. The mHD seems to be required for bud neck localization and this, together with the fact that in ede1D cells more Syp1 is seen at the bud necks (Figure 1A), suggests that there may be a competition for mHD binding between Ede1 and other bud neck factors such as the septins (Qiu et al, 2008). The middle domain has at least two important functions: aa 365­565 that contain the PRD that are necessary for polarized localization of Syp1 to bud tips seen with the Syp11À565-GFP protein, and aa 300­365 contribute to PM localization. The EFC/F-BAR domain, along with the lipidbinding region of the middle domain, is required to localize Syp1 to indistinct PM patches, whereas the full PM punctate localization is only observed on the addition of the remaining middle domain and mHD.
+
+lHD domains of Syp1 and FCHO1 bind eps15 The interaction between the C-termini of Syp1 and Ede1 is analogous to a reported interaction between the C-termini of SGIP1 and eps15 (Uezu et al, 2007). To further explore the functional conservation of the C-termini of Syp1 and FCHO1/2, we asked whether the FCHO1 mHD binds the C-terminus of eps15. Recombinant GST-tagged FCHO1 and SGIP1 mHDs were immobilized, incubated with brain extract, washed, and analysed by SDS­PAGE with Coomassie staining and immunoblotting. As expected, eps15 bound to SGIP1 and to FCHO1 (Figure 5A). A competition experiment using an excess of recombinant soluble eps15 C-terminal fragment (aa 594­896; ` þ ' lanes in Figure 5A) confirmed that the interaction between FCHO1 and SGIP1 with eps15 occurs through this C-terminal region. Intriguingly, the Syp1 mHD also bound to eps15, suggesting that a common region between eps15 and Ede1 may constitute the binding site for these mHDs (Figure 5B). More refined mapping studies to determine whether Ede1 and eps15 share a binding motif are currently underway. Together, these results reinforce the functional conservation between members of this new protein family.
+
+Figure 5 mHDs of FCHO1 and Syp1 bind eps15. (A) Approximately 200 mg of GST (lanes a, b), GST-FCHO1 mHD (lanes c­f) or GSTSGIP1 mHD (lanes g­j) immobilized on beads was incubated with clarified rat brain cytosol in the absence or presence (lanes e, f, i, j) of 25 mM eps15 (594­896) polypeptide as indicated. Aliquots of each supernatant (S) and washed pellet (P) were resolved by SDS­ PAGE, transferred to nitrocellulose, and probed with anti-eps15 antibodies; only the relevant portions are shown. The eps15 competitor peptide and a degradation product (open arrowheads) are shown. Two non-specific bands detected by the antibody are indicated (asterisks). (B) Approximately 200 mg of GST (lanes a, b) GST-FCHO1 mHD (lanes c­d) or GST-Syp1 mHD (lanes e­f) immobilized on beads was incubated with clarified rat brain cytosol and analysed similarly.
+& 2009 European Molecular Biology Organization
+
+Syp1 is a conserved endocytic adaptor A Reider et al
+
+Mid2 is a cargo for the Syp1 lHD A recent paper testing for genome-wide in situ protein­ protein interactions in yeast identified several transmembrane proteins as potential interaction partners with Syp1; one of these is the type I TMD protein Mid2 (Tarassov et al, 2008). Interestingly, similar to Syp1, Mid2 is also a high copy suppressor of profilin mutant yeast (Marcoux et al, 2000). To test whether Mid2 trafficking depends on Syp1, a chromosomal Mid2-GFP chimera was introduced into WT cells, in which Mid2-GFP localized almost exclusively to the PM with only a faint vacuolar signal (Figure 6A). Under the conditions tested, syp1D showed a similar phenotype as WT cells, having almost complete PM localization of Mid2-GFP (data not shown). This suggests a slow rate of constitutive endocytosis of Mid2-GFP; we reasoned that if elevated levels of its adaptor increased Mid2-GFP endocytosis, then the vacuole would accumulate lumenal GFP fluorescence. Consistent with this prediction, WT Mid2-GFP cells expressing B10­20-fold increased levels of Syp1 using a high copy plasmid showed a clear vacuolar accumulation of fluorescence, whereas high copy syp1DmHD or YAP1802 did not (Figure 6A and data not shown), indicating that the increased vacuolar GFP signal seen with overexpression of Syp1 is dependent on
+
+the presence of the mHD. A direct interaction between the Syp1 mHD and the cytosolic tail of Mid2 was confirmed in recombinant binding experiments, and point to the sorting motif in Mid2 being contained within aa 251­316 (Figure 6B; Supplementary Figure S4), which maps to the region just adjacent to the PM. These data are consistent with the notion that the mHD of Syp1 interacts directly with Mid2 to mediate its endocytosis. Endocytic cargo such as Ste3-GFP and Ste6-GFP shows low levels of PM signal and accumulate high levels of GFP in the vacuole lumen after their constitutive endocytosis (Baggett et al, 2003a); Ste2-GFP, which shows ligand-dependent internalization, has a slower constitutive rate of endocytosis (Yesilaltay and Jenness, 2000). Both WT and syp1D cells expressing a chromosomal Ste6-GFP chimera showed normal endocytosis of the marker (Supplementary Figure S5A). In addition, WT Ste2-GFP cells containing a high copy plasmid expressing either SYP1 or syp1DmHD did not show changes in PM or vacuolar fluorescence (Supplementary Figure S5B). Together, all of these results indicate that the adaptor Syp1 has cargo specificity and that its expression does not affect the internalization of the nonMid2 cargos tested here.
+
+Vector Mid2-GFP
+
+OE SYP1
+
+OE syp1HD
+
+DIC
+
+1 Mid2 Mid2 cytoplasmic domain 251 251 * 376 His6-Mid2 lysates: GST GST-Syp1566­870 31 kDa His6-Mid2251­376 21 kDa 14 kDa Unbound Bound His6-Mid2317­376 His6-Mid2251­316 251- 376 + + 251- 316 + + 317- 376 + + 251 Syp1 binding 376 316 317 251- 376 + + 251- 316 + + 317- 376 + + 376
+
+*
+
+Figure 6 Mid2 is a Syp1 cargo. (A) Localization of Mid2-GFP in WT cells expressing high copy empty vector, SYP1 or syp1DmHD was examined by fluorescence microscopy. (B) Lysates with recombinant His6-Mid2 cytosolic tail (aa 251­376, aa 251­316, aa 317­376) were incubated with bead-immobilized GST or GST-Syp1 mHD, washed, and lysates versus bound fractions separated on 12­20% SDS­PAGE and immunoblotted with anti-His6 antibodies.
+& 2009 European Molecular Biology Organization The EMBO Journal VOL 28 | NO 20 | 2009 3111
+
+Syp1 is a conserved endocytic adaptor A Reider et al
+
+FCHO1 is an endocytic protein To determine whether FCHO1 is an endocytic protein, we assessed its localization in HeLa cells by transient transfection of a GFP-FCHO1 plasmid and immunolabelled for other endocytic markers. GFP-FCHO1 colocalized with both clathrin and AP-2 at CCPs at the ventral cell surface (Figure 7, top row), consistent with an ability to function in endocytosis. As expected, based on the FCHO1 mHD-binding eps15 in vitro, we found that GFP-FCHO1 and eps15 colocalize in vivo (Figure 7, bottom left). However, unlike what was found with the N-terminus of the SGIP1 protein, the overexpressed GFP-FCHO1 protein did not appear to induce tubule formation in cells. In cells expressing higher levels of GFP-FCHO1, some of the endocytic pits appeared larger and brighter than non-transfected cells, suggestive of the `arrested endocytic phenotype' reported for cells lacking the dynamin proteins (Hayashi et al, 2008). Unlike the more moderate overexpression typical of yeast high copy vectors, overexpression of endocytic proteins by B50­100-fold using transient transfection approaches in mammalian cells often leads to a reduction in the internalization of endocytic cargo; thus, we examined the internalization of both the fluorescently labelled endocytic ligand transferrin and the LDL receptor in GFP-FCHO1-expressing cells (Figure 7 and data not shown). Fluorescently labelled ligands were incubated with the transfected cells on ice for 60 min, warmed to 371C for varying times, fixed, and examined by fluorescence microscopy. For both of these constitutively endocytosed cargos, internalization was clearly slowed in the GFP-FCHO1-expressing cells. The GFP-FCHO1 transfected cells also exhibited a diffuse
+
+surface LDL receptor population and colocalization of receptors and the FCHO1 surface puncta, suggesting that the receptors accumulated at cell surface endocytic pits (Figure 7, bottom right). Together, the data are consistent with FCHO1 acting as a bona fide component of the endocytic machinery.
+
+Discussion
+Syp1 and its homologues FCHO1/2 and SGIP1 are strong candidate endocytic adaptor proteins in yeast and mammalian cells, based on the presence of earlier unrecognized mHDs at their C-termini. This is significant, as identifying novel endocytic cargo adaptors is the first step towards understanding the regulation and subcellular localization of bioactive transmembrane proteins. Epsin is another membrane-tubulating cargo adaptor (Chen et al, 1998; Wendland et al, 1999; Ford et al, 2002), but the muniscins are the first instance of proteins with both EFC/F-BAR and mHD domains. Function for Syp1 in early endocytic events The mHD of Syp1 binds to both cargo and the early coat complex component Ede1; thus, the early recruitment of Syp1 is indicative of a protein that may contribute to the stabilization of the nascent clathrin-coated pit (Ehrlich et al, 2004; Toshima et al, 2006). The only other protein currently known to display such early nascent endocytic patch recruitment is clathrin (Kaksonen et al, 2005), putting Syp1 in the company of other proteins that together may initiate the formation of an endocytic site.
+
+GFP-FCHO1 clathrin
+
+GFP-FCHO1 AP-2 
+
+GFP-FCHO1 eps15
+
+GFP-FCHO1 LDL receptor 10 min
+
+Figure 7 FCHO1 localization and function indicates that it is an endocytic protein. Top row and bottom left: representative images of fixed HeLa cells transiently transfected with GFP-FCHO1, stained for clathrin, AP-2 (a subunit), and eps15 as indicated. Bottom right: transiently transfected cells were incubated on ice with anti-LDL receptor mAb IgG-C7 for 60 min before warming to 371C as indicated. The accumulation of LDL receptors over the PM and in a diffuse form in GFP-FCHO1-expressing cells can be seen. Scale bar, 10 mm.
+
+3112 The EMBO Journal VOL 28 | NO 20 | 2009
+
+& 2009 European Molecular Biology Organization
+
+Syp1 is a conserved endocytic adaptor A Reider et al
+
+The mHDs of the Syp1 family show conserved interactions with the scaffold/adaptor proteins Ede1/eps15, presumably through a distinct surface from the Mid2 cargo-binding site. Similar distinct interactions for the m2 subunit have been found for synaptotagmin and PtdIns kinases (Krauss et al, 2006). Thus, there is precedent for a single mHD having multiple interactions, which in turn can regulate the productive assembly of the endocytic machinery. The relatively mild phenotypes of syp1D cells could be in part because of a specific subset of cargo that require Syp1 for efficient internalization and to the conditions under which the assays are being conducted. Further, it is known that individual cargo proteins can interact with multiple adaptors in mammalian cells (Li et al, 2002); if the same is true for yeast, then some physiologically important cargo that can use Syp1 as an adaptor may have alternate means for efficient sorting into endocytic vesicles. Function for Syp1 in late endocytic events In addition to its function in selecting cargo, the membranetubulation activity of the EFC/F-BAR domains of the Syp1family members and other EFC/F-BAR proteins are consistent with this activity functioning at later stages of the endocytic process, when a narrow vesicle neck is forming and preparing for scission. In fact, the narrow tubules formed by Syp1 are close to the critical diameter for scission (Bashkirov et al, 2008), and we have preliminary evidence consistent with the report on the Pacsin F-BAR domain (Wang et al, 2009) that the Syp1 EFC/F-BAR domain may mediate vesiculation. However, as we do not observe inward movement of C-terminally GFP-tagged Syp1, if Syp1 indeed functions in vivo during these later stages, this proposed tubulation/ vesiculation activity may need to be restricted to the site in which the neck meets the PM. Alternatively, the unstructured domain that separates the EFC/F-BAR domain from the mHD is long enough to allow the tubulation and potential vesiculation activity to be located further down the tubule, unmarked by C-terminal GFP movement. Finally, some residual Syp1 may in fact move inward, but is below the detection limits of our microscope. We were intrigued by the effects of the 3K-E mutation on the concave surface of the EFC/F-BAR domain, which yielded slightly reduced liposome binding, but abrogated the membrane-tubulation activity and rescue of syp1D cell growth at elevated temperatures. Similar results were seen with an A­D mutation in an amphiphathic helix on the concave surface of the endophilin-A1 BAR domain (Masuda et al, 2006). We speculate that the 3K-E mutation in the Syp1 EFC/ F-BAR domain affects tubulation, perhaps by destabilizing the en face membrane association such that lateral associations to produce larger assemblies cannot form. Alternatively, a strong charge-based interaction mediated by the lysine residues could pull the domain down towards the membrane bilayer to disturb the local phospholipid packing and thus promote tubulation, possibly by using the protrusion/wedge motifs. In a recent study, the Conibear laboratory found that syp1D cells exhibit reduced endocytosis of the v-SNARE Snc1 (Burston et al, 2009). This same study identified Syp1 as a member of a functionally related cluster of endocytic factors that also includes Bzz1 and Lsb3; interestingly, Bzz1 also has an EFC/F-BAR domain at its N-terminus. Other yeast proteins
+& 2009 European Molecular Biology Organization
+
+implicated in endocytosis share related N-terminal domains (e.g. Hof1, Rvs161, Rvs167); Syp1 may have overlapping functions with these factors or have an influence on their recruitment or localization, particularly with the amphiphysin-like Rvs proteins that are proposed to participate in vesicle scission (Kaksonen et al, 2005). Genetic analyses are underway to investigate this possibility. Further, each of these proteins has been linked to actin binding/regulation, as have other EFC/F-BAR proteins (Itoh et al, 2005; Takano et al, 2008; Robertson et al, 2009). Regulating early versus late activities of Syp1 during endocytosis As Syp1 is among the earliest arriving endocytic factors, we predict that the putative late-acting-tubulation activity of the Syp1 EFC/F-BAR domain will be inhibited by trans-acting factors at early stages of endocytosis. For both Pacsin and TOCA-1, the C-terminal SH3 domains are thought to regulate the F-BAR domain activity (Takano et al, 2008; Wang et al, 2009). Similarly for Syp1, we speculate that cargo binding and Ede1/eps15 binding through the C-terminal mHD and/or interactions with the middle domain may regulate the membrane-tubulation activity of the EFC domain in vivo. In addition, similar to other domains that are better known for lipid binding, the EFC/F-BAR domain may also have protein partners that work with the domain directly to mediate its functions (Aguilar et al, 2006; Roberts-Galbraith et al, 2009). The middle region of Syp1 is likely to be disordered, based on both sequence analysis (using the DISOPRED server) and an assay in which recombinant middle region protein fragments remained soluble after boiling (data not shown; Kalthoff et al, 2002). This suggests that the two structurally defined domains of Syp1 are separated by a linker whose primary function is strong membrane interaction and/or binding PRD partners. Although the functions of the N- and C-terminal domains of Syp1 could be independent, we favour a model in which the flexible middle region coordinates the functions of the two domains. Alternatively, it could act as a spacer to segregate distinct functions to the PM versus the tubule. The Syp1 middle region also has two consensus sites for phosphorylation by the endocytic protein kinase Prk1 at Thr577 and Thr588; perhaps the stimulation of Prk1 late in endocytosis also contributes to regulation of Syp1 function (Huang et al, 2009). It is intriguing to speculate that the region of conservation between FCHO1, FCHO2, and SGIP1 (green box, Figure 1C) could promote membrane interaction, as was shown for the N-terminal region of SGIP1 (Uezu et al, 2007). Consistent with this idea, the homologous regions of FCHO1 and FCHO2 are in an analogous position to the potent membrane-binding activity region in the middle of the Syp1 protein, and these regions may enhance the in vivo activities of the adjacent EFC/F-BAR domain. Functions for Syp1 in polarity Syp1 interacts with the septin proteins at the necks of budding yeast (Qiu et al, 2008); consistent with this, we noted an enhanced bud neck localization of Syp1-GFP in ede1D cells, suggesting that there may be a competition between Ede1 and septins for binding to Syp1. Thus, Syp1 could be a multi-functional protein that not only contributes
+The EMBO Journal VOL 28 | NO 20 | 2009 3113
+
+Syp1 is a conserved endocytic adaptor A Reider et al
+
+to the endocytic process, but also to events that occur at the neck during budding and/or cytokinesis. Alternatively, Syp1 could fulfil similar functions at endocytic patches both at the bud and at the bud neck, bringing in some of the endocytic machinery that is thought to contribute to the process of cytokinesis (Montagnac et al, 2008). Consistent with a potentially central function for Syp1 (and perhaps its homologues) in the polarized processes of endocytosis and cytokinesis, a recent study identified numerous Syp1-binding partners using a genome-wide in situ protein-interaction strategy and found an enrichment of septins and septin regulators, along with exocytic-, endocytic-, and cell polarity-related proteins (Tarassov et al, 2008). Our data indicate that Syp1 is an endocytic adaptor for Mid2, which is required for viability during the polarized process of yeast mating (Ono et al, 1994). Mid2 interacts with the cell wall and also activates the Rho1 GTPase by binding the Rho1 GEF Rom2 (Philip and Levin, 2001). Consistent with the view that the mammalian Syp1 homologues are also endocytic adaptors, FCHO1 has been reported to interact with the activin receptor, a type I TGF-b receptor (Barrios-Rodiles et al, 2005). Interestingly, TGF-b can stimulate a Rho-dependent actin polarization pathway (Edlund et al, 2002), perhaps suggesting a common function for all muniscin adaptors in regulating Rho-mediated polarity events. In summary, our findings have uncovered a new family of endocytic adaptors with membrane-tubulation activity that associate with transmembrane cargo proteins. Our working model for Syp1 function in endocytosis is as follows: Syp1 is recruited to nascent endocytic sites through interactions with membranes, cargo, and Ede1; as vesicle formation proceeds, the EFC/F-BAR domain interacts with the highly curved negatively charged membranes, ultimately assisting in the vesicle scission process by stimulating the formation of narrow tubules. Tests of this model for both Syp1 and the human homologues will lead to a greater appreciation for cargo selection and endocytic vesicle formation mechanisms.
+
+20 mM HEPES, 30 mM NaCl 0.1% Tween 20 (with AEBSF (0.1 mM) and complete EDTA-free protease inhibitor cocktail (Roche)). Lysates made by lysozyme treatment and sonication were centrifuged at 41C for 30 min at 26 000 g. For His6-tagged protein purification, the protein lysates were incubated with Talon metal affinity resin (Clontech) with 5 mM imidazole for 2 h at 41C. The beads were washed with increasing concentrations of imidizole (10­30 mM) and proteins eluted with 500 mM imidazole in 20 mM HEPES, 30 mM NaCl. As necessary, purified proteins were concentrated using 10 000 or 30 000 MWCO Amicon Ultra centrifugal filter devices (Millipore), or buffer exchanged using protein desalting spin columns (Pierce). All buffers were pH 7.6. Binding assays For Figures 1A and 6B, Supplementary Figures S1 and S4, GSTtagged protein lysates were incubated with glutathione agarose beads (Molecular probes) for 2 h at 41C, washed with 20 mM HEPES, 30 mM NaCl, mixed with His6-tagged protein lysates for 2 h at 41C, and washed before adding SDS­PAGE sample buffer. For Figure 5A and B, assays were as described (Mishra et al, 2005). Approximately 200 mg of GST, GST-FCHO1 mHD (human aa610­889), GST-SGIP1 mHD (mouse aa501­806), or Syp1 mHD (aa566­870) were bound to glutathione-Sepharose, then incubated with rat brain cytosol at 41C for 1 h in the absence or presence of the eps15 C-terminal fragment (aa594­896). After sedimenting the beads, an aliquot of supernatant was kept and the beads were washed before resuspension in SDS­PAGE sample buffer. Supernatant and pellet fraction were resolved by SDS­PAGE, transferred to nitrocellulose, and immunoblotted with mouse antiHis6 or anti-Ede1 antibody (Figures 1A and 6B), or affinity-purified anti eps15 antibodies (Figure 5A and B). Horseradish peroxidase secondary antibodies and the Supersignal Chemiluminescent detection system (Pierce) was used for visualization. Liposome-binding assay Folch fraction liposomes were prepared by mixing 1 mg Folch fraction I brain lipids (Sigma) in 3:1 chloroform:methanol with 5 ml rhodamine PE and dried under N2 stream. After rehydration in 150 ml 0.3 M sucrose, 1 ml water was added; the mixture was ultracentrifuged at 213 000 g for 30 min at 41C, and the supernatant removed. The pellet was exposed to five rounds of freeze thaw in liquid nitrogen, resuspended in 1 ml of liposome buffer (20 mM HEPES, 150 mM NaCl), and extruded through 100 nm pore filters. Purified recombinant His6-tagged proteins (60 mg) were incubated with 100 ml liposomes in 200 ml total volume of 120 mM imidazole, 20 mM HEPES, 125 mM NaCl (Figure 4A), or 10 mM imidazole, 20 mM HEPES, 125 mM NaCl (Figure 4B) for 30 min at RT, and pelleted at 259 000 g for 30 min at 41C. The liposome pellets were then rinsed with liposome buffer, and resuspended in 20 ml SDS sample buffer. Supernatant and pellet fractions were resolved by SDS­PAGE and stained with GelCode Blue Stain Reagent (Pierce). Quantification of binding assays Images of GelCode blue-stained gels were captured using an Alpha Innotech Fluorochem 8000 with a 16-bit camera. Images were quantified using Fluorochem V.2.0 software with the Spot Denso application. Statistical analyses Statistical analyses for the LY and liposome-binding experiments were completed using GraphPad Software (http://www.graphpad. com/quickcalcs). LY results were examined for significance using a two-tailed Fisher's exact test, whereas the liposome-binding results were analysed using a two-tailed unpaired t-test. EM liposome vesiculation/tubulation assay Purified recombinant His6-tagged proteins (0.3 mg/ml) were incubated with liposomes in 7.5 mM imidazole, 20 mM HEPES, 125 mM NaCl (Figure 4C) or 75 mM imidazole, 20 mM HEPES, 125mMNaCl (Supplementary Figure S4D) at 251C from 1 to 5 min, absorbed onto carbon-coated EM grids, washed with water, and stained with 2% uranyl acetate. Dried grids were examined on an FEI Tecnai 12. Morphometry on the liposome-tubulation experiments was performed using the iTEM application from Soft Imaging Systems.
+& 2009 European Molecular Biology Organization
+
+Materials and methods
+Strain and plasmids Strains and plasmids are in Supplementary Table S1. Yeast cells were grown in standard rich (yeast extract-peptone) or synthetic medium (yeast nitrogen base with amino acids for plasmid selection) and 2% dextrose. For yeast kanamycin resistance selection, 250 ug/ml of geneticin (G418, Gibco) was used in rich medium. Bacteria were grown in LB with 50 ug/ml carbenicillin, 30 ug/ml kanamycin, and/or 34 ug/ml chloramphenicol, as appropriate. Materials were from Fisher Scientific Co. or Sigma Chemical Co. unless stated. Yeast strain construction and growth conditions C-terminal GFP fusions and gene deletions were generated by chromosomal integration of PCR products (Longtine et al, 1998). DNA cloning used standard techniques; T4 DNA polymerase mediated ligations in E. coli or homologous recombination followed by plasmid rescue in Saccharomyces cerevisiae. Lys to Glu substitutions used the Quickchange XL mutagenesis kit (Stratagene). Protein purification His6- and GST-tagged proteins were purified from Rosetta cells (Novagen) transformed with pET28a- or pGEX-derived plasmids. Cells were induced with 0.3 mM IPTG for 5 h at 301C or 0.1 mM IPTG for 8 h at 231C, harvested, frozen (À801C), and resuspended in
+
+3114 The EMBO Journal VOL 28 | NO 20 | 2009
+
+Syp1 is a conserved endocytic adaptor A Reider et al
+
+Yeast two hybrid A two-hybrid screen (Phizicky and Fields, 1995) was performed by transforming the FRYL library (Fromont-Racine et al, 1997) into the AH109 strain containing pBW645 (LexA-DBD-Ede1843À1381) and plating on YNB-LEU-HIS. Approximately 100 000 transformants were screened for activation by replica plating onto YNB-ADE. For positive clones, the library plasmids were rescued and confirmed by retransformation and then sequenced. LY uptake LY uptake assays were performed as earlier described (Baggett et al, 2003b). Light microscopy LY uptake images were taken on a Zeiss Axiovert-200 microscope equipped with a Sensicam digital camera, and Slidebook 4.2 software (Intelligent Imaging Innovations, Denver, CO). The photobleaching experiment used a Zeiss 510 confocal microscope and avalanche photodiodes, with 0.7 mm Airy unit section thickness. All other fluorescent images were taken with a 3i Marianas microscope with a Zeiss alpha Plan-Fluar 100 Â1.45 NA objective, Cascade II 512 EM cameras, 488 or 561 nm diode lasers, and Slidebook 4.2 software. Kymograph analysis was performed using the National Health ImageJ software (http://rsb.info.nih.gov/ij/) and the multiple kymograph plugin (http://www.embl-heidelberg. de/eamnet/html/kymograph.html). Crystallization Crystals of the Syp1 mHD domain were grown by vapour diffusion methods at 211C over a reservoir of 100 mM Na-HEPES (pH 7.5), 30% PEG 400, 0.2 M MgCl2 for 3­7 days. Crystals of the Syp1 EFC/ F-BAR domain were grown as sitting or hanging drops in 100 mM NaCitrate (pH 5.6), 20% PEG3350, 3% glycerol at 211C for 3 days.
+
+Complete description of mammalian cell culture, crystallization and structural determination are provided in Supplementary Data. Supplementary data Supplementary data are available at The EMBO Journal Online (http://www.embojournal.org).
+
+Acknowledgements
+We thank Rejji Kuruvilla, Mark Van Doren, Trina Schroer, Marnie Halpern, and members of the Wendland laboratory for comments on the paper, Nathan Wright for technical support, members of the Hurley laboratory for advice and support during BW sabbatical, and J Michael McCaffery for the electron microscopy experiments. We also thank Daniel Kloer for helping with the Syp1 mHD density map and R Blake Hill for helping with early attempts to generate an Syp1 mHD threaded structure model. The JHU Integrated Imaging Center was instrumental for all of the microscopy work. Use of the APS was supported by the U.S. DOE, Basic Energy Sciences, Office of Science, under Contract No. W-31-109-Eng-38. Crystallographic coordinates have been deposited in the RCSB protein data bank with accession numbers 3G9G and 3G9H. We also acknowledge our funding sources (BW, NIH R01 GM60979; LT, NIH R01 DK53249; JHH, Intramural Program of the NIH (NIDDK); AR, NIH Training Grant GM07231; LMB, Ford Foundation Diversity Fellowship).
+
+Conflict of interest
+The authors declare that they have no conflict of interest.
+
+References
+Aguilar RC, Longhi SA, Shaw JD, Yeh LY, Kim S, Schon A, Freire E, Hsu A, McCormick WK, Watson HA, Wendland B (2006) Epsin N-terminal homology domains perform an essential function regulating Cdc42 through binding Cdc42 GTPase-activating proteins. Proc Natl Acad Sci USA 103: 4116­4121 Aguilar RC, Watson HA, Wendland B (2003) The yeast Epsin Ent1 is recruited to membranes through multiple independent interactions. J Biol Chem 278: 10737­10743 Andrews J, Smith M, Merakovsky J, Coulson M, Hannan F, Kelly LE (1996) The stoned locus of Drosophila melanogaster produces a dicistronic transcript and encodes two distinct polypeptides. Genetics 143: 1699­1711 Baggett JJ, D'Aquino KE, Wendland B (2003a) The Sla2p Talin domain plays a role in endocytosis in Saccharomyces cerevisiae. Genetics 165: 1661­1674 Baggett JJ, Shaw JD, Sciambi CJ, Watson HA, Wendland B (2003b) Fluorescent labeling of yeast. Curr Protoc Cell Biol Chapter 4: Unit 413 Barrios-Rodiles M, Brown KR, Ozdamar B, Bose R, Liu Z, Donovan RS, Shinjo F, Liu Y, Dembowy J, Taylor IW, Luga V, Przulj N, Robinson M, Suzuki H, Hayashizaki Y, Jurisica I, Wrana JL (2005) High-throughput mapping of a dynamic signaling network in mammalian cells. Science 307: 1621­1625 Bashkirov PV, Akimov SA, Evseev AI, Schmid SL, Zimmerberg J, Frolov VA (2008) GTPase cycle of dynamin is coupled to membrane squeeze and release, leading to spontaneous fission. Cell 135: 1276­1286 Boehm M, Bonifacino JS (2001) Adaptins: the final recount. Mol Biol Cell 12: 2907­2920 Burston HE, Maldonado-Baez L, Davey M, Montpetit B, Schluter C, Wendland B, Conibear E (2009) Regulators of yeast endocytosis identified by systematic quantitative analysis. J Cell Biol 185: 1097­1110 Chen H, Fre S, Slepnev VI, Capua MR, Takei K, Butler MH, Di Fiore PP, De Camilli P (1998) Epsin is an EH-domain-binding protein implicated in clathrin-mediated endocytosis. Nature 394: 793­797 Edlund S, Landstrom M, Heldin CH, Aspenstrom P (2002) Transforming growth factor-beta-induced mobilization of actin
+& 2009 European Molecular Biology Organization
+
+cytoskeleton requires signaling by small GTPases Cdc42 and RhoA. Mol Biol Cell 13: 902­914 Ehrlich M, Boll W, Van Oijen A, Hariharan R, Chandran K, Nibert ML, Kirchhausen T (2004) Endocytosis by random initiation and stabilization of clathrin-coated pits. Cell 118: 591­605 Engqvist-Goldstein AEY, Drubin DG (2003) Actin assembly and endocytosis: from yeast to mammals. Annu Rev Cell Dev Biol 19: 287­332 Folch J, Lebaron FN (1956) The isolation from brain tissue of a trypsin-resistant protein fraction containing combined inositol, and its relation to neurokeratin. J Neurochem 1: 101­108 Ford MG, Mills IG, Peter BJ, Vallis Y, Praefcke GJ, Evans PR, McMahon HT (2002) Curvature of clathrin-coated pits driven by epsin. Nature 419: 361­366 Fromont-Racine M, Rain JC, Legrain P (1997) Toward a functional analysis of the yeast genome through exhaustive two-hybrid screens. Nat Genet 16: 277­282 Gagny B, Wiederkehr A, Dumoulin P, Winsor B, Riezman H, Haguenauer-Tsapis R (2000) A novel EH domain protein of Saccharomyces cerevisiae, Ede1p, involved in endocytosis. J Cell Sci 113 ( Pt 18): 3309­3319 Gavin AC, Bosche M, Krause R, Grandi P, Marzioch M, Bauer A, Schultz J, Leutwein C, Bouwmeester T, Kuster B, Superti-Furga G (2002) Functional organization of the yeast proteome by systematic analysis of protein complexes. FASEB J 16: A523 Hayashi M, Raimondi A, O'Toole E, Paradise S, Collesi C, Cremona O, Ferguson SM, De Camilli P (2008) Cell- and stimulus-dependent heterogeneity of synaptic vesicle endocytic recycling mechanisms revealed by studies of dynamin 1-null neurons. Proc Natl Acad Sci USA 105: 2175­2180 Henne WM, Kent HM, Ford MG, Hegde BG, Daumke O, Butler PJ, Mittal R, Langen R, Evans PR, McMahon HT (2007) Structure and analysis of FCHo2 F-BAR domain: a dimerizing and membrane recruitment module that effects membrane curvature. Structure 15: 839­852 Hirst J, Lui WW, Bright NA, Totty N, Seaman MN, Robinson MS (2000) A family of proteins with gamma-adaptin and VHS domains that facilitate trafficking between the trans-Golgi network and the vacuole/lysosome. J Cell Biol 149: 67­80
+The EMBO Journal VOL 28 | NO 20 | 2009 3115
+
+Syp1 is a conserved endocytic adaptor A Reider et al
+
+Holm L, Sander C (1995) Dali: a network tool for protein structure comparison. Trends Biochem Sci 20: 478­480 Huang B, Chua LL, Bose N, Cai M (2009) Negative regulation of the actin-regulating kinase Prk1p by patch localization-induced autophosphorylation. Traffic 10: 35­41 Itoh T, De Camilli P (2006) BAR, F-BAR (EFC) and ENTH/ANTH domains in the regulation of membrane-cytosol interfaces and membrane curvature. Biochim Biophys Acta 1761: 897­912 Itoh T, Erdmann KS, Roux A, Habermann B, Werner H, De Camilli P (2005) Dynamin and the actin cytoskeleton cooperatively regulate plasma membrane invagination by BAR and F-BAR proteins. Dev Cell 9: 791­804 Janmey PA, Lamb J, Allen PG, Matsudaira PT (1992) Phosphoinositide-binding peptides derived from the sequences of gelsolin and villin. J Biol Chem 267: 11818­11823 Jung N, Wienisch M, Gu M, Rand JB, Muller SL, Krause G, Jorgensen EM, Klingauf J, Haucke V (2007) Molecular basis of synaptic vesicle cargo recognition by the endocytic sorting adaptor stonin 2. J Cell Biol 179: 1497­1510 Kaksonen M, Toret CP, Drubin DG (2005) A modular design for the clathrin- and actin-mediated endocytosis machinery. Cell 123: 305­320 Kalthoff C, Alves J, Urbanke C, Knorr R, Ungewickell EJ (2002) Unusual structural organization of the endocytic proteins AP180 and epsin 1. J Biol Chem 277: 8209­8216 Krauss M, Kukhtina V, Pechstein A, Haucke V (2006) Stimulation of phosphatidylinositol kinase type I-mediated phosphatidylinositol (4,5)-bisphosphate synthesis by AP-2mu-cargo complexes. Proc Natl Acad Sci USA 103: 11934­11939 Lambert AA, Perron MP, Lavoie E, Pallotta D (2007) The Saccharomyces cerevisiae Arf3 protein is involved in actin cable and cortical patch formation. FEMS Yeast Res 7: 782­795 Li L, Mao J, Sun L, Liu W, Wu D (2002) Second cysteine-rich domain of Dickkopf-2 activates canonical Wnt signaling pathway via LRP-6 independently of dishevelled. J Biol Chem 277: 5977­5981 Longtine MS, McKenzie A, Demarini DJ, Shah NG, Wach A, Brachat A, Philippsen P, Pringle JR (1998) Additional modules for versatile and economical PCR-based gene deletion and modification in Saccharomyces cerevisiae. Yeast 14: 953­961 Marcoux N, Cloutier S, Zakrzewska E, Charest PM, Bourbonnais Y, Pallotta D (2000) Suppression of the profilin-deficient phenotype by the RHO2 signaling pathway in Saccharomyces cerevisiae. Genetics 156: 579­592 Masuda M, Takeda S, Sone M, Ohki T, Mori H, Kamioka Y, Mochizuki N (2006) Endophilin BAR domain drives membrane curvature by two newly identified structure-based mechanisms. EMBO J 25: 2889­2897 Miliaras NB, Wendland B (2004) EH proteins: multivalent regulators of endocytosis (and other pathways). Cell Biochem Biophys 41: 295­318 Mishra SK, Keyel PA, Edeling MA, Dupin AL, Owen DJ, Traub LM (2005) Functional dissection of an AP-2 beta2 appendage-binding sequence within the autosomal recessive hypercholesterolemia protein. J Biol Chem 280: 19270­19280 Montagnac G, Echard A, Chavrier P (2008) Endocytic traffic in animal cell cytokinesis. Curr Opin Cell Biol 20: 454­461 Ohno H, Stewart J, Fournier MC, Bosshart H, Rhee I, Miyatake S, Saito T, Gallusser A, Kirchhausen T, Bonifacino JS (1995) Interaction of tyrosine-based sorting signals with clathrin-associated proteins. Science 269: 1872­1875 Ono T, Suzuki T, Anraku Y, Iida H (1994) The MID2 gene encodes a putative integral membrane protein with a Ca(2+)-binding domain and shows mating pheromone-stimulated expression in Saccharomyces cerevisiae. Gene 151: 203­208 Owen DJ, Evans PR (1998) A structural explanation for the recognition of tyrosine-based endocytotic signals. Science 282: 1327­1332 Philip B, Levin DE (2001) Wsc1 and Mid2 are cell surface sensors for cell wall integrity signaling that act through Rom2, a guanine nucleotide exchange factor for Rho1. Mol Cell Biol 21: 271­280 Phizicky EM, Fields S (1995) Protein-protein interactions: methods for detection and analysis. Microbiol Rev 59: 94­123
+
+Qiu W, Neo SP, Yu X, Cai M (2008) A novel septin-associated protein, Syp1p, is required for normal cell cycle-dependent septin cytoskeleton dynamics in yeast. Genetics 180: 1445­1457 Qualmann B, Kelly RB (2000) Syndapin isoforms participate in receptor-mediated endocytosis and actin organization. J Cell Biol 148: 1047­1062 Roberts-Galbraith RH, Chen JS, Wang J, Gould KL (2009) The SH3 domains of two PCH family members cooperate in assembly of the Schizosaccharomyces pombe contractile ring. J Cell Biol 184: 113­127 Robertson AS, Allwood EG, Smith AP, Gardiner FC, Costa R, Winder SJ, Ayscough KR (2009) The WASP homologue Las17 activates the novel actin-regulatory activity of Ysc84 to promote endocytosis in yeast. Mol Biol Cell 20: 1618­1628 Shimada A, Niwa H, Tsujita K, Suetsugu S, Nitta K, HanawaSuetsugu K, Akasaka R, Nishino Y, Toyama M, Chen LR, Liu ZJ, Wang BC, Yamamoto M, Terada T, Miyazawa A, Tanaka A, Sugano S, Shirouzu M, Nagayama K, Takenawa T et al (2007) Curved EFC/F-BAR-domain dimers are joined end to end into a filament for membrane invagination in endocytosis. Cell 129: 761­772 Smythe E, Carter LL, Schmid SL (1992) Cytosol- and clathrindependent stimulation of endocytosis in vitro by purified adaptors. J Cell Biol 119: 1163­1171 Sorkin A, von Zastrow M (2002) Signal transduction and endocytosis: close encounters of many kinds. Nat Rev Mol Cell Biol 3: 600­614 Soulard A, Lechler T, Spiridonov V, Shevchenko A, Li R, Winsor B (2002) Saccharomyces cerevisiae Bzz1p is implicated with type I myosins in actin patch polarization and is able to recruit actinpolymerizing machinery in vitro. Mol Cell Biol 22: 7889­7906 Sun Y, Martin AC, Drubin DG (2006) Endocytic internalization in budding yeast requires coordinated actin nucleation and myosin motor activity. Dev Cell 11: 33­46 Takano K, Toyooka K, Suetsugu S (2008) EFC/F-BAR proteins and the N-WASP-WIP complex induce membrane curvature-dependent actin polymerization. EMBO J 27: 2817­2828 Tarassov K, Messier V, Landry CR, Radinovic S, Serna Molina MM, Shames I, Malitskaya Y, Vogel J, Bussey H, Michnick SW (2008) An in vivo map of the yeast protein interactome. Science 320: 1465­1470 Toshima JY, Toshima J, Kaksonen M, Martin AC, King DS, Drubin DG (2006) Spatial dynamics of receptor-mediated endocytic trafficking in budding yeast revealed by using fluorescent alpha-factor derivatives. Proc Natl Acad Sci USA 103: 5793­5798 Tsujita K, Suetsugu S, Sasaki N, Furutani M, Oikawa T, Takenawa T (2006) Coordination between the actin cytoskeleton and membrane deformation by a novel membrane tubulation domain of PCH proteins is involved in endocytosis. J Cell Biol 172: 269­279 Uezu A, Horiuchi A, Kanda K, Kikuchi N, Umeda K, Tsujita K, Suetsugu S, Araki N, Yamamoto H, Takenawa T, Nakanishi H (2007) SGIP1 alpha is an endocytic protein that directly interacts with phospholipids and Eps15. J Biol Chem 282: 26481­26489 Wang Q, Navarro MV, Peng G, Molinelli E, Lin Goh S, Judson BL, Rajashankar KR, Sondermann H (2009) Molecular mechanism of membrane constriction and tubulation mediated by the F-BAR protein Pacsin/Syndapin. Proc Natl Acad Sci USA 106: 12700­ 12705 (e-pub ahead of print 1 June 2009) Wendland B, Steece KE, Emr SD (1999) Yeast epsins contain an essential N-terminal ENTH domain, bind clathrin and are required for endocytosis. EMBO J 18: 4383­4393 Wesp A, Hicke L, Palecek J, Lombardi R, Aust T, Munn AL, Riezman H (1997) End4p/Sla2p interacts with actin-associated proteins for endocytosis in Saccharomyces cerevisiae. Mol Biol Cell 8: 2291­2306 Whitacre J, Davis D, Toenjes K, Brower S, Adams A (2001) Generation of an isogenic collection of yeast actin mutants and identification of three interrelated phenotypes. Genetics 157: 533­543 Yesilaltay A, Jenness DD (2000) Homo-oligomeric complexes of the yeast alpha-factor pheromone receptor are functional units of endocytosis. Mol Biol Cell 11: 2873­2884 Yu FX, Sun HQ, Janmey PA, Yin HL (1992) Identification of a polyphosphoinositide-binding sequence in an actin monomerbinding domain of gelsolin. J Biol Chem 267: 14616­14621
+
+3116 The EMBO Journal VOL 28 | NO 20 | 2009
+
+& 2009 European Molecular Biology Organization
+
+

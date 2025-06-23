@@ -1,0 +1,216 @@
+Published on Web 03/07/2008
+
+Dithiomethylether as a Ligand in the Hydrogenase H-Cluster
+Arti S. Pandey, Travis V. Harris, Logan J. Giles, John W. Peters,* and Robert K. Szilagyi*
+Department of Chemistry and Biochemistry and Astrobiology Biogeocatalysis Research Center, Montana State UniVersity, Bozeman, Montana 59717
+Received December 17, 2007; E-mail: john.peters@chemistry.montana.edu; szilagyi@montana.edu
+
+Abstract: An X-ray crystallographic refinement of the H-cluster of [FeFe]-hydrogenase from Clostridium pasteurianum has been carried out to close-to atomic resolution and is the highest resolution [FeFe]hydrogenase presented to date. The 1.39 Å, anisotropically refined [FeFe]-hydrogenase structure provides a basis for examining the outstanding issue of the composition of the unique nonprotein dithiolate ligand of the H-cluster. In addition to influencing the electronic structure of the H-cluster, the composition of the ligand has mechanistic implications due to the potential of the bridge-head -group participating in proton transfer during catalysis. In this work, sequential density functional theory optimizations of the dithiolate ligand embedded in a 3.5-3.9 Å protein environment provide an unbiased approach to examining the most likely composition of the ligand. Structural, conformational, and energetic considerations indicate a preference for dithiomethylether as an H-cluster ligand and strongly disfavor the dithiomethylammonium as a catalytic base for hydrogen production.
+
+Introduction
+
+The [FeFe]- and [NiFe]-hydrogenases1,2 catalyze the reversible hydrogen oxidation and proton reduction reactions. Crystal structures3,4 of [FeFe]-hydrogenases reveal a biologically unprecedented active site (H-cluster) that exists as a [4Fe-4S] cubane linked to a 2Fe-subcluster via a cysteine thiolate. In addition, the 2Fe-subcluster is coordinated by terminal carbon monoxide ligands and a bridging carbon monoxide, terminal cyanide ligands, and a unique bridging dithiolate ligand. Although it has been generally accepted that the functional H-clusters from the structurally characterized [FeFe]-hydrogenases from Clostridium pasteurianum3 and DesulfoVibrio desulfuricans4 are of the same composition, their structures differ by the coordination environment of the distal Fe atom of the 2Fe-subcluster by the presence of a water molecule. This difference has been attributed to the crystallization conditions and the likelihood that the enzymes in the two structures are poised in different oxidation states.5 An outstanding issue of considerable interest concerning the structure of the H-cluster is the chemical identity of the nonprotein dithiolate ligand. Because the H-cluster is a small component of the metalloprotein, attempts to unequivocally determine the composition of its dithiolate ligand have thus far been unsuccessful. However, this ligand has been of significant interest due to implications of its composition on the electronic
+(1) Vignais, P. M.; Billoud, B.; Meyer, J. FEMS Microbiol. ReV. 2001, 25 (4), 455-501. (2) Adams, M. W. W. Biochim. Biophys. Acta 1990, 1020 (2), 115-145. (3) Peters, J. W.; Lanzilotta, W. N.; Lemon, B. J.; Seefeldt, L. C. Science 1998, 282 (5395), 1853-1858. (4) Nicolet, Y.; Piras, C.; Legrand, P.; Hatchikian, C. E.; Fontecilla-Camps, J. C. Struct. Fold Des. 1999, 7 (1), 13-23. (5) Nicolet, Y.; Lemon, B. J.; Fontecilla-Camps, J. C.; Peters, J. W. Trends Biochem. Sci. 2000, 25 (3), 138-143.
+10.1021/ja711187e CCC: $40.75 © 2008 American Chemical Society
+
+structure of the H-cluster and the mechanism of dihydrogen uptake and evolution. In the first reported structure of an [FeFe]hydrogenase isolated from C. pasteurianum,3 the non-sulfur atoms of the dithiolate ligand were described as a covalent linkage of light atoms. In the characterization of the [FeFe]hydrogenase from D. desulfuricans,4 this ligand was originally assigned as propanedithiolate but later revised to dithiomethylamine.6 Direct experimental evidence concerning the composition of the ligand has not yet been presented, and assignment of the secondary amine group in the ligand was based on its ability to serve as a proton donor or acceptor during catalysis. Regardless of the merits of the attributes of an amine as a potential catalytic base, it has been shown that the composition of the ligand has a large impact on the Fe-S bonding of the 2Fe-subcluster, which directly affects the redox active molecular orbitals of the H-cluster.7 Thus, an imperative must be placed on resolving this interesting outstanding issue. In this study, we undertook an unbiased investigation in which we considered the possibility of several dithiolate compositions with O, CH2, NH, NH2+, and S groups in the -position (bridgehead) of the dithiolate ligand and evaluated their quantum chemically optimized structures in comparison to an experimental crystal structure of 1.39 Å resolution. We opted not to use an interfaced computational and a crystallographic code (COMQUM-X/Turbomole and CNS, respectively)8 due to the current limitation of our generalized fragment method that allows us to obtain the correct electronic structure with spin
+(6) Nicolet, Y.; de Lacey, A. L.; Vernede, X.; Fernandez, V. M.; Hatchikian, E. C.; Fontecilla-Camps, J. C. J. Am. Chem. Soc. 2001, 123 (8), 15961601. (7) Schwab, D. E.; Tard, C.; Brecht, E.; Peters, J. W.; Pickett, C. J.; Szilagyi, R. K. Chem. Commun. 2006, 35, 3696-3698. (8) Ryde, U. Dalton Trans. 2007, 6, 607-625. J. AM. CHEM. SOC. 2008, 130, 4533-4540
+9
+
+4533
+
+ARTICLES
+Table 1. Data Collection Parameters
+
+Pandey et al.
+Rfree data set (3%) was assigned and the Rfree was monitored through all stages of the refinement. Refinement was carried out with the program SHELX14 using conjugate gradient least-squares15 and block diagonal matrix least-squares methods. Protein coordinates and isotropic B factors were refined using conjugate least-squares method with protein bonds and angles restrained to target values from Engh and Huber.16 Restraints for the iron-sulfur clusters were generated using SHELXPRO.14 Anisotropic B factors for all atoms were implemented for subsequent steps of refinement resulting in a drop of 3% in Rfree. Coordinates were fitted to the 2Fo-Fc and Fo-Fc maps in XTALVIEW17 and alternate amino acid side chain conformations were added where applicable. Hydrogen atoms were added as fixed atoms. Another round of conjugated least-squares refinement was carried out with the bond distances for the H-cluster adjusted to those obtained from a DFT energy minimization that included the protein environment of the cluster within 3.5-3.9 Å. All reflections were included in the final step of the refinement resulting in an Rcryst of 13.7% for all reflections and 11.7% for reflections >4 (Table 3). All restraints were released for the calculation of standard uncertainties in bond lengths and angles of the clusters using blocked-matrix least-squares refinement. All main chain and side chain residues were included in the refinement with a limited number of residues modeled in multiple conformations and the final stereochemistry of the model was analyzed using PROCHECK.18 Computational Details. An approximately 200-atom virtual chemical model was constructed from the H-cluster and its 3.5-3.9 Å protein environment including the covalently bound full cysteine residues (italicized residues in Table 2). The dithiolate ligand is seated in a protein cavity that is lined with residues Cys299, Met497, Gly418, Phe417, Cys503 (Table 2) and capped with the 2Fe-subcluster. To avoid unreasonably large displacements relative to the close-to atomicresolution crystal structure, the dithiolate ligand groups (bridge-head -group, -methylene, µ-S) were allowed to relax only stepwise. All computations were carried out using Gaussian03 Rev. D.01.19 We have selected the gradient-corrected Becke8820 exchange and Perdew8621 correlation functionals and the Stuttgart-Dresden effective core potentials and valence basis set for all atoms.22 This level of theory has already been rigorously validated for iron-sulfur clusters in a previous work9 and has been shown to reproduce iron-sulfur cluster geometry within 0.06 Å rms error. The [4Fe-4S] cubane of the H-cluster was treated as an open shell singlet structure in the +2 core charge state with two antiferromagnetically coupled rhombs of Ms ) (9/2. Using the 1.39 Å resolution structure of the H-cluster, 24 possible magnetic coupling schemes have been evaluated by our ionic fragment approach,9 and only the lowest coupling was utilized in this study. The magnetic coupling schemes have also been evaluated with a more accurate functional and basis set (termed B5HFP86/BS5+ in ref 9) without observing any significant difference in the relative energies of magnetic states. The 2Fe-subcluster was described by a low spin Fe(II)/Fe(I) pair in the S ) 1/2 state. We have considered all possible dithiolate compositions including the partially and fully protonated forms of the secondary amine group. For the sake of clarity of the plots and the discussion, the results obtained for the O, CH2, and NH2+ compositions are presented in the text and the results for the rest (S and NH in two different arrangements where the secondary amine group is H-bonding to the distal water and Vice Versa) are given as Supporting Information.
+(14) Sheldrick, G. M.; Schneider, T. R. Methods Enzymol. 1997, 277, 319343. (15) Konnert, J. H.; Hendrickson, W. A. Acta Crystallogr. 1980, A36 (May), 344-350. (16) Engh, R. A.; Huber, R. Acta Crystallogr. 1991, A47 (4), 392-400. (17) McRee, D. E. J. Struct. Biol. 1999, 125 (2-3), 156-165. (18) Laskowski, R. A.; McArthur, M. W.; Moss, D. S.; Thornton, J. M. J. Appl. Cryst. 1993, 265 (2), 283-291. (19) Frisch, M. J.; et al. Gaussian 03, Rev. D01; Gaussian, Inc.: Wallingford, CT, 2006. (20) Becke, A. D. Phys. ReV. A: Gen. Phys. 1988, 38 (6), 3098-3100. (21) Perdew, J. P. Phys. ReV. B: Cond. Mater. 1986, 33 (12), 8822-8824. (22) Dolg, M.; Wedig, U.; Stoll, H.; Preuss, H. J. Chem. Phys. 1987, 86 (2), 866-872.
+
+space group cell parameters total observations unique reflections
+resolution shell (Å) redundancy
+
+P42212 a ) b ) 110.79 Å c ) 103.57 Å R ) )  ) 90.0° 622 033 121 060
+completeness avg I/I
+
+Rsymma
+
+46.9-4.8 4.80-3.40 3.40-2.77 2.77-2.40 2.40-2.15 2.15-1.96 1.96-1.81 1.81-1.70 1.70-1.60 1.60-1.52 1.52-1.45 1.45-1.39 Overall
+a
+
+7.8 8.7 7.9 6.6 5.7 5.1 4.6 4.2 3.9 3.9 4.1 4.4 5.1
+
+98.2 99.9 100.0 99.9 99.7 99.5 98.9 97.4 93.5 89.0 84.3 81.7 93.5
+
+31.5 31.1 24.7 20.2 17.2 14.4 11.5 8.6 6.2 4.5 3.1 2.5 12.6
+
+0.06 0.07 0.09 0.09 0.10 0.12 0.14 0.17 0.22 0.29 0.41 0.57 0.09
+
+Rsymm(I) ) hkl i | Ii - I |/hkl i Ii
+
+polarized, open shell wave function. The latter is required for obtaining a proper magnetic coupling between the iron centers of the complete H-cluster. Instead of using structure factors from the crystallographic refinement, we present here a simple, yet insightful, new approach for evaluating various compositions for unknown atoms or groups. The density functional and basis sets chosen for the given study have already been thoroughly evaluated in a separate publication.9 We present evidence for dithiomethylether as a bridging ligand of the 2Fe-subcluster. Furthermore, a conformation analysis of the orientation of the -group of the dithiolate indicates that dithiomethylamine would be unable to function as a catalytic base during catalysis. The presence of an ether functional group opens up new mechanistic possibilities to be explored by further synthetic and computational investigations.
+Experimental Section
+Crystallographic Refinement. The [FeFe]-hydrogenase in this study was purified from C. pasteurianum as described previously.10 Crystals of the enzyme were obtained by the microcapillary batch diffusion method11 in a precipitation solution of 25% polyethylene glycol 4000, 0.1 M sodium acetate (pH 4.6), and 0.1 M sodium sulfate as described previously.3 All manipulations were conducted in an anaerobic chamber at room temperature. Crystals belonging to space group P42212 were obtained in 7 days. Data was collected at SSRL on a Q4 detector at a wavelength of 0.95364 Å, processed with MOSFLM and scaled with SCALA.12 The crystals were slightly sensitive to radiation damage during the relatively long exposure times (30 s to 1 min) that were necessary to collect the highest resolution data possible. The final data set consisted of a composite of data from four crystals and upon merging resulted in a data set with cumulative Rsymm of 0.09 for data up to a resolution of 1.39 Å (Table 1). Crystals were nearly isomorphous in comparison to the P42212 crystals previously obtained with a ) b ) 110.79 Å, c ) 103.57 Å, R ) )  ) 90°.13 For crystallographic refinement, a randomly selected
+(9) Szilagyi, R. K.; Winslow, M. A. J. Comput. Chem. 2006, 27 (12), 13851397. (10) Chen, J. S.; Mortenson, L. E. Biochim. Biophys. Acta 1974, 371 (2), 283298. (11) Georgiadis, M. M.; Komiya, H.; Chakrabarti, P.; Woo, D.; Kornuc, J. J.; Rees, D. C. Science 1992, 257 (5077), 1653-1659. (12) Collaborative Computational Project Acta Crystallogr., Sect. D: Biol. Crystallogr. 1994, 50 (Pt 5), 760-763. (13) Peters, J. W.; Lanzilotta, W. N.; Lemon, B. J.; Seefeldt, L. C. Science 1998, 282 (5395), 1853-1858. 4534 J. AM. CHEM. SOC.
+9
+
+VOL. 130, NO. 13, 2008
+
+Dithiomethylether as a Ligand in the H-Cluster
+Table 2. Detailed List of Interactions between the Protein and the H-Cluster Considered for the Computational Model
+residuea molecular model close contacts/interactions
+
+ARTICLES
+
+GLN195 HOH641 GLY302TRP303 CYS499 THR356CYS355 CYS300CYS299b CYS503b HOH17b MET497b GLY418b PHE417b LYS358 MET353 ALA320 SER232 PRO324
+a
+
+H2NCO H2O H2NCO -SCH CH(CONH )NHCHO 2 2
+-SCH -SCH 2CH(NHCHO)CONHCH2CONH2 2CH(CONH2)NHCOCH2CH2SH
+
+CO,,,S O,,,S N,,,S N,,,S CO,,,S N,,,S CO,,,S CO,,,O
+
+3.33 Å 3.00 Å 3.15 Å 3.29 Å 4.04 Å 3.14 Å 4.04 Å 2.94 Å
+
+-SCH CH(NHCHO)CONH 2 2 H2O H3CSCH3 H2NCHO C6H6 H3CNH3+ H3CSCH3 H3CCH3 H3COH [N(CHO)CH(CONH2)C3H6]
+
+dipole interaction with S(Cys499) H-bonding to S(Cys355) H-bonding to S(Cys300) H-bonding N(Ala498) to S([4Fe-4S]) dipole interaction H-bonding N(Ser357) to S(Cys355) dipole interaction H-bonding peptide to NH3+(Lys358) possible distal water-S(Cys299) interaction H-bonding to amide (Cys503) bottom cap at the dithiolate ligand dipole interaction with dithiolate aromatic H-bonding to the distal water H-bonding to distal CNdipole with bridging CO top cap at bridging carbonyl H-bonding to proximal CNH-bonding to distal CNdistal cap to the 2Fe-subcluster
+
+bridging cysteine O,,,N 3.11 Å steric within 3.5 Å CO,,,S 3.71 Å C,,,O 3.21 Å N,,,N 2.74 Å S,,,O 3.15 Å steric within 3.5 Å O,,,N 2.92 Å N,,,N 2.90 Å steric within 3.5 Å
+
+Ligands to H-cluster are italicized. b Residues around the dithiolate ligand.
+
+Table 3. Progress of Refinement of the Previously Published Structure of CpI as Model against the 1.39 Å Data with SHELXLa
+resolution (Å)
+
+A
+
+H
+
+W
+
+Par
+
+Obs
+
+Rcryst % (all)
+
+Rfree % (all)
+
+Rcryst % (>4)
+
+Rfree% (>4)
+
+rigid body coordinates, isotropic B-factors addition of waters anisotropic B-values rebuilding + water + glycerol molecules include all data + anisotropic refine occupancies of split residues add Hs final refinement
+
+2.5-46 1.45-10 1.45-10 1.45-10 1.45-10 1.39-10 1.39-10 1.39-10 1.39-10
+
+4513 4844 4940 4942 5208 5208 5240 5251 5251
+
+0 0 0 0 0 0 0 4300 4300
+
+0 331 427 428 632 632 654 667 667
+
+4522 19377 19761 44477 45646 46871 47045 47219 47219
+
+22036 102188 102188 102188 102188 113858 113858 113858 119840
+
+32.9 21.9 20.4 15.6 13.9 14.1 14.0 13.2 13.7
+
+34.2 25.4 24.3 21.2 19.9 20.1 20.1 19.4 -
+
+33.8 20.0 18.5 13.9 12.3 12.1 12.0 11.8 11.7
+
+32.3 23.5 22.4 19.5 18.2 18.0 18.0 17.8 -
+
+a All reflections were included during the final step of refinement. Columns include A - the number of non-hydrogen atoms, H - number of hydrogen atoms, W - number of water molecules, Par - number of parameters, and Obs - number of observations.
+
+To evaluate the likelihood of the protonation, we carried out calculations for estimating the free energy of hydrolysis of the secondary amine bridge-head group of the dithiolate ligand. In addition to completing the first solvation shell of a solute (S) by hydrogen-bonded explicit water molecules, all solvation models were embedded in a low dielectric environment of ) 10 with solvent radius of 1.385 Å. Consequently, the structure of the S,n H2O construct was fully optimized. Free energy corrections to the electronic energy were obtained from vibrational analysis and polarizable continuum calculations,23 respectively. To validate this approximation, we also calculated the pKa of a primary amine and methylthiolate at the same level of theory and employing the same solvation models that are in good agreement with common experimental values (10.7 and 7.5, respectively). Although recently a more sophisticated method has been established for computational refinement8 of protein crystal structures that takes into account the experimental structure factors we argue that gradually relaxed, partial geometry optimizations already have the potential to distinguish between various chemical compositions. Replacement of an ether group with a methylene or a secondary amine/ammonium group is expected to induce a considerable perturbation in the structure of the dithiolate ligand that can be quantified by comparing relative energies, initial gradients and forces, and the internal coordinates between the best crystallographic and the quantum chemistry optimized atomic positions. Naturally, a smaller energy change, smaller initial gradients and forces, as well as less deviation from the crystallographic
+(23) Tomasi, J.; Mennucci, B.; Cammi, R. Chem. ReV. 2005, 105 (8), 29993093.
+
+positions would correspond to a more likely stoichiometry. We established a background for our approach by repeating the same set of optimization for two small molecule mimics [Fe2(CO)6(pdt)]24 (1) and [Fe2(CO)6(dtme)]25 (2), where pdt is propanadithiolate and dtme is dithiomethylether, as those used for the protein-embedded H-cluster in this paper. As a proof of concept, first both complexes 1 and 2 were fully optimized to obtain the most reasonable in Vacuo structures (Figure S1A, top dotted lines and hollow circles for 1, Supporting Information). Interchanging the bridge-head CH2 and O groups in pdt and dtme containing complexes with O and CH2, respectively, costs about 5 kJ/ mol (stage A). Further optimization of the CH2 and the bridge-head -groups together (stage B) with the rest of the atomic positions kept fixed corresponds to about 31 kJ/mol further energy stabilization relative to the initial in Vacuo optimized structures. Additional optimization of the bridging thiolate S atoms (stage C) contributes to the relaxation to a minor extent (2 kJ/mol) due to the geometric similarities of the Fe2(CO)6S2 moieties (Figure S1B and C, Supporting Information) in complexes 1 and 2. These clearly indicate that change in the chemical compositions of the bridge-head group should result in significant energy differences that are greater than the error limit of computations. Interestingly, the same approach showed preference of the dithiomethylether composition for complexes 1 and 2 when the experimental
+(24) Lyon, E. J.; Georgakaki, I. P.; Reibenspies, J. H. Darensbourg, M. Y. Angew. Chem., Int. Ed. 1999, 38 (21), 3178-3180. (25) Song, L. C.; Yang, Z. Y.; Bian, H. Z.; Hu, Q. M. Organometallics 2004, 23 (13), 3082-3084. J. AM. CHEM. SOC.
+9
+
+VOL. 130, NO. 13, 2008 4535
+
+ARTICLES crystal structures were used as starting geometries (Figure S1, bottom dashed lines and half filled circles, Supporting Information). This seems to indicate that the dithiomethylether ligand has a less strained geometric structure to fit between the two iron ions in the Fe2(CO)6 fragment. However, this simplified evaluation needs to be taken with caution, because, as mentioned above for the in Vacuo optimized structures, the dominant structural difference between the crystal structures of complexes 1 and 2 are not intrinsic to the small molecule complex (Figure S1B and C, Supporting Information), but they are due to the different supramolecular interactions26 that give rise to crystal packing. To validate this, we carried out gradually relaxed, partial optimizations using a 225 atom containing fragment of the actual crystal structure of 1 (coordinates are given as Supporting Information). In this computational model, the bridge-head group (O or CH2, stage A), then the bridge-head and CH2 groups (stage B), and last the full dithiolate ligand (stage C) of a central molecule were gradually relaxed (Figure S1A, middle solid lines and filled circles, Supporting Information). This central molecule was surrounded by eight identical molecules frozen in their crystal positions (Figure S1D, Supporting Information). This large model that closely resembles in size and complexity of the protein environment-embedded H-cluster now shows a preference of the CH2 group over the O group in the pdt containing complex of 1 throughout the optimization. The smaller difference between the crystal packing embedded models relative to the in Vacuo models is due to the weak intermolecular (dominantly dipole electrostatic) interactions between a central and its surrounding Fe2(CO)6(SCH2-CH2/O-CH2S) molecules. It is also important to emphasize that in this study we have used a superior approach to the popular QM/MM approach by incorporating the complete 3.5-3.9 Å protein environment (see Table 2) into the computational model that is treated at quantum chemical level. We have already shown for a structurally less complex bioinorganic active site in galactose oxidase27 than the H-cluster that this is crucial for reproducing experimental spectroscopic (UV-vis, magnetic coupling, ground state) and energetic (one and two electron redox potentials) parameters.
+
+Pandey et al.
+
+Figure 1. Stereoview of the H-cluster superimposed to 2Fo-Fc electron density map at contour level of 1.5 (A); ORTEP presentation of the 2Fe cluster (B).
+
+Results and Discussion
+
+Crystallographic Refinement. In the current work, we have now refined the structure of the [FeFe]-hydrogenase from C. pasteurianum to 1.39 Å resolution. This improved resolution permits the inclusion of hydrogen atoms, the assignments of anisotropic B-factors, and calculation of individual atomic uncertainties in the range of those observed for small molecule mimics.28-30 The final model exhibited comparable stereochemistry of the structure to that observed in the previous structure determined to 1.8 Å resolution with relative mean standard deviations from ideality in bond lengths and bond angles of 0.010 Å and 2.11°, respectively. A Ramachadran analysis of the structure indicated that all residues were found to be in either most favored (90%) or additionally allowed (10%) regions.18 The overall B-factors for the protein were 17.1 Å3, with main chain, side chains, iron sulfur clusters, and solvent atoms having B-factors of 14.0, 20.4, 9.5, and 33.7 Å3, respectively. The current study is focused on the analysis of the H-cluster environment, and a more extensive analysis of high-resolution [FeFe]-hydrogenase structure is underway.
+(26) Lehn, J. M. Science 1993, 260 (5115), 1762-1763. (27) Rokhsana, D.; Dooley, D. M.; Szilagyi, R. K. J. Am. Chem. Soc. 2006, 128 (49), 15550-15551. (28) Darensbourg, M. Y.; Lyon, E. J.; Zhao, X.; Georgakaki, I. P. Proc. Natl. Acad. Sci. U.S.A. 2003, 100 (7), 3683-3688. (29) Rauchfuss, T. B. Research on soluble Metal Sulfides: Inorg. Chem. 2004, 43 (1), 14-26. (30) Tard, C.; Liu, X. M.; Ibrahim, S. K.; Bruschi, M.; De Gioia, L.; Davies, S. C.; Yang, X.; Wang, L. S.; Sawers, G.; Pickett, C. J. Nature 2005, 433 (7026), 610-613. 4536 J. AM. CHEM. SOC.
+9
+
+The electron density maps in this work are of excellent quality, and the majority of H-cluster atoms are resolved to atomic resolution (Figure 1A). The most characteristic bond lengths and intramolecular distances summarized in Figure 2 can be compared to small molecule mimics of the 2Fesubcluster. The histograms of Fe,,,Fe (brown), Fe-S (orange), Fe-CO (red), and Fe-CN (blue) distances of selected 2Fe cluster mimics with both CO and CN ligands and a bridging thiolate were obtained from the Cambridge Crystallographic Database.31 Although the average Fe,,,Fe distances in the small molecule mimics are highly similar (2.540 ( 0.030 Å) to those in the refined H-cluster (2.551 ( 0.007 Å, Figure 2). The different Fe oxidation states and the lack of the bridging CO ligand in the former are reflected in the slightly longer average Fe-S distances (2.288-2.320 ( 0.010 Å) of the H-cluster relative to the biomimetic compounds (2.278 ( 0.034 Å). However, the average Fe-CO and Fe-CN- distances seem to agree rather well with those of the small 2Fe clusters (1.768 ( 0.024 and 1.925 ( 0.028 Å, respectively). The near-atomic resolution structure allows for the differentiation between the terminal CO and CN- ligands, because the former are generally located closer to a metal center than the latter (see histograms in Figure 2). The refined internal coordinates highlighted in Figure 2 of the [4Fe-4S]-subcluster agree rather well with the analogous tetrathiolate coordinated [4Fe-4S] clusters (Fe,,,Fe 2.764 ( 0.100 Å, Fe-S(sulfide) 2.294 ( 0.041 Å, Fe-S(thiolate) 2.271 ( 0.047 Å, see distribution plots in Figure 2). Despite the close-to atomic resolution of the current structure, the chemical composition of the dithiolate ligand of the H-cluster cannot be unambiguously assigned. Although the proximal ( -) groups of the dithiolate are rationally assumed to be methylene, there is still a debate on the composition of the central (-) dithiolate atom or group. Therefore, we carried out in silico model building and density functional theory calculations to
+(31) Allen, F. H. Acta Cryst. 2002, B58, (3, Sp. Issue 1), 380-388; (version 5.29; November 2007).
+
+VOL. 130, NO. 13, 2008
+
+Dithiomethylether as a Ligand in the H-Cluster
+
+ARTICLES
+
+Figure 2. Selected interatomic distances within the H-cluster and atom labeling (A) adapted for the H-cluster. Histograms of Fe,,,Fe, Fe-S, Fe-CO, Fe-CN and Fe,,,Fe, Fe-S(sulfide), Fe-S(thiolate) distances within a selected set of 2Fe-subcluster mimics (B) and µ3-tetrasulfido-tetrathiolato-tetrairon clusters (C).
+
+evaluate the energetic and structural implications of various compositions (CH2, NH, NH2+, O, and S) of the -group at the center of the dithiolate ligand. As emphasized in the Computational Details, an accurate representation of the protein environment as a network of supramolecular interactions is essential for capturing the most important covalent, electrostatic, dipole, and hydrogen bonding interactions that all contribute to the structure and stability of the H-cluster. Table 2 summarizes the strongest intermolecular interactions identified in the 1.39 Å resolution structure between the H-cluster and its protein environment. As a result of this mapping, we found considerably more interactions for the 2Fesubcluster than the 4Fe-subcluster of the H-cluster, which is expected due to the lack of a covalently bound residue to the 2Fe-subcluster. Notably, the greatest number of interactions (marked with superscript b in Table 2) involve the dithiolate ligand. It is important to mention that the dithiolate ligand in the protein bound H-cluster is involved in a more sophisticated and stronger network of intermolecular interactions than the small molecule mimics discussed in the Computational Details
+
+section (see above). The 4Fe-subcluster has only one H-bonding interaction to a sulfide and five dipole and/or H-bonding interactions to the thiolate groups of covalently bound cysteine residues. These interactions are expected to be influential in tuning the redox potentials of the 4Fe-sublcuster. About six important interactions surround the diatomic ligands in addition to residues Met353, Phe417, Ala320, and Pro324 lining the wall of the protein cavity around the 2Fe-subcluster. The position of the Cys299 residue is notable, because it is in H-bonding distance from the distal water and also connects the pool of water molecules adjacent to the distal Fe site (Fe2) with the distal water. Computational Evaluation of Various Dithiolate Compositions. Figure 3 presents the energy stabilization as first the -, next the -, and last the µ-sulfur groups of the dithiolate ligand were gradually optimized while the positions of the rest of the atoms were kept fixed. In the first set of optimizations (section I), only the distal water was allowed to move. It was anticipated that the presence of the distal water could bias the optimizations due to hydrogen bonding interactions to the
+J. AM. CHEM. SOC.
+9
+
+VOL. 130, NO. 13, 2008 4537
+
+ARTICLES
+
+Pandey et al.
+
+Figure 3. Energy stabilization upon sequential structural optimization of section I (distal water), II (water + -group), III (water + -group + -CH2), and IV (water + -group + -CH2 +µS) of the dithiolate ligand of the H-cluster embedded in a 3.5 Å protein environment. (Insets) Optimized cluster structures with selected intermolecular distances between the distal iron-distal water and bridge-head group-distal water.
+
+-group. To test this, we also carried out optimizations in the absence of the distal water (dotted lines/hollow circles in Figure 3 starting in section II) in addition to optimizing the positions of the -group and the distal water together (not shown) without reaching a different conclusion regarding the preference for the -group composition. The changes in two characteristic distances are presented in Figure 4, and their optimized values are shown in the insets of Figure 3. The optimized coordinates of computational models are given as Supporting Information. For the dithiomethylammonium- and dithiomethylether-containing models, the distances of the distal water oxygen and the -group stay close to the experimental value of 2.60 Å. This distance is indicative of a strong hydrogen bonding interaction. From the structural insets in Figure 3, the hydrogen bonding interactions between the NH2+ or O groups and the distal water are actually different. In the former, the distal water is a hydrogen bond acceptor and donor in the latter. By comparing the water oxygendistal iron distances, the dithiomethylether ligands remains close to the experimental value (2.33 Å vs 2.38 Å), whereas in the other cases, it moves away considerably from the distal Fe (CH2: 3.38 Å and NH2+: 3.07 Å). Although the electron density feature and the thermal ellipsoid (Figure 1B) suggest dynamic flexibility and anisotropy for this water molecule, the crystallographic data would not support the assignment of the water molecule at the longer oxygen-iron distances observed for models with CH2 and NH2+ groups. The energy change upon optimization is considerable less for the dithiomethylether ligand (O: -16 kJ/mol) than for the others (CH2: -92 and NH2+: -73 kJ/mol) due to the good agreement between the optimized and experimental structures. Further optimization of the dithiolate - (section II, O: -28, CH2: -150, NH2+: -96 kJ/mol), -groups (section III, O: -175, CH2: -321, NH2+: -269 kJ/
+4538 J. AM. CHEM. SOC.
+9
+
+mol), and last the thiolate sulfur atoms (section IV, O: -210, CH2: -349, NH2+: -297 kJ/mol) clearly maintains the preference for an O linkage relative to CH2 or NH2+ groups at the -position of the dithiolate ligand. For the sake of clarity and simplicity, only the results obtained for the three dithiolate compositions with O, CH2, and NH2+ -groups are presented in Figures 3 and 4. Figure S2 (Supporting Information) provides a more complete analysis of additional dithiolate -group composition including thioether (S) and nonprotonated amine (NH) as well as optimization results up to the entire 6Fe cluster embedded in the protein environment. The nonprotonated secondary amine group was examined in two different conformations in which the NH group acts as either a hydrogen bond donor (NH w/hydrogen bonding; cyan trace) or acceptor (NH w/o hydrogen bonding; teal trace). From the energetic and metric differences between the two protonated forms in Figure S2A-C (Supporting Information), the latter seems to be more favorable, yet it is less favorable than the dithiomethylether composition in all respects of the analysis. Comparing all the computational results, it is evident that the dithiomethylether composition corresponds to the least energy stabilization (Figure 2A) and the least deviations in internal coordinates (Figure S2B-C, Supporting Information) upon structural optimization relative to the 1.39 Å resolution structure of the H-cluster. It is also interesting to note that the distal water position is best reproduced if it is hydrogen bonding to the bridge-head -group. This is only possible if this group is either O or nonprotonated secondary amine. It is expected that upon binding of a secondary amine substituted dithiolate to two positively charged transition metal ions the heat of hydrolysis of the amine group will decrease and thus the pKa shift toward smaller values suggesting reduced
+
+VOL. 130, NO. 13, 2008
+
+Dithiomethylether as a Ligand in the H-Cluster
+
+ARTICLES
+
+Figure 4. Interatomic distances as a function of optimization steps between dithiolate -group (A), distal iron-site (B), and the distal water (distal-W).
+
+propensity for protonation. Using small molecule mimics of the 2Fe-subcluster (Fe2S2(CO)6(dtma)), we estimated that the pKa value of the dithiomethylamine in the most reduced FeIFeI state to be about half (5.1) of a free secondary amine (Me2NH, 10.1) in a simulated low dielectric environment ( ) 10) with complete first aqueous solvation shell (see Computational Details). These calculations show that protonation of the secondary amine group in the most reduced FeIFeI state is not likely. Because a great deal of simplification had to be introduced in the above pKa calculations, we further evaluated the conformational stability of the dithiolate ligand for a protonated versus nonprotonated ammonium group. Both [FeFe]-hydrogenase crystal structures show that the -group at the center of the dithiolate ligand is oriented toward the distal iron. The -group is not sterically constrained in the dimetalladithiabicyclohexane ring system; thus, it is fluxional under ambient conditions, as has been shown by detailed temperature-dependent NMR studies.32 Partial structural optimizations of an alternate conformation for the -group in sections II, III, and IV of Figure 3 indicate that the conformation observed crystallographically
+
+is the most stable for all bridge-head group compositions except NH2+. In contrast, a 10-14 kJ/mol more-favored conformation of the dithiomethylammonium ligand exists with the secondary amine group pointing toward the thiolate S of Cys503 (Figure 5). The relative energies of these conformers remained the same when the model structures were fully optimized (Figure S2A - syn, dashed blue line; anti, solid blue line, Supporting Information). The energetically favored alternative conformation for the dithiomethylammonium ligand can be considered as a nonproductive catalytic base because it would shut down the proton shuttle to the distal iron site. Furthermore, it also competes with the proximal iron site of the 2Fe-sublcuters for the formally negatively charge bridging cysteine sulfur group that can compromise the structural integrity of the H-cluster framework.
+Conclusions
+
+The close-to atomic resolution crystal structure of the [FeFe]hydrogenase from C. pasteurianum provided us a unique
+(32) Lyon, E. J.; Georgakaki, I. P.; Reibenspies, J. H.; Darensburg, M. Y. J. Am. Chem. Soc. 2001, 123 (14), 3268-3278. J. AM. CHEM. SOC.
+9
+
+VOL. 130, NO. 13, 2008 4539
+
+ARTICLES
+
+Pandey et al.
+
+conditions. In addition, conformational analysis of the dithiolate ligand disfavors the dithiomethylammonium as the catalytic base for hydrogen production due to a preferred alternate conformation for the secondary ammonium group. This conformation has not been observed even in the lower resolution crystal structures. In this alternate conformation, the positively charged ammonium group hydrogen bonds to the sulfur atom of the bridging cysteine and thus effectively shuts down the catalytically important electron-delocalization between the 4Fe- and the 2Fe-subclusters of the H-cluster. Oxygen as the central atom has not yet been critically exploited by synthetic and computational biomimetic chemistry; however, our results provide a support for this as the next generation of targets of H-cluster models.
+Acknowledgment. Portions of this research were carried out at the SSRL operated by Stanford University on behalf of the DOE BES. The SSRL Structural Molecular Biology Program is supported by the DOE, OBER, and by the NIH, NCRR, Biomedical Technology Program, and the NIGMS. This research was supported by the NASA Astrobiology Biogeocatalysis Center at Montana State University funded by NASA (NNA08CN85A). T.V.H. and L.J.G. acknowledge the undergraduate research support from MSU Center for Bio-Inspired Nanomaterials (ONR N00014-06-01-1016). Supporting Information Available: Full optimizations profiles for all dithiolate compositions, validation of the computational analysis, coordinates of computational models, and complete ref 19. This material is available free of charge via the Internet at http://pubs.acs.org. The FeFe-hydrogenase coordinates have been deposited to the Protein Databank (PDB ID 3C8Y).
+JA711187E
+
+Figure 5. Anti (NH2+ points away from the 4Fe-subcluster) and syn (NH2+ points toward the 4Fe-subcluster) conformation of the dithiomethylammonium ligand.
+
+opportunity for critically evaluating the composition of the dithiolate ligand by an unbiased systematic in silico analysis. Computations carried out for a more than 200 atom model of the H-cluster and its immediate 3.5-3.9 Å protein environment favor the dithiomethylether composition. Our estimated pKa value of the FeIFeI-bound dithiomethylamine suggests that amine group is not likely protonated under physiologically relevant
+
+4540 J. AM. CHEM. SOC.
+
+9
+
+VOL. 130, NO. 13, 2008
+
+

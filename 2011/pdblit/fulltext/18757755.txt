@@ -1,0 +1,121 @@
+SI Appendix Liu et al.
+
+Chart 1A
+
+PDE9: Single-turnover rxn --100uM final cold cGMP quench -product cpm, counted ~7min after quench
+15000
+
+10000
+
+5000
+
+0
+0s 10 s en z 0s 12 0 24 0 o 0s
+
+N
+
+time of reaction (s) prior to cold cGMP addition
+
+Chart 1B
+
+PDE9: Single-turnover rxn -- acid stop -1500
+
+product cpm
+
+1000
+
+500
+
+0
+0s en z 9s 12 0 o 0s
+
+N
+
+time of reaction (s) Chart 1. Time courses of product generation of single turn over reactions. The reactions were quenched at different reaction times by adding unlabelled cGMP (final concentration 100 M, 1A), or 4N HCl (1B). The final concentration of [3H]cGMP used was 20nM, and the final concentration of PDE9 was 120 nM or 240 nM for unlabelled cGMP or 4N HCl quenched reactions respectively. Time 0 readings, obtained from reactions with enzyme and quenching agents added at the same time, are 282±5 cpm (measured at 7 minutes after quenching) and 80±2 cpm for unlabelled cGMP and 4N HCl quenched reactions respectively. For reactions quenched by unlabelled cGMP, time 0 readings slowly drifted upward at the rate of a normal steady state reaction, but only reached 2088±18 cpm overnight due to enzyme inactivation by Zn2+ after 1 hour (the
+
+SPA beads contain 18 mM Zn2+). To minimize the continuous hydrolysis of cGMP in time 0 reactions quenched by unlabelled cGMP, it is necessary to conduct experiments under minimum light condition and to centrifuge the readout plates briefly at low speed to achieve readout within 10 minutes. Within experimental errors, all the non-time 0
+
+readings (from 8 seconds up to 40 minutes) are essentially the same (12,236±167 cpm, 1A; 1,074±116 cpm 1B). Practically, the product readings at 20 or 40 minutes can be considered as the maximum readings when all 20nM substrates are hydrolyzed. The background readings without enzyme are 227 ±50 cpm and 78±2 cpm for reactions quenched by unlabelled cGMP and 4N HCl respectively.
+
+k1
+E+S ES
+
+k2
+EP
+
+k3
+E+P
+
+k-1
+Scheme 1. PDE9 hydrolytic reaction. E, S, ES, EP stand for enzyme, substrate, enzyme*substrate complex and enzyme*product respectively. [E], [S], [ES] and [EP] stand for their concentrations. k1 and k-1 are rates of ES formation and dissociation, k2 is the rate of substrate hydrolysis, and K3 is the dissociation rate of EP, respectively. Because the large hydrolysis energy of the cyclic phosphate bond (7-11 Kcal/mol) and the observed lack of product inhibition, ES->EP and EP->E+P are treated irreversible.
+
+Scheme 1 is used for kinetic analysis of PDE9 hydrolytic reaction. Applying the steadystate approximations (28), equations for [ES] and [EP] at the kinetic steady state can be obtained:
+
+k3 * [ E ]0 * [ S ] [ ES ] = k 2 + k 3 ( k - 1 + k 2) * k 3 + [S ] k 1 * (k 2 + k 3)
+
+(1)
+
+[ EP] =
+
+k2 * [ ES ] k3
+
+(2)
+
+Under steady-state, [S]>>[E]0, where [E]0 stands for the overall enzyme concentration. Applying equations (1) and (2), equations for steady-state reaction kinetics are obtained.
+
+v = k 3 * [ EP] = k 2 * [ ES ] k2 * k3 * [ E ]0 * [ S ] k2 + k3 ( k - 1 + k 2) * k 3 + [S ] k 1 * (k 2 + k 3) = kcat * [ E ]0 * [ S ] [ S ] + km
+
+(3)
+
+km 
+
+( k - 1 + k 2) * k 3 k 1 * (k 2 + k 3)
+
+(4)
+
+kcat 
+
+k2 * k3 k2 + k3
+
+(5)
+
+kcat k1 * k 2  km k - 1 + k2
+
+(6)
+
+Equations (4), (5) and (6) link the microscopic kinetic rate constants to the apparent steady-state reaction parameters. kcat, km and kcat/km are experimentally determined to be 0.02 S-1, 80 nM and 2.5x105 M-1s-1 respectively.
+
+In a single turn over reaction (Chart 1) quenched with unlabelled cGMP at reaction time t, the amount of 5'-[3H]GMP detected is the result of cGMP hydrolysis prior to qhenching plus the amount of cGMP bound in the Es complex and subsequently hydrolyzed. The huge excess of the unlabelled cGMP used in quenching changes the reaction from single turnover ([E] > [S]) to multiple cycle ([S] >> [E]) by diluting the
+
+residual unbound [3H]cGMP or [3H]cGMP dissociating from the [ES] complex available for hydrolysis by more than 5000 folds. Thus, the amounts of 5'-[3H]GMP generated from any unbound as well as dissociated [3H]cGMP after quenching are insignificant. Thus, only the continuous hydrolysis of pre-formed ES complex contributes to the labeled product after quenching. The following calculations, based on the single turn over reactions quenched by unlabelled cGMP and the steady state kinetics parameters described above, convincingly indicate that substrate binding, dissociate and hydrolysis are relative fast, and the rate limiting step of the reaction is the product release.
+
+Under single turn over reaction condition ([E]0> [S]0, [S]0 stands for substrate concentration at time 0), the lower limit of the free substrate concentration, [S]t, at time t can is given by equation (7):
+
+[S]t=[S]0*e(-k1*[E]0*t)
+
+(7)
+
+Equation (7) omits ES dissociation and the decrease in the concentration of the free enzyme available for substrate binding. In other word, for any given reaction time t, to reach the same concentration of free substrate concentration [S]t requires k1 larger than the value given by equation (7). Similarly, the upper limit of the concentration of labeled product (both free and in the form of EP), [P]t, generated at time t before quenching is given by equation (8):
+
+[P]t=[S]0*[1-e(-k2*t)]
+
+(8)
+
+Equation (8) omits the dissociation of ES and assumes that the association of ES is infinitely fast. For the same t and [P]t, k2 should be larger than the value given by this equation. After quenching at time t, the existing ES complexes dissociate at rate of k-1 and hydrolyze at the rate of k2. Again, assuming all the remaining substrate exist in the form of ES complex, the upper limit of the labeled product generated by continuous hydrolysis of ES complex after quenching is given by equation (9):
+
+[ P]t , after =
+
+k2 * ([ S ]0 - [ P]t ) (9) k - 1 + k2
+
+From (9), the upper limit of total concentration of labeled product when the reaction is quenched at time t, [P]t,total is given by (10):
+[ P]t , total = [ P]t + [ P]t , after = k - 1 * [ P]t [ S ]0 * k 2 + k - 1 + k2 k - 1 + k2
+
+(10)
+
+From our single turn reaction experiment, the amount of the radioactive product generated by 120 nM enzyme quenched at 9 seconds is more than 98% of [S]0. From calculations based on our conservative equations (7), that requires [S]9s/[S]0<0.02, or k1*[E]0>0.46, or k1>3.6x106 M-1s-1. Based on equation (6), k-1>14.5*k2. Based on equation (10), for [P]9s,total>98%[S]0, [P]9s>97.8%[S]0. From equation (8), k2>0.43 s-1. Based on equation (5), k2/k3>21.3, or k3<0.021 s-1. These calculations show that cGMP
+
+hydrolysis rate is relative fast, and the product dissociation is the rate limiting step of the reaction, determining the overall reaction rate at steady-state.
+
+The calculations of acid quenched reactions are simpler. Since 4N HCl can immediately denature PDE9 and release all the bound guanine nucleotides (chart 1B), based on equation 8, the lower limit of k2 can be deduced to be >0.48 s-1 from the time course of labeled product generation.
+
+

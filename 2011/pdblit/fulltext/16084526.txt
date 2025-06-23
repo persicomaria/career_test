@@ -1,0 +1,569 @@
+EVIDENCE FOR A 13,14-CIS CYCLE IN BACTERIORHODOPSIN
+PAUL TAVAN AND KLAUS SCHULTEN Physik-Department, Technische Universitiat Miunchen, 8046 Garching, Federal Republic ofGermany
+
+ABSTRACT We discuss to what extent the vibrational spectra of bacteriorhodopsin that have been observed and assigned by Smith et al. (1, 2) by means of resonance Raman and by Gerwert and Siebert (EMBO (Eur. Mol. Biol. Organ.) J. In press) by means of infrared absorption experiments are in agreement with a photo-cycle of bacteriorhodopsin that involves the sequence BR, IO(all-trans) -- K(13,14-cis) - L(1 3,14-cis) - M(13-cis) N(13-cis) - O(all-trans). Our discussion is based on a quantumchemical modified neglect of diatomic overlap [MNDO] calculation of the vibrational spectra of the relevant isomers of the protonated retinal Schiff base. In particular, we investigated in these calculations the effects of different charge environments on the frequencies of the relevant C-C single bond stretching vibrations of these isomers.
+0
+
+INTRODUCTION
+
+Bacteriorhodopsin (BR) in the cell membrane of Halobacterium halobium works as a light-driven proton pump (3-5). In 1978 we proposed a molecular mechanism for the photo-cycle of BR which was based on a primary all-trans 13,14-cis photoisomerization reaction of the chromophore (6). In our subsequent work we carried out quantumchemical calculations on the chromophore, i.e., protonated and unprotonated retinal Schiff bases in various isomeric states and in different charge environments. These calculations provided strong arguments for our proposition (7-10). Recently, the suggested mechanism has been challenged by Smith et al. (1) on the basis of calculations that relate geometries and observed vibrational spectra of polyenes. The authors used an empirical force field in their calculations (11). An alternative approach is to employ for the vibrational analysis a force field evaluated from quantum chemical calculations. In this article we will follow this approach. We will show that the resonance Raman (RR) data of Smith et al. (2, 12) and other vibrational spectra (Gerwert, K., and F. Siebert, EMBO (Eur. Mol. Biol. Organ.) J. In press.) can be reconciled with our suggestion of a 13,14-cis intermediate in the BR pump cycle. The arguments that lead us to postulate a 13,14-cis cycle in BR had been based on the observations that the initial state BR568 contains all-trans retinal (13-16) as a protonated Schiff base which becomes deprotonated and is 13-cis in the long-lived M412 intermediate (14-17). The arguments are the following (6, 18, 7, 8): (a) A primary process all-trans -- 13,14-cis involves up to the transition state the motion of only small masses and, therefore, can be very fast. This argument is corroborated by the recent finding of Nuss et al. (19) that the primary process in BR is
+BIOPHYS. J. e Biophysical Society
+Volume 50 July 1986 81-89
+.
+
+completed after -430 fs. (b) A 13,14-cis intermediate is thermally stable against the direct back-isomerization, whereas a 13-cis intermediate is not (9). The fact that thermal reversals of the primary reaction have not been observed in BR and would, indeed, be detrimental to the pump efficiency, supports our suggestion. (c) An indirect, i.e., sequential reisomerization 13,14-cis - 13-cis all-trans enforces a deprotonation and a subsequent reprotonation of the chromophore. Such deprotonation and reprotonation, in fact, are observed in the cycle. The arguments of Smith et al. (1) against our mechanism are derived from their observations of the RR spectra of the intermediates in the bacteriorhodopsin cycle. The authors substituted the natural carbons 2C at the C,4 and the C,5 positions of retinal by '3C and determined which of the vibrational bands are affected by this substitution. In this way they could assign the C14-C,5 stretch vibration. This vibration is very sensitive to geometrical changes of the chromophore and, hence, the assignment of this band for the intermediates of the BR cycle implies information on the isomeric state of retinal. However, the only key to this information are calculations of vibrational spectra. Smith et al. determined that the C,4-C,5 stretch frequency shifts from 1,201 cm- for Br568 to 1,195 cm-' for the low temperature (770K) primary BR photoproduct K625 (1) and 1,172 cm-' for the L550 intermediate (2). Gerwert and Siebert, on the basis of infrared difference spectroscopy (IR) using the same isotopic labels as Smith et al. (2) corroborated the V1625 assignment (20) but assigned the C14-C,5 stretch frequency for L550 to a band at 1,155 cm-' (EMBO (Eur. Mol. Biol. Organ.) J. In press.). To extract a statement on retinal's geometry from these vibrational shifts, Smith et al. (1) quoted a calculation by Curry (21) on butadiene, which had indicated that the stretch frequency of the central single bond of this com81
+
+0006-3495/86/07/81/09 $1.00
+
+pound experiences a downshift by -50 to 100 cm-' upon rotation around this single bond. Furthermore, these authors carried out a similar calculation on a protonated Schiff base fragment of the size of butadiene rendering a comparably large red shift (69 cm-') of the single bond stretch frequency upon s-trans - s-cis isomerization. All these calculations required to fit a large number of parameters for an intramolecular force field (22), in order to describe with a high degree of accuracy vibrational spectra of protonated retinal Schiff bases (RSBH+) (11). Since (a) the result on the Schiff base fragment matched the butadiene result rather well; (b) the C13-C,4-C,5-N portion of the all-trans RSBH+ corresponds geometrically to s-trans butadiene, the corresponding 13,14-cis compound to s-cis butadiene; and (c) the C14-C15 stretch frequency of retinal does not experience a large downshift upon the Br568 to K625 transformation, the authors determined that a 13,14-cis geometry must be excluded for the K intermediate. The argument hinges on the validity of intramolecular forces obtained by fitting indiscriminately the vibrational spectra of polyenes and retinal Schiff bases with different Xmax values, i.e., hinges on the similarity of force constants between butadiene and the C13-C,4-Cj5-N segment of RSBH+ in the far red-shifted intermediate K625. We will show below that such similarity does not exist and that the force fields as witnessed by vibrational spectra can vary sensitively with the Xmax values of retinal compounds.
+METHODS
+To provide a parameter-free, nonempirical description of the vibrational modes of the BR chromophores we have carried out quantumchemical MNDO force calculations for the vibrational spectra of protonated model compounds representing the complete polyene part of the RSBH+. We have chosen the MNDO method (modified neglect of diatomic overlap) (23) as it furnishes a quantitatively correct description of the ground state properties of protonated retinal Schiff bases. This has been demonstrated by us in our quantumchemical investigation of the effects of protonation and electrical interactions (9) and of substituents (10) on the stereochemistry of retinal Schiff bases. That MNDO gives a correct account of the changes induced by protonation in the bonding properties of molecules containing large 7r-systems has been demonstrated by us also for the merocyanine dye stilbazolium betaine (24), in which a thermal isomerization around the central single w-bond is prevented in highly polar, protonic solvents (25). For the vibrational analysis we used the MOPAC program package distributed by the Quantum Chemistry Program Exchange of Indiana University at Bloomington (QCPE 455). In a typical calculation of the vibrational spectrum for a model RSBH+ like one of those depicted in Fig. 1 A-E, first the ground state equilibrium geometry is calculated by minimizing the MNDO total molecular energy E(Q,) with respect to essentially all nuclear coordinates Qi, i = 1.3N-6, where N is the number of atoms in the molecule. Next, the full Hessian matrix of second derivatives ilE/lQ,OQk with respect to the Cartesian coordinates Qi is evaluated. Multiplication of this MNDO force matrix with the mass weights and diagonalization yields then the vibrational modes in Cartesian coordinates and the corresponding vibrational frequencies. The assignment of these modes to local internal coordinates like "C14-C15 stretch" or "C14-H rock," etc., has been achieved by a graphical representation and visual inspection. To provide some examples, Fig. 1 A-E show the C14-C,5 stretching mode of the model RSBH+ for various chromophore geometries. The assignment has been checked by the
+
+investigation of suitable isotope effects and by the creation of motion pictures on a high resolution graphics screen. As has been observed previously for the complete neglect of diatomic overlap (CNDO/2) method (26) also, the MNDO force field overestimates systematically all force constants except (see below) those for the C-C single bond torsions. But as in the case of CNDO/2 this overestimate can be corrected by an appropriate scaling of the force matrix, yielding then a satisfactory description of normal modes and vibrational frequencies. This has been demonstrated by us for the well-known vibrational spectra of butadiene and hexatriene and their deuterated derivatives (Tavan, P., Z. Luo, and K. Schulten, unpublished results). The necessary scaling of the MNDO force matrix is accomplished in our method by the introduction of MNDO "spectroscopic" masses. The choice of 1.094 for the hydrogen mass and of 14.75 for the carbon atoms turned out to reproduce the observed butadiene spectrum, for instance, with absolute errors of at most 30 cm-' in a spectral range between 0 and 2,000 cm-'. The only exception is the torsional vibration around the central single bond which is calculated at 41 cm-' and observed at 163 cm-' (26). This failure rests on the qualitatively incorrect description of the torsional stability of long C-C bonds by MNDO and related quantumchemical methods which we have discussed in detail in reference 9. Due to this error the dihedral angles of C-C single bonds in unpolar compounds like the protonated retinal Schiff bases with a close (2 A) counter ion have to be excluded from the MNDO geometry optimization (9). However, the important spectral features of polyene dyes and their derivatives are rather well covered by NDO force calculations like MNDO or CNDO/2, since the low frequency single bond torsional modes couple only weakly to the high frequency hydrogen out of plane wags, C-C single and double bond stretches and hydrogen in plane rocks, (cf. reference 26 and references quoted therein). Hence, we have chosen planar C-C single bond geometries for all isomers of the model RSBH+ with a close counter ion (cf. Fig. 1 A, B, and E) except for the 13,14-cis isomer, in which a nonplanar geometry is enforced by intramolecular sterical hindrance. To determine a reasonable model geometry for this isomer, we have calculated first the equilibrium geometry for the highly polar 13,14-cis cation relaxing all degrees of freedom, since in such a compound the above-mentioned error is absent (9). MNDO predicted the cation to be twisted around the C13-C14 bond by 160 and around the C14-C15 bond by 220 (cf. Fig. 1 D). As the torsional stability of the C13-C14 double bond increases in the less polar compounds, we have chosen a torsional angle of 450 for the C14-C15 bond in the 13,14-cis isomers with a counter ion (cf. Fig. 1 C). It turned out that the calculated vibrational spectra are insensitive to small (_ 100) changes of these dihedral angles. As we have shown in reference 9, the model retinal Schiff bases depicted in Fig. 1 represent the electronic properties of the complete chromophore very well. They should also provide a good description for those vibrational modes that are localized in the polyene part of the molecule toward the Schiff base nitrogen. For most isomeric states and charge environments the CIo-C1I and C14-C15 single bond stretches turned out to be rather well localized in this region. To exclude an artificial coupling of the in-plane bending modes of the two hydrogen atoms at C5 and C6 of the model compound we have decoupled the motion of these atoms by assigning them arbitrarily a large mass of 15. The effect of this decoupling amounted in a nearly uniform shift of the single bond stretches of -5 cm-'. For the same reason the counter ions have been spatially fixed, assigning them a very large mass of 1,000.
+
+RESULTS
+
+We have applied the calculations described in Methods to determine the C,o-Cl, and the C14-C15 stretch frequencies of the RSBH+. These vibrations were selected as they constitute prominent bands in the RR and IR difference spectra of BR. The question that we investigated first was to what extent these vibrations are sensitive to the isomeric
+BIOPHYSICAL JOURNAL VOLUME 50 1986
+
+82
+
+c
+
+A
+it .
+
+ci 'i #,
+
+71:14
+
+-
+
+0
+k-s
+/"
+
+c.5
+,.
+
+S,
+CL
+4\..
+f
+
+.C6
+
+./
+
+11
+
+I,<<,.'
+//
+
+I\
+
+--7~
+
+......
+
+f
+
+.. I
+
+All
+
+6-
+
+-.
+...J
+
+_
+
+_-
+
+I
+
+>D
+
+,/
+
+-4
+
+vl-
+
+\
+./Il
+
+B
+
+.i.
+>-\ / kI Kg
+.2
+
+,,4 iUCt~~r-Is..
+
+4
+<I
+
+S
+,1,
+
+I
+
+A-.g
+
+A..
+/
+-.-
+
+"I"
+
+2<..
+
+JK
+
+..:..
+*:
+
+K I'
+....
+
+\
+\1.
+
+\
+
+11/
+
+I.,
+
+.,<
+>=---
+
+V\
+
+I--<
+
+E
+
+a
+
+----
+
+--
+
+.
+
+.. K~ ~ ~ ~ ~ ~ ~.
+
+FIGURE 1 The MNDO equilibrium geometry and the C14-C,5 stretch normal mode of the model RSBH+ in the field of a negative charge and of a Cl- ion 2 A distant from the proton at the Schiff base nitrogen is shown for four different isomeric states: (A) all-trans, (B) 1 3-cis, (C) 13,14-cis, (E) 13,1 5-cis. The negative charge 3 A distant from C5 and perpendicular to the plane of the molecule has been omitted in the drawing. Also shown are the geometry and the C14-C,s stretching mode for the 13,14-cis undisturbed cation (D).
+
+state, to the protonation state, and to interactions with external charges. Our results are summarized in Table I. This table provides the vibrational frequencies for the relevant geometries of retinal: all-trans, 1 3-cis, 13,14-cis, 13,1 5-cis. The model retinal Schiff base was chosen protonated with a Cl-' ion as counter ion at a distance of 2 A and 3 A near the proton at the terminal nitrogen and with no counter ion. In addition, a negative charge has been located at a distance of 3 A near C5. The first compound represents a chromophore with a spectrum in the blue, i.e., at -480 nm, the second compound a chromophore with a spectrum at -550 nm, and the last compound a chromophore with a spectrum at 640 nm. To demonstrate the influence of the negative charge near C5 we have also included the data on the pure cations representing chromophores with spectra at -600 nm (27, 28). Therefore, in comparisons with experimental data, we will take the 2-A compounds as models for protonated Schiff bases in solution, the 3-A compounds as
+THE MNDO-FORCE
+TABLE I AND C,0-C,, STRETCH FREQUENCIES FOR THE MODEL RSBH+
+
+C14-C,5
+
+models for BR chromophores absorbing -550 nm, and the cations with and without negative charge near C5 as models for the K625 and O640 intermediates. The above choice of model charge environments had been motivated by the experimental investigation of the BR binding site by Derguini et al. (29), by the corresponding theoretical analysis in terms of an external point charge model (30, 31), and by our own analysis of the thermal isomerization properties of retinal in BR (9). We have identified the vibrational modes in Table I by visual inspection of all the eigenmodes of the chromophores. Those stretching vibrations most localized around the 10-11 and 14-15 bonds were included. However, to prove that the vibration selected are indeed identical to the ones identified in the experimental spectra we applied the same criteria as the experimentalists and for this purpose determined how the frequencies are shifted upon isotopic substitutions, i.e., either '3C substitution at the C14 and the C15 positions or substitution of N-H by N-D. The reader may consult the corresponding entries of Table I when we make comparison between our calculated vibrational frequencies and those observed by Smith et al. (2, 12) and by Gerwert and Siebert (EMBO (Eur. Mol. Biol. Organ.) J. In press.).
+
+C14 C15
+
+ClO _Cll
+
+Comp~ound
+
+12C, 'H
+cm-'
+
+13C
+cm-'
+
+2H
+cm
+
+'2C, 'H
+cm
+
+13C
+cm
+
+2H
+cm-'
+
+all-trans 2 A, C 3 A, C cat., C cat.
+13-cis unprot. 2 A, C 3 A, C cat., C cat.
+
+1,222.8 1,229.6 1,268.9 1,215.4
+
+1,207.4 1,224.1 1,178.6 1,177.4 1,183.3 1,209.7 1,229.4 1,179.3 1,177.3 1,187.3 1,207.6 1,205.1 1,259.9 1,182.3 1,180.3 1,207.2
+
+1,218.6 1,208.7 1,212.8 1,236.2 1,226.5
+
+1,188.1 1,201.3 1,216.3 1,189.4 1,183.6 1,189.6 1,194.2 1,188.5 1,203.8 1,220.9 1,219.0 1,228.5
+
+1,214.8
+
+1,204.2 1,201.1
+1,196.4 1,202.9 1,217.8 1,185.0 1,194.7 1,199.3 1,214.1 1,183.2
+
+13-cis, 14s-cis 2 A, C 1,138.8 1,125.0 3 A, C 1,168.1 1,143.2 1,230.1 1,227.3 cat., C cat. 1,218.0 1,209.0
+
+13,15-cis 2 A, C 3 A, C cat., C
+cat.
+
+1,211.5 1,155.1 1,229.9 1,182.4 1,215.6 1,204.5 1,240.0 1,205.4
+
+1,190.6 1,193.9 1,195.5 1,195.7 1,220.7 1,219.9 1,190.6 1,189.7
+
+The MNDO-force C14-C,5 and C,0-C,, stretch frequencies for the model RSBH + are given for various isomeric states, charge environments, and isotopic modifications. The column labels specify the isotopic substitutions considered. The column labeled by '2C, 'H gives the frequencies for the unsubstituted compounds. The 13C column gives those for the 14,15-'3C isotopes. The 2H column gives those for the deuterated Schiff bases. The charge environment is characterized by the letter "C" if a negative charge was placed 3 A distant to atom C5. It is characterized by the distances "2 A" or "3 A" if a Cl- ion was positioned at that distance from the proton at the nitrogen, and by the keyword "cat." if no counter ion was present in the calculation.
+
+Structure of Br548 When our earlier quantumchemical calculations revealed that an RSBH+ can thermally undergo concerted isomerizations around two double bonds, i.e., all-trans -- 13,15cis, we suggested (7) that the dark-adapted pigment Br548 may exist in a 13,15-cis geometry. The observation by Oesterhelt et al. (13) that an all-trans - 1 3-cis isomerization takes place during dark-adaptation had been the experimental background for this suggestion. Fig. 1 A and E, shows that the geometry of 13,1 5-cis retinal is very close to that of the all-trans compound, and that one may consequently expect that both compounds are about equally stable in the BR binding site. The suggestion of a 13,15-cis Br548 compound was proven to be correct by Smith et al. (2) on the basis of RR and by Harbison et al. (32) on the basis of nuclear magnetic resonance (NMR) spectra. Here we want to show that an application of our own results to the RR spectra of Br568 and Br548 reproduces this assignment. For this purpose we present in Fig. 2 the relevant data taken from Table I as well as the experimental observations (2). These data represent the effects of deuteration of the Schiff base nitrogen on the C14-C15 stretch frequency. The calculations show that a C-N bond with a trans geometry of the nitrogen proton relative to the hydrogen at C14 (see Fig. 1 A) does not exhibit a frequency shift of the C,4-C,5 stretch upon deuteration. However, due to the coupling of the N-H rocking mode to the C,4-C15 stretch, a C-N bond with a proton in the cis-position (see Fig. 1 E) reveals a rather strong deuteration effect, i.e., an upshift of 48 cm-'. Fig. 2 shows that the C14-C15 stretch frequency of Br568
+BIOPHYSICAL JOURNAL VOLUME 50 1986
+
+84
+
+12Z40.
+
+1240.
+H20, D20
+
+cat., C cat., C
+D20
+
+1260.
+
+1220.
+
+1240.
+3A C
+
+cat., C
+cat.
+3
+
+cat., C
+C cat., C
+
+D20
+
+1220.
+
+2 A,C
+cat.
+
+0
+u
+
+H20, D20
+1200.
+BR568
+
+,..
+
+~~~~BR548 BR4
+
+A,
+
+cat.
+
+-~ ~2 A, C
+. _ . _ .
+
+A. C
+C
+
+.cat.
+
+cat.,
+
+2 A,
+
+:.
+
+1200. 1180.
+
+H20
+a,
+1180.
+
+-._._._, solvent
+
+BR568
+
+.........
+
+N540?
+
+°
+H20
+
+solvent
+
+3
+
+C
+
+BR54a
+1160.
+
+BR548
+1160.
+
+2 A, C
+1140.
+
+L550
+2 A. C
+
+all-trans 1140.
+
+13-cis
+
+13,15-cis
+
+13,14-cis
+
+all-trans, 3
+
+A
+
+13,15-cis, 3
+
+A
+
+1240.
+
+FIGURE 2 The effect of deuteration of the Schiff base nitrogen on the C14-C15 stretch frequency calculated for the model RSBH+ in the field of a Cl- ion at a distance of 3 A is compared with the experimental findings by Smith et al. (2).
+
+1220.
+
+cat
+
+C
+
+cat. C
+
+cat. C
+1200.
+
+cat.
+
+3
+
+C
+
+,3 A, C
+cat.
+
+3 AC
+
+2 A. C
+-
+
+does not exhibit a deuteration effect, whereas the C14-C15 stretch frequency of Br548 does; its shift upon deuteration measures 41 cm-'. Such an analogy between calculation and observation led Smith et al. (2) to assign the 13,1 5-cis
+geometry (with
+a
+
+1180.
+
+N540?
+
+N
+
+?
+
+BR545
+
+11-
+
+cat.
+
+2 A, C
+
+BR R6 3
+o..
+1160.
+
+cis-proton at the C-N bond) to Br548.
+1140.
+
+These authors calculated an upshift of 5 to 12 cm-' for a trans C-N bond and an upshift of 62 cm-1 for a cis C-N bond. Fig. 2 demonstrates that our calculations are in harmony with the results of Smith et al. (2), reproducing the behavior of the pigments Br568 and Br548 even somewhat better.
+
+1120.
+all-trans
+
+13-cis
+a
+
+13,15-cis
+on
+
+13,14-cis
+
+FIGURE 3 The effect of
+
+varying charge environment
+
+(A) the
+
+C14-C,5 and (B) the C1O-C,1 stretch frequency is shown for four isomers
+of the model RSBH+. The charge environment is indicated by the distance of a possible Cl- ion to the Schiff base proton and by the letter C indicating the presence of a negative charge 3 A near C5. Related chromophore structures are connected by dotted lines. Also given are the observed values for BR568 (12), BR548 (2), L5_o (Gerwert, K., and F. Siebert, EMBO (Eur. Mol. Biol. Organ.) J. In press.), for an all-trans and 1 3-cis RSBH+ in solution (33) and our tentative assignment of bands in the spectra of Alshut and Stockburger (personal communication) to the N intermediate (see Results, Mechanism of the Proton Pump for discussion).
+
+Effect of Electrical Interactions on the Vibrational Spectra of the Isomers of RSBH+
+In this section we want to demonstrate that, in addition to the geometry, electrical interactions also have an important effect on the vibrational spectra of some of the retinal isomers. Before presenting our results we wish to point out that electrical interactions and their variation during the pump cycle play an important role in BR, a role which can be easily witnessed from the strong spectral shifts of the pigment (28). In Fig. 3 A we present the C14-C15 stretch frequency for the model RSBH+ in the all-trans, the 13-cis, the 13,15cis, and the 13,1 4-cis isomeric state. The electrical interactions considered correspond to an RSBH+ without a counter ion and with a counter ion at distances of 2 A and 3 A. All these compounds are subjected to the field of a negative charge near C5. The effect of removal of this charge is represented by the data on the pure RSBH+ cation. The results in Fig. 3 A are the main results of this
+paper.
+
+Fig. 3 A demonstrates that an alteration of the electrical interactions has a considerable effect on all the isomers.
+
+This effect is smallest in the case of the 1 3-cis compound. The effect of electrical interactions is only a little stronger for the all-trans compound. However, in the case of the 13,15-cis compound, the different charge environments induce large shifts. These shifts are found to be even larger for the 13,14-cis compound. To rationalize the strong effects of external charges on the C14-C15 stretch frequency in the isomers, we present in Table II a comparison of the bond lengths of the four 13,1 4-cis protonated retinal Schiff bases considered so far: the compounds in the field of the negative charge near C5 with a Cl- counter ion at a distance of 2 A and 3 A, or without a Cl- and the pure cation, i.e., without the charge and without a Cl-. Table II shows that the single and
+85
+
+TAVAN AND SCHULTEN Evidence for a 13,14-cis Cycle in Bacteriorhodopsin
+
+TABLE II THE MNDO EQUILIBRIUM BOND LENGTHS OF THE 13,14-cis MODEL RSBH+
+
+Bond description
+
+2 A, C
+
+3 A, C
+
+cat., C
+
+cat.
+
+A
+Single bonds
+
+A
+1.462 1.474 1.455 1.460 1.452
+
+A
+1.448 1.449 1.418 1.415 1.396
+1.364 1.377 1.402 1.405 1.424
+
+A
+1.461 1.469 1.440 1.437 1.414
+1.354 1.364 1.383 1.386 1.405
+
+C6-C7
+C8-C9
+
+CIO-,il C12 C13
+C14_C15
+Double bonds
+
+1.463 1.477 1.460 1.467 1.461
+1.355 1.358 1.370 1.363 1.370
+
+C5 C6
+C7-C8
+
+C9,C10 C12 C13 C14
+C,,
+
+1.355 1.360 1.373 1.368 1.377
+
+C-N bond
+
+N15-C16
+
+1.315
+
+1.320 1.359
+
+1.347
+
+The MNDO equilibrium bond lengths of the 13,14-cis model RSBH+ are given as a function of the charge environment (see the caption to Table I for an explanation).
+
+double bonds near the C-N bond are most strongly affected by a change in the charge environment as represented by these four compounds. For example, the length of the C14-C15 single bond varies between 1.46 and 1.40 A. The effect on the bond length develops mainly upon removal of the counter ion, i.e., corresponds to the difference between the 3-A compound and the compounds without counter ion. The negative charge near C5 amplifies the effect of protonation, as is revealed by a comparison of the geometries of the two cations: the cation in the field of the charge exhibits nearly equal single and double bond lengths in the part of the carbon chain between atoms Cg and C15. This compound resembles more a cyanine dye than a polyene with bond alternation. In contrast, the pure cation still shows some degree of bond alteration in the region between Cg and C13. One expects that the alteration of a bond length reflects a change in the force constant of this bond and, therefore, that the variation of the bond length should be accompanied by an alteration in the stretch frequency. This is, in fact, the behavior shown in Fig. 3 A. However, for a complete understanding of the calculated vibrational frequencies, one has to also consider the coupling of the bond stretch motions to other degrees of freedom. This coupling as well as the frequency distribution of the other degrees of freedom is also subject to change upon alterations of the charge environment. Furthermore, this coupling may differ in the various isomeric states. Hence, the effect of a charge redistribution on the stretch frequencies cannot be attributed to a single cause (force constant), but rather is the result of a complex interplay of several causes (force constants, kinetic couplings). Fig. 3 reveals also how the C14-C15 stretch frequency
+86
+
+changes solely due to geometry changes when the charge environment is not altered. As an example we may consider the nonpolar 2-A compound. Its C14-C15 stretch frequency downshifts by only 14 cm-' upon an all-trans - 13-cis isomerization. For retinal Schiff bases in solvents one observes a value of 15 cm-1 (1 ,11, 33). An all-trans 13,1 5-cis isomerization has a stronger effect, downshifting the frequency by 45 cm-l. The largest effect is found for the all-trans - 13,14-cis isomerization, which lowers the C14-C15 stretch frequency by 84 cm-'. This latter shift is in agreement with the aforementioned behavior of butadiene when it undergoes isomerization around its central single bond. In the butadiene case, MNDO predicts a downshift of 99 cm-'. A most remarkable feature of the frequency behavior shown in Fig. 3 A is the invariance of the C,4-CI5 stretch frequency of the compounds without counter ion (cations). The C14-C,5 stretch frequency in these compounds exhibits a behavior that is completely different from its behavior in the nonpolar compounds. None of the isomerization processes affects the C,4-C15 stretch frequency in a significant way. The reasons for this behavior are opposing effects from geometry changes and changes in the electronic structure. The difference in the behavior of the cation compounds and the 2-A compound is manifested by the fact that the C14-C15 stretch frequency of the 13,14-cis pure cation lies above that of the all-trans pure cation, whereas this frequency in the 13,14-cis 2-A compound experiences a very strong downshift compared with its all-trans relative. Furthermore, the C14-C15 stretch frequencies of both 13,14-cis cations lie only -8 cm-' below those of the corresponding 1 3-cis compounds, whereas very large downshifts of 70 and 45 cm-' upon 14s-trans - s-cis isomerization are predicted for the more nonpolar, polyene-like 2 A and 3-A 1 3-cis compounds, respectively. This dramatic difference, which is not predicted by the empirical calculations of Smith et al., provides our key argument against the geometric assignment of these authors (reference 1): the empirical force field employed by these authors may be of some use for the description of nonpolar molecules as it has been derived from small polyene-like compounds. But it fails in the description of the highly polar, far red-shifted chromophores. Fig. 3 B shows that the C10-C1, stretch frequency exhibits only a minor dependence on charge alteration and isomerizations around the three terminal bonds.
+,
+
+Assignment of a 13,1 4-cis Intermediate To use the results of Fig. 3 A we note that the primary intermediate K of the pump cycle in BR has a strongly red-shifted absorption spectrum and should, therefore, correspond to one of the cation compounds. This correspondence implies, then, according to Fig. 3 A, that the C14 C15 stretch frequency should not allow a differentiation between a 13-cis and a 13,14-cis geometry for the K intermediate. This is in disagreement with Smith et al. (1),
+BIOPHYSICAL JOURNAL VOLUME 50 1986
+
+who claimed that they can assign a particular one of these geometries to this intermediate by comparing the very small downshift of 6 cm-' observed in the transition from BR658 to K625 with the frequency shift of butadiene: the authors claimed that a 50 to 100 cm-' downshift should have been observed relative to all-trans Br568 if the K intermediate were to assume a 13,1 4-cis geometry. Fig. 3 A suggests, however, that one should look at the L intermediate for a decision between a 13-cis and a 13,14cis geometry. Such decision can be derived since Br568, Br548, and L550 have all similar spectra which should correspond to the 3-A compounds in Fig. 3 A. The fact that the C14-C15 stretch frequency of the L intermediate lies 46 cm-' below the corresponding frequency of Br568 (alltrans) and still 12 cm-1 below that of Br548 (13,15-cis) should imply that the L intermediate is 13,14-cis. This argument is strongly supported by the assignment of Gerwert and Siebert (EMBO (Eur. Mol. Biol. Organ.) J. In press.) of the C14-C15 stretch frequency at 1,155 cm-' for L. The suggestion of Smith et al. of a 1 3-cis geometry for L cannot be reconciled with the results of Fig. 3 A. Even the previous assignment of a band at 1,172 cm-' to the C14-C15 stretch by Smith et al. (2) appears to be at variance with a 1 3-cis conformation of L because a 13-cis RSBH+ in solution has a C14-C,5 stretch frequency of 1,175 cm-' (33) and because one has to expect an upshift by - IOcm-' upon incorporation into the protein (1 1). In our calculations this "opsin" shift is reflected in the general upshift of the stretch frequencies of the 3-A compounds as compared with the 2-A compounds. Assuming that no isomerization takes place in the K -L transition we assign also a 13,14-cis geometry to K.
+
+FIGURE 4 The 1 3,14-cis model for the BR proton pump cycle. For each intermediate the chromophore conformation and the Schiff base charge environment are indicated schematically. Note that the pump cycle as described transports two protons when 0 is involved and one proton when 0 is bypassed.
+
+Mechanism of the Proton Pump
+In this final section we would like to summarize our results in view of a mechanism of the pump cycle in BR. The pump cycle is presented in Fig. 4. We will first provide the arguments that lead to this pump cycle and demonstrate then by means of Fig. 5 that the calculated C14-C15 stretch frequencies of the isomers occurring in the cycle are in harmony with the available data. The cycle in Fig. 4 presents the terminal part of the retinal chromophore and three acids Ai which alter their protonation state during the cycle. The protonation states of the three groups assumed here were suggested by Engelhard et al. (34) on the basis of their difference IR spectra. These authors also claim that the three groups Ai shown are aspartic acids. The protonation changes of these acids are connected with either the approach or the release of protons from the vicinity of retinal, as indicated in Fig. 4. If protons released and absorbed are originating from different sides of the purple membrane, the reaction sequence of Fig. 4 can obviously explain a vectorial proton pump. The geometries of retinal assumed in the cycle of Fig. 4 are those that we suggested since our first proposal (6).
+
+What is new in the representation of Fig. 4 are the relative positions of the acids Ai and retinal. The positions have been chosen to rationalize the spectra of retinal observed at the different stages of the cycle (28). In the Br568 stage the Schiff base nitrogen forms a salt bridge, i.e., sees a close counter ion and therefore assumes a spectrum intermediate between a red and a blue extreme. At the K stage the Schiff base nitrogen moves from A3- to A,H, i.e., to the vicinity of an uncharged group. Hence, the spectrum is red shifted. At the L stage the group Al deprotonates and becomes charged, a process which results in a blue shift of the spectrum. At the two M stages (only the second might be stable) the spectrum is necessarily moved to the extreme blue. At the N stage the chromophore interacts with a
+1240.
+
+all-tr., 3 A, C
+1220.
+13,14-cis, cat.
+
+13-cis, unprot. all-tr., cat.
+
+E
+
+1200.
+
+BR-..
+
+J(K),25
+rc
+
+M412
+
+1180.
+
+-13.15-cis, 3 A, C
+
+1160.
+
+BR5,,
+
+13,14-cis, 3 A C
+5150
+
+1140.
+
+FIGURE 5 Comparison of calculated and observed C14-C15 stretch frequencies for the 13,14-cis model shown in Fig. 4. The experimental assignments for K62 are from Gerwert et al. (20), those for 640 are from Smith et al. (12) and for M412 it is our assignment according to a spectrum by Smith et al. (1). For the remaining assignments see the caption to Fig. 3.
+
+TAVAN AND SCHULTEN Evidence for a 13,14-cis Cycle in Bacteriorhodopsin
+
+87
+
+charged group A2-, the interaction being very similar to that at the L stage. Hence, the N spectrum should be very similar to that of L. Since the rate constants of the transitions in this part of the cycle are all of similar magnitude, it might be difficult to separate N from L by time-resolved spectroscopy. The N intermediate reisomerizes to the 0 stage (12) in which the situation arises that the Schiff base nitrogen sees an uncharged group A3H. Hence, 0 should exhibit a red-shifted spectrum. The removal of a proton from A3 restores the initial Br568 stage. The diagram in Fig. 4 also shows that side reactions shortcutting the cycle by means of slightly altered protonation-deprotonation reactions are possible. The shortcut would leave out the 0 intermediate. This implies the prediction that a strong correlation should exist between the appearance of 0 in the cycle and the yield of H+'s pumped. Such correlation has, in fact, been observed by Renard et al. (35). Fig. 4 attributes a distinct isomeric state toeach stage of the pump cycle. The interactions of the chromophore with the indicated acids suggest that the retinal Schiff base should correspond to different categories in the nomenclature used above: we identify Br, L, and N with a 3-A compound, K and 0 with a pure cation, and M with the unprotonated Schiff base. In Fig. 5 we compare for the assumed intermediates the calculated and the observed C,4-C,5 stretch frequencies. Except for a systematic slight upshift of the calculated frequencies, Fig. 5 demonstrates a very clear parallelism between theory and observation. We take this parallelism as evidence that the geometries of retinal in the pump cycle have been assigned correctly. The small deviations remaining for the K and 0 intermediates can easily be rationalized in terms of a small perturbation of the cationic ir-system by a local electric field near C5
+
+base segment of retinal in BR? (c) Does an intermediate N exist and can its isomeric state be elucidated by RR or IR spectra? (d) Can the solid state NMR methods (32) resolve the structure of intermediates in the pump cycle?
+We are grateful to K. Gerwert and F. Siebert for informing us about their experimental results prior to publication and for stimulating discussions. We would also like to thank D. Oesterhelt for encouragement and support. The contribution of H. Treutlein to the assignment of vibrational modes is gratefully acknowledged. This project has been supported by the Deutsche Forschungsgemeinschaft (SFB-143 C1).
+
+Receivedfor publication 21 October 1985 and infinalform 15 January 1985.
+
+REFERENCES
+1. Smith, S. O., J. Lugtenburg, and R. Mathies. 1985. Determination of retinal chromophore structure in bacteriorhodopsin with resonance Raman spectroscopy. J. Membr. Biol. 85:95-109. 2. Smith, S. O., A. B. Myers, J. A. Pardoen, C. Winkel, P. P. J. Mulder, J. Lugtenburg, and R. Mathies. 1984. Determination of retinal Schiff base configuration in bacteriorhodopsin. Proc. Natl. Acad. Sci. USA. 81:2055-2059. 3. Oesterhelt, D. 1976. Bacteriorhodopsin as an example of a lightdriven proton pump. Angew. Chem. Int. Ed. Engl. 15:17-24. 4. Stoeckenius, W., and R. Bogomolni. 1982. Bacteriorhodopsin and the purple membrane of Halobacteria. Annu. Rev. Biochem. 51:587-616. 5. Stoeckenius, W., R. H. Lozier, and R. Bogomolni. 1979. Bacteriorhodopsin and related pigments of Halobacteria. Biochim. Biophys. Acta. 505:215. 6. Schulten, K., and P. Tavan. 1978. A mechanism for the light-driven proton pump of Halobacterium halobium. Nature (Lond. ). 212:85-86. 7. Orlandi, G., and K. Schulten. 1979. Coupling of stereochemistry and proton donor-acceptor properties of a Schiff base. A model of a light-driven proton pump. Chem. Phys. Lett. 64:370-374. 8. Schulten, K., Z. Schulten,and P. Tavan. 1984. An isomerization model for the pump cycle of bacteriorhodopsin. In Information and Energy Transduction in Biological Membranes. L. Bolis, E. J. M. Helmreich, and H. Passow, editors. Alan R. Liss, Inc., New York. 113-131. 9. Tavan, P., K. Schulten, and D. Oesterhelt. 1985. The effect of protonation and electrical interactions on the stereochemistry of retinal Schiff bases. Biophys. J. 47:415-430. 10. Tavan, P., K. Schulten, W. Giirtner, and D. Oesterhelt. 1985. Substituents at the C13 position of retinal and their influence on the function of bacteriorhodopsin. Biophys. J. 47:349-355. 11. Smith, S. O., A. B. Myers, R. Mathies, J. A. Pardoen, C. Winkel, E. M. M. van den Berg, and J. Lugtenburg. 1985. Vibrational analysis of the all-trans retinal protonated Schiff base. Biophys. J. 47:653-644. 12. Smith, S. O., J. A. Pardoen, P. P. J. Mulder, B. Curry, J. Lugtenburg, and R. Mathies. 1983. Chromophore structure in
+
+(36).
+We would like to note that the N intermediate may have been observed recently in RR experiments: Alshut and Stockburger observed at high pH a long-lived species with the same decay time as the M412 intermediate and with an RR spectrum very similar to that of L (personal communication). Assuming that this is a spectrum of N and that N is 1 3-cis, we have assigned in Fig. 3 A and B, the lowest two fingerprint vibrations to the CI0-CI1 and C14-C15 stretches. It would be worthwhile to identify the C14-C15 vibration in this spectrum by repeating the experiment with 13C labeled retinal. We wish to conclude that the stereodynamics of retinal in BR's pump cycle appears to be in agreement with our original suggestion (6). This suggestion has stated already that the stereodynamics determined here from the vibrational spectra imply that retinal plays the role of a proton switch in BR. However, the conclusion reached needs to be confirmed by further investigations. The most pressing questions in this respect are: (a) What is the energy of the C14-C15 stretch vibration of L550? (b) Can other "fingerprint" vibrations elucidate structural details of the Schiff
+88
+
+bacteriorhodopsin's 0640 photointermediate. Biochemistry.
+22:6141-6148. 13. Oesterhelt, D., M. Meentzen, and L. Schuhmann. 1973. Reversible dissociation of the purple complex in bacteriorhodospin and identification of 13-cis and all-trans retinal as its chromophores. Eur. J. Biochem. 40:453-463. 14. Lewis, A., J. Spoonhower, R. A. Bogomolni, R. H. Lozier, and W. Stoeckenius. 1974. Tunable laser resonance Raman spectroscopy of bacteriorhodopsin. Proc. Natl. Acad. Sci. USA. 71:44624466.
+
+BIOPHYSICAL JOURNAL VOLUME 50
+
+1986
+
+15. Marcus, M. A., and A. Lewis. 1977. Kinetic resonance Raman spectroscopy: dynamics of deprotonation of the Schiff base of bacteriorhodopsin. Science (Wash. DC). 195:1328-1330. 16. Aton, B., A. G. Doukas, R. H. Callender, B. Becker, and T. G. Ebrey. 1977. Resonance Raman studies of the purple membrane. Biochemistry. 16:2995-2999. 17. Pettei, M. J., A. P. Judd, K. Nakanishi, R. Henselmann, and W. Stoeckenius. 1977. Identification of retinal isomers isolated from bacteriorhodopsin. Biochemistry. 16:1955-1959. 18. Schulten, K.. 1978. An isomerization model for the photocycle of bacteriorhodopsin. In Energetics and Structure of Halophilic Microorganisms. S. R. Caplan and M. Ginzburg, editors. Elsevier/North Holland Biomedical Press, Amsterdam. 331-334. 19. Nuss, M. C., W. Zinth, W. Kaiser, E. Kolling, and D. Oesterhelt. 1985. Femtosecond spectroscopy of the first events of the photochemical cycle in bacteriorhodopsin. Chem. Phys. Lett. 117:1-7. 20. Gerwert, K., F. Siebert, J. A. Pardoen, C. Winkel, and J. Lugtenburg. 1985. Vibrational analysis of chromophore-configurations in bacteriorhodopsin during the photo cycle using FTIR difference spectroscopy. In Spectroscopy of Biological Molecules. A. J. P. Alix, L. Bernard, and M. Manfait, editors. Wiley, Chichester. 373-375. 21. Curry, B. 1983. Ph.D. thesis. University of California, Berkeley, CA. 22. Curry, B., A. Broek, J. Lugtenburg, and R. Mathies. 1982. Vibrational analysis of all-trans retinal. J. Am. Chem. Soc. 104:52745286. 23. Dewar, J. S., and W. Thiel. 1977. Ground state of molecules. 38. The MNDO method. Approximations and parameters. J. Am. Chem. Soc. 99:4899-4906. 24. Tavan, P., and K. Schulten. 1984. The effect of protonation on the thermal isomerization of stilbazolium betaines. Chem. Phys. Lett. 110:191-195. 25. Steiner, U., M. H. Abd-El-Kader, P. Fischer, and H. E. A. Kramer. 1978. Photochemical cis/trans isomerization of a stilbazolium betaine. A protolytic/photochemical reaction cycle. J. Am. Chem. Soc. 100:3190-3197. 26. Panchenko, Yu. N., P. Pulay, and F. Torok. 1976. Prediction of vibrational spectra by the CNDO/2 force method. II. The calcu-
+
+27. 28. 29.
+
+30.
+
+lation of vibrational frequencies of cis and trans forms of glyoxal, acrolein and 1,3 butadiene. J. Mol. Struct. 34:283-289. Schulten, K., U. Dinur, and B. Honig. 1980. The spectra of carbonium ions, cyanine dyes and protonated Schiff base polyenes. J. Chem. Phys. 73:3927-3935. Honig, B., A. D. Greenberg, U. Dinur, and T. G. Ebrey. 1976. Visual-pigment spectra: implications of the protonation of the retinal Schiff base. Biochemistry. 15:4993-4999. Derguini, F., C. G. Caldwell, M. G. Motto, V. Balogh-Nair, and K. Nakanishi. 1983. Bacteriorhodopsins containing cyanine dye chromophores. Support for the external point charge model. J. Am. Chem. Soc. 105:646-648. Nakanishi, K., V. Balogh-Nair, M. Arnaboldi, K. Tsujimoto, and B. Honig. 1980. An external point-charge model for bacteriorhodopsin to account for its purple color. J. Am. Chem. Soc. 102:7945-
+
+7947. 31. Kakitani, T., H. Kakitani, B. Honig, and K. Nakanishi. 1983. Symmetric charge distribution in the bacteriorhodopsin binding site. J. Am. Chem. Soc. 105:648-650. 32. Harbison, G. S., S. 0. Smith, J. A. Pardoen, C. Winkel, J. A. Lugtenburg, J. A. Herzfeld, R. Mathies, and R. G. Griffin. 1984. Dark-adapted bacteriorhodopsin contains 13-cis,15-syn and alltrans,15-anti retinal Schiff bases. Proc. Natl. Acad. Sci. USA. 81:1706-1709. 33. Braiman, M., and R Mathies. 1982. Resonance Raman spectra of bacteriorhodopsin primary photoproduct: evidence for a distorted 13-cis retinal chromophore. Proc. Natl. Acad. Sci. USA. 79:403407. 34. Engelhard, M., K. Gerwert, B. Hess, W. Kreutz, and F. Siebert. 1985. Light-driven protonation changes of internal aspartic acids of bacteriorhodopsin: an investigation by static and time-resolved infrared difference spectroscopy using [4-13C]aspartic acid labeled purple membrane. Biochemistry. 24:400-407. 35. Renard M., P. Thirion, and M. Delmelle. 1983. Photoacoustic spectroscopy of bacteriorhodopsin photocyle. Biophys. J. 44:211218. 36. Spudich, J. L., D. A. McCain, K. Nakanishi, M. Okabe, N. Shimizu, H. Rodman, B. Honig, and R. A. Bogomolni. 1986. Chromophore/protein interaction in bacterial sensory rhodopsin and bacteriorhodopsin. Biophys. J. 49:479-483.
+
+TAVAN AND SCHULTEN Evidencefor a 13,14-cis Cycle in Bacteriorhodopsin
+
+89
+
+

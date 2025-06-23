@@ -1,0 +1,262 @@
+727
+
+Beyond A, C, G and T: augmenting nature's alphabet
+Allison A Henry and Floyd E RomesbergÃ
+Efforts to expand the genetic alphabet are predicated upon a stable and replicable third base pair. Recent progress has resulted in the development of several candidates that are both stable in duplex DNA and replicated by DNA polymerases with various degrees of efficiency and fidelity. The candidate base pairs draw upon unnatural hydrogen-bonding topologies as well as upon shape complementarity and hydrophobic forces. This review provides a critical comparison of the third base pair candidates and discusses the further work required to expand the genetic alphabet.
+Addresses Department of Chemistry, The Scripps Research Institute, 10550 North Torrey Pines Road, Maildrop CVN22, La Jolla, CA 92037, USA Ã e-mail: floyd@scripps.edu
+
+Current Opinion in Chemical Biology 2003, 7:727­733 This review comes from a themed section on Biopolymers Edited by Thomas Carell and Peter Seeberger 1367-5931/$ ­ see front matter ß 2003 Elsevier Ltd. All rights reserved. DOI 10.1016/j.cbpa.2003.10.011
+
+basis of the genetic alphabet, itself the basis of the genetic code. However, there is no reason to assume that the requirements for duplex stability and replication must limit the genetic alphabet to only two base pairs. In addition to enabling a wide variety of biotechnology applications (i.e. by improving hybridization or replication properties for novel chip and sequencing procedures, respectively), an expanded genetic alphabet would enable the encoding of additional information for both in vitro and in vivo applications and its pursuit has thus attracted significant interest over the past several decades. After Benner first popularized the idea in the late 1980s, an increasing amount of interest has resulted in the acceleration of progress towards this goal. This review summarizes some of this progress, focusing specifically on the work with DNA and not the transcriptional or translational components of the genetic code. Expanding the genetic alphabet requires an unnatural base pair with interbase interactions, of whatever sort, that confer stability on a DNA duplex and that is replicated by a DNA polymerase. Specifically, each unnatural triphosphate must be efficiently and selectively incorporated opposite its partner in the template to form a stable base pair. Conversely, no natural substrate should be inserted opposite the unnatural nucleotide in the template with high efficiency. Also, continued synthesis past the unnatural base pair must be efficient. Toward developing such an unnatural base pair, two general approaches have been developed. The first, used by Benner and colleagues, is based on nucleobases with novel, complementary H-bonding patterns [1]. In 1997, Kool made the remarkable observation that interbase H-bonding is not an absolute requirement for replication [2,3], introducing an avenue for original nucleobase design premised on van der Waals and hydrophobic interactions. Each approach has been pursued, and the resulting base pair candidates are critically reviewed here.
+
+Abbreviations 3MN 3-methylnaphthalene 7AI 7-azaindole dimethylindole D dN 20 -deoxyribonucleotide dNTP 20 -deoxyribonucleoside 50 -triphosphate F difluorotoluene Gs 6-thioguanine ICS isocarbostyril iso-C isocytosine iso-G isoguanosine j 5-(2,4-diaminopyrimidine) KF Klenow fragment p 1-methyl-pyrazolo[(4,3)-d]pyrimidine-5,7(4H,6H)-dione Pa pyrrole-2-carbaldehyde PICS propynylisocarbostyril pol b mammalian polymerase b 9-methylimidazo[(4,5)-b]pyridine Q s 2-amino-6-(2-thienyl)purine SNICS 1-thio-6-azaisocarbostyril Th 5-methyl-2-pyrimidinone x 2-amino-6-(N,N-dimethylamino)purine X xanthosine y pyridin-2-one z imidazolin-2-one Z 4-methylbenzimidazole
+
+H-bonding base pairs
+In 1987, Benner noted that three H-bond donor­ acceptor pairs could be arranged in eight (23) unique combinations within the geometric constraint of the natural base pairs, and that one not employed by nature might be used to develop a third base pair [1]. Two such base pairs were extensively evaluated for this purpose: isocytosine (diso-C):isoguanine (diso-G), and 5-(2,4-diaminopyrimidine) (dj):xanthosine (dX) (Table 1). Each base pair, or one featuring a close relative, appears to be stable and selective in oligonucleotide duplexes, but the stabilities of mispairs with natural bases were not fully characterized [4,5].
+Current Opinion in Chemical Biology 2003, 7:727­733
+
+Introduction
+Specific pairing of dA with dT and dC with dG in duplex DNA and during polymerase-mediated replication is the
+www.current-opinion.com
+
+728 Biopolymers
+
+Table 1 Characteristics, in brief, of the unnatural DNA base pairs discussed in this review. Unnatural pair
+O N N R NH2 iso-C HN O iso-G N NH2 N N R
+
+Tm (8C)Ã rC:dG 52 riso-C:diso-G 52
+
+Selectivity (8C)y Comments on replication nr
+z
+
+References [4,6,7,31]
+
+ diso-C undergoes facile alkaline deamination  Full length synthesis with diso-GTP and template diso-C or dT  Full length synthesis with diso-CTP or dTTP and template diso-G  dATP misinserted sevenfold slower than diso-GTP opposite template diso-C  Selective full length synthesis with dXTP and template dj  djTP not selectively inserted opposite template dX
+
+NH2 N N NH2 R  HN O X
+
+O N N H N R
+
+dT:dA 37 dp:dj 35
+
+dp:dT§ 6 dj:dA# 13
+
+[5,8]
+
+S CH3 N R N O T
+h
+
+nrô
+N N R
+
+nrô
+
+HN H2N G
+s
+
+N
+
+ Efficient base pair synthesis and extension  Selectivity fourfold due to efficient misinsertion and extension of dCTP opposite template dGs
+
+[9,10]
+
+dT:dA 43.2
+DNAO
+
+dP:dA 2.3 d/:dG 17.9
+
+O
+DNAO
+
+dP:d/ 41.0
+
+R P
+
+ Efficient and selective incorporation of dPTP opposite template d/  Continued synthesis after dPTP incorporation not observed  Poor efficiency of d/TP incorporation opposite template dP  Efficient base pair synthesis  More efficient full length synthesis with dATP and template dF than dZTP and template dF  More efficient full length synthesis with dTTP and template dZ than dFTP and template dZ  Efficient base pair synthesis  dQ more selective in template, less selective as TP than dZ  More efficient extension from dQ:dF primer-template than from dZ:dF primer-template  Poor extension from dF:dQ primer-template  Moderately efficient incorporation of dyTP opposite template dx  dyTP incorporated more efficiently than any natural substrate opposite template dx, by gel  dyTP incorporated less efficiently than dTTP opposite dx, by steady-state kinetic assay  More efficient incorporation of dyTP opposite template ds than dyTP opposite template dx  Threefold selectivity of base pair synthesis
+
+[26­29]
+
+F CH3 F R F F CH3 F R F Q Z
+
+CH3 N N R
+
+dT:dA 39.4 dF:dD 26.6
+
+dF:dC 1.6 dD:dC 4.4
+
+[2,3,23,30]
+
+CH3 N N N R
+
+dA:dT 49.7 dQ:dF 41.1
+
+dA/dG:dF 3.5¥
+
+[23,31]
+
+H3C NH O R y H2N x N
+
+N
+
+CH3 N
+
+dx:dy 39.5ÃÃ
+
+nrz
+
+[11­13]
+
+N
+
+N R
+
+S NH O R y H2N s CH3 N N R O Pa Q N N R N N N N R
+
+ds:dy 43.4ÃÃ
+
+nrz
+
+[13­15]
+
+dA:dT 49.7 dQ:dPa 39.6
+
+dG:dPa 3.6¥
+
+ Efficient base pair synthesis [31,32]  Full length synthesis with dPaTP and template dQ or template dA  Selective full length synthesis with dQTP and template dPa  Self pair synthesis efficiency 26-fold lower than natural  Minimum selectivity, in both contexts, 62-fold  Self pair not extended [34,37]
+
+nrz
+H3C CH3
+
+nrz
+
+R 3MN
+
+R
+
+N R
+
+N 7AI
+
+N
+
+N R
+
+dA:dT 59.2 d7AI:d7AI 55.5
+
+d7AI:dA 3.0
+
+   
+
+Self pair synthesis efficiency 214-fold lower than natural [34,36,38] Minimum selectivity, in both contexts, 37-fold Self pair not extended by Kf but efficiently extended by pol b Selective full length synthesis containing self pair in presence of all five triphosphates with Kf (exoþ) and pol b
+
+Current Opinion in Chemical Biology 2003, 7:727­733
+
+www.current-opinion.com
+
+Beyond A, C, G & T: augmenting nature's alphabet Henry and Romesberg 729
+
+Table 1 Continued Unnatural pair Tm (8C)Ã dA:dT 59.2 dPICS:dPICS 62.6 Selectivity (8C)y dA:dPICS 7.1 Comments on replication  Self pair synthesis efficiency 196-fold lower than natural  Minimum selectivity, in both contexts, 20-fold  Self pair not extended References [33,34]
+
+N R
+
+O PICS
+
+O
+
+N R
+
+N
+
+N
+
+N R
+Ã
+
+S SNICS
+
+S
+
+N R
+
+dA:dT 59.2 dSNICS: dSNICS 57.1
+
+dSNICS:dT 4.8
+
+ Self pair synthesis efficiency 43-fold lower than natural  dATP misinserted 15-fold less efficiently than dSNICSTP opposite template dSNICS  Self pair selectively extended by next correct natural substrate with 12-fold greater efficiency than ICS self pair
+
+[40]
+
+Values shown are melting temperatures of DNA duplexes containing given natural and unnatural base pairs (see references for duplex sequences and experimental conditions). yValues shown are difference in melting temperature between DNA duplex containing unnatural base pair given in previous column and that of duplex containing given unnatural-natural mispair; in every case, mispair given is most stable one. zValue was not reported in primary sources. §Mispairs with natural purines not reported. #Mispairs with natural pyrimidines not reported. ôLigation-based enzymatic assay used instead of thermal denaturation (see reference for details). ¥Mispairs with pyrimidines not reported; mispairs of Q not reported. ÃÃValue for natural pair not reported.
+
+Polymerase-mediated replication of DNA containing these unnatural base pairs was also reported. The Klenow fragment (KF) of E. coli DNA polymerase I efficiently synthesizes the diso-G:diso-C base pair; however, it also efficiently synthesizes the diso-G:dT base pair, both by insertion of d(iso-G)TP opposite dT and by insertion of dTTP opposite diso-G [6,7]. This fidelity problem was attributed to the existence of a `phenolic' tautomer of diso-G that is complementary to dT. Furthermore, it was observed that diso-C underwent significant alkaline deamination or depurination during oligonucleotide preparation [4,6,7]. KF-mediated replication of the dj:dX base pair is quite efficient with dXTP and a template containing dj [5]. Fidelity is high for both bases in this context. Unfortunately, further experiments in a separate report revealed that KF is unable to incorporate djTP with reasonable fidelity opposite dX or dp (1-methylpyrazolo[4,3]-d]pyrimidine-5,7(4H,6H)-dione), an analogueue of dX [8]. It is unclear to what extent this problem is rooted in the C-glycosidic linkage of djTP, but whatever its origin it renders dj:dX a less promising third base pair candidate than diso-C:diso-G. A related design was employed by Rappaport in 1988, wherein the major-groove H-bonding moieties of a natural-like base pair were replaced by sulfur or hydrogen. The 5-methyl-2-pyrimidinone (dTh):6-thioguanine (dGs) base pair (Table 1) was designed to form two interbase H-bonds in a geometry expected to be similar to that of dC:dG. By an enzymatic ligation assay, the dTh:dGs pair was shown to be accommodated in an undistorted DNA duplex, similar to dA:dT, and more so than mispairs between dTh and the natural purines or dGs and the natural pyrimidines [9]. This base pair was shown to be synthesized and extended by KF in both contexts with efficiency similar to the natural pairs [10]. However, selectivity is somewhat compromised due to the facile misinsertion of dCTP opposite template dGs
+www.current-opinion.com
+
+and dGTP opposite template dTh, both four-fold less efficient than unnatural pair synthesis. In addition, extension of both mispairs is virtually as efficient as extension of the unnatural pair. Selectivity of the unnatural triphosphates against with dA and dT were not reported, nor was full length synthesis with this unnatural base pair. Nonetheless, the efficient synthesis and measure of selectivity of this unnatural base pair make it as promising as diso-C:diso-G. In 2000, Yokoyama and colleagues reported the synthesis and characterization of a novel H-bonding unnatural base pair: 2-amino-6-(N,N-dimethylamino)purine (dx) and pyridin-2-one (dy) (Table 1). These bases were designed to pair via two H-bonds and nucleobase shape-complementarity. Furthermore, the 6-dimethylamino group of dx was introduced to abrogate mispairing of the unnatural base with dT as well as with itself [11,12]. In a later report, an analogue of dx with a 6(2-thienyl) group replacing the 6-dimethylamino, 2amino-6-(2-thienyl)purine (ds) (Table 1), thought to have better stacking properties, was generated as a partner for dy [13­15]. Indeed, thermal denaturation data revealed ds:dy to be more stabilizing than dx:dy in duplex DNA [13]. In terms of replication, it was shown by a gel autoradiogram that KF incorporates dyTP more efficiently than any natural dNTP opposite template dx [11]; however, a separate report containing quantitative data indicated that dTTP is more efficiently incorporated than dyTP opposite dx [13]. Incorporation of dyTP opposite ds was shown to be at least two-fold more efficient than misinsertion of any natural triphosphate [13]. Further experiments established that both dsTP and dATP are efficiently incorporated opposite template dy and that replacement of dy with dz (imidazolin-2-one) reduces mispairing but does not change unnatural base pair synthesis efficiency, resulting in greater selectivity [16,17]. Full characterization of the above base pairs,
+Current Opinion in Chemical Biology 2003, 7:727­733
+
+730 Biopolymers
+
+including full length synthesis, is yet to be reported, making comparison with the other candidates difficult.
+
+Non-H-bonding base pairs
+While it is apparent that unnatural bases that pair via novel H-bonding patterns offer multiple promising approaches to expanding the genetic alphabet, there may be inherent limitations to their selective replication. This may be related to facile proton transfer within the polymerase active site that results in tautomeric forms of the unnatural bases that are complementary to the natural bases [18­21]. In this context, Kool's observation that Hbonds are not an absolute requirement for replication is particularly exciting [2,3,22­25]. For example, pyrene is thermodynamically selective for pairing opposite an abasic site in duplex DNA and the pyrene nucleoside triphosphate is efficiently and selectively inserted opposite an abasic site in the template by KF [26­29] (Table 1). While this unnatural base pair is limited by poor extension, as well as poor insertion of the abasic nucleoside triphosphate opposite pyrene in the template (E Kool, personal communication), its properties nicely illustrate the role of shape complementarity and hydrophobicity in nucleic acid stability and replication. To determine the relative contributions of H-bonding and shape complementarity to base pair recognition, Kool has published extensively on the dT, dA, and 2,6-diaminopurine isosteres difluorotoluene (dF), 4-methylbenzimidazole (dZ) and 9methylimidazo[(4,5)-b)]pyridine (dQ), and dimethylindole (dD), respectively. It should be noted that unnatural bases that are not in fact basic will be referred to as such for convenience. The absence of H-bonding in these base pairs was shown to reduce DNA duplex stability; however, mispairs with the natural bases are more destabilizing, resulting in thermally selective unnatural pairs [22,30,31]. Replication studies of these hydrophobic unnatural base pairs revealed, surprisingly, that they are viable substrates for KF (exo-) in spite of their lack of H-bond donors or acceptors. For example, the efficiency of incorporation of dFTP opposite template dZ was only 200-fold reduced compared with natural synthesis, and was seven-fold greater than that of dTTP. However, multiple nucleotide primer extension reactions showed that the dT:dZ pair was more efficiently extended to full-length product than the dF:dZ pair. The dZTP substrate was also incorporated opposite template dF but less efficiently than dATP, and the dA:dF pair was more efficiently extended than the dZ:dF pair [22]. To optimize replication, dZ was replaced by dQ. The new partner for dF had characteristics similar to dZ except that it was more selective as a template base (dTTP was misinserted less efficiently). Also, dQTP was inserted opposite template dF with efficiency equal to dATP [23,31]. A dramatic 300-fold improvement in KF-mediated extension of a primer terminating in dQ paired with dF, compared with a
+Current Opinion in Chemical Biology 2003, 7:727­733
+
+primer terminating in dZ paired with dF, indicates that the `purine' N3 H-bond acceptor group was beneficial for this reaction. In fact, dQ:dF was extended only 160-fold less efficiently than dA:dT. Despite the improvements to replication made by substituting dZ with dQ, both of these hydrophobic unnatural base pairs are limited by the facile incorporation and extension of dATP opposite template dF, and the poor extension of dF at the primer terminus. Recently, pyrrole-2-carbaldehyde (dPa) was evaluated as a partner for dQ, designed for optimal selectivity (primarily against dATP insertion) and extension [31,32]. Although this unnatural base pair was shown to significantly destabilize duplex DNA relative to dA:dT, probably due to poor base stacking of the five-membered ring, NMR structural analysis of the dPa:dQ pair in duplex DNA revealed a largely undistorted B-form conformation. Furthermore, dPa is thermally selective against mispairing with the natural purines. The unnatural base pair is efficiently synthesized and extended to full length product in both contexts. Though mispairs are efficiently synthesized by the insertion of dATP opposite dPa or dQ, neither is efficiently extended. dA in the template directs the insertion of dPaTP 23-fold less efficiently than it does dTTP, and this mispair is somewhat efficiently extended by the polymerase. In spite of the dPa:dA mispair, the dPa:dQ unnatural base pair represents an improvement relative to the dF:dQ pair in terms of selectivity and extension. These characteristics render dPa:dQ one of the most promising third base pair candidates. Overall, it appears that diso-C:diso-G, dGs:dTh and dPa:dQ are well extended in both contexts but limited by low fidelity. These base pairs share two common features: they are shape-complementary and they possess minor-groove H-bond donor or acceptor functionality. To further explore the molecular properties that contribute to base pair stability and efficient replication such as dipole­dipole interactions and polarizability, we characterized a variety of predominantly hydrophobic base pairs [33­37,38,39­42]. These include methyl-substituted furan, thiophene, benzene and naphthalene; alkyl- and heteroatom-substituted isocarbostyril; and, alkyl- and heteroatom-substituted fused five- and six-membered rings such as indole. Several of these base pairs, although comprising neither H-bonding nor shape-complementary nucleobase analogues, were efficiently synthesized. Interestingly, several self pairs (base pairs formed between two identical nucleotides) were found to be promising. Self pairing does not limit the potential of an unnatural base to expand the genetic alphabet but it does reduce the potential for mispairing. The four most successful self pairs are now briefly discussed. Studies of the naphthalene scaffold resulted in identification of the d3MN self pair (Table 1) [34,37]. Thermal
+www.current-opinion.com
+
+Beyond A, C, G & T: augmenting nature's alphabet Henry and Romesberg 731
+
+Figure 1
+
+tion may be required for efficient primer extension after synthesis of the unnatural pair. Further evidence supporting this hypothesis was found in similar studies using other scaffolds [41,42]. Heteropairs and self pairs between a variety of indole-like base analogues were also characterized [34,36]. Of particular interest was the self pair formed between two 7AI deoxynucleotides (Table 1). Though marginally destabilizing in duplex DNA, this self pair is strongly selective against mispairing with any natural base. In terms of polymerase-mediated replication, the d7AI self pair is synthesized by KF (exo-) with reasonable efficiency, 214fold slower than natural synthesis, and fidelity that is virtually as high as that of the d3MN self-pair (misinsertion of dATP opposite d7AI is most competitive, being 40-fold slower). However, this hydrophobic self pair is also extended with poor efficiency by KF. In an effort to explore this issue, other polymerases were evaluated for their ability to extend d7AI:d7AI. Interestingly, although unable to synthesize the self pair, mammalian polymerase b (pol b) was able to extend it as efficiently and selectively as it does the natural base pairs [38]. Consistent with this analysis, a binary polymerase system consisting of pol b and KF (exoþ) was found to synthesize full length DNA, containing the d7AI self pair, with overall fidelity approximated to be greater than 400 (fidelity was improved by the proofreading function of KF). This efficiency and fidelity should be sufficient for some in vitro applications.
+
+Molecular model of dPICS:dPICS self pair in 12-mer duplex DNA: 50 -d(gaga(PICS)gAAAcg) and 50 -d(CgTTTc(PICS)TTCTC). The molecular graphics image was produced using the Chimera package from the Computer Graphics Laboratory, University of California, San Francisco (supported by NIH P41 RR ­ 01081) [48,49].
+
+stability was not determined for this base pair, but studies of its replication showed that it is formed with an efficiency only 26-fold lower than natural synthesis, and a selectivity of at least 62-fold (due to misinsertion of dTTP opposite template d3MN). This represents an order of magnitude improvement in fidelity over the base pairs discussed above. Unfortunately, this self pair is poorly extended by KF, significantly reducing its potential as a third base pair. In 1999, we reported that the dPICS self pair is as stable as a dG:dC pair in duplex DNA and that it is synthesized by KF (exo-) with reasonably good efficiency [33,34] (Figure 1) (Table 1). The most readily synthesized mispair is that resulting from the misinsertion of dTTP opposite dPICS, 20-fold slower than incorporation of the unnatural triphosphate. However, like d3MN, this self pair is not extended by KF. This particular scaffold was suitable for characterizing the effect of heteroatom substitution on extension [40]. The SNICS self pair, having major-groove nitrogens and minor-groove sulfurs, was found to have greater synthesis efficiency (by 15-fold) and, more importantly, greater extension efficiency (by 12-fold) than the parent isocarbostyril (dICS) self pair. Thus, these studies of the naphthalene and isocarbostyril scaffolds imply that although the more hydrophobic self pairs can be efficiently synthesized, heteroatom substituwww.current-opinion.com
+
+Conclusions and future directions
+Approaches to designing unnatural base pairs that interact via non-natural H-bonding patterns or van der Waals and hydrophobic forces have resulted in the development of several promising unnatural base pairs. The system with the highest efficiency and fidelity is the d7AI self pair in a binary polymerase context. It may be the case that such binary polymerase systems will contribute to the replication of other unnatural base pairs, especially those limited only by extension. However, the requirement of two polymerases may be undesirable for certain applications (although it is not without precedent in nature). With this in mind, several of the unnatural base pairs have desirable qualities, but require optimization. For example, making modifications to diso-G that limit its pairing with dTTP, or to dPaTP that prevent its insertion opposite dA, would improve diso-G:diso-C and dPa:dQ as candidate base pairs. Likewise, modifications that allow the predominately hydrophobic d3MN and dPICS self pairs to be better extended by DNA polymerases would significantly improve their utility. On the basis of the progress discussed above, the identification of such beneficial modifications seems likely. Because replication, by definition, depends not only on the characteristics of the base pair, but also on those of the
+Current Opinion in Chemical Biology 2003, 7:727­733
+
+732 Biopolymers
+
+DNA polymerase, expansion of the genetic alphabet may be facilitated by the discovery of polymerases that efficiently and selectively replicate presently known or future unnatural base pairs. For example, other polymerases, including those of the Y family known to accommodate distorted primer termini [43,44], should be further evaluated. Perhaps most exciting are approaches to the directed evolution of polymerases with novel activities [45­47] that are being developed and may be applied to expansion of the genetic alphabet. Our ability to design unnatural base pairs with better properties and to evolve polymerases tailored to synthesize DNA containing them promises to keep the challenging effort to expand the genetic alphabet exciting, and potentially successful.
+
+12. Ishikawa M, Hirao I, Yokoyama S: Chemical synthesis of novel base pairs and their enzymatic incorporation into DNA. Nucleic Acids Symp Ser 1999, 42:125-126. 13. Fujiwara T, Kimoto M, Sugiyama H, Hirao I, Yokoyama S: Synthesis of 6-(2-thienyl)purine nucleoside derivatives that form unnatural base pairs with pyridin-2-one nucleosides. Bioorg Med Chem Lett 2001, 11:2221-2223. 14. Hirao I, Fujiwara T, Kimoto M, Mitsui T, Okuni T, Ohtsuki T, Yokoyama S: Unnatural base pairs between 2-amino-6-(2thienyl)purine and the complementary bases. Nucleic Acids Symp Ser 2000, 44:261-262. 15. Fujiwara T, Sugiyama H, Hirao I, Yokoyama S: Synthesis of 6-(2thienyl)purine nucleoside derivatives toward the expansion of the genetic code. Nucleic Acids Symp Ser 2000, 44:43-44. 16. Hirao I, Mitsui T, Fujiwara T, Kimoto M, To T, Okuni T, Sato A, Harada Y, Yokoyama S: Efforts towards creating unnatural base pairs for an expanded genetic code. Nucleic Acids Res Suppl 2001, 1:17-18. 17. Hirao I, Kimoto M, Mitsuik T, Harada Y, Fujiwara T, Sato A, Yokoyama S: An unnatural base pair between imidazolin-2-one and 2-amino-6(2-thienyl)purine in replication and transcription. Nucleic Acids Res Suppl 2002, 2:37-38. 18. Wang H, Zhang H, Abou-Zied OK, Yu C, Romesberg FE, Glasbeek M: Femtosecond fluorescence upconversion studies of excited-state proton-transfer dynamics in 2(2(hydroxyphenyl)benzoxazole (HBO) in liquid solution and DNA. Chem Phys Lett 2003, 367:599-608. 19. Abou-Zied OK, Jimenez R, Thompson EHZ, Millar DP, Romesberg FE: Solvent-dependent photoinduced tautomerization of 2-(2(-hydroxyphenyl)benzoxazole. J Phys Chem A 2002, 106:3665-3672. 20. Abou-Zied OK, Jimenez R, Romesberg FE: Tautomerization dynamics of a model base pair in DNA. J Am Chem Soc 2001, 123:4613-4614. 21. Ogawa AK, Abou-Zied OK, Tsui V, Jimenez R, Case DA, Romesberg FE: A phototautomerizable model DNA base pair. J Am Chem Soc 2000, 122:9917-9920. 22. Morales JC, Kool ET: Efficient replication between nonhydrogen-bonded nucleoside shape analogs. Nat Struct Biol 1998, 5:950-954. 23. Morales JC, Kool ET: Minor groove interactions between polymerase and DNA: more essential to replication than Watson-Crick hydrogen bonds? J Am Chem Soc 1999, 121:2323-2324. 24. Delaney JC, Henderson PT, Helquist SA, Morales JC, Essigmann JM, Kool ET: High-fidelity in vivo replication of DNA base shape mimics without Watson-Crick hydrogen bonds. Proc Natl Acad Sci USA 2003, 100:4469-4473. 25. Washington MT, Helquist SA, Kool ET, Prakash L, Prakash S: Requirement of Watson-Crick hydrogen bonding for DNA synthesis by yeast DNA polymerase g. Mol Cell Biol 2003, 23:5107-5112. 26. Matray TJ, Kool ET: A specific partner for abasic damage in DNA. Nature 1999, 399:704-708. 27. Matray TJ, Kool ET: Selective and stable DNA base pairing without hydrogen bonds. J Am Chem Soc 1998, 120:6191-6192. 28. Ren RX-F, Chaudhuri NC, Paris PL, Rumney S IV, Kool ET: Naphthalene, phenanthrene, and pyrene as DNA base analogues: synthesis, structure, and fluorescence in DNA. J Am Chem Soc 1996, 118:7671-7678. 29. Smirnov S, Matray TJ, Kool ET, de los Santos C: Integrity of duplex structures without hydrogen bonding: DNA with pyrene paired at abasic sites. Nucleic Acids Res 2002, 30:5561-5569. 30. Schweitzer BA, Kool ET: Hydrophobic, non-hydrogen-bonding bases and base pairs in DNA. J Am Chem Soc 1995, 117:1863-1872. 31. Mitsui T, Kitamure A, Kimoto M, To T, Sato A, Hirao I, Yokoyama S:  An unnatural hydrophobic base pair with shape www.current-opinion.com
+
+Acknowledgements
+Funding was provided by the National Institutes of Health (No. GM 60005).
+
+References and recommended reading
+Papers of particular interest, published within the annual period of review, have been highlighted as:  of special interest  of outstanding interest 1. Benner SA, Allemann RK, Ellington AD, Ge L, Glasfeld A, Leanz GF, Krauch T, MacPherson LJ, Moroney S, Piccirilli JA et al.: Natural selection, protein engineering, and the last riboorganism: rational model building in biochemistry. Cold Spring Harb Symp Quant Biol 1987, 52:53-63. Moran S, Ren RX-F, Rumney S IV, Kool ET: Difluorotoluene, a nonpolar isostere for thymine codes specifically and efficiently for adenine in DNA replication. J Am Chem Soc 1997, 119:2056-2057. Moran S, Ren RX-F, Kool ET: A thymidine triphosphate shape analog lacking Watson-Crick pairing ability is replicated with sequence selectivity. Proc Natl Acad Sci USA 1997, 94:10506-10511. Roberts C, Bandaru R, Switzer C: Synthesis of oligonucleotides bearing the non-standard bases iso-C and iso-G. Comparison of iso-C-iso-G, C-G and U-A base-pair stabilities in RNA/DNA duplexes. Tetrahedron Lett 1995, 36:3601-3604. Piccirilli JA, Krauch T, Moroney SE, Benner SA: Enzymatic incorporation of a new base pair into DNA and RNA extends the genetic alphabet. Nature 1990, 343:33-37. Switzer C, Moroney SE, Benner SA: Enzymatic incorporation of a new base pair into DNA and RNA. J Am Chem Soc 1989, 111:8322-8323. Switzer CY, Moroney SE, Benner SA: Enzymatic recognition of the base pair between isocytidine and isoguanosine. Biochemistry 1993, 32:10489-10496. ¨ Horlacher J, Hottiger M, Podust VN, Hubscher U, Benner SA: Recognition by viral and cellular DNA polymerases of nucleosides bearing bases with nonstandard hydrogen bonding patterns. Proc Natl Acad Sci USA 1995, 92:6329-6333. Rappaport HP: The 6-thioguanine/5-methyl-2-pyrimidinone base pair. Nucleic Acids Res 1988, 16:7253-7267.
+
+2.
+
+3.
+
+4.
+
+5.
+
+6.
+
+7.
+
+8.
+
+9.
+
+10. Rappaport HP: Replication of the base pair 6-thioguanine/ 5-methyl-2-pyrimidinone with the large Klenow fragment of Escherichia coli DNA polymerase I. Biochemistry 1993, 32:3047-3057. 11. Ishikawa M, Hirao I, Yokoyama S: Synthesis of 3-(2-deoxy-b-Dribofuranosyl)pyridin-2-one and 2-amino-6-(N,Ndimethylamino)-9-(2-deoxy-b-D-ribofuranosyl)purine derivatives for an unnatural base pair. Tetrahedron Lett 2000, 41:3931-3934. Current Opinion in Chemical Biology 2003, 7:727­733
+
+Beyond A, C, G & T: augmenting nature's alphabet Henry and Romesberg 733
+
+complementarity between pyrrole-2-carbaldehyde and 9-methylimidazo[(4,5)-b]pyridine. J Am Chem Soc 2003, 125:5298-5307. Full characterization of dPa:dQ replication with KF, NMR solution structure of the base pair in duplex DNA, and full length studies with AMV reverse transcriptase. 32. Mitsui T, Kimoto M, Harada Y, Sata A, Kitamura A, To T, Hirao I, Yokoyama S: Enzymatic incorporation of an unnatural base pair between 4-propynyl-pyrrole-2-carbaldehyde and 9-methylimidazo [(4,5)-b]pyridine into nucleic acids. Nucleic Acids Res Suppl 2002, 2:219-220. 33. McMinn DL, Ogawa AK, Wu Y, Liu J, Schultz PG, Romesberg FE: Efforts toward expansion of the genetic alphabet: recognition of a highly stable, self-pairing hydrophobic base. J Am Chem Soc 1999, 121:11585-11586. 34. Ogawa AK, Wu Y, McMinn DL, Liu J, Schultz PG, Romesberg FE: Efforts toward the expansion of the genetic alphabet: information storage and replication with unnatural hydrophobic base pairs. J Am Chem Soc 2000, 122:3274-3287. 35. Berger M, Ogawa AK, McMinn DL, Wu Y, Schultz PG, Romesberg FE: Stable and selective hybridizaion of oligonucleotides using unnatural hydrophobic bases. Angew Chem Int Ed Engl 2000, 39:2940-2942. 36. Wu Y, Ogawa AK, Berger M, McMinn DL, Schultz PG, Romesberg FE: Efforts toward expansion of the genetic alphabet: optimization of interbase hydrophobic interactions. J Am Chem Soc 2000, 122:7621-7632. 37. Ogawa AK, Wu Y, Berger M, Schultz PG, Romesberg FE: Rational design of an unnatural base pair with increased kinetic selectivity. J Am Chem Soc 2000, 122:8803-8804. 38. Tae EL, Wu YQ, Xia G, Schultz PG, Romesberg FE: Efforts  toward expansion of the genetic alphabet: replication of DNA with three base pairs. J Am Chem Soc 2001, 123:7439-7440. Replication of the d7AI self pair with high efficiency and selectivity by the dual actions of KF and mammalian polymerase b.
+
+39. Berger M, Luzzi SD, Henry AA, Romesberg FE: Stability and selectivity of unnatural DNA with five-membered-ring nucleobase analogues. J Am Chem Soc 2002, 124:1222-1226. 40. Yu C, Henry AA, Romesberg FE, Schultz PG: Polymerase recognition of unnatural base pairs. Angew Chem Int Ed Engl 2002, 41:3841-3844. 41. Matsuda S, Henry AA, Schultz PG, Romesberg FE: The effect of minor-groove hydrogen-bond acceptors and donors on the stability and replication of four unnatural base pairs. J Am Chem Soc 2003, 125:6134-6139. 42. Henry AA, Yu C, Romesberg FE: Determinants of unnatural nucleobase stability and polymerase recognition. J Am Chem Soc 2003, 125:9638-9646. 43. Prakash S, Prakash L: Translesion DNA synthesis in eukaryotes: a one- or two-polymerase affair. Genes Dev 2002, 16:1872-1883. 44. Goodman M: Error-prone repair DNA polymerases in prokaryotes and eukaryotes. Annu Rev Biochem 2002, 71:17-50. 45. Xia G, Chen L, Sera T, Fa M, Schultz PG, Romesberg FE: Directed evolution of novel polymerase activities: mutation of a DNA polymerase into an efficient RNA polymerase. Proc Natl Acad Sci USA 2002, 99:6597-6602. 46. Ghadessy FJ, Ong JL, Holliger P: Directed evolution of polymerase function by compartmentalized self-replication. Proc Natl Acad Sci USA 2001, 98:4552-4557. 47. Jestin J-L, Kristensen P, Winter G: A method for the selection of catalytic activity using phage display and proximity coupling. Angew Chem Int Ed Engl 1999, 38:1124-1127. 48. Huang CC, Couch GS, Pettersen EF, Ferrin TE: Chimera: an extensible molecular modeling application constructed using standard components. In Pacific Symposium on Biocomputing '96. Hunter L, Klein TE (Eds). Singapore: World Scientific Publishing; 1996:724. [See also http://www.cgl.ucsf.edu/chimera.] 49. Sanner MF, Olson AJ, Spehner JC: Reduced surface: an efficient way to compute molecular surfaces. Biopolymers 1996, 38:305-320.
+
+www.current-opinion.com
+
+Current Opinion in Chemical Biology 2003, 7:727­733
+
+

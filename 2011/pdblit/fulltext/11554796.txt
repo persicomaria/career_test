@@ -1,0 +1,364 @@
+709
+
+Structural biology of enzymes involved in NAD and molybdenum cofactor biosynthesis Menico Rizzi* and Hermann Schindelin
+The structural analysis of all enzymes in a metabolic pathway is a prerequisite to answering fascinating questions, such as those relating to the evolutionary relationships between enzymes within the same and related pathways. Furthermore, the observed impressive diversity of catalytic functions displayed by these enzymes can lead to the synthesis of highly complex or unstable molecules, frequently involving unusual chemical reactions. Moreover, a detailed description of the active site of each enzyme in a pathway is of immense importance for the rational design of new drugs. The recent progress made in the structural biology of enzymes involved in NAD and molybdenum cofactor biosynthesis presents a significant step toward these goals.
+Addresses *DISCAFF-INFM, University of Piemonte Orientale, Via Bovio 6, 28100 Novara, Italy and Department of Genetics and Microbiology, University of Pavia, Via Ferrata 1, 27100 Pavia, Italy; e-mail: rizzi@ipvgen.unipv.it  Department of Biochemistry and Center for Structural Biology, State University of New York at Stony Brook, Stony Brook, NY 11794-5115, USA; e-mail: hermann.schindelin@sunysb.edu Current Opinion in Structural Biology 2002, 12:709­720 0959-440X/02/$ -- see front matter © 2002 Elsevier Science Ltd. All rights reserved. Abbreviations FAD flavin adenine dinucleotide LASPO L-aspartate oxidase MGD molybdopterin guanine dinucleotide Moco molybdenum cofactor MPT molybdopterin NaAD nicotinic acid adenine dinucleotide NAD nicotinamide adenine dinucleotide NADS NAD synthetase NaMN nicotinic acid mononucleotide NMN nicotinamide mononucleotide NMNAT NaMN/NMN adenylyltransferase QA quinolinic acid QAPRT quinolinic acid phosphoribosyltransferase PDB Protein Data Bank PPi pyrophosphate PRPCP 5-phosphoribosyl-1-(-methylene)pyrophosphate PRPP 5-phosphoribosyl-1-pyrophosphate SAM S-adenosyl methionine
+
+as nicotinamide adenine dinucleotide (NAD) and flavin adenine dinucleotide (FAD), and those that contain organometallic groups, such as heme and the molybdenum cofactor (Moco). NAD is an essential cofactor for both energy metabolism and signal transduction, sharing this dual functionality with two other important nucleotides: ATP and GTP. Its direct action on redox equilibrium in metabolism has been well known for a long time, being indeed a milestone in every biochemistry textbook. More recently, its impact in processes such as DNA repair, calcium-dependent signaling pathways and, most fascinating, life-span extension in yeast was widely demonstrated [1,2,3·]. It is therefore not surprising that NAD homeostasis must be tightly regulated in all living organisms. NAD biosynthesis can be accomplished either through a de novo pathway or through salvage pathways, with notable differences between prokaryotes and eukaryotes [4,5] (Figure 1). The past years have seen an ever-increasing interest in NAD biosynthesis as an important source of new targets for the development of novel antibacterial agents [6]. The structural enzymology of several enzymes involved in NAD biosynthesis has provided a detailed picture of their catalytic mechanism, paving the way for the design of potent and highly selective inhibitors. Moco [7,8] is the essential component of a diverse group of redox enzymes [9­12]. The cofactor consists of a mononuclear molybdenum coordinated by the dithiolene moiety of a family of tricyclic pyranopterin structures, the simplest of which is commonly referred to as molybdopterin (MPT) [7]. More recently, a tungsten-containing pyranopterin cofactor has also been discovered [13,14]. Moco biosynthesis is an evolutionarily conserved pathway comprising several novel reactions. Mutations in the human Moco biosynthetic genes lead to Moco deficiency, a severe disease that leads to premature death in early childhood [15,16]. The affected patients show severe neurological abnormalities, such as attenuated growth of the brain, seizures and, frequently, dislocated ocular lenses. Recently, the first mutations in several human genes encoding Moco biosynthetic proteins have been identified [17­22]. This review summarizes recent progress made in the structural biology of enzymes involved in NAD and Moco biosynthesis. These pathways illustrate different levels of phylogenetic conservation of a biochemical pathway; the reactions in Moco biosynthesis are almost universally conserved across different kingdoms, whereas NAD biosynthesis shows pronounced differences in prokaryotes and eukaryotes.
+
+Introduction
+Many enzymes require cofactors for their catalytic activities and, if these cofactors cannot be taken up from the environment as vitamins, metabolic pathways are required for their synthesis. An important subclass of enzymes are involved in redox transformations. Among the cofactors utilized by these enzymes are those that are made up of purely inorganic molecules, such as the FeS clusters of various compositions, those that are entirely organic, such
+
+710
+
+Catalysis and regulation
+
+Figure 1
+
+H2N
+L-aspartate
+
+CH CH2
+
+COOH
+
+COOH O2
+
+LASPO
+H2O2 HN CH CH2 COOH Dihydroxyacetone phosphate 2H2O + Pi COOH COOH
+
+Iminoaspartate
+
+?
+
+QA synthase
+
+QA
+N PRPP Mg COOH
+
+QAPRT
+
+PPi + CO 2 O HO P OH O O H H OH ATP Mg H H OH N
+
+O OH(NH2)
+
+NaMN
+
+NMNAT
+
+PPi NH2 N O N N O H H OH H H OH O P OH O O P OH H OH O O H H H OH N
+
+O OH
+
+NaAD
+
+N
+
+ATP Mg + NH3
+
+NH2 N N
+
+PPi + AMP O O O P OH H OH O O H H H OH N
+
+O NH2
+
+NAD
+
+N
+
+N O H H OH H H OH
+
+O
+
+P OH
+
+NADS
+
+Current Opinion in Structural Biology
+
+NAD and molybdenum cofactor biosynthesis Rizzi and Schindelin
+
+711
+
+Figure 1 legend De novo NAD biosynthesis in prokaryotes. The structures of the proteins involved in each step are shown in ribbon representation, with different subunits colored differently (PDB codes: 1KNR for E. coli LASPO, 1QPR for M. tuberculosis QAPRT, 1F9A for M. jannaschii NMNAT and 2NSY for B. subtilis NADS). In eukaryotes, NAD can be synthesized de novo from tryptophan via a five-step kynurenine pathway. The two pathways converge at the level of QA, from where a common route is followed in all organisms [5].
+
+Structural biology of Moco biosynthesis
+Genes involved in Moco biosynthesis have been identified in eubacteria, archaea and eukaryotes. Although some details of Moco biosynthesis are still unclear at present, the pathway can be divided into three universal stages [12,23], as described below and summarized in Figure 2.
+Conversion of a guanosine derivative into precursor Z
+
+cells was demonstrated only after its receptor-anchoring properties had been characterized [40].
+Additional steps
+
+This aspect is different from other pterin biosynthetic pathways, as C8 of the purine is inserted between the 2 and 3 ribose carbon atoms during formation of precursor Z, rather than being eliminated [24,25]. In Escherichia coli, the MoaA and MoaC proteins are responsible for this conversion, but the detailed aspects of the reactions catalyzed by these enzymes and their actual substrates are unknown.
+Transformation of precursor Z into MPT
+
+Eubacteria typically use Moco in a dinucleotide form in which the pyranopterin is linked to a second nucleotide via a pyrophosphate linkage [41]. In E. coli, the cofactor is present as molybdopterin guanine dinucleotide (MGD) and the MobA protein is involved in its generation [42,43]. Other dinucleotide forms of the cofactor, most notably molybdopterin cytosine dinucleotide (MCD), have also been observed.
+Structural studies of Moco biosynthetic enzymes
+
+This process generates the dithiolene group responsible for coordination of the molybdenum atom in the cofactor and is catalyzed by MPT synthase [26]. MPT synthase is composed of two subunits encoded in E. coli by the moaD and moaE genes. In its active form, MoaD contains a thiocarboxylate at its C-terminal glycine [27], which acts as the sulfur donor for the synthesis of the dithiolene group. MoeB activates MPT synthase by transferring a sulfur atom onto the C terminus of MoaD, generating the thiocarboxylate. MoeB exhibits striking sequence similarity to the N-terminal region of the ubiquitin-activating enzyme (E1), the first component of the ubiquitin-dependent protein degradation pathway, and to related enzymes catalyzing the activation of ubiquitin-like protein modifiers. The sequence similarity between MoeB and E1, in concert with their functional relationship, has fostered speculation regarding an evolutionary link between the two pathways [23,28].
+Metal incorporation
+
+The MogA and MoeA proteins together are responsible for metal incorporation [29,30]. Current evidence suggests that MogA incorporates the metal into MPT, whereas MoeA has been proposed to convert molybdate into an unknown compound, which serves as the metal donor. The mammalian protein gephyrin is a MogA­MoeA fusion protein containing a linker region with 160 residues [31]. Gephyrin is critical for the postsynaptic anchoring of inhibitory glycine receptors [32,33] and major GABAA receptor subtypes [34]. Its activity appears to be regulated by a variety of interactions with components of the cytoskeleton and proteins involved in signal transduction pathways [35­39]. Direct participation of the multifunctional gephyrin protein in Moco biosynthesis in mammalian
+
+The structures of almost all of the E. coli enzymes involved in Moco biosynthesis (Figure 2), with the exception of MoaA, have been published [44·,45··,46,47··,48­52,53·]. Of particular interest are the structures of MPT synthase [47··] and the MoeB­MoaD complex [45··] involved in MPT biosynthesis, and the MogA [46] and MoeA [53·] proteins involved in metal incorporation. Relatively little is currently known about the first step in the pathway, whereby the MoaA and MoaC proteins catalyze the elaborate rearrangement reaction in which precursor Z is formed from an uncharacterized guanosine derivative. The MoaA protein is a member of a large superfamily of proteins referred to as radical SAM (S-adenosyl methionine) [54], which, among others, also contains anaerobic ribonucleotide reductase, pyruvate formate lyase, biotin synthase and ThiH, a protein involved in thiamine biosynthesis. Members of this family contain an oxygen-labile FeS cluster, which reacts with SAM to form 5-deoxyadenosine and a substrate radical [54,55]. The crystal structure of MoaC [52] revealed a protein with a ferredoxin fold (as classified by SCOP), which is characterized by two repeating // motifs. The protein is present as a tightly packed hexamer with D3 symmetry. Although the active site of MoaC could be defined by biochemical studies, the unknown substrate of the enzyme has hampered further characterization of the active site. MPT synthase comprises a heterotetramer of two MoaD and two MoaE subunits. The MoaE subunits dimerize and the MoaD subunits bind on opposite ends of the MoaE dimer. Each MoaD C terminus is deeply inserted into the active site, located primarily in the proximal MoaE subunit, but also involving residues from the distal MoaE subunit. The MoaE subunit has an / hammerhead fold containing an additional antiparallel three-stranded  sheet. The crystal structure of MPT synthase [47··] and the NMR structure of the
+
+712
+
+Catalysis and regulation
+
+Figure 2
+
+MoaD and MoeB
+
+?
+O HN H2N Pn
+4´ 3´
+
+N
+
+MoaA *
+HN NH2
+
+O
+
+H N N H
+
+O
+2´
+
+O
+3´
+
+*
+O
+
+O
+5´
+
+O P O HN OH NH2 N
+
+H N N H
+
+SH SH O OPO32-
+
+N CH2 O
+
+N
+
+N
+
+1´
+
+4´
+
+1´ 2´
+
+Precursor Z
+
+MPT
+
+OH
+
+OH
+
+GXP
+
+MPT synthase MoaC MogA MoeA
+
+O HN NH2 N
+
+H N N H
+
+S
+
+Mo O S N O O P O O- P O
+-
+
+Mo O NH HN NH2 N H N N H S S O OPO32-
+
+O
+
+O O
+
+O
+
+N
+
+N
+
+NH2
+
+MGD
+
+OH OH
+
+Moco
+
+MobA Moco biosynthesis in E. coli. The carbon atom at position 8 of the guanosine derivative of unknown composition (GXP), which is the starting structure, is incorporated into precursor Z as indicated by the asterisk. In mature Moco, additional molybdenum ligands are present besides the dithiolene sulfurs shown here, with the metal being either penta- or hexa-coordinated. The structures of the proteins
+
+Current Opinion in Structural Biology
+
+involved in each step are shown in ribbon representation, with different subunits colored differently. In the case of MPT synthase, the MoaD subunits are shown in yellow and blue, and the MoaE subunits in cyan and magenta. In the case of the MoaD­MoeB complex, the MoaD subunits are shown in green and red, and the MoeB subunits in yellow and cyan.
+
+MoaD-related ThiS protein [56··] demonstrated unambiguously the divergent evolutionary relationship between a subset of enzymes involved in the biosynthesis of sulfur-containing cofactors (e.g. Moco, thiamine and certain FeS clusters) and the process of ubiquitin activation (Figure 3a). MoaD and ThiS share the same fold as ubiquitin (Figure 3b), despite the absence of any detectable sequence homology. Together with the known sequence similarities between MoeB/ThiF and the E1 enzymes, this confirmed that the ubiquitin-like protein modifiers and their activating enzymes are the probable evolutionary offspring of the corresponding proteins involved in Moco biosynthesis. The co-crystal structures of the MoaD­MoeB complex in its apo form, with bound ATP and after formation of the MoaD
+
+acyladenylate intermediate [45··] have helped to elucidate the activation reaction catalyzed by MoeB/ThiF and the E1 enzymes. Like MPT synthase, the MoaD­MoeB complex forms a heterotetramer in which the MoeB subunits dimerize and the two MoaD subunits do not contact each other. The MoeB subunit has an // structure with an eightstranded mostly parallel  sheet. The C terminus of each MoaD subunit is deeply inserted into the MoeB active site, which, like its counterpart in MoaE, is composed of residues from both MoeB subunits. The reaction sequence catalyzed by MoeB, ThiF and the E1 enzymes begins with a nucleophilic attack of the C-terminal carboxylate of MoaD, ThiS and ubiquitin, respectively, on the -phosphate of an ATP molecule bound at the active site of the activating enzymes, leading to the formation of a high-energy acyladenylate
+
+NAD and molybdenum cofactor biosynthesis Rizzi and Schindelin
+
+713
+
+Figure 3 legend MPT biosynthesis and relationship to the ubiquitin activation step. (a) Schematic diagram indicating the relationship between the MoeB, ThiF and E1 enzymes. The reaction sequence catalyzed by the E1, MoeB and ThiF enzymes initially leads to the formation of a high-energy acyladenylate intermediate. Subsequently, a thiocarboxylate is formed at the C terminus of MoaD and ThiS, with the sulfur ultimately derived from cysteine with the aid of an IscS/NifS-like protein. In the case of ubiquitin, a thioester is formed, leading to the formation of a covalent complex between the protein modifier and the E1 enzyme via the sidechain of a conserved cysteine residue in the E1 active site. (b) A structural comparison of MoaD (yellow) and ubiquitin (red). (c) MoeB-catalyzed reaction. Close-up view of the acyladenylate intermediate formed during MoaD activation, in which AMP is covalently linked at Gly81 to the MoaD C terminus, of which residues 78­81 are shown together with AMP in all-bonds representation. The subunits of the MoeB dimer are shown in dark and light gray, with residues conserved in the MoeB/ThiF/E1 superfamily highlighted in green and yellow.
+
+Figure 3 (a) Ubiquitin C O ATP MoaD C O ATP ThiS C O ATP PPi O­ ThiF C O AMP ThiI IscS + Cys C O S­ PPi O­ MoeB C O AMP
+CSD/IscS/ CsdB + Cys
+
+E1 E1 PPi C O AMP E1 C O S Cys
+
+O­
+
+C O
+
+S­
+
+intermediate (Figure 3c). Subsequently, a thiocarboxylate is formed at the C termini of MoaD and ThiS, with the sulfur ultimately derived from cysteine with the aid of an IscS/NifS-like protein. These proteins are PLP-dependent enzymes and, in E. coli, three members of this family, CSD, IscS and CsdB, can provide the sulfur atoms for MPT synthesis, with CSD showing the highest activity [57]. In the case of ubiquitin and related protein modifiers, a thioester is formed instead of the thiocarboxylate, leading to the formation of a covalent complex between the protein modifier and the cognate E1 enzyme via the sidechain of a conserved cysteine residue in the E1 active site. The MoeB crystal structure suggests that the E1 enzymes contain a tandem repeat of MoeB-like domains, which together form one functional active site (Figure 3c). Together with biochemical data, the crystal structures of the single-domain MogA protein [46] and the related G-domains of gephyrin and the plant ortholog Cnx1 [49] identified the MPT-binding site in these enzymes and two conserved aspartic acid residues, which are crucial for their activities. All three proteins form highly stable trimers, in which the MPT-binding site appears to be restricted to just the monomer. MogA folds into an // structure containing a mostly parallel five-stranded  sheet. The larger MoeA protein consists of four domains grouped together to form a highly extended molecule [48,53·]. The fold of domain III, the largest of the domains, is closely related to that of MogA (Figure 4). The structural similarity is restricted not only to the overall fold, but also to the putative active sites, where two negatively charged residues are conserved. Domains I and II form the stalk of the extended molecule, and are characterized by unusual folds containing mostly  sheets, whereas domain IV contains two sharply bent  ribbons. The oligomeric state of both proteins (i.e. MogA is a very stable trimer, whereas MoeA forms a less stable dimer) is of particular relevance to gephyrin, the MogA­MoeA fusion protein found in mammals. The oligomeric states of the bacterial proteins suggest that gephyrin can form a hexagonal scaffold underneath the postsynaptic membrane through
+
+(b) N
+
+N
+
+C C (c)
+
+G81
+
+Current Opinion in Structural Biology
+
+trimerization of its MogA-related G-domain and dimerization of its MoeA-related E-domain [53·]. This proposed structure would be crucial for the receptor-anchoring function of this protein by providing evenly spaced binding sites for the glycine receptor and tubulin to which it binds.
+
+714
+
+Catalysis and regulation
+
+Figure 4 Proteins involved in metal incorporation. Structural comparison of domain III of MoeA (yellow) and MogA (green). The two active site aspartic acid residues of MogA (Asp49 and Asp82) and their structural counterparts in MoeA are shown in all-bonds representation. A signature sequence motif common to all MogA and MoeA proteins (TTGGT in E. coli MogA and SSGGVS in E. coli MoeA) is highlighted in red.
+
+The crystal structure of the E. coli MobA protein involved in MGD formation has been determined in its apo state [44·,51] and with bound Mn2+·GTP [44·]. On the basis of the MobA­GTP structure, a model for the MGD product complex has been postulated. The catalytic mechanism of this enzyme appears to involve the attack of the terminal phosphate of MPT on the -phosphate of GTP, leading to the release of pyrophosphate (PPi). The MobA-catalyzed reaction is similar in stoichiometry and mechanism to that of the NaMN/NMN adenylyltransferases (NMNATs), which catalyze the dinucleotide formation step during NAD biosynthesis (see below); however, the proteins are in different protein superfamilies. MobA belongs to the nucleotide-diphospho-sugar transferase superfamily, which is characterized by a mixed seven-stranded  sheet, and the NMNATs belong to the nucleotidylyl transferase superfamily, which is characterized by a parallel five-stranded  sheet. Because of the exclusive presence of MobA in eubacteria, including many pathogenic organisms, this enzyme potentially represents an interesting target for the rational design of antibiotics.
+
+(Figure 1). The structures of the wild-type E. coli apo form and the R386L mutant in complex with FAD and with succinate were reported [58·,59]. LASPO consists of three domains: a classic FAD-binding domain exhibiting the `Rossmann fold' topology, a C-terminal three-helical-bundle domain and an + capping domain [59] (Figure 1). The most striking aspect emerging from the structural comparison between apo and holo forms of LASPO is a remarkable conformational change observed upon FAD binding [58·]. Two long polypeptide stretches, which are fully disordered in the apo form, become fully structured in the holo form, sealing the active site cavity and participating in substrate binding. Moreover, the entire cap domain rotates 27° with respect to the conformation observed in the apo form. The major effect resulting from the observed structural changes is an effective shielding of the product, which is totally solvent inaccessible when bound to the active site of LASPO [58·]. In the second step of prokaryotic de novo NAD biosynthesis, iminoaspartate is condensed with dihydroxyacetone phosphate to form quinolinic acid (QA) by the action of QA synthase [4,5] (Figure 1). Unfortunately, no structural data have been reported for QA synthase, yet. It has been argued that LASPO and QA synthase could function as a multienzyme complex, because of the extreme chemical instability of iminoaspartate [60]. Such a molecule would not survive for a long time in solution and it is proposed to be directly channeled from LASPO to the QA synthase active site, where QA is formed. The only route for QA metabolism is represented by the action of the ubiquitous quinolinic acid phosphoribosyltransferase (QAPRT). QAPRT catalyses the Mg-dependent
+
+Structural studies on NAD biosynthesis
+This pathway can be divided into two parts: the first part yields nicotinic acid mononucleotide (NaMN), formally representing the first half of the final target NAD. In the second part, the mononucleotide is transformed into NAD by two subsequent reactions [5].
+From aspartic acid to nicotinic acid mononucleotide
+
+The first step in prokaryotic de novo NAD biosynthesis is catalyzed by L-aspartate oxidase (LASPO), which carries out the oxidation of L-aspartate to iminoaspartate using FAD as a noncovalently bound prosthetic group [4,5]
+
+NAD and molybdenum cofactor biosynthesis Rizzi and Schindelin
+
+715
+
+transfer of the phosphoribosyl moiety from 5-phosphoribosyl-1pyrophosphate (PRPP) to QA, yielding NaMN, PPi and CO2. The reaction is the third step in de novo NAD biosynthesis in all organisms [5] (Figure 1). The structures of QAPRTs from Salmonella typhimurium and Mycobacterium tuberculosis were reported in different states, covering almost all the stages along the reaction coordinate [61,62]. The QAPRT fold consists of a two-domain structure, with a mixed / N-terminal domain and a unique /-barrellike domain containing seven  strands [61] (Figure 1). The structure determination of the nonproductive Michaelis ternary complex with phthalic acid (a QA analog) and with the substrate analog 5-phosphoribosyl-1-(-methylene)pyrophosphate (PRPCP) allowed the description of the catalytic stage in M. tuberculosis QAPRT, revealing the presence of two octahedrally coordinated Mg2+ ions located on either side of the PPi moiety of PRPCP [62]. Structural comparison of M. tuberculosis QAPRT in complex with the substrate QA, with the product NaMN and in its free form revealed remarkable structural differences, with a striking conformational flexibility featuring Lys172, the key residue for QA recognition. QAPRT appears to exist in two major conformers: a relaxed conformer characterizing the apo form and the complex with NaMN; and an active conformer observed in the complex with the substrate QA and in the nonproductive ternary complex [62].
+From NaMN to NAD
+
+The NaMN produced by the first three reactions is now transformed into nicotinic acid adenine dinucleotide (NaAD) by the ubiquitous NMNAT [5] (Figure 1). The enzyme catalyzes the nucleophilic attack by the 5 phosphate of NaMN on the -phosphoryl of ATP, yielding NaAD and PPi, in a strictly Mg2+-dependent reaction [5]. Because the reaction is fully reversible, NaAD can be reconverted to ATP and NaMN. Because NMNAT is located at the merging point between de novo and salvage routes, the enzyme developed an intriguing dual specificity, being able to recognize either NaMN or nicotinamide mononucleotide (NMN), depending on the source [5]; this reflects the relative importance of de novo against recycling routes in different organisms. The eubacterial enzyme has a marked preference for NaMN, whereas archaeal NMNAT strongly prefers NMN. Interestingly, human NMNAT displays a unique dual specificity, being able to recognize with the same efficiency both NaMN and NMN. Notably, in Haemoplilus influenzae, NMNAT has been reported to feature the N-terminal domain of NadR, a bifunctional protein also endowed with ribosylnicotinamide kinase activity [63]. The NMNAT architecture consists of a single / domain, closely resembling the `Rossmann fold' topology, with a central parallel  sheet flanked by several  helices on both sides [64··] (Figure 1). The ATP-binding site is well conserved in all NMNATs reported so far, with two structurally conserved motifs, GXXXPX(T/H)XXH and SXTXXR, providing the essential residues for ATP recognition and stabilization [65·].
+
+The intriguing capability of NMNAT from different sources to strictly recognize either NaMN or NMN has been unraveled thanks to the structural studies carried out on the E. coli and Bacillus subtilis NMNAT­NaAD complexes [66,67·] and on archaeal Methanobacterium thermoautotrophicum NMNAT in complex with NAD and NMN [68·]. Large conformational changes are observed in E. coli NMNAT upon NaAD binding [67·]. Several loop regions surrounding the enzyme active site move substantially on ligand binding, forming a highly specific binding site for NaAD. The eubacterial enzyme specifically recognizes the deamidated pyridine through a few important hydrogen bonds between the nicotinate carboxylate and mainchain amides [67·]. On the other hand, NMN recognition in archaeal NMNAT is achieved through several interactions with protein sidechains, with a key role played by an aspartic acid residue [68·]. Moreover, although no apo form NMNAT from archaeal species has been reported so far, no dramatic structural changes are expected upon ligand binding in archaeal NMNAT. It is noteworthy that the significant differences in the pyridine-nucleotide-binding site observed between eubacterial and archaeal NMNATs are mainly concentrated around the pyridine carboxamide/ carboxylate moiety, with the remaining parts of the mononucleotide being recognized through a series of conserved interactions. Human NMNAT shows a striking dual specificity, being able to promptly recognize both forms of the pyridine nucleotide without any dramatic conformational change [65·,69··]. The NaAD and NAD binding modes are very similar, and the pyridine carboxamide/ carboxylate group establishes few hydrogen bonds with mainchain protein atoms and with structurally conserved solvent molecules [69··,70]. Subtle changes of the electrostatic distribution in the nucleotide-binding site are likely to be responsible for the relaxed substrate specificity of human NMNAT, allowing the enzyme to accommodate substrates with different charge properties [69··]. A set of conserved interactions are employed by all NMNATs to recognize ATP and the pyridine mononucleotide, with the exception of its carboxamide/carboxylate moiety, which is recognized in different NMNATs by a set of unique interactions. The requirement to control different NaMN/NMN metabolic fluxes and to balance de novo against recycling routes in different organisms has been satisfied by evolution by sculpting the required specificity on a highly conserved catalytic core, which guarantees efficient catalysis. The last step in NAD biosynthesis consists of an amide transfer onto NaAD yielding the final product, in a twostep reaction catalyzed by the ubiquitous enzyme NAD synthetase (NADS) [5] (Figure 1). Detailed structural studies have been performed on the strictly ammoniadependent B. subtilis NAD+ synthetase [71­73,74·]. The enzyme is a functional homodimer with / subunit topology, resembling the well-known `Rossmann fold' [73]. Three Mg2+ ions were reported to feature the ATP-binding site,
+
+716
+
+Catalysis and regulation
+
+which is entirely located within a single subunit [72,73,74·]. All three Mg2+ ions are octahedrally coordinated, with a relevant contribution to the coordination sphere from the ATP phosphate oxygens. A comparison of the free form and the ATP complex revealed large conformational changes, with two long loops disordered in the free enzyme becoming fully structured upon ATP binding [71,73]. NaAD was reported to bind to an extended and fully solvent accessible cleft located at the subunit interface. In NADS, the ATP-binding site is located at the classic topological switch point [where a dinucleotide is usually observed in Rossmann-fold-based NAD(P)binding protein] and a novel dinucleotide-binding site is present [72,73]. An ammonium ion is proposed to be the primary binding species, which subsequently undergoes a deprotonation process, delivering ammonia in situ through a still unclear mechanism [73,74·]. The catalytic strategy employed by NADS relies on a fundamental contribution of the electron-withdrawing trimetallic constellation present in the active site for NaAD adenylation and on the capability to efficiently discriminate between ammonium and water binding, allowing the reaction to proceed in aqueous solution. The major conformational change observed upon substrate binding is likely to represent the rate-limiting step of the overall reaction, ultimately controlling product release.
+
+effective protection from solvent of the extremely labile iminoaspartate product, which is proposed to be channeled directly to the QA synthase active site, in a putative multienzyme complex. A different chemical demand is likely to be met by the conformational changes reported for QAPRT and NMNAT. Here, the structural changes appear to be critical for determining substrate specificity. Moreover, in QAPRT, such a structural rearrangement is proposed to control the order of substrate admission, to ensure product release and to elicit productive catalysis. The same considerations can be made for NADS, in which the large conformational changes observed upon ATP binding are thought to control product release and to represent the rate-limiting step of the overall reaction. In the second part of the pathway, significant structural similarities can be detected between NADS and NMNAT. These two enzymes adopt the dinucleotide-binding fold (Rossmann fold), in keeping with the need to recognize mononucleotides (ATP and/or NaMN/NMN) and dinucleotides (NAD or NaAD). Moreover, the chemistry carried out by the two enzymes is intriguingly similar in that they both catalyze the strictly Mg2+-dependent transfer of an AMP moiety onto a mononucleotide or dinucleotide substrate, yielding PPi as the leaving group (Figure 1). However, if NMNAT and NADS are superposed based on the core structure of the `Rossmann fold', a striking difference in the ATP-binding mode becomes immediately evident (Figure 5a). The adenosine moiety of ATP is located at two extreme opposites with respect to the classic topological switch point in the two enzymes (Figure 5a). On the other hand, the ATP phosphates nicely overlap in NADS and NMNAT (Figures 5a). In particular, a careful analysis of the PPi-binding site in the two enzymes reveals the conservation of a network of interactions stabilizing the diphosphate unit (Figure 5b,c). In both enzymes, the PPi unit establishes several hydrogen bonds with mainchain protein atoms belonging to the loop connecting the first and the fourth parallel  strands (Figure 5b,c). Strikingly, both the SGGXDS signature fingerprint characterizing all NADSs [73] and the T/HXXH and SXTXXR signature fingerprints characterizing all NMNATs play a remarkable role in PPi stabilization (Figure 5b,c). Considering that the chemical hotspot for the catalytic event is centered in both enzymes on the -phosphate of ATP, it is tempting to speculate that the two enzymes not only share their three-dimensional architecture but also a common strategy for catalysis. The two enzymes seem to provide a well-suited active site configuration, fixing the conformation of the reactant groups, without any direct involvement of protein residues in covalent or acid/base catalysis. NMNAT and NADS could have evolved from a common ancestor, preserving the PPi-binding site to preserve the chemical core of the original activity (i.e. the transfer of AMP onto a second substrate). Subsequently, the specificity for a different substrate and the chemistry necessary in NADS for the second step of the overall reaction were engineered.
+
+Conclusions
+The structural studies carried out on NAD biosynthetic enzymes do not reveal conservation of a common fold along the pathway, although the dinucleotide-binding domain is present in three structures: LASPO, NMNAT and NADS. The absence of a recurring common fold along the pathway is not surprising, as the chemical nature of the intermediates, as well as the chemistry carried out by the different enzyme, is extremely different along the pathway (Figure 1). However, some positive correlations can be detected for QAPRT, NMNAT and NADS, which show analogy in their chemical reactivity. All three enzymes yield PPi as a leaving group and need Mg2+ for activity. Strikingly, a binuclear Mg2+ cluster with octahedrally coordinated Mg2+ ions located on either side of a PPi moiety has been observed in both QAPRT and NADS. Such conservation of a binuclear cluster stresses the major role played by the Mg2+ ions in the catalytic process, facilitating intermediate formation or stabilizing the transition state by their electron-withdrawing power. A recurring theme throughout the NAD biosynthetic pathway is the high degree of conformational flexibility displayed by all four enzymes whose three-dimensional structures have been reported so far. Remarkable conformational changes mainly affecting loop regions lining the active site were observed in LASPO, QAPRT, NMNAT and NADS. The most dramatic example is provided by LASPO, in which two long loops and an entire domain move upon cofactor binding. The most likely chemical reason for such a dramatic conformational change is the requirement for
+
+NAD and molybdenum cofactor biosynthesis Rizzi and Schindelin
+
+717
+
+Figure 5 legend Structural comparison between M. jannaschii NMNAT in complex with ATP (PDB code 1F9A; [64··]) and B. subtilis NADS in complex with AMP-CPP, a nonhydrolyzable ATP analog (PDB code 1IHB; [71]). The ATP and the protein residues are represented in ball-and-stick form. (a) Superposition of NMNAT and NADS based on the C atoms of the five-stranded parallel  sheet of the `Rossmann fold'. The five parallel  strands in ribbon representation are depicted in yellow for NMNAT and in green for NADS. The ATP binds at the topological switch point in both structures, but with a completely different orientation (colored in yellow and green for NMNAT and NADS, respectively). (b) The ATP-binding site in M. jannaschii NMNAT. The key residues for ATP phosphate stabilization are shown. The two histidine residues, which are part of the strictly conserved HXXH sequence fingerprint, are colored in cyan. Arg121 and His16 are structurally equivalent to NADS Lys186 and Ser51, respectively. (c) The ATP-binding site in B. subtilis NADS. The key residues contacting the ATP phosphates are drawn. The two serine residues, which are part of the strictly conserved SGGXDS signature fingerprint, are colored in cyan.
+
+Figure 5
+
+(a)
+
+Although several positive correlations were observed along the route for NAD biosynthesis, with remarkable similarities in the second part, it is hard to detect a common theme in the pathway. Similar molecules can bind to different binding sites and only when similarity in the chemical reactivity is detected can common features emerge. Even more so than the enzymes involved in NAD biosynthesis, the proteins participating in Moco biosynthesis reveal a surprising degree of structural diversity. The only clear structural relationship is between MogA and domain III of MoeA, which most likely arose from a gene duplication event. A third member sharing this fold is the MoaB protein, which, based on sequence similarities alone, is predicted to have the same fold as MogA. There is, however, doubt whether this protein is actually functional, as insertion mutagenesis of the E. coli moaB gene does not result in a clear phenotype. In addition, there is a very weak structural similarity between MoaC and MoaE, the large subunit of MPT synthase. Another noteworthy aspect of the proteins involved in Moco biosynthesis is the apparent requirement for the proteins to form oligomers (Figure 2). With the exception of MobA, all the other structurally characterized proteins are present in solution in higher oligomeric forms, including dimers in the case of MoaE, MoeB and MoeA, a trimer in the case of MogA and a hexamer in the case of MoaC. Although the active sites of these proteins have not been characterized in comparable detail to the enzymes involved in NAD biosynthesis, it appears that the oligomerization often reflects the requirement to bring catalytic residues from different subunits into close spatial proximity at the respective active sites. The proteins involved in Moco biosynthesis demonstrate nicely how novel pathways can evolve based on related reactions, as in the case of the activation of MoaD and ubiquitin. The simple two-component system of MoaD and MoeB, which is present in all kingdoms of life, appears to represent the evolutionary ancestor of ubiquitin and its
+
+(b)
+
+Arg121
+
+His16
+
+His13 Gly126 Arg8 Thr127 Arg130
+
+(c)
+
+Ser51 Ser46
+
+Asn49 Thr208
+
+Lys186
+Current Opinion in Structural Biology
+
+activating enzyme found exclusively in eukaryotes. A MoaD/MoeB-like system is also involved in the incorporation of the thiazole sulfur during thiamine biosynthesis. In addition, the fact that MoaA and ThiH both belong to the
+
+718
+
+Catalysis and regulation
+
+radical SAM superfamily indicates another aspect common to Moco and thiamine biosynthesis. A second evolutionary mechanism becomes evident from a phylogenetic comparison of the proteins involved in Moco biosynthesis. This aspect is illustrated by the fusion of the MogA and MoeA proteins in eukaryotes, which resulted in the plant Cnx1 and mammalian gephyrin proteins. Among those, gephyrin most dramatically demonstrates how novel functions can be integrated into evolutionarily ancient proteins, in this case leading to a multifunctional protein carrying out essential functions during Moco biosynthesis and in the anchoring of inhibitory neuronal receptors.
+
+cofactor in four enzymes from hyperthermophilic Archaea. J Biol Chem 1993, 268:4848-4852. 14. Johnson MK, Rees DC, Adams MW: Tungstoenzymes. Chem Rev 1996, 96:2817-2840. 15. Johnson JL, Wadman SK: Molybdenum cofactor deficiency. In The Metabolic Basis Of Inherited Disease, edn 6. Edited by Scriver CR, Beaudet AL, Sly WS, Valle DL. McGraw-Hill; 1989:1463-1475. 16. Reiss J: Genetics of molybdenum cofactor deficiency. Hum Genet 2000, 106:157-163. 17. Johnson JL, Coyne KE, Rajagopalan KV, Van Hove JL, Mackay M, Pitt J, Boneh A: Molybdopterin synthase mutations in a mild case of molybdenum cofactor deficiency. Am J Med Genet 2001, 104:169-173.
+
+Acknowledgements
+H Schindelin thanks his co-workers Michael W Lake, Michael J Rudolph and Song Xiang for their important contributions, as well as MM Wuebbens and KV Rajagopalan for their remarkable collaborative efforts. M Rizzi gives special thanks to A Galizzi, G Magni and N Raffaelli for a very fruitful collaboration. This work was supported by the National Institutes of Health (grant DK 54835 to HS Schindelin) and by MIUR (Project `Studi strutturali sulla L-aspartato ossidasi, NMN adeniltransferasi e NAD sintetasi' to M Rizzi).
+
+18. Reiss J, Christensen E, Kurlemann G, Zabot MT, Dorche C: Genomic structure and mutational spectrum of the bicistronic MOCS1 gene defective in molybdenum cofactor deficiency type A. Hum Genet 1998, 103:639-644. 19. Reiss J, Cohen N, Dorche C, Mandel H, Mendel RR, Stallmeyer B, Zabot MT, Dierks T: Mutations in a polycistronic nuclear gene associated with molybdenum cofactor deficiency. Nat Genet 1998, 20:51-53. 20. Reiss J, Christensen E, Dorche C: Molybdenum cofactor deficiency: first prenatal genetic analysis. Prenat Diagn 1999, 19:386-388. 21. Reiss J, Dorche C, Stallmeyer B, Mendel RR, Cohen N, Zabot MT: Human molybdopterin synthase gene: genomic structure and mutations in molybdenum cofactor deficiency type B. Am J Hum Genet 1999, 64:706-711. 22. Reiss J, Gross-Hardt S, Christensen E, Schmidt P, Mendel RR, Schwarz G: A mutation in the gene for the neurotransmitter receptor-clustering protein gephyrin causes a novel form of molybdenum cofactor deficiency. Am J Hum Genet 2001, 68:208-213. 23. Rajagopalan KV: Biosynthesis and processing of the molybdenum cofactors. Biochem Soc Trans 1997, 25:757-761. 24. Rieder C, Eisenreich W, O'Brien J, Richter G, Gotze E, Boyle P, Blanchard S, Bacher A, Simon H: Rearrangement reactions in the biosynthesis of molybdopterin­an NMR study with multiply 13C/15N labelled precursors. Eur J Biochem 1998, 255:24-36. 25. Wuebbens MM, Rajagopalan KV: Investigation of the early steps of molybdopterin biosynthesis in Escherichia coli through the use of in vivo labelling studies. J Biol Chem 1995, 270:1082-1087. 26. Pitterle DM, Rajagopalan KV: The biosynthesis of molybdopterin in Escherichia coli. J Biol Chem 1993, 268:13499-13505. 27. Pitterle DM, Johnson JL, Rajagopalan KV: In vitro synthesis of molybdopterin from precursor Z using purified converting factor. J Biol Chem 1993, 268:13506-13509.
+
+References and recommended reading
+Papers of particular interest, published within the annual period of review, have been highlighted as:
+
+· of special interest ·· of outstanding interest
+1. Anderson RM, Bitterman KJ, Wood JG, Medvedik O, Cohen H, Lin SS, Manchester JK, Gordon JI, Sinclair DA: Manipulation of a nuclear NAD+ salvage pathway delays aging without altering steady-state NAD+ levels. J Biol Chem 2002, 277:18881-18890. Lin SJ, Defossez PA, Guarente L: Requirement of NAD and SIR2 for life-span extension by calorie restriction in Saccharomyces cerevisiae. Science 2000, 289:2126-2128.
+
+2.
+
+Ziegler M: New functions of a long-known molecule. Emerging roles of NAD in cellular signaling. Eur J Biochem 2000, 267:1550-1564. A review underlying the emerging roles of NAD(P) in a variety of relevant physiological processes. 4. Begley TP, Kinsland C, Mehl RA, Osterman A, Dorrestein P: The biosynthesis of nicotinamide adenine dinucleotides in bacteria. Vitam Horm 2001, 61:103-119. Magni G, Amici A, Emanuelli M, Raffaelli N, Ruggieri S: Enzymology of NAD+ synthesis. Adv Enzymol Relat Areas Mol Biol 1999, 73:135-182. Gerdes SY, Scholle MD, D'Souza M, Bernal A, Baev MV, Farrell M, Kurnasov OV, Daugherty MD, Mseeh F, Polanuyer BM et al.: From genetic footprinting to antimicrobial drug targets: examples in cofactor biosynthetic pathways. J Bacteriol 2002, 184:4555-4572. Rajagopalan KV: Novel aspects of the biochemistry of the molybdenum cofactor. Adv Enzymol 1991, 64:215-290. Rajagopalan KV, Johnson JL: The pterin molybdenum cofactors. J Biol Chem 1992, 267:10199-10202. Hille R: The reaction mechanism of oxomolybdenum enzymes. Biochim Biophys Acta 1994, 1184:143-169.
+
+3. ·
+
+5.
+
+28. Furukawa K, Mizushima N, Noda T, Ohsumi Y: A protein conjugation system in yeast with homology to biosynthetic enzyme reaction of prokaryotes. J Biol Chem 2000, 275:7462-7465. 29. Hasona A, Ray RM, Shanmugam KT: Physiological and genetic analyses leading to identification of a biochemical role for the moeA (molybdate metabolism) gene product in Escherichia coli. J Bacteriol 1998, 180:1466-1472. 30. Joshi MS, Johnson JL, Rajagopalan KV: Molybdenum cofactor biosynthesis in Escherichia coli mog mutants. J Bacteriol 1996, 178:4310-4312. 31. Prior P, Schmitt B, Grenningloh G, Pribilla I, Multhaup G, Beyreuther K, Maulet Y, Werner P, Langosch D, Kirsch J et al.: Primary structure and alternative splice variants of gephyrin, a putative glycine receptor-tubulin linker protein. Neuron 1992, 8:1161-1170. 32. Kirsch J, Betz H: The postsynaptic localization of the glycine receptor-associated protein gephyrin is regulated by the cytoskeleton. J Neurosci 1995, 15:4148-4156. 33. Kirsch J, Langosch D, Prior P, Littauer UZ, Schmitt B, Betz H: The 93 kDa glycine receptor associated protein binds to tubulin. J Biol Chem 1991, 266:22242-22245. 34. Essrich C, Lorez M, Benson JA, Fritschy JM, Luscher B: Postsynaptic clustering of major GABAA receptor subtypes requires the gamma 2 subunit and gephyrin. Nat Neurosci 1998, 1:563-571.
+
+6.
+
+7. 8. 9.
+
+10. Hille R: Molybdenum enzymes containing the pyranopterin cofactor: an overview. Met Ions Biol Syst 2002, 39:187-226. 11. Kisker C, Schindelin H, Baas D, Retey J, Meckenstock RU, Kroneck PM: A structural comparison of molybdenum cofactorcontaining enzymes. FEMS Microbiol Rev 1998, 22:503-521. 12. Schindelin H, Kisker C, Rajagopalan KV: Molybdopterin from molybdenum and tungsten enzymes. Adv Protein Chem 2001, 58:47-94. 13. Johnson JL, Rajagopalan KV, Mukund S, Adams MW: Identification of molybdopterin as the organic component of the tungsten
+
+NAD and molybdenum cofactor biosynthesis Rizzi and Schindelin
+
+719
+
+35. Fuhrmann JC, Kins S, Rostaing P, El Far O, Kirsch J, Sheng M, Triller A, Betz H, Kneussel M: Gephyrin interacts with dynein light chains 1 and 2, components of motor protein complexes. J Neurosci 2002, 22:5393-5402. 36. Kins S, Betz H, Kirsch J: Collybistin, a newly identified brainspecific GEF, induces submembrane clustering of gephyrin. Nat Neurosci 2000, 3:22-29. 37. Kneussel M, Haverkamp S, Fuhrmann JC, Wang H, Wassle H, Olsen RW, Betz H: The gamma-aminobutyric acid type A receptor (GABAAR)-associated protein GABARAP interacts with gephyrin but is not involved in receptor anchoring at the synapse. Proc Natl Acad Sci USA 2000, 97:8594-8599.
+
+52. Wuebbens MM, Liu MT, Rajagopalan K, Schindelin H: Insights into molybdenum cofactor deficiency provided by the crystal structure of the molybdenum cofactor biosynthesis protein MoaC. Struct Fold Des 2000, 8:709-718. 53. Xiang S, Nichols J, Rajagopalan KV, Schindelin H: The crystal · structure of Escherichia coli MoeA and its relationship to the multifunctional protein gephyrin. Structure 2001, 9:299-310. The authors incorporate the structural data on MogA and MoeA to postulate a model for the hexagonal scaffold formed by gephyrin. 54. Sofia HJ, Chen G, Hetzler BG, Reyes-Spindola JF, Miller NE: Radical SAM, a novel protein superfamily linking unresolved steps in familiar biosynthetic pathways with radical mechanisms: functional characterization using new analysis and information visualization methods. Nucleic Acids Res 2001, 29:1097-1106. 55. Frey PA, Booker SJ: Radical mechanisms of S-adenosylmethioninedependent enzymes. Adv Protein Chem 2001, 58:1-45. 56. Wang C, Xi J, Begley TP, Nicholson LK: Solution structure of ThiS ·· and implications for the evolutionary roots of ubiquitin. Nat Struct Biol 2001, 8:47-51. This study defines the evolutionary relationship between the sulfur incorporation step during thiamine biosynthesis and the mechanism of ubiquitin activation. 57. Leimkuhler S, Rajagopalan KV: A sulfurtransferase is required in the transfer of cysteine sulfur in the in vitro synthesis of molybdopterin from precursor Z in Escherichia coli. J Biol Chem 2001, 276:22024-22031.
+
+38. Mammoto A, Sasaki T, Asakura T, Hotta I, Imamura H, Takahashi K, Matsuura Y, Shirao T, Takai Y: Interactions of drebrin and gephyrin with profilin. Biochem Biophys Res Commun 1998, 243:86-89. 39. Sabatini DM, Barrow RK, Blackshaw S, Burnett PE, Lai MM, Field ME, Bahr BA, Kirsch J, Betz H, Snyder SH: Interaction of RAFT1 with gephyrin required for rapamycin-sensitive signaling. Science 1999, 284:1161-1164. 40. Feng G, Tintrup H, Kirsch J, Nichol MC, Kuhse J, Betz H, Sanes JR: Dual requirement for gephyrin in glycine receptor clustering and molybdoenzyme activity. Science 1998, 282:1321-1324. 41. Johnson JL, Bastian NR, Rajagopalan KV: Molybdopterin guanine dinucleotide ­ a modified form of molybdopterin identified in the molybdenum cofactor of dimethyl-sulfoxide reductase from Rhodobacter sphaeroides forma-specialis-denitrificans. Proc Natl Acad Sci USA 1990, 87:3190-3194. 42. Palmer T, Santini CL, Iobbi-Nivol C, Eaves DJ, Boxer DH, Giordano G: Involvement of the narJ and mob gene products in distinct steps in the biosynthesis of the molybdoenzyme nitrate reductase in Escherichia coli. Mol Microbiol 1996, 20:875-884. 43. Palmer T, Vasishta A, Whitty PW, Boxer DH: Isolation of protein FA, a product of the mob locus required for molybdenum cofactor biosynthesis in Escherichia coli. Eur J Biochem 1994, 222:687-692. 44. Lake MW, Temple CA, Rajagopalan KV, Schindelin H: The crystal structure of the Escherichia coli MobA protein provides insight · into molybdopterin guanine dinucleotide biosynthesis. J Biol Chem 2000, 275:40211-40217. This study describes the structure of MobA in its apo form and with bound 2+·GTP, and provides insights into the function and catalytic mechanism Mn of the MobA protein. 45. Lake MW, Wuebbens MM, Rajagopalan KV, Schindelin H: ·· Mechanism of ubiquitin activation revealed by the structure of a bacterial MoeB-MoaD complex. Nature 2001, 414:325-329. The structures presented in this paper define the architecture and reaction mechanism of members of the E1 enzyme superfamily. 46. Liu MT, Wuebbens MM, Rajagopalan KV, Schindelin H: Crystal structure of the gephyrin-related molybdenum cofactor biosynthesis protein MogA from Escherichia coli. J Biol Chem 2000, 275:1814-1822. 47. ·· Rudolph MJ, Wuebbens MM, Rajagopalan KV, Schindelin H: Crystal structure of molybdopterin synthase and its evolutionary relationship to ubiquitin activation. Nat Struct Biol 2001, 8:42-46. This study defines the evolutionary relationship between the sulfur incorporation step during Moco biosynthesis and the mechanism of ubiquitin activation. 48. Schrag JD, Huang W, Sivaraman J, Smith C, Plamondon J, Larocque R, Matte A, Cygler M: The crystal structure of Escherichia coli MoeA, a protein from the molybdopterin synthesis pathway. J Mol Biol 2001, 310:419-431. 49. Schwarz G, Schrader N, Mendel RR, Hecht HJ, Schindelin H: Crystal structures of human gephyrin and plant Cnx1 G domains: comparative analysis and functional implications. J Mol Biol 2001, 312:405-418. 50. Sola M, Kneussel M, Heck IS, Betz H, Weissenhorn W: X-ray crystal structure of the trimeric N-terminal domain of gephyrin. J Biol Chem 2001, 276:25294-25301. 51. Stevenson CE, Sargent F, Buchanan G, Palmer T, Lawson DM: Crystal structure of the molybdenum cofactor biosynthesis protein MobA from Escherichia coli at near-atomic resolution. Struct Fold Des 2000, 8:1115-1125.
+
+58. Bossi RT, Negri A, Tedeschi G, Mattevi A: Structure of FAD-bound · L-aspartate oxidase: insight into substrate specificity and catalysis. Biochemistry 2002, 41:3018-3024. This paper provides important observations for understanding the catalytic mechanism of LASPO with relevance to the succinate dehydrogenase/ fumarate reductase family. 59. Mattevi A, Tedeschi G, Bacchella L, Coda A, Negri A, Ronchi S: Structure of L-aspartate oxidase: implications for the succinate dehydrogenase/fumarate reductase oxidoreductase family. Struct Fold Des 1999, 7:745-756. 60. Ceciliani F, Caramori T, Ronchi S, Tedeschi G, Mortarino M, Galizzi A: Cloning, overexpression, and purification of Escherichia coli quinolinate synthetase. Protein Expr Purif 2000, 18:64-70. 61. Eads JC, Ozturk D, Wexler TB, Grubmeyer C, Sacchettini JC: A new function for a common fold: the crystal structure of quinolinic acid phosphoribosyltransferase. Structure 1997, 5:47-58. 62. Sharma V, Grubmeyer C, Sacchettini JC: Crystal structure of quinolinic acid phosphoribosyltransferase from Mycobacterium tuberculosis: a potential TB drug target. Structure 1998, 6:1587-1599. 63. Singh SK, Kurnasov OV, Chen B, Robinson H, Grishin NV, Osterman A, Zhang H: Crystal structure of Haemophilus influenzae NadR protein. A bifunctional enzyme endowed with NMN adenylyltransferase and ribosylnicotinamide kinase activities. J Biol Chem 2002, 277:33291-33299. 64. D'Angelo I, Raffaelli N, Dabusti V, Lorenzi T, Magni G, Rizzi M: ·· Structure of nicotinamide mononucleotide adenylyltransferase: a key enzyme in NAD+ biosynthesis. Struct Fold Des 2000, 8:993-1004. This paper reports the first structure of a NMNAT, that is, M. jannaschii NMNAT in complex with ATP. The analysis of the ATP-binding site allowed the assignment of NMNAT to a wide family of nucleotidyltransferase / phosphodiesterases. 65. Garavaglia S, D'Angelo I, Emanuelli M, Carnevali F, Pierella F, · Magni G, Rizzi M: Structure of human NMN adenylyltransferase. A key nuclear enzyme for NAD homeostasis. J Biol Chem 2002, 277:8524-8530. This paper describes the structure of human NMNAT, a target for cancer chemotherapy, in its free form. Structural comparison with other NMNATs revealed the minimal structural framework for ATP binding in all NMNATs. 66. Olland AM, Underwood KW, Czerwinski RM, Lo MC, Aulabaugh A, Bard J, Stahl ML, Somers WS, Sullivan FX, Chopra R: Identification, characterization, and crystal structure of Bacillus subtilis nicotinic acid mononucleotide adenylyltransferase. J Biol Chem 2002, 277:3698-3707.
+
+720
+
+Catalysis and regulation
+
+Zhang H, Zhou T, Kurnasov O, Cheek S, Grishin NV, Osterman A: Crystal structures of E. coli nicotinate mononucleotide adenylyltransferase and its complex with deamido-NAD. Structure 2002, 10:69-79. The structural bases for the exquisite preference of eubacterial NMNAT for the acid form of the mononucleotide are revealed by the structural analysis described in this paper. 68. Saridakis V, Christendat D, Kimber MS, Dharamsi A, Edwards AM, · Pai EF: Insights into ligand binding and catalysis of a central step in NAD+ synthesis: structures of Methanobacterium thermoautotrophicum NMN adenylyltransferase complexes. J Biol Chem 2001, 276:7225-7232. The structure of M. thermoautotrophicum NMNAT in complex with NAD reported in this paper reveals the structural determinants for recognition of NMN by archaeal NMNATs. 69. Zhou T, Kurnasov O, Tomchick DR, Binns DD, Grishin NV, ·· Marquez VE, Osterman AL, Zhang H: Structure of human nicotinamide/nicotinic acid mononucleotide adenylyltransferase. Basis for the dual substrate specificity and activation of the oncolytic agent tiazofurin. J Biol Chem 2002, 277:13148-13154. This paper contains an extensive structural study on human NMNAT, including the structure of a complex with a metabolite of a potent antineoplastic agent. Structural bases for the dual specificity shown by the human enzyme are described.
+
+67. ·
+
+70. Werner E, Ziegler M, Lerner F, Schweiger M, Heinemann U: Crystal structure of human nicotinamide mononucleotide adenylyltransferase in complex with NMN. FEBS Lett 2002, 516:239-244. 71. Devedjiev Y, Symersky J, Singh R, Jedrzejas M, Brouillette C, Brouillette W, Muccio D, Chattopadhyay D, DeLucas L: Stabilization of active-site loops in NH3-dependent NAD+ synthetase from Bacillus subtilis. Acta Crystallogr D Biol Crystallogr 2001, 57:806-812. 72. Rizzi M, Bolognesi M, Coda A: A novel deamido-NAD+-binding site revealed by the trapped NAD-adenylate intermediate in the NAD+ synthetase structure. Structure 1998, 6:1129-1140. 73. Rizzi M, Nessi C, Mattevi A, Coda A, Bolognesi M, Galizzi A: Crystal structure of NH3-dependent NAD+ synthetase from Bacillus subtilis. EMBO J 1996, 15:5125-5134. 74. Symersky J, Devedjiev Y, Moore K, Brouillette C, DeLucas L: NH3· dependent NAD+ synthetase from Bacillus subtilis at 1 Å resolution. Acta Crystallogr D Biol Crystallogr 2002, 58:1138-1146. This paper describes the structure at very high resolution of B. subtilis NADS in complex with the adenylate-NAD reaction intermediate. The structure was already reported in a previous paper [72], but the atomic resolution reached in this study allows the authors to propose a possible mechanism for the second step of the overall reaction.
+
+

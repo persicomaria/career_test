@@ -1,0 +1,213 @@
+General structural motifs of amyloid protofilaments
+Neil Ferguson*, Johanna Becker§, Henning Tidow*, Sandra Tremmel§, Timothy D. Sharpe*, Gerd Krause§, Jeremy Flinders§, Miriana Petrovich*, John Berriman¶, Hartmut Oschkinat§, and Alan R. Fersht*
+*Medical Research Council Centre for Protein Engineering, Hills Road, Cambridge CB2 2QH, United Kingdom; Cambridge University Chemical Laboratory, ¨ ¨ Lensfield Road, Cambridge CB2 1EW, United Kingdom; §Leibniz-Institut fur Molekulare Pharmakologie, Robert-Rossle-Strasse 10, 13125 Berlin, Germany; and ¶New York Structural Biology Center, 89 Covent Avenue at 133rd Street, New York, NY 10027 Contributed by Alan R. Fersht, September 7, 2006
+
+Human CA150, a transcriptional activator, binds to and is codeposited with huntingtin during Huntington's disease. The second WW domain of CA150 is a three-stranded -sheet that folds in vitro in microseconds and forms amyloid fibers under physiological conditions. We found from exhaustive alanine scanning studies that fibrillation of this WW domain begins from its denatured conformations, and we identified a subset of residues critical for fibril formation. We used high-resolution magic-angle-spinning NMR studies on site-specific isotopically labeled fibrils to identify abundant long-range interactions between side chains. The distribution of critical residues identified by the alanine scanning and NMR spectroscopy, along with the electron microscopy data, revealed the protofilament repeat unit: a 26-residue nonnative -hairpin. The structure we report has similarities to the hairpin formed by the A (1­ 40) protofilament, yet also contains closely packed side-chains in a ``steric zipper'' arrangement found in the cross- spine formed from small peptides from the Sup35 prion protein. Fibrillation of unrelated amyloidogenic sequences shows the common feature of zippered repeat units that act as templates for fiber elongation.
+FBP28 folding misfolding protein Fig. 1. Cartoon of the structure of native CA150.WW2 [PDB ID code 1E0L (6)]. (A) Side chains that interact with each other in the fibrillar but not in the native state are marked in identical colors. (B) Sequence of CA150.WW2. The sequence is numbered according to the solution structure with the register of the native -strands indicated by black arrows. The first three residues (gsm) originate from the expression vector and are numbered 2, 1, and 0, respectively. Flanking residues were also present in synthetic peptides used in this study. The mutations examined in this study are shown in red.
+
+myloid fibrils are formed in disease states and also in vitro by many proteins and peptides (1). There are highresolution crystal structures for fibrillar forms of amyloidogenic peptides derived from the Sup35 prion protein (2). These peptides form self-assembling homotypic -structure ``zippers.'' Solid-state NMR and mutagenesis data have been used to construct models of larger repeating units found in the A (1­ 40) and A (1­ 42) protofilaments implicated in Alzheimer's disease (3, 4). The repeat unit is a -hairpin where side-chain­side-chain interactions, rather than hydrogen bonds, define the interface between strands. Here, we have studied the amyloidogenic properties of the second WW domain of human CA150 (CA150.WW2; ref. 5), which is identical in sequence to the murine FBP28 WW domain, a small three-stranded antiparallel -sheet protein (ref. 6; Fig. 1A) that folds in s with apparent two-state kinetics (7, 8). CA150.WW2 forms highly ordered amyloid fibers in vitro over a period of minutes to hours under physiological conditions (37°C and pH 7.0) (9), which makes them especially amenable to structural and kinetic studies. CA150 is codeposited with huntingtin in Huntington's disease and has been proposed to be involved in regulating the onset of neurodegeneration (5, 10­12). We measured the effects of exhaustive alanine scanning on the fibrillation kinetics of a 40-residue CA150.WW2 construct (Fig. 1B) to determine the role of each side chain in fibrillation. Further, we obtained an unprecedented level of structural information by using a comprehensive isotope-labeling strategy for the fibrillar samples that were characterized by using magic angle spinning (MAS) NMR spectroscopy. We calculated a structural model based on 25 long-range NMR distance constraints, consistent with the results from independent alanine scanning and EM experiments.
+16248 ­16253 PNAS October 31, 2006 vol. 103 no. 44
+
+A
+
+Results
+Alanine Scanning of Fibrillation Kinetics. Twenty-nine residues of
+
+CA150.WW2 were mutated to Ala (Fig. 1B) and A4 and A14 to Gly (8). W8A, N22A, and P33A did not express in sufficient yield. Most mutants showed typical nucleation-like kinetics of fibrillation, as monitored by light scattering at pH 7.0 and 37°C (Fig. 2A), with characteristic lag, growth, and stationary phases, typically complete within hours. The time courses were analyzed with a model-free approach (13) (see Materials and Methods) (Table 1). Some mutants had a second slower kinetic phase that did not appear to involve further incorporation of monomers. V5A, Y11A, Y20A, R24A, L26A, T29A, and W30A did not give detectable changes in light scattering, positive thioflavin T assays, or any detectable fibers by EM after 5 days' incubation (Table 1 and data not shown). These variants varied widely in
+Author contributions: N.F., J. Berriman, and H.O. designed research; N.F., J. Becker, H.T., S.T., T.D.S., G.K., J.F., and J. Berriman performed research; M.P. contributed new reagents analytic tools; N.F., J. Becker, H.T., S.T., G.K., J.F., J. Berriman, T.D.S, and H.O. analyzed data; and N.F., H.O., and A.R.F. wrote the paper. The authors declare no conflict of interest. Abbreviations: CA150.WW2, second WW domain of human CA150; MAS, magic angle spinning; PDSD, proton-driven spin-diffusion.
+To whom correspondence may be addressed. E-mail: nf1@mrc-lmb.cam.ac.uk, oschkinat@
+
+fmp-berlin.de, or arf25@cam.ac.uk. © 2006 by The National Academy of Sciences of the USA
+
+www.pnas.org cgi doi 10.1073 pnas.0607815103
+
+Table 1. Alanine scanning of CA150.WW2 fibrillation kinetics at 37°C and pH 7.0
+Construct WT T3A A4G V5A S6A E7A W8A T9A E10A Y11A K12A T13A A14G D15A G16A K17A T18A Y19A Y20A Y21A N22A N23A R24A L26A E27A S28A T29A W30A P33A Q34A E35A L36A , min 38 2 67 2 47 10 Fiber KO 37 1 43 15 ND 40 10 26 4 Fiber KO 95 5 19 1 8 1 17 3 19 1 30 3 44 1 36 1 Fiber KO 10 2 ND 31 3 Fiber KO Fiber KO 33 3 38 1 Fiber KO Fiber KO ND 52 2 33 2 38 12
+1 2,
+
+min
+
+lag,
+
+min
+
+GD-N, kcal mol 0.09 0.16 0.10 0.22 0.52 ND 0.93 0.50 0.63 ND 0.81 0.50 0.42 1.33 0.35 0.54 0.67 ND 1.7 ND 0.07 0.78 0.56 1.02 0.01 0.33 0.76 ND ND 0.27 0.91 0.18 0.09 0.17 0.12 0.16 0.09 0.10 0.11 0.17 0.22 0.09 0.27 0.08 0.17 0.13 0.10 0.06 0.17 0.12 0.13 0.21 0.11 0.14
+
+Fig. 2. Fibrillation kinetics of CA150.WW2 variants. (A) Representative lightscattering transients for variants with fibrillation kinetics significantly different from wild-type CA150.WW2. The data shown for R24A are representative of mutants of abrogated fiber formation with no changes in light scattering observed, even after 6,000 min. (B) Denatured state population correlates with 1 k, and k fibrillation rate. The apparent elongation time constant (where is the elongate rate) significantly correlated with the degree of native state destabilization reported (8). The solid line shows the best linear fit weighted by the standard errors determined from triplicate measurements.
+
+stability, from wild-type-like (V5A, T29A) to fully unfolded (Y20A) (8). Many fiber-forming mutants (e.g., A4G, S6A, T9A, T18A, Y19A, N23A, E27A, S28A, E35A, and L36A) had wild-type-like time constants for fiber growth but varying lag times (Table 1). The fibrillation kinetics of some mutants deviated more markedly from wild-type behavior (Fig. 2 A). For example, T13A, A14G, D15A, G16A, K17A, Y21A, and E27A had significantly faster fiber growth rates or shorter lag-times than wild type (Table 1). By contrast, T3A, E7A, K12A, and Q34A had slower fibrillation than wild type, due to their longer lag times or slower fiber growth. The time constant for fiber growth correlated significantly with the destabilization of the native state (Fig. 2B), consistent with a link between fibrillation rate and the concentration of unfolded protein, but not the rate constant for unfolding. The lag time, however, had little correlation with the change in native stability (data not shown).
+Solution Backbone Dynamics. The backbone dynamics of wild-type protein was measured at 285 K by using 15N relaxation NMR experiments (14), under low aggregation conditions. The backbone of the first six residues (GATAVS) was significantly more mobile (lower S2 values) than the backbone of the core residues, as expected for a linker region (Fig. 6, which is published as supporting information on the PNAS web site). The higher mobility of the N-terminal residues correlates with an absence of long-range interactions, consistent with the disorder of this region evident in the solution structure [PDB ID code 1E0L (6)]. Peptide Fragment Studies. We tested synthetic peptides correspond-
+
+300 10 620 30 330 60 Fiber KO 320 40 1600 200 ND 340 40 170 15 Fiber KO 270 40 120 10 40 5 70 2 140 10 40 5 310 40 255 5 Fiber KO 30 2 ND 260 8 Fiber KO Fiber KO 180 10 230 15 Fiber KO Fiber KO ND 630 40 190 20 240 80
+
+225 10 490 30 260 60 Fiber KO 260 40 1500 200 ND 260 40 120 15 Fiber KO 80 40 80 10 25 5 35 7 100 10 20 8 220 40 185 5 Fiber KO 10 4 ND 200 10 Fiber KO Fiber KO 115 10 155 15 Fiber KO Fiber KO ND 525 40 125 20 165 80
+
+0.10 0.14
+
+Errors were determined from triplicate measurements and are repor ted at the 95% confidence level (2 standard error). Fiber KO, no fibers were observed within the time scale of our measurements (typically 5,000 min). ND, not determined, because these mutants either did not express in sufficient quantities or were too insoluble for subsequent characterisation. , t1 2, and tlag were determined from light-scattering kinetics as described in Materials and Methods. GD-N values are those previously reported for FBP28 (8), which is identical in sequence to CA150.WW2.
+
+ing to CA150.WW2 fragments for fiber formation. WT[1­8], corresponding to the N-terminal region, was soluble at millimolar concentrations and did not form fibers detectable by light scattering (Fig. 3A), thioflavin T assays, or EM analysis (data not shown). In contrast, the longer peptides that contained residues from the N terminus and -strand 1 of native protein (WT[1­13], D15N[1­24], D15N[1­30]) did form amyloid-like fibers, implying that residues in the N terminus and first -strand are necessary and sufficient to form -sheet aggregates under these conditions. Consistent with this hypothesis, the peptide D15N[12­37], lacking the first 11 residues of CA150.WW2, did not form fibers. The aggregates formed by the shortened fragments (Fig. 3B) had, on examination by EM, a well defined ultrastructure that consisted of clusters of homogenous crystalline blocks. The gross morphology and fibrillar properties of the short peptide fragFerguson et al.
+
+ments of CA150.WW2 were quite similar to those formed in vitro by fragments of other proteins (2, 15, 16, 17­19) and amino acid homopolymers (20). In contrast, the fibrillar deposits formed by full-length CA150.WW2 were significantly larger than those formed by the shorter peptide fragments, had more complex ultrastructures, and the individual protofilaments (30 Å width with a cross- spacing of 4.73 Å) were clearly visible [Fig. 3 C and D and previously reported data (9)].
+Solid-State NMR and Structure Calculations. Five different isotopi-
+
+cally labeled samples of the Y19F mutant of CA150.WW2 were prepared for solid-state NMR spectroscopy by using the scheme of Castellani et al. (21): uniformly labeled with 13C15N (uCA150.WW2); uniformly 15N-labeled with 13C labeling using either 2-13C-labeled glycerol or 1,3-13C-labeled glycerol (2CA150.WW2 and 1,3-CA150.WW2, respectively); and uniformly labeled with 2H,13C,15N, except for the labile deuterons that were exchanged with 1H (d-CA150.WW2). The Y19F mutant was used, because it reproducibly formed highly homogeneous fibers (Fig. 3C), with very similar cross- spacing to wild-type CA150.WW2 amyloid fibers. MAS NMR spectra of CA150.WW2 Y19F showed signals of
+PNAS October 31, 2006 vol. 103 no. 44 16249
+
+BIOPHYSICS
+
+Fig. 3. Properties of CA150.WW2 aggregates formed under physiological conditions. (A) Light-scattering kinetics for CA150.WW2 peptide fragments. Peptides WT[1­ 8] and D15N[12­37] gave no appreciable scattering at 37°C, even after 1,600 min. In contrast, WT[1­13], D15N[1­24], and D15N[1­30] all had strong changes in light scattering, consistent with aggregation. The aggregates tested positive for amyloid fibers in thioflavin T assays (data not shown) and by EM. There was no lag phase in the aggregation kinetics for D15N[1­30], which had very low solubility. Residue 15 was changed from Asp to Asn in D15N[1­24], D15N[1­30], and D15N[12­37], because it was exceptionally difficult to synthesize these peptides with the wild-type residue. This mutation did not affect the amyloid-forming tendencies of full-length FBP28 peptides (unpublished data). (B) Negatively stained electron micrograph of the microcrystals formed by WT[1­13] peptide fragments. (C) Low-dose uranyl acetate electron micrograph of a tubular association of amyloid fibrils formed by the Y19F mutant of CA150.WW2. The frayed end of one of these tubes, comprised of 100 protofilaments, is evident in the lower right-hand corner of the image, as are the upper and lower face of a tube. (D) Optical diffraction pattern of a Y19F amyloid tube oriented as shown in C. The width of individual protofilaments was determined from this to be 30 Å, with a cross- spacing of 4.73 Å. (Scale bars, 100 nm.)
+
+Fig. 4. Solid-state NMR spectra of CA150.WW2 Y19F amyloid fibers recorded at 900 MHz, 10.5 kHz MAS, and 284 K. Side-chain correlations within the same amino acid are annotated in black, and cross-peaks due to interactions between side chains of different amino acids are labeled in blue. (A) 2-CA150.WW2, PDSD, 20 ms mixing. (B) 2-CA150.WW2, PDSD, 200 ms mixing. (C) 2-CA150.WW2, PDSD, 400 ms mixing. (D) 1,3-CA150.WW2, PDSD, 200 ms mixing. The appearance of extra cross-peaks in A­C with longer mixing times identifies the interactions between atoms, which are more distant than those observed using shorter mixing times.
+
+intermediate line width for residues M0­E35. In most spectra, the signals of the first and last two residues of our construct (G-2, S-1, L36, and K37) were absent. Two sets of signals with similar intensity were observed for S28 and at least two of the tyrosines, suggesting that these residues have multiple conformations. The C , C , and most side-chain carbon resonances of residues G1, A2, T3, A4, V5, S6, T9, E10, K12, T13, A14, D15, G16, K17, T18, F19, R24, T25, L26, S28, T29, K32, P33, and Q34 were unambiguously assigned. However, we could not unambiguously assign the signals for W8, W30, N22, N23, E7, E27, E31, and E35 because of spectral overlap. The cross-peaks linking residues V5 and L26 were the predominant features in the spectra of 2-CA150.WW2 (Fig. 4 A­C). The correlations V5 -L26 , V5 -L26 , and V5 -L26 appeared at a proton-driven spin-diffusion (PDSD) mixing time of 200 ms. A correlation between V5 and L26 was not observed at a mixing time of 200 ms but became evident at a mixing time of 400 ms. This demonstrates that V5 is further from L26 than L26 , which suggests that these side chains are arranged in a parallel head-to-tail fashion. The correlations V5 1/ 2-R24 observed in the spectra of 1,3-CA150.WW2 supported further that the side chain of V5 was situated between the side chains of L26 and R24 in a zipper-like arrangement. Similar interactions were observed between T3 and S28. A complete set of cross-peaks, involving all aliphatic carbon signals, defined the interaction of T13 and T18. These data suggested the presence of a -hairpin
+16250 www.pnas.org cgi doi 10.1073 pnas.0607815103
+
+defined by interdigitating side chains, separated by a turn involving A14, D15, G16, and K17. This agrees well with TALOS predictions of the and angles using chemical-shift values (22), consistent with two regions of -structure (residues T3-T13 and T18-S28) connected by a loop between A14 and K17. Residues A14­G16 also formed a flexible dynamic loop in native protein (Fig. 6). However, the interactions between V5-R24, V5-L26, T3-S28, and T13-T18 found in the fibrillar form cannot exist in the native structure of CA150.WW2 (Fig. 1). We extracted 25 long-range distance constraints from the MAS NMR spectra and calculated a structure of six repeat units of the protofilament (of which the inner four are shown in Fig. 5A), by using hydrogen-bond constraints in the manner of Riek and coworkers (3). Simulated annealing gave a -hairpin structure with tight side-chain packing stapling the ends together (Fig. 5 B and C). These residues form a heterotypic steric zipper (2). The hairpin becomes somewhat expanded between residues T9-K12 and Y20N22, because the Y11 and Y20 side chains are longer than the others in the zipper. In this region, the different structure calculations show variations in the hydrogen bonding and cross-hairpin interactions. Calculations including two ambiguous constraints assigned to an interaction between T9 and Y20 did not change the overall structure in this region, especially the packing density. The smaller spacing of the backbone is reestablished before the turn region due to the tight packing of residues T13 and T18, as found in -arch structures (23). In summary, the protofilament structure of CA150.WW2 is a -hairpin with variable separation of the opposing backbone fragments, including both tight (hydrophobic) and loose (hydrophilic) zipper-like subsections. Residues 13­16
+Ferguson et al.
+
+Fig. 5. Structural model of the CA150.WW2 protofilament. (A) View of the long axis of the protofilament. The strands of the parallel -sheet in the background (gray) were formed by residues 20 ­28, with residues 3­11 forming the -sheet in the foreground (violet). Residues N-terminal to A2 and C-terminal to T29 are not shown, because they had no detectable regular structure. Each hairpin is linked to others by backbone hydrogen bonds used as constraints (dashed lines) and buried side-chain interactions (not shown). (B) Cartoon representation of the nonnative -hairpin. The long-range interactions detected by MAS NMR and used for the structure calculations are shown by black arrows and define the interface between the -strands. Dotted arrows indicate ambiguous distance constraints that could be fitted into the structure after the calculation. Residues that eliminated or significantly decelerated fibrillation when mutated to Ala are marked in red and orange, respectively (Table 1). We could not determine the effects of mutating W8 and N22 (light gray), because the corresponding Ala variants could not be expressed in sufficient quantities for characterization. (C) One repeat unit, viewed down the fiber axis, with colors encoding atom type. It is a hairpin formed by two -strands of nonnative register linked by a flexible loop region between residues T13 and T18. The interface between strands is well packed and includes a salt bridge between E7 and R24. This interaction was not an intrinsic restraint in the model but a consequence of the periodicity dictated by the V5-R24, V5-L26, T13-T18, and T3-S28 interactions identified using solidstate MAS NMR. The width of the ordered region of the hairpin (T3-T13 31 Å) is consistent with the dimensions determined using EM (Fig. 3). Blue dotted lines represent the long-range interactions identified by MAS NMR, which were used as restraints in structure calculations; hydrogen bonds are indicated by dashed red lines.
+
+form a disordered loop in both the native and fibrillar form, and the structural promiscuity of this region allows native and nonnative -hairpins to be formed by competing reactions. Discussion
+Folding vs. Fibrillation. Kinetic, mutagenic, and structural data
+
+Molecular Model of the CA150.WW2 Protofilament Structure. Seven alanine mutations eliminated (V5A, Y11A, Y20A, R24A, L26A, T29A, and W30A) and three significantly decelerated (T3A, E7A, and K12A) fiber growth during our experiments (Fig. 1 and Table 1). These key residues were located between residues 3­11 and 20­30, regions that are connected by a relatively unstructured dynamic loop in the native protein (Fig. 6). The interactions between T13 and T18, identified by MAS NMR, define a tight nonnative turn in the protofilament, consistent with a -hairpin conformation, as proposed for A protofilaments (3, 4). A network of long-range nonnative interactions was present in the CA150.WW2 fibers, between V5-R24, V5-L26, and T3S28, and this was identified by MAS NMR measurements. These side chains appear to interdigitate tightly into a steric zipper, as found for short peptide fragments of the Sup35 prion protein (2). Twenty-five long-range distance constraints were used to generate a structural model of the CA150.WW2 protofilament. The protofilament contains vertically stacked intramolecular, nonnative -hairpins (Fig. 5A) hydrogen-bonded together in parallel. The dimensions of the protofilament structure and cross- spacing matched those independently determined by EM. Intriguingly, most of the residues that inhibited fibrillation when mutated to alanine mapped to those in the buried core of the -hairpin (Fig. 5 B and C), providing a structural rationale for the observed mutational effects. Our model contained the stacked aromatic side chains and asparagine ladders proposed to be a general property of amyloid fibers (27), although these were not used as constraint features in the model building. Our model has a buried electrostatic interaction between R24 and E7 (Fig. 5C), similar to the buried electrostatic interactions proposed for the A protofilament (4). As expected, mutation of E7 or R24 seriously perturbed fiber formation (Table 1 and Fig. 2), because a stabilizing interaction would be lost and an unsatisfied charge introduced into the core of the hairpin. Interestingly, mutation of residues that form the flexible turn region in native CA150.WW2 (Fig. 6) significantly increased the pool of unfolded molecules and so accelerated fibrillation. Further experiments are required to understand the roles of T29 and W30 in fibrillation. Recurrent Structural Motifs in Protofilaments. The crystal structure
+
+conspired to show that the unfolded state of CA150.WW2 either
+Ferguson et al.
+
+of the cross- spine formed by heptapeptides from Sup35, a yeast
+PNAS October 31, 2006 vol. 103 no. 44 16251
+
+BIOPHYSICS
+
+folds productively or forms fibrils with a completely different set of internal interactions. There was a strong correlation between the fibrillation rate and increased occupancy of the unfolded state (Fig. 2B). Wild-type CA150.WW2 is only marginally stable, even under native conditions, and an appreciable population of unfolded protein always exists [ GD-N of wild-type CA150.WW2 is 2.4 kcal mol at 283 K (7, 8), so that 1.5% is unfolded]. There is always a pool of rapidly formed and relatively unstructured molecules that can form fibrils. This situation is similar to that for disease-causing amyloidogenic proteins, such as A peptides, amylin, -synuclein, and prion proteins, where fibrillation initiates from unstructured or natively unfolded conformations (reviewed in ref. 24). The rate-limiting step in the productive folding of CA150.WW2 involves formation of a hairpin between -strands 1 and 2 (residues 9­13 and 17­23, respectively) (8, 25), a mechanism found in other WW domain homologues (26). Further, the N-terminal residues (G1-S6) are dynamic in the native state (Fig. 6), make little or no long-range interactions (6), and contribute little to the folding and stability (8). By contrast, mutation of T3, V5, and E7, located at the N-terminal region, inhibited fibrillation. Solid-state NMR measurements also revealed long-range contacts from V5 to R24 and L26 and between T3 and S28, as well as between T13 and T18 (Fig. 4). None of these interactions are present, or indeed possible, in the correctly folded native structure. Partitioning of residues important to protein folding and aggregation also happens in human acylphosphatase (18).
+
+prion protein, contains intermolecular -sheets stabilized by a ``steric zipper'' formed by the interdigitations of side chains from peptides rotated by a two-fold screw axis (2). Each strand of the zipper is perpendicular to the fiber axis and hydrogen-bonded to those above and below, giving rise to parallel -sheets with the hydrogen-bonding pattern characteristic of amyloid fibers. The zipper is said to be homotypic where a given region of sequence binds to the same region in another molecule. Tycko and coworkers (4) used restraints from MAS NMR, fiber diffraction, and EM experiments to generate a structural model of the protofilament formed by the human A (1­ 40) peptide that contains multiple copies of an intramolecular -hairpin repeat unit (4). Each -hairpin has interdigitating hydrophobic side chains from residues 12­24 and 30­40 (i.e., a heterotypic interface), with one buried salt bridge between D23 and K28. As with the cross- spine of Sup35, each -strand of the A hairpin forms a continuous parallel -sheet. Riek and coworkers (3) refined the -hairpin model for the A (1­ 42) protofilament using additional (non-NMR) experimental constraints (3). Their protofilament model contains an intermolecular -hairpin repeat unit that has somewhat different side-chain packing from the earlier model (4). The structural model of the CA150.WW2 protofilament has similarities to those reported for aggregates of the A (1­40) (4) and A (1­42) peptides (3). All of the models contain many copies of extended -hairpins arranged into vertically stacked hydrogenbonded arrays, and there is evidence of buried electrostatic interactions in the ``core.'' Interestingly, the interactions found in the fibrillar -hairpins formed by CA150.WW2 and A peptides closely resemble those found in the -arches of -solenoid proteins (23). Amyloid fibers, therefore, appear to be further examples of structural interactions already exploited during the evolution of proteins (28). We found unequivocal evidence for a steric zipper (2) that is heterotypic and staples together the ends of the nonnative -hairpin by long-range interactions (Fig. 5C). Short fragments of CA150.WW2 (i.e., WT[1­13]), like those of Sup35 (2), also form exceptionally well ordered aggregates, but the repeating unit must be different from that of the full-length domain, because they cannot form the same sequence-distant interactions. Indeed, the fibrils formed from the WW short peptides have a radically different morphology. It seems likely that protofilaments may be stabilized by local and long-range interactions depending on sequence composition, length, and environmental conditions, but that heterotypic or homotypic zippers will be a recurring feature of these aggregates. Materials and Methods
+Reagents. All reagents were AnalR grade, except thioflavin T (65%
+
+Peptides were added to cuvettes preequilibrated to 37°C to give a final concentration of 100 M. Changes in light scattering at 350 and 800 nm were recorded every 90 sec for at least 5,000 min. Protein solutions were then were used in thiof lavin T assays, as described (9). Light-scattering kinetics were fitted to give an apparent half-time (t1/2) and elongation time constant ( ) for fibrillation (13). The lag time (tlag) was calculated from tlag t1/2 2 .
+Electron Microscopy. Negatively stained samples were made from
+
+the stock protein solutions at 0.1-mM concentration. A 4- l drop was applied to the surface of carbon-coated grids and after 2 min, the grid surface was flushed with successive drops of 2% (wt vol) aqueous uranyl acetate solution, blotted, and allowed to dry. Images of frozen samples (9) were acquired on Kodak SO163 and Teitz F415 (TVIPS, Gauting, Germany) 4k 4k CCD cameras on an FEI (Eindhoven, The Netherlands) G2 F20 field emission gun electron microscope at 200 keV. A 626 liquid nitrogen cold stage (Gatan, Pleasanton, CA) held the cryosamples in the microscope at 180°C. All micrographs were recorded under low-dose conditions at a microscope magnification of 50,000.
+Solution NMR. Backbone relaxation data were acquired for wildtype CA150.WW2 at 285 K in 20 mM potassium phosphate, pH 6.5 30 mM NaCl. The 15N 1H HSQC spectrum was assigned from published data (Biomagresbank entry 47146) and a 15N 1H 1H TOCSY spectrum. 15N R1, R2, and heteronuclear NOE relaxation data were acquired on a Bruker (Billerica, MA) DRX 500 by using standard pulse sequences (14). Model-free analysis (31) was performed in the program Tensor2 (32). The errors on relaxation rates and I I0 (heteronuclear NOE) were conservatively estimated to be 5% of the average values determined for the structured region of the protein. The isotropic rotational correlation time was estimated as 4.1 ns using R2 R1 values from residues with I I0 0.55 and R2 R1 within 1.5 standard deviations of the mean for the structured part of the molecule. The data were mostly fitted to the simplest models of internal motion [model 1 or 2 (32)]; the S2 values reflect trends clearly visible in the raw R1 and I I0 data.
+
+dye content), and were purchased from Sigma (St. Louis, MO). Isotopically labeled proteins were expressed in modified K-Mops minimal medium (29), with 0.1% (wt vol) [15N] ammonium chloride and 0.4% (wt vol) appropriately labeled carbon sources (CIL, Andover, MA). Peptides were synthesized by using standard fluorenylmethoxycarbonyl chemistry. Protein purity ( 95%) and mass were verified by analytical gel filtration, reverse-phase chromatography, and mass spectrometry. Protein concentrations were determined from molar extinction coefficients (30).
+Measurements of Fibrillation Kinetics. Changes in turbidity were
+
+15 mg of amyloid fibers formed by the Y19F mutant of CA150.WW2 that reproducibly formed homogeneous amyloid fibers with better spectral dispersion than the wild type. Solid-state MAS triple-resonance NMR spectra were acquired at 284 K with a spinning frequency of 10.5 kHz. A proton radiofrequency field of 80 kHz with the two-pulse phase modulation scheme (33) was used for decoupling in the direct and indirect dimensions. 13C-13C correlations were recorded at several mixing times by using PDSD (34), dipolar-assisted rotational resonance (35), and radiofrequency-driven recoupling (36) for mixing. For 13C-15N spectra, band-selective magnetization transfer from 15N to 13C was performed by using SPECIFIC-CP (37) or adiabaticpassage Hartmann­Hahn cross-polarization (38).
+Model Building. A model of a fibril was built comprising six
+
+Solid-State NMR. Samples contained
+
+measured with a Varian Cary 500 Scan Spectrometer (Varian, Cary, NC) (9). Lyophilized proteins were diluted in ice-cold 10 mM sodium phosphate, pH 7.0, with sodium azide 0.02% (v v) to inhibit bacterial growth and stored on ice between manipulations. Before use, each sample was fully dissolved by using two 10-s pulses in a sonicating water bath and filtered through a 0.22- m disposable filter. Experiments were performed by using disposable plastic cuvettes to minimize cross-seeding.
+16252 www.pnas.org cgi doi 10.1073 pnas.0607815103
+
+monomeric units. Hydrogen bonds were introduced between the units to connect the -strands A2-E12 in a parallel fashion, as well as the strands F19-S28. We used a repeat distance of 4.7 Å between units. The initial model was consistent with results from alanine scanning of fibrillation kinetics and MAS NMR data. Three different distance constraints classes were defined before the calculations (2.5­5.0, 2.5­6.5, and 2.5­7.5 Å), which were assigned to each class depending upon the mixing time at which a cross-peak first appeared. The H-bonds between the -strands, 27 long-range, and 10 sequential MAS NMR constraints were used in a simulated annealing run (30 cycles of heating for 2,000 fs up to 1,000 K, cooling in 10,000 fs down to 0 K) applying a full force-field AMBER 7.0. The lowest-energy conformation was embedded in water and subjected to a short molecular dynamics simulation for 1 ns to allow
+Ferguson et al.
+
+relaxation of the structure. The rms deviation of the backbone atoms for the A2-S28 region of the inner four monomers from the five lowest-energy structures was 1.23 Å. No distance constraint was violated.
+1. Jahn TR, Radford SE (2005) FEBS J 272:5962­5970. 2. Nelson R, Sawaya MR, Balbirnie M, Madsen AO, Riekel C, Grothe R, Eisenberg D (2005) Nature 435:773­778. 3. Luhrs T, Ritter C, Adrian M, Riek-Loher D, Bohrmann B, Doeli H, Schubert D, Riek R (2005) Proc Natl Acad Sci USA 102:17342­17347. 4. Petkova AT, Ishii Y, Balbach JJ, Antzutkin ON, Leapman RD, Delaglio F, Tycko R (2002) Proc Natl Acad Sci USA 99:16742­16747. 5. Holbert S, Denghien I, Kiechle T, Rosenblatt A, Wellington C, Hayden MR, Margolis RL, Ross CA, Dausset J, Ferrante RJ, et al. (2001) Proc Natl Acad Sci USA 98:1811­1816. 6. Macias MJ, Gervais V, Civera C, Oschkinat H (2000) Nat Struct Biol 7:375­379. 7. Ferguson N, Johnson CM, Macias M, Oschkinat H, Fersht AR (2001) Proc Natl Acad Sci USA 98:13002­13007. 8. Petrovich M, A.L., J., Ferguson N, Daggett V, Fersht ARF (2006) J Mol Biol. 360:865­881. 9. Ferguson N, Berriman J, Petrovich M, Sharpe TD, Finch JT, Fersht AR (2003) Proc Natl Acad Sci USA 100:9814­9819. 10. Holbert S, Dedeoglu A, Humbert S, Saudlou F, Ferrante RJ, Neri C (2003) Proc Natl Acad Sci USA 100:2712­2717. 11. Arango M, Holbert S, Zala D, Brouillet E, Pearson J, Regulier E, Thakur AK, Aebischer P, Wetzel R, Deglon N, Neri C (2006) J Neurosci 26:4649­4659. 12. Arango M, Holbert S, Zala D, Brouillet E, Regulier E, Thakur AK, Aebischer P, Wetzel R, Deglon N, Neri C (2005) J Neurol Neurosurg Psychiatry 76(Suppl 4). 13. Pedersen JS, Christensen G, Otzen DE (2004) J Mol Biol 341:575­588. 14. Kay LE, Torchia DA, Bax A (1989) Biochemistry 28:8972­8979. 15. Ventura S, Zurdo J, Narayanan S, Parreno M, Mangues R, Reif B, Chiti F, Giannoni E, Dobson CM, Aviles FX, Serrano L (2004) Proc Natl Acad Sci USA 101:7258­7263. 16. de la Paz ML, Goldie K, Zurdo J, Lacroix E, Dobson CM, Hoenger A, Serrano L (2002) Proc Natl Acad Sci USA 99:16052­16057.
+
+We thank Dr. M. D. Allen for assistance in model building. This work was funded by the Medical Research Council (A.R.F.) and by the Deutsche Forschungsgemeinschaft Researcher Group 475 (H.O.) H.T. was supported by a fellowship from Boehringer Ingelheim Fonds.
+17. Serpell LC, Berriman J, Jakes R, Goedert M, Crowther RA (2000) Proc Natl Acad Sci USA 97:4897­4902. 18. Chiti F, Taddei N, Baroni F, Capanni C, Stefani M, Ramponi G, Dobson CM (2002) Nat Struct Biol 9:137­143. 19. Sikorski P, Atkins EDT, Serpell LC (2003) Structure (London) 11:915­926. 20. Fandrich M, Dobson CM (2002) EMBO J 21:5682­5690. 21. Castellani F, van Rossum B, Diehl A, Schubert M, Rehbein K, Oschkinat H (2002) Nature 420:98­102. 22. Cornilescu G, Delaglio F, Bax (1999) J Biomol NMR 13:289­302. 23. Hennetin J, Jullian B, Steven AC, Kajava AV (2006) J Mol Biol 358:1094­1105. 24. Uversky VN, Fink AL (2004) Biochim Biophys Acta 1698:131­153. 25. Ferguson N, Pires JR, Toepert F, Johnson CM, Pan YP, Daggett V, Oschkinat H, Fersht AR (2001) Proc Natl Acad Sci USA 98:13008­13013. 26. Jager M, Nguyen H, Crane JC, Kelly JW, Gruebele M (2001) J Mol Biol 311:373­393. 27. Wetzel R (2002) Structure (London) 10:1031­1036. 28. Kobe B, Kajava AV (2000) Trends Biochem Sci 25:509­515. 29. Ferguson N, Sharpe TD, Schartau PJ, Sato S, Allen MD, Johnson CM, Rutherford TJ, Fersht AR (2005) J Mol Biol 353:427­446. 30. Gill SC, von Hippell PH (1989) Anal Biochem 182:319­326. 31. Lipari G, Szabo AJ (1982) J Am Chem Soc 104:4546­4558. 32. Dosset P, Hus JC, Blackledge M, Marion D (2000) J Biomol NMR 16:23­28. 33. Bennett AE, Rienstra CM, Auger M, Lakshami KV, Griffin RG (1995) J Chem Phys 103:6951­6958. 34. Szeverenyi NM, Sullivan MJ, Maciel GE (1982) J Magn Reson 47:462­475. 35. Takegoshi K, Nakamura S, Terao T (2001) Chem Phys Lett 344:631­637. 36. Bennett AE, Ok JH, Griffin RG, Vega S (1992) J Chem Phys 96:8624­8627. 37. Baldus M, Petkova AT, Herzfeld J, Griffin RG (1998) Mol Phys 95:1197­1207. 38. Baldus M, Geurts DG, Hediger S, Meier BH (1996) J Magn Reson 118: 140 ­144.
+
+Ferguson et al.
+
+PNAS
+
+October 31, 2006
+
+vol. 103
+
+no. 44
+
+16253
+
+BIOPHYSICS
+
+Corrections
+
+PHYSICS. For the article ``Branch-cut singularities in thermodynamics of Fermi liquid systems,'' by Arkady Shekhter and Alexander M. Finkel'stein, which appeared in issue 43, October 24, 2006, of Proc Natl Acad Sci USA (103:15765­15769; first
+
+published October 12, 2006; 10.1073 pnas.0607200103), the authors note that, due to a printer's error, Fig. 2 appeared incorrectly. The corrected figure and its legend appear below.
+
+electron-hole channel
+
+1
+
+3 4
+
++
+
+2kF- channel
+1
+
+ C
+
++
+
+ C
+
+ C
+
+2 4
+
+ C
+
+2 4
+
++
+
+Cooper channel
+
+1 3
+ C
+
+1 3
+
++
+4 3 2
+
+2
+
+Fig. 2. The diagrams at the top present the ring diagrams in the electron-hole channel. The diagram on the left shows the two-section term that is controlled kF. The Green's functions are by the backward scattering; the momenta in the four Green's functions are along the same direction: 1,2 kF and 3,4 numbered to keep track of them after the rearrangement in different channels. The diagram on the right at the bottom shows how the two-section term can be read in the 2kF channel. Here, the shaded areas represent the interaction amplitudes in the 2kF channel. The lines inside the shaded areas are drawn to clarify the spin structure and to indicate the source of the relevant renormalizations. The diagrams on the left at the bottom show the result of twisting of the two-section term into the Cooper channel. In the series of Cooper ladder diagrams obtained in this way, only two sections (marked by numbered Green's functions) are responsible for the linear in T term in the spin susceptibility. The role of all other sections is to renormalize logarithmically the e­ e interaction amplitudes.
+www.pnas.org cgi doi 10.1073 pnas.0609409103
+
+18874 ­18875
+
+PNAS
+
+December 5, 2006
+
+vol. 103
+
+no. 49
+
+www.pnas.org
+
+PLANT BIOLOGY. For the article ``Cryptochrome-1-dependent ex-
+
+BIOPHYSICS. For the article ``General structural motifs of amyloid
+
+ecution of programmed cell death induced by singlet oxygen in Arabidopsis thaliana,'' by Antoine Danon, Nuria Sanchez Coll, ´ ´ and Klaus Apel, which appeared in issue 45, November 7, 2006, of Proc Natl Acad Sci USA (103:17036­17041; first published October 30, 2006; 10.1073 pnas.0608139103), due to a printer's error Fig. 1 was printed in black and white. The correct figure and its legend appear below.
+
+protofilaments,'' by Neil Ferguson, Johanna Becker, Henning Tidow, Sandra Tremmel, Timothy D. Sharpe, Gerd Krause, Jeremy Flinders, Miriana Petrovich, John Berriman, Hartmut Oschkinat, and Alan R. Fersht, which appeared in issue 44, October 31, 2006, of Proc Natl Acad Sci USA (103:16248­16253; first published October 23, 2006; 10.1073 pnas.0607815103), the authors note that the atomic coordinates discussed in this paper have been deposited in the Protein Data Bank, www.pdb.org (PDB ID code 2NNT).
+www.pnas.org cgi doi 10.1073 pnas.0609678103
+
+Fig. 1. Blue-light dependency of the cell death response induced in seedlings of the flu mutant. Seedlings of flu were kept under continuous light for 5 days, followed by 15 h of darkness and exposure to white light for 1 h at 100 mol m­2 s­1 to allow singlet oxygen production. The seedlings were subsequently placed for 23 h in white light at 100 mol m­2 s­1 (A), in darkness (B), or in red (C) or blue (D) light, both at 10 mol m­2 s­1. (E and F) Control seedlings that were kept for 24 h under red (E) or blue (F) light at 10 mol m­2 s­1 without the 1-h white-light treatment.
+www.pnas.org cgi doi 10.1073 pnas.0609704103
+
+PNAS
+
+December 5, 2006
+
+vol. 103
+
+no. 49
+
+18875
+
+CORRECTIONS
+
+

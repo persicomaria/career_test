@@ -1,0 +1,237 @@
+Structural basis for the changed substrate specificity of Drosophila melanogaster deoxyribonucleoside kinase mutant N64D
+Martin Welin1, Tine Skovgaard2, Wolfgang Knecht3,*, Chunying Zhu2, Dvora Berenstein2,  Birgitte Munch-Petersen2, Jure Piskur3, and Hans Eklund1
+1 Department of Molecular Biology, Swedish University of Agricultural Sciences, Biomedical Center, Uppsala, Sweden 2 Department of Life Sciences and Chemistry, Roskilde University, Denmark 3 BioCentrum-DTU, Technical University of Denmark, Lyngby, Denmark
+
+Keywords crystal structure; feedback inhibition; gene therapy; pro-drug activation Correspondence H. Eklund, Department of Molecular Biology, Swedish University of Agricultural Sciences, Box 590, Biomedical Center, S-751 24 Uppsala, Sweden Fax: +46 18 53 69 71 Tel: +46 18 475 4559 E-mail: hasse@xray.bmc.uu.se *Present address AstraZeneca R & D, Molndal, Sweden ¨ Present address Cell and Organism Biology, Lund University, Sweden (Received 12 April 2005, revised 30 May 2005, accepted 3 June 2005) doi:10.1111/j.1742-4658.2005.04803.x
+
+The Drosophila melanogaster deoxyribonucleoside kinase (Dm-dNK) double mutant N45D / N64D was identified during a previous directed evolution study. This mutant enzyme had a decreased activity towards the natural substrates and decreased feedback inhibition with dTTP, whereas the activity with 3¢-modified nucleoside analogs like 3¢-azidothymidine (AZT) was nearly unchanged. Here, we identify the mutation N64D as being responsible for these changes. Furthermore, we crystallized the mutant enzyme in the presence of one of its substrates, thymidine, and the feedback inhibitor, dTTP. The introduction of the charged Asp residue appears to destabilize the LID region (residues 167­176) of the enzyme by electrostatic repulsion and no hydrogen bond to the 3¢-OH is made in the substrate complex by Glu172 of the LID region. This provides a binding space for more bulky 3¢-substituents like the azido group in AZT but influences negatively the interactions between Dm-dNK, substrates and feedback inhibitors based on deoxyribose. The detailed picture of the structure­function relationship provides an improved background for future development of novel mutant suicide genes for Dm-dNK-mediated gene therapy.
+
+Deoxyribonucleoside kinases (dNKs; EC 2.7.1.145) catalyze the initial, and usually rate-determining step in the synthesis of the four DNA precursors (dNTPs) through the salvage pathway. These enzymes transfer the c-phosphoryl group from ATP to deoxyribonucleosides (dN) and form the corresponding dNMPs [1]. In the cell, dNMPs are quickly phosphorylated to dNDPs and dNTPs by ubiquitous mono- and diphosphate deoxyribonucleoside kinases.
+
+Deoxyribonucleoside kinases are also responsible for activation (initial phosphorylation) of nontoxic nucleoside analogs such as azidothymidine (AZT) and acyclovir (ACV) used in the treatment of cancer and viral diseases. After further phosphorylation by other cellular kinases the triphosphorylated nucleoside analogs are incorporated into DNA and cause chain termination and cell death [2]. Alternatively, they inhibit the DNA synthesizing machinery or initiate apoptosis [3].
+
+Abbreviations ACV, acyclovir; AZT, 3¢-azidothymidine; dNK, deoxyribonucleoside kinase; Dm-dNK, Drosophila melanogaster deoxyribonucleoside kinase; dCK, deoxycytidine kinase; dGK, deoxyguanosine kinase; dN, deoxyribonucleosides; dT, deoxythymidine; dU, deoxyuridine; dC, deoxycytidine; dA, deoxyadenosine; dG, deoxyguanosine; hTK1, human thymidine kinase 1; HSV1-TK, Herpes simplex virus 1 thymidine kinase; LID region, residues 167­176; MuD, double mutant N45D / N64D; TK, thymidine kinase.
+
+FEBS Journal 272 (2005) 3733­3742 ª 2005 FEBS
+
+3733
+
+Drosophila deoxyribonucleoside kinase mutant N64D
+
+M. Welin et al.
+
+Thus, the deoxyribonucleoside kinases are of medical interest both in chemotherapy of cancer and viral diseases and in suicide gene therapy of tumors with nucleoside analogs [4,5]. Gene therapy based on deoxyribonucleoside kinases is a method of therapeutic intervention to treat various cancers and also has applications in transplantation technology. The basis of this therapy is that a heterologous kinase gene, such as viral Herpes simplex virus 1 thymidine kinase (HSV1-TK) or insect dNK, is introduced into target cells (for example, neoplastic cells), where the gene is expressed. The introduced kinase can then specifically multiply the activation of pro-drugs, like nucleoside analogs, and lead to cell death [12,21­23]. Deoxyribonucleoside kinases from different species vary in their number, substrate specificity, intracellular localization and regulation of gene expression. Mammalian cells have four enzymes with overlapping specificities: thymidine kinase (EC 2.7.1.21) 1 (TK1) and 2 (TK2), deoxycytidine kinase (dCK) and deoxyguanosine kinase (dGK). TK1 has the most restricted substrate specificity and phosphorylates only thymidine (dT) and deoxyuridine (dU), whereas TK2 also phosphorylates deoxycytidine (dC). dCK phosphorylates dC, deoxyadenosine (dA) and deoxyguanosine (dG), while dGK phosphorylates dG and dA (reviewed in [1,5]). Several bacteria and viruses carry their own deoxyribonucleoside kinases [10]. The Herpes simplex virus thymidine kinase is known for its broad substrate specificity because besides dT and dU it also phosphorylates dC, several nucleoside analogs, and additionally it can phosphorylate thymidine monophosphates [11]. In the insect Drosophila melanogaster, only one multisubstrate deoxyribonucleoside kinase (Dm-dNK) is present with the unique ability to phosphorylate all four natural deoxyribonucleosides and several analogs with a high turnover rate [12­14]. Dm-dNK is therefore a particularly attractive candidate for the medical gene therapy applications mentioned above, as well as for industrial synthesis of d(d)NTPs and their analogs [6,15]. To further improve the ability of Dm-dNK to phosphorylate nucleoside analogs, Knecht et al. [15] mutagenized the open reading frame for Dm-dNK by high-frequency random mutagenesis. The mutagenized PCR fragments were expressed in the thymidine kinase deficient Escherichia coli strain KY895 and clones were selected for sensitivity to nucleoside analogs. Several Dm-dNK mutants increased the sensitivity of KY895 to at least one analog, and a double mutant N45D / N64D (MuD) decreased the LD100 of the transformed strain 300-fold for AZT and 11-fold for ddC when compared to wildtype Dm-dNK. The purified
+3734
+
+recombinant MuD had increased Km values and decreased kcat values for the four natural substrates but practically unchanged Km and kcat values for AZT. In addition, the feedback inhibition with dTTP was markedly decreased [15]. Further insight into the structure­function relationship was provided when the 3D structures of various kinases were solved. The crystallographic structures of Dm-dNK and human dGK were reported in 2001 [16], followed in 2003 by the crystal structure of human dCK [17]. All these kinases have very similar structures, are distantly related to the HSV1-TK structure [18,19] and profoundly different from the very recent reported crystal structure of human TK1 [20]. The crystal structures provided a rough explanation for the Dm-dNK substrate specificity and the feedback inhibition [16,21]. The feedback inhibitor, dTTP, was found to bind in the deoxyribonucleoside substrate site as well as parts of the phosphate donor site [21]. Of the two mutations in the double mutant MuD, N45D is in a nonconserved region whereas N64D is in a highly conserved region that is shared among Dm-dNK, TK2, dCK and dGK. Asn64 is located ° about 12 A from the active site (Fig. 1). In this work we have expressed, purified and characterized Dm-dNK mutants carrying either N45D or N64D. We present data that clearly points at N64D as the residue responsible for the observed changes in the double mutant MuD. We also present the crystal structures of
+
+Fig. 1. Location of mutated residues. A monomer of Dm-dNK showing the location of Asn45 and Asp64. The feedback inhibitor dTTP is located in the active site. The P-loop and LID are labeled.
+
+FEBS Journal 272 (2005) 3733­3742 ª 2005 FEBS
+
+M. Welin et al.
+
+Drosophila deoxyribonucleoside kinase mutant N64D
+
+N64D in complex with its substrate dT and its inhibitor dTTP. Furthermore, our studies explain the catalytic efficiency and sensitivity of MuD over the wildtype Dm-dNK in terms of preference for the nucleoside analog AZT, and the decrease in feedback inhibition.
+
+Results and Discussion
+In vivo characterization of mutants The Dm-dNK double mutant, N45D / N64D (MuD), was generated by random in vitro mutagenesis [15]. When transformed into the thymidine kinase negative E. coli strain KY895, the sensitivity of the cells towards four nucleoside analogs with natural nucleoside bases but modifications at the 3¢-hydroxyl group increased. To examine the significance of the two amino acid exchanges for this property, we introduced either the N45D or the N64D mutation into Dm-dNK (lacking the 20 C-terminal residues). The resulting mutants were first tested in two plate assays, either for the presence of the TK activity or their ability to sensitize KY895 towards AZT (Table 1). To test the effectiveness of dT conversion, the dT concentration in the TK selection plates was varied. As can be concluded from Table 1, Dm-dNK and mutant N45D could use dT more effectively than the double mutant N45D / N64D, followed by mutant N64D which needed the highest dT concentration to ensure the survival of the transformed bacterial strain. In contrast, the double mutant N45D / N64D and the mutant N64D sensitized KY895 to the same degree to AZT (Table 1). Compared to Dm-dNK the decrease in LD100 for AZT was 300-fold for the double mutant N45D / N64D and mutant N64D, but only threefold
+Table 1. Growth on TK selection plates: various plasmids were transformed into KY895 and then the strains were examined for growth, +, in the presence of different concentrations of thymidine in the medium. In the last column, LD100 values are given (in lM) for the growth of KY895 transformed with various plasmids, on the medium containing AZT. dT (lgÆmL)1) Plasmid pGEX-2T pGEX-2T-Dm-dNK pGEX-2T-double mutant N45D / N64D pGEX-2T-mutant N45D pGEX-2T-mutant N64D pGEX-2T-HSV1-TK pGEX-2T-hTK1 0.05 ­ + ­ + ­ 1 ­ + + + ­ 2 ­ + + + + 10 ­ + + + + 20 ­ + + + + 50 ­ + + + + AZT (lM) 100 >100 100 0.3 32 0.3 1 1
+
+for mutant N45D. Because in human cells AZT is mainly a substrate for TK1 (human TK1; hTK1) we also included this enzyme in our comparison, together with TK from human Herpes simplex 1 virus (HSV1TK), which is currently the most widely used deoxyribonucleoside kinase in suicide-enzyme pro-drug therapy for cancer. As can be seen from Table 1, both double mutant N45D / N64D and mutant N64D were three times more efficient in killing KY895 with AZT than hTK1 or HSV1-TK. In vitro characterization The relationship between velocity and substrate concentration was determined for the four natural deoxyribonucleosides and AZT (Table 2). This confirmed the results from Table 1 that, according to the kcat / K0.5 values, wildtype Dm-dNK and mutant N45D phosphorylate dT more efficiently than the double mutant N45D / N64D, followed by mutant N64D. In general, all mutants displayed a larger decrease in catalytic efficiency (kcat / K0.5) with the natural purine deoxyribonucleosides than the pyrimidine deoxyribonucleosides, when compared to wildtype. Mutant N64D showed the largest decrease in catalytic efficiency, around 100­ 500-fold more than mutant N45D. The decrease in catalytic efficiency of the double mutant N45D / N64D was between N45D and N64D suggesting that the combined effect of the two mutations is not synergistic. In fact, comparing the phosphorylation of the natural substrates of the double mutant with the single mutant, it seems that the mutation N45D in the double mutant counteracts the negative effect(s) of the N64D mutation. For phosphorylation of the thymidine nucleoside analog AZT the picture is different; while the double mutation N45D / N64D has increased the efficiency for AZT, mutant N45D showed a slightly larger decrease in efficiency than mutant N64D. If a simultaneous presence of similar concentrations of all four nucleoside substrates is assumed in the surroundings of the wildtype and the mutant enzyme, the difference in efficiencies between the two enzymes should be able to be predicted using the equation, [kcat / K0.5 (nucleoside analog)] / [kcat / K0.5 (dA) + kcat / K0.5 (dC) + kcat / K0.5 (dG) + kcat / K0.5 (dT) + kcat / K0.5 (nucleoside analog)] [22]. For the mutants N45D and N64D and the double mutant N45D / N64D this equation predicts an increase in catalytic efficiency for the phosphorylation of AZT by 2.4-, 286- and 324fold, respectively. These values correlate quite well with the observed changes in LD100 for transformed KY895 in Table 1. This suggests that the more important mutation for the observed and desired phenotype,
+3735
+
+­ + + + +
+
+FEBS Journal 272 (2005) 3733­3742 ª 2005 FEBS
+
+Drosophila deoxyribonucleoside kinase mutant N64D
+
+M. Welin et al.
+
+Table 2. Kinetic parameters of wildtype and mutant Dm-dNKs for various native nucleoside subtrates and AZT. The kcat values were calculated using the equation Vmax ¼ kcat · [E] where [E] ¼ total enzyme concentration and is based on one active site / monomer. Overall, in independent kinetic experiments, the coefficient of variation (standard deviation / mean) is less than 12% for Vmax values and less than 15% for Km values. Decrease in kcat / K0.5 of the mutants compared to kcat / K0.5 of Dm-dNK (-fold)
+
+Dm-dNK dT N45D N64D N45D / N64Da Wildtypeb dC N45D N64D N45D / N64Da Wildtypeb dA N45D N64D N45D / N64Da Wildtypeb dG N45D N64D N45D / N64Da Wildtypeb AZT N45D N64D N45D / N64Da Wildtypea
+a
+
+K0.5 (lM)
+
+Vmax (U / mg)
+
+h
+
+kcat (s)1)
+
+kcat / K0.5 (M)1 s)1)
+
+0.9 23.2 24.2 1.2 0.9 118 96.4 2.3 119 3820 3166 225 412 20350 2004 665 11.7 11.1 7.2 8.3
+b
+
+5.3 1.7 2.5 29.5 3.4 3.4 8.3 34.2 3.8 0.82 1.7 42.7 2.7 0.24 0.156 31.3 0.06 0.074 0.107 0.073
+
+1 0.8 1 1 1 0.8 1 1 1 0.9 1 1 1 0.5 1 1 1 0.8 1 1
+
+2.6 0.82 1.22 14.2 1.6 1.6 4.04 16.5 1.83 0.4 0.828 20.6 1.3 0.12 0.076 15.1 0.03 0.037 0.052 0.036
+
+2.9 · 106 35344 50000 1.2 · 107 1.8 · 106 13559 42000 7.2 · 106 15378 105 260 92000 3155 5.9 38 23000 2564 3333 7200 4300
+
+4.1 473 240 1 4 531 171 1 6 876 354 1 7.3 3898 605 1 1.7 1.3 0.6 1
+
+Data from [15].
+
+Data from [24].
+
+the death of KY895 at low AZT concentrations, is in fact N64D. dTTP feedback inhibition dTTP is an efficient inhibitor of Dm-dNK with an IC50 value of 7 lm at 10 lm dT and 2.5 mm ATP, whereas the double mutant N45D / N64D seems to have lost the feedback inhibition property as reflected by an IC50 > 1000 lm at 2.5 mm ATP [15]. When the two mutants, N45D and N64D were examined for their dTTP inhibition, the feedback inhibition of N45D is nearly unchanged (IC50 ¼ 11 lm) whereas N64D behaved like the double mutant by having an IC50 > 1000 lm. The pattern of inhibition for the N64D mutant was determined by varying thymidine at fixed dTTP concentrations, and was found to be predominantly competitive (Kic ¼ 829 lm, Kiu ¼ 3520 lm) in contrast to a predominantly uncompetitive pattern observed with the Dm-dNK wildtype (Kic ¼ 16.3 lm, Kiu ¼ 4.7 lm) [15]. With ATP varied at fixed
+3736
+
+dTTP concentrations, the kinetics was clearly competitive with a Kic value of 1 lm. For comparison, the Kic value of dTTP with varied ATP for Dm-dNK wildtype is about 200-fold lower (5.3 nm [21]). The kinetic studies, which demonstrated that mutation of residue 64 resulted in an enzyme with changed substrate specificity and feedback inhibition, initiated crystallographic studies of the mutant enzyme in complex with substrate and feedback inhibitor to reveal the structural basis for these phenomena. Crystal structure of the N64D­dTTP complex The Dm-dNK­dTTP complex crystallizes in a monoclinic form that has two dimers in the asymmetric unit. dTTP binds as in the wildtype, as a feedback inhibitor occupying the deoxyribonucleoside substrate site and a part of the phosphate donor site [21]. The phosphates of the inhibitor are tightly bound by residues of the P-loop and LID region (residues 167­176). A Mg ion is present in one out of the four different subunits
+FEBS Journal 272 (2005) 3733­3742 ª 2005 FEBS
+
+M. Welin et al.
+
+Drosophila deoxyribonucleoside kinase mutant N64D
+
+according to the difference density. The interactions with dTTP are very similar to the interactions in the wildtype Dm-dNK­dTTP complex, and the conformational changes of Glu52 are the same [21]. In wildtype Dm-dNK, Asn64 forms a hydrogen bond to Glu171 as well as to the main chain amino group of Leu66. Glu171 is part of the LID region within a loop that also contains Glu172 that is hydrogen bonded to the 3¢-hydroxyl group of the deoxyribose ring of dTTP. The main chain of residues 65­66 are hydrogen bonded to Tyr70, which forms a second hydrogen bond with the 3¢-hydroxyl group of the substrate deoxyribose ring. In alignments of eukaryotic deoxyribonucleoside kinases, Asn64 as well as Leu66 and Glu171 are highly conserved, even among deoxyribonucleoside kinases of different substrate specificities. Surprisingly, in the N64D mutant complex with dTTP, Asp64 forms a hydrogen bond to Glu171 (Fig. 2A) which implies that one of them is protonated in spite of a pH of 6.5 in the crystallization solution. Because Glu171 is also stabilized by a hydrogen bond from Arg58, it is probable that Asp64 is protonated. Crystal structure of the N64D­dT complex The N64D­dT structure contained dT and a sulphate ion bound in each of the eight different subunits in the asymmetric unit (Fig. 2B). There is well defined density for Asp64 but very poor density for Glu171 as well as for Glu172 that binds to the 3¢-OH in the deoxyribose in the dTTP molecule. The LID region is obviously very flexible (Fig. 3A) and there is no
+A B
+
+hydrogen bond between Asp64 and Glu171 as in the N64D­dTTP complex. In contrast to the dTTP complex, Glu172 in the dT complex does not make a hydrogen bond with the 3¢-OH group of thymidine. In the wildtype Dm-dNK­dT complex, Glu172 is bound to the 3¢-OH group of the substrate while there is no density for that interaction in the mutant structure (Fig. 2B). Structural basis for altered properties of the N64D mutant The LID region in wildtype Dm-dNK is a flexible part of the structure that can attain slightly different positions in different complexes [16,21]. With the wildtype enzyme, in most substrate complexes and the complexes with the feedback inhibitor dTTP, the LID is closed in over the active site. In substrate complexes, LID arginines bind to a sulfate ion in the P-loop and Glu172 to the 3¢-OH of the substrate. In the dTTP complex, the phosphates are bound by the LID arginines and the 3¢-OH is bound to Glu172. In these cases, Glu171 in the LID region forms a hydrogen bond to Asn64. By substitution of Asn64 to Asp in the mutant enzyme, the negative charge of Asp destabilizes the normal interactions with Glu171. In the dT complex, the negative charge of Asp64 repels Glu171 and the LID region becomes more flexible and the part around Glu171 and 172 is not visible in the electron density maps (Fig. 3A). The absence of this part of the LID region removes one of the hydrogen bonding inter-
+
+Fig. 2. Electron density maps. Final electron density maps for (A) the Dm-dNK N64D­dTTP complex containing the feedback inhibitor dTTP, residues Asp64, Glu171 and Glu172, and (B) the Dm-dNK N64D­dT structure containing the same residues, the substrate dT and a sulfate ion. The electron density maps for the protein parts (in blue) are 2Fo-Fc maps contoured at 1r. The electron density for the ligands (in green) are Fo-Fc maps contoured at 3r before refinement. Hydrogen bonds in (A) shown as dotted lines.
+
+FEBS Journal 272 (2005) 3733­3742 ª 2005 FEBS
+
+3737
+
+Drosophila deoxyribonucleoside kinase mutant N64D
+
+M. Welin et al.
+
+Fig. 3. The LID region in the two complexes. Stereo view of the final electron density for the LID region in (A) the DmdNK N64D­dTTP complex and (B) the Dm-dNK N64D­dT complex (2Fo-Fc maps contoured at 1r).
+
+actions with the 3¢-OH of the deoxyribose of the substrate. The absence of this hydrogen bond and a flexible LID make the substrate binding pocket larger and provide space for the bulky 3¢-azide group. AZT can be modeled based on the N64D­dT complex by positioning of AZT instead of dT in its binding site (Fig. 4). In the complex of N64D and the feedback inhibitor dTTP, the LID region closes down on the inhibitor in the same way as in the wildtype complex in spite of the substitution of Asn to Asp. Because of all contacts between the phosphate groups, the LID region is held in close interaction with dTTP. Consequently, the LID region in the N64D­dTTP complex has well-defined electron density (Fig. 3B). Glu171 is thus forced into contact with Asp64 in spite of the unfavorable electrostatic situation. This is overcome by a hydrogen bonded Asp­Glu interaction that
+3738
+
+occurs similar to the Asn­Glu interaction in the wildtype enzyme. The energetic cost to bring the two carboxylates of the mutant, Asp64 and Glu171, together explains that dTTP inhibits the mutant N64D with a considerably lower efficiency than in the wildtype enzyme. The IC50 value for dT phosphorylation is increased more than 100-fold. The structure of the Dm-dNK N64D mutant presented above and the understanding of the feedback regulation and substrate specificity in Dm-dNK will now help to finalize our understanding of the structure­function relationship and also have a wide impact on the following medical applications: the design of novel specific pro-drug and mutant combinations for gene therapy, the development of speciesspecific antiviral and antibacterial nucleoside analog based drugs, and promoting development of novel AZT-like pro-drugs.
+FEBS Journal 272 (2005) 3733­3742 ª 2005 FEBS
+
+M. Welin et al.
+
+Drosophila deoxyribonucleoside kinase mutant N64D
+
+Fig. 4. Modeling of AZT. Interactions with the substrate dT, in red, and with AZT modeled in the substrate binding site, in blue. The interactions with the substrate are the same in the wildtype and the N64D mutant except for the lack of interactions between Glu172 and 3¢-OH giving space for the azido-group of AZT. The position of Glu172 in the wildtype structure is given in yellow.
+
+were constructed by site directed mutagenesis on the plasmid pGEX-2T- Dm-dNK with or without truncation for the C-terminal 20 amino acids [24]. The N45D mutation was created with the following primers: 45D-fw (5¢-CGAG AAGTACAAGGACGACATTTGCCTGC-3¢) and 45D-rv (5¢-GCAGGCAAATGTCGTCCTTGTACTTCTCG-3¢), where the changed nucleotide is in bold and underlined. The N64D mutation was created with the primers 64D-fw (5¢-CGTCAACGGGGTAGATCTGCTGGAGC-3¢) and 64D-rv (5¢-GCTCCAGCAGATCTACCCCGTTGACG-3¢). An expression plasmid for HSV1-TK was constructed as follows: The thymidine kinase from HSV1 was amplified using the primers HSV-for (5¢-CGCGGATCCATGGCT TCGTACCCCGGCCATC-3¢) and HSV-rev (5¢-CCGGAA TTCTTAGTTAGCCTCCCCCATCTCCCG-3¢) and using the plasmid pCMV-pacTK [26] as template. The PCR fragment was subsequently cut by EcoRI / BamHI and ligated into pGEX-2T vector that was also cut by EcoRI / BamHI. The resulting plasmid was named pGEX-2T-HSV1-TK (P 632).
+
+Test for TK activity on selection plates
+The thymidine kinase deficient E. coli strain KY895 [F­, tdk-1, ilv] [27], was transformed with various expression plasmids. Overnight cultures of these transformants were diluted 200-fold in 10% (w / v) glycerol and 2 lL drops of the dilutions were spotted on TK selection plates [9] that contained different dT concentrations. Only enzymes complementing the TK negative E. coli strain KY895 gave rise to colonies on this selection medium. Growth was inspected visually after 24 h at 37 °C.
+
+Experimental procedures
+Materials
+Unlabelled nucleosides and nucleotides were from Sigma (St Louis, MO, USA) or ICN Biochemicals (Aurora, OH). 3 H-labeled thymidine [Me-3H]dT (925 GBqÆmmol)1) and deoxycytidine [6-3H]dC (740­925 GBqÆmmol)1) were obtained from Amersham Corp., Piscataway, NJ, USA). 3 H-labeled deoxyadenosine [2,8-3H]dA (1106 GBq), deoxyguanosine [2,8-3H]dG (226 GBqÆmmol)1) and 3¢-azido-2¢,3¢dideoxythymidine [Me-3H]AZT (740 GBqÆmmol)1) were from Moravek Biochemicals Inc. (Brea, CA, USA). When present in the radiolabeled deoxynucleosides, ethanol was evaporated before use.
+
+Determination of LD100
+Overnight cultures of single colonies were diluted 200-fold in 10% (w / v) glycerol and 2 lL of these dilutions were spotted on M9 minimal medium plates [28] supplemented with 0.2% (w / v) glucose, 40 lgÆmL)1 isoleucin, 40 lgÆmL)1 valin, 100 lgÆmL)1 ampicillin and with or without AZT. Logarithmic dilutions of the nucleoside analog were used to determine the lethal dose (LD100) of the nucleoside analog, at which no growth of bacteria could be seen. Growth of colonies was visually inspected after 24 h at 37 °C.
+
+Sequencing
+Sequencing by the Sanger dideoxynucleotide method was performed manually, using the Thermo Sequenase radiolabeled terminator cycle sequencing kit and 33P-labeled ddNTPs (Amersham Corp.).
+
+Expression and purification of recombinant enzymes
+Recombinant proteins were expressed and purified as described previously [24].
+
+Site directed mutagenesis and expression plasmids
+Expression plasmid pGEX-2T-Dm-dNK is described in [24]. Expression plasmid pGEX-2T-MuD (pGEX-2T-double mutant N45D / N64D) is described in [15]. The expression vector for human TK1 (pGEX-2T-hTK1) is described elsewhere [25]. The pGEX-2T-mutant N45D and pGEX-2Tmutant N64D were constructed as follows: both mutants
+
+Enzyme assay
+Deoxyribonucleoside kinase activities were determined by initial velocity measurements based on four time samples
+
+FEBS Journal 272 (2005) 3733­3742 ª 2005 FEBS
+
+3739
+
+Drosophila deoxyribonucleoside kinase mutant N64D
+
+M. Welin et al.
+
+by the DE-81 filter paper assay using tritium-labeled nucleoside substrates. The assay was performed as described [24]. The protein concentration was determined according to Bradford with BSA as standard protein [29]. SDS / PAGE was carried out according to the procedure of Laemmli [30] and proteins were visualized by Coomassie staining.
+
+Table 3. Data collection and refinement statistics for the N64D-dT and N64D-dTTP complexes. N64D-dT Beamline ° Wavelength (A) Temperature (K) ° Resolution (A) Reflections Observed Unique Completeness Rmeas(%) I / sigmaI Space group Cell Dimensions a b c beta Content of the asymmetric unit Refinement program R factor (%) Rfree (%) Root mean square deviation ° Bond length (A) Bond angles (°) ° Mean B-value (A2) ID14 / EH4, ESRF 0.9393 100 3.1 (3.27­3.10) 144933 39562 99.9 12.0 (45.0) 12.5 (3.4) P21 69.71 70.34 224.53 90.69 4 dimers Refmac5 27.0 28.8 0.009 1.13 37.4 N64D-dTTP ID14 / EH4, ESRF 1.0 100 2.2 (2.32­2.20) 189093 53387 99.9 8.3 (38,9) 14.5 (4.1) P21 67.04 119.27 68.39 92.59 2 dimers Refmac5 21.3 23.7 0.011 1.27 36.7
+
+Analysis of kinetic data
+Kinetic data were evaluated by nonlinear regression analysis using the Michaelis­Menten equation v ¼ Vmax · [S] / (Km + [S]) or the Hill equation v ¼ Vmax · [S]h / (K0.5h + [S]h) as described in [31]. Km is the Michaelis constant, K0.5 defines the value of the substrate concentration [S] where v ¼ 0.5 Vmax and h is the Hill coefficient [32,33]. If h ¼ 1, there is no cooperativity. The concentration of the feedback inhibitor dTTP necessary for 50% inhibition (IC50) was determined by varying dTTP at 10 lm dT and 2.5 mm ATP and plotting log(v0 ) vI) / vI against log[I] where v0 and vI are the velocities without and with inhibitor, respectively. IC50 was determined as the intercept with the log[I] axis, where (v0 ) vI) / vI ¼ 1. The pattern of inhibition was elucidated by varying dT at four fixed concentrations of dTTP and 2.5 mm ATP, and analyzing the data by the Biosoft (Cambridge, UK) program enzfitter for Windows.
+
+Crystallization
+The N64D mutant used for crystallization was truncated for the 20 C-terminal amino acids. The C-terminal truncated Dm-dNK kinases have similar enzymatic properties as the untruncated kinases but are more stable [24]. Crystals of N64D in complex with dT and dTTP were grown by counter diffusion [34] and vapor diffusion, respectively. The crystallization solution for the N64D mutant dT complex was 0.15 m Mes pH 6.5, 0.3 m lithium sulphate and 27.5% (w / v) poly(ethylene) glycol monomethyl ether 2000. The enzyme solution (20 mgÆmL)1 including 10 mm dT) and the crystallization solution was equally mixed in a capillary and equilibrated for two weeks. For the N64D complex with dTTP the crystallization solution was 0.1 m Mes pH 6.5, 0.16 m lithium sulphate and 25% (v / v) poly(ethylene) glycol monomethyl ether 2000. The protein solution (10 mgÆmL)1) including 5 mm dTTP and the crystallization solution were mixed equally in a hanging drop. All the crystallization trials were performed at 15 °C.
+
+(v / v) poly(ethylene) glycol 400. The data sets for the two complexes with dT and dTTP were collected at ID14 / EH4, ESRF (Grenoble, France). The two data sets were indexed, scaled and merged with mosflm [35] and scala [36]. Both crystals belonged to the space group P21 and had a solvent content of 55%. The content in the asymmetric unit for the N64D­dT and N64D­dTTP complex corresponded to four and two dimers, respectively.
+
+Structure determination and refinement
+The N64D­dTTP complex was solved with rigid body in refmac5 [37] with Dm-dNK­dTTP (PDB code: 1oe0) as a search model. The N64D­dT complex was solved with molrep and Dm-dNK­dT as a search model (PDB code: 1ot3). The mutated residue Asn to Asp in the two complexes was altered in the program o (http://xray.bmc. uu.se/alwyn) [38]. After rigid body refinement the dT and the dTTP complex were refined with fourfold and eightfold noncrystallographic averaging, respectively, in refmac5, ccp4. The N64D­dT complex had a final R-value of 27.0% and an Rfree of 28.8% while the model for N64D­dTTP complex had an R-value of 21.3% and an Rfree of 23.7%. The data collection and refinement statistics are shown in Table 3. The coordinates have been deposited with PDB codes: 1zmx and 1zm7.
+
+Data Collection
+The N64D­dT crystals were directly flash-frozen in liquid nitrogen. The cryoprotectant for the N64D­dTTP crystals contained crystallization solution plus the addition of 20%
+
+3740
+
+FEBS Journal 272 (2005) 3733­3742 ª 2005 FEBS
+
+M. Welin et al.
+
+Drosophila deoxyribonucleoside kinase mutant N64D
+
+Acknowledgements
+We would like to thank Marianne Lauridsen for excellent technical assistance. This work was supported by grants from the Swedish Research Council (to H.E. and J.P.), the Swedish Cancer Foundation (to H.E.), and Danish Research Council (to B.M.-P., W.K. and J.P.).
+13
+
+References
+´ 1 Arner ESJ & Eriksson S (1995) Mammalian deoxyribonucleoside kinases. Pharmacol Ther 67, 155­186. 2 Plunkett W & Gandhi V (2001) Purine and pyrimidine nucleoside analogs. Cancer Chemother Biol Response Modif 19, 21­45. 3 Klopfer A, Hasenjager A, Belka C, Schulze-Osthoff K, Dorken B & Daniel PT (2004) Adenine deoxynucleotides fludarabine and cladribine induce apoptosis in a CD95 / Fas receptor, FADD and caspase-8-independent manner by activation of the mitochondrial cell death pathway. Oncogene 23, 9408­9418. 4 Furman PA, Fyfe JA, St Clair MH, Weinhold K, Rideout JL, Freeman GA et al. (1986) Phosphorylation of 3¢-azido-3¢-deoxythymidine and selective interaction of the 5¢-triphosphate with human immunodeficiency virus reverse transcriptase. Proc Natl Acad Sci USA 83, 8333­8337. 5 Eriksson S, Munch-Petersen B, Johansson K & Eklund H (2002) Structure and function of cellular deoxyribonucleoside kinases. Cell Mol Life Sci 59, 1327­1346. 6 Zheng X, Johansson M & Karlsson A (2000) Retroviral transduction of cancer cell lines with the gene encoding Drosophila melanogaster multisubstrate deoxyribonucleoside kinase. J Biol Chem 275, 39125­39129. 7 Rainov NG (2000) A phase III clinical evaluation of herpes simplex virus type 1 thymidine kinase and ganciclovir gene therapy as an adjuvant to surgical resection and radiation in adults with previously untreated glioblastoma multiforme. Hum Gene Ther 11, 2389­2401. 8 Greco O & Dachs GU (2001) Gene directed enzyme / prodrug therapy of cancer: historical appraisal and future prospectives. J Cell Physiol 187, 22­36. 9 Black ME, Newcomb TG, Wilson HM & Loeb LA (1996) Creation of drug-specific herpes simplex virus type 1 thymidine kinase mutants for gene therapy. Proc Natl Acad Sci USA 93, 3525­3529. 10 Gentry GA (1992) Viral thymidine kinases and their relatives. Pharmac Ther 54, 319­355. 11 Chen MS & Prusoff WH (1978) Association of thymidylate kinase activity with pyrimidine deoxyribonucleoside kinase induced by herpes simplex virus. J Biol Chem 253, 1325­1327. 12 Munch-Petersen B, Piskur J & Søndergaard L (1998) The single deoxynucleoside kinase in Drosophila
+
+14
+
+15
+
+16
+
+17
+
+18
+
+19
+
+20
+
+21
+
+22
+
+23
+
+24
+
+melanogaster, dNK, is multifunctional and differs from the mammalian deoxynucleoside kinases. Adv Exp Med Biol 431, 465­469. Munch-Petersen B, Piskur J & Søndergaard L (1998) Four deoxynucleoside kinase activities from Drosophila melanogaster are contained within a single monomeric enzyme, a new multifunctional deoxynucleoside kinase. J Biol Chem 273, 3926­3931. Johansson M, Van Rompay AR, Degreve B, Balzarini J & Karlsson A (1999) Cloning and characterization of the multisubstrate deoxyribonucleoside kinase of Drosophila melanogaster. J Biol Chem 274, 23814­ 23819. Knecht W, Munch-Petersen B & Piskur J (2000) Identification of residues involved in the specificity and regulation of the highly efficient multisubstrate deoxyribonucleoside kinase from Drosophila melanogaster. J Mol Biol 301, 827­837. Johansson K, Ramaswamy S, Ljungcrantz C, Knecht W, Piskur J, Munch-Petersen B et al. (2001) Structural basis for substrate specificities of cellular deoxyribonucleoside kinases. Nat Struct Biol 8, 616­620. Sabini E, Ort S, Monnerjahn C, Konrad M & Lavie A (2003) Structure of human dCK suggests strategies to improve anticancer and antiviral therapy. Nat Struct Biol 10, 513­519. Brown DG, Visse R, Sandhu G, Davies A, Rizkallah PJ, Melitz C et al. (1995) Crystal structures of the thymidine kinase from herpes simplex virus type-1 in complex with deoxythymidine and ganciclovir. Nat Struct Biol 2, 876­881. Wild K, Bohner T, Folkers G & Schulz GE (1997) The structures of thymidine kinase from herpes simplex virus type 1 in complex with substrates and a substrate analogue. Protein Sci 6, 2097­2106. Welin M, Kosinska U, Mikkelsen NE, Carnrot C, Zhu C, Wang L et al. (2004) Structures of thymidine kinase 1 of human and mycoplasmic origin. Proc Natl Acad Sci USA 101, 17970­17975. Mikkelsen NE, Johansson K, Karlsson A, Knecht W, Andersen G, Piskur J et al. (2003) Structural basis for feedback inhibition of the deoxyribonucleoside salvage pathway: studies of the Drosophila deoxyribonucleoside kinase. Biochemistry 42, 5706­5712. Kokoris MS, Sabo P, Adman ET & Black ME (1999) Enhancement of tumor ablation by a selected HSV-1 thymidine kinase mutant. Gene Ther 6, 1415­1426. Sandrini M & Piskur J (2005) Deoxyribonucleoside kinases: two enzyme families catalyze the same reaction. Trends Biochem Sci 30, 225­228. Munch-Petersen B, Knecht W, Lenz C, Søndergaard L & Piskur J (2000) Functional expression of a multisubstrate deoxyribonucleoside kinase from Drosophila melanogaster and its C-terminal deletion mutants. J Biol Chem 275, 6673­6679.
+
+FEBS Journal 272 (2005) 3733­3742 ª 2005 FEBS
+
+3741
+
+Drosophila deoxyribonucleoside kinase mutant N64D
+
+M. Welin et al.
+
+25 Berenstein D, Christensen JF, Kristensen T, Hofbauer R & Munch-Petersen B (2000) Valine, not methionine, is amino acid 106 in human cytosolic thymidine kinase (TK1). Impact on oligomerization, stability, and kinetic properties. J Biol Chem 275, 32187­32192. 26 Karreman C (1998) A new set of positive / negative selectable markers for mammalian cells. Gene 218, 57­61. 27 Igarashi K, Hiraga S & Yura T (1967) A deoxythymidine kinase deficient mutant of Escherichia coli. II. Mapping and transduction studies with phage phi 80. Genetics 57, 643­654. 28 Ausubel F, Brent R, Kingston RE, Moore DD, Seidman JG, Smith JA et al. (1995) Short Protocols in Molecular Biology, 3rd edn. John Wiley & Sons, Inc., USA. 29 Bradford MM (1976) A rapid and sensitive method for the quantitation of microgram quantities of protein utilizing the principle of protein-dye binding. Anal Biochem 72, 248­254. 30 Laemmli UK (1970) Cleavage of structural proteins during the assembly of the head of bacteriophage T4. Nature 227, 680­685. 31 Knecht W, Bergjohann U, Gonski S, Kirschbaum B & Loffler M (1996) Functional expression of a fragment of
+
+32 33 34
+
+35 36
+
+37
+
+38
+
+human dihydroorotate dehydrogenase by means of the baculovirus expression vector system, and kinetic investigation of the purified recombinant enzyme. Eur J Biochem 240, 292­301. Cornish-Bowden A (1995) Fundamentals of Enzyme Kinetics. Portland Press Ltd, London. Liebecg C (1992) IUIMB Biochemical Nomenclature and Related Documents. Portland Press Ltd, London. Ng JD, Gavira JA & Garcia-Ruiz JM (2003) Protein crystallization by capillary counterdiffusion for applied crystallographic structure determination. J Struct Biol 142, 218­231. Leslie AGW (1992) Joint CCP4 + ESF-EAMCB Newsletter on Protein Crystallography, No. 26. Collaborative Computational Project, Number 4 (1994) The CCP4 Suite: Programs for Protein Crystallography. Acta Crystallogr D50, 760­763. Murshudov GN, Vagin AA & Dodson EJ (1997) Refinement of macromolecular structures by the maximum-likelihood method. Acta Crystallogr D53, 240­255. Jones TA, Zou JY, Cowan SW & Kjeldgaard M (1991) Improved methods for building protein models in electron density maps and the location of errors in these models. Acta Crystallogr 47, 110­119.
+
+3742
+
+FEBS Journal 272 (2005) 3733­3742 ª 2005 FEBS
+
+

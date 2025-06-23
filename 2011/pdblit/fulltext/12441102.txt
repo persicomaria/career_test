@@ -1,0 +1,340 @@
+Structural and functional insight into sugar-nonspecific nucleases in host defense
+Kuo-Chiang Hsia, Chia-Lung Li and Hanna S Yuan
+In prokaryotes, sugar-nonspecific nucleases that cleave DNA and RNA in a sequence-independent manner take part in host defense, as well as site-specific restriction enzymes. Examples include the periplasmic nuclease Vvn and the secreted nuclease ColE7, which degrade foreign nucleic acid molecules in the host periplasm and in the cytoplasm of foreign cells, respectively. Recently determined crystal structures of Vvn and ColE7 in complex with double-stranded DNA provide structural insight into nonspecific DNA interactions and cleavage by sugar-nonspecific nucleases. Both nucleases bind DNA at the minor groove through a common `bba-metal' endonuclease motif and primarily contact the DNA phosphate backbone, probably to avoid sequence-dependent base recognition. In eukaryotes, several apoptotic endonucleases that are responsible for DNA degradation in programmed cell death also contain a bba-metal fold at the active site, suggesting that they may recognize and cleave DNA in a comparable way.
+Addresses Institute of Molecular Biology, Academia Sinica, Taipei 11529, Taiwan, Republic of China Corresponding author: Yuan, Hanna S (hanna@sinica.edu.tw)
+
+These restriction DNases cleave foreign unmethylated DNA and thereby protect the methylated host genome, which is modified by host modification methylases (Figure 1). They cleave short palindromic and non-palindromic DNA sequences in the presence of Mg2+ ions at specific sites. In addition to restriction enzymes, several apoptotic DNases, which are activated during programmed cell death pathways, have been identified [3]. They participate in host defense because viral infections induce cell apoptosis. In contrast to the sequence-specific restriction endonucleases, these apoptotic enzymes are nonspecific and responsible for random chromosome fragmentation during apoptosis. Examples include CAD/DFF40 (caspase-activated DNase/40 kDa DNA fragmentation factor), mitochondrial endoG, DNase II, L-DNase II and CRN (cell-death-related nuclease) [3­7]. RNases have also been shown to be involved in cell defense. The best-known example is the RNA silencing phenomenon triggered by the exogenous doublestranded (ds) RNA of transposons, transgenes and viruses in animals and plants [8]. Several RNase III enzymes [9­11] are involved in processing the dsRNA intermediates into short interfering RNAs (siRNAs), which then serve as a sequence-specific guide resulting in cleavage of foreign mRNA (see also the review by Lingel and Sattler in this section). Another widely known example is RNase L, the terminal enzyme of the 2­5A antiviral pathway in mammals [12]. In response to interferon treatment and viral dsRNA, 20 ,50 -oligoadenylated synthetases are activated to produce 20 ,50 -oligoadenylates, which then bind to RNase L and stimulate its RNase activity for single-stranded (ss) RNA degradation. In contrast to the well-known functions of DNases and RNases, the role of sugar-nonspecific nucleases in cell defense has been documented far less in the literature. In prokaryotic cells, however, some nonspecific nucleases that are responsible for cell protection have been discovered (Table 1) and the crystal structures of two such nucleases bound to dsDNA have been recently solved [13,14]. In this review, we summarize structural and functional data for this group of cell-defending nucleases that cleave DNA and RNA without sequence specificity.
+
+Current Opinion in Structural Biology 2005, 15:126­134 This review comes from a themed issue on Protein­nucleic acid interactions Edited by Aneel K Aggarwal and Jennifer A Doudna Available online 26th January 2005 0959-440X/$ ­ see front matter # 2005 Elsevier Ltd. All rights reserved. DOI 10.1016/j.sbi.2005.01.015
+
+Introduction
+Nucleases are defined as a group of enzymes that are capable of hydrolyzing the phosphodiester linkages of nucleic acids. It is now known that nucleases, including ribonucleases (RNases) and deoxyribonucleases (DNases), are not only involved in nucleic acid metabolism, but also play important roles in all kinds of cellular processes, such as DNA restriction, replication, repair, recombination, transposition, transcription and topoisomerization, as well as RNA processing, splicing, editing and interference [1]. Moreover, nucleases are involved in host defense against foreign nucleic acid molecules. The best-known examples of cell-defending nucleases are the restriction enzymes identified in bacteria [2].
+Current Opinion in Structural Biology 2005, 15:126­134
+
+The role of sugar-nonspecific nucleases in cell defense
+Most sugar-nonspecific nucleases, including Serratia nuclease from Serratia marcescens, Staphylcoccal nuclease
+www.sciencedirect.com
+
+Sugar-nonspecific nucleases in host defense Hsia, Li and Yuan 127
+
+Figure 1
+
+Different types of bacterial nucleases constitute a secure network for host defense against foreign nucleic acids. Restriction enzymes site-specifically cleave foreign unmethylated DNA in the cytoplasm, periplasmic nucleases nonspecifically degrade foreign nucleic acids in the periplasm and secreted nuclease-type toxins degrade nucleic acids in foreign cells to increase the chances of host survival.
+
+from Staphylococcus aureus and P1 nuclease from Penicillium citrinum, are secreted proteins that are probably responsible for the scavenging of nucleotides and phosphate for cell growth [15]. In addition to DNA salvage, bacterial extracellular nucleases such as Vibrio cholerae nuclease have been postulated to play a role during host invasion or the establishment of an infection [16]. Some nonspecific nucleases, such as Neurospora crassa endonuclease, yeast Rad52 and Nuc1, are involved in DNA repair and recombination. Mutations in the genes encoding these nucleases result in defective DNA repair or genetic recombination [17­19]. Among the nonspecific nucleases found in plants, mung bean endonuclease is the best-characterized enzyme.
+
+The activity of mung bean endonuclease has been found to vary in different tissues, with the highest levels in the root tip; therefore, the nuclease activity of mung bean endonuclease has been proposed to be associated with cell division [20]. Other examples of sugar-nonspecific nucleases, such as BEN1 and ZEN1 from barley, are suggested to be responsible for the digestion of nuclear DNA in programmed cell death [21]. In addition to DNA salvage, repair, recombination, degradation and cell division, sugar-nonspecific nucleases are also involved in cell defense. Below, we describe examples of two types of cell-defending sugar-nonspecific nucleases (Figure 1).
+
+Table 1 Examples of nonspecific endonucleases participating in cell defense. Nuclease Prokaryote Nuclease-type colicins Substrate DNA/RNA Product 50 -phosphate Function Degrade nucleic acids in foreign cells to increase the survival advantage of host cells Three-dimensional structure (PDB code) Nuclease domain of Nuclease domain of Nuclease domain of Nuclease domain of Nuclease domain of Vvn (1OUO) Vvn­dsDNA (1OUP) ColE7­Im7 (7CEI) ColE9­Im9 (1BXI) ColE7 (1MO8) ColE7­dsDNA (1PT3) ColE9­dsDNA (1V13, 1V14)
+
+Vvn Eukaryote CAD/DFF40
+
+DNA/RNA
+
+50 -phosphate
+
+Degrade foreign nucleic acids in periplasm Degrade DNA chromosomes to induce cell death Degrade viral ssRNA Degrade foreign RNA
+
+DNA
+
+50 -phosphate
+
+N-terminal domain of CAD (1C9F) N-terminal domain CAD­ICAD (1F2R, 1IBX) Full-length CAD (1V0D) (Prokaryotic RNase III structures are available)
+
+RNase L RNase III
+
+ssRNA dsRNA
+
+30 -phosphate 50 -phosphate
+
+www.sciencedirect.com
+
+Current Opinion in Structural Biology 2005, 15:126­134
+
+128 Protein­nucleic acid interactions
+
+Periplasmic nucleases
+
+The first example is a family of periplasmic or extracellular nucleases that includes Vvn from Vibrio vulnificus, Dns from V. cholerae, NucM from Erwinia chrysanthemi, EndoI from Escherichia coli, and Dns and DnsH from Aeromonas hydrophila [13]. Periplasmic enzymes, including Vvn and EndoI, protect the cell by preventing the uptake of foreign DNA molecules. E. coli or V. vulnificus mutants that lack the periplasmic nuclease can be transformed more efficiently, but they resemble wild-type cells with regard to growth rate, conjugational properties and their ability to propagate various phages [22,23]. Vvn and its homologs all contain a signal peptide located at the N terminus and eight strictly conserved cysteine residues. The signal peptides are cleaved off during transportation of the nuclease from the cytoplasm to the periplasm, resulting in mature proteins of about 25 kDa. This family of endonucleases can digest both DNA and RNA, and is active only in the oxidized form [23]. The crystal structure of Vvn has been solved and shows a novel mixed a/b topology containing four disulfide bridges [13]. Vvn binds an Mg2+ ion at its active site and cleaves a phosphodiester bond at its 30 side, producing DNA fragments containing a 30 hydroxyl and a 50 phosphate. Vvn is not active under reducing conditions, suggesting that it is not folded when it is expressed in the cytoplasm. In this way, host genomes escape from digestion by Vvn, which becomes folded and targets foreign DNA molecules only after it is transported into the periplasm under oxidized conditions.
+Secreted endonucleases
+
+The mechanism by which an E-group colicin binds to an outer membrane receptor has been deduced from the crystal structure of the ColE3 receptor-binding domain in complex with the BtuB receptor [26]. After entering the periplasm of the target cell, ColE7 is probably cleaved to produce an enzyme containing only the nuclease domain, which then traverses the inner membrane and enters the cytoplasm of target cells [27]. The nuclease domain of the colicin degrades, without sequence specificity, all nucleic acids that it encounters, including RNA and DNA, making it an efficient killer of cells (Figure 2) [14]. The nuclease-type colicin ColE9 cleaves the 30 O­P bond of phosphodiester linkages, with a preference for making nicks at thymine bases in dsDNA [28]. To protect the host cell from the cytotoxic activity of the colicin, the immunity protein binds to the nuclease domain and inhibits its nuclease activity. Crystal structures of the nuclease domains of two colicins, ColE7 [29,30] and ColE9 [31], with or without their immunity proteins, have been resolved. These structures explain how an immunity protein binds its cognate colicin with high affinity and specificity. The nuclease domain of colicin and pyocin contains an H-N-H (His-Asn-His) motif comprising two antiparallel b strands and an a helix with a centrally located divalent metal ion [32]. The cognate immunity protein of ColE7 (Im7) does not block the active site of the H-N-H motif, but instead blocks the DNA-binding site of the nuclease domain to inhibit the nuclease activity of ColE7 in host cells.
+
+Crystal structures of sugar-nonspecific nucleases
+So far, only a few sugar-nonspecific nuclease structures have been solved, including Staphylococcal nuclease [33], Serratia nuclease [34], P1 nuclease [35], Vvn [13] and the nuclease domain of ColE7 [30]. Only Vvn [13], the nuclease domain of ColE7 [14] and ColE9 [36] have been co-crystallized with a dsDNA molecule, probably because of the difficulty of finding an oligonucleotide that can bind to the nonspecific enzyme in an ordered fashion. The crystal structures of two cell-defending sugar-nonspecific nucleases in the absence and presence of a DNA substrate are shown in Figure 3. Although the amino acid sequences and overall folds of Vvn (213 amino acids) and ColE7 (133 amino acids) are completely different, the two nucleases share some common features of DNA binding and cleavage. First, both Vvn and ColE7 have a concave and basic surface that binds DNA at the minor groove; this feature is similar to most other nonspecific DNA-binding proteins, which almost always bind dsDNA at minor grooves [37]. Binding at the relatively narrow minor groove is advantageous for avoiding sequence-dependent recognition of DNA bases, which are otherwise more accessible and have more diverse chemical features at the major groove. The minor
+www.sciencedirect.com
+
+The second example is nuclease-type bacteriacins, which represent another class of nonspecific endonucleases involved in the protection of bacterial cells. These include four E-group colicins from E. coli (ColE2, ColE7, ColE8 and ColE9) and pyocins from Pseudomonas aeruginosa [24]. These toxins are secreted endonucleases that digest nucleic acids randomly in target cells to induce cell death, thereby improving the survival chances of the host cell during times of stress. Thus, these bacteria adopt an aggressive offensive approach for the purpose of cell defense and survival. The nuclease-type colicins share high sequence identity and contain three functional domains: receptor binding, membrane translocation and cytotoxic nuclease. Under stressful conditions, the SOS response is turned on, and the colicin and its cognate immunity protein are coexpressed and secreted from the host cell as heterodimeric complexes [25]. The colicin­immunity protein complex then searches for bacteria possessing the outer membrane cobalamin transporter, BtuB.
+Current Opinion in Structural Biology 2005, 15:126­134
+
+Sugar-nonspecific nucleases in host defense Hsia, Li and Yuan 129
+
+Figure 2
+
+The nuclease-type toxin ColE7 is expressed in host cells and cleaves nucleic acid molecules in foreign cells. ColE7 (blue ribbon) contains three functional modules: the receptor-binding domain, the membrane translocation domain and the nuclease domain. In the host cell, the cytotoxic nuclease activity of ColE7 is inhibited by the immunity protein Im7 (magenta coil). After its secretion from the host cell, ColE7 is cleaved during translocation and only the nuclease domain reaches the cytoplasm of foreign cells to degrade nucleic acid. The structural model of ColE7­Im7 was constructed by fusing the crystal structure of the nuclease domain of ColE7 bound to Im7 (PDB code 7CEI) [29] with the translocation and receptor-binding domains of ColE3 (PDB code 1JCH) [48]. The solvent-accessible surface buried between ColE7 and Im7 is shown in green on ColE7. This surface, which is blocked by Im7, is partially involved in DNA binding.
+
+° ° groove is widened from 6 A to about 10 A, resulting in moderate DNA bending of 10­208 towards the major groove in the Vvn and ColE7 nuclease domain complexes. By contrast, more significant bending of 60­1408 is induced by several nonspecific non-nuclease DNA-binding proteins, such as the prokaryotic HU protein (105­1408) [38], the archaeal Sac7d protein (608) [39] and the eukaryotic HMG1/HMG2 family of proteins (1108) [40,41]. The large bend induced by these chromosomal architectural proteins is probably required for their biological functions; by contrast, nonspecific nucleases do not need to bend DNA so sharply for DNA hydrolysis. Second, the active sites of both Vvn and ColE7 have a similar `bba-metal' topology (Figure 4) -- a fold that has been observed in the active sites of several endonucleases, including I-PpoI [42], Serratia nuclease [34] and phage T4 EndoVII [43]. I-PpoI is a member of the His-Cys box family of homing endonucleases, which recognize and cleave dsDNA with a specific sequence
+www.sciencedirect.com
+
+of 13­15 base pairs. Serratia nuclease is a nonspecific endonuclease that cleaves double-stranded or singlestranded DNA and RNA with little sequence preference. EndoVII recognizes structural perturbations in DNA and cleaves various branched DNA structures, such as Holliday junctions, cruciform DNA, single-base mismatches and abasic sites. As these endonucleases cleave different nucleic acid substrates, including dsDNA (with a specific sequence, non-specific sequences or a special structure), ssDNA and RNA, the topological similarity of the active sites of all these nucleases indicates that the bba-metal motif is a general fold only for endonuclease activity, but is not responsible for sequence-specific or structurespecific recognition.
+
+DNA recognition by sugar-nonspecific nucleases
+Vvn and ColE7 are also similar in that both nucleases contact DNA primarily at phosphate groups, but make little contact with bases and ribose groups. Could this be a
+Current Opinion in Structural Biology 2005, 15:126­134
+
+130 Protein­nucleic acid interactions
+
+Figure 3
+
+Crystal structures of two bacterial sugar-nonspecific nucleases. (a) Structures of the nuclease domain of ColE7 (PDB code 1M08) and Vvn (PDB code 1OUO). The active sites of the two enzymes, which share a common `bba-metal' fold, are highlighted in red. (b) Structures of DNA bound to the nuclease domain of ColE7 (PDB code 1PT3) and DNA bound to Vvn (PDB code 1OUP). The bba-metal fold faces the minor groove and induces a slight bend in the DNA towards the major groove. The phosphorus atom in the scissile phosphate of DNA is shown as a green sphere.
+
+general rule for nonspecific nucleases with regard to sequence-independent DNA recognition? A comparison of nonspecific and site-specific nucleases for the number of contacts with DNA backbones and bases shows that the ratio of backbone contacts to base contacts for nonspecific nucleases is significantly higher than that for site-specific endonucleases. Table 2 lists the number of contacts in the nuclease­DNA interface for three nonspecific endonucleases (DNaseI, ColE7 and Vvn), three site-specific homing endonucleases (I-PpoI, PI-SceI and I-CreI) and three restriction enzymes (BglII, EcoRV and BamHI). The ratio of backbone contacts to base contacts is more than five for nonspecific nucleases and roughly two to three for site-specific nucleases. This result confirms that nonspecific nucleases indeed contact DNA via its backbone much more than site-specific nucleases, probably to avoid sequence-dependent recognition.
+
+endonuclease activity. Vvn is active in the presence of an alkaline earth metal ion, either Mg2+ or Ca2+ [13]. By contrast, ColE7 binds a transition metal ion, Zn2+ or Mn2+, in its H-N-H motif [32]. Although the active sites of Vvn and ColE7 have a similar bba-metal topology, their detailed atomic structures differ (Figure 4). The active site of Vvn contains a Mg2+ ion, which is bound to Glu79, Asn127 and four water molecules in an octahedral geometry. The sidechain conformation of the metal-ionbinding residue Asn127 is restrained by a hydrogen bond to Glu77. By contrast, the H-N-H motif of ColE7 contains a Zn2+ ion, which is bound to three histidines and one water molecule in a tetrahedral geometry. One of the metal-ion-binding residues, His569, forms a hydrogen bond to Glu542 to restrain its sidechain conformation. How are nucleic acids hydrolyzed by nonspecific nucleases? The crystal structure of Vvn in complex with uncleaved and cleaved DNA suggests how the DNA is hydrolyzed [13]. A model of the single-metal-ion hydrolysis mechanism mediated by Vvn, which is similar to those
+www.sciencedirect.com
+
+Nucleic acid hydrolytic mechanisms
+Similar to restriction enzymes and most other endonucleases, Vvn and ColE7 need metal ion cofactors for their
+Current Opinion in Structural Biology 2005, 15:126­134
+
+Sugar-nonspecific nucleases in host defense Hsia, Li and Yuan 131
+
+Figure 4
+
+The bba-metal fold of the active sites of Vvn and ColE7. (a) Structure-assisted sequence alignment of residues in the bba-metal motifs of Vvn and ColE7. Both nucleases contain a histidine (red) that functions as the general base at the end of the first b strand. Conserved residues are shaded in gray. (b) Endonuclease active sites in Vvn and ColE7. The bba-metal motif of Vvn contains a Mg2+ ion bound to Glu79, Asn127 and four water molecules (W) in an octahedral geometry. The H-N-H (His-Asn-His) motif of ColE7 has a similar bba-metal topology, consisting of a Zn2+ ion bound to three histidines (His544, His569 and His573) and one water molecule in a tetrahedral geometry. The inner-sphere water molecules (W) that bind directly to the metal ion are shown in green.
+
+proposed for I-PpoI [44] and Serratia nuclease [45], is shown in Figure 5. In this model, His80 functions as a general base to activate a water molecule for nucleophilic attack on the scissile phosphate. His80 makes a hydrogen bond to a backbone carbonyl group, which not only
+Table 2
+
+constrains its sidechain conformation but also increases its pKa, making it a better base for water activation. In the crystal structures of Vvn and the Vvn His80Ala mutant bound to DNA, the nucleophilic water is visible and is ideally located at the opposite side of the cleaved 30 O­P
+
+Number of hydrogen bonds and non-bonded contacts between nucleases and dsDNA. Hydrogen bond to DNA Base Nonspecific nuclease DNase I ColE7 Vvn
+b
+
+Non-bonded contact to DNA Total 21 17 3 Base 0 0 0 Backbone 2 2 11 Total 2 2 11
+
+Backbone 18 14 3
+
+Backbone:base ratioa
+
+° Contacts per 100 A2 ° (buried surface [A2])
+
+3 3 0
+
+6.7 5.3 >7
+
+3.2 (1429) 2.8 (1354) 3.4 (814)
+
+Site-specific nucleaseb Homing endonuclease I-PpoI PI-SceI I-CreI Restriction enzyme BglII EcoRV BamHI
+a
+
+27 11 21 25 12 13
+
+55 26 43 54 17 25
+
+82 37 64 79 29 38
+
+4 5 12 0 5 8
+
+10 21 28 24 22 15
+
+14 26 40 24 27 23
+
+2.1 2.9 2.1 3.1 2.3 1.9
+
+4.6 (4145) 2.3 (5590) 3.5 (5922) 5.2 (5314) 2.6 (4329) 2.3 (3989)
+
+This ratio is calculated by dividing the total number of contacts (hydrogen bonds and non-bonded contacts) on DNA backbones by the number of contacts on bases. bPDB codes for the nuclease­DNA complexes are 2DNJ, DNase I; 1PT3, ColE7; 1OUP, Vvn; 1A73, I-PpoI; ° 1LWT, PI-SceI; 1G9Y, I-CreI; 1D2I, BglII; 1AZ0, EcoRV; 1ESG, BamHI. All the contact numbers (within a distance less than 3.35 A) were calculated by the Nucplot program [49].
+
+www.sciencedirect.com
+
+Current Opinion in Structural Biology 2005, 15:126­134
+
+132 Protein­nucleic acid interactions
+
+Figure 5
+
+(a)
+Arg99 Arg99
+
+N N
+His80
+
+N
+
+O
+
+N O N O O N
+His80
+
+N N N HO O N N O O
+O
+
+O
+
+N O N O N
+
+O
+Glu113
+
+N N
+
+O P
+H2O H2O H2O
+
+O N O N
+Glu113
+
+N N
+H2O H2O H2O
+
+O P O
+
+O O
+
+N
+
+O
+OH2
+
+O
+
+O
+
+N N
+
+O N N
+
+Mg O O
+O
+
+OH2
+
+N
+
+Mg N O O
+Asn127
+
+N O O
+Glu79
+
+Glu79
+
+O
+Asn127 Glu77
+
+O
+Glu77
+
+(b)
+Arg447 Arg447
+
+N N O N HO O N N
+
+O N N
+
+N N N O
+His545
+
+N N O N
+
+O N
+His545
+
+N
+
+N O
+H2O
+
+N N N
+
+N O N N
+H2O
+
+O P O O Zn N N O O
+
+O
+Val555
+
+N
+
+N
+
+N
+
+O P O Zn
+
+N O O O N N N N O
+
+N N
+
+Val555
+
+N
+
+N
+
+N N O
+His569
+
+N
+His573 His544
+
+N
+
+N N O
+His569
+
+His573
+
+His544
+
+O
+Glu542
+
+O
+Glu542
+
+Current Opinion in Structural Biology
+
+Putative hydrolytic mechanisms for (a) Vvn and (b) ColE7. Several common features are shared by the two nucleases. First, a histidine residue (His80 in Vvn, His545 in ColE7), polarized by a backbone carbonyl group, functions as the general base to activate the water molecule for nucleophilic attack on the scissile phosphate. Second, a divalent metal ion (Mg2+ in Vvn, Zn2+ in ColE7) is bound to the scissile phosphate to stabilize the phosphoanion transition state. Third, a basic residue (Arg99 in Vvn, Arg447 in ColE7) reorients its sidechain conformation to bind and stabilize the cleaved phosphate product. The water molecule bound to Mg2+ in Vvn probably donates a proton to the leaving 30 oxygen; however, there is no corresponding inner-sphere water molecule bound to Zn2+ in ColE7.
+
+bond for in-line attack. The metal ion is bound to the scissile phosphate both to stabilize the phosphoanion transition state and to position and activate a water molecule to donate a proton to the leaving 30 oxygen. A basic residue, Arg99, reorients its sidechain conformation and makes a hydrogen bond to the cleaved phosphate in the enzyme­product complex, presumably to stabilize the cleaved DNA product, thereby decelerating the reverse reaction. ColE7 contains a Zn2+ ion in the H-N-H motif and the zinc-bound nuclease domain of ColE7 is active in DNA hydrolysis [46]. However, ColE9 shows a different result -- that the nuclease domain of ColE9 is not active with
+Current Opinion in Structural Biology 2005, 15:126­134
+
+Zn2+, but more active with Ni2+ or Mg2+ [36]. Although ColE7 contains a transition metal ion, and not an alkaline earth metal ion, in its active site, a hydrolytic mechanism similar to that of Vvn can be adopted. In our proposed mechanism (Figure 5), His545 functions as the general base, and is restrained and polarized by a hydrogen bond to a backbone carbonyl group. The Zn2+ ion is bound to the scissile phosphate to stabilize the phosphoanion transition state. A basic residue, Arg447, which is located close to the scissile phosphate group [32], probably functions in the same way as Arg99 in Vvn to bind to the phosphate after the DNA is cleaved. The crucial importance of these amino acid residues in hydrolysis needs to be confirmed by mutational studies.
+www.sciencedirect.com
+
+Sugar-nonspecific nucleases in host defense Hsia, Li and Yuan 133
+
+Several eukaryotic apoptotic endonucleases, such as CAD/ DFF40 and endoG, probably possess a folded active site and hydrolytic mechanism similar to those of Vvn and ColE7. CAD/DFF40 [4,5] and mitochondrial endoG [6] cleave chromatin DNA into nucleosomal fragments in, respectively, a caspase-dependent and caspase-independent apoptotic pathway. Because endoG shares sequence homology with Serratia nuclease in its active site region, its active site very probably has a bba-metal topology. The endonuclease activity of CAD/DFF40 is normally inhibited by a cognate inhibitor protein termed ICAD/DFF45. During apoptosis, caspase-3 cleaves ICAD/DFF45 to release the endonuclease domain of CAD/DFF40, which then enters the nucleus to degrade chromosomal DNA and induce cell death. The crystal structure of CAD/DFF40 has been recently solved and shows a scissor-shaped dimeric structure containing metal-ion-bound active sites with similar topology to the bba-metal motif [47]. Therefore, nuclease-type colicins and CAD/DFF40 seem to degrade DNA chromosomes during programmed cell death in a comparable way in prokaryotic cells and eukaryotic cells, respectively. Probably owing to convergent evolution, these nonspecific endonucleases, including prokaryotic Vvn and ColE7, and eukaryotic CAD/DFF40 and endoG, contain a common active site fold that carries out the identical role of DNA degradation.
+
+Acknowledgements
+We thank Carmay Lim for helpful discussions. This work was supported by a grant from the National Science Council (NSC92-2311-B001-084) and by Academia Sinica, Taiwan.
+
+References and recommended reading
+Papers of particular interest, published within the annual period of review, have been highlighted as:  of special interest  of outstanding interest 1. 2. Mishra NC: Nucleases -- Molecular Biology and Applications. Hoboken, NJ, USA: John Wiley & Sons; 2002. Pingoud A, Jeltsch A: Structure and function of type II restriction endonucleases. Nucleic Acids Res 2001, 29:3705-3727. Counis MF, Torriglia A: DNases and apoptosis. Biochem Cell Biol 2000, 78:405-414. Liu X, Zou H, Slaoghter C, Wang X: DFF, a heterodimeric protein that functions downstream of caspase-3 to trigger DNA fragmentation during apoptosis. Cell 1997, 89:175-184. Enari M, Sakahira H, Yokoyama H, Okawa K, Iwamatsu A, Nagata S: A caspase-activated DNase that degrades DNA during apoptosis, and its inhibitor ICAD. Nature 1998, 391:43-50. Li LY, Luo X, Wang X: Endonuclease G is an apoptotic DNase when released from mitochondria. Nature 2001, 412:95-99. Parrish JZ, Xue D: Functional genomic analysis of apoptotic DNA degradation in C. elegans. Mol Cell 2003, 11:987-996. Baulcombe DC: RNA silencing. Curr Biol 2002, 12:R82-R84. Carmell MA, Hannon GJ: RNase III enzymes and the initiation of gene silencing. Nat Struct Mol Biol 2004, 11:214-218.
+
+3. 4.
+
+5.
+
+6. 7. 8. 9.
+
+Conclusions
+In prokaryotes, two types of endonucleases, site-specific restriction enzymes in the cytoplasm and nonspecific endonucleases in the periplasm, are responsible for degrading foreign nucleic acid. Bacteria also secrete enzymatic toxins with endonuclease activity to kill other microbes for host survival. These cytoplasmic, periplasmic and extracellular nucleases constitute a secure network for microbial host defense against foreign nucleic acids. The recently determined crystal structures of two nonspecific nucleases in complex with dsDNA -- Vvn and the nuclease domain of ColE7 -- show that these nucleases bind DNA at the minor groove and primarily contact the DNA phosphate backbone to avoid sequencedependent interactions. Although they share little sequence identity, these two nucleases contain an active site with a similar bbametal topology. Structural comparison further shows that this bba-metal motif binds, bends and cleaves DNA in a similar way. Several eukaryotic apoptotic endonucleases, such as endoG and CAD/DFF40, probably possess a similar bba-metal active site fold and hydrolytic mechanism for degrading DNA. What we can learn from the prokaryotic nonspecific endonucleases in terms of enzyme inhibition, DNA recognition and DNA hydrolysis may well apply to these eukaryotic enzymes.
+www.sciencedirect.com
+
+10. Blaszczyk J, Gan J, Tropea JE, Court DL, Waugh DS, Ji X: Noncatalytic assembly of ribonuclease III with doublestranded RNA. Structure 2004, 12:457-466. 11. Caudy AA, Ketting RF, Hammond SM, Denil AM, Bathoorn AMP, Tops BBJ, Silva JM, Meyers MM, Hannon GJ, Plasterk RHA: A micrococcal nuclease homologue in RNAi effector complexes. Nature 2003, 425:411-414. 12. Hassel BA, Zhou A, Sotomayer C, Maran A, Silverman RH: A dominant negative mutant of 2-5A-dependent RNase suppresses antiproliferative and antiviral effects of interferon. EMBO J 1993, 12:3297-3304. 13. Li CL, Hor L-I, Chang Z-F, Tsai L-C, Yang W-Z, Yuan HS: DNA  binding and cleavage by the periplasmic nuclease Vvn: a novel structure with a known active site. EMBO J 2003, 22:4014-4025. The first report of the crystal structure of a sugar-nonspecific nuclease in complex with dsDNA. The structures of Vvn bound to an uncleaved DNA substrate and to a cleaved DNA product demonstrate not only the means for nonspecific DNA recognition but also the mechanism of DNA hydrolysis, which is dependent on a single metal ion. 14. Hsia K-C, Chak K-F, Liang P-H, Cheng Y-S, Ku W-Y, Yuan HS:  DNA binding and degradation by the HNH endonuclease ColE7. Structure 2004, 12:205-214. This paper describes the crystal structure of the nuclease domain of ColE7 in complex with dsDNA. It highlights both the mode of H-N-H motif binding at the minor groove of DNA, and the sugar-nonspecific interactions between ColE7 and DNA. 15. Srinivasan E, Shankar V: Sugar non-specific endonucleases. FEMS Microbiol Rev 2001, 25:583-613. 16. Focareta T, Manning PA: Distinguishing between the extracellular DNases of Vibrio cholerae and development of a transformation system. Mol Microbiol 1991, 5:2547-2555. 17. Mishra NC, Forsthoefel AM: Biochemical genetics of Neurospora nucleases II. Genet Res 1983, 41:287-297. Current Opinion in Structural Biology 2005, 15:126­134
+
+134 Protein­nucleic acid interactions
+
+18. Chow T-K, Resnick MA: An endo­exonuclease activity of yeast that requires a functional RAD52 gene. Mol Gen Genet 1988, 211:41-48. 19. Alani E, Padmore R, Klecker N: Analysis of wild-type and rad50 mutants of yeast suggests an intimate relationship between meiotic chromosome synapsis and recombination. Cell 1990, 61:419-436. 20. Grafi G, Larkins BA: Activity of single-stranded DNA endonucleases in mung bean is associated with cell division. Plant Mol Biol 1995, 29:703-710. 21. Aoyagi S, Sugiyama M, Fukuda H: BEN1 and ZEN1 cDNAs encoding S1-type DNases that are associated with programmed cell death in plants. FEBS Lett 1998, 429:134-138. 22. Durwald H, Hoffmann-Berling H: Endonuclease I-deficient and ribonuclease I-deficient Escherichia coli mutants. J Mol Biol 1968, 34:331-346. 23. Wu S-I, Lo S-K, Shao C-P, Tsai H-W, Hor L-I: Cloning and characterization of a periplasmic nuclease of Vibrio vulnificus and its role in preventing uptake of foreign DNA. Appl Environ Microbiol 2001, 67:82-88. 24. James R, Kleanthous C, Moore GR: The biology of E colicins: paradigms and paradoxes. Microbiology 1996, 142:1569-1580. 25. Kleanthous C, Walker D: Immunity proteins: enzyme inhibitors that avoid the active site. Trends Biochem Sci 2001, 26:624-631. 26. Kurisu G, Zakharov SD, Zhalnina MV, Bano S, Eroukova VY, Rokitskaya TI, Antonenko YN, Wiener MC, Cramer WA: The structure of BtuB with bound colicin E3 R-domain implies a translocon. Nat Struct Biol 2003, 10:948-954. 27. Liao C-C, Hsia K-C, Liu Y-W, Liang PH, Yuan HS, Chak K-F: Processing of DNase domain during translocation of Colicin E7 across the membrane of Escherichia coli. Biochem Biophys Res Commun 2001, 284:556-562. 28. Pommer AJ, Cal S, Keeble AH, Walker D, Evans SJ, Kuhlmann UC, Cooper A, Connolly BA, Hemmings AM, Moore GR et al.: Mechanism and cleavage specificity of the H-N-H endonuclease colicin E9. J Mol Biol 2001, 314:735-749. 29. Ko T-P, Liao C-C, Ku W-Y, Chak K-F, Yuan HS: The crystal structure of the DNase domain of colicin E7 in complex with its inhibitor Im7 protein. Structure 1999, 7:91-102. 30. Cheng Y-S, Hsia K-C, Doudeva LG, Chak K-F, Yuan HS: The crystal structure of the nuclease domain of ColE7 suggests a mechanism for binding to double-stranded DNA by the H-N-H endonucleases. J Mol Biol 2002, 324:227-236. 31. Kleanthous C, Kuhlmann UC, Pommer AJ, Ferguson N, Radford SE, Moore GR, James R, Hemmings AM: Structural and mechanistic basis of immunity toward endonuclease colicins. Nat Struct Biol 1999, 6:243-252. 32. Sui M-J, Tsai L-C, Hsia K-C, Doudeva L-G, Chak K-F, Yuan HS: Metal ions and phosphate binding in the H-N-H motif: crystal structures of the nuclease domain of ColE7/Im7 in complex with a phosphate ion and different divalent metal ions. Protein Sci 2002, 11:2947-2957. 33. Arnone A, Bier CJ, Cotton FA, Day VW, Hazen EE, Richardson DC, Yonath A, Richardson JS: A high resolution structure of an inhibitor complex of the extracellular nuclease of Staphylococcus aureus. I. Experimental procedures and chain tracing. J Biol Chem 1971, 246:2302-2316.
+
+34. Miller MD, Tanner J, Alpaugh M, Benedik MJ, Krause KL: 2.1 Angstrom structure of Serratia endonuclease suggests a mechanism for binding to double-stranded DNA. Nat Struct Biol 1994, 1:461-468. 35. Volbeda A, Lahm A, Sakiyama F, Suck D: Crystal structure of Penicillium citrinum P1 nuclease at 2.8 Angstrom resolution. EMBO J 1991, 10:1607-1618. 36. Mate MJ, Kleanthous C: Structure-based analysis of the metal-dependent mechanism of H-N-H endonucleases. J Biol Chem 2004, 279:34763-34769. 37. Luscombe NM, Thornton JM: Protein­DNA interactions: amino acid conservation and the effects of mutations on binding specificity. J Mol Biol 2002, 320:991-1009. 38. Swinger KK, Lemberg KM, Zhang Y, Rice PA: Flexible DNA bending in HU­DNA cocrystal structures. EMBO J 2003, 22:3749-3760. 39. Robinson H, Gao Y-G, McCrary BS, Edmondson SP, Shriver JW, Wang AH-J: The hyperthermophile chromosomal protein Sac7d sharply kinks DNA. Nature 1998, 392:202-205. 40. Murphy FV, Sweet RM, Churchill MEA: The structure of a chromosomal high mobility group protein­DNA complex reveals sequence-neutral mechanisms important for nonsequence-specific DNA recognition. EMBO J 1999, 18:6610-6618. 41. Allain FH-T, Yen Y-M, Masse JE, Schultze P, Dieckmann T, Johnson RC, Feigon J: Solution structure of the HMG protein NHP6A and its interaction with DNA reveals the structural determinants for non-sequence-specific binding. EMBO J 1999, 18:2563-2579. 42. Flick KE, Jurica MS, Monnat RJ, Stoddard BL: DNA binding and cleavage by the nuclear intron-encoded homing endonuclease I-PpoI. Nature 1998, 394:96-101. 43. Raaijmakers H, Vix O, Toro I, Golz S, Kemper B, Suck D: X-ray structure of T4 endonuclease VII: a DNA junction resolvase with a novel fold and unusual domain-swapped dimer architecture. EMBO J 1999, 18:1447-1458. 44. Galburt EA, Chevalier B, Tang W, Jurica MS, Flick KE, Monnat RJ, Stoddard BL: A novel endonuclease mechanism directly visualized for I-PpoI. Nat Struct Biol 1999, 6:1096-1099. 45. Miller MD, Cai J, Krause KL: The active site of Serratia endonuclease contains a conserved magnesium­water cluster. J Mol Biol 1999, 288:975-987. 46. Ku W-Y, Liu Y-W, Hsu Y-C, Liao C-C, Liang P-H, Yuan HS, Chak K-F: The zinc ion in the HNH motif of the endonuclease domain of colicin E7 is not required for DNA binding but is essential for DNA hydrolysis. Nucleic Acid Res 2002, 30:1670-1678. 47. Woo E-J, Kim Y-G, Kim M-S, Han W-D, Shin S, Robinson H,  Park S-Y, Oh B-H: Structural mechanism for inactivation and activation of CAD/DFF40 in the apoptotic pathway. Mol Cell 2004, 14:531-539. This paper reports the crystal structure of dimeric CAD/DFF40, a nonspecific DNase involved in chromosome degradation during apoptosis. 48. Soelaiman S, Jakes K, Wu N, Li C, Shoham M: Crystal structure of colicin E3: implications for cell entry and ribosome inactivation. Mol Cell 2001, 8:1053-1062. 49. Luscombe NM, Laskowski RA, Thornton JM: NUCPLOT: a program to generate schematic diagrams of protein-DNA interactions. Nucleic Acids Res 1997, 25:4940-4945.
+
+Current Opinion in Structural Biology 2005, 15:126­134
+
+www.sciencedirect.com
+
+

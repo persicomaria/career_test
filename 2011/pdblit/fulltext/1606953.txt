@@ -1,0 +1,353 @@
+Eur. J. Biochem. 206,665-672 (1992) 0FEBS 1992
+
+Three-dimensional structure of proteolytic fragment 163 - 231 of bacterioopsin determined from nuclear magnetic resonance data in solution
+Igor L. BARSUKOV, Dmitry E. NOLDE, Andrey L. LOMIZE and Alexander S. ARSENIEV Shemyakin Institute of Bioorganic Chemistry, Academy of Sciences of Russia, Moscow,Russia (Received December 30, 1991) - EJB 91 1747
+
+546 NOESY cross-peak volumes were measured in the two-dimensional NOESY spectrum of proteolytic fragment 163-231 of bacterioopsin in organic solution. These data and 42 detected hydrogen bonds were applied for determining the peptide spatial structure. The fold of the polypeptide chain was determined by local structure analysis, a distance geometry approach and systematicsearch for energetically allowed side-chain rotamers which are consistent with experimental NOESY crosspeak volumes. The effective rotational correlation time of 6 ns for the molecule was evaluated from optimization of the local structure to meet NOE data and from the dependence on mixing time of the N,H/CTH cross-peak volumes of the residues in a-helical conformation. The resulting structure has two well defined a-helical regions, 168- 191 and 198 -227, with root-mean-square deviation 44 pm and 69 pm, respectively, between the backbone atoms in 14 final energy refined conformations. The a-helices correspond to transmembrane segments F and G of bacteriorhodopsin. The segment F contains proline 186, which introduces a kink of about 25" with a disruption of the hydrogen bond with the NH group of the following residue. The segments are connected by a flexible loop region 192- 197. Torsion angles x1 are unequivocally defined for 62% of side chains in the a-helices but half of them differ from electron cryo-microscopy(ECM) model of bacteriorhodopsin, apparently because of the low resolution of ECM. Nevertheless, the F and G segments can be packed as in the ECM model and with side-chain conformations consistent with all NMR data in solution. Bacteriorhodopsin is a transmembrane protein of 248 amino acid residues which acts as a light-driven proton pump in the purple membrane of Halobacterium halobium (see for reviews [l-31). According to the latest model of bacteriorhodopsin from electron cryo-microscopy (ECM) data [4], the spatial structure of the molecule consists of seven transmembrane a-helices A -G packed together. This model, providing a description of a general fold of bacteriorhodopsin, is not reliable on the atomic level because of the low resolution of ECM. Transmembrane segments of bacteriorhodopsin may be regarded as natural blocks on which to base the spatial structure reconstruction. The detailed conformation of bacteriorhodopsin segments can be obtained by two-dimensional (2D) 'H-NMR spectroscopy in organic solution (chloroform/ methanol mixture) or in detergent micelles. The secondary structure was determined for bacterioopsin synthetic transmembrane segments B (residues 34-65) [5, 61, D (residues 102- 136) [7], G (residues 205-231) [8] and proteolytic fragments BP2 (residues 163-231) [9]. The segment B was also studied in sodium [ZHz5]dodecylsulfate micelles [lo]. The secondary structure of BP2 in the chloroform/methanol mixCorrespondence to A. S . Arseniev, Shemyakin Institute of Bioorganic Chemistry, Academy of Sciences of Russia, U1. MiklukhoMaklaya 16/10, Moscow, V-437, Russia Abbreviations. BP2, (163 -23l)bacterioopsin; ECM, electron cryo-microscopy; 2D, two-dimensional; NOESY, 2D homonuclear NOE spectroscopy;DQF-COSY, 2D homonuclear double-quantumfiltered correlated spectroscopy; rmsd, root-mean-square deviation.
+
+ture [9] consists of two a-helical regions of 24 and 26 residues corresponding to transmembrane segments F and G. Here we present the computation of BP2 structure from NMR data. The strategy for BP2 spatial structure calculation is similar to that used for segment B (34-65) in detergent micelles [ll].
+
+MATERIALS AND METHODS
+The proteolytic fragment (163 -23l)bacterioopsin (BP2) was isolated as described in [9]. Two-dimensional 'H-NMR NOESY (relaxation delay of 1.2 s and mixing times of 50, 100 and 200 ms) and DQF-COSY spectra at 30°C for 2.5 mM solution of BP2 in C2H30H/C2HC13 (l:l), 0.1 M 'HCOONZH4 were recorded at 600 MHz (Varian Unity 600 spectrometer) in pure absorption mode. NOESY cross-peak volumes were measured by a curve-fitting procedure [12]. Nonselective spin lattice relaxation times (TI) of individual protons were measured by the inversion-recovery method. Theoretically expected NOESY cross-peak volumes were calculated by diagonalization of the complete relaxation matrix and corrected in accordance with proton relaxation times T I as described in [131. For correction we used the mean TI for each group of protons: 1.0 s for indole N1H protons, 0.9 s for backbone NH protons, 0.55 s for NH protons of side chains, 1.6 s for aromatic protons of Trp and Phe, 1.4 s for aromatic protons of Tyr, 0.9 s for CaH protons and 0.65 s for other side-chain protons. The penalty function F, [ l l ] was calculated to compare theoretical YClcand experimental Vob cross-peak volumes.
+
+666
+This function is the root-mean-square deviation of a distance mismatch Arj, estimated from VClC and Vobs:
+N
+
+RESULTS AND DISCUSSION
+Computation of BP2 spatial structure includes the following steps: (a) analysis of the local structure and evaluation of the effective rotational correlation time with the program CONFORNMR [14- 161; (b) structure calculation with distance geometry program DIANA [17]; (c) the systematic search for allowed side-chain rotamers consistent with NOE cross-peak volumes by the program CONFORNMR; (d) DIANA calculations with additional constraints on the torsion angles of side chains obtained at stage c; (e) unrestrained energy minimization with CHARMM [18].
+Evaluation of the effective rotational correlation time
+
+F,
+
+= [1/N
+j= 1
+
+Arj]1/2
+
+(1)
+
+where N is a number of cross-peaks,
+
+0
+
+, if r: 2 rj 2 r j
+
+r j - r T , if rj > r; rj-rJT , if rj < r j ,
+
+(2)
+
+K is the normalizing coefficient:
+
+and A Vj is the measurement error:
+AVj = max{AVabs,AVrelVgbS},
+(5)
+
+where AVabS is the absolute level of noise in the NOESY spectra (A Vabs was estimated as 0.1 of the mean cross-peak
+N
+
+volume l / N
+j = 1
+
+V'j") and AVrel is the relative error of inte-
+
+gration estimated as 0.2 of a measured volume. The volumes of cross-peaks with ambiguous assignment and the problem of stereochemical assignment were treated as in [I I]. A complete relaxation matrix analysis for evaluation of theoretical NOESY cross-peak volumes allows one to use ) ( , NOESY spectra obtained at rather long mixing times z for structure computation. Such spectra offer higher sensitivity for detection of long-distance NOE interactions so we chose the NOESY spectrum at ,z = 200ms as the basic one to derive distance constraints. Data available from NOESY spectra at z = 50 ms and 100 ms were utilized to estimate , the effective rotational correlation time 2, of the polypeptide. The integration of the NOESY spectrum at , = 200 ms z gave volumes for 546 cross-peaks; 484 cross-peaks were unambiguously assigned and used to derive a set of constraints for distance geometry calculations. Among them there are 267 intraresidue (I i-11 = 0 with i and j giving the numbers of residues to which the protons causing a given cross-peak belong), 121 sequential (Ii-jl = 1) and 96 medium-range (1 <li-jl s 4) cross-peak. No long-range (I i j> 4) cross-peaks were detected even in NOESY spectra at , = 400 ms and 700 ms. z Hydrogen bonds were delineated from deuterium exchange rates of amide protons and qualitative consideration of NOE information. That gave 42 hydrogen bond constraints of the type NiH . C i - 4 0 for the a-helical stretches Glu166Ile191 and Asn202-Arg227 [9]. To establish rotamers around the Ca-CB bond of the residues with CpH2 groups we used qualitative analysis of DQF-COSY spectrum. When one of the two cross-peaks CctHICPH was more than 6 times stronger than the other, we considered the CpH proton causing the larger cross-peak to be trans-oriented relative to CaH. This corresponds to x1 = - 60 " or 180O. A strong resonance overlap yielded such information only for Tyr185, Asn176, Asn202 and Asp212.
+
+Computation of theoretical volumes requires knowledge of the effective rotational correlation time (t,) of the molecule. z, can be estimated when using z, as an additional parameter in the analysis of the local structure on the basis of NOESY cross-peak volumes at z = 200 ms in dipeptide units (pro, tons of the given residue i and the NH proton of the following residue i + l are included) as described in detail in [ll]. For each dipeptide unit the conformational space is searched to determine the global minimum of the penalty function F,(cpi,vi,xi) given z, FF"(7,). The z, value for the molat the ecule is evaluated from the minimum of the dependence Frin (, 7) averaged over all dipeptide units, where the minima were found. The dependences FFin(z,) for dipeptide units of BP2 have shallow minima in the vicinity of 5 ns. Another way to evaluate z, is to use the dependence of z cross-peak volumes of protons at known distances upon .,, Here the NiH/CPH cross-peaks in the helical regions of BP2 are considered as the best canditates. The locations of BP2 helical stretches were determined by qualitative analysis of NMR data [9]. The distance between NiH and C4H protons is 0.28 nm [19]. This causes large cross-peaks volumes even at short z , and slight influence of spin-diffusion. We integrated 16 NOESY cross-peaks of this type at z = 50, 100 and 200 ms , and calculated theoretical volumes at z, = 2 - 10 ns using the ideal a-helix and most statistically preferable orientations of side chains in a-helices [20]. At each z, the normalization coefficient K(7,) (see Eqn 4) for z = 50 ms was calculated to , relate theoretical and experimental volumes at z = 100 and , , 200 ms. The dependences of error function Fr(zc) for z = 100 and 200 ms are shown in Fig. 1. The curves have slightly different minima: at z, = 6 ns for z = 100 ms and at z, = , 7 ns for z = 200 ms. The minimum is more pronounced for , , = 200ms. z The values of z, obtained by the two methods are close; each of them can be used for further calculations. The value of z, obtained by the second method is more accurate because of more pronounced dependence of the error function upon 7 , . In the calculations described below we use 2, = 6 ns. To be sure that the ideal a-helix was a good model for 5, evaluation, we used the second method with the refined conformation of BP2 and the result was the same.
+Local structure analysis
+
+The values of dihedral angles cp and v in agreement with NOE data were obtained as in [I 11by analysis of F,(q?,,y) maps for dipeptide units of BP2. The overlap of the (cp,~) regions for which F,(cp,y) is less than the cutoff value FF', with the sterically allowed regions of the Ramachandran map, was
+
+667
+0.3
+
+0.2
+
+0s
+
+ILL
+
+Table 1. Distance mismatch (dr) for NOESY cross-peaks of Trp182 side-chain protons, penalty function (F,)and relative energy (dE) for different side chain rotamers of Trp182. Cross peaks which have a large (> 0.05 nm) violation for at least one of rotamers are presented in the table. M denotes a methyl group. In identifying the rotamers, the first and second symbols denote rotamers around Ca-CP ( X I ) and Cg-Cy (x') bonds, respectively. The t , g', g - rotamers around L e Ca - Ca bond correspond to the values of x1 angles within ranges h of 180 k 30", -60 +_ 30" and 60 & 30", respectively. The g - rotamer around the Ca- Cb bond transits to another one during energy minimization, because it is sterically forbidden in the w-helix. The gf and g- rotamers around the Cg- Cy bond correspond to x2 angles - 90 f 30 and 90 f 30 ",respectively. Cross-peak
+d r for side-chain rotamers
+
+0.1
+
+g+g+
+
+g+g-
+
+rg+
+
+rg-
+
+nm
+
+My 1 7 8 - H ~ I 182
+My1 179-HS1 182 Ha 179-Hc3 182 My1 179-H~c3 182 My2 179-HSl 182 My2 179 - H~c3182 HE 182-HSZ 182 HU 1 8 2 - H ~ 3 182 Hc3 182-Ha 183
+
+2
+
+4
+
+6
+
+0
+
+10
+
+Tc(ns)
+Fig. 1. Dependenceof penalty function F, upon effective rotationalcorrelation time rCcalculated for 16 cross-peaks NiH/C?H of the BP2 residues in a-helical conformation. Curve 1 represents F, calculated for , t = 100 ms and curve 2 for T, = 200 ms. 0.1 A = 0.01 nm.
+
+-0.33 -0.20 0.03 -0.02 -0.26 0 0.05 -0.02 -0.21
+
+-0.06 -0.21 -0.01 -0.08 -0.14 -0.11 -0.20 -0.19 -0.06 -0.11 -0.17 -0.14 -0.04 -0.03 0.07 0.07 -0.16 -0.22
+
+-0.31 -0.17
+
+0
+-0.06 -0.27 0 0.02 - 0.03 0.02
+0.11
+
+F,
+AE
+
+0.12 kJ/mol 44.7
+
+0.08
+
+0.09
+
+used to set up constraints for cp and w as in [l 11. The value of F;' = 0.01 nm was found empirically [15, 161. For some residues, due to an insufficient number of the NOESY crosspeaks, the region of cp and y angles consistent with NOE data was very broad and included sterically allowed regions. The torsion angles cp and y were not constrained for these residues. Apart from the obvious cp and w dependence, the function F, for dipeptide units also depends on side-chain rotamers. This was taken into account by computation of F,(cp,w) maps for side-chain rotamers and by joining allowed regions from each map. For several residues some of the side-chain rotamers had F,(cp,v~)>F:' for all cp and y values what provided constraints on xl. At this stage we obtained constraints on cp and w for 35 residues and 11 constraints on xl.These accord well with the qualitative analysis of BP2 secondary structure [9]. Spatial structure computation using distance geometry At this stage the distance geometry program DIANA was used to localize the regions of BP2 with the well-defined backbone conformation. 345 distance constraints dj were calculated from cross-peak volumes V'j"' as follows [l 11:
+
+3.8
+
+13.8
+
+0
+
+dj =
+
+{
+
+a( q b s - Yo)- 116
+
+R
+
+if V;b5 > V, if Vybs< V,,
+
+with parameters V, = 0.26 and a = 1.37 obtained from the highest volumes of NiH/CyH(3.1) and NiH/CP- 1H(0.7) crosspeaks for the residues in a-helical regions of BP2 and the corresponding dj distances of 0.28 nm and 0.36 nm in the ahelix [19]. The parameter R = 0.5 nm is an upper limit for low-intensity NOESY cross peaks with the V'jb5 V,. There is no account for spin-diffusion at this stage, so some upper limits are under-estimated, but no problems arise since a strong spin-diffusion occurs between side-chain geminal protons, treated by the DIANA as pseudoatoms.
+
+The constraints from 42 detected hydrogen bonds and dihedral angle constraints from local structure analysis were also included in the DIANA penalty function. With these data as input, the randomly generated starting structures were optimized at five levels (0,1,2,3,4) with weighting factors o, and wi for experimental upper and lower distance limits set to 1, for a van der Waals lower distance limit of 0.2 and for dihedral angle constraints of 0.2 nm2. Analysis of the first set of DIANA conformations showed a considerable disturbance of backbone conformation in the vicinity of Trp182 leading to the large penalty function. This residue is in the middle part of the a-helix. The inspection of the molecular model showed that protons of the aromatic ring of Trp182 exhibit a number of NOE constraints, which can not be fulfilled in a single conformation of the side chain. Leaving a determination of Trpl82 side-chain conformation for the next stage, we switched off all constraints including the side chain of the residue and continued DIANA calculations. For further analysis we chose the 20 best conformations out of 100 DIANA final conformations. These 20 conformations exhibited two well-defined a-helical regions Ala168 Ile191 and Ile198 -Arg227 with the rmsd for backbone atoms of 0.07 nm and 0.08 nm, respectivsly. The backbone structure in the region Gly192 - Gly197 was badly defined with an rmsd of 0.3 nm. Search for allowed side-chain conformations with CONFORNMR Side-chain conformations in the region with the defined backbone structure can be found when comparing the penalty
+
+668
+Table 2. Distance mismatch (Au) for NOESY cross-peaks of Met209 sidechain protons, penalty function (E;) and relative energy ( A E ) for different side-chain rotamers of Met209. Cross-peaks which have a large (> 0.05 nm) violation for at least one of rotamers are presented in the table. M denotes a methyl group. In identifying the rotamers, the first and second symbols denote rotamers around Ca - Cp (xi) and Cp - Cy (x') bonds, respectively. The t, g+, g - rotamers correspond to the values of x' and x2 angles within ranges of 180 & 30°, -60 _+ 30" and 60 & 30°, respectively.
+
+Cross-peak
+
+Ar for side-chain rotamers
+
+nm
+My 205-Hyl 209 My 205 - Hy2 209 Ha 206-HP2 209 Ha 206-Hyl 209 Hyl 209 - My2 213 Hy2 209 -My2 213
+F r
+AE
+
+- 0.02
+0 0 -0.01 -0.09
+-0.18
+
+-0.11 -0.12 -0.03 - 0.03 - 0.02 - 0.08 0.05
+
+-0.04 -0.04 -0.02 -0.02 -0.07 -0.12
+0.04
+
+-0.14 -0.17 0.04 0.02 - 0.03 -0.07
+0.06
+
+-0.17 -0.18 -0.05 -0.05 0.04 0 0.06
+
+-0.19 -0.21 -0.03 - 0.04 0.08 0.01 0.07
+
+-0.20 -0.21 -0.04 - 0.07 0.07 0.01 0.07
+
+0.05
+
+kJ/mol 5.4 21.7 1.7 46.4 8.4 4.2 0
+
+1800
+1200
+t
+
+I
+
+cp
+60'
+
+O0
+
+-60'
+-1200 -1800 163 180 200 220 231
+
+residue number
+
+180' 1200
+
+*
+
+;+ + + t
+
+f
+
+w
+60'
+00
+
+-600
+
+-1200 -180' 163 180 200 220 231
+
+residue number
+Fig. 2. Torsion angles cp and $ in 14 CHARMM refined conformations of BP2 plotted versus the residue number. The amino acid sequence of BP2, in one-letter code, is presented on the top.
+
+669
+Table 3. The allowed side-chain rotamers, values of torsion angles 1' and their rmsd through 14 CHARMM refined conformations of the BP2 (NMR)and their comparison w t the ECM model 141. The t, g + ih and g- rotamers correspond to the values of x1 and x2 angles within ranges of 180 f 30", -60 30" and 60 30", respectively. For Phe, Tyr, Trp residues g + and g - rotamers around the Cfi-Cy bond correspond to x2 angles of -90 f 30" and 90 30", respectively. For Ser169, Thrl70 and Ser226 residues all three ( t , g + and g - ) Cu-Cj rotamers are allowed. If two rotamers are present, both fit NOESY data well. At least two rotamers of Trp182 and Met209 residues were needed to explain the NOESY cross-peak volumes. The underlined x1 torsion angle in the ECM model is not reliable because the experimental map does not have a clear electron density for either backbone or side chain of this residue. A dash (-) is used if no density was observed for the residue in the ECM map 141 or no NMR data constrain the side-chain conformational space.
+~~ ~
+
+Residue
+
+Allowed rotamer around bond
+Ca-Cfi
+
+x' by
+NMR degrees ECM
+
+Cb-Cy
+
+Phel71 Lys172 Val173 Leu174 Arg175 Asn 176 Val177 Thr178 Val179 Val180 Leu181 Trpl82 Ser183 Tyrl85 Val187 Val188 Trpl89 Leu190 Ile191 Val199 Leu201 Asn202 Ile203 Glu204 Thr205 Leu206 Leu207 Phe208 Met209 Val2 10 Leu211 Asp212 Val2 13 Ser214 Lys216 Val21 7 Phe219 Ile222 Leu223 Leu224 Arg225 Arg227
+
+-172% 4 -176f 5, - 6 6 + 6 175% 2 -166f 8, - 7 5 + 9 -164 f 13, -75 & 10 177 k 11 173f 1 54+ 3 170f 4 172f 1 -161 f 9, - 6 7 f 6 -177% 9, - 6 8 + 9 63+ 9 -179f 8 180% 5 175f 2 -179k 4 8 -170f -61f 5 178k 3 -169f 9, - 6 5 k 1 2 - 7 4 5 10 - 64f 4 -1775 6 - 57f 2 178f 1, - 7 1 + 8 -168 f 10, -68 f 6 -175f 5 -170+ 6, -7Of2 175f 1 - 64f 9 -166k15, - 6 7 f 8 176f 1 6 2 + 10 -166+ 9, -52%17 176f 3 -176f 5 - 65+ 3 -173 & 6 - 160 12, -66 f 11 -165 5 20, -66 6 -166k20, - 7 7 f 1 3
+
+can be realized only in the region i f 5, the calculations were done just for the regions around each residue. At this stage cross-peaks with ambiguous assignment were utilized, if all proton pairs causing the given cross-peak belong to the considered region. In total, 546 NOESY cross-peaks volumes were used at this stage. We chose the DIANA conformation with the lowest value of the penalty function as a starting conformation, but the results were not dependent on the start. The starting BP2 conformation was refined using energy minimization by CONFORNMR with ECEPP/2 parameters [21,22]. Then for each residue i all side-chain rotamers were considered with the energy minimization and penalty function evaluation for the region i 5 of the a-helix. All (except the special cases of Trp182 and Met209 residues) rotamers with F,<F$'" + 0.01 nm (where F ? is minimum value F, for side-chain rotamers of the given residue i) were considered in agreement with NOESY cross-peak volumes. Other side-chain rotamers have several NOESY cross-peaks with essential distance mismatch Ar (Eqn 2). We also considered information about x1 values of residues 51-185, Asn176, Am202 and Asp212 according to the DQF-COSY spectrum (see Materials and Methods). If several rotamers met the above conditions, we used conformational energy as an additional criterion and selected only rotamers with the energy less than 20 kJ/mol relative to the lowest energy for the region i 5 . After examining all the side-chain rotamers in the a-helices F and G , a new conformation of BP2 with the best side-chain rotamer for each residue was generated; the search was repeated because some side-chain rotamers can be interconnected. This procedure was terminated when the set of the allowed sidechain rotamers was not further upgraded. The approach allowed analysis of the side-chain rotamers of Trp182 mentioned above and Met209, for which NOE constraints also can not be fulfilled in a single conformation. In the case of Met209, the a-helix was not disturbed, but in DIANA conformations several constraints involving the side chain of this residue were systematicallyviolated. The NOE constraints can be fulfilled if side chains of Trp182 and Met209 are allowed to have at least two conformations (see Tables l and 2). This testifies to the mobility of side chains. For both residues the motion seems to be caused by a rotation around the Ccr-CP bond. All allowed side-chain rotamers determined at this stage are listed in Table 3.
+Structure refmement
+
++
+
++
+
+functions F, for possible side-chain rotamers of the given residue [ll]. This approach was applied to the residues in two a-helical regions of BP2 defined in the preceding stage. Since in the a-helix all side-chain NOE interactions of the residue i
+
+The final set of BP2 conformations was obtained using DIANA with additional constraints on x' and xz torsion angles coming from the previous stage. The other constraints were the same as for preliminary DIANA calculations. Out of 200 DIANA conformations obtained from random starts, we chose the best 14 with the lowest penalty functions. These conformations were then refined using unrestrained energy minimization with CHARMM (Figs3 and 4). The energy minimization with CHARMM allows the refinement of the side-chain and main-chain conformations (especially in the region of the Pro residues within the a-helix), but the penalty function F, slightly increased (from 34 to 38 pm), because experimental constraints were not included into the target function. The variation of (p and t angles, which characterize the p quality of the backbone structure obtained is presented in Fig. 2. The torsion angle distribution indicate the presence of two regions (Ala168 - Ile191 and Ile198 -Arg227) with well-
+
+670
+
+experimental and calculated NOESY cross-peak volumes expressed in terms of distance mismatches (see Eqns 1-5) and can be considered as an indication of the accuracy of the structure determination. The values of rmsd characterize the BP2 structure from the other viewpoint, which is a variation between the conformations in accordance with the experimental data (Table 4). Analysis of large (> 0.1 nm) distance mismatches showed that all of them are caused by the protons, at least one of which belongs to a side chain. The most probable reason for such mismatches is the mobility of the side chain.
+F
+
+0
+
+Fig. 3. Stereoview of superpositions of 14 CHARMM refined conformations for minimum rmsd of the backbone heavy atoms in F (residues 163- 196) and G (residues 197-231) polypeptide segments. Backbone heavy atoms of residues 168 - 191 and 201 -225 were superimposed for F and G, respectively. All backbone heavy atoms are shown.
+
+Features of BP2 structure and its comparison with the electron cryo-microscopy model The structure of BP2 in organic solvent consists of two ahelices of 24 and 30 residues connected by the hinge region of 6 residues, as can be seen from Fig. 3 and ( p , ~ distributions in Fig. 2 . The N-terminal a-helix has a kink of about 25" introduced by Pro1 86 (Table 4). In the proline-distorted a-helices of globular proteins, this kink is usually about 26" [23] and the 310-helix-likehydrogen bond COi-* . HNi+l (i is the number of the Pro residue) is often formed. In the CHARMM refined set of BP2 conformations the distance Ala184-CO . HN-Val187 is 0.25 -0.27 nm, i.e. 0.05-0.07 nm longer than in the case of the hydrogen bond. This correlates with a high exchange rate of the NH proton of Val187 [9]. The first a-helix is terminated by a glycine residue (Gly192) and the part of the backbone next to the end of the helix is the most unordered due to the presence of two more glycines, 195 and 197. At the same time residues Ile198-Pro200 form a structure close to the a-helix, but with a higher variation of
+
+1
+
+1
+
+F
+
+I
+
+G
+
+Fig. 4. Stereoview of superpositions of 14 CHARMM refined conformations for minimum rmsd of the backbone heavy atoms in F (residues 168 - 191) and G (residues 201 225) polypeptide segments. All heavy atoms are shown.
+
+-
+
+Table 4. Analysis of 14 best CHARMM-refined conformations of BP2 and comparison with ECM model.
+~ ~ ~ ~ ~~ ~ ~ ~ ~ ~
+
+Quantity Penalty function F," Numbcr of NOE violationsb with d r > 0.05 nm with d r > 0.10 nm CHARMM energy Pro186 kink' Pairwise rmsd of final conformations for residues: 163-231 168- 191 192-197 198- 227 201 - 225 rmsd of 14 refined conformations to ECM modeld for residues: 168-191 202 - 225
+a
+
+Average value f standard deviation 38k3pm 12 k 5 12+ 1 -2150 f 75 kJ/mol 24.9 k 3.90 backbone heavy atoms 999 457 pm 44k 13pm 225k 52pm 69+ 22pm 4 3 + 15pm
+
++
+
+all heavy atoms 1104+431 pm 154+ 27pm 289+ 58pm 170+ 33pm 140+ 17pm all heavy atoms 232+ 22pm 233+ 9 p m
+
+backbone heavy atoms 1 3 3 k 16pm 123k 6pm
+
+NOESY cross-peaks of Trp182 and Met209 side chains werc not considered. d r is the distance mismatch, corresponding to deviation of experimental and theoretical NOESY cross-peak volumes (see Eqns 2 -5). Angle between the axis of a-helical segments 180- 185 and 187- 191. In the ECM model the residues 166- 191 and 202-225 are presented [4].
+
+671
+F
+163
+
+G
+191
+
+NMR
+
+168 I -. . ....,., . ,
+
+o-hslix
+
+loa
+
+201
+
+*ei hlx
+
+227
+
+231
+
+yrxu(yBy8ti
+
+P--
+
+163 166 ECM
+
+m-helix
+
+11 9
+
+,....._
+
+.........._.,_....... ....
+
+202 205
+
+mhellx
+
+225
+
+......-.......,
+
+231
+
+Fig. 5. Comparison of BP2 secondary structures identified by NMR technique and derived from the ECM model 141. Solid rectangles denote a stable part of r-helices where hydrogen bonds were identified in NMR experiments or with low-temperature factors in the ECM model. Dotted rectangles indicate regions where a-helical conformation is unstable (fast deuterium exchange rate of amide protons in NMR experiment or high temperature factors in the ECM model). Rolling solid lines indicate a disordered structure and rolling dashed lines denote the parts of the structure which were not defined because of the absence of experimental data.
+
+Fig. 6. Stereoview of the superposition of BP2 (residue 163 231, thick lines) best DIANA conformation obtained with additional ECM distance constraints on Ca atoms and transmembranesegments F (residues 166 - 191) and G (residues 202 - 227) of the ECM model (thin lines). All heavy atoms are shown.
+
+-
+
+the backbone structure as seen in Figs 2 and 3 and Table 4. This turn of the helix is rather unstable due to the presence of proline residue 200. The length of a-helical regions is enough to penetrate a lipid bilayer. The uncertainty of the hinge region backbone structure is confirmed by a high deuterium exchange rate of amide protons [9].The mobility and length of the hinge region allow a-helices to adopt a large number of mutual orientations, even provided they are oriented antiparallel as in the purple membrane [4]. The mobility of most side chains within a-helices in solution is restricted: the values of 11' were unequivocally determined for 62% while x2 was defined for 37% of a-helical residues (Table 3). The rotamer consistent with NOE data was never energetically unfavorable. The orientations of the sidechain OH groups of Ser183, Ser214 and Thr178 (x' = 60") are the optimum for the formation of hydrogen bonds between the side-chain hydroxyl of residue i and the backbone carbonyls of residues i-3 and i-4. The hydrogen bonds are present in the 14 CHARMM refined conformations and correspond to those reported earlier [9]. The mobility of the side chains of Trp182 and Met209 probable occurs because of the absence of some of the interhelical interactions in solution, which are present in the purple membrane; however, there is a possibility that the conformational freedom of these residues plays a functional role. The model of the spatial structure of bacteriorhodopsin was proposed on the basis of ECM data [4]. The resolution of the method seems low to define the structure at the atomic level, but as the atom coordinates are in the protein data bank we compared our results with this model. The rmsd values between the ECM model and the corresponding regions of BP2 are presented in Table 4. The a-helical regions Glu166 Ile191 and Asn202-Arg225 correlate well with the a-helical regions detected in BP2 (Fig. 5). The conformations of 38% side chains in the ECM model differ greatly from those observed for BP2 in solution (Table 3). It might be explained by the low resolution of the ECM method, because 9 out of 12 residues with a clear electron density map in the ECM model (Table 3) have the same 2' torsion angles as for BP2 in the chloroform/methanol mixture. For testing whether the BP2 structure fits into the mutual arrangement of a-helices in the ECM model, we made DIANA calculations with 44 additional distance constraints between Ca atoms of F and G segments derived from the ECM model. Upper and lower distance constraints for the program DIANA were calculated as the corresponding distances Ca Ca in the ECM model k0.05 nm. After DIANA calculation
+
+and unrestrained CHARMM minimization, we obtained folded BP2 conformations with the penalty function F, and conformational energies close to those in Table 4. The superposition of the best folded BP2 conformation and the ECM model is shown in Fig. 6. The rmsd of NMR and ECM structures is 0.09 and 0.21 nm between backbone heavy atoms and all heavy atoms, respectively. Consequently the F and G a-helices of the BP2 structure can be packed in the same manner as in the ECM model, but with side-chain rotamers consistent with NMR data. This means that the bacteriorhodopsin spatial structure can be refined based on the protein global fold established by the ECM of purple membranes and well-defined NMR structures of bacteriorhodopsin a-helices in solution.
+Conclusion
+
+We obtained the structure of BP2 using the combination of the distance geometry approach and systematic analysis of the NOE penalty function for sterically allowed side-chain rotamers. The main feature of the structure is the presence of two a-helical regions, which should form transmembrane segments F and G of bacteriorhodopsin and can be packed the same manner as segments F and G in the ECM model. The well-defined conformations of most of the side chains in a-helices can be used for packing transmembrane segments to produce the refined structure of bacteriorhodopsin.
+We thank Prof. Richard Henderson for the coordinates of the ECM structure of bacteriorhodopsin.
+
+REFERENCES
+1. 2. 3. 4. Dencher, N. A. (1983) Photochem. Photobiol. 38, 753-767. Ovchinnikov, Yu. A. (1982) FEBS Lett. 148, 179-191. Stoeckenius, W. (1985) Trends Biochem. Sci. 10,483-486. Henderson, R., Baldwin, J. M., Ceska, T. A,, Zemlin, F., Beckmann, E. & Downing, K. H. (1990) J . Mol. Bid. 213, 899 - 929. Arseniev, A. S., Maslennikov, I. V., Kozhich, A. T., Bystrov, V. F., Ivanov, V. T. & Ovchinnikov, Yu. A. (1988) FEBS Lett. 231. 81 -88. Maslennikov, I. V., Lomize, A. L. &Arseniev, A. S. (1991) Bioorg. Khim. ( U S S R ) 17, 1456-1469. Maslcnnikov, I. V., Arseniev, A. S., Chikin, L. D., Kozhich, A. T., Bystrov, V. F. & Ivanov, V. T. (1 991) Bid. Membr. ( U S S R ) 8,156-160. Maslennikov, I . V., Arseniev, A. S., Kozhich, A. T., Bystrov, V. F. & Ivanov, V. T. (1990) Bid. Membr. ( U S S R ) 8, 222-229.
+
+5.
+6.
+
+7. 8.
+
+672
+9. Barsukov, I. L., Abdulaeva, G. V., Arseniev, A. S. & Bystrov, V. F. (1990) Eur. J. Biochem. 192, 321 -327. 10. Pervushin, K. V., Arseniev, A. S., Kozhich, A. T. & Ivanov, V. T. (1991) J. Biomol. NMR 1,313-322. 11. Lomize, A. L., Pervushin, K. V. & Arseniev, A. S. (1992) J. Biomol. NMR, in the press. 12. Barsukov, I. L., Pervushin, K. V., Orekhov, V. Yu., Barsukov, T. L. & Arseniev, A. S. (1992) Appl. Mugn. Res., in the press. 13. Sobol, A. G. & Arseniev, A. S. (1988) Bioorg. Khim. (USSR) 14, 997-1013. 14. Arseniev, A. S., Lomize, A. L., Barsukov, I. L. & Bystrov, V. F. (1986) Biol. Membrany (USSR) 3, 1077-1104. 15. Lomize, A. L., Sobol, A. G. & Arseniev, A. S. (1990) Bioorg. Khim. (USSR) 16,179-201. 16. Lomize, A. L., Arseniev, A. S., Maslennikov, I. V. & Bystrov, V. F. (1990) Bioorg. Khim. (USSR) 16,1310-1324. 17. Guntert, P., Braun, W. & Wuthrich, K. (1991) J. Mol. Biol. 217, 517-530. 18. Brooks, B. R., Bruccoleri, R. E., Olafson, B. D., States, D. J., Swamanithan, S. & Karplus, M. (1988) J. Comput. Chem. 4, 187 - 217. 19. Wiithrich, K., Billeter, M. & Braun, W. (1984) J. Mol. Biol. 180, 715 - 740. 20. McGregor, M. J., Islam, S. A. & Sternberg, M. (1987) J. Mol. Biol. 198, 295-310. 21. Momany, F. A., McGuire, R. F., Burgess, A. W. & Scheraga, H. A. (1975) J. Phys. Chem. 79,2361-2381. 22. Nemethy, G., Pottle, M. S. & Scheraga, H. A. (1983) J . Phys. Chem. 87,1883 - 1887. 23. Barlow, D. J. & Thornton, J. M. (1988) J. Mol. Biol.201, 601 619.
+
+

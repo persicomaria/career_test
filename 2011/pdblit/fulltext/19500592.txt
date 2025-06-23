@@ -1,0 +1,413 @@
+ARTICLE IN PRESS
+Biochimica et Biophysica Acta xxx (2010) xxx­xxx
+
+BBABIO-46499; No. of pages: 10; 4C: 4, 5, 7, 8
+
+Contents lists available at ScienceDirect
+
+Biochimica et Biophysica Acta
+j o u r n a l h o m e p a g e : w w w. e l s ev i e r. c o m / l o c a t e / b b a b i o
+
+1 2 3 4 5 6 7 8 9
+
+Structural and energetic basis for H+ versus Na+ binding selectivity in ATP synthase Fo rotors
+
+a
+
+Theoretical Molecular Biophysics Group & Max Planck Institute of Biophysics, 60438 Frankfurt am Main, Germany Department of Structural Biology & Max Planck Institute of Biophysics, 60438 Frankfurt am Main, Germany Department of Molecular Membrane Biology, Max Planck Institute of Biophysics, 60438 Frankfurt am Main, Germany d Cluster of Excellence Macromolecular Complexes, JW Goethe University of Frankfurt, 60438 Frankfurt am Main, Germany
+b c
+
+a r t i c l e
+10 11 12 13 14 15 17 16 18 19 20 21 22 23 24 25 26 27 28 29 30 31 52 51 53 54 55 56 57 58 59 60 61 62 63 64 65
+
+i n f o
+
+a b s t r a c t
+
+RO
+
+OF
+32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 50 49 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85
+
+Alexander Krah a, Denys Pogoryelov b, Julian Langer c, Peter J. Bond a, Thomas Meier b,d,, José D. Faraldo-Gómez a,d,
+
+1. Introduction
+
+RR
+
+ Corresponding authors. Meier is to be contacted at Max Planck Institute of Biophysics, Max-von-Laue-Str. 3, 60438 Frankfurt am Main, Germany. Tel.: + 496963033038. Faraldo-Gomez, Tel.: + 49693031500. E-mail addresses: thomas.meier@biophys.mpg.de (T. Meier), jose.faraldo@biophys.mpg.de (J.D. Faraldo-Gómez). 0005-2728/$ ­ see front matter © 2010 Published by Elsevier B.V. doi:10.1016/j.bbabio.2010.04.014
+
+Please cite this article as: A. Krah, et al., Structural and energetic basis for H+ versus Na+ binding selectivity in ATP synthase Fo rotors, Biochim. Biophys. Acta (2010), doi:10.1016/j.bbabio.2010.04.014
+
+UN
+
+Ion gradients across biological membranes power and help regulate a wide range of crucial processes in all living cells. ATP synthesis is one such process, through a mechanism that is, in its essence, conserved in all domains of life, from archaea to humans. The ATP synthase is the protein machine that serves this purpose across all these life forms. This macromolecular complex consists of two interconnected motor domains; one residing in the lipid membrane (Fo) and one projecting away into the solvent (F1) [1]. The latter domain is where the actual catalysis takes place, following an energy-consuming conformational cycle conducive to ATP formation, from ADP and inorganic phosphate [2]. This cycle is powered within the Fo domain, namely by the rotation of the so-called c-subunit ring (or c-ring) [3­5]; this rotation is
+
+CO
+
+EC
+
+Keywords: ATP synthase C-subunit Fo rotor Membrane protein structure Membrane bioenergetics Proton-motive force Sodium-motive force Ion selectivity Molecular dynamics simulation Free energy calculation Mass spectroscopy Dicyclohexylcarbodiimide modification
+
+TE
+
+DP
+
+Article history: Received 20 February 2010 Received in revised form 9 April 2010 Accepted 13 April 2010 Available online xxxx
+
+The functional mechanism of the F1Fo ATP synthase, like many membrane transporters and pumps, entails a conformational cycle that is coupled to the movement of H+ or Na+ ions across its transmembrane domain, down an electrochemical gradient. This coupling is an efficient means of energy transduction and regulation, provided that ion binding to the membrane domain, known as Fo, is appropriately selective. In this study we set out to establish the structural and energetic basis for the ion-binding selectivity of the membrane-embedded Fo rotors of two representative ATP synthases. First, we use a biochemical approach to demonstrate the inherent binding selectivity of these rotors, that is, independently from the rest of the enzyme. We then use atomically detailed computer simulations of wild-type and mutagenized rotors to calculate and rationalize their selectivity, on the basis of the structure, dynamics and coordination chemistry of the binding sites. We conclude that H+ selectivity is most likely a robust property of all Fo rotors, arising from the prominent presence of a conserved carboxylic acid and its intrinsic chemical propensity for protonation, as well as from the structural plasticity of the binding sites. In H+coupled rotors, the incorporation of hydrophobic side chains to the binding sites enhances this inherent H+ selectivity. Size restriction may also favor H+ over Na+, but increasing size alone does not confer Na+ selectivity. Rather, the degree to which Fo rotors may exhibit Na+ coupling relies on the presence of a sufficient number of suitable coordinating side-chains and/or structural water molecules. These ligands accomplish a shift in the relative binding energetics, which under some physiological conditions may be sufficient to provide Na+ dependence. © 2010 Published by Elsevier B.V.
+
+mechanically transduced to the F1 sector through a protein complex referred to as the central stalk [1,6­8]. It is through the motion of the cring rotor that the ATP synthase senses and responds to transmembrane electrochemical gradients (for reviews, see e.g. [9­14]). In most organisms, including all eukaryotes, ATP synthesis is coupled to H+ transport [15], which occurs as the rotor subunit preferentially binds protons originating on the "high" side of the membrane, and releases them onto the "low" side. Only in a few selected anaerobic bacteria is synthesis by F-ATP synthases coupled to translocation of Na+ ions instead, that is, to the sodium-motive force (SMF) [16­18]. Nevertheless, despite this marked imbalance in today's world, compelling evolutionary and structural arguments have been put forward in support of the notion that the SMF predates the proton-motive force (PMF) [19]. It has also been noted that while diverse enzymes can generate the PMF or SMF, only the ATP synthase can use these energy sources for ATP synthesis; thus, the ion specificity of this enzyme, and in particular, of its membrane rotor, determines the type of membrane energetics of a given organism [20]. An important aim in structural and evolutionary bioenergetics is thus to elucidate the mechanisms by which ATP synthases have adapted
+
+ARTICLE IN PRESS
+2 A. Krah et al. / Biochimica et Biophysica Acta xxx (2010) xxx­xxx
+
+86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148
+
+RO
+
+in order to power their function from these distinct energy sources. The atomic-resolution structures of the rotor rings of the Na+ and the H+coupled ATP synthases from Ilyobacter tartaricus and Spirulina platensis [21­23], respectively, offer two snapshots of this adaptation process, from which important insights may be derived. These rings consist of 11 and 15 c-subunits, respectively, which form an hourglass-shaped assembly with a central pore. The ion-binding sites (for Na+ or H+) are located in-between neighboring c-subunits, at the outer surface of the ring, and facing the hydrocarbon core of the membrane. A distinct glutamate side chain, conserved across all c-subunits of F-ATP synthases (sometimes substituted by aspartate), appears to play a prominent role in ion coordination. A number of factors may contribute to the ion selectivity in a protein binding site, including its size, coordination number and type of ligands, as well as the relative hydration free energies of the ions involved [24­31]. In the case of protonation, the intrinsic pKa of the ionizable groups involved must also be considered. Here, we set out to establish the structural and energetic determinants of the ion-binding selectivity in the c11 and c15 rings mentioned above, by combining experimental and computational methods. The former are employed first to demonstrate the drastic difference in ion specificity of these two rotors. We proceed to rationalize the emergence of this specificity using atomically detailed molecular dynamics simulations and freeenergy calculations, both for the wild-type rings as well as for a series of mutants that alter the size and/or coordination structure of the ionbinding sites. 2. Materials and methods 2.1. Quantitative determination of c-subunit modification with DCCD by direct-infusion ESI-MS measurements c11 rings from the Na+-coupled ATP synthase of I. tartaricus and c15 rings from the proton-dependent ATP synthase of S. platensis were isolated as described previously [32,33]. After dialysis against 10 mM Tris­HCl (pH 8) buffer the precipitated proteins were stored at + 4 °C. N,N'-dicyclohexylcarbodiimide (DCCD) treatment of c-rings was performed in the reaction mixture containing isolated c-rings (final concentration of 0.5 mg/ml) either dissolved in 1% (w/v) n-octyl--Dglucopyranoside. The desired pH of the reaction mixture was obtained by combining 20 mM each of the following buffers, MES, MOPS and Tricine (adjusted to pH 5.5 or pH 7.0) or CHES (adjusted to pH 10) as described in [34]. The DCCD labeling reaction was initiated by addition of 50 or 500 M DCCD to the reaction mixture containing c11 or c15 rings, respectively. To terminate the reaction at selected time points, 2-l aliquots of the reaction mixture were taken and diluted in 500 volumes of a H2O/acetonitrile (1:1, v:v) mixture containing 2% formic acid. 6 l of the obtained mixture were immediately submitted to electrospray ionization mass spectrometry (ESI-MS) analysis by direct infusion using a Bruker ESI-sprayer in a Bruker Apollo source on a micrOTOF-Q-II or a maXis q-TOF mass spectrometers (Bruker Daltonics, Bremen, Germany) with a flow-rate of 3 µl/min. Using the Bruker micrOTOF-Control 3.0.53 software, the ion optics were optimized for detection of the c-subunits chargestates 4­7 in the range 1100­2200 m/z, and spectra were recorded for 2 min using the parameters described in Table 1. The acquired data were processed using the Bruker software DataAnalysis 4.0 Service Pack 1 Build 253. The spectra were averaged and deconvoluted in the range 1100­2200 m/z using a maximum entropy algorithm, and the peaks in the deconvoluted spectra were assigned using a peak-finder algorithm (Table 1). For quantification of the extent of covalent attachment of DCCD, i.e. formation of dicyclohexyl-N-acyl-urea (DCU), the intensities of the following isotopic peaks were selected. As the signal intensity of the first isotopic peak was typically very low, the isotopic peaks two to nine were used. For the unlabeled species, the peaks with the masses
+
+8790­8798 Da (I. tartaricus c-subunit, ITc1) or 8220­8228 Da (S. platensis c-subunit, SPc1) were used; for DCU labeled c-subunits, the isotopic peaks with the masses 8996­9004 Da (ITc1) or 8426­8434 Da (SPc1) were selected. The intensities of these peaks were integrated after correction with the averaged background values at m/z regions 8600­8700 Da (ITc1) or 8000­8100 Da (SPc1) of the mass spectra. The labeling ratio (as indicated in the figures) was calculated as the ratio of the DCU-labeled species to the sum of the labeled and unlabeled species.
+
+149 150 151 152 153 154 155 156 157
+
+2.2. Molecular dynamics simulations and free-energy calculations All molecular dynamics (MD) simulations were carried out with NAMD 2.6 [35], at constant pressure (1 atm) and temperature (298 K), and with periodic boundary conditions. Electrostatic interactions were calculated using Particle-Mesh Ewald (PME) with a real space cut-off of 12 Å. A cut-off distance of 12 Å was also used for the van-der-Waals interactions. The pressure was maintained along the membrane normal using a Nose-Hoover Langevin-piston barostat, while the surface area of the membrane was kept at 69 Å2 per lipid [36]. The preparation of the simulation systems was a previously described [22,37,38]. They comprise the full c11 or c15 rings, carrying one Na+ ion or proton per binding site; the membrane, including 237 and 212 POPC lipids, respectively; and  18,000 water molecules. In total, these molecular models amount to  100,000 atoms. To equilibrate the wild-type simulation models we used conventional MD simulations with gradually weaker constraints applied to the protein over 10 ns. Subsequent unconstrained simulations were carried out for 50 ns each. The mutant systems were set up in the same way as the wild types, mutating only one binding site in the ring, and simulated for 5 ns each. The final configurations from these simulations were used to carry out all-atom free-energy perturbation (FEP) calculations of the exchange of H+ into Na+ within the same site, and vice versa. As is common, we followed a stepwise protocol, using a coupling parameter  reflecting the progression in the transformation of a given state into another (e.g. from Na+ to H+bound). All MD/FEP calculations were carried out in the forward and backward directions, in 32 intermediate steps; for each step, the equilibration time was 200 ps and the sampling time was 1 ns. The CHARMM27 force field for proteins and lipids [39,40] was used in all calculations.
+
+158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187
+
+UN CO R
+
+RE C
+
+TE
+
+DP
+Instrument settings Ion polarity Ion funnel 1/2 RF Hexapole RF Quadrupole isolation mass Collision gas Collision cell RF Transfer time Summation Processing parameters Charge deconvolution Deconvolution range in spectra Low / High mass Data point spacing MassList Peak finder Peak width Signal to noise Intensity threshold
+
+OF
+
+Table 1 The microOTOF-Q-II acquisition parameters were based on standard values for direct infusion experiments. Listed are the key instrument settings and parameters for data processing.
+
+t1:1
+
+Positive 400 Vpp 400 Vpp 800 m/z Nitrogen 800 Vpp 150 µs 5000x
+
+Maximum entropy 1100­2200 m/z 8000­9000 m/z 0.1 Apex 0.01 1 50
+
+t1:2 t1:3 t1:4 t1:5 t1:6 t1:7 t1:8 t1:9 t1:10 t1:11 t1:12 t1:13 t1:14 t1:15 t1:16 t1:17 t1:18 t1:19 t1:20 t1:21
+
+Please cite this article as: A. Krah, et al., Structural and energetic basis for H+ versus Na+ binding selectivity in ATP synthase Fo rotors, Biochim. Biophys. Acta (2010), doi:10.1016/j.bbabio.2010.04.014
+
+ARTICLE IN PRESS
+A. Krah et al. / Biochimica et Biophysica Acta xxx (2010) xxx­xxx 3
+
+188 189 190 191 192 193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 209
+
+3. Results 3.1. Direct experimental evidence of differential ion selectivity of c11 and c15 rotors To demonstrate the differential ion-binding selectivity of the c11 and c15 rotors, we measured the extent of DCCD labeling at different pH and salt concentrations. DCCD is a membrane-permeable compound that associates covalently with the key carboxylate group at the csubunit binding site, provided it is protonated [41,42]. By contrast, binding of Na+ to the site precludes protonation and thus protects from DCCD labeling [43]. In this work the extent of DCCD modification of csubunits was quantified on the basis of the mono-isotopic distributions of protein species in deconvoluted ESI-MS mass spectra (Fig. 1a, b). Higher sensitivity and improved reproducibility of the measurements can be obtained after direct infusion of the samples, thus avoiding the additional step of organic extraction of the c-subunits, which was required in previous MALDI-TOF mass-spectroscopy analyses [34]. As shown in Fig. 1c, addition of salt to detergent-solubilized c11 rotors has a marked protecting effect against DCCD labeling. At pH 5.5, for example, where residual Na+ and protons are at similar micromolar concentrations, about 60% of the c-subunits were labeled after 10 min. In 10 mM NaCl, however, labeling is reduced by 2- to 3-fold, reflecting the increased competing ability of Na+ afforded by the concentration
+
+effect. At the other end of the pH scale, at pH 10, DCCD labeling is substantially reduced even without salt added, as the residual Na+ concentration is 4 orders of magnitude larger than that of protons. By contrast, DCCD labeling to the c15 rotor is largely unaffected by added salt (Fig. 1d). Even at pH 10, with Na+ in a 109 concentration excess (100 mM), no substantial protection is observed relative to the extent of labeling with no added salt (similarly for K+ or Li+). In conclusion, protons are selected by the c15 binding sites essentially under any condition, while the H+ selectivity of the c11 ring is sufficiently weak to be countered by excess Na+ in a physiological setting.
+
+210 211 212 213 214 215 216 217 218 219
+
+3.2. Molecular dynamics simulations of membrane-embedded c11 and 220 c15 rotors 221 Molecular dynamics simulations of the c11 and c15 rings in a POPC lipid membrane were carried out for 50 ns each to assess the structural and energetic stability of the computational protein-membrane model, relative to the X-ray structures--and thus to provide a valid reference state for the subsequent free-energy calculations of binding selectivity. The models comprise the c-rings embedded in a water-solvated membrane patch of approx. 100 × 100 Å2, amounting to about 100,000 atoms (Fig. 2). Both simulations were initiated with the protein in the measured crystal conformation. Subsequently, all descriptors considered, from the
+222 223 224 225 226 227 228 229 230 231
+
+Fig. 1. Effect of pH and monovalent cations on DCCD-labeling rates of c-subunit rotors. (a) Representative deconvoluted ESI-mass spectrum (in the range 8000­9000 m/z) of c-subunits from S. platensis labelled with DCCD. Two peaks centered at 8224 and 8430 Da correspond to unlabeled and DCU-modified c-subunit monomers, respectively. (b) Isotopic patterns of labeled and unlabeled c-subunit monomers from (a), used for the quantification of the labelling ratios (for details, see Material and methods). (c, d) Resulting DCCD labeling of the c11 and c15, probed after 10 min (c11, c) or after 50 min (c15, d). Depicted are the mean values and the standard errors (error bars) of at least three independent measurements.
+
+Please cite this article as: A. Krah, et al., Structural and energetic basis for H+ versus Na+ binding selectivity in ATP synthase Fo rotors, Biochim. Biophys. Acta (2010), doi:10.1016/j.bbabio.2010.04.014
+
+UN
+
+CO
+
+RR
+
+EC
+
+TE
+
+DP
+
+RO
+
+OF
+
+ARTICLE IN PRESS
+4 A. Krah et al. / Biochimica et Biophysica Acta xxx (2010) xxx­xxx
+
+232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251 252 253 254 255 256 257
+
+RE C
+
+Fig. 2. All-atom simulation models of the c15 and c11 rings of the F1Fo-ATP synthases from Spirulina platensis and Ilyobacter tartaricus, respectively, embedded in a POPC lipid membrane. (a, b) View along the membrane perpendicular, from the cytoplasm. The c15 system comprises 101,218 atoms, i.e. 15 c-subunits (blue ribbons), each with a H+ ion (yellow) bound to E62 (spheres), 212 POPC lipids and 18,350 water molecules. The c11 system comprises 100,754 atoms, i.e. 11 c-subunits, each with a Na+ ion bound to E65 (same coloring as above), 237 POPC lipids and 18,353 water molecules. The dimensions of the periodic simulation boxes are approximately 100× 100 × 97 Å3. (c, d) Close-up of the interior of the c-rings. Note the asymmetric distribution and number of lipids (sticks), which closely match the hydrophobic surface of the protein interior (orange), allowing for a wide, water-filled cavity lined by polar residues (red, blue) on the cytoplasmic side.
+
+TE
+
+DP
+overall ring structure to the ion-coordination chemistry, were found to remain in agreement with the X-ray structure in the 50 ns time-scale (Fig. 3). For example, the distribution of backbone RMSD in the simulated ensemble of conformations, relative to the X-ray structure, peaks at 0.9 Å for the transmembrane sections of the c-rings, and 0.75 Å for the core region enveloping the ion-binding sites (Fig. 3a). The distinct packing of the inner and outer helices is also well preserved. The C­C distances for adjacent E62 and P25 residues (E65 and P28 in c11 numbering) are almost identical in both X-ray structures; the corresponding distributions derived from the simulations are perfectly consistent with that observation--as is the greater staggering and compactness of the c11 ring (Fig. 3b). Similarly, the simulations preserve the distinctive kink in the c11 outer helix (40°), relative to that in the c15 rotor (25°); this difference remains despite the intrinsic dynamical fluctuations of the structure (20°) during the room-temperature simulations (Fig. 3c). Importantly, the coordination geometries of the H+/Na+ binding sites are also in good agreement with the X-ray data (Tables 2, 3); the typical deviations of the simulation averages from the experimental c15 and c11 rotor structures (of resolution 2.1 and 2.4 Å, respectively) are 0.2 Å or less. Lastly, the simulations also provide insights into the mode of interaction of the rings with the lipid membrane (Fig. 3e, f). For example, this analysis confirms the expectation that in the c15 rotor E62 is located not exactly in the membrane middle but towards its cytoplasmic side; this slight displacement also appears to occur in the c11 ring (Fig. 3e). Also in both cases, a small, asymmetric lipid patch plugs the interior of the ring and precludes water permeation; curiously, hydrophobic matching causes these patches to be displaced by about 10 Å relative to the membrane center, towards the extracellular side (Fig. 3f), which presumably facilitates the interaction of the inner face of the ring with subunits in the central stalk of the F1 domain [44].
+258 259 260 261 262
+
+UN CO R
+
+3.3. Predicted binding-site structures of ion-exchanged and mutant c11 263 and c15 rotors 264 Molecular dynamics simulations were also carried out for wildtype c11 and c15 rings where H+ and Na+ were exchanged, as well as for rings with single and double mutations in the binding sites (in both H+ and Na+-bound states). In each case, the most representative binding-site configuration (coordination geometry, etc) was derived from statistical analysis of the simulation ensembles (Tables 2­5; Figs. 4, 5). These configurations correspond to those characterized below through free-energy calculations of binding selectivity. Experimental structures of these alternative ion-bound states and mutated constructs are not available; thus the results presented here should be regarded as a prediction. It should be noted, however, that some of these are energetically unfavorable, and thus unlikely to occur in reality (e.g. a Na+-bound c15 rotor), as will be discussed in the next section. Nevertheless it is useful to model these high-energy states in order to elucidate the key determinants for ion selectivity. In addition to the conserved carboxylate (in E65/62), the binding sites of the c11 and c15 rotors are alike in the presence of a glutamine
+265 266 267 268 269 270 271 272 273 274 275 276 277 278 279 280 281
+
+Please cite this article as: A. Krah, et al., Structural and energetic basis for H+ versus Na+ binding selectivity in ATP synthase Fo rotors, Biochim. Biophys. Acta (2010), doi:10.1016/j.bbabio.2010.04.014
+
+RO
+
+OF
+
+ARTICLE IN PRESS
+A. Krah et al. / Biochimica et Biophysica Acta xxx (2010) xxx­xxx 5
+
+282 283 284 285 286 287 288 289 290 291 292 293 294 295 296
+
+DP
+T67L 2.2 (0.1) 2.8 (0.4) 2.3 (0.1) 2.3 (0.2) 2.4 (0.1) ­ 2.7 (0.1) 2.7 (0.1) 2.7 (0.2) ­ ­ ­ (0.1) (0.1) (0.1) (0.1) (0.1) (0.1) (0.1) (0.1) (0.1) (0.2) 2.2 2.2 2.3 2.3 ­ ­ 2.7 ­ 2.8 ­ ­ ­
+
+Fig. 3. Structural variability and membrane location of the c15 and c11 rotors during molecular dynamics simulations in a POPC bilayer, at room temperature. All descriptors are shown as probability histograms, derived from the simulation trajectories. (a) Root-mean-square deviation (RMSD), relative to the crystal structure, of the c-ring in the transmembrane core of the ring (residues 12­38 and 49­75 in c15 and 15­41 and 52­78 in c11; black), and for the complete structure (residues 2­81 in c15 and 3­79 in c11; red). A global least-square fitting precedes the RMSD calculations, which include non-hydrogen backbone atoms only. (b) Differential staggering of the inner (dark grey circles) and outer (light grey circles) helices in the c15 and c11 rings. The values plotted correspond to the distances between the C atoms in residues P25 and E62 in c15 and residues P28 and E65 in c11, both within a given c-subunit and between adjacent subunits. Dashed lines correspond to the crystal-structures values. (c) Kink angles in the inner (black) and outer (red) helices. The angle vertices are at residues P25 and E62 in c15, and at residues P28 and E65 in c11; the angle is defined by two ideal axes representing 4 helix-turns before and after the angle vertex. (e) Density profiles along the perpendicular to the membrane, for water (blue), lipid tails (black) and lipid head groups (red) beyond the outer face of the ring. Density peaks for specific residues in the protein are also shown. (f) Same as (e), for the pore formed by the inner helices.
+
+RR
+
+and a tyrosine side chain (Q32/29 and Y70/67), which donate a hydrogen-bond (HB) to E65/62; and in the contribution of a backbone carbonyl from V63/F60, which in the c11 structure coordinates the Na+ ion and in the c15 ring is a HB acceptor for the protonated E62 (Tables 2, 3; Figs. 4a, 5a). The c15 rotor, however, replaces S66 and T67 with two hydrophobic side chains, namely alanine (A63) and leucine (L64) (Figs. 4a, 5a). The latter substitution is worth noting in that it precludes the presence in the site of a structural water molecule, which in the c11 rotor (and possible other Na+ binding c-rings) participates in the coordination of the bound Na+ ion (Table 2, Fig. 5a). This structural water is coordinated by the protein, namely through T67 (backbone amide as donor and side chain hydroxyl as acceptor) and the backbone carbonyl of A64. Lastly, S66 also coordinates the Na+ ion, and in addition is a HB donor for E65 (Table 2, Fig. 5a).
+
+Exchange of H+ by Na+ in the wild-type c15 ring causes the binding site to expand slightly, but the structure appears to be sufficiently flexible to accommodate the ion while preserving the network of interactions characteristic of the proton-bound state (Figs. 4a, 5g). Likewise, exchange of Na+ by H+ in the c11 rotor re-organizes the HB network of the site only slightly (Figs. 5a, 4c). Interestingly, S66 becomes a hydrogen-bond bridge between the protonated E65 and the backbone carbonyl of V63, thus effectively mimicking the E62­F60 interaction in the proton-bound c15 ring (which are slightly closer due to a less pronounced kink of the outer helix [23]). The structural water molecule remains stably bound, but it is now co-coordinated by Q32 (as an HB acceptor) in addition to T67 and A64. In summary the c11 ring per se appears to be able to structurally adapt to accommodate a bound proton. This is in accordance with the observation that purified I. tartaricus ATP synthase can mediate proton transport under low salt conditions [17].
+
+RO
+S66A T67L (0.1) (0.1) (0.1) (0.1) (0.1) (0.2)
+
+OF
+297 298 299 300 301 302 303 304 305 306 307 308 309 310 311
+t2:1 Table 2 Ion-coordination and hydrogen-bond interaction distances (in angstroms) at the binding site of the c11 rotor from I. tartaricus, with Na+ bound. Simulation values are time-averages; the corresponding standard deviation is given alongside. c11 rotor, Na+ bound Simulation WT 2.2 3.3 2.3 2.3 2.3 2.3 2.8 2.7 2.7 2.8 2.7 3.2 (0.1) (0.3) (0.1) (0.1) (0.1) (0.1) (0.1) (0.1) (0.2) (0.1) (0.1) (0.2) S66A 2.2 2.3 2.3 2.3 ­ 2.3 2.8 ­ 2.8 2.8 2.7 3.1 S66A T67I 2.2 (0.1) 2.2 (0.1) 2.3 (0.1) 2.3 (0.1) ­ ­ 2.7 (0.1) ­ 2.8 (0.2) ­ ­ ­ Y70F 2.2 2.4 2.4 2.3 2.4 2.3 2.9 2.7 2.8 2.7 3.2 (0.1) (0.2) (0.2) (0.1) (0.1) (0.1) (0.2) (0.2) (0.1) (0.1) (0.2) t2:2 t2:3 t2:4 t2:5 t2:6 t2:7 t2:8 t2:9 t2:10 t2:11 t2:12 t2:13 t2:14 t2:15 t2:16 t2:17 Ion­ligand/donor­acceptor Na ­E65:O½ (min) Na+­E65:O½ (max) Na+­V63:O Na+­Q32:O Na+­S66:O Na+­XWAT:O Q32:N­E65:O½ (min) S66:O­E65:O½ (min) Y70:OH­E65:O½ (min) XWAT:O­T67:O XWAT:O­A64:O T67:N­XWAT:O
++
+
+Please cite this article as: A. Krah, et al., Structural and energetic basis for H+ versus Na+ binding selectivity in ATP synthase Fo rotors, Biochim. Biophys. Acta (2010), doi:10.1016/j.bbabio.2010.04.014
+
+UN
+WT 2.3 3.5 2.4 2.4 2.3 2.3 2.9 2.6 2.7 2.8 2.7 2.9
+
+CO
+Crystal
+
+EC
+
+TE
+
+ARTICLE IN PRESS
+6 t3:1 A. Krah et al. / Biochimica et Biophysica Acta xxx (2010) xxx­xxx Table 3 Ion-coordination and hydrogen-bond interaction distances (in angstroms) at the binding site of the c15 rotor from S. platensis, with H+ bound. c15 rotor, H+ bound Crystal Donor­acceptor E62:O2­F60:O E62:O2­S63:O Q29:N­E62:O1 Q29:N­E62:O2 Y67:OH­E62:O1 Y67:OH­E62:O2 S63:O­F60:O WT 2.7 ­ N5 3.0 2.7 N4 ­ Simulation WT 2.9 (0.2) ­ N5 3.3 (0.4) 2.8 (0.2) N4 ­ A63S N4 2.9 (0.2) 3.1 (0.3) N5 N5 3.1 (0.3) 2.7 (0.1)
+
+3.4. Relative H±/Na± binding selectivity of wild-type and mutant c11 and 343 c15 rotors 344 Although the analysis presented above is highly informative of the intrinsic structural properties of the c-ring binding sites, whether wildtype or mutant, it does not immediately provide a quantitative assessment of the relative energetics of H+ and Na+ binding--that is, into their ion selectivity. Such insight, however, may also be derived computationally under a molecular simulation framework as described below. The binding selectivity of a protein site P for ligand A, against another, B, is defined as the ratio of dissociation constants, S = Kd (B) / Kd (A). The free energy of selectivity is thus Gsel = -kB T log 1 K ðBÞ = kB T log d S Kd ðAÞ
+345 346 347 348 349 350 351 352 353
+
+t3:2 t3:3 t3:4 t3:5 t3:6 t3:7 t3:8 t3:9 t3:10 t3:11 t3:12
+
+312 313 314 315 316 317 318 319 320 321 322 323 324 325 326 327 328 329 330 331 332 333 334 335 336 337 338 339 340 341 342
+
+UN CO R
+
+As mentioned above, the configuration of the binding-site was also studied for a series of mutagenized c11 and c15 rotors. The mutations considered are those that make the binding sites in these two rings more alike; they also reflect substitutions often found in other csubunit sequences. Specifically, the mutations introduced in the c11 rotor are S66A, T67L and Y70F, as well as the double substitutions S66A + T67L and S66A + T67I--it should be noted that a consequence of the T67 c11 mutants is the absence of the bound structural water in the site. For the c15 rotor, we considered only the mutation reverse of S66A, i.e. A63S, since a serine side chain at this position is found in csubunits highly homologous to that in S. platensis. Figs. 4 and 5 illustrate the influence of these mutations on the binding-site structure in the c11 and c15 rings, for both the H+ and Na+ bound states, according to our simulations. This analysis predicts a striking similarity in the ion-coordination structures for a similar aminoacid environment, despite the different stoichiometry, and helix packing of these rings. For example, with regard to the proton-bound states, the configuration seen in the wild-type c15 rotor (Fig. 4a) is reproduced in the S66A + T67L c11 ring (Fig. 4f), with E65/E62 reaching across the site towards the backbone carbonyl of V63/F60. Conversely, the A63S mutation in the c15 ring (Fig. 4b) results in a configuration essentially identical to that of T67L c11 (Fig. 4e), where the proton-bound E65/62 is coordinated instead by the serine hydroxyl. Regarding the Na+-bound states, our results appear to reflect a prominent role of the cation in organizing its own coordination shell, whether in the c11 or c15 rotor. Thus, the amino-acid substitutions considered here have little impact structurally, with the re-arrangement of the E65/62 carboxylate being the most noticeable, e.g. in c11 S66A (Fig. 5b). Lastly, it is again worth noting how, from the structural point alone, these distinct rotors can in principle produce similar coordination geometries--e.g. compare c11 T67L and c15 A63S (Fig. 5c, h).
+
+OF
+GB P : B ðboundÞ
+Simulation WT 2.1 2.3 2.2 2.4 ­ 2.8 ­ 2.8 (0.1) (0.1) (0.1) (0.3) (0.1) (0.2)
+
+or in terms of the binding free-energy of each ligand, Gsel = GB - GA. Although in principle it is possible to compute these two quantities, in many cases it is convenient to reformulate the problem using the following thermodynamic cycle:
+
+354 355 356 357 358
+
+RO
+ G
+p
+
+P þ A ðsolutionÞ GA  P : A ðboundÞ
+
+ P þ B ðsolutionÞ
+
+Gw
+
+RE C
+
+That is, the free energy of selectivity is also Gsel = Gp - Gw. Gw is simply the difference in the hydration free energy of each ligand; Gp can be thought of as a difference "interaction free-energy" of protein and ligand while in the bound state. In the case of ions as non-covalent ligands (e.g. Na+ vs. K+), both contributions may be readily computed with classical MD simulations via the free-energy perturbation (FEP) method, since the corresponding energy functions (state A and B) differ solely in the non-bonded electrostatic and/or van-der-Waals terms. The usefulness of this approach has been illustrated, for example, in studies of selective ion channels and ion-coupled membrane transporters [45,46]. The problem is slightly more complex when comparing, e.g. H+ and Na+, as the proton binds covalently. This is clear from the following thermodynamical cycle: P þ H3 Oþ G H
+
+359 360 361 362 363 364 365 366 367 368 369 370 371 372 373 374
+
+TE
+
+DP
+Gw
+p
+
+P þ Hþ þ H2 O  P þ Naþ GH GNa þ þ P : H þ H2 O  P : Na G
+375 376 377 378 379 380
+t5:1
+
+t4:1
+
+Table 4 Ion-coordination and hydrogen-bond interaction distances (in angstroms) at the binding site of the c11 rotor from I. tartaricus, with H+ bound. c11 rotor, H+ bound
+
+t4:2 t4:3 t4:4 t4:5 t4:6 t4:7 t4:8 t4:9 t4:10 t4:11 t4:12 t4:13 t4:14 t4:15 t4:16 t4:17
+
+While the classical MD/FEP method may be again used to quantify the upper part of the cycle (relative solvation free energies of hydronium, Na+ and water), this is not the case for Gp. This is because the energy functions in classical MD do not include a representation of bondTable 5 Ion-coordination and hydrogen-bond interaction distances (in angstroms) at the binding site of the c15 rotor from S. platensis, with Na+ bound. c15 rotor, Na+ bound
+
+Simulation
+
+Donor­acceptor
+
+WT
+
+S66A
+
+T67L
+
+S66A T67L
+
+S66A T67I
+
+Y70F N4 2.8 (0.2) N4 2.8 (0.2) 3.0 (0.3) N4 ­ ­ 3.3 (0.3) 2.8 (0.2) 2.8 (0.2) 3.5 (0.4)
+
+E65:O2­V63:O E65:O2­S66:O E65:O2­XWAT:O S66:O­V63:O Q32:N­E65:O1 Q32:N­E65:O2 Y70:OH­E65:O1 Y70:OH­E65:O2 T67:N­XWAT:O XWAT:O­A64:O XWAT:O­Q32:O XWAT:O­V63:O
+
+N4 2.8 (0.2) N4 2.8 (0.2) 3.1 (0.3) N4 N4 3.1 (0.5) 3.3 (0.4) 2.9 (0.3) 2.8 (0.2) 3.7 (0.5)
+
+2.8 (0.2) ­ 2.9 (0.3) ­ N4 3.5 (0.7) 2.9 (0.2) N4 3.3 (0.3) 3.2 (0.5) 2.8 (0.2) 3.2 (0.5)
+
+N4 2.8 (0.2)
+
+3.3 (0.5) ­
+
+2.8 (0.2) ­
+
+t5:2 t5:3 t5:4 A63S 2.1 (0.1) 2.2 (0.1) 2.2 (0.1) N4 2.4 (0.1) 2.9 (0.2) 3.1 (0.3) 2.7 (0.1) t5:5 t5:6 t5:7 t5:8 t5:9 t5:10 t5:11 t5:12 t5:13
+
+2.7 (0.1) 3.0 (0.2) N4 N5 3.2 (0.5) ­ ­ ­ ­
+
+­ N5 3.2 (0.3) 2.9 (0.4) N4 ­ ­ ­ ­
+
+­ N5 3.1 (0.2) 3.0 (0.4) N4 ­ ­ ­ ­
+
+Ion­ligand/donor­acceptor Na+­E62:O½ (min) Na+­E62:O½ (max) Na+­F60:O Na+­Q29:O Na+­S63:O Q29:N­E62:O½ (min) S63:O­E62:O½ (min) Y67:OH­E62:O½ (min)
+
+Please cite this article as: A. Krah, et al., Structural and energetic basis for H+ versus Na+ binding selectivity in ATP synthase Fo rotors, Biochim. Biophys. Acta (2010), doi:10.1016/j.bbabio.2010.04.014
+
+ARTICLE IN PRESS
+A. Krah et al. / Biochimica et Biophysica Acta xxx (2010) xxx­xxx 7
+
+Fig. 4. Binding-site structures of wild type and mutant c15 and c11 rotors, with a H+ bound. The structures shown are representative of the most probable interaction network observed during molecular dynamics simulations of each c-ring in a POPC membrane.
+
+381 382 383 384 385 386 387 388 389 390
+
+UN
+
+formation energetics--and thus the covalent "interaction" of the proton and the site would be neglected. (In principle, the computation of Gp would require DFT or similar ab initio methods. This approach, however, is not realistically applicable to a molecular system of the dimensions of the c-ring--unless other approximations were made e.g. artefactual discontinuities in the energy function. Even then, the statistical significance of the results would be comparatively much poorer.) Nevertheless, for our purpose the classical approach remains valid, as the quantity of interest is the relative selectivity, Gsel, between, say, a site of wild-type sequence composition and a mutated one,
+
+RR
+
+EC
+
+TE
+
+DP
+Gsel = Gsel ðMUTÞ-Gsel ðWTÞGp
+391 392 393 394 395 396 397 398 399 400
+classical
+
+RO
+The assumption made here is that it is possible to separate the quantum-mechanical contribution to Gp arising from the energy of the chemical H+ bond (or intrinsic), and that from the amino-acid composition and structure of the site (or contextual). As the former is by definition inherent to the carboxylate group, it can be safely assumed that its contribution to Gp is negligible. The change in selectivity upon mutation thus arises from the different contextual influence of the sequence and structure of the site (via electrostatics, steric constraints, etc.), which is in principle captured by the classical forcefield. Under this general framework, we have calculated the relative H+/ Na+ binding selectivities of the wild type c11 and c15 rings, and of the mutated sites described for each in the previous section. The results are presented in Fig. 6. Our calculations demonstrate, first, how the c15 ring from S. platensis is­as required physiologically­much more highly selective for H+ than the c11 ring from I. tartaricus, by about 16 kcal/mol, or about 10 orders of magnitude in terms of the binding affinity. Second, our comparative analysis of the wild-type and mutated sites demonstrates that it is through the substitution of hydrophobic groups by polar ones that an increased Na+ selectivity may be accomplished in these structures. For example, the A63S mutation in the c15 rotor reduces its H+ selectivity against Na+ by about 9 kcal/mol; conversely the S66A mutation in the c11 ring increases its proton-binding propensity by about 5 kcal/mol, consistent with the impaired Na+ binding capacity shown for this mutant [34]. Additional hydrophobic substitutions in this rotor further reduce its affinity for Na+ but not H+; e.g. T67L, which removes the bound structural water molecule, has a comparable effect to S66A. The double mutant S66A/T67L is in its sequence composition identical to the wild-type c15 rotor, and accordingly it is very highly H+ selective, despite the fact that the size
+401 402 403 404 405 406 407 408 409 410 411 412 413 414 415 416 417 418 419 420 421 422
+
+Please cite this article as: A. Krah, et al., Structural and energetic basis for H+ versus Na+ binding selectivity in ATP synthase Fo rotors, Biochim. Biophys. Acta (2010), doi:10.1016/j.bbabio.2010.04.014
+
+CO
+
+OF
+
+ARTICLE IN PRESS
+8 A. Krah et al. / Biochimica et Biophysica Acta xxx (2010) xxx­xxx
+
+Fig. 5. Binding-site structures of wild type and mutant c15 and c11 rotors, with a Na+ ion bound. The structures shown are representative of the most probable interaction network observed during molecular dynamics simulations of each c-ring in a POPC membrane. Note that the relative thermodynamic stability of the Na+-bound states relative to the H+bound states is not assessed in these simulations (see Fig. 6 instead).
+
+UN CO R
+
+423 424 425 426 427 428 429 430 431 432 433 434 435 436 437 438 439 440 441 442 443 444
+
+of this mutated site can perfectly accommodate a Na+ ion. That is not to say that size is irrelevant; in fact, the more size-restricted S66A/T67I mutant is also more H+ selective than S66A/T67L, and only slightly less so than the wild-type c15 ring itself. Lastly, we have also considered the Y70F mutation in the c11 rotor. This is the only binding-site c11 mutant for which experimental data pertaining to H+/Na+ competition is available to date [34]--therefore it represents a good control system for our theoretical analysis. As shown in Figs. 5a and 4c, Y70 is only indirectly involved in the ion-binding site through its interaction with E65, both in the Na+ and H+ bound states. The strength of this H-bonding interaction, however, can be expected to be stronger in the Na+ bound state because the carboxylate group is charged; in other words, its stabilizing role is more energetically prominent in the Na+ bound state than the H+ state. Accordingly, the Yto-F transformation is about 4 kcal/mol more unfavorable in the Na+ bound state; the corresponding change in selectivity upon mutation, computed as for the other mutants, is in good agreement with this figure (Fig. 6; note that ideally these values should be identical), i.e. the Y70F mutant is more H+ selective than the wild type. Most importantly, these results are consistent with the experimental observation that the pH profile of DCCD labeling shifts by 2­3 units (3­4 kcal/mol) in Y70F relative to wild type, under equal Na+ concentrations [34].
+
+RE C
+
+TE
+
+DP
+4. Discussion
+445
+
+In this report we have first established the distinct ion-binding 446 selectivity of the c-subunit rotors of the F-type ATP synthases from 447 Ilyobacter tartaricus and Spirulina platensis, using a comparative, 448
+
+Fig. 6. Free energy of selectivity for H+ and against Na+ in the c15 and c11 rings, as a function of the hydrophobicity/hydrophilicity/size of the ion first-coordination shell in the c-subunit binding sites. All values are relative to the wild-type c11 ring. The change in selectivity upon Y70F mutation in the c11 site is shown as experimental control (see Results).
+
+Please cite this article as: A. Krah, et al., Structural and energetic basis for H+ versus Na+ binding selectivity in ATP synthase Fo rotors, Biochim. Biophys. Acta (2010), doi:10.1016/j.bbabio.2010.04.014
+
+RO
+
+OF
+
+ARTICLE IN PRESS
+A. Krah et al. / Biochimica et Biophysica Acta xxx (2010) xxx­xxx 9
+
+449 450 451 452 453 454 455 456 457 458 459 460 461 462 463 464 465 466 467 468 469 470 471 472 473 474 475 476 477 478 479 480 481 482 483 484 485 486 487 488 489 490 491 492 493 494 495 496 497 498 499 500 501 502 503 504 505 506 507 508 509 510 511 512 513 514
+
+quantitative assay of DCCD modification under varied pH and salt concentrations. DCCD modification is a non-reversible reaction that occurs when the carboxylate group of E65/62 is protonated, while in the presence of Na+ the charged E65/62 would not react. Thus, although this approach precludes a direct estimation of relative binding equilibrium constants (as well as pKa values), it is a well-established means to demonstrate the competition of protons and Na+ ions for a given binding site [43,47­49]. In our case, the observation that a 109 excess of Na+ over H+ provided no significant inhibition of DCCD-labeling of the c15 rotor ring from S. platensis allows us to conclude that the H+ selectivity of this rotor is very pronounced, i.e. in the order of 13 kcal/mol or greater. This lower-bound estimate is consistent with proton-current measurements mediated by the c-rings of Rhodobacter capsulatus [50]; for comparison, it is worth noting that the binding selectivity of most K+ channels against Na+ is about 5 kcal/mol, or 1,000-fold [51­53]. The extreme proton specificity of the c15 rotor is in clear contrast to the c11 ring from I. tartaricus, the labeling of which can be readily inhibited by excess Na+. Nonetheless, the large extent to which the c11 rotor can be DCCD-modified under equal concentrations of H+ and Na+ indicates that this ring is­strictly speaking­also H+ selective, albeit much more weakly. This conclusion is consistent with a previous electrophysiological study of a highly homologous c11 rotor (from Propionigenium modestum), liposome-reconstituted along with the accessory subunit-a [33,54]. Specifically, Kluge et al. [33,54] showed that this rotor facilitates transmembrane H+ exchange maximally when no NaCl was added to the preparation--it should be noted, though, that residual Na+ is inevitably in the order of 10 M, i.e. a non-negligible 100fold excess over H+, at pH 7. The observation of marked H+ transport under these conditions therefore demonstrates that this rotor may be either weakly or strongly H+ selective, but certainly not Na+ selective. In addition, the measurements showed that a 10,000-fold concentration excess of Na+ was required to "completely abolish" H+ transport (see also [17,55] for analogous results with holo ATP synthases from P. modestum and I. tartaricus, respectively). Consistent with our DCCD labeling measurements, this second observation implies that the H+ selectivity of the c11 ring is rather weak, compared with the c15 rotor, i.e. probably 10 to 100-fold, or 2­3 kcal/mol. A similarly weak H+ selectivity (3-fold) has been recently measured for the K10 ring of the Na+-coupled V-type ATPase from Enterococcus hirae [56]. Under typical physiological settings, the concentration of free Na+ greatly exceeds that of protons (10­500 mM vs. pH 4­10). That is to say, ATP synthases whose rotors are non-selective or weakly H+ selective will be functionally coupled to Na+. From a physico-chemical standpoint, however, the presence of a conserved carboxylate group (mostly E, occasionally D) at the binding site imposes a strong bias towards H+ selectivity a priori. This is clear from the fact that in aqueous solution, the intrinsic H+ affinity of a glutamate side chain (reflected by its pKa) is about 100 M, while the extent to which it binds Na+ is negligible (monosodium glutamate is a common dissociable salt). Structurally, therefore, a general principle would be that a protein binding site whose energetics is dominated by a carboxylate group will be strongly H+ selective. To weaken this propensity, other chemical groups must be brought together so that they can contribute to the coordination of a non-covalently bound ion such as Na+. By contrast, a more hydrophobic environment, possibly but not necessarily also restricted in size, would strengthen the H+ selectivity of the site to the extreme degree observed e.g. in the c15 rotor. Our computational analysis of the structure and dynamics of the c11 and c15 rotors, as well as of the in silico mutants thereof, is clearly consistent with this general principle. The free-energy calculations clearly demonstrate the emergence of H+ selectivity as polar groups (able to co-coordinate Na+) are gradually substituted by hydrophobic ones (which cannot), i.e. as the energetic prominence of the key glutamate side chain is further enhanced by the uncompensated cost incurred by the desolvation of the Na+ ion. We have also shown that while the restricted size of the binding site can be a contributing factor for
+
+UN
+
+H+ selectivity (see c11 T67L vs. T67I vs. c15 WT), it is not essential--i.e. a binding site with ample space for Na+ binding will be nonetheless highly H+ selective if it is dominated by the carboxylate group, especially in a hydrophobic environment. Such a spacious site is not observed in the c15 ring, but it is likely to be observed in other H+-selective rotors with different c-subunit stoichiometries or staggering of the transmembrane helices. Likewise, the strong selectivity of the c15 ring may be surpassed by other rotors, such as those in many bacterial species and all eukaryotic mitochondria (animals, plants and fungi), where the ion-binding motif is apparently limited to the conserved E/D carboxylate, and possibly backbone carbonyl groups. The c11 rings from I. tartaricus and P. modestum probably lie at the other side of the selectivity spectrum, as they bring together up to four coordinating Na+ ligands in addition to the key glutamate; whether their H+ selectivity can be weakened further, by additional or more polar ligands remains to be elucidated. In any case, the role of these additional protein ligands as effective "inhibitors" of the baseline H+ selectivity of the c-subunit can be clearly inferred from the observation that E. coli c-rings, mutagenized so as to resemble in part those of P. modestum, are indeed able to bind Li+ ions [57]. An interesting observation emerging from the simulations of the c11 and c15 rings is the structural plasticity of the binding sites. For example, it is remarkable that despite their very different stoichiometry and distinct c-subunit structure and packing, both rotors may adopt identical interaction networks for the same ligand and similar sequence. This similarity is especially clear when comparing the H+ bound states of the c11 S66A/T67L double mutant and the wild-type c15 ring. The distinct interaction observed in the latter between E62 and the backbone of F60, i.e., between adjacent subunits, may not have been anticipated for the c11 ring, because the greater kink of its outer helix makes the equivalent carbonyl (of V63) more distant. However, the simulations clearly show that the glutamate side chain (E65) can accommodate this difference and form an identical interaction in the H+ bound c11 ring, if no other competing interactions are possible. Instead, it appears that it is the side chain of S66 (or A63 in the c15 ring) that controls whether the protonated glutamate will hydrogen-bond to the carbonyl or not; consistently, in the c15 A63S mutant, the side-chain hydroxyl group is the hydrogen-bond acceptor of E62 (as in the wild-type c11 ring), and the donor of the F60 backbone carbonyl. Indeed, this serine is present in many protoncoupled rotors; we anticipate that its role in H+ coordination in these rings will be similar to that uncovered here. In view of the hypothesis that the SMF preceded the PMF during evolution [19], it seems paradoxical that the emergence of more H+ selective ATP-synthase rotors appears to have entailed a simplification of the ion-coordination chemistry in the binding site. However, as has been noted elsewhere [20], the emergence of PMF-based bioenergetics necessarily entailed the introduction of greater complexity in the structure of cellular membranes, with different organisms arriving at very different proton-impermeable solutions. Nonetheless, it is also worth noting that, as Fig. 6 suggests, a single substitution in a c-subunit binding site may in some cases be sufficient to transform a moderately but clearly H+ selective ring into one that could be coupled to Na+ in a physiological setting, and vice versa (e.g. c11 T67L or S66A to WT). It is thus conceivable that the evolutionary adaptation between the SMF and PMF has not been strictly unidirectional across all life forms. At any rate, we speculate that other membrane­protein systems selectively coupled to H+ or Na+-exchange may have followed similar principles as those outlined in this work.
+
+515 516 517 518 519 520 521 522 523 524 525 526 527 528 529 530 531 532 533 534 535 536 537 538 539 540 541 542 543 544 545 546 547 548 549 550 551 552 553 554 555 556 557 558 559 560 561 562 563 564 565 566 567 568 569 570 571
+
+CO
+
+RR
+
+EC
+
+TE
+
+DP
+Acknowledgements
+
+RO
+
+OF
+
+572 573 574 575 576 577
+
+We are thankful to Lucy Forrest for helpful discussions and for reviewing this manuscript, and to Hartmut Michel for his comments on this work. This work was supported by the ESFRI INSTRUCT program of the European Union and the BMBF (Core Center G). Funding derived in part from the the DFG Cluster of Excellence "Macromolecular
+
+Please cite this article as: A. Krah, et al., Structural and energetic basis for H+ versus Na+ binding selectivity in ATP synthase Fo rotors, Biochim. Biophys. Acta (2010), doi:10.1016/j.bbabio.2010.04.014
+
+ARTICLE IN PRESS
+10 A. Krah et al. / Biochimica et Biophysica Acta xxx (2010) xxx­xxx [31] P.W. Fowler, K.H. Tai, M.S.P. Sansom, The selectivity of K+ ion channels: testing the hypotheses, Biophys. J. 95 (2008) 5062­5072. [32] D. Pogoryelov, J. Yu, T. Meier, J. Vonck, P. Dimroth, D.J. Muller, The c15 ring of the Spirulina platensis F-ATP synthase: F1/Fo symmetry mismatch is not obligatory, EMBO Rep. 6 (2005) 1040­1044. [33] T. Meier, U. Matthey, C. von Ballmoos, J. Vonck, T.K. von Nidda, W. Kuhlbrandt, P. Dimroth, Evidence for structural integrity in the undecameric c-rings isolated from sodium ATP synthases, J. Mol. Biol. 325 (2003) 389­397. [34] C. von Ballmoos, P. Dimroth, Two distinct proton binding sites in the ATP synthase family, Biochemistry 46 (2007) 11800­11809. [35] J.C. Phillips, R. Braun, W. Wang, J. Gumbart, E. Tajkhorshid, E. Villa, C. Chipot, R.D. Skeel, L. Kale, K. Schulten, Scalable molecular dynamics with NAMD, J. Comput. Chem. 26 (2005) 1781­1802. [36] N. Kucerka, S. Tristram-Nagle, J.F. Nagle, Structure of fully hydrated fluid phase lipid bilayers with monounsaturated chains, J. Mol. Biol. 208 (2005) 193­202. [37] J.D. Faraldo-Gómez, G.R. Smith, M.S. Sansom, Setting up and optimization of membrane protein simulations, Eur. Biophys. J. 31 (2002) 217­227. [38] A. Krah, D. Pogoryelov, T. Meier, J.D. Faraldo-Gómez, On the structure of the proton-binding site in the Fo rotor of chloroplast ATP synthases, J. Mol. Biol. (2010) in press. [39] A.D. MacKerell, D. Bashford, M. Bellott, R.L. Dunbrack, J.D. Evanseck, M.J. Field, S. Fischer, J. Gao, H. Guo, S. Ha, D. Joseph-McCarthy, L. Kuchnir, K. Kuczera, F.T.K. Lau, C. Mattos, S. Michnick, T. Ngo, D.T. Nguyen, B. Prodhom, W.E. Reiher, B. Roux, M. Schlenkrich, J.C. Smith, R. Stote, J. Straub, M. Watanabe, J. Wiorkiewicz-Kuczera, D. Yin, M. Karplus, All-atom empirical potential for molecular modeling and dynamics studies of proteins, J. Phys. Chem. B 102 (1998) 3586­3616. [40] A.D. MacKerell, M. Feig, C.L. Brooks, Extending the treatment of backbone energetics in protein force fields: limitations of gas-phase quantum mechanics in reproducing protein conformational distributions in molecular dynamics simulations, J. Comput. Chem. 25 (2004) 1400­1415. [41] H.G. Khorana, The chemistry of carbodiimides, Chem. Rev. 53 (1953) 145­166. [42] W. Sebald, W. Machleidt, E. Wachter, N, N'-Dicyclohexylcarbodiimide binds specfically to a single glutamyl residue of the proteolipid subunit of the mitochondrial adenosine-triphosphatases from Neurospora crassa and Saccharomyces cerevisae, Proc. Natl Acad. Sci. U. S. A. 77 (1980) 785­789. [43] C. Kluge, P. Dimroth, Specific protection by Na+ or Li+ of the F1Fo ATPase of Propionigenium modestum from the reaction with dicyclohexylcarbodiimide, J. Biol. Chem. 268 (1993) 14557­14560. [44] D. Pogoryelov, Y. Nikolaev, U. Schattner, K. Pervushin, P. Dimroth, T. Meier, Probing the rotor subunit interface of the ATP synthase from Ilyobacter tartaricus, FEBS J. 275 (2008) 4850­4862. [45] S.Y. Noskov, B. Roux, Control of ion selectivity in LeuT: Two Na+ binding sites with two different mechanisms, J. Mol. Biol. 377 (2008) 804­818. [46] S.Y. Noskov, S. Berneche, B. Roux, Control of ion selectivity in potassium channels by electrostatic and dynamic properties of carbonyl ligands, Nature 431 (2004) 830­834. [47] M. Spruth, J. Reidlinger, V. Muller, Sodium-ion dependence of inhibition of the Na+ translocating F1Fo-ATPase from Acetobacterium woodii-probing the site(s) involved in ion transport, Biochim. Biophys. Acta 1229 (1995) 96­102. [48] R. Goldshleger, D.M. Tal, J. Moorman, W.D. Stein, S.J.D. Karlish, Chemical modification of Glu-953 of the alpha-chain of Na+, K+-ATPase associated with inactivation of cation occlusion, Proc. Natl Acad. Sci. USA 89 (1992) 6911­6915. [49] T. Murata, K. Takase, I. Yamato, K. Igarashi, Y. Kakinuma, Properties of the VoV1 Na+ATPase from Enterococcus hirae and its Vo moiety, J. Biochem. 125 (1999) 414­421. [50] B.A. Feniouk, M.A. Kozlova, D.A. Knorre, D.A. Cherepanov, A.Y. Mulkidjanian, W. Junge, The proton-driven rotor of ATP synthase: ohmic conductance (10 fS), and absence of voltage gating, Biophys. J. 86 (2004) 4094­4109. [51] C.M. Nimigean, C. Miller, Na+ block and permeation in a K+ channel of known structure, J. Gen. Physiol. 120 (2002) 323­335. [52] M. LeMasurier, L. Heginbotham, C. Miller, KcsA: it's a potassium channel, J. Gen. Physiol. 118 (2001) 303­313. [53] L. Heginbotham, R. Mackinnon, Conduction properties of cloned Shaker K+ channel, Biophys. J. 65 (1993) 2089­2096. [54] C. Kluge, P. Dimroth, Studies on Na+ and H+ translocation through the Fo part of the Na+-translocating F1Fo ATPase from Propionigenium modestum - discovery of a membrane-potential dependent step, Biochemistry 31 (1992) 12665­12672. [55] W. Laubinger, P. Dimroth, The sodium-ion translocating adenosine-triphosphatase of Propionigenium modestum pumps protons at low sodium-ion concentrations, Biochemistry 28 (1989) 7194­7198. [56] T. Murata, I. Yamato, Y. Kakinuma, M. Shirouzu, J.E. Walker, S. Yokoyama, S. Iwata, Ion binding and selectivity of the rotor ring of the Na+-transporting V-ATPase, Proc. Natl Acad. Sci. U. S. A. 105 (2008) 8607­8612. [57] Y. Zhang, R.H. Fillingame, Changing the ion binding specificity of the Escherichia coli H+-transporting ATP synthase by directed mutagenesis of subunit c, J. Biol. Chem. 270 (1995) 87­93.
+
+578 579 580 581 582 583 584 585 586 587 588 589 590 591 592 593 594 595 596 597 598 599 600 601 602 603 604 605 606 607 608 609 610 611 612 613 614 615 616 617 618 619 620 621 622 623 624 625 626 627 628 629 630 631 632 633 634 635 636 637 638 639 640 641 642 643 644 645 646 647 648 724
+
+Complexes," and from an EMBO long-term fellowship (PJB). Computational resources were provided in part by the Juelich Supercomputer Center. References
+[1] J.P. Abrahams, A.G.W. Leslie, R. Lutter, J.E. Walker, Structure at 2.8-Å resolution of F1-ATPase from bovine heart-mitochondria, Nature 370 (1994) 621­628. [2] P.D. Boyer, The binding change mechanism for ATP synthase--some probabilities and possibilities, Biochim. Biophys. Acta 1140 (1993) 215­250. [3] S.B. Vik, B.J. Antonio, A mechanism of proton translocation by F1Fo ATP synthases suggested by double mutants of the a subunit, J. Biol. Chem. 269 (1994) 30364­30369. [4] W. Junge, H. Lill, S. Engelbrecht, ATP synthase: an electrochemical transducer with rotary mechanics, TIBS 22 (1997) 420­423. [5] T. Elston, H.Y. Wang, G. Oster, Energy transduction in ATP synthase, Nature 391 (1998) 510­513. [6] H. Noji, R. Yasuda, M. Yoshida, K. Kinosita, Direct observation of the rotation of F1-ATPase, Nature 386 (1997) 299­302. [7] D. Sabbert, S. Engelbrecht, W. Junge, Intersubunit rotation in active F-ATPase, Nature 381 (1996) 623­625. [8] H. Itoh, A. Takahashi, K. Adachi, H. Noji, R. Yasuda, M. Yoshida, K. Kinosita, Mechanically driven ATP synthesis by F1-ATPase, Nature 427 (2004) 465­468. [9] J. Weber, A.E. Senior, ATP synthesis driven by proton transport in F1Fo-ATP synthase, FEBS Lett. 545 (2003) 61­70. [10] P. Dimroth, C. von Ballmoos, T. Meier, Catalytic and mechanical cycles in F-ATP synthase, EMBO Rep. 7 (2006) 276­282. [11] W. Junge, H. Sielaff, S. Engelbrecht, Torque generation and elastic power transmission in the rotary FoF1-ATPase, Nature 459 (2009) 364­370. [12] D. Stock, C. Gibbons, I. Arechaga, A.G.W. Leslie, J.E. Walker, The rotary mechanism of ATP synthase, Curr. Opin. Struct. Biol. 10 (2000) 672­679. [13] P.D. Boyer, The ATP synthase--a splendid molecular machine, Annu. Rev. Biochem. 66 (1997) 717­749. [14] M. Yoshida, E. Muneyuki, T. Hisabori, ATP synthase: a marvelous rotary engine of the cell, Nat. Rev. Mol. Cell Biol. 2 (2001) 669­677. [15] P. Mitchell, in: M. Florkin, E.H. Stotz (Eds.), Comprehensive Biochemistry, vol. 22, Elsevier, Amsterdam, 1967, pp. 167­197. [16] W. Laubinger, P. Dimroth, Characterization of the Na+-stimulated ATPase of Propionigenium modestum as an enzyme of the F1Fo type, Eur. J. Biochem. 168 (1987) 475­480. [17] S. Neumann, U. Matthey, G. Kaim, P. Dimroth, Purification and properties of the F1Fo ATPase of Ilyobacter tartaricus, a sodium ion pump, J. Bacteriol. 180 (1998) 3312­3316. [18] J. Reidlinger, V. Muller, Purification of ATP synthase from Acetobacterium woodii and identification as a Na+-translocating F1Fo-type enzyme, Eur. J. Biochem. 223 (1994) 275­283. [19] A.Y. Mulkidjanian, M.Y. Galperin, K.S. Makarova, Y.I. Wolf, E.V. Koonin, Evolutionary primacy of sodium bioenergetics, Biol. Direct 3 (2008) 13­32. [20] A.Y. Mulkidjanian, P. Dibrov, M.Y. Galperin, The past and present of sodium energetics: may the sodium-motive force be with you, Biochim. Biophys. Acta 1777 (2008) 985­992. [21] T. Meier, P. Polzer, K. Diederichs, W. Welte, P. Dimroth, Structure of the rotor ring of F-type Na+-ATPase from Ilyobacter tartaricus, Science 308 (2005) 659­662. [22] T. Meier, A. Krah, P.J. Bond, D. Pogoryelov, K. Diederichs, J.D. Faraldo-Gómez, Complete ion-coordination structure in the rotor ring of Na+-dependent F-ATP Synthases, J. Mol. Biol. 391 (2009) 498­507. [23] D. Pogoryelov, Ö. Yidiz, J.D. Faraldo-Gómez, T. Meier, High-resolution structure of the rotor ring of a proton dependent ATP synthase, Nat. Struct. Mol. Biol. 16 (2009) 1068­1073. [24] S.Y. Noskov, B. Roux, Ion selectivity in potassium channels, Biophys. Chem. 124 (2006) 279­291. [25] S.W. Lockless, M. Zhou, R. MacKinnon, Structural and thermodynamic properties of selective ion binding in a K+ channel, PLOS Biol. 5 (2007) 1079­1088. [26] D.L. Bostick, C.L. Brooks, Statistical determinants of selective ionic complexation: ions in solvent, transport proteins, and other hosts, Biophys. J. 96 (2009) 4470­4492. [27] S. Varma, D. Sabo, S.B. Rempe, K+/Na+ selectivity in K channels and valinomycin: over-coordination versus cavity-size constraints, J. Mol. Biol. 376 (2008) 13­22. [28] D. Asthagiri, P.D. Dixit, S. Merchant, M.E. Paulaitis, L.R. Pratt, S.B. Rempe, S. Varma, Ion selectivity from local configurations of ligands in solutions and ion channels, Chem. Phys. Lett. 485 (2010) 1­7. [29] H.B. Yu, S.Y. Noskov, B. Roux, Hydration number, topological control, and ion selectivity, J. Phys. Chem. B 113 (2009) 8725­8730. [30] E. Gouaux, R. MacKinnon, Principles of selective ion transport in channels and pumps, Science 310 (2005) 1461­1465.
+
+Please cite this article as: A. Krah, et al., Structural and energetic basis for H+ versus Na+ binding selectivity in ATP synthase Fo rotors, Biochim. Biophys. Acta (2010), doi:10.1016/j.bbabio.2010.04.014
+
+UN CO R
+
+649 650 651 652 653 654 655 656 657 658 659 660 661 662 663 664 665 666 667 668 669 670 671 672 673 674 675 676 677 678 679 680 681 682 683 684 685 686 687 688 689 690 691 692 693 694 695 696 697 698 699 700 701 702 703 704 705 706 707 708 709 710 711 712 713 714 715 716 717 718 719 720 721 722 723
+
+RE C
+
+TE
+
+DP
+
+RO
+
+OF
+
+

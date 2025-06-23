@@ -1,0 +1,276 @@
+Structural and functional consequences of single amino acid substitutions in the pyrimidine base binding pocket of Escherichia coli CMP kinase
+Augustin Ofiteru1, Nadia Bucurenci1, Emil Alexov2, Thomas Bertrand3,*, Pierre Briozzo3, ´ ` Helene Munier-Lehmann4 and Anne-Marie Gilles5
+1 2 3 4 5 Laboratory of Enzymology and Applied Microbiology, Cantacuzino Institute, Bucharest, Romania Department of Physics and Astronomy, Clemson University, SC, USA UMR INRA-AgroParisTech 206 de Chimie Biologique, Institut National Agronomique Paris-Grignon, Thiverval-Grignon, France ´ Unite de Chimie Organique, Institut Pasteur, Paris, France ´ ´ ´ ´ ´ Unite de Genetique des Genomes Bacteriens, Institut Pasteur, Paris, France
+
+Keywords CMP kinase; nucleobase specificity; protein stability; site-directed mutagenesis; X-ray crystallography Correspondence ´ ´ ´ A.-M. Gilles, Unite de Genetique des ´ ´ Genomes Bacteriens, Institut Pasteur, 28, rue du docteur Roux, 75724 Paris, France Fax: +33 1 45 68 89 48 Tel: +33 1 45 68 89 68 E-mail: amgilles@pasteur.fr *Present address Sanofi-Aventis Chemical Sciences, Vitry-surSeine, France (Received 5 February 2007, revised 2 May 2007, accepted 7 May 2007) doi:10.1111/j.1742-4658.2007.05870.x
+
+Bacterial CMP kinases are specific for CMP and dCMP, whereas the related eukaryotic NMP kinase phosphorylates CMP and UMP with similar efficiency. To explain these differences in structural terms, we investigated the contribution of four key amino acids interacting with the pyrimidine ring of CMP (Ser36, Asp132, Arg110 and Arg188) to the stability, catalysis and substrate specificity of Escherichia coli CMP kinase. In contrast to eukaryotic UMP / CMP kinases, which interact with the nucleobase via one or two water molecules, bacterial CMP kinase has a narrower NMP-binding pocket and a hydrogen-bonding network involving the pyrimidine moiety specific for the cytosine nucleobase. The side chains of Arg110 and Ser36 cannot establish hydrogen bonds with UMP, and their substitution by hydrophobic amino acids simultaneously affects the Km of CMP / dCMP and the kcat value. Substitution of Ser for Asp132 results in a moderate decrease in stability without significant changes in Km value for CMP and dCMP. Replacement of Arg188 with Met does not affect enzyme stability but dramatically decreases the kcat / Km ratio compared with wild-type enzyme. This effect might be explained by opening of the enzyme / nucleotide complex, so that the sugar no longer interacts with Asp185. The reaction rate for different modified CMP kinases with ATP as a variable substrate indicated that none of changes induced by these amino acid substitutions was `propagated' to the ATP subsite. This `modular' behavior of E. coli CMP kinase is unique in comparison with other NMP kinases.
+
+NMP kinases are key enzymes in the biosynthesis and regeneration of ribo- and deoxyribonucleoside triphosphates [1]. They also participate in the activation of prodrugs such as AZT or acyclovir which are mainly used to treat cancer or viral infection [2]. They catalyse reversible transfer of the c-phosphoryl group from a nucleoside triphosphate, generally ATP, to a
+
+particular nucleoside monophosphate according to the scheme: Mg.ATP + NMP « Mg.ADP + NDP. Although NMP kinases from different species are well conserved in terms of both sequence and 3D structure, variations in their substrate specificity [3­5] or quaternary structure [6­11] are frequently observed. In eukaryotes, phosphorylation of UMP and CMP is
+
+Abbreviations AK, adenylate kinase; AK1, muscle cytosolic adenylate kinase; MCCE, multi-conformation continuum electrostatic.
+
+FEBS Journal 274 (2007) 3363­3373 ª 2007 The Authors Journal compilation ª 2007 FEBS
+
+3363
+
+Substrate specificity of E. coli CMP kinase
+
+A. Ofiteru et al.
+
+accomplished by a single enzyme [12­14]. In prokaryotes, there are distinct NMP kinases for each pyrimidine nucleotide: CMP / dCMP, UMP and TMP. Bacterial CMP kinases (EC 2.7.4.14) conserve the three-domain overall fold of eukaryotic UMP / CMP kinases (EC 2.7.4.14): the central parallel b-sheet together with surrounding a-helices, defined as the CORE domain, is conserved in NMP kinases. It is used as a rigid platform around which the short a-helical LID domain, situated in the C-terminal moiety, and the NMP-binding (NMPbind) domain move in an induced-fit mechanism, closing upon binding of the phosphate donor and acceptor nucleotides, respectively [15]. The crystal structure of Escherichia coli CMP kinase, either alone or in complex with the reaction product CDP or various NMPs (CMP, dCMP, AraCMP and ddCMP), underlined the residues involved in recognition of the nucleobase, pentose moiety and phosphate group(s) [15], and site-directed mutagenesis experiments have further confirmed the role of Ser101,
+
+Arg181 and Asp185 in pentose recognition [16]. However, the main difference between eukaryotic and bacterial NMP kinases concerns the recognition of pyrimidine nucleotides. The structure of E. coli CMP kinase in complex with CMP or dCMP showed that discrimination between CMP and UMP is achieved by Ser36, Arg110 and Asp132, which form hydrogen bonds with the amino group and the N3 atom of the cytosine (Fig. 1). This study uses site-directed mutagenesis to further explore the contribution of these amino acids interacting with the pyrimidine ring to the catalysis of E. coli CMP kinase. Substitution of the side chain from a well-structured protein can have two types of consequence: (a) a purely localized effect of binding due to removal of a specific interaction between the enzyme and its substrate; (b) a more global effect due to subtle or gross changes in enzyme conformation. Therefore, our study was completed using numerical calculations to better emphasize the role of each of these residues on protein stability. The results highlight the importance of the hydrogen-
+
+HO P O HO O O N O N
+
+HO P O HO O O N O NH
+
+NH2
+
+O
+
+HO
+
+OH
+
+HO
+
+OH
+
+CMP
+
+UMP D129
+
+O O3'
+
+CMP
+
+OG N4
+
+S3
+
+D185 O2' O2 N3 D132 R188 R110
+
+Fig. 1. Comparative structures of CMP and UMP, and interactions between the cytosine moiety of nucleotide and various side chains of wild-type CMP kinase. (Upper) Chemical differences between CMP and UMP are indicated in red. (Lower) Hydrogen bonds are indicated with green dots, carbon atoms being indicated in grey (enzyme) or yellow (nucleotide). D185, a residue close to R188 and involved in ribose binding is also shown. Drawn using PYMOL [41].
+
+3364
+
+FEBS Journal 274 (2007) 3363­3373 ª 2007 The Authors Journal compilation ª 2007 FEBS
+
+A. Ofiteru et al.
+
+Substrate specificity of E. coli CMP kinase
+
+binding network surrounding the cytosine moiety in the specificity of the enzyme for the acceptor nucleotide. Because this specificity is characteristic of bacterial CMP kinases, these enzymes represent possible targets for antibacterial drugs [17].
+
+Results
+Overproduction and molecular characterization of the modified variants of E. coli CMP kinase The wild-type and various modified forms (S36A, R110M, D132A, D132H, D132N, D132S and R188M) of E. coli CMP kinase overproduced in strain BL21(DE3) represented between 25 and 30% of soluble E. coli proteins. Recombinant enzymes adsorbed onto a Blue-Sepharose column equilibrated with 50 mm Tris / HCl pH 7.4, were then eluted with 1 m NaCl. In the case of the D132S mutant, higher NaCl concentrations (2 m) were required for complete elution of the protein. Gel permeation chromatography on Ultrogel AcA54 yielded pure enzymes, which according to appropriate markers corresponded to monomers. After prolonged dialysis against ammonium bicarbonate a small proportion of dimers were formed, even in the case of the wild-type protein as indicated by ESI-MS or SDS / PAGE in the absence of reducing agents. The proportion of dimers increased notably in D132A and D132S mutants. Thermal denaturation experiments, summarized in Table 1, indicated that S36A and R188M substitutions did not affect protein stability, Tm (melting temperature) values being identical or very close to that of the native enzyme. Other substitutions (D132S, D132N and D132H) led to a moderate decrease in stability, lowering Tm by 4­5 °C compared with the wild-type protein. The last group includes amino acid substitutions (D132A and R110M) that noticeably lowered the stability of CMP kinase.
+
+Limited proteolysis experiments did not detect significant differences between wild-type CMP kinase and its variants. The first-order rate constant of inactivation by TPCK-trypsin at 4 °C was found to be around 3 · 10)3Æs)1. Addition of ATP protected all modified CMP kinases, decreasing the first-order rate constant of inactivation by a factor of 5­10 (data not shown). Effect of charge alterations on protein stability Because all mutations altered the protein charge, we evaluated their potential effect with numerical calculations using the CMP / CMP kinase model (PDB code 1kdo) for each of the sites selected for site-directed mutagenesis (Table 1). Numerical calculations showed that S36 is not involved in significant interactions with the side chains of its neighbouring protein residues. By contrast, S36 forms a strong hydrogen bond with the backbone of D129. However, the favourable energy of the hydrogen bond is almost completely cancelled out by the desolvation penalty of S36. Thus, its replacement by Ala is not expected to change the protein stability. In the wild-type protein, R188 is involved in saltbridge with D185 and in many other interactions with neighbouring residues such as R110, D132. Despite this complicated network of interactions, R188M substitution does not have a significant effect on the experimentally measured protein stability. However, calculations using the multi-conformation continuum electrostatic (MCCE) method for the ionization states of native and R188M-modified structures revealed a major difference. In the absence of R188, D185 is calculated to be neutral (protonated). Thus, by turning off both charges (of R188 and D185), the protein reduces the effect of amino acid substitution on enzyme stability to almost zero. This a typical example of charge rearrangement caused by an amino acid substitution. In the wild-type enzyme, D132 is also involved in a complicated network of interactions, the strongest being with R110. The energy balance in wild-type CMP kinase shows that D132 contributes to the stability by )37.7 kJ. Thus, replacing this residue with Ser, Ala or His should have a significant effect on stability, depending on the substituting residue. MCCE calculations showed that in all modified forms of CMP kinase the R110 side chain reorients and becomes more exposed to the solution. This reduces the energy cost of the mutation. No change in the ionization states was found to be induced by the mutation. However, the D132H variant does not introduce charge reversal, because His is calculated to be deprotonated (neutral)
+3365
+
+Table 1. Thermal stability of E. coli CMP kinase variants (Tm) and calculated stability changes (DDG) upon amino acid substitution with respect to the energy of the wild-type enzyme. Enzyme Wild-type S36A D132S D132A D132N D132H R110M R188M Tm (°C) 52 52 48 43 47 48 45 51 DDG (kJ) ­ 0 33.1 37.7 29.7 13.0 55.3 0
+
++ + + + +
+
+FEBS Journal 274 (2007) 3363­3373 ª 2007 The Authors Journal compilation ª 2007 FEBS
+
+Substrate specificity of E. coli CMP kinase
+
+A. Ofiteru et al.
+
+in modified CMP kinase. Thus, the three variants D132S, D132N and D132H result in replacement of a negatively charged residue with a polar residue. Each of the substituting residues is involved in favourable interactions with its neighbours and thus further reduces the effect of the mutation. This is why D132A substitution has the largest effect on stability. The side chain of Ala, located in a very hydrophilic environment does not have favourable energy and further destabilizes the mutant. R110 is involved in many interactions but, as shown previously, its major partner is D132. Removal of R110 leaves D132 without the favourable pairwise energy but D132 is calculated to be still ionized. Thus, in contrast to R188M where D185 plays a compensatory role, D132 does not and this results in a dramatic decrease in protein stability upon R110M mutation. However, the calculated energy change for the R110M mutation is quite similar to that for D132A (Table 1). Kinetic properties of the modified variants of E. coli CMP kinase with CMP, dCMP and UMP as variable substrates Substitution by hydrophobic side chains of the four amino acids demonstrated by crystallography as interacting with the cytosine moiety of CMP and dCMP, always affected the kinetic parameters of bacterial CMP kinase (Table 2). The S36A substitution mainly changed the Km value for the two natural substrates, which increased by a factor of 70 (CMP) and 37 (dCMP) compared with the parent molecule. The decrease in kcat of only 1.6-fold (CMP) and 7.4-fold (dCMP) with respect to the wild-type enzyme suggested that the major role of S36 is related to CMP / dCMP binding to the active site. The S36A substitution did not significantly affect phosphorylation of UMP. We note that S36, which is common to CMP kinases from Gram-negative organisms, alternates in CMP kinases from Gram-positive bacteria with a Thr residue, but never with Ala as in the case of Dictyostelium discoideum UMP / CMP kinase. By contrast, the A37T substitution in the slime mold enzyme (A. M. Gilles, P. Glaser and L. L. Ylisastigui-Pons, unpublished data) or the T39A substitution in the pig muscle cytosolic adenylate kinase [18] had no consequence on binding or phosphorylation of the corresponding NMPs (A37 and T39 in these enzymes are equivalent to S36 in E. coli CMP kinase). Substitution of R110 with Met in E. coli CMP kinase affected both kcat and Km. The kcat / Km ratio with CMP and dCMP decreased by a factor of > 105 in the modified protein compared with wild-type enzyme.
+3366
+
+Table 2. Kinetic parameters of E. coli CMP kinase variants with three NMP substrates at a single fixed concentration of ATP (1 mM). Curve-fit was performed using the nonlinear least-squares fitting analysis of KALEIDAGRAPH software. Km is the Michaelis­Menten constant; kcat was calculated assuming a molecular mass of E. coli CMP kinase of 24.7 kDa. Values are means of two to four independent measurements. Km (mM) 0.035 0.094 0.93 2.5 3.5 1.9 0.038 0.090 8.0 2.9 1.8 7.9 2.6 0.08 5.4 1.3 0.055 3.9 20.2 7.3 11.3 1.0 0.77 Not detectable kcat (s)1) 103 108 0.82 63 14.5 0.57 22.4 21.1 8.3 4.1 0.73 9.9 1.4 0.15 0.45 0.069 0.06 0.013 0.23 0.05 0.054 0.12 0.04 kcat / Km (s)1ÆmM)1) 2940 1150 0.88 25.2 4.1 0.30 589 230 1.04 1.41 0.40 1.25 0.54 1.88 0.083 0.053 1.1 0.0033 0.0114 0.0068 0.0048 0.12 0.052
+
+Enzyme Wild-type
+
+Nucleotide CMP dCMP UMP CMP dCMP UMP CMP dCMP UMP CMP dCMP UMP CMP dCMP UMP CMP dCMP UMP CMP dCMP UMP CMP dCMP UMP
+
+S36A
+
+D132S
+
+D132A
+
+D132N
+
+D132H
+
+R110M
+
+R188M
+
+The kcat / Km ratio with UMP as substrate decreased by a factor of only 200 compared with wild-type CMP kinase. The loss in stability of R110M mutant might be responsible at least in part for the modified kinetic properties. This is not the case for the R188M variant, whose thermal stability is similar to that of the wildtype enzyme; however, the kcat / Km ratio with CMP and dCMP decreased by a factor > 104 compared with wild-type enzyme. To explain these effects, the R188M variant was crystallized either alone or in complex with dCMP. Information on data collection, processing, refinement and model statistics are given in Table 3. For the free enzyme, the structure of this mutant could be successfully refined. It was found to be identical to that of the wild-type CMP kinase. By contrast, the data for this variant in complex with dCMP were of poor quality due to anisotropy of the crystals. As a consequence, the model was refined to a Rcryst of 25.9% and a Rfree of 33.9%. The Rfree / Rcryst ratio is 1.31, which is not
+
+FEBS Journal 274 (2007) 3363­3373 ª 2007 The Authors Journal compilation ª 2007 FEBS
+
+A. Ofiteru et al.
+
+Substrate specificity of E. coli CMP kinase
+
+Table 3. Structural data.
+
+D129
+Data set Data collection ° Wavelength (A) Space group ° Unit cell (A, °) a¼b c a¼b c ° Resolution (A) Observed reflections Unique reflections Completeness (%) I / r(I) Rsymb (%) Refinement statistics Rcrystc (%) Rfreed (%) rmsd ° Bond lengths (A) Bond angles (°)
+a
+
+R188M
+
+R188M­dCMP
+
+1.5418 P63 82.17 60.73 90 120 1.9 35412 18054 97.9 (86.1)a 15.0 (2.9)a 3.9 (32.4)a 23.1 24.2 0.007 1.27
+
+0.9490 P41212 72.95 76.97 90 90 2.8 61754 5424 92.3 (84.6)a 7.8 (2.6)a 9.2 (37.3)a 1 25.9 1 33.9 0.009 1.56
+
+dCMP
+S36 D185 N4
+
+D132 M188 R110
+
+Numbers in parentheses represent values in the highest resolution shell (last of 20 shells). b Rsym ¼ ShSi |I(h,i) ) < I(h) > | / ShSi I(h,i) where I(h,i) is the intensity value of the i-th measurement of h and < I(h) > is the corresponding mean value of I(h) for all i measurements. c Rcryst ¼ S ||Fobs| ) |Fcalc|| / S |Fobs|, where |Fobs| and |Fcalc| are the observed and calculated structure factor amplitudes, respectively. d Rfree is the same as Rcryst but calculated with a 10% subset of all reflections that was never used in crystallographic refinement.
+
+Fig. 2. Electron-density map of the dCMP-binding region for the R188M CMP kinase variant. The Fo ) Fc omit map calculated for the dCMP­R188M CMP kinase complex in the absence of the dCMP model is green. The contour level is at 2 r. The same neighbouring enzyme residues as those of Fig. 1 are shown, in the same orientation, with their 2Fo ) Fc map in magenta (contour level 1 r). The only hydrogen bond still observed for dCMP­R188M CMP kinase complex is indicated by green dots.
+
+° unusual for a 2.8 A resolution structure [19]. However, the electron-density map of the substrate-binding region was unambiguous. As shown in Fig. 2, the structure is in an `open' form in which deoxyribose does not establish H bonds with enzyme residues. In the structure of the wild-type CMP kinase in complex with dCMP [16], there are two, quite different, mole° cules in the asymmetric unit (rmsd ¼ 0.89 A). In the A molecule, the 3¢OH from deoxyribose forms hydrogen bonds with D185 and R181 residues as for CMP binding. The R188M variant in complex with dCMP is in many respects comparable with the B molecule of wild-type CMP kinase complexed to dCMP, in which the deoxyribose does not interact with R181 or D185. Moreover, the hydrogen bond, which connected R188 and the carbonyl from cytosine, is lost. It seems therefore that the role of R188 is to maintain a closed structure of the protein by direct interaction with the substrate (Fig. 1). Replacement of D132 with Ala had the most dramatic consequences on the protein stability as Tm decreased by 9 °C in comparison with the wild-type protein. The kcat / Km ratio for CMP and dCMP
+
+decreased by more than three orders of magnitude in comparison with the wild-type enzyme, indicating a loss of 19.2 and 20.0 kJ per mole in the stability of the transition state complex. At the same time, the kcat / Km ratio with UMP as substrate remained unchanged. Moreover, the kcat value with UMP increased by one order of magnitude with respect to the wild-type enzyme, at the expense of the Km value. The overall effect of this structural change is a twofold increase in the kcat / Km ratio with UMP as substrate over the kcat / Km ratio with CMP as substrate. The relative increase in the specificity of the D132A variant for UMP over CMP and dCMP is somehow unexpected. It reflects an increase in local flexibility of the polypeptide chain with loss of discrimination between the three nucleotides. Because of its size, polarity and charge D132 plays a unique role in both protein stability and kinetic properties. Consequently, several other variants were explored in which each of these properties of the aspartate side chain was altered individually. Because the D132S variant essentially conserved the properties of the wild-type enzyme, it appears that the major factor in CMP / dCMP recognition by D132 is its hydrogen-bonding capacity. The kinetic parameters of the D132H variant were modified in the expected sense because the charge of this residue was removed. The D132N substitution was designed to `conserve' the size of the original molecule and part of its hydrogen3367
+
+FEBS Journal 274 (2007) 3363­3373 ª 2007 The Authors Journal compilation ª 2007 FEBS
+
+Substrate specificity of E. coli CMP kinase
+
+A. Ofiteru et al.
+
+bonding ability. However, it strongly affected the stability and catalytic properties of the protein in comparison with the wild-type enzyme. This suggests that both hydrogen bonds (Fig. 1) received by the side chain of D132, from the H bond donors R110 (side chain extremity) and N4 from cytosine, are important for the enzyme. As shown in Table 2, introduction of a H-bond donor via Asn substitution of D132 is not compatible with enzyme binding and substrate catalysis. Kinetic and nucleotide-binding properties of E. coli CMP kinase variants with ATP as variable substrate Determination of the reaction rates of different modified CMP kinases with ATP as the variable substrate at fixed concentrations of NMP (around the corresponding Km values) yielded apparent Km values for ATP between 0.04 and 0.08 mm, irrespective of the chemical nature of NMP or the substituted residue. This was also confirmed by fluorescence experiments using Ant-dATP as a reporter molecule [20]. The Kd value for the complex of various proteins with the fluorescent derivative was between 4 and 10 lm, whereas Kd values for complexes with ATP varied between 14 and 25 lm. This means that structural modifications affecting the NMP subsite of the catalytic centre of bacterial CMP kinases are not `propagated' to the ATP subsite. In this respect, E. coli CMP kinase is unique in comparison with other NMP kinases, in particular with adenylate kinases [21].
+
+Discussion
+A common property of various NMP kinases, except for bacterial UMP kinases, is an overall fold consisting of three domains, the CORE, the LID and the NMPbind [1]. A characteristic of bacterial CMP kinases is an extension of the NMPbind domain by 40 amino acid residues forming a three-stranded antiparallel b sheet and two a helices. This large NMPbind insert undergoes rearrangement during the binding of cytosine nucleotides, its b sheet moving away from the substrate and the a helices coming closer to it [15]. Sequence comparison of E. coli or many other bacterial CMP kinases indicated that the basic residues interacting with the phosphate group of CMP or dCMP (R41, R131 and R181) are conserved in NMP kinases irrespective of the chemical nature of the acceptor substrate (Fig. 3). Thus, R41 is conserved as R42 in D. discoideum UMP / CMP kinase and as R44 in pig muscle cytosolic adenylate kinase (AK1). The R44M substitution in pig muscle AK1 decreases over two
+3368
+
+orders of magnitude the kcat / K AMP ratio in comparison m with the wild-type enzyme [18]. Similarly, R131 in E. coli CMP kinase is conserved as R93 in D. discoideum UMP / CMP kinase, R96 in human UMP / CMP kinase and R97 in pig muscle AK1. R97M substitution in the latter enzyme decreases, by three orders of magnitude, the kcat / K AMP ratio in comparison with wild-type prom tein [21]. Finally, R181 in E. coli CMP kinase is conserved as R149 in pig muscle AK1. Substitution of these residues by the hydrophobic side-chain of methionine decreases in these two enzymes both the Km for NMP and the kcat compared with the parent molecules [16,18]. In conclusion, the amino acids interacting with the phosphate group of NMP and conserved in eukaryotic UMP / CMP kinases, bacterial CMP kinases and eukaryotic or bacterial adenylate kinases, most probably have identical roles during catalysis. The situation is different when comparing the nucleobase recognition by eukaryotic UMP / CMP kinases and bacterial CMP kinases. Thus, despite opposing hydrogen-bonding properties at positions 3 and 4 of the pyrimidine ring, UMP and CMP are phosphorylated with similar efficiency by D. discoideum UMP / CMP kinase [13]. This might be explained by the fact that the base located in a hydrophobic pocket of D. discoideum enzyme interacts with the protein indirectly, via one (with CMP) or two (with UMP) close water molecules connected to the carboxamide group of N97. The side chain of N97, like the water molecule, can switch to either hydrogen bond acceptor or donor depending on its orientation, and provides a flexible way to accommodate either CMP or UMP in the NMP-binding site [22]. The residues forming the hydrophobic pocket in D. discoideum UMP / CMP kinase are conserved in the equivalent human or yeast enzymes. This scenario is not compatible with bacterial CMP kinases in which UMP is a very poor substrate compared with CMP. The side chain of R110 is a hydrogen bond donor to the N3 atom of cytosine. As the main chain carbonyl of D129, a H-bond acceptor, interacts with the terminal oxygen of S36 side chain, the latter can only behave as a H-bond acceptor with the nucleobase as is the case with the four-amino group of cytosine. These hydrogen bonds involving side chains from R110 and S36 could not be established with UMP. Each of these residues could, in principle, also be important for stability of the protein. Partial coupling between the structural and functional roles can be observed for D132. Substitution by Ser results in a moderate decrease in stability without significant changes in Km for CMP and dCMP. However, replacement of D132 with Asn or His results in a completely
+
+FEBS Journal 274 (2007) 3363­3373 ª 2007 The Authors Journal compilation ª 2007 FEBS
+
+A. Ofiteru et al.
+
+Substrate specificity of E. coli CMP kinase
+
+Fig. 3. Sequence alignment of E. coli CMP kinase with human, D. discoideum and yeast UMP / CMP kinases and with pig muscle cytosolic adenylate kinase (AK1), respectively. Residues common to all proteins are indicated in black, residues common to the last four enzymes are in grey. Asterisks and triangles on the top of sequences indicate conserved residues involved in the interaction with the phosphate moieties of various NMPs (R41, R131 and R181 in E. coli CMP kinase) and the four modified residues of E. coli CMP kinase specifically interacting with the cytosine moiety (S36, R110, D132 and R188), respectively.
+
+different Km for CMP, but only slightly affects the Km for dCMP. Finally, replacement of D132 with Ala has a dramatic effect on both stability and activity. This indicates that the residue at position 132 is structurally important, and also plays a role in the reaction, most probably as hydrogen acceptor to CMP / dCMP. Much more prominent is the coupling effect for the Arg residue at position 110. Mutation of Arg to Met causes a dramatic decrease in both the stability and reaction rate for all substrates. In contrast, residues 36 and 188 are `pure' functional ones. Substitution of Ser36 to Ala does not change the stability but has great effect on the activity. Thus, Ser36 is not important energetically but serves as a hydrogen bond acceptor for the substrate. R188M substitution does not affect the stability, but this may be related to the compensatory role of Asp185. Thus, the salt bridge R188­D185 has a negligible contribution to the stability of the protein and its substitution does not cause a change in Tm. However, suppression of the R188­D185 `bridge' has a dramatic effect on the reaction.
+
+Analysis of the effect of the mutations on protein stability revealed three distinctive mechanisms of relaxation, and in the case of S36A, no relaxation at all. The first type of relaxation (structural relaxation), which involves only proton and side chain motions, is seen in D132 and R110 mutants. Substitution of either D132 or R110 disrupts the salt bridge D132­R110 and causes the partner side chain to adopt a different conformation, thereby reducing the effect of the mutation. The other two types of relaxation are mainly charge relaxation. Replacing D132 with His is supposed to reverse the charge at position 132 and should have a dramatic effect on stability. However, the substituting residue is calculated to be neutral and thus has a zero net charge. Unfavourable interactions with R110 make the pKa value for H132 far below the physiological pH and thus turn off the His charge. Because the pKa of isolated His is 6.5, the difference in ionization energy of His in the denaturated state (where His is presumably ionized) and in the protein is very small and does not affect the results [23]. The
+3369
+
+FEBS Journal 274 (2007) 3363­3373 ª 2007 The Authors Journal compilation ª 2007 FEBS
+
+Substrate specificity of E. coli CMP kinase
+
+A. Ofiteru et al.
+
+third case is a charge relaxation involving neighbouring group. Substitution of R188 to Met does not affect stability because the removal of R188 causes deprotonation of its partner D185 and thus the net effect is almost zero. A similar effect was suggested to occur in the reaction centre when particular residues were mutated [24]. This effect can be explained in a different manner considering the salt bridge R188­D185 as a dipole from the distal point of the rest of the protein. Such a dipole will have weak interactions with the rest of the protein. Thus, if turned off (by removal of Arg and protonation of Asp185), the protein energy should not change by much, as found experimentally.
+
+Purification of the enzymes, activity assays and other analytical procedures
+Overproduced wild-type and modified variants of E. coli CMP kinase were purified as described previously [20] and checked by MS (a quadrupole API-365 mass spectrometer from Perkin-Elmer, Norwalk, NJ) equipped with an ion spray (nebulizer-assisted electrospray) source. Protein concentration was measured according to Bradford [29]. SDS / PAGE was performed as described by Laemmli [30]. Enzyme activity was determined at 30 °C and 340 nm using a coupled spectrophotometric assay in 0.5 mL final volume on an Eppendorf ECOM 6122 photometer [31]. The reaction medium contained 50 mm Tris / HCl (pH 7.4), 50 mm KCl, 2 mm MgCl2, 1 mm phosphoenolpyruvate, 0.2 mm NADH, different concentrations of ATP and NMPs, and 2 units each of pyruvate kinase, lactate dehydrogenase and NDP kinase (forward reaction). The rate was calculated assuming that two ADP are generated during the reaction. One unit of CMP kinase corresponds to 1 lmol of product formed per minute. The thermal stability of CMP kinase variants was tested by incubating the purified enzymes (1 mgÆmL)1) in 50 mm Tris / HCl (pH 7.4) containing 0.1 m NaCl at temperatures between 30 and 60 °C for 10 min. The results, expressed as the percentage of residual activity compared with unincubated controls, were used to calculate the temperature of half inactivation (Tm) of each variant. Proteolysis of bacterial CMP kinase (1 mgÆmL)1 in 50 mm Tris / HCl, pH 7.4) was followed at 4 °C in the presence of 2 lgÆmL)1 of TPCK-trypsin. At different time intervals, aliquots were withdrawn and diluted in buffer containing 10 lgÆmL)1 of soybean trypsin inhibitor. The first-order rate constant of inactivation of CMP kinase by TPCK-trypsin was calculated from the log10 of residual activity versus the time. Binding of nucleotides to E. coli CMP kinase was measured from the fluorescence of Ant-dATP (kexc ¼ 330 nm, kem ¼ 420 nm) on a Jasco spectrofluorimeter FP 750, thermostated at 25 °C using a UV-grade quartz cuvette [20,32].
+
+Experimental procedures
+Chemicals
+Nucleotides, restriction enzymes, T4 DNA ligase, T4 DNA polymerase and coupling enzymes were from Roche Applied Sciences (Indianapolis, IN). T7 DNA polymerase was from Amersham-Biosciences (Piscataway, NJ). Affi-Gel Blue was from Bio-Rad Laboratories (Hercules, CA). CMP, dCMP, AraCMP and UMP were purchased from Sigma (St Louis, MO). NDP kinase from D. discoideum ´ (2000 U mg)1 of protein) was kindly provided by M. Veron (Institut Pasteur, Paris).
+
+Bacterial strains, plasmids, growth conditions and DNA manipulation
+Site-directed mutagenesis was performed according to Kunkel et al. [25] with single-stranded DNA of pHS210 [20] grown in E. coli strain CJ236 in the presence of the helper phage M13K07. The primers used to create the point mutations, where the changed codons are underlined, were: S36A: AATTGCACCTGCGTCCAGCAGATG; R110M: TAATGCTTCCATAACGCGTGGGAA; D132A: CGTTC CCATTGCGCGGCCATCGGC; D132H: TACCACCGT TCCCATATGGCGGCCATCGGCAAT; D132N: TACCAC D132S: CGTTCCCATATTGCGGCCATCGGCAAT; TAC CACGTTCCCATGGAGCGGCCATCGGCAAT; R188M: CGCTACCGCCATGTTACGATCGCG. For each mutagenesis, the whole sequence of the cmk gene was checked for the absence of any other mutation [26]. Plasmid pHS210 and derivatives were introduced into the E. coli strain BL21(DE3) / pDIA17 [27]. Overproduction was carried out by growing bacteria at 37 °C in 2YT medium [28] supplemented with ampicillin (100 lgÆmL)1) and chloramphenicol (30 lgÆmL)1). When A600 ¼ 1.5, isopropyl thio b-d-galactoside (1 mm final concentration) was added to the medium. Bacteria were harvested by centrifugation 3 h after induction at 5000 g for 15 min at 4 °C (Sorvall RC 5B).
+
+Numerical calculations
+The MCCE [33­35] method was used to calculate the ionization states, polar hydrogen positions and possible side chain rearrangements in the native structure and the corresponding variants. In all calculations, we used the PDB file (code: 1-KDO) of E. coli CMP kinase in complex with its major natural substrate CMP. The effect of a mutation on the stability of CMP kinase is calculated as: N X self pairwise DG i;j ðWTÞ DGi ðmutÞ ¼ ÀDGi ðWTÞ À
+j ¼ 1;
+j 6¼ i
+
+þ
+
+X
+k
+
+DDG k ðmutÞ þ
+
+self
+
+N XX k j ¼ 1;
+
+DDG k;j
+
+pairwise
+
+ðmutÞ
+
+ð1Þ
+
+3370
+
+FEBS Journal 274 (2007) 3363­3373 ª 2007 The Authors Journal compilation ª 2007 FEBS
+
+A. Ofiteru et al.
+
+Substrate specificity of E. coli CMP kinase
+
+where ÀDG i ðWTÞ is the loss of the self energy in the wild-type enzyme of the residue that was mutated, pairwise ðWTÞ are the pair wise energies of the original resiDG i;j due `i' in the native protein with the rest of the residues, self DDG k ðmutÞ are the changes of the self energies of the residues `k' that change either their ionization or conformation pairwise ðmutÞ are the pair-wise upon the mutation and DDG k;j energies changes caused by the mutation. All energies are calculated with respect to hypothetical unfolded state of extended polypeptide (noninteracting residues assumption). This is an obvious oversimplification, but because we are interested in the difference in stability of wild-type versus modified proteins, the vast part of the possible error will cancel out ­ most probably both denaturated states (wildtype and the mutant) will be very similar. Thus, the first two terms account for the loss of the protein energy of the residue that is mutated and the last two terms account for the change of protein energy due to ionization or conformation changes in the mutant protein.
+
+self
+
+and refined with cns [40]. The first refinement steps used simulated annealing. For the dCMP­R188M complex, the dCMP density was unambiguous before this ligand was included in the refinement. The Protein Data Bank codes are 2FEM for the R188M enzyme alone and 2FEO for the R188M­dCMP complex.
+
+Acknowledgements
+We thank O. Barzu for interest and continuous sup^ port, Y. Janin for carefully reading this manuscript and constructive criticism, L. Tourneux for providing some modified forms of CMP kinase. This work was supported by grants from Institut Pasteur, the Centre National de la Recherche Scientifique (URA2185, URA2171, URA2128), the Institut National de la ´ ´ Sante et de la Recherche Medicale, and the Institut National de la Recherche Agronomique (UMR 206).
+
+Preparation of the structures used in the calculations
+Calculations on the wild-type CMP kinase were performed on the 1-KDO file (CMP / CMP kinase complex) using molecule A of the asymmetric unit. The rmsd between mole° cules A and B of the asymmetric unit is only 0.45 A and thus this choice is not critical for the calculations. Side chain mutations were performed with scap [36]. The protons were generated with MCCE.
+
+References
+1 Yan H & Tsai M-D (1999) Nucleoside monophosphate kinases: structure, mechanism, and substrate specificity. Adv Enzymol Related Areas Molec Biol 73, 103­133. 2 Mitzuya H, Weinhold KJ, Furman PA, St Clair MH, Nusinoff-Lehrman S, Gallo RC, Bolognesi D, Barry DW & Broder S (1985) 3¢-Azido-3¢-deoxythymidine (BW A509U): an antiviral agent that inhibits the infectivity and cytopathic effect of human T-lymphotropic virus type III / lymphadenopathy-associated virus in vitro. Proc Natl Acad Sci USA 82, 7096­7100. 3 Chenal-Francisque V, Tourneux L, Carniel Christova P, Li de la Sierra I, Barzu O & Gilles A-M (1999) The ^ highly similar TMP kinases of Yersinia pestis and Escherichia coli differ markedly in their AZTMP phosphorylating activity. Eur J Biochem 265, 112­119. 4 Lavie A, Ostermann N, Brundiers R, Goody RS, Reinstein J, Konrad M & Schlichting I (1998b) Structural basis for efficient phosphorylation of 3¢-azidothymidine monophasphate by Escherichia coli thymidylate kinase. Proc Natl Acad Sci USA 95, 14045­14050. 5 Munier-Lehmann H, Chaffotte A, Pochet S & Labesse G (2001) Thymidylate kinase of Mycobacterium tuberculosis: a chimera sharing properties common to eukaryotic and bacterial enzymes. Protein Sci 10, 1195­ 1205. 6 Gentry D, Bengra C, Ikehara K & Cashel M (1993) Guanylate kinase of Escherichia coli K-12. J Biol Chem 268, 14316­14321. 7 Sekulic N, Shuvalova L, Spangenberg O, Konrad M & Lavie A (2002) Structural characterization of the closed conformation of mouse guanylate kinase. J Biol Chem 277, 30236­30243.
+
+Crystallography of the R188M variant
+Two types of crystals were studied: enzyme alone (R188M) and in complex with nucleotide (R188M­dCMP). They were grown at 20 °C using the vapour-diffusion method, in a 50 mm Tris / HCl buffer pH 7.4, with a hanging droplet (6 lL) containing 10 mgÆmL)1 of the R188M CMPKeco variant, and in the case of dCMP­R188M complex with a large excess of nucleotide (200 mm). Drops were equilibrated with a reservoir solution (1 mL) containing the precipitant ammonium sulphate (1.3 m in the case of enzyme alone, and 1.7 m for the R188M­dCMP variant). Diffraction data were collected at room temperature on a Rigaku rotating-anode RTP 300 RC X-ray generator for crystal of the enzyme alone, and at 100°K (using glycerol as a cryoprotectant) on the LURE synchrotron (beamline DW32) in Orsay, France for R188M­dCMP crystal. Crystals of the enzyme alone belong to the hexagonal space group P63, those with dCMP to the tetragonal space group P41212. In both cases there is one molecule per asymmetric unit. Diffraction data were processed using denzo and scaled and reduced with scalepack [37]. The structures were solved by molecular replacement with amore [38], using the wild-type enzyme as the search model. Models were built with o [39],
+
+FEBS Journal 274 (2007) 3363­3373 ª 2007 The Authors Journal compilation ª 2007 FEBS
+
+3371
+
+Substrate specificity of E. coli CMP kinase
+
+A. Ofiteru et al.
+
+8 Perrier V, Burlacu-Miron S, Boussac A, Meier A & Gilles A-M (1998) Metal chelating properties of adenylate kinase from Paracoccus denitrificans. Protein Eng 11, 917­923. 9 Vonrhein C, Bonish H, Schafer G & Schulz GE (1998) ¨ ¨ The structure of a trimeric archaeal adenylate kinase. J Mol Biol 282, 167­179. 10 Hible G, Renault L, Schaeffer F, Christova P, Zoe Radulescu A, Evrin C, Gilles AM & Cherfils J (2005) Calorimetric and crystallographic analysis of the oligomeric structure of Escherichia coli GMP kinase. J Mol Biol 352, 1044­1059. 11 Hible G, Christova P, Renault L, Seclaman E, Thompson A, Girard E, Munier-Lehmann H & Cherfils J (2006) Unique GMP-binding site in Mycobacterium tuberculosis guanosine monophosphate kinase. Proteins 62, 489­500. 12 Muller-Dieckmann H-J & Schulz GE (1995) Substrate ¨ specificity and assembly of the catalytic center derived from two structures of ligated uridylate kinase. J Mol Biol 246, 522­530. 13 Wiesmuller L, Noegel AA, Barzu O, Gerish G & Schlei^ ¨ cher M (1990) cDNA-derived sequence of UMP­CMP kinase from Dictyostelium discoideum and expression of the enzyme in Escherichia coli. J Biol Chem 265, 6339­ 6345. 14 Pasti C, Gallois-Montbrun S, Munier-Lehmann H, Veron M, Gilles AM & Deville-Bonne D (2003) Reaction of human UMP­CMP kinase with natural and analog substrates. Eur J Biochem 270, 1784­1790. 15 Briozzo P, Golinelli-Pimpaneau B, Gilles A-M, Gaucher ^ J-F, Burlacu-Miron S, Sakamoto H, Janin J & Barzu O (1998) Structures of Escherichia coli CMP kinase alone and in complex with CDP: a new fold of the nucleoside monophosphate binding domain and insights into cytosine nucleotide specificity. Structure 6, 1517­1527. 16 Bertrand T, Briozzo P, Assairi L, Ofiteru A, Bucurenci N, Munier-Lehmann H, Golinelli-Pimpaneau B, Barzu ^ O & Gilles A-M (2002) Sugar specificity of bacterial CMP kinases revealed by crystal structures and mutagenesis of Escherichia coli enzyme. J Mol Biol 315, 1099­1110. 17 Yu L, Mack J, Hajduk PJ, Kakavas SJ, Saiki AY, Lerner CG & Olejniczak ET (2003) Solution structure and function of an essential CMP kinase of Streptococcus pneumoniae. Protein Sci 12, 2613­2621. 18 Yan H, Dahnke T, Zhou B, Nakazawa A & Tsai M-D (1990a) Mechanism of adenylate kinase. Critical evaluation of the X-ray model and assignment of the AMP site. Biochemistry 29, 10956­10964. 19 Tickle IJ, Laskowski RA & Moss DS (1998) Rfree and the rfree ratio. I. Derivation of expected values of crossvalidation residuals used in macromolecular leastsquares refinement. Acta Crystallogr D Biol Crystallogr 54, 547­557.
+
+20 Bucurenci N, Sakamoto H, Briozzo P, Palibroda N, Serina L, Sarfati RS, Labesse G, Briand G, Danchin A, Barzu O et al. (1996) CMP kinase from Escherichia coli ^ is structurally related to other nucleoside monophosphate kinases. J Biol Chem 271, 2856­2862. 21 Tsai M-D & Yan H (1991) Mechanism of adenylate kinase: site-directed mutagenesis versus X-ray and NMR. Biochemistry 30, 6806­6818. 22 Scheffzek K, Kliche W, Wiesmuller L & Reinstein J ¨ (1996) Crystal structure of the complex of UMP / CMP kinase from Dictyostelium discoideum and the bisubstrate inhibitor P1-(5¢-adenosyl) P5-(5¢-uridyl) penta° phosphate (UP5A) and Mg2+ at 2.2 A: implications for water-mediated specificity. Biochemistry 35, 9716­9727. 23 Alexov E (2004) Calculating proton uptake / release and binding free energy taking into account ionization and conformation changes induced by protein­inhibitor association: application to plasmepsin, cathepsin D and endothiapepsin­pepstatin complexes. Proteins 56, 572­ 584. 24 Alexov E, Miksovska J, Baciou L, Schiffer M, Hanson DK, Sebban P & Gunner MR (2000) Modeling the effects of mutations on the free energy of the first electron transfer from QA to QB in photosynthetic reaction centers. Biochemistry 39, 5940­5952. 25 Kunkel TA, Roberts JD & Zakour RA (1985) Rapid and efficient site-specific mutagenesis without phenotypic selection. Methods Enzymol 154, 367­382. 26 Sanger F, Nicklen S & Coulson AR (1977) DNA sequencing with chain terminating inhibitors. Proc Natl Acad Sci USA 74, 5463­5467. 27 Munier H, Gilles A-M, Glaser P, Krin E, Danchin A, Sarfati RS & Barzu O (1991) Isolation and characteriza^ tion of catalytic and calmodulin-binding domains of Bordetella pertussis adenylate cyclase. Eur J Biochem 196, 469­474. 28 Sambrook J, Fritsch EF & Maniatis T (1989) Molecular Cloning: A Laboratory Manual, 2nd edn. Cold Spring Harbor Laboratory Press, Cold Spring Harbor, NY. 29 Bradford MM (1976) A rapid and sensitive method for the quantitation of microgram quantities of protein utilizing the principle of protein­dye binding. Anal Biochem 72, 248­254. 30 Laemmli UK (1970) Cleavage of structural proteins during the assembly of the head of bacteriophage T4. Nature (Lond) 227, 680­685. 31 Blondin C, Serina L, Wiesmuller L, Gilles A-M & ¨ Barzu O (1994) Improved spectrophotometric assay of ^ nucleoside monophosphate kinase activity using the pyruvate kinase / lactate dehydrogenase coupling system. Anal Biochem 220, 219­221. 32 Sarfati RS, Kansal VK, Munier H, Glaser P, Gilles ` ^ A-M, Labruyere E, Mock M, Danchin A & Barzu O (1990) Binding of 3¢-anthraniloyl-2¢deoxy-ATP to calmodulin-activated adenylate cyclase from Bordetella
+
+3372
+
+FEBS Journal 274 (2007) 3363­3373 ª 2007 The Authors Journal compilation ª 2007 FEBS
+
+A. Ofiteru et al.
+
+Substrate specificity of E. coli CMP kinase
+
+33
+
+34
+
+35
+
+36
+
+37
+
+pertussis and Bacillus anthracis. J Biol Chem 265, 18902­18906. Alexov E (2003) Role of the protein side-chain fluctuations on the strength of pair-wise electrostatic interactions: comparing experimental with computed pKas. Proteins 50, 94­103. Alexov EG & Gunner MR (1997) Incorporating protein conformational flexibility into the calculation of pHdependent protein properties. Biophys J 72, 2075­2093. Georgescu RE, Alexov EG & Gunner MR (2002) Combining conformational flexibility and continuum electrostatics for calculating pKas in proteins. Biophys J 83, 1731­1748. Xiang Z & Honig B (2001) Extending the accuracy limits of prediction for side-chain conformations. J Mol Biol 311, 421­430. Otwinowski Z & Minor W (1993) DENZO, A Film Processing Program for Macromolecular Crystallography. Yale University Press, New Haven, CT.
+
+38 Navaza J (1994) AMoRe: an automated package for molecular replacement. Acta Crystallogr A50, 157­163. 39 Jones TA, Zou JY, Cowan SW & Kjeldgaard M (1991) Improved methods for building protein models in electron density maps and the location of errors in these models. Acta Crystallogr A47, 110­119. 40 Brunger AT, Adams PD, Clore GM, DeLano WL, Gros P, Grosse-Kunstleve RW, Jiang JS, Kuszewski J, Nilges M, Pannu NS et al. (1998) Crystallography and NMR system: a new software suite for macromolecular structure determination. Acta Crystallogr D Biol Crystallogr 54, 905­921. 41 DeLano WL (2002) The Pymol Molecular Graphics System, Version 0.97. DeLano Scientific, San Carlos, CA.
+
+FEBS Journal 274 (2007) 3363­3373 ª 2007 The Authors Journal compilation ª 2007 FEBS
+
+3373
+
+

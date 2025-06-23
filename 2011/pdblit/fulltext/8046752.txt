@@ -1,0 +1,103 @@
+Chemical Physics Letters 437 (2007) 293­297 www.elsevier.com/locate/cplett
+
+Transition state determination of enzyme reaction on free energy surface: Application to chorismate mutase
+Masahiro Higashi, Shigehiko Hayashi, Shigeki Kato
+Received 14 December 2006 Available online 20 February 2007
+
+*
+
+Department of Chemistry, Graduate School of Science, Kyoto University, Sakyo-ku, Kyoto 606-8502, Japan
+
+Abstract The transition state on the free energy surface for Claisen rearrangement of chorismate in Bacillus subtilis chorismate mutase is calculated with a method based on a linear response theory. The calculated activation free energy is 16.9 kcal/mol, which is in good agreement with the experimental one. The catalytic ability of the enzyme is examined by comparing the activation barrier with that in aqueous solution and found to be mainly attributed to the conformational restriction of the substrate. We also calculate the kinetic isotope effects, which are in accord with the experimental estimates. Ó 2007 Elsevier B.V. All rights reserved.
+
+1. Introduction Combined quantum mechanical/molecular mechanical (QM/MM) methods have provided powerful means for studying enzymatic reactions [1­3]. In these approaches, the reaction center relevant to the formation and breaking of chemical bonds is described quantum mechanically, while the protein and solvent water environments are treated by using the MM force field. Since the reaction systems contain a large number of MM atoms which undergo thermal fluctuation, the reaction mechanisms are usually discussed in terms of the free energy surface (FES), instead of the potential energy surface (PES) itself. Although molecular dynamics (MD) or Monte Carlo simulation calculations can be utilized to evaluate the thermal effects of the protein and solvent environments on the electronic structures of QM system, it takes much computational time to calculate the FES straightforwardly because the free energy calculation requires a vast number of samplings of the MM configurations that fluctuate thermally. In this letter, we employ an approximate free functional [4] to calculate a reaction path on FES based on the QM/
+*
+
+Corresponding author. Fax: +81 75 753 4000. E-mail address: shigeki@kuchem.kyoto-u.ac.jp (S. Kato).
+
+MM methodology, which is derived from the Gaussian fluctuation model [5] for the response of the MM environment to the QM system. Such a linear response free energy (LRFE) was also defined within the framework of the reference interaction site model self-consistent filed (RISMSCF) method [6]. In the present approach, the QM electronic wave function and the responses of MM system to it are determined in a self-consistent manner by combining the electronic structure method with MD calculations of the MM system. We apply the QM/MM-LRFE method to the Claisen rearrangement of chorismate to prephenate in Bacillus subtilis chorismate mutase (BsCM), which is a key step in the shikimate pathway for biosynthesis of the aromatic amino acids in bacteria and plants [7­9]. This reaction is also known as an intramolecular rearrangement of the substrate molecule without forming or breaking the substrate-protein covalent bonds, which enables us to treat the reaction with QM/MM methods easily and to compare the results in the enzyme with those of nonenzymatic reactions directly. Thus, many researchers have studied this reaction to test the performance of various theoretical methods proposed [10­21]. We calculate the free energies and optimize geometries of reactant, transition state (TS) and product. Based on the calculated results, we examine the role of BsCM in
+
+0009-2614/$ - see front matter Ó 2007 Elsevier B.V. All rights reserved. doi:10.1016/j.cplett.2007.02.044
+
+294
+
+M. Higashi et al. / Chemical Physics Letters 437 (2007) 293­297
+
+the catalytic activity by estimating the near attack conformation (NAC) free energy. The kinetic isotope effects (KIEs) are also discussed. 2. Method Since details of QM/MM-LRFE method are presented elsewhere [4], we only describe the outline of method pertinent to the application to an enzyme system. In the QM/ MM method, the QM/MM interaction energy is written as [22]  E D  b  EQM=MM ¼ W Q Á VW þ  Á U; ð1Þ where W is the electronic wave function of the QM system ^ and Qa is the population operator which generates the partial charge Qa on the QM atomic site a. The electrostatic potential (ESP) acting on the QM site a, Va, is calculated with the partial charges assigned on the MM atoms. The second term in Eq. (1) is the Lennard-Jones (LJ) energy, where we employed the standard combination rule for the LJ parameters to define  and U [6]. Assuming the Gaussian fluctuations of the electrostatic and Lennard-Jones potentials acting on the QM atomic sites [5], the free energy functional of QM/MM system is written in terms of differences of quantities from the reference values as
+
+ E D  b  b F ¼ W H 0 þ D Q Á VW þ D Á U   1 À T T Á À1 DV þ F 0 ðQ0 ; 0 Þ; þ DV DU r DU 2b
+
+ð2Þ
+
+b where H 0 is the electronic Hamiltonian of the QM region, Q0 and 0 are the reference solute charges and LJ parameters, respectively, and D indicates the deviation from the b b corresponding reference value, e.g., D Q ¼ Q À Q0 . r is the covariance matrix representing the fluctuations of V and U, and bÀ1 = kBT with kB being the Boltzmann constant and T the temperature, respectively. The covariance matrix is given by  VV  rVU r r¼ ; ð3Þ rUV rUU where rVV ¼ hDV a DV b i; ab rVU ab and rUU ¼ hDU a DU b i: ab ð6Þ ¼ rUV ba ¼ hDV a DU b i; ð4Þ ð5Þ
+
+For the reference free energy F0(Q0, 0), we employed the simple linear response form, 1 F 0 ðQ0 ; 0 Þ ¼ ðQ0 Á V0 þ 0 Á U0 Þ: 2 ð7Þ
+
+Fig. 1. Calculated system of Bacillus subtilis chorismate mutase.
+
+M. Higashi et al. / Chemical Physics Letters 437 (2007) 293­297
+
+295
+
+Variation of the free energy functional F with respect to the potentials V and U as well as the wave function W provides the linear response relation,     DQ DV ; ð8Þ ¼ Àbr D DU and the solvated Fock equation [23]. We performed MD simulations of the MM region to evaluate the covariance matrix r. The free energy gradients with respect to the QM coordinates are calculated using the MD trajectory samples as well. We treated a substrate chorismate molecule as the QM region and the others as the MM region, respectively. The density functional theory (DFT) with the B3LYP functional was employed for the QM region. The 6-31G** basis set was used. In determining the partial charges on the substrate atoms, the restrained electrostatic potential (RESP) derived charge method [24] was applied. The MD simulation systems are as follows. The MM parameters of chorismate and enzyme were taken from AMBER force field [25]. The protein structural model of chorismate mutase was constructed based on an X-ray crystallographic structure of Bacillus subtilis deposited in Protein Data Bank (1DBF) [26]. All the sulfate and glycerol molecules were removed, and the chorismate substrate with chair conformation optimized by RISM-SCF method in aqueous solu° tion was added to the active site. The residues within 22 A from the center of the chorismate were considered. The protein system was solvated with 523 TIP3P water mole° cules with half-harmonic potentials at the distances 22 A as shown in Fig. 1. Thus the total number of atoms were ° 4833. The atoms of the enzyme within 17 A were allowed to move freely, while the outer atoms were fixed to keep
+
+the shape of the protein. The equations of motion were integrated by the Verlet method with the time step of 1 fs at the temperature of 300 K. The SHAKE algorithm was applied to fix the intramolecular distances of the substrate molecule and the bond distances including H atoms of the protein and water molecules. For each optimization, a 300 ps MD trajectory calculation was performed for the equilibration, followed by a 500 ps MD run for the statistical sampling. All the MD calculations were carried out using the AMBER 7.0 package [25]. As the initial guesses for the reaction path search, we took the geometries optimized by QM/MM PES calculations [22]. The effective partial charges of reactant were taken as the reference ones Q0 in Eq. (2). 3. Results and discussion Fig. 2 shows the optimized geometries of the reactant, transition state (TS) and product. At the reactant, the substrate chorismate is stable in the chair conformation, CHAIRout, where the subscript `out' denotes orientation of the hydroxy group, since the Arg7, Arg90 and Glu78 residues located at the active site of BsCM favorably interact with the calboxylate, ether oxygen, and hydroxyl hydrogen of CHAIRout form of chorismate. At the TS, the breaking of CO bond and formation of CC bond occur in a concerted manner as seen in Fig. 2. The bond rearrangement results in a prephenate structure (PREPHEout) at the product. The calculated free energies at those optimized geometries are given in Table 1. The reaction free energy is calculated to be À13.2 kcal/mol, which is in excellent agreement with the experimental estimate, À13.4 kcal/ mol [27]. The activation barrier height is 16.9 kcal/mol,
+
+° Fig. 2. Optimized geometries in enzyme (top) and in aqueous solution (bottom). Distances are given in A.
+
+296
+
+M. Higashi et al. / Chemical Physics Letters 437 (2007) 293­297
+
+Table 1 Calculated free energies and EQM, electrostatic (ES) and Lennard-Jones (LJ) components of LRFE in enzyme and in aqueous solution Structure CHAIRout TSout PREPHEout DIEQ TSin
+a
+
+DF N jaq ¼ F ðsen Þjaq À F ðsaq Þjaq ; min min
+
+
+
+ð9Þ
+
+DF 0a 16.9 À13.2 0a 28.4
+
+EQM Enzyme 0a 23.0 À19.7 Aqueous solution 0a 50.7
+
+ES À178.3 À184.7 À172.1 À184.7 À209.7
+
+LJ À6.4 À6.2 À6.1 0.0 2.8
+
+Relative energies with respect to reactant.
+
+which is also in good agreement with the experiment, 15.4 kcal/mol [28]. The present LRFE is decomposed into the contributions of the substrate QM energy, and the QM/MM electrostatic and LJ interaction ones. The components of LRFE at the optimized geometries are listed in Table 1, where one can see that the electrostatic interaction reduces the activation barrier by 6.4 kcal/mol. It is noteworthy that the geometry optimizations based on the PES function led to several local minima with different MM geometries. For example, the reaction path starting from the TS geometry to the reactant was trapped at a local minimum whose energy is higher by 5 kcal/mol than the other minimum starting from the reactant geometry obtained by the present LRFE optimization. In this respect, the optimization on FES is advantageous because it provides the unique reaction path connecting the reactant and product through the TS by avoiding traps at shallow local energy minima which are less relevant to the reaction path. In spite of many theoretical studies on chorismate mutase, the role of protein in the catalytic activity still remains controversial. Several have suggested that the electrostatic stabilization of the TS in the enzyme is responsible for the reduction of activation energy than in aqueous solution [10,12,14,20], while others have proposed the conformational restriction of the substrate [16,17,19], so-called the NAC effect. In order to shed light on the mechanism of the catalytic reactivity of the enzyme, we also determined the geometries of reactant and TS in aqueous solution and compared the free energy profile of the reaction in the solution with that in the enzyme. A cluster model with one chorismate and 1101 TIP3P water molecules was employed, where the solute was placed at the center of system and a capping half-harmonic potential was ° applied at the distance of 20 A from the center. The resultant geometries and the free energies are included in Fig. 2 and Table 1, respectively. The reactant is a pseudodiequatorial (DIEQ) form and the activation barrier is calculated to be 28.4 kcal/mol in the aqueous solution, which is comparable with the experimental estimate, 24.5 kcal/mol [29]. Hence the activation barrier height is lowered by 11.5 kcal/ mol in BsCM from the aqueous one in the present LRFE calculations. Although there are several methods for estimating the NAC effect, we adopted here the NAC free  energy proposed by Strajbl et al. [20],
+
+where smin is the reaction coordinate at which the minimum free energy geometry is determined in each environment. We chose the difference between the C­O and C­C distances as the reaction coordinate and optimized the geom° etry in the aqueous solution with sen = 1.714 A, which is min aq ° . The geometry determined in the smaller than smin , 3.850 A solution CHAIRin is similar to CHAIRout except for the inward orientation of the hydroxy group. The calculated NAC free energy was 9.4 kcal/mol. We can therefore conclude that the major role of BsCM is to restrict the conformation of the substrate chorismate rather than the electrostatic stabilization at the TS state. We further estimated KIEs at the four positions, 3-3H, 9,9-3H2, 1-13C and 7-18O positions (Fig. 2), employing the transition state theory with the harmonic oscillator approximation, Y   3N À6  CIj  Y k N xÃ 3N À7 CNi N ¼ Ã ; ð10Þ kI xI i CIi TS j CNj reactant where the subscript N and I denote the normal and isotopesubstituted values, respectively, and x* is the imaginary vibrational frequency at the TS. The function C is given by Ci ¼ ui =2 ; sinhðui =2Þ ð11Þ
+
+h where ui = bxi with xi being the frequency of the ith vibrational mode. We obtained the hessian matrices by numerical differentiations of the free energy gradients. No scaling factor of the vibrational frequencies was used. In addition to the intrinsic KIE coming from the reaction step CHAIRout(enzyme) ! PREPHEout(enzyme), we also considered the equilibrium isotope effect for the binding step of aqueous DIEQ conformer proceeding to CHAIRout in the BsCM active site, since the DIEQ conformer is the most stable in aqueous solution. The calculated KIEs are given in Table 2 along with the experimental values [30,31]. Since the experimental values for the 3-3H, 9,9-3H2 substitutions of BsCM are not available, those for Escherichia coli chorismate mutase (EcCM) are included in Table 2. Although the calculated intrinsic KIEs at the C3 and C9 positions, 1.206 and 1.074, were much larger than the experimental values, 1.003 and 1.012, the overall KIEs including the equilibrium isotope effects for the binding step become close to the experimental estimates. The calculated KIEs at the C1 and O7 positions also agree
+
+Table 2 Calculated and experimental kinetic isotope effects in enzyme at 300 K 3-3H Calculated Experimental
+a b
+
+9,9-3H2 1.074 0.975 1.012a
+
+1-13C 1.015 1.016 1.004b
+
+7-18O 1.036 1.044 1.045b
+
+CHAIRout ! TS DIEQ ! TS
+
+1.206 1.097 1.003a
+
+Ref. [30], Escherichia coli chorismate mutase. Ref. [31].
+
+M. Higashi et al. / Chemical Physics Letters 437 (2007) 293­297
+
+297
+
+very well with the experiments as seen in Table 2. The KIEs at those positions are unaffected by the equilibrium isotope effect contrary to those at the C3 and C9 positions. 4. Conclusions In the present study, we calculated the reaction path on the free energy surfaces for Claisen rearrangement of chorismate to prephenate in BsCM with a method based on a linear response theory, which permits one to optimize the geometries of QM/MM systems in terms of the free energy. The calculated activation free energy was 16.9 kcal/mol, which is in good agreement with experimental value, 15.4 kcal/mol. The reaction free energy was also well reproduced. In order to examine the role of BsCM in the catalytic activity, we further calculated the activation barrier for the reaction in aqueous solution. The calculated NAC free energy showed that the reduction of the activation free energy in the enzymatic reactions is mainly attributed to the conformational restriction of the substrate. The kinetic isotope effects of this reaction were also calculated. Considering the significant equilibrium isotope effect of the chorismate conformational pre-equilibrium step in the modelled kinetic scheme for the enzymatic reaction, a good agreement between the calculated and experimental estimates was achieved. Based on the present results, we can conclude that the linear response free energy functional is a powerful tool for studying the free energy profiles of QM/MM systems. It is demonstrated that this methods is advantageous to calculate the free energy profiles for enzymatic reactions as well as reactions in solution. Although the system studied here does not involve covalent bonds between the QM and MM regions, inclusion of the intramolecular bond stretching, bending and torsional potentials connecting the QM and MM atoms to the present LRFE model is straightforward. Acknowledgement This work was supported by the Grant-in-Aid from the Ministry of Education and Science, Japan.
+
+References
+[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] A. Warshel, M. Levitt, J. Mol. Biol. 103 (1976) 227. J. Gao, Acc. Chem. Res. 29 (1996) 298. G. Monard, K.M. Merz Jr., Acc. Chem. Res. 32 (1999) 904. M. Higashi, S. Hayashi, S. Kato, J. Chem. Phys., in press. R.M. Levy, M. Belhadj, D.B. Kitchen, J. Chem. Phys. 95 (1991) 3627. S. Yamazaki, S. Kato, J. Chem. Phys. 123 (2005) 114510. E.E. Conn, in: E.E. Conn (Ed.), The Shikimic Acid Pathway, Plenum Press, New York, 1986. E. Haslam, Shikimic Acid: Metabolism and Metabolites, John Wiley and Sons, New York, 1993. B. Ganem, Angew. Chem. Int. Ed. Engl. 35 (1996) 936. P.D. Lyne, A.J. Mulholland, W.G. Richards, J. Am. Chem. Soc. 117 (1995) 11345. R.J. Hall, S.A. Hindle, N.A. Burton, I.H. Hillier, J. Comput. Chem. 21 (2000) 1433. ´ ´ J.J. Ruiz-Pernia, E. Silla, I. Tunon, S. Marti, V. Moliner, J. Phys. ~´ Chem. B 108 (2004) 8427. Y.S. Lee, S.E. Worthington, M. Krauss, B.R. Brooks, J. Phys. Chem. B 106 (2002) 12059. B. Szefczyk, A.J. Mulholland, K.E. Ranaghan, W.A. Sokalski, J. Am. Chem. Soc. 126 (2004) 16148. H. Guo, Q. Cui, W.N. Lipscomb, M. Karplus, Proc. Natl. Acad. Sci. USA 98 (2001) 9032. S. Hur, C. Bruice, Proc. Natl. Acad. Sci. USA 99 (2002) 1176. S. Hur, C. Bruice, Proc. Natl. Acad. Sci. USA 100 (2003) 12015. ´ ´ A. Crespo, D.A. Scherlis, M.A. Marti, P. Ordejon, A.E. Roitberg, D.A. Estrin, J. Phys. Chem. B 107 (2003) 13728. C.R.W. Guimaraes, P. Repasky, J. Chandrasekhar, J. Tirado-Rives, ~ W.L. Jorgensen, J. Am. Chem. Soc. 125 (2003) 6892.  M. Strajbl, A. Shurki, M. Kato, A. Warshel, J. Am. Chem. Soc 125 (2003) 10228. T. Ishida, D.G. Fedorov, K. Kitaura, J. Phys. Chem. B 110 (2006) 1457. S. Hayashi, I. Ohmine, J. Phys. Chem. B 104 (2000) 10678. S. Ten-no, F. Hirata, S. Kato, J. Chem. Phys 100 (1994) 7443. C.I. Bayly, P. Cieplak, W.D. Cornell, P.A. Kollman, J. Phys. Chem 97 (1993) 10269. W.D. Cornell, P. Cieplak, C.I. Bayly, I.R. Gould, K.M. Merz Jr., D.M. Ferguson, D.G. Spellmeyer, T. Fox, J.W. Caldwell, P.A. Kollman, J. Am. Chem. Soc. 117 (1995) 5179. J.E. Ladner, P. Reddy, A. Davis, M. Tordova, A.J. Howard, G.L. Gilliland, Acta Cryst. D56 (2000) 673. P. Mattei, P. Kast, D. Hilvert, Eur. J. Biochem. 261 (1999) 25. P. Kast, M. Asif-Ullah, D. Hilvert, Tetrahedron Lett. 37 (1996) 2691. P.R. Andrews, G.D. Smith, I.G. Young, Biochemistry 12 (1973) 3492. L. Addadi, E.K. Jaffe, J.R. Knowles, Biochemistry 22 (1983) 4494. D.J. Gustin, P. Mattei, P. Kast, O. Wiest, L. Lee, W.W. Cleland, D. Hilvert, J. Am. Chem. Soc. 121 (1999) 1756.
+
+[26] [27] [28] [29] [30] [31]
+
+

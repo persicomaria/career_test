@@ -1,0 +1,198 @@
+KIT kinase mutants show unique mechanisms of drug resistance to imatinib and sunitinib in gastrointestinal stromal tumor patients
+Ketan S. Gajiwalaa,1, Joe C. Wub,1, James Christensenc, Gayatri D. Deshmukhb, Wade Diehla, Jonathan P. DiNittob, Jessie M. Englishb,2, Michael J. Greiga, You-Ai Hea, Suzanne L. Jacquesb, Elizabeth A. Lunneya,3, Michele McTiguea, David Molinaa,4, Terri Quenzera, Peter A. Wellsd, Xiu Yua, Yan Zhangb, Aihua Zoud, Mark R. Emmette,f, Alan G. Marshalle,f, Hui-Min Zhange,g, and George D. Demetrih,3
+aDepartments of Structural and Computational Biology, cCancer Biology, and dBiochemical Pharmacology, Pfizer Global Research and Development, 10777 Science Center Drive, La Jolla, CA 92121; bDepartment of Enzymology and Biochemistry, Pfizer Research Technology Center, 620 Memorial Drive, Cambridge, MA 02139; eNational High Magnetic Field Laboratory, Florida State University, 1800 East Paul Dirac Drive, Tallahassee, FL 32310; fDepartment of Chemistry and Biochemistry, Florida State University, Tallahassee, FL, 32306; gInstitute of Molecular Biophysics, Florida State University, Kasha Laboratory, MC4380, Tallahassee, FL 32306; and hLudwig Center at Dana­Farber/Harvard Cancer Center, 44 Binney Street, Boston, MA 02115
+
+Communicated by Joseph Schlessinger, Yale University School of Medicine, New Haven, CT, December 8, 2008 (received for review September 24, 2008)
+
+Most gastrointestinal stromal tumors (GISTs) exhibit aberrant activation of the receptor tyrosine kinase (RTK) KIT. The efficacy of the inhibitors imatinib mesylate and sunitinib malate in GIST patients has been linked to their inhibition of these mutant KIT proteins. However, patients on imatinib can acquire secondary KIT mutations that render the protein insensitive to the inhibitor. Sunitinib has shown efficacy against certain imatinib-resistant mutants, although a subset that resides in the activation loop, including D816H/V, remains resistant. Biochemical and structural studies were undertaken to determine the molecular basis of sunitinib resistance. Our results show that sunitinib targets the autoinhibited conformation of WT KIT and that the D816H mutant undergoes a shift in conformational equilibrium toward the active state. These findings provide a structural and enzymologic explanation for the resistance profile observed with the KIT inhibitors. Prospectively, they have implications for understanding oncogenic kinase mutants and for circumventing drug resistance.
+kinase inhibitor signal transduction resistance mechanism cancer targeted therapy
+
+T670I. However, certain imatinib-resistant mutants are also resistant to sunitinib, including D816H/V (6), which are located in the activation loop (A-loop) of the KIT catalytic domain (Fig. 1 A). Previous structural studies (7, 8) had shown that KIT can sample diverse conformations (Fig. 1B): the unactivated, autoinhibited conformation [in which the Asp-810-Phe-811-Gly-812 (DFG) triad at the beginning of the A-loop is in the ``DFG-out'' orientation, with the DFG Phe oriented near the ATP-binding pocket, and the JM domain bound in the pocket vacated by DFG Phe], the unactivated DFG-out conformation with the JM domain oriented into the solvent, and the activated conformation (in which the canonical ``DFG-in'' conformation buries the Phe away from the ATPbinding pocket and the A-loop extends over the C terminus of the catalytic domain). The protein can be considered to be in equilibrium among these conformations, with a shift to the activated form upon phosphorylation. The mechanism of KIT resistance to sunitinib could not be deduced in modeling studies using the published structures described above (7, 8). We therefore sought to investigate the mechanism using structural biological and functional enzymology studies of WT and mutated KIT proteins comprising the JM and kinase domains. Results
+Sunitinib and Imatinib Prevent KIT Activation by Targeting the Unactivated Conformation of KIT. Sunitinib and imatinib are more potent
+
+cquired resistance to systemic therapy is a critical problem in treating metastatic cancers. Improved understanding of the molecular mechanisms underlying resistance should provide insights leading to development of alternative treatment strategies or design of new therapeutic entities that could be used to circumvent desensitization. One example of acquired resistance is the secondary mutants of KIT identified in GIST. Most GISTs have primary activating mutations in the genes encoding the closely related RTKs KIT ( 85% of GIST patients) or platelet-derived growth factor receptor- (PDGFRA; 5% of patients) (1). The majority of KIT mutations affect the juxtamembrane (JM) region of the protein encoded by exon 11 of the gene, such as V560D (Fig. 1A). Imatinib mesylate (GleevecTM; an inhibitor of KIT and PDGFRs, as well as BCR-ABL) is currently first-line treatment for advanced GIST. Clinical response and duration of clinical benefit with imatinib correlate with KIT and PDGFRA genotype in GIST (2). Unfortunately, the majority of patients eventually show resistance to the drug: 14% of patients are initially insensitive to imatinib, and 50% of patients develop resistance within 2 years (3, 4). The latter resistance commonly occurs via secondary gene mutations in the KIT TK domains (Fig. 1 A) (5). An effective second-line treatment is provided by sunitinib malate (SutentTM), which is approved multinationally for the treatment of advanced GIST after failure of imatinib due to resistance or intolerance. Sunitinib is an inhibitor of multiple RTKs, notably in this context, KIT and PDGFRA, and has been shown to be effective against certain imatinib-resistant KIT mutants, such as the ATP-binding-pocket mutants V654A and
+1542­1547 PNAS February 3, 2009 vol. 106 no. 5
+
+A
+
+inhibitors of unactivated WT KIT than fully activated, phosphorAuthor contributions: K.S.G., J.C.W., J.C., W.D., J.P.D., J.M.E., M.J.G., Y.-A.H., S.L.J., E.A.L., M.M., P.A.W., X.Y., M.R.E., and G. D. Demetri designed research; K.S.G., J.C.W., G. D. Deshmukh, W.D., J.P.D., Y.-A.H., S.L.J., T.Q., P.A.W., Y.Z., A.Z., H.-M.Z., and G. D. Demetri performed research; W.D., D.M., and A.Z. contributed new reagents/analytic tools; K.S.G., J.C.W., J.P.D., J.M.E., S.L.J., E.A.L., M.M., T.Q., P.A.W., X.Y., Y.Z., A.Z., M.R.E., A.G.M., H.-M.Z., and G. D. Demetri analyzed data; and K.S.G., J.C.W., J.C., J.P.D., M.J.G., E.A.L., P.A.W., X.Y., M.R.E., A.G.M., H.-M.Z., and G. D. Demetri wrote the paper. Conflict of interest statement: K.S.G., J.C.W., J.C., G. D. Deshmukh, W.D., J.P.D., J.M.E., M.J.G., Y-A.H., S.L.J., E.A.L., M.M., D.M., T.Q., P.A.W., X.Y., Y.Z., and A.Z. are Pfizer employees and stockholders or were at the time this work was carried out. M.R.E. holds Pfizer stock. G. D. Demetri has received consulting stipends and honoraria from Pfizer, Novartis, Bayer, and Infinity, and his institution has received research funding from Pfizer, Novartis, Bristol-Meyers Squibb, Infinity, and Exelixis.
+1K.S.G.
+
+and J.C.W. contributed equally to this work.
+
+2Present address: Department of Oncology, Merck Research Laboratories, 33 Avenue Louis
+
+Pasteur, Boston, MA 02115.
+3To
+
+whom correspondence may be addressed. E-mail: gdemetri@partners.org or beth.lunney@pfizer.com. address: Strain Development, Sapphire Energy, 3115 Merryfield Row, San Diego, CA 92121.
+
+4Present
+
+This article contains supporting information online at www.pnas.org/cgi/content/full/ 0812413106/DCSupplemental. © 2009 by The National Academy of Sciences of the USA
+
+www.pnas.org cgi doi 10.1073 pnas.0812413106
+
+Fig. 1. Overview of the KIT gene and protein. (A) Schematic representation of KIT showing location of functional domains, primary (1°) and secondary (2°) mutations (mut.). Frequencies of primary KIT genotypes, specific secondary KIT mutations, and resistance (R) or sensitivity (S) to imatinib (IM) or sunitinib (SU) were those reported in a phase I/II trial of sunitinib in advanced GIST after imatinib failure (6). V560D, substitution of Asp for Val at residue 560. (B) The unactivated, autoinhibited and activated forms of WT KIT (7, 8). The JM domain (red), A-loop (green), and C -helix (cyan) are oriented differently in the autoinhibited and activated states. *V560D generally occurs as a primary mutation.
+
+ylated WT KIT (Fig. 2). This was determined initially in biochemical experiments with activated WT KIT. In enzyme assays containing 1.2 mM ATP and activated WT KIT, sunitinib and imatinib were only weakly active against the enzyme (IC50s: 7.0 and 3.3 M, respectively). The unactivated enzyme state was then assayed: Unactivated WT KIT (40 nM) was incubated with sunitinib or imatinib and 4 mM ATP for 16 h, followed by measurement of kinase activity to quantify the amount of activated KIT produced. Both inhibitors were very effective at inhibiting autoactivation even at physiological ATP concentration (4 mM; Fig. 2) (IC50s: sunitinib, 42 nM; imatinib, 124 nM). Because imatinib has been shown to bind to KIT in the DFG-out, unactivated kinase conformation (8), it was expected to be more effective against unactivated KIT than activated enzyme. However, sunitinib has been reported to be an ATP-competitive inhibitor of various kinases, including VEGFR2 and PDGFR (9), so the more potent inhibition of the unactivated relative to the activated form of KIT by sunitinib was surprising.
+Activated Mutant KIT Proteins Behave Similarly to Activated WT KIT.
+
+containing primary and secondary mutations observed in the clinic (V560D D816H, V560D D816V, and V560D V654A) in sufficient quantity for structural experiments were unsuccessful. However, crystallography-quality D816H protein was made in sufficient amounts for structural studies. This mutant, along with the D816V and V654A single mutants, was studied biochemically, providing insight into the impact of point mutations. Additionally, the clinically relevant mutants V560D and V560D T760I were characterized and assayed. Biochemical studies showed that once fully activated, all KIT mutants tested were virtually indistinguishable from WT (Table 1): Their catalytic efficiencies (kcat/Km) were all within 3-fold of WT KIT. Also, sunitinib was almost ineffective against activated mutants, similar to what was observed with WT KIT.
+Fluorescence Studies Show Sunitinib Binds to Unactivated WT and Mutant KIT. Binding of sunitinib to unactivated WT KIT or mutants
+
+Biochemical characterization of mutant activated KIT proteins was undertaken. Efforts to provide purified double-mutant proteins
+
+D816H, D816V, V560D, and V560D T670I was measured by monitoring the quenching of intrinsic protein fluorescence that occurs upon inhibitor binding to KIT [supporting information (SI) Fig. S1]. As shown in Table 1, the dissociation constants (Kd) for sunitinib binding to unactivated WT KIT and mutant proteins were within 2-fold of each other, with the exception of mutant V560D, for which the Kd was 5-fold lower (Table 1). Thus, sunitinib binds to the unactivated forms of WT and mutant KIT proteins, which does not explain the loss in sunitinib sensitivity observed for A-loop mutants in the clinical setting.
+Structural Data Reveal Sunitinib Binds to Autoinhibited KIT. Structural
+
+Fig. 2. Sunitinib and imatinib inhibit unactivated KIT more effectively than activated KIT. Effects of sunitinib (red circles) and imatinib (gold triangles) on activated KIT were assayed in a mixture containing 1.2 mM ATP and 0.25 mg/mL poly(Glu-Tyr); the rate of ATP depletion was followed. Effects of sunitinib (black circles) and imatinib (green triangles) on KIT autoactivation were assayed in a mixture containing 40 nM unactivated KIT and 4 mM ATP for 16 h. Activated KIT resulting from this autoactivation reaction in the presence/ absence of inhibitors was estimated based on kinase activity of the activated enzyme. IC50 values were determined as described in Methods.
+
+studies were undertaken to determine the mode of sunitinib binding to the unactivated KIT protein. The sunitinib-bound crystal structure of KIT revealed that the protein is in an unactivated, autoinhibited conformation (Fig. 3A, Table S1). The root meansquare deviation between C atoms of the previously determined autoinhibited apo protein structure (8) and the sunitinib-bound form presented here was 0.9 Å. The only noteworthy difference between the 2 structures was restricted to the DFG triad at the beginning of the A-loop. In both, the DFG triad was oriented such that the side chain of Phe-811 faced the ATP-binding pocket of the enzyme. However, in the sunitinib-bound form, Phe-811 had to reorient for sunitinib to occupy the ATP-binding pocket, requiring the DFG triad to reposition slightly (Fig. 3B). Sunitinib bound in the ATP-binding pocket between the N and C lobes of the kinase domain such that the dihydrooxaindole ring accessed the deep end of the pocket, partially overlapping with the space occupied by the
+PNAS February 3, 2009 vol. 106 no. 5 1543
+
+Gajiwala et al.
+
+MEDICAL SCIENCES
+
+Table 1. WT and mutant KIT: kinase activity of activated proteins and affinity of sunitinib for unactivated proteins
+Kinase activity of activated proteins Protein WT D816H D816V V560D V654A V560D ATP Km, M 42.5 22.0 17.0 35.0 13.5 12.8 kcat, s 1.67 1.29 0.55 1.47 1.26 0.96
+1
+
+Unactivated proteins SU IC50, M 21 30 30 25 8.6 30 SU Kd*, nM 20 13 22 15 13 6 4.4 0.6 ND 14 9
+
+kcat/Km, s
+
+1M 1
+
+T670I
+
+39,294 58,636 32,559 41,857 93,333 75,156
+
+cat, catalytic; SU, sunitinib; ND, not determined. *Determined by using the Trp fluorescence quench assay.
+
+bound ADP adenine ring in the phosphorylated protein (7), whereas the aliphatic diethylaminoethyl tail was exposed to the solvent and disordered (Fig. S2 A). Molecular recognition was through both specific polar interactions and nonspecific van der Waals contacts (Fig. 3B). The NH and O atoms of the sunitinib dihydrooxaindole ring system make up the donor­acceptor motif that is frequently part of kinase inhibitors and participates in hydrogen-bonding interactions with the backbone amides in the interlobe hinge region of the protein. KIT contains a kinase insertion domain (KID) as do other split TKs. All KIT WT and mutant proteins investigated in the biochemical studies described contained the KID. However, because of an inability to crystallize KIT proteins with the KID intact, crystallographic experiments were performed by using constructs in which the KID was deleted. Direct evidence of this domain's influence on the conformation of the whole kinase would therefore be insightful. Solution-phase hydrogen/deuterium exchange (HDX) experiments with high-resolution mass spectrometry analysis for 2 constructs of KIT (the WT KIT kinase domain with and without the KID) were performed under the same conditions. HDX rates of all of the covered peptides were similar in both proteins in the absence or presence of sunitinib (Fig. 4A and Fig. S3). This result verified that the KID has no major influence on KIT conformation or on sunitinib inhibition of KIT. Likewise, unactivated KIT with or without the KID showed similar affinity for sunitinib in protein fluorescence-quench experiments (data not shown).
+Sunitinib Inhibits Autophosphorylation of Unactivated KIT Mutants.
+
+of mutant KIT quickly diminished after 4 h in the assay. These results show that the drug-resistant mutants maintain their ability to bind sunitinib in an unactivated conformation, consistent with the binding results described above. As the unactivated kinase is converted to the active form, the conformation of the active site becomes less favorable for sunitinib binding, due at least in part to competition with ATP, resulting in reduced drug potency.
+KIT A-Loop Mutants Autoactivate Much Faster Than WT KIT. Time
+
+Although sunitinib was virtually ineffective against activated WT and mutant KIT at physiological ATP concentrations, the drug effectively inhibited almost all of the unactivated enzymes in an autoactivation reaction run for 1 h (Table 2). However, inhibition
+
+courses of WT KIT autoactivation at varying enzyme concentrations are shown in Fig. 5A. For a bimolecular autoactivation reaction coupled with a kinase activity assay run at saturating substrate concentration, rate equations for active KIT production and the subsequent formation of KIT-catalyzed kinase reaction product (ADP) afford determination of the activation and catalytic rate constants, kact and kcat, respectively. Fitting the data in Fig. 5A to Eq. 1 in Methods gave a kact of 0.25 0.09 mM 1s 1 for WT KIT activation and a kcat of 5.9 0.7 s 1 for the subsequent KITcatalyzed kinase reaction. Similar experiments were performed with each KIT mutant. A representative example (D816H) is shown in Fig. 5B. Autoactivation rate constants for each mutant are provided in Table 2. Autoactivation rates of KIT A-loop mutants D816H and D816V were substantially faster than that of WT KIT (184- and 536-fold, respectively). The increase in the activation rate of these mutants compared with WT KIT correlated well with loss of sunitinib potency during the course of autoactivation shown in Table 2. Conversely, the ``gatekeeper'' mutation T670I did not alter the autoactivation rate and showed no effect on sunitinib binding (compare V560D T670I and V560D). Together, these results suggest that the accelerated autoactivation of D816H and D816V mutants might play a significant role in their resistance to sunitinib.
+
+Fig. 3. Sunitinib recognizes the autoinhibited form of KIT. WT KIT bound to sunitinib is shown in yellow (JM domain, red; A-loop, green; C -helix, cyan). (A) WT KIT bound to sunitinib is very similar to the published autoinhibited structure of KIT (gray) (7, 8). Amino acid side chains are shown at the sites of A-loop substitutions found in sunitinib-resistant GISTs. (B) Sunitinib-binding site in the complex and apo structures. Drug binding induces a slight rearrangement of the Phe-811 side chain relative to the apo form. (C) The overall structure of the D816H mutant bound to sunitinib (darker blue) is very similar to that with WT, except for the proposed dislocation of the JM domain from its autoinhibitory position. Residue 816 is shown for both proteins.
+
+1544
+
+www.pnas.org cgi doi 10.1073 pnas.0812413106
+
+Gajiwala et al.
+
+Fig. 4. HDX analysis of WT and mutant KIT. (A) HDX time courses for WT KIT with (blue) or without the KID (black) showed no significant conformational differences in the JM domain (residues 542­586), the C segment (residues 624 ­ 636), or the A-loop (residues 810 ­ 834). (B) HDX time courses for the D816H mutant (red) and WT KIT (blue). Most of the D816H mutant peptides were more solvent exposed than those of WT KIT, implying that the mutant protein is more flexible than the WT protein.
+
+Interestingly, although mutants harboring the V560D mutation exhibited the greatest increase in activation rates (Table 2; Fig. S4), they remained more sensitive to sunitinib through the study time course than the A-loop mutants D816H/V. This phenomenon may be related to the different conformations populated by the various mutants.
+KIT D816H Impacts the Autoinhibitory Conformation of the JM Domain. To complement the structural studies of sunitinib bound to
+
+KIT, we sought to determine the structure of the D186H KIT­ sunitinib complex. Despite extensive crystallization experimentation, D816H KIT could not be crystallized. This was reminiscent of the experience reported for KIT­imatinib (8), where limited proteolysis of the complex yielded diffraction-quality crystals. To explore further, limited proteolysis experiments with D816H KIT and different proteases were performed. Glu-C was found to cleave part of the JM domain in the presence of sunitinib; therefore, crystallization experiments were carried out in the presence of this enzyme, yielding diffraction-quality crystals in complex with sunitinib (Fig. 3C). The resulting 2.6-Å-resolution electron density map, as well as liquid chromatography­mass spectrometry experiments on the crystals, indicated that Glu-C cleaves KIT at the C terminus of Glu-562, truncating the N-terminal region by 19 residues. D816H KIT displayed the protease cleavage site in the same region as reported for the WT imatinib-bound protein. The D816H variant was also significantly more susceptible to Glu-C proteolysis than was the WT protein, indicative of JM exposure to solvent. Imatinib binding kinetics further support this inference. Imatinib, unlike sunitinib, is occluded by the autoinhibitory con-
+
+formation of the JM domain, which is a likely cause of imatinib being a slow binder of KIT. Therefore, destabilization of the autoinhibitory conformation should result in faster imatinib binding. Indeed, the on-rate of imatinib binding to the D816H mutant was 4.3-fold higher than to WT (see Methods), consistent with less steric hindrance by the JM domain for binding. In HDX experiments, the HDX rate of the D816H JM domain exceeded the already high exchange rate of the WT JM domain (Fig. 4B). The HDX rate for the N lobe residues adjacent to the JM domain increased significantly, indicating less protection from the JM segment. We therefore propose that the D816H substitution negatively influences the inhibitory conformation of the JM domain such that the equilibrium is shifted from the autoinhibited state of the kinase to one with a solvated, disordered JM domain.
+Sunitinib Interacts Similarly with the D816H Mutant and WT KIT. An analysis of the D816H mutant complex revealed that the interaction of sunitinib with the mutant protein was very similar to that seen with WT (Fig. 3C). The mutant and WT ATP-binding pockets, to which sunitinib bound, were virtually identical except near the DFG triad. The peptide bond connecting Gly-812 to Leu-813 was flipped by 180° in the D816H KIT relative to the WT kinase. However, this did not seem to be the direct result of the specific substitution D816H. The A-loop conformation after the DFG triad in the mutant protein was very similar to that in the WT. Sunitinib Binds to the Unactivated Imatinib-Resistant KIT T670I Protein. Mutations of the gatekeeper residue in TKs are frequently
+
+associated with drug resistance (10­12). The gatekeeper KIT
+MEDICAL SCIENCES no. 5 1545
+
+Table 2. WT and mutant KIT: inhibition by sunitinib and rates of auto-activation
+Sunitinib IC50 ( M) Unactivated KIT Protein WT D816H D816V V560D V654A V560D JM 1h Low signal 0.21 7.10 0.02 0.01 0.04 0.03 4h 0.04 3.20 10.00 0.17 0.08 0.28 0.16 16 h 0.04 10.00 10.00 0.24 0.15 0.36 0.53 Activated KIT 1h 21.00 30.00 30.00 25.00 8.60 30.00 30.00 Activation rate mM
+1s 1
+
+WT 1 184 536 600 19 600 ND
+
+T670I
+
+0.25 46 134 150 4.8 150 ND
+
+Gajiwala et al.
+
+PNAS
+
+February 3, 2009
+
+vol. 106
+
+Fig. 5. KIT A-loop mutant D816H autoactivates at a much faster rate than WT enzyme. WT KIT (A) and D816H mutant (B) autoactivation was conducted in a reaction mixture containing 4 mM ATP and various starting concentrations of unactivated (ua) KIT as indicated. Autoactivation was monitored in a real-time manner by coupling the activation product [activated (act) KIT] to the kinase activity assay reaction described in Methods by using a saturating poly(GluTyr) concentration (1.5 mg/ml). ADP production resulting from the reaction catalyzed by active KIT was followed by measuring absorbances at 340 nm (A340; colored traces) in the ATP-regeneration system described in Methods. Fitting the data to Eq. 1 in Methods gave the simulated results shown as solid black curves and second-order rate constants (kact) of 0.25 0.09 and 46 27 mM 1s 1 for WT KIT and D816H mutant, respectively.
+
+mutant (T670I) observed in patients with GIST corresponds to that found in Bcr-Abl that confers resistance to imatinib in chronic myelogenous leukemia patients (10, 13, 14). Similarly, the gatekeeper KIT mutant T670I is insensitive to imatinib (15). In our studies, imatinib was a weak inhibitor (IC50 1 M) of the V560D T670I double-mutant protein. This substitution with the larger Ile clearly impedes imatinib binding. Because sunitinib does not access the deep hydrophobic pocket as does imatinib, there is enough space to accommodate the additional C atom associated with the T670I mutation without affecting sunitinib binding (Fig. S2B). This is consistent with the observation shown in Table 2 that the double mutation V560D T670I exhibits little effect on the autoactivation rate and sensitivity to sunitinib. Discussion In 2006, sunitinib received U.S. Food and Drug Administration approval for the treatment of patients with imatinib-resistant GIST. The underlying mechanism of action for both drugs in the majority of patients is believed to be inhibition of oncogenic KIT mutants. Imatinib has been shown to target the unactivated state of the enzyme. On the other hand, sunitinib has frequently been assumed to bind to the ATP-binding pocket of kinases and to inhibit the active form of the enzyme in an ATP-competitive manner. Our studies show that sunitinib binds to the unactivated conformation of KIT at the ATP-binding pocket, thus blocking autoactivation.
+1546 www.pnas.org cgi doi 10.1073 pnas.0812413106
+
+Sunitinib is only weakly effective in inhibiting the active form of KIT in the presence of physiologically relevant ATP concentrations. The finding that sunitinib binds to the autoinhibited form of KIT highlights the importance of targeting various conformations of protein kinases and is a result with great potential impact on kinase research. Because of the inability to crystallize KIT with the KID intact, solution-phase HDX experiments were used to verify that the KID had no conformational effect on KIT either in the presence or absence of sunitinib. The inferences from the crystal structures of KIT without the KID are therefore expected to be relevant to the full-length cytoplasmic protein. To elucidate the binding of the drug to the kinase, we determined the crystal structure of WT KIT with sunitinib. The complex revealed that the drug binds to the autoinhibited form of the enzyme, with the protein retaining a conformation very similar to that previously reported for the apo enzyme (8). Although imatinib also targets an unactivated kinase conformation, this inhibitor competitively displaces the JM domain from its inhibitory position. The biochemical data indicate that sunitinib binds to the unactivated form of the mutant proteins as well as WT. Kinase activity assays using the active forms of KIT mutants D816H/V and V560D T670I revealed that both sunitinib and imatinib are ineffective against this state of the mutant proteins in the presence of physiological ATP concentrations, as was observed with WT KIT. Measurement of autoactivation rates showed that the D816H and D816V mutants activate much faster than WT. Taken together, these data suggest that the drug resistance exhibited by D816H and D816V proteins is the result of a shift in equilibrium toward the active kinase conformation and an accelerated autophosphorylation of these mutants. The drug-resistant variants indeed bind sunitinib and imatinib in an unactivated conformation; however it is the conversion from the drug-favorable unactivated kinase conformation to the drug-insensitive active form in the presence of physiological ATP concentrations that results in loss of inhibition. Modeling of sunitinib binding into the activated kinase structure suggests that steric conflicts between the flexible glycine-rich loop and sunitinib could be one of the reasons for reduced drug sensitivity of the activated state (Fig. S2C). The crystal structure of sunitinib bound to the KIT D816H mutant provides insight regarding the regulatory impact of the A-loop mutations. Unlike the crystallization experiments with WT KIT construct containing catalytic and JM domains, the corresponding D816H KIT variant did not crystallize. The inability to grow crystals with the D816H mutant may have been due to a disordered JM domain, similar to imatinib-bound KIT (8). The analogous proteolytic digestion was carried out with the D816H variant and resulted in truncated protein that cocrystallized with sunitinib, suggesting that the JM domain in the D816H KIT­ sunitinib complex is indeed unstructured. Solution-phase HDX further verified that the JM domain in D816H is much more flexible or unstructured compared with WT KIT. Other results described above comparing the D816H mutant with WT KIT provided additional evidence supporting the solvated state of the JM domain in the mutated enzyme. Based on these observations, we propose that the D816H substitution negatively impacts the inhibitory conformation of the JM domain such that the equilibrium is shifted away from the autoinhibited state to the JM domain being released to solvent and disordered. GISTs containing the gatekeeper mutation T670I that confers resistance to imatinib are highly sensitive to sunitinib. Biochemical and structural data presented in this report provide an explanation for the different drug sensitivities of GISTs to sunitinib and imatinib observed in patients. The primary JM KIT mutation in GIST patients has been proposed to negatively impact the inhibitory conformation of the JM domain (16), an effect also observed for the A-loop mutant D816H in our studies. Because sunitinib and imatinib efficacies
+Gajiwala et al.
+
+depend on targeting unactivated KIT, we propose that KIT A-loop mutations alter the conformational equilibrium of the kinase toward the active form. In the presence of ATP, this conformational impact leads to accelerated phosphorylation and production of the activated protein. D816H/V mutant proteins offer a smaller population of the molecular target to both sunitinib and imatinib, which manifests as abrogated efficacy of each drug in GIST patients in the clinical setting. These studies suggest that successful cancer treatment regimens may require a mixture of kinase inhibitors that block various conformations of the target protein. Additionally, this strategy could potentially circumvent, or at least delay, the onset of drug resistance. Methods
+Cloning and Protein Purification. KIT constructs were made as previously described (7) (details provided in SI Methods). Kinase Activity Assay. Activated KIT was prepared by incubating 10 M unactivated KIT with 4 mM ATP. KIT kinase activity was determined by using a coupled assay method in an ATP-regenerating system as described previously (17) with slight modification. The steady-state rate of poly(Glu-Tyr) phosphorylation was computed from the observed linear decrease in absorbance at 340 nm (A340). To quantify inhibition of activated KIT by sunitinib and imatinib, 10 L of activated KIT (400 nM) were incubated with 10 L of sunitinib or imatinib (0 ­90 M; 20 °C, 30 min), followed by addition of 80 L of coupled assay mixture. A340 was followed to determine the KIT kinase activity (additional details in SI Methods). Inhibition of KIT Autoactivation. For a typical reaction, 40 nM unactivated KIT was preincubated with 0 ­90 M sunitinib or imatinib (20 °C, 30 min), followed by addition of 4 mM ATP to initiate KIT autophosphorylation. Autophosphorylation/ activation was allowed to continue for 1, 4, or 16 h at 20 °C. Autoactivation was monitored by determining the resultant KIT activity by adding 70 L of ATPregenerating coupled assay mixture; A340 was followed for 1 h. Eleven-point dose­response curves with inhibitor concentrations ranging from 0.3 nM to 30 M were used to determine IC50s. Binding Assay. Direct sunitinib binding to mutant and WT KIT was detected by measuring intrinsic Trp fluorescence quenching that occurs upon drug binding to KIT. KIT (200 nM) was excited at 290 nm; the emission spectrum was collected at 300 ­ 450 nm. KIT protein spectra were collected after addition of small aliquots of sunitinib in 100% DMSO. To determine the Kd, fluorescence at 340 nm was plotted versus drug concentration and fit to the Morrison equation (18). Crystallization and Structure Determination. WT protein in complex with sunitinib was crystallized at 13 °C in 10% PEG 6000, 0.1 M bicine (pH 9). D816H protein (8.4 mg/mL) was incubated with sunitinib overnight at 4 °C. Glu-C protease was added; the complex was incubated at room temperature for 45 min. Proteolysis was quenched with leupeptin. The protein complex was crystallized at 13 °C in 1.5 M ammonium sulfate. See SI Methods for additional details.
+
+Autoactivation-Rate Determination. For a bimolecular autoactivation reaction coupled with a kinase activity assay run at saturating substrate concentration, rate equations for active KIT production and the subsequent formation of KITcatalyzed kinase reaction product (ADP) may be written as follows:
+
+d[KITact]/dt
+
+KITua
+
+2
+
+k act and d[ADP]/dt
+
+KITact k cat, [1]
+
+where [KITact] and [KITua] are activated and unactivated KIT concentrations, respectively. kact is the rate constant for KIT activation; kcat is the catalytic rate constant for activated KIT. Integration of these 2 rate equations gives:
+
+[ADP]t
+
+KITua
+
+0
+
+k cat t
+
+k cat/k act ln KITua
+
+0
+
+k act t
+
+1 . [2]
+
+Fitting the data in Fig. 5A to Eq. 2 gives activation rate constants kact and catalytic rate constants kcat. On-Rate Determination for Unactivated KIT Binding to Imatinib. Unactivated WT and D816H KIT samples were diluted to 200 nM in kinase activity assay buffer. Fifty-microliter samples were mixed with 50 L of imatinib to give final imatinib concentrations of 60, 30, 15, and 7.5 M, and 100 nM final [KIT]ua. The decrease in protein fluorescence intensity was measured with an excitation wavelength of 293 nm and an emission wavelength of 340 nm. For imatinib binding to WT and D816H KIT, binding progress curves were fitted to a single exponential function:
+
+Fobs
+
+Fo
+
+F oo e
+
+k obs*t
+
+F oo
+
+[3]
+
+where Fo is the initial fluorescence of free KIT, and Foo is the imatinib-bound protein fluorescence intensity after equilibrium is established. Fobs is the observed fluorescence intensity at time t. The observed binding rate kobs was determined accordingly. The ratio kobs(D816H)/kobs(WT) at each imatinib concentration was calculated, giving an average ratio of 4.3 1.3. HDX Fourier Transform Ion Cyclotron Resonance (FT-ICR) Mass Spectrometry. HDX methods have been described previously (19, 20). Briefly, 5 L of KIT (20 M) were mixed with 45 L of 25 mM Hepes (pH 7.5), 250 mM NaCl, 1 mM EDTA, and 0.5 mM TCEP in D2O to initiate each HDX period. Sunitinib (63 M) was allowed to bind to 20 M KIT for 1 h before HDX experiments. HDX was quenched by 1:1 (vol/vol) addition of protease type XIII solution in 1.0% formic acid. Microelectrosprayed (21) HDX samples were directed to a custom-built hybrid linear trap quadrupole 14.5-Tesla FT-ICR mass spectrometer (22). Data were analyzed by using an in-house analysis package. Time-courses of deuterium incorporation were generated after fitting the HDX data by using a maximum-entropy method (23). ACKNOWLEDGMENTS. This work was supported in part by funding from Pfizer Inc., the Ludwig Trust for Cancer Research, National Science Foundation Grant DMR-06-54118, Florida State University, and the National High Magnetic Field Laboratory in Tallahassee, FL. Editorial assistance was provided by ACUMED (Tytherington, U.K.) and funded by Pfizer Inc.
+
+1. Corless CL, Fletcher JA, Heinrich MC (2004) Biology of gastrointestinal stromal tumors. J Clin Oncol 22:3813­3825. 2. Heinrich MC, et al. (2003) Kinase mutations and imatinib response in patients with metastatic gastrointestinal stromal tumors. J Clin Oncol 21:4342­ 4349. 3. Demetri GD, et al. (2002) Efficacy and safety of imatinib mesylate in advanced gastrointestinal stromal tumors. N Engl J Med 347:472­ 480. 4. Verweij J, et al. (2004) Progression-free survival in gastrointestinal stromal tumours with high-dose imatinib: Randomized trial. Lancet 364:1127­1134. 5. Antonescu CR, et al. (2005) Acquired resistance to imatinib in gastrointestinal stromal tumor occurs through secondary gene mutation. Clin Cancer Res 11:4182­ 4190. 6. Heinrich MC, et al. (2008) Primary and secondary kinase genotypes correlate with the biological and clinical activity of sunitinib in imatinib-resistant gastrointestinal stromal tumor. J Clin Oncol 26:5352­5359. 7. Mol CD, et al. (2003) Structure of a KIT product complex reveals the basis for kinase transactivation. J Biol Chem 278:31461­31464. 8. Mol CD, et al. (2004) Structural basis for the autoinhibition and STI-571 inhibition of KIT tyrosine kinase. J Biol Chem 279:31655­31663. 9. Mendel DB, et al. (2003) In vivo antitumor activity of SU11248, a novel tyrosine kinase inhibitor targeting vascular endothelial growth factor and platelet-derived growth factor receptors: Determination of a pharmacokinetic/pharmacodynamic relationship. Clin Cancer Res 9:327­337. 10. Gorre ME, et al. (2001) Clinical resistance to STI-571 cancer therapy caused by BCR-ABL gene mutation or amplification. Science 293:876 ­ 880. 11. Yun CH, et al. (2008) The T790M mutation in EGFR kinase causes drug resistance by increasing the affinity for ATP. Proc Natl Acad Sci USA 105:2070 ­2075. 12. Godin-Heymann N, et al. (2008) The T790M ``gatekeeper'' mutation in EGFR mediates resistance to low concentrations of an irreversible EGFR inhibitor. Mol Cancer Ther 7:874 ­ 879.
+
+13. Schindler T, et al. (2000) Structural mechanism for STI-571 inhibition of abelson tyrosine kinase. Science 289:1938 ­1942. 14. Zhou T, et al. (2007) Crystal structure of the T315I mutant of AbI kinase. Chem Biol Drug Des 70:171­181. 15. Heinrich MC, et al. (2006) Molecular correlates of imatinib resistance in gastrointestinal stromal tumors. J Clin Oncol 24:4764 ­ 4774. 16. Tarn C, et al. (2005) Analysis of KIT mutations in sporadic and familial gastrointestinal stromal tumors: Therapeutic implications through protein modeling. Clin Cancer Res 11:3668 ­3677. 17. Wu JC, Chuan H, Wang JH (1989) A potent fluorescent ATP-like inhibitor of cAMPdependent protein kinase. J Biol Chem 264:7989 ­7993. 18. Morrison JF (1969) Kinetics of the reversible inhibition of enzyme-catalysed reactions by tight-binding inhibitors. Biochim Biophys Acta 185:269 ­286. 19. Zhang H-M, et al. (2008) Enhanced digestion efficiency, peptide ionization efficiency, and sequence resolution for protein hydrogen/deuterium exchange monitored by Fourier transform ion cyclotron resonance mass spectrometry. Anal Chem 80:9034 ­ 9041. 20. Zhang H-M, et al. (2009) Fast reversed-phase liquid chromatography to reduce back exchange and increase throughput in H/D exchange monitored by FT-ICR mass spectrometry. J Am Soc Mass Spectrom, in press. 21. Emmett MR, Caprioli RM (1994) Micro-electrospray mass spectrometry: Ultra-highsensitivity analysis of peptides and proteins. J Am Soc Mass Spectrom 5:605­ 613. 22. Schaub TM, et al. (2008) High-performance mass spectrometry: Fourier transform ion cyclotron resonance at 14.5 Tesla. Anal Chem 80:3985­3990. 23. Zhang Z, Li W, Logan TM, Li M, Marshall AG (1997) Human recombinant [C22A] FK506-binding protein amide hydrogen exchange rates from mass spectrometry match and extend those from NMR. Protein Sci 6:2203­2217.
+
+Gajiwala et al.
+
+PNAS
+
+February 3, 2009
+
+vol. 106
+
+no. 5
+
+1547
+
+MEDICAL SCIENCES
+
+

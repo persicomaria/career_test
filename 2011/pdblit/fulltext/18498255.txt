@@ -1,0 +1,342 @@
+www.biochemj.org
+Biochem. J. (2008) 415, 45­56 (Printed in Great Britain) doi:10.1042/BJ20080242
+
+45
+
+Molecular basis of the substrate specificity and the catalytic mechanism of citramalate synthase from Leptospira interrogans
+Jun MA*1 , Peng ZHANG1 , Zilong ZHANG*, Manwu ZHA, Hai XU*2 , Guoping ZHAO*§3 and Jianping DING3
+*Laboratory of Microbial Molecular Physiology, Institute of Plant Physiology and Ecology, Shanghai Institutes for Biological Sciences, Chinese Academy of Sciences, 300 Feng-Lin Road, Shanghai 200032, China, State Key Laboratory of Molecular Biology and Research Center for Structural Biology, Institute of Biochemistry and Cell Biology, Shanghai Institutes for Biological Sciences, Chinese Academy of Sciences, 320 Yue-Yang Road, Shanghai 200031, China, Graduate School of Chinese Academy of Sciences, 320 Yue-Yang Road, Shanghai 200031, China, and §Shanghai-MOST Key Laboratory for Health and Disease Genomics, Chinese National Human Genome Center, Shanghai 201203, China
+
+Leptospira interrogans is the causative agent for leptospirosis, a zoonotic disease of global importance. In contrast with most other micro-organisms, L. interrogans employs a pyruvate pathway to synthesize isoleucine and LiCMS (L. interrogans citramalate synthase) catalyses the first reaction of the pathway which converts pyruvate and acetyl-CoA into citramalate, thus making it an attractive target for the development of antibacterial agents. We report here the crystal structures of the catalytic domain of LiCMS and its complexes with substrates, and kinetic and mutagenesis studies of LiCMS, which together reveal the molecular basis of the high substrate specificity and the catalytic mechanism of LiCMS. The catalytic domain consists of a TIM barrel flanked by an extended C-terminal region. It forms a homodimer in the crystal structure, and the active site is located at the centre of the TIM
+
+barrel near the C-terminal ends of the -strands and is composed of conserved residues of the -strands of one subunit and the Cterminal region of the other. The substrate specificity of LiCMS towards pyruvate against other -oxo acids is dictated primarily by residues Leu81 , Leu104 and Tyr144 , which form a hydrophobic pocket to accommodate the C2 -methyl group of pyruvate. The catalysis follows the typical aldol condensation reaction, in which Glu146 functions as a catalytic base to activate the methyl group of acetyl-CoA to form an enolated acetyl-CoA intermediate and Arg16 as a general acid to stabilize the intermediate. Key words: aldol condensation, catalytic mechanism, citramalate synthase, crystal structure, feedback inhibition, substrate specificity.
+
+INTRODUCTION
+
+Leptospirosis is a zoonotic disease which has emerged as a globally important infectious disease and has caused endemic and epidemic severe pulmonary haemorrhage in recent years (reviewed in [1,2]). It is more common in the tropics where conditions for its transmission are favourable, but can also occur in urban environments of industrialized and developing countries and rural areas worldwide [3­7]. The pathogen of leptospirosis is Leptospira interrogans, which belongs to the spirochetes, an evolutionarily primitive species of bacteria [8]. It has long been noticed that the metabolism of spirochetes differs substantially from those of well-studied micro-organisms [9,10]. In particular, most micro-organisms use the threonine pathway to synthesize isoleucine, in which the first reaction, synthesis of -Kb (-oxobutyrate) from threonine, is catalysed by L-threonine dehydratase (encoded by the ilvA gene). In our previous studies, we did not find the ilvA gene in L. interrogans through analysis of the genome sequence [11]; instead, we found that L. interrogans might use a threonine-independent pathway, namely the Pyr (pyruvate) pathway, to synthesize isoleucine [12]. Specifically, L. interrogans uses LiCMS (L. interrogans citramalate synthase; encoded by the CimA gene) to catalyse the conversion of Pyr and acetyl-CoA
+
+into (R)-citramalate in the first reaction of this pathway. So far, citramalate synthase has only been found in L. interrogans and a few other micro-organisms, such as Methanococcus jannaschii [13] and thus it could be an attractive target for the development of antibacterial agents for both therapeutic and preventive purposes. The biosynthesis of isoleucine in L. interrogans is very similar to the biosynthesis of leucine in most micro-organisms, in which -isopropylmalate synthase catalyses the synthesis of -isopropylmalate from -Kiv (-oxoisovalerate) and acetyl-CoA in the first reaction, and the catalytic reaction is inhibited by the end-product, leucine [14,15]. In addition, the biosynthesis of isoleucine in L. interrogans employs several other enzymes that are also utilized in the biosynthesis of leucine in most microorganisms, such as -isopropylmalate isomerase (encoded by the LeuC/D gene) and -isopropylmalate dehydrogenase (encoded by the LeuB gene) [12], suggesting that the two pathways share some common features. The crystal structure of MtIPMS (Mycobacterium tuberculosis -isopropylmalate synthase) in complex with its substrate -Kiv has been solved, showing that the enzyme functions as a homodimer and consists of a catalytic domain and a regulatory domain connected together by two subdomains and a disordered region [14]. However, the exact mechanisms of the catalytic reaction and the feedback inhibition
+
+Abbreviations used: Glx, glyoxylate; His6 , hexahistidine; HS-CoA, reduced CoA; ICP-MS, inductively coupled plasma MS; -Kb, -oxobutyrate; -Kiv, oxoisovalerate; Li CMS, Leptospira interrogans citramalate synthase; Li CMSC, C-terminal regulatory domain of Li CMS; Li CMSN, N-terminal catalytic domain of Li CMS; Mal, malonate; MR, molecular replacement; Mt IPMS, Mycobacterium tuberculosis -isopropylmalate synthase; Ni2+ -NTA, Ni2+ -nitrilotriacetate; Pyr, pyruvate; RMSD, root mean square deviation; SAD, single-wavelength anomalous dispersion. 1 These authors contributed equally to this work. 2 Present address: State Key Laboratory of Microbial Technology, Shandong University, Jinan, Shandong 250104, China. 3 Correspondence may be addressed to either of these authors (email jpding@sibs.ac.cn or gpzhao@sibs.ac.cn). The structural co-ordinates reported for the N-terminal catalytic domain of Leptospira interrogans citramalate synthase in complex with malonate, in complex with pyruvate and in complex with pyruvate and acetyl-CoA will appear in the Protein Data Bank under accession codes 3BLE, 3BLF and 3BLI respectively.
+c The Authors Journal compilation c 2008 Biochemical Society
+
+Biochemical Journal
+
+46
+
+J. Ma and others
+
+are still unclear. LiCMS is 516 amino acids in length, with a molecular mass of 56 kDa. On the basis of sequence homology with MtIPMS and secondary-structure prediction, LiCMS appears to be composed of an N-terminal catalytic domain (residues 1­ 330) and a C-terminal regulatory domain (residues 390­516), connected together by a linker region of approx. 60 amino-acid residues. Although the catalytic reactions catalysed by LiCMS and MtIPMS both belong to the aldol condensation reaction, the two enzymes use different substrates: LiCMS has a high specificity for Pyr, whereas MtIPMS prefers -Kiv, which has an isopropyl group at the C2 position instead of a methyl group as in Pyr. To understand the catalytic mechanism and feedback-inhibition mechanism of LiCMS and provide the molecular basis for development of antibacterial agents to treat leptospirosis, we carried out structural and biochemical studies of LiCMS. We report here the crystal structures of LiCMSN (N-terminal catalytic domain of LiCMS) in complex with Mal (malonate) at 2.0 Å (1 Å = 0.1 nm) resolution, in complex with Pyr at 2.6 Å resolution and in complex with Pyr and acetyl-CoA at 2.5 Å resolution. Analyses of these structures, together with mutagenesis and kinetic studies, identified the key residues involved in the recognition and binding of the substrates and the catalytic reaction. The structural and biochemical results together provide the molecular basis for the substrate specificity of LiCMS and reveal the catalytic mechanism of LiCMS. The crystal structure of LiCMSC (C-terminal regulatory domain of LiCMS) and the mechanism of feedback inhibition of LiCMS will be described elsewhere (P. Zhang, J. Ma, Z. Zhang, M. Zha, H. Xu, G. Zhao and J. Ding, unpublished work).
+MATERIALS AND METHODS Cloning, expression, and purification of Li CMS
+
+gels) and was then concentrated to approx. 20 mg/ml in buffer D by ultrafiltration for further structural and biochemical studies. Selenomethionine-substituted LiCMS protein suitable for structure determination was prepared following a method described previously [16]. Purification of the selenomethionine LiCMS protein was performed using the same methods as for the native protein. Constructs of mutant LiCMS containing point mutations were generated using the QuikChange® site-directed mutagenesis kit (Stratagene), and all of these clones were verified by DNA sequencing. The plasmid pET-28b-LiCMSN containing the gene fragment corresponding to LiCMSN (residues 1­330) was also constructed using a method similar to that used to clone the full-length gene. Expression and purification of the LiCMS mutants and the LiCMSN truncation mutant were the same as for the wild-type full-length enzyme as described above.
+Crystallization and diffraction data collection
+
+The LiCMS gene (CimA) used for clone construction and protein expression was amplified by PCR from the genomic DNA of L. interrogans (serogroup Icterohaemorrhagiae, serovar lai, type strain 56601). The following primers were used: 5 -CATATGGGACGTTCTCAAAAGGTATC-3 (NdeI restriction site underlined), 5 -AAGCTTATGCCGGTTGTGAACATATT-3 (HindIII restriction site underlined). The gene fragment was digested by NdeI/HindIII and inserted into the pET-28b expression plasmid resulting in N-terminal His6 (hexahistidine)-tagged pET28b-LiCMS. The plasmid was transformed into Escherichia coli BL21(DE3) strain (Novagen) and the transformed bacterial cells were cultured at 37 C in TB (Terrific Broth) medium containing 50 g/ml kanamycin. Protein expression was induced by adding IPTG (isopropyl -D-thiogalactoside) into the medium to a final concentration of 1 mM. The cells were harvested by centrifugation at 5000 g for 10 min at 4 C, resuspended in a lysis buffer [50 mM Tris/HCl (pH 8.0), 300 mM NaCl and 1 mM PMSF], and then disrupted using a French Press (Thermo Scientific). The recombinant protein was purified with affinity chromatography using a Ni2+ -NTA (Ni2+ -nitrilotriacetate) Superflow column (Qiagen) pre-equilibrated with buffer A [50 mM Tris/HCl (pH 8.0) and 300 mM NaCl] and then washed with buffer B (buffer A supplemented with 40 mM imidazole) to remove proteins which have bound non-specifically. The target protein was eluted with buffer C (buffer A supplemented with 300 mM imidazole), and the eluted fractions were dialysed against buffer D [20 mM Tris/HCl (pH 8.4) and 50 mM NaCl] and then digested by thrombin to remove the N-terminal His6 -tag. The protein sample was further purified using an anion-exchange Q-column (Pharmacia). After the two-step purification, the target protein was of sufficient purity (above 95 %) as shown by SDS/PAGE analysis (14 %
+c The Authors Journal compilation c 2008 Biochemical Society
+
+The full-length LiCMS protein was used for the crystallization experiments, which were performed at room temperature (20 C) using the hanging-drop vapour-diffusion method. Two types of crystals with different morphologies were grown in the same drops containing equal volumes (2 l) of the protein solution (approx. 20 mg/ml LiCMS) and the reservoir solution [0.1 M Hepes (pH 7.5) and 2 M sodium malonate]. Crystals of one type are tetragonal bipyramids and the other type were hexagonal plates. SDS/PAGE analyses (14 % gels) of the crystallization solution and the dissolved crystals of both types showed that fulllength LiCMS had been hydrolysed into two fragments during crystallization (Figure 1A). Addition of the protease inhibitor PMSF could slow down, but could not prevent, this hydrolysis. MS analyses indicated that the crystals of the bipyramidal shape contain the larger fragment with a molecular mass of approx. 33 kDa, which corresponds to LiCMSN, and the crystals of the plate shape contain the smaller fragment with a molecular mass of approx. 14 kDa, which corresponds to LiCMSC. The two types of crystals were used to determine the crystal structures of LiCMSN and LiCMSC respectively. Attempts to crystallize the LiCMSN truncation mutant in the absence or presence of Pyr and/or acetyl-CoA have been unsuccessful in producing any crystals so far. For diffraction data collection, the LiCMSN crystals were first cryo-protected using paratone oil (Hampton Research) and then flash-cooled in liquid nitrogen. Selenium SAD (single-wavelength anomalous dispersion) diffraction data of LiCMSN were collected to a resolution of 2.6 Å from a flash-cooled crystal at 100 K at the Photon Factory (Ibaraki, Japan), beamline BL17, and the native diffraction data collected to a resolution of 2.0 Å at beamline BL6A. The diffraction data were processed, integrated and scaled together using the HKL2000 suite [17]. The crystals of native LiCMSN belong to space group P31 21, with unitcell dimensions a = b = 85.2 Å and c = 112.9 Å, containing one LiCMSN molecule in the asymmetric unit with a solvent content of 60 %. Subsequent structure refinement has revealed that a Mal molecule is bound at the active site, mimicking the substrate Pyr. Therefore this structure should be considered as the structure of LiCMSN in complex with Mal (LiCMSC­Mal). The crystals of LiCMSN in complex with Pyr (LiCMSN­Pyr) were prepared by soaking the crystals of the LiCMSN­Mal complex in the crystallization drop supplemented with 50 mM Pyr for 24 h. The crystals of LiCMSN in complex with Pyr and acetyl-CoA (LiCMSN­Pyr­CoA) were prepared by soaking crystals of the LiCMSN­Mal complex in the crystallization drop supplemented with 50 mM Pyr and 40 mM acetyl-CoA for 24 h. The diffraction data of the LiCMSN­Pyr complex were collected to 2.6 Å
+
+Substrate specificity and catalytic mechanism of Li CMS
+
+47
+
+Figure 1
+
+Characterization of Li CMS
+
+(A) SDS/PAGE analysis of the Li CMS protein samples. Full-length Li CMS was hydrolysed during crystallization into two fragments: a larger fragment (corresponding to Li CMSN) and a smaller fragment (corresponding to Li CMSC). Dissolved crystals of Li CMSN and Li CMSC, freshly purified full-length Li CMS and the crystallization solution after 1 month (Drop) were analysed. Molecular-mass markers are shown in the lane between Li CMSC and Li CMS (in kDa). (B) The enzymatic activity of Li CMS in the absence and presence of different metal ions. Li CMS has very little activity in the absence of bivalent metal ions and shows the highest activity in the presence of Mn2+ . Results are means + S.D., n = 2 (C) The activation of the enzymatic activity of Li CMS by Mn2+ . - Results are means + S.D., n = 2 (D) The enzymatic activity of Li CMS in the presence of different univalent metal ions in addition to 0.8 mM Mn2+ . K+ and NH4 + can act as co-activators of Li CMS - in the presence of Mn2+ . (E) The co-activation of the enzymatic activity of Li CMS by K+ in the presence of Mn2+ .
+
+resolution from a flash-cooled crystal at 100 K at the Beijing Synchrotron Radiation Facility (Beijing, China) and processed and scaled using HKL2000. The diffraction data of the LiCMSN­ Pyr­CoA complex were collected to 2.5 Å resolution from a flashcooled crystal at 100 K using an in-house Rigaku R-AXIS IV++ diffractometer and processed and scaled using the CrystalClear suite [18]. The statistics of the diffraction data are summarized in Table 1.
+
+Structure determination and refinement
+
+The structure of the LiCMSN­Mal complex was solved using the SAD method implemented in the program SOLVE [19]. The SAD phases were improved by statistical-density modification, including solvent flattening and histogram matching, using the program RESOLVE [20], increasing the overall figure-of-merit from 0.39 to 0.77 at 2.6 Å resolution. The resultant electron density
+c The Authors Journal compilation c 2008 Biochemical Society
+
+48
+Table 1
+(a)
+
+J. Ma and others
+Summary of diffraction data (a) and structure refinement (b) statistics
+hkl i |I i (hkl )i
+
+For the resolution range, the numbers in parentheses refer to the highest resolution shell. Rmerge =
+
+- I (hkl ) |/
+
+hkl
+
+i I i (hkl ).
+
+R factor = ||Fo |-|Fc ||/ |Fo |.
+
+Selenomethionine Li CMSN ° Wavelength (A) ° Resolution range (A) Space group ° Cell parameters a = b /c (A) Unique reflections [I/ (I) > 0] Average I/ (I) Redundancy Completeness (%) Rmerge (%) (b) 0.9795 50.0­2.6 (2.69­2.6) P 31 21 85.5/113.8 15263 55.6 (15.4) 21.8 (22.2) 100 (100) 8.1 (43.1)
+
+Li CMSN­Mal
+1.0000 50.0­2.0 (2.08­2.0) P 31 21 85.2/112.9 32925 26.3 (5.0) 7.7 (7.8) 100 (100) 6.8 (42.7)
+
+Li CMSN­Pyr
+1.0000 50.0­2.6 (2.69­2.6) P 31 21 85.1/116.1 15521 33.8 (5.6) 8.8 (8.8) 100 (99.6) 6.0 (45.6)
+
+Li CMSN­Pyr­CoA
+1.5418 20.0­2.5 (2.59­2.5) P 31 21 85.0/115.7 17171 5.3 (1.9) 8.4 (8.7) 96.6 (96.6) 10.4 (35.9)
+
+Li CMSN­Mal R factor (%) Free R factor (%) Number of residues Number of water molecules ° Average B factor (A2 ) Protein Substrate (Mal or Pyr) Acetyl-CoA Zn2+ Water molecules ° RMSD bond lengths (A) RMSD bond angles () Ramachandran plot (%) Most favoured regions Allowed regions Generously allowed regions
+22.3 25.4 307 154 39.1 38.1 ­ 35.9 44.8 0.006 1.4 90.8 8.4 0.7
+
+Li CMSN­Pyr
+22.4 25.9 306 79 57.7 59.9 ­ 46.3 51.7 0.010 1.7 87.5 12.1 0.4
+
+Li CMSN­Pyr­CoA
+22.7 27.7 311 82 44.5 49.9 76.5 36.3 47.6 0.008 1.4 88.0 11.6 0.4
+
+map was of high quality and RESOLVE automatically built 60 % of the polyalanine model. The full-structure model was built manually using the program Coot [21]. Structure refinement was carried out against the 2.0 Å native data using the program CNS with standard protocols [22]. The structures of the LiCMSN­ Pyr and LiCMSN­Pyr­CoA complexes were solved using the MR (molecular-replacement) method using CNS, with the structure of the LiCMSN­Mal complex used as the starting model. In all three complexes, there was strong electron density at the active site that matched the bound substrate (Mal or Pyr) very well. However, the electron density for the bound acetyl-CoA was poor and thus the occupancy of acetyl-CoA was set to 0.5 in the structure refinement. In addition, there was a residual electron density near the bound substrate that could be fitted with a bivalent metal ion. The bound metal ion was identified as an Zn2+ ion copurified with the enzyme from the expression system (see the Results and discussion section). The statistics of the structure refinement and the quality of the structure models are summarized in Table 1.
+Enzymatic activity assay
+
+The enzymatic activity of both wild-type and mutant LiCMS and the LiCMSN truncation mutant was assayed by monitoring the production of HS-CoA (reduced CoA) over time as described previously [13]. Specifically, a typical reaction mixture consisted of a varied concentration of Pyr (or other -oxo acids in the determination of substrate specificity), a varied concentration of acetyl-CoA, 0.8 mM MnCl2 , 50 mM KCl and 15 nM LiCMS, in a total volume of 50 l using 0.1 M Hepes (pH 7.7). To determine
+c The Authors Journal compilation c 2008 Biochemical Society
+
+the effect of Pyr, the concentration of acetyl-CoA was fixed at 4 mM (four times K m ) and the concentration of Pyr was varied from 30 M to 800 M. To determine the effect of acetyl-CoA, the concentration of Pyr was fixed at 2 mM (30 times K m ) and the concentration of acetyl-CoA was varied from 100 M to 6 mM. The reaction mixture was first equilibrated on ice for 10 min. The reaction was performed in a water bath at 37 C for 15 min and then stopped by placing the reactant on ice for 10 min. For measurement of the produced HS-CoA, 35 l of 1 M Tris/HCl (pH 8.0), 25 l of 10 mM DTNB [5,5 -dithio-bis(2-nitrobenzoic acid] in 0.1 M Tris/HCl (pH 8.0) and 390 l of distilled H2 O were added into the reactant to a total volume of 500 l, and the generated yellow 5-mercapto-2-nitrobenzoic acid was quantified at an absorbance (A) of 412 nm using a Beckman Du800 spectrometer and blanked against an identical incubation sample without the substrate (either Pyr or other -oxo acids). The concentration of HS-CoA was calculated from a linear standard curve generated with known concentrations (0 to 200 M) of 2-mercaptoethanol. The production of HS-CoA was found to be linear over the time period of the assay, and the product formation was a linear function of the amount of the enzyme added. All experiments were repeated at least twice under the same conditions. All kinetic data were analysed using Prism 4.0 for Windows (GraphPad) and the kinetic parameters (V max , K m and kcat ) were calculated from the Scatchard plots. In the experiments to measure the effects of different metal ions on the enzymatic activity of LiCMS, we first removed the bound metal ions co-purified with the enzyme by using the following procedure. The purified protein was first dialysed six times for 30 min against 20 mM Tris/HCl (pH 8.0) containing
+
+Substrate specificity and catalytic mechanism of Li CMS
+
+49
+
+50 mM KCl and 10 mM EDTA to remove the bivalent metal ions, and then dialysed four times for 30 min against 20 mM Tris/HCl (pH 8.0) containing 50 mM KCl to remove the EDTA. The protein was further dialysed four times for 30 min against 20 mM Tris/HCl (pH 8.0) to remove univalent metal ions. This sample was indeed metal-free as shown by ICP-MS (inductively coupled plasma MS) analysis (see Supplementary Table S1 at http://www.BiochemJ.org/bj/415/bj4150045add.htm) and thus was used for the activity assay of LiCMS in the presence of different metal ions using the same method as described above.
+
+RESULTS AND DISCUSSION Enzymatic activity of Li CMS
+
+The enzymes catalysing the adol condensation reaction require the participation of bivalent metal ions for their activities. For MtIPMS, Mg2+ and Mn2+ result in the highest activation and K+ can act as a co-activator, but Zn2+ and Cd2+ can inhibit enzymatic activity [23]. To examine the effects of different bivalent and univalent metal ions on the activity of LiCMS, we first removed the metal ions co-purified with the enzyme with EDTA and then measured the activity of the metal-free enzyme in the presence of various metal ions (see the Materials and methods section). The results showed that LiCMS has no activity in the absence of metal ions; Mn2+ is the most effective activator, followed by Co2+ , Ca2+ , Mg2+ and Ni2+ ; and Cu2+ and Zn2+ can inhibit the activity of LiCMS (Figure 1B). The activation of the activity of LiCMS by Mn2+ occurs in a concentration-dependent manner, with a K act of 75 M (Figure 1C). K+ alone has a very minor effect on the activity of LiCMS, but K+ and NH4 + could act as co-activators in the presence of Mn2+ (Figures 1B and 1D). The co-activation by K+ in the presence of Mn2+ also occurs in a concentrationdependent manner, with a K act of 1.2 mM (Figure 1E). Therefore Mn2+ was chosen as the activator and K+ as the co-activator, and the enzymatic activity of LiCMS was assayed at 0.8 mM Mn2+ (approx. 10 times K act ) and 50 mM K+ (approx. 40 times K act ) as the saturated concentration (protein/Mn2+ /K+  1:2800:10 000). Under this condition, the enzymatic activity of full-length LiCMS was determined to be 9.4 mol/min per mg, and the K m value to be 60 M for Pyr and 1.1 mM for acetyl-CoA, which is higher than that of MtIPMS for acetyl-CoA (12 M) [24]. We also measured the enzymatic activity of the LiCMSN truncation mutant and the results show that LiCMSN has weaker binding affinities for both Pyr and acetyl-CoA (K m being increased by 2.5- and 5-fold respectively), but has very little enzymatic activity (kcat being decreased by 2280- and 940-fold respectively) (Table 2).
+Overall structure of Li CMSN
+
+The structure of the LiCMSN­Mal complex was solved using the SAD method and refined to 2.0 Å resolution with an R factor of 22.3 % and a free R factor of 25.4 % respectively (Table 1). In this complex, there was strong electron density at the active site that matches a Mal molecule very well (see Supplementary Figure S1A at http://www.BiochemJ.org/bj/415/bj4150045add.htm). Because LiCMS has no enzymatic activity for Mal (results not shown), the bound Mal is biologically irrelevant and appears to be an artifact as a result of it being present at a high concentration (2 M) in the crystallization solution, mimicking the substrate Pyr. In addition, there was an electron density at the active site near the bound ligand which closely matches a bivalent metal ion. Since no bivalent metal ion was added in either the purification or crystallization steps, the bound metal ion could be these ions present at higher concentrations in the expression system (such as
+
+Zn2+ , Mg2+ , Mn2+ , Ca2+ etc.) or Ni2+ stripped from the Ni2+ -NTA column during purification. To characterize the type and source of the bound metal ion, we first performed ICP-MS analysis of the purified enzymes. The results show that the purified protein contains both Zn2+ and Ni2+ at high concentrations (Supplementary Table S1). The bound Zn2+ was co-purified with the enzyme from the expression system, whereas the concomitant Ni2+ was stripped from the Ni2+ -NTA column during purification. These metal ions could be removed to the background level by treatment of the purified enzyme with EDTA. We then carried out fluorescence scans of the crystals of the LiCMSN­Mal complex and the LiCMSN­Pyr­CoA complex at a synchrotron and the results show that the crystals have a strong anomalous signal at the wavelength of Zn2+ , but not other metal ions. We further collected anomalous diffraction data at the wavelengths of Zn2+ and Ni2+ respectively, and determined the structures using MR. The results show that there is a strong anomalous density peak (above 10 contour level) for a Zn2+ ion at the active site (see Supplementary Figure S2 at http:// www.BiochemJ.org/bj/415/bj4150045add.htm), but a very weak anomalous density peak (approx. 2 contour level) for a Ni2+ ion. All of these results together indicate that the bound metal ion at the active site is Zn2+ , which is co-purified with the enzyme from the expression system. The crystals of the LiCMSN­Pyr complex were obtained by soaking the crystals of the LiCMSN­Mal complex in the crystallization solution supplemented with excess Pyr. The structure of the LiCMSN­Pyr complex was solved using the MR method and refined to 2.6 Å resolution (Table 1). At the active site, there was very good electron density correlating to a Pyr molecule (Supplementary Figure S1B) and a Zn2+ ion. Attempts to grow crystals of LiMCS in complex with both Pyr and acetyl-CoA using co-crystallization have been unsuccessful so far. Thus we prepared crystals of LiCMSN­Pyr­CoA complex by soaking the crystals of the LiCMSN­Mal complex in the crystallization solution supplemented with excess Pyr and acetyl-CoA. The structure of the LiCMSN­Pyr­CoA complex was solved using the MR method and refined to 2.5 Å resolution (Table 1). At the active site, there was very good electron density for a Pyr molecule and a Zn2+ ion. In addition, there was poor electron density in a deep surface groove near the bound Pyr corresponding to an acetyl-CoA molecule (Supplementary Figure S1C). Although the electron density for the adenosine moiety and thioacetyl moiety of acetyl-CoA was fairly defined and consistent in several diffraction datasets, the electron density for the middle part of acetylCoA was invisible, and anomalous diffraction data collected at the wavelength of sulfur did not reveal an evident anomalous density peak at the active site for the sulfur atom of acetylCoA. This is probably due to the low binding affinity of acetyl-CoA with LiCMSN and a partial occupancy resulting from the soaking experiment. Regardless, the electron density for acetyl-CoA is sufficient for us to define its position at the active site, which provides some valuable information about the catalytic mechanism. Since this is the only surface groove near the active site of LiCMS where the coenzyme could bind, we believe that it is the binding site of acetyl-CoA. In the structure of the MtIPMS­-KIV complex, a similar surface groove adjacent to the bound -Kiv is also suggested to be the binding site of acetyl-CoA [14]. The overall structures of LiCMSN in all three complexes are very similar, with a RMSD (root mean square deviation) of approx. 0.3 Å, indicating that the binding of Pyr and/or acetylCoA does not cause a significant conformational change to the overall structure and to the active site. The structure model of LiCMSN consists of amino-acid residues 7­325, with residues
+c The Authors Journal compilation c 2008 Biochemical Society
+
+50
+
+c The Authors Journal compilation c 2008 Biochemical Society
+
+J. Ma and others
+
+Table 2
+
+Kinetic data for the catalytic reaction of the active site (a), the C-terminal region of Li CMSN (b) and the substrate-binding site (c) of wild-type and mutant Li CMSa
+
+All kinetic parameters are the means of duplicate determinations. N.D., not detectable; where the enzymatic activity is too low to be detected. (a)
+
+Li CMS
+Effect on the binding of acetyl-CoA Wild-type Li CMSN E146D E146Q R16K/R16Q F83A Effect on the binding of Pyr Wild-type Li CMSN D17N D17A T179A (b)
+
+K m (M)
+1118 + 49 - 5273 + 2457 - + 1511 - 584 2391 + 358 - N.D. 5186 + 1807 - 60 + 4 - 150 + 26 - 263 + 42 - 2036 + 787 - 979 + 76 - Acetyl-CoA
+
+k cat (s-1 )
+10.3 + 0.5 - 1.1 + 0.2 × 10-2 - 2.1 + 0.3 × 10-2 - 2.4 + 0.4 × 10-2 - N.D. 8.5 + 1.6 × 10-2 - 9.13 + 0.72 - 0.4 + 0.1 × 10-2 - 1.9 + 0.4 × 10-2 - 2.9 + 1.2 × 10-2 - 4.9 + 0.5 × 10-2 -
+
+k cat /K m (M-1 · s-1 )
+9.2 + 0.6 × 103 - 2.2 + 1.1 - 1.4 + 0.6 × 101 - 1.0 + 0.2 × 101 - N.D. 1.6 + 0.7 × 101 - 1.5 + 0.2 × 105 - 25 + 7 - 7.3 + 1.8 × 101 - 1.4 + 0.8 × 101 - 5.0 + 0.6 × 101 - Pyr
+
+Li CMS
+Wild-type H302A/H302N D304A N310A L311A Y312A (c) Pyr
+
+K m (M)
+1118 + 49 - N.D. 5851 + 1132 - 2409 + 87 - 8921 + 1814 - N.D.
+
+k cat (s-1 )
+10.3 + 0.5 - N.D. 0.62 + 0.07 - 5.9 + 0.2 - 1.7 + 0.4 - N.D.
+
+k cat /K m (M-1 · s-1 )
+9.2 + 0.6 × 103 - N.D. 1.1 + 0.2 × 102 - 2.5 + 0.1 × 103 - 1.9 + 0.6 × 102 - N.D. -Kb
+
+K m (M)
+60 + 4 - N.D. 153 + 16 - 170 + 22 - 1272 + 476 - N.D.
+
+k cat (s-1 )
+9.1 + 0.7 - N.D. 0.32 + 0.01 - 3.8 + 0.2 - 1.7 + 0.4 - N.D. -Kiv
+
+k cat /K m (M-1 · s-1 )
+1.5 + 0.2 × 105 - N.D. 2.1 + 0.2 × 103 - 2.2 + 0.3 × 104 - 1.4 + 0.6 × 103 - N.D.
+
+Glx
+
+Acetyl-CoA
+
+Li CMS
+Wild-type L104V Y144L Y144V L81A L81V
+
+
+K m (M)
+60 + 4 - 105 + 18 - 15529 + 2057 - 6859 + 491 - 282 + 22 - 198 + 22 -
+
+k cat (s-1 )
+9.1 + 0.7 - 2.7 + 0.6 - 0.12 + 0.01 - 1.7 + 0.1 - 0.58 + 0.05 - 0.9 + 0.1 -
+
+k cat /K m (M-1 · s-1 )
+1.5 + 0.2 × 105 - 2.5 + 0.7 × 104 - 7.7 + 1.3 - 2.4 + 0.3 × 102 - 2.1 + 0.3 × 103 - 4.5 + 0.8 × 103 -
+
+K m (M)
+1470 + 133 - 2898 + 564 - 3498 + 1491 - 1023 + 243 - 10605 + 637 - 7225 + 412 -
+
+k cat (s-1 )
++ 0.51 - 0.05 + 0.6 - 0.1 + 0.005 - 0.001 + 0.03 - 0.01 0.19 + 0.01 - + 0.21 - 0.01
+
+k cat /K m (M-1 · s-1 )
+3.5 + 0.5 × 102 - 1.9 + 0.6 × 102 - 1.7 + 0.8 - 3.4 + 1.3 × 101 - 1.8 + 0.2 × 101 - 3.0 + 0.3 × 101 -
+
+K m (M)
+695 + 65 - 471 + 130 - 12606 + 2995 - 6519 + 601 - 465 + 112 - 2924 + 418 -
+
+k cat (s-1 )
+0.09 + 0.01 - 0.03 + 0.01 - 0.005 + 0.002 - 0.62 + 0.06 - 0.05 + 0.01 - 0.014 + 0.002 -
+
+k cat /K m (M-1 · s-1 )
+1.3 + 0.2 × 102 - 6.8 + 2.9 × 101 - 0.5 + 0.2 - 9.6 + 1.3 × 101 - 1.0 + 0.4 × 102 - 4.8 + 1.0 -
+
+K m (M)
+N.D. 253 + 52 - 151 + 6 - 52854 + 296 - 98 + 6 - N.D.
+
+k cat (s-1 )
+N.D. 0.03 + 0.01 - 0.023 + 0.001 - 0.062 + 0.001 - 0.018 + 0.002 - N.D.
+
+k cat /K m (M-1 · s-1 )
+N.D. 1.3 + 0.4 × 102 - 1.5 + 0.1 × 102 - 1.17 + 0.01 - 1.9 + 0.2 × 102 - N.D.
+
+K m (M)
+1118 + 49 - 3028 + 386 - 1904 + 536 - 1691 + 438 - 1137 + 162 - 1214 + 208 -
+
+k cat (s-1 )
++ 10.3 - 0.5 3.9 + 0.6 - 0.017 + 0.002 - 0.6 + 0.2 - 0.7 + 0.1 - 1.1 + 0.2 -
+
+k cat /K m (M-1 · s-1 )
+9.2 + 0.6 × 103 - 1.3 + 0.2 × 103 - 1.0 + 0.3 × 101 - 3.4 + 1.3 × 102 - 5.8 + 1.3 × 102 - 9.2 + 2.4 × 102 -
+
+These mutants have relatively low enzymatic activity. In order to produce the most activated enzyme, the concentration of Mn2+ was increased from 0.8 mM (for other mutants) to 5 mM.
+
+Substrate specificity and catalytic mechanism of Li CMS
+
+51
+
+Figure 2
+
+Structure of the catalytic domain of Li CMS
+
+(A) Overall structure of Li CMSN in complexes with Pyr and acetyl-CoA. The bound Pyr and acetyl-CoA are shown as ball-and-stick models in pink and yellow respectively, and Zn2+ is shown as a gold sphere. (B) Structure of the homodimeric Li CMSN. The two monomers (in magenta and grey respectively) are related by a two-fold crystallographic symmetry. The bound Pyr and acetyl-CoA are shown with ball-and-stick models in the same colors as in (A). (C) Superposition of Li CMSN (grey) and Mt IPMSN (N-terminal catalytic domain of Mt IPMS; red). Although the catalytic domains of the two enzymes share very low sequence homology, their structures are very similar. (D) Structure-based sequence alignment of Li CMSN and Mt IPMSN. The secondary structures of the two enzymes are shown above and below the alignment respectively. Strictly conserved residues are highlighted in red shaded boxes and conserved residues in white boxes with blue outlines.
+
+298­309 disordered. The structure of LiCMSN assumes a TIM barrel fold flanked by an extended C-terminal region (Figure 2A). The TIM barrel is mainly composed of eight -strands (1­8) and eight long -helices (1­8) arranged as eight / repeats with repeats 1/1, 4/4 and 5/5 inserted by short helices 1 , 4 and 5 respectively. The inside and outside diameter of the barrel is about 10 Å and 45 Å respectively. The C-terminal
+
+region forms a long -helix (9) and an extended loop (aminoacid residues 285­325) which flank helices 1 and 8 of the TIM barrel. In the crystal structures of LiCMSN in complexes with the ligands, two LiCMSN molecules related by the two-fold crystallographic symmetry form a homodimer (Figure 2B). The dimer interface involves extensive hydrophilic and hydrophobic interactions between helices 7 and 8 and turns 6/6 and 7/7
+c The Authors Journal compilation c 2008 Biochemical Society
+
+52
+
+J. Ma and others
+
+of each monomer. In addition, the C-terminal region of monomer A extends to and covers the top of the active site of monomer B, forming interactions with residues of the 6/6, 7/7 and 8/8 turns of the TIM barrel of monomer B (Figure 2B). Dimer formation buries 2465 Å2 (or 18.0 %) of the solvent-accessible surface area of each monomer. Sequence and structural comparisons indicate that although LiCMS and MtIPMS have a low amino-acid sequence homology (overall 16.2 % identity and 30.7 % similarity, and 18.3 % identity and 32.5 % similarity for the catalytic domain), the catalytic domains of the two enzymes show high structural similarity with an RMSD of 1.8 Å for 281 C atom pairs (Figures 2C and 2D). The -strands of the TIM barrel core of the two catalytic domains can be superimposed closely. However, the outside -helices have some conformational differences. In particular, helices 2, 4, 5, 8 and 9 of LiCMSN are slightly twisted compared with those of MtIPMS. The C-terminal region of LiCMSN is equivalent to part of subdomain I (residues 365­424) of MtIPMS. This region is involved in dimer formation and forms part of the active site in both MtIPMS and LiCMS (see below). MtIPMS contains a 64-residue insertion before strand 1, which is involved in the dimer formation, and a 21-residue insertion in the C-terminal region, which forms a long -helix 10 and a 310 -helix 5 [14].
+Structure of the active site of Li CMS
+
+The active site of LiCMS is located at the centre of the TIM barrel near the C-terminal ends of the eight -strands, and consists of several conserved residues of the -strands and the C-terminal region of the adjacent monomer. In both the LiCMSN­Pyr complex and the LiCMSN­Pyr­CoA complex, there is a Pyr molecule and a Zn2+ ion bound at the active site. The substrate Pyr forms a hydrogen bond with the hydroxyl group of Thr179 (2.6 Å) through the carboxyl oxygen and two co-ordination bonds with the Zn2+ ion through two carbonyl oxygens (2.3 Å and 2.4 Å respectively) (Figure 3A). Mutagenesis results showed that mutation of Thr179 into an alanine residue resulted in a 16.4-fold increase in the K m for Pyr and a 186-fold decrease in the kcat , confirming its functional role in the binding of Pyr and the catalytic reaction (Table 2a). The Zn2+ ion is bound near Pyr and has six ligands in an octahedral geometry, including the two carbonyl oxygens of Pyr, the side-chain N2 atoms of His207 and His209 (2.5 Å for both), one carboxylate oxygen of Asp17 (2.2 Å) and a water molecule (2.4 Å) (Figure 3A). Mutagenesis results showed that replacement of Asp17 with an asparagine or an alanine residue caused a 4.4and 34-fold increase in the K m for Pyr, and a 480- and 315fold decrease in the kcat respectively (Table 2a). Moreover, the concentration of Mn2+ in the enzymatic activity assay for those mutants had to be increased from 0.8 mM (used in the standard activity assay) to 5 mM, suggesting that these mutants have a much weaker binding affinity for the metal ion. These results indicate that the effects on the K m of Pyr and the enzymatic activity of these mutations are through the destabilization of the metal-ion binding. In the LiCMSN­Mal complex, there is a Mal molecule and a Zn2+ ion bound at the active site, and the bound Mal occupies the same position as Pyr and also forms a hydrogen bond with the hydroxyl group of Thr179 (2.6 Å) through the carboxyl oxygen, and two co-ordination bonds with the Zn2+ ion through the two carbonyl oxygens (2.1 and 2.4 Å respectively), mimicking the substrate binding (Figure 3B). In the structure of the LiCMSN­Pyr complex, there is a deep surface groove near the bound Pyr of approx. 21 Å in length and 8 Å in width. This groove is formed by residues from the 1 /1 loop, 2/2 turn and 3/3 turn of one monomer
+c The Authors Journal compilation c 2008 Biochemical Society
+
+and the C-terminal region of the other. In the structure of the LiCMSN­Pyr­CoA complex, acetyl-CoA is bound exactly in the groove (Figure 3C). Acetyl-CoA can assume widely varying conformations in different enzymes [25]. In our ternary complex, acetyl-CoA assumes a U-shape conformation. The adenine moiety of acetyl-CoA is stabilized through hydrophobic interactions with Phe83 of 3, and mutation of Phe83 into an alanine residue results in a 5-fold increase in the K m for acetyl-CoA and a 120-fold decrease in the kcat (Table 2a). The thioacetyl moiety of acetylCoA is positioned near Pyr, with the carbonyl oxygen of the acetyl group forming one hydrogen bond with the side-chain N2 of Arg16 (2.9 Å) and the methyl group being sandwiched between the side-chain O2 of Glu146 and the C2 atom of Pyr (distances of 3.2­ 3.5 Å) (Figure 3A). The side chain of Arg16 is further stabilized by forming a salt bridge with the side chain of Glu48 . These two residues play very important roles in the catalytic reaction (see below). Glu146 appears to function as a catalytic base to abstract a proton from the methyl group of acetyl-CoA to form enolated acetyl-CoA, and thus mutation of Glu146 to either Asp or Gln has minor effects on the binding of acetyl-CoA, but can cause a decrease in the kcat by more than 400-fold (Table 2a). Arg16 appears to function as a general acid to stabilize the enolated acetyl-CoA and thus mutation of Arg16 to either lysine or a glutamine residue completely abolishes the enzymatic activity of LiCMS (Table 2a). In the structure of the MtIPMS­-Kiv complex, subdomain I of MtIPMS forms part of the active site, and residues His379 and Tyr410 of this region (corresponding to His302 and Tyr312 of LiCMS respectively) are suggested to be involved in the binding of the coenzyme [14].The C-terminal region of LiCMSN is equivalent to part of subdomain I of MtIPMS. In the structure of the LiCNSN­ Pyr­CoA complex, the C-terminal region covers the top of the active site of the adjacent monomer and, in particular, the disordered region of residues 298­309 appears to form part of the binding site for acetyl-CoA. To verify this notion, we performed mutagenesis studies of residues in the C-terminal region and tested the effects of these mutations on the binding of acetyl-CoA and Pyr and the enzymatic activity (Table 2b). The results show that mutation of His302 to either an alanine or asparagine residue completely disrupts the enzymatic activity of LiCMS. Similarly, mutation of Tyr312 to an alanine residue abolishes the enzymatic activity of LiCMS. Both residues are conserved in MtIPMS. In addition, D304A and L311A mutations in LiCMS substantially weaken the binding of both acetyl-CoA and Pyr and also decrease the kcat . On the other hand, N310A mutation has a much smaller effect on the binding of Pyr and acetyl-CoA and on the enzymatic activity. It seems that the closer the residues are to the active site, the more severe the effects of mutations are on the binding of acetyl-CoA and Pyr and the enzymatic activity. The structural and mutagenesis results together indicate that LiCMS functions biologically as a homodimer and the active site is composed of structural elements from both monomers. In particular, the Cterminal region of LiCMSN forms part of the active site and is involved in the binding of the coenzyme and the substrate, and thus plays an important role in the catalytic reaction. On the other hand, it is intriguing to observe that although LiCMSN can bind both Pyr and acetyl-CoA, it is enzymatically inactive (Table 2). As the C-terminal region of LiCMSN is only equivalent to part of subdomain I of MtIPMS, and residues 298­ 309 are disordered in the structure of the LiCMSN­Pyr­CoA complex, it is plausible that the flexible linker between LiCMSN and LiCMSC might be involved in the proper positioning of the C-terminal region of LiCMSN and/or the formation of the acetylCoA binding site. The inactivity of LiCMSN might be due to the lack of the flexible linker because it might affect the binding of acetyl-CoA and Pyr. This suggestion is consistent with the
+
+Substrate specificity and catalytic mechanism of Li CMS
+
+53
+
+Figure 3
+
+Structure of the active site of Li CMS
+
+(A) The active site of Li CMS. The side chains of residues forming the active site are shown (in cyan). The bound Pyr (in pink) and acetyl-CoA (in yellow) are shown in ball-and-stick models, and the Zn2+ ion is shown as a gold sphere. Water (Wat) is shown by a red sphere. The hydrogen-bonding interactions are shown with dashed lines. (B) Overlay of Mal in the Li CMSN­Mal complex (in ° cyan) with Pyr in the Li CMSN­Pyr complex (in pink) based on the superposition of the two structures. Bond lengths are shown (in A). (C) Electrostatic surface of Li CMSN showing the binding site of the substrate and coenzyme. The bound Pyr and acetyl-CoA are shown as ball-and-stick models. (D) Structural comparison of the active sites of Li CMS and Mt IPMS. Residues forming the active site of Li CMS, the bound substrate, coenzyme and Zn2+ are coloured as indicated in (A). The equivalent residues of Mt IPMS are coloured in grey. (E) Substrate specificity of Li CMS. Upper panel: chemical structures of different -oxo acids: Glx, Pyr, -Kb and -Kiv. Lower panel: Residues Leu81 , Leu104 and Tyr144 (grey) of Li CMS form a hydrophobic pocket to accommodate the C2 -methyl group of Pyr (yellow). The van der Waals spheres of atoms are shown with dots. The C2 -methyl group of Pyr has favourable hydrophobic contacts with the three residues. When -Kiv or -Kb is docked into the substrate-binding site, the bigger substituent at the C2 position of -Kiv (isopropyl group) or -Kb (ethyl group) would have steric conflicts with the surrounding residues. For clarity, only the docked -Kiv is shown (magenta).
+
+biochemical results that the binding affinities of LiCMSN for acetyl-CoA and Pyr were decreased by approx. 5- and 2.5-fold respectively compared with those of the full-length enzyme (Table 2). It is also in agreement with the structural results that the electron density for bound acetyl-CoA in the structure of the LiCMSN­ Pyr­CoA complex was poor, partly because of the weak binding of
+
+the coenzyme in the absence of the linker. Nevertheless, since the missing linker does not substantially affect the binding of acetylCoA and Pyr, it is unlikely to cause significant conformational change of the active site and thus should not prejudice the conclusions drawn from the structural and biochemical results.
+c The Authors Journal compilation c 2008 Biochemical Society
+
+54
+
+J. Ma and others
+
+Although LiCMS and MtIPMS have a low sequence similarity, the residues forming the active site are strictly conserved with very similar conformations in the structures of both enzymes (Figure 3D). The only difference occurs in the orientation of the side chain of Gln20 (1 ) of LiCMS, which forms hydrogen bonds with the side chain O1 of Glu239 (2.6 Å), the side-chain N of Arg16 (2.8 Å), and the carbonyl oxygen of the acetyl group of acetyl-CoA (3.2 Å), whereas the equivalent residue Gln84 of MtIPMS points its side chain away from the active site. Since the catalytic domains of both LiCMS and MtIPMS have high structural similarity in the overall structure and at the active site, it is possible that the two enzymes might share a common evolutionary ancestor and a similar catalytic mechanism.
+
+Pyr, -Kiv and -Kb, whereas Leu81 has a role in the binding of Glx.
+
+Catalytic mechanism of Li CMS
+
+Substrate specificity of Li CMS
+
+LiCMS shows high substrate specificity for Pyr, but has very weak or no detectable activities for other -oxo acids, such as Glx (glyoxylate), -Kb and -Kiv (Table 2c) [12]. This high substrate specificity is also seen for M. jannaschii citramalate synthase [13]. These -oxo acids have different substituents at the C2 position (Figure 3E). Structural analysis of LiCMSN reveals that three hydrophobic residues, Leu81 of 3, Leu104 of 4 and Tyr144 of 5 at the active site, form a hydrophobic pocket to accommodate the C2 -methyl group of Pyr through hydrophobic contacts (distances of 3.6­4.4 Å) (Figure 3E). Modelling studies indicate that when -Kiv or -Kb is docked into the substrate-binding site, the C2 isopropyl group of -Kiv or C2 -ethyl group of -Kb would have steric conflicts with the surrounding residues (Figure 3E). In the structure of the MtIPMS­-Kiv complex, a similar hydrophobic pocket is formed by residues Leu143 , Tyr169 and Ser216. This pocket is slightly larger as a result of the change of Tyr144 (LiCMS) to Ser216 (MtIPMS), and all three residues have hydrophobic contacts with the C2 -isopropyl group of -Kiv. To investigate the functional roles of these residues in the determination of substrate specificity, we performed kinetic studies with mutant LiCMS containing mutations L81A, L81V, L104V, Y144L or Y144V. The kinetic results showed that these mutations lead to weaker binding of Pyr (K m being increased by 2­260-fold), with the Y144L mutation having the most serious effect and the L104V mutation the smallest effect, but all of them have less pronounced effects on the kcat (decreased by 3­76-fold) (Table 2C). These results can be explained structurally because those mutations would lead to the formation of a bigger binding pocket for the C2 -methyl group of Pyr and thus destabilize the binding of the substrate, but have a less profound effect on the enzymatic activity. On the other hand, LiCMS can also catalyse the conversion of some other -oxo acids with much weaker enzymatic activity, and mutations of these three residues have varied effects on the binding of these substrates and the enzymatic activity (Table 2C). For Glx, which has no substituent at the C2 position, these mutations (in particular L81A and L81V) can cause substantial increases in the K m . For -Kiv, which has a bigger substituent (isopropyl) at the C2 position, these mutations create a bigger pocket for the substitution group and thus result in tighter binding of the substratum, as shown by the moderate K m and measurable enzymatic activity (Table 2C). For -Kb, which has an ethyl group at the C2 position, the L104V and L81A mutations slightly increase the binding of the substrate, whereas Y144L, Y144V and L81V mutations moderately decrease the binding of the substrate. Taken together, the structural and biochemical results demonstrate that the three hydrophobic residues at the active site (Leu81 , Leu104 and Tyr144 ) determine the substrate specificity; in particular, Tyr144 plays an important role in the binding of
+c The Authors Journal compilation c 2008 Biochemical Society
+
+LiCMS catalyses the conversion of Pyr and acetyl-CoA into citramalate and HS-CoA in an aldol condensation reaction. The mechanism of the aldol condensation reaction catalysed by malate synthase has been extensively studied, and the reaction takes place in three steps: (i) enolization, (ii) condensation and (iii) hydrolysis [25­28]. Structural analysis of LiCMSN in complexes with Pyr and acetyl-CoA has provided detailed information about the interactions between the enzyme and the substrate and coenzyme. In addition, mutagenesis and kinetic studies have confirmed the functional roles of the key residues in the binding of the substrate and coenzyme and the catalytic reaction. These structural and biochemical results together enable us to propose the mechanism of the aldol condensation reaction catalysed by LiCMS (Figure 4). First, acetyl-CoA is activated to form an enolate, which is believed to be the rate-limiting step in the catalytic reaction. The activation requires abstraction of a proton from the methyl group of acetylCoA by a catalytic base and the enolate intermediate is stabilized by a general acid. In the crystal structure of LiCMSN, the methyl group of acetyl-CoA is sandwiched between the carboxylate group of Glu146 and the C2 atom of Pyr. In particular, the carboxylate O2 of Glu146 is positioned 2.8 Å away from the methyl group of acetyl-CoA and appears to function as the catalytic base to abstract a proton from the methyl group. This suggestion is supported by the mutagenesis results that mutation of Glu146 to either an aspartic acid or a glutamine residue has a minor effect on the binding of acetyl-CoA, but a significant impact on the enzymatic activity of LiCMS. Arg16 forms a hydrogen bond with the carbonyl oxygen of the acetyl group of acetyl-CoA (2.9 Å) and thus appears to function as the general acid to stabilize the enolated acetyl-CoA. The mutagenesis results show that mutation of Arg16 to either a lysine or glutamine residue completely disrupts the enzymatic activity of LiCMS. Secondly, the substrate Pyr is polarized by a bivalent metal ion for nucleophilic attack by enolated acetyl-CoA, leading to the formation of citramalyl-CoA. Previous biochemical results have shown that Mg2+ is essential in the polarization of Glx in malate synthase and -Kiv in MtIPMS [23,26]. The catalytic reaction of LiCMS is also dependent on bivalent metals, with Mn2+ showing the highest activity, followed by Ca2+ , Mg2+ and Ni2+ , suggesting that LiCMS might use Mn2+ instead of Mg2+ in the catalytic reaction. In the crystal structure of LiCMSN, a Zn2+ ion is bound at the active site which appears to occupy the position of the catalytic metal ion. The bound Zn2+ is co-ordinated with the two carbonyl groups of Pyr, the conserved residues Asp17 , His207 , and His209 and a conserved water molecule, and is in a proper position to polarize the C2 atom for nucleophilic attack by acetyl-CoA. Finally, the thioester group of the citramalyl-CoA intermediate is hydrolysed to form the products citramalate and HS-CoA. The Zn2+ -bound water molecule is in a good position to participate in the hydrolysis of the thioester bond of citramalylCoA. In summary, the structural and biochemical results reveal the molecular basis of the high substrate specificity and the catalytic mechanism of LiCMS. The substrate specificity of LiCMS towards Pyr against other -oxo acids is dictated primarily by residues Leu81 , Leu104 and Tyr144 , which form a hydrophobic pocket to accommodate the C2 -methyl group of Pyr. The conversion of Pyr and acetyl-CoA into citramalate and HS-CoA catalysed by LiCMS follows a typical aldol condensation reaction, in which Glu146 functions as a catalytic base to activate the methyl
+
+Substrate specificity and catalytic mechanism of Li CMS
+
+55
+
+Figure 4
+
+A schematic diagram of the proposed catalytic mechanism of Li CMS
+
+The aldol condensation reaction catalysed by Li CMS could take place in three steps: (i) enolization, (ii) condensation and (iii) hydrolysis. Glu146 appears to function as a catalytic base to abstract a proton from the methyl group of acetyl-CoA, leading to the formation of enolated acetyl-CoA. Arg16 appears to function as a general acid to stabilize the enolated acetyl-CoA intermediate. A bivalent metal ion (M2+ ) plays an essential role in polarizing the C2 atom of Pyr for nucleophilic attack by acetyl-CoA.
+
+group of acetyl-CoA to form the enolated acetyl-CoA intermediate and Arg16 functions as a general acid to stabilize the intermediate.
+We thank Dr Xiaokui Guo (Department of Microbiology and Parasitology, Shanghai Jiaotong University School of Medicine, Shanghai, China) for providing us with the genomic DNA of L. interrogans (serogroup Icterohaemorrhagiae, serovar lai , strain 56601). We thank the staff members at the Photon Factory (Ibaraki, Japan) and the Beijing Synchrotron Radiation Facility (Beijing, China) for technical support in diffraction data collection, and other members of our groups for helpful discussion. This work was supported by grants from the Ministry of Science and Technology of China (2004CB720102, 2006AA02Z112, 2006AA02176 and 2007CB914302), the National Natural Science Foundation of China (30570379, 30770480, 30730028, 30770111, 30670102 and 30470018), the Chinese Academy of Sciences (KSCX2-YW-R-107) and the Science and Technology Commission of Shanghai Municipality (07XD14032).
+
+REFERENCES
+1 Vinetz, J. M. (2001) Leptospirosis. Curr. Opin. Infect. Dis. 14, 527­538 2 Bharti, A. R., Nally, J. E., Ricaldi, J. N., Matthias, M. A., Diaz, M. M., Lovett, M. A., Levett, P. N., Gilman, R. H., Willig, M. R., Gotuzzo, E. et al. and the Peru-United States Leptospirosis Consortium. (2003) Leptospirosis: a zoonotic disease of global importance. Lancet Infect. Dis. 3, 757­771 3 Heron, L. G., Reiss-Levey, E. A., Jacques, T. C., Dickeson, D. J., Smythe, L. D. and Sorrell, T. C. (1997) Leptospirosis presenting as a haemorrhagic fever in a traveller from Africa. Med. J. Aust. 167, 477­479 4 Monsuez, J. J., Kidouche, R., Le Gueno, B. and Postic, D. (1997) Leptospirosis presenting as haemorrhagic fever in visitor to Africa. Lancet 349, 254­255 5 Trevejo, R. T., Rigau-P´rez, J. G., Ashford, D. A., McClure, E. M., Jarqu´n-Gonz´lez, C., e i a Amador, J. J., de los Reyes, J. O., Gonzalez, A., Zaki, S. R., Shieh, W. J. et al. (1998) Epidemic leptospirosis associated with pulmonary hemorrhage-Nicaragua, 1995. J. Infect. Dis. 178, 1457­1463
+c The Authors Journal compilation c 2008 Biochemical Society
+
+56
+
+J. Ma and others
+17 Otwinowski, Z. and Minor, W. (1997) Processing of X-ray diffraction data collected in oscillation mode. Methods Enzymol. 276, 307­326 18 Pflugrath, J. W. (1999) The finer things in X-ray diffraction data collection. Acta Crystallogr. D 55, 1718­1725 19 Terwilliger, T. C. and Berendzen, J. (1999) Evaluation of macromolecular electron-density map quality using the correlation of local r.m.s. density. Acta Crystallogr. D 55, 1872­1877 20 Terwilliger, T. C. (2000) Maximum-likelihood density modification. Acta Crystallogr. D 56, 965­972 21 Emsley, P. and Cowtan, K. (2004) Coot: model-building tools for molecular graphics. Acta Crystallogr. D 60, 2126­2132 22 Brunger, A. T., Adams, P. D., Clore, G. M., DeLano, W. L., Gros, P., Grosse-Kunstleve, R. W., Jiang, J. S., Kuszewski, J., Nilges, M., Pannu, N. S. et al. (1998) Crystallography & NMR system: a new software suite for macromolecular structure determination. Acta Crystallogr. D 54, 905­921 23 de Carvalho, L. P. and Blanchard, J. S. (2006) Kinetic analysis of the effects of monovalent cations and divalent metals on the activity of Mycobacterium tuberculosis -isopropylmalate synthase. Arch. Biochem. Biophys. 451, 14114­14118 24 de Carvalho, L. P. and Blanchard, J. S. (2006) Kinetic and chemical mechanism of -isopropylmalate synthase from Mycobacterium tuberculosis . Biochemistry 45, 8988­8999 25 Anstrom, D. M., Kallio, K. and Remington, S. J. (2003) Structure of the Escherichia coli ° malate synthase G:pyruvate:acetyl-coenzyme A abortive ternary complex at 1.95 A resolution. Protein Sci. 12, 1822­1832 26 Howard, B. R., Endrizzi, J. A. and Remington, S. J. (2000) Crystal structure of Escherichia ° coli malate synthase G complexed with magnesium and glyoxylate at 2.0 A resolution: mechanistic implications. Biochemistry 39, 3156­3168 27 Smith, C. V., Huang, C. C., Miczak, A., Russell, D. G., Sacchettini, J. C. and Honer zu Bentrup, K. (2003) Biochemical and structural studies of malate synthase from Mycobacterium tuberculosis . J. Biol. Chem. 278, 1735­1743 28 Anstrom, D. M. and Remington, S. J. (2006) The product complex of M. tuberculosis malate synthase revisited. Protein Sci. 15, 2002­2007
+
+6 Morgan, J., Bornstein, S. L., Karpati, A. M., Bruce, M., Bolin, C. A., Austin, C. C., Woods, C. W., Lingappa, J., Langkop, C., Davis, B. et al. and Leptospirosis Working Group. (2002) Outbreak of leptospirosis among triathlon participants and community residents in Springfield, Illinois, 1998. Clin. Infect. Dis. 34, 1593­1599 7 Haake, D. A., Dundoo, M., Cader, R., Kubak, B. M., Hartskeerl, R. A., Sejvar, J. J. and Ashford, D. A. (2002) Leptospirosis, water sports, and chemoprophylaxis. Clin. Infect. Dis. 34, e40­e43 8 Paster, B. J., Dewhirst, F. E., Weisburg, W. G., Tordoff, L. A., Fraser, G. J., Hespell, R. B., Stanton, T. B., Zablen, L., Mandelco, L. and Woese, C. R. (1991) Phylogenetic analysis of the spirochetes. J. Bacteriol. 173, 6101­6109 9 Westfall, H. N., Charon, N. W. and Peterson, D. E. (1983) Multiple pathways for isoleucine biosynthesis in the spirochete Leptospira . J. Bacteriol. 154, 846­853 10 Charon, N. W., Johnson, R. C. and Peterson, D. (1974) Amino acid biosynthesis in the spirochete Leptospira : evidence for a novel pathway of isoleucine biosynthesis. J. Bacteriol. 117, 203­211 11 Ren, S. X., Fu, G., Jiang, X. G., Zeng, R., Miao, Y. G., Xu, H., Zhang, Y. X., Xiong, H., Lu, G., Lu, L. F. et al. (2003) Unique physiological and pathogenic features of Leptospira interrogans revealed by whole-genome sequence. Nature 422, 888­893 12 Xu, H., Zhang, Y., Guo, X., Ren, S., Staempfli, A. A., Chiao, J., Jiang, W. and Zhao, G. P. (2004) Isoleucine biosynthesis in Leptospira interrogans serotype lai strain 56601 proceeds via a threonine-independent pathway. J. Bacteriol. 186, 5400­5409 13 Howell, D. M., Xu, H. and White, R. H. (1999) (R)-citramalate synthase in methanogenic archaea . J. Bacteriol. 181, 331­333 14 Koon, N., Squire, C. J. and Baker, E. N. (2004) Crystal structure of LeuA from Mycobacterium tuberculosis , a key enzyme in leucine biosynthesis. Proc. Natl. Acad. Sci. U.S.A. 101, 8295­8300 15 de Carvalho, L. P., Argyrou, A. and Blanchard, J. S. (2005) Slow-onset feedback inhibition: inhibition of Mycobacterium tuberculosis -isopropylmalate synthase by L-leucine. J. Am. Chem. Soc. 127, 10004­10005 16 Stols, L., Millard, C. S., Dementieva, I. and Donnelly, M. I. (2004) Production of selenomethionine-labeled proteins in two-liter plastic bottles for structure determination. J. Struct. Funct. Genomics 5, 95­102 Received 28 January 2008/19 May 2008; accepted 23 May 2008 Published as BJ Immediate Publication 23 May 2008, doi:10.1042/BJ20080242
+
+c The Authors Journal compilation c 2008 Biochemical Society
+
+Biochem. J. (2008) 415, 45­56 (Printed in Great Britain)
+
+doi:10.1042/BJ20080242
+
+SUPPLEMENTARY ONLINE DATA
+
+Molecular basis of the substrate specificity and the catalytic mechanism of citramalate synthase from Leptospira interrogans
+Jun MA*1 , Peng ZHANG1 , Zilong ZHANG*, Manwu ZHA, Hai XU*2 , Guoping ZHAO*§3 and Jianping DING3
+*Laboratory of Microbial Molecular Physiology, Institute of Plant Physiology and Ecology, Shanghai Institutes for Biological Sciences, Chinese Academy of Sciences, 300 Feng-Lin Road, Shanghai 200032, China, State Key Laboratory of Molecular Biology and Research Center for Structural Biology, Institute of Biochemistry and Cell Biology, Shanghai Institutes for Biological Sciences, Chinese Academy of Sciences, 320 Yue-Yang Road, Shanghai 200031, China, Graduate School of Chinese Academy of Sciences, 320 Yue-Yang Road, Shanghai 200031, China, and §Shanghai-MOST Key Laboratory for Health and Disease Genomics, Chinese National Human Genome Center, Shanghai 201203, China
+
+Figure S2
+
+Anomalous electron density of the bound Zn2+ ion
+
+Figure S1
+
+Electron density of the substrate and coenzyme
+
+Composite-omit map (1 ) for Mal in the structure of the Li CNSN­Mal complex (A), Pyr in the structure of the Li CNSN­Pyr complex (B) and acetyl-CoA in the structure of the Li CNSN­Pyr­CoA complex (C).
+
+(A) Crystal of the LiCMSN­Mal complex. (B) Crystal of the LiCMSN­Pyr­CoA complex soaked with Zn2+ ion. These crystals were prepared by supplementing the crystallization drop with 50 mM Pyr, 40 mM acetyl-CoA and 10 mM Zn2+ for 48 h. In both structures, there is a strong anomalous density peak (above the 10 contour level) for the bound Zn2+ ion at the active site.
+
+These authors contributed equally to this work. Present address: State Key Laboratory of Microbial Technology, Shandong University, Jinan, Shandong 250104, China. 3 Correspondence may be addressed to either of these authors (email jpding@sibs.ac.cn or gpzhao@sibs.ac.cn). The structural co-ordinates reported for the N-terminal catalytic domain of Leptospira interrogans citramalate synthase in complex with malonate, in complex with pyruvate and in complex with pyruvate and acetyl-CoA will appear in the Protein Data Bank under accession codes 3BLE, 3BLF and 3BLI respectively.
+2
+
+1
+
+c The Authors Journal compilation c 2008 Biochemical Society
+
+J. Ma and others
+Table S1 ICP-MS analysis of different metal-ion concentrations
+
+We performed ICP-MS analyses of different metal ion concentrations (M) for the following three protein samples. Sample 1, Li CMS purified with a Ni2+ -NTA column; sample 2, Li CMS purified with a Ni2+ -NTA column, followed by treatment with EDTA; and sample 3, Li CMS purified using a Zn2+ -affinity column. The concentrations of the metal ions in the different protein samples were normalized to the concentration of Li CMS (175.8 M). The results show that freshly purified Li CMS contains both Zn2+ and Ni2+ at high concentrations; the EDTA-treated enzyme contains very low traces of metal ions at the background level; and the enzyme purified with the Zn2+ column contains only Zn2+ at a high concentration. These results indicate that: (1) the bound Zn2+ ion in the purified protein was co-purified with the enzyme from the expression system, (2) the concomitant Ni2+ ion in the purified protein was stripped from the Ni2+ -NTA column during purification, and (3) treatment of the purified protein with EDTA can remove all bound metal ions to the background concentration. Ion Mg2+ Mn2+ Ni2+ Cu2+ Zn2+ Ag2+ metal Sample 1 - 1.5 + 0.4 - 1.5 + 0.2 - + 1.5 103.1 - 12.9 + 0.3 - 92.4 + 4.6 - 0.6 + 0.1 - 208.9 + 4.9 - Sample 2 7.9 + 0.5 - 0.1 + 0.0 - + 0.2 5.6 - 0.5 + 0.1 - 7.2 + 0.3 - 0.8 + 0.0 - 22.1 + 0.6 - Sample 3 2.4 + 0.2 - 0.9 + 0.0 - 11.3 + 0.2 - 17.5 + 0.4 - 119.9 + 2.8 - 0.1 + 0.0 - 152.1 + 2.8 -
+
+Received 28 January 2008/19 May 2008; accepted 23 May 2008 Published as BJ Immediate Publication 23 May 2008, doi:10.1042/BJ20080242
+
+c The Authors Journal compilation c 2008 Biochemical Society
+
+

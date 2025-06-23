@@ -1,0 +1,563 @@
+Eur. J. Biochem. 232, 506-514 (1995)
+
+0 FEBS 1995
+
+Refined solution structure of the TyrLtl+His mutant of the M13 gene V protein
+A comparison with the crystal structure
+Jeanine J. PROMPERS I , Rutger H. A. FOLMER', Michael NILGES I, Paul J. M. FOLKERS ', Ruud N. H. KONINGS ' and Cornelis W. HILBEKS '
+
+' European Molecular Biology Laboratory, Heidelberg, Gertnany
+(Received 17 March/6 June 1995) - EJB 95 0429/3
+
+' Nijmegen Son Research Center, Laboi-atory of Biophysical Chemistry, University of Nijmegen, The Netherlands
+
+The three-dimensional solution structure of mutant Tyr41-His of the single-stranded DNA binding protein encoded by gene V of the filamentous bacteriophage MI3 has been refined i n two stages. The first stage involved the collection of additional NOE-based distance constraints, which were then used in eight cycles of back-calculations and structure calculations. The structures of the gene V protein dimers were calculated using simulated annealing, employing restrained molecular dynamics with a geometric force field. In the second stage of the refinement procedure, solvent was explicitly included during the dynamic calculations. A total of 30 structures was calculated for the protein, representing its solution structure in water. The first calculation step significantly improved the convergence of the structures, whereas the subsequent simulations in water made the structures physically more realistic. This is, for instance, illustrated by the number of hydrogen bonds formed in the molecule, which increased considerably upon going to aqueous solution. It is shown that the solution structure of the mutant gene V protein is nearly identical to the crystal structure of the wild-type molecule, except for the DNA-binding loop (residues 16-28). This antiparallel B-hairpin is twisted and partially folded back towards the core of the protein in the NMR structure, whereas it is more extended and points away from the rest of the molecule in the X-ray structure. Unrestrained molecular dynamics calculations suggest that this latter conformation is energetically unstable in solution.
+Kt.ywortls: gene V protein ; nuclear magnetic resonance ; diiner protein structure ; restrained molecular dynamics; simulated annealing.
+
+Single-stranded DNA binding proteins play an indispensable role in the life cycle of filamentous bacteriophages, such as Ff (M13, f l , fd), TKe or Pf3 (Model and Russel, 1988). The ssDNA binding protein encoded by gene V of bacteriophage Ff (GVP) is one of the most extensively studied members of its class. Late after infection, the protein binds strongly and cooperatively to the single-stranded tail of the rolling circle intermediate and in this way initiates the switch from double-stranded DNA synthesis to the production of progeny viral strands. Furthermore, GVP negatively regulates, at the level of translation, the synthesis of the proteins encoded by genes 11, V and X (Model et al., 1982; Yen and Webster, 1982; Zaman et al., 1990). Ff GVP consists of 87 amino acids, and it occurs in solution predominantly as a symmetric dimer with a molecular mass of 19.4 kDa. Recently, we reported the solution structure of a mutant (Tyr4l-His) of GVP (Folkers et al., 1994). This so-called 'solubility' mutant was constructed because in solutions of wildtype GVP significant protein aggregation occurs at concentrations needed for structural analysis by NMR (Folkers et al., 1991 a). It has been shown (Folkers et al., 1991b) that this single
+Correspondence to C. W. Hilbers, NSR Center, Laboratory of Biophysical Chemistry, University of Nijmegen, Toernooiveld, NL-6525 ED Nijmegen, The Netherlands Fur: +31 80652112. Ahhreviurionx GVP, gene V Protein; [Y41H]GVP, GVP with tyrosine at position 41 substituted by a histidine; 2D, two-dimensional; 3D, three-dimensional; NOESY, nuclear Overhauser enhancement spectroscopy; HMQC, heteronuclear multiple quantum correlation spectroscopy; MD, molecular dynamics; rms, root mean square.
+
+amino acid substitution strongly reduces the protein's tendency to aggregate, but does not affect its three-dimensional structurc. In a parallel study, the crystal structure of GVP was elucidated at 0.18-nm resolution (Skinner et al., 1994). Both structures replace the incorrect crystal structure reported by Brayer and McPherson (1983). The molecular architecture of the GVP monomer includes a five-stranded /,'-barrel from which three loops protrude: the DNA-binding loop (residues 16-28, see Fig. I), the complex loop (residues 36-42) and the dyad loop (residues 68-78). Spin-label studies have provided a clear view of the protein's ssDNA binding domain (Folkers et al., 1993b). Recently, models of the GVP-ssDNA complex have been presented that are in full accordance with existent biophysical and biochemical data (Folmer et al., 1994b; Guan et al., 1994). For a thorough understanding of the characteristics of GVP, as well as an appropriate comparison of the solution structure with the crystal structure, it was necessary to refine the NMR structure using molecular dynamics (MD) with explicit inclusion of solvent. Here, we report the three-dimensional solution structure of Ff [Y41H]GVP refined in water. A detailed comparison with the crystal structure is given.
+
+MATERIALS AND METHODS NMR spectroscopy. A uniformly 'Clabelled sample of mutant [Y41HIGVP was prepared and isolated as described previously (Folkers et al., 1994; Folmer et al., 1994a). A threedimensional (3D) "C NOESY-HMQC experiment (Ikura et al.,
+
+Prompers et al. (Eur: J. Biochem. 232)
+
+507
+
+Fig. 1. Schematic representation of the average solution structure of the GVP Tyr41--.His mutant. The three major loops are indicated in the top monomer, and the eight ,'-strands are denoted with their strand numbers and first and last residue numbers. The plot was made using MOLSCRIPT (Kraulis, 1991).
+
+1990) was performed on a 1.4 mM "C-labelled sample in D,O solution on a Bruker AMX 600 spectrometer at 298 K. Maximum evolution times were 15.36 ms in I , ('H), 4.80 ms in t2 ("C) and 61.44 ms in the acquisition dimension; the mixing time was 120ms. The experiment was optimized for the aliphatic resonances. It was processed on a Silicon Graphics Indigo workstation, using the MNMR software package (PRONTO Software Development and Distribution, Copenhagen, Denmark). The 3D NOESY-HMQC served to check the existing set of distance constraints, obtained from the two-dimensional (2D) NOESY spectrum (Folkers et al., 1994) and, of course, to identify new distance constraints. The latter were rather conservatively separated into three distance ranges, depending on whether a strong, medium or weak NOE was observed. These ranges were 0.1 8-0.40, 0.2-0.5 and 0.2-0.6 nm, respectively. Furthermore, we repeated the double half-filtered NOESY experiment (Otting and Wiithrich, 1989; Folkers et al., 1993a)
+
+using an improved sequence which strongly reduces the artefacts normally present in these type of spectra (Folmer et al., 1995). This sequence, for instance, makes possible the observation of inter-subunit NOEs that are very close to the diagonal of the spectrum. Computations. Structures of the GVP dimers were generated using simulated annealing employing molecular dynamics (MD). We used the same simulated annealing strategy as described previously (Nilges, 1993; Folkers et al., 1994). Starting structures were composed of the set of 20 recently published solution structures (Folkers et al., 1994). Back-calculations were performed by calculating all non-trivial inter-proton distances less than 0.4 nm, which were not yet distance constrained, using a home-written routine. The resulting contacts were constrained as either upper- or lower-bound distance constraints, depending on their presence or absence, respectively, in the NOESY spectra. The flexible parts of the protein, the DNA binding loop and the N- and C-termini, were not included in the back calculations. The rest of the protein is considered to be rather rigid (slow tumbling limit), so that the incorporation of lower-limit distance restraints for this part of the molecule is allowed. In total, eight subsequent cycles of back-calculations and structure calculations were performed, finally resulting in a consistent set of distance constraints. Then, 80 conformers were calculated, from which the 30 structures with the lowest total energy were selected. The selected structures were further improved by restrained MD with explicit inclusion of solvent. For that purpose, the selected structures were immersed in a 0.7-nm shell of TIP3P water molecules (Jorgensen et al., 1983). The 'soft' repulsive non-bonded energy term, used during the MD protocol with the geometric force field, was replaced by the OPLS Lennard-Jones potential (Jorgensen and Tirado-Rives, 1988; LeMaster et al., 1988) and the electrostatic energy term was switched on. At first, the force constants for the NOEs, angles and impropers were kept low and the a-carbon atoms were held approximately fixed by adding a parabolic restraint, which keeps them near their original positions (Bruccoleri and Karplus, 1986). After a short energy minimization, the system was gradually heated up to 300 K. Then, the a-carbons were no longer restrained and 1000 steps of dynamics were performed with a time step of 1.5 fs. From here, the NOE force constant was increased to its normal value (10 J mol-' pm-') and another 3000 steps of dynamics were performed. Finally, the angle and improper force J constants were gradually raised from 200 to 1000 k mol-' rad-' through 1750 steps of dynamics. The calculations ended with a
+
+Table 1. Molecular dynamics protocol used to calculate the structures of the M13 [Y41H]GVP dimer in explicit solvent. During phase I the a-carbon atoms were kept near their original positions by a harmonic energy term, with a weight factor of 4 J mol-' pm-* (Bruccoleri and Karplus, 1986). The dynamic calculations in phase I11 were preceded by 200 steps of energy minimization, and the protocol ended with another 150 steps of energy minimization. In all calculations the NOE distance restraints were subjected to a harmonic flat-bottom potential with linear behaviour for large deviations (Nilges et al., 1988). The temperature was always controlled by the heat bath coupling method (Berendsen et al., 1984). During phase lV, the energy constants for the angles and impropers were increased by an amount of 200 W mol-' Tad-' every 250 steps of dynamics, until they were both 1000 kJ mol-' rad '. Each increment was preceded by 20 steps of energy minimization. KNcsrelates to a pseudo-energy term which minimizes the atomic rms difference between the monomers to impose that both subunits will be identical. K,y,n,,, relates to a pseudo-energy term restraining the monomers to a symmetrical arrangement (Nilges, 1993).
+Phase Temperature K 1 I1
+11 1
+
+K,,,
+
+Lnzies
+
+Kpiandr
+
+Kbnnd\
+
+KNCS
+
+Kymm
+
+Simulation time time steps
+
+J mol-l pm
+6 6 10 10
+
+kJ mol-' rad-2
+200 200 200 200-1000
+200 200 200 200-1000
+
+J mol
+400 400 400 400
+
+.' pm-'
+4 4
+4
+
+IV
+
+100-+300 300 300 300
+
+4
+
+0.4 0.4 0.4 0.4
+
+200 1000 3000 1750
+
+SOX
+
+Prompers et al. ( E m J . Biochem. 232)
+
+short conjugate gradient minimization. The protocol is summarized in Table 1. To study the differences between the solution and crystal structure in detail, we also performed molecular dynamics simulations on the GVP crystal structure. First, the X-ray structure was compared to the NMR-based inter-proton distances, by performing restrained MD calculations incorporating the set of NMR distance constraints. The protocol was essentially identical to the one used for the protein structure calculation with inclusion of solvent, and wc used the same force field. In order to specifically study changes in the DNA binding wing, the core (all atoms further than 1.0 nm away from residues 14-30) of the molecule was fixed, and only the NMR constraints within the DNA binding loop (residues 16-28) were imposed. Secondly, we subjected the crystal structure to a free (unrestrained) M D run, consisting of 35 ps of dynamics at 300 K. No atoms were fixed and the structure was immersed in a 0.9-nm shell of water molecules. This simulation was performed in the Charmm22 force field (Schmidt et al., 1993). The calculations were done with the program X-PLOR (Brunger, 1992), version 3.1, running on a Silicon Graphics 4D480 computer.
+
+Table 2. Structural statistics and atomic rms differences. The first column involves the 30 selected structures calculated with the geometric force field, while the second provides statistics for the structures refineci in water. The atomic rms differences have been calculated for the 30 structures with respect to the respective mean structures.
+Structural statistics Value with no solvent Rms deviation from distance restraints (pm) Deviations from idealized geometry: Bonds (pm) Bond angles (deg.) lmpropers (deg.) Atomic rms differences (pm) Residues 1-15 and 29-87 Backbone (N, Crx, C) All non-hydrogen atoms Residues 1-87 Backbone (N, CU,C) All non-hydrogen atoms solvent
+
+6.7
+
+%
+
+0.1
+
+55 t 0.2 2
+1.7 t 0.1 1.66 -t O.O?' 2.2 t 0.2
+
+0.31 t 0.01 0.645 -t 0.005 0.44 2 0.02
+
+70 116
+112 154
+
++-
+
+17
+
+77
+121
+118 157
+
+2 18
+
+215 t I7
+
+238 t 31
+
+-t39 f 34
+
+-
+
+RESULTS AND DISCUSSION Refinement and description of the structure. Recently, it has been shown that the [Y41H]CVP solution structure and the wild-type crystal structure have identical folds (Folkers et al., 1994; Skinner et al., 1994). Furthermore, it has been demonstrated that wild-type GVP and mutant [Y41H]GVP adopt virtually identical conformations in solution (Folkers et al., 1991b). Our aim to compare the solution and X-ray structure in more detail prompted us to rcfine the three-dimensional solution structurc of [Y41H]GVP, employing restrained M D in water. The structural information obtained from the aliphatic region of the spectrum, introduced in the previously reported structure, was derived solely from homonuclear two-dimensional NMR data. In order to resolve ambiguities in the 2 D NOESY spectrum, we recorded a 3D IT-edited NOESY. Interpretation of this spectrum in conjunction with the already assigned 2D NOESY spectrum yielded assignments for almost all aliphatic "C rcsonances. All cro assignments in the 2 D NOESY spectrum could be cont except for one cross-peak which was previously assigned to the H a of GluS1 and the 6-methyl protons of Leu49. It had to be reassigned as a NOE connectivity between Leu49 and the u-proton of Ala55. Due to the (typically) strong correlation between the carbon chemical shifts and those of the attached protons, a considerable amount of overlap was present even in the 3D spectrum, particularly in the methyl region, and less additional connectivities could be assigned than we had hoped for. Still, about SO new non-trivial cross-peak assignments could be derived from the "C-edited NOESY. For example, we could identify NOES from the a-protons of Gly38 to the &methyl protons of Leu65, which can only be inter-monomeric. These assignments are consistent with the inter-subunit NOE connectivity between the Hrr of Leu37 and the &protons of Leu65, which had been unambiguously identified in the "C double-half-filtered NOESY experiment (Folkers et al., 1993a), recorded for a GVP sample containing heterodimers composed of IT-labelled and unlabelled monomers. Furthermore, we assigned NOE connectivities between the p-methyl protons of A h 1 1 and the aliphatic protons of Pro% Because the p-proton resonances of Alal 1 and A h 5 7 are overlapping, only NOE connectivities between the /I-methyl protons of A h 5 7 and the aliphatic protons of Pro58 were identified in the 2D NOESY
+
+spectrum. From the 3D experiment. it appeared that these crosspeaks in the 2D NOESY were in fact the result of both, i.e. contacts between Alas7 and Pro58 and cvnlacts between A h 1 1 and Pro58. Systems of the size of the 19.4-kDa GVP dimer exhibit a significant amount of spin diffusion, even at relatively short mixing times. Therefore, it is difficult to calculate (Y41HlGVP structures straight from the intensities of the NOE cross-peaks. However, to verify whether the NOE data set is at least qualitiitively consistent with the structures, we perfonncd eight subsequent cycles of back-calculations and structure calculations. The first back-calculation yielded a significant amount of short interproton distances, which were not yet distance constrained. In a few cases this resulted in the assignment of new NOE connectivities. When it was clear that no NOE could be observed, the protons were separated by means of a lower-limit distance coilstraint (0.4 nm). After eight iterations, no new short interproton distances were found. This indicates that the [ Y41 HJCVP structures are in good agreement with the NOE data set. At this stage, we made use of 1218 distance restraints per monomer, 187 of which were lower-limit constraints. From this new set of NOES, a family of 30 structures was calculated. None of these structures exhibited NOE-derived distance violations larger than 0.05 nm. The rerinement procedure clearly improved the structures of Ff [Y41H]GVP published prsviously (Folkers et al., 1994). In particular, the aforementioned reassignment resulted in a small but significant change in the so-called broad connecting loop (residues 49-58). Further differences are restricted to minor, very local changes, such as the rearrangement of some side chains. The root mean square (rms) difference between the individual structui-es and the mean structure, taking all residues into account, dropped from 169 pni to 112 pm for the backbone atoms (N, C, Ca), and from 213 pm to 154 pm for all non-hydrogen atoms. Upon excluding the relatively flexible DNA binding wing, the rms difference for the backbone atoms is 70 pm. These and other structural statistics as well as some atomic rms deviations are given in Table 2. Some of the rms values listed here may seem large in comparison with NMR structures reported during the last one or two years. In this respect, we note in passing that the gene V protein is not a very favourable system to be studied by NMR. The combination of the protein's substantial molecular mass
+
+Prompers et al. ( E m J. Biochem. 232)
+
+509
+
+o
+0
+
+.
+10
+
+o
+20
+
+I
+30
+40
+
+,
+50
+
+,
+60
+
+,
+
+,
+70
+
+,
+80
+
+I
+
+90
+
+Residue n u m b e r
+
+Fig. 2. Stereoviews of the best-fit superpositions of the backbone (N, Ca, CO) atoms of 12 of the 30 final [Y41H]GVP structures simulated in water. Structures were overlaid for residues 1 - 2 5 and 29-87. (a)
+The lwofold axis of the molecule is perpendicular to the plane of the paper. (b) View with the twofold axis parallel to the plane of the paper.
+0 10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+70
+
+80
+
+90
+
+( 19.4 kDa), its ever present tendency to aggregate and the relatively low temperature at which the NMR measurements have to be performed (298 K), gives rise to quite short T, relaxation times. As a consequence, every attempt to accurately determine J-couplings has failed so far. Generally, the accuracy and reliability of NMR structures can be further improved by inclusion of solvent during the structure calculation. Structures become more realistic during simulation in water, especially parts near the protein surface. These parts are normally poorly defined by NMR data and consequently are insufficiently described by calculations which do not incorporate detailed energy terms (De Vlieg and Van Gunsteren, 1991). Therefore, the 30 calculated structures were subjected to a restrained M D simulation in water, resulting in a final set of 30 structures that represent the refined [Y41H]GVP solution structure. This M D run produced only small, very local changes, such as the formation of hydrogen bonds (vide infru). Fig. 2 disCO) plays best-fit superpositions of the backbone atoms (N, c ~ , of 12 conformers arbitrarily chosen from the ensemble. Structural statistics and atomic rms deviations are given in Table 2. In Fig. 3a, the local variations in the precision of the structure determination are substantiated by the backbone and side-chain deviations around the mean co-ordinates. Apart from the DNAbinding loop. all /J-strands (residues 3-6, 30-35, 43-48, 5963, 68-71, 75-78 and 83-85, see Fig. 1 ) are well defined by the NMR data. In spite of some enhancement of the definition of the DNA-binding loop during the refinement procedure, it is still the most disordered part o f t h e protein, as can be seen from Figs. 2 and 3a. This is most likely due to the supposed flexibility of this antiparallel p-loop, indicated by the absence of slowly exchanging amide protons (Folkers et al., 1991 b, 1994). It is noted that there are no clear NOEs observed between residues in the DNA binding loop and the core of the protein. Therefore, the structural variability of this loop is probably a result of its orientation with respect to the core of the molecule, rather than a low definition of the loop itself. Fig. 3 furthennore shows that regions of increased conformational disorder, other than the DNA-binding loop, are the complex loop, the p-turn formed by residues 49-52, the tip of the dyad loop (residues 71 -74) and the N- and C-termini of the protein. This can be understood by
+
+Residue n u m b e r
+
+Fig. 3. Average rms deviations and solvent-accessible surface plotted per residue. (a) Average atomic rrns deviation per residue about the mean structure of the final set of 30 structures simulated in water, best fitted to residues 1-15 and 29-87. Backbone atoins are displayed by
+the solid line, non-hydrogen atoms by the dashed line. The four region\ indicated are (1) DNA binding loop, residues 16-28, (2) complex loop residues 36-42, (3) loop formed by residues 49-55 and (4) the dyad loop, residues 71 -75. (b) Solvent accessible surface plotted per residue. The solid line represents the energy-minimired average solution structure. As a comparison, the solvent-accessible surface of the crystal structure is plotted with the dashed line.
+
+the fact that these regions contain many solvent-exposed reaidues (see Fig. 3b) for which only few NOEs are found. The statistics in Table 2 show that the molecular dynamic calculations with inclusion of explicit solvent did not achieve a further convergence in terms of the restraints. For example, the energy term for the NOE distance constraints has been increased by a factor of two after the dynamic calculations in water. The number of NOE-derived distance violations increased when the force constants for the angles and impropers were raised during the final stage of the M D protocol i n water (see Materials and Methods). This is mainly due to the rather stiff force field we used, which is more rigid than the regular X-PLOR NMR force field. As a result the geometry of the structures is very good. Furthermore, the vast majority of the 4 and y/ angles of all structures fall within the allowed regions of the Ramachandran plot (Ramachandran et al., 1963; Morris et a]., 1992). The effect of inclusion of solvent molecules during the refinement procedure is nicely illustrated by the number of hydrogen bonds. The hydrogen bonds in the solution structures of [Y41HlGVP calculated in water are listed i n Table 3. Upon going from the geometric force field (and no solvent) to the OPLS force field (with solvent molecules), the number of hydrogen bonds increased from I S (data not shown) to 43 and they are all consistent with amide proton exchange data (Folkers et al., 1994). As before (Folkers et al., 1994), the following NH(1')Cog') backbone hydrogen bonds were restrained as distance constraints during the refinement procedure: ( i j ) = (4,61),
+
+510
+
+Prompers et al. (Eur: J . Biochem. 232)
+
+Table 3. Hydrogen bonds in the solution structure of M13 [Y41H]GVP simulated in water. Donors and acceptors are indicated by residue number, amino acid and atom name. Hydrogen bonds are listed if they are present in at least 15 of the 30 calculated structures in water according to the criteria that: the donor to acceptor distance is smaller than 250 pm, and the angle between the donor-proton bond and the line connecting the acceptor and the donor heavy atoms is smaller than 35" (Levitt, 1983). The last two colums list the average values for these angles and distances. Hydrogen bonds which were restrained by distance restraints during the structure calculation are marked with * _
+
+Donor
+
+Acceptor
+
+Occurrence
+
+Distance
+P"' 193 2 10 182? 8 218 2 13 209 2 9 203 ? 10 210 i- 19 212 ? 16 193i- 11 213 I 20 174i 6 182 t- 9 187 i 10 175 t 5 215 i 17 2 0 6 5 12 211 I 16 199 5 10 199 t 18 188 t 21 203 2 16 212 t 1s 181 i 8 187 I 9 1792 9 22s 2 15 167 2 2 188 2 12 178 i 3 222 i- 5 231 i- 11 224 I 10 183 5 12 190 i 8 183 t 8 210 t 16 189 i 10 1 8 8 i 11 219 i 15 197 t 19 207 t 12 202 t 10 225 t 9 1762 4
+
+Angle deg.
+22.7 5 4.5 18.7 2 5.9 17.0 ? 4.3 20.3 2 3.3 22.3 t 4.5 16.3 t 7.4 10.6 t 4.1 17.9 5 8.8 16.0 i 5.2 13.4 2 6.1 10.8 2 5.0 15.5 I 7.2 14.2 i 3.2 23.9 t S.5 20.3 2 8.0 25.4 t 4.1 17.3 2 2.5 10.8 2 3.6 25.3 ? 5.8 22.2 i 7.7 21.0 ? 4.6 12.0 2 3.9 10.7 2 4.4 18.4 4.6 17.0 i 4.6 11.4 +- 3.0 12.6 i 6.4 11.1 i 2.5 29.7 2 2.3 21.9 t 8.5 16.5 5 2.4 2 1 .0 I 8.9 26.6 t 3.7 23.4 i- 2.5 11.4 t- 6.3 11.8 +- 3.2 11.8 i 5.9 17.3 t 5.0 15.0 t- 2.8 19.9 I 4.1 21.5 t 4.1 21.4 t- 4.1 10.6 i 1.4
++
+
+* 0
+
+4 5 6 10 14 14 16 18 20 26 30 31 31 31 33 34 35 36 38 39 43 45 47 49 53 61 61 62 62 62 63 64 64 67 68 69 71 74 75 77 79 84 86
+
+Val
+Glu Ile Gln
+
+HN
+HN HN
+
+Thr
+Thr
+
+Arg
+GlY
+
+Ser
+
+HN HN HO HN HN HN
+HN
+
+'
+
+TYr Glu
+
+Gln
+Gln
+
+HN HN HN
+Hh' '
+
+Gln
+C q Y
+
+TYr Val
+ASP GIY
+
+Asn Val
+Val
+
+HN HN HN HN HN HN HN HN
+HN HN
+
+Ile
+Leu
+
+Gln
+
+5
+T Y
+
+Thr Thr Thr Val His
+His
+
+HN HN HO' HN HO ' HO '
+HN
+
+HN
+HN"'
+
+Ser Phe
+L q Y GlY
+
+HO HN HN HN
+HN HO
+
+GlY Ser Met
+Asp
+
+Val Ala
+
+HN HN HN HN
+
+61 34 59 7 30 13 28 26 24 18 14 47 10 56 45 5 43 3 36 36 35 33 31 29 50 4 57 84 62 84 2 82 66 80 65 77 75 71 14 69 67 62 60
+
+Tr Y TYr
+GlY
+
+0
+
+LS Y Glu Phe Leu TYr Lq Y
+GlY
+
+Thr Ile
+Gln 5r Val Glu
+
+0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0
+
+Val LS Y Asp
+AYP
+
+0 0 0 0
+0 0 0 0 0 0 0 0
+
+Val
+
+C s Y
+
+Gln Asn
+
+Val Ala Val Thr Val Ile Arg Ser Arg Leu Met Ser Lys Ser Thr Leu
+GIY GlY
+
+AV
+
+0 0 0 0 0,' 0 0 0
+0 0 0 0
+
+0 0 0
+
+30 30 30 30 29 15 28 23 20 28 30 30 24 15 28 29 30 30 15 19 29 30 30 30 25 30 20 30 17 26 28 25 15 19 27 30 27 16 18 30 21 30 30
+
+(5,34), (30,14), (31,47), (33,451, ( 3 4 3 , (35,43), (4333, (45,33), (46,74), (47,311, (49,291, (61,4), (62,841, (64,82), (69,77), (77,69), (82,64), (84,62) and (86,60), where i a n d j represent the residue numbers of the two amino acids involved. These hydrogen bonds are all cross-strand and were predicted from the secondary structure of the protein; amide proton exchange data justified the use of these H-bonds as restraints during the calculations. It is noteworthy that only 9 out of these 20 restrained hydrogen bonds could satisfy the criteria for a real hydrogen bond in the 'vacuum' structures, whereas 18 satisfied them in thc structures refined in water (see Table 3). Furthermore, the simulation in water yielded the identification of a hydrogen bond between the hydroxy proton of Tyr61 and the carbony1 oxygen of AlaS7. The hydroxy proton of Tyr61 is slowly exchanging with the solvent (Folkers et al., 1994), suggesting its involvement in a hydrogen bond, which could however not
+
+be identified in the unrefined structures. Apparently, molecular dynamics in water is sufficiently accurate to predict these kinds of detailed interactions. The number of hydrogen bonds formed by buried polar atoms is also a measure of the quality of the structure (De Vlieg and Van Cunsteren, 1991).
+
+Comparison to the crystal structure. Recently, the crystal structure of the gene V protein has also been elucidated (Skinner et al., 1994). Obviously, it is of interest to compare the X-ray structure to the solution structure. On a secondary structulre level, the two structures are identical, except for the N-terminal 8-strand which in the crystal starts at residue 4, whereas in solution typical antiparallel P-sheet NOES are already found for Lys3 (Folkers et al., 1991 b). The wild-type X-ray structure contains 56 hydrogen bonds, compared to 43 in the solution structure of [Y41 HIGVP refined
+
+Prompers et al. (EUKJ . Biochern. 232)
+
+511
+
+in water. Both structures have 35 hydrogen bonds in common, among which is the bond between the hydroxy proton of Tyr61 and the carbonyl oxygen of Ala57. The remaining 8 hydrogen bonds in the NMR structure, as well as the remaining 21 hydrogen bonds in the X-ray structure, are predominantly found in the more flexible parts of the protein, such as the DNA-binding loop, the complex loop and the dyad loop. Probably, the differences in the hydrogen bonds formed in these loop regions result from the different interactions in solution and in the protein crystal. The higher number of hydrogen bonds in the crystal structure can be explained by the fact that these flexible parts in solution are relatively more fixed in the protein crystal, allowing them to be better defined in the crystal structure. The rms difference between the core (i.e. excluding the DNA binding loop) of the average solution structure of [Y41HIGVP refined in water and the crystal structure of the wild-type protein is 150 pm for the backbone atoms and 213 pm for all non-hydrogen atoms, when fitting the protein monomers. When fitting the protein dimers, these values are slightly higher, namely 185 pm and 233 pm, respectively. Considering the 180-pm resolution of the crystal structure as well as the 70-pm rms difference for the backbone of the solution structures, these numbers compare reasonably. The difference in the values upon comparing monomers and dimers is due to somewhat different overall shapes of the dimer molecules. The energy-minimized average solution structure and the crystal structure are depicted in Fig. 4. From this figure it can be seen that for the five-stranded @-barrel, the fold of the solution structure is nearly identical to that of the X-ray structure. However, the protruding loop regions (the DNA-binding loop, the complex loop and the dyad loop) differ in their orientations, making the NMR structure more globular than the X-ray structure. Furthermore, there is a significant difference in the location of the N-terminus of the molecule which is somewhat closer to the core of the molecule in the solution structure (see Fig. 4b). Recently, the crystal structures of [Y41H]GVP and [Y41F]GVP have been reported as well (Guan et al., 1994). An overview of the rms differences between the NMR and X-ray structures is given in Table 4. It shows that the differences between the solution structure and the various crystal structures are comparable. Remarkably, the [Y41HIGVP X-ray structure consists of two different monomers, which constitute an asymmetric dimer (Guan et al., 1994). NMR data, however, clearly indicate that the [Y41H]GVP dimer in solution is symmetric, at least at the NMR chemical shift time scale, as equivalent protons in the monomers of the dimer give rise to only one resonance. Most likely, the asymmetric conformation of the [Y41H]GVP dimer in the protein crystal is induced by packing forces. In this respect, it is noted that the [Y41H]GVP protein crystallizes in a different lattice from [Y41FIGVP and the wildtype, which form symmetric dimers (Guan et al., 1994). Therefore, we consider it more appropriate to compare the solution structure of tY41 HlGVP to the wild-type crystal structure. Fig. 5 compares short ( c 0 . 6 nm) carbon-carbon distances occurring in the minimized average solution and the crystal structure. It clearly shows that the two structures are very similar. The local variations between the backbone atoms of the solution structure and the crystal structure are shown in Fig. 6. In this figure, rms differences are depicted per residue, when bestfitting the protein monomers. For the core of the protein, the fold of the NMR structure is very similar to that of the X-ray structure (compare Fig. 4). Rms deviations up to about 0.35 nm are found for the loop regions, such as the complex loop, the pturn formed by residues 49-52 and the tip of the dyad loop (compare Fig. 3), which are less well-defined in the NMR structures. The main difference between the solution structure of [Y41H]GVP and the wild-type X-ray structure concerns the
+
+DNA-binding loop. Rms differences up to about 1.2 nm are encountered for residues in the tip of the DNA-binding loop (see Fig. 6). This is due to the quite different orientation of the DNA binding loop in these structures. The DNA-binding loop is partially folded back towards the core of the protein in the NMR structure, while in the crystal structure it points away from the rest of the protein (see also Fig. 4). However, as stated before, there are no clear NOES observed between residues in this loop and the core of the protein; we even included a few lower bound distance restraints to prevent the DNA binding wing from really making contact with the core. When fitting a floating stretch of three amino acids the maximum rms difference between both structures in the DNA binding loop is about 0.2 nm (results not shown). This remarkably large, local difference is caused by a twist in the DNA binding loop of the solution structure, which is hardly apparent in the crystal structure. As a result of this twist, amongst others, short distances (as small as 0.2nni) are observed between Ser2O and Tyr26. These distances are clearly larger (>0.35 nm) in the crystal structure and would not lead to the intense NOE cross peaks which are observed in the NMR spectra. Interestingly, recent work by Rietman and co-workers (1995) showed that a synthetic circular 1I-amino-acid peptide, representing residues 17 -27 in the GVP DNA binding loop, adopts virtually the same conformation as the antiparallel @-hairpin of the solution structure of [Y41H]GVP, including the twist. Apparently, this twist is inherent to the amino acid composition of the DNA binding wing. Whether this twist alone is responsible for the orientation of the DNA binding loop being folded back towards the core of the protein in solution remains unclear. Considering the DNA binding domain of the protein, it appears that in the NMR structures there is not enough room to accommodate two ssDNA strands. In this respect, the open conformation of the crystal structure would be more suitable. One could speculate that in solution the DNA binding wing would have to undergo a conformational change, finally adopting a conformation similar to the X-ray structure. Indeed, molecular dynamics calculations performed on complexes of ssDNA and GVP (Folmer et al., 1994b) show that upon DNA binding the binding wings adopt fairly straight structures. However, the wings are still clearly twisted, indicating that this feature may be independent from the overall orientation of the loops. To further investigate the conformation of the DNA binding wing in the crystal, the X-ray structure was submitted to both free and restrained molecular dynamics in explicit solvent. The restrained MD simulations served to check whether the differences in the DNA binding loop compared to the solution structure are indeed caused by the NMR restraints. During these simulations, only the NOE-based distance constraints within the DNA binding loop were considered. The result of these calculations was that the DNA binding loop immediately adopted a twisted structure, just as in all NMR structures, indicating that the NMR restraints indeed represent a truly twisted conformation. Furthermore, the DNA binding loop moved towards the core of the protein as it does in solution. The unrestrained or free MD simulation was performed to investigate whether the twist is purely a result of the NMR restraints or whether this twisted conformation is truly energetically more favourable in solution. In the latter case, the twist should also be induced by the force field during a free MD simulation. Interestingly, the unrestrained MD simulation caused the same structural changes in the X-ray structure as the restrained MD simulations. Fig. 7 depicts the GVP X-ray structure as it evolved during the MD trajectory. It shows that the DNA binding loop gradually twisted and folded towards the core of the protein. After about 15 ps the DNA binding loop is really curved
+
+512
+
+Prompers et al. (Eui: J. Binckern. 232)
+
+NMR
+4
+
+X-ray
+
+NMR
+
+X-ray
+
+Fig. 4. Comparison of the backbone representation of the average solution structure of Ff [Y41H]GVP and the crystal structure of the wilcltype protein. (a) The twofold axis of the molecule is perpendicular to the plane of the paper. (b) View with the twofold axis parallel to the plane.
+
+Table 4. Rms differences between the average solution structure of [Y41H]GVP refined in water and several crystal structures. Values were calculated for the backbone atoms, excluding the DNA binding loop (residues 16-28), upon fitting protein monomers; wt = wild-type
+Protein NMR Y41H wt X-ray Y41H Y41F X-ray wt
+O4
+P
+
+90 80 -
+
+l
+
+I
+
+I
+
+l
+
+l
+
+1
+
+1
+
+l
+
+..
+*
+I 1
+
+. .....
+Tqt...r.. . .. I.*.a .
+. I
+
+...:
+"Mi!
+
+70
+
+-
+
+"tf;
+
+60 -
+
+Y41H
+0.9W 0.99/1.06b
+
+Y41F
+
+2
+s
+$
+
+"5.. . ...
+I
+:m a: .
+
+*
+
+...
+-
+
+I
+
+$!;I1
+
+5040' . 1.
+
+.%.
+:! . I ;.
+
+1.50 1.71/1.58b 1.51
+
+1.01/1.02h 0.23
+
+...".f.'.
+
+.&-! ..I I..
+E . '
+
+.Y . :
+
+I... ,.:5d,
+
+".
+
+0"
+
+* Rms deviation between the two monomers in the crystal structure.
+
+20 -
+
+Rms deviations with the two different monomers in the X-ray structure formed by the Y41H mutant.
+
+'O
+
+.. ..!Z..I .-... " ..... '4:!.. . . ... -_..: 4 . . .... "i?, - ".. :.. "1.
+1 .
+I*?::l-
+
+~
+
+--:I-
+
+I
+
+'
+
+I
+
+'
+
+I
+
+'
+
+I
+
+'
+
+I
+
+'
+
+I
+
+'
+
+I
+
+~
+
+Prompers et al. (Eui: J. Biochem. 232)
+1.4
+h
+
+513
+
+4
+
+I
+
+I
+
+v
+
+:
+
+1.2 1 .o
+0.8
+
+W
+
+0
+
+9
+W
+
+c .* c V
+
+0.6 0.4 0.2
+
+c c
+
+B
+
+0.0 0
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+70
+
+80
+
+90
+
+Residue n u m b e r
+
+Fig. 6. Rms differences Per residue between the average solution structure of [Y41H]GVP and the crystal structure of the wild-type protein, when fitting the protein monomers. () Backbone atoms (N, C, Ca), (- - -) non-hydrogen atoms.
+
+In conclusion, the solution structure of [Y41HJGVP and the wild-type X-ray structure are nearly identical as far as the core of the protein is concerned, but they differ significantly in their DNA binding loops. This antiparallel P-hairpin is twisted and partially folded back towards the core of the protein in solution, whereas it is more extended and points away from the core in the protein crystal. From an NMR point of view, at this point we cannot exclude the occurrence, during part of the time, of the X-ray conformation in solution. Although the solution structure of the DNA binding loop gives rise to NOEs which are not expected on the basis of the X-ray structure, no NOEs are predicted from the conformation in the crystal that are absent in the NOESY spectrum. Therefore, both conformations might be in an equilibrium, as the DNA binding loop is considered to be flexible. However, the free MD simulation indicates that, in solution, a twisted conformation of the DNA binding loop is energetically more favourable and hence physically more realistic.
+The authors thank A. J. Jonker, C. W. J. M. Prinse and J. M. A. Aelen for their efforts in preparing the protein samples. The NMR experiments were performed at the SON Hf-NMR facility (Nijmegen) and at EMBL (Heidelberg). Dr T. Dieckmann and J. J. M. Joordens are acknowledged for technical assistance. We are indebted to Prof. A. H.-J. Wang for useful discussions and critical reading of the manuscript. This research was supported by the Netherlands Foundation for Chemical Research (SON) with financial aid from the Netherlands Organization for Scientific Research (NWO).
+
+REFERENCES
+Berendsen, H. J. C., Postma, J. P. M., van Gunsteren, W. F., DiNola, A. & Haak, J. R. (1984) Molecular dynamics with coupling to an external bath, J. Chem. Phys. 81, 3684-3690. Brayer, G. D. & McPherson, A. (1983) Refined structure of the gene 5 DNA binding protein from bacteriophage fd, J. Mol. Biol. 169, 565596. Bruccoleri, R. E. & Karplus, M. (1986) Spatially constrained minimization of macromolecules, J. Cumput. Chem. 7, 165-175. Briinger, A. T. (1992) X-PLOR. A system for X-ray crystallography and NMR, Yale University Press, New Haven. De Vlieg, J. & Van Gunsteren, W. F. (1991) Combined procedure of distance geometry and molecular dynamics for determining protein structure from nuclear magnetic resonance data, Methods Enzymol. 202, 268-300. Folkers, P. J. M., Stassen, A. P. M., van Duynhoven, J. P. M., Harmsen, B. J. M., Konings, R. N. H. & Hilbers, C. W. (1991a) Characterization of wild-type and mutant M13 gene V proteins by means of 'H NMR, Eur: J. Biochem. 200, 139-148. Folkers, P. J. M., van Duynhoven, J. P. M., Jonker, A. J., Harmsen, B. J. M., Konings, R. N. H. & Hilbers, C. W. (1991 b) Sequence-specific 'H-NMR assignment and secondary structure of the Tyr41-His mutant of the single-stranded DNA binding protein, encoded by the filamentous bacteriophage M13, Eul: J. Biochem. 202, 349-360. Folkers, P. J. M., Folmer, R. H. A,, Konings, R. N. H. & Hilbers, C. W. (1993a) Overcoming the ambiguity problem encountered in the analysis of nuclear magnetic resonance spectra of symmetric dimer proteins, 1. Am. Chem. SOC. 115, 3798-3799. Folkers, P. J. M., van Duynhoven, J. P. M., van Lieshout, H. T. M., Harmsen, B. J. M., van Boom, J. H., Tesser, G. I., Konings, R. N. H. & Hilbers, C . W. (1993b) Exploring the DNA binding domain of gene V protein encoded by bacteriophage MI3 with the aid of spinlabeled oligonucleotides in combination with 'H-NMR, B ~ o c h e m ~ ~ ~ ~ 32,9407-9416. Folkers, P. J. M., Nilges, M., Folmer, R. H. A,, Konings, R. N. H. & Hilbers, C. W. (1994) The solution structure of the Tyr41+His mutant of the single-stranded DNA binding protein encoded by gene V of the filamentous bacteriophage M13, J. Mol. B i d . 236, 229-246. Folmer, R. H. A,, Folkers, P. J. M., Kaan, A,, Jonker, A. I., Aelen, J. M. A,, Konings, R. N. H. & Hilbers, C. W. (1994a) Secondary structure of the single-stranded DNA binding protein encoded by filamentous phage Pf3 as determined by NMR, EUKJ. Biochem. 224, 663-676.
+
+c
+
+J
+
+c
+
+15 ps
+
+35 ps
+
+Fig.7. Snap shots taken at 5, 15 and 35 ps from the unrestrained molecular dynamics simulation in water of the wild-type protein. The crystal structure was taken as the starting conformation (0 ps).
+
+in the crystal is a direct effect of crystal packing forces. X-ray analyses showed that [Y41H]GVP crystallizes in a form different from the wild-type protein, and that the [Y41H]GVP dimer is in the asymmetric unit of the unit cell (Guan et al., 1994). Thus, considering both the symmetric wild-type and the asymmetric mutant protein, in total three different types of crystal packing interactions have been observed, and the three independent DNA binding wings are located in very different crystal environments. Still, all three DNA binding loops adopt fairly straight, hardly twisted structures. It is attractive to speculate that the DNA binding loops are flexible, being able to adopt conformations ranging from those seen in the crystal to those of the solution structures, although the results of the unrestrained dynamics simulations do suggest that the conformation in the crystal is not very favourable in solution. Fig. 7 furthermore shows that during the unrestrained dynamics the N-terminus of the crystal structure moved slightly toward the protein core. Its location, however, is still quite different from the N-terminus in the solution structure.
+
+514
+
+Prompers et al. (Eur. J. Biochem. 232) Morris, A. L., MacArthur, M. W., Hutchinson, E. G. & Thornton, J. (1992) Stereochemical quality of protein structure co-ordinates, Proteins 12, 345-364. Nilges, M. (1993) A calculation strategy for the structure determination of symmetric dimers by 'H NMR, Proteins 17, 297-309. Nilges, M., Gronenborn, A. M., Briinger, A. T. & Clore, G. M. (19%) Determination of three-dimensional structures of proteins by simulated annealing with interproton distance restraints : application to crambin, potato carboxypeptidase inhibitor and barley serine proteinase inhibitor 2, Protein Eng. 2, 27-38. Otting, G. & Wuthrich, K. (1989) Extended heteronuclear editing of 2D 'H NMR spectra of isotope-labeled proteins, using the X(OJ,JLI~) double half filter, J. M a p Reson. 85, 586-594. Ramachandran, G. N., Ramakrishnan, C. & Sasiseharan, V. (1963) Stereochemistry of polypeptide chain configurations, J. Mul. Bic~i. 7, 95-99. Rietman, B. H. (1995) Synthesis and characterization of peptides related to the ssDNA binding loop of gene V protein encoded by phage M13, PhD thesis, Nijmegen. Schmidt, J. M., Bruschweiler, R., Ernst, R. R., Dunbrack, R. L., Joseph, D. & Karplus, M. (1 993) Molecular dynamics simulation of the proline conformational equilibrium and dynamics in antamanide using the Charmm force-field, J. Am. Clwm. Soc. 115, 8747-8756. Skinner, M. M., Zhang, H., Leschnitzer, D. H., Gum, Y., Bellamy, I., Sweet, R. M., Gray, C. W., Konings, R. N. H., Wang, A. H.-J. & Terwilliger, T. C. (1994) Structure of the gene V protein of bacteriophage fl determined by multiwavelength X-ray diffraction on the selenomethionyl protein, Proc. Natl Acad. Sci. USA 91, 2071 -2075. Yen, B. & Webster, R. (1982) Translational control of bacteriophage f l gene 2 and gene X proteins by gene 5 protein, Cell 29, 337-345. Zaman, G. J. R., Smetsers, A,, Kaan, A,, Schoenmakers, J. G. G. & Konings, R. N. H. (1990) Translational regulation of M13 gene I1 protein by its cognate single-stranded DNA binding protein, Eur. J. Biochem. 189, 119-124.
+
+Folmer, R. H. A,, Nilges, M., Folkers, P. J. M., Konings, R. N. H. & Hilbers, C. W. (1994b) A model of the complex between singlestranded DNA and the single-stranded DNA binding protein encoded by gene V of filamentous bacteriophage M13, .I. Mol. B i d . 240, 341 -357. Folmer, R. H. A,, Hilbers, C. W., Konings, R. N. H. & Hallenga, K. (1995) A "C double filtered NOESY with strongly reduced artefacts and improved sensitivity, J. Biomol. NMR, in the press. Gum, Y., Zhang, H., Konings, R. N. H., Hilbers, C. W., Terwilliger, T. C. & Wang, A. H.-J. (1994) Crystal structures of Y41H and Y41F mutants of gene V protein from Ff phage suggest possible proteinprotein interactions in the GVP- ssDNA complex, Biochernistuy 33, 7768- 7778. Ikura, M., Kay, L. E., Tschudin, R. & Bax, A. (1990) Three-dimensional labeled protein, J. M q n . ReNOESY-HMQC spectroscopy of a S O I I . 86, 204 - 209. Jorgensen, W. L., Chandrasekhar, J., Madura, J. D., Impey, R. W. & Klein, M. L. (1983) Comparison of simple potential functions for simulating liquid water, J . Chem. Phys. 79, 926-935. Jorgensen, W. L. & Tirado-Rives, J. (1988) The OPLS potential function for proteins. Energy minimization for crystals of cyclic peptides and crambin, J. Am. Chem. Snc. 110, 1657-1666. Kraulis, P. J. (1991) MOLSCRIPT: a program to produce both detailed and schematic plots of protein structures, J. Appl. CrystullogI: 24, 946- 950. LeMaster, D. M., Kay, L. E., Brunger, A. T. & Prestegard, J. H. (1988) Protein dynamics and distance determinations by NOE measurement. FEBS Lett. 236, 71 -76. Levitt, M. (1983) Protein folding by restrained energy minimization and molecular dynamics, J. Mnl. B i d . 170, 723-764. Model, P., McGill, C., Mazur, B. & Fulford, W. (1982) The replication of bacteriophage f l : gene 5 protein regulates the synthesis of gene 2 protein, Cell 29, 329-335. Model, P. & Russel, M. (1988) Filamentous Bacteriophage, in The bacteriophages, vol. 2, Plenum Publishing Corp, New York.
+
+Supplementary material. Refined solution structure of the Tyr41-His mutant of the M13 gene V protein. A comparison with the crystal structure. Table S1. I5N, "C and 'H resonance assignments of [Y41H]GVP. This information is available, upon request, from the Editorial Office.
+
+

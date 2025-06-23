@@ -1,0 +1,526 @@
+Progress in Nuclear Magnetic Resonance Spectroscopy 38 (2001) 83±114
+
+www.elsevier.nl/locate/pnmrs
+
+NMR studies of protein±DNA interactions
+N. Jamin a,*, F. Toma b
+b a CEA/INSTN, 91191 Gif sur Yvette Cedex, France Â Â Departement de Biologie, Universite d'Evry, bld F. Mitterand, 91025 Evry Cedex, France
+
+Received 1 June 2000
+
+Contents 1. Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2. Overview of techniques . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2.1. Labeling of DNA . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2.2. Chemical shift changes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2.3. Hydrogen exchange rates . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2.4. Isotope editing and isotope ®ltering . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2.5. Deuteration . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2.6. Transverse relaxation-optimized spectroscopy (TROSY) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2.7. Long-range distance constraints . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2.8. Dynamics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2.9. Hydration . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3. Selected applications . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.1. The helix-turn-helix motif . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.1.1. Homeodomain . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.1.2. Lac repressor headpiece . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.1.3. Trp repressor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.1.4. Ets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.1.5. Myb . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.2. Zinc ®ngers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.2.1. TFIIIA . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.2.2. ADR1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.2.3. GATA-1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.2.4. GAGA . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.3. Minor groove-binding architectural proteins . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.3.1. SRY . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.3.2. LEF-1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.3.3. HMG-I(Y) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 84 84 85 86 88 88 89 89 90 91 92 92 92 92 99 102 103 104 105 105 106 107 107 108 108 110 111
+
+* Corresponding author. Tel.: 133-1-69-08-96-38; fax: 133-1-69-08-57-53. E-mail address: nadege.jamin@cea.fr (N. Jamin). 0079-6565/01/$ - see front matter q 2001 Elsevier Science B.V. All rights reserved. PII: S 0079-656 5(00)00024-8
+
+84
+
+N. Jamin, F. Toma / Progress in Nuclear Magnetic Resonance Spectroscopy 38 (2001) 83±114
+
+3.4. Recognition using b -sheet . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.4.1. Tn916 integrase . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.4.2. GCC-box binding domain . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4. Perspectives . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+111 111 112 112 113
+
+1. Introduction Understanding at a molecular level, the mechanisms for the control of genetic information and its replication, packaging and repair necessitates the elucidation of the detailed interactions between proteins and DNA. The last ten years have produced a large amount of structural information about protein±DNA complexes from both X-ray crystallography and NMR. These data reveal the complexity of the DNA recognition process. The absence of a `recognition code' is particularly evident among the three zinc ®ngers of the transcription factor TFIIIA as homologue residues in different complexes do not always contact corresponding base pairs. Direct interaction between protein side-chains and DNA bases not only involve secondary structures like a -helix or b -sheet but also ¯exible loops and arms. Moreover residues not involved in speci®c interactions such as the linker residues of the three zinc ®ngers domain of TFIIIA can be as important for the protein±DNA interaction as residues making contact with DNA bases. NMR makes its unique contribution to the understanding of protein±DNA interactions by highlighting the dynamic aspects of protein±DNA interactions: dynamics of disorder-to-order transitions upon DNA binding, dynamics at the protein±DNA interface, dynamics of opening and closing of base-pairs and, measurements of lifetimes of water molecules at the protein±DNA interface. During the last 10 years, more than 20 structures of speci®c protein±DNA complexes and numerous data on protein±DNA interactions have been obtained by NMR thanks to the developments in protein and nucleic acid synthesis, in isotopic labeling techniques and in heteronuclear magnetic resonance spectroscopy. The ®rst 3D NMR structures of a protein± DNA complex were obtained in 1993: the Drosophila antennapedia mutant homeodomain (Antp(C39S))
+
+bound to a 14-mer duplex DNA containing the BS2 site [1] and the lac repressor headpiece (residues 1± 56, HP56) complexed with a 11-mer operator [2]. This review will describe the use of NMR to obtain information on complexes of proteins with their speci®c DNA targets. Most of the NMR techniques used to study protein±DNA interactions are also employed for other type of protein complexes. Therefore, for a detailed description of the NMR techniques, the reader is referred to recent reviews [3±5] or to speci®c papers referenced in the text. This review is divided in three parts. The ®rst part is an overview of the NMR techniques commonly used to get information on protein±DNA interactions. It includes a brief description of DNA labeling techniques, the use of chemical shift or hydrogen exchange changes to ®nd the binding site, the use of hydrogen exchange or relaxation data to get dynamics information on the binding process, the use of the main isotope ®ltering and editing techniques as well as transverse relaxation-optimized spectroscopy to assign the NMR signals, and newly developed techniques to deal with large complexes or to obtain longrange distance restraints. The second part comprises applications of these techniques to different protein± DNA complexes. Protein±DNA complexes are classi®ed according to the protein recognition motif: helix-turn-helix (HTH), zinc ®nger, minor groove binding motif and b -sheet. Finally, the third part presents the future perspectives that can be inferred from the emerging NMR techniques. 2. Overview of techniques Protein±nucleic acids complexes are large entities and the availability of 13C- and 15N-labeled proteins has made the determination of their solution structures attainable. Double and triple resonance spectroscopy facilitates the resonance assignments, the measurement
+
+N. Jamin, F. Toma / Progress in Nuclear Magnetic Resonance Spectroscopy 38 (2001) 83±114
+
+85
+
+Culture of cells with 13C carbon source and 15N nitrogen source
+cell lysis phenol extraction
+
+DNA and RNA
+Nucleic acids hydrolysis
+
+proteins
+
+5' monophosphate nucleotide
+nucleotide separation
+
+dNMPs
+
+rNMPs
+
+dNTPs
+
+DNA oligonucleotide
+Fig. 1. General procedure for the enzymatic synthesis of labeled DNA.
+13
+
+C, 15N-
+
+of coupling constants and of relaxation parameters not accessible by proton resonance spectroscopy. It is only recently that ef®cient labeling of DNA [6±9] has been published thus opening applications of heteronuclear spectroscopy to DNA. We will present brie¯y the new labeling methods proposed for DNA. We will also give an overview of the NMR techniques used to extract structural information about protein± DNA complexes including chemical shift changes, hydrogen exchange rates, isotope editing and ®ltering techniques and methods for measuring protein dynamics to study the changes in protein ¯exibility upon binding. 2.1. Labeling of DNA Large quantities of labeled DNA fragments for NMR studies can be synthesized by chemical or enzymatic methods. The chemical synthesis of DNA oligomers involves the solid-phase phosphoramidite
+
+method using isotopically labeled monomer units [6]. Labeled ribonucleotides are prepared from the isolation of bacterial RNA from cells grown in labeled medium, the hydrolysis of RNA and the separation of the ribonucleotides [7]. They are then chemically converted to deoxynucleotides and derivatized into nucleoside 3 H -phosphoramidites which are used for preparing oligonucleotides on a DNA synthesizer. Using this method, a 14-base pair DNA duplex fully 13C, 15N doubly-labeled as well as partially labeled at those nucleotides that form the protein± DNA interface has been prepared to study its interaction with the antennapedia homeodomain [8]. The general procedure for the production of uniformly 13C, 15N-labeled DNA by enzymatic synthesis is described in Fig. 1. Zimmer and Crothers have shown that milligram quantities of material can be synthesized using this procedure [9]. Their method comprises the production of uniformly 13C, 15Nlabeled deoxynucleotides from enzymatic hydrolysis of the DNA of bacteria grown on 99% 13CH3OH and .98% 15NH4Cl as sole carbon and nitrogen sources. The labeled DNA are then converted enzymatically to the triphosphates and used in a DNA polymerization reaction that utilizes an oligonucleotide hairpin primer-template containing a ribonucleotide at the 3 H terminus. Alkaline hydrolysis of the ribonucleotide linkage between the labeled DNA and the unlabeled primer-template followed by puri®cation yields the labeled DNA. More recently variations of this method have been proposed by two other groups [10,11]. Masse and coworkers [10] proposed three modi®cations. First, the mixed dNTPs are separated from one another so that the ratio of the four dNTPs corresponding to the sequence of the deoxyoligonucleotide are used in the reaction. Secondly, Taq polymerase is used instead of Klenow fragment of DNA polymerase I in the polymerization step. Third, an additional step is used to remove non-templated addition at the 3 H end. Louis and coworkers [11] used the same molecule for the primer and template in the bidirectional polymerase chain reaction thus obtaining an exponential growth in the length of the double strand that contains two repeats of the desired DNA sequence. An additional method has been presented by Louis and coworkers [11]. It comprises the growth of a suitable plasmid containing mutiple copies of the
+
+86
+
+N. Jamin, F. Toma / Progress in Nuclear Magnetic Resonance Spectroscopy 38 (2001) 83±114
+
+Fig. 2. Imino region of the 1H-NMR 600 MHz spectra obtained upon addition of different amount of a solution of the R2R3 DNA binding domain of c-Myb to a solution of mim12 oligonucleotide at 208C.
+
+desired DNA sequence in E. coli with 15N and 13C nutrients. These methods have been applied to the synthesis of fully or partially 13C, 15N or 15N-labeled double strand oligonucleotides of 10±21 base pairs. A 32 base DNA oligonucleotide that folds to form an intramolecular quadruplex as well as a 12 base oligonucleotide that dimerizes and folds to form a quadruplex uniformly 13C, 15N-doubly labeled have also been produced for NMR studies. Both these methods require a high level of expertise. Site speci®c labeling is more easily attained with the chemical method and is therefore the method of choice for the synthesis of site speci®c labeled DNA. 2.2. Chemical shift changes Interactions of protein with DNA fragment containing speci®c binding sites are tight binding interactions
+
+i.e. the dissociation constants Kd are less than 10 28 M and detailed information can be obtained on the complexes because of the slow exchange regime between free and bound states (lifetimes greater than 1 s) at the chemical shift time-scale. The rate of exchange is much less than the difference in the chemical shift between the two states and, at a mole ratio less than the stoichiometric ratio, two sets of resonances are observed corresponding to the free and bound states. Therefore, the resonances of the complex have to be assigned using NMR techniques employed for large molecules and/or edited/®ltered techniques. Fig. 2 shows the imino region of the 1H spectra obtained upon addition of different amounts of a solution of R2R3 DNA binding domain of c-Myb to a solution of mim12 oligonucleotide [12]. On addition of the protein, new resonance lines corresponding to the bound mim12 dodecamer appear. Some of these lines are split into two signals which indicate the simultaneous presence of two forms. The lifetimes of these two forms are longer than the inverse of the frequency difference between the free and bound state resonances. Chemical shifts are very sensitive probes of the local environments of the nucleus but unfortunately it is not possible to predict their values from the conformation of the complex or conversely to deduce the conformation from their values. Nevertheless, they are useful parameters to gain insight into the parts of the molecules in¯uenced by the interaction. Schmiedeskamp and coworkers [13] have shown by analysis of 1H and 13Ca chemical shifts that little change in the structure of the zinc-®nger domain from the yeast transcription factor ADR1 occurs upon binding to a 14mer DNA containing the UAS half site. A correlation between the protein±DNA interface mapped by chemical shift changes and that mapped by mutagenesis experiments was found. However, the identi®cation of the DNA binding site using DNA induced chemical shift changes should be done with care. This approach is not feasible for numerous protein±DNA complexes where proteins undergo conformational transitions and dynamics changes upon binding that will affect the chemical shifts. This has been recently demonstrated by Foster and coworkers [14]. These authors analyzed the correlation between the chemical shift changes upon
+
+N. Jamin, F. Toma / Progress in Nuclear Magnetic Resonance Spectroscopy 38 (2001) 83±114
+
+87
+
+Fig. 3. Amide proton exchange rate (s -1) versus residue number for the wild-type and AV77 apo- and holorepressors, pH 7.6 at 458C. (Fig. 1 from Ref. [19]). Reprinted with the permission of O. Jardetzky and of Cambridge University Press (q 1996).
+
+binding of the three aminoterminal zinc ®ngers of X. laevis TFIIIA (zf1-3) to a 15-mer DNA with the intermolecular contacts known from the high-resolution structure of the complex. They found that the chemical shift changes for protein 1H, 15N and 13C resonances upon DNA binding are not well correlated with DNA contacts observed in the solution structure of the complex. In fact the protein resonances are affected not only by DNA binding but also by changes in the dynamics and conformation of the protein upon binding. The DNA base-protons were found to be good markers of the DNA binding sites because the conformation of the DNA is not signi®cantly distorted upon binding.
+
+In the case of fast exchange between free and bound states, the structure of the complex cannot be obtained easily. Titration experiments monitor the variation of chemical shifts upon addition of DNA and estimation of binding constants (in the millimolar range) can be extracted from the analysis of the titration curves [15]. The chemical shifts of the bound protein resonances are directly obtained from these titration experiments. As in the case of slow exchange, the variation of chemical shifts can be used to map the binding surface. For intermediate exchange between the free and bound states or between different bound conformations,
+
+88
+
+N. Jamin, F. Toma / Progress in Nuclear Magnetic Resonance Spectroscopy 38 (2001) 83±114
+
+broadening or disappearance of peaks occur preventing a detailed structural analysis. 2.3. Hydrogen exchange rates As with chemical shifts, DNA-induced changes in hydrogen exchange rates can be used with care to map the DNA binding site by comparing amide proton exchange rates of the free protein with those of the protein±DNA complex [16,17]. Quantitative analysis of amide proton exchange rates provides insights into the stability and dynamics of the protein. Mau and coworkers [18] compared the amide proton exchange rates of three forms of the GAL4 transcriptional activator, the native Zn-containing protein, the Cd-substituted protein and a Zn-Gal4/ DNA complex. They showed that the Cd-substituted GAL4 is destabilized relative to the native protein as inferred from the slower exchange rates of the amide proton of the native protein compared with the Cd analogue. They observed a global retardation of amide proton exchange upon binding to DNA, indicating that internal ¯uctuations of the DNA-recognition module are signi®cantly reduced by the presence of DNA. Gryk and coworkers [19] ascribed the enhanced repressor activity at the trp operator in vivo of the Val77 mutant of the Trp repressor to an increase in the stability of the ¯exible DNA binding domain of the Val77 mutant as deduced from the study of the amide proton exchange rates as shown in Fig. 3. The measurement of the imino proton exchange of the DNA provides insights into the dynamic behavior of the opening and closing rates of the base-pairs. Dhavan and coworkers have analyzed the imino proton exchange in the Integration Host Factor (IHF)±DNA complex [16]. This E. coli DNA binding protein is a minor groove binder and bends the DNA by greater than 1408 at each site. They observed a large overall reduction in exchange rates for the DNA in the complex. In the complex, groups of adjacent base-pairs exchange at the same rate and appear to close more slowly than the rate of imino proton exchange with bulk water since their exchange rate is independent of catalyst concentration. Thus fragments of the DNA as large as 6 base-pairs open in a cooperative manner and remain open much longer than found for free DNA. Binding to IHF enhanced
+
+the probability of opening the DNA helix. This may play a role in processes that involve IHF and require opening of the double helix. 2.4. Isotope editing and isotope ®ltering The general approach used to study molecular complexes involves uniform labeling of one component with 15N and/or 13C while the other component is unlabeled. Then isotope edited or isotope ®ltered experiments are selected to obtain information on one component of the system. Isotope edited experiments detect proton signals attached to 13C/ 15N nuclei while isotope ®ltered experiments detect proton signals attached to 12C/ 14N nuclei and remove 13 C/ 15N attached proton signals [20±26]. In the case of protein±DNA complexes, the protein is generally uniformly doubly 13C, 15N labeled and the DNA is unlabeled. Protein signals are assigned using 3D double and triple resonance experiments. For the DNA 12C-®ltered NOESY and HOHAHA experiments are implemented [22,25,26]. The intermolecular NOEs are measured by 3D 13C F1-®ltered, F3 edited NOESY-HSQC experiments [23,24]. The assignment of DNA signals is often dif®cult due to signal overlap especially for the deoxyribose protons. Thus, labeled DNA will help to assign all the DNA resonances and to get more detailed conformational features for the DNA as well as to de®ne more precisely in some cases the interface between the protein and the DNA. The ®rst example which makes use of 13C, 15N labeled DNA was published by Masse and coworkers (Fig. 4) [27]. These authors studied the non-speci®c interaction between the High Mobility Group (HMG)-DNA binding domain of NHP6A and a 15 base pair DNA. Three samples of 13 15 C, N-labeled DNA were prepared: one strand labeled, the other strand labeled and the two strands labeled. The majority of the base and deoxyribose DNA resonances in the complex were assigned by homonuclear techniques, but assignments of H4 H , H5 H and H5 HH are particularly dif®cult and were successfully made by using 3D 1H± 13C NOESYHMQC and HCCH-TOCSY experiments on the three labeled protein±DNA samples. Unambiguous assignments of intermolecular NOEs involving the phosphodiester backbone were accomplished with 3D double half-®ltered 1H± 13C HMQC experiments.
+
+N. Jamin, F. Toma / Progress in Nuclear Magnetic Resonance Spectroscopy 38 (2001) 83±114
+
+89
+
+Fig. 4. Portion of 1H± 13C HSQC spectra at 298 K in D2O, showing the correlations between aromatic protons and carbons of a 15 base pair DNA containing the binding site of NHP6. Upper spectrum: sample of 13C, 15N 15-mer DNA with upper strand labeled only. Lower spectrum: sample of 13C, 15N 15-mer DNA with lower strand labeled only (adapted from Fig. 8 of Ref. [27]). Reprinted with the permission of J. Feigon and of Oxford University Press (q 1999).
+
+repressor bound to a 20 base pair palindromic DNA operator) was determined by recording homonuclear 2D and 3D spectra for complexes with different deuterium labeled trp repressor analogs as well as heteronuclear spectra for complexes with uniformly 15 N, 13C-labeled trp repressor [29]. The use of perdeuterated protein in H2O (i.e. .90% 2 H incorporation at nonlabile positions and about 90% of labile positions protonated) led to the assignments of almost all backbone and Cb resonances of the 37 kDa trp repressor±operator DNA complex [30] and of a 64 kDa repressor±operator complex (two tandem dimers bound to a 22 base pair symmetric DNA operator and the corepressor analog 5-methyltryptophan) [31,32]. Samples of perdeuterated protein containing selective protonated or 15N, 13C, 1H labeled residues are used to characterize speci®c contacts between the protein and the DNA. For example in the study of the DNA binding domain of the transcription factor NFATC1 bound to a 12 base pair DNA, Zhou and coworkers [33] performed 2D 1H± 1H homonuclear NOESY experiment on complexes containing perdeuterated protein with fully protonated Tyr and Phe residues to characterize the contacts between Tyr 442 and DNA. These authors also mentioned the use of site-speci®c deuteration at C2 of Ade6 to con®rm the close proximity of Arg555 and Ade6. 2.6. Transverse relaxation-optimized spectroscopy (TROSY) È Recently, Wuthrich and coworkers have proposed a new approach to reduce signi®cantly transverse relaxation rates in multidimensional NMR experiments and thus eliminate one of the obstacles to the study of large molecules and complexes by NMR [34±36]. The relaxation of peptide backbone 15N nuclei is dominated by the dipolar interaction between 15N nuclei and its directly attached proton and by the chemical shift anisotropy interaction. As the 15N CSA tensor is nearly axially symmetric and has its axis making a small angle with the N±H bond vector, the 15N nuclei will have a relaxation rate depending on the spin state of the proton attached to it. TROSY uses this differential relaxation to select only the component which relaxes the more slowly. Using this
+
+2.5. Deuteration In the case of large protein±DNA complexes, the conventional backbone triple resonance experiments are unsuccessful for providing complete assignment of the protein resonances. Therefore, selective protonation and/or uniform complete or fractional deuteration in combination or not with 13C, 15N-labeling of the protein are used to simplify proton spectra (Fig. 4) and to overcome the problem of rapid transverse nuclear spin relaxation [28]. The structure of a 37 kDa trp repressor±operator DNA complex (homodimeric 107 residue E. coli trp
+
+90
+
+N. Jamin, F. Toma / Progress in Nuclear Magnetic Resonance Spectroscopy 38 (2001) 83±114
+
+Fig. 5. Backbone (b) and side-chain (s) relaxation parameters of the T1r (upper graph) and [ 1H± 15N] NOE (lower graph) at 600 MHz for the free (black bars) and the DNA-bound (hatched bars) lac repressor headpiece. The backbone and side-chain parameters are indicated with ªbº and ªsº, respectively. For Asn, `side-chain' refers to the N d ; Gln and Arg, this refers to N e . (Fig. 4 from Ref. [40]). Reprinted with the permission of R. Kaptein and of the American Chemical Society (q 1997).
+
+È approach, Wuthrich and coworkers observed a significant reduction in the linewidth for 15N and 1H in a 2D 1 H, 15N correlation experiment performed with a uniformly 15N-labeled protein complex with a DNA fragment at 750 MHz and 48C tc  20 1 = 2 2 ns: This TROSY principle has been implemented in the conventional triple resonance experiments HNCA, HNCO, HN(CO)CA, HN(CA)CO, HNCACB and HN(CO)CACB. A 2±3-fold enhancement in the signal-to-noise ratio has been observed when applied to 2H/ 13C/ 15N-labeled proteins and signi®cant gains of sensitivity were measured or predicted for protonated proteins. The highest sensitivity gains are obtained for the regular secondary structure elements in the protein core. Studies of protein±DNA complexes should
+
+bene®t from the implementation of the TROSY principle. 2.7. Long-range distance constraints Bax and coworkers have proposed the use of the magnetic ®eld dependence of the dipolar 1H± 15N and 1 H± 13C couplings [37] and of the 15N shift [38] to measure the orientation of NH, CH or CC bond vectors relative to the magnetic susceptibility tensor. Thus, these measurements will provide long-range constraints between distinct regions of the complex. Molecules with an anisotropic magnetic susceptibility will align along the static magnetic ®eld to a degree which is proportional to the product of the anisotropy
+
+N. Jamin, F. Toma / Progress in Nuclear Magnetic Resonance Spectroscopy 38 (2001) 83±114
+
+91
+
+of the molecular magnetic susceptibility and the square of the magnetic ®eld strength. As a result, the dipolar couplings or the chemical shifts vary with the strength of the magnetic ®eld and depend on the orientation of the bond vector or chemical shift tensors relative to the magnetic susceptibility tensor. These small effects were observed for DNA or protein±DNA complexes due to the contributions of the stacked aromatic groups of the DNA bases to the magnetic susceptibility tensor. The dipolar coupling restraints have been incorporated in the simulated annealing protocol for structure determination of the complex of the DNA binding domain of GATA-1 with a 20 base pair DNA [37]. When compared with the structure calculated without 1 H± 15N and 13C a ± 1H a dipolar couplings, the overall precision of the coordinates increased only slightly but the percentage of residues in the most favorable region of the Ramachandran map and the number of bad contacts improved signi®cantly. A large displacement in the short loop connecting strands b 3 and b 4 was found. The magnetic ®eld dependent 15N shifts correlated well with the structure of the GATA1± DNA complex re®ned with 1H± 15N and 13C a ± 1H a dipolar coupling constraints [38]. 2.8. Dynamics Measurements of 15N spin±lattice and spin±spin relaxation rates as well as steady state 1H± 15N heteronuclear NOEs provide information about internal motions on the pico- to nanosecond time-scale and on conformational dynamics on the micro- to nanosecond time-scales [39]. The three examples given below, illustrate the role of dynamics in protein± DNA recognition. The dynamics studies on lac repressor headpiece (1±56) [40] and on the three aminoterminal zinc ®ngers of X. laevis TFIIIA [41] show that the process of recognition is dynamic and not static. 15 N T1, T1r , and [ 1H± 15N] NOE experiments were performed on uniformly 15N-labeled free and DNA bound lac repressor headpiece (1±56) [40]. For the free lac repressor headpiece (1±56), the backbone of the three a -helices and of the turn of the HTH motif is rather rigid, whereas the backbone of the loop between helices II and III is more mobile. Upon binding to the DNA, several changes in the mobility occur.
+
+The most remarkable changes take place in the loop between helices II and III: His29 within this loop contacts the DNA. A large decrease in backbone mobility within this loop is detected. The relaxation parameters of most 15N-containing side-chains (Gln18, Arg22, Asn25, Gln26, Asn50, and Arg51) have also been measured (Fig. 5). Some of the sidechains of DNA-contacting residues show a signi®cant decrease in mobility upon DNA binding while others are about equally mobile in both the free and the bound state. This indicates that interactions with DNA do not necessarily restrict the mobility of the side-chain upon binding and that some ¯exibility remains at the interface between the protein and the DNA. 15N T1r measurements indicate that the sidechain of residues Gln18, Arg22 and Asn25 undergo intermediate exchange (ms to ms time-scale) which may indicate that these atoms are changing partners in hydrogen bonds. The dynamics of the three aminoterminal zinc ®ngers of X. laevis TFIIIA (zf1-3) bound to a 15mer DNA has been studied by 15N NMR [41]. The ¯exibility of the backbone of the linker residues (except Lys41) is signi®cantly reduced upon DNA binding. This reduction is associated with the formation of a de®ned conformation and close packing interactions between the side-chains within the linker and with the side-chains of the neighboring ®nger. Some ¯exibility has been found for the protein± DNA interface as indicated by the broadening of resonances or weak connectivities observed for some lysine resonances (Lys26, Lys29, Lys87). In fact, analysis of the surface electrostatic potential at the DNA binding site where these side-chains interact suggests that these ¯uctuations arise from the fact that these side-chains adopt different isoenergetic conformations with different patterns of hydrogen bonds to DNA bases. The essential DNA binding domain of the yeast ADR1 undergoes a disorder-to-order transition when it binds to a 14 base-pair DNA duplex containing the UAS1 binding site [13] as evidenced by 15N relaxation measurements. The free DNA binding domain of ADR1 is composed of three distinct motional regions and behaves like two beads linked by a ¯exible string. Upon binding, most of this domain tumbles like a single domain with reduced picosecond time-scale motions compared to the free form.
+
+92
+
+N. Jamin, F. Toma / Progress in Nuclear Magnetic Resonance Spectroscopy 38 (2001) 83±114
+
+2.9. Hydration Water molecules are important contributors in the process of protein±DNA recognition as they may have structural and /or functional roles. NMR can provide information about the location and lifetime of the contacts between water and the protein/DNA [3,42,43]. The residence times of hydration water can be estimated from the measurements of NOEs and ROEs between water protons and protein or DNA protons. These measurements distinguish residence times of less than 1 ns from longer ones. Typically residence times shorter than 1 ns are observed on the surface of protein and in the major groove of DNA while residence times longer than 1 ns have been observed for water molecules in the interior of proteins, in the minor grooves of DNA and in protein±DNA interfaces. The NMR study of the Antennapedia homeodomain±DNA complex reveals that water molecules are present at the protein±DNA interface: contacts between protein and water have been observed for amino acid residues 43, 44, 47, 48, 50, 51, 52 and 54 (Fig. 6 [44]). These water molecules exchange slowly with the bulk solvent (residence times between 1 ns and 20 ms) [45] similar to water molecules in the interior of proteins and have multiple preferred locations. In addition, two residues at the protein±DNA interface, Asn51 (strictly conserved) and Gln50 (functionally important), contact several DNA bases with transient water mediated hydrogen bonds. The model proposed for the interactions between the protein and the DNA consists of a ¯uctuating network of hydrogen bonds between the polar groups of the protein and the DNA and water molecules. In contrast to other protein±DNA complexes, the complex between the DNA binding domain of chicken GATA-1 and a 16 base pair duplex is characterized by only two hydrogen bonds between the protein and the DNA [46]. The speci®c interactions involve hydrophobic contacts between the methyl groups of the protein and the DNA bases. Clore and coworkers have found water molecules around all surface exposed methyl groups as well as around methyl groups in the neighborhood of the sugar-phosphate backbone but the water molecules are excluded from the interface between the protein and the DNA bases in the major groove [47]. They also observed
+
+water molecules around the backbone amide proton of Ala30, Tyr34 and Tyr35 which are close to phosphate groups. This suggests that these water molecules participate in bridging hydrogen bonds between the sugar-phosphate backbone and the relevant amide groups.
+
+3. Selected applications Table 1 summarizes the protein sequence motifs and DNA sequence of the protein±DNA complexes discussed below. It also includes a summary of the direct interactions between the amino acid side-chains and the nucleic acid bases. 3.1. The helix-turn-helix motif The HTH motif consists of two nearly perpendicular a -helices separated by a link of variable length. The second helix of this motif called the ªrecognition helixº inserts into the major groove of the DNA to make speci®c contacts. Variations between members of the HTH family include the orientation of the helix in the major groove, the position of the residues contacting the DNA and the length of the recognition helix. This motif ®rst identi®ed in procaryotic generegulatory proteins can be found in a wide variety of DNA-binding proteins including eukaryotic homeodomains and transcription factors. 3.1.1. Homeodomain A homeodomain protein is the product of homeobox genes. It is a highly conserved DNA-binding domain of about 60 amino acid residues that is found in transcriptional regulators involved in the genetic control of development. These regulators specify to the embryonic cells the positional information (where they are relative to their neighbors) and the segmental identity (what structure they should generate). They act at various levels of the development and in all organisms, from yeast to human. Mutations in the homeodomain could result in genetic diseases and developmental abnormalities. Therefore, in order to understand the role of individual amino acid residues in tertiary structure formation and
+
+N. Jamin, F. Toma / Progress in Nuclear Magnetic Resonance Spectroscopy 38 (2001) 83±114
+
+93
+
+Fig. 6. Snapshot of the protein±DNA interface after 1148 ps of MD simulation of the Antp HD±DNA complex (Fig. 4. from Ref. [44]). All atoms of the protein are represented in cyan except for the side-chains of Ile47 (yellow), Gln50 (pink), Asn51 (gray) and Met54 (green). The a strand of the DNA is colored orange and the b -strand red. The water molecules at the interface are represented by dark blue sphere. Reprinted È with the permission of K. Wuthrich. Copyright (1996) held by Cell Press.
+
+sequence speci®c DNA binding, numerous NMR and X-ray studies have been carried out. The solution structure of two homeodomain±DNA complexes have been solved by NMR: the Drosophila antennapedia mutant homeodomain (Antp(C39S)) bound to a 14-mer duplex DNA containing the BS2 site [1] and the Drosophila ventral nervous system (vnd)-NK2 homeodomain bound to a 16-mer duplex DNA containing the vnd/NK2 binding site [48]. Antennapedia is probably the most well-known homeodomain and its overexpression in the Drosophila embryo leads in a ¯y with an extra pair of feet instead of antennae. The determination of the solution structure of the Antp(C39S)±DNA complex (molecular weight about 18,000) was made possible by the development of isotope edited and ®ltered techniques. Due to the poor quality of the COSY and TOCSY spectra of the Antp(C39S)±DNA complex, Otting and coworkers [49] used a strategy based on NOE data obtained from 2D [ 1H, 1H] NOESY with 15 N(v 2)-half-®lter and 3D 15N correlated [ 1H, 1H] NOESY on a sample containing 15N uniformly
+
+labeled Antp(C39S) and unlabeled DNA to assign the resonances. As shown in Fig. 7, these experiments discriminate along the v 2-frequency axis between resonances of protons bound to 15N from others. The sum spectrum (Fig. 7A) contains the diagonal peaks and cross peaks with all DNA resonances and with those protons of the protein not bound to 15N while the difference spectrum (Fig. 7B) contains the diagonal peaks and cross peaks with the amide protons of the protein. The assumption is made and veri®ed that the conformations of both the protein and the DNA are similar in the free state and in the complex. Using this strategy, all proton resonances of the polypeptide backbone (except Met0 and Arg1), b -protons for 60 residues, g -protons for 40 residues, all nonexchangeable side-chain protons for 34 residues as well as all nonexchangeable base protons, all 1 H sugar protons and with two exceptions all 2 H H, 2 HH H and 3 H H resonances of the DNA were assigned. Fourteen intermolecular protein±DNA NOEs involving amino acid residues Arg5, Tyr8, Tyr25, Ile 47, Gln50 and Met54 were identi®ed and these allowed
+
+Table 1 Protein±DNA complexes studied by NMR
+Protein name Prosite pattern Pattern/protein sequence a DNA b fragment used in NMR study Summary of direct protein±DNA interactions Amino acid side-chains Antp(C39S) Homeobox_1
+34 IAHALSLTERQIKIWFQNR RMKWK
+
+94
+
+Ref.
+
+Nucleic acid side-chains
+
+GAAAGCCATTAGAG
+
+Ile47 Gln50 Asn51 Met54 Lys3 Arg5 Ile47 Gln50 Asn51 Tyr54 Tyr17 Gln18 Ser21 Arg22 Asn25 Gln26 His29 Leu6 Tyr7 Tyr17 Gln18 His29 Leu56 Arg69 Lys72 Ile79 Ala80 Thr83 Arg84 Arg81 Gly82 Arg84 Tyr85
+
+Thy 8, Ade 9 and Ade 10 strand b Cyt 6, Cyt 7 and Ade8 strand a ; Thy8 strand b Ade10 strand b Thy9 strand a Ade7, Ade8 and Gua9 strand a Cyt6 and Ade7 strand a ; Ade 5 strand b Ade8 and Ade7 strand a Ade10 and Cyt11 strand b ; Gua9 and Thy10 strand a Ade7 and Ade8 strand a Thy8, Cyt9 and Ade10 strand b Thy6 strand a ; Cyt9 and Thy8 strand b Cyt7 and Thy8 strand b Thy8 strand b Gua5 strand a Thy8 strand b Cyt7 strand b Thy3 strand a Cyt10 and Thy9 strand b Cyt10 strand b Thy7, Gua8 and Thy9 strand a Ade7 and Cyt8 strand b Thy4 strand a Gua13 strand b Gua2 and Thy3 strand a Gua16 strand a Gua16 or Ade15 strand a Ade15 strand a Ade4 strand a Cyt13 strand a Gua8, Gua9 strand a ; Cyt8, Cyt9 and Thy10 strand b Thy10 and Thy11 strand b Gua8 and Gua9 strand a Ade11 and Gua12 strand a ; Thy11 and Cyt12 strand b Gua7 strand a Cyt6 strand a ; Cyt8 strand b Gua6 strand b Ade4 strand a Thy4 strand b
+
+[1]
+
+N. Jamin, F. Toma / Progress in Nuclear Magnetic Resonance Spectroscopy 38 (2001) 83±114
+
+Vnd/NK-2
+
+Homeobox_1
+
+34
+
+LASLIRLTPTQVKIWFQNHRYKTK
+
+TGTGTCAAGTGGCTT
+
+[48]
+
+Lae repressor HP56
+
+HTH_LACI_FAMILY CRYSTALLIN_BETA GAMMA
+
+6
+
+LYDVAEYAGVSYQTVSRVV VTLYDVAEYAGVSYQT
+
+AATTGTGAGCG c
+
+[2]
+
+4
+
+HP62
+
+GAATTGTGAGCGCT CACAATTC
+
+[55]
+
+Trp repressor
+
+±
+
+1 QSPYSAAMAEQRHQEWLRF VDLLKNAYQNDLHLPLLNLM LTPDEREALGTRVRIVEELL RGEMSQRELKNELGAGIATI
+
+CGTACTAGTTAACTA GTACG
+
+[29]
+
+hETS1
+
+ETS_domain_2 ETS_domain_1
+
+TRGSNSLKAAPVELRQWLEE VLLKSD 71 KPKMNYEKLSRGLRYY
+27
+
+TCGAGCCGGAAGTTCGA
+
+[58]
+
+LWQFLLELL
+
+Mouse c-Myb
+
+Myb_1 Myb_2
+
+WTKEEDQRV 147 WTEEEDRII 115 WSVIAKHLKGRIGKQCRE RWHNHL 166 WAEIAKLLPGRTDNAIKNHWNSTM
+
+95
+
+CCTAACTGACA
+
+Lys41 Glu45 Lys95 Asn96 Asn99
+
+[61]
+
+Table 1 (continued) Protein name Prosite pattern Pattern/protein sequence a DNA b fragment used in NMR study Summary of direct protein±DNA interactions Amino acid side-chains TFIIIA ZINC_FINGER_C2H2
+15
+
+Ref.
+
+Nucleic acid side-chains
+
+CSFADCGAAYNKNWKLQAH
+
+TTGGATGGGAGACC G
+
+Finger 1: Lys26 Finger 1: Trp28 Finger 1: Lys29 Finger 2: His58 Finger 2: His59 Finger 2: Arg62 Finger 3: Thr86 Finger 3: Ala88 Finger 3: Asn89 Finger 3: Arg92 Finger 3: Arg96
+
+Gua14, Gua13 and Thy12 strand b Gua9, Ade10 and Gua11 strand a ; Thy12 strand b Ade10 and Gua11 strand a Thy10 strand b Gua8 and Gua9 strand a Gua7 strand a Thy6 strand a Cyt7 strand b Ade5 strand a Gua3 and Gua4 strand a ; Thy5 strand b Gua 3 strand a
+d
+
+[64]
+
+N. Jamin, F. Toma / Progress in Nuclear Magnetic Resonance Spectroscopy 38 (2001) 83±114
+
+LSKH
+45 CKEEGCEKGFTSLHHLTRH SLTH 75
+
+CDSDGCDLRFTTKANMKKH
+
+FNRFH
+
+ADRI GATA1
+
+ZINC_FINGER_C2H2 GATA_ZN_FINGER
+
+106 CEVCTRAFARQEHLKRHY RSH 7 CSNCQTSTTTLWRRSPMGD PVCNAC
+
+CCATCTCCAACTTAT AAGTTGGAGATCC GTTGCAGATAAACAT T
+
+[65] [46]
+
+Thr16 Leu17 Asn29 Leu33 Leu37 Lys57 Arg14 Lys16 Ser26 Arg27 Ser30 Arg47 Asn48 Arg51 Asn10 Phe12 Ile13 Ser33
+
+Ade9 and Thy8 strand b Ade6 and Gua7 strand a ; Thy8 strand b Ade8 strand a ; Ade9 strand b Ade9 and Thy10 strand b Thy10 and Thy11 strand b Thy9 strand a Cyt6 strand b ; Ade7 strand a Cyt4 and Thy5 strand b ; Ade5 strand a Thy10 strand b Gua8 strand a Cyt8 and Ade9 strand b Gua6 strand a ; Thy7 strand b Ade5 strand a Gua4 strand a Cyt4 and Ade5 strand a ; Gua5 strand b Thy5 and Thy6 strand b Ade5 and Ade6 strand a Gua8 strand b
+
+GAGA
+
+ZINC_FINGER_C2H2
+
+36
+
+CPICYAVIRQSRNLRRHLELRH
+
+GCCGAGAGTAG
+
+[66]
+
+SRY human
+
+±
+
+1 VQDRVKRPMNAFIVWSRDQ RRKMALENPRMRNSEISKQL
+
+GCACAAAC
+
+[70]
+
+GYQWKMLTEAEKWPFFQEAQ KLQAMHREKYPNYKYRP
+
+95
+
+96
+
+Table 1 (continued) Protein name Prosite pattern Pattern/protein sequence a DNA b fragment used in NMR study Summary of direct protein±DNA interactions Amino acid side-chains Ile35 Ser36 Tyr74 Asn7 Met10 Glu28 Ser29 Ala30 Asn33 Tyr75 GGGAAATTCCTC Arg10 Gly11 Arg12 Leu26 Lys28 Pro36 Phe38 Tyr40 Arg150 Arg152 Trp154 Glu160 Arg162 Arg170 Trp172
+a
+
+Ref.
+
+Nucleic acid side-chains
+
+LEF1 mouse
+
+±
+
+1
+
+MHIKKPLNAFMLYMKEMRA
+
+CACCCTTTGAAGCTC
+
+Ade7 and Cyt8 strand a ; Thy7 and Gua8 strand b Thy7 strand b Ade3 strand a ; Thy3 strand b Thy8 and Gua9 strand a Ade7 and Ade8 strand b Gua4 and Gua5 strand b Gua5 and Ade6 strand b Cyt5 and Thy6 strand a Thy6 strand a Ade11 and Gua12 strand a ; Thy11 strand b Cyt9 strand a ; Ade7 and Ade8 strand b Ade6 strand a Ade5 and Ade6 strand a ; Thy4 strand b Thy4 strand a Gua3 strand a Thy5 strand b Thy5 strand b Cyt6 strand b Gua7 and Cyt8 strand b Gua5 strand a ; Gua6 strand b Thy3 and Ade4 strand a Cyt8 strand b Gua10 and Thy11 strand b Gua8 and Cyt7 strand a Gua5 and Cyt6 strand a
+
+N. Jamin, F. Toma / Progress in Nuclear Magnetic Resonance Spectroscopy 38 (2001) 83±114
+
+[68]
+
+NVVAESTLKESAAINQILGR RWHALSREEQAKYYELARKE RQLHMQLYPGWSARDNYGKK KKRKREK
+
+HMGI(Y) human
+
+HMGI(Y)
+
+5
+
+TPKRPRGRPKG
+
+[69]
+
+Tn916
+
+±
+
+1 EKRRDNRGRILKTGESQRK DGRYLYKYIDSFGEPQFVYS WKLVATDRVPAGKRDAISLR
+
+GAGTAGTAAATTC
+
+[72]
+
+EKIAELQKDI GCC ± KHYRGVRQRPWGKFAAEIR DPAKNGARVWLGTFETAEDA ALAYDRAAFRMRGSRALLNF PLRV
+1
+
+GCTAGCCGCCAGC
+
+[73]
+
+The entire protein sequence is shown if no prosite pattern has been de®ned. All DNA fragments used are complementary double strand DNA, therefore only the sequence of the a strand (5 H ±3 H direction) is displayed. The ®rst base is numbered 1. Target (or consensus) sequences are shown in bold; required sequences such as A,T-tracts are underlined. c Half-operator sequence. d Only a model as been proposed.
+b
+
+N. Jamin, F. Toma / Progress in Nuclear Magnetic Resonance Spectroscopy 38 (2001) 83±114
+a
+
+97
+
+Fig. 7. Spectral region w1  21:0±10:5 ppm; w2  5:0±10:5 ppm of 15N-edited [ 1H, 1H]-NOESY spectra of a 3.5 mM solution of the 1:1 complex formed from uniformly 15N-labeled Antp (C39S) homeodomain and DNA 14 mer at 368C. (A) sum spectrum. (B) difference spectrum. Adapted from Fig. 2 of Ref. [49]. Reprinted È with the permission of K. Wuthrich and of the EMBO Journal (q 1990).
+
+a unique docking of the protein on the DNA to be determined. The determination of the solution structure of the complex needed more NOE data, therefore the protein was uniformly labeled with 13C and a 2D [ 1H, 1H] NOESY with 13C(v 1, v 2) double-half-®lter as well as a 3D 13C correlated [ 1H, 1H] NOESY were recorded [1,50]. These experiments lead to a complete proton resonance assignment and almost complete assignment of 13C and 15N resonances of the amino acid side-chains for the DNA-bound Antp(C39S) homeodomain [50]. Following these assignments, 1123 different intramolecular protein±protein NOEs were assigned and yielded 855 NOE upper distance constraints for the protein. Using these distance constraints and in addition 155 dihedral angle constraints on f , c and x 1 derived from NOE and 3 JHNa data, the solution structure of the DNA-bound protein was determined without consideration of the presence of the DNA. This structure was used as a starting point for the re®nement of the structure of Ê the complex. A rmsd value of 0.80 A between the
+
+mean backbone atom (N, C , C ) coordinates of the DNA-bound and free Antp(C39S) homeodomain indicates that the global fold of the protein is the same in both states. Additional assignments were also made for the proton resonances of the DNA as well as additional intermolecular NOEs involving different sidechain protons of the amino acid residues already identi®ed or new amino acid residues (Arg3, Arg43 and Lys46). The homeodomain forms three helices with helix III and the N terminal arm inserted into the major and minor grooves of the DNA, respectively (Fig. 8). The intermolecular contacts involve from the protein side: the recognition helix (residues 43± 55) and outside the recognition helix, residues Arg3, Arg5, Gln6 and Tyr8 of the N-terminal arm of the homeodomain, Tyr25 in the loop preceding helix II, Arg28 and Arg31 at the start of helix II and, from the DNA side: the base pairs 4±13. Salt bridges between arginine and lysine side-chains of the protein with phosphate groups of the DNA were observed for Arg3 of the N-terminal segment, Arg28 and both ends of the recognition helix (Arg31, Arg43, Arg52, Arg53 and Lys55) and in the DNA the base pairs 4± 12. Hydrophobic interactions were found between deoxyriboses of the DNA and the N-terminal arm (Arg5, Gln6), the loop between helix I and helix II (Tyr25) and the recognition helix (Arg43, Lys46, Ile47, Gln50, Met54) and also between bases of the DNA and the recognition helix (Ile47, Gln50, Met54). Other intermolecular short contacts (shorter than Ê 3.5 A) also involved residues 5, 6, 8, 25, 43, 44, 47, 50, 54 and base pairs 7±13 of the DNA. The speci®c DNA-contacts are formed with the side-chain of Arg5 of the N-terminal arm and with the well-determined side-chain of Ile47 and the side-chains of Gln50 and Met54. The conformation of Gln50, a key residue for speci®c DNA recognition and, the conformation of the invariant Asn51, are not well determined. In fact, Billeter et al. [1] propose that these two residues are part of a ¯uctuating network of interactions involving the DNA bases Ade9 and Ade10 and water molecules in the protein±DNA interface underlying the important role of water molecules in the homeodomain±DNA interaction. The Antp homeodomain± DNA complex has been crystallized and its structure Ê has been determined at 2.4 A resolution [51]. There are two complexes in the asymmetric unit. The crystal structure is in agreement with the NMR data but
+
+H
+
+98
+
+N. Jamin, F. Toma / Progress in Nuclear Magnetic Resonance Spectroscopy 38 (2001) 83±114
+
+Fig. 8. Stereo view of one of the 16 ®nal conformers of the Antp(C39S) homeodomain±DNA complex. Only the heavy atoms of residues 3±56 are displayed. The a -strand of the DNA is colored brown and the b -strand magenta. The polypeptide backbone is represented in cyan and the following colors are used for the side-chains: Arg and Lys, blue; Glu, red; Ala, Ile, Leu, Met, Phe and Trp, yellow; Asn, Gln, His, Ser, Thr and È Tyr, white (Fig. 2 from Ref. [1]). Reprinted with the permission of K. Wuthrich and of the publisher, Academic Press (q 1993).
+
+indicates that Gln50 has two major conformations and that Asn51 has a well-de®ned conformation and makes speci®c contact with Ade9 (5 H -TAATGG-3 H ). This is not incompatible with NMR data as X-ray provides information on the most populated and stable conformation. In addition X-ray indicates the location and structural role of several water molecules in particular a water molecule which hydrogen bonds to Gln50, to Asn51 and to the O4 of Thy8 for complex B (and to the N4 group of C7 for complex A) and two water molecules that mediate contact between the phosphate backbone and residues Trp48 and Asn51. The vnd/NK2 homeodomain of Drosophila melanogaster is the earliest predominantly neural gene regulator found so far that is expressed in part of the ventrolateral neurogenic anlage, which gives rise to part of the central nervous system of the embryo. In contrast to other homeodomains, which recognize the consensus sequence 5 H -TAATGG-3 H , the vnd/NK2 homeodomain recognizes the consensus sequence
+
+5 H -CAAGTG-3 H . Gruschus and coworkers determined the solution structure of the complex between the vnd/ NK2 homeodomain and a 16-mer duplex DNA containing the vnd/NK2 binding site [48]. The protein was uniformly labeled with 15N and uniformly doubly 15 N/ 13C labeled. 3D 15N edited NOESY-HMQC, 3D 13 C edited NOESY-HMQC yield intra protein and protein±DNA distance restraints while 2D 12C®ltered NOESY and 2D NOESY with a 1-1 semi selective excitation pulse provide intra-DNA distance restraints. A 3D 12C-®ltered/ 13C-edited NOESY spectrum was measured and yielded only NOE cross peaks between the protein and the DNA. The implementation of a modi®ed water ¯ip back technique in a 3D 15 N edited NOESY-HMQC experiment to enhance the signal intensity of weak side-chain resonances allows the observation of a contact between the invariant Asn51 and A3 (5 H -CAAGTG-3 H ) [52] that had never been detected by NMR but had been found in crystal structures of other homeodomain±DNA complexes.
+
+N. Jamin, F. Toma / Progress in Nuclear Magnetic Resonance Spectroscopy 38 (2001) 83±114
+
+99
+
+Fig. 9. Superposition of the optimized vnd/NK-2 DNA structure (with protein backbone shown in pink and DNA backbone shown in gray) with the average homeodomain±DNA complex generated from the Antennapedia, engrailed, paired and oct-1 complexes (with protein backbone shown in blue and DNA backbone shown in green) (Fig. 6 from Ref. [48]). Reprinted with the permission of J.A. Feretti and of the publisher, Academic Press (q 1999).
+
+In the N-terminal arm, Lys3 and Arg5 contact the DNA bases while Val6, Leu7 and Phe8 contact the ribose/phosphate backbone of the a -strand. The residues of the recognition helix involved in major groove contacts are: Ile47, Gln50, Asn51 and Tyr54. The main differences between the structure of the vnd/ NK2 homeodomain and other homeodomains when bound to DNA is the bend of the recognition helix which is smaller than 108 for vnd/NK2 while it is about 158 for the other homeodomain and, the turn between helix II and helix III which show large variations in all the homeodomain± DNA complexes. The most signi®cant variation in the complex is the orientation of the homeodomain, especially the recognition helix, relative to the DNA (Fig. 9). Gruschus and coworkers have proposed that this difference in orientation could be related to the different speci®c consensus sequence recognised by vnd/NK2 homeodomain (5 H -CAAGTG-3 H ) and by Antp, engrailed, paired
+
+and oct-1 homeodomain (5 H -TAATGG-3 H ). The other explanation that they propose is the unique manner in which Tyr54 of the vnd/NK2 homeodomain contacts Cyt4 in the b -strand of the DNA. 3.1.2. Lac repressor headpiece The lac repressor regulates the lactose metabolism in E. coli by binding to a speci®c sequence of the lac operator. The lac repressor is a tetramer of four identical subunits, each of which contains the principal DNA binding site in its N-terminal domain (headpiece). Each dimer binds one operator DNA sequence with its two headpieces. The structure of the complex of the lac repressor headpiece (residues 1±56, HP56) and an 11-mer operator (half site) has been determined by 2D proton NMR and restrained molecular dynamics [2]. Due to the molecular weight of the complex (about 13,000), the proton resonance assignments relied on the sequential assignment of both the protein and the DNA based on TOCSY and NOESY
+
+100
+
+N. Jamin, F. Toma / Progress in Nuclear Magnetic Resonance Spectroscopy 38 (2001) 83±114
+
+Fig. 10. Schematic view of HP56±DNA interactions. Methyl groups are indicated by black balls, phosphate groups by stripped circles and protons in H-bonds by small circles (Fig. 8 from Ref. [2]. Reprinted with the permission of R. Kaptein and of the publisher, Academic Press (q 1993).
+
+experiments in combination with the comparison of the spectra of the free species and of the spectra with different protein/DNA ratios or with different salt concentrations. The structure of HP56 contains three helices, the two ®rst helices (residues 6±13 and residues 17±24) are part of a HTH motif with the second helix of this motif placed in the major groove of the DNA but in the reverse orientation to that found for the corresponding helix in the lambdoid repressor proteins and CAP (Fig. 10). Only two direct hydrogen bonds were observed between N h 2 of Arg22 and O 6 of Gua5 and between O e 1 of Gln18 and N 4 of Cyt7 while numerous hydrophobic contacts were found. The methyl groups of Thy3 and Thy8 are involved in
+
+hydrophobic interactions with, respectively, the ring of His29 and side-chain atoms of Tyr17 and Ser21. Hydrophobic interactions are also observed between Tyr17 and Thy6, Tyr17 and Cyt9, Gln26 and Cyt7. In fact, hydrogen bonds, hydrophobic interactions and water interactions are interconnected to form networks of interactions. For example, C g of Thr19 is hydrogen bonded with the phosphate group of Thy4, which is involved in water-mediated interactions with Ser16-N, His29-O and Thr34-C g . Thr34O g has water-bridged contacts with Ser31-N and Thr34-N and in 35% of the con®gurations calculated from molecular dynamics, His29-O and Thr34-C g are bridged by a water molecule. Large variations in the
+
+N. Jamin, F. Toma / Progress in Nuclear Magnetic Resonance Spectroscopy 38 (2001) 83±114
+
+101
+
+Fig. 11. Two perpendicular views of the overlay of the 11 ®nal structures of the HP62±DNA complex. Adapted from Fig. 1 of Ref. [65]. Reprinted with the permission of R. Kaptein and of Elsevier Science (q 1999).
+
+conformation and dynamics of the loop between helix II and helix III of the headpiece occur upon binding to the operator [53]. This ¯exible loop ®ts to the DNA upon binding thus allowing Asn25 and His29 to contact the DNA and become more rigid. Moreover, most of the side-chains which contact the DNA become more rigid upon binding. The ¯exibility of the free headpiece is essential for a good ®t to the DNA. Thermodynamic studies [54] have found a large negative heat capacity change, larger than that could be expected from a rigid body protein±DNA association and which is associated with a local folding transition upon binding. The conformational changes of the loop between helix II and helix III as well as the formation of a fourth helix (residues 50±58) could explain this change in heat capacity upon complexation.
+
+Recent X-ray and NMR experiments have shown the importance of the hinge region, which connects the DNA binding domain to the inducer-binding core domain, upon DNA binding. The NMR structure of the complex composed of two headpieces (residues 1±62, HP62) containing the hinge helix and a 22 base pair DNA fragment containing the full operator sequence has been determined (Fig. 11) [55]. The two headpieces bind symmetrically to the operator with their HTH motifs inserted into the major groove. The hinge helices are antiparallel and form the interface of the two headpieces in the center of the operator. The hinge helices are essential for the high af®nity binding of the repressor to the operator. When an inducer molecule binds to the core region, the two hinge helices separate and unfold causing a decrease
+
+102
+
+N. Jamin, F. Toma / Progress in Nuclear Magnetic Resonance Spectroscopy 38 (2001) 83±114
+
+of the repressor af®nity to the operator. Residues of the hinge helices interact with the minor groove opening it and inducing a global bend of the DNA by about 458. These distortions of the DNA structure lead to some changes in the interactions in the major groove. The largest difference is found in the loop following the recognition helix: only residues 29±31 interact with the DNA, the interactions of Gln26 with the DNA observed in the HP56±DNA complex are absent. 3.1.3. Trp repressor In the presence of l-tryptophan, the E. coli trp repressor binds to at least ®ve operators in the E. coli genome. Thereby it represses initiation of transcription of genes involved in tryptophan uptake and biosynthesis in response to intracellular level of ltryptophan. The E. coli trp repressor is a homodimer of 107 amino acid residues. Its free form (aporepressor) binds weakly and non-speci®cally to DNA while its active form (holorepressor) contains two molecules of the corepressor l-tryptophan and binds to an 18 base-pair consensus operator sequence with a 1:1 stoichiometry. The crystal and solution structure of the repressor have been determined and have shown that each monomer comprises six a helices. Helices A, B, C, F intertwin with the corresponding helices of the second monomer and therefore form the hydrophobic central core while helices D and E form a HTH DNA binding motif. The solution structure of a ternary complex between l-trp, trp repressor and a consensus 20 base pair operator DNA has been determined [29]. The assignments of l-trp, repressor and operator resonances bene®t from the use of a large number of labeled samples. The assignment of l-trp resonances was derived from the analysis of 2D NOESY spectra of complex containing fully deuterated trp repressor and of isotope ®ltered NOESY spectra of the uniformly 13C-labeled repressor complex. The use of a sample containing 13C/ 15N-labeled corepressor removed the ambiguities in the assignment of corepressor a and b -resonances. The assignments of the proton resonances of the DNA result from the analysis of two samples, one with fully deuterated repressor and the other with fully deuterated repressor except for Lys, Ile and Thr residues. These assignments were
+
+con®rmed by the use of a 13C ®ltered NOESY of a uniformly 13C labeled Trp repressor complex. 96% of the proton resonances of the operator were assigned, except H4 H , H5 H and H5 HH resonances. The assignment of the resonances of the repressor is based on the analysis of NOESY spectra of deuterated analogs and 15N HMQC NOESY. The side-chain assignments were con®rmed by 3D HCCH-TOCSY and 3D NOESY-HMQC of a uniformly 13C labeled repressor complex. The HNCO experiment was useful for the determination of the secondary structure of the repressor. 93% of the backbone resonances and 85±90% of the side-chain resonances (except residues 2±17) were assigned. The nonassigned resonances are mostly from Asx, Glx and Ser residues. Most of the protein±DNA contacts are made by the turn between helices D and E and the N-terminus of helix E while the backbone of helix D is outside the DNA major groove (Fig. 12). The overall topology of the solution structure as well as the speci®c amino acid side-chain DNA interactions are in agreement with the crystal structure. But in contrast to the crystal structure the NMR data identify eight potential direct hydrogen bonds involving residues Arg69, Lys72, Ile79, Ala80, Thr83 and Arg84. In the crystal structure, most of the protein±DNA contacts are water mediated. No long-lived (lifetimes greater than 50 ms) water molecules have been detected in the NMR experiments. If water molecules are present at the interface between the protein and the DNA, their lifetime must be less than about 20 ms. The other difference observed with the crystal structure concerns the bend of the DNA. In solution, the DNA bend is 5±108 larger than in the crystal structure. Discrepancies between NMR and crystallographic results can arise from the differences in the hydration of the interface between the protein and the DNA in solution and in the crystal as suggested by recent data on the effects of osmolytes on the interaction between the repressor and a DNA fragment [56]. There are three dynamic processes in the trp repressor±DNA complex: protein±DNA association/dissociation (half-life time of the complex about 180 s at 378C), ¯uctuation or `breathing' of the helices D and E (lifetime of about 1 s at 358C) and exchange of the corepressor in and out of the complex (lifetime of about 300 ms at 458C) [57]. The relatively fast exchange of the corepressor in and out its binding
+
+N. Jamin, F. Toma / Progress in Nuclear Magnetic Resonance Spectroscopy 38 (2001) 83±114
+
+103
+
+Fig. 12. Mean structure of the solution trp repressor±DNA complex. The cofactor l-tryptophan molecules are marked in red. Adapted from Fig. 7 of Ref. [29]. Reprinted with the permission of O. Jardetzky and of the publisher, Academic Press (q 1994).
+
+pocket is probably the mechanism by which the repressor responds to the variation of l-trp concentration in the cell. Since the corepressor is buried between the protein and the DNA and contacts both macromolecules, there must be a signi®cant motion of the protein and/or DNA in the ligand-binding region to allow this exchange. A proposed mechanism for this exchange is the breathing of helix E or of the HTH motif as helix E has been found to be ¯exible in the complex (fast NH exchange rates) and as this helix forms one face of the corepressor binding pocket. 3.1.4. Ets The Ets family of transcription factors regulates gene expression during growth and development including mammalian haematopoiesis and Drosophila eye development. They share a conserved domain of about 85 amino acids which binds to the DNA sequence 5 H -C/AGGAA/T-3 H . The 3D structures of
+
+the DNA binding domain of several Ets transcription factors determined by NMR or X-ray crystallography reveal a common overall fold similar to that of the E. coli CAP i.e. a N-terminal a -helix, a four-stranded b sheet and a HTH motif. Werner and coworkers [58] reported the 3D structure in solution of a complex formed between the DNA binding domain of human Ets-1 and a 17-mer DNA containing the GGAA motif. In contrast to the X-ray structure of the DNA complex of the Ets DNA binding domain of mouse Pu-1, Werner and coworkers found the intercalation of a Trp residue (replaced by Tyr in Pu-1) at a CpC step 5 H to the GGAA motif and an opposite orientation of the protein on the DNA. The misassignment of a resonance at low ®eld (12.33 ppm) to a DNA imino proton instead of Tyr 86-OH led to these contradictory results [59]. After correction, the NMR structure of the Ets1± DNA binding domain complex was found to be similar to that of Pu-1±DNA binding domain complex. The protein contacts the DNA by a loop-helix-loop
+
+104
+
+N. Jamin, F. Toma / Progress in Nuclear Magnetic Resonance Spectroscopy 38 (2001) 83±114
+
+Fig. 13. Solution structure of the ETS1-DBD/DNA complex. The protein is shown as a tube in green; the DNA is shown in yellow with the central GGAA motif in magenta for guanine residues and in blue for adenine residues. Adapted from Fig. 4 of Ref. [59]. Reprinted with the permission of A. Gronenborn and of Kluwer academic publishers (q 1997).
+
+motif, the second helix (H3) of the HTH motif contacts the major groove at the GGAA sequence while two loops contact the adjacent minor grooves (Fig. 13). Residues Arg81, Gly82, Arg84 and Tyr85 of the second helix of the HTH motif contact the bases of the GGAA sequence. The loop between strands 3 and 4 of the b -sheet interacts with the sugar-phosphate backbone of the adjacent 5 H minor groove. Gln26, Leu27, Trp28 at the N-terminus helix, Trp65 of the ®rst helix of the HTH motif, several Lys residues in the turn of the HTH motif and Tyr86 of the second helix of the HTH motif interact with the sugar-phosphate backbone of the adjacent 3 H minor groove. 3.1.5. Myb Transcription factors of the myb family regulate the proliferation and differentiation of hematopoietic cells
+
+at different levels and in different lineages. These proteins share a common DNA binding domain and recognize the same DNA sequence: PyAAC T/GG. The minimal speci®c DNA binding domain is composed of two repeats of 52 residues (named R2 and R3). NMR structural studies of the R2R3 domain of three different Myb proteins and of their interaction with DNA have been published including mouse c-Myb, human/chicken c-Myb and chicken B-Myb [60±63]. These studies show that while the structure of the R3 repeat is conserved between the three proteins and is composed of three helices comprising a HTH motif, the structure of the R2 repeat varies depending of the protein. Especially, the C-terminal region of R2 which forms the second helix of a HTH motif in mouse cMyb, exists in multiple conformations in human/ chicken c-Myb and in B-Myb and, the relative
+
+N. Jamin, F. Toma / Progress in Nuclear Magnetic Resonance Spectroscopy 38 (2001) 83±114
+
+105
+
+orientation of the ®rst two helices varies between the three proteins (from 20 to 408) [62,63]. Moreover, two forms of the protein±DNA complex are found for human/chicken c-Myb and B-Myb [12,63] in contrast to mouse c-Myb. It has been suggested that the conformational instability of the R2 repeat may be necessary to bind to a number of different speci®c DNA sequence. 3.2. Zinc ®ngers The zinc ®nger motif was ®rst identi®ed in the transcription factor TFIIIA. It consists of an a -helix and a b -sheet stabilized in a compact structure by a tetrahedrally coordinated zinc ion and by a hydrophobic pocket in the interior of the structure involving amino acids that are well conserved. One zinc ®nger does not bind DNA with high af®nity, in order to do so, zinc ®ngers are generally organized in tandem arrays (for example the ®rst three zinc ®ngers of TFIIIA [64]) or associated with another DNA binding motif (for example the proximal accessory region of ADR1 [65], the basic region of GAGA [66] and the C-terminal tail of GATA-1 [67]). The different classes of DNA binding protein containing zinc ®ngers differ in the number of zinc ®ngers, the distribution of Cys and His residues involved in chelation of zinc, the number of amino acid residues in the loop between the chelation site and the monomeric/dimeric structure of the complex. The simple model of DNA recognition by zinc ®nger proteins which proposes that each zinc ®nger domain behaves like an independent module with a limited number of amino acid sidechain making hydrogen bonds with DNA bases and thus contacting three to four base pairs was challenged by the recent data on zinc ®nger protein±DNA complexes. 3.2.1. TFIIIA The transcription factor TFIIIA regulates the transcription of the 5 S ribosomal RNA gene by RNA polymerase III by binding speci®cally to a 50 bp region within the coding sequence for 5 S RNA (the internal control region). It also binds to the 5 S RNA transcript and is involved in RNA storage and transport. It contains a tandem array of nine Cys2/His2 zinc ®nger motifs. The ®rst three zinc ®ngers constitute the minimal DNA binding domain and are not involved in
+
+RNA binding while ®ngers 4±7 are essential for RNA binding but are not required for DNA binding. Fingers 8 and 9 are not essential for binding of either DNA or RNA but are required for transcriptional activation. The solution structure of a complex composed of the ®rst three zinc ®ngers with a 15 base pairs DNA corresponding to nucleotides 79±93 of the X. laevis 5 S RNA gene has been determined [64]. The three zinc ®ngers bind in the major groove contacting 13 base pairs and with no contact with the minor groove (Fig. 14). Finger 1 binds at the 3 H end of the DNA contacting ®ve base pairs, in particular Trp 28 at helix position 2 makes extensive hydrophobic contacts with four bases on both strands of the DNA and thus plays a key role in the orientation of ®nger 1 in the major groove. Finger 2 is located over the central GGG triplet. Finger 3, in contrast to other zinc ®ngers, makes contact with the bases over its entire helix from Thr 86 at position 21 to Arg 96 at position 110. This study identi®ed two new residues belonging to the helix of the zinc ®nger motif and making speci®c contacts with the bases: a Trp at position 12 and an Arg at position 110. The linkers between the zinc ®nger domain are shown to play an important role in the stabilization of the protein± DNA complex. Intensive mutations of amino acid residues of the linkers show that these residues are as important for the interaction with the DNA as residues contacting DNA bases. The linkers lose their ¯exibility upon DNA binding [41] and thus adopt well-de®ned conformations and pack against the adjacent zinc ®ngers in the complex. As a consequence substantial protein±protein interfaces are formed between adjacent zinc ®ngers and contribute to the orientation of the zinc ®nger in the major groove of the DNA. Differences in the protein±protein interfaces are re¯ected by the different orientation of ®nger 1 in the major groove relative to ®ngers 2 and 3 (Fig. 15). This study demonstrates that high af®nity DNA binding is not only determined by speci®c sidechain-base contacts but also depends indirectly on the linker structure and on the interaction between the zinc ®ngers. As has been observed in the case of other protein±DNA complexes, the side-chain of several residues involved in contact with the bases (Lys26 and Lys29 in ®nger 1, His58 and His59 in ®nger 2 and Lys92 in ®nger 3) appear to ¯uctuate between multiple conformations. Wuttke
+
+106
+
+N. Jamin, F. Toma / Progress in Nuclear Magnetic Resonance Spectroscopy 38 (2001) 83±114
+
+Fig. 14. Stereo view of the mean structure of the zf1-3/DNA complex with the side-chains of residues contacting DNA displayed. Adapted from Fig. 6 of Ref. [64]. Reprinted with the permission of P.E. Wright and of the publisher, Academic Press (q 1997).
+
+and coworkers [64] proposed that this ¯exibility could be advantageous for the entropic cost as conformational restriction of a Lys side-chain upon binding has an estimated entropic cost of about 3 kcal mol 21.
+
+3.2.2. ADR1 The yeast transcription factor ADR1 from Saccharomyces cerevisiae regulates the expression of genes governing the carbon source metabolism. The minimal DNA binding domain of ADR1 contains two
+
+Fig. 15. Relative orientation of Fingers 1, 2 and 3 of zf1-3 in the DNA major groove (Fig. 14 from Ref. [64]). Reprinted with the permission of P.E. Wright and of the publisher, Academic Press (q 1997).
+
+N. Jamin, F. Toma / Progress in Nuclear Magnetic Resonance Spectroscopy 38 (2001) 83±114
+
+107
+
+Cys2/His2 zinc ®ngers and an additional 20 amino acid residues sequence (named PAR), N-terminal to the ®rst zinc ®nger. It binds to a 28 base pairs DNA (UAS1) containing two symmetric and opposed nucleotide binding sites, ®rst identi®ed in the glucose-repressible dehydrogenase gene ADH2. The global fold of the ADR1 DNA binding domain bound to the 28 base pairs UAS1 has been determined using the methodology based on the observation of NH±NH NOEs for perdeuterated proteins [65]. The NOEs observed for the zinc ®nger motifs indicate that no large structural change occurs in the zinc ®nger upon DNA binding. In contrast, the PAR unstructured region in the free protein becomes ordered and consists of three antiparallel strands. The use of a perdeuterated protein also provides identi®cation of intermolecular contacts between the protein and the DNA by the observation of NOEs between 15N attached protons from the protein and aliphatic DNA protons in 15N edited NOESY experiments. Numerous NOEs are found between protons of PAR and DNA protons from base pairs preceding the GAGG sequence contacted by the zinc ®ngers. A model of the ADR1 DNA binding domain bound to the UAS1 is proposed based on the global fold, on observed intraand intermolecular NOE contacts, on residues and bases contacts inferred from mutagenesis experiments and on the homology with the Zif 268±DNA complex (Fig. 16). In this model, the 21, 13 and 16 helix positions of ®nger 1 and 21, 12 helix positions of ®nger 2 recognize the core sequence G(A/G)GG in each ADR1 binding site and residues Arg95, Gly94, Lys100 and Leu101 of PAR contact the DNA. It is proposed that residues of PAR make essentially nonspeci®c and phosphate backbone DNA contacts and thus the role of PAR is to increase DNA binding af®nity by adding non-speci®c DNA contacts to the limited number of contacts made by ®ngers 1 and 2. 3.2.3. GATA-1 GATA-1 was the ®rst discovered member of the GATA family of transcription factors. It regulates the transcription of genes involved in red-cell development and has been demonstrated to be essential for normal erythroid development. GATA-1 displays at least four functions: activation of the erythrocytic and megakaryocytic speci®c genes, regulation of the epsilon±gamma globin switch and control of the cell
+
+cycle. It contains two zinc ®ngers with the following topology: Cys-X2-Cys-X17-Cys-X2-Cys. They share 50% sequence identity and, bind to the consensus sequence (T/A)GATA(A/G). The C-terminal zinc ®nger is necessary and suf®cient for high-af®nity sequence speci®c DNA binding. The N-terminal zinc ®nger increases the stability and speci®city of DNA binding and can bind DNA at double (T/ A)GATA(A/G) motifs with the C-terminal zinc ®nger. This N-terminal zinc ®nger is implicated in speci®c protein±protein interactions with other zinc ®nger proteins. The solution structure of a complex formed between a 66 residues fragment of GATA-1 containing the C-terminal zinc ®nger and a 36 residues fragment C-terminal to the last Cys and a 16 base pairs DNA containing the consensus sequence AGATAA has been determined using double and triple NMR experiments (Fig. 17) [67]. The protein makes contact with eight DNA bases essentially in the major groove (only one is a minor groove base). The helix and the loop connecting the b -strands 2 and 3 are involved in the major groove contacts while the C-terminal tail contacts the minor groove. Most of the interactions are hydrophobic (predominance of Thy in the DNA), there are only three hydrogen bonds: Asn29 contacts Ade24 and Ade8 in the major groove and Lys57 contacts Thy9 in the minor groove. 3.2.4. GAGA The minimal DNA binding domain of GAGA comprises one Cys2/His2 zinc ®nger motif preceded by two highly basic regions BR1 (7 residues) and BR2 (5 residues) and binds to the sequence GAGAGAG. The solution structure of the complex between the minimal DNA binding domain and a 11 base pairs DNA containing the nucleotide sequence G4AGAGAG8 [66] reveals that the additional contacts required for high-af®nity DNA binding are made by the N-terminal fragment containing the two basic regions BR1 and BR2 (Fig. 18). Arg27 of BR2 contacts G8 in the major groove and Arg14 and Lys16 of BR1 contact A7 in the minor groove. Arg51, Asn48 and Arg47 at positions 16, 13 and 12 of the zinc ®nger helix contacts Gua4, Ade5 and Gua6, respectively, in the major groove. All the DNA bases of the G4AGAG8 sequence are contacted by the protein.
+
+108
+
+N. Jamin, F. Toma / Progress in Nuclear Magnetic Resonance Spectroscopy 38 (2001) 83±114
+
+Fig. 16. A model of ADR1-DBD bound to UAS1. The position of the zinc ®ngers on the DNA binding site is modeled from the Zif268±DNA complex and from change-of-speci®city experiments. The structure of the N-terminal region is the average structure taken from the global fold of ADR1-DBD and positioned with relation to the binding site on the basis of NOE contacts observed in the 3D 15N-edited NOESY spectra. (Fig. 7 of Ref. [68]). Reprinted with the permission of R. Klevit and of Nature Publishing Group, New York (q 1999).
+
+3.3. Minor groove-binding architectural proteins These proteins play crucial roles in the assembly of large protein±DNA complexes. They bend DNA by interacting exclusively with the minor groove and thereby, in multiprotein±DNA complexes, they bring distantly bound proteins in close proximity and thus facilitate the interaction between them. The solution structures of three minor groove-binding architectural proteins bound to their DNA recognition
+
+sites have been determined and include: the male sex determining factor SRY, the lymphoid enhancer binding factor 1 (LEF-1) and the high mobility group I(Y) [68±71]. 3.3.1. SRY In mammals, the male sex determination switch is controlled by a single gene on the Y chromosome, SRY (for sex-determining region Y). SRY encodes a protein with an HMG-like DNA-binding domain,
+
+Fig. 17. Two views of the cGATA-1-DBD/DNA complex. The color coding for the DNA bases is red for A, lilac for T, dark blue for G and light blue for C. Adapted from Fig. 5 of Ref. [67]. Reprinted with the permission of A. Gronenborn and of Science (q 1993).
+
+N. Jamin, F. Toma / Progress in Nuclear Magnetic Resonance Spectroscopy 38 (2001) 83±114
+
+109
+
+Fig. 18. Three views of GAGA-DBD/DNA complex. GC base pairs are colored in red and AT base pairs in blue. The side-chains contacting the DNA are in yellow and the histidine and cysteine side-chains coordinating the zinc (blue sphere) are in magenta. Adapted from Fig. 6 of Ref. [66]. Reprinted with the permission of A. Gronenborn and of Nature Publishing Group, New York (q 1997).
+
+which probably acts as a local organizer of chromatin structure. It is believed to regulate downstream genes È in the sex determination cascade such as the Mullerian inhibiting substance (MIS) gene. Clinical mutations in the HMG box of SRY are associated with failure of testicular morphogenesis leading to male to female
+
+sex reversal. The solution structure of the complex between the DNA binding domain of SRY and a DNA octamer containing its binding site in the MIS promoter (d(GCACAAAC)2) shows that the DNA is bent by about 70±808 in the direction of the major groove (Fig. 19), the DNA helix is unwound and the
+
+110
+
+N. Jamin, F. Toma / Progress in Nuclear Magnetic Resonance Spectroscopy 38 (2001) 83±114
+
+Fig. 19. Structure of the human SRY±DNA complex. The DNA bases are colored in red for A, lilac for T, dark blue G, light blue C. Adapted from Fig. 3 of Ref. [70]. Reprinted with the permission of A. Gronenborn. Copyright (1995) held by Cell Press.
+
+short arm by helices 1 and 2 with helices 2 and 3 approximately orthogonal to each other. The convex surface of the DNA is perfectly adjusted to the concave binding surface of the protein made by helices 1 and 3 bounded at the bottom by a ridge containing helix 2 and at the top by a ridge containing the N- and C-terminal strands. Phe12 and the partial intercalated Ile13 interact with base pairs 5 and 6 to induce bending in the center of the octamer while Met9 and Trp43 interact with the riboses of base pairs 5 and 6 to pry open the minor groove. The bend induced at base pairs 2 and 3 results from the packing of Tyr74 with bases of Ade3 and Thy14. Seven residues (Asn10, Phe12, Ile13, Ser33, Ile35, Ser36 and Tyr74) are involved in speci®c interactions with the DNA bases. In addition numerous electrostatic and hydrophobic interactions involving the phosphate backbone and the sugars as well as 11 amino acid residues contribute to the stabilization of the bend conformation of the DNA. 3.3.2. LEF-1 Lymphoid enhancer-binding factor 1 (LEF-1) is a pre-B and T lymphocyte-speci®c nuclear protein that participates in the regulation of the T-cell antigen receptor (TCR) alpha enhancer by binding to the nucleotide sequence 5 H -CCTTTGAA-3 H . The NMR solution structure of the HMG domain of LEF-1
+
+Ê minor groove is widened (by about 3.2 A compared with B-DNA) [70]. The protein has a twisted letter L or boomerang shape with irregular N- and C-terminal strands and three helices. The long arm of the L is formed by helix 3 and the N-terminal strand and the
+
+Fig. 20. Stereo view of the LEF-1 HNG domain complexed with DNA. Adapted from Fig. 2 of Ref. [71]. Reprinted with the permission of P.E. Wright and of Nature (q 1995).
+
+N. Jamin, F. Toma / Progress in Nuclear Magnetic Resonance Spectroscopy 38 (2001) 83±114
+
+111
+
+bound to a 15 base pair DNA containing the optimal binding site for the TCR alpha gene enhancer shows similar features with the structure of the SRY±DNA complex (Fig. 20) [71]. The protein exhibits a similar L-shape and the DNA binds to the concave surface of the protein and is bent towards the major groove and away from the protein. The DNA bend is larger by about 40±508 than for the SRY±DNA complex. The bend in the center of the DNA is essentially induced by the partial insertion of Met10 in the stack between Ade23 and Ade24, and by the interaction of Met13 with Ade24 as well as by the packing of Phe9 against the ribose of Thy8. Tyr75 seems to play a key role in the DNA bending at base pairs 10 and 11 as it is inserted into the narrowed region of the minor groove and interacts with the ribose rings of Gua12 and Thy21 as well as with the bases Gua12, Thy20 and Thy21. In addition to these minor groove interactions and in contrast to the SRY±DNA complex, residues from the highly basic C-terminal region bind into the major groove by making non-speci®c interactions with the DNA phosphate backbone. 3.3.3. HMG-I(Y) HMG-I(Y) is a member of a distinct family of ªhigh mobility groupº (HMG) proteins that are non-histone chromatin-associated proteins initially characterized by high electrophoretic mobility in polyacrylamide gels (hence the acronym HMG). HMG-I(Y) plays an essential role in the assembly and function of the IFN beta gene enhancement in particular by recruiting NFkappaB, ATF-2/c-Jun and IRFs. HMG-I(Y) preferentially binds to stretches of AT-rich sequence. In contrast to the other known structures of minor groove architectural proteins, HMG-I(Y) preserves the Bform of the DNA and has been shown to participate in the reversal of intrinsic DNA bends in the IFN beta gene enhancer. It comprises three DNA binding domains containing the AT-hook motif. Only two of these domains are required for binding. Therefore, the interaction between a fragment of HMG-I(Y) comprising the second and third DNA binding domains (HMG-I(2/3)) and a 12 base pairs oligonucleotide containing the PRDII site of the interferon-b promoter has been studied [69]. As two molecules of the PRDII dodecamer binds HMG-I(2/3), the solution structure of the 2:1 (DNA:protein) complex has been determined. The conformation in the dodecamer is
+
+essentially B-type with a small widening (about 1± Ê 1.5 A) of the minor groove compared to B-DNA. The extended core sequence Arg-Gly-Arg of each DNA binding domain makes speci®c contacts with DNA bases into the minor groove of the DNA while the lysine and arginine residues ¯anking this core make electrostatic and hydrophobic interactions with the DNA phosphate backbone. In the case of the second DNA binding domain, the contact surface with the DNA is larger due to additional interactions with both edges of the minor groove made by six amino acids C-terminal to the core sequence. This difference can explain the higher af®nity for the dodecamer (up to two-fold greater) of the second DNA binding domain. 3.4. Recognition using b -sheet Among the structures of protein±DNA complexes determined so far, few of them show proteins which bind DNA via a b -sheet. As a b -sheet is not ¯at but has a curvature, two modes of DNA binding can be found for a two-stranded b -sheet: either the convex or the concave side of the b -sheet faces the DNA. The convex mode is used by MetJ and Arc repressors. These proteins are dimers and a b -strand from each subunit is intertwined to form a two-stranded antiparallel b -sheet, which ®ts the concave face of the DNA major groove. Recently, the solution structure of two complexes with the protein (Tn916 integrase and GCC-box binding domain) recognizing the major groove of DNA using the convex side of a b -sheet, have been published [72,73]. 3.4.1. Tn916 integrase The integrase protein from the conjugative transposon Tn916 is a member of the integrase family of sitespeci®c recombinases. Its role is essential during transposition as it performs the DNA strand cleavage and joining reactions. The solution structure of the minimal N-terminal DNA binding domain complexed with a 13-mer DNA containing the DNA binding site within the transposon arm was solved (Fig. 21) [72]. The structure of the DNA binding domain consists of a three-stranded antiparallel b -sheet connected by a large loop (18 amino acid residues) to a C-terminal a helix. A large N-terminal loop precedes the b -sheet. The second and third strands of the b -sheet as well as
+
+112
+
+N. Jamin, F. Toma / Progress in Nuclear Magnetic Resonance Spectroscopy 38 (2001) 83±114
+
+Fig. 21. Stereo view of the solution structure of the complex between the N-terminal domain of integrase and DNA showing all ordered amino acids side-chains at the protein±DNA interface (Thr15, Ser18, Lys21, Leu26, Lys28, Ile30, Pro36, Phe38, Tyr40, Trp42, Lys54). The protein backbone is colored in red and the side-chains in yellow. Adapted from Fig. 2 of Ref. [72]. Reprinted with the permission of R.T. Clubb and of Nature Publishing Group, New York (q 1999).
+
+the turn between the ®rst two strands form a concave surface that ®ts into the major groove. Five amino acid residues (Leu26, Lys28, Pro36, Phe38 and Tyr40) belonging to the second and third strands interact speci®cally with four consecutive DNA base pairs. Non-speci®c interactions between residues of the ®rst strand, of the N-terminal loop, of the loop between the third strand and the a -helix and the DNA phosphate backbone anchor the two strands of the b -sheet to the DNA. The DNA is bent towards the protein by 358 thereby facilitating non-speci®c contacts between base pairs at the 3 H end of the duplex and residues of the loop between the third strand and the b -helix. 3.4.2. GCC-box binding domain Ethylene-responsive element-binding proteins (EREBPs) have novel DNA-binding domains (ERF domains), which are widely conserved in plants, and interact speci®cally with sequences containing AGCCGCC motifs (GCC box). The solution structure of the GCC-box binding domain of a protein from Arabidopsis thaliana free and in complex with a 13mer duplex containing the GCC-box has been determined [73]. The structure of the protein consists of a three-stranded antiparallel b -sheet packed along an a -helix, the axis of the helix being approximately parallel to the second strand of the b -sheet. The protein binds to the major groove of the DNA via its
+
+b -sheet. A close ®t between the protein and the DNA is obtained by the curvature of the b -sheet, which follows the DNA axis and by the DNA bent towards the major groove (about 208). Nine consecutive DNA base pairs are contacted by seven amino acid residues. Six amino acid residues of the three strands of the b sheet and Arg154 from the turn between b -strands 1 and 2 are involved in speci®c interactions: four arginine residues from the three strands make hydrogen bonds with ®ve guanine bases and, two tryptophans are involved in hydrophobic interaction with DNA bases. All these Arg and Trp residues (except Arg152) as well as additional residues from the b sheet contact the phosphate backbone and the sugars. Only one residue from the a -helix contacts non-speci®cally the phosphate backbone.
+4. Perspectives As observed in the past, future structural studies of protein±DNA interactions will continue to bene®t from the development in labeling methods and NMR technology [74 and references therein]. The availability of 15N, 13C labeled DNA has already proven its usefulness in obtaining detailed conformational information on DNA structure in a complex of the BS2 operator with the Antp homeodomain [75]. Future applications of labeled DNA
+
+N. Jamin, F. Toma / Progress in Nuclear Magnetic Resonance Spectroscopy 38 (2001) 83±114
+
+113
+
+include the direct observation of NH´´ ´N hydrogen bonds between nucleic acids and amino acids and the study of DNA duplex dynamics upon complexation. Recent work has been performed on the stable isotope labeling of peptide segments in a protein sample by means of either protein splicing using a protein splicing element, intein or in vitro chemical ligation of expressed protein domains. The development of these labeling techniques combined with the recently TROSY and CRINEPT techniques will assist in studies of larger complexes including investigation of the in¯uence of the other domains within the protein (like the phosphorylation site and the activation domain) or other domains of a complex partner upon binding to the DNA. Thereby the role of protein±protein interactions could be tackled.
+
+References
+È [1] M. Billeter, Y.Q. Qian, G. Otting, M. Muller, W. Gehring, K. È Wuthrich, J. Mol. Biol. 234 (1993) 1084. [2] V.P. Chuprina, J.A.C. Rullmann, R.M.J.N. Lamerichs, J.H. van Boom, R. Boelens, R. Kaptein, J. Mol. Biol. 234 (1993) 446. [3] G. Wider, Prog. NMR Spectrosc. 32 (1998) 193. [4] C.H. Arrowsmith, Y.S. Wu, Prog. NMR Spectrosc. 32 (1998) 277. [5] M. Sattler, J. Schleucher, C. Griesinger, Prog. NMR Spectrosc. 34 (1999) 93. [6] A. Ono, S. Tate, Y. Ishido, M. Kainosho, J. Biomol. NMR 4 (1994) 581. [7] M.J. Michnicka, J.W. Harper, G.C. King, Biochemistry 32 (1993) 395. [8] C. Fernandez, T. Szyperski, A. Ono, H. Iwai, S. Tate, M. È Kainosho, K. Wuthrich, J. Biomol. NMR 12 (1998) 25. [9] D.P. Zimmer, D.M. Crothers, Proc. Natl. Acad. Sci. USA 92 (1995) 3091. [10] J.E. Masse, P. Bortmann, T. Dieckmann, J. Feigon, Nucleic Acids Res. 26 (1998) 2618. [11] J.M. Louis, R.G. Martin, G.M. Clore, A.M. Gronenborn, J. Biol. Chem. 273 (1998) 2374. [12] N. Jamin, V. Le Tilly, L. Zargarian, A. Bostad, I. BesanconË Yospe, P.-N. Lirsac, O.S. Gabrielsen, F. Toma, Int. J. Quantum Chem. 59 (1996) 333. [13] M. Schmiedeskamp, P. Rajagopal, R.E. Klevit, Prot. Sci. 6 (1997) 1835. [14] M.P. Foster, D.S. Wuttke, K.R. Clemens, W. Jahnke, I. Radhakrishnan, L. Tennant, M. Reymond, J. Chung, P.E. Wright, J. Biomol. NMR 12 (1998) 51. [15] H. Aihara, Y. Ito, H. Kurumizaka, S. Yokoyama, T. Shibata, J. Mol. Biol. 290 (1999) 495.
+
+[16] G.M. Dhavan, J. Lapham, S. Yang, D.M. Crothers, J. Mol. Biol. 288 (1999) 659. [17] X. Luo, D.G. Sanford, P.E. Bullock, W.W. Bachovchin, Nat. Struct. Biol. 3 (12) (1996) 1034. [18] T. Mau, J.D. Baleja, G. Wagner, Prot. Sci. 1 (1992) 1493. [19] M.R. Gryk, O. Jardetzky, J. Mol. Biol. 255 (1996) 204. [20] G. Otting, K. Wuthrich, Q. Rev. Biophys. 23 (1) (1990) 39. [21] G.M. Clore, A.M. Gronenborn, Prot. Sci. 3 (1990) 372. [22] G.W. Vuister, S-J. Kim, C. Wu, A. Bax, J. Am. Chem. Soc. 116 (1994) 9206. [23] C. Zwahlen, P. Legault, S.J.F. Vincent, J. Greenblatt, R. Konrat, L.E. Kay, J. Am. Chem. Soc. 119 (1997) 6711. [24] W. Lee, M.J. Revington, C. Arrowsmith, L.E. Kay, FEBS Lett. 350 (1994) 87. [25] A. Bax, S. Grzesiek, A.M. Gronenborn, G.M. Clore, J. Magn. Res., Ser A 106 (1994) 269. [26] M. Ikura, G.M. Clore, A.M. Gronenborn, G. Zhu, C.B. Klee, A. Bax, Science 256 (1992) 632. [27] J.E. Masse, F.H.T. Allain, Y.M. Yen, R.C. Johnson, J. Feigon, J. Am. Chem. Soc. 121 (1999) 3547. [28] C. Arrowsmith, Y.S. Wu, Prog. NMR Spectrosc. 32 (1998) 277. [29] H. Zhang, D. Zhao, M. Revington, W. Lee, X. Jia, C. Arrowsmith, O. Jardetzky, J. Mol. Biol. 238 (1994) 592. [30] T. Yamazaki, W. Lee, C.H. Arrowsmith, D.R. Muhandiram, L.E. Kay, J. Am. Chem. Soc. 116 (1994) 11 655. [31] X. Shan, K.H. Gardner, D.R. Muhandiram, N.S. Rao, C.H. Arrowsmith, L.E. Kay, J. Am. Chem. Soc. 118 (1996) 6570. [32] X. Shan, K.H. Gardner, D.R. Muhandiram, L.E. Kay, C. Arrowsmith, J. Biomol. NMR 11 (1998) 307. È [33] P. Zhou, L.J. Sun, V. Dotsch, G. Wagner, G.L. Verdine, Cell 92 (1998) 687. È [34] K. Pervushin, R. Riek, G. Wider, K. Wuthrich, Proc. Natl. Acad. Sci. USA 94 (1997) 12 366. È [35] M. Salzmann, K. Pervushin, G. Wider, H. Senn, K. Wuthrich, Proc. Natl. Acad. Sci. USA 95 (1998) 13 585. È [36] M. Salzmann, G. Wider, K. Pervushin, H. Senn, K. Wuthrich, J. Am. Chem. Soc. 121 (1999) 844. [37] N. Tjandra, J.G. Omichinski, A.M. Gronenborn, G.M. Clore, A. Bax, Nat. Struct. Biol. 4 (1997) 732. [38] M. Ottiger, N. Tjandra, A. Bax, J. Am. Chem. Soc. 119 (1997) 9825. [39] M.W.F. Fischer, A. Majumdar, E.R.P. Zuiderweg, Prog. NMR. Spectrosc. 33 (1998) 207. [40] M. Slijper, R. Boelens, A.L. Davis, R.N.H. Konings, G.A. van der Marel, J.H. van Boom, R. Kaptein, Biochemistry 36 (1997) 249. [41] M.P. Foster, D.S. Wuttke, I. Radhakrsihnan, D.A. Case, J.M. Gottesfeld, P.E. Wright, Nat. Struct. Biol. 4 (1997) 605. [42] M. Billeter, Prog. NMR Spectrosc. 27 (1995) 635. [43] G. Otting, Prog. NMR Spectrosc. 31 (1997) 259. È È È [44] M. Billeter, P. Guntert, P. Luginbuhl, K. Wuthrich, Cell 85 (1996) 1057. È [45] Y.Q. Qian, G. Otting, K. Wuthrich, J. Am. Chem. Soc. 115 (1993) 1189. [46] J.G. Omichinski, G.M. Clore, O. Schaad, G. Felsenfeld, C.
+
+114
+
+N. Jamin, F. Toma / Progress in Nuclear Magnetic Resonance Spectroscopy 38 (2001) 83±114 Trainor, E. Appelle, S.J. Stahl, A.M. Gronenborn, Science 261 (1993) 438. G.M. Clore, A. Bax, J.G. Omichinski, A.M. Gronenborn, Structure 2 (1994) 89. J.M. Gruschus, D.H.H. Tsao, L.-H. Wang, M. Nirenberg, J.A. Feretti, J. Mol. Biol. 289 (1999) 529. È G. Otting, Y.Q. Qian, M. Billeter, M. Muller, M. Affolter, È W.J. Gehring, K. Wuthrich, EMBO J. 9 (1990) 3085. È Y.Q. Qian, G. Otting, M. Billeter, M. Muller, W. Gehring, K. È Wuthrich, J. Mol. Biol. 234 (1993) 1070. E. Fraenkel, C.O. Pabo, Nat. Struct. Biol. 5 (1998) 692. J.M. Gruschus, J.A. Ferretti, J. Magn. Reson. 135 (1998) 87. M. Slijper, A.M.J.J. Bonvin, R. Boelens, R. Kaptein, J. Mol. Biol. 259 (1996) 761. R.S. Spolar, M.T. Record, Science 263 (1994) 777. C.A.E.M. Spronk, A.M.J.J. Bonvin, P.K. Radha, G. Melacini, R. Boelens, R. Kaptein, Structure 7 (1999) 1483. M.P. Brown, A.O. Grillo, M. Boyer, C. Royer, Prot. Sci. 8 (1999) 1276. W. Lee, M. Revington, N.A. Farrow, A. Nakamura, N. Utsunomiya-Tate, Y. Miyake, M. Kainosho, C. Arrowmith, J. Biomol. NMR 5 (1995) 367. M.H. Werner, G.M. Clore, C.L. Fisher, R.J. Fisher, L. Trinh, J. Shiloach, A.M. Gronenborn, Cell 83 (1995) 761. M.H. Werner, G.M. Clore, C.L. Fisher, R.J. Fisher, L. Trinh, J. Shiloach, A.M. Gronenborn, J. Biomol. NMR 10 (1997) 317. N. Jamin, O.S. Gabrielsen, N. Gilles, P.-N. Lirsac, F. Toma, Eur. J. Biochem. 216 (1993) 147. K. Ogata, S. Morikawa, H. Nakamura, A. Sekikawa, T. Inoue, H. Kanai, A. Sarai, S. Ishii, Y. Nishimura, Cell 79 (1994) 639. [62] P.B. McIntosh, T.A. Frenkiel, U. Wollborn, J.E. McCornick, K.-H. Klempnauer, J. Feeney, M.D. Carr, Biochemistry 37 (1998) 9619. [63] I. Segalas, S. Desjardins, H. Oulyadi, Y. Prigent, S. Tribouillard, E. Bernardi, A.R. Schoofs, D. Davoust, F. Toma, J. Chim. Phys. 96 (1999) 1580. [64] D.S. Wuttke, M.P. Foster, D.A. Case, J.M. Gottesfeld, P.E. Wright, J. Mol. Biol. 273 (1997) 183. [65] P.M. Bowers, L.E. Schau¯er, R.E. Klevit, Nat. Struct. Biol. 6 (1999) 478. [66] J.G. Omichinski, P.V. Pedone, G. Felsenberg, A.M. Gronenborn, G.M. Clore, Nat. Struct. Biol. 4 (1997) 122. [67] J.G. Omichinski, G.M. Clore, O. Schaad, G. Felsenberg, C. Trainor, E. Appelle, S.J. Stahl, A.M. Gronenborn, Science 261 (1993) 438. [68] C.A. Bewley, A.M. Gronenborn, G.M. Clore, Annu. Rev. Biophys. Biomol. Struct. 27 (1998) 105. [69] J.R. Huth, C.A. Bewley, M.S. Nissen, J.N.S. Evans, R. Reeves, A.M. Gronenborn, G.M. Clore, Nat. Struct. Biol. 4 (1997) 657. [70] M.H. Werner, J.R. Huth, A.M. Gronenborn, G.M. Clore, Cell 81 (1995) 705. [71] J.J. Love, X. Li, D.A. Case, K. Giese, R. Grosschedl, P.E. Wright, Nature 376 (1995) 791. [72] J.M. Wojciak, K.M. Connolly, R.T. Clubb, Nat. Struct. Biol. 6 (1999) 366. [73] M.D. Allen, K. Yamasaki, M. Ohme-Takagi, M. Tateno, M. Suzuki, EMBO J. 17 (1998) 5484. È [74] G. Wider, K. Wuthrich, Curr. Opin. Struct. Biol. 9 (1999) 594. [75] C. Fernandez, T. Szyperski, M. Billeter, A. Ono, H. Iwai, M. È Kainosho, K. Wuthrich, J. Mol. Biol. 292 (1999) 609.
+
+[47] [48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61]
+
+

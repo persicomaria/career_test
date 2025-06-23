@@ -1,0 +1,348 @@
+Published on Web 08/11/2009
+
+High Fidelity Base Pairing at the 3-Terminus
+Amritraj Patra and Clemens Richert*,,
+Institute for Organic Chemistry, UniVersity of Karlsruhe (TH), 76131 Karlsruhe, Germany, and Institute for Organic Chemistry, UniVersity of Stuttgart, 70569 Stuttgart, Germany
+Received April 27, 2009; E-mail: clemens.richert@oc.uni-stuttgart.de
+
+Abstract: Binding target strands with single base selectivity at a terminal position is difficult with natural DNA or RNA hybridization probes. Nature uses a degenerate genetic code that is based on RNA:RNA codon:anticodon duplexes tolerating wobble base pairs at the terminus. The importance of short RNA strands in regulatory processes in the cell make it desirable to develop receptor-like approaches for high fidelity binding, even at the very 3-terminus of a probe. Here, we report the three-dimensional structure of a DNA duplex with a 3-terminal 2-anthraquinoylamido-2-deoxyuridine (Uaq) residue that was solved by NMR and restrained molecular dynamics. The Uaq residue binds the 5-terminus of the target strand through a combination of -stacking, hydrogen bonding, and interactions in the minor groove. The acylated aminonucleoside is the best molecular cap for 3-termini reported to date. The Uaq motif assists binding of DNA strands, but is particularly effective in enhancing the affinity for RNA target strands, with a Tm in the UV melting point of up to +18.2 °C per residue. Increased base pairing selectivity is induced for all sequence motifs tested, even in cases where unmodified duplexes show no preference for the canonical base pair at all. A single mismatched nucleobase facing the 3-terminus gives Tm values as large as -23.9 °C (RNA) or -29.5 °C (DNA). The 5-phosphoramidite of the Uaq cap reported here allows for routine incorporation during automated syntheses.
+
+Introduction
+
+Base pairing is pivotal in biology. The binding constant for the weaker of the two canonical base pairs is smaller than 100 M-1, though, even in apolar media.1 Further, many alternatives to the canonical base pairs exist.2 Crystallization of mixtures of alkyl derivates of nucleobases can lead to Hoogsteen base pairs,3 suggesting that, in the absence of neighboring residues, a very small or no energetic penalty exists for the formation of alternative base pairs.4 As the structural context becomes more constrained, base pairing fidelity generally increases. How a specific molecular environment affects a base pair is a question that continues to fascinate biomolecular chemists, particularly in the context of enzymatically catalyzed reactions.5 Among the processes involving base pairing that are fundamental to the cell, base pairing at the terminus of short duplexes sticks out as particularly unselective. A fascinating example of
+University of Karlsruhe.  University of Stuttgart. (1) Kyogoku, Y.; Lord, R. C.; Rich, A. Biochim. Biophys. Acta 1969, 179, 10­17. (2) Saenger, W. Principles of Nucleic Acid Structure; Springer Verlag: New York, 1984. (3) (a) Sakore, T. D.; Sobell, H. M.; Mazza, F.; Kartha, G. J. Mol. Biol. 1969, 43, 385­406. (b) Voet, D.; Rich, A. Prog. Nucleic Acid Res. Mol. Biol. 1970, 10, 183­265. (4) Weisz, K.; Jaehnchen, J.; Limbach, H.-H. J. Am. Chem. Soc. 1997, 119, 6436­6437. (5) Selected references: (a) Switzer, C.; Moroney, S. E.; Benner, S. A. J. Am. Chem. Soc. 1989, 111, 8322­8323. (b) Morales, J. C.; Kool, E. T. Nat. Struct. Biol. 1998, 5, 950­954. (c) McMinn, D. L.; Ogawa, A. K.; Wu, Y.; Liu, J.; Schultz, P. G.; Romesberg, F. E. J. Am. Chem. Soc. 1999, 121, 11585­11586. (d) Mitsui, T.; Kitamura, A.; Kimoto, M.; To, T.; Sato, A.; Hirao, I.; Yokoyama, S. J. Am. Chem. Soc. 2003, 125, 5298­5307.
+10.1021/ja9033654 CCC: $40.75  2009 American Chemical Society
+
+
+this is the degeneracy of the genetic code.6 For example, UUA, UUG, CUU, CUC, CUA, and CUG all code for leucine. Most synonyms in the code differ only in the third nucleotide of the codon:anticodon duplex.7 Crick's wobble hypothesis explains how one tRNA can recognize several degenerate codons,8 and `superwobbling' scenarios have been tested experimentally.9 The current genetic code is believed to have been optimized toward robustness, so as to minimize the impact of mistranslations,10 and stop codon readthrough is used for regulatory processes.11 Even outside the translational machinery, G:U wobble pairs are believed to be fundamental for the cell,12,13 and thermodynamic parameters have been compiled for neighboring base pairs to G:U wobble base pairs.14 Nature employs chemically modified nucleotides to adjust base pairing fidelity in anticodon:codon duplexes15,16 (Figure 1), suggesting that small changes in the covalent structure of
+(6) Knight, R. D.; Freeland, S. J.; Landweber, L. F. Trends Biochem. Sci. 1999, 24, 241­247. (7) Voet, D.; Voet, J. G. Biochemistry, 2nd ed.; J. Wiley & Sons: New York, 1995; pp 959-967. (8) Crick, F. H. C. J. Mol. Biol. 1966, 19, 548­555. (9) Rogalski, M.; Karcher, D.; Bock, R. Nat. Struct. Mol. Biol. 2008, 15, 192­198. (10) (a) Freeland, S. J.; Wu, T.; Keulmann, N. Origins Life EVol. Biosphere 2003, 33, 457­477. (b) Travers, A. Origins Life EVol. Biosphere 2006, 36, 549­555. (c) Novozhilov, A. S.; Wolf, Y. I.; Koonin, E. V. Biol. Direct 2007, 2, Article Number 24. (d) Ambrogelly, A.; Palioura, S.; Soll, D. Nat. Chem. Biol. 2007, 3, 29­35. (e) Tlusty, T. J. Theor. Biol. 2007, 249, 331­342. (11) Beier, H.; Grimm, M. Nucleic Acids Res. 2001, 29, 4767­4782. (12) Varani, G.; McClain, W. H. EMBO Rep. 2000, 1, 18­23. (13) Xin, Y.; Olson, W. K. Nucleic Acids Res. 2009, 37, D83-D88. (14) Davis, A. R.; Znosko, B. M. Biochemistry 2008, 47, 10178­10187. (15) Agris, P. F. Nucleic Acids Res. 2004, 32, 223­238. (16) Nasvall, S. J.; Chen, P.; Bjork, G. R. RNA 2007, 13, 2151­2164.
+J. AM. CHEM. SOC. 2009, 131, 12671­12681
+9
+
+12671
+
+ARTICLES
+
+Patra and Richert
+
+Figure 2. Primary structure of self-complementary hexamer 1 with numbering schemes used. Figure 1. Anticodon region of yeast phenylalanine tRNA (PDB entry 1evv)
+
+showing the exposed, 5-terminal 2-O-methylguanosine residue at the wobble position (blue), and the tricyclic wyebutosine residue (white), adjacent to the 3-side of the GAA anticodon with the shielded adenosine residues (orange).
+
+neighboring residues can have a significant effect on base pairing. A high level of degeneracy in base pairing is undesirable for hybridization probes and primers that are meant to bind a single locus in a large genome for diagnostic or biomolecular applications. So, chemical solutions for this molecular recognition problem are not just a scientific challenge, but are also of practical importance. Chemically modified oligonucleotides may exhibit increased target affinity and base pairing selectivity. Examples of this are minor groove binders attached to primers,17 and conformational locks in the ribose rings of oligonucleotides.18,19 This form of restricting conformational flexibility is different from that used by nature for anticodon:codon duplexes, though, and does not involve the nucleobases.20 The most extensively tested approach for suppressing mispairing at the termini is the use of `molecular caps' as fidelity-enhancing elements at the termini.21,22 These caps are different from those found on mature mRNAs.23 They consist of non-nucleosidic moieties covalently attached to the termini of synthetic oligonucleotides that bind preferentially to correctly paired base pairs. Caps have been used to
+(17) Kutyavin, I. V.; Afonina, I. A.; Mills, A.; Gorn, V. V.; Lukhtanov, E. A.; Belousov, E. S.; Singer, M. J.; Walburger, D. K.; Lokhov, S. G.; Gall, A. A.; Dempcy, R.; Reed, M. W.; Meyer, R. B.; Hedgpeth, J. Nucleic Acids Res. 2000, 28, 655661. (18) (a) Christensen, N. K.; Petersen, M.; Nielsen, P.; Jacobsen, J. P.; Olsen, C. E.; Wengel, J. J. Am. Chem. Soc. 1998, 120, 5458­5463. (b) Obika, S.; Nanbu, D.; Hari, Y.; Andoh, J. I.; Morio, K. I.; Doi, T.; Imanishi, T. Tetrahedron Lett. 1998, 39, 5401­5404. (19) (a) Nielsen, K. E.; Singh, S. K.; Wengel, J.; Jacobsen, J. P. Bioconjugate Chem. 2000, 11, 228­238. (b) Kierzek, E.; Pasternak, A.; Pasternak, K.; Gdaniec, Z.; Yildirim, I.; Turner, D. H. Biochemistry 2009, 48, 4377­4387. (20) Agris, P. F.; Vendeix, F. A. P.; Graham, W. D. J. Mol. Biol. 2007, 366, 1­13. (21) (a) Maltseva, T. V.; Agback, P.; Repkova, M. N.; Venyaminova, A. G.; Ivanova, E. M.; Sandstrom, A.; Zarytova, V. F.; Chattopadhyaya, J. ¨ Nucleic Acids Res. 1994, 22, 5590­5599. (b) Bleczinski, C. F.; Richert, C. J. Am. Chem. Soc. 1999, 121, 10889­10894. (c) Kryatova, O. P.; Connors, W. H.; Bleczinski, C. F.; Mokhir, A. A.; Richert, C. Org. Lett. 2001, 3, 987­990. (d) Mokhir, A. A.; Tetzlaff, C. N.; Herzberger, S.; Mosbacher, A.; Richert, C. J. Comb. Chem. 2001, 3, 374­386. (e) Dogan, Z.; Paulini, R.; Rojas Stutz, J. A.; Narayanan, S.; Richert, C. ¨ J. Am. Chem. Soc. 2004, 126, 4762­4763. (22) Richert, C.; Grunefeld, P. Synlett 2007, 1­18. ¨ (23) Matsuo, H.; Moriguchi, T.; Takagi, T.; Kusakabe, T.; Buratowski, S.; Sekine, M.; Kyogoku, Y.; Wagner, G. J. Am. Chem. Soc. 2000, 122, 2417­2421. (24) Ahlborn, C.; Siegmund, K.; Richert, C. J. Am. Chem. Soc. 2007, 129, 15218­15232.
+12672 J. AM. CHEM. SOC.
+9
+
+construct hybridization probes for microarrays that form isostable duplexes with targets of varying G/C content.24 While improvements in mismatch discrimination have been realized with 5-caps, a satisfactory suppression of wobble base pairing between a U or T at the 3-terminus of an oligonuleotide probe and a G in a target strand has not been achieved. As part of a program aimed at generating high fidelity hybridization probes for RNA targets such as microRNAs25-28 or riboswitches29 in massively parallel fashion,30 we have investigated the structure of our best 3-cap to date, an anthraquinone carboxamide at the 2-position of a 3-terminal uridine (inset, Figure 2).31 Combinatorial work from our laboratory had led to this cap31 that increases the melting point of short DNA:DNA duplexes by up to 14 °C. The available melting data showed a modest fidelity-increasing effect of the anthraquinone residue on base pairing at the very terminus.32 It was hoped that structural insight into the mode of binding would help to design improved versions of this cap. The most challenging task was believed to be suppressing wobble base pairing. An additional motivation came from the large number of applications for anthraquinones binding to DNA, including electron transport,33 photonuclease activity,34 ligands for G quartets,35 and the generation of functional hybrids with DNA36 or PNA.37 We reasoned that applications relying on anthraquinone-bearing oligonucleotides would benefit from precise structural information. Here, we report the three-dimensional
+(25) (a) Elbashir, S. M.; Harborth, J.; Lendeckel, W.; Yalcin, A.; Weber, K.; Tuschl, T. Nature 2001, 411, 494­498. (b) Meister, G.; Tuschl, T. Nature 2004, 431, 343­349. (26) (a) Carthew, R. W. Science 2006, 313, 305­306. (b) Lau, N. C.; Seto, A. G.; Kim, J.; Kuramochi-Miyagawa, S.; Nakano, T.; Bartel, D. P.; Kingston, R. E. Science 2006, 313, 363­367. (27) Ambros, V.; Bartel, B.; Bartel, D. P.; Burge, C. B.; Carrington, J. C.; Chen, X.; Dreyfuss, G.; Eddy, S. R.; Griffiths-Jones, S.; Marshall, M.; Matzke, M.; Ruvkun, G.; Tuschl, T. RNA 2003, 9, 277­279. (28) Ambs, S.; Prueitt, R. L.; Yi, M.; Hudson, R. S.; Howe, T. M.; Petrocca, F.; Wallace, T. A.; Liu, C. G.; Volinia, S.; Calin, G. A.; Yfantis, H. G.; Stephens, R. M.; Croce, C. M. Cancer Res. 2008, 68, 6162­6170. (29) (a) Knight, J. Nature 2003, 425, 232­233, Switched on to RNA. (b) Winkler, W. C.; Nahvi, A.; Collins, J. A.; Breaker, R. R. Nature 2004, 428, 281­286. (c) Micura, R. Angew. Chem., Int. Ed. 2004, 43, 4692­ 4694. (d) Batey, R. T.; Gilbert, S. D.; Montange, R. K. Nature 2004, 432, 411­415. (e) Thore, S.; Leibundgut, M.; Ban, N. Science 2006, 312, 1208­1211. (f) Sashital, D. G.; Butcher, S. E. ACS Chem. Biol. 2006, 1, 341­345. (30) Wark, A. W.; Lee, H. J.; Corn, R. M. Angew. Chem. 2008, 120, 654­ 663. (31) Connors, W. H.; Narayanan, S.; Kryatova, O. P.; Richert, C. Org. Lett. 2003, 5, 247­250. (32) Narayanan, S.; Gall, J.; Richert, C. Nucleic Acids Res. 2004, 32, 2901­ 2911.
+
+VOL. 131, NO. 35, 2009
+
+High Fidelity Base Pairing at the 3-Terminus
+
+ARTICLES
+Table 1. Constraints for MD Calculations of and Statistics
+
+NOE-based constraints (totala) Inter-residue Intraresidue Dihedral angle constraintsb Hydrogen bonding constraints Base pair planarity constraints Statistics for the 10 Lowest-Energy Structures rmsd from average in Å (all atoms) rmsd from average in Å (backbone only) NOE constraints violations
+
+346 256 90 4 12 8 0.49 0.65 0
+
+a Due to the self-complementary sequence of 1, unique constraints are half the number given. b Only the dihedral angle  of residues C4 and G5 was constrained, based on coupling constants measured.
+
+Figure 3. Expansion of the NOESY spectrum in buffered D2O at 600 MHz,
+
+278 K and 250 ms mixing time, showing NOE connectivities between H1 resonances of the deoxyriboses, protons of the nucleobases, and resonances of the anthraquinone residue.
+
+structure of (1)2 and how this structure allowed us to design a new composite cap with helix-stabilizing and fidelity-enhancing effects surpassing those of all caps studied to date.
+Results Solution Structure of ACGCG-Uaq. To determine the structural basis of the duplex-stabilizing and fidelity-enhancing effect of the anthraquinone residue, self-complementary hexamer ACGCG-Uaq (1, Figure 2) was synthesized on a 10 µmol scale, starting from controlled pore glass loaded with 2-anthraquinoylamido-2-deoxyuridine (5).32 After HPLC purification, a 2 mM solution of 1 in 10 mM phosphate-buffered saline of pH 7.0 containing 150 mM NaCl was prepared. The one-dimensional 1 H NMR spectrum showed one dominant set of signals (Figure S1a, Supporting Information). Spectra acquired at 5 °C gave more intense signals for exchangeable protons than those acquired at higher temperature. A temperature of 5 °C also showed a second set of much smaller signals (8% intensity compared to the major set of signals) that was attributed to a second conformation, since analytical HPLC, MALDI-TOF MS (Figure S2, Supporting Information), and high temperature 1H NMR all showed a single, pure compound. For the main conformation, resonance assignment was achieved using a combination of NOESY, DQF-COSY, and TOCSY spectra and conventional assignment strategies for double-stranded DNA (see Figure 3 and Experimental Section for details). For residue A1, the usual NOESY pattern of cross peaks to the neighboring residue was not observed. The resonances of this residue were identified by deletion analysis as the remaining peaks with the proper multiplicities and intensities. The 1H NMR spectrum in H2O/D2O showed two prominent imino resonances above 11.8 ppm, confirming that at least two different base pairs were being formed, assigned to C2:G5 and G3:C4. It is not unusual to observe a reduced or no signal for water exposed imino protons of terminal base pairs (A:U) due to rapid exchange with solvent, favored by fraying and wobbling. So, the absence of a third imino signal was not unexpected. Spin systems of each nucleotide were then traced in a combination of 2D spectra, leading to near-complete assignment of the nonexchangeable protons. Protons from the anthraquinone ring system were assigned based on COSY and TOCSY cross peaks. The assignment of resonances from the distal ring was achieved during the structural refinement process.
+
+Integration of NOESY cross peaks yielded distance constraints that were combined with base pairing constraints for the four central C:G base pairs and 12 other constraints for the molecular dynamics calculations, as detailed in Table 1. This allowed for the calculation of the three-dimensional structure of (1)2 through torsion angle molecular dynamics38 in CNS,39 including a stepwise refinement phase. Overall, refinement involved over 250 computational runs of 80 structures each. Figure 4 shows an overlay of the duplexes of lowest energy obtained in the final run. Table 1 provides an overview of the quality of the refined set of structures. These structures agree to within 0.5 Å root-mean-square deviation between positions of atoms. Figure S4 (Supporting Information) shows the agreement of the results with the experimental data in the form of an overlay of the experimental and back-calculated NOESY spectrum for one representative low energy structure. The duplex formed by 1 has several interesting features. The core CGCG tetramer forms a canonical Watson-Crick duplex. The terminal A1:U6 base pair is disrupted (Figure 5). In its place, the anthraquinone ring system stacks on the now terminal C2:G5 base pair. The nucleobase of U1 is located in the minor groove, and the adenine ring of A1 rests atop AQ7, leading to a zipper-like -stacking arrangement that holds together the two strands of the duplex. The ribose ring of U6, which acts as the
+(33) (a) Gasper, S. M.; Schuster, G. B. J. Am. Chem. Soc. 1997, 119, 12762­ 12771. (b) Ly, D.; Sanii, L.; Schuster, G. B. J. Am. Chem. Soc. 1999, 121, 9400­9410. (c) Santhosh, U.; Schuster, G. B. J. Am. Chem. Soc. 2002, 124, 10986­10987. (d) Di Gusto, D. A.; Wlassoff, W. A.; Giesebrecht, S.; Gooding, J. J.; King, G. C. J. Am. Chem. Soc. 2004, 126, 4120­2121. (e) Di Gusto, D. A.; Wlassoff, W. A.; Giesebrecht, S.; Gooding, J. J.; King, G. C. Angew. Chem. 2004, 116, 2869­2872. (f) Okamoto, A.; Kamei, T.; Tanaka, K.; Saito, I. J. Am. Chem. Soc. 2004, 126, 14732­14733. (34) (a) Armitage, B.; Yu, C.; Devadoss, C.; Schuster, G. B. J. Am. Chem. Soc. 1994, 116, 9847­9859. (b) Breslin, D. T.; Coury, J. E.; Anderson, J. R.; McFail-Isom, L.; Kan, Y.; Williams, L. D.; Bottomley, L. A.; Schuster, G. B. J. Am. Chem. Soc. 1997, 119, 5043­5044. (35) Sun, D. Y.; Thompson, B.; Cathers, B. E.; Salazar, M.; Kerwin, S. M.; Trent, J. O.; Jenkins, T. C.; Neidle, S.; Hurley, L. H. J. Med. Chem. 1997, 40, 2113­2116. (36) (a) Dan, A.; Yoshimura, Y.; Ono, A.; Matsuda, A. Bioorg. Med. Chem. Lett. 1993, 3, 615­618. (b) Yamana, K.; Mitsui, T.; Yoshioka, J.; Isuno, T.; Nakano, H. Bioconjugate Chem. 1996, 7, 715­720. (c) Minakawa, N.; Ono, Y.; Matsuda, A. J. Am. Chem. Soc. 2003, 125, 11545­11552. (37) Armitage, B.; Koch, T.; Frydenlund, H.; Orum, H.; Batz, H. G.; Schuster, G. B. Nucleic Acids Res. 1997, 25, 4674­4678. (38) Stein, E. G.; Rice, L. M.; Brunger, A. T. J. Magn. Reson. 1997, 124, ¨ 154­164. (39) Brunger, A. T.; Adams, P. D.; Clore, G. M.; DeLano, W. L.; Gros, ¨ P.; Grosse-Kunstleve, R. W.; Jiang, J. S.; Kuszewski, J.; Nilges, M.; Pannu, N. S.; Read, R. J.; Rice, L. M.; Simonson, T.; Warren, G. L. Acta Crystallogr., Sect. D: Biol. Crystallogr. 1998, 54, 905921. (40) Humphrey, W.; Dalke, A.; Schulten, K. J. Mol. Graphics 1996, 14, 33­38.
+J. AM. CHEM. SOC.
+9
+
+VOL. 131, NO. 35, 2009 12673
+
+ARTICLES
+
+Patra and Richert
+
+Figure 4. Overlay of 10 lowest energy structures of (ACGCG-Uaq)2 )
+
+(1)2 as obtained by restrained torsion angle MD. The graphic was generated with VMD.40
+
+Uaq)2 ) (1)2, (a) view from the major groove, and (b) view from the minor groove with van der Waals surfaces shown for the terminal residues. Color code: anthraquinone, red; U6, green; C2:G5, blue; A1, light blue, interior residues, bronze.
+
+Figure 5. Structure of the terminal portion of the duplex of (ACGCG-
+
+bearing duplex,41 the extent to which the duplex is bridged, both by the stacking moiety of the "cap" and the nucleobase of A1 is much greater, explaining why such a massive melting point increase over the control duplex (ACGCGU)2 was achieved, despite the fact that one base pair each is lost at the termini. As mentioned above, the low temperature spectra also showed much smaller signals (e10% relative intensity) besides those used to solve the structure of 1 shown above. These were attributed to a second, minor conformation in slow dynamic equilibrium with the main conformation. A series of 1D proton NMR spectra acquired between 5 and 90 °C showed the disappearance of the smaller peaks above approximately 45 °C (Figure S1b, Supporting Information), while the main melting transition of the duplex occurred above 70 °C. The constraint data extracted for this minor conformation suggest that it differs from the major conformation by a 180° flip of the anthraquinone ring system, relative to the ribose ring of U6 to which it is attached (Figures S5 and S6, Supporting Information). A similar low-abundance conformation has been observed for other capbearing duplexes studied by NMR.41,42 Binding Studies. The initial melting curve work on duplexes between AGGTTGA-Uaq and target strands had shown an increase in base pairing fidelity over the control for every of the three possible terminal mismatches.32 This effect had been modest though, with Tm values between 0.5 and 4.4 °C. The structure of (1)2 reveals that this level of pairing "fidelity" is not the result of proper base pairing in the matched case and the absence of it in the mismatched cases, but rather a result of other, more subtle interactions. If the AQ residue disrupts the terminal base pair in every case, the stability differences between the duplexes are most likely the result of stacking interactions between the 5-terminal residue of the target strand and the anthraquinone moiety. The adenine ring is known to be the best stacker of the nucleobases,43 followed by guanine and the pyrimidines. To check the conclusions from the NMR structure and the earlier melting curve study, the mismatch-containing selfcomplementary hexamers 2-4 were prepared using controlled pore glass 5 and conventional DNA chain assembly (Scheme 1).21c Pentamer 6 was also prepared as control. The UV-melting points of these compounds were very similar (Table 2). Again, a very modest drop in melting point was observed for every of the terminal mismatches. This drop is only slightly less than that detected upon loss of the terminal nucleotide (duplex of pentamer 6), though, confirming that no more than very weak interactions are at play. So, the fact that (1)2 gives the highest melting point appears to be simply due to the strength of the stacking interactions of its 5-terminal deoxyadenosine residue.43 This is a rare case of "fidelity without base pairing", favoring an A residue as the preferred residue at the 5-terminus as the nucleoside facing the uridine at the 3-terminus. Having confirmed the suspected low base selectivity opposite the 3-terminal uridine residue, we then turned to studying mismatch discrimination at the penultimate position. The threedimensional structure of (1)2 suggested that this is where the "composite cap", consisting of the AQ residue and the 3terminal uridine, should act as a ligand for what is now the last
+(41) Siegmund, K.; Maheshwary, S.; Narayanan, S.; Connors, W.; Riedrich, M.; Printz, M.; Richert, C. Nucleic Acids Res. 2005, 33, 4838­4848. (42) Tuma, J.; Paulini, R.; Rojas Stutz, J. A.; Richert, C. Biochemistry 2004, ¨ 43, 15680­15687. (43) Bommarito, S.; Peyret, N.; SantaLucia, J. Nucleic Acids Res. 2000, 28, 1929­1934.
+
+linker between DNA backbone and the anthraquinone residue, stacks on the deoxyribose of G5, with many close contacts. It reaches far enough over G5 to position the anthraquinone ring system over the entire breadth of the C2:G5 base pair. While the "fold" of the terminus is reminiscent of that of a quinolone12674 J. AM. CHEM. SOC.
+9
+
+VOL. 131, NO. 35, 2009
+
+High Fidelity Base Pairing at the 3-Terminus
+Table 2. UV-Melting Points of Duplexes of Self-Complementary DNA Hexamers 1-4 and 6 and Control Duplexa
+duplexes Tm (°C)b [NaCl] ) 0 Tm (°C)b [NaCl] ) 150 mM Tm (°C)b [NaCl] ) 1 M
+
+ARTICLES
+
+Tm (°C)c at 1 M NaCl (to perfect match)
+
+(5-ACGCGT)2 (5-ACGCG-Uaq)2 (1) (5-GCGCG-Uaq)2 (2) (5-CCGCG-Uaq)2 (3) (5-TCGCG-Uaq)2 (4) (5-CGCG-Uaq)2 (5)
+
+29.2 ( 0.3 53.5 ( 0.9 51.8 ( 0.4 46.1 ( 0.4 47.7 ( 0.8 48.3 ( 0.2
+
+35.7 ( 1.2 62.5 ( 0.2 61.0 ( 0.3 56.2 ( 0.9 57.8 ( 0.5 56.2 ( 0.3
+
+36.1 ( 0.6 64.8 ( 0.1 63.5 ( 0.2 59.4 ( 0.2 60.5 ( 0.3 57.7 ( 0.2
+
+-0.7 -2.7 -2.2 -3.6
+
+a Conditions: 1.2 µM strand concentration, 10 mM phosphate buffer, pH 7.0, and NaCl concentration given. Mismatched bases are written in boldface. b Melting temperatures (Tm) are the average from six experimental curves. c Melting point difference to fully complementary duplex.
+
+Table 3. UV-Melting Points (°C) of Duplexes of DNA-Hybrids 5-AGGTTGAN-Uaq-3 (11-14) and DNA Target Strands of General Sequence
+
+5-XTCAACCT-3, Where N/X ) A/C/G/T, Together with the Corresponding Control Duplexesa,b
+probe strand (5-3) X)T X)G
+
+target strand 5-XTCAACCT-3 X)C X)A
+
+AGGTTGAA-Uaq (11) AGGTTGAC-Uaq (12) AGGTTGAG-Uaq (13) AGGTTGAT-Uaq (14) AGGTTGAA AGGTTGAC AGGTTGAG AGGTTGAT
+
+41.8PM 30.4 (-20.1) 28.3 (-19.2) 31.8 (-14.2) 29.5PM 23.4 (-13.7) 26.0 (-9.8) 25.6 (-6.4)
+
+33.6 (-8.2) 50.5PM 37.6 (-9.9) 35.5 (-10.5) 25.1 (-4.4) 37.1PM 26.7 (-9.1) 26.7 (-5.3)
+
+25.8 (-16.0) 21.0 (-29.5) 47.5PM 29.5 (-16.5) 25.5 (-4.0) 23.2 (-13.9) 35.8PM 24.6 (-7.4)
+
+34.1 (-7.7) 30.6 (-19.9) 36.3 (-11.2) 46.0PM 27.4 (-2.1) 25.7 (-11.4) 27.7 (-8.1) 32.0PM
+
+a Conditions: 3.5 µM strand concentration, 10 mM phosphate buffer, 1 M NaCl. Tm values given are averages of two heating and two cooling curves. Standard deviation is between (0.2 and 0.7 °C. See Tables S2a and S2b (Supporting Information) for a listing of melting points with individual experimental errors, a series of melting points at lower salt concentrations, and melting points with an A:A mismatch at the penultimate position. b The Tm values relative to the corresponding perfectly matched duplex are given in parentheses; PM ) perfectly matched duplex.
+
+Scheme 1. Synthesis of Anthraquinone-Bearing Uridine Building Blocks and Their Incorporation in Self-Complementary
+
+Oligodeoxynucleotides 2-4, and 6a
+
+a
+
+For the first four steps, compare refs 62 and 63, for subsequent steps to 5, compare ref 32.
+
+Watson-Crick base pair of a given helix. To make Uaq-bearing oligonucleotides routinely available, a synthesis for phosphoramidite 7 was developed (Scheme 1). Building block 7 can be combined with commercially available 5-phosphoramidites44 to generate oligonucleotides of any sequence. The synthesis of 7 employs 5-DMT protected uridines early on to avoid poorly soluble intermediates. It starts from uridine, and proceeds via
+(44) Wagner, T.; Pfleiderer, W. HelV. Chim. Acta 2000, 83, 2023­2035.
+
+8, 9, and 1032 in 21% overall yield over 8 steps. Details are given in the Experimental Section. With 7 in hand, octamers AGGTTGAN, differing in the 3terminal nucleoside N, were prepared with or without the Uaq residue as 3-cap (oligonucleotides 11-14, see Figure S7, Supporting Information) via reversed DNA syntheses. Figure 6 shows representative melting curves for cap-bearing duplexes and control duplexes, and Table 3 presents melting points for the full matrix of all possible 16 combinations of bases at the
+J. AM. CHEM. SOC.
+9
+
+VOL. 131, NO. 35, 2009 12675
+
+ARTICLES
+
+Patra and Richert
+
+Figure 6. Melting curves of homopyrimidine (Py):homopurine (Pu) decamer
+
+duplexes/triplexes CTTTCTTTCT:AGAAAGAAAG, (a) with Uaq cap or (b) without cap (unmodified control) at mixing ratios of 2:1, 1:1, and 1:2.
+Table 4. UV-Melting Points of Duplexes of a Probe Strand with or without 3-Cap and DNA Target Strand 5-TACATCAACCT-3 Featuring a Three Nucleotide 5-Overhanga
+sequence (5-3) none Tm at [NaCl] (°C)b 150 mM 1M
+
+AGGTTGAT-Uaq AGGTTGAT
+a
+
+26.1 ( 0.7 <15
+b
+
+44.1 ( 0.3 30.2 ( 0.7
+
+50.8 ( 0.4 36.8 ( 0.6
+
+Same conditions as in Table 3. average of 4-6 curves.
+
+Melting temperature (Tm) is the
+
+terminal position next to the Uaq cap, including those of all corresponding control duplexes. In every single case, the mismatch discrimination is significantly greater in the presence of the cap than in its absence, with a Tm value of up to -29.5 °C in the case of a T:C mismatch. This is the largest Tm value for a terminal mismatch known to us. It exceeds the value reported earlier for high fidelity recognition through a combination of Watson-Crick and Hoogsteen base pairing, accomplished in the interior of the sequence via triplex-forming cyclic hybridization probes.45 The breadth of the effect suggests that the Uaq residue acts as a
+
+universal 3-cap for DNA:DNA duplexes. Further, this composite cap increases duplex stability by up to 14 °C over the control, confirming that the increase in mismatch discrimination is a result of selective stabilization of the correctly paired helix. If the terminal bases are mismatched, little stabilization is observed. For the penultimate position, mismatch discrimination also appears to be high, with a Tm of 14 °C measured in the only case studied thus far (see Table S2b, Supporting Information). The duplex-stabilizing effect does not require a blunt end, as shown for a duplex with a target strand with three dangling residues at the 5-terminus (Table 4). The exquisite selectivity of the Uaq cap for correctly paired neighboring base pairs was then confirmed for a further, rather challenging sequence motif. This is the homopyrimidine sequence 5-CTTTCTTTCT-3, whose greater length and weakly pairing 3terminal nucleobase (T) leads to poor base pairing fidelity at the terminus in the absence of the cap (Table 5, last four entries). The cap-bearing oligonucleotide CTTTCTTTCT-Uaq (15) was again synthesized using phosphoramidite 7 and unmodified 5-phosphoramidites. Satisfactory drops in melting point were found for terminal mismatches in the presence of the Uaq cap (Table 5, first four entries). Further, the data suggests that the Uaq residue apparently stabilizes triplexes, as evidenced by melting transitions with a single transition at a molar ratio of 2:1, pyrimidines:purines (Figure 6). The following factors suggest that the single transition at this mixing ratio in the presence of the Uaq cap is indeed that of a triplex: (i) the hyperchromicity goes up significantly as more of the all-pyrimidine strand is added; (ii) the absolute value of the hyperchromicity is larger than expected for a Uaq-capped duplex alone; (iii) based on the NMR structure, it is unlikely that the Uaq cap interferes with triplex formation, since the U is located in the minor groove, not the major groove; (iv) there is a slight tailing toward lower temperatures in the melting transition for the Uaqcontaining sample at 2:1, not found for the duplexes studied. We then proceeded to measure the melting points of hybrid duplexes with an RNA target strand. We assumed that our high affinity/high fidelity cap for DNA:DNA duplexes would show less of a stabilizing effect for DNA:RNA duplexes. This is what was observed for 5 steroid caps.21b To our surprise, the opposite was the case for the Uaq cap. With the use of octamer AGGTTGAT with or without this cap, a melting point increase of up to 18.2 °C over the control duplex was measured in the presence of the Uaq cap (Table 6). The same octamer sequence had given +14 °C in the DNA:DNA case (Table 4). While the absolute value of the melting point at 1 M NaCl is lower for the DNA:RNA hybrid duplex, the increase over the control is significantly larger. In fact, to the best of our knowledge, this is the largest melting point increase for any cap with an octamer sequence measured to date.
+
+Table 5. UV Melting Points of Decamer DNA:DNA Duplexes with or without the Uaq Cap That Are Either Perfectly Matched or Contain a Terminal Mismatcha
+sequence (5-3) target sequence (5-3) mismatch none Tm (°C) at [NaCl]b 150 mM 1M Tm at 1 M NaClc
+
+CTTTCTTTCT-Uaq CTTTCTTTCT-Uaq CTTTCTTTCT-Uaq CTTTCTTTCT-Uaq CTTTCTTTCT CTTTCTTTCT CTTTCTTTCT CTTTCTTTCT
+a
+
+AGAAAGAAAG CGAAAGAAAG GGAAAGAAAG TGAAAGAAAG AGAAAGAAAG CGAAAGAAAG GGAAAGAAAG TGAAAGAAAG
+
+T:C T:G T:T T:C T:G T:T
+
+25.7 ( 0.2 16.2 (0.2 19.2( 0.3 16.8 ( 0.6 12.7 ( 0.3 10.4 ( 1.2 12.5 ( 0.6 11.7 (0.9
+
+40.9 34.5 36.6 35.1 32.5 29.3 31.0 30.3
+
+( ( ( ( ( ( ( (
+
+0.2 0.4 0.5 0.7 0.6 0.7 0.5 0.7
+
+48.0 40.6 43.7 42.3 37.1 36.0 37.8 37.0
+
+( ( ( ( ( ( ( (
+
+0.3 0.4 0.4 0.6 0.7 0.1 0.2 0.4
+
+-7.4 -4.3 -5.7 -1.1 +0.7 -0.1
+
+Conditions: 3.5 µM strand concentration, 10 mM phosphate buffer, pH 7.0, and NaCl concentration given. b Melting temperature (Tm) is the average of four to six experiments. c Melting point difference to fully complementary duplex.
+12676 J. AM. CHEM. SOC.
+9
+
+VOL. 131, NO. 35, 2009
+
+High Fidelity Base Pairing at the 3-Terminus
+Table 6. UV Melting Points of Duplexes between a DNA Octamer
+
+ARTICLES
+
+with and without Composite Cap and RNA Target Strand r(5-AUCAACCU-3)a
+sequence (5-3) none Tm (°C) at [NaCl]b 150 mM 1M
+
+sequence motifs tested is provided in Table S4 (Supporting Information).
+Discussion
+
+AGGTTGAT-Uaq AGGTTGAT
+
+21.7 ( 0.3 <10
+
+38.8 ( 0.5 22.3 ( 0.4
+
+43.8 ( 0.3 25.6 ( 0.6
+b
+
+a Experimental conditions identical to those given in Table 3. values are the average of 4 curves.
+
+Tm
+
+We suspected that the Uaq motif binds more tightly to the terminus of A-type helices, and synthesized the cap-bearing RNA probe r(AGGUUGAU)-Uaq (16), starting from cpg 5 via TBDMS methodology.67 When hybridizing the oligoribonucleotide to RNA target strands, the Uaq cap induced an impressive level of mismatch discrimination, but the melting point increase for the fully matched duplex over the control was "only" about 12 °C (Table 7). This is still a high value for a single cap on an octamer duplex, making the Uaq cap interesting for all-RNA systems, such as ribosomes, where sealing short(ened) terminal stems is a possible application. Further, it is noteworthy that, even for the classical U:G wobble base pair, which gives greater duplex stability than the corresponding U:A base pair in this all-RNA control duplex, the cap reverses selectivity toward the Watson-Crick pairing. In a final set of experiments, we focused on what is the most interesting case in terms of our current practical applications: duplexes between a DNA probe strand and a slightly longer RNA target strand. Such duplexes are formed when biologically relevant RNA species, such as microRNAs, are being detected with short probes. Table 8 compiles the melting points for the entire set of 16 possible base combinations at the terminus of this type of hybrid duplex, with and without Uaq cap. Figure 7 shows representative melting curves of perfectly matched duplexes and their counterparts with a single terminal mismatch. Highly cooperative transitions are observed for the capped duplex, with a significant Tm in the mismatched cases. In every case, the Uaq substituent improves base pairing fidelity very significantly, resulting in a Tm of at least 6 °C. Even for a most difficult case, the U:G or T:G wobble combination, where almost no melting point increase over the fully matched duplex is observed for the unmodified DNA:RNA duplex (Tm ) -1.8 °C), a drop in melting point >10 °C over the perfectly matched case is observed in the presence of the cap. A compilation of thermodynamic parameters for duplex formation (G, H, and S) for fully complementary duplexes of this and the other
+
+Described here is what, to the best of our knowledge, is the best 3-cap known to date. The Uaq composite cap binds the terminus of the duplex both from the top and from the minor groove. The latter mode of binding is realized by the uracil ring. This combination of interactions is similar to that between the enzyme and the substrates in the active site of polymerases, where an R-helix, sometimes dubbed "O-helix",46 is usually located on top of the base pair between the incoming monomer and templating base,47 and contacts are made to the universal hydrogen bond acceptors in the minor groove.48 The displacement of a T:A or U:A base pair by a ligand with the ability to intercalate, as observed in the structure of (1)2 is not without precedent, both for covalently bound41,49 and free ligands.50 Still, the structure observed for (1)2 teaches us a lesson in molecular recognition. The modest selectivity observed for the nucleobase facing the U of the Uaq cap in duplexes (Tm for A > G > C/T) had previously been interpreted as a sign of Watson-Crick base pairing at the very terminus.32 The preference for A as the terminal base in the target strand seems to be coincidental, though, as adenine is the nucleobase providing the strongest duplex-stabilizing stacking interactions, followed by G, which again offers more stacking surface than the pyrimidines C and T. The melting point differences show how significant the differences in stacking interactions can be for the different nucleobases, if a tricyclic binding partner is available. Recent work on RNA duplex shows that the identity of the 3-dangling natural nucleotides also affects mismatch stability at the terminus.51 The affinity of a probe strand for a given target strand depends on the number, identity and sequence of base pairs formed, as well as the aggregate sum of the stacking interactions and more subtle energetic contributions, e.g. by the hydrophobic effect. At the terminus, where fewer geometric constraints apply, more duplex-stabilizing stacking arrangements are feasible than in the interior of duplexes. This is particularly true for dangling residues that exert their effect on duplex stability without base pairing. It is therefore not surprising that the effect of dangling residue stacking on duplexes has been studied in detail in an effort to expand existing work on the parameters governing duplex stability.52 For unmodified DNA, a recent study came to the conclusion that shielding of the hydrogen bonds of the terminal base pair from bulk water is the predominant effect.53 For RNA, the effect of dangling residues on conformational dynamics appears to be of great importance.54 For non-natural
+
+Table 7. UV-Melting Points (°C) of Duplexes of RNA-Hybrid 5-r(AGGUUGAU)-Uaq-3 or Unmodified Control Oligoribonucleotide
+
+5-r(AGGUUGAU)-3 with Fully Matched or a Single Mismatch-Containing RNA Target Strandsa
+probe strand (5-3) target strand (5-3) mismatch 150 mM Tm (°C) at [NaCl]b 1M Tm (°C) at [NaCl] ) 1Mc
+
+r(AGGUUGAU)-Uaq r(AGGUUGAU)-Uaq r(AGGUUGAU)-Uaq r(AGGUUGAU)-Uaq r(AGGUUGAU) r(AGGUUGAU) r(AGGUUGAU) r(AGGUUGAU)
+a
+
+r(AUCAACCU) r(CUCAACCU) r(GUCAACCU) r(UUCAACCU) r(AUCAACCU) r(CUCAACCU) r(GUCAACCU) r(UUCAACCU)
+
+U:C U:G U:U U:C U:G U:U
+
+45.0 33.8 40.1 33.2 33.2 32.7 35.3 32.2
+
+( ( ( ( ( ( ( (
+
+0.1 0.2 0.2 0.7 0.8 0.9 1.1 1.3
+b
+
+51.1 40.0 47.6 40.0 39.3 38.4 41.9 38.1
+
+( ( ( ( ( ( ( (
+
+0.1 0.2 0.3 0.1 0.5 0.8 1.1 1.0
+
+-11.1 -3.5 -11.1 -0.9 +2.6 -1.2
+
+Conditions: 3.5 µM strands, 10 mM phosphate buffer, pH 7, plus NaCl concentration given. measruements. c Melting point difference to perfectly matched duplex at 1 M NaCl.
+
+Melting temperatures (Tm) are the average of four
+VOL. 131, NO. 35, 2009 12677
+
+J. AM. CHEM. SOC.
+
+9
+
+ARTICLES
+
+Patra and Richert
+
+Table 8. UV-Melting Points (°C) of Duplexes of DNA Strand 5-AGGTTGAN-Uaq-3 or Unmodified DNA Control 5-AGGTTGAN-3 with RNA Target Strands Featuring an Overhang of Three Nucleotides, With or Without Individual Mismatchesa,b
+probe strand (5-3) X)U target strand 5-r(GCAXUCAACCU)-3 X)G X)C X)A
+
+AGGTTGAA-Uaq AGGTTGAC-Uaq AGGTTGAG-Uaq AGGTTGAT-Uaq AGGTTGAA AGGTTGAC AGGTTGAG AGGTTGAT
+
+38.8PM 27.8c (-22.7) 25.5 (-21.7) 33.2 (-13.9) 24.7PM 20.1 (-13.6) 23.5 (-10.9) 23.0 (-5.8)
+
+32.4 (-6.4) 50.5PM 23.3 (-23.9) 34.7 (-12.4) 23.3 (-1.4) 33.7PM 22.3 (-12.1) 27.0 (-1.8)
+
+28.3 (-10.5) 30.5c (-20.0) 47.2PM 32.3 (-14.8) 23.2 (-1.5) 21.8 (-11.9) 34.4PM 23.3 (-5.5)
+
+30.9 (-7.9) 37.3c (-13.2) 35.5 (-11.7) 47.1PM 24.2 (-0.5) 22.4 (-11.3) 25.6 (-8.8) 28.8PM
+
+a Measurements were done using 3.5 µM sample concentration in 10 mM phosphate buffer and 1 M NaCl. See Table S3 (Supporting Information) for a full listing of melting points and experimental errors; PM ) perfectly matched duplex. b The Tm values to the corresponding perfectly matched duplex are given in parentheses. c Transitions are broader than those of the PM duplex.
+
+Figure 8. Effect of the size of the nucleobase at the terminus of the duplex
+
+on the bridging interactions that a cap can engage in with the target strand.
+
+Figure 7. UV-melting curves of DNA:RNA duplexes of general sequence 5-AGGTTGAT-Uaq/OH-3 and 5-r(NUCAACCU)-3 (oligoribonucleotide), where N ) U (perfect match, PM) or N ) A, C, or G (single terminal mismatch, MM). Conditions same as those reported in Table 3. (a) with Uaq cap, (b) without cap (control).
+
+dangling deoxynucleoside residues, hydrophobic effects are being described as the dominant forces,55 but more distantly related residues can give different results.22,56 Caps have been studied before in this context. Non-nucleosidic residues that have been appended to DNA termini as caps to induce additional stacking interactions include C-nucleosides57 and porphyrins.58 How such dangling residues affect base pairing fidelity is not clear, though.
+(45) Kool, E. T. Chem. ReV. 1997, 97, 1473­1487. (46) Watson, J. D.; Baker, T. A.; Bell, S. P.; Gann, A.; Levine, M.; Losick, R. Molecular Biology of the Gene; Pearson/Cold Spring Harbor Laboratory Press: San Francisco, CA, 2004; pp 188-190. (47) For a representative example, see: Doublie, S.; Tabor, S.; Long, A. M.; Richardson, C. D.; Ellenberger, T. Nature 1998, 391, 251­258. (48) Seeman, N. C.; Rosenberg, J. M.; Rich, A. Proc. Natl. Acad. Sci. U.S.A. 1976, 73, 804­808. (49) Tuma, J.; Connors, W. H.; Stitelman, D. H.; Richert, C. J. Am. Chem. Soc. 2002, 124, 4236­4246.
+12678 J. AM. CHEM. SOC.
+9
+
+An N6-pyrenylmethyl-2-deoxyadenosine cap (Apy) was recently shown to decrease base pairing fidelity for 20 out of 24 sequence contexts tested at the terminus of duplexes,59 even though it consists of a large aromatic stacking moiety and increases duplex melting points by >14 °C. It is interesting to ask what structural features make the Uaq a fidelity-increasing substituent, and what features make the Apy residue have the opposite effect. Most probably, the Uaq cap has a more suitable shape for capping than the Apy cap. Attaching a cap at the nucleobase seems to be less advantageous than doing so at the ribose ring. A large and strongly lipophilic pyrenyl group appears to be less favorable for strictly canonical base pairs as neighbors than the more polar anthraquinone ring with its local dipole moments that may favor specific contacts with correctly paired neighboring residues. Third, a flexible methylene linker, as found in the pyrenyldA residue, may be worse than the rigid, polar amide linker of the Aq moiety. While the pyrenyl group is believed to intercalate, the Uaq group binds on top of the duplex and in the minor groove. So, if simple rules were to be formulated based on this comparison, they might be that a more drug-like cap, as defined by Lipinski's "rule of five,"60 has a higher likelihood of inducing increased base pairing fidelity, particularly when attached to the backbone via a polar, rigid linker. In any event, the large Tm values for mismatches in the presence of the Uaq cap show that a three-ring stacking moiety is large enough to bind a base pair whose overall width is greater. This is confirmed by the thermodynamic data on duplex formation (Table S4, Supporting Information). For every sequence motif, there is an enthalpic stabilization of the duplex of >10 kcal/mol when the Uaq cap is attached, somewhat tempered by an unfavorable entropic effect. The prediction of duplex stablities, particularly RNA duplexes, remains a challenging task.61 The extensive melting point data on base pairing fidelity at the terminus also show how much the drop in melting point for a terminal base pair depends on
+(50) Chou, S. H.; Chin, K.-H.; Chen, F. M. Proc. Natl. Acad. Sci. U.S.A. 2002, 99, 6625­6630. (51) Clanton-Arrowood, K.; McGurk, J.; Schroeder, S. J. Biochemistry 2008, 47, 13418­13427.
+
+VOL. 131, NO. 35, 2009
+
+High Fidelity Base Pairing at the 3-Terminus
+
+ARTICLES
+
+the very bases involved and the sequence context (Tables 2, 3, 5, 7, and 8). The effect of a terminal mismatch is greatest when a strong (G/C) base pair is lost. Among the two weakly pairing nucleobases (A/T), A is the one that tolerates mismatched target bases the best. This is probably due to the small binding site that remains opposite A (Figure 8).32 Further, the data in Tables 3 and 7 show that, for the same sequence motif, DNA:DNA duplexes give larger Tm values for mismatches than the corresponding RNA:RNA duplexes. For the octamer duplex studied here, essentially no preference for the Watson-Crick base pair at the terminus is detectable in the absence of our cap (Table 7). This highlights just how difficult it is for nature to suppress wobble base pairs in the RNA:RNA duplexes, such as those formed by codon and anticodon during translation. Perhaps nature chose DNA as the carrier of genetic information not just because of its increased stability and conformational flexibility, but also because it forms canonical base pairs more selectively. For the design of future caps, the results shown demonstrate that, despite the similarity/identity of base pairs in the two biopolymers, the difference in structure between the duplexes of the two is sufficient to warrant the development of custom solutions for RNA as target strand. The cap presented here seems to be particularly well-suited for DNA probes, the most common form of synthetic oligomer used to detect RNA strands. Compared to dangling residues, the duplex-stabilizing effect of the Uaq cap is exceptional. For unmodified DNA, dA residues give the largest increase in melting point for any of the dangling nucleotides.43 The melting point increase per residue is between +5.4 and -0.1 °C for deoxyadenosine at the 3-terminus. For DNA:DNA duplexes, the Uaq cap gives between +11.7 and +14.0 °C (Table 3), and for DNA:RNA duplexes, it gives melting point increases of between +12.8 °C and +18.3 °C (Table 8). In either case, the stabilizing effect is greatest when
+(52) Selected references: (a) Petersheim, M.; Turner, D. H. Biochemistry 1983, 22, 256­263. (b) Ke, S. H.; Wartell, R. M. Nucleic Acids Res. 1993, 21, 5137­5143. (c) Kool, E. T. Annu. ReV. Biophys. Biomol. Struct. 2001, 30, 1­22. (d) SantaLucia, J.; Hicks, D. Annu. ReV. Biophys. Biomol. Struct. 2004, 33, 415­440. (e) Oostenbrink, C.; van Gunsteren, W. F. Chem.-Eur. J. 2005, 11, 4340­4348. (53) Isaksson, J.; Chattopadhyaya, J. Biochemistry 2005, 44, 5390­5401. (54) (a) Liu, J. D.; Zhao, L.; Xia, T. Biochemistry 2008, 47, 5962­5975. (b) Stancik, A. L.; Brauns, E. B. Biochemistry 2008, 47, 10834­10840. (55) Guckian, K. M.; Schweitzer, B. A.; Ren, R. X. F.; Sheils, C. J.; Tahmassebi, D. C.; Kool, E. T. J. Am. Chem. Soc. 2000, 122, 2213­ 2222. (56) (a) Zivkovic, A.; Engels, J. W. Nucleosides, Nucleotides Nucl. Acids 2007, 26, 559­562. (b) Morales, J. C.; Reina, J. J.; Diaz, I.; Avino, A.; Nieto, P. M.; Eritja, R. Chem.-Eur. J. 2008, 14, 7828­7835. (c) Nakano, S.; Uotani, Y.; Nakashima, S.; Anno, Y.; Fujii, M.; Sugimoto, N. J. Am. Chem. Soc. 2003, 125, 8086­808. (57) (a) Ren, R. X. F.; Chaudhuri, N. C.; Paris, P. L.; Rumney, S.; Kool, E. T. J. Am. Chem. Soc. 1996, 118, 7671­7678. (b) Guckian, K. M.; Schweitzer, B. A.; Ren, R. X. F.; Sheils, C. J.; Paris, P. L.; Tahmassebi, D. C.; Kool, E. T. J. Am. Chem. Soc. 1996, 118, 8182­8183. (58) (a) Morales-Rojas, H.; Kool, E. T. Org. Lett. 2002, 4, 4377­4380. (b) Balaz, M.; Li, B. C.; Jockusch, S.; Ellestad, G. A.; Berova, N. Angew. Chem., Int. Ed. 2006, 45, 3530­3533. (59) Printz, M.; Richert, C. Chem.-Eur. J. 2009, 15, 3390­3402. (60) (a) Lipinski, C. A. Drug DiscoVery Today 2003, 8, 12­16. (b) Walters, W. P.; Ajay, A.; Murcko, M. A. Curr. Opin. Chem. Biol. 1999, 3, 384­387. (61) (a) Yildirim, I.; Turner, D. H. Biochemistry 2005, 44, 13225­13234. (b) Xia, T. B.; SantaLucia, J.; Burkard, M. E.; Kierzek, R.; Schroeder, S. J.; Jiao, X. Q.; Cox, C.; Turner, D. H. Biochemistry 1998, 37, 14719­14735. (62) Pomeroy, S. L.; et al. Nature 2002, 415, 436­442. (63) Shendure, J.; Porreca, G. J.; Reppas, N. B.; Lin, X.; McCutheon, J. P.; Rosenbaum, A. M.; Wang, M. D.; Zhang, K.; Mitra, R. D.; Church, G. M. Science 2005, 309, 1728­1732.
+
+the cap is attached to a 3-terminal dT residue, as stacking on a (small) pyrimidine as terminal nucleotide leaves more surface area for zipper-like stacking interactions with the nucleobase in the target strand (Figure 8). A particularly strong stabilizing effect for a weak terminal base pair (T:A) is desirable in the context of isostable duplexes.24 So, the Uaq cap presented here shows a combination of effects on duplex stability and base pairing selectivity at the terminus that makes it attractive for practical applications involving massively parallel hybridization processes, such as gene expression analysis,62 bead-based sequencing,63 or microarray-based genotyping.64 Other features of the anthraquinone moiety, such as the ability to act as ligands for G-quartets65 or a probe for electrochemical detection,66 may have become more attractive, now that a high-resolution structure is available. The Uaq cap has already stood the test of microarray applications,24 not knowing that it may have been binding as a composite 3-cap.
+Conclusions
+
+How selective base pairing is depends on the position and sequence context of the base pair to be formed. High fidelity Watson-Crick base pairing at the terminus is particularly difficult to achieve because fraying and wobbling allow for many alternative hydrogen bonding and stacking arrangements and because fewer neighboring base pairs are affected by changes in helix geometry. The results presented here show how a small molecule substituent, much smaller than the ribosome or a polymerase, can have a pronounced effect on the stability and sequence selectivity at the termini. The increases in fidelity for RNA target strands are particularly noteworthy, since it is becoming increasingly clear that short RNAs are pivotal for the cell. This suggests that affinity- and fidelity-enhancing substituents, such as Uaq, are attractive as structural elements for probes detecting such RNA strands in complex mixtures and/or massively parallel formats. Combining them with 5caps and LNA residues in the interior of the probe may lead to duplexes, whose stability is largely independent of sequence, maximizing the ability to exploit the intrinsic base pairing fidelity of an oligonucleotide probe.
+Experimental Section General Information. Anhydrous solvents were purchased over molecular sieves and used without further purification. Reagents of the best available grade from Acros (Geel, Belgium), or Aldrich/ Fluka/Sigma (Deisenhofen, Germany), were used without purification. Anthraquinone-2-carboxylic acid was from Aldrich and was used as received. Reagents for DNA synthesis were from Proligo (Hamburg, Germany). Unmodified control oligonucleotides were purchased either from Operon (Koln, Germany) or from Biomers ¨ (Ulm, Germany). Analytical thin-layer chromatography (TLC) was performed on precoated silica gel 60 plates from Merck (Darmstadt, Germany) (0.25 mm thickness). Flash chromatography was performed using silica gel (0.6 mm mesh) from Merck. MALDI-TOF Mass Spectrometry. Matrix-assisted laser desorption/ionization time-of-flight mass spectra (MALDI-TOF) of oligonucleotides were recorded in linear, negative mode on a REFLEX IV spectrometer from Bruker Daltonics (Leipzig, Germany). An aliquot of the analyte (0.5 µL) was applied to the target plate, followed by addition of matrix mixture (0.5 µL), which was
+(64) Spencer, J.; et al. Science 1998, 280, 1077­1082. (65) Davis, J. T. Angew. Chem., Int. Ed. 2004, 43, 668­698. (66) Di Gusto, D. A.; Wlassoff, W. A.; Giesebrecht, S.; Gooding, J. J.; King, G. C. J. Am. Chem. Soc. 2004, 126, 4120­2121. (67) Ogilvie, K. K.; Sadana, K. L.; Thompson, E. A.; Quilliam, M. A.; Westmore, J. B. Tetrahedron Lett. 1974, 15, 2861­2863.
+J. AM. CHEM. SOC.
+9
+
+VOL. 131, NO. 35, 2009 12679
+
+ARTICLES
+
+Patra and Richert
+
+prepared from 2,4,6-trihydroxyacetophenone (THAP, 0.3 M in ethanol) and diammonium citrate (0.1 M in water) in 2:1 (v/v) ratio. The reported masses are average masses; m/z found for those for the pseudomolecular ions [M - H]- detected as the maximum of the unresolved isotope pattern. An external calibration with an accuracy of mass determination of approximately (0.1% (i.e., (2 Da at m/z 2000) was used for the measurements. Solid Phase Synthesis of Oligonucleotides. Oligonucleotides were synthesized on 1 µmol or 10 µmol scales, using a Persepctive Biosystems 8909 expedite DNA synthesizer with the protocol provided by the supplier. DNA oligonucleotides were synthesized with 2-deoxynucleoside phosphoramidites. TBDMS methodology67 was used for the solid phase synthesis of RNA oligonucleotides. The 2-OH groups of the nucleoside building blocks were protected with tert-butyldimethylsilyl (TBDMS) groups, which were later cleaved from the HPLC-purified oligonucleotides by the treatment of tetrabutylammonium fluoride trihydrate (TBAF · 3H2O) in THF solution (1 M, 0.9 mL) for 12-15 h at room temperature. HPLC Purification of Oligonucleotides. Oligonucleotides were purified by RP-HPLC on a 250 mm × 4.6 mm Macherey-Nagel Nucleosil C18 column, (Marcherey-Nagel, Duren, Germany), using ¨ a gradient of CH3CN in 0.1 M triethylammonium acetate of pH 7, and detection at 260 nm. HPLC elution was started with an adsoprtion phase for 5 min at 0% CH3CN, and proceeded to the working gradient to the required percentage of CH3CN. Yields of unmodified oligonucleotides were based on the intensity of the product peak of the HPLC traces of the crude products. The integration was not corrected for the absorbance caused by the solvent front. UV-Melting Experiments. UV melting experiments were performed with a Perkin-Elmer Lambda 10 or Lambda 750 spectrophotometer at 260 nm wavelength and 1 cm path length at heating or cooling rates of 1 °C/min. For non-selfcomplementary sequences, individual concentrations of probe and target strands were measured at 70 °C. Extinction coefficients of anthraquinone-DNA hybrids were calculated as the sum of the extinction coefficients of the DNA at 260 nm and an 260 for anthraquinone of 37 600 M-1 cm-1. Solutions with salt concentrations of 150 mM and 1 M were prepared by addition of aliquots of a 5 M solution of NaCl, and the strand concentrations are uncorrected for the dilution effect. Melting temperatures were determined with UV Winlab 2.0 (PerkinElmer, Inc.) and are averages of the extrema of the first derivative of the 95-point smoothed curves from heating and cooling experiments. Hyperchromicities were determined by calculating the difference of absorbance between high- and low-temperature baseline and dividing by the absorbance of the low-temperature baseline. NMR Sample of ACGCG-Uaq (1). Oligonucleotide 1 was synthesized using the solid support-bound anthraquinone-bearing building block 5 on a 10 µmol scale, and was purified by RP-HPLC. Purified oligonucleotide 1 was lyophilized from 10% NH4OH, H2O and subsequently with D2O prior to preparation of the sample for NMR analysis in 180 µL of D2O containing 150 mM NaCl and 10 mM phosphate buffer (Na2HPO4/KH2PO4) at pH 7 (uncorrected for deuterium effect) in a Shigemi NMR tube susceptibility matched with D2O (Shigemi Co., Tokyo, Japan). For the acquisition of spectra containing the exchangeable protons, the sample was dried and the residue was immediately taken up in 180 µL of H2O/D2O (9:1, v/v). NMR Experiments. NMR experiments were measured on a Bruker AVANCE 600 MHz spectrometer. Two-dimensional spectra were recorded at 278 K. NOESY experiments in D2O-buffer were acquired with mixing times of 250, 125, and 62.5 ms. NOESY spectra detecting exchangeable protons were recorded with mixing times of 200, 125, and 62.5 ms. DQF-COSY and TOCSY spectra were recorded to aid the assignment, the latter with a mixing time of 80 ms. All the two-dimensional spectra were acquired with 8k complex data points in t2 and 512 real points in t1 with a relaxation delay of 2 s.
+12680 J. AM. CHEM. SOC.
+9
+
+Distance Restraints for Structure Calculation. Distance restraints were generated in Sparky (version 3, available from Drs. T. D. Goddard and D. G. Kneller, UCSF), based on signal intensities in NOESY spectrum of a D2O sample with a mixing time of 250 ms. For initial stage structural calculations, interproton distances were calculated using the H5/H6 cross-peaks of pyrimidine and H2/H2 cross-peaks of ribose system as a reference. The NOESY spectrum acquired with a mixing time of 125 ms in 9:1 H2O/D2O solution was integrated to generate distance constraints involving exchangeable protons. Structure Determination. Generation of topology files and coordinates for extended strands, as well as restrained MD calculations themselves, were carried out in CNS, on a LINUX platform. The primary structural coordinates for this specific sequence studied were generated in CNS using a modified version of CNS script. Coordinates of the anthraquinone ring system were calculated using Turbomol and were converted to CNS format with the aid of Xplo2D 3.2.1.68 To link the anthraquinone residue to the 3-terminus of the DNA sequence, a modified generate.inp file of CNS was created. Structures were calculated using CNS with a torsion angle molecular dynamics (MD) protocol.69 The details of the computational steps were similar to those employed in earlier work from our laboratory.70 The structures were refined based on the distance constraints obtained from a relaxation matrix analysis of the NOESY cross-peak intensities and the distances in the unrefined structure by using the program MARDIGRAS.71 During refinement restraints were visualized using an extension of VMD written in-house. The coordinates of the refined structure have been submitted to the PDB database and were assigned PDB ID code 2kk5 and RCSB ID code rcsb101220. 2-(Anthraquinon-2-yl-carboxamido)-2-deoxy-5-O-(4,4-dimethoxytrityl)-uridine (10). Starting from commercially available uridine, compound 9 was prepared analogously to literature protocols as shown in Scheme 1.72,73 Compound 9 was converted to 10 as described.32 Solid Support (5). Acylamidodeoxynucleoside 10 was converted to 5 as shown in Scheme 1 following a route reported earlier.32 3-O-Acetyl-2-(anthraquinon-2-yl-carboxamido)-2-deoxy-5-O(4,4-dimethoxytrityl)uridine. A sample of 10 (1 g, 1.28 mmol) was dried at 0.1 Torr for 2 h and dissolved in pyridine (25 mL). Acetic anhydride (1.2 mL, 12.8 mmol) was added and the solution was stirred for 8 h. The reaction mixture was then transferred to a separatory funnel and half-saturated aqueous NaHCO3 was added (200 mL). The resulting solution was extracted with CH2Cl2 (3 × 20 mL) and the combined organic phases were dried over Na2SO4, and evaporated to dryness, followed by coevaporation with toluene. The resulting crude was purified by chromatography (silica, pretreated with CH2Cl2/Et3N 95/5, eluting with CH2Cl2 and a step gradient of 1-2% MeOH) to afford the title compound in 93% yield (0.98 g, 1.19 mmol). 1H NMR (CDCl3, 600 MHz):  (ppm) 2.12 (s, 3H), 3.48 (d, J ) 8.5 Hz, 1H), 3.70 (d, J ) 8.5 Hz, 1H), 3.83 (s, 6H), 4.24 (s, 1H), 5.43 (d, J ) 8.2 Hz, 1H), 5.55 (m, 2H), 6.55 (d, J ) 8.7 Hz, 1H), 6.91 (d, J ) 8.5 Hz, 4H), 7.29-7.33 (m, 2H) 7.34-7.42 (m, 5H), 7.47-7.51 (m, 2H), 7.83 (d, J ) 8.2 Hz, 1H), 7.84-7.87 (m, 2H), 8.03-8.36 (m, 2H), 8.38 (d, J ) 8.0 Hz, 1H), 8.41 (d, J ) 8.0 Hz, 1H), 8.80 (s, 1H), 9.41 (br s, 1H). 13C NMR (CDCl3, 126 MHz) 17.7, 20.9, 29.6, 30.7, 45.8, 49.5, 53.5, 54.5, 55.3, 63.8, 69.1, 74.3, 83.8, 84.4, 87.7, 103.8, 113.5, 125.3, 127.4, 127.4, 127.5, 127.6, 128.2, 128.4, 130.3, 130.3, 133.0, 133.1,
+(68) Kleywegt, G. J.; Jones, T. A. Macromol. Crystallogr., Part B 1997, 277, 208­230. (69) Stein, E. G.; Rice, L. M.; Brunger, A. T. J. Magn. Reson. 1997, 124, ¨ 154­164. (70) Ho, W. C.; Steinbeck, C.; Richert, C. Biochemistry 1999, 38, 12597­ 12606. (71) Borgias, B. A.; James, T. L. J. Magn. Reson. 1990, 87, 475­487. (72) McGee, D. P.; Vaughn-Settle, A.; Vargeese, C.; Zhai, Y. J. Org. Chem. 1996, 61, 781­785. (73) Greiner, B.; Pfleiderer, W. HelV. Chim. Acta 1998, 81, 1528­1544.
+
+VOL. 131, NO. 35, 2009
+
+High Fidelity Base Pairing at the 3-Terminus
+
+ARTICLES
+
+133.3, 134.3, 134.5, 134.6, 134.8, 135.1. 135.2, 137.9, 139.3, 143.9, 152.1, 158.9, 158.9, 163.1, 165.5, 170.8, 175.1, 182.2, 182.8. MS (FAB): m/z: 844.25 [M+ + Na]. 3-O-Acetyl-2-(anthraquinon-2-yl-carboxamido)-2-deoxyuridine. Acetylated nucleoside (0.5 g, 0.61 mmol) was dissolved in CH2Cl2 (2 mL). To the solution, 2% trichloroacetic acid in CH2Cl2 (deblock solution) (3 mL) was added dropwise while shaking. After addition of EtOH (15 mL), the solution was cooled to -20 °C. After 6 h, the precipitate was isolated by centrifugation and washed three times with a mixture of CH2Cl2/EtOH/Et3N (80/15/5) and dried in Vacuo. Yield of the title compound 0.26 g (0.50 mmol, 83%). 1H NMR (CDCl3, 600 MHz):  (ppm) 2.18 (s, 3H), 3.71 (s, 1H), 4.21 (s, 1H), 5.06 (m, 1H), 5.38 (d, J ) 7.9 Hz, 1H), 5.49 (t, J ) 4.5 Hz, 1H), 5.78 (d, J ) 7.9 Hz, 1H), 6.26 (d, J ) 8.7 Hz, 1H), 7.91-8.01 (m, 2H), 8.06 (d, J ) 8.0 Hz, 1H), 8.20-8.3 (m, 4H), 8.58 (d, J ) 1.1 Hz, 1H), 9.24 (d, J ) 8.7 Hz, 1H), 11.37 (s, 1H). 13C NMR (CDCl3, 126 MHz)  (ppm) 20.8, 54.1, 54.9, 56.0, 61.4, 72.9, 83.9, 84.8, 102.7, 125.9, 126.8, 126.8, 127.0, 132.9, 133.0, 133.1, 133.3, 134.7, 134.8, 138.6, 140.1, 150.9, 162.9, 165.8, 169.8, 182.1. MS (FAB): m/z 542.1 [M+ + Na]. 3-O-Acetyl-2-(anthraquinon-2-yl-carboxamido)-2-deoxyuridine5-O-yl-cyanoethyl-N,N-diisopropylphophoramidite (7). A stirred suspension of 2-(anthraquinon-2-yl-carboxamido)-2deoxy-3-Oacetyluridine (0.2 g, 0.39 mmol) in anhydrous acetonitrile (0.5 mL) at r.t., was treated successively with DIEA (340 µL, 1.95 mmol) and 2-cyanoethyl-N,N-diisopropylchlorophosphoramidite (183 µL, 0.78 mmol). After 30 min, the reaction mixture was diluted with CH2Cl2 (10 mL), and washed with saturated bicarbonate solution. The aqueous layer was extracted twice with CH2Cl2 (10 mL). The combined organic phases were dried over Na2SO4, evaporated to dryness, and the residue was purified by column chromatography (silica, hexanes/CH2Cl2, 1:4, with 2% NEt3) to afford the title compound (175 mg, 63%). (A reaction performed with 0.18 g nucleoside and 1.1 equiv cyanoethyldiisopropylchlorophosphoramidite gave 90% yield after chromatography.) Alternatively, precipitation of the crude product in cyclopentane afforded, after drying at 0.1 Torr, a brownish foam in near-quantitative yield, which was successfully employed in DNA syntheses. 31P NMR (CD3CN, 202 MHz):  (ppm) 149.0, 149.3. Analytical Data for Modified Oligonucleotides. ACGCG-Uaq (1). Yield 17%, HPLC: CH3CN gradient 0 for 5 min to 19% in 68 min. tR ) 65.3 min, MALDI-TOF MS calc for C72H79N24O37P5 [M - H]- 2026.4, found 2028.6. 5-GCGCG-Uaq-3 (2). Yield 37%, HPLC: CH3CN gradient 0% for 5 min to 20% in 45 min. tR ) 41 min, MALDI-TOF MS calc for C72H79N24O38P5 [M - H]- 2042.4, found 2043.7. 5-CCGCG-Uaq-3 (3). Yield 32%, HPLC: CH3CN gradient 0% for 5 min to 20% in 45 min. tR ) 38 min, MALDI-TOF MS calc for C71H79N22O38P5 [M - H]- 2002.4, found 2003.9.
+
+5-TCGCG-Uaq-3 (4). Yield 36%, HPLC: CH3CN gradient 0% for 5 min to 20% in 45 min. tR ) 38 min, MALDI-TOF MS calc for C72H80N21O39P5 [M - H]- 2017.4, found 2018.5. 5-CGCG-Uaq-3 (6). Yield 44%, HPLC: CH3CN gradient 0% for 5 min to 20% in 45 min. tR ) 42 min, MALDI-TOF MS calc for C62H67N19O32P4 [M - H]- 1713.2, found 1712.8. 5-AGGTTGAA-Uaq-3 (11). Yield 47%, HPLC: CH3CN gradient 0% for 5 min to 22% in 60 min. tR ) 58 min, MALDI-TOF MS calc for C104H118N34O57P8 [M - H]- 3012.1, found 3013.6. 5-AGGTTGAC-Uaq-3 (12). Yield 47%, HPLC: CH3CN gradient 0% for 5 min to 20% in 60 min. tR ) 51 min, MALDI-TOF MS calc for C104H118N34O57P8 [M - H]- 2988.1, found 2989.5. 5-AGGTTGAG-Uaq-3 (13). Yield 47%, HPLC: CH3CN gradient 0% for 5 min to 21% in 60 min. tR ) 56 min, MALDITOF MS calc for C104H118N34O57P8 [M - H]- 3028.1, found 3029.3. 5-AGGTTGAT-Uaq-3 (14). Yield 48%, HPLC: CH3CN gradient 0% for 5 min to 20% in 60 min. tR ) 53 min, MALDI-TOF MS calc for C104H118N34O57P8 [M - H]- 3003.1, found 3003.4. 5-CTTTCTTTCT-Uaq-3 (15). Yield 39%, HPLC: CH3CN gradient 0% for 5 min to 20% in 55 min. tR ) 47 min, MALDITOF MS calc for C121H146N26O75P10 [M - H]- 3473.3, found 3471.8. 5-r(AGGUUGAU)-Uaq-3 (16). Yield 26%, HPLC: CH3CN gradient 0% for 5 min to 23% in 65 min. tR ) 58 min, MALDITOF MS calc for C104H118N34O57P8 [M - H]- 3089.0, found 3087.7. Acknowledgment. The authors are grateful to Dr. Karsten Siegmund for help with solving the NMR structure and computer issues, Helmut Griesser, Drs. Eric Kervio and Carolin Ahlborn for sharing experimental results, A. Kaiser, R. Haug, M. Rothlingshofer, and K. Imhof for a review of the manuscript, ¨ ¨ and Dr. Andreas Rapp for assistance in acquiring NMR spectra. This study was supported by DFG (RI 1063/4-4 and RI 1063/ 9-1). Supporting Information Available: Protocol for molecular dynamics calculations for oligonucleotide 1, overlay of experimental and back calculated NOESY spectra, structure of the proposed minor conformation of (1)2, UV-melting data with individual standard deviations and thermodynamic parameters for fully complementary duplexes, NMR spectra and MALDI-TOF mass spectra, resonance assignment of 1H NMR spectrum of (1)2, coordinates of the lowest energy structure, and complete refs 57 and 59. This material is available free of charge via the Internet at http://pubs.acs.org.
+JA9033654
+
+J. AM. CHEM. SOC.
+
+9
+
+VOL. 131, NO. 35, 2009 12681
+
+

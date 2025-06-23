@@ -1,0 +1,628 @@
+Coordination Chemistry Reviews 248 (2004) 457­476
+
+Cage C­H · · · X interactions in solid-state structures of icosahedral carboranes
+Mark A. Fox , Andrew K. Hughes
+Department of Chemistry, University of Durham, South Road, Durham DH1 3LE, UK Received 7 September 2003; accepted 8 October 2003
+
+Contents
+1. 2. 3. 4. Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Cage disorder in carboranes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Historical perspective of hydrogen bonds in crystal structures of icosahedral carboranes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Hydrogen bonds in crystal structures of icosahedral carboranes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4.1. Oxygen­hydrogen bonds in crystal structures of icosahedral carboranes (X = O) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4.2. Nitrogen­hydrogen bonds in crystal structures of icosahedral carboranes (X = N) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4.3. Sulfur­hydrogen bonds in crystal structures of icosahedral carboranes (X = S) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4.4. Halogen­hydrogen bonds in crystal structures of icosahedral carboranes (X = halogen) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4.5. ­hydrogen bonds in crystal structures of icosahedral carboranes (X = arene, alkyne) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4.6. Phosphorus­hydrogen bonds in crystal structures of icosahedral carboranes (X = P) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4.7. Hydrogen­hydrogen bonds in crystal structures of icosahedral carboranes (X = H) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5. Hydrogen bonding and disorder . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6. Molecular structures of 1,2-, 1,7- and 1,12-C2 B10 H12 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7. Theoretical studies of C­H · · · X interactions in carboranes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8. Conclusions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Acknowledgements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 457 458 459 460 460 462 463 464 468 469 470 470 471 473 473 474 474
+
+Abstract This review probes C­H · · · X interactions involving the acidic cage-carbon C­H bonds in ortho-, meta- and para-carboranes, closo-C2 B10 H12 , and their derivatives, by examining the structurally characterised examples from the Cambridge Structural Database and other sources. Examples are examined of weak hydrogen bonds to X = O, N, S, F, Cl, Br, I, plus alkyne, cyclopentadienyl and arene- systems. In addition there are examples of C­H · · · H-X dihydrogen bonding. Cage C­H · · · X interactions can be used to account for the observation of ordered structures in examples of carboranes where disorder of C and B cage atoms is possible. © 2004 Elsevier B.V. All rights reserved.
+Keywords: Icosahedral carboranes; C­H · · · X interactions; Crystal structures
+
+1. Introduction Carboranes are polyhedral clusters derived from boranes and borane anions by introduction of one or more C­H or C-R vertices, and have been an area of extensive study since the early work on them was declassified in the 1960s
+Corresponding authors. Fax: +44-191-386-1127. E-mail addresses: m.a.fox@durham.ac.uk (M.A. Fox), a.k.hughes@durham.ac.uk (A.K. Hughes). 0010-8545/$ ­ see front matter © 2004 Elsevier B.V. All rights reserved. doi:10.1016/j.ccr.2003.10.002
+
+
+[1,2]. Whilst many smaller carborane clusters are known, the most intensively studied carboranes are based on the 12-vertex icosahedron with two carbon and ten boron vertices, giving rise to three isomeric geometries, with 1,2-(ortho), 1,7-(meta) and 1,12-(para) arrangements of the carbon atoms, of which the ortho-carboranes have been most studied, due to the synthetic ease with which these may be prepared from B10 H14 and alkynes. An extensive field of chemistry has developed, concerned with substitution of the C­H and B­H vertices of these clusters [3], and
+
+458
+
+M.A. Fox, A.K. Hughes / Coordination Chemistry Reviews 248 (2004) 457­476
+
+the products have potential applications in many diverse areas, including medicine [4], polymers [5], agents for the extraction of metal ions [6], supramolecular chemistry [7] and as ligands for metals [8]. Given the extensive synthetic and derivative chemistry of icosahedral carboranes, there are relatively few examples which have been characterised in the solid-state by single crystal X-ray diffraction experiments. Thus, the Cambridge Structural database (CSD, April 2003 release) [9] contains only slightly more examples of 1,2-C2 B10 carboranes (519) than it does of 3,1,2-MC2 B9 metallacarboranes (432), themselves typically prepared from the former. This may reflect the wider interest in structural studies amongst metallacarborane chemists and transition metal chemists in general, but also the difficulty in performing diffraction studies on carboranes, and the relative ease with which compounds can be adequately characterised by spectroscopic methods, including 1 H, 13 C and 11 B NMR spectroscopy.
+
+5 9
+
+1 6 4 10 8 12 3 11
+
+2
+
+5 9
+
+1 6 4 10 8 12 3 11
+
+2
+
+5 9
+
+1 6 4 10 8 12 3 11
+
+2
+
+7
+
+7
+
+7
+
+ortho-C2B10H12
+
+meta-C2B10H12
+
+para-C2B10H12
+
+Fig. 1. The structures and numbering schemes for the ortho-, meta- and para-isomers of carborane, C2 B10 H12 . Carbon atoms are filled circles, boron atoms are open circles, hydrogen atoms (one on each vertex) are omitted.
+
+2. Cage disorder in carboranes Our initial interest in this area was aroused by the observation that among the difficulties associated with diffraction studies of C2 B10 carboranes are the two intertwined issues of crystallographic disorder of the pseudo-spherical cluster and the difficulty in distinguishing between the boron and carbon atoms. Compounds containing a 1,2-C2 B10 unit attached to a substituent through one carbon atom will frequently exhibit up to five (or even more) superimposed rotamers of the cluster, with disorder of the CB4 face ortho to the substituent. The parent icosahedral C2 B10 H12 carboranes themselves have the potential for extensive rotational disorder, and have not been successfully structurally characterised in the absence of co-solvates. Our experience is that two- and five-site disorder is common in carboranes, and the resulting poor quality structural study is rarely published, and for those disordered structures that are published it is not possible to place any confidence in the resulting metric data. Disorder alone is not a barrier to the production of a good quality structural study, since the disorder can in principle be modelled. The problem presented by structural studies of carboranes is of disorder of two or more atoms with similar scattering power. It then becomes difficult to distinguish convincingly between, say, a two-site and a five-site disorder of a C2 B10 cluster. It should be clearly understood that if a C2 B10 cluster is crystallographically ordered then it is normally possible to distinguish the carbon and boron atoms, despite the fact that as adjacent elements they have similar X-ray scattering power. Carbon has a smaller covalent radius than boron, so that in an ordered cluster, the typical B­B bond lengths are longer than B­C lengths. In ortho-carboranes both B­B and B­C distances are longer than the distance in the unique C­C bond. Furthermore, if carbon atoms are accidentally or deliberately labelled as boron, or vice versa, then a cycle
+
+of refinement will usually show unreasonable displacement parameters. In the tables which follow, we have included the C­C or C · · · C distance in substituted and unsubstituted ortho-, meta- and para-carboranes, since, especially in the most numerous ortho-case, this provides a sensitive means of assessing a structure where either the authors or the CSD do not report C/B disorder (Fig. 1). Given the problem of disorder in C2 B10 clusters, chemists working in this area have historically followed one of a number of synthetic approaches to ensure that they prepare compounds which result in structures that are either ordered, or where it is possible to model the disorder. The first approach is to attach a substituent to both of the carbon atoms of the C2 B10 cage; alkyl and aryl groups are favoured since the ortho-carborane can then be prepared from an appropriate alkyne, RCCR , or otherwise by C-substitution of the parent carborane. This carbon disubstitution will typically result in ordered solid-state structures, driven by the steric and electronic properties of the substituent, and will certainly allow the carbon atoms to be unambiguously identified as those bearing substituents. An alternative strategy is to identify the cage carbon atoms by B-substitution of some or all of the cage boron atoms. One extreme strategy is to substitute all B-H hydrogen atoms by B­X (X = Cl, Br, I, OH, Me, etc.) so that the unsubstituted sites can then be clearly identified as the C­H vertices, but in the case of ortho-carborane the minimum successful substitution strategy is to replace the B­H atoms which are para- or antipodal to the cage carbon atoms. Fortunately, such an approach is synthetically feasible, since due to the greater electronegativity of C than B, these boron atoms are prone to electrophilic substitution. This can be exemplified by our recent report of the structural characterisation of 9,12-I2 -1,2-C2 B10 H10 , where solution-state spectroscopic techniques, principally 11 B and 11 B{1 H} NMR unambiguously identify the substitution pattern [10]. Provided that the crystal selected for a diffraction study is representative of the bulk, then the presence of the B­I substituents will break the pseudo-spherical symmetry of the unsubstituted cage and produce an ordered crystal in which it is possible to identify the group antipodal to the B­I vertices as C­H. A third strategy to promote ordered carborane cages and permit the unambiguous identification of C­H vertices also
+
+M.A. Fox, A.K. Hughes / Coordination Chemistry Reviews 248 (2004) 457­476 Table 1 Reported pKa values of 1,2-, 1,7- and 1,12-C2 B10 H12 Method used Metallation with K in DME Isotope exchange (deuterium and tritium) in DME Polarography in DME Polarography in EtOH Polarography in DMF Polarography in pyridine Reference [36] [36] [37] [37] [37] [37] 1,2-C2 B10 H12 23.3 19.3 19 24 16 14 1,7-C2 B10 H12 27.9 27.9 24 33 21 26
+
+459
+
+1,12-C2 B10 H12 30.0 29.4 26 40 33 36
+
+makes use of the difference in electronegativity of the boron and carbon atoms, and the consequent uneven cluster atom charge distribution. As a result, carborane cage C­H vertices are weakly acidic. Table 1 lists the reported pKa values of the parent carboranes, 1,2-, 1,7- and 1,12-C2 B10 H12 determined using different methods and solvents. These trends show that ortho carborane has the most acidic hydrogens at the cage carbons of the three. The acidity of these carboranes may be compared with ethyne which has a pKa of 25.0 [11]. The acidity of carborane C­H groups is employed in the synthesis of a number of C-substituted carboranes, and also results in the carborane cage C­H group potentially being a weak hydrogen bond donor. The possibility exists for intra- and inter-molecular interactions between carborane C­H and hydrogen bond acceptor sites either in substituent groups on the carborane or with co-solvates. Acidic cage hydrogen interactions in carboranes were first demonstrated by Leites using IR spectroscopy in 1968 [12]. These interactions were also demonstrated in various solvents using proton NMR spectroscopy [13]. As hydrogen bonding will occur only to the C­H and not B­H vertices of a C2 B10 cluster, such interactions have the potential to result in preferred orientations of the cluster and remove the potential for disorder. The existence of these C­H­X interactions in the solid state structures of carboranes can depend on temperature [101]. The starting point for the study described in this review is that whilst there are many examples of structurally characterised carboranes where ordered cages have been shown to result from carbon or antipodal substitution, there are many further examples of successful structural characterisation of carboranes where there is no apparent reason for the carbon atoms to be ordered, until hydrogen bonding is considered. Although there are some ordered structures in which the respective authors recognised at the time that a C­H · · · X interaction is responsible for the ordering, there are also many ordered structures where the reason for the order has not been previously recognised.
+
+3. Historical perspective of hydrogen bonds in crystal structures of icosahedral carboranes Interactions between electronegative atoms and the cage C­H group of a carborane, of a type which are now recog-
+
+nised as weak hydrogen bonds, have been described by a number of authors as far back as the late 1970s. In 1977, the crystal structure of 1-Me2 NC(S)-1,2-C2 B10 H11 (MTCBOS) was reported, and the author considered the possibility of an "electrostatic attraction" between the sulfur atom and the cage C­H [127]. The basis of this suggestion was a S · · · H distance of 2.53(1) Å, which is less than the sum of sulfur and hydrogen atomic radii. The author preferred an alternative hypothesis that the conformation is due to the preferred orientation of the thiocarbamoyl group, rather than the interaction between the sulfur and the acidic hydrogen. Muir et al. first reported, in 1980, evidence of hydrogen bonding in a carborane derivative (DPCBPT) with a cage carbon­chlorine distance of 3.24 Å and an estimated acidic cage C­H · · · Cl distance of less than 2.4 Å. In 1984 Lindeman et al. commented that the observed carboranyl group orientation is 1,3,5-(1 ,2 -C2 B10 H11 -1 -CH2 )3 C6 H3 (COSJAV) is "probably a consequence of the stronger electrostatic interaction between the benzene ring­electron system and the most electropositive ("acidic") H atom of the carborane nucleus bonded to a carbon atom" [14]. Given that the concept of weak hydrogen bonds was not developed in 1984, this is a good description of exactly such a bond, although the geometry of the hydrogen bond in COSJAV is in fact considerably less convincing than many of the other C­H· · · hydrogen bonds. The first intermolecular carborane hydrogen bonds were found for the dimethylsulfoxide adduct of decachloro-orthocarborane, C2 B10 H2 Cl10 , (BULKIC) by Yanovskii et al. in 1986. The crystal structure reveals a ring consisting of two carboranes and two solvent molecules linked by acidic cage C­H · · · O bonds. Yanovskii and co-workers also revealed the first carborane hydrogen bonds in a para-carborane derivative, 2-P(O)(OMe)2 -1,12-C2 B10 H11 (GAZSUV) (Fig. 2). These C­H · · · O bonds result in the formation of a dimer in the crystal. In 1992, Shaw and Welch reported intermolecular C­H · · · O bonds for a C-substituted-orthocarborane, 1-MeOCH2 -1,2-C2 B10 H11 (VUFLUD). In 1996, Davidson, Wade et al. described the crystal structures of the hexamethylphosphoramide, hmpa; (Me2 N)3 P=O, adducts of the parent ortho-, meta- and para-carboranes (TOKGIJ, TOKGOP and TOKGUV, respectively) [56] (Fig. 1a). These represented the first definitive crystal structures of the parent carboranes, and, since
+
+460
+
+M.A. Fox, A.K. Hughes / Coordination Chemistry Reviews 248 (2004) 457­476
+
+Fig. 2. The first example of hydrogen bonds in a para carborane derivative, 2-P(O)(OMe)2 -1,12-C2 B10 H11 (GAZSUV ref. [68]).
+
+hydrogen bonding provides only a small perturbation of the cluster geometry, provided the first accurate solid-state structural data for the unsubstituted parent molecules. The metaand para-carborane adducts represent the first supramolecular crystal structures directed solely by cage C­H · · · X hydrogen bonds to be reported. This interesting paper led to many subsequent reported examples of C­H · · · X bonding in crystal structures of icosahedral carboranes.
+
+update of the CSD. Data are also included for a few compounds which have not been published or have only been the subject of publication in conference proceedings. These classes of compounds appear in the relevant tables without a CSD refcode. We must point out here that we have not included many reported solid state structures of carboranes with cage C/B disorder.1 We have chosen to consider and survey C­H · · · X interactions in carboranes as a function of the X moiety, where X = O, N, S, F, Cl, Br, I, plus alkyne, cyclopentadienyl and arene- systems. In each class, a few representative examples are considered in more detail. Most of the data in this review are listed in Tables 2­13. In each case these list the structures according to their CSD refcode followed by the C­C or C · · · C distance with esd when available from the primary reference, the reference, any substituent attached to the carbon atom (only one of the two carbon atoms in C2 B10 H12 can be substituted if one C­H is to remain for hydrogen bonding), substituents attached to the boron atoms, solvent or co-crystallite, the nature of the interaction (intramolecular or intermolecular), the X · · · H distance to the hydrogen with a normalised C­H distance (1.083 Å), the X · · · H-C angle and the X · · · C distance, these latter three with esds when available from the primary literature. 4.1. Oxygen­hydrogen bonds in crystal structures of icosahedral carboranes (X = O) Oxygen is the most common donor atom involved in C­H · · · X bonds of crystal structures of carboranes. Thirty-six examples are listed in Table 2, 13 of which were previously identified by their respective authors to contain C­H · · · O interactions. The majority of these C­H · · · O contacts involve a C=O or C­O­C moiety of one substituted carborane molecule and a cage C­H of another molecule in the crystal. A series of alkylphthalimide derivatives of ortho-carborane, 1-C6 H4 N(CO)2 (CH2 )n -1,2-C2 B10 H11 (n = 1­3 FUQFOM/XANDIZ/NIXFOP) provides clear examples, and Fig. 3 shows the C­H · · · O (carbonyl) interactions in the methylene (n = 1) example from this series. Intramolecular C­H · · · O interactions have not been reported previously. There are five examples where the oxygen donor atom is linked to one carbon atom of ortho-carborane via a carbon atom linker and is in close contact with the acidic hydrogen of the unsubstituted carbon atom (HODPUL/SUBHOM/TELLAX/TIJTAH/VUFLUD) (Fig. 6). These conformations may be due to the pre-
+
+4. Hydrogen bonds in crystal structures of icosahedral carboranes While there are several definitions of a hydrogen bond in the literature [15,16] in this work we use the term C­H · · · X interaction or contact when the distance between an acidic C­H hydrogen of a carborane cage and a donor atom is shorter than the sum of their van der Waals radii. Tables 2­13 are compilations of the C­H · · · X contacts from crystal coordinates of many carboranes obtained from the CSD and other sources. Since the CSD compiles data which represents over 40 years of crystallographic endeavour in the case of carboranes, the treatment of hydrogen atoms in the data is variable. In many early structures the hydrogen atom coordinates are not available in the database, and even in more recent examples the hydrogen atoms may have been placed or located, and refined using various different procedures. In our analysis of the structural data we have chosen to normalise all cage C­H bonds to a distance of 1.083 Å. In those entries in the database where hydrogen atom coordinates are missing, we have added hydrogen atoms to cage carbon atoms at the same normalised distance, and with the C­H bond coincident with the vector linking the carbon atom with the vertex antipodal to it. The CSD does not contain esd values and those shown in the tables were taken from the original literature. In addition to data from the CSD, we have also included some entries for structures published during 2003 for which the data had not reached the July 2003
+
+1 The CSD contains: (i) nine structures of co-solvates of 1,2-closo-C2 B10 H12 where disorder has been successfully modelled; (ii) 19 structures of mono-substituted ortho-carboranes where disorder has been modelled, and; (iii) 12 structures where the atomic coordinates are not contained in the database, either because of unmodelled disorder or because the data has not been provided to the data-centre. There are a further seven structures that we have excluded from our study on the grounds that they have poor quality data.
+
+M.A. Fox, A.K. Hughes / Coordination Chemistry Reviews 248 (2004) 457­476 Table 2 Data characterising C­H · · · O interactions in carboranes CSD code Ortho BIQXAAa Reference C­C 1-R B­R Co-solvate/cation/ anion/co-crystallate
+
+461
+
+O · · · H O · · · H-C O · · · C
+
+[38]
+
+1.629(5) 1.633(7) 1.637(8) 1.666(11) 1.668(10) 1.634(5)
+
+Link CH2 SCH(CO2 Me) CH(CO2 Me)SCH2 1,2-(MeO)2 C6 H4
+
+Inter 2.44 Inter 2.32 2.34 2.52 Inter 1.87 1.86
+
+139.7 135.0 136.9 151.0 176.4 176.9 140.3 98.5 120.8 130.6 153.1 136.0 126.0 140.9 159.0 161.4 130.0 145.9 98.8 116.9 101.5 143.4 133.9 137.3 142.3 93.7 99.9 95.6 100.3 157.7 157.3 151.5 158.6 134.9 167.1 157.1 100.1 103.4 127.1 137.2 144.6 170.3 126.3 151.6
+
+3.338(5) 3.18 3.21 3.51 2.951(5) 2.941(5) 3.39 2.74 3.23 3.01 3.10 3.23 3.23 3.24 3.335(8) 3.25 3.015(7) 3.66 2.83 3.26 2.79 3.234(7) 3.12 3.10 3.06 2.65 2.73 2.87 2.85 3.130(5) 3.179(6) 3.050(5) 3.071(6) 3.18 3.66 3.37 2.87 2.80 3.38 3.35 3.06 3.30 3.08 3.43
+
+BOVQOSb,c [39]
+
+BULKIC
+
+[40]
+
+3,4,5,6,7,8,9,10, 11,12-Cl10 4-PhCH2 O C(O)Re(CO)(Cp)CH2 Ph CH2 N(CO)2 C6 H4
+
+Me2 SO
+
+BZOCBNd FAXJODd FUQFOM GOSYOCc
+
+[41] [42] [43] [44]
+
+1.62 1.65(6) 1.648(4) 1.626
+
+Inter 2.48 intra 2.37 Inter 2.54 Inter 2.20 [CH2 C6 H4 (OMe)2 ]3 , C70 , 1,2-C6 H4 Cl2 Inter 2.09 2.36 2.47 2.32
+
+HIMHEQc
+
+[45]
+
+1.637
+
+9,12-(C6 H4 COMe)2
+
+Inter 2.30 2.20 2.20 2.71 Intra 2.45 Inter 2.62 Intra 2.37
+
+IFIPAO HODPULc,e LOTJIN MECZEZ NECFIK NIXFOP ROHWAM SUBHOMd TELLAX TIJTAH TOKGIJc
+
+[46] [47] [48] [49] [50] [51] [52] [53] [54] [55] [56]
+
+1.668(6) 1.658 1.625 1.635 1.640(6) 1.637(4) 1.655(1) 1.636(7) 1.648(2) 1.631(2) 1.629(6) 1.630(6)
+
+N(COOt Bu)NHCOOt Bu CH(OH)C5 H4 FeC5 H5 3-(CH2 )3 PMe3 + (CH2 )2 CO2 CH2 CO(C19 H23 O3 ) Link SAg2 (PPh3 )4 (O3 SCF3 )2 Ag2 S (CH2 )3 N(CO)2 C6 H4 (CH2 )3 OC5 NH2 (C5 H4 N)2 CH2 OC27 H45 CH2 OC6 H4 CN CO2 H Br- , H2 O H2 O
+
+Inter 2.30 Intra 2.27 Intra 2.21 Inter 2.13 Inter 2.35 Intra 2.33 Intra 2.56 Intra 2.44
+
+(Me2 N)3 PO
+
+Inter 2.10 2.15 2.05 2.04 Inter 2.32 Inter 2.60 2.35 Intra 2.47 2.35 Inter 2.61 2.48
+
+VEGGAP VUFLUDc
+
+[57] [58]
+
+1.646(4) 1.636(9) 1.649(8)
+
+Link (CH2 )2 CO(CH2 ) CH2 OMe
+
+4-C
+
+XANDIZc XARCEY YUVDAU ZEGYALd
+
+[59] [60] [61] [62]
+
+1.652(4) 1.637(2) 1.65 1.64(1)
+
+(CH2 )2 N(CO)2 C6 H4 9-COMe Link HgCB10 H9 (Ph)CHg Co(CO)2 Re(Cp)(CO)2 Co(CO)3 CPh 3-Ph EtOH, H2 O
+
+Inter 2.11 2.22 Inter 2.31 Inter 2.43
+
+462 Table 2 (Continued ) CSD code Reference C­C
+
+M.A. Fox, A.K. Hughes / Coordination Chemistry Reviews 248 (2004) 457­476
+
+1-R
+
+B­R
+
+Co-solvate/cation/ anion/co-crystallate
+
+O · · · H O · · · H-C O · · · C
+
+Meta HOMCERd [63] LAXWOW [64] MSCBOR10 [65] TOKGOP XINPAL YIKXUL Para GAZSUV JOQVEQ NOZGAK [56] [66] [67]
+
+2.62 2.64 2.64 2.609(7) 2.61 2.57
+
+9-HgP(O)(OiPr)2 C12 H19 O6 9-S(O)2 (Me) (Me2 N)3 PO C(O)O2 CMe2 CCH 9,10-HgO(H)HgCB10 H10 CHgO(H)Hg2+ 2-P(O)(OMe)2 2,3,4,5,6,7,8,9, 10,11-(OH)10 CH2 OH 2-CH=NOH-3,4,5,6, 7,8,9,10,11-(CH3 )9 (Me2 N)3 PO 1:2 (Me2 N)3 PNH2 + HCO3 -
+
+Inter 2.37 Inter 2.27 Inter 2.42 Inter 2.18 2.25 Inter 2.40 Inter 2.24
+
+153.6 151.7 142.8 163.7 174.2 153.2 159.2
+
+3.34 3.27 3.35 3.234(5) 3.328(6) 3.40 3.27
+
+2 CF3 CO2 -
+
+[68] [69] [70]
+
+3.05 3.00 3.08
+
+Inter 2.27 Inter 2.31 Inter 2.29 2.57
+
+131.4 154.0 164.0 149.4 172.8 149.8 163.1
+
+3.095(5) 3.32 3.34 3.55 3.132(4) 3.378(4) 3.21
+
+TOKGUV 97srv038f
+a
+
+[56] [19]
+
+3.052(7) 3.059(8) 3.071
+
+Inter 2.06 Inter 2.40 Inter 2.16
+
+Bifurcated C­H· · · O, S interaction. One cage of two is disordered in crystal. c Bifurcated C­H· · · O interaction. 2 d Structural data retrieved from the CSD does not contain hydrogen atoms. Cage C­H atoms were added in idealised positions at normalised C­H distances. e This structure contains a disordered carborane cage modelled over two sites at 80:20% occupancy. f Full description of this structure has not been published. Internal reference code is used.
+b
+
+ferred orientation of the substituent group along with, or instead of, hydrogen bonding. Thus, Viñas and co-workers have observed electronic interaction of the cluster C­C bond with the sulfur lone pairs in dithio carboranes closo-1,2-(SR)2 -1,2-C2 B10 H10 [17], and calculations on
+
+closo-1-(NH)2 -1,2-C2 B10 H11 have revealed the presence of a modest barrier to rotation about the C­N bond, with the energy minimum having the nitrogen lone-pair coplanar with the cage C­C bond [18]. It is evident that more calculational studies are needed on electronically preferred orientations of cage substituents in carborane chemistry, the structural data already exists. Table 2 lists data for ortho-, meta- and para-carboranes displaying C­H · · · O interactions in the solid-state, giving the CSD refcode, reference, the C­C distance with esd if available from the primary source, the substituent on the cage carbon numbered 1 (there must remain at least one C­H unsubstituted), any substituents on cage boron atoms, solvent or counter-ion, inter or intra-molecular interaction, O · · · H distance, O · · · H-C angle and O · · · C distances, all to hydrogen atoms in normalised positions (C­H = 1.083 Å). In addition, conference proceedings and a thesis describes 1,12-C2 B10 H12 .2{[(Me2 N)3 PNH2 ]+ (HCO3 )- }, displaying C­H · · · O interactions [19,20]. 4.2. Nitrogen­hydrogen bonds in crystal structures of icosahedral carboranes (X = N)
+
+Fig. 3. The structure of 1-C6 H4 N(CO)2 (CH2 )-1,2-C2 B10 H11 (FUQFOM [43]) showing intermolecular C­H · · · O interactions leading to a ribbon structure.
+
+The CSD lists published examples of carborane C­H hydrogen bonding to a nitrogen atom only in orthocarboranes, and the data characterising these interac-
+
+M.A. Fox, A.K. Hughes / Coordination Chemistry Reviews 248 (2004) 457­476 Table 3 Characterising data for hydrogen bonding of the type N · · · H­C in C2 B10 carboranes CSD code Ortho BOKKOBa BOVQUYa NACGIH NIXFUV NURLER REJMUO01a XARCIC LUTFIP LUTFUB LUTGAI Meta 99srv018b Para 99srv203b
+a b
+
+463
+
+Reference [71] [39]
+
+C­C 1.643(3) 1.620(3) 1.649(1) 1.620(4) 1.646(9) 1.636(3) 1.6289(19) 1.632(3) 1.639(5) 1.663(2) 2.614
+
+1-R S(C5 H4 N)
+
+B­R
+
+Co-solvate Inter Intra 1,10-C12 H8 N2 Inter Inter Intra Inter Intra Inter
+
+N···H 2.34 2.53 2.13 2.37 2.42 2.44 2.36 2.46 2.32 2.49 2.38 2.40 2.38 2.40 2.20 2.29 2.22
+
+N · · · H­C 144.0 120.8 147.3 135.2 148.7 102.5 145.3 118.9 141.8 127.5 144.6 100.6 105.7 148.7 174.0 172.3 174.2
+
+N···C 3.28 3.22 3.10 3.23 3.39 2.87 3.31 3.13 3.24 3.26 3.32 2.81 2.87 3.37 3.27 3.36 3.30
+
+[51] [72] [22,23] [73] [22] [22] [22] [19]
+
+C5 NH2 (C5 H4 N)2 terpyridyl CH2 N=CPh2 Link C6 H4 CB10 H10 CC6 H4 (C5 H4 N)CH2 9-CN (2 -C5 H4 N) 4 -Br-2 -C5 H3 N (3 -C5 H4 N)
+
+MeCN
+
+Inter Intra Intra Inter (Me2 N)3 PNH Inter
+
+[19]
+
+3.083
+
+2 (Me2 N)3 PNH
+
+Inter
+
+Bifurcated C­H· · · N2 interaction. Full description of this structure has not been published. Internal reference code is used.
+
+tions are listed in Table 3. The first reports of such a contact were in the pyridyl-carborane 1-(2 -C5 H4 N)-1,2C2 B10 H11 and picolyl-carborane 1-(2 -C5 H4 NCH2 )-1,2C2 B10 H11 reported by one of us and others [21­23]. Both intramolecular and intermolecular C­H · · · N interactions were found for picolyl carborane (REJMUO, REJMUO01) and these are illustrated in Fig. 4, which shows the resulting hydrogen-bonded dimeric solid-state structure. In addition, conference proceedings [19] describe the co-crystals 1,7-C2 B10 H12 ·(Me2 N)3 P=NH (Fig. 5) and
+
+1,12-C2 B10 H12 ·2[(Me2 N)3 P=NH] from meta- and paracarborane, respectively with iminotris(dimethylamino)phosphorane, (Me2 N)3 P=NH [24] and the relevant data are included in Table 3 (Fig. 6). 4.3. Sulfur­hydrogen bonds in crystal structures of icosahedral carboranes (X = S) There has been no discussion in the literature on C­H · · · S contacts in the crystal structures of carboranes apart from the
+
+Table 4 Characterising data for hydrogen bonding of the type S · · · H­C in C2 B10 carboranes Refcode BIQXAAa CAJHAW Reference [74] [75] C­C 1.629(5) 1.57(1) 1.58(1) 1.61(1) 1.61(1) 1-R Link CH2 SCH(CO2 Me) CH(CO2 Me)SCH2 Link SCH2 S B­R Solvent Intra Inter S···H 2.67 2.85 2.76 2.61 2.66 2.74 2.55 2.77 2.97 2.69 2.70 S · · · H­C 108.7 136.5 134.3 150.5 145.7 145.5 166.8 138.7 156.9 133.4 125.1 S···C 3.19 3.71 3.60 3.59 3.61 3.68 3.61 3.65 3.99 3.52 3.44
+
+IPTCDB NECFIK PUSFUEb
+
+[76] [77]
+
+1.634(3) 1.640(6) 1.606 1.637
+
+Link 9,12-SC(Me2 )S Link SAg2 (PPh3 )4 (O3 SCF3 )2 Ag2 S Link SPt(N2 C12 H6 Ph2 )S CH2 Cl2
+
+Inter Intra Intra
+
+All examples relate to ortho-carboranes. a Bifurcated C­H· · · O,S interaction. b Bifurcated C­H· · · S,Cl interaction.
+
+464
+
+M.A. Fox, A.K. Hughes / Coordination Chemistry Reviews 248 (2004) 457­476
+
+Table 5 Characterising data for hydrogen bonding of the type F · · · H­C in C2 B10 carboranes Refcode Ortho VEKJIE VEKJIE01 XEHVUBa Reference [78] [79] [80] C­C 1.633(3) 1.632(1) 1.620 1.617 1.624 1.600 1.628 B­R 8,9,10,12-F4 8,9,10,12-F4 9,12-(C6 H4 F)2 Solvent/anion Inter Inter Inter Inter H···X 2.43 2.45 2.51 2.50 C­H · · · X 131.7 125.4 127.2 124.7 X···C 3.25 3.20 3.28 3.416(7), 3.557(8), 3.593(8) 3.461(5) 3.429(6) 3.107(5) 3.60 3.18 3.39 3.35 3.25 3.20 3.28 3.44 3.47 2.99
+
+XEHWAIa,b
+
+[80]
+
+9,12-(C6 H3 F2 )2
+
+Inter Inter Inter BF4 - Inter Inter Inter Inter Inter Inter Inter Inter Inter Intra
+
+2.41 2.61 2.36 2.62 2.33 2.35 2.53 2.29 2.40 2.34 2.45 2.59 2.66
+
+162.4 131.7 124.8 150.4 133.6 160.5 124.9 146.8 129.5 144.6 151.3 138.5 96.8
+
+Meta QEZPOA
+
+[81]
+
+2.61 2.60 2.60 2.63
+
+9-I-Ph+
+
+VAWGUVb,c
+
+[82]
+
+Link 9,9 -Br+
+
+BF4 -
+
+Para YAVTAQ
+
+[83]
+
+3.03(P)
+
+2,3,4,5,6,7,8,9,10,11-(CF3 )10
+
+All of these examples contain two C­H groups, i.e., there is no 1-R substituent. a Metric data are those quoted in reference [80], and are not for normalised hydrogen atom positions. b Bifurcated C­H· · · F interaction. 2 c Structural data retrieved from the CSD does not contain hydrogen atoms. Cage C­H atoms were added in idealised positions at normalised C­H distances.
+
+1977 report of the structure of 1-Me2 NC(S)-1,2-C2 B10 H11 (MTCBOS) mentioned earlier [127]. Our examination of the CSD reveals five further examples of ortho-carboranes with C­H · · · S interactions, listed in Table 4, but no examples for meta or para carboranes. An interesting example of in-
+
+tramolecular C­H · · · S interactions is found in the platinum complex (C2 B10 H11 S)2 PtN2 C12 H6 Ph2 (PUSFUE) shown in Fig. 7. 4.4. Halogen­hydrogen bonds in crystal structures of icosahedral carboranes (X = halogen) Data for C­H · · · X (X = halogen) interactions involving carborane C­H groups are listed in Tables 5­8. The first reported example of a carborane C­H · · · F contact (Table 5) was observed in the crystal structure of the tetrafluoroortho-carborane, 8,9,10,12-F4 -1,2-C2 B10 H8 (VEKJIE). Two recently reported carboranes were also shown to contain C­H · · · F interactions (XEHVUB/XEHWAI). There are two early examples of meta-carborane salts containing the BF4 - anion which show multiple C­H · · · F contacts, although these were not commented on by the authors. The literature does not contain many examples of C­H · · · Cl interactions involving the acidic C­H groups of carboranes, Table 6. While the first C­H · · · Cl interaction was reported in 1980 for a platinum complex containing two carborane cages (DPCBPT), as shown earlier in Fig. 8, only one other example has been reported involving a twocage ruthenium complex (JENBOT) described by Polyakov et al. in 1988. Our investigations of the CSD reveal a further
+
+Fig. 4. Two molecules of picolyl carborane 1-(2 -C5 H5 NCH2 )1,2-C2 B10 H11 (REJMUO01 ref. [22]) showing both inter- and intra-molecular C­H · · · N contacts. Hydrogen atoms, other than that involved in the hydrogen bonding, are omitted.
+
+M.A. Fox, A.K. Hughes / Coordination Chemistry Reviews 248 (2004) 457­476 Table 6 Characterising data for hydrogen bonding of the type Cl · · · H­C in C2 B10 carboranes Refcode Ortho CIDHUSa DPCBPTa JENBOTb Reference [84] [85] [86] C­C 1.67(2) 1.658(12) 1.630(4) 1-R 7 -(7 ,8 -C2 B9 H11 )- Link PPh2 PtClPPh2 Link CH2 PPh2 Ru(CO)2 ClPPh2 CH2 CH2 NMe2 GaCl3 4,5,7,8,9,10,11,12-Cl8 Link 3-Pt Link 3-Ru B­R Solvent/ion Rh(PPh3 )3 + , CH2 Cl2 Inter Intra Inter Intra Inter Inter Inter Inter Inter H· · · Cl 2.67 2.35 2.68 2.58 2.55 2.87 2.92 2.86 2.70 C­H· · · Cl 144.0 139.5 137.5 122.2 150.6 129.3 135.5 133.4 140.2
+
+465
+
+C · · · Cl 3.60 3.25 3.56 3.29 3.54 3.66 3.76 3.69 3.59
+
+MECHOR OCLCDBb
+
+[87] [88]
+
+1.645(9) 1.67(2)
+
+PUSFUEc Meta TCCBOR10d
+
+[89]
+
+1.606 1.637 2.59
+
+Link SPt(N2 C12 H6 Ph2 )S
+
+CH2 Cl2
+
+[90]
+
+8,9,10-Cl3
+
+Inter Inter Inter Intra Intra Intra Intra
+
+3.00 3.09 3.09 2.92 2.80 2.91 2.85
+
+131.0 140.1 140.1 102.4 106.6 102.8 106.4
+
+3.76 3.96 3.96 3.33 3.28 3.32 3.32
+
+Para RACHEI
+
+[91]
+
+3.080(7)
+
+2,3,4,5,6,7,8,9, 10,11-(CHCl2 )10
+
+a Structural data retrieved from the CSD does not contain hydrogen atoms. Cage C­H atoms were added in idealised positions at normalised C­H distances. b Bifurcated C­H· · · Cl interaction. 2 c Bifurcated C­H· · · S,Cl interaction. d Trifurcated C­H· · · Cl interaction. 3
+
+four examples of ortho-carboranes with C­H · · · Cl interactions, two involving a dichloromethane solvent and two involving intermolecular C­H · · · Cl interaction between two carborane molecules. One of the latter examples is 1Cl3 GaN(Me2 )CH2 -1,2-C2 B10 H11 (MECHOR), the gallium trichloride adduct of an amine-functionalised carborane, and the repeating unit of the chain structure of this compound is shown in Fig. 9. The electropositive gallium results in a significantly polar Ga­Cl bond, favouring the C­H · · · Cl interaction.
+
+Interactions involving bromine are rare, Table 7, and the only example of a C­H · · · Br interaction that has been described is the crystal structure of the bromide salt of a carborane phosphonium ion 3-(Me3 P(CH2 )3 )-1,2C2 B10 H11 + Br- (LOTJIN). Our studies of the CSD reveal that there are three examples of C­H · · · Br contacts in early crystal structures (reported in 1966­1976). The crystal structures of two trihalo-meta-carboranes, 8,9,10-X3 -1,7-C2 B10 H9 (X = Cl, TCCBOR10; Br, TBMCBO) are worthy of discussion here. One of the two acidic
+
+Table 7 Characterising data for hydrogen bonding of the type Br · · · H­C in C2 B10 carboranes Refcode Ortho BRDCBOa DBCARB LOTJIN Meta DBDCDB TBMCBOb Reference [92] [93] [48] [94] [95] C­C 1.63 1.63(3) 1.625 2.40 2.61 1-R Br B­R 12-Br 9,12-Br2 3-(CH2 )3 PMe3 + 9,10-Br2 8,9,10-Br3 Solvent/anion Inter Inter Inter Inter Inter Inter Inter H· · · Br 3.38 2.62 2.69 3.01 3.20 3.20 3.20 C­H· · · Br 116.3 152.0 147.5 140.5 123.1 141.1 141.1 C· · · Br 3.98 3.62 3.652(5) 3.91 3.90 4.10 4.10
+
+Br- , H2 O
+
+a Structural data retrieved from the CSD does not contain hydrogen atoms. Cage C­H atoms were added in idealised positions at normalised C­H distances. b Trifurcated C­H· · · Br interaction. 3
+
+466
+
+M.A. Fox, A.K. Hughes / Coordination Chemistry Reviews 248 (2004) 457­476
+
+Table 8 Characterising data for hydrogen bonding of the type I · · · H­C in C2 B10 carboranesa Refcode Ortho CARLAIb Reference [96] C­C 1.666(12) 1.639(11) 1.624(8) 1.626(5) 2.60 2.58 2.65 2.58 2.60 2.60 3.065(5) B­R 9-IPh+ Anion I- Inter Inter Inter Inter Inter Inter Inter H· · · I 2.92 3.10 2.21 3.10 3.00 3.12 3.02 C­H· · · I 138.7 123.0 131.8 131.1 138.9 139.8 145.6 C· · · I 3.80 3.80 3.05 3.90 3.88 4.01 3.96
+
+EGUFUH WURVOU Meta QEZPUG YOZSEL
+
+[25] [10] [81] [97]
+
+3-I 9,12-I2 9-I 9,10-I2
+
+YOZSEL01 Para ZAKYALb
+
+[81]
+
+9,10-I2
+
+Inter
+
+3.14
+
+136.8
+
+4.00
+
+[98]
+
+2-I
+
+Inter Inter
+
+3.20 3.20
+
+167.3 137.2
+
+4.06 4.26
+
+All of these examples contain two C­H groups, i.e., there is no 1-R substituent. a The data for 2,3-I -1,12-C B H 2 2 10 10 ZAKYEP (ref. [98]) are omitted, since the crystals contain 6% of a tri-iodo species. b Structural data retrieved from the CSD does not contain hydrogen atoms. Cage C­H atoms were added in idealised positions at normalised C­H distances. Table 9 Data characterising carborane cage C­H · · · C6 ring Refcode HIKGUD HIKHAK HIKHEO TUQTEE WOGTER Reference [99] [99] [99] [100] [101]
+
+interactions for co-solvates of 1,2-C2 B10 H12 , ortho-carborane C­C 1.627 1.599 1.610 1.622
+a
+
+Co-solvate (C6 H4 (OH)CH2 )5 , CH2 Cl2 (C6 H4 (OH)CH2 )5 , C6 H5 Me 2(C6 H4 (OH)CH2 )5 , 0.5CH2 Cl2 [CH2 C6 H4 (OMe)2 ]3 [CH2 C6 H4 (OMe)2 ]3 , Me2 NCHO
+
+H · · · Cent 2.446, 2.364, 2.425, 2.232, 2.245 2.484 2.539 2.595 2.559
+
+The C­C distances in the cluster are given, together with the H · · · ring centroid distances. a Only one cage C atom was positively located in WOGTER.
+
+hydrogen C­H atoms present in these compounds is located near all three halogen atoms of a second molecule with nearly equal C­H · · · X distances. These intermolecular C­H · · · X distances are significantly longer than expected for C­H · · · X interactions but since the acidic hydrogen
+
+is trifurcated to three donor atoms the distances would be expected to be long. Indeed, these interactions are not identified by a standard search of the CSD using van der Waals radii based search criteria, we identified them when seeking to account for structures where the carbon and boron atoms are ordered without apparent reason.
+
+Fig. 5. The structure of 1,7-C2 B10 H12 ·(Me2 N)3 PNH showing hydrogen bonding between the carborane C­H and the imine nitrogen [19,20]. All hydrogen atoms other than the carborane C­H atoms are excluded for clarity.
+
+Fig. 6. The molecular structure of 1-(NCC6 H4 OCH2 )-1,2-C2 B10 H11 (TELLAX [54]) showing the intramolecular C­H · · · O interaction.
+
+M.A. Fox, A.K. Hughes / Coordination Chemistry Reviews 248 (2004) 457­476
+
+467
+
+Table 10 Data characterising carborane cage C­H · · · C6 ring interactions for co-solvates of substituted ortho-, meta- and para-carboranes. The C­C distances in the cluster are given, together with the H · · · ring centroid distances Refcode Ortho BZOCBNa COSJAV Reference [102] [14] C­C 1.62 1.638(6) 1.647(6) 1.651(6) 1.621(4) 1.658(5) 1.6225(5) 1.633, 1.642 1.62 1.620, 1.617, 1.624, 1.600 1.666(9) 1.621(4) 1.612(4) 1.611(6) 1.625(6) 2.62 2.60 3.11 Link (CH2 C6 H4 )3 C6 H3 1-R B­R 4-PhCH2 O CHCl3 Solvent Inter Intra H· · · Cent 2.486 3.152 3.161 3.172 2.621 2.427 2.477 2.993 2.36 2.479 3.46 2.276 2.246, 2.492, 2.454, 2.318, 2.54 2.72 2.81
+
+HECSUD JENBOT OCATER TAVNAF TOLCABa,b XEHVUB ZAYMOB CCDC-202913c CCDC-202914c CCDC-202915c CCDC-202916c Meta DOMJAQa YOSZOV Para NEVCAS
+a
+
+[103] [104] [105] [106] [30] [107] [108] [108] [108] [108] [109] [97] [110]
+
+Link CH2 PPh2 Ru (CO)2 ClPPh2 CH2 Link C6 H4 C6 H4
+
+9-SPPh2 Link 3-Ru 3-Ph 2 C 6 H6 4-MeC6 H4 9,12-(4-F-C6 H4 )2
+
+Inter Intra Inter Inter Inter Inter Inter Inter Inter Inter Inter Inter Inter Inter
+
+PPh2 9,12-(C6 H5 )2 9,12-(4-OMe-C6 H4 )2 9,12-(4-Cl-C6 H4 )2 9,12-(4-OH-C6 H4 )2 9-Ph Ph Link C6 H4 CCC6 H4 Et2 O
+
+2.263 2.419, 2.454 2.421
+
+Structural data retrieved from the CSD does not contain hydrogen atoms. Cage C­H atoms were added in idealised positions at normalised C­H distances. b Only one cage C atom positively located--see Fig. 17. c Structure is not in the released version of the CSD. CCDC deposition numbers are used instead of refcodes. C­H· · · distances are those quoted in ref. [109], and the C­H distances are not normalised.
+
+Organic compounds do not provide examples of C­H · · · I-C interactions because the C­I bond is almost non-polar due to the similar electronegativities of these atoms. The reported examples of hydrogen bonding to iodine involve ionic iodide. In contrast, since boron is more electropositive than carbon, B­I bonds are polar and do
+
+provide the potential for C­H · · · I-B interactions. The first examples of C­H · · · I interactions were reported recently in the crystal structures of the carboranes, 3-I-1,2-C2 B10 H11 [25] and 9,12-I2 -1,2-C2 B10 H10 [10] In this present study, we have identified five further examples with C­H · · · I contacts from earlier crystal structures of carboranes.
+
+Table 11 Data characterising carborane cage C­H · · · C5 ring Refcode QEQFUN GULQEJ GUMGUQ GUMHAX GUMHOL HOJWIM HOJWOS PUMHAG QOMCUQ QOMDAX VAGGEP VAGGIT XAJQOO XIGJIG Reference [111] [112] [113] [113] [113] [114] [114] [115] [116] [116] [117] [114] [118] [119] C­C 1.666 1.642 1.623, 1.633 1.566-1.670 1.641-1.695 1.691 1.643, 1.653 1.646, 1.651 1.675, 1.679 1.639, 1.682 1.663 1.614, 1.629 1.658 1.667 1-R
+
+interactions for co-solvates of substituted ortho-carboranes Co-crystal (C5 Me5 )2 Yb Inter Inter Intra Intra Intra Intra Intra Inter Intra Intra Intra Intra Intra Intra H· · · Cent 2.365 2.874 2.578 2.586 2.547 2.678 2.771, 2.702. 2.978 3.125, 2.848 2.743, 2.514 2.679,
+
+SiMe2 C9 H6 Er(ClNa(THF)3 )C9 H6 SiMe2 C2 B10 H10 Link CMe2 C5 H4 Sm(THF)2 (Cl)C5 H4 CMe2 Three way (CMe2 C5 H4 )3 Sm and C6 H5 Me Link CMe2 C5 H4 Yb(THF)2 C5 H4 CMe2 SiMe2 C5 H4 Yb(THF)3 Cl2 Link SiMe2 C5 H4 Sm(THF)3 ClC5 H4 SiMe2 Link SiMe2 C5 H4 Yb(THF)2 C5 H4 SiMe2 [SiMe2 C5 Me4 Sm3 Cl7 OLi(Et2 O)Li(THF)C5 Me4 SiMe2 ]2 SiMe2 C5 Me4 NdCl2 (Li(THF)(Et2 O)C5 Me4 SiMe2 SiMe2 C5 H4 NdCl2 (THF)3 SiMe2 C5 H4 NdCl(THF)3 C5 H4 SiMe2 SiMe2 C9 H6 Yb(THF)Na(THF)3 C9 H6 SiMe2 C2 B10 H10 I Pr NBC H 2 9 6
+
+2.902 2.967 3.161 2.970 2.874
+
+The C­C distances in the cluster are given, together with the H · · · ring centroid distances.
+
+468
+
+M.A. Fox, A.K. Hughes / Coordination Chemistry Reviews 248 (2004) 457­476
+
+Table 12 Data characterising carborane cage C­H · · · P interactions for substituted ortho-carboranes Refcode QEVSOZa QEVSUFa Reference [120] [120] C­C 1.644(3) 1.691(16), 1.719(16) 1-R Me2 PCH2
+t Bu 2 PCH2
+
+H· · · P Intra Inter Intra Intra 2.94 2.94 3.05 3.02
+
+C­H · · · P 102.7 136.1 101.8 102.8
+
+C· · · P 3.35 3.79 3.43 3.43
+
+a Structural data retrieved from the CSD does not contain hydrogen atoms. Cage C­H atoms were added in idealised positions at normalised C­H distances.
+
+Table 13 Data characterising carborane cage C­H · · · H-B interactions Refcode Ortho BOFPOB NURLER OCATER OCATER01 TIJTAH XOWSIL YIGQAG ZUHTOL ZUHTOL01 Para BCABOR10 NEVCEW ZAKYUP Reference [121] [72] [105] [122] [55] [123] [122] [124] [125] [126] [110] [98] C­C 1.622(2) 1.676(9) 1.6225(5) 1.626(3) 1.631(2) 1.655(4) 1.671(6) 1.649(2) 1.640(5) 3.078(4) 3.10, 3.11 3.17 C6 H4 CCPh 2,9-Ph2 1-R B­R 3-(8 -5 ,6 -B8 C2 H11 ) Link C6 H4 CB10 H10 CC6 H4 3-Ph 3-Ph CO2 H CH2 S(Me)B12 H10 SMe2 Ph Ph Ph 3-Br MeCN Solvent Inter Inter Inter Inter Inter Inter Inter Inter Inter Inter Inter Inter Inter H···H 2.31 2.2 2.174 2.2 2.162 2.184 2.514 2.064 2.346 2.368 2.30 2.40 2.33 2.32 C­H · · · H 137.9 156.9 165.8 164.5 127.5 127 109 147.1 155.6 135.3 130.8 139.5 131.4 106.5 C···B 3.99 4.10 3.84 3.86 3.72 3.84 3.91 4.17 3.83 3.96 4.00 3.97 3.15 4.11
+
+2-(2 -1 ,12 -C2 B10 H11 )
+
+4.5. ­hydrogen bonds in crystal structures of icosahedral carboranes (X = arene, alkyne) The first solid-state structure containing a interaction between an acidic carborane cage hydrogen and an arene ring was reported in 1984 (COSJAV) [14]. Subsequently, Raston and his research group have reported at least five examples of ortho-carborane-arene co-crystals containing intermolecular contacts between the acidic hydrogen of 1,2C2 B10 H12 and the centre of an arene ring. The data charac-
+
+terising these arene complexes are listed in Table 9. Raston's co-crystals have interesting `ball and socket' architectures with the ortho-carborane as the `ball' and the cyclotriveratrylene (CTV) or calix[5]arene as the `socket'. An example of this `ball and socket' feature is shown in Fig. 10.
+
+Fig. 7. Intramolecular C­H · · · S interactions in the platinum complex (C2 B10 H11 S)2 PtN2 C12 H6 Ph2 (PUSFUE [77]).
+
+Fig. 8. The molecular structure of DPCBPT (ref. [87]) Hydrogen atoms, other than that involved in the interaction, are omitted. The cage carbon C28 is ordered as a result of a hydrogen bond to the metal-bound chloride ligand. The sites labelled C14 and B5 in the second cage are not involved in any C­H · · · X interaction and are 50:50 disordered carbon and boron.
+
+M.A. Fox, A.K. Hughes / Coordination Chemistry Reviews 248 (2004) 457­476
+
+469
+
+Fig. 11. The molecular structure of [(C2 B10 H11 )SiMe2 ( -C5 H4 )]2 NdCl(THF)2 (VAGGIT [117]), showing the presence of two cage C­H· · · C5 interactions. Hydrogen atoms, other than those involved in the interaction, have been omitted for clarity. Fig. 9. Part of the extended structure of 1-Cl3 GaN(Me2 )CH2 -1,2-C2 B10 H11 (MECHOR [87]), showing intermolecular C­H · · · Cl-Ga contacts.
+
+There are also examples of substituted ortho-, meta- and para-carboranes with C­H · · · (C6 ) interactions, and the data for these interactions are listed in Table 10. Whilst this review was in preparation, Hawthorne and co-workers reported the synthesis and structural characterisation, including C­H · · · (C6 ) hydrogen bonding, of a number of 9,12(aryl)2 -ortho-carboranes, and data for these are included in the table, using their CCDC codes. Recent interest in carborane functionalised cyclopentadienyl ligands, and their complexes with early transition metals and lanthanides provides examples of carborane cage C­H · · · (C5 ) intramolecular interactions. Most of the examples are found in lanthanide complexes of C5 H4 ­SiMe2 ­C2 B10 H11 and a typical example appears in Fig. 11. Such interactions are likely to be favoured by the known highly ionic nature of cyclopentadienyl coordination to the electropositive lanthanides, so the acidic cage C­H is directed towards the negatively charged C5 H4 fragment. Xie et al. have reported twelve such examples, and the co-crystal
+
+(C5 Me5 )2 Yb: ortho-carborane has also been described. The only example of a metal-free carborane with C­H · · · (C5 ) interactions is 1-i Pr 2 NB(C9 H6 )-1,2-C2 B10 H11 (XIGJIG). Data for C­H · · · (C5 ) interactions are listed in Table 11. Interesting C­H · · · interactions are found in the crystal structure of a compound which contains two para-carborane cages linked by a four-carbon diyne chain, (2-(1,12C2 B10 H11 )CC)2 (TINKIK) [26]. The diyne is attached to each cluster at a boron atom, leaving two cage C­H groups available for hydrogen bonding to CC bonds in adjacent chains. There are eight unique C­H · · · C(yne) contacts (H · · · C 2.65­2.81 Å, C­H · · · C angle 176.2­140.5 , C · · · C 3.63­3.89 Å) and the supramolecular assembly is complex (Fig. 12). 4.6. Phosphorus­hydrogen bonds in crystal structures of icosahedral carboranes (X = P) The structures of 1-R2 PCH2 -1,2-C2 B10 H11 with R = Me (QEVSOZ) or t Bu (QEVSUF) appear to contain intramolecular C­H · · · P contacts, the details of which appear in
+
+Fig. 10. A view of the host guest complex of 1,2-C2 B10 H12 with cyclotriveratrylene (TUQTEE ref. [100]) showing two favourable C­H· · · arene( ) interactions, and one unfavourable B­H· · · arene( ) interaction. Hydrogen atoms on the cyclotriveratrylene are omitted for clarity.
+
+Fig. 12. Partial packing diagram showing one set of cage C­H· · · C(yne) interactions in (2-(1,12-C2 B10 H11 )CC)2 (TINKIK [26]). A second plane of contacts is approximately orthogonal to this plane. Hydrogen atoms, other than those involved in the interactions, are omitted.
+
+470
+
+M.A. Fox, A.K. Hughes / Coordination Chemistry Reviews 248 (2004) 457­476
+
+Fig. 15. The structure of 1-Ph-1,2-C2 B10 H11 (ZUHTOL ref. [124]) showing the presence of a short C­H · · · H-B contact. Fig. 13. The H · · · H dihydrogen contact between the acidic cage C­H and hydridic Pt­H in GUQDAX [28].
+
+Table 12. The H · · · P distances involved in these cases are longer than the sum of van der Waals radii, and these may be examples of electronically preferred orientation of the C­P bond coplanar with the cage C­C bond. It is the case though, that the unsubstituted C­H is located accurately, with no disorder of the cage carbon atom. Again, as for sulfur, only structures of ortho-carboranes are found to contain these phosphorus contacts. 4.7. Hydrogen­hydrogen bonds in crystal structures of icosahedral carboranes (X = H) It is now recognised that close contacts between polar, acidic, N­H, O­H and C­H hydrogen atoms with hydridic hydrogen atoms make an important contribution to inter- and intra-molecular secondary bonding [27]. Such interactions are frequently described as "dihydrogen bonds". Two examples have been found with close dihydrogen contacts involving the acidic cage hydrogen of carboranes. A platinum complex with two ortho-carborane cages and a Pt­H bond has an H · · · H distance of 2.20 Å (GUQDAX) (Fig. 13) [28]. The hydrogen at the metal is obviously hydridic in character. The ortho-carborane: 1,10-phenanthroline co-crystal (BOVQUY) contains an H · · · H distance of 2.18 Å (Fig. 14). The carbon atom in the phenanthroline molecule which is attached to the hydrogen involved in the interaction has a high positive charge, making the hydrogen atom itself hydridic in character.
+
+In addition, there are several examples of short C­H · · · H­B contacts in the solid-state structures of carboranes (Fig. 15 and Table 13). For the many early structures where the CSD does not retain hydrogen atom position data, there are examples where the C­H · · · B distances suggest that there are short contacts between the acidic C­H and the H­B hydrogen atoms, although these have been excluded from the table. If boron atoms or hydrogens attached to boron atoms of the carborane cage are regarded as donor atoms in these structures, then these short contacts may be regarded as either very weak hydrogen bonds or purely electrostatic interactions [15,29].
+
+5. Hydrogen bonding and disorder Given the spherical nature and low polarity of the C2 B10 skeleton, carboranes are often found to have C/B site disorder in the absence of either a substituent at carbon, a cage C­H · · · X contact, a strongly preferred substituent orientation or a packing effect in the crystal. Consider the B-substituted benzyloxy carborane 4PhCH2 O-1,2-C2 B10 H11 (BZOCBN) as an example. This is a structure with a moderately high R-factor (15.0%) and the hydrogen atom coordinates are not available, but the positions of the two carbon atoms have been reliably located, on the basis of the observed bond lengths. For the purposes of our study, hydrogen atoms have been placed on the cluster carbon atoms in idealised locations. A 4-substituted orthocarborane may be expected to have C/B disorder with one carbon and four boron atoms occupying the five positions (C1, B3, B5, B9, B10) in random, next to the substituted boron (B4) in one belt. Another carbon and four boron atoms would randomly occupy the five other positions in another belt (C2, B6, B8, B11, B12). In this example these two carbons are ordered due to C­H · · · O and C­H · · · contacts with a second carborane molecule in the crystal (Fig. 16). Now let us use a related derivative 4-(p-MeC6 H4 )1,2-C2 B10 H11 (TOLCAB) where similar C/B disorder may occur [30]. In this case one carbon (C2) is ordered with intermolecular C­H · · · contacts. The carbon next to the substituted boron has no C­H · · · X contact and therefore with a boron atom randomly occupy two positions (C1/B3) (Fig. 17).
+
+Fig. 14. The C­H · · · N and C­H · · · H-C interactions in the co-crystal of ortho-carborane: 1,10-phenanthroline (BOVQUY [39]).
+
+M.A. Fox, A.K. Hughes / Coordination Chemistry Reviews 248 (2004) 457­476
+
+471
+
+Fig. 16. Two molecules of benzyloxy carborane 4-PhCH2 O-1,2-C2 B10 H11 (BZOCBN [102]), showing the presence of C­H · · · O and C­H · · · contacts, creating a dimer with ordered carbon atoms.
+
+We have found only two compounds whose structures are contained in the CSD and where the C­H and B­H sites are apparently ordered, either on the basis of reasonable C­C and C­B distances, or by examination of the thermal data in the original publication, and where we cannot find even very long C­H · · · X interactions. There is no clear C­H · · · X interaction in the ferrocene derivative 1-(C5 H5 FeC5 H4 )-1,2-C2 B10 H11 [31], where the cage C­H hydrogen atom is directed into the space between the two cyclopentadienyl ligands, although at a distance too far from the iron atom to be considered bonding. Finally, although 2,9-(Me3 SiCC)2 -1,12-C2 B10 H10 (TINKOQ) [26] is remarkably similar in molecular structure to (2-(1,12C2 B10 H11 )CC)2 (TINKIK) [26], there is no evidence for a C­H · · · (alkyne) interaction.
+
+6. Molecular structures of 1,2-, 1,7- and 1,12-C2 B10 H12 The tables presented earlier in this work have summarised the structural chemistry of icosahedral C2 B10 carboranes containing at least one C­H group and with cage ordering, and have demonstrated that many of these compounds have ordered solid-state structures resulting from C­H · · · X interactions of varying strengths. In some cases these are genuine C­H · · · X hydrogen bonds, whilst in other cases the interaction is at the limit of acceptable lengths of hydrogen bonds and might be better considered as an acidic and dipolar C­H bond aligning itself preferentially with another polar or dipolar site in the crystal. It is not our intention to discuss what is a hydrogen bond [16], but merely to indicate the significance of such interactions in the solid state chemistry of icosahedral carboranes. We have also presented cases where an interaction results in the localisation of one C­H bond in a molecule, whilst the lack of a suitable interaction means that a second C­H site is disordered with adjacent B-H sites. We would conclude that the vast majority of the ordered structures reported in the CSD have cage C­H · · · X contacts. Of all structurally characterised carboranes, the accuracy of the molecular structure of the parent ortho-carborane, 1,2-C2 B10 H12 , is regarded as of vital importance from which to make comparisons with molecular structures of mono-, di- and poly-substituted ortho-carborane derivatives. There are in fact many more crystal structures of orthocarboranes than those listed here, e.g., we have not tabulated 1,2-disubstituted-ortho-carboranes since these contain no C­H vertices. In the absence of a co-crystallised solvent engaging in hydrogen bonding, 1,2-C2 B10 H12 has not given crystals from which a satisfactory solid-state structure can be determined. There are now several well defined crystal structures of ortho-carborane, which do contain C­H · · · X interactions. So far the most accurate molecular structure reported (based on the esds) is in the co-crystal with 1,10-phenanthroline (BOVGUY) (Fig. 14). This structure reveals a cage C­C bond length of 1.620(3) Å, and has other cage bond distances listed in Table 14. This table also includes parame-
+
+interaction leads to an ordered Fig. 17. Part of the extended structure of 4-(p-MeC6 H4 )-1,2-C2 B10 H11 (TOLCAB [30]), showing how a C­H· · · location for the C­H unit on C2, and the absence of any interaction results in a boron and carbon atom occupying the sites labelled BC1 and BC2 with 50% probability. Hydrogen atoms other than that on C2 are omitted.
+
+472
+
+M.A. Fox, A.K. Hughes / Coordination Chemistry Reviews 248 (2004) 457­476 Table 15 A comparison of the bond lengths (Å) in the best reported solid-state structure of 1,7-C2 B10 H12 , as its co-solvate with (Me2 N)3 PNH, and the optimised structure at the MP2/6-31G level of theory Bond C1­B2/B3, C7­B2/B3 C1­B4/B6, C7­B8/B11 C1­B5, C7­B12 B2­B3 B2­B6/B11, B3­B4/B8 B5­B4/B6, B12­B8/B11 B9­B4/B8, B10­B6/B11 B5­B9/B10, B12­B9/B10 B4­B8, B6­B11 B9­B10 C1 · · · C7 X-ray 1.692(3) 1.709(3) 1.708(2) 1.778(2) 1.763(3) 1.777(3) 1.778(3) 1.772(3) 1.767(2) 1.782(2) 2.614 MP2/6-31G 1.688 1.709 1.706 1.781 1.765 1.778 1.775 1.772 1.765 1.789 2.598 Difference -0.004 0.000 -0.002 +0.003 +0.002 +0.001 -0.003 0.000 -0.002 +0.007 -0.016
+
+Table 14 A comparison of the bond lengths (Å) in the best reported solid-state structure of 1,2-C2 B10 H12 , as its co-solvate with 1,10-phenanthroline (BOVGUY), and the optimised structure at the MP2/6-31G level of theory Bond C1­C2 C1­B3/B6, C2­B3/B6 C1­B4/B5, C2­B7/B11 B3­B8, B6­B10 B3­B4/B7, B6­B5/B11 B4­B5, B7­B11 B4/B5­B9, B7/B11­B12 B8­B9/B12, B10­B9/12 B9­B12 X-ray (BOVGUY) 1.620(3) 1.711(4) 1.686(4) 1.758(3) 1.769(4) 1.775(3) 1.773(4) 1.786(4) 1.776(3) MP2/6-31G 1.618 1.714 1.692 1.761 1.773 1.781 1.773 1.786 1.779 Difference -0.002 +0.003 +0.006 +0.003 +0.004 +0.006 0.000 0.000 +0.003
+
+The C1 · · · C7 vector is not a bond, but is included for completeness.
+
+ters of the optimised geometry at the accurate level of theory. The agreement between these two geometries is excellent and the misfit value on geometrical fitting between the two is only 0.0051 Å (sum of root mean square deviation) for the boron and carbon cage atoms. For the parent meta-carborane, 1,7-C2 B10 H12 the most accurate molecular structure reported so far is in the co-crystal with iminotris(dimethylamino)phosphorane, (Me2 N)3 P=NH, which has a hydrogen-bonded chain [19,20]. Table 15 lists the bond distances of the experimental geometry along with bond distances of the optimised geometry of 1,7-C2 B10 H12 at MP2/6-31G level of theory. The misfit value on geometrical fitting between the two geometries is only 0.0053 Å (sum of root mean square deviation) for the boron and carbon cage atoms. In the case of para-carborane, 1,12-C2 B10 H12 the most accurate experimental structure at present is in the 1:2 cocrystal with the salt (Me2 N)3 PNH2 + HCO3 - as shown in Fig. 18 [19,24]. For para-carborane, the misfit value on ge-
+
+MP2/6-31G
+
+ometrical fitting between the two experimental and MP2optimized geometries is 0.0075 Å for the heavy cage atoms. Bond distances for these geometries are listed in Table 16. The earlier co-solvates of ortho-, meta- and para-carborane with hexamethylphosphoramide, hmpa; (Me2 N)3 P=O (TOKGIJ, TOKGOP and TOKGUV respectively, shown in Fig. 19) are less accurate structures (higher esds) showing larger rms deviations of the heavy atoms from the MP2 optimised geometries, ortho--0.0091 Å, meta--0.0142 Å, and para--0.0114 Å. Molecular structures of 1,2-C2 B10 H12 , 1,7-C2 B10 H12 and 1,12-C2 B10 H12 were determined by gas-phase electron diffraction in 1971, but the results were of low accuracy [32]. More accurate gas-phase data for these carboranes are desirable to assess the true effect of the weak hydrogen bonds on the carborane geometries in the solid state and also to compare with the MP2-optimized `gas-phase' geometries.
+
+Fig. 18. The structure of 1,12-C2 B10 H12 ·2{[(Me2 N)3 PNH2 ]+ (HCO3 )- } showing the presence of an extensive hydrogen bonding network between the carborane C­H and oxygen of hydrogen carbonate as well as between iminiumtris(dimethylamino)phosphorane and hydrogen carbonate [19,24].
+
+M.A. Fox, A.K. Hughes / Coordination Chemistry Reviews 248 (2004) 457­476
+
+473
+
+Fig. 19. The structures of the co-crystals of hexamethylphosphoramide, hmpa; (Me2 N)3 P=O with (a) 1,2-C2 B10 H12 , producing a hydrogen bonded dimer, (b) 1,7-C2 B10 H12 , producing a hydrogen-bonded chain and (c) 1,12-C2 B10 H12 , also a chain [56]. Table 16 A comparison of the bond lengths (Å) in the best reported solid-state structure of 1,12-C2 B10 H12 , as its co-solvate with [(Me2 N)3 PNH2 ]+ (HCO3 )- , and the optimised structure at the MP2/6-31G level of theory X-ray C­B B­B (tropical, e.g. B2­B3) B­B (meridianal, e.g B2­B7) C1 · · · C12 1.704(3) 1.777(3) 1.765(3) 3.071 MP2/6-31G 1.703 1.781 1.762 3.047 Difference -0.001 +0.004 -0.003 -0.024
+
+The C1 · · · C12 vector is not a bond, but is included for completeness.
+
+7. Theoretical studies of C­H · · ·X interactions in carboranes Raston et al. reported the first ab initio computations on C­H · · · X interactions of ortho-carborane with proton acceptor molecules at the HF/6-31G level of theory. With symmetry constraints the favourable energy computed was 2.7 kcal mol-1 for C­H. . . arene( ) interaction with benzene [100], 9.3 kcal mol-1 for the docking with 1,11-diaza-18-crown-6, 3.7 kcal mol-1 for the C­H · · · O interaction with dimethyl ether and 0.9 kcal mol-1 for the C­H · · · N interaction with dimethylamine [33]. Without symmetry constraints the attraction energy of the bifurcated C­H · · · O2 interaction between 1,2-dimethoxybenzene and ortho-carborane was 5.5 kcal mol-1 [44]. Of these optimised geometries, none can be compared with experimentally determined solid-state structures where no C/B cage disorder is present. Thus the accuracy of the HF/6-31G level of theory has not been demonstrated for carboranes with intermolecular C­H · · · X interactions. More theoretical studies on C­H · · · X intermolecular interactions of carboranes are desirable to exploit the role of carboranes in supramolecular chemistry and crystal engineering. With no symmetry constraints, the benzene molecule near one cage C­H proton in the starting geometry moves over to interact with both cage C­H protons at HF/6-31G with an attraction energy of only 0.3 kcal mol-1 and confirmed as a true minimum by a frequency calculation [34]. However at MP2/6-31G the benzene molecule reverts to interact with one cage C­H proton with the attraction energy of ca 1.0 kcal mol-1 . In
+
+the MP2 fully optimised geometry the C­H · · · centroid distance is 2.220 Å--a more realistic value than 2.694 Å reported at the HF/6-31G level [100] when compared with experimental distances in Tables 9 and 10. For accurate modelling of C­H · · · X interactions it is necessary to consider correlation effects, so MP2 or DFT levels of theory should be used [15]. Recently, several known carboranes with intramolecular C­H · · · N interactions were examined at the MP2/6-31G level of theory [22]. The compound 2-pyridyl-ortho-carborane was computed to have a remarkably strong intramolecular C­H · · · N interaction with an energy of 5.4 kcal mol-1 . Energies of intramolecular C­H · · · N interactions between 2.4 and 3.1 kcal mol-1 were determined for four other nitrogencontaining carboranes. The agreement between experimental and MP2-optimized geometries for these carboranes are excellent--including the C · · · N distances where C­H · · · N interactions are present. The agreement between computed proton shifts from MP2-optimized geometries and observed proton shifts for these carboranes are also very good.
+
+8. Conclusions In conclusion, we note the following aspects of the structural chemistry of mono-substituted carboranes. The weakly acidic C­H group of a carborane appears to behave in a very similar fashion to the similarly acidic C­H group of an alkyne [35], and the crystal engineering potential of ortho-, meta- and para-carboranes has yet to be fully exploited. The solid-state structures of many closo-C2 B10 carboranes are potentially subject to disorder of the near spherical carborane cage. The nature of the disorder makes it occasionally difficult to model. Although the CSD does contain published disordered carborane structures not listed in this review (see footnote 1), personal experience and anecdotal evidence suggests that many more disordered structures remain unpublished. The published ordered structures appear to present some feature which promotes this order. Significant C­H · · · X hydrogen-bonding interactions have been noted previously, but our survey of the CSD reveals that al-
+
+474
+
+M.A. Fox, A.K. Hughes / Coordination Chemistry Reviews 248 (2004) 457­476 (c) M.F. Hawthorne, Acc. Chem. Res. 1 (1968) 281; (d) A.K. Saxena, N.S. Hosmane, Chem. Rev. 93 (1993) 1081; (e) A.K. Saxena, J.A. Maguire, N.S. Hosmane, Chem. Rev. 97 (1997) 2421. F.H. Allen, O. Kennard, Chem. Des. Autom. News, 8 (1) (1993) 31. A.S. Batsanov, M.A. Fox, J.A.K. Howard, A.K. Hughes, A.L. Johnson, S.J. Martindale, Acta Cryst. C59 (2003) 74 (WURVOU). M.B. Smith, J. March, "March's Advanced Organic Chemistry, Reactions, Mechanisms and Structure", fifth ed., Wiley/Interscience, New York, 2001, p. 331. (a) L.A. Leites, N.A. Ogorodnikova, L.I. Zakharkin, J. Organomet. Chem. 15 (1968) 287; (b) L.A. Leites, Chem. Rev. 92 (1992) 279. (a) L.I. Zakharkin, V.N. Kalinin, V.S. Kozlova, V.A. Antonovich, Zh. Obshch. Khim. 43 (1973) 844; L.I. Zakharkin, V.N. Kalinin, V.S. Kozlova, V.A. Antonovich, J. Gen. Chem., U.S.S.R. (Engl. Transl.) (1973) 844; (b) W. Jarvis, W. Inman, B. Powell, E.W. DiStefano, T. Onak, J. Magn. Reson. 43 (1981) 302. S.V. Lindeman, V.E. Shklover, Yu.T. Struchkov, I.A. Khotina, T.M. Salykhova, M.M. Teplyakov, V.V. Korshak, Makromol. Chem. 185 (1984) 417. M.J. Calhorda, Chem. Commun. (2000) 801. (a) T. Steiner, Angew. Chem. Int. Ed. 41 (2002) 49; (b) T. Steiner, G.R. Desiraju, Chem. Commun. (1998) 891; (c) G.R. Desiraju, Acc. Chem. Res. 35 (2002) 565; (d) G.R. Desiraju, T. Steiner, The weak hydrogen bond in structural chemistry and biology, IUCr Monographs on Crystallography, vol. 9, Oxford, OUP/IUCr 1999; (e) M. Nishio, M. Hirota, Y. Umezawa, The C-H-pi interaction: Evidence, Nature and Consequences, Wiley-VCH, 1988; (f) G.A. Jeffrey, An Introduction to Hydrogen Bonding, Oxford, OUP, 1997; (g) T. Steiner, Chem. Commun. 22 (1999) 2299. J. Llop, C. Viñas, J.M. Oliva, F. Teixidor, M.A. Flores, R. Kivekas, R. Sillanpää, J. Organomet. Chem. 657 (2002) 232. R.J. Peace, Ph.D. Thesis, University of Durham, 1996. M.G. Davidson, M.A. Fox, F.L. Gray, T.G. Hibbert, K. Wade, Spec. Publ. R. Soc. Chem. 253 (2000) 223. T.G. Hibbert, Ph.D. Thesis, University of Durham, 1997. (a) K. Wade, M.G. Davidson, M.A. Fox, W.R. Gill, T.G. Hibbert, J.A.H. MacBride, Phosphorus Sulfur Silicon 125 (1997) 73; (b) L.A. Boyd, H.M. Colquhoun, M.G. Davidson, M.A. Fox, W.R. Gill, P.L. Herbertson, T.G. Hibbert, J.A.H. MacBride, R.J. Peace, G.P. Rivers, K. Wade, Spec. Publ. R. Soc. Chem. 201 (1997) 289. E.S. Alekseyeva, A.S. Batsanov, L.A. Boyd, M.A. Fox, T.G. Hibbert, J.A.K. Howard, J.A.H. MacBride, A. Mackinnon, K. Wade, Dalton Trans. (2003) 475 (REJMUO01). A.R. Oki, O. Sokolova, R. Barnett, G. Pardhiva, Synth. React. Inorg. Met. Org. Chem. 28 (1998) 757 (REJMUO). A.S. Batsanov, M.G. Davidson, M.A. Fox, J.A.K. Howard, K. Wade, unpublished results. G. Barberà, C. Viñas, F. Teixidor, G.M. Rosair, A.J. Welch, Dalton Trans. (2002) 3647 (EGUFUH). W. Jiang, D.E. Harwell, M.D. Mortimer, C.B. Knobler, M.F. Hawthorne, Inorg. Chem. 35 (1996) 4355 (TINKOQ TINKIK). (a) W.T. Klooster, T.F. Koetzle, P.E.M. Siegbahn, T.B. Richardson, R.H. Crabtree, J. Am. Chem. Soc. 121 (1999) 6337; (b) L.M. Epstein, E.S. Shubina, Coord. Chem. Rev. 231 (2002) 165. Y.-J. Lee, J.-Y. Bae, S.-J. Kim, J. Ko, M.-G. Choi, S.O. Kang, Organometallics 19 (2000) 5546 (GUQDAX). C. O'Dowd, J.D. Kennedy, M. Thornton-Pett, J. Organomet. Chem. 657 (2002) 20. V.N. Kalinin, N.I. Kobel'kova, A.V. Astakhin, A.I. Gusev, L.I. Zakharkin, J. Organomet. Chem. 149 (1978) 9 (TOLCAB). C.L. Beckering, G.M. Rosair, A.S. Weller, J. Organomet. Chem. 556 (1998) 55 (GAQQUK).
+
+most all structurally ordered examples of mono-substituted closo-C2 B10 carboranes employ their remaining acidic C­H group in an interaction with an electronegative atom or a -electron rich ligand. The strengths of these interactions, as judged by the H · · · X distance, varies greatly, and whilst many of the examples are previously unrecognised genuine hydrogen-bonds, in some cases the hydrogen-bond "length" is somewhat greater than is normally expected. Given the shape of a Morse-potential energy curve, even a very weak long hydrogen bond can be expected to be attractive, and make a contribution to the enthalpy of the system. In the cases of ordered carborane structures the hydrogen-bonding enthalpy appears to outweigh the entropy associated with cage disorder.
+
+[9] [10] [11]
+
+[12]
+
+[13]
+
+Acknowledgements We acknowledge the use of the EPSRC Chemical Database Service at Daresbury Laboratory. MAF thanks EPSRC for an Advanced Research Fellowship.
+
+[14]
+
+[15] [16]
+
+References
+[1] R.N. Grimes, "Carboranes", Academic Press, New York, 1970, p. 54. [2] Gmelin Handbook of Inorganic Chemistry, Springer-Verlag, Berlin, FRG, Borverbindungen 11, 1977; Gmelin Handbook of Inorganic Chemistry, Springer-Verlag, Berlin, FRG, Borverbindungen 12, 1977; Boron Compounds, vol. 3, Suppl. 1, 1980, p. 206; Boron Compounds, vol. 2, Suppl. 2, 1982, p. 277; Boron Compounds, vol. 4, Suppl. 3, 1988. [3] (a) V.I. Bregadze, Chem. Rev. 92 (1992) 209; (b) L.I. Zakharkin, in: B. St´br (Ed.) "Boron Compounds", IUPAC, i London, 1972, p. 513.; (c) S. Bresadola, in: R.N. Grimes (Ed.), Metal Interactions with Boron Clusters, Plenum Press, New York, 1982, p. 173. [4] (a) A.H. Soloway, W. Tjarks, B.A. Barnum, F.-G. Rong, R.F. Barth, I.W. Codongi, J.G. Wilson, Chem. Rev. 98 (1998) 1515; (b) J.F. Valliant, K.J. Guenther, A.S. King, P. Morel, P. Schaffer, O.O. Sogbein, K.A. Stephenson, Coord. Chem. Rev. 232 (2002) 173; (c) M.F. Hawthorne, A. Maderna, Chem. Rev. 99 (1999) 3421; (d) V. Tolmachev, S. Sjöberg, Coll. Czech. Chem. Commun. 67 (2002) 913. [5] (a) J.F. Ditter, Gmelin Handbuch der Anorganischen Chemie, vol. 27 (6), Springer-Verlag, Berlin-Heidelberg, 1975, p. 69.; (b) H.M. Colquhoun, D.F. Lewis, P.L. Herbertson, K. Wade, I. Baxter, D.J. Williams, Spec. Publ. R. Soc. Chem. 253 (2000) 59; (c) V.V. Korshak, M.M. Teplyakov, I.A. Khotina, A.I. Kovalyev, Acta Polymerica 39 (1988) 440; (d) S.V. Lindeman, I.A. Khotina, M.M. Teplyakov, Y.T. Struchkov, V.V. Korshak, Makromol. Chem. 189 (1988) 471. [6] J. Plesek, Chem. Rev. 92 (1992) 269. [7] (a) P.C. Andrews, C.L. Raston, J. Organomet. Chem. 600 (2000) 174; (b) M.J. Hardie, C.L. Raston, Chem. Commun. (1999) 1153. [8] (a) R.N. Grimes, Coord. Chem. Rev. 200 (2000) 773; (b) R.N. Grimes, in: E.W. Abel, F.G.A. Stone, G. Wilkinson (Eds.), Comprehensive Organometallic Chemistry II, vol. 1, Pergamon Press, Oxford, 1995 (Chapter 9);
+
+[17] [18] [19] [20] [21]
+
+[22]
+
+[23] [24] [25] [26] [27]
+
+[28] [29] [30] [31]
+
+M.A. Fox, A.K. Hughes / Coordination Chemistry Reviews 248 (2004) 457­476 [32] R.K. Bohn, M.D. Bohn, Inorg. Chem. 10 (1971) 350. [33] P.D. Godfrey, W.J. Grigsby, P.J. Nichols, C.L. Raston, J. Am. Chem. Soc. 119 (1997) 9283. [34] M.A. Fox, unpublished results. [35] T. Steiner, Chem. Commun. (1995) 95. [36] A.I. Shatenshtein, L.I. Zakharkin, E.S. Petrov, E.A. Yakovleva, F.S. Yakushin, Z. Vukmirovich, G.G. Isaeva, V.N. Kalinin, J. Organomet. Chem. 23 (1970) 313. [37] A.N. Kashin, K.P. Butin, V.I. Stanko, I.P. Beletskaya, Izv. Akad. Nauk. SSSR Ser. Khim. 9 (1969) 1917; A.N. Kashin, K.P. Butin, V.I. Stanko, I.P. Beletskaya, Bull. Acad. Sci. USSR Div. Chem. Sci. (Engl. Transl.) (1969) 1775. [38] R. Mac´as, N.P. Rath, L. Barton, J. Organomet. Chem. 581 (1999) i 39 (BIQXAA). [39] M.J. Hardie, C.L. Raston, Cryst. Eng. Comm. (2001) 39 (BOVQOS BOVQUY). [40] A.I. Yanovsky, Yu.T. Struchkov, L.E. Vinogradova, L.A. Leites, Izv. Akad. Nauk SSSR, Ser. Khim. (1982) 2257; A.I. Yanovsky, Yu.T. Struchkov, L.E. Vinogradova, L.A. Leites, Bull. Acad. Sci. U.S.S.R, Div. Chem. Sci. (Engl. Transl.) (1982) 1988 (BULKIC). [41] A.V. Astakhin, V.N. Kalinin, V.V. Romanov, A.I. Gusev, N.I. Kobel'kova, L.I. Zakharkin, Zh. Strukt. Khim. 19 (1978) 555 (BZOCBN); A.V. Astakhin, V.N. Kalinin, V.V. Romanov, A.I. Gusev, N.I. Kobel'kova, L.I. Zakharkin, (Engl. Transl.) (1978) 484. [42] J.B. Chen, G.X. Lei, W.H. Xu, Z.Y. Zhang, X.J. Xu, Y.Q. Tang, Zhongguo Kexue B (Sci. China, Ser. B (Chinese ed.)) (1986) 688 (FAXJOD FAXJOD01). [43] L.M. Rendina, J.A. Todd, E.R.T. Tiekink, Z. Kristallogr. New Cryst. Struct. 215 (2000) 259 (FUQFOM). [44] M.J. Hardie, P.D. Godfrey, C.L. Raston, Chem. A Eur. J. 5 (1999) 1828 (GOSYIW GOSYOC). [45] G. Harakas, T. Vu, C.B. Knobler, M.F. Hawthorne, J. Am. Chem. Soc. 120 (1998) 6405 (HIMHEQ). [46] J.F. Valliant, O.O. Sogbein, P. Morel, P. Schaffer, K.J. Guenther, A.D. Bain, Inorg. Chem. 41 (2002) 2731 (IFIPAO). [47] G. Crundwell, C. Arellanes, F. Gomez, K. Kantardjieff, Acta Crystallogr., Sect. C 55 (1999) 9900087 (HODPUL). [48] W. Chen, M. Diaz, J.J. Rockwell, C.B. Knobler, M.F. Hawthorne, C. R. Seances Acad. Sci., Ser. IIc 3 (2000) 223 (LOTJIN). [49] J.F. Valliant, P. Schaffer, J.F. Britten, A. Davison, A.G. Jones, J.C. Yanch, Tetrahedron Lett. 41 (2000) 1355 (MECZEZ). [50] M.M. Artigas, O. Crespo, M.C. Gimeno, P.G. Jones, A. Laguna, M.D. Villacampa, Inorg. Chem. 36 (1997) 6454 (NECFIK). [51] Y. Wu, P.J. Carroll, S.O. Kang, W. Quintana, Inorg. Chem. 36 (1997) 4753 (NIXFOP NIXFUV). [52] (a) D. Armspach, E.C. Constable, C.E. Housecroft, M. Neuburger, M. Zehnder, Supramolec. Chem. 7 (1996) 97 (ROHWAM); (b) D. Armspach, E.C. Constable, C.E. Housecroft, M. Neuburger, M. Zehnder, J. Organomet. Chem. 550 (1998) 193 (ROHWAM01). [53] V. Subrtovà, V. Pet´cek, K. Malý, Collect. Czech. Chem. Commun. ri  56 (1983) 1991 (SUBHOM). [54] J.M. White, S. Bateman, D.P. Kelly, R.F. Martin, Acta Crystallogr., Sect. C 52 (1996) 2785 (TELLAX). [55] A.J. Welch, U. Venkatasubramanian, G.M. Rosair, D. Ellis, D.J. Donohoe, Acta Crystallogr., Sect. C 57 (2001) 1295 (TIJTAH). [56] M.G. Davidson, T.G. Hibbert, J.A.K. Howard, A. Mackinnon, K. Wade, Chem. Commun. (1996) 2285 (TOKGIJ TOKGOP TOKGUV). [57] S.H. Wu, D. van Engen, M. Jones Jr., Acta Crystallogr., Sect. C 46 (1990) 656 (VEGGAP VEGGET). [58] K.F. Shaw, A.J. Welch, Polyhedron 11 (1992) 157 (VUFLUD). [59] L.M. Rendina, J.A. Todd, E.R.T. Tiekink, Z. Kristallogr. N. Cryst. Struct. 215 (2000) 547 (XANDIZ). [60] L. Cr ciun, R. Custelcean, Inorg. Chem. 38 (1999) 4916 (XARCEY a XARCIC).
+
+475
+
+[61] Z. Zheng, C.B. Knobler, M.F. Hawthorne, J. Am. Chem. Soc. 117 (1995) 5105 (YUVDAU). [62] B. Zhu, Y. Yu, J. Chen, Q. Wu, Q. Liu, Organometallics 14 (1995) 3963 (ZEGXUE ZEGYAL). [63] A.I. Yanovsky, Yu.T. Struchkov, V.Ts. Kampel, L.V. Ermanson, N.N. Godovikov, V.I. Bregadze, Metalloorg. Khim. 6 (1993) 88 (HOMCER). [64] LAXWOW W.V. Dahlhoff, J. Bruckmann, K. Angermund, C. Kruger, Liebigs Ann. Chem. 1993, 831. [65] K. Malý, A. Petina, V. Pet´cek, L. Hummel, A. L´nek, Acta r ri  i Crystallogr., Sect. B 36 (1980) 181 (MSCBOR10). [66] A.S. Lyakhov, L.S. Ivashkevich, A.P. Yuvchenko, T.D. Zvereva, A.A. Govorova, Yu.I. Petrusevich, Kristallografiya 46 (2001) 1054 (XINPAL). [67] Z. Zheng, C.B. Knobler, C.E. Curtis, M.F. Hawthorne, Inorg. Chem. 34 (1995) 432 (YIKXUL). [68] A.I. Yanovsky, Yu.T. Struchkov, V.Ts. Kampel, V.I. Bregadze, N.N. Godovikov, M.I. Kabachnik, Izv. Akad. Nauk SSSR, Ser. Khim. (1986) 2299 (GAZSUV). [69] T. Peymann, A. Herzog, C.B. Knobler, M.F. Hawthorne, Angew. Chem., Int. Ed. Engl. 38 (1999) 1062 (JOQVEQ). [70] A. Herzog, C.B. Knobler, M.F. Hawthorne, Angew. Chem., Int. Ed. Engl. 37 (1998) 1552 (NOZGAK NOZGEO). [71] O. Crespo, M.C. Gimeno, A. Laguna, Polyhedron 18 (1999) 1279 (BOKKOB). [72] E.S. Alekseyeva, M.A. Fox, J.A.K. Howard, J.A.H. MacBride, K. Wade, Appl. Organomet. Chem. 17 (2003) 499 (NURLER). [73] L. Cr ciun, R. Custelcean, Inorg. Chem. 38 (1999) 4916 (XARCIC). a [74] R. Macias, N.P. Rath, L. Barton, J. Organomet. Chem. 581 (1999) 38 (BIXQAA). [75] C. Novák, V. Subrtová, A. L´nek, J. Hasek, Acta Crystallogr., Sect. i C 39 (1983) 1393 (CAJHAW). [76] V. Subrtovà, A. L´nek, J. Hasek, Acta Crystallogr., Sect. B 36 i (1980) 858 (IPTCDB). [77] K. Base, M.W. Grinstaff, Inorg. Chem. 37 (1998) 1432 (PUSFUE). [78] V.N. Lebedev, E.V. Balagurova, A.V. Polyakov, A.I. Yanovsky, Yu.T. Struchkov, L.I. Zakharkin, J. Organomet. Chem. 385 (1990) 307 (VEKJIE). [79] K.A. Lyssenko, M.Yu. Antipin, V.N. Lebedev, Inorg. Chem. 37 (1998) 5834 (VEKJIE01). [80] XEHVUB XEHWAI H. Lee, C.B. Knobler, M.F. Hawthorne, Chem. Commun. (2000) 2485. [81] W.J. Marshall, R.J. Young Jr., V.V. Grushin, Organometallics 20 (2001) 523 (QEZPOA QEZPUG YOZSEL01). [82] A.I. Yanovsky, Yu.T. Struchkov, V.V. Grushin, T.P. Tolstaya, I.I. Demkina, Zh. Strukt. Khim. 29 (1988) 89 (VAWGUV); A.I. Yanovsky, Yu.T. Struchkov, V.V. Grushin, T.P. Tolstaya, I.I. Demkina, (Engl. Transl.) (1988) 422. [83] A. Herzog, R.P. Callahan, C.L.B. Macdonald, V.M. Lynch, M.F. Hawthorne, R.J. Lagow, Angew. Chem., Int. Ed. Engl. 40 (2001) 2121 (YAVTAQ). [84] C.B. Knobler, T.B. Marder, E.A. Mizusawa, R.G. Teller, J.A. Long, P.E. Behnken, M.F. Hawthorne, J. Am. Chem. Soc. 106 (1984) 2990 (CIDHUS). [85] L. Manojlovic-Muir, K.W. Muir, T. Solomun, Dalton Trans. (1980) 317 (DPCBPT). [86] A.V. Polyakov, A.I. Yanovsky, Yu.T. Struchkov, V.N. Kalinin, A.V. Usatov, L.I. Zakharkin, Koord. Khim. 14 (1988) 1278 (JENBOT). [87] J.D. Lee, C.K. Baek, J. Ko, K. Park, S. Cho, S.K. Min, S.O. Kang, Organometallics 18 (1999) 2189 (MECHOR). [88] (a) J.A. Potenza, W.N. Lipscomb, Inorg. Chem. 3 (1964) 1673 (OCLCDB); (b) G.S. Pawley, Acta Crystallogr. 20 (1966) 631 (OCLCDB01). [89] K. Base, M.W. Grinstaff, Inorg. Chem. 37 (1998) 1432 (PUSFUE). [90] N.I. Kirillova, A.I. Klimova, Yu.T. Struchkov, V.I. Stanko, Zh. Strukt. Khim. 17 (1976) 892 (TCCBOR10);
+
+476
+
+M.A. Fox, A.K. Hughes / Coordination Chemistry Reviews 248 (2004) 457­476 N.I. Kirillova, A.I. Klimova, Yu.T. Struchkov, V.I. Stanko, (Engl. Transl.) (1976) 763. W. Jiang, C.B. Knobler, M.F. Hawthorne, Angew. Chem. Int. Ed. Engl. 35 (1996) 2536 (RACHEI). V. Subrtová, A. L´nek, C. Novák, Collect. Czech. Chem. Commun. i 40 (1975) 2005 (BRDCBO). J.A. Potenza, W.N. Lipscomb, Inorg. Chem. 5 (1966) 1471 (DBCARB). H. Beall, W.N. Lipscomb, Inorg. Chem. 6 (1967) 874 (DBDCDB). A.A. Sayler, H. Beall, Can. J. Chem. 54 (1976) 1771. TBMCBO. V.M. Ionov, M.Yu. Subbotin, V.V. Grushin, T.P. Tolstaya, I.N. Lisichkina, L.A. Aslanov, Zh. Strukt. Khim. 24 (1983) 139­144 (CARLAI); V.M. Ionov, M.Yu. Subbotin, V.V. Grushin, T.P. Tolstaya, I.N. Lisichkina, L.A. Aslanov, Engl. Transl. (1983) 638. Z. Zheng, W. Jiang, A.A. Zinn, C.B. Knobler, M.F. Hawthorne, Inorg. Chem. 34 (1995) 2095 (YOZSEL YOZSOV). W. Jiang, C.B. Knobler, C.E. Curtis, M.D. Mortimer, M.F. Hawthorne, Inorg. Chem. 34 (1995) 3491 (ZAKYAL ZAKYEP ZAKYIT ZAKYOZ ZAKYUP). M.J. Hardie, C.L. Raston, Eur. J. Inorg. Chem. (1999) 195 (HIKGUD HIKHAK HIKHEO). R.J. Blanch, M. Williams, G.D. Fallon, M.G. Gardiner, R. Kaddour, C.L. Raston, Angew. Chem., Int. Ed. Engl. 36 (1997) 504 (TUQTEE). M.J. Hardie, C.L. Raston, B. Wells, Chem. Eur. J. 6 (2000) 3293 (WOGSUG WOGTAN WOGTER WOGTIV). A.V. Astakhin, V.N. Kalinin, V.V. Romanov, A.I. Gusev, N.I. Kobel'kova, L.I. Zakharkin, Zh. Strukt. Khim. 19 (1978) 555 (BZOCBN). V.P. Balema, E.G. Rys, N.N. Godovikov, A.V. Polyakov, Yu.T. Struchkov, Izv. Akad. Nauk SSSR, Ser. Khim. (1992) 180; Bull. Acad. Sci. U.S.S.R, Div. Chem. Sci. (Engl. Transl.) (1992) 147 (HECSUD). A.V. Polyakov, A.I. Yanovsky, Yu.T. Struchkov, V.N. Kalinin, A.V. Usatov, L.I. Zakharkin, Koord. Khim. 14 (1988) 1278 (JENBOT). G.V. Grintselev-Knyazev, K.A. Lyssenko, M.Yu. Antipin, S.P. Knyazev, V.N. Kirin, E.A. Chernyshev, Acta Cryst., Sect. C 57 (2001) 827 (OCATER). W. Jiang, C.B. Knobler, M.F. Hawthorne, Inorg. Chem. 35 (1996) 3056 (TAVNAF). R. Kivekäs, F. Teixidor, C. Viñas, R. Nuñez, Acta Cryst. Sect. C 51 (1995) 1868 (ZAYMOB). [108] M.J. Bayer, A. Herzog, M. Diaz, G.A. Harakas, H. Lee, C.B. Knobler, M.F. Hawthorne, Chem. Eur. J. 9 (2003) 2732. [109] Yu.A. Kabachii, A.I. Yanovsky, P.M. Valetskii, Yu.T. Struchkov, S.V. Vinogradova, V.V. Korshak, Dokl. Akad. Nauk SSSR 280 (1985) 1390 (DOMJAQ); Yu.A. Kabachii, A.I. Yanovsky, P.M. Valetskii, Yu.T. Struchkov, S.V. Vinogradova, V.V. Korshak, Engl. Transl. (1985) 168. [110] R.M. Harrison, T. Brotin, B.C. Noll, J. Michl, Organometallics 16 (1997) 3401 (NEVCAS NEVCEW NEVCUM). [111] M. Schultz, C.J. Burns, D.J. Schwartz, R.A. Andersen, Organometallics 19 (2000) 781 (QEQFUN). [112] S. Wang, Q. Yang, T.C.W. Mak, Z. Xie, Organometallics 18 (1999) 4478 (GULQEJ GULQOT GULQUZ). [113] K. Chui, Q. Yang, T.C.W. Mak, Z. Xie, Organometallics 19 (2000) 1391 (GUMGUQ GUMHAX GUMHOL). [114] Z. Xie, S. Wang, Z.-Y. Zhou, T.C.W. Mak, Organometallics 18 (1999) 1641 (HOJWIM HOJWOS). [115] Z. Xie, S. Wang, Z.Y. Zhou, T.C.W. Mak, Organometallics 17 (1998) 1907 (PUMHAG). [116] G. Zi, Q. Yang, T.C.W. Mak, Z. Xie, Organometallics 20 (2001) 2359 (QOMCUQ QOMDAX). [117] Z. Xie, S. Wang, Z.-Y. Zhou, F. Xue, T.C.W. Mak, Organometallics 17 (1998) 489 (VAGGEP VAGGIT). [118] Z. Xie, S. Wang, Q. Yang, T.C.W. Mak, Organometallics 18 (1999) 2420 (XAJQOO). [119] G. Zi, H.-W. Li, Z.W. Xie, Organometallics 21 (2002) 1136 (XIGJIG). [120] D.H. Kim, H.S. Lee, J. Ko, K. Park, S.I. Cho, J.I. Shon, S.O. Kang, Bull. Korean Chem. Soc. 20 (1999) 600 (QEVSOZ QEVSUF). [121] V. Subrtová, A. L´nek, J. Hasek, Acta Cryst. B 38 (1982) 3147 i (BOFPOB). [122] C. Viñas, G. Barbera, J.M. Oliva, F. Teixidor, A.J. Welch, G.M. Rosair, Inorg. Chem. 40 (2001) 6555 (OCATER01, YIGQAG). [123] R.G. Kultyshev, J. Liu, S. Liu, W. Tjarks, A.H. Soloway, S.G. Shore, J. Am. Chem. Soc. 124 (2002) 2614 (XOWSIL). [124] R.L. Thomas, G.M. Rosair, A.J. Welch, Acta Cryst. Sect. C 52 (1996) 1024 (ZUHTOL). [125] P.T. Brain, J. Cowie, D.J. Donohoe, D. Hnyk, D.W.H. Rankin, D. Reed, B.D. Reid, H.E. Robertson, A.J. Welch, M. Hofmann, P. von, R. Schleyer, Inorg. Chem. 35 (1996) 1701 (ZUHTOL01). [126] N.I. Kirillova, A.I. Klimova, Yu.T. Struchkov, V.I. Stanko, Z. Strukt. Khim. 17 (1976) 675 (BCABOR10). [127] H. Beall, Inorg. Nucl. Chem. Lett. 13 (1977) 111.
+
+[91] [92] [93] [94] [95] [96]
+
+[97] [98]
+
+[99] [100]
+
+[101] [102]
+
+[103]
+
+[104] [105]
+
+[106] [107]
+
+

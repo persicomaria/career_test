@@ -1,0 +1,162 @@
+proteins
+STRUCTURE O FUNCTION O BIOINFORMATICS
+
+Structural basis for the cold adaptation of psychrophilic M37 lipase from Photobacterium lipolyticum
+Suk-Kyeong Jung,1y Dae Gwin Jeong,2y Mi Sook Lee,2 Jung-Kee Lee,3 Hyung-Kwoun Kim,4 Seong Eon Ryu,2 Byoung Chul Park,1 Jae Hoon Kim,2,5 and Seung Jun Kim1*
+1 Translational Research Center, Korea Research Institute of Bioscience and Biotechnology, Yuseong-Gu, Daejeon 305-600, Korea 2 Systemic Proteomics Research Center, Korea Research Institute of Bioscience and Biotechnology, Yuseong-Gu, Daejeon 305-600, Korea 3 Department of Life Science and Genetic Engineering, Paichai University, Seo-Gu, Daejon 302-735, Korea 4 Division of Biotechnology, The Catholic University of Korea, Wonmi-Gu, Bucheon, Gyeonggido 420-743, Korea 5 Faculty of Biotechnology, College of Applied Life Science, Cheju National University, Jeju 690-756, Korea
+
+ABSTRACT The M37 lipase from Photobacterium lipolyticum shows an extremely low activation energy and strong activity at low temperatures, with optimum activity seen at 298 K and more than 75% of the optimum activity retained down to 278 K. Though the M37 lipase is most closely related to the filamentous fungal lipase, Rhizomucor miehei lipase (RML) at the primary structure level, their activity characteristics are completely different. In an effort to identify structural components of cold adaptation in lipases, we determined the crystal structure of ∞ the M37 lipase at 2.2 A resolution and compared it to that of nonadapted RML. Structural analysis revealed that M37 lipase adopted a folding pattern similar to that observed for other lipase structures. However, comparison with RML revealed that the region beneath the lid of the M37 lipase included a significant and unique cavity that would be occupied by a lid helix upon substrate binding. In addition, the oxyanion hole was much wider in M37 lipase than RML. We propose that these distinct structural characteristics of M37 lipase may facilitate the lateral movement of the helical lid and subsequent substrate hydrolysis, which might explain its low activation energy and high activity at low temperatures.
+Proteins 2008; 71:476≠484.
+C V 2008 Wiley-Liss, Inc.
+
+INTRODUCTION Lipases are serine hydrolases that act on the carboxyl ester bonds present in triacylglycerols, leading to the liberation of fatty acids and glycerol. Lipases are widely distributed across most species of animals, plants, and microorganisms, and may be used for a variety of purposes, including as detergents ingredients and as biocatalysts for the production of biopolymers, pharmaceuticals, and flavor compounds.1 More than 50 bacterial lipases have been identified and grouped into six families based on amino acid sequence homology,2,3 and researchers continue to seek novel lipases with desirable properties for use in various biotechnological industries. The psychrophilic lipases are potential targets for such development, because they have high catalytic efficiencies at low temperatures, which could prove useful in a variety of applications such as asymmetric synthesis and the production of fragile compounds.4≠6 M37 lipase, which was recently identified from a marine habitat, was shown to have bona fide lipase activity,7,8 but displayed an unusual activity profile. The optimum temperature for maximum activity was recorded as 298 K, and more than 75% of the maximum activity was retained down to 278 K suggesting that M37 lipase is a cold-adapted enzyme.8 These unusual characteristics of M37 lipase is also accompanied by the very low activation energy. Although previous studies have identified cold-adapted lipases from arctic regions,9,10 these lipases showed higher optimum temperatures and activation energies than those of M37 lipase. Researchers have theorized that the properties of the psychrophilic lipases are related with enzyme stability and flexibility,11 but it is not yet known precisely how cold-adapted enzymes difGrant sponsor: KRIBB Research Initiative Program. y These authors contributed equally to this work. *Correspondence to: Seung Jun Kim, Translational Research Center, Korea Research Institute of Bioscience and Biotechnology, 52 Eoeun-Dong, Yuseong-Gu, Daejeon 305-600, Korea. E-mail: ksj@kribb.re.kr Received 27 March 2007; Revised 3 August 2007; Accepted 23 August 2007 Published online 10 January 2008 in Wiley InterScience (www.interscience.wiley.com). DOI: 10.1002/prot.21884
+
+Key words: M37 lipase; Rhizomucor miehei lipase (RML); cold adaptation; oxyanion hole; cavity.
+
+476
+
+PROTEINS
+
+C V 2008 WILEY-LISS, INC.
+
+Crystal Structure of M37 Lipase
+
+fer from their nonadapted counterparts. M37 lipase belongs to filamentous fungal lipase in terms of sharing common active site sequences as well as oxyanion hole sequences and Rhizomucor miehei lipase (RML) is the closest lipase.8 The crystal structures of various lipases, which have been elucidated from bacteria, fungi, yeast, and mammals, all share a common a/b hydrolase folds in their core regions, and have a characteristic catalytic triad consisting of serine, aspartic/glutamic acid, and histidine residues.12 However, although numerous lipases have been structurally characterized,2 no previous work has examined the structure or structure-function relationships of cold-adapted lipases. To improve our understanding of lipase adaptation to low temperatures, we herein determined the crystal struc∞ ture of M37 lipase at 2.2 A resolution and compared it to that of the structurally similar, nonadapted RML. The overall structure of M37 lipase exhibited the a/b hydrolase fold characteristic of other lipases, but included some distinct structural properties, including a cavity beneath the lid and an oxyanion hole far wider than that of RML. We propose that these properties might facilitate the hydrolytic lipase reaction, providing a basis for cold adaptation. METHODS
+Expression and purification
+
+Table I
+Data Collections, Phasing, and Refinement Statistics
+
+Native Resolution limit () Observations Unique reflections Completeness (%) Multiplicity I/rI Rmerge (%)d Heavy-atom sites Refinement Resolution range () Number of atoms (Protein/nonprotein) Rcryst/Rfree (%) rms deviations Bond distances () Bond angles (8) Impropers (8) Dihedral angles (8) Temperature factors Protein atoms (2) Solvent atoms (2)
+a b
+
+Mercurya 2.5 137,280 23,267 97.4 (91.0) 5.9 (4.2) 7.6 (2.8) 7.4 (23.8) 3
+
+Iridiumb 2.5 143,792 23,570 98.7 (92.7) 6.1 (4.4) 7.2 (2.3) 7.9 (31.2) 2
+
+2.2 217,989 34,467 99.0 (93.6)c 6.3 (4.3) 11.7 (3.6) 5.2 (21.5)
+
+50≠2.2 5364/182 20.4/24.1 0.010 1.42 0.89 23.4 32.5 29.5
+
+Mercury, phenyl mercury acetate. Iridium, iridium hexachloride. c The values in parentheses represent the highest resolution shell. d Rmerge 5 Si|Ii 2 <I>|/S|<I>|, where I is the intensity for the ith measurement of an equivalent reflection with indices h, k, and l.
+
+The encoding M37 lipase DNA was subcloned into the pET22b vector (Novagen) and expressed in Escherichia coli strain BL21(DE3). Cells harboring the expression vector were induced with 0.5 mM IPTG, grown at 295 K for 20 h, and then harvested and lysed by sonication in buffer containing 20 mM Tris-HCl (pH 8.0), 200 mM NaCl, and 1 mM PMSF. The His-tagged M37 lipase proteins were purified from lysates using nickel-affinity chromatography and further purified by Q-Sepharose ion exchange chromatography and gel filtration chromatography equilibrated in buffer containing 20 mM HEPES (pH 7.0), 0.2M NaCl, and 2 mM DTT. The purified proteins were concentrated to 18 mg/mL for crystallization.
+Crystallization and data collection
+
+ferred to a cryo solution containing the mother liquor supplemented with 20% (v/v) ethylene glycol for 1 min and flash-frozen in a nitrogen gas stream at 93 K. The ∞ crystal diffracted to 2.2 A resolution and belonged to the space group P212121, with unit cell parameters of a 5 ∞ ∞ 70.69 A, b 5 95.10, c 5 99.70 A, a 5 b 5 g 5 908. The collected diffraction data were processed and scaled using the Mosflm13 and Scala,14 respectively. The statistics for data collection and refinement are shown in Table I.
+Structure Solution and Refinement
+
+Crystallization was performed at 291 K using the hanging-drop vapor diffusion method, and initial trials were carried out using commercial screening kits (Hampton Research). The best M37 lipase crystals were grown by mixing 1.8 lL of protein solution and an equal volume of reservoir solution containing 0.1M Bis-Tris (pH 5.5), 0.2M Ammonium acetate and 23≠25% PEG 3350, and incubating the mixtures for 3 days at 291 K. X-ray diffraction data were collected at the Pohang Accelerator Laboratory, using a beamline 4A equipped with an ADSC quantum detector. The crystals in the droplet were trans-
+
+The structure of M37 lipase was determined by the multiple isomorphous replacement method, using two heavy-atom derivatives. Briefly, we obtained the first derivative by soaking native crystals in mother liquor containing 2 mM phenyl mercury acetate for 1 h. The second heavy-atom derivative was obtained by soaking native crystals for 1 h in mother liquor containing 1 mM iridium hexachloride. The localization of heavy atoms, heavy-atom parameter refinements and phase calculations were carried out using the SOLVE program.15 The subsequent solvent flattening was performed using the RESOLVE program.15 The resulting electron density map was sufficient for the model building of the majority of residues. The initial and iterative models were built using the O program,16 and model refinement was performed using the CNS program.17 A randomly selected sample (5%) of data was set aside and used to calculate Rfree.
+PROTEINS
+
+477
+
+S.-K. Jung et al.
+
+Non-crystallographic symmetry (NCS) restraints were applied during the initial stage of refinement. Water molecules were gradually added to the model, using the waterpick routine in the CNS program. The cavities in the structures were investigated using the VOIDOO program.18 Figures were generated using the RIBBONS,19 Raster3D,20 Alscript,21 Bobscript,22 and Molscript23 programs. RESULTS AND DISCUSSION
+Overall structure
+
+The crystal structure of M37 lipase was determined by the multiple isomorphous replacement (MIR) method and refined to final Rcryst and Rfree values of 20.4% and 24.0%, respectively. A Ramachandran plot drawn using PROCHECK24 showed that 87.8% and 11.2% of all residues fell within the most favored and additionally favored regions, respectively. There were no residues in the disallowed regions, and two residues (Pro58 and Trp242) were found to adopt cis-conformations in each protomer. The final model included residues 2≠23 and 28≠340 for protomer A, residues 3≠340 for protomer B, and 182 water molecules. The 5-His tag at the C-terminus of the recombinant protein was included in protomer B of our model. Our structural analysis revealed that the two protomers in the crystal had essentially the same conformation and were related to each other by NCS. The buried interface for the NCS-related dimer was ∞ 1,743 A2 in area, corresponding to $12% of the protomer surface. However, these two protomers did not appear to engage in significant dimeric interactions and gel filtration chromatography indicated that M37 lipase eluted as a monomer (data not shown). Thus, the dimer observed in the crystal is unlikely to be biologically relevant. As with the other lipases, M37 lipase belongs to the a/ b hydrolase fold family and can be divided into core and cap domains [Fig. 1(A)]. Structural analysis of the catalytic core domain showed that a central b-sheet consisting of five strands (b1≠b3, b6≠b7) was surrounded by several a helices and connecting loops. One side of the central b-sheet was covered by helices a1≠a2 and a10≠ a12, while the other side was covered by helices a4≠a7. Additional antiparallel b strands (b4, b5) were positioned beneath helices a4 and a5. Our analysis further revealed that the cap domain, which was formed of two separated regions (residues 94≠110 and 235≠283), comprised a mixture of three helices (a3, a8≠a9) and connecting loops. The cap domain, which primarily covered the active site with the lid helix (a3), was situated in the direction of a central b-sheet of core domain. A DALI search for structural similarity25 revealed that Rhizomucor miehei lipase (PDB code: 3tgl)26 had the highest similarity to M37 lipase (Z-score 5 20.2), fol-
+
+lowed by several carboxyl esterases and lipases having Zscores lower than 4.2. Sequence comparison revealed that M37 lipase had a relatively low level of sequence identity with RML (20% sequence identity). When we aligned the structures of M37 lipase and RML using superposition ∞ criteria of <3.8 A separation over at least three consecutive Ca atoms, we found that 174 out of 335 Ca atoms ∞ were superimposed with an rms deviation of 1.7 A [Figs. 1(B) and 2]. Structural similarity was observed primarily in the central sheet and some of the flanking helices, with distinct structural differences observed due to numerous insertions, deletions, and extensions throughout the structures of M37 lipase and RML [Figs. 1(B) and 2]. Most notably, M37 lipase showed the addition of helices a2 and a8≠a12, but decreases in the b-sheet content due to the absence of several C-terminal b-strand elements when compared with RML. We also observed significant differences within many of the loop regions, including loop b≠b2, loop b4≠b5, and loop a4≠a5.
+Active site
+
+The active site was completely inaccessible for substrate and therefore, M37 lipase adopted the closed conformation. The lipases contain catalytic triad residues located in a highly conserved region. Sequential and structural alignment with RML allowed us to identify the triad residues in M37 lipase as Ser174, Asp236, and His312 (Figs. 2 and 3). The main- and side-chain atoms of the triad residues of M37 lipase aligned well with those of RML, and the active site of M37 lipase was found to be covered by a lid helix (a3), which is similar to the structure observed for native RML. Despite the similarity of the triad residues, however, the residues in the lid helix were not well aligned between M37 lipase and RML [Figs. 1(B) and 2]. Furthermore, the helical lid of M37 lipase was shorter than that of RML, perhaps due to discrepancies in the surrounding structural elements. For example, the conformation of the lid in M37 lipase is strongly influenced by helices a9 and a10, which are absent from RML. Furthermore, the lid of M37 lipase interacts with the b2 strand, which is longer in M37 lipase than in RML. Most of the hydrophobic residues (Ile97, Trp100, Leu101, and Phe102) near the lid of M37 lipase were buried and located over the active site. This observation is consistent with the closed RML structure,26 suggesting that substrate binding might cause these residues to become exposed and form a wide hydrophobic surface, as previously shown for inhibitor-complexed RML.27,28
+Possible structural bases for cold-adapted activity
+
+Despite their structural similarities, M37 lipase and RML exhibit conspicuously different activity profiles. RML has an optimum temperature of 508C with an acti-
+
+478
+
+PROTEINS
+
+Crystal Structure of M37 Lipase
+
+Figure 1
+Structure of M37 lipase. A: Ribbon diagram of the structure of M37 lipase. Secondary structural elements assigned with the PROCHECK program (24) are labeled (helix, purple; strand, blue; loop, grey). Catalytic residue Ser174 is shown as a ball-and-stick representation. The boundaries of secondary structural elements are b1 (52≠61), b2 (71≠78), b3(84≠90), b4(110≠112), b5(124≠126), b6(166≠173), b7(199≠206), a1(5≠15), a2(30≠43), a3(97≠100), a4(127≠138), a5(152≠160), a6(175≠189), a7(214≠ 224) a8(244≠247), a9(265≠278), a10(304≠313), a11(315≠319), and a12(328≠332). B: Structural superposition of M37 lipase (black) and RML (red, pdb code: 3TGL). The Ca traces of the two structures were superposed using the O program. Every twentieth residue and catalytic Ser174 are indicated as black balls and are labeled. Secondary structural elements unique to each other are labeled black (M37 lipase) or red (RML).
+
+vation energy of 12.1 kcal/mol, whereas M37 lipase is a typical cold-adapted enzyme, showing an optimum temperature for lipid substrate hydrolysis as low as 258C, along with a very low activation energy (2.07 kcal/mol).8 In an effort to identify structural explanations for these cold-adapted properties, we compared the sequences and structures of M37 lipase and RML. This effort was facilitated by the availability of structures for both native
+
+RML (pdb code:3tgl)26 and inhibitor-complexed RML (pdb code:4tgl).28 Because the lid helix generally shields the active site and blocks solvent access in a native lipase, we paid particular attention to the region near lid helix a3 of M37 lipase, where substantial movement might take place during catalysis. While we found that the structure of M37 lipase included significant Van der Waals interactions overall,
+PROTEINS
+
+479
+
+S.-K. Jung et al.
+
+Figure 2
+Structure-based sequence alignment of M37 lipase with RML. The sequences of M37 lipase and RML were aligned by Ca superposition of the two structures, with superposed residues shaded yellow. The secondary elements of M37 lipase are shown above the alignment, and those of RML are shown in red below the alignment. The catalytic triad residues (Ser174, Asp236, and His312) are indicated by inverted triangles.
+
+the region near the lid helix was loosely folded, and ∞ included a surface cavity [Fig. 4(A)] that was $12 A long ∞ deep. The cavity was surrounded by residues and $9 A from strand b2 (Phe68, Asn69, and Ala71), helix a4 (Ser128, Thr129, and Thr135), helix a3 (Trp100) helix a6 (Lys175, Ala178, and Leu179) and several loops [Leu101, Asp104, Pro209, and Trp242; Fig. 4(A)]. There were no serious crystal contacts near the residues surrounding the cavity, accompanied by good electron densities with low thermal B-factor. The essentially same cavity was also found in protomer B in the crystal suggesting the cavity observed here is not a mere crystallization artifact. The superposition showed that the structural discrepancies between native RML and M37 lipase near the cavity were mainly confined to the b1≠b2 loop. In M37 lipase, the b1≠b2 loop was five residues longer than the equivalent loop in RML, and covered the cavity of M37 lipase. A corresponding cavity was not found in the equivalent position of native RML, possibly due to the shortened b1≠b2 loop and the replacement of bulkier residues (Phe111 and Ser114) in RML with the corresponding M37 lipase sites (Thr129 and Gly132), which might generate a wider, more open and shallow pocket in RML [Fig. 4(B)]. As M37 lipase and RML belong to the same structural family, we can assume that M37 lipase may adopt a similar conformation to that of complexed RML upon lid helix opening and substrate binding. Interestingly, superposition of the M37 lipase and
+
+complexed RML structures showed several notable differences [Fig. 4(C)]. For example, the center of gravity of ∞ the M37 lipase lid helix was $8A removed from that of complexed RML, and the cavity space in M37 lipase
+
+Figure 3
+Electron density map of the active site region. A 2Fo 2 Fc map for the active site region was drawn and superposed with the refined model. The map was contoured at 1.1r level and the hydrogen bonds are indicated as broken lines in the stereodiagram.
+
+480
+
+PROTEINS
+
+Crystal Structure of M37 Lipase
+
+Figure 4
+Cavity localization. A: The M37 lipase structure was searched for cavities using the VOIDOO program18 and the cavity is represented as a basket-weaved model (cyan) on a worm model. The residues surrounding the identified cavity are shown as a ball-and-stick representation. B: Comparison of M37 lipase conformation near the cavity versus that of RML in the closed conformation (pdb code:3TGL). The superposed structures are represented as worm models and colored grey and green, respectively. The cavity of M37 lipase and the two cavity reducing residues of RML are indicated. The loops covering active site are omitted from the drawing for clarity. C: Conformational comparison of M37 lipase near the cavity versus that of RML in its open state (pdb code:4TGL). The superposed structures are represented as worm models and colored grey and orange, respectively. The cavity of M37 lipase and the two cavity-reducing residues of open RML are also indicated. The loops covering active site are omitted from the drawing for clarity. The point of view is consistently maintained throughout all three panels (A, B, and C).
+
+overlapped with a portion of lid helix a3 in the structure of complexed RML, indicating that the cavity of M37 lipase might be closed by the movement of the lid helix upon substrate binding. The open and closed RML struc-
+
+tures differed almost exclusively at the lid helix [Fig. 4(B,C)], and part of the b1≠b2 loop of the M37 lipase structure overlapped with the lid helix of complexed RML [Fig. 4(C)]. As stated above, the b1≠b2 loop of
+PROTEINS
+
+481
+
+S.-K. Jung et al.
+
+Figure 5
+Mobility of the b1≠b2 loop. The RMS deviations of the two protomers in M37 lipase are plotted against the corresponding residue numbers. Only the RMS deviations of the main-chain atoms are included in the calculation.
+
+M37 lipase appeared to have no interaction with the body of molecule, suggesting that movement of the lid helix toward the cavity could concomitantly trigger conformational rearrangement of b1≠b2 loop. In enzymes, structural cavities are often regarded as destabilizing factors or driving force for conformational transition. A cavity might confer the helical lid with flexibility and instability, thus allowing lateral movement upon substrate binding. As stated above, the M37 lipase crystal contained two protomers. Because rms deviation of the equivalent residues of the two protomers can be a good measure of intrinsic mobility, we plotted the values of rms deviation for each residue (see Fig. 5). Analysis of the rms deviation of the main-chain atoms showed that, while two protomers are well aligned overall, the marked ∞ deviations (>1.5 A) were found in several loops throughout the structure. The a8≠a9 and C-terminal loops are exposed to the solvent without crystal contact, which might account for high rms deviations. Loops b2≠b3 and a7≠a8 from two protomers have different conformations owing to the different crystal contact but are consistent with good electron densities. However, except the loop b1≠b2, these regions are distantly located from the active site. Thus, although the conformations of loop b1≠b2 are essentially similar in two protomers, these marked deviations suggest the presence of an intrinsic mobility that might cause a structural transition concomitant to lid helix movement.
+M37 lipase has a wider oxyanion hole than RML
+
+strate complex.2 Comparison of the native and complexed structures of RML showed that the space for the oxyanion hole was available only after the lid moved laterally away from the active site in this lipase.27 A previous study suggested that Arg90 and Gly91 comprise the oxyanion hole residues of M37 lipase, as these residues are common to all filamentous fungal lipases and M37 lipase.13 Interestingly, although the RG sequences and catalytic triads were conserved between M37 lipase and RML, the features of the oxyanion hole differed significantly between these lipases in two respects. First, the hydroxyl group Ser82 of RML equivalent to Thr92 of M37 lipase, was coordinated with Ser84 at the ∞ beginning of lid helix [O(H)Ser82¡¡¡NSer84, 3.2 A] and only available after inhibitor binding with lid movement.27 In M37 lipase, the hydroxyl group of Thr92 in M37 lipase hydrogen bonds with Ile67 and Phe68 that belonged to ∞ b1≠b2 loop [O(H)Thr92¡¡¡OIle67, 3.1 A; O(H)Thr92¡¡¡OPhe68, ∞ ], which were completely different from those in 2.6 A RML. As stated above, the b1≠b2 loop would inevitably undergo structural transition upon substrate binding. This movement could also enable hydroxyl group of Thr92 to take proper position for stabilizing tetrahedral intermediate in M37 lipase. Secondly, several b-strands in a central b-sheet were oriented differently to each other in M37 lipase versus closed RML. In M37 lipase, the upper part of the bsheet split to form an wide oxyanion hole between strands b3 and b6 (see Fig. 6), where three water molecules could take position and form extensive hydrogen bond interactions with the amides of Arg90, Gly91, and Thr92 (Figs. 3 and 6). The amide atoms of Arg90, Gly91, and Thr92 from M37 lipase were found to be $2 ∞ A removed from the equivalent atoms in closed RML, being oriented for stabilizing potential tetrahedral complex. These structural differences could also suggest that the wide oxyanion hole in M37 lipase might require less energy to reach the transient tetrahedral intermediate, thereby helping lower the optimum temperature and the activation energy.
+
+CONCLUSIONS Efforts to elucidate the basis for cold adaptation among enzymes have previously been hampered by the relative lack of available structures for cold-adapted enzymes and their nonadapted counterparts. Thus, our structural analysis of M37 lipase and comparison with that of RML provides important new structural insights into the phenomenon of cold adaptation. Generally the kinetic energy at high temperatures could lead the movement of helical lid by effective solvation of the residues involved in the hydrophobic interactions.29 Our structural analysis of M37 lipase demonstrated that the identified lid helix should move easily upon substrate
+
+Another important aspect of lipase catalytic function occurs in the oxyanion region between strands b3 and b6, where transient negative charges are stabilized during creation of the tetrahedral intermediate in enzyme-sub-
+
+482
+
+PROTEINS
+
+Crystal Structure of M37 Lipase
+
+Crystallography Wiggler Beamline for their help with data collection.
+
+REFERENCES
+1. Jaeger KE, Eggert T. Lipases for biotechnology. Curr Opin Biotechnol 2002;13:390≠397. 2. Jaeger KE, Dijkstra BW, Reetz MT. Bacterial biochatalysts: molecular biology, three dimensional structures, and biotechnological applications of lipases. Annu Rev Microbiol 1999;53:315≠351. 3. Gupta R, Gupta N, Rathi P. Bacterial lipases: an overview of production, purification and biochemical properties. Appl Microbiol Biotechnol 2004;64:763≠781. 4. Cavicchioli R, Siddiqui KS, Andrews D, Sowers KR. Low-temperature extremophiles and their applications. Curr Opin Biotechnol 2002;13:253≠261. 5. Pandey A, Benjamin S, Soccol CR, Nigam P, Krieger N, Soccol VT. The realm of microbial lipases in biotechnology. Biotechnol Appl Biochem 1999;29:119≠131. 6. Georlette D, Blaise V, Collins T, D'Amico S, Gratia E, Hoyoux A, Marx JC, Sonan G, Feller G, Gerday C. Some like it cold: biocatalysis at low temperatures. FEMS Microbiol Rev 2004;28:25≠42. 7. Yoon JH, Lee JK, Kim YO, Oh TK. Photobacterium lipolyticum sp. nov., a bacterium with lipolytic activity isolated from the Yellow Sea in Korea. Int J Syst Evol Microbiol 2005;55:335≠339. 8. Ryu HS, Kim HK, Choi WC, Kim MH, Park SY, Han NS, Oh TK, Lee JK. New cold-adapted lipase from Photobacterium lipolyticum sp. nov. that is closely related to filamentous fungal lipases. Appl Microbiol Biotechnol 2006;70:321≠326. 9. Choo DW, Kurihara T, Susuki T, Soda K, Esaki N. A cold-adapted lipase of an Alaskan psychrotroph, Pseudomonas sp. strain B11≠1: gene cloning and enzyme purification and characterization. Appl Env Microbiol 1998;64:486≠491. 10. Feller G, Thiry M, Arpigny JL, Mergeay M, Gerday C. Lipases from psychrotrophic Antarctic bacteria. FEMS Microbiol Lett 1990;66: 239≠244. 11. Russell NJ. Toward a molecular understanding of cold activity of enzymes from psychrophiles. Extremophiles 2000;4:83≠90. 12. Nardini M, Dijkstra BW. a/b hydrolase fold enzymes: the family keeps growing. Curr Opin Struct Biol 1999;9:732≠737. 13. Leslie AG. Integration of macromolecular diffraction data. Acta Crystallogr D 1999;55:1696≠1702. 14. CCP4. The CCP4 suite: programs for protein crystallography. Acta Crystallogr D 1994;50:760≠763. 15. Terwilliger TC, Berendzen J. Automated MAD and MIR structure solution. Acta Crystallogr D 1999;55:849≠861. 16. Jones TA, Zou J-Y, Cowan SW, Kjeldgaard M. Improved methods for building protein models in electron density maps and the location of errors in these models. Acta Crystallogr A 1991;47:110≠119. ® 17. Brunger AT, Adams PD, Clore GM, DeLano WL, Gros P, GrosseKunstleve RW, Jiang JS, Kuszewski J, Nilges M, Pannu NS, Read RJ, Rice LM, Simonson T, Warren GL. Crystallography & NMR system: a new software suite for macromolecular structure determination. Acta Crystallogr D 1998;54:905≠921. 18. Kleywegt GJ, Jones TA. Detection, delineation, measurement and display of cavities in macromolecular structures. Acta Crystallogr D 1994;50:178≠185. 19. Carson M. Ribbons. Methods Enzymol 1997;277:493≠502. 20. Meritt EA, Bacon DJ. Raster3D: photorealistic molecular graphics. Methods Enzymol 1997;277:505≠524. 21. Baton GJ. ALSCRIPT: a tool to format multiple sequence alignments. Protein Eng 1993;6:37≠40. 22. Esnouf RM. An extensively modified version of MolScript that includes greatly enhanced coloring capabilities. J Mol Graph Model 1997;15:112≠134.
+
+Figure 6
+M37 lipase has a widened oxyanion hole compared to RML. The residues of M37 lipase (ivory) near the oxyanion hole are superposed with those of closed RML (grey). The catalytic residue, the oxyanion hole residues, and the water molecules filling the oxyanion hole are indicated. The side chains are omitted from the drawing for clarity.
+
+binding presenting a cavity that may be catalytically aided by the availability of a relatively wide oxyanion hole. To date, there have been no quantitative data to what extent the properties of high activity at low temperature and low activation energy is influenced by these two factors. These two factors may operate synergistically, thereby lowering the optimum temperature of catalysis as well as activation energy. However, further biological experiments are required to support this speculation. Finally, the novel detailed structural information for M37 lipase will provide a framework for new understanding for cold adaptation, and may be applicable to many biotechnologies.
+Protein Data Bank accession number
+
+The atomic coordinates and structure factors for the final structure have been deposited in the Protein Data Bank, under code 2ORY. ACKNOWLEDGMENTS We would like to thank Dr. H.S. Lee and the staff of the Pohang Accelerator Laboratory 4A Macromolecular
+
+PROTEINS
+
+483
+
+S.-K. Jung et al.
+
+23. Kraulis P. MOLSCRIPT: a program to produce both detailed and schematic plots of protein structures. J Appl Crystallogr 1991;24: 946≠950. 24. Laskowski RA, McArthur MW, Moss DS, Thornton JM. PROCHECK: a program to check the stereochemical quality of protein structures. J Appl Crystallogr 1993;26:283≠291. 25. Holm L, Sander C. Protein structure comparison by alignment of distance matrices. J Mol Biol 1993;233:123≠138. 26. Derewenda ZS, Derewenda U. The crystal and molecular structure ∞ of the Rhizomucor miehei triacylglyceride lipase at 1.9 A resolution. J Mol Biol 1992;227:818≠839.
+
+27. Brzozowski AM, Derewenda U, Derewenda ZS, Dodson GG, Lawson DM, Turkenburg JP, Bjorkling F, Huge-Jensen B, Patkar SA, Thim L. A model for interfacial activation in lipases from the structure of a fungal lipase-inhibitor complex. Nature 1991;351: 491≠494. 28. Derewenda U, Brzozowski AM, Lawson DM, Drewenda ZS. Catalysis at the interface: the anatomy of a conformational change in a triglyceride lipase. Biochemistry 1992;31:1532≠1541. 29. Caflisch A, Kaplus M. Acid and thermal denaturation of Barnase investigated by molecular dynamics simulations. J Mol Biol 1995;252:672≠708.
+
+484
+
+PROTEINS
+
+

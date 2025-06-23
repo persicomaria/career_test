@@ -1,0 +1,222 @@
+research papers
+Acta Crystallographica Section D
+
+Biological Crystallography
+ISSN 0907-4449
+
+Xenon derivatization of halide-soaked protein crystals
+
+Santosh Panjikar and Paul A. Tucker*
+EMBL Hamburg Outstation, c/o DESY, Notkestrasse 85, D22603, Hamburg, Germany
+
+Correspondence e-mail: tucker@embl-hamburg.de
+
+Crystals of porcine pancreatic elastase can be derived by soaking in high-molarity bromide solutions. These crystals, either in a glycerol-based cryoprotectant solution or in paraf®n oil, can be subsequently pressurized under a xenon atmosphere to incorporate xenon. When paraf®n oil is used, a larger number of bromide ions are observed on the protein surface. Intensity data collected to lower energy than the bromine absorption edge can be used to determine the xenon position and the resultant phase information can be used to determine the bromine substructure from data collected to higher energy than the bromine absorption edge. The method would appear to have general applicability where large substructures need to be determined.
+
+Received 22 February 2002 Accepted 19 June 2002
+
+PDB References: model Br-O-Xe-W0.80, 1l0z; model Br-G1-Xe-W0.80, 1l1g.
+
+1. Introduction
+The traditional and still popular means of determining the phase of the structure factor of Bragg re¯ections from a macromolecular crystal has been by the multiple isomorphous replacement (MIR) method or variations of this method that employ the anomalous signal of the derivative (e.g. MIRAS and SIRAS). These methods depend not only on the derivative binding but also require that, when bound, the derivative crystal is isomorphous with the native. A practical method has been reported (Boggon & Shapiro, 2000) involving native PAGE analysis that provides some preliminary information on whether or not a derivative compound has bound. The isomorphism, however, can only be tested by X-ray diffraction experiments. Only when xenon or krypton are used as derivatives is there a high probability that ± if they bind ± the derivative crystal will be isomorphous with the native. This is because the noble gases are expected to bind in (often hydrophobic) cavities/depressions and thus have less likelihood of disrupting or altering crystal contacts. In recent years, developments in methods of experimental phase determination have been dominated by techniques exploiting the anomalous signal of various elements, in no small part driven by the relative ease with which selenomethionine-containing crystals can be grown and the fact that the selenium absorption edge is easily accessible on modern synchrotron beamlines. These techniques include the traditional MAD experiment at three or more wavelengths (Hendrickson, 1991) as well as, increasingly, SAD experiments where only a single wavelength is used to measure precise anomalous differences at the peak energy. The relative ef®cacy of these alternatives is still a matter for debate (Rice et al., 2000), but there are increasingly more successes for the SAD technique, especially when highly redundant data sets are
+Panjikar & Tucker
+
+
+# 2002 International Union of Crystallography Printed in Denmark ± all rights reserved
+
+Acta Cryst. (2002). D58, 1413±1420
+
+Xenon derivatization of bromide derivatives
+
+1413
+
+research papers
+Table 1
+Data-collection statistics.
+Values in parentheses are for the last resolution shell. Crystal cryoprotected with oil and pressurized under Xe O-Xe-W0.98 4 MPa/1 min BW7A 180 + 180 (low res.) 8 0.980 45 P212121 49.78 57.30 73.90 1.06±1.04 33 (3) 100 (99) 0.74 729921 101230 7.2 (6.4) 6.2 2.0 1.9 5.8 (20.1) 1 M NaBr followed by transfer to oil, then pressurized under Xe Br-O-XeW0.80 4 MPa/1 min X13 360 + 360 (low res.) 4 0.8020 130 P212121 49.50 57.70 73.60 1.53±1.50 34 (10) 99 (100) 0.9 598060 34498 17.3 (11.3) 4.5 0.9 2.7 4.4 (18.0)
+
+Crystal treatment Data set Xe pressure/time Beamline Rotation range ( ) Total collection time (h) Ê Wavelength (A) Crystal-to-detector distance (mm) Space group Unit-cell parameters a b c Resolution range of Ê last shell (A) hI/'(I)i Completeness Mosaicity No. of observations No. of unique re¯ections Redundancy Rr.i.m.² (%) Rp.i.m.³ (%) Ranom§ (%) Rmerge} (%)
+
+1 M NaBr followed by transfer to oil Br-O-W0.85 Ð X11 360 15 0.85 120 P212121 50.23 57.87 74.49 1.58±1.55 23 (18) 100 (100) 0.34 480463 35415 13.6 (13.5) 6.4 1.8 4.0 6.1 (11.1)
+
+1 M NaBr followed by dipping in 22% glycerol; subsequently pressurized under Xe Br-G-XeW0.80 4 MPa/1 min X13 360 11 0.8020 100 P212121 50.35 57.87 74.30 1.53±1.50 10 (4) 95 (85) 1.3 361575 29508 12.3 (9.4) 6.4 1.7 2.2 6.2 (14.5) Br-G-XeW0.93 4 MPa/1 min BW7A 360 9 0.918 80 P212121 50.28 57.70 74.11 1.27±1.25 19 (4) 100 (100) 0.9 830692 53669 15.5 (12.5) 5.1 1.1 1.7 5.0 (59.8)
+
+Dipped in a 1:1 mixture of 1 M NaBr + 100% glycerol; subsequently pressurized under Xe Br-G1-XeW0.80 4 MPa/1 min X13 360 + 360 (low res.) 12 0.8020 100 P212121 50.29 57.71 74.13 1.22±1.20 19 (8) 99 (100) 0.20 1017166 66284 15.4 (10.0) 7.7 1.8 3.3 7.6 (45.7) Br-G1-XeW0.93 4 MPa/1 min BW7A 360 11 0.918 80 P212121 50.35 57.74 74.21 1.22±1.20 48 (4) 99 (98) 0.18 985714 67054 14.7 (14.5) 4.7 1.2 1.6 4.5 (59.2)
+
+Dipped in a 1:1 mixture of 1 M NaBr + 100% glycerol Br-G-W0.80 Ð X13 180 2 0.8020 130 P212121 50.30 57.90 74.52 1.53±1.50 30 (7) 100 (100) 0.35 222684 35398 6.3 (5.9) 4.0 1.6 2.4 3.7 (21.0)
+
+Native using oil W0.80 Ð X13 90 3 0.80 100 P212121 49.92 57.33 73.95 1.68±1.65 16 (7) 99 (100) 0.62 100434 26180 3.8 (3.8) 7.5 3.7 Ð 7.0 (19.8)
+
+²   Rr.i.m. is the1a2redundancy-independent merging R factor (Weiss & Hilgenfeld, 1997), which is identical to the Rmeas of Diederichs & Karplus (1997a,b). Rr.i.m. =  ³ hkl NaN À 1 i jIi hkl À Ihklja hkl i Ii hkl, with N being the number of times a given re¯ection has been observed. Rp.i.m. is the precision-indicating merging R     1a2  factor (Weiss & Hilgenfeld,  1997; Weiss, 2001). Rp.i.m. = § Ranom = } Rmerge = hkl 1aN À 1 i jIi hkl À Ihklja hkl i Ii hkl. hkl jIhkl À Ihklj hkl Ihkl.    jIi hkl À Ihklja hkl i Ii hkl (Stout & Jensen, 1968). hkl i
+
+measured. The practical repertoire of phasing procedures has, however, continued to grow with, for example, the use of xenon as a derivative (Schiltz et al., 1995), the use of halide soaks to produce derivatives (Dauter & Adamiak, 2001; Dauter & Dauter, 1999) or the use of longer wavelengths to utilize the anomalous signal from S atoms in crystals of native proteins (Hendrickson & Teeter, 1981; Dauter et al., 1999). Of some interest to us are combinations of these newer techniques and in particular the combined use of xenon and bromide ions, with or without utilization of energies higher and lower than the bromine absorption edge. The number of possible bromide-ion interaction sites is typically large, which can result in a bromide substructure that is dif®cult to determine. We wished to investigate the use of the less numerous xenon sites in determining the bromide substructure by utilizing two wavelengths: one at lower energy than the bromine absorption edge, where only the xenon has an appreciable anomalous signal, and one at higher energy than the bromine absorption edge, where the f HH values of both elements are roughly the same.
+
+2. Materials and methods
+Porcine pancreatic elastase (PPE) was crystallized as described previously (Shotton et al., 1968). Crystals of PPE of approximate dimensions 0.4 Â 0.2 Â 0.2 mm were mounted in cryoloops (Teng, 1990) from Hampton Research and treated as described below prior to ¯ash-cooling in liquid nitrogen.
+2.1. Bromide and xenon derivatization
+
+Three different protocols were used as follows. Protocol 1. Crystals were removed from the mother liquor and immediately dipped for 20 s into 1 M NaBr solution. They were then transferred into a cryoprotectant solution consisting of 22%(v/v) glycerol in distilled water. The cryoloop was then placed inside a xenon pressure cell (http:// www.hamptonresearch.com/hrproducts/4791.html) in which a vial of the cryoprotectant had been previously placed to avoid the crystal drying out. The cell was pressurized to 4 MPa xenon for 1 min and the pressure released slowly over 20±30 s. The sample was then ¯ash-cooled in liquid nitrogen in less
+Acta Cryst. (2002). D58, 1413±1420
+
+1414
+
+Panjikar & Tucker
+
+
+
+Xenon derivatization of bromide derivatives
+
+research papers
+than 10 s and stored at liquid-nitrogen temperature (data sets Br-G-Xe-W0.80 and Br-G-Xe-W0.93). Protocol 2. Crystals were similarly removed from the mother liquor and immediately dipped for 20 s into a 1 M NaBr solution. They were then transferred to 200 ml of dry paraf®n oil to remove the aqueous layer around the crystals. They were then either ¯ash-cooled directly (data set Br-OW0.85) or transferred to the xenon pressure cell, where they were pressurized to 4 MPa for just under 1 min before releasing the pressure slowly and ¯ash-cooling in liquid nitrogen (data set Br-O-Xe-W0.80). Crystals derivatized with xenon alone (data set O-Xe-W0.98) were produced by transfer directly to dry paraf®n oil prior to derivatization and ¯ashcooling. Protocol 3. Crystals were transferred to a 1:1 mixture of glycerol (100%) and 1 M NaBr for 20 s and were either directly ¯ash-cooled (data set Br-G-W0.80) or transferred to the xenon pressure cell and pressurized using the same protocol as described above (data sets Br-G1-Xe-W0.80 and Br-G1-Xe-W0.93). Data were measured on the derivatized crystals at different wavelengths on different beamlines (BW7A, X13 and X11), essentially as a consequence of beamline availability but with the requirement that some crystals give data sets obtained to both lower and higher energy than the bromine absorption edge (Br-G-Xe-W0.80/Br-G-Xe-W0.93, Br-G1-Xe-W0.80/BrG1-Xe-W0.93 and O-Xe-W0.98/Br-O-W0.85). The crystals were retrieved from and restored to the various beamlines using a conventional arc (similar to that described by Mancia et al., 1995). Each data set was processed with the HKL package (Otwinowski & Minor, 1997) but scaled with the CCP4 (Collaborative Computational Project, Number 4, 1994) program SCALA. Statistics for all data collections are summarized in Table 1. The data sets were all measured with high redundancy to maximize the ratio of Ranom to Rp.i.m. We have previously found this ratio to be a good indicator of phasing power (Panjikar & Tucker, 2002b). For reference, a native data set was measured from a crystal ¯ash-cooled in paraf®n oil.
+2.2. Data collection
+
+Figure 1
+
+The Harker sections of the anomalous difference Patterson for (a) the Br-Xe-G1-W0.93 and (b) the Br-Xe-G1-W0.8 data set. The expected vector positions are marked with circles and the xenon (261) and bromide vectors are numbered as in Table 2.
+Acta Cryst. (2002). D58, 1413±1420 Panjikar & Tucker
+
+
+Xenon derivatization of bromide derivatives
+
+1415
+
+research papers
+Ê were used. Data to 2.0 A were used and the xenon position was located by inspection of Harker sections of The occupancy and temperature factor from the heavy-atom re®nement are given. Blank spaces show that an anomalous difference Patterson bromine is not present in this position. using the data sets collected to lower Br-G-Xe-W0.80/ Br-G1-Xe-W0.80/ energy than the bromine edge (Fig. Site No. x y z Br-O-Xe-W0.80 Br-O-W0.85 Br-G-Xe-W0.92 Br-G1-Xe-W0.92 Br-G-W0.80 1a for the Br-Xe-G1-W0.93 data set) Xe261 0.283 0.429 0.010 1.01/18.6 1.22/21.8 1.17/22.0 or, in the case of the third pair, the Br262 0.512 0.651 0.124 1.01/14.9 0.63/05.0 0.65/13.0 1.13/16.3 0.86/11.5 data set from the crystal containing Br263 0.352 0.378 0.309 0.85/21.1 0.76/11.7 0.56/13.4 0.79/20.3 0.47/15.4 xenon only (O-Xe-W0.98). The Br264 0.904 0.500 0.068 0.48/21.9 0.76/19.5 0.21/22.0 0.38/16.4 0.38/26.3 Br265 0.760 0.544 0.189 0.31/11.7 0.32/05.7 0.23/23.8 0.41/22.2 0.26/18.6 position and occupancy of the Xe Br266 0.261 0.495 0.240 0.47/14.3 0.80/16.6 0.16/10.0 0.38/11.9 0.27/08.5 atom were re®ned using SHARP (de Br267A 0.407 0.588 0.284 0.33/23.9 0.37/15.8 0.16/12.5 0.34/21.1 0.40/36.0 La Fortelle & Bricogne, 1996) and Br267B 0.417 0.581 0.299 ² Br268 0.258 0.291 0.254 0.59/21.2 0.55/14.2 0.14/08.6 0.59/65.5³ 0.19/14.5 SAS phases were calculated and Br269 0.699 0.246 0.046 0.68/32.8 0.65/23.3 ² 0.21/24.6 improved by density modi®cation as Br270A 0.320 0.748 0.268 0.43/31.9 0.42/22.1 0.20/14.0 implemented in SHARP [DM Br270B 0.315 0.732 0.272 ² Br271 0.857 0.828 0.115 0.72/36.5 0.34/29.5 0.18/20.6 (Cowtan & Zhang, 1999) and Br272 0.481 0.992 0.170 0.34/35.7 0.27/19 0.23/24.8 SOLOMON (Abrahams & Leslie, Br273 0.715 0.825 0.222 0.27/27.9 0.43/44.3 0.21/48.6 1996)]. For the ®rst two pairs of data Br274 0.555 0.281 0.321 0.24/14.6 0.37/12.6 Br275 0.127 0.195 0.189 0.44/31.6 0.31/13.4 sets, anomalous difference Fouriers Br276 0.699 0.780 0.123 0.37/37.6 0.67/70.3 were generated using the FFT (Ten Br277 0.688 0.255 0.189 0.61/48.5 0.34/29.5 Eyck, 1973) program with the data Br278 0.004 0.748 0.107 0.29/27.5 0.34/35.7 Br279 0.889 0.414 0.177 0.29/29.5 0.43/29.0 set to higher energy than the Br280 0.956 0.874 0.202 0.33/33.2 0.30/22.7 bromine edge and using the xenonBr281 0.838 0.652 0.124 0.22/29.7 0.27/04.1 derived SAS phases. This enabled Br282 0.824 0.509 0.156 0.28/35.8 0.44/28.6 Br283 0.017 0.979 0.138 0.21/39.3 1.07/30.5 the location of the eight major Br284 0.140 0.875 0.164 0.41/45.6 0.59/38.7 bromide sites. For the third pair, the Br285 0.463 0.377 0.304 0.79/20.8 0.38/21.8 0.21/09.7 anomalous difference Fourier using Br286 0.338 0.035 0.018 0.22/24.1 Br287 0.148 0.989 0.176 0.36/40.9 the bromide-only data set (Br-OBr288 0.154 0.214 0.132 0.14/19.4 W0.85) was calculated using the Br289 0.628 0.835 0.065 0.23/25.5 SAS phases derived from the xenonBr290 0.872 0.061 0.091 0.45/57.3 Br291 0.850 0.104 0.027 0.20/26.8 only data set (O-Xe-W0.98). This Br292 0.878 0.351 0.119 ² 0.45/35.5 enabled 24 of the bromide sites to be Br293 0.412 0.907 0.182 ² 0.22/11.5 identi®ed; the remaining sites were Br294 0.501 0.754 0.238 0.35/42.0³ Br295 0.803 0.059 0.000 0.27/10.3 located from residual maps calcuBr296 0.591 0.484 0.244 0.50/28.4 lated using Fourier coef®cients Br297 À0.002 0.846 0.155 0.24/13.4 derived from gradients of the logBr298 0.733 0.083 0.052 0.42/12.2 Br299 0.305 0.921 0.050 0.45/27.5 likelihood function, as described by Br300 0.984 0.678 0.027 0.43/31.4 La Fortelle & Bricogne (1997). As an alternative AutoSHARP ² These atoms appeared in model re®nement. ³ These atoms were subsequently removed when the model was re®ned. was also used a priori to locate and re®ne the heavy-atom sites (Table 2) for the Br-O-Xe-W0.80 data. AutoSHARP found seven of the Table 3 Values of f H and f HH used. 32 bromide/xenon sites in the ®rst round and a further 11 in Ê Ê Ê Ê the second round. After optimization of solvent content, the ! = 0.80 A ! = 0.85 A ! = 0.93 A ! = 0.98 A H HH H HH H HH H HH automated model-building procedure terminated with a f f f f f f f f correlation coef®cient marginally lower than 70%; however, Br À1.0 2.99 À1.7 3.29 À4.0 0.05 À2.46 0.56 the phase set was good enough to autobuild the model. Xe À0.5 2.45 À0.46 2.68 À0.3 3.1 À0.31 3.43
+Table 2
+Comparison of Br sites from the initial phases, using the common numbering scheme used in the PDB entries.
+
+2.3. Location of Xe atoms and bromide ions
+
+2.4. Phasing procedures and model building
+
+To test the ef®cacy of a procedure that uses data at two wavelengths, the pairs of data sets Br-G-Xe-W0.80/Br-G-XeW0.93, Br-G1-Xe-W0.80/Br-G1-Xe-W0.93 and O-Xe-W0.98/ Br-O-W0.85 were used. The ®rst two pairs were collected on the same crystal, whereas for the third pair different crystals
+
+With SHARP, SAS protocols were used for the Br-O-XeW0.80, Br-O-W0.85, Br-G-W0.80, Br-G1-Xe-W0.93 and O-XeW0.98 data sets, MAD protocols for the Br-G-Xe-W0.80/BrG-Xe-W0.93 and Br-G1-Xe-W0.80/Br-G1-Xe-W0.93 pairs and a MIRAS protocol for the O-Xe-W0.98/Br-O-W0.85 pair. The full complement of bromide sites (Table 2) was located by use
+Acta Cryst. (2002). D58, 1413±1420
+
+1416
+
+Panjikar & Tucker
+
+
+
+Xenon derivatization of bromide derivatives
+
+research papers
+Table 4
+Ê Phasing statistics at 2.0 A.
+SAS SAS MAD MAD SAS SAS SAS MIRAS Br-G-Xe-W0.80/ Br-G1-Xe-W0.80/ O-Xe-W0.98, Br-O-Xe-W0.80 Br-O-W0.85 Br-G-Xe-W0.93 Br-G1-Xe-W0.93 Br-G-W0.80 Br-G1-Xe-W0.93 O-Xe-W0.98 Br-O-W0.85 No. of Xe sites No. of Br sites SHARP FOM SHARP correlation coef®cient SHARP (Á9) SHARP density-modi®ed FOM SHARP density-modi®ed CC SHARP density-modi®ed Á9 SHARP-ARP/wARP residues/building cycles 1 31 0.57 0.55 62.75 0.91 0.76 48.87 224/9 Ð 32 0.52 0.44 68.63 0.89 0.71 53.67 210/9 1 7 0.64 0.48 63.67 0.87 0.73 52.45 221/9 1 9 0.65 0.47 63.31 0.91 0.75 50.75 219/9 Ð 13 0.42 0.42 68.86 0.84 0.67 56.01 194/9 1 Ð 0.41 0.37 70.20 0.84 0.52 62.04 Ð 1 Ð 0.33 0.37 70.80 0.83 0.49 64.09 Ð 1 32 0.60 0.54 54.15 0.91 0.78 43.67 220/9
+
+Table 5
+
+Re®nement statistics from SHELXL.
+Br-O-Xe-W0.80 Ê Resolution range (A) 35±1.5 R factor (%) 16.6 Rfree (%) 20.9 No. of protein atoms 1832 Ê 15.1 Main-chain average B factor (A2) Ê Side-chain average B factor (A2) 17.3 No. of water atoms 305 Ê Water average B factor (A2) 29.6 No. of bromide ions 34 Ê Bromide average B factor (A2) 27.6 No. of Xe atoms 1 Ê 18.5 B factor of Xe atom (A2) No. of Na atoms 1 Ê B factor of Na atom (A2) 11.7 No. of glycerol molecules 0 Ê B factor of glycerol molecule (A2) Ð No. of sulfate ions 0 Ê B factor of sulfate ions (A2) Ð R.m.s. deviation from ideal values² Ê Bond lengths (A) 0.009 Bond angles ( ) 2.13 Residue distribution in Ramachandran plot³ Most favourable region (%) 88.3 Allowed region (%) 11.7
+² Engh & Huber (1991).
+
+Br-G1-Xe-W0.80 35±1.5 17.3 21.5 1832 14.2 16.7 216 28.9 8 26.5 1 15.8 1 13.3 1 30.0 1 24.0 0.010 2.18 87.9 12.1
+
+set was not used in the phasing procedures. Finally, the quality Ê of the phases (at 2 A) was checked by the ability to automatically build the protein model using ARP/wARP (Perrakis et al., 1999); the number of correctly built residues (out of 240) in a given number of building cycles is also listed in Table 4. In each case, if the phases were extended by density modi®cation Ê to 1.5 A the entire structure could be autobuilt within 3±4 building cycles.
+2.5. Refinement of the bromide/solvent models
+
+³ Ramachandran & Sasisekharan (1968).
+
+of the residual maps in SHARP. In the re®nements, f H and f HH of bromine and xenon were not re®ned and the theoretical values used for the different wavelengths are given in Table 3. A PPE model (PDB code 1qnj) was rebuilt and rere®ned using ARP (Lamzin & Wilson, 1993) and REFMAC (Murshudov et al., 1997). Re®nements against the W0.8 data Ê set were made at 2.0 A. The R factor and Rfree were 18 and 22%. Phase errors and map correlation coef®cients (using 2mFobs À DFcalc, 9calc) before and after density modi®cation with the re®ned structure were calculated for each of the phasing procedures using SFTOOLS (Collaborative Compuatational Project, Number 4, 1994) and are given in Table 4. It should be noted that the map correlation coef®cients are against the `native' structure, whereas the determined phases are for the derivatized models. The native data
+Acta Cryst. (2002). D58, 1413±1420
+
+Because of the different number of bromide sites observed between the glycerol and oil-treated crystals, two of the bromide-containing structures were re®ned using SHELXL97 to establish the major differences. PDB entry 1qnj was used as starting model for the data sets Br-O-XeW-0.8 and Br-G1-XeW0.8. 20 cycles of rigid-body re®nement were carried out to Ê 2.5 A resolution to ensure that the model was correctly placed in the unit cell. Using conjugate-gradient least-squares Ê (CGLS) re®nement, the resolution was increased by 0.02 A Ê per step from 2.5 to 1.5 A in 50 cycles. After these re®nement steps, side chains were (re)placed correctly using the electron density (2mFobs À DFcalc) and difference density (mFobs À DFcalc) maps. Subsequently, each round of re®nement consisted of 20 CGLS cycles. After the ®rst three rounds, peaks from a difference Fourier synthesis calculated by SHELXL were compared with an anomalous difference Fourier map to check the correct placement of the bromide ions, the Xe atom and the sodium ion in the model. Subsequently, the occupancies of these heavy atoms were re®ned, the re®ned occupancies were ®xed, isotropic B-factor re®nement was performed and ®nally the atoms were allowed to re®ne with anisotropic temperature factors. After subsequent re®nement steps, difference Fourier peaks (>5') were added to the model as water molecules subject to reasonable contact distances and reasonably shaped electron density. The Br-O-XeW-0.8 data provides a model where the sulfate ion (in 1qnj) is replaced by a bromide ion. The Br-G1-Xe-W0.8 data provides a model which contains one glycerol molecule (at a protein±protein contact) and one sulfate ion. The re®nements are summarized in Table 5.
+Panjikar & Tucker
+
+
+Xenon derivatization of bromide derivatives
+
+1417
+
+research papers
+3. Results and discussion
+Soaking in NaBr followed by removal of the aqueous layer around the crystal in dry paraf®n oil (data sets Br-O-XeW0.80 and Br-O-W0.85) results in crystals with far more bromide sites (Table 2) than when glycerol is used as a cryoprotectant. The probable factors contributing to this are either the absence of a back-soak (e.g. Br-G-XeW0.80) or the reduced NaBr concentration (e.g. Br-G1-Xe-W0.80), or even the competition between bromide and glycerol to `solvate' the protein. The larger number of sites results in improved phasing, as judged by the mean phase error after density modi®cation (compare Br-O-W0.85 and Br-GW0.8 in Table 4), a presumed consequence of the larger Ranom/Rp.i.m. ratio, resulting almost entirely from a larger value of Ranom (see Table 1). Of course, f HH is around 10% higher for the ®rst data set, but the effect of this is not dominant. This suggests that there is a clear advantage of using oil as a `cryoprotectant' when using halide soaks. We have previously reported the advantage of using oil when xenon derivatization is required (Panjikar & Tucker, 2002a). The better phasing obtained for the BrO-Xe-W0.80 data relative to the Br-OW0.85 data does not result so much from the addition of xenon, but from the better Ranom/Rp.i.m. ratio of the former set. This is more highly redundant because a low-resolution data set was measured; consequently, Rp.i.m. is lower and the data is more complete at low Ê resolution. In the 20.0±4.0 A resolution range, the values were 99.8% for the BrO-Xe-W0.80 data set compared with 95.7% for the Br-O-W0.85 data set. The wavelength difference in this case is expected to result in a larger Ranom for the former rather than the latter data set (Table 3), other things being equal. The resultant phases determined using Xe only in an SAS protocol (data sets Br-G1-Xe-W0.93 and O-Xe-W0.98) are generally not good enough to autoÊ build the model at 2.0 A, but they are certainly adequate to locate Br atoms in bromide-soaked crystals. Using such two-wavelength data sets gives mean phase errors that are suf®ciently good to
+Table 6
+Comparison of bromide±protein/water contacts.
+* indicates atoms from a symmetry-related molecule. Br-OXe-W0.80 Br262 Pro13 N Wat394 OW0 Ser14 N Ser14 OG Wat398 OW0 Wat368 OW0 Wat312 OW0 Ala228 CA Arg136 NH1 Wat468 OW0 Arg225 NH1 Arg225 NH2 Wat432 OW0 Wat633 OW0 Arg218 NE Ser102 N Wat419 OW0 Gln37 N Gln37 NE2 Wat508 OW0 Wat307 OW0 Leu121 N Wat331 OW0 Wat371 OW0 Wat531 OW0 Wat534 OW0 Arg116 N His203 NE2 Wat531 OW0 Wat534 OW0 Wat639 OW0 Wat267 OW0 Arg116 NH1 Arg116 N Thr119 OG1 Ser171 N Wat435 OW0 Asn170 N Wat381 OW0 Wat535 OW0 Wat478 OW0 Ile77 N Ile77 O Wat434 OW0 Gly198 N Asn235 O Ser239 OG Leu195 CG Gly198 N Ser239 OG Val196 C Asn197 N Wat438 OW0 Thr144 N Thr144 OG1 Gln143 N Gln146 NE2 Wat487 OW0 Wat375 OW0 Wat499 OW0 Ala117 N Wat562 OW0 Asn170 O Ser171 N Arg225 NH2 Wat598 OW0 Wat489 OW0 3.66 3.28 3.42 3.13 4.00 3.03 3.85 3.93 3.62* 2.98 3.35 3.53 3.61 Ð Ð 3.35 3.73 3.41 Ð 3.02 3.01 3.30 3.04 3.19 3.43 3.84 3.88 3.76 3.41 2.99 Ð Ð Ð 3.12 Ð 3.59 3.14 3.90 3.54 3.62 3.41 3.29 3.96 3.12 3.15 3.36* 2.51* 3.66 3.31 3.20* 3.99 3.49 3.72 3.62 3.67 3.25 3.91 3.84 3.37 3.21 3.14 3.79 3.72 3.56 3.28 2.43 2.64 Br-G1Xe-W0.80 3.58 3.38 3.41 3.09 Ð 3.21 3.93 Ð 3.91* Ð 3.29 3.54 Ð 3.43 3.75 3.46 3.80 3.27 3.94 Ð 3.05 3.26 2.82 Ð Ð Ð Ð Ð Ð Ð 3.76 2.17 3.72 3.17 3.69 Ð Ð Ð Ð Ð Ð 3.29 3.92 3.13 Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Br275 Gly23 N Br288 Wat567 OW0 Wat 520 OW0 Ser107 N Wat537 OW0 Asn240 ND2 Arg9 NH2 Wat396 OW0 Asn61 ND2 Wat427 OW0 Ser160 OG Ser162 N Ser162 OG Ser161 OG Wat548 OW0 Wat577 OW0 Gln143 OE1 Asn63 OD1 Leu105 N Gln37 OE1 Arg218 NH2 Ser102 OG Asn38 OD1 Trp26 O His28 N Wat412 OW0 Asn65 N Wat521 OW0 Gln64 N Gln64 O Ser231 N Ser1231 N Ser1231 OG Ser231 OG Ala228 O Ile230 N Wat382 OW0 Ser227 O Gln101 OE1 Wat402 OW0 Gly73 N Wat505 OW0 Trp26 N Trp26 O Lys169 NZ Wat452 OW0 Ser166 O Wat369 OW0 Br275 Wat395 OW0 Gly3 N Wat303 OW0 Ser107 OG Wat449 OW0 Wat370 OW0 Asn10 ND2 Wat565 OW0 Wat440 OW0 Wat388 OW0 Gly186 N Wat507 OW0 Wat423 OW0 Gly186 N His45 NE2 Ser188 OG Br-OXe-W0.80 3.48 3.28 2.60 3.63 3.57 2.40 2.80 3.79 3.12 3.20 2.21 3.82 3.56 2.42 3.97 3.90 3.93 3.28 3.34 3.15 3.49 3.48 3.05 3.74 3.92 3.04 2.79 3.63 2.48 3.76 3.81 3.32 3.32 3.16 Ð 3.73 3.42 3.51 3.93 3.09 2.52 2.67 2.24 3.12 3.79 2.83 2.81 3.56 2.22 3.28 3.25 3.93 3.32 3.27 2.02 2.70 3.35 3.61 3.29 3.90 3.84 3.25 3.86 3.25 3.80 2.64 Br-G1Xe-W0.80 Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð 3.34 Ð Ð 3.67 3.54 3.42 3.40 3.95 Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð Ð
+
+Br276 Br277 Br278
+
+Br263
+
+Br264
+
+Br279
+
+Br280
+
+Br265 Br266
+
+Br281 Br282 Br283 Br284
+
+Br267A
+
+Br267B
+
+Br285
+
+Br268
+
+Br269
+
+Br286
+
+Br270A
+
+Br287 Br288
+
+Br270B
+
+Br289
+
+Br271
+
+Br272
+
+Br290
+
+Br273
+
+Br291
+
+1418
+
+Panjikar & Tucker
+
+
+
+Xenon derivatization of bromide derivatives
+
+Acta Cryst. (2002). D58, 1413±1420
+
+research papers
+rather than lower pressures (0.5± 1 MPa) for longer times, but have no Br-OBr-G1Br-OBr-G1indication that the former protocol has Xe-W0.80 Xe-W0.80 Xe-W0.80 Xe-W0.80 speci®c advantages in terms of xenon Br274 Asn235 ND2 3.18 Ð Br292 Ile77 O 3.33 Ð occupancy. Rather, the problem is that Wat321 OW0 3.41 Ð Wat434 OW0 3.38 Ð often we see no xenon binding, but as Wat512 OW0 3.33 Ð Wat559 OW0 3.82 Ð Val79 N 3.07 Ð yet we have too few examples to give Wat594 OW0 2.97 Ð statistics. We would expect the bromide Wat431 OW0 3.12 Ð soaks to be far more damaging since, Br293 Ser231 OG 3.54 Ð Asn234 ND2 2.76 Ð depending on crystallization conditions, there might be a large change in ionic strength that many protein crystals would not survive. It is interesting to note that the location and number of bromide ions is not reproducible from crystal to crystal. For aqueous solutions this is perhaps not so surprising since the time of soaks are not totally identical, but only the ®rst seven bromide sites are totally reproducible. In oil the situation is rather better, with the ®rst 23 of the 31/32 sites reproducibly observed (Table 2), but again the initial soak conditions are necessarily dif®cult to reproduce given Figure 2 slight changes in concentration of NaBr, Stereo cartoon of PPE with regions coloured from blue to green according to increasing main-chain difference in crystal sizes and actual temperature factor. Bromide ions common to both glycerol and oil cryoprotection conditions are time taken to remove the mother liquor shown in red; those bromide positions found only with the oil treatment are shown in yellow. The surrounding the crystal. In Table 2, both Xe atom is coloured grey, whilst the sodium ion is deep blue. re®ned occupancy and temperature Ê factor are given because, although a strong correlation allow automatic model building at 2 A, despite the fact that the individual Ranom/Rp.i.m. ratios of the individual data sets are between these parameters is expected, there is no reason to expect that all bromides will have the same temperature not as good as when oil was used for cryoprotection. It is also factor. possible to use the same strategy when different crystals are The top seven sites found in all conditions are either located used. For example, the data set O-Xe-W0.98 can yield phases between molecules close to crystal contacts between molethat locate 24 sites in the Br-O-W0.85 data set (these phases cules or occupy appreciable depressions in the protein surface. also locate 22 bromide sites from the Br-O-Xe-W0.80 data). The positions of the bromide ions are shown in Fig. 2. They are Both data sets when used together in a MIRAS phasing Ê strongly hydrogen bonded (<3.4 A) to one or more water strategy yield a phase set (Table 4) which after density Ê modi®cation allows autobuilding in ARP/wARP at 2.0 A. molecules as well as to predominantly main-chain atoms (see Table 6). It would appear that there is a viable phasing strategy that uses the differential differences in f HH between Br and Xe across the bromine absorption edge to determine the bromide 4. Conclusions substructure from SAS phases from the fewer, and therefore more easily determined, xenon sites (Fig. 1). To lower energy We show that crystals of porcine pancreatic elastase can be derivatized by soaking in high-molarity bromide solutions and than the bromine absorption edge, the anomalous difference that these crystals, either in a glycerol-based cryoprotectant Patterson is easier to interpret than the isomorphous difference Patterson because the latter contains vectors from both solution or in paraf®n oil, can be subsequently pressurized bromine and xenon. The generality of such a strategy will under a xenon atmosphere to incorporate xenon. We observe depend on the crystal surviving the two treatments, although a that when paraf®n oil is used a larger number of bromide ions similar strategy for solving selenium substructures (using the are observed on the protein surface. We believe this occurs not xenon derivative to higher and lower energy than the selenium only because the glycerol cryoprotection is in some sense a absorption edge) in selenomethionine-containing crystals back soak, but also because in glycerol the solvent structure around the protein is more disordered. We show that intensity would require only xenon pressurization. In our limited data collected to lower energy than the bromine absorption experience, xenon pressurization does not destroy crystals, although we have observed phase changes resulting from edge can be used to determine the xenon position and the pressurization. We have preferred to use 4 MPa for short times resultant phase information can be used to determine the
+Table 6 (continued)
+Acta Cryst. (2002). D58, 1413±1420 Panjikar & Tucker
+
+
+Xenon derivatization of bromide derivatives
+
+1419
+
+research papers
+bromine substructure from data collected to higher energy than the bromine absorption edge. The method would appear to have general applicability where large substructures need to be determined. This work was performed as part of the EXMAD project with support from the European Union (Contract Number HPRI-CT-1999-50015).
+Hendrickson, W. A. (1991). Science, 254, 51±58. Hendrickson, W. A. & Teeter, M. M. (1981). Nature (London), 290, 107±113. La Fortelle, E. de & Bricogne, G. (1997). Methods Enzymol. 276, 472± 494. Lamzin, V. & Wilson, K. S. (1993). Acta Cryst. D49, 129±147. Mancia, F., Oubridge, C., Hellon, C., Woollard,T., Groves, J. & Nagai, K. (1995). J. Appl. Cryst. 28, 224±225. Murshudov, G. N., Vagin, A. A. & Dodson, E. J. (1997). Acta Cryst. D53, 240±255. Otwinowski, Z. & Minor, W. (1997). Methods Enzymol. 276, 307± 326. Panjikar, S. & Tucker, P. A. (2002a). J. Appl. Cryst. 35, 117±119. Panjikar, S. & Tucker, P. A. (2002b). J. Appl. Cryst. 35, 261±266. Perrakis, A., Morris, R. & Lamzin, V. S. (1999). Nature Struct. Biol. 6, 458±463. Ramachandran, G. N. & Sasisekharan, V. (1968). Adv. Protein Chem. 23, 283±437. Rice, L. M., Earnest, T. N. & Brunger, A. T. (2000). Acta Cryst. D56, 1413±1420. Â, Schiltz, M., Fourme, R., Broutin, I. & Prange T. (1995). Structure, 3, 309±316. Shotton, D. M., Hartley, B. S., Camerman, N., Hofmann, T., Nyburg, S. C. & Rao, L. (1968). J. Mol. Biol. 32, 155±156. Ten Eyck, L. F. (1973). Acta Cryst. A29, 183±191. Teng, T. (1990). J. Appl. Cryst. 23, 387±391. Weiss, M. S. (2001). J. Appl. Cryst. 34, 130±135. Weiss, M. S. & Hilgenfeld, R. (1997). J. Appl. Cryst. 30, 203±205.
+
+References
+Abrahams, J. P. & Leslie, A. G. W. (1996). Acta Cryst. D52, 30±42. Boggon, T. J. & Shapiro, L. (2000). Structure Fold. Des. 8, R143± R149. Collaborative Computational Project, Number 4 (1994). Acta Cryst. D50, 760±763. Cowtan, K. D. & Zhang, K. Y. (1999). Prog. Biophys. Mol. Biol. 72, 245±270. Dauter, Z. & Adamiak, D. A. (2001). Acta Cryst. D57, 990±995. Dauter, Z. & Dauter, M. (1999). J. Mol. Biol. 289, 93±101. Dauter, Z., Dauter, M., de La Fortelle, E., Bricogne, G. & Sheldrick, G. M. (1999). J. Mol. Biol. 289, 83±92. Diederichs, K. & Karplus, P. A. (1997a). Nature Struct. Biol. 4, 269± 275. Diederichs, K. & Karplus, P. A. (1997b). Nature Struct. Biol. 4, 592. Engh, R. A. & Huber, R. (1991). Acta Cryst. A47, 392±400.
+
+1420
+
+Panjikar & Tucker
+
+
+
+Xenon derivatization of bromide derivatives
+
+Acta Cryst. (2002). D58, 1413±1420
+
+

@@ -1,0 +1,237 @@
+Regulation of dCTP deaminase from Escherichia coli by nonallosteric dTTP binding to an inactive form of the enzyme
+Eva Johansson1,2, Majbritt Thymark1, Julie H. Bynck1, Mathias Fanø3, Sine Larsen1,2 and Martin Willemoes3 ¨
+1 Centre for Crystallographic Studies, Department of Chemistry, University of Copenhagen, Denmark 2 European Synchrotron Radiation Facility, Grenoble, France 3 Department of Molecular Biology, University of Copenhagen, Denmark
+
+Keywords deoxynucleotide metabolism; dUTP; enzyme regulation; hysteresis; deamination Correspondence E. Johansson, Diabetes Protein Engineering, Novo Nordisk A / S, Novo Nordisk Park, ° DK-2760 Maløv, Denmark Fax: +45 4444 4256 Tel: +45 4442 1189 E-mail: evjh@novonordisk.com or M. Willemoes, Department of Molecular ¨ Biology, University of Copenhagen, Ole Maaløes vej 5, DK-2200 Copenhagen N, Denmark Fax: +45 3532 2128 Tel: +45 3532 2030 E-mail: willemoes@mermaid.molbio.ku.dk Database The atomic coordinates and structure factors have been deposited in the Protein Data Bank with the PDB ID codes 2j4q (E138:dTTP) and 2j4 h (H121A:dCTP) and can be accessed at http://www.rcsb.org (Received 12 April 2007, revised 12 June 2007, accepted 18 June 2007) doi:10.1111/j.1742-4658.2007.05945.x
+
+The trimeric dCTP deaminase produces dUTP that is hydrolysed to dUMP by the structurally closely related dUTPase. This pathway provides 70­80% of the total dUMP as a precursor for dTTP. Accordingly, dCTP deaminase is regulated by dTTP, which increases the substrate concentration for half-maximal activity and the cooperativity of dCTP saturation. Likewise, increasing concentrations of dCTP increase the cooperativity of dTTP inhibition. Previous structural studies showed that the complexes of inactive mutant protein, E138A, with dUTP or dCTP bound, and wild-type enzyme with dUTP bound were all highly similar and characterized by having an ordered C-terminal. When comparing with a new structure in which dTTP is bound to the active site of E138A, the region between Val120 and His125 was found to be in a new conformation. This and the previous conformation were mutually exclusive within the trimer. Also, the dCTP complex of the inactive H121A was found to have residues 120­125 in this new conformation, indicating that it renders the enzyme inactive. The C-terminal fold was found to be disordered for both new complexes. We suggest that the cooperative kinetics are imposed by a dTTP-dependent lag of product formation observed in presteady-state kinetics. This lag may be derived from a slow equilibration between an inactive and an active conformation of dCTP deaminase represented by the dTTP complex and the dUTP / dCTP complex, respectively. The dCTP deaminase then resembles a simple concerted system subjected to effector binding, but without the use of an allosteric site.
+
+Synthesis of dTMP by thymidylate synthase proceeds by the reductive methylation of dUMP, which is obtained via one of two parallel pathways. One pathway, considered to be a minor supplier of dTTP [1­3],
+
+involves the reduction of UDP (UTP) by the action of ribonucleotide reductase. Subsequently, dUDP is phosphorylated to dUTP and cleaved to dUMP. The main supply of dUMP, however, involves the deamination
+
+Abbreviations E138A, mutant dCTP deaminase with a Glu138 to Ala substitution; H121A, mutant dCTP deaminase with a His121 to Ala substitution; V122G, mutant dCTP deaminase with a Val122 to Gly substitution.
+
+4188
+
+FEBS Journal 274 (2007) 4188­4198 ª 2007 The Authors Journal compilation ª 2007 FEBS
+
+E. Johansson et al.
+
+dTTP inhibition of dCTP deaminase
+
+of a deoxycytidine nucleotide [1­3]. In eukaryotes and most of the well-studied Gram-positive bacteria (e.g. Bacillus subtilis) a dCMP deaminase supplies dUMP directly by deamination of dCMP [4­6]. dCMP deaminase is structurally related to cytosine- and cytidine deaminases [7], which are all metallo enzymes [8­10]. In other prokaryotes, dUMP is derived mainly from dCTP. In Escherichia coli [11] and Salmonella enterica serovar Typhimurium [3,12] a dCTP deaminase produces dUTP, which is subsequently cleaved by dUTPase to dUMP. In the archaeon Methanocaldococcus jannaschii, a bifunctional dCTP deaminase:dUTPase has been identified. This enzyme produces dUMP directly from dCTP by catalysing both the deamination and the triphosphate cleavage reaction within the same active site [13,14]. Monofunctional and bifunctional dCTP deaminases are both structurally closely related to trimeric dUTPases. They belong to the same superfamily and form trimers of identical subunits [15­18]. In accordance with the `branch point' position in deoxynucleotide metabolism and in particular in dTTP synthesis, both the dCMP- and the dCTP deaminases are inhibited by dTTP [5,12]. For dCMP deaminase, dTTP regulation occurs by binding of the inhibitor to an allosteric site in competition with the activator dCTP [7]. For dCTP deaminase, the mechanism of dTTP regulation is not understood. Only dCTP deaminases can bind dTTP, whereas the closely related dUTPase has very low affinity for this nucleotide in a concentration range of several orders of magnitude above physiological levels [19,20]. This selectivity against dTTP (and dCTP) in the dUTPase active site is obviously to avoid the breakdown of important deoxyribonucleotides while facilitating the extremely important removal of the toxic intermediate, dUTP [21­23]. Kinetic analysis of dCTP deaminase from S. enterica serovar Typhimurium showed competitive inhibition of dCTP binding by dTTP. However, the presence of dTTP in the assay incubation also increased the apparent cooperativity of dCTP binding, which indicates that the mechanism of dTTP inhibition is not caused only by a trivial competition between substrate and inhibitor for binding to the same site [12]. We have previously determined the structures of wild-type dCTP deaminase in complex with dUTP and the inactive E138A mutant protein in complex with dUTP and dCTP. In all cases, we observed an ordered C-terminal that was closed over the active site, but in a different conformation to that observed for dUTPase. For both the mono- and bifunctional dCTP deaminases, as we show here, and
+
+the dUTPase [24], the C-terminal fold is important for the formation of a catalytically competent complex by closing the active site, but not for binding of the substrates. In this study, we present results from structural and mechanistic studies on dTTP inhibition of E. coli dCTP deaminase. Coordinated closure of the active site and rearrangement of the main chain and side chains in the active site appear as key players in a slow transformation from an inactive to an active enzyme. dTTP inhibition may then be achieved by stabilizing the inactive form of presumably both the mono- and bifunctional dCTP deaminases.
+
+Results
+Structure analysis The E138A E. coli dCTP deaminase variant in complex with dTTP crystallized in space group P6322. The structure was determined using the molecular replacement technique with wild-type E. coli dCTP deaminase in complex with dUTP as a search model that was previously crystallized in space group P21 [18] (Protein Data Bank code 1XS1). The two different crystal forms were obtained under similar conditions using PEG400 as precipitant. The structure forms a homotrimer that exists in two copies in the E138A:dTTP structure. The two copies are designated A and B, originating from the A and B chains in the structure. dTTP binds at the site of the protein shown previously to bind the nucleotides dUTP and dCTP in wild-type and the E138A variant [18]. The nucleotide-binding site is positioned between two of the subunits giving rise to three active sites per trimer. In the previously determined structures of the enzyme, the C-terminal amino acid residues from one of these subunits are folded to form a lid over the active site which interacts with the bound nucleoside triphosphate. In the structure in which dTTP is bound, the C-terminal amino acid residues are disordered and not visible in the electron-density map (Fig. 1). Furthermore, the c-phosphate of dTTP is not visible in the electron-density map and a magnesium ion is only seen bound to the phosphates of dTTP in one of the two subunits. Large movement of a helix 2 (residues 55­65) [18] is also observed. If the C-terminal residues had been folded over the active site, as shown in previous structures of E. coli dCTP deaminase, these residues would have coincided with a helix 2 in this new position (Fig. 1B). A loop containing active-site residues in the interior of the enzyme (residues 120­125) is also totally different compared with previously determined E. coli dCTP
+4189
+
+FEBS Journal 274 (2007) 4188­4198 ª 2007 The Authors Journal compilation ª 2007 FEBS
+
+dTTP inhibition of dCTP deaminase
+
+E. Johansson et al.
+
+A
+
+B
+
+Fig. 1. Comparison of dCTP deaminase structures. (A) Superposition of the E138A trimer in complex with dCTP (grey) and dTTP (yellow, cyan and magenta). (B) Stereoview of a superposition of one of the subunits of the E138A variant of E. coli dCTP deaminase in complex with dTTP (yellow; chain B), dUTP (cyan; Protein Data Bank entry 1XS4, chain A), or dCTP (magenta; Protein Data Bank entry 1XS6, chain A). The nucleotides are shown in ball and stick representations and the magnesium ions as spheres. The N-terminus (N) and the extent to which the C-termini were resolved in the dTTP complex (C1) and the dCTP / dUTP complexes (C2) are indicated. The solid arrow points to the region of a helix 2 and b strand 5 that moved towards the active site in the absence of an ordered C-terminal fold. The dotted arrow points to the region in the active site constituted by residues 120­125 that deviated in position between the dCTP / dUTP complexes and the dTTP complex. The figure was created using PYMOL (DeLano Scientific, San Carlos, CA).
+
+deaminase structures (Figs 1B, 2 and 3). Interestingly, the crystal structure of the other inactive mutant enzyme H121A in complex with dCTP was very similar to the structure of E138A in complex with dTTP. In the H121A complex we also observed a disordered C-terminus and rearrangement of active-site residues 120­125 that was almost identical to the E138A complex (Fig. 2D,E)). Wild-type E. coli dCTP deaminase in complex with dTTP crystallized in the same form and under similar conditions as for the E138A:dTTP and H121A:dCTP complexes. However, resolution of the diffraction data for the wild-type ° enzyme in complex with dTTP was poor (3.5 A). As a result, details of the active site of the wild-type:dTTP complex were not as informative as for the E138A variant, although the active-site structure of the wildtype complex was reminiscent of this.
+4190
+
+Enzyme kinetics and equilibrium binding Figure 4A shows the results from a steady-state kinetic analysis of dTTP inhibition of dCTP deaminase by varying dCTP in the absence or presence of 100 lm dTTP. As found previously for the enzyme from S. enterica serovar Typhimurium [12], the cooperativity of dCTP saturation increased in the presence of dTTP. The Hill coefficient, n, increased from ~ 1.5 to 3, the apparent half-saturation constant, S0.5, increased 2.5fold and kcat remained the same as in the absence of dTTP. When dTTP was varied in the presence of a constant saturating or unsaturating concentration of dCTP, inhibition was cooperative and the dTTP concentration for 50% inhibition, I0.5, and the corresponding Hill coefficient increased with the increase in dCTP concentration (Fig. 4B).
+
+FEBS Journal 274 (2007) 4188­4198 ª 2007 The Authors Journal compilation ª 2007 FEBS
+
+E. Johansson et al.
+
+dTTP inhibition of dCTP deaminase
+
+A
+
+C
+
+D
+
+B E
+
+Fig. 2. Electron-density maps and close up stereoview of residues 120­124, 138 and nucleotides in the active site of E. coli dCTP deaminase and mutant enzymes. Electron-density maps for the (A) E138A dTTP complex and (B) H121A dCTP complex where the blue mesh represents the 2Fo ) Fc map contoured at 1 r and the green mesh represents the Fo ) Fc electron density map contoured at 3 r. (C) Superposition of the structures of E138A in complex with dTTP (yellow; chain B), and the wild-type enzyme in complex with dUTP (cyan; Protein Data Bank entry 1XS1, chain A). Wat5 is the proposed catalytic water molecule. (D) Superposition of the structures of H121A in complex with dCTP (magenta; chain B), and the wild-type enzyme in complex with dUTP (cyan; Protein Data Bank entry 1XS1, chain A). Wat5 is the proposed catalytic water molecule. (E) Superposition of the structures of E138A in complex with dTTP (yellow; chain B) and H121A in complex with dCTP (magenta; chain B).The figures were created using PYMOL (DeLano Scientific).
+
+Analysis of the presteady-state kinetic behaviour of dCTP deaminase using rapid quench-flow experiments showed a lag in the progress of product formation
+
+(Fig. 4C). This lag, which indicates slow activation of the enzyme upon substrate binding prior to the formation of a catalytic complex, increased in the presence
+4191
+
+FEBS Journal 274 (2007) 4188­4198 ª 2007 The Authors Journal compilation ª 2007 FEBS
+
+dTTP inhibition of dCTP deaminase
+
+E. Johansson et al.
+
+Fig. 3. Close-up stereoview of the centre of the homotrimer of E. coli dCTP deaminase with focus on residues Val122 and Thr123. (A) Superposition of E138A with dTTP bound and wild-type enzyme with dUTP bound suggested to represent the inactive and active conformers of dCTP deaminase, respectively. E138A in complex with dTTP is shown in yellow and the wild-type enzyme in complex with dUTP in cyan (Protein Data Bank entry 1XS1, chain A). (B) Superposition of the same region as above of the inactive H121A in complex with dCTP shown in magenta compared with the wild-type enzyme in complex with dUTP in cyan (Protein Data Bank entry 1XS1, chain A). The superposition demonstrates the likely structural incompatibility between the two conformers due to a clash of the side chains of Val122 and Thr123 as indicate by the arrows. The figure was created using PYMOL (DeLano Scientific).
+
+of dTTP. Significant estimates of the initial velocity, Vini, could not be obtained when fitting Eqn (4) to the data. A fixed value of Vini to < 0.1 times the steadystate velocity, Vss, greatly increased the errors of the calculated constants in Eqn (4). Therefore, Vini was fixed at 0 when performing the calculations. The late data points obtained in the absence of dTTP showed a deviation from linearity caused by beginning substrate depletion (Fig. 4C) and were omitted from the calculations. Unfortunately, we were not able to perform presteady-state experiments at subsaturating substrate concentrations to fully characterize the kinetics of the slow transition from inactive to active enzyme [25]. Attempts to do so were hampered by the experimental requirement for high enzyme concentrations both in terms of estimating the true free-ligand concentration in the experiments and by rapid substrate depletion resulting in an underestimation of Vss. dTTP binding to dCTP deaminase was also investigated by equilibrium binding. This revealed a hyperbolic binding curve (Fig. 4D) with a stochiometry of 1 : 1 of dTTP bound per subunit of dCTP deaminase.
+4192
+
+Mutational analysis of amino acid residues involved in dTTP regulation of dCTP deaminase The design of the mutant enzymes H121A and V122G was inspired by the results from analysis of crystal structures as discussed later. Both mutant enzymes were produced in similar amounts as wild-type enzyme and could be purified by the same procedure as for wild-type enzyme. However, none of the mutant enzymes displayed detectable activity.
+
+Discussion
+As mentioned, we have previously published the structures of wild-type dCTP deaminase in complex with dUTP and the inactive mutant protein E138A in complex with dUTP and dCTP [18]. In E138A the suggested catalytic base, Glu138, is replaced by alanyl. Comparison between structures of the complexes of wild-type and mutant dCTP deaminase revealed that the E138A complexes provide a good model for the interaction between dCTP deaminase and bound ligand. The interactions with bound nucleotide are
+
+FEBS Journal 274 (2007) 4188­4198 ª 2007 The Authors Journal compilation ª 2007 FEBS
+
+E. Johansson et al.
+
+dTTP inhibition of dCTP deaminase
+
+A
+
+B
+
+C
+
+D
+
+Fig. 4. Initial rate and presteady-state kinetics of dTTP inhibition and dTTP binding to dCTP deaminase. Assays were performed as described in Experimental procedures. (A) The concentration of dCTP varied as indicated in the absence (closed circles) or presence (open circles) of 100 lM dTTP. The kinetic constants calculated using Eqn (1) were (closed circles) kcat ¼ 1.24 ± 0.09 s)1, S0.5 ¼ 66 ± 9 lM, n ¼ 1.5 ± 0.3 and (open circles) kcat ¼ 1.20 ± 0.05 s)1, S0.5 ¼ 168 ± 8 lM, n ¼ 3.3 ± 0.4. (B) The dTTP concentration varied as indicated in the presence of (open circles) 100 lM dCTP and (closed circles) 500 lM dCTP. Kinetic constants calculated using eqn (2) were (open circles) I0.5 ¼ 53 ± 6 lM and n ¼ 1.31 ± 0.15 and (closed circles) I0.5 ¼ 826 ± 89 lM and n ¼ 1.7 ± 0.3. (C) Presteady-state kinetics of dCTP deaminase. Experiments were performed as described in Experimental procedures with enzyme in the absence (closed circles) or presence (open circles) of dTTP. The kinetic parameters were calculated using Eqns (4­6). The calculated constants were (closed circles) ratess ¼ 0.79 ± 0.06 s)1 with s ¼ 0.49 ± 0.13 s (k ¼ 2.0 s)1) and (open circles) ratess ¼ 0.16 ± 0.02 s)1 with s ¼ 2.3 ± 0.5 s (k ¼ 0.43 s)1). For comparison the straight lines represent the calculated steadystate rate in the absence of a lag. (D) dTTP binding to dCTP deaminase. Binding experiments were performed as described in Experimental procedures. The nucleotide concentration varied as indicated. The binding constants calculated using Eqn (3) were Nmax ¼ 1.01 ± 0.02 and Kd ¼ 35 ± 3 lM.
+
+similar with only small changes in the arrangement of water molecules around the 4 position of the pyrimidine ring [18]. In this study, we compared the structures of dCTP deaminase, represented by E138A, in complex with all three nucleotides that bind to the enzyme. A superposition of the trimer of E138A with the nucleotides dCTP or dTTP bound is shown in Fig. 1A. Whereas the previously determined structures of E138A in complex with dCTP or dUTP overall are virtually identical [18], the new dTTP complex revealed
+
+a disordered C-terminus. This difference between the two types of complex is more easily reconciled in the comparison of a single subunit of E138A in complex with dUTP, dCTP or dTTP (Fig. 1B). In the dTTP complex, the entrance to the active site had partly collapsed caused by a movement of the lip formed by a helix 2 and b strand 5 [18]. Apparently, movement of the active site lip prevented binding of the C-terminal residues over the active site, or the absence of the C-terminal residues caused the movement of the lip (Fig. 1B). In addition, the Ca chain between amino acid residues 120 and 125 (Fig. 2C) was rearranged in the dTTP complex to accommodate the 5-methyl group of the thymine moiety. As a result, the Ala124 carbonyl was moved from the 4-oxo / 4-amino group of the bound nucleotide and the side chain of His121 was flipped to a position where in the wild-type enzyme it would intersect Glu138 and C4 of the pyrimidine ring (Fig. 2C). In addition, the nucleophilic water molecule [18], wat5, appeared in the dTTP complex to be expelled by the His121 side chain from its position in the dCTP(dUTP) complex between Glu138 and the Ala124 carbonyl (Fig. 2C). Also, in the dTTP complex the side chains of Thr123 and Val122 had moved to new positions. The significance of this last observation is that due to the proximity of residues 120­125 from each subunit in the centre of the trimer, the side chains of Val122 of one subunit and Thr123 of the neighbouring subunit are likely to clash unless each subunit is in the same conformation (Fig. 3A,B). As a consequence, Thr123 and Val122 may mediate a concerted switch between the dCTP(dUTP)-binding conformer and the dTTP-binding conformer of dCTP deaminase. We were not able to identify structural changes in the main chain of the subunit, or in the interaction of subunits within the trimer that linked the conformation of residues 120­125 to the position of the active site lip and closure of the C-terminal end over the active site. However, it is reasonable to expect these two events to be associated but the structural change that mediates the communication between the two regions appears to be very subtle. Based on the observations described above, mutant alleles encoding the enzymes H121A and V122G were constructed to analyse the roles of His121 and Val122 in catalysis and regulation of dCTP deaminase. Removal of the imidazole ring in H121A was anticipated to relieve or reduce inhibition by dTTP by preventing expulsion of the water molecule, wat5, as described above (Fig. 2C). Replacing the Val122 side chain in V122G aimed to relieve the suggested concerted structural transition of the trimer and perhaps reduce the inhibition by dTTP. As mentioned in the results, the
+4193
+
+FEBS Journal 274 (2007) 4188­4198 ª 2007 The Authors Journal compilation ª 2007 FEBS
+
+dTTP inhibition of dCTP deaminase
+
+E. Johansson et al.
+
+mutant proteins were both inactive and unfortunately no suitable crystals for the structural analysis of V122G could be obtained. However, the conformation of the main chain in the region of residues 120­125 in the H121A:dCTP complex was found to strongly deviate from that of wild-type enzyme in complex with dUTP and almost superimpose with the same region in the structure of the E138A:dTTP complex (Fig. 2E,D). In addition, the H121A:dCTP complex, like the E138A:dTTP complex, had a disordered C-terminal fold, which again indicates a connection between the position of residues 120­125 and folding of the C-terminal. We anticipate that the E138A:dTTP complex resembles the binding of dTTP to wild-type enzyme, as also expected from the crystallographic analysis of the wild-type:dTTP described. Therefore, the lack of activity of H121A and the structural similarity between the H121A:dCTP and the E138A:dTTP complexes (Fig. 2E) suggest a mechanism for dTTP inhibition that not only acts by physical blocking of the active site, but also through a concerted change to an inactive conformation of the active sites in the trimer. The observation that the complexes of H121A:dCTP and E138A:dTTP are also very similar in terms of the position of Val122 and Thr123 (Fig. 3) supports such a mechanism. Interestingly, there are no indications as to why the inhibited / inactive conformation should exclude the binding of dCTP (or dUTP). This important observation is discussed below. Obviously, there is competition between dCTP and dTTP for binding to the active site, as revealed by the crystal structures of the various complexes. Also, results from kinetic experiments point to a competitive mechanism for dTTP inhibition; an increase in S0.5 for dCTP in the presence of dTTP (Fig. 4A) and an increase in I0.5 for dTTP with increasing dCTP concentrations (Fig. 4B). From the equilibrium binding experiment presented in Fig. 4D it can be seen that dTTP binds to only one type of site with no cooperativity. The lag observed in presteady-state kinetics shown in Fig. 4C is a clear indication that the mechanism of regulation of dCTP deaminase is not a simple rapid equilibrium mechanism. The observed increase in cooperativity of dTTP inhibition at increasing dCTP concentrations (Fig. 4B), but complete absence of cooperativity in equilibrium binding of dTTP (Fig. 4D), indicates that the cooperativity effect of dTTP inhibition is a kinetic phenomenon. Given the right circumstances, a lag in the progress of product formation is known to produce what is termed kinetic cooperativity and several enzyme systems have been shown to possess such properties [25­28]. The k for
+4194
+
+activation of dCTP deaminase is of the same order of magnitude as the kcat (Fig. 4A,), a condition that qualifies for causing kinetic cooperativity, and very important, the lag is increased in the presence of dTTP. The increase in cooperativity of dCTP saturation in the presence of dTTP may therefore be explained by a mechanism in which dTTP stabilizes an inactive form that dominates the population of free enzyme, recall that Vini (or rateini) is likely to be less than Vss (or ratess) by an order of magnitude. Upon binding of dCTP the proceeding structural changes in the active site and proper folding of the C-terminus may contribute to the lag observed in presteady-state kinetics (Fig. 4C). Finally, it should be pointed out that each of the two species-specific, but dominant, pathways for dUMP synthesis described above are very similar from a regulatory point of view. dCMP deaminase is activated by dCTP and inhibited by dTTP and both nucleotides act on the enzyme by binding to an allosteric site to alter the cooperativity of dCMP binding [5,29,30]. The activity of dCTP deaminase depends on the concentration of dCTP and is inhibited by dTTP. Our results suggest that regulation of dCTP deaminase is not by a conventional allosteric mechanism, but apparently utilizes the property of the enzyme to exist in two conformations and that dTTP stabilizes the inactive form by binding to the active site. In this way, dCTP deaminase can use one nucleotide-binding site to gain a pseudo-allosteric mechanism of regulation that generates the apparently attractive feature of an increase in both S0.5 and the sigmoidity of the saturation curve for dCTP in response to the binding of dTTP to the enzyme.
+
+Experimental procedures
+Materials
+All buffers, nucleotides and salts were obtained from Sigma-Aldrich (Darmstadt, Germany). Radioactive nucleotides were obtained as ammonium salts from Amersham Biosciences (Hillerød, Denmark). TLC was performed with poly(ethylene-imine)-coated cellulose plates from Merck (Darmstadt, Germany).
+
+Molecular biology and protein methods
+Construction of mutant alleles of the dcd gene encoding the dCTP deaminases H121A and V122G was achieved by performing the QuikChange method (Stratagene, La Jolla, CA) using the oligo-deoxynucleotides, where underlined letters indicate the site of mutagenesis: H121A5­3,
+
+FEBS Journal 274 (2007) 4188­4198 ª 2007 The Authors Journal compilation ª 2007 FEBS
+
+E. Johansson et al.
+
+dTTP inhibition of dCTP deaminase
+
+Table 1. Diffraction data and refinement statistics. Values within parentheses are data for the highest resolution shell. Rmerge ¼ S|I­ <I> | / SI, where I is observed intensity and <I> is average intensity obtained from multiple observations of symmetry related reflections. Rfactor ¼ Swork||Fobs| ) k|Fcalc|| / SworkFobs. Rfree ¼ Stest||Fobs| ) k|Fcalc|| / StestFobs, where Fobs and Fcalc are observed and calculated structure factors, respectively, k is the scale factor, and the sums are over all reflections in the working set and test set, respectively. rmsd, root mean square deviation. Diffraction data statistics Protein:ligand Space group ° Wavelength (A) °) Resolution (A Rsym (%) <I> / r(I) Completeness (%) Multiplicity No. reflections No. unique reflections Refinement statistics No. reflections (total) No. reflections (working set) No. reflections (test set) No. atoms ° Resolution (A) Rfactor (%) Rfree (%) ° Average Bfactor (A2) Bond length rms ° from ideal (A) Bond angle rmsd from ideal (deg)
+
+E138A:dTTP P6322 1.046 50­2.6 (2.74­2.6) 13.5 (51.5) 21.9 (2.6) 92.7 (70.0) 12.2 (5.5) 147198 12085 12020 11438 582 2702 30­2.6 (2.67­2.60) 24.7 (30.1) 30.7 (32.0) 29 0.016 1.7
+
+H121A:dCTP P6322 1.046 50­2.7 (2.85­2.7) 12.3 (47.2) 4.9 (1.3) 94.2 (75.1) 10.0 (5.4) 111034 11131 10539 9976 563 2706 30­2.7 (2.77­2.70) 22.8 (31.7) 27.2 (31.4) 29 0.014 1.6
+
+assay incubations contained in addition to varying concentrations of the nucleotides dCTP and dTTP, as shown under results, 50 mm Hepes, pH 6.8, 2 mm MgCl2 and 2 mm dithiothreitol. Presteady-state experiments were performed at 37 °C using a KinTek RQF-3 rapid quench flow instrument by mixing dCTP deaminase (20 lm) in the presence or absence of 100 lm dTTP and 150 lm [5-3H] dCTP in 50 mm Hepes, pH 6.8, 2 mm MgCl2 and 2 mm dithiothreitol at time 0 and quenching the reaction with 3 m formic acid at the time points given under results. Subsequently, the samples representing each time point were subjected to TLC and analysed for the distribution of radioactivity in spots of [5-3H] dCTP and [5-3H] dUTP as above for steady-state kinetic samples. In equilibrium binding experiments, the incubations contained dCTP deaminase (50­100 lm), 50 mm Hepes, pH 6.8, 2 mm MgCl2 and between 0 and 320 lm [methyl-3H] dTTP. Free nucleotide was separated from bound using Amicon Ultrafree-MC 30.000 NMWL centrifugal filter devices, as described previously [31,32]. Samples representing free and total radioactive nucleotide were washed by TLC in 1 m acetic acid, cut out and quantified by liquid scintillation as above for samples from kinetic experiments. Data from presteady-state and steady-state kinetic and equilibrium binding experiments were analysed using the computer program ultrafit from biosoft (v. 3.0). The equations used were: the Hill equation, Eqn (1), for sigmoid saturation curves rate ¼ kcat ½Sn =ðSn þ ½Sn Þ 0:5 ð1Þ
+
+GGGCTGATGGTGGCCGTCACCGCGCAC; H121A3­5, GTGCGCGGTGACGGCCACCATCAGCCC; V122G5­3, GATGGTGCACGGCACCGCGCACC; V122G3-5, GGT GCGCGGTGCCGTGCACCATC. The plasmid pETDCD described previously [18] was used as a template for mutagenesis. The pETDCD plasmid contains the reading frame of the E. coli dcd gene under control of the late T7 promoter in the vector pET11a (Novagen, Darmstadt, Germany). All mutations were verified by sequencing of the entire dcd reading frame on an ABI PRISM 310 sequencer according to the supplier's manual. Wild-type and mutant protein was produced and purified as described previously [18].
+
+where rate is the initial turnover of the enzyme with a maximum of kcat, S0.5 is the concentration of substrate S at half-maximal saturation of the enzyme and n is the Hill coefficient. Equation (2) was used for sigmoid inhibition
+n n rateinh ¼ rate I0:5 =ðI0:5 þ ½In Þ
+
+ð2Þ
+
+where rateinh is the initial rate corresponding to the presence of a given concentration of inhibitor I and I0.5 is the concentration of inhibitor for half-maximal inhibition. Equation (3) was used for hyperbolic binding of ligands to the enzyme
+N ¼ Nmax ½L=ðKd þ ½LÞ ð3Þ
+
+where N is the degree of binding with the dissociation constant Kd of ligand L to the enzyme with a maximal number of binding sites Nmax. Equations (4­6) were used to analyse the data recorded for presteady-state kinetics
+P ¼ Vss t À ðVss À Vini Þð1 À eÀt=s Þs ratess ¼ Vss =½Enzyme rateini ¼ Vini =½Enzyme ð4Þ ð5Þ ð6Þ
+
+Enzyme kinetics and equilibrium binding experiments
+Initial velocities were obtained at 37 °C using TLC and subsequent liquid scintillation counting to first separate and then quantify [5-3H] dUTP produced from [5-3H] dCTP, as described in detail previously [14]. Data were recorded over 5 min at two enzyme concentrations (50­100 nm) and the
+
+where P is the product and Vini and Vss are the initial and steady-state velocities (rateini and ratess are the corresponding
+
+FEBS Journal 274 (2007) 4188­4198 ª 2007 The Authors Journal compilation ª 2007 FEBS
+
+4195
+
+dTTP inhibition of dCTP deaminase
+
+E. Johansson et al.
+
+rates) prior to and after the transition of the enzyme to a more active form, respectively, t is the time and s is the lagtime. The rate constant, k, for the activation of the enzyme is obtained as 1 / s.
+
+Crystallization
+Crystals were grown in hanging drops as described previously [18] using the vapour-diffusion technique with hanging drops. Protein solutions contained 3.7 or 5.1 mgÆmL)1 protein for H121A and E138A mutant enzymes, respectively, as well as 5 mm dCTP (H121A) or dTTP (E138A) and 20 mm magnesium chloride in 50 mm Hepes, pH 6.8. This solution was mixed in equal amounts with the mother liquor (2 lL +2 lL) that consisted of 34% poly(ethylene glycol 400), 0.2 m magnesium chloride and 0.1 m Hepes, pH 7.5 and the drop was equilibrated over 1 mL of mother liquor at room temperature. Long (> 1 mm) needle-formed crystals appeared after one week.
+
+Diffraction data collection
+Diffraction data were collected on cryo-cooled crystals (100 K) at beam-line I911-2 at MAX-LAB (Lund, Sweden) using a MarMosaic 225 CCD detector from MAR Research. Auto-indexing and integration of the data were performed with mosflm [33] and scala [34] was used for scaling. All the crystals belonged to space group P6322 ° with cell dimensions a ¼ b ¼ 61.6, c ¼ 244.8 A (E138A + dTTP) and diffracted X-rays well. However, the long c-axis prevented collection of high-resolution data.
+
+noncrystallographic symmetry restraints with refmac5 [37] and model building with o [36] were performed and now enabled model building of the 121­125 stretch and a new position of a helix 2, containing residues 55­65 in one of the molecules in the asymmetric unit (chain B). Furthermore, the model contains residues 1­174 in chain A, residues 1­171 in chain B and three water molecules in each chain. The structure of the H121A mutant enzyme cocrystallized with dCTP was determined using difference Fourier techniques with the model of the E138A protein crystallized in the same space group (P6322). Refinement and model building proceeded as for E138A cocrystallized with dTTP. The final model includes residues 1­171 in chain A, residues 1­174 in chain B and two magnesium ions, both coordinated to the modelled dCDP, because there was no electron density for the c-phosphate of dCTP. Data and refinement statistics are shown in Table 1. The quality of the models was checked with procheck [38] and whatif [39]. The Ramachandran plot has 91.2% of the residues in the most favoured regions. There are no residues in the disallowed regions and 0.7% of the residues are in the generously allowed regions (corresponding to His121 in both chains) for the E138A mutant structure cocrystallized with dTTP. For the H121A structure, 92.3% of the residues are in the most favoured regions and Ala121 and Val122 form a cis-peptide that puts them in the generously allowed and disallowed regions, respectively, of the Ramachandran plot.
+
+Acknowledgements
+We are grateful for the beam time provided at MAXLAB (Lund, Sweden). This study was supported by the Danish Natural Science Council through a grant and a contribution to DANSYNC. We acknowledge the support by the European Community ­ Research Infrastructure Action under the FP6 programme `Structuring the European Research Area'.
+
+Structure determination and refinement
+The structure of the E138A mutant enzyme cocrystallized with dTTP was determined with the molecular replacement technique using the program amore [35]. The chain A of wild-type dCTP deaminase in complex with dUTP (Protein Data Bank entry 1XS1) stripped from ligands and water molecules, was used as a search model. The correct solution contained two molecules in the asymmetric unit that each forms a separate trimeric structure as a result of the crystal symmetry. The initial difference electron-density maps revealed density for the nucleotide which was built using the program o [36]. However, the final model only showed electron density for a magnesium ion in one of the molecules of the asymmetric unit (chain B) and there was no electron density visible for the c-phosphate of dTTP. Therefore, the structure was modelled with dTDP in the active sites. There was no electron density for the C-terminal 20 amino acid residues that were omitted from the model. Initially, the stretch of amino acid residues from 121 to 125 was also unclear and was excluded from the model. Cycles of refinement using
+
+References
+1 Bianchi V, Pontis E & Reichard P (1987) Regulation of pyrimidine deoxyribonucleotide metabolism by substrate cycles in dCMP deaminase-deficient V79 hamster cells. Mol Cell Biol 7, 4218­4224. 2 Mollgaard H & Neuhard J (1978) Deoxycytidylate deaminase from Bacillus subtilis. Purification, characterization, and physiological function. J Biol Chem 253, 3536­3542. 3 Neuhard J & Thomassen E (1971) Deoxycytidine triphosphate deaminase: identification and function in Salmonella typhimurium. J Bacteriol 105, 657­665. 4 Nucci R, Raia CA, Vaccaro C, Rossi M & Whitehead EP (1991) Allosteric modifier and substrate binding of
+
+4196
+
+FEBS Journal 274 (2007) 4188­4198 ª 2007 The Authors Journal compilation ª 2007 FEBS
+
+E. Johansson et al.
+
+dTTP inhibition of dCTP deaminase
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+17
+
+donkey deoxycytidylate aminohydrolase (EC 3.5.4.12). Arch Biochem Biophys 289, 19­25. Ellims PH, Kao AY & Chabner BA (1983) Kinetic behaviour and allosteric regulation of human deoxycytidylate deaminase derived from leukemic cells. Mol Cell Biochem 57, 185­190. McIntosh EM & Haynes RH (1984) Isolation of a Saccharomyces cerevisiae mutant strain deficient in deoxycytidylate deaminase activity and partial characterization of the enzyme. J Bacteriol 158, 644­649. Almog R, Maley F, Maley GF, Maccoll R & Van Roey P (2004) Three-dimensional structure of the R115E mutant of T4-bacteriophage 2¢-deoxycytidylate deaminase. Biochemistry 43, 13715­13723. Weiner KX, Weiner RS, Maley F & Maley GF (1993) Primary structure of human deoxycytidylate deaminase and overexpression of its functional protein in Escherichia coli. J Biol Chem 268, 12983­12989. Porter DJ & Austin EA (1993) Cytosine deaminase. The roles of divalent metal ions in catalysis. J Biol Chem 268, 24005­24011. Ko TP, Lin JJ, Hu CY, Hsu YH, Wang AH & Liaw SH (2003) Crystal structure of yeast cytosine deaminase. Insights into enzyme mechanism and evolution. J Biol Chem 278, 19111­19117. O'Donovan GA, Edlin G, Fuchs JA, Neuhard J & Thomassen E (1971) Deoxycytidine triphosphate deaminase: characterization of an Escherichia coli mutant deficient in the enzyme. J Bacteriol 105, 666­672. Beck CF, Eisenhardt AR & Neuhard J (1975) Deoxycytidine triphosphate deaminase of Salmonella typhimurium. Purification and characterization. J Biol Chem 250, 609­616. Li H, Xu H, Graham DE & White RH (2003) The Methanococcus jannaschii dCTP deaminase is a bifunctional deaminase and diphosphatase. J Biol Chem 278, 11100­11106. Bjornberg O, Neuhard J & Nyman PO (2003) A bifunctional dCTP deaminase­dUTP nucleotidohydrolase from the hyperthermophilic archaeon Methanocaldococcus jannaschii. J Biol Chem 278, 20667­20672. Cedergren-Zeppezauer ES, Larsson G, Nyman PO, Dauter Z & Wilson KS (1992) Crystal structure of a dUTPase. Nature 355, 740­743. Chan S, Segelke B, Lekin T, Krupka H, Cho US, Kim MY, So M, Kim CY, Naranjo CM, Rogers YC et al. (2004) Crystal structure of the Mycobacterium tuberculosis dUTPase: insights into the catalytic mechanism. J Mol Biol 341, 503­517. Johansson E, Bjornberg O, Nyman PO & Larsen S (2003) Structure of the bifunctional dCTP deaminase­ dUTPase from Methanocaldococcus jannaschii and its relation to other homotrimeric dUTPases. J Biol Chem 278, 27916­27922.
+
+18 Johansson E, Fano M, Bynck JH, Neuhard J, Larsen S, Sigurskjold BW, Christensen U & Willemoes M (2005) Structures of dCTP deaminase from Escherichia coli with bound substrate and product: reaction mechanism and determinants of mono- and bifunctionality for a family of enzymes. J Biol Chem 280, 3051­3059. 19 Climie S, Lutz T, Radul J, Sumner-Smith M, Vandenberg E & McIntosh E (1994) Expression of trimeric human dUTP pyrophosphatase in Escherichia coli and purification of the enzyme. Protein Expr Purif 5, 252­ 258. 20 Nord J, Larsson G, Kvassman JO, Rosengren AM & Nyman PO (1997) dUTPase from the retrovirus equine infectious anemia virus: specificity, turnover and inhibition. FEBS Lett 414, 271­274. 21 Guillet M, Van Der Kemp PA & Boiteux S (2006) dUTPase activity is critical to maintain genetic stability in Saccharomyces cerevisiae. Nucleic Acids Res 34, 2056­2066. 22 Galperin MY, Moroz OV, Wilson KS & Murzin AG (2006) House cleaning, a part of good housekeeping. Mol Microbiol 59, 5­19. 23 Kouzminova EA & Kuzminov A (2004) Chromosomal fragmentation in dUTPase-deficient mutants of Escherichia coli and its recombinational repair. Mol Microbiol 51, 1279­1295. 24 Nord J, Kiefer M, Adolph HW, Zeppezauer MM & Nyman PO (2000) Transient kinetics of ligand binding and role of the C-terminus in the dUTPase from equine infectious anemia virus. FEBS Lett 472, 312­316. 25 Kurganov BI, Dorozhko AK, Kagan ZS & Yakovlev VA (1976) The theoretical analysis of kinetic behaviour of `hysteretic' allosteric enzymes. I. The kinetic manifestations of slow conformational change of an oligomeric enzyme in the Monod, Wyman and Changeux model. J Theor Biol 60, 247­269. 26 Ainslie GR Jr, Shill JP & Neet KE (1972) Transients and cooperativity. A slow transition model for relating transients and cooperative kinetics of enzymes. J Biol Chem 247, 7088­7096. 27 Neet KE & Ainslie GR Jr (1980) Hysteretic enzymes. Methods Enzymol 64, 192­226. 28 Frieden C (1979) Slow transitions and hysteretic behavior in enzymes. Annu Rev Biochem 48, 471­489. 29 Maley F & Maley GF (1982) Studies on identifying the allosteric binding sites of deoxycytidylate deaminase. J Biol Chem 257, 11876­11878. 30 Maley GF & Maley F (1982) Allosteric transitions associated with the binding of substrate and effector ligands to T2 phage induced deoxycytidylate deaminase. Biochemistry 21, 3780­3785. 31 Ormo M & Sjoberg BM (1990) An ultrafiltration assay for nucleotide binding to ribonucleotide reductase. Anal Biochem 189, 138­141.
+
+FEBS Journal 274 (2007) 4188­4198 ª 2007 The Authors Journal compilation ª 2007 FEBS
+
+4197
+
+dTTP inhibition of dCTP deaminase
+
+E. Johansson et al.
+
+32 Willemoes M & Hove-Jensen B (1997) Binding of divalent magnesium by Escherichia coli phosphoribosyl diphosphate synthetase. Biochemistry 36, 5078­5083. 33 Leslie AGW (1992) Recent changes to the MOSFLM package for processing film and image plate data. Joint CCP4 + ESF-EAMCB Newsletter on Protein Crystallography, p. 26. 34 Evans PR (1993) Data reduction. In Proceedings of CCP4 study weekend on data collection and processing (Sawyer L, Isaacs N & Bailey S, eds) pp. 114­122. Daresbury Laboratory, Warrington, UK. 35 Navaza J (1994) AMoRe: an automated package for molecular replacement. Acta Crystallogr A50, 157­163.
+
+36 Jones TA, Zou JY, Cowan SW & Kjeldgaard M (1991) Improved methods for building protein models in electron density maps and the location of errors in these models. Acta Crystallogr Sect A 47, 110­119. 37 Murshudov GN, Vagin AA & Dodson EJ (1997) Refinement of macromolecular structures by the maximumlikelihood method. Acta Crystallogr Sect D 53, 240­255. 38 Laskowski RA, Macarthur MW, Moss DS & Thornton JM (1993) Procheck ­ a program to check the stereochemical quality of protein structures. J Appl Crystallogr 26, 283­291. 39 Vriend G (1990) WHAT IF: a molecular modeling and drug design program. J Mol Graph 8 (52­56), 29.
+
+4198
+
+FEBS Journal 274 (2007) 4188­4198 ª 2007 The Authors Journal compilation ª 2007 FEBS
+
+

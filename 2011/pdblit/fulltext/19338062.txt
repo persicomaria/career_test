@@ -1,0 +1,300 @@
+proteins
+STRUCTURE O FUNCTION O BIOINFORMATICS
+
+Insights into the catalytic mechanism of the Bcp family: Functional and structural analysis of Bcp1 from Sulfolobus solfataricus
+Katia D'Ambrosio,1 Danila Limauro,2 Emilia Pedone,1 Ilaria Galdi,2 Carlo Pedone,1 Simonetta Bartolucci,2* and Giuseppina De Simone1*
+1 Istituto di Biostrutture e Bioimmagini-CNR, via Mezzocannone 16, 80134 Naples, Italy 2 Dipartimento di Biologia Strutturale e Funzionale, Universita degli Studi di Napoli ``Federico II,'' ` Complesso Universitario Monte S. Angelo, Via Cinthia, 80126 Naples, Italy
+
+ABSTRACT Bcps constitute a group of antioxidant enzymes, belonging to the Prx family, that are widely distributed in bacteria, plants, and fungi. These proteins can contain two conserved cysteines within the CXXXXC motif. Recent studies demonstrated that though the role of the first cysteine is well defined, being the catalytic peroxidatic cysteine in all the members of this protein family, data on the function of the second cysteine are controversial and require further investigation. In this article, we report on the functional and structural characterization of Bcp1, an archaeal Bcp isolated from Sulfolobus solfataricus, which presents two conserved cysteine residues at positions 45 and 50. Functional studies revealed that this enzyme performs the catalytic reaction using an atypical 2-Cys mechanism, where Cys45 is the peroxidatic and Cys50 is the resolving cysteine. The X-ray structure of the double mutant C45S/C50S, representative of the fully reduced enzyme state, was determined at ° a resolution of 2.15 A, showing a Trx fold similar to that of other Prxs. Superposition with a structural homologue in the oxidized state provided, for the first time, a detailed description of the structural rearrangement necessary for a member of the Bcp family to perform the catalytic reaction. From this structural analysis, it emerges that a significant conformational change from a fully folded, to a locally unfolded form is required to form the intramolecular disulfide bond upon oxidation, according to the proposed reaction mechanism. Two residues, namely Arg53 and Asp54, which could play a role in this rearrangement, were also identified.
+Proteins 2009; 76:995­1006.
+C V 2009 Wiley-Liss, Inc.
+
+INTRODUCTION Peroxiredoxins (Prxs) are ubiquitous thiol-specific antioxidant proteins found in all biological kingdoms, which catalyze the reduction of hydrogen peroxide, peroxynitrite, and alkyl hydroperoxides, using thioredoxin and other thiol-containing reducing agents as electron donors.1­6 They are distinct from other peroxidases as they have no cofactors such as metals or prosthetic groups. In recent years, these proteins have received considerable attention because of their involvement in multiple cellular processes ranging from antioxidant defense,7­9 parasite drug resistance,10 and cancer8,11,12 to H2O2-mediated cellular signaling.13,14 All Prxs share a common first step in the catalytic reaction, whereby a conserved cysteine in the N-terminal domain of the protein, the so-called peroxidatic cysteine (CPSH), is oxidized to sulphenic acid (CPSOH), attacking the peroxide substrate and leading to cleavage of the oxygen-oxygen bond.5 The second step of the reaction, the resolution of the sulfenic acid intermediate, was originally used to classify Prxs as either belonging to the 2-Cys or 1-Cys type.5 In 2-Cys Prxs, the CPSOH reacts with a second cysteine residue, the so-called resolving cysteine (CRSH), ÀSÀ ÀC forming a stable disulfide bond (CPÀ ÀSÀ R), which is then reduced by one of the cell-specific disulfide oxidoreductases, completing the catalytic cycle. The 2-Cys Prxs were further subdivided into either typical or atypical, depending on the location of the CRSH residue. In typical 2-Cys-Prxs, the CPSH reacts with a CRSH
+Abbreviations: AMS, 4-acetamido-40 -maleimidyl-stilbene-2,20 disulphonate; ApBcpox, oxidized Aeropyrum pernix Bcp; ApBcpred, reduced Aeropyrum pernix Bcp; Bcp, bacterioferritin comigratory protein; Dot5p, disrupter of telomere silencing protein 5; PEG, polyethylene glycol; Prx, peroxiredoxin; RMSD, root mean square deviation; SsPDO, Sulfolobus solfataricus protein disulfide oxidoreductase; SsTr, Sulfolobus solfataricus thioredoxin reductase; StAhpCox, oxidized Salmonella typhimurium alkyl hydroperoxide reductase; StAhpCred, reduced Salmonella typhimurium alkyl hydroperoxide reductase; TFA, trifluoroacetic acid; Tr, Thioredoxin reductase; Trx, thioredoxin. Grant sponsor: CIB; Grant number: 2007; Grant sponsor: MIUR; Grant number: FIRBRBRNO7BMCT. Katia D'Ambrosio and Danila Limauro contributed equally to this work. *Correspondence to: Simonetta Bartolucci, Dipartimento di Biologia Strutturale e Funzionale, ` Universita degli Studi di Napoli ``Federico II,'' Naples, Italy. E-mail: bartoluc@unina.it or Giuseppina De Simone, Istituto di Biostrutture e Bioimmagini-CNR, Naples, Italy. E-mail: gdesimon@unina.it Received 5 December 2008; Revised 6 February 2009; Accepted 9 February 2009 Published online 24 February 2009 in Wiley InterScience (www.interscience.wiley.com). DOI: 10.1002/prot.22408
+
+Key words: peroxiredoxin; bacterioferritin comigratory protein; crystal structure; Sulfolobus solfataricus; redox mechanism.
+
+C V 2009 WILEY-LISS, INC.
+
+PROTEINS
+
+995
+
+K. D'Ambrosio et al.
+
+Table I
+Prxs Classification Based on Sequence and Structure Catalytic mechanism 1-Cys Active site consensus sequencea PRDFTPVC Position of the resolving cysteine ­ Predominant oligomeric state Dimer
+
+Subfamily 1-Cys
+
+Prototype members Homo sapiens PrxVI (BAA03496); Plasmodium falciparum Prx (AAQ76285); Mycrobacterium tuberculosis AhpE (gi|61680462). Homo sapiens PrxII (AAA50465); Arabidopsis thaliana (Q96291); Salmonella typhimurium AhpC (P0A251) Aeropyrum pernix K1 (Q9Y9L0); Clostridium tetani E88 (NP_781549) E. coli Bcp (AAB88562); Rhodobacter sphaeroides (ABA_79134); A. pernix Bcp (NP_148402.2); Saccharomyces cerevisiae Dot5p (NP_012255) E. coli Tpx (YP_001730322); M. tuberculosis Tpx (CAB06529). Haemophilus influenza (P44758); Neisseria meningitidis Z2491(NP_283909). Homo sapiens PrxV (AAF03750); Plant Type II; Rhodobacter sphaeroides (YP_353982).
+
+Typical 2-Cys
+
+Typical 2-Cys
+
+PLDFTFVC
+
+C-terminus
+
+Decamer
+
+Archaeal
+
+Typical 2-Cys
+
+PADFTPVC
+
+C-terminus
+
+(a2)5 Decamer
+
+Bcps
+
+Atypical 2-Cys or 1-Cys
+
+PLAFTPVCTKE
+
+N-terminus
+
+Monomer
+
+Tpxs Hybrid
+
+Atypical 2-Cys 1-Cys
+
+PSIDTGVCAAQ/SVR PGAFTPTCS
+
+Central insertion ­
+
+Dimer Tetramer
+
+Type II
+
+Atypical 2-Cys
+
+PGAFTPTC
+
+Central insertion
+
+Monomer or dimer
+
+a
+
+Active site consensus sequence around the peroxidatic Cys were obtained by ClustalW alignment. Bold letters indicate completely conserved residues.
+
+residue located in the C-terminal domain of another subunit within a homodimer. In contrast, the CRSH residue in atypical 2-Cys Prxs resides within the same subunit.5 Unlike the 2-Cys Prxs, the 1-Cys Prxs do not contain a CRSH residue, and the CPSOH is generally recycled by an unidentified electron donor.15,16 Because data from genome sequencing projects have identified an enormous number of Prxs, an alternative classification system based on the amino acid sequence homology has recently been introduced.17 Following this new classification, the Prxs can be further divided into seven subfamilies: (i) 1-Cys Prxs18; (ii) typical 2-Cys Prxs19,20; (iii) archaeal Prxs, which are proteins of more than 200 amino acid residues and can contain two or three conserved cysteines. They present sequence homology with 1Cys Prxs, while their catalytic properties resemble those of the typical 2-Cys.17 These proteins are present mainly in archaea, but have also been found in several other microorganisms; (iv) Bcps, which were originally identified as homologues to Escherichia coli bacterioferritin comigratory protein21 and are found in bacteria and photosynthetic organisms, where they are termed Prx Q.22,23 In this subfamily is also included the fungal nuclear protein Dot5p24; (v) Tpxs, which include protein homologues to bacterial periplasmic thiol peroxidase25; (vi) Hybrid Prxs, which are characterized by the presence of a glutaredoxin domain fused to the Prx domain26; (vii) type II Prxs (Table I).27 Bcps are the least characterized proteins among the Prx subfamilies, and very little information regarding
+
+their three-dimensional structure is available to date.24 These proteins can contain one or two conserved cysteines. The first is the CPSH catalytic cysteine, and the second, when present, is located five amino acids downstream. Data on the role of this second cysteine are controversial; though in the E. coli Bcp21 and in the poplar Prx Q,23 the mutation of the second cysteine results in a still active enzyme, in Sedum lineare, both cysteines were demonstrated to be essential for thioredoxin-dependent peroxidase activity.28 These results are thus contradictory and deserve to be further investigated. Recently, an array of Bcps, called Bcp1, Bcp3, and Bcp4, which are able to shield cells from the attack of peroxides in the absence of catalases, was identified in S. solfataricus.15 Bcp3 is inducible by oxidative stress, whereas Bcp1 and Bcp4 are expressed constitutively.15 Moreover, these Bcps utilize the SsPDO(SSO0192)/SsTr(SSO2416)/NADPH system for enzyme recycling. This reducing system involves for the first time a member of the PDI-like family, that is, SsPDO,29,30 in place of a Trx, associated with a Tr in the Prx reducing cascade. In a general research project aiming to shed light on the catalytic mechanism of Bcps, we investigated Bcp1, which presents two cysteine residues at positions 45 and 50. In this article, we provide a detailed characterization of the catalytic activity of this enzyme, besides describing ° the crystal structure at 2.15 A resolution of its C45S/ C50S double mutant.
+
+996
+
+PROTEINS
+
+Structural and Functional Properties of Bcp1
+
+METHODS
+Strains, media, and growth conditions
+
+E. coli Top F0 10 was used as a general host for DNA manipulation, E. coli XL1-Blue (Invitrogen) was utilized to transform the mutagenesis products and E. coli BL21CodonPlus(DE3)-RIL (Stratagene) was used for expression of the recombinant proteins.15 These strains were cultivated in Luria-Bertani (LB) medium at 378C. When necessary 100 lg mL21 of ampicillin, or 50 lg mL21 of kanamicin and 33 lg mL21 chloramphenicol were added to the medium to maintain plasmids as needed.
+Site-directed mutagenesis and purifications of Bcp1 mutants
+
+proteins. Proteins were purified to homogeneity in a one stage process using affinity chromatography on HisTrap HP (GE Healthcare) equilibrated with 50 mM Tris/HCl, pH 8.0, 0.3M NaCl (buffer A). The columns were washed with buffer A with 20 mM imidazole, proteins were eluted with the same buffer A, supplemented with 250 mM imidazole. The active fractions were pooled and dialyzed against 20 mM Tris/HCl, pH 8.0. The SDSPAGE of the final preparation revealed a single band with a molecular mass of 18 Æ 1 kDa.
+
+LC-MS analyses
+
+The single mutants C45S and C50S and the double mutant C45S/C50S were obtained by following the protocol outlined in the QuickChange II site-directed mutagenesis kit (Stratagene) using primers complementary to the coding and noncoding template sequence (pET30Bcp1) containing a double mismatch. The mutagenic primers were as follows: C45S forward 50 -CCT AAA GAT GAT ACA CCA GGG AGT ACA AGG GAA GCT TG-30 ; C50S forward 50 -CCA GGG TGT ACA AGG GAA GCT AGT GCA TTT AGA GAC-30 and C45S/C50S forward 50 -GAT ACA CCA GGG AGT ACA AGG GAA GCT AGT GCA TTT AGA GAC-30 (underlined letter indicate the base pair mismatch). Complementary reverse primers were used. Mixture (50 lL) contained 50 ng of template DNA (pET30Bcp1), 125 ng of each primer, 200 lM dNTP, and 2.5 U of Pfu Ultra HF DNA polymerase. Twelve cycles of 958C for 30 s, 558C for 1 min, and 688C for 6 min were carried out in a Mini Cycler followed by a cycle at 48C for 2 min. To digest methylated template, each reaction mixture was treated with 10 U of DnpI at 378C for 1 h. The mutagenesis products were transformed into XL-1 Blue cells. Single colonies were selected on LB plates containing kanamicin, and isolated plasmid DNA was sequenced at Primm (DNA sequencing service Naples, Italy). The plasmids pETC45S, pETC50S, pETC45/50S containing the respective mutations inserted were used to transform BL21-CodonPlus (DE3)-RIL competent cells. The three mutants were expressed and purified with the same procedure reported for the recombinant Bcp1.15 E. coli cells containing the expressed recombinant proteins were harvested by centrifugation and pellets from 1000 mL cultures were suspended in 20 mM Tris/HCl, pH 8.0 and disrupted by sonication with 20 min pulses at 20 Hz (Sonicator Ultrasonic liquid processor; Heat System Ultrasonics). The suspensions were clarified by ultracentrifugation at 160,000 g for 30 min. The soluble fractions (140 mg) of the cell extracts were heated at 808C for 15 min, and then centrifuged at 15,000 g at 48C for 30 min removing almost 70% of the mesophilic host
+
+A LCQ DCA XP Ion Trap mass spectrometer (ThermoElectron, Milan, Italy) was used. This was equipped with an OPTON ESI source (operating at a needle voltage of 4.2 kV and a temperature of 3208C) and a complete Surveyor HPLC system (including a MS pump, an auto-sampler and a photo diode array). Analyses were ° performed using a 300 A narrow bore 250 mm 3 2 mm C4 Jupiter column (Phenomenex, Torrance, CA) and applying a gradient of solvent B (0.05% TFA in CH3CN) on solvent A (0.08% TFA in H2O) from 5 to 70%, over a period of 40 min. Mass spectra were recorded continuously in the mass interval 400­2000 amu, in positive mode (LC-MS). Multicharge spectra were then deconvoluted using the BioMass program implemented in the Bioworks 3.1 package provided by the manufacturer. About 5 lL of a 0.1 mg mL21 sample was used for analysis. Mass calibration was performed automatically by means of selected multiple charged ions, in the presence of a calibrant (UltraMark; ThermoElectron, Milan). All masses were reported as average values.
+
+Chemical modification of the protein
+
+Free SH groups in the proteins were modified by incubation with AMS. Purified proteins (50 lg) were incubated in a reaction mixture containing 50 mM DTT or 1 mM H2O2 and 50 mM Tris/HCl, pH 7.5 at 208C for 20 min and precipitated with trichloro-acetic acid at final concentration of 20%. The precipitates were washed three times with dimethyl ether and dissolved in 20 lL of a freshly prepared solution containing 1% SDS, 50 mM Tris/HCl, pH 7.5, and 15 mM AMS, agitating at 208C for 30 min followed by incubation at 378C for 10 min. Proteins were separated by SDS/PAGE (15% gel) under nonreducing conditions and revealed by Coomassie staining procedure. Chemical modification of wild-type Bcp1 with Iodacetamide was also performed. Native Bcp1 (100 lg) was incubated in the absence or presence of 2.5 mM DTT at 308C for 30 min and then chemical modification was carried out in a 100 lL reaction mixture containing 50 mM Tris/HCl, pH 8.0 and 20 mM Iodacetamide for
+PROTEINS
+
+997
+
+K. D'Ambrosio et al.
+
+30 min at room temperature. An aliquot of the mix was analyzed by LC/MS.
+Spectrofluorimetry measurement
+
+Fluorescence spectra were recorded with a thermostatically controlled Spectrofluorimeter (Cary Eclipse, Varian Optical Spectroscopy Instruments, Australia). Bcp1 (60 lg mL21) was dissolved in 10 mM Tris/HCl pH 8.0 in the presence or not of 5 mM DTT. The samples were excited at 295 nm (slit width 10), and the emission spectra were recorded from 310 to 410 nm (slit width 10) at 258C. Scan speed was set at 50 nm/min for the spectrum analysis. An appropriate blank with 5 mM DTT was subtracted to the reduced Bcp1 spectrum.
+Peroxidase assays
+
+Bcp1 and its mutants were tested for their ability to remove peroxides in an in vitro non enzymatic assay. The reaction was started adding H2O2 at a final concentration of 0.2 mM to the reaction mixture containing 50 mM HEPES, pH 7.0, 10 mM DTT in presence of different concentrations of the proteins in a final volume of 0.1 mL. The reaction was incubated at 808C for 1 min and stopped adding 0.9 mL of trichloroacetic acid solution (10% w/v).15 Peroxidase activity was determined from the amount of peroxide remaining, which was detected by measurement of the purple-colored ferrithiocyanate complex developed after the addition of 0.2 mL of 10 mM Fe(NH4)2(SO4)2 and 0.1 mL of 2.5M KSCN, using H2O2 as a standard. The amount of the ferrithiocyanate complex present was determined by measurement of the absorbance at 490 nm. The percentage of peroxides removed was calculated on the basis of the change in A490 nm obtained with Bcp1 and its mutants relative to that obtained without these enzymes. Experiments were done in triplicate. Peroxidase activity was also measured indirectly by oxidation of NADPH using a disulfide reductase system formed of SsTr/SsPDO. The complete reaction mixture (500 lL) contained 100 mM potassium phosphate pH 7.0, 2 mM EDTA, 0.2 lM SsTr, 0.05 mM FAD, 0­15 lM SsPDO, and 0.25 mM NADPH.29 After preincubation at 608C for 2 min, the reaction was started by the addition of H2O2 to the mixture at the final concentration of 0.2 mM, and the absorbance was monitored spectrophotometrically at 340 nm.
+Crystallization and X-ray data collection
+
+1 lL of protein solution at a concentration of 17 mg mL21. Crystals were obtained using a reservoir solution of 0.2M ammonium acetate, 30% PEG 4000, 0.1M Sodium citrate buffer (pH 5.6). Several parameters such as buffer composition, pH, and protein concentration were varied to improve the crystal quality. Optimal conditions for crystallization were achieved at a protein concentration of 18 mg mL21 with reservoir solutions consisting of 0.25M ammonium acetate, 24% PEG 4000, 0.1M Sodium citrate buffer (pH 6.0) at 298 K. The crystals grew to maximum dimensions of 0.2 3 0.2 3 0.3 mm3 within in 1 week. ° X-ray diffraction data were collected at 2.15 A resolution from a single crystal at the temperature of 100 K, at the Synchrotron source Elettra in Trieste, using a Mar CCD detector. Because the crystallization solution was not suitable to provide cryoprotection, the crystals were quickly washed in the reservoir solution containing 15% (v/v) glycerol and immediately flash-frozen in a nitrogen-gas stream at 100 K. The data were processed using DENZO and scaled with SCALEPACK.34 Table II summarizes the crystallographic data and data-collection statistics.
+Structure determination and refinement
+
+The structure was solved by molecular-replacement using the program CNS35 and the fungal nuclear proTable II
+Data Collection and Refinement Statistics Crystal parameters Space group a () b () c () b (8) Number of independent molecules Data collection statistics Resolution () Wavelength () Temperature (K) R-sym (%)a Mean I/r(I) Total reflections Unique reflections Completeness (%) Refinement Resolution () R-factor (%)b R-free (%)b RMSD from ideal geometry: Bond lengths () Bond angles (8) Number of protein atoms Number of water molecules Average B factor (2): All atoms Protein atoms Water molecules P 2(1) 42.84 91.83 52.54 95.74 2 50.00­2.15 0.99985 100 5.5 (17.5) 24.6 (5.1) 78,057 21,792 98.0 (82.2) 20.00­2.15 18.9 23.8 0.006 1.2 2509 231 32.0 30.5 44.3
+
+Crystallization experiments were carried out using the hanging-drop vapor-diffusion method.31 The search for initial crystallization conditions was performed using Hampton Research Crystal Screen kits I and II.32,33 The wells contained 500 lL of precipitant solution and the drops were composed of 1 lL of reservoir solution and
+
+° Values in parentheses refer to the highest resolution shell (2.22­2.15 A). a Rsym 5 S|Ii 2 <I>|/SIi; over all reflections. b Rfactor 5 S|Fo 2 Fc|/SFo; Rfree calculated with 5% of data withheld from refinement.
+
+998
+
+PROTEINS
+
+Structural and Functional Properties of Bcp1
+
+tein, Dot5p (PDB code: 2A4V)24 as search model. The rotation and translation functions were calculated using ° data between 15.0 and 4.0 A resolution. The asymmetric unit of Bcp1 contained two molecules. The first cycles of the refinement were carried out with 2-fold NCS° restraints with an energy barrier of 300 kcal mol21 A2. After Rfactor and Rfree reached 0.323 and 0.280, respectively, the NCS-restraint was removed. Many cycles of manual rebuilding, using the program O36 and positional and temperature refinement using the program CNS,35 were necessary to reduce the crystallographic ° Rfactor and Rfree values (in the 20.00­2.15 A resolution range) to 0.189 and 0.238, respectively. Table II summarizes the refinement statistics. Coordinates and structure factors have been deposited with the Protein Data Bank (accession code 3DRN).
+
+Figure 1
+Nonreducing SDS-PAGE analysis and chemical modification of Bcp1 and its mutants. Purified proteins were incubated in the reaction mixture containing DTT (Lanes 1­3) or H2O2 (Lanes 4­6) and treated with AMS. Lane 1 and 4, Bcp1; Lane 2 and 5, C50S; Lane 3 and 6, C45S. Lane 7 gives protein size markers.
+
+RESULTS
+Biochemical characterization
+
+As previously reported bcp1 encodes a 153-residue monomeric protein which presents in the N-terminal region two cysteine residues in position 45 and 50. It was cloned in pET30 c(1) vector inserting a histidine tag at the C-terminus. The expressed and purified recombinant Bcp1 has an apparent mass value of 18,525 Da.15 To investigate the contribution of each cysteine in Bcp1 catalytic activity, two single mutants, C45S and C50S, and the double mutant C45S/C50S, were constructed. These mutants were overproduced in soluble form as fusion with a C-terminal eight-residue histidine tag in E. coli BL21-Codon Plus (DE3)-RIL strain harboring pET30Bcp1(C45S), pET30Bcp1(C50S) and pET30Bcp1(C45S/C50S), respectively. The mutant proteins were then purified to homogeneity in a one-stage process using affinity chromatography on HisTrap HP, as described in Materials and Methods, with an approximate protein yield of 10 mg L21 of culture.
+Chemical modification of Bcp1 and its mutants
+
+DTT showed different migration in nonreducing 15% SDSPAGE compared with Bcp1 treated with H2O2. In particular, the retarded band observed in the sample treated with DTT (Fig. 1, lane 1) corresponds to the alkylated Bcp1, while the band with a faster migration observed in the sample treated with H2O2 (Fig. 1, lane 4) represents Bcp1 with no AMS-alkylated thiol. Again these results indicate the formation of an intramolecular disulfide bond, as expected for an atypical 2-Cys catalytic mechanism. Interestingly, while the wild-type enzyme treated with H2O2 (Fig. 1, lane 4) in nonreducing 15% SDS-PAGE migrates as a monomer, in agreement with gel filtration data,15 the two monocysteinic mutants in the same conditions are able to form measurable amounts of homodimer (Fig. 1, lanes 5 and 6), presumably via an intermolecular disulfide bond.
+Intrinsic fluorescence of Bcp1
+
+To gain insights into the nature of Bcp1 cysteine residues, the protein was incubated with a thiol-specific alkylating agent, namely iodacetamide, in the presence and absence of DTT, and then analyzed by LC-MS. When the enzyme was reduced and alkylated, an increase of 114 Da in the mass value was observed, whereas no increase was detected in nonreducing conditions. These experiments established in the oxidized state the formation of an intramolecular disulfide bond between Cys45 and Cys50 residues. To further confirm this finding, Bcp1 was subjected to chemical modification by AMS. AMS (500 Da) only binds to the reduced form of protein, allowing the oxidized state to be distinguished from the reduced form by gel electrophoresis. As expected, Bcp1 previously treated with
+
+Because Bcp1 presents a tryptophan residue in close proximity to the active site (Trp56), tryptophan fluorescence spectroscopic analysis was performed to investigate the redox state-dependent conformational transitions. The fluorescence spectrum of oxidized Bcp1 exhibited a maximum emission at 320 nm, suggesting the presence of a buried tryptophan residue. The reduction of Bcp1 resulted in a two-fold increase in emission and a shift of the maximum position to 350 nm. These data suggest an increase in solvent accessibility of the tryptophan residue due to a conformational change caused by disulphuric bridge rupture.
+Role of the two conserved cysteine residues in Bcp1
+
+To clarify the role of the two cysteine residues in Bcp1, the peroxidase activities of the wild-type enzyme and its
+PROTEINS
+
+999
+
+K. D'Ambrosio et al.
+
+Figure 2
+DTT-dependent peroxidase activity of Bcp1 and its mutants. H2O2 removal was measured using ferrithiocyanate method at 808C as described in Material and Methods, in presence of DTT as electron donor. Bcp1 (l), C50S (n), C45S (~).
+
+mutants were tested using H2O2 as substrate and DTT or the S. solfataricus disulfide oxidoreductase SsPDO/SsTr/ NADPH system as reductants.15 In the first case, peroxidase activity was analyzed in a non enzymatic spectrophotometric assay detecting the decrease in the peroxide, while in the second, the activity was determined indirectly following NADPH oxidation. Figure 2 reports DTT-dependent peroxidase activity; it can be observed that site-specific mutation in cysteine 45 results in complete loss of peroxidase activity, whereas the C50S mutant retains almost all the activity of the wild-type enzyme. Figure 3 shows H2O2-dependent NADPH oxidizing activities as a function of SsPDO concentration ranging from 0 to 10 lM. The reactions typically saturate at SsPDO concentrations of 5 lM. In these conditions, C50S unexpectedly retains $50% of the activity of the wild-type, whereas the mutation C45S abolished catalysis. In addition, KM values have been determined (0.57 lM for wild-type/SsPDO and 1.63 lM C50S/SsPDO) indicating that Cys50 is not essential for the binding of SsPDO. Altogether, these data suggest that Cys45 is the essential peroxidatic cysteine, while Cys50 is the resolving cysteine, even though when it is mutated in serine, the enzyme can still work by adopting an alternative catalytic mechanism.
+Crystallographic studies Quality of the model
+
+tion problems caused by a mixture of structurally different reduced and oxidized forms, whilst being representative of the fully reduced enzyme state. C45S/C50S was crystallized in the space group P2(1) with 2 molecules per asymmetric unit (called A and B). The structure was solved by molecular replacement using the fungal nuclear protein Dot5p (PDB code: 2A4V)24 as starting model and refined using the CNS program35 to a crystallographic Rfactor of 18.9% and an Rfree of 23.8% ° in the 20.00­2.15 A resolution range. The final model consisted of 2778 nonhydrogen atoms, 231 water molecules, 2 glycerol molecules and 2 citrate molecules present in the crystallization solution and clearly identified in the Fourier maps. All residues were well defined in the electron density maps, except for the first N-terminal residue of both monomers and for the C-terminal region of molecule B (residues 152 and 153), that were not included in the final model. The refined structure presented a good geometry with RMSD from ideal bond ° lengths and angles of 0.006 A and 1.28, respectively. The ° average temperature factor (B) for all atoms was 32.0 A2. The stereochemical quality of the model was assessed by Procheck.37 The most favored and additionally allowed regions of the Ramachandran plot contained 92.1 and 7.5%, respectively, of the nonglycine residues. Refinement statistics are summarized in Table II. The two independent molecules in the asymmetric unit were related by a noncrystallographic 2-fold rotational axis and overlapped quite well. Indeed, the superimposition carried out on the Ca positions of all 151 ° residues led to an RMSD of 0.2 A. This is why the discussion below will be conducted based on only one arbitrarily chosen molecule, unless otherwise stated.
+
+To provide insights into the catalytic mechanism of the Bcp1 protein, the high-resolution structure of the active site mutant C45S/C50S was solved by X-ray diffraction studies. This mutant was used for the structural studies because it would avoid the potential crystalliza-
+
+Figure 3
+SsPDO-dependent peroxidase activity of Bcp1 and its mutants. H2O2 consumption in the presence of SsTr/SsPDO disulfide oxidoreductase system was followed in a coupled reaction by NADPH oxidation. Activities are plotted as a function of SsPDO concentration. Bcp1 (^), C50S (n), C45S (~), negative control (*).
+
+1000
+
+PROTEINS
+
+Structural and Functional Properties of Bcp1
+
+Overall structure and active site
+
+C45S/C50S appears as a compact globular protein, ° whose roughly ellipsoidal shape is $30 3 27 3 42 A3 in size. As already observed for other Prxs with known three-dimensional structures,5 C45S/C50S contains as the main structural motif a Trx fold, consisting of a fourstranded b-sheet (b4, b3, b6, and b7) and three flanking a-helices (a1, a3, and a4). The structure comprises one additional a-helix (a2) and three b-strands (b1, b2, and b5), that associated with the Trx fold form a sevenstranded mixed b-sheet surrounded by four a-helices [Fig. 4(A,B)]. Finally, a 310-helix (G1) is incorporated in the loop connecting strands b2 and b3 [Fig. 4(B)]. The four a-helices are distributed asymmetrically on either side of the central b-sheet, with the helix a3 located on one side and helices a1, a2, and a4 on the other. The helix a1 has a pronounced kink at the level of Asn55 as in many other Prxs.18,38­40 Ser45, which replaces the peroxidatic cysteine, is well defined in the electron density maps (see Fig. 5) and is located in the N-terminal part of the kinked helix a1, inside a small cavity. This cavity is delimited by residues Tyr37-Gly44, Gln130-Pro133, and Arg112. The presence of Lys39 and Arg112 provides an overall positively charged environment to the catalytic cysteine. The Ser45OG atom is hydrogen bonded to the Arg112NH1 ° atom (Ser45OG--Arg112NH1 5 3.14 A). A weak polar interaction with Thr42OG1 atom (Ser45OG--Thr42OG1 ° 5 3.57 A) is also observed. Ser50, which replaces the resolving cysteine, is also well defined in the maps (see Fig. 5) and is located in the middle of helix a1. Its side chain is hydrogen bonded to the carbonyl oxygen of Thr46 (Ser50OG--Thr46O 5 ° 2.76 A). It is worth noting that the two serine residues, which substitute the catalytic cysteines, reveal markedly different solvent accessibilities, though Ser45 is completely buried (OG atom solvent exposed area ° 5 0.38 A2), Ser50 is fully exposed on the protein surface ° (OG atom solvent exposed area 5 6.03 A2). During inspection of the maps, significant |Fo2Fc| difference electron density (contoured to 3 r) was observed close to Ser45. A citrate molecule deriving from the crystallization buffer fitted the shape of this electron density and was thus added in the final model. This molecule is stabilized by the strongly positive charged environment of the active site and forms hydrogen bond and salt bridge interactions with residues Lys39, Thr42, Gly44, Ser45, Arg112, and Gln130 (data not shown). The occurrence of a carboxylate ion in the enzyme active site was also observed in the structure of the native and active site mutant of human Prx 5.38,41
+Comparison of the Bcp1 reduced and oxidized form
+
+dized enzyme, in the C45S/C50S structure, which is representative of the fully reduced enzyme state, the serine residues corresponding to the catalytic cysteines are ° 10.3 A apart. This finding suggests that the enzyme would need a significant conformational change to allow the transition from the reduced to the oxidized state. To identify the molecular basis responsible for this conformational variation a comparison between the Bcp1 structure in the reduced and oxidized state has to be performed. Although to date only one X-ray structure of a member of the Bcp family in the fully reduced state has been published,24 the reduced and oxidized forms of a Bcp isolated from the archeon Aeropyrum pernix K1 have been deposited with the PDB by the RIKEN Structural Genomics/Proteomics Initiative (RSGI). Because the RMSD for the superposition of 133 corresponding Ca atoms between Bcp1 and the reduced form of A. Pernix ° Bcp (PDB code 2CX4) is only 1.161 A, the oxidized form of this protein (PDB code 2CX3) can be used as representative of the fully oxidized state of Bcp1. The structural comparison between C45S/C50S and 2CX3 shows that in the transition from the reduced to the oxidized state, the enzyme undergoes a significant conformational change. However this modification is local and precise, does not require any noticeable conformational change of the overall protein fold and involves only the protein region that comprises the two active cysteines, corresponding in the reduced state to the helix a1 [Fig. 6(A)]. In particular, in the oxidized form, the Nterminal region of this helix (residues 43­54) unwinds and originates a b-hairpin, formed by two small antiparallel b-strands (residues 44­45 and 50­51). A key role in the stabilization of both conformations is played by residues Arg53 and Asp54: in the reduced form these residues interact with each other and form a salt bridge on the protein surface, whereas in the oxidized form Asp54 points toward the core of the protein and interacts with the conserved Arg112. Interestingly, these residues are strictly conserved in all the Bcps which present the catalytic motif CXXXXC (data not shown). The structural rearrangement also involves the C-terminal part of helix a1 (residues 55­61), which in the oxidized state becomes ° a 310-helix and is tilted and shifted by $8 A toward the core of the protein [Fig. 6(A)]. Surprisingly, none of the regions that undergo the structural change show in C45S/C50S any indication of flexibility either in temperature factors or in quality of electron density.
+Comparison with other Prxs
+
+Although our biochemical data show that Cys45 and Cys50 form an intramolecular disulfide bond in the oxi-
+
+Figure 7 shows the structure-based sequence alignment of Bcp1 with some Prxs. In particular, the Bcp from the A. pernix K1, the fungal nuclear protein Dot5p (ScDot5p),24 the thiol peroxidase from Mycobacterium tuberculosis (MtTpx),42 the
+PROTEINS
+
+1001
+
+K. D'Ambrosio et al.
+
+Figure 4
+(A) Overall fold of C45S/C50S. b-strands and a-helices belonging to the Trx fold are shown in magenta, while all other secondary structural elements are shown in green. (B) Schematic representation of C45S/C50S fold. The color scheme corresponds to that used in (A). b-strands are shown as arrows (b1, E12-A15; b2, K20-S22; b3, N31-F36; b4, V64-S70; b5, I89-S92; b6, I113-I117; b7, I123-N128), a-helices (a1, P43-K60; a2, I74-K83, a3, K97-L101; a4, N135-I152), and 310 helices (G1, S24-D25) as cylinders. Secondary structure assignments were obtained by Procheck.37 [Color figure can be viewed in the online issue, which is available at www.interscience.wiley.com.]
+
+human type II Prx (hPrxV),38 the 1-Cys Prx from M. tuberculosis (MtAhpE),18 the hybrid Prx5 from Haemophilus influenza (HiPrx5),26 the archaeal Prx from A. pernix K1 (ApPrx)17 and the typical 2-Cys Prx from Salmonella typhimurium (StAhpC),20 were selected as representatives of the seven Prx subfamilies. Careful analysis of this figure reveals a substantial degree of three-dimensional similarity, particularly for
+
+the elements taking part in the Trx fold. Most of the remaining secondary structure elements are also conserved in all the structures, with the exception of the regions corresponding in Bcp1 to residues 24­28 and 104­111. The first region is a 310 helix in Bcp1, MtTpx, and MtAhpE and an a-helix in all the other proteins. The second region is rather diverse either due to the presence of insertions of different dimensions with
+
+Figure 5
+° Simulated annealing omit |2Fo2Fc| electron density map computed at 2.15 A and contoured at 1.0 r.35 The catalytic site region is shown. [Color figure can be viewed in the online issue, which is available at www.interscience.wiley.com.]
+
+1002
+
+PROTEINS
+
+Structural and Functional Properties of Bcp1
+
+Figure 6
+Stereoview of the Ca trace superimposition of the reduced and oxidized forms of some representative Prxs. (A) C45S/C50S (blue) and ApBcpox (red). (B) MtTpx (blue) and EcTpx (red). (C) StAhpCred (the two monomers are reported in blue and cyan) and StAhpCox (the two monomers are reported in red and orange).
+
+Figure 7
+Structure based sequence alignment of Bcp1 with ApBcp, ScDot5p,24 hPrxV,38 MtTpx,42 MtAhpE,18 HiPrx5,26 ApPrx,17 and StAhpC.20 The bstrands are colored in green, the a-helices in red, and the 310 helices in cyan. Secondary structure refers for all the proteins to the reduced form except for ApBcp, for which both reduced and oxidized forms are reported (ApBcpred and ApBcpox, respectively). Strictly conserved residues are boxed. HiPrx5, ApPrx, and StAhpC present an additional C-terminal domain, which is not reported in the alignment. [Color figure can be viewed in the online issue, which is available at www.interscience.wiley.com.]
+PROTEINS
+
+1003
+
+K. D'Ambrosio et al.
+
+respect to Bcp1 or the nature of the secondary structure elements. However, both these regions are far away from the active site and are not involved in the catalytic activity of the proteins. Only five residues are strictly conserved in all sequences: Pro38, Cys45, Ser70, Arg112, and Gly121 (numbering refers to the Bcp1 sequence). Among the residues that delimit the active site pocket, residue 42, which is always a threonine or a serine, and residue 37, which is always hydrophobic, are also highly conserved. Cys45, Thr/Ser42, and Arg112 constitute the catalytic triad5, though Cys45 is the peroxidatic cysteine, Thr/Ser42 and Arg112 are involved in its activation. In particular, the arginine residue plays a role in lowering the pKa of the catalytic cysteine by stabilizing its ionized state,18 while the Thr/Ser residue positions the CPSH favorably, facilitating an unidentified catalytic base to extract a proton.43 Finally, residues 37 and 38 play an important role, limiting the solvent accessibility and shielding the reactive sulfenic acid intermediate from further oxidation by peroxides.5,18
+
+DISCUSSION Prxs are a ubiquitous family of antioxidant enzymes that carry out the efficient reduction of a typically broad range of peroxide substrates.6 Although all members of this protein family share the peroxidatic cysteine residue in the highly conserved active site structure, they present differences in the primary structure, in the oligomerization state, in catalytic mechanism, and in the reducing partner involved in recycling the enzyme. Among the different Prxs (see Table I), Bcps constitute a poorly characterized subfamily, which is found not only in bacteria, plants and fungi, but also in ancestral microorganisms such as cyanobacteria and archaea.15,21­24,28,44 Analysis of the primary structure of various Bcps revealed that these proteins can be further divided into two groups: those that have the CXXXXC motif in the active site constitute the a group, while those that do not, belong to the b group.22 In this article, we report the biochemical and structural characterization of one of the three Bcps isolated from the hyperthermophilic archaeon S. solfataricus, namely Bcp1, which is a monomeric enzyme belonging to the a group. Chemical modification experiments with Iodoacetamide and AMS showed that in the oxidized state an intramolecular disulfide bond, which involves the two conserved cysteines, Cys45 and Cys50, is formed. The functional role of the two conserved cysteine residues was investigated by site-directed mutagenesis experiments and by enzymatic assays, showing that the C45S mutant is completely unable to reduce peroxide in all the experiments. By contrast, the C50S mutant, in the presence of DTT as electron donor, retains all the wild-type catalytic activity, while when DTT is substituted by the
+
+physiological electron donor SsPDO/SsTr, it maintains $50% of the activity. These results indicate that Cys50 is not essential for catalytic activity; however, its presence in the active site optimizes the catalytic mechanism. Finally, SDS-PAGE in nonreducing conditions demonstrated that C50S, unlike the wild-type enzyme, is able to form in vitro a homodimer via an intermolecular disulfide bond (Fig. 1, lane 5). Taken together, these results suggest that the enzyme carries out the catalytic reaction using an atypical 2-Cys mechanism,5 where Cys45 is the peroxidatic and Cys50 is the resolving cysteine. Thus, the regeneration of Cys45 involves the transient formation of a disulfide with Cys50, which is subsequently reduced by the SsPDO/SsTr system. When the Cys50 is mutated in serine, the enzyme can still work utilizing an alternative mechanism, where the sulfenic acid can be directly reduced probably through the formation of an intermolecular disulfide bond with the electron donor (SsPDO). This hypothesis is supported by data recently reported for the poplar Prx Q.23 To clarify the molecular basis responsible for the Bcp1 catalytic mechanism, structural studies were performed. In particular, the high-resolution X-ray structure of the double mutant C45S/C50S, representative of the enzyme reduced state, was solved and compared with the oxidized state. The comparison, in agreement with the spectrofluorimetric analysis, showed that a significant structural rearrangement is necessary to form the intramolecular disulfide bond identified by biochemical studies. This rearrangement involves the unwinding of helix a1 and the consequent formation of a b-hairpin [Fig. 6(A)]. Two residues, namely Arg53 and Asp54, which could play a role in this rearrangement were identified. In agreement with this observation, sequence alignments between members of the Bcp family reveal that these residues are highly conserved only in the a group (data not shown). The formation of an intramolecular disulfide intermediate is an essential requisite of the catalytic mechanism of all the atypical 2-Cys Prxs. So far, the structural basis for the formation of this intermediate can be described only for the Tpx subfamily, comparing the reduced form of the Tpx from M. tuberculosis (MtTpx)42 and the oxidized form of the Tpx from E. coli (EcTpx) [Fig. 6(B)].25 In the reduced form the CPSH and the CRSH are located in two a-helices, running parallel to each other. In the oxidized form a local and rather small rearrangement, which involves the unwinding of the helical turns containing the cysteines is observed [Fig. 6(B)]. By contrast, the typical 2-Cys Prxs during their catalytic cycle pass through an intermolecular disulfide bond, where the CPSH belongs to one monomer and the CRSH is located in another one. The comparison between the oxidized and reduced forms of the 2-Cys Prx from S. typhimurium (StAhpC) was used to describe the redoxdependent conformational change is this subfamily [Fig.
+
+1004
+
+PROTEINS
+
+Structural and Functional Properties of Bcp1
+
+6(C)]. In the reduced structure the CPSH is located in an a-helix in the N-terminal region, while the CRSH is buried in the C-terminal part of the protein. In the oxidized state the local unfolding of the active site helix and the C-terminus allows the formation of the disulfide. From this structural analysis, it emerges that a conformational change from a fully folded to a locally unfolded form is always required for disulfide bond formation in all the 2-Cys Prxs. However, comparison between the described conformational changes reveals that these modifications are significantly larger in the Bcp subfamily, as also demonstrated by the higher distances, CPSH-CPSH and CRSH-CRSH, between the oxidized and reduced forms (see Fig. 6). Such a significant conformational change has also been recently reported for a poplar thioredoxin peroxidase,45 a protein that, even though is structurally related to glutathione peroxidases, exhibits catalytic and Trx dependent recycling mechanisms of Prxs. In conclusion, these studies suggest that Bcps constitute a very peculiar Prx subfamily both from a mechanistic and structural point of view. These proteins can contain one or two conserved cysteines and can thus adopt different catalytic mechanisms. Moreover, when they adopt the 2-Cys mechanism, the conformational change associated with the catalytic cycle is significantly greater than that observed for other 2-Cys Prxs. ACKNOWLEDGMENTS The authors thank Sincrotrone Trieste CNR/Elettra, for giving them the opportunity to collect data at the Crystallographic Beamline. REFERENCES
+1. Butterfield LH, Merino A, Golub SD, Shau H. From cytoprotection to tumor suppression: the multifactorial role of peroxiredoxins. Antioxid Redox Signal 1999;1:385­402. 2. Rhee SG, Kang SW, Chang TS, Jeong W, Kim K. Peroxiredoxins, a novel family of peroxidases. IUBMB Life 2001;52:35­41. 3. Fujii J, Ikeda Y. Advances in our understanding of peroxiredoxin, a multifunctional, mammalian redox protein. Redox Rep 2002;7:123­ 130. ´ 4. Hofmann B, Hecht HJ, Flohe L. Peroxiredoxins. Biol Chem 2002; 383:347­364. ¨ 5. Wood ZA, Schroder E, Harris JR, Poole LB. Structure, mechanisms and regulation of peroxiredoxins. Trends Biochem Sci 2003;28:32­ 40. 6. Poole LB. The catalytic mechanism of peroxiredoxins. Subcell Biochem 2007;44:61­81. 7. Konig J, Baier M, Horling F, Kahmann U, Harris G, Schurmann P, Dietz KJ. The plant-specific function of 2-Cys peroxiredoxin-mediated detoxification of peroxides in the redox-hierarchy of photosynthetic electron flux. Proc Natl Acad Sci USA 2002;99:5738­ 5743. 8. Neumann CA, Krause DS, Carman CV, Das S, Dubey DP, Abraham JL, Bronson RT, Fujiwara Y, Orkin SH, Van Etten RA. Essential role for the peroxiredoxin Prdx1 in erythrocyte antioxidant defence and tumour suppression. Nature 2003;424:561­565.
+
+9. Limauro D, Pedone E, Pirone L, Bartolucci S. Identification and characterization of 1-Cys peroxiredoxin from Sulfolobus solfataricus and its involvement in the response to oxidative stress. FEBS J 2006;273:721­731. 10. Sherman DR, Mdluli K, Hickey MJ, Arain TM, Morris SL, Barry III CE, Stover CK. Compensatory AhpC gene expression in isoniazid-resistant Mycobacterium tuberculosis. Science 1996;272:1641­ 1643. 11. Park SH, Chung YM, Lee YS, Kim HJ, Kim JS, Chae HZ, Yoo YD. Antisense of human peroxiredoxin II enhances radiation-induced cell death. Clin Cancer Res 2000;6:4915­4920. 12. Chung YM, Yoo YD, Park JK, Kim YT, Kim HJ. Increased expression of peroxiredoxin II confers resistance to cisplatin. Anticancer Res 2001;21:1129­1133. 13. Choi MH, Lee IK, Kim GW, Kim BU, Han YH, Yu DY, Park HS, Kim KY, Lee JS, Choi C, Bae YS, Lee BI, Rhee SG, Kang SW. Regulation of PDGF- signaling and vascular remodeling by peroxiredoxin II. Nature 2005;435:347­353. 14. Vivancos AP, Castillo EA, Biteau B, Nicot C, Ayte J, Toledano MB, Hidalgo E. A cysteine-sulfinic acid in peroxiredoxin regulates H2O2sensing by the antioxidant Pap1 pathway. Proc Natl Acad Sci USA 2005;102:8875­8880. 15. Limauro D, Pedone E, Galdi I, Bartolucci S. Peroxiredoxins as cellular guardians in Sulfolobus solfataricus--characterization of Bcp1, Bcp3 and Bcp4. FEBS J 2008;275:2067­2077. 16. Monteiro G, Horta BB, Pimenta DC, Augusto O, Netto LE. Reduction of 1-Cys peroxiredoxins by ascorbate changes the thiol-specific antioxidant paradigm, revealing another function of vitamin C. Proc Natl Acad Sci USA 2007;104:4886­4891. 17. Mizohata E, Sakai H, Fusatomi E, Terada T, Murayama K, Shirouzu M, Yokoyama S. Crystal structure of an archaeal peroxiredoxin from the aerobic hyperthermophilic crenarchaeon Aeropyrum pernix K1. J Mol Biol 2005;354:317­329. 18. Li S, Peterson NA, Kim MY, Kim CY, Hung LW, Yu M, Lekin T, Segelke BW, Lott JS, Baker EN. Crystal structure of AhpE from Mycobacterium tuberculosis, a 1-Cys peroxiredoxin. J Mol Biol 2005; 346:1035­1046. 19. Wood ZA, Poole LB, Hantgan RR, Karplus PA. Dimers to doughnuts: redox-sensitive oligomerization of 2-cysteine peroxiredoxins. Biochemistry 2002;41:5493­5504. 20. Wood ZA, Poole LB Karplus PA. Peroxiredoxin evolution and the regulation of hydrogen peroxide signaling. Science 2003;300:650­ 653. 21. Jeong W, Cha MK, Kim IH. Thioredoxin-dependent hydroperoxide peroxidase activity of bacterioferritin comigratory protein (BCP) as a new member of the thiol-specific antioxidant protein (TSA)/alkyl hydroperoxide peroxidase C (AhpC) family. J Biol Chem 2000;275: 2924­2930. 22. Wakita M, Masuda S, Motohashi K, Hisabori T, Ohta H, Takamiya K. The significance of type II and PrxQ peroxiredoxins for antioxidative stress response in the purple bacterium Rhodobacter sphaeroides. J Biol Chem 2007;282:27792­27801. 23. Rouhier N, Gelhaye E, Gualberto JM, Jordy MN, De Fay E, Hirasawa M, Duplessis S, Lemaire SD, Frey P, Martin F, Manieri W, Knaff DB, Jacquot JP. Poplar peroxiredoxin Q. A thioredoxin-linked chloroplast antioxidant functional in pathogen defense. Plant Physiol 2004;134:1027­1038. 24. Choi J, Choi S, Chon JK, Choi J, Cha MK, Kim IH, Shin W. Crystal structure of the C107S/C112S mutant of yeast nuclear 2-Cys peroxiredoxin. Proteins 2005;61:1146­1149. 25. Choi J, Choi S, Choi J, Cha MK, Kim IH, Shin W. Crystal structure of Escherichia coli thiol peroxidase in the oxidized state: insights into intramolecular disulfide formation and substrate binding in atypical 2-Cys peroxiredoxins. J Biol Chem 2003;278:49478­ 4986. 26. Kim SJ, Woo JR, Hwang YS, Jeong DG, Shin DH, Kim K, Ryu SE. The tetrameric structure of Haemophilus influenza hybrid Prx5
+
+PROTEINS
+
+1005
+
+K. D'Ambrosio et al.
+
+27.
+
+28.
+
+29.
+
+30.
+
+31. 32.
+
+33.
+
+34.
+
+35.
+
+36.
+
+reveals interactions between electron donor and acceptor proteins. J Biol Chem 2003;278:10790­10798. Evrard C, Capron A, Marchand C, Clippe A, Smeets A, Wattiez R, Soumillion P, Knoops B, Declercq JP. Crystal structure of a dimeric oxidized form of human peroxiredoxin 5. J Mol Biol 2004; 337: 1079­1090. Kong W, Shiota S, Shi Y, Nakayama H, Nakayama K. A novel peroxiredoxin of the plant Sedum lineare is a homologue of Escherichia coli bacterioferritin co-migratory protein (Bcp). Biochem J 2000; 351:107­114. Pedone E, Limauro D, D'Alterio R, Rossi M, Bartolucci S. Characterization of a multifunctional protein disulfide oxidoreductase from Sulfolobus solfataricus. FEBS J 2006;273:5407­5420. Pedone E, Limauro D, Bartolucci S. The machinery for oxidative protein folding in thermophiles. Antioxid Redox Signal 2008;10: 157­170. McPherson A. Current approaches to macromolecular crystallization. Eur J Biochem 1990;189:1­23. Jancarik J, Kim SH. Sparse matrix sampling: a screening method for crystallisation of proteins. J Appl Crystallogr 1991;24: 409­411. Cudney R, Patel S, Weisgraber K, Newhouse Y, McPherson A. Screening and optimization strategies for macromolecular crystal growth. Acta Crystallogr D 1994;50:414­423. Otwinowsky Z, Minor W. Processing of X-Ray diffraction data collected in oscillation mode. Methods Enzymol 1997;276:307­ 326. ¨ Brunger AT, Adams PD, Clore GM, DeLano WL, Gros P, GrosseKunsteleve RW, Jiang JS, Kuszewski J, Nilges M, Pannu NS, Read RJ, Rice LM, Simonson T, Warren GL. Crystallography and NMR system (CNS): a new software system for macromolecular structure determination. Acta Crystallogr D 1998;54:905­921. Jones TA, Zou JY, Cowan SW, Kjeldgaard M. Improved methods for building protein models in electron density maps and the
+
+37.
+
+38.
+
+39.
+
+40.
+
+41.
+
+42.
+
+43.
+
+44.
+
+45.
+
+location of errors in these models. Acta Crystallogr A 1991;47: 110­119. Laskowsky RA, MacArthur MW, Moss DS, Thornton JM. PROCHECK: a program to check the stereochemical quality of protein structures. J Appl Crystallogr 1993;26:283­291. Declercq JP, Evrard C, Clippe A, Vander Stricht D, Bernard A, Knoops B. Crystal structure of human peroxiredoxin 5, a novel ° type of mammalian peroxiredoxin at 1.5 A resolution. J Mol Biol 2001;311:751­759. Choi HJ, Kang SW, Yang CH, Rhee SG, Ryu SE. Crystal structure ° of a novel human peroxidase enzyme at 2.0 A resolution. Nat Struct Biol 1998;5:400­406. Hirotsu S, Abe Y, Okada K, Nagahara N, Hori H, Nishino TS, Hakoshima T. Crystal structure of a multifunctional 2-Cys peroxiredoxin heme-binding protein 23 kDa/proliferationassociated gene product. Proc Natl Acad Sci USA 1999;96:12333­12338. Evrard C, Smeets A, Knoops B, Declercq JP. Crystal structure of the C47S mutant of human peroxiredoxin 5. J Chem Crystallogr 2004; 34:553­558. ´ ¨ Stehr M, Hecht JH, Jager T, Flohe L, Singh M. Structure of the inactive variant C60S of Mycobacterium tuberculosis thiol peroxidase. Acta Crystallogr A 2006;62:563­567. Sarma GN, Nickel C, Rahlfs S, Fischer M, Becker K, Karplus PA. Crystal structure of a novel Plasmodium falciparum 1-Cys peroxiredoxin. J Mol Biol 2005;346:1021­1034. Latifi A, Ruiz M, Jeanjean R, Zhang CC. PrxQ-A, a member of the peroxiredoxin Q family, plays a major role in defense against oxidative stress in the cyanobacterium Anabaena sp. strain PCC7120. Free Radical Biol Med 2007;42:424­431. Koh CS, Didierjean C, Navrot N, Panjikar S, Mulliert G, Rouhier N, Jacquot JP, Aubry A, Shawkataly O, Corbier C. Crystal structures of a poplar thioredoxin peroxidase that exhibits the structure of glutathione peroxidases: insights into redox-driven conformational changes. J Mol Biol 2007;370:512­529.
+
+1006
+
+PROTEINS
+
+

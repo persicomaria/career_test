@@ -1,0 +1,328 @@
+J. Mol. Riol. (1989) 207, 417431
+
+Computer
+
+Modeling from Solution Data of Spinach Chloroplast and of Xenopus laevis Somatic and Oocyte 5 S rRNAs
+
+Eric Westhof', Pascale Romby', Paul J. Romaniuk2, Jean-Pierre Ebel' Chantal Ehresmann' and Bernard Ehresmann' t
+`Institut de Biologic Mokulaire et Cellulaire du CNRS, 67084 Strasbourg-Cedex, France and
+2 University of Victoria,
+
+15 rue R. Descartes
+
+Department PO Box 1700, Victoria,
+
+of Biochemistry and Microbiology Canada, V8 W 2 Y2 6 January 1989)
+
+(Received 4 October 1988, and in revised form
+
+Detailed atomic models of a eubacterial 5 S rRNA (spinach chloroplast 5 S rRNA) and of a eukaryotic 5 S rRNA (somatic and oocyte 5 S rRNA from Xenopus laevis) were built using computer graphic. Both models integrate stereochemical constraints and experimental data on the accessibility of bases and phosphates towards several structure-specific probes. The base sequence was first inserted on to three-dimensional structural fragments picked up in a specially devised databank. The fragments were modified and assembled interactively on an Evans & Sutherland PS330. Modeling was finalized by stereochemical and energy In spite of some uncertainty in the relative spatial orientation of the refinement. substructures, the broad features of the models can be generalized and several conclusions can be reached: (1) both models adopt a distorted Y-shape structure, with helices R and D not far from colinearity; (2) no tertiary interactions exist between loop c and region d or loop e; (3) the internal loops, in particular region d, contain several non-canonical base-pairs of A. A, 1:. U and A .G types; (4) invariant residues appear to be more important for protein or RNA binding than for maintaining the tertiary structure. The models are corroborated by footprinting experiments with ribosomal proteins and by the analysis of various mutants. Such models help to clarify the structure-function relationship of 5 S rRNA and are useful for designing site-directed mutagenesis experiments.
+
+1. Introduction
+5 8 ribosomal RNA is a universal component of the large ribosomal subunit. Although it is essential for ribosomal function, its precise role in protein synthesis remains unknown. On the basis of sequence comparison, Fox & Woese (1975) proposed a minimal secondary structure model containing four helices. With the publication of increasing numbers of 5 S rRNA sequences, it is now generally admitted that the universal secondary structure model contains a fifth helix (helix D) whose length and base-pairing scheme represent the major differences between the various organisms (for a compilation, see Wolters & Erdmann, 1988). Beside the five double-helical segments, the secondary structure of 5 S rRNA presents several features such as internal loops and bulged residues in helical regions that are not found in tRNAs. Internal loops t Author to whom correspondence should be sent.
+0022-2836/89/100417-15 $03.00/O
+
+might be directly involved in the orientation of the helical regions and the role of bulged nucleotides in protein recognition has been advanced (Peattie et aE., 1981; Christiansen et al., 1985). Using a wide variety of experimental approaches, the secondary structure features of 5 S rRNAs have been confirmed and several schematic tertiary models have been proposed (Osterberg et al., 1976; Fox & Wong, 1979; Bijhm et al., 1981; Pieler & Erdmann, 1982; Hancock & Wagner, 1982; Rabin et aE., 1983; McDougall & Nazar, 1986; Giiringer & Wagner, 1986; Christiansen et al., 1987). Conformational switches, which can be responsible for some of the discrepancies found in the proposed models, have also been described (e.g. Kearns & Wong, 1974; Noller & Garrett 1979; Kao & Crothers, 1980; et aZ., 1985). Kime & Moore, 1982; Christensen Crystals have been reported for a fragment of Escherichia coZi 5 S rRNA and a complex of the fragment with ribosomal protein L25 (AbdelMeguid et aZ., 1983), for Thermus th,ermophiZus 5 S 417
+0 1989 Academic Press Limited
+
+418
+
+E. Westhof et al. most appropriate motifs in a specially devised structure bank is made, and the structural secondary motifs are assembled into a tertiary structure, following the rules of stereochemistry. The structure bank contains crystallographically determined nucleic acid structures, as well as previously modeled structures. With the program FRAGMENT (L. Westhof, unpublished work), one can choose any structural motif existing in the structure bank and insert along the sugarphosphate backbone the desired base sequence with the appropriate numbering. Thus, the user must choose the structural motif, in contrast to the program BONES (Jones & Thirup, 1986) in which peptide fragments most similar to a given series of C" atom positions are extracted from the Brookhaven Data Bank. Standard RNA helices (Arnott et al., 1973) are used for the base-paired regions and constructed with the program NAHELIX (E. Westhof, unpublished work). Structural secondary fragments may consist of several structural motifs. Each fragment is assembled separately from its constituent motifs interactively on the graphic system with the program FRODO (Jones, 1978). The fragment is then subjected to geometrical and stereochemical refinement in order to ensure proper geometry and to prevent bad contacts, using the restraint refinement program NUCLIN-NUCLSQ (Konnert, & Hendrickson, 1980; Westhof et al., 1985). The construction of a secondary substructure (for example, a helix with a hairpin loop) is subjected in most cases to geometric, stereochemical and energetic constraints, which reduces the number of degrees of freedom. The docking of those substructures into the whole structure is very often open to numerous possibilities, especially when the links are single-stranded regions. Therefore, the relative spatial orientations between substructures are difficult to assess with confidence on the basis of geometrical and stereochemical constraints alone. However, with additional biochemical observations such as the binding sites of proteins, structural study of defined RNA mutants, known rules of stacking preferences (Turner et al., 1987) and of folding topology gathered from the tRNA structures (Quigley & Rich, 1976; Kim, 1979; Sundaralingam, 1979; Westhof et al., 1983), the possible regions in space can be restricted. At the end of the modeling, as well as during the of substructures, a quantitative construction measure of the steric accessibility of the different atoms within the tertiary model is performed with a program based on the algorithm and definition of Richmond (1984). The accessibility of each atom is calculated by using a spherical probe that rolls over the van der Waals' surface of the model. The radius of the solvent sphere is adapted to the chemical probe (between 1.4 and 2.8 A (1 A = 0.1 nm)) (Holbrook & Kim, 1983; Lavery & Pullman, 1984). The values thus obtained are then compared to the experimental results. The chemical reactions were (low native conditions under performed
+
+rRNA (Morikawa et al., 1982) and more recently for a complex between Xenopus laevis oocyte 5 S rRNA and transcription factor TFIIIA (Brown, 1985). Up to now the quality of these crystals has not been sufficient to allow X-ray structure analysis at high resolution, although the molecular packing has been studied by electron microscopy (Morikawa et al., 1986; Brown et al., 1988). We have probed at nucleotide resolution the secondary and tertiary structure of three 5 S rRNA molecules, that of spinach chloroplast (Romby et al., 1988) and those of X. laevis oocyte and somatic ribosomes (Romaniuk et al., 1988). Here, we present for the first time a three-dimensional structure model at atomic resolution for the three 5 S rRNAs by computer graphic modeling. These models integrate both the experimental data and the stereochemical constraints. Structural and functional implications are discussed.
+
+2. Methodological
+
+Procedure
+
+(a) Nomenclature The nomenclature adopted is that of the E. coli 5 S rRNA on the universal 5 S rRNA secondary structure model (for reviews, see Delihas et al., 1984; Wolters & Erdmann, 1988). It is not the same nomenclature as the one we used for describing the results of the probing experiments in solution for the chloroplast 5 S rRNA (Romby et al., 1988) and for the X. laevis somatic and oocyte 5 S rRNAs (Romaniuk et al., 1988), but the present nomenclature allows easier comparisons between our models and previously published data (Fig. 1). We have divided the 5 S rRNA structure into three stems. The first stem consists of helix A containing the 3' and 5' ends and of the internal loop a (nucleotides 12 to 15). The second stem contains helices B and C, separated by the internal loop b, and terminated by the hairpin loop c (nucleotides 35 to 47). The third stem comprises helices D and E separated by the internal loop d and terminated by the hairpin loop e (nucleotides 87 to 89.1). The conserved residues in chloroplast eukaryotic 5 S rRNAs are also indicated. The analysis was made by computer programs devised by J. L. Prato (unpublished work) using the sequence compilation of Wolters & Erdmann (1988). The presence of invariant nucleotides at some positions might reflect their role either in maintaining the tertiary folding or in recognition sites for binding to other macromolecules. The co-ordinates of the three models will be deposited in the Brookhaven Data Bank. (b) Approach for molecular modeling of ribonucleic acids The model-building approach is based on the knowledge of the secondary structure from solution data. Following recognition of the elementary motifs constituting the structure, a choice of the
+
+Three-dimensional
+
+Structure Model of 5 S rRNA
+
+419
+
+120
+
+-110 0 t
+
+so
+
+G-U A
+
+-.
+
+(0)
+
+G-C A-U :+<$I-73 102.1 -`d - G-73.1 102-A U-74 D
+
+E
+
+uC-G
+
+u
+
+(bl
+89
+
+Figure 1. Secondary structure of (a) spinach chloroplast and of(b) X. Zuevis oocyte 5 S rRNAs. The numbering is that of E. coli 5 S rRNA according to the scheme of Wolters C Erdmann (1988). Th e strictly conserved residues (in 14 sequences of chloroplast 5 S rRNAs and in 258 sequences of eukaryotic 5 S rRNAs) are circled with bold lines, the residues conserved above 95% are circled with thin lines and the semi-conserved residues are circled with broken lines. For the somatic 5 S rRNA, the substitutions are indicated by arrows on the X. laevis oocyte 5 S rRNA secondary sequence. The helices are noted from A to E and the loops from a to e.
+
+420
+
+E. Westhof et al.
+
+temperature with magnesium ions), under semidenaturing conditions (low temperature without magnesium ions), and under denaturing conditions (high temperature without magnesium ions). The correlation between the calculated accessibility and the experimentally determined reactivity observed under those three conditions is not straightforward.
+
+It is clear that sites reactive under native conditions should be highly exposed. Tertiary interactions that are less stable than canonical Watson-Crick interactions are expected to melt under semi-denaturing conditions. Also, these conditions allow the estimation of the degree of stability of the different helical domains (for a
+
+Table 1
+Correlation between the chemical reactivities of bases (a) and the calculated accessibilities and oocyte X. laevis (B) 5 S rRNAs
+N7-Pu A B A comments B
+
+(6) for chloroplast
+
+(A)
+
+5 S rRNA A B Loop 4 Cl2 c 2 Gl5 c" A
+
+Nl-F'u/N3-F'y A B abababab 1 nd nd : ; z z 3 4 19 13 15 :6 :: 10 :t 19 13 3 3 nd nd i: 3 nd 3 3 3 21 21 20 19 22 22 16 16 22 10 3 3 1 2 3 2 1
+
+-stacked on G 109 19 14 8 3 2 4 1 3 3 i3 10 17 5 2 3 21 -accessible at N3 Nl.N7 0 -accessible at Nl,N7
+
+-accessible at N3 -acccssibk at N3 -accessibkatNl.N7 -Al5(N7.N6)-G69(02.N3)
+
+Loop b G24 A 2.1 " C26 c27 U56 A57 A58 A59 Loop u35 C36 -37 C38 A39 u40 c41 C42 C43 G44 A45 A46 c47 A G A U A c u C u C G u c u G A U c
+
+10 -G24(Nl)-A59(N7) -accessible at N7,Nl 21 -A25 stacked on G24on G53(Nl)-accessible at M.Nl -A25.l(N7) stacked 24 -accessible at N3 10 -accessible at N3 -accessible at N3 2 -accessible at N7,Nl -accessible at N7,Nl 17 -A59(N7)-G24(Nl) -U35(N3,02)-G44(06,Nl) -accessible at N3 -accessible a~N7,Nl -accessible a( N7,Nl -A57(M) stacked on G56 -accessible at N3 -accessible at N7,Nl -stacked inside the loop -stacked inside the loop -U37(N3.02>A45(N7.N6) -WC pair with G44 -"U-W" -accessible a~N3 -accessible at N3 -accessible at N3 -WC pair with C38 -A45(N7JV~)-U37(N3.02) ZE$$t"P oop
+
+: i z ; 1 z 3 1 z
+
+; 9 15 10 :i 10 3 19 21 21 2 :; 0 13 23 10 12 10 14 10 20 ;: 16 22 14 14
+
+; 1 1 1 4 4 4 0 3 2 1
+
+; 0 0 0 13 11 20 0 16 9 3
+
+3
+
+17
+
+3
+
+3 3 3
+
+23 21 22
+
+2 0
+
+-"u-turn" 11 -accessible at N7,Nl -accessible at N3 -accessible at N3 -accessible at N3 -ac&sibk at N3 15 -G44(G6,Nl)-U35(N3,02) 0 -accessible at M.Nl -accessible at N7,Nl -accessible at N3 -G72(06,Nl)-AlO4(N6.N7) -A73(N6.N7)-AlO2(N7.N6) -bulged out residue
+
+Loop d G72 A73 C74 u
+
+1 1 1 : 1 1 3 1 3 1 1 0 0 19 0 2 17 0 10 0 0 1 1 1 1 1 1 1 1 1 3 1 3 11 15 18 11 3 3 3 3
+
+18 2 15 0 5 4 0 0 2 3 21 23 20 23 0 3 0 2 8 20 5 0 1 3 1 0 1 1
+
+-WC pair with Al02 -A75(N6.N7)-AlOO(N7.N6) -U74.1(04.N3)-UlOl(N3.02) -G76@6Wl)-A99(N6.N7) -U77(N3*,02)-G98(06.N1) -ata&d msidc the Mix -G98@6.NlHJ77(N3.02) -AlOO(N-J,N6)-A75(N6.N7) -A99(N6.N7)-G76@6,Nl) -UlOl(y3,?2)-U74.1(04.N3: -WC patr with U74
+
+675 U74.1 1 A A76 G z U77 u A78 A z A98 G ZJO Al01 Al02 u103 Al04 Loop G87 A88 G89 G89.1 :: U A i i ; e G A G A
+
+0 -G75(06,Nl)-AlOl(N6,N7) 11 ~~$i(N6~$AlC&O(N6,N7) 8s 1 -A7 6,N7)-A98(N7,N6) 1 -A98(N7,N6)-A7ll(N6$+7) 0 3 -stackalonA98 -AlOO(M,N6)-A76(N6,N7) -AlOl(N7,N6)-G75(Nl.) -A~O~(~;~N&-;I~(N~,N~) -bul -Al 8z N7,N6)C72(Nl.G6) -axessible at N7Nl -accessible at N7,Nl -accessible at N7,Nl 089.l(OlP)-A88(02')
+
+z ;
+
+G87(N2N3)-A89.l(M.N6) -accessible at N7JJl 4m@rl) smked M A88 -A89.l(N7.N6)-G87@J2,N3) -accessible at N7,Nl -accessible at N7,Nl -dble at N3 -accessible at N7,Nl
+
+Bulged residues A52 G-53 A U66 u l A84
+
+4 17
+
+z 4 3
+
+z 21 21
+
+2
+
+20
+
+1 4
+
+ii 24
+
+-smkd on A25.l(N7) -accessible at N3
+
+The results are given for the loops and the bulged residues. The chemical reactivities are from Romhy et aE. (1988) for chloroplast 5 6 rRNA and from Romaniuk et al. (1988) for X. Zaevis 5 S rRNA. The intensities of the chemical reactivities in a are denoted by 0 for unreactive under both semi-denaturing and denaturing conditions, by 1 for unreactive under native conditions and reactive under semi-denaturing conditions, by 2 to 4 for low, moderate and strong reactivity under native conditions, respectively, The calculated accessibility values in b are given in A*. The atom is considered to be accessible for a value over 10. WC pair, Watson-Crick base-pair; nd, not determined; Pu, purine, Py, pyrimidine.
+
+Three-dimensional
+
+Structure Model of 5 S r-RNA
+
+421
+
+Phosphate (b)
+
+number
+
+Phosphate
+
+number
+
+Figure 2. Comparison of the reactivities of phosphates of (a) spinach chloroplast 5 S rRNA and of(b) X. Eaevis oocyte 5 S rRNA towards ethylnitrosourea with the calculated accessibilities. R is the ratio between the intensities of the corresponding electrophoretic bands after the alkylation under native conditions versus those under denaturing conditions. Phosphate alkylation towards ethylnitrosourea is from Romby et al. (1988) for chloroplast 5 S rRPu'A and from Romaniuk et al. (1988) for X. Zaevis oocyte 5 S rRNA. The experimental data for somatic 5 S rRNA of X. Zae&s are essentially identical with those of the oocyte. R' is the average of the calculated accessibilities for the 2 anionic oxygen atoms of each residue. For phosphate groups represented by (O), R' IS g'rven for only 1 oxygen group. The nomenclature is the same as in Fig. 1. Nucleotides that are missing are represented by (A) and additional nucleotides by (A). Encircled phosphates correspond to bulged residues (see the text).
+
+et al., 1987). However, sites review, see Ehresmann involved in H-bonding will always have a calculated accessibility close to zero, regardless of the thermodynamic stability of the pairing or the molecular dynamics of the environment. It is, difficult to distinguish sites reactive therefore, under semi-denaturing and denaturing conditions on the basis of accessibility calculations alone. Benchmarks based on detailed comparisons between the structure probing experiments in
+
+solution (e.g. Peattie & Gilbert, 1980; Romby et al., 1985, 1987a) and the crystallographically determined structures of two tRNAs were established and used for gaining experience in assessing the agreement between the experimental and calculated accessibilities. Table 1 summarizes the experimental and theoretical results for the loops and bulges of the two types of 5 S rRNA. Figure 2 shows comparisons between observed chemical reactivities of phosphate groups towards ethylnitrosourea and
+
+422
+
+E. Westhof et al.
+
+their calculated accessibilities in our models. In general, a good correlation is found between the experimental reactivities and the calculated accessibilities. However, some phosphate groups that were predicted by the calculations to be protected were not found protected in the experiment (circled in Fig. 2). Those phosphate groups correspond to residues forming bulges. Such residues can adopt different conformations (Joshua-Tor et al., 1988; Miller et al., 1988; Van der Hoogen, 1988) and yield static accessibilities spuriously too low. It was also suggested that the conformation around the bulged residues is flexible, allowing articulations in the RNA molecule (De Wachter et al., 1984). Also, the protection of phosphate 44 in chloroplast 5 S rRNA and that of phosphates 45 and 76 in X. laevis 5 S rRNA were not predicted by the calculations. This reflects either a locally incorrect construction or the presence of a specific magnesium ion binding site. Criteria for judging the validity and quality of the modeling are difficult to establish. As guides during the modeling, stereochemical rules (Sundaralingam, 1969) were enforced (such as base in the anti orientation with respect to the sugar, sugar pucker mostly in the C(3')-endo range except in loops or bulges, torsion angles about the 2 C-O bonds in the tram range) and often in vacua energy calculations were performed (Weiner & Kollman, 1981). Raman spectroscopy study on 5 S rRNA suggests a very homogeneous backbone geometry (Fabian et al., 1987). Indeed, there are only a few sugars with the C-(2')-endo pucker: five in chloroplast and two in X. laevis 5 S rRNAs, occurring in loop regions. In each 5 S rRNA three bases adopt the syn orientation, most of them being adenine residues involved in Asyn-Gantit non-canonical base-pairs. Yet, energetic and stereochemical considerations alone cannot be taken as proof (a wrong tRNA model apparently passed such tests; Levitt, 1969). The sites of interaction with other experimacromolecules obtained from footprinting ments can give a useful indication as to the correctness of the model. However, results independent of those used in the modeling should be used and they are not always available. What is, first, the appears to be more convincing generalization of the model to other molecules of the same class and, secondly, directed mutagenesis on selected residues considered critical in the tertiary folding.
+
+3. Results
+(a) The Y-shape structure The broad features of the molecule form a distorted Y-shape, with a short stalk made of stem 1 and with the two arms of the Y made of stems 2 and 3 (Fig. 3). In X. Zaevis 5 S rRNAs, stem 1 is shrunk and its axis is almost parallel to that of stem 2 so that the molecular outline is more V than Y-shaped. The tertiary models of both 5 S rRNAs are schematically shown in Figure 3. These two models follow closely the secondary structure and, among the published models for E. coli 5 S rRNA. resemble most those proposed by Osterberg et al. (1976) on the basis of small-angle X-ray scattering and by Fox & Wong (1979) on the basis of hydrodynamic measurements. The calculated radius of gyration is 38.5 A, not far from experimentally determined values of 36.1( f 1.O) A (osterberg et al., 1976) and of 33.7( ) 0.5) A (Miiller et al., 1986) for E. coli 5 S rRNA. The Y-shape is in a plane and the thickness is essentially that of an RNA double helix (around 20 A). The dimensions between the extremities of the Y-shape are 118 A between residues 40 in loop c and 90 in loop e, 109 A between residue 40 and the 5' t,erminal residue, and 84 A between residue 90 and the 3'.terminal residue. This is in good agreement with the maximum dimension (108( f7) A) of E. coli 5 S rRNA determined from small angle X-ray scattering as well as from dynamic light-scattering (Miiller et al., 1986). However, it gives a slightly less extended molecule than proposed by Fox & Wong (1979) whose results gave a prolate ellipsoid of 160 A in length and 32 A wide. (b) The fork of the Y structure Most of the differences between the present model and the previously published models occur at the fork of the Y structure. This is mainly because results in solution (Romby et al., 1988; Romaniuk et al., 1988) established the existence of helix A (between residues 1 to 11 and 120 to log), of helix B (between residues 16 to 23 and 68 to 60, with residue 66 bulging out), and of helix D (between residues 69 to 71 and 107 to 105 in chloroplast 5 S rRNA and between 69 to 74 and 107 to 102 in X. laevis 5 S rRNAs). The orientation of the stalk with respect to the arms is controlled by residues of the internal loop a, the presence of residue 108, and the resulting stacking of helices R and D. In t)he present model, helices B and D are stacked and not far from colinearity. The Y-shape appearance of chloroplast 5 S rRNA originates in the peculiar
+
+t Symbol used: hyphen indicates non-canonical basepairing.
+
+Figure 3. Three-dimensional stereo models of spinach chloroplast 5 S rRPu'A ((a) and (c)) and of X. laevis oocyte 5 S
+rRPu'A ((b) and (d)). (a) and (b) The phosphate backbone has the Watson-Crick base-pairs joined by continuous lines and the non-canonical or tertiary base-pairs joined by broken lines. (c) and (d) Atomic views in the same orientation. The phosphate backbone is shown by heavy lines. All stereoscopic views were drawn with the program PLLJTO (S. Motherwell and P. Evans, MRC Cambridge).
+
+(a)
+
+( b)
+
+(d)
+
+Fig. 3.
+
+424
+
+E. Westhof et al. U47 in yeast tRNAPhe (Quigley & Rich, 1976; Kim, 1979; Sundaralingam, 1979). Position A13(N-7) in X. laevis is only mildly reactive under native conditions, implying an open conformation without tight stacking. However, in chloroplast 5 S rRNA phosphate groups 15 and 16 are protected against ethylnitrosourea, which requires a tight turn of the sugar-phosphate backbone. Residue 15 is almost invariably an adenine residue, especially in eukaryotic 5 S rRNAs, while a guanine in position 15 is typical of chloroplast 5 S rRNA (13 cases out of 14; for a recent review, see Wolters &, Erdmann, H-bonds between t'he 1988). In X. Zaevis, tertiary Hoogsteen sites of Al5 and the minor groove sites of G69 were constructed (415(N-7). G69(0-2') and A15(N-6). . G69(N-3)). Such an interaction is not favorable when position 15 is occupied by a guanine residue. In both models, the first base-pair of helix D is a G69-U107 pair. (d) Helices A and R These two helices were both constructed as standard RNA-11 helices. Helix A is 12 base-pairs long in chloroplast 5 S rRNA (with 3 G-U pairs) and nine base-pairs long in X. laevis (with 1 G-U pair). Helix B is eight base-pairs long, with the pyrimidine 66 bulging out of the double helix, since its N-3 atom and position G67(N-7) are reactive under native conditions. The last observation implies a slight wedge between base-pairs 17 to 67 and 18 to 65. In chloroplast 5 S rRNA, U66 and Cl08 are parallel to each other and in possible van der Waals' contact, like residues 59 and 60 in tRNAs. This could explain the low reactivity of U66(N-3) under native conditions. (e) Loop b and helix C' Both loop b and helix (' are different in the modeled 5 S rRNAs (Fig. 4). In the universal 5 S rRNA secondary st'ructure? the internal loop b is between base-pairs 23 to 60 and 28 to 56. with four residues between 23 and 28 and three residues between 56 and 60. This is the case in X. lae&s oocyte 5 S rRNA. However. in X. laevis somatic 5 S rRNA and in chloroplast 5 8 rR,NA. there are five residues between the last base-pair of helix Zr' and the first base-pair of helix (' on the 5' side and four residues on the 3' side. The nomenclature is complicated by t,he fact that in chloroplast 58 rRNA only residue 53 bulges out of the helix. instead of t'he usual residues 52 and 53. Thus, helix C is a seven base-pair helix with G53 bulging in chloroplast 5 R rRNA and with A52 to A53 bulging in X. Zaevis oocyte 5 S rRI\A (with U28 to G56). while it is a six base-pair helix with 52 to 53 bulging in X. laevis somatic 5 S rRNA (where 56 is a cytosine). Loop h in X. laevis oocyte 5 S rRNA was constructed as a rather disorganized st'ructure. compared to those of the X. laevis somat'ic and of chloroplastj 5 S rRNAs (Fig. 4). Indeed, the purincs
+
+structure of the internal loop d, which bends stem 3 towards stem 2. While the internal loop b is essentially characterized by unpaired residues bulging towards the outside, the internal loop d contains extensive base-pairing, mainly of nonWatson-Crick types (purine-purine: A-G or A-A; pyrimidine-pyrimidine: U-U). In principle, one could stack helix D on helix A instead of stacking helix D on helix B. The arguments in favor of our choice are the following. First, in chloroplast 5S rRNA, RNase V, (specific for double-stranded or structured regions) cuts occur almost continuously loop a, between residues 4 and 25, even throughout which implies secondary structure in loop a and absence of steric hindrance along this stretch. Secondly, position G109(N-7) is reactive under native conditions, while position G69(N-7) is only under conditions in reactive semi-denaturing chloroplast and X. Zaevis 5 S rRNAs. Thirdly, G16(N-7) is reactive under native conditions in 5 S rRNA, while G6S(N-7) is only chloroplast under semi-denaturing conditions in reactive X. Zaevis 5 S rRNAs. In a regular RNA helix, the N-7 atom of a 3'.terminal purine has the same accessibility as the N-7 of internal purines: while the accessibility of the N-7 of a 5'.terminal purine is twice that of an internal purine. Thus, reactivity at the 5'-terminal G109 is obtained by destacking between nucleotides 107 and 109, while protection at the 5'.terminal G69 is attained by maintaining stacking between residues 68 and 69. Reactivity at the 5'.terminal G16 of chloroplast 5 S rRNA results from the lack of complete colinearity of helices R and D. Further. the chloroplast 5 S rRNA binding sites of two proteins have been determined (unpublished results). These two protein-binding sites are well explained by our tertiary structure model. Indeed, one of the proteins interacts wit,h the particularly distorted region d and helix E and makes contact with loop a and helix B. The ot)her one interacts essentially with helix C and loop c. These results argue for the absence of a tertiary interaction between loop c and region d and agree with a stacking between helices R and I). (c) Loop a With the co-stacking of helices B and 11 admitted, the tertiary fold at the fork depends on the conformation of loop a and on the presence of residue 108 (absent in eukaryotic and present in chloroplast 5 S rRNAs). The conformation is not the same in the two types of 5 S rRNA modeled, as evidenced by the solution data. RNase V, does not cut residues of loop a and the surrounding nucleotides in X. laevis 5 S rRNA, but it does in chloroplast 5 S rRNA. Also, position C12(N-3) is protected in chloroplast, while it is reactive in X. laevis under native conditions. To explain the non-reactivity of C12(N-3) in chloroplast 5 S rRNA, the residue was stacked on G109. In contrast, C108(N-3) of chloroplast 5 S rRNA is reactive so that Cl08 should protrude towards the outside. like
+
+(a)
+
+fb)
+
+(cl
+Figure 4. Tertiary folding of loop b as viewed in stereo from the minor groove side. The last 2 base-pairs of helix B are at the top of the drawing. (a) Spinach chloroplast 5 S rRNA, nucleotides A22 to A30 and U52 to U61; (b) and (c) S. lar??s oocyte and somatic 5 8 rRNAs. respectively, nucleotides U22 to C31 and G51 to A61. The stereoscopic views are given in the same orientation. The phosphate backbone is shown by heavy lines. The H-bonds are shown by broken lines. Bases are numbered as close as possible to their 5' phosphate.
+
+426
+
+E. Westhof et al.
+
+at N-7 are more reactive in oocyte than in somatic and chloroplast 5 S rRNAs. This is paralleled by the presence of single-stranded RNase cuts in oocyte 5 S rRNA and by their absence in the two other rRNAs. In the chloroplast 5 S rRNA, the base-pair 24-59 was constructed as a Ganti-Asyn base-pair, which protects G24(N-1) and A59(N-7). Owing to the low reactivity of A25(N-l), the residue was stacked on G24. Also, the protection of A25.1(N-7) is explained by stacking of A25.1 on G53 mainly over the Watson-Crick sites, since G53(N-1) is unreactive under native conditions (Fig. 4(a)). Another possibility would be to stack G53 between U52 and G54. However, in that case it is difficult to explain the non-reactivity of A25.1(N-7). In X. Eaevis somatic 5 S rRNA, a Watson-Crick basepair was constructed between G27 and C56. No such pairing was constructed in X. laevis oocyte 5 S rRNA because of the reactivity of all the bases in loop b (Fig. 4(b)). The protections of A58(N-1) and are G59(N-7) in somatic X. laevis 5 S rRNA explained by stacking of A58 on G59 (see Fig. 4(c)).
+(fl Loop c
+
+anticodon-like conformation (Fig. 5(b)). Position G39(N-1) is protected by a H-bond with one anionic oxygen atom from the phosphate of U43. Despite the different conformations of loop c, the "anticodon-triplet" residues of both types of 5 S rRNAs point in the same direction, i.e. in the direction of the major groove of helix G. The conformations of such long hairpin loops are certainly quite flexible. Hence, the loop could easily change its conformation in order to present those sequences for interactions with other macromolecules. (g) Helix D and loop d
+
+Loop e possesses 12 residues with several invariant positions. In chloroplast 5 S rRNA, there is one pyrimidine missing between 35 and 39, while there is one missing between residues 40 and 44 in oocyte and somatic X. laevis 5 S rRNAs. This is similar to the situation in the D-loop of tRNAs, with the alpha and beta regions before and after the invariant G18 and G19 residues. In contrast to loop b, residues in loop c are less accessible in X. laevis 5 S rRNAs (with C36 to G39, G44 and C47 unreactive at Watson-Crick positions, and A45 at N-7) than in chloroplast 5 S rRNA (where only U35(N-3) and G44(N-1) are protected under native conditions). Thus, in chloroplast 5 S rRNA, a U35-G44 base-pair was constructed with the highly accessible residue A45 to C47 bulging out in an orientation roughly parallel to the helical axis of helix C. After the U35-G44 base-pair, there are seven residues left, the same number as in the anticodon loop of tRNA. The conformation of those seven residues was modeled along the same principles as the anticodon loop, with the "U33 turn" made at C38 and residues A39, U40 and C41 playing the role of the anticodon triplet, the loop being closed in helical continuity by residues C42 to G44. There is a possible H-bond between C38(0-2) and C43(N-4) (Fig. 5(a)). In X. Zaevis, the two pyrimidine residues on each side of loop c are inside the loop with stacking of C36 and C47 to explain the protection of their N-3 atoms, but without H-bonds. Afterwards, there are two base-pairs: U37-A45 in reverse Hoogsteen and C38 * G44 in Watson-Crick arrangement. The possibility of basepairing between those residues (C38 and G44 are invariant, position 37 is always a pyrimidine, and position 45 either A or C) was noticed by Andersen et al. (1984). The loop is closed by turning between G39 and U40, with U40 to U43 being in an
+
+Loop d is often depicted between helices D and E. However, it has been suggested that this loop contains unusual base-pairing, especially A-G pairs, thus extending helix D (e.g. Stahl et al., 1981; Andersen et al., 1984). In chloroplast 5 S rRNA, and unwound loop d presents an extended conformation based on several A-A and A-G basepairs. This particular structure has been described in detail by Romby et al. (1988). Only loop d of X. laevis 5 S rRNAs will be described in this paper. X. Zaevis 5 S rRNAs displays a situation similar to that observed in chloroplastic 5 S rRNA, albeit over fewer nucleotides (with U74.1-U101, A75-AlOO, G76-A99, and U77-G98 base-pairs). In addition to the presence of the short loop d, helix D is seven base-pairs long in X. Zaevis 5 S rRNAs, while it is only three base-pairs long in chloroplast 5 S rRNA. These two differences account for the globally different aspect of stem 3 in the two 5 S rRNA models. With U-U pairs, there are two possibilities that are very difficult to decide upon. Here, we chose the following; U74.1(0-4). .UlOl(N-3) and U74.1(N-3). . .UlOl(O-2). This U-U pair is followed by a A-A pair connected via N-6.. N-7 H-bonds, as observed between A9 and A23 in tRNAs. A GantiAsyn base-pair follows for G76-A99. These two base-pairs require the two adenines to adopt the syn orientation around the glycosyl bond. The last base-pair of loop d is U77-G98, followed by A78, which is not base-paired but is inside the helix, forming a slight wedge (Fig. 6). Several phosphate groups are found to be protected in region d, which can be explained by the assumption of a magnesium-binding site. Indeed, it was shown that the presence of magnesium is required to stabilize the particular conformation of loop d in chloroplast 5 S rRNA (Romby et al., 1988). This conformation appears to be an intrinsic feature of region d since truncated mutants of X. laevis oocyte 5 S rRNA (containing helices D, E, loop c and region d) adopt the same structure as the corresponding region in the entire molecule (unpublished results). Again, this result confirms the absence of tertiary interaction between loop c and region d or loop e.
+(h)
+
+Helix
+
+E and loop e
+
+Helix E is always eight base-pairs long, with A84 bulging out in X. Zaevis 5 S rRNAs, instead of U84.1
+
+Three-dimensional
+
+Structure Model of 5 S rRNA
+
+427
+
+( b) Figure 5. Tertiary
+rRPu'A, residues
+
+folding in stereo of loop c. (a) Spinach chloroplast 5 S rRi%A, residues A33 to U49; (b) X. Zaevis 5 S
+as for Fig. 4.
+
+G33 to C49. Details
+
+as would be expected on the basis of the universal secondary structure. The accessibilities of both A84(N-1) and A84(N-7) lead to A84 being in a bulged position. The U84.1(N-3) is also accessible, but this situation is often observed at the beginning of a new helical region. However, one cannot exclude a dynamic equilibrium between the two forms, with either A84 or U84.1 bulging out. It was suggested that bulged residues display dynamic properties allowing such equilibria (De Wachter et
+
+al., 1984). In eukaryotic 5 S rRNAs, G87, G89 and A89.1 are invariant, while some of those positions as well as the number of residues of loop e are variable in prokaryotic 5 S rRNAs. Two different models were built for the chloroplast and the X. laevis 5 S rRNAs, as dictated by the different solution data. In chloroplast 5 S rRNA, the four bases are reactive at all sites, while in X. laevis only the adenine residues are reactive, with the guanines unreactive in both cases at Watson-Crick and at
+
+428
+
+E. Westhof et al.
+
+Figure 6. Tertiary model in stereo for the internal loop d (nucleotides U74 to C79/G97 to A102) of X. Zaevis 5 S rRPJA as viewed from the major groove side. Base-pair U74-A102 is at the top of the drawing. The phosphate backbone is shown by heavy lines and the H-bonds by broken lines.
+
+N-7 positions.
+
+In chloroplast
+
+5 S rRNA,
+
+the loop is
+
+divided into two regions, with G87 to A88 on one side of the loop and G89 to G89.1 on the other side (G89.1 is in the syn orientation) (Fig. 7(a)). Also, phosphate 89.1 interacts with O-2' of the ribosyl moiety of residue 88, thus explaining the low reactivity of this phosphate towards ethylnitrosourea. In X. laevis 5 S rRNAs, G87 and A89.1 interact via H-bonds G87(N-2). . . A89.1(N-7) and G87(N-3). . . A89.1(N-6)) with the turn made at the phosphate of A88 (Fig. 7(b)).
+
+4. Conclusion
+This
+model
+
+work
+of two
+
+presents
+different
+
+from eubacteria and somatic 5S eukaryotic (X. laevis oocyte rRNAs). The value of the models lies in the fusion of a variety of data from different sources (chemical probing, protein binding, truncated mutant RNAs, phylogenetic comparison, the known tRNA crystallographic structures) into a structure that makes sense in terms of design and stability. The validity of our procedure is also supported by the fact that in tRNA a good correlation exists between the structure probing experiments in solution and the crystallographic structures (e.g. Peattie & Gilbert, 1980; Holbrook & Kim, 1983; Romby et al., 1985, 1987a). Three-dimensional models of RNA structure based on probing experiments have also been built for the D-loop-deprived mitochondrial tRNAS" (De Bruijn & Klug, 1983), for the tRNAlike of turnip yellow mosaic virus (Dumas et al.,
+
+the first detailed atomic 5 S rRNA structures, one (chloroplast 5 S rRNA) and one
+
+1987), for tRNA T-loops with different lengths (Romby et al., 19876) and for the 16 S rRNA binding site of protein 58 (Mougel et al., 1987). The structure of X. Zaewis5 S rRNA from oocyte and that from somatic ribosomes are very similar. The only difference is observed in loop 6, which is due to several base substitutions in this region. Furthermore, the structure probing experiments reveal that helices C and E in the somatic 5 S rRNA are less stable than those in oocyte 5 S rRNA (Romaniuk et al., 1988). Several differences exist between chloroplast 5 S rRNA and X. Zaevis 5 S rRNA; they occur mainly in region d and loop c. However, the two models adopt a Y-shape structure with helices B and D not far from coaxiality. Several tentative tertiary interactions have been proposed, especially for E. coli 5 S rRNA, which would bring loop c and region d in close proximity (e.g. Biihm et al., 1981; Pieler & 1982; Hancock & Wagner, 1982; Erdmann,
+Goringer & Wagner, 1986). In rat liver 5 S rRNA,
+
+which displays strong sequence similarities with X. laevis 5 S rRNA, an interaction between loop e (GAGA89.1) and loop c (UCUC38) was suggested (Toots et al., 1982), whereas a tertiary interaction between loop c (CCG44) and helix E (GGU71) was postulated in spinach chloroplast 5 S rRNA (Pieler et al., 1983). Note that potential tertiary interactions have been proposed between part of loop c and nucleotides in the 5' strand of helix E, on the basis of comparison of 44 different 5 S rRNA sequences (Trifonov & Bolshoi, 1983). The
+Y-shaped model, which does not accommodate such tertiary interactions, is supported by the accessibility of the 5 8 rRNA towards structure-specific
+
+Three-dimensional
+
+Structure
+
+Model of 5 S rRNA
+
+429
+
+(a)
+
+(b) Figure 7. Tertiary
+5 S rR?iA. nucleotides
+
+folding in stereo of loop e. The base-pairs of helix E are at the top of the drawing. (a) Chloroplast G85 to C91: (b) X. Zaevis 5 S rRNA, nucleotides G83 to C93. Details as for Fig. 4.
+
+probes and by several other observations: (1) a truncated X. laevis 5 S rRNA (containing helices I), E, region d and loop e) adopts the same structure as in the entire molecule (unpublished results). (2) The coaxiality between helices B and D has already been suggested for X. laevis 5 S rRNA to explain the binding site of the factor TFIIIA (Christiansen et al., 1987). (3) The Y-shape structure was also proposed for E. coli 5 S rRNA (osterberg et al., 1976; Fox & Wong, 1979). (4) The chloroplast 5S rRNA-binding sites of two ribosomal proteins are well explained by the model (unpublished results). The E. coli ribosomal protein binding sites for L18 and L25 also agree with the Y-shape structure. Indeed, L18 was essentially found centered on helix B and loop b (Garrett et al., 1984; Christiansen et al., 1985), while L25 recognized a fragment containing helices D and E and loops d and e (Kime & Moore,
+
+1983). One important question should be addressed regarding the conformation of 5 S rRNA within the ribosome. In the body of the large subunit, 5S rRNA might adopt some conformation(s) that substantially differ(s) from that observed on the naked RNA in solution. In fact, only limited information is available on the structure of 5 S rRNA within the ribosome. It appears that 5 S rRNA is tightly embedded in the subunit structure, leaving only a few accessible sites. It should be stressed that, in E. co& G41 is still reactive to kethoxal (Herr & Noller, 1974), and that AACllO and G41 have an increased tritium exchange rate in the ribosome than when free in solution (Farber & Cantor, 1981). In our models, several non-canonical base-pairs are present, especially in the internal loops. It appears that these particular base-pairs are widely
+
+E. Westhof et al.
+Christiansen, J.. Douthwaite, S. R., Christensen, A. & Garrett, R. A. (1985). EMBO J. 4, 10191024. Christiansen, ,J., Brown, R. S., Sproat, B. S. & Garrett, R. A. (1987). EMBOJ. 6, 453469. De Bruijn, M. H. & Klug, A. (1983). EMBO J. 2, 1309 1321. Delihas, N., Andersen, J. & Singhal, R. P. (1984). f'rogr. Nucl. Acids Res. 31, 161-190. De Wachter, R., Chen, M. W. & Vandenberghe. A. (1984). Eur. J. Biochem. 143, 175-182. Dumas, P., Moras, D., Florentz, C., Giege, It., Verlaan. P., Van Belkum, A. & Pleij. C. W. A. (1987). J. Biomol. Struct. Dynam. 4. 7077728. Ehresmann, C., Baudin, F., Mougel, M., Romby, P., Ebel, J. P. & Ehresmann, B. (1987). Nucl. Acids Res. 15, 9109-9128. Fabian. H., Bohm, S., Misselwitz. R., Welfe, H.. Holzer. W.. Cassius. W. & Filimonov. V. V. (1987). Znt. J. Hiol. Macromol. 9, 349-356. Farber, N. M. & Cantor, C. R. (1981). J. Mol. Biol. 146. 241-257. Fox. G. E. & Woese, C. R. (1975). Nature (London), 256. 505-506. Fox. .J. W. & Wong, K. I'. (1979). J. Biol. (`hem. 254. 10139-10144. Garrett. R. A., Vesser. B., Leffers, H., Sorensen, P. M.. Kjems, J., Olesen, SO., Christensen, A., Christiansen. ,I. & Douthwaite, S. (1984). In Gene Expression (Clark. B. F. C. & Petersen. H. U., eds), pp. 331-352, Munksgaard, Copenhagen. Goringer, H. U. & Wagner. R. (1986). Nucl Acids Res. 14, 7473-7485. Hancock. ,J. & Wagner, R. (1982). Nucl. Acids Res. 10, 1257-1269. Herr, W. & Noller, H. F. (1979). ,I. Mol. Biol. 130, 421 432. S. R. & Kim, S. H. (1983). Riopolymers, 22, Holbrook, 114551166. Jones. T. A. (1978). J. Appl. Crystallogr. 11, 268-278. S. (1986). EMBO J. 5, 819-822. ,Jones. T. A. & Thirup, Joshua-Tor. I,., Rabinovich, D., Hope, H., Frolow, F., Appella, E. & Sussman. J. L. (1988). Nature 334, 82-84. (London), Kao, T. M. & Crothers, D. M. (1980). Proc. Nat. Acad. K-i., U.S.A. 77, 33693364. Kearns, 1). R. & Wong, Y. P. (1974). J. Mol. Biol. 87, 755-774. Kim. S. H. (1979). In Transfer RNA: Structure, Properties B Recognition (Schimmel, I'., S611, D., & Abelson, J., rds), Cold Spring Harbor Monograph series 9A, pp. 833100. Cold Spring Harbor Laboratory Press, Cold Spring Harbor, NY. Kime, M. J. & Moore, P. B. (1982). Nucl. Acids Res. 10. 4973-4983. Kime, M. J. & Moore, P. B. (1983). Biochemistry, 22, 2622.-2629. Konnert, J. H. & Hendrickson, W. B. (1980). Acta Crystallogr. sect. A, 36, 3444349. Lavery. R. & Pullman, A. (1984). Biophys. Chem. 19. 171-181. Levitt, M. (1969). Nature (London), 224, 7599763. McDougall, J. & Nazar. R. N. (1986). Nucl. Acids Res. 15. 161-179. Miller, M.. Harrison, R. W.: Wlodawer. A., Appella, E. & Sussman, J. L. (1988). ,Vaturr (London), 334, 85-86. Morikawa, K.. Kawakami, M. & Takemura, S. (1982). FEBS Letters, 145, 194-196. Morikawa. K.. Fujiyoshi, Y., Ishizuka, K., Sugimaya, J.. Kawakami. M. & Takemura, S. (1986). ,I. Microsc. 142, 247~ 258.
+
+distributed in RNA molecules. They generally introduce kinks or irregularities. Hence, they influence the geometry of the RNA molecules and should provide specific signals for protein recognition. In tRNA molecules, invariant residues that are found in loops and single-stranded regions are all important for maintaining the tertiary structure, except for the 3'-terminal CCA. In 5 S rRNA molecules, invariant residues are also clustered in hairpin or internal loops (see Fig. 1). However, although unusual tertiary pairings occur in loops c and d, they are not crucial to the integrity of the tertiary folding as O-Al4 or R&Y48 are in tRNAs. Interestingly, several of these invariant residues (especially in internal loop regions) are implicated in protein binding (e.g. Pieler & Erdmann, 1983; Christiansen et al., 1987). Though these models represent only a first step in determining the exact three-dimensional structure, they can provide useful information for the design of new experiments in order to improve the models themselves. For instance, the selection of positions for site-directed mutagenesis can be done in a more sophisticated manner. Thus, one can imagine a procedure which essentially cycles from the model to new experiments and back to the model again. This approach should be especially beneficial for testing and refining the present conformations of loops a, c and e and helix C for which assumptions were made during the construction.
+We thank J.-L. Prato (Strasbourg) for developing VAX allowing analysis and comparisons of the programs. compiled 5 S rRNA sequences. We are grateful to Drs J. Wolters and V. A. Erdmann (Berlin) for sending a diskette of the BERLIN RNA DATA BANK to J-L. Prato. We thank Professor P. Sigler and G. Sechler (Chicago) for a version of PLUTO adapted to the GPX F. Baudin thank Microvax-II workstation. We (Strasbourg), I. Lea1 de Stevenson (Victoria), R. Mache (Grenoble), H. Moine and M. Mougel (Strasbourg) for helpful discussions. The graphic modeling was done on an Evans & Sutherland PS330 of the Laboratoire de Cristallographie Biologique (Strasbourg). We thank Dr D. Moras for making it available and for his constant interest. This work was supported by the Centre National de la Recherche Scientifique (CNRS) and by a NATO International Collaborative Research grant (to B.E. and P.J.R.).
+
+References
+Abdel-Meguid, S. S., Moore, P. B. & Steitz, T. A. (1983). d. Mol. Biol. 171, 207-215. Andersen, J., Delihas, N., Hanas. J. S.. & Wu. C. W. (1984). Biochemistry, 23, 575225759. Arnott. S., Hukins, D. W. L., Dover, S. D., Fuller, W. & Hodgson, A. R. (1973). J. Mol. Biol. 81, 107-116. Biihm, S., Fabian, H., Venyaninov, S. Y.. Matveer, S. V., Lucius, H., Welfe, H. 8: Filimonov. V. V. (1981). FEBS Letters, 132, 3577361. R. S. (1985). European Molecular Biology Brown. Laboratory Research Reports. pp. 74-75, EMBL, Heidelberg. Brown. R. S.. Ferguson, C.. Kingswell, A., Winkler, F. K. 8r Leonard. K. R. (1988). Proc. Nat. Acad. Sci.. 1'S.A. 85. 3802-3804.
+
+Three-dimensional
+
+Structure
+
+Model of 5 S rRNA
+
+431
+
+Mougel, M., Eyermann, F., Westhof, E., Romby, P., Expert-Bezanqon, A., Ebel, J. P., Ehresmann, B. C Ehresmann, C. (1987). J. I%l. Biol. 198, 91-107. Miiller, J. J., Zalkova, T. pu'., Zirwer, D., Misselwitz, R., Gast, K., Serdyuk, I. N., Welfe, H. & Damaschun. G. (1986). Eur. Biophys. J. 13, 301-307. Noller, H. F. & Garrett, R. A. (1979). J. Mol. Biol. 132, 621-636. Cisterberg, R., Sjoberg, B. & Garrett, R. A. (1976). Eur. J. Biochem. 68, 481487. Peattie, D. A. & Gilbert, W. (1980). Proc. Nut. Acad. Sci., U.S.A. 77, 4079-4682. Peattie, D. A., Douthwaite, S., Garrett, R. A. & Noller, H. F. (1981). Proc. Nat. Acud Sci., U.S.A. 77, 467% 4682. Pieler, T. & Erdmann, V. A. (1982). Proc. Nut. Acad. Sci., U.S. A 79, 4599-4603. Pieler, T. & Erdmann, V. A. (1983). FEBS Letters, 157, 283-287. Pieler. T.? Digweed, M., Bartsch, M. & Erdmann, V. A. (1983). Nucl. Acids Res. 11, 59144. Quigley, G. J. & Rich, A. (1976). Science, 194, 796801. Rabin, D., Kao, T. H. & Crothers, D. M. (1983). J. Biol. Chem. 258, 10813~10816. Richmond. T. .J. (1984). J. Mol. Biol. 178, 63-89. Romaniuk, P. J., Lea1 de Stevenson, I., Ehresmann, C., Romby. P. & Ehresmann, B. (1988). Nucl. Acids Res. 16. 22952312. Romby, P., Moras, I)., Bergdoll, M., Dumas, P., Vlassov, V. V.. Westhof, E., Ebel, J. P. & Giege, R. (1985). J. Mol. Biol. 184, 4555471. Romby. P.. Moras, D., Dumas. P., Ebel, J. P. & Giege, R. (1987a). J. Mol. Biol. 195. 193-204. Edited
+
+Romby, P., Carbon, P., Westhof, E., Ehresmann, C., Ebel, J. P., Ehresmann, B. & Giege, R. (1987b). J. Biomol. Struck Dynam, 5, 669487. Romby, P., Westhof, E., Toukifimpa, R., Mache. R., Ebel, J. P., Ehresmann, C. & Ehresmann, B. (1988). Biochemistry, 27, 47124730. Stahl, D. A., Luehrsen, K. R., Woese, C. R. C Pace, K. R. (1981). Nucl. Acids Res. 9, 6129-6135. Sundaralingam, M. (1969). Biopolymers, 7, 821-860. Sundaralingam, M. (1979). In Transfer RNA: Structure, Properties & Recognition (Schimmel, P., &ill, D. & Abelson, J., eds), Cold Spring Harbor Monograph series 9A, pp. 115124. Cold Spring Harbor Laboratory Press, Cold Spring Harbor, KY. Toots, I., Misselwitz, R., Bijhm, S.. Welfe, H.. Villems, R. & Saarma, M. (1982). Nucl. Acids Res. 10. 33813389. Trifonov, E. N. & Bolshoi, G. (1983). J. Mol. Biol. 169, l&13. Turner, D. H., Sugimoto, K., Jaeger. J. A., Longfellow, C. E., Freier, S. M. & Kierzek, R. (1987). (`old Spring Harb. Symp. Quant. Biol. 52, 1233133. Van der Hoogen, Y.T. (1988). Ph.D. thesis, Leiden University. Weiner, P. K. & Kollman, P. A. (1981). J. Comput. Chem. 2, 287-293. Westhof, E., Dumas, P. & Moras, D. (1983). J. Biomol. Struck Dynam. 1, 337-355. Westhof, E., Dumas, P. & Moras, D. (1985). J. Mol. Riol. 184, 119-145. Wolters, J. & Erdmann, V. A. (1988). LVucl. Acids Res. 16 (suppl.), rllr70.
+
+by P. Chambon
+
+

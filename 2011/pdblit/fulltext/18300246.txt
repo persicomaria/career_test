@@ -1,0 +1,113 @@
+proteins
+STRUCTURE O FUNCTION O BIOINFORMATICS
+
+STRUCTURE NOTE
+
+Crystal structure of STS042, a stand-alone RAM module protein, from hyperthermophilic archaeon Sulfolobus tokodaii strain7
+Ken-ichi Miyazono,1 Masanari Tsujimura,2 Yutaka Kawarabayasi,2 and Masaru Tanokura1*
+1 Department of Applied Biological Chemistry, Graduate School of Agricultural and Life Sciences, The University of Tokyo, 1-1-1 Yayoi, Bunkyo-ku, Tokyo 113-8657, Japan 2 Research Institute for Cell Engineering, National Institute of Advanced Industrial Science and Technology (AIST), 1-1-1 Higashi, Tsukuba, Ibaraki 305-8566, Japan
+
+Key words: SARD; Lrp/AsnC family; archaea; crystal structure determination; transcriptional regulator.
+
+INTRODUCTION The leucine-responsive regulatory protein (Lrp) was identified as a regulatory protein that affects the expression of many genes and operons. This protein belongs to the Lrp/ AsnC family of transcriptional regulators. Members of this family are often involved in cellular metabolism in response to amino acid effectors. Search results among the DNA database indicate that the gene encoding Lrp/AsnC family proteins is widely distributed among many bacteria and most archaea, but not identified in eukarya.1 The recent microarray data showed that transcription levels of at least 10% of all Escherichia coli genes are affected by Lrp, depending on the amount of leucine.2 The Lrp/AsnC family proteins with an approximate molecular mass of 15 kDa consist of three domains, the N-terminal DNA-binding domain, the C-terminal amino acid effector binding [regulation of amino-acid metabolism (RAM)] domain, which is essential for multimerization, and a flexible hinge region connecting the two domains. Analyses of the oligomeric state of the E. coli Lrp protein by dynamic light scattering, chemical cross-linking, and analytical ultracentrifugation have indicated that the protein converts their oligomeric structures among dimeric, tetrameric, octameric, and hexadecameric forms.3,4 However, the three-dimensional structures of various Lrp/AsnC family proteins such as LrpA from Pyrococcus furiosus, AsnC, and Lrp from E. coli, and LrpC from Bacillus subtilis have been determined only as an octameric form.5­7 Interestingly, proteins that possess on the RAM domain are frequently observed in the genome of many organisms. These are classified as stand-alone RAM-
+
+domain (SARD) proteins.8,9 The functions of these proteins remain unclear, though some of these are crystallized and structure determined.10­12 The structure of TTHA0845 from Thermus thermophilus, which is one of the SARD proteins, was determined in a unique homodecameric form.10 In one of the SARD proteins, DM1, self-association to a hexadecamer and octamer is promoted by the addition of hydrophobic amino acids.13 The four genes encoding Lrp homologous protein, ST1022, ST1115, ST0489, and ST1473, and one gene encoding SARD protein, STS042, were identified from the entire genomic data of the hyperthermophilic archaeon Sulfolobus tokodaii strain7. Because the structure of the SARD protein from crenarchaeota remains unclear, the structure of STS042 was determined to elucidate the function of SARD. Using the expressed and purified protein, we determined the crystal structure of ° STS042 at 1.9 A resolution by the multiwavelength anomalous dispersion (MAD) phasing method. The structure has revealed that this protein forms a
+Abbreviations: MAD, multiwavelength anomalous dispersion; RAM, regulation of amino-acid metabolism; SADR, stand-alone RAM-domain. Grant sponsor: Ministry of Education, Culture, Sports, Science, and Technology, Japan. *Correspondence to: Dr. Masaru Tanokura, Department of Applied Biological Chemistry, Graduate School of Agricultural and Life Sciences, The University of Tokyo, 1-1-1 Yayoi, Bunkyo-ku, Tokyo 113-8657, Japan. E-mail: amtanok@mail.ecc.u-tokyo.ac.jp Received 22 October 2007; Revised 18 December 2007; Accepted 28 December 2007 Published online 25 February 2008 in Wiley InterScience (www.interscience.wiley. com). DOI: 10.1002/prot.21987
+
+C V 2008 WILEY-LISS, INC.
+
+PROTEINS
+
+1557
+
+K. Miyazono et al.
+
+homooctamer and binds isoleucine molecules between the subunits. STS042 would act as a sensor protein for isoleucine concentration.
+
+MATERIALS AND METHODS
+Cloning, expression, and purification of STS042
+
+scaled with HKL2000.14 The space groups of crystals obtained under the former and latter crystallization conditions were determined to be P21 and P2, respectively. The numbers of unique reflections of both crystals appear inconsistent due to the difference of the cell parameters of both crystals. Because the quality of the low resolution data of P21 crystal is better than that of P2 crystal, we used lower resolution data of P21 crystal for MAD phasing. Data-collection statistics are listed in Table I.
+Structure determination
+
+The STS042 gene was amplified from S. tokodaii genomic DNA by PCR. The primers used for this amplification were designed according to the start-and-stop codon regions of the STS042 gene and Nde I and Xho I sites were added at the 50 end of primers containing start-and-stop codons, respectively. After digestion with Nde I and Xho I, the amplified fragment was cloned into pET21(1) vector, the T7 polymerase-based expression vector of E. coli. The plasmid was transformed into E. coli Rosetta(DE3) for protein expression. The selenomethionine derivative of STS042 was overexpressed using the methionine biosynthesis inhibition method. The E. coli transformants were cultivated at 378C in LB medium until the optical density at 600 nm reached 0.6. Protein expression was induced by the addition of IPTG to a final concentration of 1 mM, and the cultivation at 378C was continued for 16 h. E. coli cells were collected by centrifugation at 5000g for 10 min. The cells harvested and resuspended in 50 mM Tris-HCl (pH 8.0) were lysed by sonication. After centrifugation at 40,000g for 30 min, the supernatant was treated at 808C for 30 min. The supernatant of the centrifugation at 40,000g for 20 min was loaded on a Resource Q 6 mL column for anion exchange chromatography. The proteins were eluted with a 120-mL linear gradient of 0 to 1M NaCl in a 50 mM Tris-HCl (pH 8.0) buffer solution. Purified protein was dialyzed against 10 mM Tris-HCl (pH 8.0) and concentrated to 9 mg/mL for crystallization.
+Crystallization and data collection
+
+The crystal structure of STS042 was determined by the MAD method. The coordinates of Se atoms and the initial phase were calculated with SOLVE15 using the three diffraction data sets of P21 crystal with a resolution range ° of 25.0 to 1.9 A. Density modification and initial model building of STS042 was performed with RESOLVE,16 and the initial model was refined and manually rebuilt using Refmac517 and XtalView.18 Though the quality of the diffraction data of P2 crystal and P21 crystal is apparently identical, R/Rfree values of the structure model calculated with the data of P21 crystal converged to the higher values (R/Rfree 5 0.26/0.33, data not shown) than those calculated with the data of P2 crystal. So we used the diffraction data of P2 crystal for constructing the final model. The initial model of STS042 in P2 crystal was determined using the program MOLREP19 of the CCP4 suites20 and the coordinates of the partially built structure of STS042 in P21 crystal. The final model of STS042 was refined and built using Refmac5 and XtalView. The quality of the model was evaluated with PROCHECK.21 The coordinates of STS042 have been deposited into the Protein Data Bank with the accession number 2ZBC. A summary of the refinement statistics is provided in Table I. RESULTS AND DISCUSSION
+
+Crystallization experiments of STS042 were performed using the sitting-drop vapor-diffusion method. Crystallization drops were made by mixing 1 lL of the protein solution [9 mg/mL in 10 mM Tris-HCl (pH 8.0)] with 1 lL of a variety of reservoir solutions. Crystals of STS042 were obtained in a reservoir solution containing 100 mM Tris-HCl (pH 7.2) and 30% polyethylene glycol 2000 monomethyl ether, or 50 mM MES (pH 6.4), 14% polyethylene glycol 3350 and 0.2M lithium sulfate. Crystals of STS042 obtained under the former conditions were further improved by the addition of 0.2 lL of 40% 1,3-butanediol into crystallization drops. X-ray diffraction data sets were collected at the BL-5A beamline at the Photon Factory (Tsukuba, Japan). All measurements were carried out under cryogenic conditions (95 K). The X-ray diffraction data were integrated and
+
+Overall structure of STS042
+
+The crystal structure of STS042 was determined at ° 1.9 A resolution by the MAD method with good stereochemistry. In the final model, STS042 contained eight protomers of STS042 (5016 atoms), eight isoleucine molecules (72 atoms), and 406 ordered water molecules in the asymmetric unit with 17.0% Rfactor and 21.9% Rfree values. In the Ramachandran plot,22 93.8% of the residues were included in the most favored regions, and the rest of the residues were in additionally allowed regions. The protomer structure of STS042 displays an a/bsandwich fold with a babbab secondary structure composition [Fig. 1(a)]. The 4-stranded anti-parallel b sheets face one side of the 2 a helices. STS042 forms a homooctamer in the crystal. In the P2 crystal of STS042, subunits A­D and subunits E­H form two homooctamers sym-
+
+1558
+
+PROTEINS
+
+Structure of a SARD Protein from S. tokodaii
+
+Table I
+Summary of Data Collection, Phasing, and Refinement Statistics
+
+P 21 crystal P 2 crystal Wave length () Unit cell a, b, c () b (8) Resolution () Completeness Unique reflection Averaged redundancy Rmerge (%) I/rI Number of heavy atom sites Found by SOLVE FOM (before RESOLVE) FOM (after RESOLVE) Number of non-hydrogen atoms Protein Bound isoleucine Water R/Rfree (%) RMSD bond length () RMSD bond angle (8) Ramachandran plot In most favored regions (%) In additional allowed regions (%) In generously allowed regions (%) In disallowed regions (%) 1.0000 61.37, 61.79, 90.48 94.47 20.0­1.9 98.6 (96.6) 52,841 3.3 (3.0) 10.4 (24.4) 9.3 (4.90) Peak 0.9792 Edge 0.9793 47.38, 104.77, 61.53 99.59 25.0­1.9 98.0 (84.1) 45,717 3.6 (2.9) 8.9 (26.1) 13.2 (2.83) 21 0.45 (0.21) 0.64 (0.31) 5016 72 406 17.0/21.9 0.027 2.081 93.8 6.2 0 0 Remote 0.9641
+
+25.0­1.9 98.8 (89.9) 45,907 3.7 (2.9) 10.0 (26.0) 13.5 (3.05)
+
+25.0­1.9 97.2 (77.7) 45,514 3.6 (2.8) 8.6 (27.8) 12.8 (2.52)
+
+Values in parentheses are for the highest resolution shell.
+
+metrically related to the other subunits (the components of two homooctamers are AA0 BB0 CC0 DD0 and EE0 FF0 GG0 HH0 , respectively) [Fig. 1(b­d)]. These two homooctamers are essentially identical. The homooctamer structure of STS042 is formed by tetramerization of STS042 dimers. STS042 dimer structure is fixed by some number of hydrophobic interactions between the b sheets of interfaced subunits and swapping interactions of b5 (residues 67­73), which forms an antiparallel b-sheet structure with b20 of the interfaced subunit. The buried sur° face area of the AC0 dimer is 2591.67 A2 (24.2% of total surface). Tetramerization of STS042 dimers is mediated by some intermolecular ion pair formations and hydrophobic interactions. At the interface between subunits A and C, which is formed by tetramerization of the ° STS042 dimer, a 3.01 A ion pair between Arg61 of sub° unit C and Glu15 of subunit A and a 3.19 A ion pair between Arg61 of subunit C and Asp 39 of subunit A are observed. The side chain of Tyr35 of subunit A interacts hydrophobically with the hydrophobic surface of subunit C, which consisted of Leu52, Val56, Thr71, and Ile73. The buried surface area between subunits A ° and C is 1062.23 A2 (9.9% of total surface). The buried surface area of the tetramerization interface is relatively smaller than that of the dimerization interface. Isoleucine molecules were detected in the interface region of
+
+each tetramerization surface, though independent of the addition of isoleucine molecules in the crystallization solution of STS042.
+Binding of isoleucine
+
+In the crystal structure of STS042, eight isoleucine molecules were detected in the tetramerization interfaces. Isoleucine present at the tetramerization interface indicates tight interactions, with the carboxyl group of the isoleucine between subunits A and C forming hydrogen bonds with Gly36 of subunit A and with Thr69 and Thr71 of subunit C, and the amino group of the isoleucine forming hydrogen bonds with Val34 and Tyr38 of subunit A, as shown in Fig. 2. Interestingly, the atoms involved in main-chain recognition of the isoleucine belong to backbone amides or carbonyls of STS042. The side chain of the isoleucine is stabilized through hydrophobic interactions with Glu15 and Asp39 of subunit A, and with Lys53 and Arg61 of subunit C. Isoleucine molecules at the tetramerization interface would promote octamerization of STS042 through the stabilization of tetramerization interfaces. As shown in Fig. 3, the residues involved in the recognition of backbone atoms of bound isoleucine are highly conserved among its homologues, but residues involved
+PROTEINS
+
+1559
+
+K. Miyazono et al.
+
+Figure 1
+Structure of STS042. (a) Ribbon diagram of the monomer structure of STS042. Color-coding runs from blue in the N-terminal region to red in the C-terminal region. Secondary structure assignments are labeled on the ribbon model. (b) The dimer structure of STS042. The subunits are colored red and blue, respectively. (c) Top view of the octamer structure of STS042. Isoleucine molecules are presented by a sphere model. Subunits A (A0 ), B (B0 ), C (C0 ), and D (D0 ) of the STS042 octamer are colored red, green, blue, and pink, respectively. ^ indicates the four-fold axis of the STS042 dimer. (d) Side-view of the octamer structure of STS042.
+
+in side-chain recognition are poorly conserved. The 39th residue is conserved among these three proteins, but the 15th and 61st residues are conserved only among STS042 and DM1,11,13 and the 53rd residue is only shared between the STS042 and TTHA084510 proteins. This observation suggests that DM1 and TTHA0845 protein may bind and be controlled by different types of amino acids.
+
+Comparison with RAM domains of Lrp/AsnC family proteins
+
+The binding of the Lrp/AsnC family proteins to DNA molecule is regulated by conformational change accord-
+
+ing to the binding of amino acids corresponding to the RAM domain.6 The amino acid sequence identity between the STS042 and the RAM domain of P. furiosus LrpA5 is 26%. Despite this low sequence identity, comparison of their overall structures indicates high similarity. The root mean square deviation value calculated for ° the Ca atoms was 1.6 A (superposition of 77 atoms of STS042 with P. foriosus LrpA). In addition, the isoleucine binding site of STS042 was consistent with the amino acid binding site of Lrp/AsnC family proteins, though residues included in amino acid recognition are poorly conserved.5­7 These findings suggest that STS042 should act as a sensor molecule of isoleucine as a RAM domain of Lrp/AsnC family proteins.
+
+1560
+
+PROTEINS
+
+Structure of a SARD Protein from S. tokodaii
+
+Figure 2
+Isoleucine binding manner in the octamer structure of STS042. Residues involved in isoleucine binding are presented by a ball-and-stick model. This figure was created using the program LIGPLOT.23
+
+Figure 3
+Sequence alignment of SADR family proteins. DM1 and TTHA0845 indicate the SRAM proteins identified from Pyrococcus horikoshii OT311,13 and Thermus thermophilus HB8,10 respectively. The secondary structure assignment of STS042 is shown at the top of each alignment by helices (a- and 310-helices) and arrows (b-strands). Residues recognizing the backbone and the side-chain moiety of the binding amino acid are indicated by the symbols * and #, respectively.
+
+PROTEINS
+
+1561
+
+K. Miyazono et al.
+
+Because STS042 is homologous to the RAM domain of Lrp/AsnC family proteins, the DNA-binding domain, which is identified at the N-terminal region of Lrp/AsnC family proteins, is missing. Therefore, it is thought that STS042 would not act as a transcriptional regulator by itself. The results shown in this work indicate that STS042 would function as an isoleucine sensor molecule and collaborate with other proteins such as some unknown protein consisting only in the DNA-binding domain of the Lrp/AsnC family. ACKNOWLEDGMENTS The synchrotron-radiation experiments were performed at BL-5A in the Photon Factory, Japan (Proposal No. 2003S2-002).
+
+REFERENCES
+1. Brinkman AB, Ettema TJ, de Vos WM, van der Oost J. The Lrp family of transcriptional regulators. Mol Microbiol 2003;48:287­ 294. 2. Tani TH, Khodursky A, Blumenthal RM, Brown PO, Matthews RG. Adaptation to famine: a family of stationary-phase genes revealed by microarray analysis. Proc Natl Acad Sci USA 2002;99:13471­13476. 3. Chen S, Rosner MH, Calvo JM. Leucine-regulated self-association of leucine-responsive regulatory protein (Lrp) from Escherichia coli. J Mol Biol. 2001;312:625­635. 4. Brinkman AB, Dahlke I, Tuininga JE, Lammers T, Dumay V, de Heus E, Lebbink JH, Thomm M, de Vos WM, van Der Oost J. An Lrp-like transcriptional regulator from the archaeon Pyrococcus furiosus is negatively autoregulated. J Biol Chem 2008;275:38160­ 38169. 5. Leonard PM, Smits SH, Sedelnikova SE, Brinkman AB, de Vos WM, van der Oost J, Rice DW, Rafferty JB. Crystal structure of the Lrp-like transcriptional regulator from the archaeon Pyrococcus furiosus. EMBO J 2001;20:990­997. 6. Thaw P, Sedelnikova SE, Muranova T, Wiese S, Ayora S, Alonso JC, Brinkman AB, Akerboom J, van der Oost J, Rafferty JB. Structural insight into gene transcriptional regulation and effector binding by the Lrp/AsnC family. Nucleic Acids Res 2006;34:1439­1449. 7. de los Rios S, Perona JJ. Structure of the Escherichia coli leucineresponsive regulatory protein Lrp reveals a novel octameric assembly. J Mol Biol 2007;366:1589­1602.
+
+8. Ettema TJ, Brinkman AB, Tani TH, Rafferty JB, Van Der Oost J. A novel ligand-binding domain involved in regulation of amino acid metabolism in prokaryotes. J Biol Chem 2002;277:37464­37468. 9. Koike H, Sakuma M, Mikami A, Amano N, Suzuki M. A possible disk to cylinder transition of assemblies of feast/famine regulatory proteins, FFRPs. Proc Jpn Acad B 2003;79:63­69. 10. Nakano N, Okazaki N, Satoh S, Takio K, Kuramitsu S, Shinkai A, Yokoyama S. Structure of the stand-alone RAM-domain protein from Thermus thermophilus HB8. Acta Crystallogr Sect F Struct Biol Cryst Commun 2006;62:855­860. 11. Kudo N, Allen MD, Koike H, Katsuya Y, Suzuki M. Crystallization and secondary-structure determination of a protein of the Lrp/ AsnC family from a hyperthermophilic archaeon. Acta Crystallogr D Biol Crystallogr 2001;57:469­471. 12. Agapay RC, Savvides SN, Van Driessche G, Devreese B, Van Beeumen J, Jongejan JA, Hagen WR. Expression, purification, crystallization and preliminary crystallographic analysis of a stand-alone RAM domain with hydrolytic activity from the hyperthermophile Pyrococcus furiosus. Acta Crystallogr Sect F Struct Biol Cryst Commun 2005;61:914­916. 13. Yokoyama K, Ishijima SA, Clowney L, Koike H, Aramaki H, Tanaka C, Makino K, Suzuki M. Feast/famine regulatory proteins (FFRPs): Escherichia coli Lrp, AsnC and related archaeal transcription factors. FEMS Microbiol Rev 2006;30:89­108. 14. Otwinowski Z, Minor W. Processing of X-ray diffraction data collected in oscillation mode. Methods Enzymol 1997;276:307­326. 15. Terwilliger TC, Berendzen J. Automated MAD and MIR structure solution. Acta Crystallogr Sect D 1999;55:849­861. 16. Terwilliger TC. Maximum likelihood density modification. Acta Crystallogr Sect D 2000;56:965­972. 17. Murshudov GN, Vagin AA, Dodson EJ. Refinement of macromolecular structures by the maximum-likelihood method. Acta Crystallogr sect D 1997;53:240­255. 18. McRee DE. XtalView/Xfit--a versatile program for manipulating atomic coordinates and electron density. J Struct Biol 1999;125: 156­165. 19. Vagin A, Teplyakov A. MOLREP: an automated program for molecular replacement. J Appl Cryst 1997;30:1022­1025. 20. Collaborative Computational Project Number 4. The CCP4 suite: programs for protein crystallography. Acta Crystallogr Sect D 1994; 50:760­763. 21. Laskowski RA, MacArthur MW, Moss DS, Thornton JM. PROCHECK: a program to check the stereochemistry quality of protein structures. J Appl Crystallogr 1993;26:283­291. 22. Ramachandran GN, Sasisekharan V. Conformation of polypeptides and proteins. Adv Protein Chem 1968;23:283­438. 23. Wallace AC, Laskowski RA, Thornton JM. LIGPLOT: a program to generate schematic diagrams of protein­ligand interactions. Protein Eng 1995;8:127­134.
+
+1562
+
+PROTEINS
+
+

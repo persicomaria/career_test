@@ -1,0 +1,339 @@
+MOLECULAR AND CELLULAR BIOLOGY, May 2008, p. 3258­3272 0270-7306/08/$08.00 0 doi:10.1128/MCB.02032-07 Copyright © 2008, American Society for Microbiology. All Rights Reserved.
+
+Vol. 28, No. 10
+
+Mutation of the PDK1 PH Domain Inhibits Protein Kinase B/Akt, Leading to Small Size and Insulin Resistance 
+Jose R. Bayascas,1 Stephan Wullschleger,1 Kei Sakamoto,1 Juan M. Garci ´a-Marti ´nez,1 Carol Clacher,2 3 3 4 4 David Komander, § Daan M. F. van Aalten, Krishna M. Boini, Florian Lang, Christopher Lipina,5 Lisa Logie,5 Calum Sutherland,5 John A. Chudek,3 Janna A. van Diepen,6 Peter J. Voshol,6 John M. Lucocq,7 and Dario R. Alessi1*
+MRC Protein Phosphorylation Unit, College of Life Sciences, University of Dundee, Dow Street, Dundee DD1 5EH, Scotland1; College of Life Sciences, University of Dundee, Dow Street, Dundee DD1 5EH, Scotland2; Division of Biological Chemistry and Drug Discovery, College of Life Sciences, University of Dundee, Dow Street, Dundee DD1 5EH, Scotland3; Department of Physiology, University of Tubingen, Tubingen, Germany4; Division of Pathology and Neurosciences, University of Dundee, ¨ ¨ Ninewells Hospital, Dundee, Scotland5; Department of Endocrinology and Metabolic Diseases, Leiden University Medical Center, Leiden, The Netherlands6; and Division of Cell Biology and Immunology, College of Life Sciences, University of Dundee, Dow Street, Dundee DD1 5EH, Scotland7
+Received 12 November 2007/Returned for modification 29 January 2008/Accepted 26 February 2008
+
+Downloaded from mcb.asm.org at SAECHS-LANDESBIBLIOTHEK on April 5, 2010
+
+PDK1 activates a group of kinases, including protein kinase B (PKB)/Akt, p70 ribosomal S6 kinase (S6K), and serum and glucocorticoid-induced protein kinase (SGK), that mediate many of the effects of insulin as well as other agonists. PDK1 interacts with phosphoinositides through a pleckstrin homology (PH) domain. To study the role of this interaction, we generated knock-in mice expressing a mutant of PDK1 incapable of binding phosphoinositides. The knock-in mice are significantly small, insulin resistant, and hyperinsulinemic. Activation of PKB is markedly reduced in knock-in mice as a result of lower phosphorylation of PKB at Thr308, the residue phosphorylated by PDK1. This results in the inhibition of the downstream mTOR complex 1 and S6K1 signaling pathways. In contrast, activation of SGK1 or p90 ribosomal S6 kinase or stimulation of S6K1 induced by feeding is unaffected by the PDK1 PH domain mutation. These observations establish the importance of the PDK1-phosphoinositide interaction in enabling PKB to be efficiently activated with an animal model. Our findings reveal how reduced activation of PKB isoforms impinges on downstream signaling pathways, causing diminution of size as well as insulin resistance. The 3-phosphoinositide-dependent protein kinase 1 (PDK1) functions as an upstream activator of a group of AGC family protein kinases that are stimulated by insulin, growth factors, and numerous other agonists (42). These include isoforms of protein kinase B (PKB), also known as Akt (23), p70 ribosomal S6 kinase (S6K) (17), serum and glucocorticoid-induced protein kinase (SGK) (32), and p90 ribosomal S6 kinase (RSK) (27). Activation of PKB and other AGC kinases plays crucial roles in regulating diverse effects of extracellular agonists on cells by phosphorylating regulatory proteins that control metabolism, growth, proliferation, and survival (21). Many if not all of the cellular effects of insulin are mediated through activation of PKB (18, 58). PKB also stimulates the activation of S6K1, which plays an important role in regulating protein synthesis and cell growth (17). Genetic analysis of the PDK1signaling pathway in Drosophila melanogaster and mice also
+* Corresponding author. Mailing address: MRC Protein Phosphorylation Unit, College of Life Sciences, University of Dundee, Dow Street, Dundee DD1 5EH, Scotland. Phone: 44-1382 384 241. Fax: 44-1382 223 778. E-mail: d.r.alessi@dundee.ac.uk.  Present address: Institut de Neurociencies, Universitat Autonoma ` ` de Barcelona, Barcelona, Spain. § Present address: MRC Laboratory of Molecular Biology, Hills Road, Cambridge CB2 0QH, United Kingdom.  Supplemental material for this article may be found at http://mcb .asm.org/. Published ahead of print on 17 March 2008. 3258
+
+suggests that this pathway plays an important role in regulating organism size. For example, Drosophila organisms with reduced levels of PDK1 (51), PKB (56), or S6K (40) are all small, possessing cells with reduced volume. Similarly, mice with decreased levels of PDK1 (33) and mice lacking PKB (18) or S6K isoforms (48) also display small-organism and -cell phenotypes. PDK1 activates at least 23 AGC kinases by phosphorylating a specific Thr or Ser residue located within the T-loop of the kinase domain (42). Maximal activation also necessitates phosphorylation of a Ser/Thr residue located C-terminal to the catalytic domain within a region known as the hydrophobic motif. Recent work has established that the mammalian target of rapamycin (mTOR) complex 1 (mTORC1) and mTORC2 phosphorylate the hydrophobic motif of S6K1 and PKB (52, 61). In the case of RSK, a second kinase domain located C-terminal to the AGC catalytic domain phosphorylates the hydrophobic motif (27). The identity of the enzyme that phosphorylates the hydrophobic motif of SGK1 is unknown. Insulin and growth factors trigger the activation of AGC kinases by two mechanisms. In the case of S6K, SGK1, and RSK, agonists induce the phosphorylation of these enzymes at their hydrophobic motif by stimulating hydrophobic motif kinases. This phosphorylation does not activate these kinases but instead promotes PDK1 to interact, phosphorylate, and activate S6K, SGK1, and RSK (8, 42). In contrast, activation of
+
+VOL. 28, 2008
+
+ROLE OF THE PDK1 PH DOMAIN
+
+3259
+
+PKB by PDK1 is not dependent upon phosphorylation of the hydrophobic motif but requires prior activation of phosphoinositide 3-kinase (PI 3-kinase) and the production of the second messenger phosphatidylinositol 3,4,5-trisphosphate [PtdIns(3,4,5)P3]. This binds to the pleckstrin homology (PH) domain of PKB, inducing a conformational change that enables PDK1 to phosphorylate PKB (1, 10, 39, 54). PDK1 also contains a PH domain that binds with high affinity to PtdIns(3,4,5)P3 and PtdIns(3,4)P2 and more weakly to PtdIns(4,5)P2 (16, 31). The binding of PDK1 to phosphoinositides does not affect the catalytic activity of PDK1 but colocalizes PDK1 and PKB at the plasma membrane (10, 16). We previously studied the role of the PH domain of PDK1 in regulating PKB activation by generating a knock-in mutation in which three consecutive Arg residues (472 to 474) were mutated to Leu in order to prevent PDK1 from interacting with phosphoinositides (38). At the time, this was the only reported mutation that completely inhibited binding of PDK1 to phosphoinositides (16). In the knock-in PDK1[LLL] embryonic stem (ES) cells, PKB was poorly activated by insulin-like growth factor 1 (IGF1), indicating that binding of PDK1 to phosphoinositides was important in regulating PKB (38). However, not much could be learned about the role of the PH domain of PDK1 with an animal model, since the homozygous PDK1[LLL]-knock-in mice died at embryonic day 10.5 during development (38). Moreover, in both homozygous knock-in mouse embryos and ES cells, the PDK1[LLL] mutant was only expressed at 10 to 20% of the normal levels, which could have contributed to the effects seen on PKB activation as well as the embryonic lethality (38). Subsequent to these studies, the structure of the PDK1-PH domain-PtdIns(3,4,5)P3 complex was elucidated (31). This revealed that Arg472 and Arg474 form strong interactions with the D1 and D3 phosphate groups of PtdIns(3,4,5)P3 while Arg473 is oriented away from the phosphoinositide pocket and makes interactions with the protein backbone (31). The structure of the PDK1 PH domain suggests that mutation of Arg473 to Leu would destabilize the PH-domain fold and might be responsible for the decreased expression or stability of the PDK1[LLL] mutant observed in the original study. Exploiting the PDK1 PH-domain structures, we rationally designed a knock-in point mutant (K465E) that abrogated phosphoinositide binding without affecting the stability of the domain. The homozygous K465E knock-in mice are viable, and PDK1 is expressed at normal levels. The knock-in mutation of PDK1 leads to a specific signaling lesion, reducing the activity of PKB isoforms, resulting in the knock-in mice being small and displaying insulin resistance.
+MATERIALS AND METHODS Structural studies of the PDK1[K465E] PH domain. The isolated PDK1 [K465E] PH domain (residues 409 to 556) was expressed in Escherichia coli and purified as described previously (31). Details on crystallization, data collection, and refinement statistics can be found in Table S1 in the supplemental material. SGK1 kinase assay. To immunoprecipitate SGK1, 5 g of the human antiSGK1 antibody covalently coupled to 10 l of protein G-Sepharose was incubated with 1 mg of mouse liver lysate at 4°C for 1 h on a shaking platform. The immunoprecipitates were washed twice with 1 ml of lysis buffer containing 0.5 M NaCl and once with 1 ml of buffer A. The standard SGK assay (50 l) contained the following: washed protein G-Sepharose immunoprecipitate, 50 mM Tris-HCl (pH 7.5), 0.1 mM EGTA, 0.1% (by vol) 2-mercaptoethanol, 10 mM magnesium acetate, 0.1 mM ATP, and 1 g of E. coli-expressed glutathione S-transferase (GST)­N-myc downstream regulated gene 1 protein (NDRG1). The assays were
+
+carried out for 30 min at 30°C with continuous agitation and terminated by addition of sodium dodecyl sulfate sample buffer. Phosphorylation of NDRG1 was analyzed by immunoblot analysis of 50% of the reaction mixture, employing the phospho-specific Thr346/356/366 antibodies. PDK1K465E/K465E mouse strain. The PDK1K465E/K465E conditional knock-in mice were backcrossed five to six generations on C57BL/6J mice before experimental animals used in this study were bred. Glucose tolerance test. Mice were deprived of food overnight and weighed, and basal blood glucose was measured using the Esprit blood glucose monitoring system (Bayer) following tail incision. The mice were then injected intraperitoneally with 2 mg/g of glucose. Blood glucose was then measured at the indicated times. Insulin tolerance test. Mice were allowed to feed overnight ad libitum and then fasted for 2 h before the experiment; mice were weighed, and basal blood glucose was measured using the Esprit blood glucose monitoring system (Bayer) following tail incision. The mice were then injected intraperitoneally with 1 mU/g of insulin and blood glucose measured at the indicated times. Measurement of plasma insulin levels. Blood was collected from mice following tail incision and incubated on ice for 30 min. The blood was centrifuged at 3,000 g for 15 min, and the plasma supernatant was collected. The plasma insulin level was measured using a rat/mouse insulin enzyme-linked immunosorbent assay kit from Linco Research (no. EZRMI-13K). Five microliters of plasma was used for each assay, and mouse insulin standards from 0 to 10 ng/ml were used to generate a standard curve. Hyperinsulinemic euglycemic clamp. The hyperinsulinemic euglycemic clamp study was performed as described previously (57). In brief, the hyperinsulinemic study started with a bolus (100 mU/kg, Actrapid; Novo Nordisk, Bagsvaerd, Denmark), followed by continuous infusion of insulin (3.5 mU/kg/min). A variable infusion of 12.5% D-glucose (in phosphate-buffered saline) solution was adjusted to maintain euglycemia, as measured via tail bleeding (Accu-Check Aviva; Roche Diagnostics Nederland BV, Almere, The Netherlands). In the supplemental material, a detailed description of the following is provided: materials; antibodies; general methods and buffers; construction of the PDK1[K465E] knock-in targeting vector; ES cell targeting; generation of PDK1K465E/K465E mice and genotyping analysis; generation of PDK1K465E/K465E ES cells; cell culture, stimulation, and cell lysis; preparation of tissue extracts, immunoblotting, and protein kinase assays; affinity purification of PDK1; magnetic resonance imaging analysis; and determination of organ volume and cell size.
+
+Downloaded from mcb.asm.org at SAECHS-LANDESBIBLIOTHEK on April 5, 2010
+
+RESULTS Analysis of the PDK1 K465E mutation. Our previous analysis demonstrated that mutation of Lys465 in PDK1, which forms key interactions with the D3 and D4 phosphates of PtdIns(3,4,5)P3, to a Glu residue abolished binding of PDK1 to phosphoinositides and localization at the plasma membrane (31). Prior to generating a knock-in mutation, to ensure that this mutation did not disrupt the overall PH domain fold, we crystallized and analyzed the structure of the isolated PDK1[K465E] mutant PH domain (Fig. 1) (see Table S1 in the supplemental material) (PDB code 2vki). The mutant protein was produced in bacteria and expressed with yields similar to those for the wild-type PDK1 PH domain. The overall structure of the PDK1[K465E] PH domain, as refined against 1.8-Å diffraction data, was largely unaffected by mutation of Lys465 (root mean square deviation of 0.6 Å for C atoms) (Fig. 1A). The only significant changes were observed in the side-chain conformations of residues located in the PtdIns(3,4,5)P3-binding pocket, in which the conformations of surrounding positively charged residues, namely, Arg472, Arg474, Lys467, and Arg521, were affected (Fig. 1A). The K465E mutation also significantly reduced the positively charged nature of the ligand-binding interface (Fig. 1B), which accounts for its inability to bind to phosphoinositides (31). Generation of PDK1K465E/K465E mice. Based on the finding that the Lys465Glu mutation did not destabilize the PH do-
+
+3260
+
+BAYASCAS ET AL.
+
+MOL. CELL. BIOL.
+
+Downloaded from mcb.asm.org at SAECHS-LANDESBIBLIOTHEK on April 5, 2010
+
+FIG. 1. Crystal structure of the isolated PDK1[K465E] PH domain. The structure was determined at a 1.80-Å resolution by molecular replacement and refined to a final R factor of 0.173 (Rfree, 0.215). Further details on crystallization and statistics can be found in Table S1 in the supplemental material. (A) Comparison of the phosphoinositide-binding site of wild-type PDK1 (left) with that of the K465E mutant, mutation of which abrogates phosphoinositide binding (right). A stick representation of the interactions of Ins(1,3,4,5)P4 (blue, inositol ring; purple/red, phosphate groups) with protein residues (green) in the phosphoinositide binding site of the PDK1-PH domain is shown. Lys465 is the central residue in the back of the pocket, and its mutation to Glu does not affect the overall structure of the PH domain but leads to reorganization of the phosphoinositide-binding site by attracting surrounding positively charged residues. The PDK1 PH K465E mutant was found to contain a sulfate molecule in the phosphoinositide-binding site derived from the crystallization buffer. (B) An electrostatic surface representation (from the GRASP software program [45]) of the phosphoinositide-binding site showing how mutation of Lys465 to Glu markedly alters both the shape and the basic nature of this pocket compared to the wild-type protein.
+
+main of PDK1, we generated homozygous PDK1K465E/K465E mice as shown in Fig. 2 (see also the supplemental material). These were born at the expected Mendelian frequency and were found to be viable (Fig. 2A to D). Both male and female PDK1K465E/K465E mice were fertile (data not shown). The PDK1 protein was expressed in PDK1K465E/K465E mice at normal levels in liver tissue (Fig. 2E) and in five other tissues analyzed (see Fig. S1 in the supplemental material). As a further control, we incubated liver extracts with agarose conjugated to PtdIns(3,4,5)P3 or Sepharose conjugated to PIFtide, a peptide that interacts with the catalytic domain of PDK1 independently of the PH domain (4, 9). In extracts from PDK1K465E/K465E animals, PDK1 interacted with PIF-Sepharose but, as expected, not with PtdIns(3,4,5)P3-agarose. In contrast, PDK1 interacted with both PtdIns(3,4,5)P3-agarose and PIF-Sepharose in extracts derived from wild-type mice (Fig.
+
+2E). Catalytic activity of PDK1, as judged by its ability to phosphorylate the T308tide peptide, was unaffected by the Lys465Glu mutation (Fig. 2F; see also Fig. S1 in the supplemental material). Small size of PDK1K465E/K465E mice. Male and female PDK1K465E/K465E mice were 35% smaller from birth than control PDK1 / littermates (Fig. 3A). The heterozygous PDK1K465E/ mice were of sizes similar to those of wild-type PDK1 / mice (see Fig. S2 in the supplemental material). We compared organ volumes of kidney, brain, spleen, and testis using the quantitative Cavalieri methodology (25, 37). Brains and spleens from PDK1K465E/K465E mice were on average 20% smaller than organs from wild-type littermate mice, but the testes, in which PKB isoforms play an important role in regulating cell size (19), were 50% smaller (Fig. 3B). In contrast, the size of the kidneys was not
+
+Downloaded from mcb.asm.org at SAECHS-LANDESBIBLIOTHEK on April 5, 2010 FIG. 2. Generation of PDK1K465E/K465E mice. (A) Diagram depicting the 3 end of the endogenous PDK1 gene from exons 12 to 14, the targeting construct generated, the targeted allele with the neomycin selection cassette still present (NEO), and the targeted allele with the neomycin cassette removed by Cre recombinase. The black boxes represent exons, and the black triangles represent LoxP sites. Abbreviations: E, EcoRI; H, HindIII; S, SacI. The positions of the probes used for Southern analysis are shown as black bars. The knock-in allele containing the Lys465Glu mutation in exon 12 is marked with an asterisk and can be detected by genotyping using PCR primers K465E F and K465E R, which are depicted as arrows. (B) Genomic DNA purified from targeted ES cells from the indicated genotypes was digested with SacI and subjected to Southern analysis with the corresponding DNA probes. The wild-type allele generates an 18-kb fragment with both 5 and 3 probes, while the targeted allele give rise to a 6-kb fragment with the 5 probe (left panel) and a 10-kb fragment with the 3 probe (right panel). (C) The number (n) and proportion (%) of mice of each genotype resulting from heterozygous breeding are indicated. (D) Genomic DNA was PCR amplified with primers K465E F and K465E R. The wild-type (WT) allele produces a 196-bp fragment, while the knock-in allele generates a 236-bp product. The same DNA was subjected to PCR to generate a product that encompasses the knock-in mutation region in exon 12. The resultant PCR products were ligated onto the pCR-topo2.1 vector and transformed in E. coli and 30 independent clones were sequenced. The numbers of wild-type Lys465 and knock-in Glu465 sequences obtained for each genotype are indicated. (E) The upper diagram illustrates the mechanism by which PIF-Sepharose and PtdIns(3,4,5)P3-agarose can be utilized to affinity purify PDK1. Mouse liver extracts or the PIF-Sepharose and PtdIns(3,4,5)P3-agarose pull downs were subjected to immunoblot analysis with the indicated antibodies. (F) PDK1 was immunoprecipitated from liver extracts of the indicated genotypes and the activity assayed using the T308tide peptide as the substrate. Each point represents the mean activity standard error of the mean for three different samples with each assayed in triplicate. 3261
+
+3262
+
+BAYASCAS ET AL.
+
+MOL. CELL. BIOL.
+
+Downloaded from mcb.asm.org at SAECHS-LANDESBIBLIOTHEK on April 5, 2010 FIG. 3. Reduced size of PDK1K465E/K465E mice. (A) The mean body weights of the indicated male and female mice are shown. Values represent the mean standard error of the mean for each data point obtained from no fewer than 20 mice per genotype. A representative photograph of indicated littermate 4- and 13-week-old male mice is shown. WT, wild type. (B) The organ volume of the indicated organs of PDK1 / and PDK1K465E/K465E littermates was measured from magnetic resonance imaging-obtained images or physical sections of fixed organs using the Cavalieri method as described in Materials and Methods. The data are represented as the means standard errors of the means for three different mice per genotype. (C) The relative cell size of the zona fasciculata cells of the adrenal glands of two PDK1K465E/K465E mice compared to that for littermate PDK1 / animals, which is given a value of 100%. Cell size was measured using the dissector principle as described in Materials and Methods.
+
+markedly reduced in the PDK1K465E/K465E mice. To establish whether a reduction in organ volume was accompanied by a reduction in cell size, we employed the quantitative and unbiased stereological approach called the disector principle to estimate cell volume (37). In the zona fasciculata of
+
+the adrenal gland, the PDK1K465E/K465E cells were 40% smaller than cells derived from littermate PDK1 / mice (Fig. 3C). Insulin resistance and hyperinsulinemia in PDK1K465E/K465E mice. The PDK1 signaling pathway plays a crucial role in con-
+
+VOL. 28, 2008
+
+ROLE OF THE PDK1 PH DOMAIN
+
+3263
+
+trolling glucose homeostasis. Fasted and fed male (Fig. 4A to D) and female (see Fig. S3 in the supplemental material) PDK1K465E/K465E mice of 12 to 16 weeks of age had normal blood glucose levels. To determine whether the PDK1K465E/K465E mice were intolerant to glucose, the mice were deprived of food overnight and injected with an intraperitoneal bolus of glucose, and blood glucose levels were monitored over a 120-min period. PDK1K465E/K465E animals displayed significant glucose intolerance, since their blood glucose levels at multiple time points, 15, 30, and 60 min, rose to higher levels in male (Fig. 4A) and female (see Fig. S3A in the supplemental material) mice than was the case for controls. The PDK1K465E/K465E mice also displayed marked insulin intolerance, since injection with insulin induced a blunted decrease in blood glucose levels compared to those for control mice (Fig. 4B; see also Fig. S3B in the supplemental material). Significantly, male and female PDK1K465E/K465E mice possessed plasma insulin levels elevated above those of PDK1 / mice (Fig. 4C; see also Fig. S3C in the supplemental material). When fasted mice were allowed to have access to food, the plasma insulin levels increased to a much greater extent in the PDK1K465E/K465E mice than in the control mice under conditions where blood glucose levels were maintained at similar levels in both genotypes (Fig. 4D). We also performed a hyperinsulinemic-euglycemic clamp to assess whole-body insulin sensitivity in wild-type and PDK1K465E/K465E mice. Consistent with the results obtained using glucose and insulin tolerance tests (Fig. 4A and B), the PDK1K465E/K465E mice were markedly insulin resistant, since they needed 3-fold less glucose to be infused than wild-type animals in order to maintain euglycemia (Fig. 4E). We also analyzed male PDK1K465E/K465E mice of 56 to 60 weeks of age and found that although these animals possessed normal fasted blood glucose levels, they displayed greater glucose intolerance (Fig. 4F) and their plasma insulin levels were even higher than those observed in the younger mice (Fig. 4H and I). For the fed state, we also observed that older male PDK1K465E/K465E mice possessed lower blood glucose levels than the control mice, which might be a result of higher insulin levels in these animals (Fig. 4G). In an insulin tolerance test, injection of insulin induced virtually no decrease in blood glucose levels in the older PDK1K465E/K465E mice (Fig. 4G). Islet volume in young and old PDK1K465E/K465E mice. In order to establish how insulin resistance in the PDK1K465E/K465E affected the volume of insulin-producing islet cells, we stained pancreatic tissue sections from littermate control and PDK1K465E/K465E mice with hematoxylin-eosin. Employing the quantitative Cavalieri method (25, 37), we determined the volume of pancreas and islet cells and used this to calculate the ratio of islet to pancreas volume for each genotype (Fig. 5A). We found that in PDK1 / mice of 12 to 16 weeks of age, 0.8% of total pancreatic volume comprised islet mass. The volumes of pancreas derived from PDK1K465E/K465E mice were reduced by 30% due to the smaller sizes of these mice, but the proportion of islet mass was significantly increased, to 1.2% of the total pancreatic volume (Fig. 5A). Interestingly, for older mice of 84 to 88 weeks of age, the proportion of beta cell mass in PDK1K465E/K465E mice had decreased significantly compared to that for littermate PDK1 / animals, suggesting that islet cells in older PDK1K465E/K465E mice were beginning
+
+to fail (Fig. 5B). However, old PDK1K465E/K465E animals were still hyperinsulinemic and displayed normal fasted and fed blood glucose despite the reduced volume of islet cells (see Fig. S4 in the supplemental material). Analysis of PKB in PDK1K465E/K465E mice. To establish the effect of the Lys465Glu mutation on the ability of PDK1 to switch on PKB, littermate PDK1 / and PDK1K465E/K465E mice were starved overnight and injected intravenously with a physiological dose of insulin (0.5 mU/g). At 10, 20, and 40 min, insulin-sensitive tissues were removed, extracts generated, and PKB phosphorylation at Thr308 and Ser473 assessed, as well as its activity following immunoprecipitation. As expected, in control PDK1 / mice, insulin induced a marked activation of PKB in skeletal muscle (Fig. 6A), heart (Fig. 6B), liver (Fig. 6C), and adipose tissue (Fig. 6D). In the PDK1K465E/K465E mice, PKB was activated to a three- to fivefold lower level than in control mice at all time points analyzed (Fig. 6, left panels). PKB activation was also more transient in the tissues of PDK1K465E/K465E mice. We also measured the activity of the PKB isoform in liver (Fig. 6C) and adipose tissue (Fig. 6D) and observed that PKB activation was reduced to an extent similar to that for PKB in the PDK1K465E/K465E mice. At all time points, phosphorylation of PKB at the activating Thr308 residue phosphorylated by PDK1 was markedly reduced in the PDK1K465E/K465E tissues (Fig. 6, right panels). Quantitative Li-Cor analysis of the immunoblots in skeletal muscle indicated that phosphorylation of PKB at Thr308 was reduced by 65% in PDK1K465E/K465E animals (see Fig. S5 in the supplemental material). In both control and PDK1K465E/K465E animals, insulin induced the same degree of phosphorylation of the insulin receptor as well as the PKB Ser473 residue, which is phosphorylated by mTORC2 independently from PDK1 (Fig. 6, right panels; see also Fig. S5 in the supplemental material). We also monitored phosphorylation of various PKB substrates, including GSK3, PRAS40, and FOXO-1, at the sites phosphorylated by PKB, employing phospho-specific antibodies (Fig. 6, right panels). This revealed a moderate decrease in the phosphorylation of PRAS40 between the wildtype and PDK1K465E/K465E mice. Phosphorylation of GSK3 was not significantly affected by the knock-in mutation. In the liver, phosphorylation of the FOXO-1 transcription factor at Ser256 was reduced to a greater extent for the PDK1K465E/K465E mice (Fig. 6C, right panel). Analysis of PKB in PDK1K465E/K465E ES cells. We previously found that PKB was not activated in the hypomorphic PDK1[LLL] knock-in ES cells following IGF1 stimulation (38). To establish that this finding was not due to decreased expression of the PDK1[LLL] mutant, we generated PDK1K465E/K465E ES cells that express normal levels of PDK1 as described in Materials and Methods. In PDK1K465E/K465E ES cells, PKB activation and phosphorylation at Thr308 were markedly reduced (Fig. 6E), to an extent similar to that observed previously in the hypomorphic PDK1[LLL] ES cells (38). In PDK1K465E/K465E ES cells, PKB was still phosphorylated at Ser473 to the same extent as that observed in PDK1 / ES cells but to a lesser extent than that observed in wild-type ES cells. Analysis of S6K1 in PDK1K465E/K465E mice. S6K1 is a key downstream target of PKB in the insulin signaling pathway. PKB stimulates S6K1 through phosphorylating TSC2 and
+
+Downloaded from mcb.asm.org at SAECHS-LANDESBIBLIOTHEK on April 5, 2010
+
+3264
+
+BAYASCAS ET AL.
+
+MOL. CELL. BIOL.
+
+Downloaded from mcb.asm.org at SAECHS-LANDESBIBLIOTHEK on April 5, 2010 FIG. 4. PDK1K465E/K465E mice are insulin resistant. (A and F) The indicated mice were deprived of food overnight and then injected intraperitoneally with glucose, and the blood glucose concentration was measured at the indicated times. (B and G) Normally fed mice were deprived of food for 2 h and then injected intraperitoneally with insulin, and the blood glucose concentration was measured at the indicated times.
+
+VOL. 28, 2008
+
+ROLE OF THE PDK1 PH DOMAIN
+
+3265
+
+Downloaded from mcb.asm.org at SAECHS-LANDESBIBLIOTHEK on April 5, 2010
+
+FIG. 5. Islet volume in young and old PDK1K465E/K465E animals. The total volume of the pancreas and islet cells of the indicated mice was measured using the unbiased Cavalieri method. The pancreas volume (left), the islet volume (middle), and the percentage of pancreas volume that is occupied by endocrine pancreas (right) are represented as the means standard errors of the means for three different male mice per genotype of age 12 to 6 weeks (A) or 84 to 88 weeks (B). WT, wild type; V/V, vol/vol.
+
+PRAS40 (53), thereby leading to activation of mTORC1, which then phosphorylates S6K1 at its hydrophobic motif residue (Thr389). This promotes binding of S6K1 to PDK1, resulting in phosphorylation of S6K1 at its T-loop residue (Thr229), leading to its activation. Consistent with reduced PKB activity in PDK1K465E/K465E mice, insulin-induced phosphorylation of PRAS40 (Thr246) and TSC2 (Thr1462), as well as activation of S6K1 and phosphorylation of Thr229 and Thr389, was reduced at all time points in the hearts of PDK1K465E/K465E animals (Fig. 7A). Phosphorylation of the S6 protein, a substrate of S6K1, was also vastly reduced in hearts from PDK1K465E/K465E mice. mTORC1 can also be activated via a nutrient-stimulated pathway that may involve the VPS34 class 3 PI 3-kinase (46). Since this pathway is independent of PKB activation, S6K1 activation by nutrients should be unaffected in the PDK1K465E/K465E mice. To test this, we measured S6K1 activity in the liver of mice that had been fasted overnight and then allowed to feed. This model has previously been employed to
+
+investigate the effect that nutrients have on S6K1 activity in mice (35, 43). We found that feeding induced a similar activation and phosphorylation on Thr229 and Thr389 of S6K1 in both control and PDK1K465E/K465E mice (Fig. 7B). Under these feeding conditions, PKB is activated to a much lesser extent than is observed following insulin injection (data not shown), consistent with previous findings (35). Analysis of SGK1 in PDK1K465E/K465E mice. The role that binding of PDK1 to phosphoinositides plays in activating SGK1 is unknown. It was therefore of interest to establish whether SGK1 could be activated normally in PDK1K465E/K465E mice. We first monitored phosphorylation of NDRG1, which is phosphorylated by SGK1 at three Thr residues (Thr346/ Thr356/Thr366) that lie within a repeated decapeptide sequence (44). Employing a phospho-specific antibody recognizing these phosphorylated residues, we found that insulin markedly enhanced the phosphorylation of NDRG1 to similar levels in the livers of PDK1 / and PDK1K465E/K465E animals (Fig. 7C, upper panel). To demonstrate that these residues on
+
+(C and H) Mice were left in the presence (Fed) or absence (Fasted) of food overnight, and the plasma insulin levels were measured for 13 (C) or 6 (H) mice of each genotype. (D and I) The indicated mice were fasted overnight and then allowed to refeed ad libitum for 1 or 6 h. Plasma insulin levels (upper panels) or blood glucose (lower panels) were measured for 6 mice per genotype at the indicated times. The data are presented as the means standard errors of the means for each data point. (E) A hyperinsulinemic euglycemic clamp study was performed as described in Materials and Methods using six littermate mice of each genotype of 3 to 5 months of age. The hyperinsulinemic study started with a bolus of insulin (100 mU/kg), followed by continuous infusion (3.5 mU/kg/min). A variable infusion of 12.5% D-glucose solution was adjusted to maintain euglycemia, as measured via tail bleeding. The data are presented as the mean standard error of the mean for each data point.
+
+Downloaded from mcb.asm.org at SAECHS-LANDESBIBLIOTHEK on April 5, 2010
+
+3266
+
+VOL. 28, 2008
+
+ROLE OF THE PDK1 PH DOMAIN
+
+3267
+
+NDRG1 are indeed phosphorylated by SGK1, we show that insulin did not induce phosphorylation of NDRG1 in livers of SGK1 / knockout mice (Fig. 7C, lower panel). We next immunoprecipitated and assayed SGK1 and observed that SGK1 was normally activated by insulin in PDK1K465E/K465E animals (Fig. 7C, upper panel). As expected, no SGK1 activity was recovered when SGK1 immunoprecipitations were undertaken employing liver extracts from SGK1 / mice (Fig. 7C, lower panel). Analysis of RSK and PKC isoforms in PDK1K465E/K465E mice. The key regulatory input in the activation of RSK is mediated through extracellular signal-regulated kinase (ERK) activating the C-terminal kinase domain of RSK, which promotes phosphorylation and activation of RSK by PDK1. Thus, binding of PDK1 to phosphoinositides would not be predicted to influence its activation. Consistent with this, RSK was normally activated by insulin in the heart of PDK1K465E/K465E mice (Fig. 7D) or in PDK1K465E/K465E ES cells stimulated with phorbol ester (see Fig. S6A in the supplemental material). PDK1 also controls the stability of PKC isoforms, and in PDK1-deficient cells the expression of many PKC isoforms is markedly diminished (5). We found that expression of six PKC isoforms analyzed in skeletal muscle were similar in PDK1K465E/K465E and control mice (see Fig. S6B in the supplemental material), suggesting that the ability of the PDK1 PH domain to bind phosphoinositides does not regulate phosphorylation of PKC isoforms. DISCUSSION In contrast to the PDK1K465E/K465E mice analyzed in the study, the previously described PDK1[LLL] PH-domain knock-in mice, which showed reduced PDK1 expression, displayed embryonic lethality (38). Reduction in PDK1 expression without the PH-domain mutation is unlikely to cause lethality, since hypomorphic mice expressing a 10-fold-reduced level of PDK1 in all tissues are viable despite being small (Table 1) (33). Thus, lack of viability of the homozygous PDK1[LLL] animals is likely to be due to the combined effects of the PH-domain mutation and reduced expression of PDK1. Knock-in mutations are increasingly being utilized to analyze biological processes. Our observations emphasize the importance of generated mutations not affecting protein expression, since otherwise it is impossible to determine whether resultant phenotypes are caused by the mutation or changes in protein expression or a combination of both of these. In the PDK1K465E/K465E mice, insulin-induced activation of PKB and PKB , although markedly inhibited, was not abolished. Inhibition of PKB resulted from reduced phosphorylation of Thr308, which is catalyzed by PDK1, rather than the
+
+decreased phosphorylation of Ser473 that is mediated by mTORC2 (Fig. 6; see also Fig. S5 in the supplemental material). These observations provide the first genetic evidence in an animal model to support the notion that binding of PDK1 to phosphoinositides is necessary for optimal activation of PKB. PDK1 is capable only of phosphorylating PKB at Thr308 when PKB is bound to PtdIns(3,4,5)P3. This induces a conformational change that exposes Thr308 and/or creates a docking site for PDK1 to bind PKB (reviewed in reference 42). The finding that some activation of PKB is still observed in the PDK1K465E/K465E mice suggests that there is a mechanism for PDK1 to interact with the membrane independently of its ability to bind phosphoinositides. This could be mediated by PDK1 interacting with other membrane-associated proteins, such as Grb14, which reportedly binds to PDK1 (29). PDK1 also interacts transiently with PKB (10) and therefore could be recruited to the plasma membrane via its ability to bind PKB. Passive diffusion of PDK1 could also result in sufficient PDK1 being near the plasma membrane to partially activate PKB. Our data demonstrate that decreased activation of PKB in the PDK1K465E/K465E mice results in a reduction of insulinstimulated activation of mTORC1, as measured by decreased phosphorylation of S6K1 at Thr389 (Fig. 7A). As phosphorylation of Thr389 promotes interaction of S6K1 with PDK1, reduced Thr389 phosphorylation in the PDK1K465E/K465E mice causes decreased phosphorylation of S6K1 at Thr229 and hence lowers S6K activity. It is unlikely that the ability of PDK1 to directly phosphorylate S6K1 requires interaction with phosphoinositides, since previous work has shown that either deletion of the PDK1 PH domain or PtdIns(3,4,5)P3 levels do not influence activation of S6K1 by PDK1 (2). Moreover, the observation that S6K1 is normally activated in response to feeding of PDK1K465E/K465E mice (Fig. 7B), triggered by activation of mTORC1 through a PKB-independent nutrient-signaling pathway, also confirms that PDK1 does not need to interact with phosphoinositides to activate S6K1. RSK and SGK are activated normally by insulin in PDK1K465E/K465E animals. PDK1 activates these enzymes following phosphorylation of these enzymes at their hydrophobic motif. In the case of RSK, hydrophobic motif phosphorylation is regulated through the activation of the ERK pathway (27) or via the p38 mitogen-activated protein (MAP) kinase/MAP kinase-activated protein kinase 2 pathway (64). Activation of ERK is not controlled by PKB or PDK1, which explains why RSK is activated normally in PDK1K465E/K465E mice. In the case of SGK1, however, the identity of the hydrophobic-motif kinase that phosphorylates SGK1, leading to its activation by PDK1, is unknown. Since SGK1 is activated normally in PDK1K465E/K465E animals, activation is unlikely to be con-
+
+Downloaded from mcb.asm.org at SAECHS-LANDESBIBLIOTHEK on April 5, 2010
+
+FIG. 6. Activation and phosphorylation of PKB in PDK1K465E/K465E mice and ES cells. (A to D) Mice were fasted overnight and intravenously injected with either saline (for the 0-min time point control) or 0.5 mU/g of insulin. Skeletal muscle (A), heart (B), liver (C), or adipose tissue (D) at the indicated time points was rapidly extracted and frozen in liquid nitrogen. (E) The indicated ES cell lines were grown to 80% confluence, serum starved for 4 h, and then either left unstimulated or stimulated with 20 ng/ml IGF1 for the indicated times. Left panels, PKB or PKB (in liver or adipose tissue) was immunoprecipitated and assayed using the Crosstide peptide. Each point represents the mean activity standard error of the mean for samples derived from three different mice, with each sample assayed in triplicate. WT, wild type. Right panels, the cell lysates from skeletal muscle (A), heart (B), liver (C), adipose tissue (D), or ES cells (E) were immunoblotted with the indicated antibodies, and each lane represents a sample derived from a different mouse or plate.
+
+3268
+
+BAYASCAS ET AL.
+
+MOL. CELL. BIOL.
+
+Downloaded from mcb.asm.org at SAECHS-LANDESBIBLIOTHEK on April 5, 2010 FIG. 7. Activation of S6K1, SGK1, and RSK in PDK1K465E/K465E mice. Mice were fasted overnight and then either intravenously injected with saline (for the 0-min time point control), injected with 0.5 mU/g of insulin (A, C, and D), or allowed to refeed ad libitum (B). At the indicated time points, cardiac muscle (A and D) or liver (B and C) were rapidly extracted and frozen in liquid nitrogen. S6K1 (A and B) or RSK isoforms (D) were immunoprecipitated from the indicated extracts and their activity assayed using Crosstide. Each point represents the mean activity standard error of the mean for samples derived from three different mice, with each sample assayed in triplicate. WT, wild type. (C) SGK1 was immunoprecipitated from the livers of littermate PDK1 / and PDK1K465E/K465E mice (upper panel) as well as SGK1 / and SGK1 / mice (60) (lower panel). Its activity was assessed by measuring phosphorylation of NDRG1, followed by immunoblot analysis employing a phospho-specific antibody recognizing the phosphorylation sites targeted by SGK1 (termed Tx3-P). The indicated cell extracts were also immunoblotted with the indicated antibodies, and each lane represents a sample derived from a different mouse.
+
+trolled by PKB or to necessitate membrane localization of PDK1. It would be interesting to explore whether mTORC2 might phosphorylate the hydrophobic motif of SGK1, since the hydrophobic motif of SGK1 is similar in sequence to that of PKB, and moreover inhibitors of PI 3-kinase inhibit mTORC2 and SGK1 activation.
+
+Several PDK1 knockout, hypomorphic, and knock-in mouse models have been generated, and the phenotypes of these animals are summarized in Table 1 and compared with the phenotypes reported from analyzing PKB isoform knockout mice. A complication with previous studies was that the alterations of PDK1 affected the activities of several AGC kinases,
+
+VOL. 28, 2008
+
+ROLE OF THE PDK1 PH DOMAIN TABLE 1. Phenotypes of PDK1 genetically modified mouse models
+
+3269
+
+Genotype
+
+Viability
+
+Cell size
+
+Other phenotypes
+
+Reference(s)
+
+PDK1
+
+/
+
+Embryonic lethal E9.5 Viable
+
+Smaller Smaller
+
+PDK1flox/flox
+
+Muscle PDK1 Liver PDK1 /
+
+/
+
+Lethal at 5­11 weeks Lethal at 4­16 weeks
+/
+
+Smaller Normal Smaller Smaller Normal Normal Normal Smaller Normal
+
+Pancreas PDK1 T-cell PDK1 / PDK1(L155E) PDK1(R131E)
+
+Viable Viable Embryonic lethal E12 Embryonic lethal E19.5 Embryonic lethal E10.5 Viable Partial neonatal lethality
+
+PDK1(RRR/LLL) PDK1(K465E) PKB
+/
+
+PKB
+
+/
+
+Viable
+
+Normal
+
+PKB PKB
+
+/
+
+Viable PKB
+/
+
+Smaller Smaller
+
+Lack of somites, forebrain, and neural crest-derived tissue Reduced size Protected from PTEN-induced tumorigenesis Reduced intestinal and renal glucose transport Reduced intestinal and renal amino acid transport Dilated cardiomyopathy Defective postpandrial glucose disposal and liver failure Diabetes resulting from loss of B-cell mass Impaired T-cell differentiation Forebrain and body axis development defects Growth retardation and craniofacial defects Head blood vessel and placental development defects Small, insulin-resistant, and hyperinsulinemic Embryonic and postnatal growth defects Growth retardation and increased apoptosis Placental hypotrophy Defective thymic development Insulin resistance, hyperglycemia and hyperinsulinemia Age-dependent severe diabetes and lipoatrophy Reduction of brain size Severe growth deficiency with impaired skin and bone development, muscle atrophy and impaired adipogenesis Cardiovascular and nervous system defects Growth retardation with hypotrophic thymus, heart and skin Reduced organ and body size with smaller brain and testis Insulin resistance, hyperinsulinemia and hyperglycemia
+
+Williams et al. (59), Lawlor et al. (33) Lawlor et al. (33) Bayascas et al. (6) Artunc et al. (3) Rexhepaj et al. (50) Mora et al. (41) Mora et al. (43), et al. (47) Hashimoto et al. (26) Hinton et al. (28) Collins et al. (14) Collins et al. (15) McManus et al. (38) This work Cho et al. (13) Chen et al. (11) Yang et al. (63) Fayard et al. (22) Cho et al. (12) Garofalo et al. (24) Tschopp et al. (55), Easton et al. (20) Peng et al. (49)
+
+Downloaded from mcb.asm.org at SAECHS-LANDESBIBLIOTHEK on April 5, 2010
+
+/
+
+Neonatal lethality
+
+PKB PKB
+
+/
+
+PKB PKB
+
+/
+
+Embryonic lethal E11­12 Severe neonatal lethality Viable Viable
+
+Not reported Not reported Not reported Not reported
+
+Yang et al. (62) Yang et al. (62) Dummler et al. (19) Dummler et al. (19)
+
+/
+
+/
+
+PKB / PKB PKB / PKB / PKB PKB /
+
+/
+
+/
+
+making it difficult to pin down which of the downstream AGC kinases activated by PDK1 was responsible for the observed phenotypes. In contrast, only the activity of PKB isoforms is inhibited in the PDK1K465E/K465E mice, a feature that could make these animals useful when roles of PKB isoforms in signaling are analyzed. Consistent with this conclusion, many elements of the phenotype of the PDK1K465E/K465E mice described in this study, such as insulin resistance, small size, and markedly reduced volumes of brain or testis, have also been observed in previous analysis of PKB-isoform knockout mice (Table 1). Earlier work revealed that cells deficient in PDK1 were 30 to 40% smaller, but it was unclear whether this was due to inhibition of PKB and/or other AGC kinases (33, 41). The finding that PDK1K465E/K465E mice are similarly small suggests that a reduction in PKB activity is sufficient to decrease cell volume.
+
+Consistent with this conclusion, Drosophila mutants lacking PKB (56), as well as mice lacking PKB and other isoforms, display small size (Table 1). Reduced PKB activity also leads to an inhibition of mTORC1 and S6K activity. Since mutations in mTORC1 components and S6K also are associated with reduced cell size (7), it is likely that the PI 3-kinase/PDK1/PKB/ mTORC1/S6K signaling network lies at the nexus of cell size regulation. The PDK1K465E/K465E mice, despite possessing normal plasma glucose levels, are significantly glucose and insulin intolerant (Fig. 4). Our data suggest that the PDK1K465E/K465E animals overcome this by producing more insulin and, at least for young animals, possessing increased islet-cell mass. The first stage of insulin resistance in humans is also preceded by a period of increased insulin production coupled with enhanced islet-cell mass that compensates for insulin resistance. Only
+
+3270
+
+BAYASCAS ET AL.
+
+MOL. CELL. BIOL.
+
+when insulin resistance becomes so severe and/or islet cells fail to produce sufficient insulin to maintain normal glucose homeostasis are levels of blood glucose increased. The PDK1K465E/K465E mice therefore represent a model of the "prediabetic" state, in which insulin resistance is compensated for by elevated insulin levels. The oldest PDK1K465E/K465E mice we have analyzed are 86 weeks of age, and although these still displayed normal blood glucose levels in the fed and fasted states (see Fig. S4 in the supplemental material), they possessed reduced islet volumes, indicating that islet cells were beginning to fail (Fig. 5B). It is possible that if PDK1K465E/K465E mice were left to age further or put on a high-fat diet, they would reach a stage in which islet cells would have declined to such an extent that they would be unable to maintain normal glycemia, and hence the animals would develop overt diabetes. PDK1K465E/K465E animals could have utility for testing the effectiveness of antiinsulin resistance therapies being developed. It could be argued from previous work that there is sufficient spare capacity and inherent amplification in the PKB signaling pathway so that a three- to fivefold reduction of PKB activity could be considered modest and still be sufficient to induce downstream responses. Consistent with this notion, for insulininjected PDK1K465E/K465E mice the phosphorylation of PKB substrates, such as PRAS40, GSK3, and FOXO-1, is either not significantly inhibited or only moderately reduced. However, despite this, the PDK1K465E/K465E animals are significantly insulin resistant (Fig. 4). Modest activation of PKB is well known to trigger glucose uptake in muscle (12, 30) or repression of gluconeogenic genes in the liver (36). These processes would therefore not be expected to be affected by the PDK1[K465E] mutation. In agreement with this, insulin-stimulated glucose uptake in isolated soleus muscle (see Fig. S7 in the supplemental material) or repression of the PEPCK, IGFBP1, and G6Pase gluconeogenic genes in the liver in response to feeding (see Fig. S8A to C in the supplemental material) was unaffected by the PDK1[K465E] mutation. A recent study has shown that PKB regulates insulin resistance not by regulating the expression of gluconeogenic genes but instead by controlling hepatic lipid synthesis (34). This is achieved by PKB phosphorylating and inhibiting the transcriptional coactivator peroxisome proliferator-activated receptor coactivator 1 (PGC1 ), which operates as a global regulator of the hepatic metabolism during fasting (34). In PKB knock-out mice, the phosphorylation of PGC1 is defective, resulting in increased transcription of lipogenic genes and increased lipid output in the liver, which induces insulin resistance (34). It was therefore possible that reduced activation of PKB isoforms in PDK1K465E/K465E animals would lead to impairment of the ability of insulin to control lipid metabolism in the liver through reduced phosphorylation of the PGC1 and FOXO-regulated pathway (34). We therefore studied the expression of the SHP and MCAD lipogenic genes, whose expression is affected by lack of PKB (34). We found that these were similarly expressed in fasted and refed control and PDK1K465E/K465E mice, indicating that a deficiency of lipogenic gene expression regulation may not be responsible for the insulin resistance observed in PDK1K465E/K465E animals (see Fig. S8D and E in the supplemental material). There is significant interest in inhibiting PI 3-kinase, PDK1, and PKB for treatment of cancer, since overactivation of the
+
+PKB-signaling pathway drives the proliferation and growth of a significant proportion of human cancers. Our results suggest that even a partial reduction in the activity of PKB isoforms caused by administration of a pan-PKB isoform inhibitor has the potential to lead to significant insulin resistance. In some patients this might be overcome by increased insulin secretion, but in others, such as the elderly and obese, drugs that inhibit PKB activity could induce increases in blood glucose levels, leading to diabetes, which would need to be managed. In conclusion, the results of this study provide the first genetic evidence in mice that binding of PDK1 to phosphoinositides plays a key role in enabling PKB isoforms to be activated efficiently. Our results also demonstrate how a partial inhibition of PKB activation affects insulin-induced mTORC1 and S6K1 activation, as well as having a significant impact on size, and induces insulin resistance. The PDK1K465E/K465E animals will represent a useful animal model for studying the roles of PKB signaling.
+ACKNOWLEDGMENTS We thank Simon Arthur for helpful discussions, Gail Fraser for assistance with genotyping of mice, and the antibody purification team (Division of Signal Transduction Therapy, University of Dundee) coordinated by Hilary McLauchlan and James Hastie for generation and purification of antibodies. We also thank members of the resource unit for technical assistance. A long-term fellowship from EMBO and a Marie Curie Fellowship supported J.R.B. D.K. was supported by an MRC Predoctoral Fellowship and D.M.F.V.A. by a Wellcome Trust Senior Fellowship. We thank the Association for International Cancer Research (D.R.A.), Diabetes UK (D.R.A.), the Medical Research Council (D.R.A.), the Moffat Charitable Trust (D.R.A.), the Deutsche Forschungsgemeinschaft DFG-GRK-1302 (F.L.), and the pharmaceutical companies supporting the Division of Signal Transduction Therapy (AstraZeneca, Boehringer-Ingelheim, GlaxoSmithKline, Merck & Co., Inc., Merck KGaA, and Pfizer) for financial support.
+REFERENCES 1. Alessi, D. R., M. Deak, A. Casamayor, F. B. Caudwell, N. Morrice, D. G. Norman, P. Gaffney, C. B. Reese, C. N. MacDougall, D. Harbison, A. Ashworth, and M. Bownes. 1997. 3-Phosphoinositide-dependent protein kinase-1 (PDK1): structural and functional homology with the Drosophila DSTPK61 kinase. Curr. Biol. 7:776­789. 2. Alessi, D. R., M. T. Kozlowski, Q. P. Weng, N. Morrice, and J. Avruch. 1998. 3-Phosphoinositide-dependent protein kinase 1 (PDK1) phosphorylates and activates the p70 S6 kinase in vivo and in vitro. Curr. Biol. 8:69­81. 3. Artunc, F., R. Rexhepaj, H. Volkl, F. Grahammer, C. Remy, D. Sandulache, O. Nasir, C. A. Wagner, D. R. Alessi, and F. Lang. 2006. Impaired intestinal and renal glucose transport in PDK-1 hypomorphic mice. Am. J. Physiol. Regul. Integr. Comp. Physiol. 291:R1533­R1538. 4. Balendran, A., A. Casamayor, M. Deak, A. Paterson, P. Gaffney, R. Currie, C. P. Downes, and D. R. Alessi. 1999. PDK1 acquires PDK2 activity in the presence of a synthetic peptide derived from the carboxyl terminus of PRK2. Curr. Biol. 9:393­404. 5. Balendran, A., G. R. Hare, A. Kieloch, M. R. Williams, and D. R. Alessi. 2000. Further evidence that 3-phosphoinositide-dependent protein kinase-1 (PDK1) is required for the stability and phosphorylation of protein kinase C (PKC) isoforms. FEBS Lett. 484:217­223. 6. Bayascas, J. R., N. R. Leslie, R. Parsons, S. Fleming, and D. R. Alessi. 2005. Hypomorphic mutation of PDK1 suppresses tumorigenesis in PTEN( / ) mice. Curr. Biol. 15:1839­1846. 7. Bhaskar, P. T., and N. Hay. 2007. The two TORCs and Akt. Dev. Cell 12:487­502. 8. Biondi, R. M. 2004. Phosphoinositide-dependent protein kinase 1, a sensor of protein conformation. Trends Biochem. Sci. 29:136­142. 9. Biondi, R. M., P. C. Cheung, A. Casamayor, M. Deak, R. A. Currie, and D. R. Alessi. 2000. Identification of a pocket in the PDK1 kinase domain that interacts with PIF and the C-terminal residues of PKA. EMBO J. 19:979­ 988. 10. Calleja, V., D. Alcor, M. Laguerre, J. Park, B. Vojnovic, B. A. Hemmings, J. Downward, P. J. Parker, and B. Larijani. 2007. Intramolecular and inter-
+
+Downloaded from mcb.asm.org at SAECHS-LANDESBIBLIOTHEK on April 5, 2010
+
+VOL. 28, 2008
+molecular interactions of protein kinase B define its activation in vivo. PLoS Biol. 5:e95. Chen, W. S., P. Z. Xu, K. Gottlob, M. L. Chen, K. Sokol, T. Shiyanova, I. Roninson, W. Weng, R. Suzuki, K. Tobe, T. Kadowaki, and N. Hay. 2001. Growth retardation and increased apoptosis in mice with homozygous disruption of the Akt1 gene. Genes Dev. 15:2203­2208. Cho, H., J. Mu, J. K. Kim, J. L. Thorvaldsen, Q. Chu, E. B. Crenshaw III, K. H. Kaestner, M. S. Bartolomei, G. I. Shulman, and M. J. Birnbaum. 2001. Insulin resistance and a diabetes mellitus-like syndrome in mice lacking the protein kinase Akt2 (PKB beta). Science 292:1728­1731. Cho, H., J. L. Thorvaldsen, Q. Chu, F. Feng, and M. J. Birnbaum. 2001. Akt1/PKB is required for normal growth but dispensable for maintenance of glucose homeostasis in mice. J. Biol. Chem. 276:38349­38352. Collins, B. J., M. Deak, J. S. Arthur, L. J. Armit, and D. R. Alessi. 2003. In vivo role of the PIF-binding docking site of PDK1 defined by knock-in mutation. EMBO J. 22:4202­4211. Collins, B. J., M. Deak, V. Murray-Tait, K. G. Storey, and D. R. Alessi. 2005. In vivo role of the phosphate groove of PDK1 defined by knockin mutation. J. Cell Sci. 118:5023­5034. Currie, R. A., K. S. Walker, A. Gray, M. Deak, A. Casamayor, C. P. Downes, P. Cohen, D. R. Alessi, and J. Lucocq. 1999. Role of phosphatidylinositol 3,4,5-trisphosphate in regulating the activity and localization of 3-phosphoinositide-dependent protein kinase-1. Biochem. J. 337:575­583. Dann, S. G., A. Selvaraj, and G. Thomas. 2007. mTOR complex1-S6K1 signaling: at the crossroads of obesity, diabetes and cancer. Trends Mol. Med. 13:252­259. Dummler, B., and B. A. Hemmings. 2007. Physiological roles of PKB/Akt isoforms in development and disease. Biochem. Soc. Trans. 35:231­235. Dummler, B., O. Tschopp, D. Hynx, Z. Z. Yang, S. Dirnhofer, and B. A. Hemmings. 2006. Life with a single isoform of Akt: mice lacking Akt2 and Akt3 are viable but display impaired glucose homeostasis and growth deficiencies. Mol. Cell. Biol. 26:8042­8051. Easton, R. M., H. Cho, K. Roovers, D. W. Shineman, M. Mizrahi, M. S. Forman, V. M. Lee, M. Szabolcs, R. de Jong, T. Oltersdorf, T. Ludwig, A. Efstratiadis, and M. J. Birnbaum. 2005. Role for Akt3/protein kinase B in attainment of normal brain size. Mol. Cell. Biol. 25:1869­1878. Engelman, J. A., J. Luo, and L. C. Cantley. 2006. The evolution of phosphatidylinositol 3-kinases as regulators of growth and metabolism. Nat. Rev. Genet. 7:606­619. Fayard, E., J. Gill, M. Paolino, D. Hynx, G. A. Hollander, and B. A. Hemmings. 2007. Deletion of PKB /Akt1 affects thymic development. PLoS ONE 2:e992. Fayard, E., L. A. Tintignac, A. Baudry, and B. A. Hemmings. 2005. Protein kinase B/Akt at a glance. J. Cell Sci. 118:5675­5678. Garofalo, R. S., S. J. Orena, K. Rafidi, A. J. Torchia, J. L. Stock, A. L. Hildebrandt, T. Coskran, S. C. Black, D. J. Brees, J. R. Wicks, J. D. McNeish, and K. G. Coleman. 2003. Severe diabetes, age-dependent loss of adipose tissue, and mild growth deficiency in mice lacking Akt2/PKB beta. J. Clin. Investig. 112:197­208. Gundersen, H. J., and E. B. Jensen. 1987. The efficiency of systematic sampling in stereology and its prediction. J. Microsc. 147:229­263. Hashimoto, N., Y. Kido, T. Uchida, S. Asahara, Y. Shigeyama, T. Matsuda, A. Takeda, D. Tsuchihashi, A. Nishizawa, W. Ogawa, Y. Fujimoto, H. Okamura, K. C. Arden, P. L. Herrera, T. Noda, and M. Kasuga. 2006. Ablation of PDK1 in pancreatic beta cells induces diabetes as a result of loss of beta cell mass. Nat. Genet. 38:589­593. Hauge, C., and M. Frodin. 2006. RSK and MSK in MAP kinase signalling. J. Cell Sci. 119:3021­3023. Hinton, H. J., D. R. Alessi, and D. A. Cantrell. 2004. The serine kinase phosphoinositide-dependent kinase 1 (PDK1) regulates T cell development. Nat. Immunol. 5:539­545. King, C. C., and A. C. Newton. 2004. The adaptor protein Grb14 regulates the localization of 3-phosphoinositide-dependent kinase-1. J. Biol. Chem. 279:37518­37527. Kitamura, T., W. Ogawa, H. Sakaue, Y. Hino, S. Kuroda, M. Takata, M. Matsumoto, T. Maeda, H. Konishi, U. Kikkawa, and M. Kasuga. 1998. Requirement for activation of the serine-threonine kinase Akt (protein kinase B) in insulin stimulation of protein synthesis but not of glucose transport. Mol. Cell. Biol. 18:3708­3717. Komander, D., A. Fairservice, M. Deak, G. S. Kular, A. R. Prescott, C. Peter Downes, S. T. Safrany, D. R. Alessi, and D. M. van Aalten. 2004. Structural insights into the regulation of PDK1 by phosphoinositides and inositol phosphates. EMBO J. 23:3918­3928. Lang, F., C. Bohmer, M. Palmada, G. Seebohm, N. Strutz-Seebohm, and V. Vallon. 2006. (Patho)physiological significance of the serum- and glucocorticoid-inducible kinase isoforms. Physiol. Rev. 86:1151­1178. Lawlor, M. A., A. Mora, P. R. Ashby, M. R. Williams, V. Murray-Tait, L. Malone, A. R. Prescott, J. M. Lucocq, and D. R. Alessi. 2002. Essential role of PDK1 in regulating cell size and development in mice. EMBO J. 21:3728­ 3738. Li, X., B. Monks, Q. Ge, and M. J. Birnbaum. 2007. Akt/PKB regulates
+
+ROLE OF THE PDK1 PH DOMAIN
+
+3271
+
+11.
+
+35.
+
+36.
+
+12.
+
+37. 38.
+
+13.
+
+14.
+
+39.
+
+15.
+
+40.
+
+16.
+
+41.
+
+17.
+
+42.
+
+18. 19.
+
+43.
+
+44.
+
+20.
+
+21.
+
+45.
+
+22.
+
+46.
+
+23. 24.
+
+47.
+
+48.
+
+25. 26.
+
+49.
+
+27. 28.
+
+50.
+
+29.
+
+51.
+
+30.
+
+52. 53.
+
+31.
+
+54.
+
+32.
+
+55.
+
+33.
+
+56.
+
+34.
+
+hepatic metabolism by directly inhibiting PGC-1 transcription coactivator. Nature 447:1012­1016. Lipina, C., X. Huang, D. Finlay, E. J. McManus, D. R. Alessi, and C. Sutherland. 2005. Analysis of hepatic gene transcription in mice expressing insulin-insensitive GSK3. Biochem. J. 392:633­639. Logie, L., A. J. Ruiz-Alcaraz, M. Keane, Y. L. Woods, J. Bain, R. Marquez, D. R. Alessi, and C. Sutherland. 2007. Characterisation of a protein kinase B inhibitor in vitro and in insulin treated liver cells. Diabetes 56:2218­2227. Lucocq, J. M. 2007. Efficient quantitative morphological phenotyping of genetically altered organisms using stereology. Transgenic Res. 16:133­145. McManus, E. J., B. J. Collins, P. R. Ashby, A. R. Prescott, V. Murray-Tait, L. J. Armit, J. S. Arthur, and D. R. Alessi. 2004. The in vivo role of PtdIns(3,4,5)P(3) binding to PDK1 PH domain defined by knockin mutation. EMBO J. 23:2071­2082. Milburn, C. C., M. Deak, S. M. Kelly, N. C. Price, D. R. Alessi, and D. M. Van Aalten. 2003. Binding of phosphatidylinositol 3,4,5-trisphosphate to the pleckstrin homology domain of protein kinase B induces a conformational change. Biochem. J. 375:531­538. Montagne, J., M. J. Stewart, H. Stocker, E. Hafen, S. C. Kozma, and G. Thomas. 1999. Drosophila S6 kinase: a regulator of cell size. Science 285: 2126­2129. Mora, A., A. M. Davies, L. Bertrand, I. Sharif, G. R. Budas, S. Jovanovic, V. Mouton, C. R. Kahn, J. M. Lucocq, G. A. Gray, A. Jovanovic, and D. R. Alessi. 2003. Deficiency of PDK1 in cardiac muscle results in heart failure and increased sensitivity to hypoxia. EMBO J. 22:4666­4676. Mora, A., D. Komander, D. M. Van Aalten, and D. R. Alessi. 2004. PDK1, the master regulator of AGC kinase signal transduction. Semin. Cell Dev. Biol. 15:161­170. Mora, A., C. Lipina, F. Tronche, C. Sutherland, and D. R. Alessi. 2005. Deficiency of PDK1 in liver results in glucose intolerance, impairment of insulin-regulated gene expression and liver failure. Biochem. J. 385:639­648. Murray, J. T., D. G. Campbell, N. Morrice, G. C. Auld, N. Shpiro, R. Marquez, M. Peggie, J. Bain, G. B. Bloomberg, F. Grahammer, F. Lang, P. Wulff, D. Kuhl, and P. Cohen. 2004. Exploitation of KESTREL to identify N-myc downstream-regulated gene family members as physiological substrates for SGK1 and GSK3. Biochem. J. 384:477­488. Nicholls, A., K. A. Sharp, and B. Honig. 1991. Protein folding and association: insights from the interfacial and thermodynamic properties of hydrocarbons. Proteins 11:281­296. Nobukuni, T., S. C. Kozma, and G. Thomas. 2007. hvps34, an ancient player, enters a growing game: mTOR complex1/S6K1 signaling. Curr. Opin. Cell Biol. 19:135­141. Okamoto, Y., W. Ogawa, A. Nishizawa, H. Inoue, K. Teshigawara, S. Kinoshita, Y. Matsuki, E. Watanabe, R. Hiramatsu, H. Sakaue, T. Noda, and M. Kasuga. 2007. Restoration of glucokinase expression in the liver normalizes postprandial glucose disposal in mice with hepatic deficiency of PDK1. Diabetes 56:1000­1009. Pende, M., S. H. Um, V. Mieulet, M. Sticker, V. L. Goss, J. Mestan, M. Mueller, S. Fumagalli, S. C. Kozma, and G. Thomas. 2004. S6K1 / / S6K2 / mice exhibit perinatal lethality and rapamycin-sensitive 5 -terminal oligopyrimidine mRNA translation and reveal a mitogen-activated protein kinase-dependent S6 kinase pathway. Mol. Cell Biol. 24:3112­3124. Peng, X. D., P. Z. Xu, M. L. Chen, A. Hahn-Windgassen, J. Skeen, J. Jacobs, D. Sundararajan, W. S. Chen, S. E. Crawford, K. G. Coleman, and N. Hay. 2003. Dwarfism, impaired skin development, skeletal muscle atrophy, delayed bone development, and impeded adipogenesis in mice lacking Akt1 and Akt2. Genes Dev. 17:1352­1365. Rexhepaj, R., F. Grahammer, H. Volkl, C. Remy, C. A. Wagner, D. Sandulache, F. Artunc, G. Henke, S. Nammi, G. Capasso, D. R. Alessi, and F. Lang. 2006. Reduced intestinal and renal amino acid transport in PDK1 hypomorphic mice. FASEB J. 20:2214­2222. Rintelen, F., H. Stocker, G. Thomas, and E. Hafen. 2001. PDK1 regulates growth through Akt and S6K in Drosophila. Proc. Natl. Acad. Sci. USA 98:15020­15025. Sabatini, D. M. 2006. mTOR and cancer: insights into a complex relationship. Nat. Rev. Cancer 6:729­734. Sancak, Y., C. C. Thoreen, T. R. Peterson, R. A. Lindquist, S. A. Kang, E. Spooner, S. A. Carr, and D. M. Sabatini. 2007. PRAS40 is an insulinregulated inhibitor of the mTORC1 protein kinase. Mol. Cell 25:903­915. Stokoe, D., L. R. Stephens, T. Copeland, P. R. Gaffney, C. B. Reese, G. F. Painter, A. B. Holmes, F. McCormick, and P. T. Hawkins. 1997. Dual role of phosphatidylinositol-3,4,5-trisphosphate in the activation of protein kinase B. Science 277:567­570. Tschopp, O., Z. Z. Yang, D. Brodbeck, B. A. Dummler, M. HemmingsMieszczak, T. Watanabe, T. Michaelis, J. Frahm, and B. A. Hemmings. 2005. Essential role of protein kinase B gamma (PKB gamma/Akt3) in postnatal brain development but not in glucose homeostasis. Development 132:2943­ 2954. Verdu, J., M. A. Buratovich, E. L. Wilder, and M. J. Birnbaum. 1999. Cell-autonomous regulation of cell and organ growth in Drosophila by Akt/ PKB. Nat. Cell Biol. 1:500­506.
+
+Downloaded from mcb.asm.org at SAECHS-LANDESBIBLIOTHEK on April 5, 2010
+
+3272
+
+BAYASCAS ET AL.
+
+MOL. CELL. BIOL.
+61. Wullschleger, S., R. Loewith, and M. N. Hall. 2006. TOR signaling in growth and metabolism. Cell 124:471­484. 62. Yang, Z. Z., O. Tschopp, N. Di-Poi, E. Bruder, A. Baudry, B. Dummler, W. Wahli, and B. A. Hemmings. 2005. Dosage-dependent effects of Akt1/ protein kinase B (PKB ) and Akt3/PKB on thymus, skin, and cardiovascular and nervous system development in mice. Mol. Cell. Biol. 25: 10407­10418. 63. Yang, Z. Z., O. Tschopp, M. Hemmings-Mieszczak, J. Feng, D. Brodbeck, E. Perentes, and B. A. Hemmings. 2003. Protein kinase B alpha/Akt1 regulates placental development and fetal growth. J. Biol. Chem. 278:32124­32131. 64. Zaru, R., N. Ronkina, M. Gaestel, J. S. Arthur, and C. Watts. 2007. The MAPK-activated kinase Rsk controls an acute Toll-like receptor signaling response in dendritic cells and is activated through two distinct pathways. Nat. Immunol. 8:1227­1235.
+
+57. Voshol, P. J., G. Haemmerle, D. M. Ouwens, R. Zimmermann, R. Zechner, B. Teusink, J. A. Maassen, L. M. Havekes, and J. A. Romijn. 2003. Increased hepatic insulin sensitivity together with decreased hepatic triglyceride stores in hormone-sensitive lipase-deficient mice. Endocrinology 144:3456­3462. 58. Whiteman, E. L., H. Cho, and M. J. Birnbaum. 2002. Role of Akt/protein kinase B in metabolism. Trends Endocrinol. Metab. 13:444­451. 59. Williams, M. R., J. S. Arthur, A. Balendran, J. van der Kaay, V. Poli, P. Cohen, and D. R. Alessi. 2000. The role of 3-phosphoinositide-dependent protein kinase 1 in activating AGC kinases defined in embryonic stem cells. Curr. Biol. 10:439­448. 60. Wulff, P., V. Vallon, D. Y. Huang, H. Volkl, F. Yu, K. Richter, M. Jansen, M. Schlunz, K. Klingel, J. Loffing, G. Kauselmann, M. R. Bosl, F. Lang, and D. Kuhl. 2002. Impaired renal Na( ) retention in the sgk1-knockout mouse. J. Clin. Investig. 110:1263­1268.
+
+Downloaded from mcb.asm.org at SAECHS-LANDESBIBLIOTHEK on April 5, 2010
+
+

@@ -1,0 +1,338 @@
+COMPUTER PHYSICS COMMUNICATIONS 2 (1971) 231-237. NORTH-HOLLAND PUBLISHING COMPANY
+
+COMPUTATION
+
+OF
+
+BRODY-MOSHINSKY
+
+BRACKETS
+
+A. LEJEUNE * International Centre for Theoretical Physics, P.O. Box 586, Miramare, 34100 Tneste, Italy and J. P. JEUKENNE Theoretical Nuclear Physics, University of Liege, Sart Tilman, 4000 Liege 1, Belgium Received 10 February 1971
+
+PROGRAM
+
+SUMMARY
+
+Title of program (32 characters maximum): BRODY-MOSHINSKY BRACKETS Catalogue number: ABGC Computer for which the program is designed and others upon which it is operable Computer: IBM 360/65. Installation: University of Liege Operating system or monitor under which the program is executed: OS 360 Programming languages used: FORTRAN IV(G) High speed store required: 8130 words. No. of bits in a word: 64 Is the program overlaid? No No. of magnetic tapes required: None What other peripherals are used? Card Reader; Line Printer No. of cards in combined program and test deck: 579 Card punching code: BCD (026) CPC Library subprograms used Catalogue number: ABMA; Title: RACAH; Ref. in CPC: 1 (1970) 337 Keywords descriptive of problem and method of solution: Nuclear, Nuclear Spectra, Nuclear Structure, Two--Body Operator Matrix Elements, Hartree--Fock Calculations, Brody--Moshinsky Brackets. Nature of the physical problem The program computes the Brody-Moshinsky brackets (nl, NL, XInili, n2l2, X) defined in refs. [1,2] and appearing in the calculation of matrix elements of two--body operators, when the single particle radial wave functions are those of a harmonic oscillator. Such matrix elements are encountered in shell-model and Hartree--Fock calculations. Method of solution A recursion relation [2] connecting Brody--Moshinsky brackets (B.M.B.) with increasing ni, n~indices is used. The structure of the program is such that a minimum size core is needed to calculate the B.M.B. Restrictions on the complexity of the problem In the present form of the program, restrictions
+*
+
+come only from the allowed dimensions ficient for values of the indices n 1, n2 ~ values of the indices, these dimensions increased, so that the size restrictions the computer storage available.
+
+which are suf-- 5. For higher may easily be depend only on
+
+Typical running time The running time is 0.40 sec for indices n~,n2 equal to 0, 1 on the IBM 360/65 computer at the University of Liege. References [1] M. Moshinsky, NucI. Phys. 13 (1959) 104. [2] T.A.Brody and M.Moshinsky, Tables of transformation brackets (Gordon and Breach, London, 1967). [3] T. Tamura, Computer Phys. Commun. 1 (1970) 337.
+
+Chercheur LI.S.N., on leave from the University of Liege, Belgium.
+
+232
+
+A. LEJEUNE and J. P. JEUKENNE LONG-WHITE UP
+
+1. iNTRODUCTION 1,n2 knowing the BMB for n1 - 1, n2 or n1 , n2 - 1. The procedure is the following. The indices of the BMB generated step by step when the index n2 decreases are determined; the same is done for the index nl at each step of n2. The BMB for n1 = n2 = U are calculated as well as the intermediate ones needed for the recursion relation which finally leads to the desired BMB. This procedure is carried through with the help of three vectors IC, IA and E. The odd elements of IC indicate the number of BMB generated for each value of n1 or n2 given by the next even element of IC. The maximum dimension reached in IC is MC. The elements of IA are grouped in sets of five elements. Each set describes the indices n', 1', N', L' respectivel and a number associated with the particular formula for the matrix element Knl,NL,xl -~~n'l',N'L',x) needed and to be defined below. The maximum dimension reached in IA is MAX. Finally, the vector E collects the intermediate BMB. The second element of E gives the required BMB. The maximum dimension of E is MC/2. rhe program uses a recursion relation to calculate Brody-Moshinsky Brackets (BMB) for any n
+
+2. MATHEMATICAL METHOD The formulae coded in this program are described in ref. [lJ. (nl,NL,xIn1+1l1,n212,x)
+=
+
+The recursion relation used is:
+
+(1) {(n1 +1)(n1 +li +~)]1/2 with the energy condition
+2n+ l+2N+ L=2(n1+l) ~ (nl,NL,~i~ --rjn'l',N'L',X~i~(n'l',N'L',Xjn1l1,n2l2,X)
+
+n ,l ,N ,L' +11 +2n2 +12.
+
+This formula enables one to calculate the BMB for n1 +l,n2 from the BMB for n ,n2 and matrix elements of -r~. The formulae for these matrix elements may be found in table 1 o~ ref. [lJ. Calculation of any BMB thus implies starting from the BMB for n1 = 0, n2 = 0 [1]: / ll!12! (21 + 1)(2L +1) (n +1)1 (N +L)! 11/2
+
+r
+
+\fl
+
+,NL,X
+
+1'�12'x1
+
+L(211)!(2l2),!
+
+21+L
+
+n!(2n+2l+1)!N!(2N+2L +1)!] (2)
+
+x(_l)~f~~X ~(2x+1)A(l1l,l2L,x)W(lLl1l2
+
+Xx)
+
+the summation index x being limited to the following values: ji-i~[ ~x~l+l1 IL-i2! ~x~L+l2
+
+The function A is defined by: A(l11,l2L,x)
+
+=
+
+r( [
+
+1i + t-~-x+1)!(l
+
+(l+x-l1)!
+
+1+ 1-- x)!(i~ +x-- 1)! (12 +L+x+1)!(l2 +L
+
+(L+x-12)!
+
+x)Ul2 +X
+
+J
+(3)
+-
+
+x~ q
+
+-
+
+1)~(l+q--l1) +q -(l+q-- li)! 11 [~(i i1)]![~(i +
+
+-
+
+1 q)]! (q - x)'!(q +x + 1)!. [~(L +q (L+q--i~)! 12 - i2)j1[~(L +
+
+q being restricted to non negative values for which 1 + q - i~is even. Finally, W(1L11112 Ax) is a Racah coefficient. The program takes care of the energy conservation and of the triangular inequality conditions.
+
+BRODY-MOSHINSKY BRACKETS
+
+233
+
+MAIN
+
+1
+
+I
+
+BRODV].--.~ BRNO
+
+INDIC
+
+1 1
+j
+
+FACT
+
+BROO
+
+ISRIN
+
+RACAH
+
+~ LCOEF
+
+H
+
+FACBIN
+
+Fig. 1.
+SUBROUTINE BROi] COMMONIBLOC 2/BRNN.NI.N2,LI,L2.LA,N,L.N6.L6 DIMENSION IA.IC.~AZ.E, CALL rACBIN
+
+BRNN .0 RETURN K0.0. IAZ(l).N.1A2(2).L IA2(3).NS.IA2(~).Le,IA2(5).0 .0 NO CALL BRNO(BRNN.1A2.LA,L1.L2,NI,O) RETURN
+
+IL_CALL INDIC( IAZ,NAX,MC,LA,LI .L2,N1,ND.2.IA.IC) MY.MAX
+DO K.MC.4.-2 5.0 ~X.IC(K--1) DO_i1!1 .10 D0 J.l.5 IA2(J).!A(MY--5~J)
+
+톀NO(BRX,IAZ.LA,LI.L2.NI.O) I
+{iiiIID.K0 -11,1 I DRX.E~LR) CALL FACT(CO.1A2.LA,2) X.BRX*COISORT((IC(MX*I)*(IC(MX),L2,I.3)) S.S,x 14Y.14Y-5 15.102 E(IR).S 0~~ ~ BRNN.E(2) RETURN
+
+Ii~50-1C(5-I~11
+
+~
+
+OOic3~2
+
+~5b.KO.1C(K3-ifl
+
+I
+
+RO.KO.IC(53-ii]
+
+EKED
+Fie~ 2
+
+234
+
+A. LEJEUNE and J.P.JEUKENNE
+
+3. PROGRAM STRUCTURE
+The general flow diagram is illustrated by fig. 1.
+
+The main program simply reads the input data Ni, N2, Li, L2, LA, N, L, NG, LG which stand for
+the indices n 1, fl2, 11, 12, A, n, 1, N, L respectively of the BMB (ni,NL,Xjn1l1,n212, A)to be calculated. Subroutine BRODY calculates the required BMB. Communication between the main program and BRODY is established by the list
+
+COMMON/BLOC2/BRNN, Ni, N2, Li, L2, LA, N, L, NG, LG where BRNN is the desired BMB. The flow diagram for this routine is shown in fig. 2. Subroutine BRNO (BRNN, IA2, LA, Li, L2, Ni, 0) calculates the BMB forn2 = 0; 1A2 is a vector of componentsn, 1, N, L. Subroutine INDIC (1A2, MAX, MC, LA, Li, L2, Ni, N2, IH, IA, IC) builds the two vectors IC, IA and calculates their maximum dimensions MC and MAX respectively. The quantity IH is given the value 1 or 2 if 1NDIC is called by BRODY or BRNO respectively. The flow diagram for ~NDIC is shown in fig. 3. Subroutine ISRIN (IA1, IB, K, LA, Li, L2, MH, MK) determines the necessary combinations of n', 1', N', L' starting from the input indices IA1 (n, 1, N, L); K gives the number of these combinations. The matrix lB contains the resulting indices n'l'N'L' and a number which refers to the special formula to be used for calculating the matrix element of -ri. The quantities MH and MK have values associated
+
+I
+
+SUBROUTINE
+
+INOIC (151
+
+MAX.MC,LA,LI.L2,N,,N2.IH,IA.IC)
+
+I
+
+DIMENSION IA,IC,IAI,IB 001.1,5
+
+~I1~I1
+
+.
+
+IA1(I)
+
+D014.1.IX 0015.1,5
+
+IX. IC(IZ> IA1 (15).IA(NBR.IB,(14--1).5
+
+MH.NC-1 NK.NZ
+
+NH. NI MI1.NC.1
+
+I
+~
+
+CALLISRIN(IAI,IB,K,LA,L1,L2.MH,MK) DO 16.1,5 0017 .1,5
+
+I
+
+I~MAX.l7}.IB(I1,l6)
+[MAX.MAX.5
+
+I
+
+I
+
+IC (N C .1) � S IC(MC.2) .NC-I NC.MC.2
+
+NO NC.O RETURN
+
+I
+
+N BR � N BR � 10* 5 12.12.2 NC.NC-~j
+
+~z~:i~2No.
+
+Fig. 3.
+
+BRODY-MOSHINSKY BRACKETS
+
+235
+
+with the origin of the CALL ISRIN i.e. either BRODY or BRNO, and serve to ensure the energy conservation rule. Subroutine FACT (CO, 1A2, LA, III) calculates the matrix elements of -r~or -r~. The result is given by CO. Communiration with the subroutine RACAH [2] is established by the 1is~I COMMON/BLNJR/RAC, JA, JB, JC, JD, JE, JF Subroutine BROO (ABRNO, 1A2, LA, Li, L2) computes the BMB for n 1 = = 0, the result being the quantity ABRNO. Communication with the subroutines RACAH and FACBIN are established through the list COMMON/BLOC1/FL(130)/BLNJR/RAC, JA, JB, JC, JD, JE, JF where the elements of the vector FL are the logarithms of the factorials calculated in FACBIN [2]. Subroutine COEF (Li, L, L2, LG, LX, A) computes the coefficient A given by eq. (3), the index LX corresponding to the index x in eq. (3). Subroutine FACBIN [2] calculates and stores the logarithms of the factorials required in the calculation. This subroutine is called, once for all, at the beginning of the main subroutine. Subroutine RACAH has been described in ref. [2]. In its present form, the program provides 200, 1000 and 100 locations for IC, IA and E respectively, which are sufficient for n1,n~ ~ 5. It is of course possible to increase these locations if necessary. 4. INPUT AND OUTPUT DATA All the input indices Ni, N2, Li, L2, LA, N, L, NG, LG necessary for the calculation of one BMB are integer quantities. These are transmitted to the main subroutine by the first COMMON field. The output data reproduce the above input indices and the corresponding BMB. In the present test run, the calculated BMB can be compared with those contained in ref. [2].
+
+ACKNOWLEDGEMENT One of us (A. L.) is grateful to Professor Abdus Salam, the International Atomic Energy and UNESCO, for hospitality at the International Centre for Theoretical Physics, Trieste, where an important part of this work has been done.
+
+REFERENCES
+[1] T.A. Brody and M. Moshinsky, Tables of transformation brackets (Gordon and Breach, London, 1967). [2] T. Tamura, Computer Phys. Commun. 1 (1970) 337.
+
+236
+
+A. LEJEUNE and J. P. JEUKENNE TEST RUN OUTPUT
+COMPUTATION OF THE BROOY--MOSHINSI(Y COEFFICIENTS
+
+N1= 0 N2= 0 L1
+
+5 L2
+
+6 lAs 6 N= 1 1
+
+3 NG= 0 LG= 6 BROOY=--O.29514914D 00
+
+~41 0 N2= 0 11= 6 12= 6 IA= 7 N= 1 L= 3 NG= 1 LG= 5 BRODY= 0.188810290 00 r41= 0 N2= 0 11= 0 L2= 0 14= 0 N= 0 1= 0 NG= 0 IG= 0 BROOY= 0.100000000 01 N1 0 N2 0 11= 6 L2= 6 14= 0 N= 0 1= 0 NG 0 10= 6 BROOY 0.0
+
+Nl= 0 N2= 0 11= 1 12= 5 14= 4 N= 0 ~
+N1= 0 N2= 0 11
+
+~ NG= 0 10= 1 BRODY=--O.1111111ID 00
+
+3 L2= 4 14= 5 N= 0 t= 6 NG= 0 16= 1 BRODy= 0.284901440--01 0 1= 4 NG= 0 16= 4 8R00Y 0.0
+
+N1= 0 N2= 0 11= 3 L2= 5 14= 2 N
+
+Nl= 0 N2
+
+0 L1
+
+5 12= 5 16=10 N= 0 1=10 NG= 0 LG
+
+0 BRODY=--O.,49607837D 00
+
+Nl= 0 N2= 0 11= 6 12
+
+6 16=12 N= 0 1=12 NG= 0 16= 0 BR0DV= 0.474958880 00
+
+N1= 1 P42= 0 11= 1 12= 1 16= 1 P4= 0 1= 1 NG= 1 16= 1 BROOY= O.500000000 00 N1 I N2 0 L1 1 12= 6 14~ 5 N= 2 1= 4 NG 0 16= 1 BRODY~0,2l650635D 00
+
+P41= 1 P42= 0 11= 2 12= 6 16= 5 P.1= 2 1= 4 NG= 0 16= 2 BROOY= 0.250000000 00 P41= 1 N2= 0 11= 2 L2= 6 14= 5 P4= 0 1= 5 NG= 2 16= 1 BROUY=--O,22969488D--01 P41= 1 N2= 0 L1= 2 L2= 4 16= 3 P4= 1 1= 4 P46= 0 LG= 2 BRODY=--0.313391590 00 P41= 1 P42= 0 11= 2 12= 4 14= 5 P4= 0 1= 1 N6 1 LG= 5 BRODY= 0.340692570 00
+
+P41= 2 P42= 0 L1= 1 12= 6 LA= 5 N= 0 1= 5 P46= 1 16= 4 BROOY=--0.10560686D 00 P41= 2 P42= 0 11= 1 12= 4 16= 3 P4= 0 1= 0 NG= 3 16= 3 BROOY= 0.165407660 00 P41= 2 P42= 0 11= 2 12= 4 14= 5 N 2 1= 1 NG= 0 16= 5 SRODV=--0.559016990--01
+
+P41= 3 N2= 0 11= 0 12= 6 14= 6 P4= 1 1= 8 P40= 0 10= 2 BROOY= 0,197033280 00 P41= 3 P42= 0 11= 0 L2= 0 LA= 0 P4= 0 1= 0 P46= 3 16= 0 BRO0Y= 0.125000000 00 P41= 3 N2= 0 11= 0 12= 3 16= 3 N 3 1= 0 P46= 0 10= 3 RRODV=--O.29041886D--O1
+
+N1= 0 P42= 1 11= 1 L2= 3 14= 2 P4= 0 L= 0 P46= 2 16= 2 BRODY= 0, 193649170 00 P41= 0 P42= 1 11= 2 12= 4 IA= 2 N= 0 1= 3 P46= 1 LG= 3 BROOY=--0.228868850--01 P41= 0 P42= 1 11= 4 12= 4 LA= 8 N= 0 1= 6 P46= 0 16= 4 BRODY= 0.0 P41= 0 P42= 2 11= 1 L2= 2 14= 3 P4= 0 1= 0 P46= 2 16=
+-
+
+BRODY= 0.191912370 00
+
+P41= 0 P42= 2 11= 2 L2= 2 16= 4 P4= 0 L= 5 P46= 0 16= 3 BRODY= 0.0 P41= 0 N2= 3 11= 0 12= 0 14= 0 N= 1 1= 1 P46= 1 16= 1 BROOY=--0.512347540 00 P41= 1 P42= 1 11= 1 12= 1 14= 2 P4= 0 1= 3 P46= 1 16= 1 BROOV= 0.0
+
+P41= 1 P42= 1 11= 1 12= 4 16= 5 N= 1 1= 1 NG= 1 LG= 4 8RODY=--0.62675374D--01 P41= 1 N2= 1 11= 4 12= 4 14= 8 P4= 2 1= 8 P46= 0 16= 0 BRODY 0.335720460 00
+
+N1= 2 N2= 1 11= 0 12= 2 14= 2 P4= 0 1= 0 P46= 3 16= 2 RRODY= 0.278107440 00 P41= 2 P42= 1 L1 2 L2= 3 16= 4 P4= 0 1= 1 P46= 3 16= 4 BROOY= 0.257874500 00 1 1= 2 NG= 0 16= 4 SROOY=--O.16431677D 00
+
+N1= 1 P42= 2 L1= 1 12= 1 14= 2 N
+
+BRODY-MOSHINSKY BRACKETS N1 1 P42= 2 11= 2 12= 2 (.4= 2 P4= 1 1= 4 P46= 0 16= 4 BRODY_.0.224489800 00
+
+237
+
+P41= 2 N2= 2 11= 0 12= 0 14= 0 P4= 0 1= 0 P46= 4 10= 0 BROOY= 0.313747510 00 P41= 2 P42= 2 11= 1 12= 1 14= 0 P4= 1 1= 1 NG= 3 16= 1 BRODY= 0.0 P41= 2 P42= 1 11= 1 12= 3 14= 2 P4= 1 1= 4 NOr 1 10= 2 BRODY=_0.192543210 00 P41= 1 N2= 1 11= 3 12= 4 14= 7 P4 1 1= 6 P40= 0 16= 3 BROOV= 0.39510317D--01
+
+P41= 1 P42= 1 11= 4 12= 4 14= 0 P4= 0 1= 0 P40= 6 10= 0 BRODY= 0.177920890 00 N1= 2 P42= 2 11= 2 L2= 2 14= 0 N= 3 1= 0 NG= 3 10= 0 BRODY=--0.247564670 00 P41= 3 P42= 1 11= 0 12= 3 14= 3 P4= 0 1= 2 P46= 3 16= 3 BROOY=--0.195712981) 00 P41= 3 N2= 3 11= 0 12= 0 14= 0 N= 1 1= 4 NG= 1 10= 4 SRODY= 0.428571430--01 P41= 3 P42= 3 11= 0 12= 0 14= 0 P4= 0 1= 0 P46= 6 16= 0 BRODY= 0.244641230 00 P41= 3 N2= 3 11= 0 12= 0 14= 0 P4= 6 1= 0 P40= 0 16= 0 PROOY= 0.244641230 00 P41= 3 P42= 2 11= 0 12= 1 14= 1 P4= 0 1= 5 P46= 0 16= 6 BRODY P41= 3 P42= 2 11= 0 12= 2 14= 2 P4= 0 1= 1 N0 0.364215680 00
+
+4 10= 3 BRODY= 0.109406880 00
+
+N1= 3 N2= 2 11= 0 L2= 2 14= 2 P4= 3 1= 3 NG= 0 10= 3 BRODY= 0.412599190--01 N1= 3 P42= 2 11= 0 12= 2 14= 2 P4= 1 1= 4 NG= 1 10= 4 BROOV 0.222924210--01
+
+P41= 3 P42= 2 11= 0 12= 2 14= 2 N= 2 1= 2 P40= 2 10= 2 BROOY=--0.135057600 00 P41= 3 N2= 1 11= 0 12= 4 14= 4 P4= 1 1= 7 NG= 0 IG= 3 BROOY=--0.200614590 00 N1 3 P42= 1 11= 0 12= 4 14= 4 N= 3 1= 2 P46= 1 16= 2 BROOY 1 11= 0 12= 3 14= 3 P4= 2 1= 2 NG= 0 16= 5 BROOY 0. 143000570 00 0.149234090 00
+
+P41= 3 N2 N1
+
+3 P42= 1 11= 0 12= 4 14= 4 P4= 1 1
+
+6 P46= 1 16= 2 SROOV= 0.122777080 00
+
+P41= 3 P42= 1 11= 0 12= 2 14= 2 P4= 1 1= 2 NOr 2 16= 2 BR0DY=--0.109788760 00 P41 3 P42= 1 11= 0 L2= 3 14= 3 P4= 0 1= 0 NG 1 L1 4 10= 3 BROOY= 0.199748730 00
+
+P41= 3 N2
+
+0 12= 3 14= 3 P4= 0 1= 5 P46= 0 16= 6 BRODV= 0.227128380 00 0 12= 3 14= 3 14= 2 1= 1 116= 2 10= 2 BROOY=--0.502680500--01 2 1= 4 P46= 0 10= 2 BROOY= 0.0 0.43301270D--01
+
+P41= 3 N2= 1 L1
+
+P41= 3 P42= 1 11= 0 12= 2 14= 2 N P41= 2 P42= 3 L1 N1
+
+0 12= 0 14= 0 P4=3 1= 1 P46= 1 10= 1 BROOY
+
+2 P42= 2 11= 2 12= 2 14=4
+
+P4= 3 1= 1 P46= 1 16= 3 BROOY= 0.0
+
+P41= 2 P42= 2 11= 2 12= 2 14= 4 N= 2 1= 6 P46= 0 10= 2 BRODY=--0.255444310 00 P41 2 112= 2 11= 2 12= 2 14= 2 P4= 2 1=0 P46= 3 16= 2 BROOY 0.764597170--02 0.234878660 00
+
+P41= 2 P42= 2 11= 2 12= 2 15= 2 P4= 3 1= 2 P40= 1 16= 2 BRODY
+N1 2 P42
+
+2 11= 2 12= 2 15= 3 P4= 3 1= 3 NG= I 16= 1 BROOY=--0.165407660 00
+
+P41= 3 P42=3
+
+11= 0 12= 0 15= 0 P4= 0 1= 0 P40= 6 16= 0 BRODV= 0.244641230 00
+
+P41= 3 P42= 3 11= 0 12= 0 IA= 0 P4= 4 1= 2 P46= 0 16= 2 BRODV=--0.309449400 00
+
+P41= 3 P42= 3 11= 0 12= 0 14= 0 P4= 3 1= 2 NG= 1 LG= 2 BRDDY=--064878222D--01 N1 3N2311 012=014=0 N5 1=1 NGOIG1 BROOY 0.0
+
+

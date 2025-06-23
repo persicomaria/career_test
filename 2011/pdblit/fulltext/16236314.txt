@@ -1,0 +1,188 @@
+201
+
+Recent advances in FRET: distance determination in protein­DNA complexes Alexander Hillisch*, Mike Lorenz and Stephan Diekmann§
+Fluorescence resonance energy transfer (FRET) provides information on the distance between a donor and an acceptor dye in the range 10 to 100 Å. Knowledge of the exact positions of some dyes with respect to nucleic acids now enables us to translate these data into precise structural information using molecular modeling. Advances in the preparation of dye-labeled nucleic acid molecules and in new techniques, such as the measurement of FRET in polyacrylamide gels or in vivo, will lead to an increasingly important role of FRET in structural and molecular biology.
+Addresses *EnTec GmbH, Adolf-Reichwein-Straße 20, D-07745 Jena, Germany; e-mail: alexander.hillisch@jenapharm.de Institut für Molekulare Biotechnologie, Beutenbergstraße 11, D-07745 Jena, Germany e-mail: mlorenz@imb-jena.de §e-mail: diekmann@imb-jena.de Current Opinion in Structural Biology 2001, 11:201­207 0959-440X/01/$ -- see front matter © 2001 Elsevier Science Ltd. All rights reserved. Abbreviations A acceptor BIFL burst-integrated fluorescence lifetime bp base pair CAP catabolite activator protein Cy3 cyanine-3 D donor Fl 6-fluorescein FRET fluorescence resonance energy transfer HMG high-mobility group IHF integration host factor Förster distance R0 TBP TATA-binding protein TMRh 5-tetramethylrhodamine
+
+and, using fluorescent proteins in fusions, FRET can be measured in vivo. In this commentary, we mainly focus on the study of protein­DNA complexes. Three-dimensional information on nucleoprotein complexes originates mainly from X-ray crystallography and NMR spectroscopy; both techniques are labor intensive and require large amounts of material. The resolution of light microscopy is limited to distances greater than about 200 nm. Cryo-electron microscopy allows us to deduce global structural features of large protein­DNA complexes [3], but does not directly yield information of low angstrom resolution. Atomic force microscopy (AFM) [4] is generally limited to surfaces. FRET is unique in its ability to provide accurate longrange distance information (10­100 Å) in solution under physiological conditions. Recent advances have made FRET a powerful tool for structural molecular biology.
+
+Principles of FRET measurements
+FRET is a photophysical process in which energy is transferred from a fluorophore (the energy donor, D) in an excited state to another chromophore (the energy acceptor, A). The transfer of energy is a nonradiative long-range (~10­100 Å) dipole­dipole coupling process [5]. The particular advantage of FRET is the dependence (and thus sensitivity) of the energy transfer efficiency (E) on the sixth power of the distance (R) between the chromophores [6]:
+E= R06 R 06 + R6
+
+Introduction
+Fluorescence resonance energy transfer (FRET) provides distance information on labeled biomolecules in the range 10 to 100 Å, a range that is not easily accessible using other biophysical techniques in solution. The position of the dye cyanine-3 (Cy3) stacking on top of a C·G base pair (bp) at the ends of helical DNA is known [1] and evidence is accumulated on the position of fluorescein and rhodamine (see below) [2]. This allows absolute distance values with errors of a few angstroms to be deduced. The measured FRET efficiency is transformed into distance values of particular precision when the dyes are separated by distances close to the Förster distance (R0). This optimal distance range can generally be applied as -- by introducing structural elements such as bulges -- nucleic acids can be constructed in which the helix ends come close in space. FRET efficiencies can also be quantitatively determined in polyacrylamide gels
+
+The Förster distance (R0) is a dye-pair-dependent parameter in the range up to 70 Å [7].
+
+Labeling biopolymers with dyes
+Often, FRET is used to measure distances in protein structures and their assemblies in solution [8]. Proteins contain intrinsic fluorophores (tryptophan and tyrosine). In addition, they can be labeled with dyes at defined sites, for example, cysteine residues. However, the multiple occurrence of intrinsic fluorophores and tethering sites for dyes reduces the interpretability of FRET data obtained with these chromophores. The known helical structure of double-stranded DNA and RNA can be exploited to determine the global structure of nucleic acids and nucleoprotein complexes. Well-defined sequences of DNA and RNA oligomers are now routinely synthesized and fluorescently labeled at the 3 or 5 termini, as well as within the DNA sequence. Dyes that bind to
+
+202
+
+Commentary
+
+Figure 1 The position of the dyes (a) Cy3 and (b) TMRh on DNA helix ends. The molecular surface of the DNA is shown in gray; the dyes are represented as stick models in black. The location of Cy3 with respect to a 10 bp selfcomplementary DNA duplex was determined using two-dimensional homonuclear NMR experiments [1]. The position of TMRh attached with a six-carbon linker to the 5 end of a DNA heptamer was modeled using systematic conformational search techniques [2]. An energetically favorable conformation of TMRh stacked on top of the DNA helix is shown. This conformation is supported by BIFL and FRET measurements [13].
+Current Opinion in Structural Biology
+
+(a)
+
+(b)
+
+the minor groove of DNA have also been used in FRET studies [9]. End labeling has three main advantages (when the shortest possible DNA is used): the dyes can be spatially separated from the binding protein to avoid protein­dye interactions; the DNA end sequence can be specifically designed to provide an identical chemical environment and, thus, the fluorescence properties of the dyes in a series of molecules can be derived; and the exact location of Cy3 on the DNA is known [1] and evidence is accumulated on the position of fluorescein and rhodamine [2]. In most studies, fluorescein and rhodamine are attached to the 5 ends. Because of its improved absorption and fluorescence properties, Cy3 will largely replace rhodamine as the acceptor in FRET studies. Additionally, in contrast to rhodamine, Cy3 can be directly attached to the oligonucleotides during synthesis.
+
+series of six DNA duplexes of increasing length (10­24 bp). The location of fluorescein was modeled on the basis of the measured dye-to-dye distances. The data are only consistent with the fluorescein linker adopting a maximally extended conformation. We calculated the distribution of fluorescein and 5tetramethylrhodamine (TMRh) conformations at DNA duplex ends using conformational sampling and energy minimization [2,11]. The majority of the fluorescein conformers point away from the DNA with an extended linker conformation, as a result of the electrostatic repulsion between the twofold negatively charged dye and the polyanionic DNA. This result is in agreement with anisotropy measurements [12] indicating that fluorescein freely rotates in solution. The calculated averaged fluorescein position is located 10 Å from the 5 termini in a virtual elongation of the DNA backbone (see Figure 2). In contrast to the fluorescein position pointing away from the DNA, our calculations indicate that the majority of the calculated TMRh conformers either interact with the DNA in the major groove or stack on top of the DNA helix [13] (see Figure 1). The interaction of TMRh with DNA was confirmed by anisotropy measurements [14] and burst-integrated fluorescence lifetime (BIFL) experiments show direct contacts of TMRh with only the last base pair of the DNA helix (C Seidel, personal communication). Further evidence for the stacked conformation was obtained from FRET measurements of a complex of 55 bp DNA with the integration host factor (IHF) protein [13]. On the basis of the crystal structure of IHF with nicked DNA [15], we calculated a molecular model that contains explicit dye positions. A comparison of our FRET data with the dye distances in the model shows that a quantitative agreement can only be obtained for the stacked position of TMRh, whereas positions in the major groove are not consistent with our FRET data. This is strong evidence that TMRh, like Cy3, stacks on top of the DNA helix end (see Figure 1b for a top view and Figure 2 for a side view).
+
+Positions of the dye molecules on DNA helix ends
+In FRET experiments, the energy transfer efficiency is dependent not only on the distance between the two dyes, but also on the orientation of the transition dipoles of the dyes. For an easy quantitative representation, at least one of the dyes should have rotational freedom [10], so that all dipole orientations occur with equal probability. In order to achieve this flexibility, the dyes are chemically attached to the DNA via alkyl chains (two to six carbon linkers). Because of the flexibility of the dyes and the associated uncertainty about the exact dye positions, so far it has not been possible to use dye-to-dye distances as exact restraints comparable to the NOE (nuclear Overhauser effect) restraints in NMR spectroscopy. Lilley and coworkers [1] solved this problem for the dye pair fluorescein­Cy3 and a specific DNA helix end sequence. They determined the NMR structure of Cy3 tethered to the 5 end of a 10 bp DNA duplex. The resulting geometry of the dye­DNA adduct shows Cy3 stacked on top of the DNA helix end, similar to an additional base pair (see Figure 1). To narrow down the position of the donor dye fluorescein, they measured the FRET efficiencies of a
+
+Distance determination in protein­DNA complexes Hillisch, Lorenz and Diekmann
+
+203
+
+Application of FRET to protein­DNA interactions
+Access to long-range distance information makes FRET a valuable tool for studying nucleic acid molecules (which are extended by their very nature). Specifically, protein-induced DNA deformation has been characterized using this method.
+TATA-binding protein
+
+The conformational change in a 14 bp dye-labeled DNA upon binding the TATA-binding protein (TBP) has been studied in solution with FRET [16]. A strong decrease in the dye-to-dye distances was observed in the complex compared with the naked DNA. The FRET data are in accord with a three-dimensional structure determined by X-ray crystallography [17]. A detailed kinetic study using FRET revealed two intermediate complex species with similarly bent DNA. TBP binding and DNA bending were shown to occur simultaneously [18].
+PAP1
+
+cis-platinated DNA binding site. Combining their data with modeling, they estimated a DNA bending angle of 80­95°, in contrast to a value of 60° found by X-ray analysis of the complex [34]. Lippard and colleagues assumed that the rhodamine, as well as the fluorescein, points away from the DNA helix. However, as the rhodamine seems to be stacked on the helical end, as suggested by our data, the DNA bending angle would become smaller, in better agreement with the X-ray data.
+Integration host factor
+
+The conformational change in a 26 bp DNA upon binding PAP1, a transcription factor homologous to human c-Jun that contains a basic region leucine zipper motif, has been studied in solution [19]. The authors conclude that the DNA adopts a bent conformation characterized by a bending angle of about 26°.
+High-mobility group
+
+The interaction of DNA with the protein IHF was studied in solution using FRET. The crystal structure of this protein [15] complexed with a 35 bp DNA fragment containing a nick shows that IHF induces a U-shaped DNA conformation. In order to check whether the DNA in the `physiological' complex (with intact DNA) adopts a similar conformation to that observed with the X-ray structure, the end-to-end distances of nicked and intact 55 bp DNA oligomers in the presence of IHF were measured using FRET [13]. For nicked DNA, the experimental dye-to-dye distance agrees within 1­2 Å of the distance between the dyes in a model based on the X-ray structure. The measured dye-to-dye distance of intact DNA is 4 Å greater than that of nicked DNA, suggesting that the intact and nicked DNA complexes with IHF have slightly different conformations in solution.
+RecA
+
+The high-mobility group (HMG) box is an 80 amino acid domain found in many DNA-binding proteins and transcription factors (for reviews, see [20,21]). In several studies, the interaction of HMG proteins with DNA was analyzed using FRET [22­26]. The transcription factors SRY (sex-determining region Y) and LEF-1 (lymphoid enhancer-binding factor 1) bind to DNA in a sequencespecific manner and induce a bend of 80­120°, as shown by NMR [27,28]. However, other HMG proteins bind less sequence-specifically. These proteins show elevated affinity for DNA distorted by cis-platinum [29], for bulged DNA [30] and for four-way junctions [31]. Heyduk et al. [22] studied the interaction of Chironomus HMG1a with a 30 bp double-stranded DNA using FRET between an europium chelate complex as the donor and terminally attached cyanine-5 (Cy5). They estimated a DNA bending angle in the complex of 150°. We studied the binding of Drosophila HMG-D and its homologs to a dA2-bulge-containing 18 bp DNA 5-labeled with fluorescein and rhodamine [23]. Molecular modeling was used to interpret the FRET data and to deduce a bending angle of 95° [32]. This value compares well with a bending angle of 110° observed in the X-ray structure of HMG-D bound to a 12 bp DNA [33]. Further structural details predicted by our model (which was based on NMR data, footprinting results and FRET) were confirmed by the subsequently published X-ray structure [33]. Using FRET, Lippard and co-workers [24] studied the global structure of HMG box B from HMG1 bound to a
+
+DNA strand exchange between a labeled 30 bp DNA duplex and a homologous 50-mer mediated by the DNA-dependent ATPase RecA from Escherichia coli was studied with FRET [35]. A kinetic analysis revealed the existence of three mechanistic steps subsequent to presynaptic filament formation in homologous recombination. The step size of base switching was estimated to range between 10 and 15 bp. In a FRET study by Radding et al. [36], it was shown that two eukaryotic homologs of RecA, namely hRad51 from Homo sapiens and scRad51 from Saccharomyces cerevisiae, propagated DNA strand exchange preferentially in the 53 direction [36].
+Polymerases
+
+FRET was used to investigate the relative orientation of a series of labeled single-stranded DNA template­primers with respect to the Klenow fragment of E. coli DNA polymerase I [37]. They used site-specific labeling of the protein and internal labeling with TMRh of the nucleic acids. The FRET data indicate that the single-stranded template DNA adopts a helical conformation when bound to the polymerase. Site-specific protein labeling was also used to monitor dynamic subunit changes of bacteriophage T4 polymerase [38]. On the basis of the X-ray structure [39] and FRET measurements, open subunit conformations of the polymerase were modeled [40].
+TyrR
+
+Internal labeling of double-helical DNA at four different sites, together with labeling of ATP, was used to measure
+
+204
+
+Commentary
+
+Figure 2
+
+Figure 3
+
+90 Å or 10 Å ? 1.0 D (FI) 56 Å A (TMRh) FRET efficiency 0.8 0.6 0.4 0.2 0.0 20 30 40
+
+(c)
+
+(d)
+
+
+
+(b)
+
+(a)
+
+50 60 70 Distance (Å)
+
+80
+
+90
+
+Current Opinion in Structural Biology
+
+A new principle for the detection and characterization of DNA bending that utilizes DNA molecules with helix ends close in space. The differences in the end-to-end distances of a straight 32 bp DNA (a) before and (b) after binding to CAP are small and cannot be detected with FRET [43]. In addition, undesirable dye­protein interactions could occur (marked with an asterisk). (c) The use of three-bulge DNA molecules with helix ends close in space circumvents these problems [44]. The difference in the end-to-end distance between (d) bound and (c) unbound DNA constructs is more distinct. The DNA structural changes caused by CAP binding are amplified using these constructs. In addition, undesirable dye­protein interactions are avoided. The dotted lines in the models symbolize FRET; the dotted arrows indicate CAP binding to DNA.
+
+Current Opinion in Structural Biology
+
+FRET analysis of IHF in complex with a 55 bp DNA [13]. The model is based on the X-ray structure of IHF bound to a nicked 35 bp DNA oligomer [15]. Explicit positions for 5-labeled dyes 6-fluorescein (Fl) (green) and TMRh (orange) are shown. DNA strands are colored according to the covalently attached dyes; the protein is depicted in blue. Large spheres indicate the hypothetical range of locations for the dyes. Without knowledge of the exact dye positions, the end-to-end distance of the DNA could, in principle, be interpreted to range between 10 and 90 Å. FRET measurements show a distance of 54.7 Å, which is in agreement with a dye-to-dye distance of 56 Å (black arrow) in this model.
+
+used). This illustrates a general problem. For spectroscopic reasons, physical contact between the dyes and the protein should be avoided. Thus, for complexation studies, longer substrate DNA has to be used, resulting in small changes in the Förster transfer efficiencies. By introducing DNA structural elements such as bulges, however, longer DNA molecules can be designed in which the helix ends are close to one another in space (in the range of R0). Using an iterative approach of molecular modeling, DNA synthesis and FRET measurements, we designed 22­65 bp DNA molecules with two or three dA5 bulges each separated by double-stranded sections of B-DNA [44]. A molecular model of a two-bulge DNA molecule with close helix ends is shown in Figure 4. Double-helical B-DNA regions can be used as substrates for protein binding. 65 bp DNA molecules containing three dA5 bulges (with the CAP-binding site in between) were constructed; the 5 end was labeled and used to monitor the binding of CAP by measuring FRET. A decrease in Förster transfer efficiencies from 21% with CAP (see Figure 3d) to 8% without CAP (see Figure 3c) was observed [44]. In order to interpret the FRET data at a high resolution, we determined the NMR structure of a DNA fragment containing a dA5 bulge [45] and modeled the multiple bulge molecules (see Figure 4).
+
+the distances between DNA and the active site of TyrR [41]. The location of the ATP-binding site could be modeled for this transcription factor.
+Catabolite activator protein
+
+The binding of catabolite activator protein (CAP) to straight DNA (see Figure 3a) leads to a significant bending of the nucleic acid molecule (see Figure 3b) [42]. However, only small differences in the energy transfer efficiencies were detected [43], as the dye-to-dye distance in the complex was about 90 Å, that is, considerably larger than the R0 (50 Å for the dye pair fluorescein­TMRh
+
+Distance determination in protein­DNA complexes Hillisch, Lorenz and Diekmann
+
+205
+
+Figure 4 Atomic model of a DNA molecule containing two dA5 bulges. The molecule consists of three double-helical stems (16, 9 and 17 bp). The longer Fl-labeled strand is composed of 52 bases and is colored green in the model; the shorter 42-base strand is labeled with TMRh and is depicted in orange. The model is based on the NMR structure [45] of the dA5 bulge and FRET measurements [44]. Combining local (NMR) and global (FRET) structure information with the use of molecular modeling allows a detailed model of a large DNA molecule in solution to be deduced.
+
+D (FI) 54 Å A (TMRh)
+
+NMR structure of dA5-bulge DNA
+
+Current Opinion in Structural Biology
+
+FRET in polyacrylamide gels
+Qualitative FRET studies of nucleic acid [46] and protein­nucleic acid interactions [47,48] have been carried out in polyacrylamide gels. Leonard and Kerppola [47] determined the orientation of the protein heterodimer Jun­Fos on the target DNA. They labeled the DNA ends with fluorescein and the protein with Texas red, and determined the fluorescence intensities of both dyes in the gel. A decreasing fluorescein fluorescence and an increasing Texas red fluorescence indicated an energy transfer and enabled an estimation
+Figure 5
+
+of the binding orientation of the protein heterodimer on the DNA. The FRET efficiency can also be determined quantitatively in polyacrylamide gels [49] (see Figure 5). We labeled the two 5 ends of the double-stranded substrate DNA with fluorescein and TMRh, and measured the increase in FRET upon binding of two proteins, either the HMG protein NHP6a or IHF; both proteins bend the DNA. In the gel, fluorescein retains its free rotational flexibility. However, the quantum yield is reduced, which can
+
+Protein 1 2 3 4 5 6 7 8 9 Complex Donor fluorescence Complex Free DNA
+
+1.0 0.8 0.6 0.4 0.2 E­1 0.0 0.0 0.2 0.4 0.6 Free DNA 0.8 1.0
+
+Current Opinion in Structural Biology
+
+Determination of FRET efficiency (E) using a novel gel-based fluorescence assay `FRET in PAGE' [49]. Constant amounts of double-labeled DNA are incubated with increasing amounts of protein. The free DNA is separated from the complex in a polyacrylamide gel. In the complex, the DNA is bent and the dyes attached to the DNA helix ends are close to one another in space, allowing energy transfer. The donor fluorescence is quenched compared with that of free DNA. Plotting the donor fluorescence intensity of the complex versus that of
+
+free DNA, a straight line is obtained with a slope (E­1), yielding the energy transfer efficiency E. The dyes retain their free rotational mobility in the gel. However, the quantum yield of the donor fluorescein is reduced, resulting in a different R0 in the gel compared with in solution. Taking into account a modified R0, the dye distance can be calculated from the FRET efficiency measured in the gel and global structure information on the complex can be deduced (e.g. the DNA bending angle).
+
+206
+
+Commentary
+
+be accounted for by a different R0 in the gel compared with in solution. From the FRET increase, we determined the dye-to-dye distances in the protein­DNA complexes from polyacrylamide gel data [49] (see Figure 5), yielding global structural information, such as DNA bending angles, on the complexes.
+
+4.
+
+Engel A, Schoenenberger CA, Muller DJ: High resolution imaging of native biological sample surfaces using scanning probe microscopy. Curr Opin Struct Biol 1997, 7:279-284. Förster T: Energiewanderung und Fluoreszenz. Naturwissenschaften 1946, 6:166-175. [Title translation: Energy transfer and fluorescence.] Stryer L: Fluorescence energy transfer as a spectroscopic ruler. Annu Rev Biochem 1978, 47:819-846. Wu P, Brand L: Resonance energy transfer: methods and applications. Anal Biochem 1994, 218:1-13. Mendelsohn AR, Brent R: Protein interaction methods -- toward an endgame. Science 1999, 284:1948-1950. Loontiens FG, McLaughlin LW, Diekmann S, Clegg RM: Binding of Hoechst 33258 and 4',6'-diamidino-2-phenylindole to selfcomplementary decadeoxynucleotides with modified exocyclic base substituents. Biochemistry 1991, 30:182-189.
+
+5.
+
+6. 7. 8. 9.
+
+FRET in vivo
+The occurrence of fluorescent proteins, such as green fluorescent protein (GFP) [50] and its fluorescent analogs [51], enables FRET measurements to be made in living cells. These proteins can be cloned in fusion with proteins of interest and expressed in cell lines. In every case, however, it has to be verified that the bulky fluorescent labels (27 kDa molecular weight) do not disturb the function and behavior of the protein of interest. A particular advantage of this system is that the expression of the fusion protein can be controlled by specific promoters. Then, confocal microscopy (spatial resolution about 200 nm) allows the detection of the protein fluorescence and, if a pair of fluorescent proteins are in the proper distance range (about 10­100 Å), FRET is observed, yielding information in a distance range that is otherwise not accessible to microscopy. Thus, the spatial distribution of particular proteins and their direct neighborhood contacts to other labeled proteins in the cell can be determined during the cell cycle [52­60].
+
+10. Clegg RM: Fluorescence resonance energy transfer and nucleic acids. Methods Enzymol 1992, 211:353-388. 11. Stühmeier F, Hillisch A, Clegg RM, Diekmann S: Practical aspects of fluorescence resonance energy transfer (FRET) and its applications in nucleic acid biochemistry. In DNA-Protein Interactions. Edited by Travers A, Buckle M. Oxford: Oxford University Press; 2000:77-94. 12. Stühmeier F, Welch JB, Murchie AI, Lilley DM, Clegg RM: Global structure of three-way DNA junctions with and without additional unpaired bases: a fluorescence resonance energy transfer analysis. Biochemistry 1997, 36:13530-13538. 13. Lorenz M, Hillisch A, Goodman SD, Diekmann S: Global structure similarities of intact and nicked DNA complexed with IHF measured in solution by fluorescence resonance energy transfer. Nucleic Acids Res 1999, 27:4619-4625. 14. Vámosi G, Gohlke C, Clegg RM: Fluorescence characteristics of 5 carboxytetramethylrhodamine linked covalently to the 5 end of oligonucleotides: multiple conformers of single-stranded and double-stranded dye-DNA complexes. Biophys J 1996, 71:972-994. 15. Rice PA, Yang S, Mizuuchi K, Nash HA: Crystal structure of an IHFDNA complex: a protein-induced DNA U-turn. Cell 1996, 87:1295-1306. 16. Parkhurst KM, Brenowitz M, Parkhurst LJ: Simultaneous binding and bending of promoter DNA by the TATA binding protein: real time kinetic measurements. Biochemistry 1996, 35:7459-7465. 17. Kim Y, Geiger JH, Hahn S, Sigler PB: Crystal structure of a yeast TBP/TATA-box complex. Nature 1993, 365:512-520.
+
+Conclusions
+FRET provides long-range distance information in solution. The method yields information complementary to NMR spectroscopy and X-ray crystallography. FRET is especially suited to the study of protein­nucleic acid complex structure and dynamics. Recently obtained knowledge of the exact positions of some dyes with respect to specific DNA helix ends enables us to translate the measured distance data into precise structural information. These advances, together with new techniques such as measuring FRET quantitatively in polyacrylamide gels or in living cells, will lead to fascinating applications of FRET in structural and molecular biology in the near future.
+
+18. Parkhurst KM, Richards RM, Brenowitz M, Parkhurst LJ: Intermediate species possessing bent DNA are present along the pathway to formation of a final TBP-TATA complex. J Mol Biol 1999, 289:1327-1341. 19. Ozaki H, Iwase N, Sawai H, Kodama T, Kyogoku Y: Detection of DNA bending in a DNA-PAP1 protein complex by fluorescence resonance energy transfer. Biochem Biophys Res Commun 1997, 231:553-556. 20. Bustin M, Reeves R: High-mobility-group chromosomal proteins: architectural components that facilitate chromatin function. Prog Nucleic Acid Res Mol Biol 1996, 54:35-100. 21. Travers A: Recognition of distorted DNA structures by HMG domains. Curr Opin Struct Biol 2000, 10:102-109. 22. Heyduk E, Heyduk T, Claus P, Wisniewski JR: Conformational changes of DNA induced by binding of Chironomus high mobility group protein 1a (cHMG1a). Regions flanking an HMG1 box domain do not influence the bend angle of the DNA. J Biol Chem 1997, 272:19763-19770. 23. Lorenz M, Hillisch A, Payet D, Buttinelli M, Travers A, Diekmann S: DNA bending induced by high mobility group proteins studied by fluorescence resonance energy transfer. Biochemistry 1999, 38:12150-12158. 24. Jamieson ER, Jacobson MP, Barnes CM, Chow CS, Lippard SJ: Structural and kinetic studies of a cisplatin-modified DNA icosamer binding to HMG1 domain B. J Biol Chem 1999, 274:12346-12354.
+
+Acknowledgements
+We thank DMJ Lilley for helpful discussions and for providing the coordinates of the Cy3­DNA adduct.
+
+References
+1. Norman DG, Grainger RJ, Uhrin D, Lilley DM: Location of cyanine-3 on double-stranded DNA: importance for fluorescence resonance energy transfer studies. Biochemistry 2000, 39:63176324. Hillisch A: Computer aided design and structure verification of single- and multiple-bulge DNA molecules [PhD Thesis]. Vienna: University of Vienna; 1998. Stuiver MH, Bergsma WG, Arnberg AC, van Amerongen H, van Grondelle R, van der Vliet PC: Structural alterations of doublestranded DNA in complex with the adenovirus DNA-binding protein. Implications for its function in DNA replication. J Mol Biol 1992, 225:999-1011.
+
+2.
+
+3.
+
+Distance determination in protein­DNA complexes Hillisch, Lorenz and Diekmann
+
+207
+
+25. Wisniewski JR, Krohn NM, Heyduk E, Grasser KD, Heyduk T: HMG1 proteins from evolutionary distant organisms distort B-DNA conformation in similar way. Biochim Biophys Acta 1999, 1447:25-34. 26. Slama-Schwok A, Zakrzewska K, Leger G, Leroux Y, Takahashi M, Kas E, Debey P: Structural changes induced by binding of the highmobility group I protein to a mouse satellite DNA sequence. Biophys J 2000, 78:2543-2559. 27. Werner MH, Bianchi ME, Gronenborn AM, Clore GM: NMR spectroscopic analysis of the DNA conformation induced by the human testis determining factor SRY. Biochemistry 1995, 34:11998-12004.
+
+43. Heyduk T, Lee JC: Solution studies on the structure of bent DNA in the cAMP receptor protein-lac DNA complex. Biochemistry 1992, 31:5165-5171. 44. Stühmeier F, Hillisch A, Clegg RM, Diekmann S: Fluorescence energy transfer analysis of DNA structures containing several bulges and their interaction with CAP. J Mol Biol 2000, 302:1081-1100. 45. Dornberger U, Hillisch A, Gollmick FA, Fritzsche H, Diekmann S: Solution structure of a five-adenine bulge loop within a DNA duplex. Biochemistry 1999, 38:12860-12868. 46. Ota N, Hirano K, Warashina M, Andrus A, Mullah B, Hatanaka K, Taira K: Determination of interactions between structured nucleic acids by fluorescence resonance energy transfer (FRET): selection of target sites for functional nucleic acids. Nucleic Acids Res 1998, 26:735-743. 47. Leonard DA, Kerppola TK: DNA bending determines Fos-Jun heterodimer orientation. Nat Struct Biol 1998, 5:877-881.
+
+28. Love JJ, Li X, Case DA, Giese K, Grosschedl R, Wright PE: Structural basis for DNA bending by the architectural transcription factor LEF-1. Nature 1995, 376:791-795. 29. Pil PM, Lippard SJ: Specific binding of chromosomal protein HMG1 to DNA damaged by the anticancer drug cisplatin. Science 1992, 256:234-237. 30. Payet D, Travers A: The acidic tail of the high mobility group protein HMG-D modulates the structural selectivity of DNA binding. J Mol Biol 1997, 266:66-75. 31. Bianchi ME, Beltrame M, Paonessa G: Specific recognition of cruciform DNA by nuclear protein HMG1. Science 1989, 243:1056-1059. 32. Payet D, Hillisch A, Lowe N, Diekmann S, Travers A: The recognition of distorted DNA structures by HMG-D: a footprinting and molecular modelling study. J Mol Biol 1999, 294:79-91. 33. Murphy FV, Sweet RM, Churchill ME: The structure of a chromosomal high mobility group protein-DNA complex reveals sequence-neutral mechanisms important for non-sequencespecific DNA recognition. EMBO J 1999, 18:6610-6618. 34. Ohndorf UM, Rould MA, He Q, Pabo CO, Lippard SJ: Basis for recognition of cisplatin-modified DNA by high-mobility-group proteins. Nature 1999, 399:708-712. 35. Gumbs OH, Shaner SL: Three mechanistic steps detected by FRET after presynaptic filament formation in homologous recombination. ATP hydrolysis required for release of oligonucleotide heteroduplex product from RecA. Biochemistry 1998, 37:11692-11706. 36. Gupta RC, Golub EI, Wold MS, Radding CM: Polarity of DNA strand exchange promoted by recombination proteins of the RecA family. Proc Natl Acad Sci USA 1998, 95:9843-9848. 37. Furey WS, Joyce CM, Osborne MA, Klenerman D, Peliska JA, Balasubramanian S: Use of fluorescence resonance energy transfer to investigate the conformation of DNA substrates bound to the Klenow fragment. Biochemistry 1998, 37:2979-2990.
+
+48. Diebold RJ, Rajaram N, Leonard DA, Kerppola TK: Molecular basis of cooperative DNA bending and oriented heterodimer binding in the NFAT1-Fos-Jun-ARRE2 complex. Proc Natl Acad Sci USA 1998, 95:7915-7920. 49. Lorenz M, Diekmann S: Quantitative distance information on protein­DNA complexes determined in polyacrylamide gels by fluoresence resonance energy transfer. Electrophoresis 2001, in press. 50. Kain SR: Green fluorescent protein (GFP): applications in cellbased assays for drug discovery. Drug Discov Today 1999, 4:304-312. 51. Ellenberg J, Lippincott-Schwartz J, Presley JF: Dual-colour imaging with GFP variants. Trends Cell Biol 1999, 9:52-56. 52. Pollok BA, Heim R: Using GFP in FRET-based applications. Trends Cell Biol 1999, 9:57-60. 53. Xu X, Gerard AL, Huang BC, Anderson DC, Payan DG, Luo Y: Detection of programmed cell death using fluorescence energy transfer. Nucleic Acids Res 1998, 26:2034-2035. 54. Gadella TWJ, Jovin TM: Oligomerization of epidermal growth factor receptors on A431 cells studied by time-resolved fluorescence imaging microscopy. A stereochemical model for tyrosine kinase receptor activation. J Cell Biol 1995, 129:1543-1558. 55. Mahajan NP, Linder K, Berry G, Gordon GW, Heim R, Herman B: Bcl-2 and Bax interactions in mitochondria probed with green fluorescent protein and fluorescence resonance energy transfer. Nat Biotechnol 1998, 16:547-552. 56. Miyawaki A, Llopis J, Heim R, McCaffery JM, Adams JA, Ikura M, Tsien RY: Fluorescent indicators for Ca2+ based on green fluorescent proteins and calmodulin. Nature 1997, 388:882-887. 57. Miyawaki A, Griesbeck O, Heim R, Tsien RY: Dynamic and quantitative Ca2+ measurements using improved chameleons. Proc Natl Acad Sci USA 1999, 96:2135-2140.
+
+38. Soumillion P, Sexton DJ, Benkovic SJ: Clamp subunit dissociation dictates bacteriophage T4 DNA polymerase holoenzyme disassembly. Biochemistry 1998, 37:1819-1827. 39. Shamoo Y, Steitz TA: Building a replisome from interacting pieces: sliding clamp complexed to a peptide from DNA polymerase and a polymerase editing complex. Cell 1999, 99:155-166. 40. Alley SC, Shier VK, Abel-Santos E, Sexton DJ, Soumillion P, Benkovic SJ: Sliding clamp of the bacteriophage T4 polymerase has open and closed subunit interfaces in solution. Biochemistry 1999, 38:7696-7709. 41. Sawyer WH, Chan RY, Eccleston JF, Davidson BE, Samat SA, Yan Y: Distances between DNA and ATP binding sites in the TyrR-DNA complex. Biochemistry 2000, 39:5653-5661. 42. Passner JM, Steitz TA: The structure of a CAP-DNA complex having two cAMP molecules bound to each monomer. Proc Natl Acad Sci USA 1997, 94:2843-2847.
+
+58. Adams SR, Harootunian AT, Buechler YJ, Taylor SS, Tsien RY: Fluorescence ratio imaging of cyclic AMP in single cells. Nature 1991, 349:694-697. 59. Bastiaens PI, Jovin TM: Microspectroscopic imaging tracks the intracellular processing of a signal transduction protein: fluorescent-labeled protein kinase C beta I. Proc Natl Acad Sci USA 1996, 93:8407-8412. 60. Bastiaens PI, Majoul IV, Verveer PJ, Soling HD, Jovin TM: Imaging the intracellular trafficking and state of the AB5 quaternary structure of cholera toxin. EMBO J 1996, 15:4246-4253.
+
+

@@ -1,0 +1,195 @@
+Supporting Information
+© Wiley-VCH 2008
+69451 Weinheim, Germany
+
+Supporting Information
+© Wiley-VCH 2008
+69451 Weinheim, Germany
+
+Crystallography-Independent Determination of Ligands Binding Modes.
+J. Orts1,#, J. Tuma2,#, M. Reese2, S.K Grimm2, P. Monecke3, S. Bartoschek3, A. Schiffer3, K. U. Wendt3,*, C. Griesinger2,*, T. Carlomagno 1,*
+
+1
+
+Stuctural and Computational Biology Unit
+
+EMBL Heidelberg, Germany
+2
+
+Department of NMR based Structural Biology
+
+Max Planck Institute for Biophysical Chemistry Göttingen, Germany
+3
+
+Department of Chemical and Analytical Sciences/Structural Biology
+
+Sanofi-Aventis Deutschland GmbH Industrial Park Hoechst, D-65926 Frankfurt, Germany
+#
+
+The two authors have contributed equally
+
+Supporting Information
+
+Theoretical background for the calculation and evaluation of the INPHARMA NOEs. Volumes of NOE cross-peaks of protein-ligand complexes under chemical exchange are determined by the following equation:
+
+dM (t ) = -( R + ? )  M (t ) dt
+The solution of this equation has the form:
+
+Eq. [S1]
+
+M ( m ) = exp[- ( R + K )  m ]  M (0)
+
+Eq. [S2]
+
+where K and R are the kinetic and relaxation matrices, M (0) the initial magnetization and  m the mixing time of the NOESY experiment. Due to the large excess of ligands the concentration of the free protein in solution was neglected. The chemical exchange is described by a two-step kinetics, where ligands are directly replaced by others in the binding pocket, as described by:
+AB k PL A + L B  L A + PL B k BA
+
+Eq. [S3]
+
+The relaxation matrix R is:
+L  RLAA     R=      
+
+L RLBB TL RLA A TLA RT , LA TL RLA A ,T TL RT A TL RLB B TL B RT , LB TL RLB B ,T TL RT B
+
+          T RT  
+
+Eq. [S4]
+
+The relaxation matrix is a diagonal block matrix. Each sub-matrix corresponds to the proton-proton relaxation pathway of one species: LA and LB represent the two ligands in the free state; TLA and TLB represent the complexes Target/LA and Target/LB, respectively.
+
+The kinetics matrix K is:
+ k BA [TLB ]I 0   -kBA [TLB ]I K= 0  0  0 -k AB [LB ]I 0 k AB [LB ]I 0 0 0   0  0  -k BA [LA ]I   0   kBA [LA ]I  0
+
+0 k AB [TLA ]I 0 0 -k AB [TLA ]I 0
+
+0 0 0 kAB [LB ]I 0 -kAB [LB ]I
+
+0 -k BA [LA ]I 0 0 k BA [LA ]I 0
+
+Eq. [S5]
+
+The kinetic matrix is a block matrix. Each sub-matrix contributes to the kinetics of one species. For each diagonal sub-matrix, there is a sub-matrix in the same column that compensates for the loss of
+
+that species, satisfying the condition that the total mass of each species is conserved at equilibrium. The sub-matrices are diagonal and the size of each sub-matrix is equal to the number of protons in the species LA, LB, TLA and TLB, as in the relaxation matrix.
+
+The matrix K is built according these kinetics equations:
+
+d[LA ] = k AB [TLA ][LB ] - kBA [LA ][TLB ] dt d[TLA ] d[LA ] =- dt dt d[LB ] = -k AB [TLA ][LB ] + kBA [LA ][TLB ] dt d[TLB ] d[LB ] =- dt dt
+
+Eq.[S6]
+
+The quality of the fitting between the experimental and the back-calculated interligand NOEs for different models' pairs was judged by the linear regression coefficient R2 and by the quality factor Q2:
+
+Q2 = 
+
+(
+
+I exp - a  I calc
+2 I exp
+
+)
+
+2
+
+Eq. [S7] where a is the slope of the linear regression y = ax. In the case of PKA, the first selection criteria chooses those pairs with R2 > 0.9 = R2min or Q2 < 0.15 = Q2 min out the 16 docking models' pairs tested in Table S1. The values of R2min and Q2min should be adjusted for each experimental dataset. In general, we consider R2min = 0.9 as a reasonable choice. However, if the experimental data are recorded using too long mixing times (large effect of internal motions) or the structure of the apoprotein binding pocket is far different from the one in the complex, the linear correlation coefficient can drop below 0.9 also for the correct binding poses. In those cases a lower threshold for R2min should be used. A selection of the best model on the basis of small differences (~0.05) in the overall correlation coefficient between experimental and calculated INPHARMA NOEs is not recommended, as it could lead to wrong results. Internal motions, which cannot be taken into account theoretically due to the lack of a suitable model both for the protein side-chains and for the ligands in the binding
+
+pocket, hamper the quality of the overall fit, thus making it unsafe to rely on fine differences in the correlation coefficient (R2 ~0.05). Effect of internal motions on the INPHARMA NOEs. Due to the high non-linearity of the system (Eq. S6), it is difficult to predict how the interligand NOEs are affected by different kinetic, thermodynamic and structural parameters. Internal dynamics at specific sites is an important parameter affecting magnetization transfer. In the case of spindiffusion-mediated interligand NOEs, the efficiency of magnetization transfer is influenced by the dynamics of both the ligand(s) and the protein side-chains. If the same order parameter S is assumed for both the protein side-chains and the ligands protons, the interligand NOEs scale with S4 at very short mixing times (< ), while the intra-ligand NOEs scale with S2. Thus the effect of internal dynamics is larger on the interligand than on the intraligand NOEs. At larger mixing times the value of the interligand NOEs can be predicted only by solving Eq. [S1] under consideration of the internal dynamics at each proton site. Due to the lack of a suitable model to describe internal motions at each proton site in the complex, the effect of internal dynamics is neglected in the simulations. As a result of this, the slope of the linear regression between the experimental and the back-calculated interligand NOEs deviates from 1. In addition to the large divergence of the slope of the linear correlation from 1, the presence of internal motions can result in a deviation of the experimental data from the theoretical values (R2 < 1), due to different amount of internal motions at the various protein and ligand sites in the complexes. At long mixing times and in presence of large internal motions, the regression curve will considerably deviate from linearity, even for the correct binding models. Therefore, it is advisable to record several NOESY spectra at different mixing times and to use in the analysis the experimental data stemming from the shortest mixing times for which a reasonable number of interligand NOEs are observed. The presence of internal motions in the PKA/ligand complexes is confirmed by the value of the slope of the linear correlation between calculated and experimental INPHARMA NOEs. In absence of internal motions the slope should be close to 1; however, we observe a value of 0.3 (Table S1 and Fig. S5), indicating a considerable amount of internal fluctuations either of the protein sidechains or of the ligands in the binding pocket, or of both. The influence of internal motions on the slope of the linear correlation curve between experimental and back-calculated INPHARMA NOEs depends on the size of the complex, on the nature of the motions and on the mixing times of the NOESY experiments, as indicated by theoretical simulations (Fig. S6). In Fig. S6 we show the value of Irel in dependence of the order parameter S for two mixing times and two protein sizes. The simulations are run on an artificial system: the ligand is represented by 3
+
+protons in a line at a distance of 2.5 Å from one another, while the protein is represented by a cube of dimension 7x7x7 equidistant protons (2.5 Å). In the complex the ligand is placed in the middle of the cube (Fig. S6a). Interligand NOEs are calculated between the inner proton of LA (lattice position 3,3,3) and the middle proton of LB (lattice position 2,3,3 ). A homogeneous order parameter S is assumed at each location on the protein and the ligand. Irel is defined as:
+
+I rel (S ) =
+
+I inter - NOE (S ) · I intra - NOE (S = 1) I inter - NOE (S = 1) · I intra - NOE (S )
+
+Eq. [S8]
+
+and is a measure of the ratio between the interligand NOE, normalized to the intraligand NOE value, for an order parameter S  1 and the interligand NOE expected for S=1, namely in absence of internal motions. The normalization to the intraligand NOE is necessary as in the process of correlating theoretical and experimental data we tune the simulation parameters, such as the protein c or the protein concentration, to obtain a slope of 1 for the intraligand NOEs. If Irel = 1, the NOE transfer is as efficient as in absence of motions. In this case the slope of the correlation line between the theoretical NOEs, calculated assuming no internal motions, and the experimental ones, is equal to 1. On the other hand, if Irel(S) = x, the efficiency of the NOE transfer for that specific S value is x times that for S=1 and the slope of the correlation line between the theoretical NOEs, calculated assuming no internal motions, and the experimental ones, is equal to x. For a protein of the size of PKA (Fig. S6b, squared symbols), the Irel value deviates from 1 for all order parameters < 0.95 at both 200 (green curve) and 600 (blue curve) ms. At 600 ms and for S = 0.6, Irel is equal to 0.3. Thus, the slope of 0.3 observed in the case of PKA (Fig. S5 and Table S1) can be explained assuming an order parameter S=0.6. This value should be considered as indicative but not quantitatively correct, as the exact value depends on the geometry of the binding pocket. Moreover, in this simplified system we assume the same order parameter for the inter- and intra ligand vectors, while in reality the two order parameters are likely to be different. For very large proteins (Fig. S6b, round symbols ), Irel does not deviate from 1 in a range 0.6<S<1 at both 200 (green curve) and 600 (blue curve) ms. This reflects the fact that in extreme spin-diffusion conditions, NOEs reach the same plateau value, independently of the correlation time or of the internal motions. Such extreme spin-diffusion conditions can be reached for large systems before the magnetization relaxes back to equilibrium. This is in accord with the slope of 1 observed for the linear correlation between experimental and theoretical NOEs for the tubulin/epothilone and tubulin/baccatin complexes studied in ref. 7.
+
+An order parameter S = 0.6-0.8 (S2 = 0.36-0.64) is not surprising and falls well in the range of the order parameters for proton-proton vectors determined before.[1,2] Low order parameters can be expected for the INPHARMA NOEs, as the magnetization transfer involves mainly protons from the protein side-chains, and in particular from the methyl groups, which are the closest neighbors to the ligand. Schleicher and Wijmenga[1] reported order parameters S2  0.6 for long range NOEs including flexible side-chains. The order parameter S2 for the NOE between methyl group protons and a proton of the environment can be as low as 0.6,[2] assuming fast rotation of the methyl groups. This order parameter can be further decreased by additional motion of the side-chain bearing the methyl group or of the ligand proton.[3]
+
+[1] J. Schleucher, S.S. Wijmenga, J. Am. Chem. Soc. 2002, 124, 5881 [2] T. M. G. Koning, R. Boelens, R. Kaptein, J. Magn. Res. 1990, 90, 111. [3] D. M. Schneider, M. J. Dellwo, A. J. Wand, Biochemistry 1992, 31, 3645.
+
+Table S1. Normalized INPHARMA NOEs used to calculate the correlation graphs of Fig. 4. The INPHARMA NOE intensities INOE were normalized by the diagonal peak with equal 2 frequency at the lowest mixing time. The experimental conditions are described in the Experimental Section.
+
+LA
+
+LB m = 300ms 0,0035 0,0031 0,0029 0,0016 0,0011 -
+
+INOE 450ms 0,0046 0,0026 0,0016 0,0042 0,0017 0,0012 0,0013 600ms 0,0096 0,0082 0,0059 0,0080 0,0061 0,0028 0,0048 750ms 0,0091 0,0067 0,0055 0,0075 0,0047 0,0036 0,0045
+
+H8 H3,H4 H1,H2 H5 H3,H4 H1,H2 H5
+
+H1,H3,H5 H1,H3,H5 H1,H3,H5 H1,H3,H5 H6,H7 H6,H7 H6,H7
+
+Table S2. Evaluation of the back-calculated INPHARMA NOEs for the sixteen combinations of the docking poses of LA and LB, as in Fig. 3, with respect to the experimental data. LA Pose 1 Pose 2 Pose 3 Pose 4 Pose 1 Pose 2 Pose 3 Pose 4 Pose 1 Pose 2 Pose 3 Pose 4 Pose 1 Pose 2 Pose 3 Pose 4 LB Pose 1 Pose 1 Pose 1 Pose 1 Pose 2 Pose 2 Pose 2 Pose 2 Pose 3 Pose 3 Pose 3 Pose 3 Pose 4 Pose 4 Pose 4 Pose 4 R2 [a] 0.93 0.91 0.96 0.91 0.64 0.73 0.58 0.70 0.82 0.59 0.26 0.34 0.72 0.71 0.59 0.70 Q2 [b] 0.06 0.11 0.04 0.09 0.65 0.43 0.86 0.48 0.29 0.70 0.88 0.98 0.52 0.51 1.16 0.51 a[c] 0.32 0.27 0.29 0.31 0.07 0.14 0.02 0.08 0.14 0.05 0.00 0.00 0.08 0.10 -0.02 0.07
+
+[a] R2 is the Pearson correlation coefficient calculated for a linear regression to the linear function y = ax. A value close to 1 represents a good quality fit. [b] Q2 is the quality factor. It measures the deviation of the data to the best-fit line. A value close to zero reflects a good quality of the fit. [c] a is the slope of the linear regression between experimental and back-calculated INPHARMA NOEs.
+
+Table S3 Evaluation of the back-calculated INPHARMA NOEs with respect to the experimental data for the sixteen combinations of the binding poses of LA and LB docked to the five different models of the PKA structure (MD1-MD5) generated by molecular dynamics (Fig. S7).
+
+LA
+
+LB
+
+R2(ax)
+
+LA
+
+LB
+
+R2(ax)
+
+Structure of PKA from MD1 Pose 1 Pose 4 Pose 1 Pose 4 Pose 3 Pose 2 Pose 3 Pose 4 Pose 1 Pose 2 Pose 3 Pose 1 Pose 2 Pose 2 Pose 3 Pose 4 Pose 1 Pose 4 Pose 3 Pose 2 Pose 1 Pose 4 Pose 4 Pose 1 Pose 4 Pose 2 Pose 2 Pose 2 Pose 1 Pose 3 Pose 3 Pose 3 0.95 0.81 0.73 0.67 0.66 0.64 0.57 0.56 0.55 0.52 0.42 0.39 0.39 0.31 0.21 0.20
+
+Structure of PKA from MD2 Pose 1 Pose 4 Pose 3 Pose 1 Pose 4 Pose 4 Pose 1 Pose 2 Pose 2 Pose 3 Pose 1 Pose 2 Pose 3 Pose 2 Pose 3 Pose 4 Pose 1 Pose 2 Pose 1 Pose 4 Pose 1 Pose 4 Pose 3 Pose 1 Pose 2 Pose 4 Pose 2 Pose 4 Pose 2 Pose 3 Pose 3 Pose 3 0.90 0.72 0.67 0.67 0.63 0.60 0.59 0.58 0.52 0.45 0.43 0.42 0.40 0.38 0.19 0.18
+
+Structure of PKA from MD3 Pose 1 Pose 4 Pose 1 Pose 2 Pose 1 Pose 2 Pose 1 Pose 4 Pose 3 Pose 3 Pose 3 Pose 2 Pose 4 Pose 2 Pose 3 Pose 4 Pose 1 Pose 2 Pose 4 Pose 2 Pose 3 Pose 4 Pose 2 Pose 4 Pose 2 Pose 1 Pose 4 Pose 1 Pose 1 Pose 3 Pose 3 Pose 3 0.83 0.81 0.77 0.66 0.65 0.57 0.56 0.54 0.52 0.50 0.49 0.43 0.30 0.26 0.18 0.16
+
+Structure of PKA from MD4 Pose 1 Pose 4 Pose 1 Pose 2 Pose 1 Pose 2 Pose 4 Pose 3 Pose 3 Pose 3 Pose 2 Pose 1 Pose 4 Pose 2 Pose 3 Pose 4 Pose 1 Pose 2 Pose 4 Pose 2 Pose 3 Pose 4 Pose 4 Pose 4 Pose 1 Pose 2 Pose 1 Pose 2 Pose 1 Pose 3 Pose 3 Pose 3 0.79 0.79 0.74 0.72 0.69 0.62 0.62 0.60 0.59 0.59 0.58 0.58 0.42 0.38 0.22 0.21
+
+Structure of PKA from MD5
+
+Pose 2 Pose 4 Pose 2 Pose 1 Pose 4 Pose 1 Pose 3 Pose 2 Pose 1 Pose 3 Pose 1 Pose 3 Pose 4 Pose 2 Pose 3 Pose 4
+
+Pose 2 Pose 4 Pose 4 Pose 4 Pose 2 Pose 1 Pose 4 Pose 1 Pose 2 Pose 2 Pose 3 Pose 1 Pose 1 Pose 3 Pose 3 Pose 3
+
+0.84 0.80 0.80 0.80 0.79 0.77 0.73 0.66 0.64 0.61 0.60 0.59 0.52 0.20 0.16 0.15
+
+Table S4 Data collection and refinement statistics for the crystallographic structures
+
+PKA/LA Data collection Space group Cell dimensions a, b, c (Å) a, ß, ? (°) Resolution (Å) Rsym I/s I Completeness (%) Redundancy 72.6, 75,9, 79.9 90, 90, 90 2.01 5.3(33.1) 21.6(5.37) 99.4(98.9) 5.4(5.3) P212121
+
+PKA/LB
+
+P212121 73.0, 77.6, 80.1 90, 90, 90 2.26 9.1(40.9) 13.1(4.2) 99.9(100) 5.4(5.5)
+
+Refinement Resolution No. reflections (work/free) Rwork/Rfree No. atoms Protein Peptide Water Ligand B-factors Protein Peptide Water Ligand R.m.s deviations Bond lengths (Å) Bond angles (°) Ramachandran analysis (%) favoured regions 96.3 94.5 0.006 1.21 0.021 1.85 29.6 29.8 45.8 25.5 30.6 27.3 36.6 49.4 2793 157 314 15 2.01 27786/2100 0.215/0.249 2.26 202256/1521 0.189/0.253 3325 2793 157 264 13
+
+allowed regions outlier
+
+3.1 0.6
+
+4.9 0.6
+
+*Highest resolution shell is shown in parenthesis.
+
+Figure S1 Schematic representation of the proton environment of docked binding modes of the ligand LA (panel (a) and LB (panel (b). The binding poses follow the numbering of Fig. 3. The proton environment D is evaluated by:
+
+   -1  D =    di, j  H i ligand  H j protein  d (H j , H i ) 5 Å 
+While the coefficient D conspicuously differs in the four docking modes of LB, it remains almost constant throughout the four docking models of LA, indicating that the average proton environment is more independent of the docking pose for the flat LA than for the bent LB.
+
+Figure S2 Schematic representation of the color-coding for the INPHARMA NOEs of panel (c) and (d) of Fig. 4. (a) NOEs from the phenyl ring of LB to the pyridine ring of LA are color-coded in yellow; (b) NOEs from the phenyl ring of LB to the 3-(4-Pyridyl)indazole ring of LA are colorcoded in red.
+
+Figure S3 Regions of a NOESY spectrum, acquired at a 900 MHz spectrometer with m = 600 ms. The sample contained: [LA] = 150 µM [LB] = 450 µM, [PKA] = 25 µM. NOEs between H6 and H7 of LB and H5 and H8 of LA are visible in this spectrum.
+
+Figure S4 Representation of the additional docking modes, generated at Sanofi Aventis, for which the INPHARMA NOEs were back-calculated and fitted to the experimental ones. In the central panel the binding modes of LA and LB observed in the crystal structures are represented. The lower and upper left panels represent the docked orientation of LA, with the upper ones being close to the crystal structure and the lower ones differing from the crystal structure by a rotation  180° around the z axis. The conformation of LA differs from the bioactive one in both panels by a rotation of the 3-(4-Pyridyl)indazole ring with respect to the pyridine ring  50°. The two upper and lower right panels represent the docked orientation of LB, with the upper ones differing from the crystal structure by a rotation  180° around the z axis and the lower ones being close to the crystal structure. The conformation of LB differs from the bioactive one in both panels by a rotation of the phenyl ring with respect to the thiazole ring  50°.
+
+Figure S5 Correlation between the experimental INPHARMA NOEs, normalized to the diagonal of the spin in 2, and the normalized INPHARMA NOEs calculated for the two crystal structures of the PKA/LA and PKA/LB complexes.
+
+Figure S6 (a) Schematic representation of the model system used to investigate the effect of internal motions on the INPHARMA NOEs. The protein is represented by a cube of dimensions 7X7X7 while the ligands LA and LB are linear and contain 3 protons each. All protons of the protein and of the ligand are at a distance of 2.5 Å from each other. When LA binds to the protein, H1A is in the middle of the protein cube. (b) Irel for the INPHARMA NOE between H1A and H2B normalized to the intraligand NOE between H1A and H2A.Green, m = 200ms; blue, m = 600 ms; the squared symbol are for a model system with parameters equal to the PKA system ([LA] = 150 µM [LB] =
+
+450 µM, [PKA] = 30 µM, c(PKA) = 20 ns ), while the round symbols are for a model system with parameters equal to the tubulin system ([LA] = 500 µM [LB] = 500 µM, [PKA] = 50 µM, c(Tub) = 1300 ns). The red lines indicate a slope of the correlation between theoretical and experimental INPHARMA NOEs equal to 0.3 for mixing times around 600 ms.
+
+Figure S7 In each panel, one snapshot of a Molecular Dynamics simulation of PKA is shown in green overlapped with the protein X-ray structure in blue. To each of the five snapshot structures the two ligands were docked in the four orientations of Fig. 3, to generate a total of 16 models pairs per snapshot structure. The r.m.s.d of the binding pocket heavy atoms to the X-ray structure is 1.9 Å for panel (a), 1.7 Å for panel (b), 1.9 Å for panel (c), 1.6 Å for panel (d) and 1.9 Å for panel (e). The ligand orientations in the first row correspond to the X-ray like orientations. Comparison of the INPHARMA NOEs calculated for all 16 models' pairs for each snapshot structure with the experimental INPHARMA NOE allowed us selecting the following ligand orientations: panel (a)(d): LA, pose 1; LB, pose 1 (X-ray like); panel (e): LA, pose 2; LB, pose 2 (both ligands are turned 180° around the y axis). The conformational inaccuracy of the snapshot structure in panel (e) allows the determination of the relative orientation of the two ligands by INPHARMA, while the absolute binding modes are not correctly predicted.
+
+

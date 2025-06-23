@@ -1,0 +1,150 @@
+proteins
+STRUCTURE O FUNCTION O BIOINFORMATICS
+
+STRUCTURE NOTE
+
+The crystal structure of the ING5 PHD finger in complex with an H3K4me3 histone peptide
+´ ~ Karen S. Champagne,1* Nehme Saksouk,2 Pedro V. Pena,1 Kyle Johnson,1 Mukta Ullah,3 3 2 ^ ´ Xiang-Jiao Yang, Jacques Cote, and Tatiana G. Kutateladze1*
+1 Department of Pharmacology, University of Colorado at Denver, Aurora, Colorado, 80045 2 Laval University Cancer Research Center, Hotel-Dieu de Quebec (CHUQ), Quebec City, Quebec G1R 2J6, Canada ^ ´ ´ 3 McGill Cancer Center & Department of Medicine, McGill University, Montreal, Quebec H3A 1A1, Canada ´
+
+Key words: PHD domain; epigenetics; chromatin; crystallography; histones; tumor suppressors.
+
+INTRODUCTION Chromatin dynamics regulates diverse nuclear processes and influences cellular viability and tumorigenesis. The discrete chromatin states are linked to covalent histone modifications that control the extent of DNA accessibility to transacting factors. One of the most common epigenetic modifications is methylation of histone H3 at lysine 4 (H3K4). Lys4 can be mono-, di-, or tri-methylated, and the tri-methylated mark (H3K4me3) is normally associated with euchromatin and active gene transcription.1,2 The inhibitor of growth (ING) family of tumor suppressors contain a C-terminal plant homeodomain (PHD) finger. This conserved zinc-binding module is found in many nuclear proteins including transcription factors, histone modifying enzymes, and ATP dependent chromatin remodeling complexes.3­5 A subset of PHD fingers has recently been shown to bind methylated and unmodified histone tails,5­9 with the H3K4me3 mark being specifically recognized by ING proteins. Unlike ING1 and ING2, which have been identified as components of histone deacetylase (HDAC) complexes, ING5 associates with histone acetyltransferase (HAT) complexes containing MOZ (monocytic leukemia zinc finger protein)/MORF (MOZ-related factor) and HBO1.10 To establish the structural basis of chromatin targeting by the HAT associated ING proteins, we determined the crystal structure of the ING5 PHD finger in complex
+C V 2008 WILEY-LISS, INC.
+
+with its histone target (H3K4me3). We also measured binding affinities for unmodified, mono-, di-, and trimethylated histone peptides, and showed that both full-length ING5 and methylated H3K4 are essential for the acetyltransferase activity of the MOZ/MORF and HBO1 complexes. This functional data are the first direct evidence supporting the critical role of ING5 in directing the MOZ/MORF and HBO1 complexes to chromatin, which consequently increases the local HAT activity and stimulates chromatin remodeling.
+
+METHODS
+Protein expression and purification
+
+To produce ING5 for structural studies, the PHD domain (residues 178­236) was subcloned into a pGEX-2T vector (Amersham). The ING5 PHD finger was expressed in E. coli and purified essentially as described in Ref. 7. To assemble the MORF complexes, baculovirus express-
+
+Grant sponsor: NIH; Grant numbers: CA113472 and GM071424; Grant sponsors: University of Colorado Cancer Center, the Canadian Institutes of Health Research, and National Cancer Institute of Canada. *Correspondence to: Karen S. Champagne or Tatiana G. Kutateladze, Department of Pharmacology, University of Colorado at Denver, Aurora, CO 80045. E-mail: karen.champagne@uchsc.edu or tatiana.kutateladze@uchse.edu Received 14 March 2008; Revised 9 May 2008; Accepted 12 May 2008 Published online 11 July 2008 in Wiley InterScience (www.interscience.wiley.com). DOI: 10.1002/prot.22140
+
+PROTEINS
+
+1371
+
+K.S. Champagne et al.
+
+Table I
+Data Collection and Refinement Statistics of the H3K4me3-Bound ING5 PHD Finger
+
+Zn MAD Remote Diffraction data collection Wavelength () Space group Unit cell parameters Resolution () Redundancya Completeness (%) Rmergeb I/r(I) Refinement statistics (|F| > 0) Resolution range () Rwork, (%) Rfree, (%)c Number of protein atoms Number of nonprotein atoms R.m.s.d. from ideal bond length () R.m.s.d. from ideal bond angle (8) Average B factor (2) Ramachandran plot Most favored (%) Additionally allowed (%) Generously allowed (%) Disallowed (%)d PDB code
+a b c
+
+Peak
+
+Inflection
+
+1.25740 P43 a 5 b 5 68.14, c 5 28.25 , a 5 b Two molecules per asymmetric unit 34­1.75 6.95 (5.23) 98.3 (84.8) 0.070 (0.219) 17.7 (2.8) 34­1.75 18.65 19.86 979 144 water molecules and 4 zinc ions 0.007 1.336 20.38 89.7 6.2 2.1 2.1 3C6W
+
+1.28304 5 g 5 908 34­1.75 6.84 (4.71) 96.9 (77.2) 0.075 (0.213) 16.8 (2.7)
+
+1.28264
+
+34­1.75 6.82 (4.69) 96.9 (77.2) 0.074 (0.249) 15.9 (2.5)
+
+Numbers in parenthesis represent values for the highest resolution bin. Rmerge 5 SjIobs 2 Iavgj/SIavg. Rfree was calculated with 7.4% of reflections. d Residue Glu210 in chains A and C are clearly in a conformation which Phi/Psi values fall into the disallowed region of the Ramachandran plot.
+
+ing the HAT component as a Flag-tagged fusion protein was used to infect Sf9 cells, along with baculoviruses expressing HA-tagged BRPF1 and ING5. Extracts were affinity purified on M2 agarose (Sigma-Aldrich) as described.11 Generation of the baculovirus for the HAT component of MORF12 was reported previously,11 whereas baculovirus for HA-BRPF1 and HA-ING5 will ^ ´ be described elsewhere (Mukta Ullah, Jacques Cote & Xiang-Jiao Yang, unpublished data).
+X-ray crystallography
+
+ray data were collected at 100 K on a ``NOIR-1'' MBC system detector at beam line 4.2.2 at the Advanced Light Source in Berkeley, CA. A complete Zn21 MAD data set ° to 1.75 A was collected for peak, inflection, and remote wavelengths. Data were processed with D*TREK13 and statistics are shown in Table I. The phase problem was solved and the initial model built with SOLVE/ RESOLVE.14,15 The protein structure was further refined with CNS16 and O,17 and verified with PROCHECK.18
+Fluorescence spectroscopy
+
+The ING5 PHD finger was crystallized in complex with the H3K4me3 histone tail peptide essentially as described in Ref. 7. All peptides were synthesized at the University of Colorado at Denver peptide core facility and contain the N-terminus of human histone H3, spanning amino acids 1 to 12 (ARTKQTARKSTG). These peptides were either unmodified, mono-, di-, or trimethylated at K4. Crystals of the ING5-H3K4me3 peptide complex grew at 188C in 1.6M sodium citrate at pH 6.5. All crystals grew to $0.05 3 0.05 3 0.3 mm3 in a tetragonal space group (P43) with unit cell parameters of ° ° ° a 5 68.16 A, b 5 68.16 A, c 5 27.96 A, a 5 b 5 g 5 908. Crystals were flash cooled in liquid nitrogen, and X-
+
+Tryptophan fluorescence spectra were recorded at 258C on a Fluoromax3 spectrofluorimeter. The samples of 10 lM ING5 PHD finger containing progressively increasing concentrations of histone H3 peptides (up to 1 mM) were excited at 295 nm. Emission spectra were recorded between 305 and 405 nm with a 0.5 nm step size and a 1 s integration time, and averaged over 3 scans. The KDs were determined by fitting to the quadratic function using Eq. (1), where Fi is the fluorescence change, Fs is the fluorescence change at saturation of XT (the total protein concentration) and YT is the peptide concentration. The KD value is the average of three independent experiments.
+
+1372
+
+PROTEINS
+
+Crystal Structure of ING5 PHD Finger
+
+Fi ¼
+
+  qffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi Fs ð½XT  þ ½YT  þ KD Þ À ð½XT  þ ½Y T þ KD Þ2 À ð4½XT ½YT Þ 2½XT 
+
+ð1Þ
+
+Histone acetyltransferase assay
+
+HAT assays were performed using histone peptides as previously described.19 Briefly, recombinant protein complexes affinity purified from insect cells (baculovirus) were incubated without or with 300 ng of biotinylated peptides corresponding to amino acids 1­21 of human histone H3 followed by a GG linker and biotinylated lysine (ARTKQTARKSTGGKAPRKQLA-GGK-biotin) (Upstate/ Millipore) in 15 lL final volume of 50 mM KCl, 50 mM Tris (pH 8), 1 mM DTT, 5% glycerol, 10 mM Na-Butyrate, and 0.1 mM EDTA with 0.5 lL of [3H] acetyl-CoA (0.25 lCi/lL, 4.9 Ci/mmol) for 30 min at 308C. Each reaction was spotted onto p81 filters, which were then washed three times with 50 mM Na Carbonate (pH 9.2). The amount of incorporated [3H] acetyl was determined using a scintillation counter. The standard deviation was calculated from duplicate assays of 2 independent experiments (4 values).
+
+domain, and there is no density for residues 178­183 and 236 in chain C.
+
+Coordination of the H3K4me3 peptide
+
+RESULTS AND DISCUSSION
+Overall structure and monomer architecture
+
+The H3K4me3 peptide binds to the ING5 PHD domain via formation of a third antiparallel beta strand that pairs with the protein's central b3-b4 beta sheet [Fig. 1(A)]. These beta strand contacts include the peptides Arg2, Lys4, and Thr6 hydrogen bonding with G201, M199, and E197 residues of the PHD domain. Additional backbone contacts are formed between the amino group of Ala1 and the carbonyl groups of G225 and P223. The side chain hydroxyl moiety of S195 makes a hydrogen bond with Thr6, whereas the guanidino group of Arg2 interacts with D203 and C202 [Fig. 1(B)]. The H3K4me3 peptide lies in an extended groove of the ING5 PHD domain with tri-methylated Lys4 fitting snugly into a hydrophobic pocket [Fig. 1(C)]. The three sides of the hydrophobic pocket are formed by W211, S195, and Y188. Y188 is positioned near the tip of the me3 moiety, whereas M199 makes up the bottom of the pocket.
+
+The PHD domain of human ING5 in complex with the H3K4me3 peptide crystallized in space group P43 with two complexes in the crystallographic asymmetric unit. Chains A and C represent the ING5 molecules, while chains B and D designate the H3K4me3 histone peptides. The crystal structure was solved by the Zn° MAD method at 1.75 A resolution and was refined to an Rwork of 18.65% and Rfree of 19.86%. Diffraction data and refinement statistics are given in Table I. The two monomers in the asymmetric unit are in identical conformations and are superimposable with an rmsd of ° 0.34 A over 51 pairs of Ca atoms.20 The overall architecture of the ING5 PHD finger exhibits structural features characteristic of other PHD modules and contains two zinc-binding clusters. The first zinc ion (Zn1) is coordinated by one histidine and three cysteine residues, while the other zinc ion (Zn2) is coordinated by four cysteine residues. The zinc ions stabilize three loops: L1 (residues 194­197), L2 (residues 202­210) and L3 (residues 218­ 229) [Fig. 1(A)]. A double stranded antiparallel beta sheet forms the core of the domain, and two short beta strands are seen at the N-terminus. The b3 and b4 strands contain residues 197­202 and 210­214, respectively, whereas two short alpha helices span residues 215­ 217 and 230­233. In the crystal structure, residues 178­ 184 and 236 are disordered in chain A of the ING5 PHD
+
+ING5 is a component of the MOZ/MORF HAT complex
+
+ING5 was previously shown to copurify with the MOZ/MORF and HBO1 HAT complexes which acetylate histone H3 at lysine 14, and histone H4 at lysine 5, 8, and 12, respectively.10 However, the function of ING5 within these complexes remains unknown. To determine the role of ING5 in the MOZ/MORF and HBO1 HATs, recombinant complexes were purified from baculovirus and tested in HAT assays [Fig. 1(E)]. MORF HAT activity was first measured without histone peptides, and then in the presence of unmodified H3 (residues 1­21), H3K4me2, and H3K9me2 peptides. As shown in Figure 1(E), the MORF HAT alone exhibits low enzymatic activity. When the BRPF1 subunit of the MORF HAT complex was added, the HAT activity increased in the presence of all histone peptides; however, addition of the ING5 subunit caused MORF to preferentially acetylate the H3K4me2 peptide. The presence of ING5 was also necessary for acetylation of the H3K4me2 peptide by ^ ´ native HBO1 complexes (Saksouk and Cote, unpublished data). Thus, our data indicate that specific association of the ING5 PHD finger with methylated H3K4 is required for the robust HAT activity of both MORF and HBO1 complexes.
+PROTEINS
+
+1373
+
+K.S. Champagne et al.
+
+Figure 1
+The ING5 PHD finger recognizes H3K4me3. A: A ribbon diagram of human ING5 PHD (blue) in complex with the H3K4me3 peptide (purple). The secondary structure elements were generated by DSSP.21 The zinc ions are depicted in magenta. B: Coordination of the histone peptide by the ING5 PHD finger. Hydrogen bonds are indicated by a red dotted line. C: The H3K4me3 binding groove. The PHD finger is shown as solid surface. The histone peptide is depicted as a stick model. D: Superimposed structures of the ING5 PHD domain (blue), Pygo1 (purple), RAG2 (magenta), and BPTF (gold). The structures were generated using Pymol22 and superimposed using Swiss-PDB Viewer.23 E: Histone acetyltransferase assays with recombinant complexes purified from baculovirus. HAT activity was measured as counts per minute (3H, over 30 min).
+
+1374
+
+PROTEINS
+
+Crystal Structure of ING5 PHD Finger
+
+Table II
+Affinities of the Wild-Type ING5 PHD Finger for Histone Tail Peptides Measured by Tryptophan Fluorescence
+
+Histone peptide H3K4me0 H3K4me1 H3K4me2 H3K4me3
+
+KD Æ s.d. (lM) 261 222 16 2.4 Æ Æ Æ Æ 34 17 1.2 1.0
+
+Structural comparison with other PHD domains
+
+While the overall fold of the ING5 PHD finger is comparable with that of the ING2 PHD domain (PDB 2G6Q), ING5 has two additional elements, the N-terminal b-sheet and an a-helix. These structural variations, and a 20% difference in the primary sequence, account ° for the modest (1.06 A) rmsd between the two structures. A structural comparison of the ING5 PHD domain with the PHD fingers of RAG2 (PDB 2v89), BPTF (2fuu), and Pygo1 (2dx8) reveals that it is most closely related to ° the Pygo1 PHD domain (rmsd of 1.82 A) [Fig. 1(D)]. ° This is followed by BPTF (rmsd of 1.97 A) and RAG2 ° (rmsd of 2.86 A), respectively. Unlike ING5, the PHD fingers of RAG2, Pygo1, and BPTF all contain an alpha helix in loop 3. Pygo1 forms a dimer via this helix and an adjacent b-strand, which is not found in the other PHD domains. Additionally, a large insertion in loop 1 is a unique feature of RAG2. The general histone-binding mode is conserved among the majority of PHD fingers. Much like the ING2 and BPTF PHD modules, the ING5 PHD finger binds H3K4me3 with a low lM affinity and selects for trimethylated, over di-, mono-, or unmodified peptides (Table II). The major difference appears to be in coordination of K4me3, which is caged by four aromatic residues in BPTF, but by only two in ING5. In contrast, the RAG2 PHD finger prefers the H3R2me2/K4me2s double modification.24 This is most likely because of the replacement of G201 in ING5 with a tyrosine in RAG2, which prevents proper coordination of unmodified Arg2.24 It is notable that the BPTF and RAG2 PHD fingers share only 25% and 17% sequence identity with the ING5 PHD domain, respectively; yet they possess a highly conserved three-dimensional structure. This provides a good example of convergent evolution of dissimilar and unrelated proteins driven by the common function of histone binding.
+
+It specifically recognizes the H3K4me3 histone peptide by forming an extended binding groove. Within this groove, a hydrophobic pocket clasps tri-methylated Lys4, discriminating against histone peptides containing di-, mono-, and unmodified Lys4. Arg2 of the peptide is coordinated in an adjacent pocket. The two pockets are connected by a narrow channel, which requires a small residue at position 3 of the histone tail. Together these features define the specificity of the ING5 PHD finger toward H3K4me3. ING5 is a native subunit of the MOZ/MORF and HBO1 complexes, and is necessary for their enzymatic activity.10 Our data indicate that the presence of fulllength ING5 results in preferential acetylation of histone peptides with the methylated H3K4 modification. These results suggest that ING5 acts as an adapter molecule which bridges and/or stabilizes the MOZ/MORF and HBO1 HAT complexes at the chromatin through binding to methylated H3K4 via its PHD finger. The structural and functional characterization of the ING5 tumor suppressor presented here is essential step in providing a fundamental link between HAT activity and chromatin remodeling. Understanding the biochemical mechanisms by which ING5 regulates cellular growth, proliferation, and stress responses are critical for establishing the significance of its altered function in normal and cancerous cells.
+
+ACKNOWLEDGMENTS We thank Jay Nix at beam line 4.2.2 of the ALS in Berkeley, CA, for help with data collection. J.C. holds a Canada Research Chair. K.S.C. is supported by an American Cancer Society Postdoctoral Fellowship, and P.V.P. is a recipient of the NIH NRSA Predoctoral Fellowship. REFERENCES
+1. Santos-Rosa H, Schneider R, Bannister AJ, Sherriff J, Bernstein BE, Emre NC, Schreiber SL, Mellor J, Kouzarides T. Active genes are tri-methylated at K4 of histone H3. Nature 2002;419:407­411. 2. Schneider R, Bannister AJ, Myers FA, Thorne AW, Crane-Robinson C, Kouzarides T. Histone H3 lysine 4 methylation patterns in higher eukaryotic genes. Nat Cell Biol 2004;6:73­77. 3. Pascual J, Martinez-Yamout M, Dyson HJ, Wright PE. Structure of the PHD zinc finger from human Williams-Beuren syndrome transcription factor. J Mol Biol 2000;304:723­729. 4. Kalkhoven E, Teunissen H, Houweling A, Verrijzer CP, Zantema A. The PHD type zinc finger is an integral part of the CBP acetyltransferase domain. Mol Cell Biol 2002;22:1961­1970. 5. Wysocka J, Swigut T, Xiao H, Milne TA, Kwon SY, Landry J, Kauer M, Tackett AJ, Chait BT, Badenhorst P, Wu C, Allis CD. A PHD finger of NURF couples histone H3 lysine 4 trimethylation with chromatin remodelling. Nature 2006;442:86­90. 6. Li H, Ilin S, Wang W, Duncan EM, Wysocka J, Allis CD, Patelm DJ. Molecular basis for site-specific read-out of histone H3K4me3 by the BPTF PHD finger of NURF. Nature 2006;442:91­95. 7. Pena PV, Davrazou F, Shi X, Walter KL, Verkhusha VV, Gozani O, Zhao R, Kutateladze TG. Molecular mechanism of histone H3K4me3 recognition by plant homeodomain of ING2. Nature 2006;442:100­103.
+PROTEINS
+
+CONCLUSIONS Our results demonstrate that the PHD domain of ING5 has the characteristic tertiary fold of a zinc finger.
+
+1375
+
+K.S. Champagne et al.
+
+8. Shi X, Hong T, Walter KL, Ewalt M, Michishita E, Hung T, Carney D, Pena P, Lan F, Kaadige MR, Lacoste N, Cayrou C, Davrazou F, ^ ´ Saha A, Cairns BR, Ayer DE, Kutateladze TG, Shi Y, Cote J, Chua KF, Gozani O. ING2 PHD domain links histone H3 lysine 4 methylation to active gene repression. Nature 2006; 442:96­99. 9. Lan F, Collins RE, De Cegli R, Alpatov R, Horton JR, Shi X, Gozani O, Cheng X, Shi Y. Recognition of unmethylated histone H3 lysine 4 links BHC80 to LSD1-mediated gene repression. Nature 2007; 448:718­722. ^ ´ 10. Doyon Y, Cayrou C, Ullah M, Landry AJ, Cote V, Selleck W, Lane ^ ´ WS, Tan S, Yang XJ, Cote J. ING tumor suppressor proteins are critical regulators of chromatin acetylation required for genome expression and perpetuation. Moll Cell 2006;21:51­64. 11. Pelletier N, Champagne N, Lim H, Yang XJ. Expression, purification, and analysis of MOZ and MORF histone acetyltransferases. Methods 2003;31:24­32. 12. Yang XJ. The diverse superfamily of lysine acetyltransferases and their roles in leukemia and other diseases. Nucl Acid Res 2004;32: 959­976. 13. Pflugrath JW. The finer things in X-ray diffraction data collection. Acta Crystallogr D 1999;55:1718­1725. 14. Terwilliger TC, Berendzen J. Automated MAD and MIR structure solution. Acta Crystallogr D 1999;55:849­861. 15. Terwilliger TC. Maximum likelihood density modification. Acta Crystallogr D 2000;56:965­972. 16. Brunger AT, Adams PD, Clore GM, DeLano WL, Gros P, GrosseKunstleve RW, Jiang JS, Kuszewski J, Nilges M, Pannu NS, Read RJ, Rice LM, Simonson T, Warren GL. Crystallography & NMR system:
+
+17.
+
+18.
+
+19.
+
+20.
+
+21.
+
+22. 23.
+
+24.
+
+a new software suite for macromolecular structure determination. Acta Crystallogr D 1998;54:905­921. Jones TA, Zou JY, Cowan SW, Kjeldgaard M. Improved methods for building protein models in electron density maps and the location of errors in these models. Acta Crystallogr A 1991;47: 110­119. Laskowski RA, MacArthur MW, Moss DS, Thornton JM. PROCHECK: a program to check the stereochemical quality of protein structures. J Appl Crystallogr 1993;26:283­291. ^ ´ Utley RT, Lacoste N, Jobin-Robitaille O, Allard S, Cote J. Regulation of NuA4 histone acetyltransferase activity in transcription and DNA repair by phosphorylation of histone H4. Mol Cell Biol 2005;25: 8179­8190. Zhang Y, Skolnick J. TM-align: a protein structure alignment algorithm based on the TM-score. Nucleic Acids Res 2005;33:2302­ 2309. Kabsch W, Sander C. Dictionary of protein secondary structure: pattern recognition of hydrogen-bonded and geometrical features. Biopolymers 1983;22:2577­2637. DeLano WL. The PyMOL molecular graphics system. Palo Alto, CA: DeLano Scientific; 2002. Guex N, Peitsch MC. SWISS-MODEL and the Swiss-PdbViewer: an environment for comparative protein modeling. Electrophoresis 1997;18:2714­2723. ´ Ramon-Maiques S, Kuo AJ, Carney D, Matthews AG, Oettinger MA, Gozani O, Yang W. The plant homeodomain finger of RAG2 recognizes histone H3 methylated at both lysine-4 and arginine-2. Proc Natl Acad Sci USA 2007;104:18993­18998.
+
+1376
+
+PROTEINS
+
+

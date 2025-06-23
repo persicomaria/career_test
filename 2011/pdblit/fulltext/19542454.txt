@@ -1,0 +1,308 @@
+This information is current as of May 3, 2010
+
+Structural Bases for the Affinity-Driven Selection of a Public TCR against a Dominant Human Cytomegalovirus Epitope
+Stéphanie Gras, Xavier Saulquin, Jean-Baptiste Reiser, Emilie Debeaupuis, Klara Echasserieau, Adrien Kissenpfennig, François Legoux, Anne Chouquet, Madalen Le Gorrec, Paul Machillot, Bérangère Neveu, Nicole Thielens, Bernard Malissen, Marc Bonneville and Dominique Housset J. Immunol. 2009;183;430-437 doi:10.4049/jimmunol.0900556 http://www.jimmunol.org/cgi/content/full/183/1/430
+
+Downloaded from www.jimmunol.org on May 3, 2010
+
+Supplementary Data References
+
+http://www.jimmunol.org/cgi/content/full/183/1/430/DC1
+
+This article cites 41 articles, 16 of which can be accessed free at: http://www.jimmunol.org/cgi/content/full/183/1/430#BIBL 2 online articles that cite this article can be accessed at: http://www.jimmunol.org/cgi/content/full/183/1/430#otherarticle s
+
+Subscriptions Permissions Email Alerts
+
+Information about subscribing to The Journal of Immunology is online at http://www.jimmunol.org/subscriptions/ Submit copyright permission requests at http://www.aai.org/ji/copyright.html Receive free email alerts when new articles cite this article. Sign up at http://www.jimmunol.org/subscriptions/etoc.shtml
+
+The Journal of Immunology is published twice each month by The American Association of Immunologists, Inc., 9650 Rockville Pike, Bethesda, MD 20814-3994. Copyright ©2009 by The American Association of Immunologists, Inc. All rights reserved. Print ISSN: 0022-1767 Online ISSN: 1550-6606.
+
+The Journal of Immunology
+
+Structural Bases for the Affinity-Driven Selection of a Public TCR against a Dominant Human Cytomegalovirus Epitope1
+Stephanie Gras,2,3* Xavier Saulquin,2 Jean-Baptiste Reiser,* Emilie Debeaupuis, ´ Klara Echasserieau, Adrien Kissenpfennig,4 Francois Legoux, Anne Chouquet,* ¸ Madalen Le Gorrec,* Paul Machillot,* Berangere Neveu, Nicole Thielens,* ´ ` Bernard Malissen, Marc Bonneville,5 and Dominique Housset5*
+Protective T cell responses elicited along chronic human CMV (HCMV) infections are sometimes dominated by CD8 T cell clones bearing highly related or identical public TCR in unrelated individuals. To understand the principles that guide emergence of these public T cell responses, we have performed structural, biophysical, and functional analyses of an immunodominant public TCR (RA14) directed against a major HLA-A*0201-restricted HCMV Ag (pp65495­503) and selected in vivo from a diverse repertoire after chronic stimulations. Unlike the two immunodominant public TCRs crystallized so far, which focused on one peptide hotspot, the HCMV-specific RA14 TCR interacts with the full array of available peptide residues. The conservation of some peptide-MHC complex-contacting amino acids by lower-affinity TCRs suggests a shared TCR-peptide-MHC complex docking mode and supports an Ag-driven selection of optimal TCRs. Therefore, the emergence of a public TCR of an oligoclonal Ag-specific response after repeated viral stimulations is based on a receptor displaying a high structural complementarity with the entire peptide and focusing on three peptide hotspots. This highlights key parameters underlying the selection of a protective T cell response against HCMV infection, which remains a major health issue in patients undergoing bone marrow transplantation. The Journal of Immunology, 2009, 183: 430 ­ 437. uman CMV (HCMV)6 is a ubiquitous -herpesvirus that infects 60 ­90% of the population. After primary infection, HCMV persists in a latent stage and can undergo transient reactivations. Although HCMV infections or reactivations are usually kept in check by the immune system of immunocompetent individuals, they can cause life-threatening diseases in immunocompromised patients (1). CD8 CTLs have a central
+*Institut de Biologie Structurale Jean-Pierre Ebel, Unite mixte de recherche 5075 ´ (CEA, CNRS, UJF, PSB), Grenoble, France; INSERM, Unite 892, Institut de Re´ cherche Thérapeutique, Universite de Nantes, Nantes, France; and Centre ´ d'Immunologie de Marseille-Luminy, Universite de la Mediterrannee, INSERM, ´ ´ ´ Unite 631, CNRS, Marseille, France ´ Received for publication February 18, 2009. Accepted for publication April 29, 2009. The costs of publication of this article were defrayed in part by the payment of page charges. This article must therefore be hereby marked advertisement in accordance with 18 U.S.C. Section 1734 solely to indicate this fact.
+1 This study was supported in part by the Agence Nationale de la Recherche (Grant ANR-05-MIIM-019). B.M. and M.B. were also supported by the EPI-PEPVAC European Union Grant. The authors have declared that no competing interests exist. 2 3
+
+Downloaded from www.jimmunol.org on May 3, 2010
+
+H
+
+S.G. and X.S. equally contributed to the work.
+
+Current address: The Protein Crystallography Unit, Department of Biochemistry and Molecular Biology, School of Biomedical Sciences, Monash University, Clayton, Victoria 3800, Australia.
+4 Current address: Infection and Immunity Division, Centre for Cancer Research and Cell Biology, School of Biomedical Sciences, Queens University, Belfast, Northern Ireland. 5 Address correspondence and reprint requests to Dr. Marc Bonneville, INSERM, Unite 892, Institut de Recherche Thérapeutique, 9 quai Moncousu, Universite de ´ ´ Nantes, F-44035 Nantes, France. E-mail address: bonnevil@nantes.inserm.fr, or Dominique Housset, Institut de Biologie Structurale Jean-Pierre Ebel, Unite mixte de ´ recherche 5075 (CEA, CNRS, UJF, PSB), 41 rue Jules Horowitz, F-38027 Grenoble, France. E-mail address: dominique.housset@ibs.fr 6 Abbreviations used in this paper: HCMV, human CMV; A2, HLA-A*0201 allele; FLR, FLRGRAYGL; NLV, NLVPMVATV; PEG, polyethylene glycol; pMHC, peptide-MHC; pMHCI, pMHC class I; RA14-NLV-A2, RA14 TCR-NLV-A2 complex; SPR, surface plasmon resonance; TAP, transporter associated with Ag processing.
+
+Copyright © 2009 by The American Association of Immunologists, Inc. 0022-1767/09/$2.00 www.jimmunol.org/cgi/doi/10.4049/jimmunol.0900556
+
+role in controlling HCMV reactivation (2­ 6). Although CD8 T cells specific for the immediate early gene product IE-1 are found at substantial frequencies in some donors (7, 8), the predominant CTL response is directed against the viral tegument protein pp65 (5, 9). In individuals sharing the widespread HLA-A*0201 allele (referred to as A2), HCMV-specific CTLs recognize the same epitope pp65495­503 (NLVPMVATV), hereafter referred to as NLV (5, 10, 11). Albeit polyclonal, the NLV-specific CTL response in healthy donors is usually made of a limited number of peptide-specific CTL clones expressing a restricted set of TCR variable gene segments that may differ from one individual to another (5, 11, 12). However, a further dramatic reduction of clonal diversity occurs during chronic inflammation (e.g., in rheumatoid arthritis patients) and immunodepression, resulting in the selection of a few dominant clones bearing high-affinity TCRs (13). Because immunodepressed patients are prone to HCMV reactivation, this clonal focusing presumably reflects favored expansion of the bestfit clonotypes along recurrent antigenic stimulations. NLV-specific TCRs that predominate in the latter patients carry several public features (i.e., shared by clonotypes from different individuals), such as restricted V or V usage and conserved motifs within the CDR3 loops (13). These public TCRs can be expressed by up to 15% of peripheral blood CD8 T cells of patients undergoing HCMV reactivation, highlighting their major contribution to the NLV-specific response. Recent structural analysis of public TCRs in complex with peptide-MHC (pMHC) revealed unique structural features of the selecting pMHC complex, such as limited solvent accessibility or marked bulging of one peptide residue, that accounts for selection of an homogeneous repertoire (14, 15). However, it remains unclear whether similar rules apply to public T cell responses selected after repeated stimulation, as observed in HCMV infection. To gain insight into the mechanisms underlying clonal focusing along chronic Ag stimulation, we have determined the crystal structure of the immunodominant NLV peptide bound
+
+The Journal of Immunology to A2 in isolation or in complex with a dominant public TCR (RA14) derived from an immunodepressed patient (13). These structural data, combined with biophysical and functional experiments, allowed us to determine a new and quite extensive peptide readout mode with three peptide hot spots sensed by the RA14 TCR. It also provided a possible mechanism underlying preferred usage of some TRAV, TRBV, CDR3 , and CDR3 for the recognition of this immunodominant peptide in an immunodepressed context associated with HCMV reactivation, as is the case for patients with oncohematological diseases undergoing bone marrow transplantation.
+
+431
+Table I. Affinity of RA14 TCR for NLV variants and functional impact on cytotoxic response of the RA14 T cell clonea
+Sequence KD ( M) EC50 (nM)
+
+Materials and Methods
+Plasmid construction
+The cDNA encoding the full-length - and -chains were cloned into pGEM-T Easy (Promega). The sequence encoding the V and C ectodomain of - and -chain were then amplified by PCR using the following primers: 5 sense primers (5 -ggaattccaggaggaatttaaaatgatactgaacgtggaacaaagtcc3 ) or (5 -ggaattccaggaggaatttaaaatgggtgtcactcagaccccaaaattcc) containing an EcoRI restriction site (underlined) and a strong consensus Shine Dalgarno sequence (bold) around the initiation codon to promote optimal translation of the -chain and -chain respectively, and 5 anti-sense primers (5 -gctctagatttacaaccaccaccgtcgttttctgggctggggaagaaggtgtcttctgg-3 ) or (5 -gctctagagcctagtcacaaccaccacccctgtcctggtctgctctaccccaggcctcg-3 ) containing an XbaI restriction site and encoding for C - and -terminal constant domain extension (NDGGCK) and (QDRGGGCD*) (14). PCR products were cloned into the pLM1 vector in frame with a C-terminal biotin acceptor peptide sequence tag for the -chain and into pET22b (Novagen) for the -chain.
+
+NLV P4G P4A M5S M5V M5T M5Q T8A T8S T8V
+
+NLVPMVATV NLVGMVATV NLVAMVATV NLVPSVATV NLVPVVATV NLVPTVATV NLVPQVATV NLVPMVAAV NLVPMVASV NLVPMVAVV
+
+27.7 2.3 69.2 1.5 56.5 4.0 n.d. 60.2 2.6 58.2 1.7 57.5 1.3 n.d. 42.7 8.4 n.d.
+
+5.10
+
+2
+
+50
+
+5.10 1 5.102 5.102 103 102 104 10 1 0.05 104
+
+0.01 3 0.1 20 50 30 20
+
+a Dissociation constants (KD) were determined by steady-state SPR experiments for the interaction between RA14 TCR and HLA-A*0201 loaded with either the native viral NLV peptide or one of the nine different peptide variants (the mutated amino acids are underlined). The ability of a T cell clone bearing the RA14 TCR to recognize HLA-A*0201-positive target cells loaded with each peptide variant was evaluated by determining the peptide concentration necessary to achieve half maximal target-cell lysis (EC50 at an effector to target ratio of 10:1). n.d., No binding detected.
+
+Protein expression and purification of R14 TCR
+Both RA14 - and -chains were produced separately as inclusion bodies in BL21(DE3)RIL Escherichia coli strain (Stratagene), transformed by either pLM1- or pET22b- plasmids. Inclusion bodies were resuspended in 8 M urea, 50 mM MES (pH 6.5), 0.1 mM DTT, and 0.1 mM EDTA. Equal quantity of both chains were then mixed in 6 M guanidine HCl, 50 mM MES (pH 6.5), 10 mM EDTA, 2 mM DTT, and 1 mM sodium acetate. RA14 TCR was refolded by flash dilution in a solution containing 3 M urea, 200 mM arginine HCl, 150 mM Tris (pH 8), 1.5 mM reduced glutathione, and 0.15 mM oxidized glutathione at 4°C. After an incubation of 72 h at 4°C, the folding solution was dialyzed against 10 mM Tris (pH 8.5) and 50 mM NaCl for 24 h and against 10 mM Tris (pH 8.5) for 48 h. The resulting protein solution was then concentrated using a 10 kDa membrane (Millipore) and purified on a MonoQ 5/50 (GE Healthcare) column with a fast protein liquid chromatography system (Purifier 10, GE Healthcare). The elution was performed with a 0 ­ 0.5 M NaCl gradient.
+
+mM HEPES (pH 7.4), 150 mM NaCl, 3 mM EDTA, 0.005% P20). RA14 TCR was diluted to 20 g/ml in 10 mM acetate buffer (pH 5.0) and coupled at 3300 ­ 6000 resonance units onto three adjacent cells of a CM5 sensor chip (GE Healthcare) by classical amine coupling at a flow rate of 5 l/ min. The blank cell was made by ethanolamine deactivation of the activated surface. Before SPR experiments, HLA-A*0201-peptide complexes were dialysed against 10 mM Tris (pH 8) containing 150 mM NaCl and a final step of purification by gel-filtration on a Superdex-200 column (GE Healthcare) was performed to eliminate aggregates. HLA-A*0201-peptide complexes were injected onto the four flow cells simultaneously at various concentrations ranging from 0.31 to 80 M. SPR data were analyzed using the steady state affinity model of the BIAevaluation 3.1 software. Analysis of the steady-state data was then performed by averaging the equilibrium response over the final 10 to 25 s of each injection, plotting the equilibrium response against concentration, and fitting using a 1:1 binding model (supplemental Fig. S1).7 Final affinity constants were obtained by averaging values fitted over the triplicate data sets and all errors reported are SD from the mean (Table I).
+
+Downloaded from www.jimmunol.org on May 3, 2010
+
+T cell clones and functional assays
+T cell clones directed against NLV-HLA-A*0201 were obtained and cultured as previously described (13). The NLV and NLV variant synthetic peptides were dissolved at 20 mg/ml in DMSO, diluted at 2 mg/ml in 10 mM acetic acid, and then diluted to the required concentration in RPMI 1640 10% FCS. Cytotoxicity was measured in a standard 4 h 51CR assay (18). Briefly, transporter associated with Ag processing (TAP)-deficient HLA-A*0201-positive T2 cells were labeled with 100 Ci of Na251CRO4 for 1 h at 37°C, washed three times in RPMI 1640 10% FCS, and pulsed with various concentrations of NLV peptides for 1 h at 37°C. After two washes, target cells were incubated with the different T cell clones at an effector:target ratio of 10:1 in 100 l of RPMI 1640 10% FCS for 4 h at 37°C. Supernatant (25 l) from each well was removed and counted in a gamma scintillation counter. Peptide concentrations necessary to achieve half-maximal target-cell lysis (EC50) were calculated from three independent experiments and errors reported correspond to SD from the mean EC50 values (Table I).
+
+Protein expression and purification of NLV-HLA-A2
+Both HLA-A*0201 heavy chains and 2-microglobulin were produced separately as previously described (16, 17). In brief, the A245V mutant of the HLA-A*0201 H chain tagged at the C-ter with a biotinylation sequence was cloned into pHN1 expression vector as described in (17). Recombinant proteins were produced as inclusion bodies in XA90F'LaqQ1 Escherichia coli strain. The inclusion bodies were resuspended in 8 M urea, 50 mM MES (pH 6.5), 0.1 mM DTT, and 0.1 mM EDTA, incubated overnight at 4°C, and centrifuged 30 min at 100,000 g. The supernatant was collected and frozen at 80°C. The pMHC complex refolding step was done by flash dilution of a mix of 21 mg HLA-A*0201, 10 mg 2-microglobulin, and 10 mg of the desired synthetic peptide into 350 ml of 100 mM Tris (pH 8.0), 400 mM L-Arginine HCl, 2 mM EDTA, 5 mM reduced glutathione, 0.5 mM oxidized glutathione, and two Complete EDTA-free Cocktail Inhibitor Tablets (Roche). The refolding solution was then incubated for 4 to 5 days at 4°C and concentrated with a 10 or 30 kDa cutoff membrane (Vivacell System; Vivascience). The pMHC complex was purified on a MonoQ 5/50 column with a fast protein liquid chromatography system equilibrated in a 10 mM Tris (pH 8.0) buffer. It was eluted with 100 to 150 mM NaCl and concentrated with Amicon-10 or Amicon-30 devices to reach a final protein concentration of 2.5 to 3.5 mg/ml.
+
+Crystallographic data collection
+Crystals were grown by vapor diffusion with the hanging drop technique at 293K. The crystals of the NLV-A2 and the NLVvariants-A2 complexes were obtained by mixing 2 l of 3­5 mg/ml protein solution and 2 l of the reservoir solution (9 ­20% polyethylene glycol (PEG) 6000, 0.1 M tri-Na Citrate (pH 6.5), 0 ­ 0.1 M NaCl). Before crystallization, the RA14-TCRNLV-A2 complex was formed by mixing TCR and pMHC with a molar ratio of 1:1 and at a final concentration of 2 mg/ml for the complex. The crystals were grown in 18 ­24% PEG 3350, 0.3 M LiSO4. The crystals were cryoprotected with 30% of either glycerol or PEG added to the mother liquor before flash freezing. All data were collected at 100 K. The
+7
+
+Surface plasmon resonance (SPR) experiments
+Binding of HLA-A*0201 loaded with the different NLV peptide variants to TCR RA14 was analyzed by SPR. All experiments were performed using a Biacore 3000 instrument (GE Healthcare) at 25°C in HBS-EP buffer (10
+
+The online version of this article contains supplemental material.
+
+432
+
+PUBLIC TCR READ OUT OF NLV-HLA-A2*0201 COMPLEX
+
+FIGURE 1. Overall view of RA14-NLV-A2 complex structure. A, Ribbon representation of the RA14-NLV-A2 ternary complex. TCR - and -chains are depicted in light gray and medium gray, respectively. CDR1 , CDR2 , CDR3 , CDR1 , CDR2 , and CDR3 are shown in green, red, blue, chartreuse green, orange, and cyan, respectively. HLA-A2 is depicted in gold and silver mauve for the 1 and 2 domains, respectively, and gray for the 3 and 2-microglobulin domains. The peptide is shown in purple balls and sticks. B and C, Two perpendicular enlarged views of the RA14-NLV-A2 interface. D, Footprint of the RA14 TCR on the molecular surface of the NLV-A2 complex. NLV-A2 molecular surface buried by the RA14 CDRs has been colored as in A. E, Superposition of the NLV-A2 1 2 domain derived from both NLV-A2 (depicted in gray) and RA14-NLV-A2 (depicted as in A) complex structures.
+
+Downloaded from www.jimmunol.org on May 3, 2010
+
+data sets for the NLV-A2 and NLVvariants-A2 crystals were collected on beamlines ID14-eh2 and ID23-eh2 of the European Synchrotron Radiation Facility (ESRF) at a wavelength of 0.933 Å using an ADSC Q4 CCD detector. The data set of the RA14-NLV-HLA-A2 crystal was collected on beamline ID29 of the ESRF at a wavelength of 0.976 Å using an ADSC Q315 CCD detector. Data processing was performed using XDS (19) and summarized in Table S1.
+
+Structure determination and refinement
+All structures were solved by molecular replacement with AMoRe (20). The NLV-A2 structure was solved using the GVYDGREHTV-A2 structure (Protein Data Bank (PDB) entry 1I4F, (21)) as the initial model. For the NLVvariants-A2 structures, the NLV-A2 structure was used as starting model. The RA14 TCR-NLV-A2 complex (hereafter denoted RA14-NLVA2) structure was solved using the NLV-A2 binary complex structure and PDB entry 2BNU (22) as pMHC and TCR initial models. All structures include one complex per asymmetric unit and the refinement protocol used included several cycles of refinement with REFMAC (23) followed by manual model rebuilding with O (24) and Coot (25), until no interpretable electron density could be identified in the residual map. The electron density is well defined for the whole NLV-A2 and NLVvariants-A2 binary complexes. However, some peptide side chains showed significant mobility. For instance, the Met5P side chain has a weak electron density beyond its C atom, and Met5P, Val6P, and Thr8P side chains have been modeled with two discrete conformations, indicating a significant mobility for the most solvent-exposed side chains as well as for the Val6P in the A2 C pocket (Fig. S2). The whole RA14-NLV-A2 complex structure is well defined in the electron density map (Fig. S3) except for two stretches of the TCR C domain corresponding to residues 143­150 and 160 ­169. Final refinement statistics and PDB entry are summarized in Table S1. Coordinates for RA14-NLV-A2, NLV-A2, NLVM5S-A2, NLVM5V-A2, NLVM5T-A2, NLVM5Q-A2, NLVT8A-A2, and NLVT8V-A2 structures were deposited with the PDB (http://www.rcsb.org/pdb) under 3GSN, 3GSO, 3GSQ, 3GSR, 3GSU, 3GSV, 3GSW, and 3GSX accession numbers, respectively.
+
+The crystal structure of RA14-NLV-A2 has been refined to 2.8 Å resolution (Fig. 1A). The RA14 TCR is encoded by rearranged TRAV24 and TRAJ49 gene segments for the -chain and TRBV6-5, TRBD1, and TRBJ1-2 gene segments for the -chain (27). The RA14 TCR docking orientation on NLV-A2 (35°) falls within the range of orientations already observed for other TCRs in complex with pMHC class I (pMHCI) (28), and reflects the generally adopted diagonal docking mode. As illustrated by the TCR footprint on the pMHC surface (Fig. 1D), the CDR1 and CDR3 loops interact with the N-terminal half of the peptide and the 1 MHC helix, whereas the CDR1 and CDR3 loops primarily contact the C-terminal end of the peptide and the 2 A2 helix. CDR2 and CDR2 exclusively contact the 2 and 1 A2 helices, respectively. When docking onto the NLV-A2 complex, RA14 buries 91% (324 Å2) of the peptide solvent accessible surface while in other TCR-pMHCI complex structures known to date, this percentage varies from 60 to 89%. Only 32 Å2 of the peptide surface is left exposed to the solvent. Therefore, while the RA14-NLV-A2 complex adopts the canonical TCR diagonal docking mode, it manages to form the most extensive peptide covering among the TCR-pMHCI structures known to date. The TCR-A2 interface highlights a new TRAV6-5-A2 binding mode The RA14-A2 interaction is mediated by six hydrogen bonds and 43 van der Waals contacts (Table II) and involves all CDRs except CDR2 . RA14 sits on A2 1 helix through a hydrophobic cluster between the CDR2 (Val50 , Ile54 ) on one side and the aliphatic chain of Gln72H, Arg75H and Val76H, on the other, as well as through two hydrogen bonds between the framework residues Tyr48 hydroxyl group and Asp56 O 1 atom and the Gln72H N 2 atom (Fig. 2A). This anchor is complemented with two hydrogen bonds between the tip of RA14 CDR3 (Asn96 amine group) and both Gln72H O 1 atom and Ala69H carbonyl group (Fig. 2B). Gln72H is therefore truly identified as a tight anchor for
+
+Results
+Structural overview of the NLV-A2 and TCR-NLV-A2 complexes The crystal structure of the NLV-A2 binary complex has been determined at 1.6 Å resolution. NLV carries the canonical A2 binding motif (Leu in P2, Val in P6, and Leu in P9, (26)) and the most solvent-exposed residues are found at positions 4, 5, and 8.
+
+The Journal of Immunology
+Table II. TCR-peptide and TCR-MHC interactionsa
+TCR RA14: HLA-A2 van der Waals Contacts (C-C CDR Gene segment TCR contact residues 4.5 Å) No. of contacts
+
+433
+
+HLA contact residues
+
+CDR1 CDR1 CDR2 CDR2 CDR3 CDR3 CDR3 FW CDR2 CDR2 CDR2 CDR2 CDR3 CDR3 CDR3 CDR3
+
+TRAV24 TRAV24 TRAV24 TRAV24 TRAJ49 TRAJ49 TRAJ49 TRBV6-5 TRBV6-5 TRBV6-5 TRBV6-5 TRBV6-5 N-TRBD1-N N-TRBD1-N TRBJ1-2 TRBJ1-2
+
+Asn29 Tyr31 Thr51 Leu52 Thr94 Gly95 Asn96 Tyr48 Val50 Val50 Ile54 Ile54 Val96 Ile100 Tyr101 Tyr101
+
+Lys66 Gln155 Gln155 Ala158 Arg65 Ala69 Ala69 Gln72 Gln72 Val76 Arg75 Val76 Lys146 Gln155 Ala149 Ala150
+
+2 5 2 1 3 2 4 2 1 2 7 1 4 3 1 3
+
+TCR RA14: HLA-A2 Hydrogen Bonds CDR Segment TCR contact atom HLA contact atom Length (Å)
+
+Downloaded from www.jimmunol.org on May 3, 2010
+
+CDR3 CDR3 CDR1 FW FW CDR3
+
+TRAJ49 TRAJ49 TRBV6-5 TRBV6-5 TRBV6-5 TRBJ1-2
+
+Asn96 Asn96 Glu30 Tyr48 Asp56 Tyr101
+
+ND2 ND2 OE2 OH OD1 OH
+
+Ala69 Gln72 Lys146 Gln72 Gln72 Ala149
+4.5 Å)
+
+O OE1 NZ NE2 NE2 O
+
+2.83 2.70 3.23 2.67 2.85 3.11
+
+TCR RA14: NLV van der Waals Contacts (C-C CDR Segment TCR contact residues
+
+Peptide contact residues
+
+No. of contacts
+
+CDR1 CDR1 CDR1 CDR1 CDR1 CDR3 CDR1 CDR3 CDR3 CDR3 CDR3 CDR3 CDR3 CDR3 CDR3
+
+TRAJ49 TRAJ49 TRAJ49 TRAJ49 TRAJ49 TRAJ49 TRBV6-5 N-TRBD1-N N-TRBD1-N N-TRBD1-N N-TRBD1-N N-TRBD1-N N-TRBD1-N N-TRBD1-N N-TRBD1-N
+
+Asn29 Phe30 Tyr31 Tyr31 Tyr31 Gly95 Glu30 Thr97 Thr97 Gly98 Gly98 Gly98 Gly99 Gly99 Ile100
+TCR RA14: NLV Hydrogen Bonds
+
+Pro4 Pro4 Val3 Pro4 Met5 Met5 Thr8 Ala7 Thr8 Met5 Val6 Ala7 Met5 Ala7 Met5
+
+3 1 1 11 14 1 1 1 2 3 2 4 2 1 1
+
+CDR
+
+Segment
+
+TCR contact atom
+
+Peptide contact atom
+
+Length (Å)
+
+CDR3 CDR1 CDR3 CDR3 CDR3
+a
+
+TRAJ49 TRBV6-5 N-TRBD1 N-TRBD1 N-TRBD1
+
+Asn96 Glu30 Thr97 Thr97 Thr97
+
+NH OE1 O O NH
+
+Met5 Thr8 Thr8 Thr8 Thr8
+
+SD OH N OH OH
+
+3.61 2.74 3.09 2.92 3.44
+
+FW, Frame work residues.
+
+RA14, thanks to TRAJ49-TRB6-5 combination. The particular focusing of Tyr48 and Asp56 on the Gln72H is unique to RA14NLV-A2 and differs from that highlighted in several other TCRpMHC structures in which these two well conserved residues preferentially interact with Arg65H (29). RA14 contacts A2 2 helix mainly through its CDR1 , CDR1 and CDR3 . Tyr31 side chain is sandwiched by A2 Gln155H and peptide Pro4P and Met5P, while its main chain carbonyl group further stabilizes the Gln155H side chain through an elongated hydrogen bond (3.86 Å,
+
+Fig. 2C). Such an interaction is reminiscent of that observed for Tyr31 in 1G4 TCR-NY-ESO-1-A2 complex (22), but differs from the one identified by Marrack et al. (29) as a commonly used V /MHC contact and involving a tyrosine at position 32 (numbered as Tyr31 (29)) and position 155H on the 2 MHC helix. CDR1 and CDR3 are involved through an ionic interaction between Glu30 and Lys146H side chains (Fig. 2D) and one hydrogen bond between Tyr101 hydroxyl group and Ala149H carbonyl oxygen atom and a few van der Waals contacts. Remarkably,
+
+434
+
+PUBLIC TCR READ OUT OF NLV-HLA-A2*0201 COMPLEX
+
+FIGURE 2. Detailed views of the RA14-NLV-A2 interaction hot spots. A, Interaction of the RA14 CDR2 with the A2 1 helix. B, Interaction of the RA14 CDR1 (Asn96 ) with the NLV-A2. C, Interaction of the CDR1 (Tyr31 ) with the NLVA2 complex. D, Interaction of the CDR1 with NLV-A2.
+
+Downloaded from www.jimmunol.org on May 3, 2010
+
+although RA14 TCR shares with A6, B7, and 1G4 TCRs the same TRBV6-5 segment, its binding mode to A2 differs and constitutes a new structural codon for the TRBV6-5-A2 interaction as defined by Feng et al. (30) likely favored by the presence of the TRAJ49 encoded Asn96 . This reinforces the concept that a V (or V ) domain encoded by given TRBV (or TRAV) segment can adopt several different binding modes with the same MHC molecule, depending on the other segments used to encode the whole TCR. A TCR-pMHC complex with a nearly maximal peptide readout Overall, the NLV peptide establishes five hydrogen bonds and 48 van der Waals contacts with RA14 (Table II). RA14 contacts the peptide at nearly all solvent-exposed positions, namely 3, 4, 5, 6, 7, and 8, but 80% of the van der Waals contacts focus on positions 4 and 5, while the hydrogen bonds essentially engage Thr8P. The bulging Pro4P and Met5P fit a cavity formed by CDR1 , CDR3 , and CDR3 (Fig. 2C). Pro4P is sandwiched between Asn29 and Tyr31 side chains and establishes hydrophobic contacts with them (Fig. 2C). The tips of the CDR3 (Asn93 , Gly95 , Asn96 ) and CDR3 (Gly98 , Gly99 ) loops and the Tyr31 aromatic ring form a molecular cage for the Met5P side chain and thus fully stabilize it. The Met5P sulfur atom is further stabilized by a 3.61 Å long hydrogen bond with the Asn96 NH group (Table II, Fig. 2B). Contrasting with the hydrophobic nature of the TCR-peptide interactions involving positions 4 and 5, a dense network of hydrogen bonds connects Thr8P with the side chain of Glu30 and the main chain of Thr97 (Table II). The Glu30 side chain is further stabilized through two hydrogen bonds with Thr97 N and Lys146H N (Fig. 2D). Importantly, the CDR3 contribution to the TCR-peptide interface is essentially mediated through its main chain. The only CDR3 sequence requirement seems to be the glycine at position 98 , consistent with the van der Waals contacts established between the C atom and position 5, 6, and 7 of the peptide. Overall, although all the significantly solvent-exposed peptide residues contribute to the interface with the TCR, the present structural data identify Pro4P, Met5P, and Thr8P as main peptide recognition spots.
+
+Minor pMHC structural changes induced upon TCR binding The structure of the NLV-A2 alone or in complex with RA14 are similar, the root mean square difference on C atom pairs being 0.51 Å for the 1 2 A2 domain and 0.53 Å for the peptide (Fig. 1E). Upon TCR binding, a 1 Å shift of Pro4P and Met5P backbone toward the 1 A2 helix is observed and correlates with both the insertion of Tyr31 between the peptide and the A2 2 helix and the clamping of Met5P by CDR1 , CDR3 , and CDR3 . Moreover, TCR docking onto pMHC clearly affects the mobility of Met5P and Thr8P, as shown by the electron density, as the side chains of both residues adopt a unique and well-defined conformation and interact with RA14 CDRs (Fig. S3). Among the 24 A2 residues implicated in the RA14-NLV-A2 interface, eight of them have their side chain conformation altered by the docking of RA14. These changes were mainly caused by steric hindrance generated by the TCR (Glu58H, Arg65H, Arg75H, Gln155H), by favorable interactions with the TCR (Gln72H, Gln155H), or by concerted movement with one of the latter residues (Glu19H, Asp61H, Glu154H). RA14-NLV-A2 affinity measurements identify three peptide hot spots To assess the contribution of RA14-NLV contact spots in the stabilization of the RA14-NLV-A2 complex, the affinity of the RA14 TCR for A2 bound to the native NLV peptide and nine NLV variants (P4G, P4A, M5S, M5T, M5V, M5Q, T8A, T8S, and T8V) was measured by SPR. Both kinetic and steady state binding experiments were performed. For the native NLV peptide and all the variants, binding of A2 onto immobilized TCR was characterized by fast association and dissociation. Indeed, due to the speed of the association/dissociation process, none of the association (Kon) or dissociation (Koff) constants could be reliably evaluated, except for the koff corresponding to wild-type NLV peptide (data not shown). Affinities (KD) were thus derived from steady state experiments (Table I and Fig. S1). The wild-type NLV-A2 has the highest affinity for RA14 with a KD of 27.7 M, followed by the T8S NLV
+
+The Journal of Immunology
+Table III. Overrepresentation of motifs involved in key interactions between RA14 TCR and NLV-A2 among TCR dominating the NLV-specific repertoire in patients prone to HCMV reactivationa
+Healthy Donors Sequence TCR No. Binding Motifs Rec. f(%) IS Patients Rec. f(%)
+
+435
+
+Public 1 RA15 M1 Public 2 RA17R4 M2 GR2 HD33.5 GR3 RA5PBL R22 HD55.2 HD55.23 Public 3 HD44.1 Public 4
+
+AV24­AJ49 BV6-5 AV24­AJ49 BV6-1 AV24­AJ49 BV27 AV24­AJ49 BV27 AV8-3­AJ49 BV6-5 AV8-3­AJ49 BV27 AV8-3­AJ20 BV6-5 AV3­AJ35 BV28 AV3­AJ26 BV28 AV26-2­AJ53 BV27 AV26-2­AJ43 BV30 AV26-2­AJ36 BV4-3 AV5­AJ36 BV13 AV5­AJ44 BV30 AV5­AJ6 BV24-1 AV12-3­AJ49 BV12-3 AV35­AJ50 BV12-3 AV41­AJ48 BV27 AV21­AJ44 BV20-1
+
+4 3 4 4 3 3 2 2 1 2 1 0 0 0 0 1 1 2 0
+
+3/5 1/5 1/5 1/5 1/5
+
+45 6 14 6
+
+4/12 1/12 1/12 1/12 1/12
+
+>91 100 100 43 97 98 100 33 99
+
+nd 1/12 1/12 1/12
+
+1/5 1/5 2/5 1/5 1/5 2/5 1/5
+
+nd nd 63 nd nd >67 2
+
+1/12
+
+1/12
+
+10
+
+a Each line corresponds to highly related or identical TCR sequences whose TRAV-TRAJ-TRBV gene composition and number of key NLV-A2 binding motifs shared with the RA14 TCR (Asn29 and Tyr31 in CDR1 , Asn96 in CDR3 , Glu30 in CDR1 , and Tyr48 and Asp56 in CDR2 ) are indicated in the second and third columns, respectively. When a given TCR sequence is found in several individuals, the maximal ( x) or minimal ( x) percentage of cells expressing the corresponding TCR are indicated. Note that most NLV-specific TCR carrying three or more tightly involved motifs are expressed by the vast majority ( 90%) of NLV-specific T cells in six of 12 immunosuppressed patients, but by a small fraction only of NLV-specific T cells in healthy donors. By contrast, TCR carrying two or less tightly involved motifs are preferentially found within NLVspecific T cell lines from healthy donors. IS, Immunosuppressed; nd, not determined; Rec., the interindividual recurrence of the corresponding TCR sequence among NLV-specific T cell lines derived from five healthy donors and 12 immunosuppressed patients; f(%), the percentage of cells expressing the corresponding TCR within each NLV-specific T cell line (numbers are in bold when this percentage is above 66.67%).
+
+Downloaded from www.jimmunol.org on May 3, 2010
+
+variants with 42.7 M. Five variants (P4G, P4A, M5T, M5V, and M5Q) have an affinity between 58 and 69 M, and the last three (M5S, T8A, and T8V) do not interact detectably with the RA14 TCR. The KD obtained for the NLV peptide differs significantly from that recently determined by Gakamsky et al. (6.3 M) (31), although the estimated koff is quite similar (0.675 s 1 vs 0.44 s 1 in the present and previous study, respectively). The different experimental setup (see Materials and Methods) accounts for such a difference because the binding of RA14 to the immobilized NLV-A2 through the C-ter end of the A2 H chain provided affinity values closer to that observed by Gakamsky et al. (31 and data not shown) and presumably more directly comparable to other TCRpMHC KD values published previously. As the absolute KD value remains to be precisely cross-checked with other techniques, such as isothermal titration calorimetry, the present setup is optimal for the affinity comparison of the different NLV variants because all NLV-A2 complexes were tested on the same RA14-loaded surface. Binding data drawn from NLV variants clearly establish the significant contribution of peptide positions 4, 5, and 8 to the stability of the RA14-NLV-A2 complex, fully supporting structural data described above. It truly identifies Pro4, Met5, and Thr8 as peptide hot spots. RA14 T cell clone activation by NLV variants confirms the three peptide hot spots The functional impact of each of the above mutations on RA14 clone activation was assessed in cytotoxicity assays against TAPdeficient A2-positive target cells loaded with graded doses of peptide. The highest EC50 value was obtained with the wild-type peptide, followed by T8S and P4A variants (Table I). P4G and all the M5 variants were still able to activate RA14, though at significantly higher concentrations than the wild-type peptide, whereas
+
+T8V and T8A mutants were no longer recognized by RA14. Because all these mutants showed similar or even higher affinity for A2, as suggested by their ability to stabilize surface-A2 expression on T2 TAP-deficient cells (Fig. S4), decreased recognition of peptide variants is likely accounted for by decreased functional avidity of RA14 clone for the corresponding pMHC complexes. Thus, the EC50 values of most mutants correlate well with the affinity of the corresponding peptide-A2 complexes for RA14 TCR estimated by SPR, except for M5S-A2. It thus confirms the role of interaction network formed between peptide position 4, 5, and 8 and the TCR in the recognition of NLV-A2 by RA14 TCR.
+
+Discussion
+The mechanisms underlying the emergence of public TCRs remain controversial and probably involve multiple parameters, such as recombination biases during TCR gene rearrangements, intrathymic selection, peripheral homeostatic processes, and Ag-driven selection (32). The latter process is most likely the main parameter contributing to predominant usage of public TCRs by NLV-A2specific CD8 T cells derived from immunodepressed patients undergoing HCMV reactivation. Indeed, the NLV-A2-specific repertoire in immunosuppressed patients, who are prone to HCMV reactivation, is more limited than that of healthy donors. This repertoire focusing parallels enrichment for high affinity public TCRs, with recurrent CDR1 and CDR2 motifs and conserved CDR3 length and sequence (13). Among public TCRs, those carrying TRAV24-TRAJ49 and TRBV6-5 chains were the most frequent and represented the vast majority of NLV-A2-specific T cells in four of 12 immunosuppressed patients. Those carrying at least three of the four tightly involved motifs identified in RA14 represented more that 90% of the NLV-A2-specific T cells in six of 12 immunosuppressed patients (Table III). This suggests that
+
+436 TRAV24-TRBV6-5 TCRs carry optimal CDR combinations to productively interact with their cognate pMHC, and are thus favored during chronic Ag stimulation. Structural analysis of the RA14 TCR, which is representative of the most frequent public high avidity and dominant NLV-A2-specific TCRs, supports this assumption and provides new insights into the structural basis of public TCR selection. Several structures of human TCRs in complex with pMHC derived from T cell responses with reported biased usage of V(D)J gene segments have been reported. They include JM22 TCR in complex with an influenza-derived peptide (MP58 ­ 66) presented by A2 (14), LC13 TCR in complex with an EBV nuclear Ag 3-derived peptide (FLRGRAYGL, hereafter referred to as FLR) presented by HLA-B8 (15), SB27 TCR in complex with EBV BZLF152­ 64 peptide presented by HLA-B*3508 (33), ELS4 TCR in complex with BZLF154 ­ 64 peptide presented by HLA-B*3501 (34), and HA1.7 TCR in complex with an influenza hemagglutinderived peptide (HA306 ­318) presented by HLA-DR1 (35). However, the most relevant structural comparison is certainly with the two public TCRs in complex with immunodominant pMHCI that have been crystallized so far, JM22-MP58 ­ 66-A2 and LC13-FLR-HLA-B8. The JM22-MP58 ­ 66-A2 complex structure showed involvement of the three -chain CDRs in peptide interactions but limited contribution of the V domain to the TCR-pMHC interface, in agreement with a much less stringent selection of the latter chain (14). Moreover, the JM22 Arg98 is inserted into a notch between the peptide and the A2 2 helix while the peptide is essentially featureless, in that it has a minimal fraction of its molecular surface bulging out of the peptide binding groove (247 Å2 of peptide accessible surface exposed). Therefore, the JM22 CDR3 motif (Arg98-Ser99) associated with TRBV19*01 CDR1 and CDR2 provides a unique solution for the MP58 ­ 66-A2 recognition and explains the highly constrained TRBV repertoire and CDR3 sequences of MP58 ­ 66-specific TCR (36, 37). In the case of the public T cell response against the HLA-B8restricted FLR epitope, the repertoire comprises clones expressing almost identical TCR - and -chains and rests primarily on the TRAV26-TRAJ52 and TRBV7­ 8-TRBD1-TRBJ2­7 gene segment combination (38), although public TCRs with different V(D)J usage may cope with the same pMHC complex (39). The crystal structure of one such TCR (LC13) showed a significant involvement of five CDRs in the interaction with the pMHC (15), in full agreement with selection constraints on both chains. The CDR1 and CDR3 tightly contact through residues unique to TRAV262*01, TRBD1/2 and TRBJ2­7*01, the bulging tyrosine at peptide position 7, the latter contributing the most to the peptide solvent accessible surface (95 of 250 Å2 for the whole peptide). For these two public TCRs, recognition essentially relies on optimal interactions with one specific feature of the pMHC surface. Presumably, the number of TCRs able to productively interact with such a confined part of the pMHC is very limited and consistent with the quasi-monoclonal repertoire observed for these two cases. Indeed, depletion of TRBV19*01 T cells abrogates the MP58 ­ 66-A2-specific response in most donors (36). For FLR-B8, the T cell clonotype that dominates the response is deleted in HLA-B44*01 individuals through a self-tolerance mechanism. In such individuals, the oligoclonal response that includes public clones targets a different epitope involving the N- rather than the C-terminal region of the FLR peptide (39). RA14-NLV-A2 departs from these two aforementioned examples. Because the antigenic peptide is significantly more exposed to the solvent in NLV-A2 (355 Å2), it cannot be considered as featureless as MP58 ­ 66. RA14 does not focus on one particular
+
+PUBLIC TCR READ OUT OF NLV-HLA-A2*0201 COMPLEX bulging residue, as observed for LC13, nor does it conform to the peg-notch type of recognition adopted in the two previous examples. Instead, four of its CDRs (CDR1 , CDR1 , CDR3 , and CDR3 ) bury most of the peptide surface and interact with three peptide hot spots through a network of hydrophobic and polar interactions involving the moderately bulging Pro4P, Met5P, and Thr8P. The significance of these three hot spots in stabilizing the TCR-pMHC complex is demonstrated by binding and T cell activation data on NLV variants. The wild-type NLV peptide displays the highest affinity for RA14 and triggers the most robust cytotoxic responses when used to stimulate the RA14 CTL clone (Table I), whereas a decrease of the affinity is observed for amino acid substitution at positions 4, 5, and 8. Modification of Met5P has the most pronounced effect, M5A being the only variant that remains able to activate RA14 CTL clones, albeit much less efficiently (data not shown). Conservative change of Thr8P to a serine induces a moderate decrease in the affinity and activation efficacy, whereas a change to either a valine or alanine impairs both RA14 interaction and RA14 CTL clone activation and highlights the role of the hydrogen bonds involving Thr8P side chain. As confirmed by NLV variants-A2 binary structures, no peptide conformational change induced by replacement of Met5P or Thr8P with other amino acids which could have accounted for the change in TCR binding was observed for these variants (Fig. S5 and Table S1). Overall, these results confirm the substantial role of three different peptide hot spots and corroborate structural data showing that these three positions are actually the most contacted by the RA14 TCR. As previously described for other TCRs (40, 41), several key residues, located on CDR1 , CDR3 , CDR1 , and CDR2 , provide a structural rational for biased usage of particular V(D)J segments within the NLV-specific repertoire. For instance, Asn29 and Tyr31 belong to a key motif that is exclusively found in TRAV24, whereas Tyr31 alone is found in the TRAV21 segment, which is also used by other NLV-specific TCRs. Asn96 in RA14 (TRAJ49) is also shared by the TRAJ43 gene segment found in several NLV-specific clones. Glu30 , which is quite scarce among TRBV genes, is shared by three TRBV segments (TRBV6-5, -27, and -28) frequently used by NLV-specific TCR. The hydrophobic character of the CDR2 observed in TRBV6-5 and TRBV27 and the conservation of Tyr48 and Asp56 in TRBV6-1, -7-6, -12-3, -27, and -30 suggests a conserved mode of contact with A2 for this CDR. The occurrence of each of the above key motifs is much higher in NLV-A2-specific TCR sequence than in their respective V or J segments. Therefore, their selection either alone or in combination during chronic CMV reactivation is likely due to their ability to form specific contacts with NLV-A2. Our results further exemplify that a specific TRBV segment (6-5) can bind the same MHC molecule in different ways. Thanks to a combination with TRAJ49, the positioning of TRBV6-5 seems driven by a dense hydrogen bond network with Gln72H highlighting the latter residue as a fourth interacting spot. In conclusion, our study highlights the structural characteristics that could explain the immunodominance of the RA14 TCR in response to NLV-A2 in an immunodepressed context associated with HCMV reactivation. The mechanism contrasts from that observed for the immunodominant MP58 ­ 66-A2 and FLR-B8 pMHC because the quasi-unique TCRs used for their recognition essentially interact with a unique feature on the pMHC surface (14, 15). Instead, RA14 buries most of the peptide and forms tight contact with three peptide residues and one A2 amino acid. The combination of TRAV, TRAJ, and TRBV appears optimal to establish this four-spot recognition. Sequence comparison of other NLVA2-specific TCRs shows that they share most of the key contacting residues and suggests that most of the high avidity TCRs could
+
+Downloaded from www.jimmunol.org on May 3, 2010
+
+The Journal of Immunology adopt a similar recognition mode. Confirming this hypothesis would require supplemental structural and interaction data on different private and public NLV-specific TCRs. Nevertheless, the present data indicate that forming optimal interaction with the four identified spots appears to be the structural solution for the affinity-driven emergence of an optimal public TCR among an oligoclonal Ag-specific response after repeated antigenic stimulations. This solution is based on a TCR with a marked structural complementarity with the full array of the available peptide residues.
+
+437
+T cell receptors in antiviral immunity. Immunity 18: selection of dominant 53­ 64. Garboczi, D. N., D. T. Hung, and D. C. Wiley. 1992. HLA-A2-peptide complexes: refolding and crystallization of molecules expressed in Escherichia coli and complexed with single antigenic peptides. Proc. Natl. Acad. Sci. USA 89: 3429 ­3433. Bodinier, M., M. A. Peyrat, C. Tournay, F. Davodeau, F. Romagne, M. Bonneville, and F. Lang. 2000. Efficient detection and immunomagnetic sorting of specific T cells using multimers of MHC class I and peptide with reduced CD8 binding. Nat. Med. 6: 707­710. Neveu, B., K. Echasserieau, T. Hill, K. Kuus-Reichel, E. Houssaint, M. Bonneville, and X. Saulquin. 2006. Impact of CD8-MHC class I interaction in detection and sorting efficiencies of antigen-specific T cells using MHC class I/peptide multimers: contribution of pMHC valency. Int. Immunol. 18: 1139 ­1145. Kabsch, W. 1993. Automatic processing of rotation diffraction data from crystals of initially unknown symmetry and cell constants. J. Appl. Crystallogr. 26: 795­ 800. Navaza, J. 1994. AMoRe: an automated package for molecular replacement. Acta Crystallogr. A. 50: 157­163. Hillig, R. C., P. G. Coulie, V. Stroobant, W. Saenger, A. Ziegler, and M. Hulsmeyer. 2001. High-resolution structure of HLA-A*0201 in complex with a tumour-specific antigenic peptide encoded by the MAGE-A4 gene. J. Mol. Biol. 310: 1167­1176. Chen, J. L., G. Stewart-Jones, G. Bossi, N. M. Lissin, L. Wooldridge, E. M. Choi, G. Held, P. R. Dunbar, R. M. Esnouf, M. Sami, et al. 2005. Structural and kinetic basis for heightened immunogenicity of T cell vaccines. J. Exp. Med. 201: 1243­1255. Collaborative Computational Project Number 4. 1994. The CCP4 suite: programs for protein crystallography. Acta Crystallogr. D. 50: 760 ­763. Jones, T. A., J. Y. Zou, S. W. Cowan, and Kjeldgaard. 1991. Improved methods for building protein models in electron density maps and the location of errors in these models. Acta Crystallogr. A. 47: 110 ­119. Emsley, P., and K. Cowtan. 2004. Coot: model-building tools for molecular graphics. Acta Crystallogr. D. 60: 2126 ­2132. Rammensee, H., J. Bachmann, N. P. Emmerich, O. A. Bachor, and S. Stevanovic. 1999. SYFPEITHI: database for MHC ligands and peptide motifs. Immunogenetics 50: 213­219. Lefranc, M. P. 2001. IMGT, the international ImMunoGeneTics database. Nucleic Acids Res. 29: 207­209. Rudolph, M. G., R. L. Stanfield, and I. A. Wilson. 2006. How TCRs bind MHCs, peptides, and coreceptors. Annu. Rev. Immunol. 24: 419 ­ 466. Marrack, P., J. P. Scott-Browne, S. Dai, L. Gapin, and J. W. Kappler. 2008. Evolutionarily conserved amino acids that control TCR-MHC interaction. Annu. Rev. Immunol. 26: 171­203. Feng, D., C. J. Bond, L. K. Ely, J. Maynard, and K. C. Garcia. 2007. Structural evidence for a germline-encoded T cell receptor-major histocompatibility complex interaction "codon." Nat. Immunol. 8: 975­983. Gakamsky, D. M., E. Lewitzki, E. Grell, X. Saulquin, B. Malissen, F. Montero-Julian, M. Bonneville, and I. Pecht. 2007. Kinetic evidence for a ligand-binding-induced conformational transition in the T cell receptor. Proc. Natl. Acad. Sci. USA 104: 16639 ­16644. Venturi, V., D. A. Price, D. C. Douek, and M. P. Davenport. 2008. The molecular basis for public T-cell responses? Nat. Rev. Immunol. 8: 231­238. Tynan, F. E., S. R. Burrows, A. M. Buckle, C. S. Clements, N. A. Borg, J. J. Miles, T. Beddoe, J. C. Whisstock, M. C. Wilce, S. L. Silins, et al. 2005. T cell receptor recognition of a "super-bulged" major histocompatibility complex class I-bound peptide. Nat. Immunol. 6: 1114 ­1122. Tynan, F. E., H. H. Reid, L. Kjer-Nielsen, J. J. Miles, M. C. Wilce, L. Kostenko, N. A. Borg, N. A. Williamson, T. Beddoe, A. W. Purcell, et al. 2007. A T cell receptor flattens a bulged antigenic peptide presented by a major histocompatibility complex class I molecule. Nat. Immunol. 8: 268 ­276. Hennecke, J., A. Carfi, and D. C. Wiley. 2000. Structure of a covalently stabilized T-cell receptor, influenza HA peptide and MHC class II complex of a human molecule, HLA-DR1. EMBO J. 19: 5611­5624. Lehner, P. J., E. C. Wang, P. A. Moss, S. Williams, K. Platt, S. M. Friedman, J. I. Bell, and L. K. Borysiewicz. 1995. Human HLA-A0201-restricted cytotoxic T lymphocyte recognition of influenza A is dominated by T cells bearing the V 17 gene segment. J. Exp. Med. 181: 79 ­91. Moss, P. A., R. J. Moots, W. M. Rosenberg, S. J. Rowland-Jones, H. C. Bodmer, A. J. McMichael, and J. I. Bell. 1991. Extensive conservation of and chains of the human T-cell antigen receptor recognizing HLA-A2 and influenza A matrix peptide. Proc. Natl. Acad. Sci. USA 88: 8987­ 8990. Argaet, V. P., C. W. Schmidt, S. R. Burrows, S. L. Silins, M. G. Kurilla, D. L. Doolan, A. Suhrbier, D. J. Moss, E. Kieff, T. B. Sculley, and I. S. Misko. 1994. Dominant selection of an invariant T cell antigen receptor in response to persistent infection by Epstein-Barr virus. J. Exp. Med. 180: 2335­2340. Burrows, S. R., S. L. Silins, D. J. Moss, R. Khanna, I. S. Misko, and V. P. Argaet. 1995. T cell receptor repertoire for a viral epitope in humans is diversified by tolerance to a background major histocompatibility complex antigen. J. Exp. Med. 182: 1703­1715. Turner, S. J., P. C. Doherty, J. McCluskey, and J. Rossjohn. 2006. Structural determinants of T-cell receptor bias in immunity. Nat. Rev. Immunol. 6: 883­ 894. Gras, S., L. Kjer-Nielsen, S. R. Burrows, J. McCluskey, and J. Rossjohn. 2008. T-cell receptor bias and immunity. Curr. Opin. Immunol. 20: 119 ­125.
+
+16.
+
+17.
+
+18.
+
+Acknowledgments
+We thank J. McCarthy (ID29), D. Flot (ID23-2), and S. McSweeney and D. Hall (ID14-2) for help with synchrotron data collections at the ESRF (Grenoble, France), the staff of the EMBL HTX laboratory (Grenoble, France) for the use of the PSB crystallization platform, E. Forest and B. Dublet for the use of the mass spectroscopy PSB platform and D. Hart (EMBL Grenoble, France) and J. Rossjohn (Monash University, Clayton, Australia) for careful reading of the manuscript.
+19.
+
+20. 21.
+
+Disclosures
+The authors have no financial conflict of interest.
+
+22.
+
+References
+1. Sissons, J. G., M. Bain, and M. R. Wills. 2002. Latency and reactivation of human cytomegalovirus. J. Infect. 44: 73­77. 2. Borysiewicz, L. K., J. K. Hickling, S. Graham, J. Sinclair, M. P. Cranage, G. L. Smith, and J. G. Sissons. 1988. Human cytomegalovirus-specific cytotoxic T cells: relative frequency of stage-specific CTL recognizing the 72-kD immediate early protein and glycoprotein B expressed by recombinant vaccinia viruses. J. Exp. Med. 168: 919 ­931. 3. Quinnan, G. V., Jr., W. H. Burns, N. Kirmani, A. H. Rook, J. Manischewitz, L. Jackson, G. W. Santos, and R. Saral. 1984. HLA-restricted cytotoxic T lymphocytes are an early immune response and important defense mechanism in cytomegalovirus infections. Rev. Infect. Dis. 6: 156 ­163. 4. McLaughlin-Taylor, E., H. Pande, S. J. Forman, B. Tanamachi, C. R. Li, J. A. Zaia, P. D. Greenberg, and S. R. Riddell. 1994. Identification of the major late human cytomegalovirus matrix protein pp65 as a target antigen for CD8 virus-specific cytotoxic T lymphocytes. J. Med. Virol. 43: 103­110. 5. Wills, M. R., A. J. Carmichael, K. Mynard, X. Jin, M. P. Weekes, B. Plachter, and J. G. Sissons. 1996. The human cytotoxic T-lymphocyte (CTL) response to cytomegalovirus is dominated by structural protein pp65: frequency, specificity, and T-cell receptor usage of pp65-specific CTL. J. Virol. 70: 7569 ­7579. 6. Saulquin, X., C. Ibisch, M. A. Peyrat, E. Scotet, M. Hourmant, H. Vie, M. Bonneville, and E. Houssaint. 2000. A global appraisal of immunodominant CD8 T cell responses to Epstein-Barr virus and cytomegalovirus by bulk screening. Eur. J. Immunol. 30: 2531­2539. 7. Kern, F., I. P. Surel, N. Faulhaber, C. Frommel, J. Schneider-Mergener, C. Schonemann, P. Reinke, and H. D. Volk. 1999. Target structures of the CD8( )-T-cell response to human cytomegalovirus: the 72-kilodalton major immediate-early protein revisited. J. Virol. 73: 8179 ­ 8184. 8. Khan, N., M. Cobbold, R. Keenan, and P. A. Moss. 2002. Comparative analysis of CD8 T cell responses against human cytomegalovirus proteins pp65 and immediate early 1 shows similarities in precursor frequency, oligoclonality, and phenotype. J. Infect. Dis. 185: 1025­1034. 9. Engstrand, M., C. Tournay, M. A. Peyrat, B. M. Eriksson, J. Wadstrom, B. Z. Wirgart, F. Romagne, M. Bonneville, T. H. Totterman, and O. Korsgren. 2000. Characterization of CMVpp65-specific CD8 T lymphocytes using MHC tetramers in kidney transplant patients and healthy participants. Transplantation 69: 2243­2250. 10. Diamond, D. J., J. York, J. Y. Sun, C. L. Wright, and S. J. Forman. 1997. Development of a candidate HLA A*0201 restricted peptide-based vaccine against human cytomegalovirus infection. Blood 90: 1751­1767. 11. Peggs, K., S. Verfuerth, A. Pizzey, J. Ainsworth, P. Moss, and S. Mackinnon. 2002. Characterization of human cytomegalovirus peptide-specific CD8( ) Tcell repertoire diversity following in vitro restimulation by antigen-pulsed dendritic cells. Blood 99: 213­223. 12. Weekes, M. P., M. R. Wills, K. Mynard, A. J. Carmichael, and J. G. Sissons. 1999. The memory cytotoxic T-lymphocyte (CTL) response to human cytomegalovirus infection contains individual peptide-specific CTL clones that have undergone extensive expansion in vivo. J. Virol. 73: 2099 ­2108. 13. Trautmann, L., M. Rimbert, K. Echasserieau, X. Saulquin, B. Neveu, J. Dechanet, V. Cerundolo, and M. Bonneville. 2005. Selection of T cell clones expressing high-affinity public TCRs within human cytomegalovirus-specific CD8 T cell responses. J. Immunol. 175: 6123­ 6132. 14. Stewart-Jones, G. B., A. J. McMichael, J. I. Bell, D. I. Stuart, and E. Y. Jones. 2003. A structural basis for immunodominant human T cell receptor recognition. Nat. Immunol. 4: 657­ 663. 15. Kjer-Nielsen, L., C. S. Clements, A. W. Purcell, A. G. Brooks, J. C. Whisstock, S. R. Burrows, J. McCluskey, and J. Rossjohn. 2003. A structural basis for the
+
+23. 24.
+
+Downloaded from www.jimmunol.org on May 3, 2010
+
+25. 26.
+
+27. 28. 29.
+
+30.
+
+31.
+
+32. 33.
+
+34.
+
+35.
+
+36.
+
+37.
+
+38.
+
+39.
+
+40. 41.
+
+

@@ -1,0 +1,228 @@
+J Biomol NMR (2008) 41:241­248 DOI 10.1007/s10858-008-9252-4
+
+NMR STRUCTURE NOTE
+
+A. fulgidus SRP54 M-domain
+Udayar Ilangovan Æ Shakhawat H. Bhuiyan Æ Cynthia S. Hinck Æ Jeffrey T. Hoyle Æ Olga N. Pakhomova Æ Christian Zwieb Æ Andrew P. Hinck
+
+Received: 2 May 2008 / Accepted: 23 June 2008 / Published online: 11 July 2008 Ó Springer Science+Business Media B.V. 2008
+
+Biological context The signal recognition particle (SRP) is a ribonucleoprotein complex that binds ribosomes engaged in the synthesis of secretory proteins destined for cellular membranes. SRP associates with the nascent signal sequence and halts or delays translation of the secretory protein until the nascent protein­ribosome­SRP complex binds to the SRP receptor in the membrane. Following the hydrolysis of GTP, the SRP dissociates from the ribosome and is free to bind another emerging signal peptide (Doudna and Batey 2004). The SRP RNA and one molecule of protein SRP54, called fifty-four homolog (for Ffh) in bacteria, are at the core of the SRP in all organisms. SRP54 is composed of the N-terminal (N) domain, the GTPase (G) domain, and the C-terminal methionine-rich (M) domain. The M-domain binds to the highly conserved helix 8 of the SRP RNA and is in close proximity to the emerging signal sequence (High and Dobberstein 1991).
+
+Electronic supplementary material The online version of this article (doi:10.1007/s10858-008-9252-4) contains supplementary material, which is available to authorized users.
+U. Ilangovan Á C. S. Hinck Á J. T. Hoyle Á O. N. Pakhomova Á A. P. Hinck (&) Department of Biochemistry, Allied Health Building/ Biochemistry, University of Texas Health Science Center at San Antonio MSC 7760, 7703 Floyd Curl Drive, San Antonio, TX 78229-3900, USA e-mail: hinck@uthscsa.edu S. H. Bhuiyan Á C. Zwieb Department of Molecular Biology, University of Texas Health Science Center at Tyler, 11937 US Highway 271, Tyler, TX 75708, USA
+
+SRP54 has been the object of intensive structural investigations owing to its role in signal peptide binding. Such studies have shown that the M-domain is all-helical and that it uses a helix-turn-helix motif to bind into the distorted minor groove of the SRP RNA (Batey et al. 2000; Kuglstatter et al. 2002; Rosendal et al. 2003). These structures have also provided insights as to possible mechanisms of signal peptide binding. One such mechanism, suggested by the crystal structure of Thermus aquaticus Ffh, is that the signal peptide binds within a wide and short groove formed by the ends of helices 1 and 2, the exposed face of helix 5, and the fingerloop, an extended segment bridging helices 1 and 2 (Supplementary Material Fig. 1a) (Keenan et al. 1998). A similar hydrophobic groove was observed in the crystal structure of Escherichia coli Ffh bound to its SRP RNA (Batey et al. 2000), although in this case the fingerloop was structurally disordered over most of its length (28 residues). In the crystal structure of the RNA-bound Sulfolobus solfataricus SRP54, the fingerloop was folded into the hydrophobic groove, suggestive of a possible ``closed state'' whereby the loop shielded the groove from solvent (Rosendal et al. 2003). Another possible mechanism of signal peptide binding was suggested by the crystal structure of the human SRP54 M-domain, which in both the free and RNA-bound forms, formed a domain-swapped dimer where the N-terminal a-helix ``flipped out'' of the helical core and was replaced by the N-terminal a-helix of a neighboring molecule (Clemons et al. 1999; Kuglstatter et al. 2002). Such dimeric structures led to the hypothesis that the N-terminal helices of the intertwined molecules mimicked the binding of the signal peptide in its a-helical state (Supplementary Material Fig. 1b) (Clemons et al. 1999).
+
+123
+
+242
+
+J Biomol NMR (2008) 41:241­248
+
+The crystallographic studies carried out to date suggest that the dynamics of the M-domain, in particular that of the fingerloop and the N-terminal a-helix, may be important in the mechanism of signal peptide binding. In spite of this, questions remain, including whether the fingerloop is structurally disordered as in the E. coli structure or whether it is ordered and packed into the hydrophobic groove as in the S. solfataricus structure. In addition, it is unclear whether the mechanism of signal peptide binding is conserved in all domains of life, or whether lower organisms bind signal peptides through the short and wide groove, while higher organisms, such as humans, bind signal peptides through the long and narrow groove formed upon displacement of the N-terminal a-helix. In order to resolve these issues, we used NMR to investigate the structure and dynamics of a previously uncharacterized archael M-domain, as well as the human M-domain.
+
+Methods and results Isolation and functional characterization of the M-domains The Archaeoglobus fulgidus and human SRP54 M-domains, Af54M and h54M, respectively, were expressed in E. coli as fusion proteins with thioredoxin, isolated by Ni­NTA metal affinity chromatography, and eluted by treatment with thrombin, which separated the Mdomain from the histidine-tagged thioredoxin. To remove residual impurities and to minimize subsequent proteolysis, Af54M (residues 313­425) and h54M (residues 324­441) were further purified using cation exchange chromatography (Source S, GE Healthcare) in the presence of protease inhibitors (0.1 g/l benzamidine, 1.0 lM leupeptin, 0.1 mM PMSF, 0.1 mM EDTA). To assess their ability to bind SRP RNA, we applied the M-domains to anion exchange resin (DEAE Sepharose, GE Healthcare) equilibrated at pH 7.9 either alone or in the presence of SRP RNA. The M-domains alone did not bind the resin, but they were retained in the presence of the RNA. This shows that the proteins bound the SRP RNA with high affinity, as the protein-RNA complexes are negatively charged at this pH, while the proteins alone are not (pIs are 9.8 and 9.6 for Af54M and h54M, respectively). Translational diffusion constants To determine whether the M-domains were monomeric, or whether they had a propensity to adopt dimeric structures, we measured their translational diffusion constant (Dt) at 27°C using the NMR pulsed field gradient longitudinal encode­decode (water SLED) experiment as they were
+
+serially diluted using NMR buffer (25 mM sodium phosphate with protease inhibitors at pH 5.5 and 6.5 for Af54M and h54M, respectively) (Altieri et al. 1995). These measurements showed that both diffused in a concentration dependent manner (Supplementary Material Fig. 2). To assess whether the observed decrease in Dt might be a consequence of dimer formation, where the dimer is similar in structure to the human domain swapped dimer (Clemons et al. 1999; Kuglstatter et al. 2002), we generated structural models for the monomeric and dimeric forms and used these to calculate Dt. The monomeric structures were modeled based on the S. solfataricus M-domain with a compact fingerloop (Rosendal et al. 2003), while the dimeric structures were based on the human M-domain (Clemons et al. 1999). The diffusion constants for the monomeric and dimeric forms were calculated using HydroPro (Garcia De La Torre et al. 2000) and Dt was calculated according to the expression given by Altieri with a dimerization constant of 1 9 10-3 M (Altieri et al. 1995). The modeled data coincided with the experimental data at the lowest concentrations measured, but deviated significantly at higher concentrations (Supplementary Material Fig. 2, solid line). Although we varied a number of the parameters to try to improve the fit, such monomeric structures with extended fingerloops (dashed line) or monomeric structures with extended fingerloops and lower Kds (dotted line), this led to only marginal improvements. The systematic deviation, especially at higher concentrations, suggested that both have a propensity to aggregate, but that neither undergoes a defined transition from monomer to dimer. This has been confirmed directly for Af54M based on detailed analysis by NMR, but also likely applies to h54M, based on similar, but more limited NMR data as discussed below. Assignment of Af54M Af54M was studied first due to its weaker propensity to aggregate and its greater stability. All Af54M NMR samples were prepared at relatively low concentration, 0.5­ 0.6 mM, to minimize effects due to aggregation. The initial 1 H­15N HSQC for Af54M lacked about a third of the 106 expected resonances. Through variation in pH, temperature, and salt concentration, the number of observable resonances was increased, but even under the optimal conditions (25 mM sodium phosphate at pH 5.5 and 27°C), approximately one-fourth of the 106 expected signals were absent. This suggested that the missing signals were not caused by rapid amide exchange, but instead by conformational exchange broadening. To assign Af54M, we employed the standard suite of sensitivity enhanced tripleresonance experiments with 13C,15N Af54M samples. The
+
+123
+
+J Biomol NMR (2008) 41:241­248
+
+243
+
+sidechain assignments were obtained by extending from the backbone using the (H)C(CO)NH and H(CC)H-TOCSY experiments. This provided assignments for 83 of the 106 expected residues and accounted for essentially all of the detectable signals in the 1H­15N HSQC spectrum under these conditions (Fig. 1). The unassigned residues were restricted to two major clusters in the fingerloop, one on the N- and another on the C-terminal end (Supplementary Material Fig. 3). Secondary structure of Af54M
+
+(360­369), a3 (373­377), a4 (384­394), and a5 (398­417), and one 310 helix (379­381). The a-helical regions were supported by strong dN­N(i,i + 1), weak da-N(i,i + 1), and medium-to-weak da-N(i,i + 3) NOE connectivities and a negative consensus CSI. The 310 helix was supported by a strong dN­N(i,i + 1), weak da-N(i,i + 1), and medium-toweak da-N(i,i + 2) NOE connectivities. These secondary structures were in close agreement with those identified in other known M-domain structures (Supplementary Material Fig. 3). Solution structure of Af54M
+
+The secondary structure of Af54M was determined from the pattern of short-range and medium-range NOE connectivities observed in three-dimensional 15N- and 13Cedited NOESY spectra and the consensus chemical shift index (CSI) (Wishart and Sykes 1994). Together, these data revealed the presence of five a-helices, a1 (318­327), a2
+
+G393
+
+108
+
+G314 G309 T396 S394 D383
+
+110
+
+G395 I381
+
+112
+
+T372
+
+S384 S397 Q399
+
+T310
+
+T315 L376 L377 N378 S370
+
+114
+
+E374 K323
+
+T317
+
+M361 M415 N413 T410 V366 I392 L318 D320 F364 K380 M368 K319 K362 K402 R388 M418 K416 N351 L405 Y408 E375 N421 K417 I387 I321 K409 R365 N406 D352 V401 R389 I325 E403 K419 K363 D369 Q324 K412 K422 A327 E326 K348 E400 I382 M311 I390 E373 I367 K420 V349 M371 L404 L414 M411
+K313 E312 F343 R386 Y407 I425
+
+116
+15
+
+118
+
+120
+
+122
+
+124
+
+L423 F316 A391
+
+126
+
+9.5
+
+9.0
+
+8.5
+1
+
+8.0
+
+7.5
+
+7.0
+
+6.5
+
+H PPM
+
+Fig. 1 Assigned two-dimensional 1H­15N HSQC of Af54M recorded at 700 MHz and 27°C. Protein concentration was 0.6 mM and the buffer was 25 mM sodium phosphate, 0.02% (w/v) sodium azide, 5% 2 H2O at pH 5.5. Assigned peaks are indicated by their one letter amino acid code and residue number. Displayed spectrum includes the full width in the 15N dimension, which results in one folded peak (D383, shown in grey). Pairs of peaks connected by horizontal dashed lines correspond to signals that arise from the sidechain amide groups of asparagine and glutamine
+
+The observed pattern of secondary structure was not uniquely consistent with either the monomeric structure reported for the T. aquaticus (Keenan et al. 1998), E. coli (Batey et al. 2000), or S. solfataricus (Rosendal et al. 2003) M-domains or the dimeric structures with a swapped N-terminal helix reported for the human M-domain (Clemons et al. 1999; Kuglstatter et al. 2002). To distinguish between these, we combined equal amounts of 13C, 15N isotope labeled and unlabeled Af54M in 6 M urea. The urea, which was included to promote the formation of isotopic heterodimers, was removed by dialysis and the sample was concentrated to a final concentration of 0.6 mM. Three-dimensional 12C-filtered,15N-edited and 12 C-filtered,13C-edited NOESY experiments were then recorded to identify potential intermolecular NOEs (Zwahlen et al. 1997). The spectra obtained were carefully scrutinized, particularly with respect to residues that might yield intermolecular NOEs, such as those at the C-terminal end of a-helix 1, the center of a-helix 2, and the C-terminal end of a-helix 5. This yielded no identifiable intermolecular NOEs. The absence of NOEs did not appear due to an error as numerous intermolecular NOEs were observed with a similarly prepared sample of Km23, a stable homodimer previously studied in our laboratory (Ilangovan et al. 2005). Taken together, these results indicate that Af54M was monomeric in solution under these conditions. The solution structure of Af54M was determined by analyzing 15N- and 13C-edited three-dimensional NOESY spectra to identify interproton distances. The threedimensional structure of Af54M was then calculated using the distance geometry-simulated annealing protocol in torsion angle space as implemented in XPLOR-NIH (Schwieters et al. 2003). The structure was calculated initially using 724 NOE and 116 chemical shift derived dihedral angle restraints (Cornilescu et al. 1999), but was later enhanced by including 29 3JHNHa couplings and 90 1 DNH and 1DCaHa residual dipolar couplings (RDCs) (Table 1). The 3JHNHa couplings were measured using the HNHA experiment, while the RDCs were measured with the HA(CA)CONH and IPAP-HSQC experiments with
+
+N PPM
+
+123
+
+244 Table 1 Structural statistics for Af54M Total restraints
+a
+
+J Biomol NMR (2008) 41:241­248
+
+959 306 284 134 58 58 54 36 29 0.0028 ± 0.0004 0.72 ± 0.05 0.67 ± 0.05 1.0 ± 0.9 0.74 ± 0.10 0.76 ± 0.09 0.7 ± 0.1 82.9 11.9 3.9 1.3 Backbone Heavy Backbone Heavy 0.69 1.41 0.81 1.55
+
+NOE distance restraints Sequential (|i - j| = 1) Short range (2 B |i - j| B 5) Long range (|i - j| [ 5) Dihedral restraints / w RDC restraints
+1 1
+
+DNH DCaHa JHNHa
+
+Coupling restraints
+3
+
+Deviation among ensembleb ° Bonds (A) Angles (degrees) Impropers (degrees) Dihedral restraints (degrees) RDC (Hz)
+1 1 3
+
+DNH DCH JHNa restraints (Hz)
+
+314­317), the C-terminus (residues 418­425), or the fingerloop (residues 328­359), and hence each of these regions appeared disordered. The limited precision of the core was principally caused by the low quality of the NOESY data, which in turn limited the number of identifiable distance restraints (average was just under 10 NOEs/ residue in the structured core). The low quality of the NOESY data appears to have been a consequence of signal broadening caused by aggregation. The stereochemical quality of the core, as assessed by the program PROCHECK (Laskowski et al. 1993), was nevertheless quite good, with the majority of the residues in this region falling in the most favored (82.9%) or additionally allowed (11.9%) regions of the Ramachandran plot (Table 1). As shown in Fig. 2b, Af54M has the same arrangement of a-helices observed in structures of other M-domains. An overlay of the Af54M structure with that of the E. coli M-domain is shown in Fig. 2c. Although the sequence identity is below 40%, the backbone RMSD in the helical ° core is just 1.5 A. Overlays with other M-domains yielded ° comparable (1.5­1.6 A) RMSDS, showing that the helical core is indeed highly conserved in all domains of life. Backbone dynamics of Af54M The internal flexibility of Af54M was investigated by measuring 15N T1, 15N T2, and 15N­{1H} NOE relaxation parameters at a magnetic field strength of 14.1 T. The raw relaxation data were first analyzed to determine the extent of diffusional anisotropy (D||/D\) by fitting the T1/T2 data to a model with axial symmetry (Tjandra et al. 1995). This yielded D||/D\ less than 1.1 and a normalized error (5.4) only slightly lower than that assuming isotropic diffusion (5.6), indicating that Af54M diffused nearly isotropically (Tjandra et al. 1995). To analyze the internal dynamics of Af54M, we used the model-free formalism and assumed isotropic tumbling with an overall rotational correlation time of 9.05 ns. The model-free fits were carried out using the program ModelFree4 and the procedure of Mandel was used for model selection (Mandel et al. 1995). This yielded statistically significant fits for all residues, except L318, R386, I387, and N421. The parameters derived in this manner are plotted in Fig. 3. The data show that the N- and C-terminal regions are highly flexible on the ns­ps timescale, while the helical core is rigid, with a mean S2 of 0.95 ± 0.03. The boundaries that demarcate the terminal segments from the helical core correspond closely to the boundaries between the structurally ordered and disordered regions in the different crystal structures (Supplementary Material, Fig. 3). The internal loops exhibit varying degrees of flexibility, with the three residue loop connecting a-helices 2 and 3 showing only a slight decrease in S2, but with the
+
+Ramachandran plotc Most favored (%) Additionally allowed (%) Generously allowed (%) Disallowed (%) Overall deviation from the mean Secondary Structured Ordered Residuese
+a b
+
+This is for the full-length protein, residues 313­425
+
+This is for all residues in the ensemble of 10 lowest energy struc° tures with no NOE violations [0.5 A, no dihedral violations [5°, no 3 JHNHA coupling violations [1.5 Hz, and no RDC violations [1 Hz c Calculated using the program PROCHECK43 for the structurally ordered regions (see note `e' below)
+d
+
+Secondary structure corresponds to 318­327, 360­369, 373­377, 379­381, 384­394, and 398­417 Ordered corresponds to residues 316­327, 360­379, and 381­414
+
+e
+
+Af54M samples in stretched 4% polyacrylamide gels (Chou et al. 2001). The ensemble of calculated structures consistent with the NOE, chemical shift derived dihedral, 3JHNHa coupling, and RDC restraints is depicted in Fig. 2a. These have a ° precision of 0.69 A for backbone atoms in regular sec° ondary structures and 0.81 A for atoms in the structurally ordered core. There were no long-range NOEs observed for any of the assigned residues in the N-terminus (residues
+
+123
+
+J Biomol NMR (2008) 41:241­248 Fig. 2 Solution structure of Af54M. (a) Stereoview of the ensemble of ten lowest energy Af54M solution structures that satisfied all experimental distance, dihedral angle, and RDC restraints. Backbone is depicted in blue. Sidechains of residues I321, L376, I390, V401, L404, and L405 that pack into the hydrophobic core are depicted in red. (b) Ribbon diagram of Af54M indicating a-helices a1-a5 (blue) and a 310 helix (magenta). (c) Overlay of the Af54M solution structure (blue) and the E. coli Ffh crystal structure (Batey et al. 2000) (magenta). Structures were aligned according to regions shown by solid lines. Dashed lines correspond to the fingerloop that was disordered in both structures
+
+245
+
+(a)
+Fingerloop 4 2 310 5 1 3 N 5 1 Fingerloop 4 2 310 3 N
+
+C
+
+C
+
+(b)
+
+(c)
+Fingerloop 2 Fingerloop 2 4 1 3 310 1 C N 3 C 5 N 4
+
+5
+
+310
+
+short loops that flank the single 310 helix and the loop connecting a-helices 4 and 5 exhibiting larger decreases. The fingerloop, although poorly sampled, exhibits varying flexibility, with F343 close to the center being highly flexible on the ns­ps timescale (S2 = 0.16), while the C-terminal portion, D350-E359, has intermediate to low flexibility (S2 = 0.75, 0.84, and 0.78 for D350, N351, and D352, respectively). These data show that the fingerloop is not completely flexible, but instead exhibits residual structure up to ten residues away from its C-terminal attachment point. Af54M spectra as a function of concentration To investigate the manner of aggregation, we carried out titrations in which two-dimensional 1H­15N HSQC spectra of Af54M were recorded as the sample was serially diluted from 3.0 to 0.125 mM. This revealed that while the peaks generally became sharper as the sample was diluted, none underwent a detectable shift in their resonance position (Supplementary Material Fig. 4). This indicated that none
+
+of the assigned residues engage in specific contacts that lead to the formation of aggregates (because the putative dimer interface is large, this also indicates that Af54M does not form dimers at higher concentration, as such dimerization would lead to widespread shift changes). Notably, one sidechain and eleven backbone amide signals appeared as the Af54M sample was diluted (Supplementary Material Fig. 4). Three of the backbone amides (D350, N351, and K360), while of lower intensity, had already been assigned to residues within or directly adjacent to the fingerloop. Two additional backbone amides (Q358 and E359) were assigned to residues within the fingerloop by collecting HNCA and HN(CO)CA data sets with a 0.1 mM 13C, 15N Af54M sample. Three other backbone amides were identified as glycine with the 0.1 mM sample, and while we were not able to positionally assign these, they almost certainly arise from fingerloop, as among the unassigned residues in this region are three glycines (Supplementary Material Fig. 3). The signals identified as arising from the fingerloop did not undergo detectable changes in their chemical shifts as the sample
+
+123
+
+246
+1 fingerloop 2 3 310 4 5
+
+J Biomol NMR (2008) 41:241­248
+
+(a)
+1 0.8
+
+S2
+
+0.6 0.4 0.2 0
+
+(b)
+S2 f
+
+1 0.8 0.6 0.4 0.2 0
+
+fully assign the protein, although not to record 1H­15N HSQC spectra. This enabled us to determine whether any of the signals shifted as the protein was diluted from conditions where it was aggregated (1.5 mM) to conditions where it was predominantly monomeric (0.125 M). These spectra showed that while nearly all of the peaks sharpened as the sample was diluted, none underwent detectable changes in their chemical shifts (Supplementary Material Fig. 5). Thus, even though not assigned, this indicated that the human M-domain also does not undergo a transition from monomer to dimer as the protein concentration is increased.
+
+Discussion and conclusions The SRP54 M-domain binds SRP RNA and the signal peptides of secretory proteins and thus plays a critical role in protein synthesis and secretion. The M-domain binds SRP RNA helix 8, the most highly conserved region of the SRP RNA, by inserting a helix-turn-helix motif (corresponding to a3-310­a4) into the distorted minor groove of the RNA (Batey et al. 2000; Kuglstatter et al. 2002; Rosendal et al. 2003). This manner of interaction is conserved and is reflected in the helical core of the A. fulgidus M-domain which is unchanged compared to the cores of other M-domains that have been established using crystallography (Batey et al. 2000; Keenan et al. 1998; Rosendal et al. 2003). The NMR-based diffusion constant measurements for the A. fulgidus M-domain revealed that Dt decreased as the protein concentration was increased from 0.125 to 2.2 mM. This was interpreted as due to aggregation, although as noted, it was not possible to rule out the possibility that a domain swapped dimer had formed. To show that this was not the case, we assigned Af54M at low concentration and demonstrated that there were no intermolecular NOEs indicative of specific dimer formation. To rule out the possibility that dimers formed at higher concentrations, we recorded 1H­15N HSQCs as a function of increasing protein concentration and observed no detectable shifts in any of the assigned amides, including those in the predicted interfacial region. This demonstrated that not only does a domain swapped dimer not form at higher concentration, but also, that residues in the helical core do not engage in specific contacts that lead to the formation of aggregates. Through dilution and collection of additional tripleresonance data at 0.1 mM, we identified additional amides arising from the fingerloop. The fingerloop signals (12 total) also failed to undergo shift changes as the sample was diluted. Thus, as with the residues in the helical core, aggregates do not appear to form through specific contacts with these residues. This suggests two possible
+
+(c)
+e (ns)
+
+1.2 0.8 0.4 0 320 340 360 380 400 420
+
+Residue Number
+
+Fig. 3 Model-free parameters for Af54M backbone amides derived by fitting 15N T1, 15N T2, and 15N­{1H} NOE data recorded at 27°C and a magnetic field strength of 14.1 T (600 MHz 1H). The modeling was carried out assuming isotropic tumbling with an overall rotational correlation time of 9.05 ns. Data points not shown in (a) indicate that this residue was either not assigned or could not be analyzed due to resonance overlap. Data not shown in (b) and (c) indicate that this parameter was not included in the motional model for that residue. Although not shown, one residue, K412, exhibited an Rex contribution to its transverse relaxation
+
+was diluted, indicating that they too do not engage in specific contacts that lead to the formation of aggregates. Titrations of Af54M with signal peptide Af54M was titrated with signal peptide to map the signal peptide binding site. This was accomplished by adding increasing amounts of a synthetically prepared unlabeled KRR-LamB signal peptide to a 0.5 mM sample of 15N Af54M (Wang et al. 1993). No additional signals and no changes in signal intensities or shifts were observed, even at very high (10:1) signal peptide:protein ratios. This indicated that Af54M alone binds signal peptides weakly. h54M spectra as a function of concentration The human M-domain, h54M, as shown exhibited a much stronger propensity to aggregate, and as well was much more susceptible to proteolysis. This hindered our ability to
+
+123
+
+J Biomol NMR (2008) 41:241­248
+
+247
+
+mechanisms for aggregation. One is that unassigned residues in the fingerloop form specific contacts with one another to enable the formation of higher order ``kissing'' complexes. Another is that the interacting residues are dispersed over the entire protein surface, not confined to a particular residue or set of residues. We favor the latter model because the diffusion constant, Dt, decreased monotonically with increasing protein concentration, which is characteristic of many weak interactions, each with their own distinctive association constant. Additionally, the pattern of chemical shift changes is consistent with numerous weak interactions as this would lead to small and nearly undetectable shift changes for many residues. The instability of the h54M preparations precluded full analysis by NMR, yet in spite of this it is likely that h54M behaves similarly to Af54M, being predominantly monomeric at low concentration and then aggregating, but not forming domain swapped dimers as it is concentrated. In support of this, Dt is similar for both h54M and Af54M at low concentration, indicating h54M is monomeric under these conditions. In addition, no shift changes occurred as the protein was diluted from 1.5 mM, where it was highly aggregated, to 0.125 mM, where it was predominantly monomeric, indicating that it does not form dimers as it is concentrated. Thus, the data presented indicate that both the A. fulgidus and human M-domains are monomeric in solution at low concentration, and while both have a propensity to aggregate at higher concentrations, in neither case do they form dimers. The proposed mechanism, whereby signal peptide would bind in the long and narrow groove normally occupied by the N-terminal a-helix (Clemons et al. 1999; Kuglstatter et al. 2002) therefore seems unlikely. The alternate mechanism, whereby signal peptide would bind in the wide and short groove formed by the ends of a-helices 1 and 2 and the exposed face of a-helix 5 (Batey et al. 2000; Keenan et al. 1998; Rosendal et al. 2003) is thus favored. The wide and short groove is bordered by the fingerloop, and thus it has been suggested, based on the extended conformation observed in the T. aquaticus structure (Keenan et al. 1998) and on the compact conformation observed in the S. solfataricus structure (Rosendal et al. 2003), that this could play a role both in shielding the hydrophobic groove from solvent and in stabilizing the signal peptide once bound (Rosendal et al. 2003). The results obtained with Af54M showed that one of the most prominent characteristics of this region is that it undergoes conformational rearrangement on the ms­ls timescale. This is evident both by the fact that nearly two thirds of its resonances could not be identified and by the fact that those that could be identified were weak and could only be readily observed under conditions when aggregation was minimized. The signals that could be observed were used
+
+to probe the dynamics of the fingerloop on fast (ns­ps) timescales. This revealed low order parameters, characteristic of a structurally disordered region, near the center, yet high order parameters, characteristic of structurally ordered region, up to ten residues away from its C-terminal attachment point. These complex dynamics share many of the same features as molten globule folding intermediates (Redfield 2004), and thus even though no direct structural restraints, such as NOEs, were obtained describing the structure of the fingerloop, we propose that it is neither fully extended as in the T. aquaticus structure (Keenan et al. 1998) nor tightly packed as in the S. solfataricus structure (Rosendal et al. 2003). These properties might enable the fingerloop to adaptively bind and stabilize the signal peptide once bound. This stabilization, while functionally important, may however be intrinsically quite weak, as suggested by the absence of detectable shift perturbations or changes in signal intensities in the M-domain upon addition of signal peptide. The transient nature of these interactions might well be functionally important, as this would provide a mechanism by which the M-domain both binds signal peptides and releases them once docked onto the SRP receptor.
+Acknowledgements This work was supported by the National Institutes of Health (GM49034 to C.Z. and GM58670 to A.H.) and the Robert A. Welch Foundation (AQ1431 to A.H.). Structural studies made use of the San Antonio Cancer Institute Macromolecular Structure Shared Resource, which is supported in part by National Institutes of Health CA054174.
+
+References
+Altieri AS, Hinton DP, Byrd RA (1995) Association of biomolecular systems via pulsed field gradient NMR self-diffusion measurements. J Am Chem Soc 117:7566­7567 Batey RT, Rambo RP, Lucast L, Rha B, Doudna JA (2000) Crystal structure of the ribonucleoprotein core of the signal recognition particle. Science 287:1232­1239 Chou JJ, Gaemers S, Howder B, Louis JM, Bax A (2001) A simple apparatus for generating stretched polyacrylamide gels, yielding uniform alignment of proteins and detergent micelles. J Biomol NMR 21:377­382 Clemons WJ, Gowda K, Black S, Zwieb C, Ramakrishnan V (1999) Crystal structure of the conserved subdomain of human protein ° SRP54M at 2.1 A resolution: Evidence for the mechanism of signal peptide binding. J Mol Biol 292:697­705 Cornilescu G, Delaglio F, Bax A (1999) Protein backbone angle restraints from searching a database for chemical shift and sequence homology. J Biomol NMR 13:289­302 Doudna JA, Batey RT (2004) Structural insights into the signal recognition particle. Annu Rev Biochem 73:539­557 Garcia De La Torre J, Huertas ML, Carrasco B (2000) Calculation of hydrodynamic properties of globular proteins from their atomiclevel structure. Biophys J 78:719­730 High S, Dobberstein B (1991) The signal sequence interacts with the methionine-rich domain of the 54-kD protein of signal recognition particle. J Cell Biol 113:229­233
+
+123
+
+248 Ilangovan U, Ding W, Zhong Y, Wilson CL, Groppe JC, Trbovich JT, Zuniga J, Demeler B, Tang Q, Gao G, Mulder KM, Hinck AP (2005) Structure and dynamics of the homodimeric dynein light chain km23. J Mol Biol 352:338­354 Keenan RJ, Freymann DM, Walter P, Stroud RM (1998) Crystal structure of the signal sequence binding subunit of the signal recognition particle. Cell 94:181­191 Kuglstatter A, Oubridge C, Nagai K (2002) Induced structural changes of 7SL RNA during the assembly of human signal recognition particle. Nat Struct Biol 9:740­744 Laskowski RA, MacArthur MW, Moss DS, Thornton JM (1993) PROCHECK: a program to check the stereochemical quality of protein structures. J Appl Cryst 26:283­291 Mandel AM, Akke M, Palmer AG 3rd (1995) Backbone dynamics of Escherichia coli ribonuclease HI: correlations with structure and function in an active enzyme. J Mol Biol 246:144­163 Redfield C (2004) Using nuclear magnetic resonance spectroscopy to study molten globule states of proteins. Methods 34:121­132 Rosendal KR, Wild K, Montoya G, Sinning I (2003) Crystal structure of the complete core of archaeal signal recognition particle and
+
+J Biomol NMR (2008) 41:241­248 implications for interdomain communication. Proc Natl Acad Sci USA 100:14701­14706 Schwieters CD, Kuszewski JJ, Tjandra N, Clore GM (2003) The Xplor-NIH NMR molecular structure determination package. J Magn Reson 160:65­73 Tjandra N, Feller SE, Pastor RW, Bax A (1995) Rotational diffusion anisotropy of human ubiquitin from 15N NMR relaxation. J Am Chem Soc 117:12562­12566 Wang Z, Jones JD, Rizo J, Gierasch LM (1993) Membrane-bound conformation of a signal peptide: a transferred nuclear Overhauser effect analysis. Biochemistry 32:13991­13999 Wishart DS, Sykes BD (1994) The 13C chemical-shift index: a simple method for the identification of protein secondary structure using 13 C chemical shift data. J Biomol NMR 4:171­180 Zwahlen C, Legault P, Vincent SJF, Greenblatt J, Konrat R, Kay LE (1997) Methods for measurement of intermolecular NOEs by multinuclear NMR spectroscopy. J Am Chem Soc 119: 6711­6721
+
+123
+
+

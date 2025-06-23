@@ -1,0 +1,462 @@
+ANALYTICAL BIOCHEMISTRY
+Analytical Biochemistry 363 (2007) 263­274 www.elsevier.com/locate/yabio
+
+A rapid, homogeneous, fluorescence polarization binding assay for peroxisome proliferator-activated receptors alpha and gamma using a fluorescein-tagged dual PPARa/c activator
+Ramakrishna Seethala a,*, Rajasree Golla a, Zhengping Ma a, Hao Zhang a, Kevin O'Malley a, Jonathan Lippy a, Lin Cheng a, Kasim Mookhtiar b, Dennis Farrelly a, Litao Zhang a, Narayanan Hariharan a, Peter T.W. Cheng
+a
+
+a
+
+Drug Discovery Division, Pharmaceutical Research Institute, Bristol­Myers Squibb, Princeton, NJ 08543, USA b Advinus Therapeutics, Pune 411057, India Received 13 December 2006 Available online 28 January 2007
+
+Abstract Peroxisome proliferator-activated receptors (PPARs) and other members of the nuclear hormone receptor family are important drug targets for the treatment of metabolic diseases. PPARa and PPARc play crucial roles in lipid and glucose metabolism, respectively. Therefore, screening methods that help to rapidly identify activators of these receptors should be of considerable value. A homogeneous fluorescence polarization (FP) ligand binding assay capable of rapidly identifying ligands that bind to both PPARa and PPARc has been developed using purified PPARa or PPARc ligand binding domains and a fluorescein-labeled analog (FLA) of a potent dual PPARa/c activator. FLA activator showed good binding affinity toward both PPARa (Ki = 0.7 lM) and PPARc (Ki = 0.4 lM). The binding of FLA activator was rapid and reached a plateau within 10 min. The resulting FP signal was stable for at least 18 h. The FP binding assay performed robustly in a 384-well format, and the average Z 0 value was 0.77. There was a good correlation between the binding potency (IC50 values) and rank order of binding potency for a panel of standard PPAR ligands obtained in FP binding assay and scintillation proximity assay or gel filtration binding assays using 3H-labeled PPARa (r2 = 0.99) and PPARc (r2 = 0.99) ligands. There was also a good correlation of IC50 values obtained by FP binding assay and scintillation proximity assay for the clinically used PPAR activators. Thus, the FP binding assay with a single fluoresceinlabeled PPARa/c dual activator offers a homogeneous nonradioactive, sensitive, robust, and less expensive high-throughput assay for detecting compounds that bind to both PPARc and PPARa. Using this FP binding assay, we have identified a large number of PPARa/c dual activators. A similar assay platform may be easily adapted to other members of the nuclear hormone receptor family. Ó 2007 Elsevier Inc. All rights reserved.
+Keywords: PPARa; PPARc; Fluorescence polarization ligand binding assay; High-throughput screening; Dual PPARa/c activator
+
+Peroxisome proliferator-activated receptors (PPARs)1 are members of the ligand-activated nuclear hormone receptor (NHR) family [1­4]. There are three PPAR iso*
+
+forms: a, c, and d [1­4]. These receptors play a central role in the regulation of carbohydrate and lipid metabolism pathways and vessel wall function [1­4]. PPARs and other
+
+Corresponding author. Fax: +1 609 818 3600. E-mail address: ramakrishna.seethala@bms.com (R. Seethala). 1 Abbreviations used: PPAR, peroxisome proliferator-activated receptor; NHR, nuclear hormone receptor; LBD, ligand binding domain; HDL, highdensity lipoprotein; HTS, high-throughput screening; SPA, scintillation proximity assay; FP, fluorescence polarization; GST, glutathione S-transferase; IPTG, isopropyl b-D-1-thiogalactopyranoside; BMS, Bristol­Myers Squibb; DMSO, dimethyl sulfoxide; EDTA, ethylenediaminetetraacetic acid; DTT, dithiothreitol; PEG, polyethylene glycol; ANS, 1-anilinonaphthalene-8-sulfonic acid; HTRF, homogeneous time-resolved fluorescence; FRET, fluorescence resonance energy transfer. 0003-2697/$ - see front matter Ó 2007 Elsevier Inc. All rights reserved. doi:10.1016/j.ab.2007.01.022
+
+264
+
+Fluorescence Polarization binding assay for PPARa and PPARc / R. Seethala et al. / Anal. Biochem. 363 (2007) 263­274
+
+NHRs have well-defined structural domains that include an amino-terminal transactivation domain, a conserved DNA binding domain, a protein­protein interaction domain, a ligand binding domain (LBD, which is a less conserved domain than other domains), and a carboxy-terminal transactivation domain [1­4]. PPARa, which is highly expressed in the liver, stimulates fatty acid oxidation, suppresses triglyceride synthesis, and promotes apolipoprotein A1, the main protein backbone of high-density lipoprotein (HDL) synthesis in liver [1­4]. Activation of PPARa by the clinically used PPARa activators, fenofibrate and gemfibrozil, leads to reduced plasma triglyceride levels and elevated plasma HDL cholesterol levels in dyslipidemic patients [5,6]. PPARc, which is primarily expressed in adipose tissue, promotes preadipocyte recruitment, lipid accumulation, and differentiation into adipocytes [1­4]. Activation of PPARc by the clinically used PPARc activators, pioglitazone and rosiglitazone, leads to improvement in insulin sensitivity and glucose lowering [7,8]. PPARd is ubiquitously expressed, and its role in lipid and carbohydrate metabolism is an area of very active research [1­4]. Because many type 2 diabetes patients often manifest dyslipidemia, eventually developing atherosclerotic coronary heart disease, an agent that activates both PPARc and PPARa--a dual PPARa/c activator--would be potentially useful for the treatment of both insulin resistance/hyperglycemia (predominantly PPARc-mediated effects) and dyslipidemia (mostly PPARa-mediated effects) in these patients [9­12]. To rapidly identify novel dual PPARa/c activators with optimized efficacy and safety profile, a robust ligand binding assay amenable to high-throughput screening (HTS) of synthetic ligands to both PPARa and PPARc was required. The conventional PPAR binding assays that have been most often used in the literature, such as the gel filtration assay [13], the glutathione Sepharose filtration assay [14], and the scintillation proximity assay (SPA) [15], are labor intensive, low throughput, and expensive and also use radioactive ligands, thereby generating radioactive waste. Therefore, our goal was to develop a simple, homogeneous, low-cost, highly reproducible, nonradioactive ligand binding assay amenable to HTS where all of the reagents are incubated in a 384-well plate and the signal is directly measured without additional processing steps. The fluorescence polarization (FP) technology, a powerful technology that has been routinely used for the determination of molecular interactions in solution and that potentially fulfills all of these requirements, was evaluated for its suitability in developing a robust homogeneous ligand binding assay for both PPARa and PPARc [16,17]. We report here the synthesis and characterization of a single fluorescein-labeled analog (FLA-A) of a potent dual PPARa/c activator (compound A) and the development of a robust, homogeneous PPARa and PPARc FP ligand binding assay suitable for the identification of novel dual PPARa/c activators using the fluorescent tagged dual PPARa/c agonist FLA-A.
+
+Materials and methods Expression of human PPARa LBD or human PPARc LBD The PPARa LBD or the PPARc LBD was expressed in Escherichia coli strain BL21DE3 PlysS and BL21, respectively, as an amino-terminal glutathione S-transferase (GST) fusion protein. DNA encoding amino acids 167 to 468 of human PPARa LBD or amino acids 195 to 477 of human PPARc LBD was cloned into the pGEX expression vector, which was under the control of an isopropyl b-D-1thiogalactopyranoside (IPTG)-inducible T7 promoter. Purification of GST­PPARa LBD and GST­PPARc LBD GST­PPARa LBD and GST­PPARc LBD from the bacterial extracts were purified on glutathione Sepharose affinity columns. Stock protein solutions of 1 to 2 mg/ml were aliquoted and stored at À80 °C. This purified PPARa LBD showed ligand binding activity with 3H-labeled GW2331, a high-affinity dual ligand for PPARa/c, and the purified PPARc LBD showed ligand binding activity with 3 H-labeled BRL-49653, a high-affinity selective ligand for PPARc (data not shown). Tracer H-labeled GW-2331 and 3H-labeled BRL-49653 (specific activity of 28­31 Ci/mol) were custom synthesized by Amersham Biosciences (Piscataway, NJ, USA) and supplied as 1 mCi/ml in ethanol solution. Ligands Compounds and their fluorescein-labeled derivatives (FLA) were synthesized by Bristol­Myers Squibb (BMS), Medicinal Chemistry. Compounds were dissolved in dimethyl sulfoxide (DMSO) to obtain 10-mM stock solutions. Dilution was made using 50% DMSO in 25 mM Tris­HCl buffer (pH 8.0). Synthesis of fluorescein-labeled dual PPARa/c ligand The synthesis of the fluorescein-labeled oxybenzylglycine dual PPARa/c ligand (FLA-A) is shown in Fig. 1. Mitsunobu reaction of alcohol 3 with 3-hydroxybenzaldehyde provided aldehyde 4, which was subjected to two reductive aminations to furnish the key intermediate 5. Sequential deprotection of the amine and acid followed by reaction with the commercially available fluoresceinisocyanate F-1907 (Sigma, St. Louis, MO, USA) and then provided the fluorescein-labeled ligand (FLA-A). Plates In binding assays, 96-well low binding plates (ultra low cluster, cat. no. 3474, Costar, Cambridge, MA, USA),
+3
+
+Fluorescence Polarization binding assay for PPARa and PPARc / R. Seethala et al. / Anal. Biochem. 363 (2007) 263­274
+
+265
+
+Dual PPAR  /  activator, Compound A
+
+N O CH3 O N
+
+HO
+
+O
+
+NC HCl.H2N
+
+a,b
+CO2CH3 CO2H O
+
+H N O
+
+c,d,e
+CO2CH3 CH3
+
+1 (Aspartic acid monoester)
+
+2 f
+
+BocHN
+
+N O CH3
+
+OH
+
+BocHN
+
+N O CH3
+
+O
+
+CHO
+
+3 g,h
+BocHN N O CH3 O
+
+4 i,j,k
+N CO2CH3
+
+5
+S NH HN O CO2H O O CH3 N O N
+
+Ph
+
+CO2H
+
+Ph
+
+Compound FLA-A
+HO
+
+Fig. 1. Scheme for synthesis of fluorescein-tagged analog (FLA-A) of dual PPARa/c activator A: (a) 4-CN-C6H4COCl, pyridine, 0 °C/1.5 h, then 23 °C/ 1 h (crude material used immediately); (b) acetic anhydride, 90 °C/2 h (cooled to 23 °C, then aqueous acid and base workup; extraction with EtOAc; used directly in next step); (c) POCl3, toluene, reflux/4 h (cooled to room temperature; aqueous K2CO3 workup at 0 °C; extraction with EtOAc; SiO2 chromatography; 5:1 hex:EtOAc; 21% for three steps); (d) LiAlH4, Et2O, 0 °C/30 min, then 23 °C for 2 h (aqueous workup/extraction with EtOAc; used directly in next step); (e) (Boc)2O, aqueous NaOH, THF; 23 °C for 2 h; EtOAc extraction (purification by SiO2 chromatography; 1:1 hex:EtOAc; 39% for two steps); (f) 3-hydroxybenzaldehyde, Ph3P, DEAD, toluene, 0 °C for 30 min, then 23 °C overnight (purification by SiO2 chromatography; 2:1 hex:EtOAc; 50%); (g) glycine methyl ester HCl salt, Et3N, MeOH, 23 °C for 6 h; then added NaBH4 at 0 °C; 3 h at 0 °C and 3 h at 23 °C (workup with brine and EtOAc; used directly in next step); (h) Ph(CH2)3CHO, NaBH(OAc)3, Cl(CH2)2Cl; 23 °C for 12 h (purification by SiO2 chromatography; 2:1 hex:EtOAc; 56%); (i) CF3CO2H, (CH2Cl)2, 23 °C/2 h; concentrated and used directly in next step; (j) LiOH, THF, H2O, 23 °C/18 h; aqueous acid workup; used directly in next step; (k) fluorescein isothiocyanate (FITC), Et3N, THF, pH 8 buffer, 23 °C/12 h under N2 atmosphere in absence of light; purification by preparative HPLC (continuous gradient from 90% H2O/10% MeOH/0.2% CF3CO2H to 90% MeOH/10% H2O/0.2% CF3CO2H on a YMC ODS C18 reverse phase 30 · 250-mm column at a flow rate of 25 ml/min over a 30-min gradient; 41%).
+
+black opaque 384-well Cliniplates (Thermo Electron, Waltham, MA, USA), OptiPlate (PerkinElmer, Shelton, CT, USA), and 96-well gel filtration blocks (Edge Biosystems, Gaithersburg, MD, USA) were used. Instruments A plate shaker, Micromate 196 harvester (PerkinElmer, Boston, MA, USA), Micromate 496 plate sealer (PerkinElmer), TopCount-NXT (PerkinElmer), and Sorvall RT6000B (Thermo Electron, Ashville, NC, USA) refriger-
+
+ated tabletop centrifuge with microplate centrifugation racks were used. A Biomek 2000 (Beckman Coulter, Fullerton, CA, USA) liquid dispenser was used for dispensing the compounds and reagents. The FP signal was read in an Analyst plate reader (Molecular Devices, Sunnyvale, CA, USA). Gel filtration PPARa or PPARc binding assay The binding buffer for gel filtration assay consisted of 10 mM Tris­HCl (pH 8.0), 50 mM KCl, 2 mM ethylenedi-
+
+266
+
+Fluorescence Polarization binding assay for PPARa and PPARc / R. Seethala et al. / Anal. Biochem. 363 (2007) 263­274
+
+aminetetraacetic acid (EDTA), 10 mM Chaps, and 10 mM dithiothreitol (DTT). Test compound (10 ll), binding buffer or cold ligand in buffer for nonspecific binding (20 ll), and 3H-labeled GW-2331 or 3H-labeled BRL49653 (20 ll of 250 nM ligand) were added to each well of a Costar 96-well low binding plate. The binding reaction was started with the addition of 0.5 lg of GST­ PPARa LBD or 1.0 lg of GST­PPARc LBD in 50 ll binding buffer with a total reaction volume of 100 ll. After 1 h incubation at room temperature (with gentle agitation on a plate shaker), 50 ll reaction mixture was loaded on top of the gel in the wells of a 96-well gel filtration block (previously centrifuged for 1 min at 800g to drain the buffer). After loading the reaction, the gel block was placed over an OptiPlate and centrifuged at 1000g for 4 min. To the flow-through (containing radioligand bound receptor) collected in OptiPlate, 150 ll Microscint 40 was added and the plate was sealed, mixed thoroughly for 30 min on a plate shaker, and counted in TopCountNXT. Each point is an average of duplicates run in the same plate. SPA PPARa/PPARc binding assays
+
+GST­PPARa The optimal FP signal was obtained with freshly made buffer containing 10 mM Tris­HCl (pH 8.0), 50 mM KCl, and 3.5 mM Chaps. The 384-well microtiter plate assay consists of the addition of 21 ll GST­PPARa LBD (200 ng in binding assay buffer), 6 ll of 50 nM fluorescein ligand FLA-A (10 nM final concentration), and 3 ll test compound (in 50% DMSO/25 mM Tris­HCl, pH 8.0) in a final total volume of 30 ll. GST­PPARc The optimal FP signal was obtained with freshly made buffer containing 50 mM Tris­HCl (pH 8.0), 50 mM KCl, 5 mM Chaps, and 10 mM DTT. The 384-well microtiter plate assay consists of the addition of 28 ll GST­PPARc LBD (100 ng in binding assay buffer), 8 ll of 50 nM fluorescein ligand FLA-A (10 nM FLA-A final concentration), and 4 ll compound (in 20% DMSO/50 mM Tris­HCl, pH 8.0) in a final volume of 40 ll. For both PPARa and PPARc, the reaction mixture was incubated at room temperature for 30 min and the FP signal was read in an Analyst plate reader. Each point is an average of triplicates run in a 384-well plate. Results
+
+Various concentrations of the PPAR agonists were diluted in DMSO and transferred to a 96-well white OptiPlate with a final DMSO concentration in the assay of 1.6%. For PPARa binding, the compounds were incubated in the presence of human PPARa LBD (160 ng/well) with 80 nM 3H-labeled GW-2331 and 250 lg/well polylysinecoated SPA beads (Amersham Biosciences). For PPARc binding, the compounds were incubated in the presence of human or rat PPARc LBD (280 ng/well) with 160 nM 3 H-labeled rosiglitazone and 250 lg/well polylysine-coated SPA beads. The assay was performed in a buffer containing 10 mM Tris­HCl (pH 8.0), 50 mM KCl, 0.05% Tween 20, and 10 mM DTT. The reactions were allowed to proceed for 1 h at room temperature ($25 °C). The SPA beads were then settled to the bottom of the plate by centrifugation at 100 rpm for 5 min. The plates were read 1 min/well in the TopCount-NXT plate reader. Percentage inhibition of 3 H-labeled GW-2331 binding to PPARa was calculated relative to unlabeled 8 lM GW-2331, which was used as the nonspecific control. Percentage inhibition of 3H-labeled BRL-49653 binding to PPARc was calculated relative to unlabeled 50 lM BRL-49653 (rosiglitazone), which was used as the nonspecific control. FP PPARa/PPARc binding assays FP is a homogeneous assay where all of the components of the reaction are added into a well of a 384-well microtiter plate and incubated, and (without further processing) the FP signal is read in an FP reader. To determine the optimal binding conditions for the FP signal in the PPARa/PPARc assay, different buffer conditions were tested.
+
+Synthesis and determination of binding affinity of fluoresceinlabeled dual PPARa/c ligand, FLA-A, in the gel filtration binding assay We first embarked on the synthesis of a fluorescein-labeled analog of a potent BMS dual PPARa/c activator, FLA-A, which retained most, if not all, of the binding affinity of the parent compound. The ligand binding pocket for PPARc is a large/deep cavity [1­4,18,19] and, thus, may accommodate a high-affinity ligand with a sterically bulky fluorophore without losing overall binding affinity. In contrast, the PPARa ligand binding pocket is narrower, and the presence of a bulky fluorophore conjugated to a high-affinity ligand may lead to loss of binding affinity [1­4,18,19]. Several fluorescein-labeled analogs of potent dual PPARa/c activators were synthesized, and their binding affinities for PPARa and PPARc were determined as compared with their respective parent compounds. From these analogs, we were able to identify a fluorescent analog (FLA-A) of a dual PPARa/c activator (compound A) that had retained good binding affinity at both PPARa and PPARc. The synthesis scheme for the fluorescein-labeled compound A is illustrated in Fig. 1. To determine the binding affinity of FLA-A to PPARa and PPARc relative to the parent compound A, both compounds were tested in the standard gel filtration binding assay for their ability to dose dependently inhibit 3H-labeled GW-2331 binding to PPARa and 3H-labeled BRL49653 binding to PPARc (Figs. 2A and B). FLA-A and compound A competed with 3H-labeled GW-2331 binding to PPARa with IC50 values of 1163 and 51 nM, respectively (Fig. 2A) and competed with 3H-labeled BRL-49653
+
+Fluorescence Polarization binding assay for PPARa and PPARc / R. Seethala et al. / Anal. Biochem. 363 (2007) 263­274
+
+267
+
+A
+
+120
+
+Compound A, IC 50 = 51 nM FLA-A, IC50=1163 nM
+
+B
+
+120
+
+Compound A, IC50 = 773 nM FLA-A, IC50= 805 nM
+
+100
+
+100
+
+80
+
+80
+
+% ACTIVITY
+
+60
+
+% ACTIVITY
+100 101 102 103 104
+
+60
+
+40
+
+40
+
+20
+
+20
+
+0 10-1
+
+0 10-1 100 101 102 103 104
+
+COMPOUND (nM)
+
+COMPOUND (nM)
+
+Fig. 2. Binding affinities of dual PPARa/c activator compound A and FLA-A in gel filtration binding assays. (A) PPARa. (B) PPARc The solid line data were fitted with Logistic.fit of the SigmaPlot program, and binding affinity (IC50 values in lM) were calculated.
+
+binding to PPARc with IC50 values of 805 and 773 nM, respectively (Fig. 2B). These results show that, FLA-A has binding affinity to both PPARa and PPARc; however, the affinity of FLA-A to PPARa was decreased compared with the parent compound A. Several other fluoresceinlabeled analogs, as exemplified by compounds FLA-B and FLA-C, were also synthesized from another potent parent dual PPARa/c activator (compound B) (Fig. 3), and their binding affinities were also determined in the gel filtration assays. These analogs generally lost affinity to PPARa (IC50 = 4.1 lM for FLA-B and IC50 = 4.4 lM for FLA-C in the gel filtration binding assay with 3Hlabeled GW-2331) as compared with IC50 = 96.0 nM for the parent compound B, whereas they maintained binding affinity (IC50 $410 nM for both FLA-B and FLA-C) to PPARc at levels comparable to the corresponding parent compound B (IC50 = 420 nM). It is possible that the FL analogs lost some or most of their binding affinity to PPARa compared with their parent compounds because of the relatively narrow ligand binding pocket of PPARa that did not tolerate the sterical hindrance of the bulky fluorescein moiety incorporated onto the phenyloxazole group of the dual PPARa/c activators. PPARc, in contrast to PPARa, has a large/deep ligand binding pocket that tolerated the bulky fluorescein moiety on the dual PPARa/c activators. As described above, FLAA showed the highest binding affinity for PPARa among the fluorescent ligands synthesized and tested; hence, it was used as the standard single fluorescent ligand in the FP PPARa and FP PPARc binding assays with purified human PPARa LBD and PPARc LBD protein.
+
+Determination of optimal human PPARa LBD or PPARc LBD protein and fluorescein-labeled dual PPARa/c ligand FLA-A concentrations for FP binding assay When PPARa was incubated in the binding buffer with FLA-A, the FP signal increased from 30 to 230 mP. To determine the optimal PPAR LBD protein and FLA-A concentrations to be used in the FP binding assay, increasing concentrations of human PPARa LBD or human PPARc LBD protein were incubated with different concentrations of FLA-A (1­25 nM). For PPARa, the FP signal increased with increasing receptor concentration at all ligand concentrations tested, reaching a maximum of 200 to 240 mP at approximately 500 ng of PPARa (Fig. 4A). With 50 ng PPARa LBD at 1 nM FLA-A, a D mP of 70 was obtained. The FP signal increased with increasing PPARc LBD concentrations at all ligand concentrations tested, reaching a maximum of 180 to 210 mP at approximately 500 ng of the receptor tested (Fig. 4B). With 50 ng PPARc LBD at 1 nM FLA-A, a D mP of 75 was obtained. Consistently, the FP signal of FLA-A increased from 40 to 250 mP when bound to increasing concentrations of either human PPARa LBD or human PPARc LBD protein. This is a very robust signal for an FP assay. Based on these observations, the following conditions were chosen for HTS FP binding assays: (i) 200 ng of PPARa LBD protein and 10 nM FLA-A, which produces a D value of approximately 120 to 150 mP, and (ii) 100 ng of PPARc LBD protein and 10 nM FLA-A, which produces a D value of approximately 100 to 150 mP.
+
+268
+
+Fluorescence Polarization binding assay for PPARa and PPARc / R. Seethala et al. / Anal. Biochem. 363 (2007) 263­274
+O N CH3 O OH N O
+
+O
+
+Dual PPAR / agonist, Compound-B
+HO S
+NH
+
+N O CH3
+
+O
+
+O CO2H O
+
+NH
+
+N
+
+CO2H
+
+O
+
+Compound FLA-B
+HO S
+NH H N O
+
+N O CH3
+
+O
+
+N
+
+CO2H
+
+O CO2H O
+
+NH
+
+O
+
+Compound FLA-C
+HO S NH O CO2H O NH O CH3 N O N CO2H
+
+Compound FLA-A
+Fig. 3. Structures of fluorescein-conjugated analogs of dual PPARa/c activator compound B and FLA-A.
+
+Determination of stability of FP signal of fluorescein-labeled dual PPARa/c ligand FLA-A in FP binding assay The signal stability is a critical element in HTS assay performance. Therefore, a time course analysis was conducted to determine the stability of the FP signal in the FP binding assay. The binding of fluorescein-labeled dual PPARa/c ligand FLA-A to human PPARa LBD and human PPARc LBD protein was both very rapid and relatively stable. As shown in Fig. 5, within 10 min the FP signal reached a maximum value (D mP of $110­120), which remained constant thereafter up to 4 h and overnight with both PPARa (Fig. 5A) and PPARc (Fig. 5B, shown only up to 4 h). The stability of the FP signal over a long period of time is an added advantage in HTS.
+
+Determination of binding affinity of fluorescein-labeled dual PPARa/c ligand FLA-A in FP binding assay The binding affinity of fluorescein-labeled dual PPARa/c ligand FLA-A to PPARa LBD or PPARc LBD was determined by measuring the FP signal at 1 and 10 nM FLA-A with increasing concentrations of human PPARa LBD (Fig. 6A) or human PPARc LBD (Fig. 6B). The FP signal increased with increasing concentrations of PPARa LBD or PPARc LBD with Kd values of 50 and 53 nM, respectively, suggesting that FLA-A has good affinity for both PPARa and PPARc LBDs. Similar Kd values were also obtained when the binding assays were repeated at 5, 25, and 50 nM FLA-A (data not shown).
+
+Fluorescence Polarization binding assay for PPARa and PPARc / R. Seethala et al. / Anal. Biochem. 363 (2007) 263­274
+
+269
+
+A
+200
+
+B
+200
+
+150
+
+150
+
+ mP
+
+ mP
+
+100
+
+100
+
+1 nM 5 nM 10 nM 25 nM
+
+50
+
+50
+
+0 0 200 400 600 800 1000
+
+0 0 200 400 600 800
+
+PPAR  (ng)
+
+PPAR  (ng)
+
+Fig. 4. Effects of PPARa LBD and PPARc LBD protein concentrations at 1, 5, 10, and 25 nM fluorescein-labeled ligand FLA-A. FLA-A was incubated with increasing concentrations of PPARa LBD (A) or PPARc LBD (B) in binding buffer (final volume of 30 ll for PPARa and of 40 ll for PPARc) in a 384-well plate at room temperature for 1 h, and the FP signal was read in an Analyst plate reader.
+
+A 120
+90
+
+B120
+90
+
+ mP
+
+60
+
+ mP
+0 1 2 3 18 19
+
+60
+
+30
+
+30
+
+0
+
+0
+0 1 2 3 4
+
+Time (h)
+
+Time (h)
+
+Fig. 5. Time course for FP binding assay with PPARa LBD (A) and PPARc LBD (B). Binding assay was done with 10 nM FLA-A and 200 ng PPARa LBD (A) and 10 nM FLA-A and 100 ng PPARc LBD (B) by incubation for various time periods in binding buffer (final volume of 30 ll for PPARa and of 40 ll for PPARc) in a 384-well plate at room temperature, and the FP signal was read in an Analyst plate reader.
+
+DMSO tolerance in FP binding assays The effect of DMSO concentration on assay performance is an important factor in any high-throughput screen because compounds are routinely solubilized and diluted in DMSO. Therefore, the effect of DMSO on FP PPARa or FP PPARc binding assay performance was evaluated by determining the FP signal at various DMSO concentrations. As shown in Fig. 7, both PPARa and PPARc FP binding assays tolerated up to 4% (v/v) of DMSO, with less than 10% inhibition of binding activity.
+
+Efficacy of the human PPARa and human PPARc FP binding assays To evaluate the quality of the human PPARa and PPARc FP binding assays, their performance was assessed by calculating the Z 0 value using the following equation [20]: Z0 ¼ 1 À ð3rbound þ 3rfree Þ ðmPbound À mPfree Þ
+
+The Z 0 factor provides a useful tool for the evaluation, comparison, and validation of any bioassay in general
+
+270
+
+Fluorescence Polarization binding assay for PPARa and PPARc / R. Seethala et al. / Anal. Biochem. 363 (2007) 263­274
+
+A
+200
+
+B
+FLA-A 10 nM
+120
+
+150
+
+LA-A 1 nM F
+80
+
+-A FLA nM 10 A-A FL M 1n
+
+ mP
+
+100
+
+ mP
+40 0 0 100 200 300 400 500 600 0 100 200 300
+
+50
+
+0
+
+PPAR  (nM)
+
+PPAR  (nM)
+
+Fig. 6. Binding affinity of FLA-A to PPARa LBD and PPARc LBD. Binding reaction was carried out for 30 min at room temperature in a 384-well plate (final volume of 30 ll for PPARa and of 40 ll for PPARc) with 1 or 10 nM FLA-A in binding buffer with increasing concentrations of PPARa LBD (A) or PPARc (B). The FP signal was measured in the Analyst plate reader. The binding affinity was also measured with 5, 25, and 50 nM FLA-A, which gave similar affinity constants (Kd = 50 nM). Note that the binding affinity is determined in the FP assays with protein instead of ligand because the FP signal does not increase proportionally with the ligand concentration (see Fig. 4).
+
+120
+PPAR PPAR
+
+1.0
+
+100
+
+0.8
+
+80
+
+Z' value
+
+0.6
+
+ mP
+
+0.4
+PPAR  PPAR 
+
+60
+0.2
+
+40
+0.0 0 1 2 3 4 5 6 7 8
+
+20
+
+Experiment number
+Fig. 8. Performance of the PPARa or PPARc FP binding assays. The Z 0 factor for each experiment was calculated and plotted for both receptors.
+
+0 0 1 2 3 4 6
+
+DMSO (%)
+Fig. 7. Effects of DMSO on the binding affinity of FLA-A to PPARa LBD or PPARc LBD protein. The binding assay was carried out in a 384well plate in a total volume of 30 ll with various concentrations of DMSO up to 6% final concentration for 1 h, and the FP signal was read in an Analyst plate reader. The D mP was plotted against the DMSO concentration.
+
+PPARs) controls. From Fig. 8, an average Z 0 value of 0.77 for both PPARa and PPARc FP binding assays was obtained from a total of seven different experiments. In general, a Z 0 value greater than 0.50 for an assay is considered to indicate that the results from the assay are of high quality and that, therefore, reproducibility is suitable for automation and HTS. Assessment of the human PPARa and PPARc FP binding assays for dual PPARa/c activator screening To evaluate whether the PPARa and PPARc FP binding assays can be used successfully for finding dual PPARa/c
+
+and for assays for HTS in particular. The Z 0 value for the PPARa and PPARc FP binding assays ranged between 0.70 and 0.80 from a number of experiments on different days with limited numbers (ns = 6­20) of positive (bound, 200 ng PPARa or 100 ng PPARc) and negative (free, no
+
+Fluorescence Polarization binding assay for PPARa and PPARc / R. Seethala et al. / Anal. Biochem. 363 (2007) 263­274
+
+271
+
+activators, several industry standard PPAR activators (which were used in the clinical trails or marketed) with different binding affinities to PPARa and PPARc in the SPA binding assay were tested in the FP binding assay. In general, the IC50 values for compounds in PPARa FP binding assay are higher ($1.5 to 3.0-fold) than the IC50 values obtained by SPA binding assay and the IC50 values for compounds in PPARc FP binding assay are lower ($2.0 to 4.0-fold) than the IC50 values obtained by SPA binding assay (Table 1). Nevertheless, the rank order potency of the compounds in both the FP and SPA binding assays for PPARa and PPARc are similar (Table 1). We have also evaluated a panel of BMS dual PPARa/c activators with different binding affinities to PPARa and PPARc in the gel filtration assays in the PPARa and PPARc FP binding assays (assay conditions used: 200 ng GST­PPARa LBD or 100 ng GST­PPARc LBD, respec-
+
+tively, and 10 nM FLA-A). In the FP binding assay, the relative affinity of a compound is determined by its ability to compete with FLA-A binding to PPARc and PPARa. The representative PPARa and PPARc inhibition curves obtained for compounds C, D, E, and F in the PPARa FP and PPARc FP assays are shown in Figs. 9A and B, respectively. The IC50 values for these compounds were calculated using the four-parameter logistic fit in XLfit and were compared with the IC50 values obtained previously by the gel filtration binding assay method. The IC50 values obtained from the FP binding assay with PPARa (106, 571, 4140, and 13,318 nM) are similar to the IC50 values obtained using the gel filtration binding assay (90, 683, 3837, and 13,844 nM) for compounds C, D, E, and F, respectively. The IC50 values obtained from the FP binding assay with PPARc (173, 1867, 1168, and 329 nM) are similar to the values obtained using the gel filtration binding
+
+Table 1 Comparison of IC50 values for PPAR agonists (marketed or went through clinical trails) in FP binding and SPA binding assays Compound n FP binding assay PPARa LBD IC50(lM) Muraglitazar Ragaglitazar/NN-662 Troglitazone Farglitazar Pioglitazone Fenofibric acid Gemfibrozil KRP-297/MK-767 AZ-242/Tesaglitazar Rosiglitazone GW-9578 Note. n.d., not determined. 3 3 3 3 2 3 3 3 3 3 3 1.233 ± 0.057 3.152 ± 0.068 >50 3.501 ± 0.799 >50 >50 >50 7.492 ± 0.322 4.019 ± 0.230 >15 1.404 ± 0.142 PPARc LBD IC50(lM) 0.05 ± 0.004 0.11 ± 0.042 10.88 ± 4.787 0.09 ± 0.034 4.50 ± 0.465 >50 >50 3.62 ± 0.289 0.18 ± 0.075 0.66 ± 0.252 2.25 ± 0.194 SPA binding assay PPARa LBD IC50(lM) 0.934 ± 0.163 1.948 ± 0.628 n.d. n.d >17 >17 >17 10.665 ± 2.301 1.964 ± 0.384 >17 0.382 ± 0.068 PPARc LBD IC50(lM) 0.201 ± 0.006 0.507 ± 0.043 n.d. n.d. 11.532 ± 3.104 >80 >80 17.489 ± 2.077 0.519 ± 0.022 1.137 ± 0.205 3.542 ± 0.401
+
+A
+
+100 80
+
+B
+
+100 80
+
+% ACTIVITY
+
+40 20 0 -20
+
+% ACTIVITY
+
+60
+
+60 40 20 0 -20
+
+Compound-C, IC50 =106 nM Compound-D, IC50 =571 nM Compound-E, IC50=4140 nM Compound-F, IC 50 =13318 nM
+
+Compound-C, IC 50=133 nM Compound-D, IC 50=1403 nM Compound-E, IC50=1375 nM Compound-F, IC 50 =305 nM
+
+10 -1 100 101 10 2 103 104 105
+
+10-1 100 101 102 103 104 105
+
+COMPOUND, nM
+
+COMPOUND, nM
+
+Fig. 9. Competition of FLA-A binding to PPARa and PPARc by other PPAR agonists. The inhibition of FLA-A (10 nM) binding to 200 ng PPARa (A) or 100 ng PPARc (B) by increasing concentrations of PPAR agonists was measured in a 384-well plate (assay conditions: total volume of 30 ll for PPARa and of 40 ll for PPARc at room temperature for 1 h) using the Analyst plate reader. The solid lines represent the data fitted with the Logistic.fit of SigmaPlot, and IC50 values were calculated.
+
+272
+
+Fluorescence Polarization binding assay for PPARa and PPARc / R. Seethala et al. / Anal. Biochem. 363 (2007) 263­274
+
+A
+IC50 by FP ASSAY (nM)
+40000
+2
+
+B
+IC50 by FP ASSAY (nM)
+12000
+
+r = 0.999
+12000
+
+r = 0.987
+
+2
+
+8000
+
+6000
+
+4000
+
+0 0 6000 12000 40000
+
+0 0 4000 8000 12000
+
+IC50 by GEL FILTRATION (nM)
+
+IC50 by GEL FILTRATION (nM)
+
+Fig. 10. Correlations of binding affinity between PPAR FP binding assays and PPAR gel filtration binding assays. The IC50 values of PPARa agonists obtained by FP assay and the IC50 values for the same compounds determined by gel filtration assay at a different time were plotted (A). Correlation between the assays: r2 = 0.999. The solid line curve is fitted with linear regression. Similarly, the IC50 values of PPARc agonists obtained by FP assay and the IC50values for the same compounds determined by gel filtration assay at a different time were plotted (B). Correlation between the assays: r2 = 0.987.
+
+assay (87, 2111, 923, and 324 nM) for compounds C, D, E, and F, respectively. Furthermore, the rank order of potency of these dual PPARa/c activators is the same in the gel filtration and FP binding assays. Finally, the IC50 values obtained for 14 compounds by the FP binding assay using FLA-A as the reference ligand and either human PPARa or human PPARc LBDs were plotted against the IC50 values obtained by the gel filtration assay for the same compounds using 3H-labeled GW-2331 as the reference ligand for PPARa and 3H-labeled rosiglitazone as the reference ligand for PPARc. As shown in Fig. 10, a linear relation with a regression coefficient of 0.99 was obtained for both PPARa and PPARc, indicating that the binding affinity data obtained by the FP binding assay correlated very well with the binding affinity data obtained by the gel filtration binding assay. Even when the IC50 values for compounds less than 5 lM were plotted, there was excellent correlation between the FP assay IC50 values and the gel filtration assay IC50 values (r2 = 0.93­ 0.95) for both PPARa and PPARc. The minor discrepancies between the IC50 values of the two methods may also be due to the fact that the two assays were not run concurrently. Overall, these results confirm that the FP binding assay using a single fluorescein-labeled dual PPARa/c ligand for human PPARa and PPARc works as well as the conventional gel filtration assay and, thus, can be used successfully for identifying novel dual PPARa/c activators. Discussion The binding assay used most often for PPARs and other NHRs is the gel filtration method, which uses either the crude or purified receptor and a radiolabeled ligand. In this assay, the binding reaction mixture is passed through a
+
+small Sephadex G-50 column to separate the ligand-bound receptor in void volume from the free ligand and is then counted in a scintillation counter. This is a reliable but labor-intensive, expensive, and low-throughput assay. SPA is another commonly used method for determining the binding affinity of ligands to NHRs. In the SPA method, the radioligand­receptor complex is bound to streptavidin­SPA beads through interaction between the biotinylated receptor and streptavidin coated on the beads. Thus, the receptor-bound radioligand is brought into close proximity of the scintillant on the beads and can be counted in a scintillation counter without separation of the free ligand [15]. The SPA method is a homogeneous assay and can be used for HTS; however, the assay uses radiolabeled ligand, and the SPA beads are expensive. The less commonly used methods, such as the charcoal adsorption method, the polyethylene glycol (PEG) precipitation method, and fluorogenic assays using 1-anilinonaphthalene-8-sulfonic acid (ANS), suffer from being labor intensive and less reliable. Other methods, such as homogeneous time-resolved fluorescence (HTRF) resonance energy transfer and fluorescence resonance energy transfer (FRET) where two reagents need to be labeled with donor and acceptor fluorescent groups, are relatively expensive compared with other methods. The FP binding assays described in this article offer several advantages over the other commonly used methods for determining the binding affinity of ligands to PPARa and PPARc and potentially other NHRs. The results described here suggest that the FP signal obtained in the human PPARa or PPARc FP binding assays is very robust and reproducible. The fluorescein-labeled dual PPARa/c ligand FLA-A has similar potency in binding to human PPARa LBD and human PPARc LBD (IC50 values = 1163 and 805 nM, respectively) and, thus, can be used as a single
+
+Fluorescence Polarization binding assay for PPARa and PPARc / R. Seethala et al. / Anal. Biochem. 363 (2007) 263­274 Table 2 Comparison of PPARa FP and gel filtration assays Property Assay Ligand PPARc protein per assay Signal Waste IC50 values and rank order of potency HTS and ultra-HTS Cost per well Ligand required for a deck of 1 million compounds Protein required for the deck FLA assay Homogeneous; no additional processing steps Fluorescein labeled 100­200 ng Robust signal and stable for several hours No hazardous waste and no handling problems IC50 values are similar; higher r2 = 0.999 Fully automatable and can be used for HTS and ultraHTS $0.05 (further reduced on miniaturization) 1 mg fluorescent ligand 150­300 mg GST­PPARc Gel filtration assay
+
+273
+
+Several processing steps after incubation 3 H-labeled BMS-251208 0.5­1.0 lg Good signal and stable Radioactive waste and handling problems IC50 values are similar; higher r2 = 0.999 Cannot be automated; medium throughput Approximately $1.00 250 mCi of labeled ligand 750­1500 mg GST­PPARc
+
+fluorescent ligand for both the PPARa and PPARc binding assays. In addition, the assay is homogeneous and is easily adaptable for HTS. As compared with assays such as gel filtration and SPA binding assays, as well as other less commonly used binding assays, FP binding assay reported here for PPARa and PPARc offers many advantages. First, it is not as cumbersome and time-consuming. Second, it does not require any transfer of materials from the support itself (one pot assay). Third, a common fluorescein-labeled ligand, which is a binder to both PPARa and PPARc, can be used to simultaneously determine binding affinity of test agents to PPARa or PPARc Fourth, it does not require the use of radioactivity, making the assay preferable to the other methods employing radioactive materials. Fifth, it is cost-effective because only small amounts of receptor (three- to fivefold less PPARa and PPARc. LBD proteins than the corresponding gel filtration assay) are required, and the fluorescein-labeled ligand can be prepared using a relatively straightforward multistep synthesis. Finally, it is rapid, robust, and reproducible, thereby making it suitable overall for use in an HTS setting. Table 2 compares the similarities, advantages, and disadvantages of the FP binding assay and the gel filtration binding assay. With the availability of versatile plate readers that can be used in automation, such as the Analyst (Molecular Devices), the PolarStar (BMG Technologies, Durham, NC, USA), Safire2 (Tecan, Durham, NC, USA), Envision (PerkinElmer, Shelton, CT, USA), and many others that can read FP in 384- or 1536-microtiter plate formats, the throughput of the FP screen can be increased to several thousands of compounds per day. Also, the amounts of the receptor protein and the fluorescent ligand used per assay can potentially be reduced even further with miniaturization. In summary, the 384-well plate FP binding assays for human PPARa and human PPARc described here offer a simple, sensitive, cost-effective, and homogeneous HTS method for screening for dual PPARa/c activators. The utility of this FP binding assay method can be extended to HTS for ligands of other NHRs.
+
+References
+[1] S. Kersten, B. Desvergne, W. Wahli, Roles of PPARs in health and disease, Nature 405 (2000) 421­424. [2] T.M. Willson, P.J. Brown, D.D. Sternbach, B.R. Henke, The PPARs: From orphan receptors to drug discovery, J. Med. Chem. 43 (2000) 527­550. [3] S.A. Kliewer, H.E. Xu, M.H. Lambert, T.M. Willson, Peroxisome proliferator-activated receptors: From genes to physiology, Recent Prog. Horm. Res. 56 (2001) 239­263. [4] J. Berger, D.E. Moller, The mechanism of action of PPARs, Annu. Rev. Med. 53 (2002) 409­435. [5] S.J. Robins, D. Collins, J.T. Wittes, V. Papademetriou, P.C. Deedwania, E.J. Schaefer, J.R. McNamara, M.L. Kashyap, J.M. Hershman, L.F. Wexler, H.B. Rubins, Relation of gemfibrozil treatment and lipid levels with major coronary events: VA-HIT--A randomized controlled trial, JAMA 285 (2001) 1585­1591. [6] Diabetes Atherosclerosis Intervention Study investigators, Effect of fenofibrate on progression of coronary artery disease in type 2 diabetes: The Diabetes Atherosclerosis Intervention Study, a randomised study, Lancet 357 (2001) 905­910. [7] H. Bays, L. Mandarino, R.A. DeFronzo, Mechanisms of endocrine disease: Role of adipocytes, free fatty acids, and ectopic fat in pathogenesis of type 2 diabetes mellitus: PPAR agonists provide a rational therapeutic approach, J. Clin. Endocrinol. Metab. 89 (2004) 463­478. [8] J.M. Olefsky, Treatment of insulin resistance with PPARc agonists, J. Clin. Invest. 106 (2000) 467­472. [9] J.A. Beckman, M.A. Creager, P. Libby, Diabetes and atherosclerosis: Epidemiology, pathophysiology, and management, JAMA 287 (2002) 2570­2581. [10] P. Devasthale, S. Chen, Y. Jeon, F. Qu, C. Shao, W. Wang, H. Zhang, M. Cap, D. Farrelly, R. Golla, G. Grover, H. Harrity, Z. Ma, L. Moore, J. Ren, R. Seethala, L. Cheng, P. Sleph, W. Sun, A. Tieman, J. Wetterau, S. Biller, D. Ryono, F. Selan, N. Hariharan, P.T.W. Cheng, Design and synthesis of N-[(4-methoxyphenoxy)carbonyl]-N-[{4-[2-(5-methyl-2-phenyl-4- oxazolyl) ethoxy] phenyl} methyl]glycine (muraglitazar/BMS-298585), a novel PPARa/c dual agonist with efficacious glucose and lipid-lowering activities, J. Med. Chem. 48 (2005) 2248­2250. [11] T. Harrity, D. Farrelly, A. Tieman, C. Chu, L. Kunselman, L. Gu, R. Ponticiello, M. Cap, F. Qu, C. Shao, W. Wang, H. Zhang, W. Fenderson, S. Chen, P. Devasthale, Y. Jeon, R. Seethala, W-P. Yang, J. Ren, M. Zhou, D. Ryono, S. Biller, K.A. Mookhtiar, J. Wetterau, R. Gregg, P.T. Cheng, N. Hariharan, Muraglitazar, a novel dual (a/c) PPAR activator, improves diabetes and other metabolic abnormalities and preserves b-cell function in db/db mice, Diabetes 55 (2006) 240­248.
+
+274
+
+Fluorescence Polarization binding assay for PPARa and PPARc / R. Seethala et al. / Anal. Biochem. 363 (2007) 263­274 [16] R. Seethala, Fluorescence polarization competition immunoassay for tyrosine kinases, Methods 22 (2000) 61­70. [17] M.J. DeGrazia, J. Thompson, J.P.V. Heuvel, B.R. Peterson, Synthesis of a high-affinity fluorescent PPARc ligand for high-throughput fluorescence polarization assays, Bioorg. Med. Chem. 11 (2003) 4325­ 4332. [18] J. Uppenberg, C. Svensson, M. Jaki, G. Bertilsson, L. Jendeberg, A. Berkenstam, Crystal structure of the ligand binding domain of the human nuclear receptor PPARc, J. Biol. Chem. 273 (1998) 31108­31112. [19] H.E. Xu, M.H. Lambert, V.G. Montana, D.J. Parks, S.C. Blanchard, P.J. Brown, D.D. Sternbach, J.M. Lehmann, G.B. Wisely, T.M. Willson, S.A. Kliewer, M.V. Milburn, Molecular recognition of fatty acids by peroxisome proliferator-activated receptor-c, Mol. Cell 3 (1999) 397­403. [20] J-H. Zhang, T.D.Y. Chung, K.R. Oldenburg, A simple statistical parameter for use in evaluation and validation of high throughput screening assays, J. Biomol. Screen. 4 (1999) 67­73.
+
+[12] J.B. Buse, C.J. Rubin, R. Frederich, K. Viraswami-Appanna, K.C. Lin, R. Montoro, G. Shockey, J.A. Davidson, Muraglitazar, a dual (alpha/gamma) PPAR activator: A randomized, double-blind, placebo-controlled, 24-week monotherapy trial in adult patients with type 2 diabetes, Clin. Ther. 8 (2005) 1181­ 1195. [13] J.M. Lehmann, L.B. Moore, T.A. Smith-Oliver, W.O. Wilkinson, T.M. Willson, S.A. Kliewer, An antidiabetic thiazolidinedione is a high affinity ligand for peroxisome proliferator activated receptor c (PPARc), J. Biol. Chem. 270 (1995) 12953­12956. [14] C. Li, J.W.R. Schwabe, E. Banayo, R.M. Evans, Coexpression of nuclear receptor partners increases their solubility and biological activities, Proc. Natl. Acad. Sci. USA 94 (1997) 2278­2283. [15] J.S. Nichols, D.J. Parks, T.G. Consler, S.G. Blanchard, Development of a scintillation proximity assay for peroxisome proliferator-activated receptor c ligand binding domain, Anal. Biochem. 257 (1998) 112­119.
+
+

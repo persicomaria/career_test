@@ -1,0 +1,271 @@
+Structure, epitope mapping, and docking simulation of a gibberellin mimic peptide as a peptidyl mimotope for a hydrophobic ligand
+Takashi Murata1,3, Hikaru Hemmi1, Shugo Nakamura2, Kentaro Shimizu2, Yoshihito Suzuki3 and Isomaro Yamaguchi3
+1 National Food Research Institute, Kannondai, Tsukuba, Japan 2 Department of Biotechnology, Division of Agriculture and Agricultural Life Sciences, The University of Tokyo, Japan 3 Department of Applied Biological Chemistry, Division of Agriculture and Agricultural Life Sciences, The University of Tokyo, Japan
+
+Keywords solution structure; STD-NMR; docking simulation; hydrophobic ligand; mimic peptide Correspondence H. Hemmi, National Food Research Institute, 2-1-12 Kannondai, Tsukuba, Ibaraki 305-8642, Japan Fax: +81 29 8387996 Tel: +81 29 8388033 E-mail: hemmi@affrc.go.jp Note The atomic coordinates for the 50 conformers of peptide SD described in this paper have been deposited with the Protein Data Bank (PDB ID 1YT6). Chemical shifts for peptide SD have been deposited in the BioMagRes Bank as entry 6511. (Received 9 June 2005, revised 29 July 2005, accepted 4 August 2005) doi:10.1111/j.1742-4658.2005.04902.x
+
+Using NMR spectroscopy and simulated annealing calculations, we determined the solution structure of the disulfide-linked cyclized decapeptide ACLPWSDGPC (SD), which is bound to an anti-(gibberellin A4) mAb 4-B8(8) / E9 and was found to be the first peptidyl mimotope for a hydrophobic ligand. The resulting structure of the peptide showed a b-turn-like conformation in residues three to seven and the region converges well ° (average rmsd 0.54 A). The binding activity and the epitopes of the peptide to the antibody were assessed using saturation transfer difference (STD)NMR experiments. We also conducted docking simulations between the peptide and the mAb to determine how the peptide is bound to the mAb. Resonances around the b-turn-like conformation of peptide SD (residues 3­5) showed strong STD enhancement, which agreed well with results from docking simulation between peptide SD and the mAb. Together with the commonality of amino acid residues of the mAb involved in interactions with gibberellin A4 (GA4) and peptide SD, we concluded that peptide SD is bound to the antigen-binding site of mAb 4-B8(8) / E9 as a GA4 mimic, confirming evidence for the existence of peptide mimics even for hydrophobic ligands.
+
+The mimotope is a structure that acts as a mimic of an epitope recognized by an antibody. Because a compound with the similar tertiary structure to the epitope could work as a mimotope, peptidyl mimotopes could be prepared even to an epitope composed of nonpeptidyl molecules. Peptidyl mimics for carbohydrates and double-stranded DNA have been reported [1­3]. It is difficult to obtain sufficiently high titre antibodies when using nonpeptidyl molecules such as carbohydrates,
+
+because they elicit only a T-cell independent immune response, while peptidyl molecules can raise high titre antibodies in a T-cell dependent manner. These peptidyl mimics of carbohydrates could thus potentially serve as surrogate antigens in discovering vaccines to overcome the T-cell independent immune response and to obtain anticarbohydrate antibodies with high binding activity [1]. Few reports have been made on peptidyl mimics for other ligands, especially hydrophobic ones, with the
+
+Abbreviations GAs, gibberellins; mAb, monoclonal antibody; STD, saturation transfer difference; DQF, double-quantum-filtered; Fab, antigen binding fragment.
+
+4938
+
+FEBS Journal 272 (2005) 4938­4948 ª 2005 FEBS
+
+T. Murata et al.
+
+Gibberellin mimics peptide-antibody recognition
+
+exception of the water-soluble ligands biotin [4] and deoxynivalenol (DON) [5]. If peptidyl mimics for hydrophobic ligands become generally available, they could work as ideal immunogens to create antibodies that possess high binding activities to various organic compounds such as plant hormones. In our previous paper [6], two types of homologous peptides with two different successive amino acids in the middle of peptides (underlined), ACLPWSDGPC (SD) and ACLPWGTGPC (GT), were screened as peptidyl mimotopes of a hydrophobic ligand gibberellin A4 (GA4) (Fig. 1) against mAb 4-B8(8) / E9 by a phage display method using a disulfide constrained phage display peptide library (Ph.D.-C7CTM phage display peptide library kit), because disulfide-constrained peptide libraries have proved to be useful in identification of structural epitopes. As far as we are aware this is the first report on peptidyl mimics for hydrophobic ligands. Both peptides are composed mostly of hydrophobic amino acid residues. These are cyclized, forming a disulfide cross-link between Cys2 and Cys10. Gibberellins (GAs), a class of plant hormones, play important roles in various plant growth phenomena, including seed germination, stem elongation, and flower development [7]. We assumed that the peptides interacted with the mAb at the GA binding site based on the observation that the binding of phages displaying these peptides was replaced by antigen GA4, but not by GA4 methyl ester which is not recognized by the mAb. To confirm that peptides are bound to the antigen binding site of the mAb and to discuss interactions between peptides and the mAb in detail, it is essential to determine the conformation of the peptides and then investigate their interactions with atomic resolution. It is thus worthwhile to determine the conformations of these peptides and to analyse the interaction between peptides and the mAb to obtain clear evidence that the peptides are real mimotopes of GAs and to confirm the existence of peptidyl mimics even for hydrophobic ligands.
+
+In this paper, we first report the solution structure of the GA-mimic peptide, peptide SD, by 2D NMR methods. Second, we report epitope mapping of the peptide against the mAb by saturation transfer difference (STD)-NMR methods. Finally, we report computational docking simulation between peptide SD and the mAb, and discuss the interaction between the GA-mimic peptide and the mAb.
+
+Results
+1D 1H-NMR spectra of two synthetic cyclized decapeptides 1D 1H-NMR spectra of the two peptides ACLPWSDGPC (SD) and ACLPWGTGPC (GT) clearly showed that both had three conformations, based on the number of resonance signals (data not shown). We could not separate the three conformers of these peptides by reversed-phase HPLC in this study. Ratios of the three conformers for peptide SD or peptide GT were estimated to be 3 : 1.4 : 1 or 2 : 2 : 1, based on the differential signal intensity of the resolved side-chain NH resonance of tryptophane residue in each conformer. We assigned the 1H chemical shifts only for peptide SD using 2D NMR experiments because: (a) peptide SD and peptide GT have high binding activity for the antibody [6]; and (b) resonance signals in the 1D proton spectrum of the peptide GT are more complicated for resonance assignment than those in the 1D proton spectrum of peptide SD, a result of the ratio of the three conformers of peptide GT where the larger two are almost equal. Resonance assignments of peptide SD The sequence-specific assignments of the proton resonance from the residue in the three conformers (denoted the three conformers in order of the signal intensity in 1D 1H spectrum as major conformer, minor conformer 1, and minor conformer 2) of peptide SD were made using standard procedures [8] from 2D NMR spectra collected at 20, 25, 30, and 35 °C. For assignments of Pro residues Ha(i)­Hd(i +1 : Pro) (dad) or Ha(i)­ Ha(i + 1 : Pro) (daa) NOEs were used instead of daN. Both proline residues, Pro4 and Pro9, of the major conformer showed strong dad NOEs, indicating that all proline residues in the major conformer of peptide SD have a trans configuration. Pro4 of minor conformer 1 and Pro9 of minor conformer 2, however, showed dad NOEs, but Pro4 of minor conformer 2 and Pro9 of minor conformer 1 did not. daa NOEs between Leu3 Ha and Pro4 Ha in minor conformer 2 or between Gly8
+4939
+
+Fig. 1. Structures of gibberellin A4 and cyclized decapeptide ACLPWSDGPC (SD).
+
+FEBS Journal 272 (2005) 4938­4948 ª 2005 FEBS
+
+Gibberellin mimics peptide-antibody recognition
+
+T. Murata et al.
+
+Ha and Pro9 Ha in minor conformer 1 were observed, indicating that peptide linkages of Leu3­Pro4 in minor conformer 2 and Gly8­Pro9 in minor conformer 1 exhibit a cis configuration. Peptide SD thus exists in three isoforms due to cis­trans isomerization about the peptide linkages of Leu3­Pro4 and Gly8­Pro9. In STDNMR experiments, binding between all conformers of peptide SD and mAb 4-B8(8) / E9 were observed as detailed later. We therefore propose that the cis / trans configuration of proline residues is basically not critical to binding to the mAb. Proton peaks of all conformers in the SD peptide were completely assigned (see Table 1). Resonance assignments were extended by determining stereospecific assignments of some methylene protons to obtain high-precision NMR structures. b-Methylene protons were stereospecifically assigned for three of 10 residues in the major conformer of peptide SD using information on 3JHaHb coupling constants qualitatively estimated from the short-mixing time TOCSY spectrum combined with intraresidue NH-Hb and Ha-Hb NOEs. Sequential- and medium-range NOE connectivities and slowly exchanging amide protons in the major conformer of peptide SD is summarized in Fig. 2. Unfortunately, the two minor conformers of peptide SD had concentrations too low to detect medium-range NOEs. Therefore, we could not determine the tertiary structures of the two minor conformers of peptide SD. Conformation of the major conformer of peptide SD The 3D structure of the major conformer of peptide SD was determined by simulated annealing calculations using 49 NOE-derived distance restraints (including 11 intraresidue, 28 sequential-residue, and 10 medium range), four hydrogen bond restraints, and eight dihedral angle restraints. Fifty conformations that give low conformation energy and that give no distance and dihedral angle violations greater than ° ° 0.5 A and 5 A, respectively, were obtained. Statistical data for the 50 structures of the major conformer of peptide SD are given in Table 2. The structures thus obtained had good covalent geometry and stereochemistry, as evidenced by the low rmsd values for bond, angle and improper from idealized geometry. The Ramachandran plot confirmed the high quality of these structures, which showed that 100% of / and w angles are found within core and allowed regions. Figure 3A shows the resulting solution structures of the major conformer of peptide SD, where these structures are superimposed to give the best fit in space. The ° rmsd value from the mean structure is 1.60 A for all
+4940
+
+backbone atoms in the whole molecule, while the cor° responding value is 0.54 A for all backbone atoms in the region of residues 3­7. This data indicates that the region from Leu3 to Asp7 converges very well in calculated structures. Figure 3B shows the schematic drawing of the lowest energy structure of the major conformer of peptide SD among the 50 calculated structures, which is well characterized by a b-turn-like conformation in the sequence Leu3-Pro4-Trp5-Ser6. Interactions of peptide SD with mAb 4-B8(8)/E9 by STD-NMR experiments To investigate the interaction between peptide SD and mAb 4-B8(8) / E9, we performed STD-NMR experiments. The STD-NMR technique is a method of epitope mapping by NMR spectroscopy. During the experiment, resonances of the protein are selectively saturated and the signals of a ligand that is specifically bound to a target protein show changes in resonance intensity and are observed in the difference NMR spectrum, while those of nonassociating ligands are cancelled out and not observed in the difference spectrum. The time course of saturation was determined by plotting the STD amplification factor against saturation time in the fixed concentration of peptide SD in the presence of mAb 4-B8(8) / E9, since the absolute magnitude of the STD effect depends on the concentration of a ligand and saturation time [9]. Saturation profiles of peptide SD showed that a 3-s saturation time was sufficient for efficient saturation transfer from a proton in the protein to that in peptide SD, and we carried out STD-NMR experiments with a 3-s saturation time for the epitope mapping of mAb 4-B8(8) / E9 (data not shown). Figure 4 shows (A) the 1D 1H-NMR spectrum of peptide SD incubated with mAb 4-B8(8) / E9 at a ratio of 100 : 1; and (B) the corresponding 1D STD spectrum. 1D STD-NMR signals of peptide SD were assigned and some signals of the three conformers overlapped. We confirmed STD-NMR signal assignment by 2D STD-TOCSY spectra, and overlapping signals were treated as a group to calculate their STD intensity (Table 3). The integral value of the signal of one of the b protons of Leu3 of minor conformer 1, the largest STD intensity of peptide SD, was much larger than those of other STD signals, and thus this was set to 200%. Table 3 shows the relative degree of saturation of individual protons normalized to that of one of the b protons of Leu3 of minor conformer 1. STD enhancement was observed for all three conformers, indicating that they all interact with the mAb. We also found that the pattern of STD enhancement for
+FEBS Journal 272 (2005) 4938­4948 ª 2005 FEBS
+
+T. Murata et al.
+
+Table 1. 1H chemical shifts of three conformers in peptide SD (p.p.m., from 2,2-dimethyl-2-silapentane-5-sulfonate). Minor conformer 1 HB ­ 8.82 8.52 ­ 6.88 4.72 3.34, 3.51 4.11 1.80, 2.19 ­ 8.13 4.44 4.53 4.10 4.63 4.48 1.48 2.95, 3.12 0.58, 1.16 ­ 8.61 8.05 4.10 4.75 4.28 Others NH HA HB Others NH HA Minor conformer 2 HB 1.57 2.98, 3.33 1.59 1.68, 2.19 3.35 Others
+
+Major conformer
+
+FEBS Journal 272 (2005) 4938­4948 ª 2005 FEBS
+
+Residue
+
+NH
+
+HA
+
+Ala1 Cys2 Leu3
+
+­ 8.76 8.65
+
+4.10 4.68 4.52
+
+Pro4 3.33, 3.49
+
+­
+
+4.24
+
+1.50 2.95(HB2)a, 3.12(HB3) 0.72(HB3), 1.23(HB2) 1.80, 2.20 HG 1.56 HD 0.85, 0.92 HG 1.95, 2.00 HD 3.21, 3.69 HD1 7.22 HE1 10.31 HE3 7.67 HH2 7.30 HZ2 7.55 HZ3 7.23 3.67 2.74, 2.86 1.93, 2.39 3.02, 3.21 HG 2.15 HD 3.57 HG 1.57 HD 0.84, 0.93 HG 1.95, 2.01 HD 3.19, 3.69 HD1 7.21 HE1 10.33 HE3 7.66 HH2 7.30 HZ2 7.56 HZ3 7.22
+
+Trp5
+
+7.04
+
+4.74
+
+HG 1.43 HD 0.89 HD 1.93 HD 3.15, 3.30 HD1 7.33 HE1 10.18 HE3 7.66 HH2 7.26 HZ2 7.51 HZ3 7.17 3.62, 3.81 2.70, 2.75 1.94, 2.24 8.53 4.53 2.98, 3.26 HG 2.00 HD 3.59
+
+Ser6 Asp7 Gly8 Pro9 1.93, 2.25 3.06(HB2), 3.19(HB3) 8.25 4.48 HG 2.01 HD 3.60
+
+7.62 8.48 7.92 ­
+
+4.42 4.77 4.05, 4.12 4.43
+
+3.77 2.74, 2.81
+
+7.44 8.61 8.06 ­
+
+4.58 4.77 3.80, 4.02 4.58
+
+7.74 8.20 8.00 ­
+
+4.39 4.60 3.97, 4.20 4.43
+
+Cys10
+
+8.16
+
+4.44
+
+Gibberellin mimics peptide-antibody recognition
+
+a
+
+b-Protons in parentheses were stereospecifically assigned.
+
+4941
+
+Gibberellin mimics peptide-antibody recognition
+
+T. Murata et al.
+
+A
+
+B
+W5 P4 L3 S6 C2 A1 P9 D7 G8
+
+Fig. 2. Summary of sequential and medium-range NOE connectivities observed for the major conformer of peptide SD. Bars, the size of which indicates the NOE intensity (strong, medium, and weak), represent sequential NOEs. Slow exchanging amide protons are also represented as closed circles.
+
+N
+
+C
+
+N
+
+C10
+
+C
+
+Table 2. Statistics for 50 NMR structures of peptide SD. Number of restraints Total distance restraints Intraresidue Sequential Medium (1 < | i­j | < 5) Long (| i­j |  5) Hydrogen bond (2 per bond) Total dihedral angle restraints / w v1 rmsd from experimental restraints ° NOE distance restraints (A) Dihedral angle restraints (degree) rmsd from ideal covalent geometry ° Bonds (A) Angles (degree) Impropers / and w in core and allowed regions (%)a ° rmsd relative to the mean structure (A) Backbone (N, Ca and C¢ atoms) Whole molecule (residues 1­10) 1.60 ± 0.46 Core region (residues 3­7) 0.54 ± 0.19
+a
+
+Fig. 3. Superimposition of 50 structures (A) and ribbon diagram of the lowest energy structure of the major conformer of peptide SD (B). One disulfide bridge (Cys2­Cys10) and side chains of all residues are ball-and-stick representations. This figure was generated using MOLMOL [31].
+
+53 11 28 10 0 4 8 5 0 3 0.0305 ± 0.0123 0.3631 ± 0.1474 0.0023 ± 0.00071 0.5644 ± 0.0294 0.1668 ± 0.0529 100 All non-H 2.22 ± 0.58 1.47 ± 0.31
+
+A
+
+B
+
+Fig. 4. Reference NMR spectrum of mixture of peptide SD and mAb 4-B8(8) / E9 in the ratio of 100 : 1 (A) and STD-NMR spectrum of the same sample (B). Prior to acquisition, a 30 ms spin-lock pulse was applied to remove residual protein resonance.
+
+The program analysis.
+
+PROCHECK-NMR
+
+[30] was used for Ramachandran plot
+
+(Table 3), suggesting that the region from Leu3 to Trp5 has more and tighter contacts to the surface of the mAb. Docking simulation between the conformation of peptide SD and the mAb Docking simulation of the conformation of peptide SD obtained in this study to the crystal structure of mAb 4-B8(8) / E9 antigen binding fragment (Fab) [Protein Data Bank (PDB) ID 1KFA] was performed by using gold 2.1 software. Default parameters for the energy function were used, including hydrogen bond energy between the protein and ligand, van der Waals energy between the protein and ligand and within the ligand, and internal torsion energy for the ligand. To consider
+FEBS Journal 272 (2005) 4938­4948 ª 2005 FEBS
+
+some residues among the three conformers such as HE1 of Trp5 differed from one another (Table 3). These results indicate that the conformational change among the three conformers due to cis­trans isomerization at the position of Pro4 or Pro9 may affect the difference in the pattern of STD enhancement. Strong STD enhancement (> 60%) of all three conformers was observed, however, only for residues, Leu3-Trp5, constituting a b-turn-like structure, while C-terminal residues Ser6-Cys10, have lower STD enhancement (12­28%) except for NH of Ser6 in minor conformer 1
+4942
+
+T. Murata et al.
+
+Gibberellin mimics peptide-antibody recognition
+
+Table 3. STD enhancement of peptide SD in the presence of monoclonal antibody 4-B8(8) / E9. Resonance signals overlapping between major conformer and minor conformer 1 are shown in italics. STD enhancement was normalized to the strongest enhancement, Leu3 HB of minor conformer 1 (0.58 p.p.m.). STD enhancement (%) 28 36 6 46, 26 46 50 68 58 200 42 58 50 66 50 44 50 14 24 108 102 34 80 20 60 116 80 76 64 20 68 12 24 22 22 28 24 22
+
+Resonances Ala-1 HA Ala-1 HB Cys-2 NH of minor conformer 1 Cys-2 HB Leu-3 NH of minor conformer 1 Leu-3 HB2 of major conformer Leu-3 HB3 of major conformer Leu-3 HB of minor conformer 1 Leu-3 HB of minor conformer 1 Leu-3 HG Leu-3 HD Pro-4 HB Pro-4 HB of minor conformer 2 Pro-4 HG / Pro9 HB / Pro9 HG of major conformer Pro-4 HD / Ser6 HB of minor conformer 1 Pro-4 HD / Cys10 HB Trp-5 NH of major conformer Trp-5 NH of minor conformer 1 Trp-5 HB Trp-5 HD1 / HZ3 Trp-5 HE1 of major conformer Trp-5 HE1 of minor conformer 1 Trp-5 HE3 Trp-5 HH2 Trp-5 HZ2 Trp-5 HZ2 of minor conformer 2 Ser-6 NH of major conformer Ser-6 NH of minor conformer 1 Ser-6 HB of major conformer Asp-7 NH of minor conformer 1 Asp-7 HB Gly-8 NH of minor conformer 1 Pro-9 HB Cys-10 HB
+
+d (p.p.m) 4.10 1.48­1.50 8.82 2.95, 3.12 8.52 1.23 0.72 1.16 0.58 1.56­1.57 0.84­0.85, 0.92­0.93 1.80, 2.19­2.20 1.68 1.93­2.01 3.69­3.77 3.19­3.21 7.04 6.88 3.33­3.51 7.21­7.23 10.31 10.33 7.66­7.67 7.30 7.55­7.56 7.51 7.62 7.44 3.77 8.61 2.74, 2.81­2.86 8.06 2.25­2.39 3.02­3.06
+
+the flexibility of peptide SD, 25 runs were executed for each of the 50 NMR structures while fixing the mainchain atoms of peptide SD and optimizing its sidechain atoms. Among 1250 peptide SD-mAb 4-B8(8) / E9 Fab complex structures predicted in this study, 904 complex structures with positive fitness scores were selected, and clustered using the method of Baker et al. [10]. During clustering, the rmsd of Ca atoms was used as the measure of distance between structures.
+FEBS Journal 272 (2005) 4938­4948 ª 2005 FEBS
+
+Three large clusters were found among 904 predicted complex structures by the clustering analysis, and three complex structures that were closest to each centre of the three large clusters were obtained. We then compared the fitness values of the three complex structures to find the best model of the peptide SD-mAb 4-B8(8) / E9 complex structure. The fitness values of the three complex structures were 51.26, 49.49, and 1.97. The complex structure with the highest fitness value, 51.26, was obtained from the largest cluster, indicating that this complex structure is the best model of all predicted complex structures in this study. Firstly, the three complex structures obtained by clustering analysis showed that peptide SD interacted with the antigen binding site in mAb 4-B8(8) / E9 (Fig. 5A). Residues of Pro4 and Trp5 of peptide SD in each of three complex structures are located at almost the same positions in the three complex structures, and these residues of peptide SD showed hydrophobic interaction with mAb 4-B8(8) / E9 in complex structures. The three complex structures also showed that amide proton of Ala33, which is very important for binding with GA4, in mAb 4-B8(8) / E9 was located at a position to possibly form hydrogen bonding with peptide SD. We speculated from the three complex structures, however, that peptide SD is mainly bound to mAb 4-B8(8) / E9 by hydrophobic interaction. Next, we analysed the interaction between peptide SD and mAb 4-B8(8) / E9 in detail using the best model predicted (Fig. 5B). In this model of peptide SD-mAb 4-B8(8) / E9 complex, two hydrogen bonds exist between the antibody and the peptide: Ala33a NH­CO Pro4p (where a denotes an antibody residue and p denotes a peptide residue); and Thr53a OHsc­CO Trp5p (where sc denotes side-chain) (Fig. 5B). We reported the crystal structure of mAb 4-B8(8) / E9 with GA4 previously [11]. In the complex structure, NH of Ala33 and NH of Thr53 of the mAb formed hydrogen bonds with GA4. The results indicate that peptide SD in the best complex model interacts with very important residues, Ala33 and Thr53, of the mAb for antigen recognition. This complex model obtained from docking simulations in this study thus appears to be extremely suitable. As described, we found from STD-NMR experiments in this study that the region Leu3-Trp5 of peptide SD is an important epitope for interaction with the mAb. The corresponding region of peptide SD in the three complex models, also shown to interact with the mAb from docking simulations in this study, is in good agreement with the results obtained from STD-NMR experiments. In complex models, the region from Ser6 to Cys10, which showed the lower STD enhancement, had no interactions with the mAb. We thus conclude that
+4943
+
+Gibberellin mimics peptide-antibody recognition
+
+T. Murata et al.
+
+A
+
+Leu97H Leu98H
+
+Phe100BH
+
+Tyr100AH B
+
+Fig. 5. Docking simulation models of peptide SD and mAb 4-B8(8) / E9. (A) Electrostatic potential surface of mAb 4-B8(8) / E9 in complex with peptide SD. Three models of peptide SD are shown in the wire model (green). Surface electrostatic potentials of mAb 4-B8(8) / E9 were calculated in MOLMOL [31], coloured by electrostatic potentials with positive regions in blue and negative regions in red. Some residues of peptide SD or mAb 4-B8(8) / E9 described in text using one-letter codes or three-letter codes, respectively, are also represented. (B) Schematic drawing of the interaction between peptide SD and mAb 4-B8(8) / E9 in the docking simulation model. The figure was generated by LIGPLOT [36].
+
+complex models between peptide SD and the mAb obtained from docking simulation in this study are suitable since epitopes of peptide SD to the mAb obtained from STD-NMR are in good agreement with those obtained from docking simulation.
+
+Discussion
+We previously identified two disulfide linked cyclized decapeptides, SD and GT, which have affinity with mAb 4-B8(8) / E9, an antibioactive GA antibody, by screening a phage display peptide library [6]. In this study, we performed NMR spectroscopic analysis of the peptides to determine the conformation and an epitope for mAb 4-B8(8) / E9 in order to obtain structural
+4944
+
+information showing that the peptides are bound to the antigen-binding site of the mAb as GA4 mimics. We first measured 1D 1H-NMR spectra of peptides SD and GT. 1D proton spectra of the peptides showed that each of the two peptides has three cis / trans isomers due to two proline residues; resonance signals in 1D proton spectra are complicated by resonance signals overlapping among the three isomers. Fortunately, in the 1D proton spectrum of peptide SD, the intensity of the resonance signals of one isomer (all trans-configuration) is much stronger than those of the other two isomers (one cis-configuration and one trans-configuration). For the large isomer (major conformer) of peptide SD, we therefore assigned resonance signals and determined the solution structure by 2D NMR
+FEBS Journal 272 (2005) 4938­4948 ª 2005 FEBS
+
+T. Murata et al.
+
+Gibberellin mimics peptide-antibody recognition
+
+spectroscopy. We measured the STD-NMR spectrum for the mixture of peptide SD and mAb 4-B8(8) / E9 to investigate the interaction of peptide SD with the mAb. We also performed the docking simulation using the NMR structures of peptide SD and the crystal structure of the mAb Fab in the complex with GA4 to analyse interactions between them in more detail. The solution structure we determined for peptide SD showed a b-turn-like conformation in residues 3­7 and ° the region converges well (average rmsd 0.54 A). This conformation would be stabilized by two intramolecular Leu3 NH­Asp7 CO and Ser6 NH­Leu3 CO hydrogen bonds. The b-turn motif has been observed in other antigenic peptides free in solution [12­15] and bound to antibodies [16­19]. The 12-residue carbohydratemimetic peptide recognized by an antigroup B Streptococcus antibody was recently reported to have a type I b-turn both free and bound to the antibody [20]. The turns present in the bound and free peptide are very similar and residues forming this turn are recognized by the mAb as demonstrated by STD-NMR experiments, which indicates that the b-turn conformation may be an important reason for the effective immunogenicity of the peptide. In our study, bound conformation of peptide SD has not been determined yet. However, peptide SD has the b-turn-like conformation stabilized by two hydrogen bonds when free and residues (Leu3-Trp5) forming this turn are recognized by the mAb, as demonstrated by STD-NMR experiments. We propose that the b-turn-like conformation of peptide SD is important for binding to the mAb, this being supported by the reasonably good simulated docking between peptide SD and the mAb when fixing the b-turn-like conformation of peptide SD. If we can monitor the changes in chemical shifts of peptide SD on the addition of mAb using 15 N-labelled peptide, expected results will make it clearer that the b-turn-like conformation of peptide SD is important for binding to the mAb. We previously determined the crystal structure of the complex formed with the mAb 4-B8(8) / E9 Fab and GA4 [11]. It shows that 3b-hydroxy and 6b-carboxyl groups of GA4 form hydrogen bonds with Ala33H of the main chain, and with Thr53H of the heavy chain, respectively. Furthermore, C / D rings of GA4 were in van der Waals' contact mainly with the aromatic side chain of Tyr100AH and Phe100BH of the third complementarity-determining region of the heavy chain in mAb 4-B8(8) / E9. Our complex model between mAb 4-B8(8) / E9 and peptide SD in this study shows that Pro4 CO and Trp5 CO of peptide SD are hydrogen-bonded to Ala33H NH and to Thr53H sidechain OH of the mAb, respectively. Furthermore, the region composed of hydrophobic amino acid residues,
+FEBS Journal 272 (2005) 4938­4948 ª 2005 FEBS
+
+Leu3-Pro4-Trp5, of peptide SD form hydrophobic interactiona with the hydrophobic surface of the mAb including Tyr100AH and Phe100BH, as also demonstrated by STD-NMR experiments (Figure 5; Table 3). These results indicate that the peptide SD­mAb 4-B8(8) / E9 interaction is very similar to the GA4­mAb 4-B8(8) / E9 interaction. Previously [6], the binding of phages having peptides SD and GT was not inhibited by excess GA4 methylester, which is not reactive with mAb 4-B8(8) / E9, suggesting that the binding of the peptides is tightly related to the binding property of the mAb to its antigen. We therefore conclude that peptide SD is a real mimotope of GA4 for the mAb. So far, quite a number of peptidyl mimics for carbohydrates or double-stranded DNA have been prepared [1­3]. Mimicry peptides for water-soluble ligands, biotin and DON, have also been reported [4,5]. No reports exist, however, on peptidyl mimics for hydrophobic ligands, such as GAs, except for our previous study [6]. In this study, we confirmed that peptide SD formed hydrophobic interactions with mAb 4-B8(8) / E9 as a GA4 mimic. This is thus the first proof that peptidyl mimics can be prepared even though the ligands are hydrophobic, such as GAs. This finding would provide further availability of peptidyl mimics for other hydrophobic ligands as ideal immunogens to create antibodies that possess high binding activities to the organic compounds.
+
+Experimental procedures
+Sample preparation
+Two synthetic cyclized decapeptides, ACLPWSDGPC (SD) and ACLPWGTGPC (GT), made by the Fmoc method were purchased from Bex (Tokyo, Japan). A disulfide bond in these peptides was formed under oxidized conditions. Synthetic peptides were dissolved in 50 mm phosphate buffer (pH 5.0, 90% H2O / 10% D2O, v,v) to give a final concentration of  5 mm for NMR experiments. To detect the hydrogen bond, the peptide solution was lyophilized and redissolved in an equal volume of 100% D2O. mAb 4-B8(8) / E9 was prepared as reported elsewhere [6]. The mAb was dissolved in NaCl / Pi (10% D2O), and concentrated to  50 lm by centrifugation using Centricon-10 (Millipore, Billerica, MA). The peptide was dissolved into the mAb solution and the molar ratio of the peptide to mAb was adjusted to 100 : 1 for STD-NMR experiments.
+
+NMR spectroscopy
+All NMR spectra were obtained on Bruker Avance 600 MHz and 800 MHz spectrometers at 293 K, 298 K,
+
+4945
+
+Gibberellin mimics peptide-antibody recognition
+
+T. Murata et al.
+
+and 303 K. Standard Bruker software (xwinnmr 2.6) was used to acquire and process NMR data. Water suppression was performed using watergate sequence [21,22]. Chemical shifts were referenced to internal 2,2-dimethyl-2-silapentane-5-sulfonate at 25 °C. All 1D 1H-NMR spectra were recorded with 128 scans and 60 000 data points, and processed by zero-filling to 60 k points and multiplication by an exponential function, followed by Fourier transformation. Resonance signals were assigned based on 2D double-quantum-filtered (DQF)-COSY, TOCSY, ROESY and NOESY spectra. The 2D spectra were recorded with quadrature detection in the phase-sensitive mode by time proportional phase increment (TPPI) [23] and States-TPPI [24]. 2D spectra were acquired with a spectra width of 15 p.p.m. in both dimensions and 512 and 2048 complex points in both dimensions. TOCSY spectra with a DIPSI-2 mixing sequence were recorded with mixing times of 35, 60 or 80 ms. NOESY spectra were obtained with mixing times of 60, 100, 200, and 400 ms, and ROESY with a mixing time of 100 ms. The high digital resolution DQF-COSY spectrum was recorded using 400 and 4096 complex points in both dimensions. Slowly exchanging amide protons were identified by lyophilizing peptide from a H2O solution, dissolving the peptide in D2O, and collecting sequential 2-h 2D TOCSY spectra. Before Fourier transformation, the shifted sine-bell window function was applied to the t1 and t2 dimensions. Peak picking and assignment were performed with sparky (T. D. Goddard and D. G. Kneller, sparky 3, University of California, San Francisco, CA). 1D and 2D STD-NMR spectra were performed as described by Mayer and Meyer [9]. The time dependence of the saturation transfer was determined by recording 1D STD spectra with 1 k scans and saturation times from 0.25 s to 6.0 s. The irradiation power in all STD-NMR experiments was set to  0.15 W. Relative STD values were calculated by dividing STD signal intensities by the intensities of the corresponding signals in a reference spectrum of the same sample recorded with 64 scans. All STD-NMR spectra for epitope mapping were acquired using a series of equally spaced 50 ms Gaussian-shaped pulses for saturation with 1 ms intervals and the total saturation time of  3 s. The on-resonance irradiation of the protein was performed at the chemical shift of )2.0 p.p.m., and the off-resonance at 40 p.p.m. where no protein signal was present. Free induction decay values with on- and off-resonance protein saturation were recorded in alternative fashion. Subtraction of the 1D STD spectra was achieved via phase cycling. Protein resonance was suppressed by application of a 30 ms spin-lock pulse prior to acquisition. 2D STD-TOCSY spectra with on- and off-resonance protein saturation were recorded with 128 scans per t1 increment in alternative fashion. The 2D spectra were acquired with a spectra width of 15 p.p.m. in both dimensions, and 256 and 2048 complex points in both dimensions. A MLEV-17 mixing time of 100 ms was applied in STD-TOCSY spectra.
+
+Structure calculations
+NOE-derived distance restraints were classified into three ° ° ° ranges, 1.8­3.0 A, 1.8­4.0 A and 1.8­5.0 A, according to the relative NOE intensities. Upper distance limits for NOEs involving methyl protons and nonstereospecifically assigned methylene protons were corrected appropriately ° for centre averaging [25]. In addition, a distance of 0.5 A was added to the upper distance limits only for NOEs involving methyl protons [26] after correction for centre averaging. Torsion angle constraints on the backbone / angle are usually derived from 3JHNHa coupling constants estimated from high digital resolution 2D DQF-COSY spectra, and sequential and short-range NOEs. However, we could not obtain / angle restraints from the DQFCOSY spectra, because all 3JHNHa coupling constants observed were between 6 Hz and 8 Hz. The additional / angle restraint of 100° ± 80° was applied to residues for which the intraresidue Ha-HN NOE was clearly weaker than the NOE between HN and the Ha of the preceding residue [27]. Five / angle restraints were obtained for the peptide. Side-chain v1 angles were determined by 3JHaHb coupling constants qualitatively estimated from short-mixing TOCSY connectivities combined with NH-Ha and Ha-Hb NOEs [28]. Three v1 angle restraints for the peptide were obtained. v1 angle restraints were normally restricted to a ± 60° range from staggered conformations, g + (+ 60°), t (180°) or g­ ()60°). Hydrogen-deuterium exchange experiments identified four hydrogen bond donors for the peptide. Corresponding hydrogen bond acceptors were determined based on NOE patterns observed for regular secondary structural regions and preliminary calculated structures without restraints regarding hydrogen bonds. Hydrogen bond constraints were applied to N­H and C¼O ° ° groups: 1.7­2.4 A for the H-O distance and 2.7­3.4 A for the N-O distance. The peptide structures were calculated by simulated annealing using torsion angle dynamics with the program cns [29]. The structure calculation proceeded in two stages. In the first stage, a low-resolution structure was preliminarily determined using only NOE-derived distance restraints. In the second stage, the same protocol was applied by adding hydrogen bond restraints and dihedral angle restraints. Additional NOE constraints were added in each round of calculations, and restraints that were consistently violated were removed. Additional NOE constraints were then added and used in the final structure calculation. All subsequent numerical analyses were performed using procheckNMR [30] and molmol [31]. Structure figures were generated using molmol.
+
+Docking simulation
+Docking simulation of peptide SD to mAb 4-B8(8) / E9 Fab was performed by using GOLD 2.1 software [32­35]. The
+
+4946
+
+FEBS Journal 272 (2005) 4938­4948 ª 2005 FEBS
+
+T. Murata et al.
+
+Gibberellin mimics peptide-antibody recognition
+
+structure of the Fab was obtained from the crystal structure of the complex of the Fab and GA4 determined in our previous work (PDB ID: 1KFA) [11]. The structure of the Fab was fixed except for v angles of serine residues. The search ° area was set within 10 A of the centroid of heavy atoms of GA4 in the crystal structure. Other calculation parameters were set to the default values. To validate these calculation conditions, we first tried the docking simulation of GA4 to the Fab. Ten simulation runs were executed and we found that these calculation conditions could reproduce the conformation of GA4 in good agreement with that in the crystal structure (the average rmsd of all heavy atoms was ° 0.88 A). To consider the flexibility of peptide SD, 25 runs were executed for each of the 50 structures of peptide SD determined from 2D 1H-NMR spectroscopic data and the simulated annealing calculation above.
+
+References
+1 Monzavi-Karbassi B, Cunto-Amesty G, Luo P & Kieber-Emmons T (2002) Peptide mimotopes as surrogate antigens of carbohydrates in vaccine discovery. Trends Biotechol 20, 207­214. 2 Prinz DM, Smithson SL & Westerink MAJ (2004) Two different methods result in the selection of peptides that induce a protective antibody response to Neisseria meningitidis serogroup C. J Immunol Methods 285, 1­14. 3 Deocharan B, Qing X, Beger E & Putterman C (2002) Antigenic triggers and molecular targets for anti-doublestranded DNA antibodies. Lupus 11, 865­871. 4 Devlin JJ, Panganiban LC & Devlin PE (1990) Random peptide libraries: a source of specific protein binding molecules. Science 249, 404­406. 5 Yuan Q, Pestka JJ, Hespenheide BM, Kuhn LA, Linz JE & Hart LP (1999) Identification of mimotope peptides which bond to the mycotoxin deoxynivalenol-specific monoclonal antibody. Appl Environ Microbiol 65, 3279­3286. 6 Sekimoto H, Suzuki Y & Yamaguchi I (2004) Identification of peptidyl mimics of bioactive gibberellin recognized by an antibody. Biosci Biotechnol Biochem 68, 2408­2410. 7 Davies PJ (1995) Plant Hormones: Physiology, Biochemistry and Molecular Biology, 2nd edn. Kluwer Academic Publishers, the Netherlands. 8 Wuthrich K (1986) NMR of Proteins and Nucleic Acids. ¨ John Wiley & Sons, New York. 9 Mayer M & Meyer B (2001) Group epitope mapping by saturation transfer difference NMR to identify segments of a ligand in direct contact with a protein receptor. J Am Chem Soc 123, 6108­6117. 10 Bonneau R, Strauss C & Baker D (2001) Improving the performance of rosetta using multiple sequence alignment information and global measures of hydrophobic core formation. Proteins 43, 1­11.
+
+11 Murata T, Fushinobu S, Nakajima M, Asami O, Sassa T, Wakagi T & Yamaguchi I (2002) Crystal structure of the liganded anti-gibberellin A4 antibody 4-B8(8) / E9 Fab fragment. Biochem Biophys Res Commun 293, 489­ 496. 12 Dyson HJ, Rance M, Houghten RA, Lerner RA & Wright PE (1988) Folding of immunogenic peptide fragments of proteins in water solution. I. Sequence requirements for the formation of a reverse turn. J Mol Biol 201, 161­200. 13 Dyson HJ, Cross KJ, Houghten RA, Wilson IA, Wright PE & Lerner RA (1985) The imunodominant site of a synthetic immunogen has a conformational preference in water for a type-II reverse turn. Nature 318, 480­483. 14 Chandrashekhar K, Profy AT & Dyson HJ (1991) Solution conformational preferences of immunogenic peptides derived from the principal neutralizing determinant of the HIV-envelope glycoprotein gp120. Biochemistry 30, 9187­9194. 15 Campbell PA, McInnes C, Hodges RS & Sykes BD (1995) Comparison of NMR solution structure of the receptor binding domain of Pseudomonas aeruginosa pili strains PAO, KB7, and PAK: implications for receptor binding and synthetic vaccine design. Biochemistry 34, 16255­16268. 16 De Lorimier R, Moody MA, Haynes BF & Spicer LD (1994) NMR-derived solution conformations of a hybrid synthetic peptide containing multiple epitopes of envelope protein gp120 from the RF strain of human immunodeficiency virus. Biochemistry 33, 2055­2062. 17 Campbell PA, Wong WY, Irvin RT & Sykes BD (2000) Interaction of a bacterially expressed peptide from the receptor binding domain of Pseudomonas aeruginosa pili strain PAK with a cross-reactive antibody: conformation of the bound peptide. Biochemistry 39, 14847­ 14864. 18 Derrick JP, Maiden CJ & Feavers IM (1999) Crystal structure of an Fab fragment in complex with a meningococcal serosubtype antigen and a protein G domain. J Mol Biol 293, 81­91. 19 Ghiara JB, Stura EA, Stanfield RL, Profy AT & Wilson IA (1994) Crystal structure of the principal neutralization site of HIV-1. Science 264, 82­85. 20 Johnson MA, Jaseja M, Zou W, Jennings HJ, Copie V, Pinto BM & Pincus SH (2003) NMR studies of carbohydrates and carbohydrate-mimetic peptides recognized by an anti-group B Streptococcus antibody. J Biol Chem 278, 24740­24752. 21 Piotto M, Saudek V & Sklenar V (1992) Gradient-tailored excitation for single-quantum NMR spectroscopy of aqueous solutions. J Biomol NMR 2, 661­665. 22 Sklenar V, Piotto M, Leppik R & Saudek V (1993) Gradient-tailored water suppression for 1H-15N HSQC experiments optimized to retain full sensitivity. J Magn Reson 102, 241­245.
+
+FEBS Journal 272 (2005) 4938­4948 ª 2005 FEBS
+
+4947
+
+Gibberellin mimics peptide-antibody recognition
+
+T. Murata et al.
+
+23 Marion D & Wuthrich K (1983) Application of phase ¨ sensitive two-dimensional correlated spectroscopy (COSY) for measurements of 1H-1H spin-spin coupling constants in proteins. Biochem Biophys Res Commun 113, 967­974. 24 Marion D, Ikura M, Tschundin R & Bax A (1989) Rapid recording of 2D NMR spectra without phase cycling. Application to the study of hydrogen exchange in proteins. J Magn Reson 85, 393­399. 25 Wuthrich K, Billetter M & Braun W (1983) Pseudo¨ structures for the 20 common amino acids for use in studies of protein conformations by measurements of intramolecular proton-proton distance constraints with nuclear magnetic resonance. J Mol Biol 169, 949­961. 26 Clore GM, Gronenborn AM, Nilges M & Ryan CA (1987) Three-dimensional structure of potato carboxypeptidase inhibitor in solution. A study using nuclear magnetic resonance, distance geometry, and restrained molecular dynamics. Biochemistry 26, 8012­8013. 27 Clubb RT, Ferguson SB, Walsh CT & Wagner G (1994) Three-dimensional solution structure of Escherichia coli periplasmic cyclophilin. Biochemistry 33, 2761­2772. 28 Wagner G, Braun W, Havel TF, Schaumman T, Go N & Wuthrich K (1987) Protein structures in solution by ¨ nuclear magnetic resonance and distance geometry. The polypeptide fold of the basic pancreatic trypsin inhibitor determined using two different algorithms, DISGEO and DISMAN. J Mol Biol 196, 611­639. 29 Brunger AT, Adams PD, Clore GM, DeLano WL, ¨ Gros P, Grosse-Kunstleve RW, Jiang J-S, Kuszewski
+
+30
+
+31
+
+32
+
+33
+
+34
+
+35
+
+36
+
+J, Nilges M, Pannu NS, Read RJ, Rice LM, Simonson T & Warren GL (1998) Crystallography & NMR system: a new software suite for macromolecular structure determination. Acta Crystallogr, Sect D 54, 905­921. Laskowski RA, Rullmann JAC, MacArthur MW, Kaptein R & Thornton JM (1996) AQUA and PROCHECK-NMR: Programs for checking the quality of protein structures solved by NMR. J Biomol NMR 8, 477­486. Koradi R, Billeter M & Wuthrich K (1996) MOLMOL: ¨ a program for display and analysis of macromolecular structures. J Mol Graph 14, 51­55. Jones G, Willett P & Glen RC (1995) Molecular recognition of receptor sites using a genetic algorithm with a description of desolvation. J Mol Biol 245, 43­53. Jones G, Willett P, Glen RC, Leach AR & Tayloe R (1997) Development and validation of a genetic algorithm for flexible docking. J Mol Biol 267, 727­748. Nissink JWM, Murray CW, Hartshorn MJ, Verdonk ML, Cole JC & Taylor RD (2002) A new test set for validating predictions of protein­ligand interaction. Proteins 49, 457­471. Verdonk ML, Cole JC, Hartshorn MJ, Murray CW & Taylor RD (2003) Improved protein-ligand docking using GOLD. Proteins 52, 609­623. Wallace AC, Laskowski RA & Thoronton JM (1995) LIGPLOT: a program to generate schematic diagrams of protein­ligand interactions. Protein Eng 8, 127­134.
+
+4948
+
+FEBS Journal 272 (2005) 4938­4948 ª 2005 FEBS
+
+

@@ -1,0 +1,203 @@
+Published on Web 06/15/2005
+
+Crystallographic and Spectroscopic Evidence for High Affinity Binding of FeEDTA(H2O)- to the Periplasmic Nickel Transporter NikA
+Mickael V. Cherrier,§ Lydie Martin,§ Christine Cavazza,§ Lilian Jacquamet,§ ¨ David Lemaire,# Jacques Gaillard,+ and Juan C. Fontecilla-Camps*,§
+Contribution from the Laboratoire de Cristallographie et de Cristallogenese des Proteines and ` ´ Laboratoire de Spectroscopie de Masse des Proteines, Institut de Biologie Structurale J.P. Ebel ´ (CEA-CNRS-UJF), 41 rue Jules Horowitz, 38027 Grenoble Cedex 1, France, and SerVice de Chimie Inorganique et Biologique, Departement de Recherche Fondamentale sur la Matire Condense, CEA Grenoble - 17, Rue des Martyrs 38054 Grenoble, Cedex 1, France
+Received March 23, 2005; E-mail: juan.fontecilla@ibs.fr
+
+Abstract: Because nickel is both essential and toxic to a great variety of organisms, its detection and transport is highly regulated. In Escherichia coli and other related Gram-negative bacteria, high affinity nickel transport depends on proteins expressed by the nik operon. A central actor of this process is the periplasmic NikA transport protein. A previous structural report has proposed that nickel binds to NikA as a pentahydrate species. However, both stereochemical considerations and X-ray absorption spectroscopic results are incompatible with that interpretation. Here, we report the 1.8 Å resolution structure of NikA and show that it binds FeEDTA(H2O)- with very high affinity. In addition, we provide crystallographic evidence that a metal-EDTA complex was also bound to the previously reported NikA structure. Our observations strongly suggest that nickel transport in E. coli requires the binding of this metal ion to a metallophore that bears significant resemblance to EDTA. They also provide a basis for the potential use of NikA in the bioremediation of toxic transition metals and the design of artificial metalloenzymes.
+
+Introduction
+
+Although nickel is a rare element, generally present at only nanomolar concentrations in the environment,1 it is essential for a variety of microbial enzymes, such as NiFe hydrogenases, ureases, acetyl coenzyme A synthases, and one class of carbon monooxide dehydrogenases.2 In the well-studied Gram-negative bacterium Escherichia coli and other related organisms, high affinity Ni transport is controlled by the five-gene nikABCDE operon. The encoded Nik proteins, which are only expressed under anaerobic conditions,3,4 are similar to those of other ABCtype transporters involved in nutrient and signaling peptides import processes.5,6 They correspond to the two pore-forming integral inner membrane proteins NikB and NikC, the two inner membrane-associated proteins with ATPase activity NikD and NikE, and the periplasmic Ni-binding protein NikA. The expression of the Nik proteins is under the direct control of
+§ #
+
+Laboratoire de Cristallographie et de Cristallogenese des Proteines. ` ´ Laboratoire de Spectroscopie de Masse des Proteines. ´ + Departement de Recherche Fondamentale sur la Matire Condense.
+(1) Chen, Y. Y.; Burne, R. A. J. Bacteriol. 2003, 185, 6773-6779. (2) The Bioinorganic Chemistry of Nickel. Lancaster, J. R., Ed.; Wiley: New York, 1988; p 337. (3) De Pina, K.; Navarro, C.; McWalter, L.; Boxer, D. H.; Price, N. C.; Kelly, S. M.; Mandrand-Berthelot, M. A.; Wu, L. F. Eur. J. Biochem. 1995, 227, 857-865. (4) Yohannes, E.; Barnhart, D. M.; Slonczewski, J. L. J. Bacteriol. 2004, 186, 192-199. (5) Wu, L. F.; Mandrand-Berthelot, M. A. Biochimie 1995, 77, 744-750. (6) Navarro, C.; Wu, L. F.; Mandrand-Berthelot, M. A. Mol. Microbiol. 1993, 9, 1181-1191.
+10.1021/ja0518530 CCC: $30.25 © 2005 American Chemical Society
+
+NikR, a DNA-binding nickel sensor that is indirectly controlled by the fumarate-nitrate regulator FNR.7 In addition to being central to the synthesis of NiFe hydrogenases,8 the NikA transporter is involved in Tardependent negative chemotaxis.9 NikA is a 56 kDa protein of known structure10 that binds a single Ni(II) ion with a Kd value that has been reported to be either 0.1 or 10 µM.3,10,11 Heddle et al. have described the metal-binding site of NikA as being a pocket rich in aromatic and arginine residues that lodges a Ni(H2O)52+ species.10 However, the average Ni-Ow bond distance in the proposed nickel pentahydrate is about 2.7 Å, far from the value of about 2.0-2.2 Å normally expected for transitionmetal hydrates, and the coordination is not the expected octahedral one. In addition, there is only one proposed polar interaction between the protein and the hydrated nickel, which seems incompatible with the expected selectivity of NikA for this ion. This model also disagrees with an X-ray absorption spectroscopic study that indicated extensive O, N coordination to the Ni ion at 2.06 Å.12 These observations prompted us to resume the crystallographic analysis of NikA.9 Here, we report
+(7) De Pina, K.; Desjardin, V.; Mandrand-Berthelot, M. A.; Giordano, G.; Wu, L. F. J. Bacteriol. 1999, 18, 670-674. (8) Eitinger, T.; Mandrand-Berthelot, M. A. Arch. Microbiol. 2000, 173, 1-9. (9) Charon, M. H.; Wu, L. F.; Piras, C.; De Pina, K.; Mandrand-Berthelot, M. A.; Fontecilla-Camps, J. C. J. Mol. Biol. 1994, 243, 353-355. (10) Heddle, J.; Scott, D. J.; Unzai, S.; Park, S. Y.; Tame, J. R. J. Biol. Chem. 2003, 278, 50322-50329. (11) Salins, L. L.; Goldsmith, E. S.; Ensor, C. M.; Daunert, S. Anal. Bioanal. Chem. 2002, 372, 174-180. J. AM. CHEM. SOC. 2005, 127, 10075-10082
+9
+
+10075
+
+ARTICLES
+Table 1. Data Collection and Refinement Statistics
+2.2 Å resolution set 1.8 Å resolution set
+
+Cherrier et al.
+
+wavelength (Å) space group unit cell (Å) resolution range (Å) Rmergea (%) Rmeasuredb (%) I/ completeness (%) redundancy Nmeasured Nunique R factor/Rfree factor (%) No. protein atoms No. water molecules average B-factor (Å2) bonds (Å) angles (°) residues in most favorable region (%) residues in additional allowed region (%) residues in generously allowed region (%) residues in disallowed region (%)
+
+0.9998 P212121 a ) 86.59; b ) 94.05; c ) 124.06 30.0-2.2 (2.3-2.2) 7.6 (28.4)c 8.5 (33.5) 14.69 (5.84) 97.4 (89.2) 4.7 (3.5) 239144 (19987) 50791 (5729) 17.1/24.1 7987 447 27.6 rmsd 0.022 1.986 Ramachandran plot 91.0 8.7 0.3 0.0
+nh nh
+
+0.9756 P212121 a ) 86.83; b ) 93.87; c ) 124.49 40.0-1.8 (1.9-1.8) 5.0 (30.4) 5.9 (36.3) 17.96 (5.19) 97.6 (94.9) 3.3 (3.3) 302914 (43603) 92472 (13305) 16.3/21.8 8172 860 20.6 0.013 1.457 92.3 7.4 0.3 0.0
+nh
+
+a
+
+Rsym ) Rmerge )
+
+ |I^
+h
+
+h
+
+- Ih,i|/
+
+I
+h i
+
+nh
+
+h,i.
+
+b
+
+Rmeas )
+
+
+h
+
+nh nh - 1
+
+
+i
+
+|Ih - Ih,i|/ ^
+
+
+h i
+
+Ih,i
+
+with
+
+^h ) I
+
+1 nh
+
+I
+i
+
+h,i.
+
+c
+
+Data in parentheses correspond to the highest resolution shell.
+saturation ammonium sulfate. The resulting soluble fraction was dialyzed against 40 mM Tris-HCl pH 7.5 (buffer A) and applied to a Q sepharose fast flow column (PHARMACIA) equilibrated with the same buffer. A gradient of 0-1 M NaCl was applied to the column. The NikA fraction that eluted at 150 mM NaCl was dialyzed against buffer A and subsequently applied to a resource Q column (PHARMACIA) equilibrated with the same buffer. Again, a 0-1 M NaCl gradient was applied, and the NikA protein was eluted at 100 mM NaCl. A total of 78 mg of pure NikA per 100 g of cells was obtained by this procedure. The protein was concentrated to 12 mg/mL in buffer A. No nickel was added at any of the stages of the purification procedure. Crystallization. De novo crystallization of NikA using the conditions described in Charon et al.9 was unsuccessful with the protein preparation described in the previous section. Consequently, we resorted to a small amount of NikA left from an old sample purified by the chloroformshock procedure14 and subsequently supplied with EDTA (L. F. Wu, personal communication) that we had crystallized in the past. Hanging drops prepared as previously described9 yielded orthorhombic plates with dimensions of 0.2 × 0.1 × 0.05 mm3 after a week. Identical conditions were then used with the new NikA sample prepared as described in the preceding section. One day after being set up, the drops were seeded with a dog whisker that had touched one of the crystals obtained with the old NikA sample. Reproducible crystals appeared after a week. The best crystals were obtained when the drops were prepared by mixing 2 µL of a 21 mg/mL protein solution in 40 mM Tris pH 7.5, with 2 µL of the 1.5 M ammonium sulfate, 100 mM sodium acetate pH 4.7 reservoir solution. Identical crystals were obtained upon initial addition of 200 µM NiCl2 to the crystallization solution. Data Collection and Structure Solution. Native X-ray diffraction data sets were collected to 2.2 and 1.8 Å resolution in the usual way, at the ID14-EH4 and ID29 beam lines of the European Synchrotron
+(14) Ferro-Luzzi Ames, G.; Prody, C.; Kustu, S. J. Bacteriol. 1984, 160, 11811183.
+
+the 1.8 Å resolution structure of NikA and provide crystallographic, EPR spectroscopic, and mass spectrometric evidence that, unexpectedly, aerobically overexpressed, recombinant NikA binds Fe(III)EDTA(H2O)- with high affinity when purified in the presence of the metal chelator. Furthermore, electron density maps calculated with X-ray data from Heddle et al. show that their metal-binding site is almost identical to ours, strongly suggesting that their crystals also contain a NikA-metalEDTA(H2O)- complex. The surprisingly high affinity binding of the aminocarboxylate chelator EDTA to the putative Nibinding site of NikA suggests that a chemically similar natural metallophore is involved in periplasmic Ni transport. In addition, the very tight binding of NikA to the metal-EDTA complex may find applications in environmental bioremediation and in the design of artificial metalloenzymes.
+Experimental Methods
+NikA Expression and Purification. NikA was purified from 5l of BL21(DE3) E. coli culture grown in Luria broth medium at 37 °C. The strain carried pET22B (NOVAGEN) with the nikA gene sequence inserted into the polylinker cloning site (a kind gift from Long-Fei Wu). Production of NikA was induced by adding 1 mM IPTG when the culture reached 0.8 OD600 units. After 3 h incubation at 37 °C, cells were harvested by centrifugation and resuspended in 50 mM EDTA and 50 mM Tris-HCl pH 9.0 containing a protease inhibitor cocktail (ROCHE).13 The periplasmic NikA was extracted by stirring the cells for 30 min at 37 °C. The cell debris was spun down at 15 000 rpm for 45 min at 4 °C, and the supernatant solution was adjusted to 40%
+(12) Allan, C. B.; Wu, L. F.; Gu, Z.; Choudhury, S. B.; Al-Mjeni, F.; Sharma, M. L.; Mandrand-Berthelot, M. A.; Maroney, M. J. Inorg. Chem. 1998, 37, 5952-5955. (13) Van der Westen, H. M.; Mayhew, S. G.; Veeger, C. FEBS Lett. 1978, 86, 122-126. 10076 J. AM. CHEM. SOC.
+9
+
+VOL. 127, NO. 28, 2005
+
+High Affinity Binding of FeEDTA(H2O)- to NikA
+
+ARTICLES
+
+Figure 1. X-ray fluorescence spectrum measured on a single NikA crystal at beam line BM30A of the ESRF. Note the absence of nickel and the presence of iron and zinc. See also Figure 4.
+
+Radiation Facility (ESRF), respectively. To identify the nature of the metal bound to NikA (see Results and Discussion), four additional sets were subsequently collected at the ESRF French BM30A beam line from a single crystal at the following wavelengths: 1.2830 Å (maximum f  for zinc), 1.4839 Å (maximum f  for nickel), 1.7432 Å (maximum f  for iron), and 1.7438 Å (Supporting Information table). The structure was initially solved by molecular replacement with AMoRe15 using the 2.2 Å resolution data set and the atomic coordinates deposited by Heddle et al.10 (PDB code 1uiv). A well-contrasted solution was observed that included two NikA molecules in the asymmetric unit (not shown). Refinement. The two NikA molecules in the asymmetric units were refined with REFMAC16 and programs from the CCP4 suit17 without applying noncrystallographic symmetry restrains. The model was periodically examined and corrected using computer graphics and the program TURBO-FRODO.18 Solvent was progressively added using ARP/WARP.19 The final stages of refinement were carried out with the 1.8 Å resolution data set using anisotropic individual temperature factors (Table 1). For the data collected at BM30A, the NikA model was refined with the set corresponding to  ) 1.2830 Å. This model was subsequently used to phase the remaining three data sets without further refinement (Supporting Information table). X-ray Fluorescence Measurements. X-ray fluorescence was monitored with a solid-state Rontec XFlash detector operating at the BM30A ¨ beam line (Figure 1). The detector was placed 90° from the incident X-ray beam to minimize scattering. The device server to run the detector on ESRF beam lines and the Graphical User Interface to monitor the X-ray fluorescence have been developed by A. Beteva (ESRF) and J. Joly (BM30A), respectively.
+(15) Navaza, J. Acta Crystallogr. 1994, A50, 157-163. (16) Murshudov, G. N.; Vagin, A. A.; Lebedev, A.; Wilson, K. S.; Dodson, E. J. Acta Crystallogr. 1999, D55, 247-255. (17) The CCP4 Suite: Programs for Protein Crystallography. Acta Crystallogr. 1994, D50, 760-763. (18) Roussel, A.; Cambillaud, C. Silicon Graphics; Mountain View, CA, 1989, 77. (19) Lamzin, V. S.; Wilson, K. S. Acta Crystallogr. 1993, D49, 129-147.
+
+Figure 2. 4K X-band EPR spectra of NikA before (A) and after (B) treatement by EDTA (see text). In spectrum (B), the relative intensity of the signal at g  4.3 decreases when compared to signals at g values of 4.8, 4.05, and 3.72. Experimental conditions were: frequency modulation, 100 kHz; amplitude modulation, 1 mT; microwave power, 0.25 mW. The amplifier gain was multiplied by 8.0 to record spectrum B in order to take into account the difference in protein concentrations.
+
+Protein and Iron Concentration Determination. NikA concentration was determined by O.D. measurements at 280 nm with an ) 72.83 mM-1 cm-1.3 The iron concentration in NikA was measured colorimetrically by the Fish method using bathophenanthroline disulfonate after having denatured the protein with perchloric acid.21 Electron Paramagnetic Resonance (EPR) Spectroscopy. EPR spectra were recorded on a Bruker EMX spectrometer equipped with a Hewlett-Packard 5350B microwave frequency counter. A constant temperature was kept inside a helium cryostat with an ITC 503 controller (Oxford Instruments). Spectra were obtained for both an untreated 200 µM NikA solution and a 36 µM NikA solution previously incubated for 1 h in 10 mM EDTA, 40 mM Tris pH 7.5 and then dialyzed against the same buffer without EDTA (Figure 2). Mass Spectrometry. Noncovalent mass spectrometry measurements were performed using a Q-TOF Micromass spectrometer (Micromass,
+(20) Diederichs, K.; Karplus, P. A. Nat. Struct. Biol. 1997, 4, 269-275. (21) Fish, W. W. Methods Enzymol. 1988, 158, 357-364. J. AM. CHEM. SOC.
+9
+
+VOL. 127, NO. 28, 2005 10077
+
+ARTICLES
+
+Cherrier et al.
+
+Figure 3. Noncovalent mass spectrum of as-prepared NikA. Peak A corresponds to the metal-free protein, whereas peak B matches the mass of a dehydrated FeEDTA-NikA complex within experimental error. Peak C corresponds to NikA plus 719 g/mol (see text and mass spectrometry section).
+
+Manchester, U.K.) equipped with an electrospray ion source. It operated with a needle voltage of 2.7 kV and sample cone and extraction cone voltages of 90 and 5 V, respectively. Backing Pirani pressure was set at 6.48 mbar. The mass spectra were recorded in the 2700-4700 massto-charge range. The sample at a concentration of 25 µM in 20 mM ammonium acetate was continuously infused at a flow rate of 7 µL/ min. Data were acquired in the positive mode, and calibration was performed using a solution of 0.5 mg/mL of CsI in water/isopropyl alcohol (1/1 v/v). Mass spectra were acquired and data were processed with MassLynx 4.0 from Micromass (Figure 3).
+
+Results and Discussion
+
+Crystal Structure of NikA. Our refined 1.8 Å resolution structure is very similar to the metal-containing NikA structure reported by Heddle et al.10 with an average r.m.s. deviation of 0.58 Å for all CR's between the two superimposed models. Small differences are confined to surface loops, where the packing influences the polypeptide conformation. As explained below, the close similarities between the two structures include the metal-binding site. NikA Binds Iron. The highest feature in the Fo-Fc electron density map of the refined NikA, at 15, corresponds to a metal ion placed at the site where Heddle et al. modeled a Ni(H2O)52+. Surprisingly, X-ray fluorescence spectra indicated the absence of nickel and the presence of iron and zinc in our NikA crystals or in the surrounding solution (Figure 1). Nearly stoichiometric amounts of iron were found by a colorimetric assay using bathophenanthroline.21 Binding of iron at the reported NikA nickel-binding site10 was unambiguously determined using X-ray anomalous scattering effects (Figure 4). No zinc sites were detectable using this technique, probably because this ion binds many sites with low occupancy and affinity. The electron density surrounding the iron ion in the omit map is complex and cannot correspond to a simple hydration sphere (Figure 5a). Consequently, we attempted the interpretation of
+10078 J. AM. CHEM. SOC.
+9
+
+Figure 4. Double anomalous difference () electron density map calculated using anom()1.7432Å) - anom()1.7438Å) coefficients. The  values correspond to the high and low energy sides of the iron absorption edge, respectively (Supporting Information table). The positive peak (green) corresponding to iron is contoured at the 3.2 level; the very minor negative peaks (red) are contoured at -3. Equivalent  maps calculated with data collected at either side of the nickel and zinc absorption edges were featureless (not shown). This figure, along with Figures 5 and 7, was prepared with Pymol.22
+
+the electron density by a gradual approach. Our modeling of the iron coordination sphere started by introducing three acetates and two water molecules. Subsequently, and based on this partial model, we replaced two of the acetates by glycinates. Fo-Fc maps calculated including this model with both water molecules removed indicated that the iron ion was hepta-coordinated by a single complex ligand and one water molecule (not shown).
+
+VOL. 127, NO. 28, 2005
+
+High Affinity Binding of FeEDTA(H2O)- to NikA
+
+ARTICLES
+
+Figure 5. Stereopairs corresponding to electron density maps calculated around the iron ion. (A) Fo-Fc ("omit") electron density map contoured at 3, calculated with refined phases and structure factors with FeEDTA(H2O)- omitted from the model. Ten cycles of crystallographic refinement using REFMAC17 were run prior to the calculations in order to remove bias that could have been introduced by previous modeling of portions of the FeEDTA(H2O)-; (B) final 2Fo-Fc electron density map contoured at the 1 level. Atoms are colored as usual; the central feature is the iron ion.
+
+High Affinity Binding of FeEDTA(H2O)- to NikA. The partial glycinate-containing model suggested to us that the metal coordination sphere corresponded to a truncated pentagonal bipyramid. By inspecting the relevant literature, we found out that Fe(III) forms hepta-coordinated pentagonal bipyramidal complexes with EDTA and its derivatives due to incomplete encapsulation of the iron center. The latter prevents optimal octahedral geometry and allows the binding of a water molecule as a seventh, more labile, ligand.23 Both the omit map calculated with refined parameters and a 2Fo-Fc map of NikA including FeEDTA(H2O)- showed that this model was correct (Figure 5). We confirmed this by superimposing our FeEDTA(H2O)structure to the relevant portions of the (o-phenylenediamineN,N,N,N-tetraacetato)ferrate(III) complex (Cambridge Structural Database entry SOCFAR) reported by Mizuno et al.24 After inversion of their structure, due to opposite chirality, and superposition of the two models, the calculated r.m.s. deviation is 0.27 Å, indicating that FeEDTA(H2O)- binds NikA without any significant conformational changes relative to its unbound counterpart. We have obtained further evidence for the binding of FeEDTA to NikA from mass spectrometry. Three significant peaks are present in the mass spectrum (Figure 3). Peak A corresponds to metal-free NikA with a mass of 56 301.4 ( 6.8 g/mol; peak B corresponds to a mass of 56 641.3 ( 5.6 g/mol,
+(22) DeLano, W. L. http://www.pymol.org, 2002. (23) Schneppensieper, T.; Seibig, S.; Zahl, A.; Tregloan, P.; van Eldick, R. Inorg. Chem. 2000, 40, 3670-3676. (24) Mizuno, M.; Funahashi, S.; Nakasuka, N.; Tanaka, M. Inorg. Chem. 1991, 30, 1550-1553.
+
+and peak C represents a mass of 57 020.0 ( 8.8 g/mol. The difference between peaks A and B is 340.9 g/mol, a value that within experimental error corresponds to dehydrated FeEDTA, with a calculated mass of approximately 346 g/mol. Loss of the labile water molecule23 was to be expected under these experimental conditions. The possible nature of peak C will be discussed below. The EDTA-protein interactions are summarized in Figure 6. There are three bonds between Arg137 and Arg97 and two of the carboxylates of the chelator. In addition, there is an unshielded cation- interaction between the iron ion and Trp398, with an indol-to-metal distance of 5.5 Å and a 0 angle of 16°.26 Three water-mediated interactions complete the binding of the chelator to NikA (Figures 6 and 7). Origin of the FeEDTA(H2O)-. The initial hexagonal crystals we reported several years ago9 were obtained from a NikA sample where the periplasmic extraction was performed using chloroform14 in the absence of EDTA.3 When we added this chelator to that NikA solution, we obtained orthorhombic crystals (unpublished results) identical to those reported here that were obtained using a sample extracted from the periplasm with EDTA.13 These observations strongly suggest that the orthorhombic crystals are only obtained when a metal-EDTA(H2O)- complex is bound to NikA. The Fe-ligand complex
+(25) Wallace, A. C.; Laskowski, R. A.; Thornton, J. M. Protein Eng. 1995, 8, 127-134. (26) Zaric, S. D.; Popovic, D. M.; Knapp, E. W. Chem.sEur. J. 2000, 21, 39353942. J. AM. CHEM. SOC.
+9
+
+VOL. 127, NO. 28, 2005 10079
+
+ARTICLES
+
+Cherrier et al.
+
+Figure 6. LIGPLOT25 depicting the EDTA-NikA interactions (Å). The iron ion, which does not directly interact with NikA, has been omitted for clarity. See also Figure 7 and Supporting Figure 1.
+
+reported here must be very tightly bound, as it did not dissociate from NikA during the purification and crystallization procedures or upon treatment of the crystals with the natural siderophore ferrichrome (not shown). In addition, since iron was not added at any stage, the FeEDTA(H2O)- complex, that is, the predominant form in solution,27 must have formed from iron that was naturally present in the medium. The EPR results indicate that most of the iron is found as specifically bound Fe(III) that gives rise to the signal with g values of 4.8, 4.05, and 2.72 (Figure 2). This signal is specific of the NikA-bound Fe-EDTA complex as it is absent from the free metal-ligand complex (not shown). The presence of Fe(III) was to be expected because the purification was performed aerobically, and the formation constant for Fe(III)EDTA is about 1025 whereas those for Fe(II)EDTA and Ni(II)EDTA are approximately 1014 and 1018, respectively.28 Treatment of the NikA sample with EDTA removed most of the g ) 4.3 Fe(III) EPR signal, whereas the specific signal showed a relative increase (Figure 2). It is worth mentioning here that the EXAFS results of Allan et al. suggested a pentagonal bipyramidal coordination of nickel
+(27) Lind, M. D.; Hamor, M. J.; Hamor, T. A.; Hoard, J. L. Inorg. Chem. 1964, 3, 34-43. (28) http://www.chm.bris.ac.uk/motm/edta/edtah.htm. 10080 J. AM. CHEM. SOC.
+9
+
+by NikA12 and that the sample was purified in the presence of EDTA (M. A. Mandrand-Berthelot, personal communication). Ni(H2O)52+ versus FeEDTA(H2O)-. The nickel pentahydrate model proposed by Heddle et al.10 is compatible neither with stereochemical considerations nor with our crystallographic results. Consequently, in order to compare their structure to ours, we have calculated refined omit and 2Fo-Fc maps using atomic coordinates and structure factors deposited by these authors (PDB codes 1uiv and r1uivsf). We find that the omit map corresponding to their metal-binding site is almost identical to ours, and that FeEDTA(H2O)- refines with their X-ray data as well as with ours (Supporting Figure 2). It is not possible from the deposited X-ray data to determine the identity of their metal ion. We believe that it should be a ferric iron because, like us, they used EDTA during the purification of NikA10 and this ligand has a much higher affinity for Fe(III) than for Ni(II).28 We have also checked crystals that were grown in the presence of 200 µM NiCl2 and found that only iron was bound to NikA (not shown). This means that once the FeEDTA(H2O)- complex attaches to the protein, it will not be displaced by free nickel. Unfortunately, Heddle et al. did not check the nature of their metal ion by collecting anomalous scattering X-ray data and calculating electron density maps, such as the one shown in Figure 4, so at this point, its identity remains uncertain. Besides the crystallographic and stereochemical arguments supporting a metal-EDTA complex in the structure of Heddle et al., there is also the issue of the metal-binding mode by NikA. In the nickel-pentahydrate model, there is only one nickelbound water-Arg137 interaction at d ) 3.1 Å,10 instead of the three direct arginine-carboxylate and three water-mediated bonds observed in the FeEDTA model (Figures 6 and 7). The latter model also explains an observation that puzzled Heddle et al. (see legend to Figure 6 in ref 10): one of the major differences in going from the metal-free to the metal-bound NikA is the change in orientation of Arg97. The side chain of this residue rotates from a solvent-exposed position in the former to approach the metal ion in the latter. In the nickelpentahydrate model, this is difficult to explain because a positively charged arginine side chain would point at a positively charged metal ion. In the metal-EDTA model, there is a nice interaction between Arg97 and one of the carboxylates from the ligand (Figures 6 and 7). Physiological Binding of Nickel to NikA. The implausibility of NikA binding a nickel hydrate and the very tight binding of FeEDTA(H2O)- to the protein strongly suggest that nickel transport by NikA involves a metallophore that displays significant structural similarities to EDTA. Metallophores have been extensively studied in the case of iron transport.29 Under low iron conditions, microorganisms and fungi secrete lowmolecular weight, ferric-specific chelating agents, called siderophores.30 They are needed because, at physiological pH values, the free Fe(III) concentration is 10-18 M, much below the minimal effective iron concentration required by microorganisms that is about 10-8 M.31 Siderophores can be divided into several groups depending on their chemical nature; the most
+(29) Raymond, K. N.; Dertz, E. A.; Kim, S. S. Proc. Natl. Acad. Sci. U.S.A. 2003, 100, 3584-3588. (30) Neilands, J. B. J. Biol. Chem. 1995, 270, 26723-26726. (31) Braun, V.; Hantke, K. In Transition Metals in Microbial Metabolism; Winkelmann, G., Carrano, C. J., Eds.; Harwood: Amsterdam, 1997; pp 81-101.
+
+VOL. 127, NO. 28, 2005
+
+High Affinity Binding of FeEDTA(H2O)- to NikA
+
+ARTICLES
+
+Figure 7. Stereopair drawing depicting the FeEDTA(H2O)--NikA complex. See also Figure 6. Fe-EDTA distances are shown in Supporting Figure 1.
+
+common ones belong to the catecholate, hydroxypyridonate, and hydroxamate groups, but aminocarboxylates have also been described.32 The best-studied siderophore is enterobactin.29 In E. coli and other Gram-negative bacteria, ferric-siderophore uptake is both receptor- and energy-dependent. After being actively translocated across the outer membrane, the ferric complex binds to its cognate periplasmic transporter protein, with a Kd lower than 0.1 nM in the case of ferric-enterobactin,33 and it is actively moved across the cytoplasmic membrane by an ATP-dependent transporter system. The low Kd value reflects the fact that periplasmic iron levels are in the submicromolar range, and a high affinity carrier is needed for its effective transport and to prevent release of the metal ion.34 The analogy of this system to the nik-dependent nickel transport machinery is significant, including a periplasmic carrier and cytoplasmic membrane-bound ATP transporters.5 Like iron, nickel is present at low concentrations in the environment (10-9 M) 1. In vitro Kd measurements for the Ni-NikA complex have given values of either 0.1 3 or 10 µM.10,11 These experiments are likely to be very difficult to reinterpret because of the results reported here. The 100-fold difference between the Kd values mentioned above may be related to the periplasmic extraction method. De Pina et al. used EDTA-free, nickel-free protein, whereas Heddle et al. probably had a significant amount of the NikA-metalEDTA complex. The latter authors reported a small enthalpy of binding and undetectable intrinsic fluorescence related to nickel binding.10 Alternatively, De Pina et al. observed weak fluorescence effects that were interpreted as resulting from a small nickel-induced conformational change that alters the environment of one or more tryptophan side chains.3 However, the conformational change is rather significant as it involves a 15° rotation of one of the lobes of NikA relative to the other.10 A calculation using NACCESS35 shows that the change from open to FeEDTA-containing NikA reduces the solvent-exposed surface of Trp100 and Trp398 from about 40 to 2.0%, and 36 to 8%, respectively. (Even when an empty binding site is used for the calculation for the closed form, Trp100 is about 30% more buried than in the metal-free NikA structure.) These changes in the environment of Trp100 and Trp398 should have
+(32) Stintzi, A.; Barnes, C.; Xu, J.; Raymond, K. N. Proc. Natl. Acad. Sci. U.S.A. 2000, 97, 10691-10696. (33) Newton, S. M.; Igo, J. D.; Scott, D. C.; Klebba, P. E. Mol. Microbiol. 1999, 32, 1153-1165. (34) Sprencel, C.; Cao, Z.; QI, Z.; Scott, D. C.; Montague, M. A.; Ivanoff, N.; Xu, J.; Raymond, K. M.; Newton, S. M.; Klebba, P. E. J. Bacteriol. 2000, 182, 5359-5364. (35) http://wolf.bms.umist.ac.uk/naccess/.
+
+generated a significant shift in the emission maximum. The absence of such shift probably reflects the nonphysiological conditions of these experiments due to either the presence of a NikA-metal-EDTA complex or the absence of an endogenous ligand. Perhaps for the same reason, the reported NikA-nickel Kd values are significantly higher than those found for many ferric-siderophore complexes and have indicated weak binding of nickel to the transporter. However, physiological binding of nickel to NikA could be much tighter if the metal ion is incorporated as a nickel-metallophore complex. Aerobically purified and overexpressed NikA samples are unlikely to contain any significant amounts of a hypothetical endogenous nickelophore. Nevertheless, it cannot be ruled out that small amounts of this ligand, co-purified with NikA, could have caused some of the effects observed in previous nickelbinding studies. For example, our mass spectrometric spectrum contains a minor peak that could correspond to NikA bound to a species with a mass of approximately 719 g/mol (Figure 3).
+Conclusions and Perspectives
+
+Maybe the main conclusion from this work is that NikA has not evolved to bind directly to metal ions. On the contrary, our results show that NikA binds FeEDTA(H2O)- very tightly as it cannot be dissociated by either competition with nickel ions or ferrichrome, or by dilution. By extension, NikA should be able to bind nickel, provided it forms a complex with a metallophore. (One of the referees has suggested that a small metallophore could serve as an amplifier of the subtle differences among metal ions and in our case favor nickel binding to NikA.) As discussed above, previous nickel-binding studies using EDTA or metal-free protein are likely to be flawed. To avoid this problem, we intend to grow E. coli anaerobically, without overexpressing NikA, and without using EDTA. We expect that the nickel transporter sample obtained from these bacteria will be in the biologically relevant form. If there is, indeed, a metallophore specific for nickel, we will try to determine its structure. We will also check the binding of nickel to apo NikA in the absence of chelator. The surprisingly tight binding of FeEDTA to NikA opens the possibility of using this protein for the bioremediation of toxic transition metals and the synthesis of complexes with enzymatic activity, such as peroxidase.36 To better characterize the binding of metal ions to NikA, we are in the process of
+(36) Brausam, A.; Van Eldick, R. Inorg. Chem. 2004, 43, 5351-5359. J. AM. CHEM. SOC.
+9
+
+VOL. 127, NO. 28, 2005 10081
+
+ARTICLES
+
+Cherrier et al.
+
+preparing the metal-free protein using the chloroform-shock procedure14 and will determine the Kd values for the binding of different metal-EDTA complexes. Coordinates and structure factors have been deposited with PDB codes 1zlq and r1zlqsf.
+Acknowledgment. We thank the local contact staff of the ID14-EH4, ID-29, and BM-30A beam lines of the ESRF for help with X-ray data collection, and Dr. LongFei Wu for providing the genetic material used in this work. We also thank Prof. Marc Fontcave and Dr. Stephan Menage for pointing out
+
+that NikA-EDTA-metal complexes could be used as artificial metalloenzymes.
+Supporting Information Available: One table with additional crystallographic statistics, a LIGPLOT depicting EDTA-Fe bond distances, a figure showing omit, and 2Fo-Fc electron density maps using data from Heddle et al.10 This material is available free of charge via the Internet at http://pubs.acs.org.
+JA0518530
+
+10082 J. AM. CHEM. SOC.
+
+9
+
+VOL. 127, NO. 28, 2005
+
+

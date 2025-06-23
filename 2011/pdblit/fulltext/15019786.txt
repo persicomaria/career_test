@@ -1,0 +1,287 @@
+Research Article
+
+865
+
+Crystal structure of phenylalanine-regulated 3-deoxy-D-arabinoheptulosonate-7-phosphate synthase from Escherichia coli
+Igor A Shumilin, Robert H Kretsinger* and Ronald H Bauerle
+Background: In microorganisms and plants the first step in the common pathway leading to the biosynthesis of aromatic compounds is the stereospecific condensation of phosphoenolpyruvate (PEP) and D-erythrose-4phosphate (E4P) giving rise to 3-deoxy-D-arabino-heptulosonate-7-phosphate (DAHP). This reaction is catalyzed by DAHP synthase (DAHPS), a metalactivated enzyme, which in microorganisms is the target for negative-feedback regulation by pathway intermediates or by end products. In Escherichia coli there are three DAHPS isoforms, each specifically inhibited by one of the three aromatic amino acids. Results: The crystal structure of the phenylalanine-regulated form of DAHPS complexed with PEP and Pb2+ (DAHPS(Phe)­PEP­Pb) was determined by multiple wavelength anomalous dispersion phasing utilizing the anomalous scattering of Pb2+. The tetramer consists of two tight dimers. The monomers of the tight dimer are coupled by extensive interactions including a pair of threestranded, intersubunit  sheets. The monomer (350 residues) is a (/)8 barrel with several additional  strands and  helices. The PEP and Pb2+ are at the C-ends of the  strands of the barrel, as is SO42­, inferred to occupy the position of the phosphate of E4P. Mutations that reduce feedback inhibition cluster about a cavity near the twofold axis of the tight dimer and are centered ~15 Å from the active site, indicating the location of a separate regulatory site. Conclusions: The crystal structure of DAHPS(Phe)­PEP­Pb reveals the active site of this key enzyme of aromatic biosynthesis and indicates the probable site of inhibitor binding. This is the first reported structure of a DAHPS; the structure of its two paralogs and of a variety of orthologs should now be readily determined by molecular replacement.
+Address: Department of Biology, University of Virginia, Charlottesville, VA 22903, USA. *Corresponding author. E-mail: rhk5i@virginia.edu Key words: (/)8 barrel, 3-deoxy-D-arabinoheptulosonate-7-phosphate synthase, feedback inhibition, hemi-directed Pb2+ coordination, phosphoenolpyruvate Received: 19 February 1999 Revisions requested: 19 March 1999 Revisions received: 31 March 1999 Accepted: 7 April 1999 Published: 30 June 1999 Structure July 1999, 7:865­875 http://biomednet.com/elecref/0969212600700865 © Elsevier Science Ltd ISSN 0969-2126
+
+Introduction
+In microorganisms and plants the first step in the biosynthetic pathway leading to most aromatic compounds, including Phe, Tyr, and Trp, is the stereospecific condensation of the glycolytic intermediate, phosphoenolpyruvate (PEP), and the pentose phosphate pathway intermediate, D-erythrose-4-phosphate (E4P), with the release of the phosphate of PEP and the formation of 3-deoxy-D-arabino-heptulosonate-7-phosphate (DAHP) (Figure 1; reviewed in [1]). This reaction is catalyzed by DAHP synthase (DAHPS, phospho-2-hydro-3-deoxyheptonate aldolase; EC 4.1.2.15), which in microorganisms is also the target for negative-feedback regulation of the pathway, mediated either by the pathway intermediate, chorismate, or by endproducts, Phe, Tyr, and Trp. Bacteria and fungi have multiple DAHPS isoforms, which are distinguished primarily by their feedback effectors. In Escherichia coli there are three DAHPS isoforms, each specifically inhibited by one of the three aromatic amino acids. DAHPS(Phe), a homotetramer encoded by the aroG
+
+gene [2], is the major isoform, constituting about 80% of the total activity of the cell [3]. The less abundant isozymes, DAHPS(Trp) (1% of total activity) and DAHPS(Tyr) (20% of total activity) are homodimers encoded by the aroH and aroF genes, respectively. Consistent with their multimeric structures, the DAHPS isozymes of E. coli exhibit positive, homotropic cooperativity in the kinetics of E4P and PEP utilization and heterotropic interactions in the kinetics of feedback inhibition [4­6]. Alignment of the amino acid sequences of the three E. coli isozymes (Figure 2) indicates that they are homologs, arising by gene duplications and divergence [7]. The polypeptide chains are of similar length, DAHPS(Phe) having 350 residues, DAHPS(Trp) 348 residues and DAHPS(Tyr) 356 residues. About 41% of the residues are identical in the three isozymes and another 15% represent conservative substitutions. Random and directed mutagenesis of the aroG ([8­10], and OK Park and RHB, unpublished results), aroF [11], and aroH ([7] and JP Akowski and RHB, unpublished results) genes has yielded a collection of
+
+866
+
+Structure 1999, Vol 7 No 7
+
+Figure 1 The DAHP synthase reaction and schematic of the aromatic biosynthetic pathway. TRP CHORISMATE PHE TYR
+
+1COOH
+
+1COOH
+
+PEP
+
+C OPO32­
+3CH 2
+
+C O PO43­ CH2 HO CH HC OH HC OH CH2OPO32­
+
++
+1CHO
+
+HC OH E4P HC OH
+4CH 2OPO3 2­
+
+DAHP
+Structure
+
+inactivating and feedback-resistant mutations that are interspersed throughout the polypeptides, rather than segregated to contiguous regions. Inactivating mutations are almost exclusively at invariant residues, whereas the majority of the regulatory mutations are at nonconserved residues, consistent with the commonality of catalytic mechanism and the diversity of feedback specificities of the isozymes (Figure 2). The DAHPS isozymes require a divalent metal ion for activity. In the E. coli isozymes a variety of divalent metal ions activate in vitro, with efficiencies varying over a 20-fold range as follows: Mn2+ > Fe2+  Cd2+ > Co2+ > Cu2+  Ni2+  Zn2+ >> Ca2+ [5]. The identity of the activating metal significantly affects the kcat of the isozymes, as well as their apparent affinities for E4P but not for PEP nor for the feedback inhibitor. The identity of the activating metal in vivo remains unclear, although evidence for both Fe2+ [5,12­14] and Cu2+ [15] has been reported. Whether the metal ion is an essential structural element or has a role in catalysis has not been established. Site-directed mutagenesis, chemical modification, and spectroscopic analysis of DAHPS(Phe) have shown that Cys61, one of the two invariant cysteine residues of the microbial DAHPS family, is one of the metal-binding ligands of the enzyme [8]. We present the structure of the DAHPS(Phe)­PEP­Pb complex determined by X-ray crystallography using multiwavelength anomalous dispersion (MAD) phasing. This is the first report of the structure of a member of the DAHPS family.
+
+most effective metal ion [5]. In addition, Pb2+ competes with Mn2+ as an activator, as judged by the marked reduction of enzymatic activity found in metal-mixing experiments. Pb2+ was expected to provide adequate phasing power and the LIII absorption edge of lead at 0.9507 Å was readily accessible at the X4A beamline at the National Synchrotron Light Source (NSLS) at Brookhaven National Laboratories. The more active complex of DAHPS with Cd2+ that would also provide significant phasing power was not used because the absorption edges of Cd2+ were not accessible at X4A. Three data sets were measured near the lead LIII absorption edge (Table 1). All six anomalous and differenceanomalous Patterson maps are similar. The interpretation of the Patterson maps was straightforward and showed one Pb2+ bound per subunit of DAHPS, giving a total of four Pb2+ ions in the asymmetric unit. The electron-density maps calculated with MAD phases and improved by solvent flattening did not allow tracing of the polypeptide chain but clearly indicated the outline of the tetramer in the unit cell. The skeletonized model was used to determine noncrystallographic-symmetry (NCS) operators within the tetramer. Symmetry averaging in combination with solvent flattening provided a 2.6 Å resolution electron-density map suitable for model building (Table 2). The final model contains 1353 DAHPS residues, four PEP molecules, four water molecules, and four each of Pb2+ and SO42­ per tetramer. Residues 1­7 are not visible in the electron density of any of the subunits. The density corresponding to residues 313­317 (313­316 for subunit D) is poorly defined and does not allow reliable positioning of the atoms; however, it does indicate the general path of the polypeptide chain. The structure was refined to an R factor of 19.4% for 36,305 reflections with F > 2F (Table 3). Rfree calculated for the set of 3954 reflections, chosen in thin resolution
+
+Results and discussion
+Structure determination and model quality
+
+The Pb2+ complex of the enzyme was chosen for MAD structure determination after it was found that Pb2+ is probably bound at the active site. Pb2+ activates DAHPS(Phe) to 3% of the level achievable with Mn2+, the
+
+Research Article DAHP synthase(Phe)­PEP­Pb structure Shumilin, Kretsinger and Bauerle
+
+867
+
+Figure 2
+0 00 0 30 E N A A N T V A H A R K A I H K I L K G P GV A T H V T D S R R R I E K I L N G L QQE A QI A D S R K S I S D I I A G 50 N D E D R D
+
+10 DAHPS (Phe) . . . . . . M N Y Q N D D L R I K E I K E L L P P V A L L E K F P A T DAHPS (Trp) . . . . . . . M N R T D E L R T A R I E S L V T P A E L A L R Y P V T DAHPS (Tyr) . . . . . M Q K D A L N N V H I T D E Q V L M T P E Q L K A A F P L S 1 1 2
+
+70 D R L L V V I GP C S I H D P V A A K E Y A T R L L A L R E E L K D E L E I K R L L V I I GP C S I H D L T A A ME Y A T R L QS L R N QY QS R L E I P R L L V V C GP C S I H D P E T A L E Y A R R F K A L A A E V S D S L Y L 2 3 3
+
+90 V M R V Y F E K P R T T V G WK G L I N V M R T Y F E K P R T V V G WK G L I S V M R V Y F E K P R T T V G WK G L I N 4
+
+110 D P H MD D P D L N D P H MD 4
+
+130 N S F QI N D GL R I A R K L L L D I N D S GL P A A GE F L D MI T GS Y R V N H GL E L A R K L L L QV N E L GV P T A T E F L D MV T GS F D V E A GL QI A R K L L L E L V N MGL P L A T E A L D P N S 5 5 6a
+
+150 P Q Y L A D L M S WG A I G A R T T E S G Q F I A D L I S WG A I G A R T T E S P Q Y L G D L F S WS A I G A R T T E S 6b 6
+
+170 QV H R E L A S QI H R E MA S QT H R E MA S
+
+190 GL S C P V GF K N GT D GT I K V A I D A I N A A GA P H C F A L S C P V GF K N GT D GN T R I A V D A I R A A R A S H MF GL S MP V GF K N GT D GS L A T A I N A MR A A A QP H R F 6 7
+
+210 L S V T K WG H S A I V N T S G N G D C L S P D K N GQMT I Y QT S GN P Y G V GI N QA GQV A L L QT QGN P D G 7
+
+230 H I I L R GGK E P N H I I MR GGK K P N H V I L R GGK A P N 8
+
+250 Y S A K H V A E V K E GL N K A GL P A QV MI D F S H A Y H A D D I A A A C D T L H E F D L P E H L V V D F S H G Y S P A D V A QC E K E ME QA GL R P S L MV D C S H G
+
+270 N S S K QF K K QMD V C A D V C QQI N C QK QH R R QL E V C E D I C QQI N S N K D Y R R QP A V A E S V V A QI 8
+
+290 A GGE K A I I GV MV E S R N GS T A I A GI MA E S K D GN R S I I GL MI E S
+
+310 H L V E GN QS L E S GE . P L A Y GK S I T D A C F L R E GT QK I V GS Q. P L T Y GQS I T D P C N I H E GN QS S E QP R S E MK Y GV S V T D A C
+
+330 I G WE D T D A L L R Q L A N A V K A R L G WE D T E R L V E K L A S A V D T R I S WE M T D A L L R E I H Q D L N G Q
+
+350 R G. . . . F . . . . . L T A R V A
+
+Structure
+
+Primary sequence alignment of the three DAHPS isozymes from E. coli. Numbering is that of the DAHPS(Phe) isozyme. Identical residues in the three isozymes are indicated in coral. Residues coordinating Pb2+ in the DAHPS(Phe) structure are marked with q and those coordinating PEP are marked with . The positions of helices and strands are indicated by yellow cylinders and blue arrows, respectively.
+
+The positions of inactivating mutations and feedback mutations are indicated in magenta and green, respectively. All mutations were isolated and characterized in the indicated E. coli isozyme [7,9­11], except for the feedback mutation at position 151, which was isolated in Saccharomyces cerevisiae DAHPS(Tyr) [31]. The figure was drawn with the program ALSCRIPT [32].
+
+shells to minimize the effect of noncrystallographic symmetry, is 25.6%. The four subunits of the DAHPS tetramer are very similar, except for the conformations of several loops and sidechains involved in the intramolecular contacts. The monomers can be superimposed with root mean square deviation (rmsd) values of 0.2 Å for mainchain atoms, 0.6 Å for all nonhydrogen protein atoms,
+Table 1 Data-collection statistics*. Data set Wavelength (Å) Resolution (Å) Unique reflections Completeness Multiplicity Rmerge (%) <I/(I)> 1(0.9389 Å) 0.9389 18.0­2.6 40,409 91.8 (64.6) 5.8 (3.9) 6.3 (11.8) 17.3 (8.5)
+
+and 0.3 Å for the atoms of PEP. The rmsd values for B factors are 9.4, 10.4, and 7.4 Å2 for these groups of atoms, respectively. The positions and environments of Pb2+ and SO42­ are also similar in the four monomers. In the final model, 89.0% of the residues are located within the most favorable regions of the Ramachandran
+
+2 (0.9497 Å) 0.9497 18.0­2.6 40,228 90.8 (62.4) 5.7 (3.7) 6.4 (13.8) 17.4 (7.3)
+
+3 (0.9523 Å) 0.9522 18.0­2.6 40,243 90.5 (61.4) 5.8 (3.7) 5.9 (12.3) 19.3 (7.9)
+
+*Summary of X-ray diffraction. Values in parentheses are for the outermost shell of data (2.69­2.60 Å). Rmerge =  |Iobs ­ < I >| /  Iobs.
+
+868
+
+Structure 1999, Vol 7 No 7
+
+Table 2 MAD phasing statistics. Data set* 2 (0.9497 Å) 3 (0.9523 Å)
+
+Phasing power centric acentric RCullis centric (isomorphous) acentric (isomorphous/anomalous)
+
+0.83 1.04 0.78 0.85/0.98
+
+0.72 0.87 0.81 0.87/0.98
+
+*1 (0.9389 Å) data were used as native. Only reflections with F > 3F were used. RCullis = rms lack of closure/rms isomorphous (anomalous) difference.
+
+ strands comprising the barrel vary in length from four to seven residues; the helices range from seven to nineteen residues. Helix 3 (Pro150­Leu156) is bent at Ala154 ( = ­60°,  = ­29°) so that the standard hydrogenbonding pattern of an  helix (Nn  On­4, as in N154  O150) is changed to that of a 310 helix (Nn  On­3, as in N156  O153). The loops connecting helices and strands at the N-end of the barrel (­ loops) are six residues or less in length, except for the 24-residue segment between 5 and 6 that contains strands 6a and 6b. The loops at the C-end of the barrel (­ loop) located near the active site are longer; loops 2­2, 7­7, and 8­8 have 26, 11, and 28 residues, respectively. The basic (/)8 barrel of DAHPS is enhanced by several additional elements. An N-terminal extension has 53 residues, the first seven of which are not visible in the electron density. The extension includes strand 0 followed by helices 00 and 0. Both 0 and 00 are located just outside the 2 and 3 helices and extend from the C-end of the barrel to its N-end. At Pro27 the polypeptide chain makes a near 90° turn and the following helix, 0, crosses the barrel covering its N-end. A two-stranded, antiparallel  sheet, 6a/6b, is incorporated between 5 and 6 and located outside of the barrel (top of Figure 3a). Strands 0, 6a, and 6b and helix 00 are important in quaternary interactions, as described below. Short segments of the 2­2 and 7­7 loops have helix-like conformations; part of loop 8­8 is a loose two-stranded antiparallel  sheet. In contrast to the N terminus, the C terminus of DAHPS has strong electron density that defines the long 8 helix.
+Quaternary structure
+
+plot. The only residues that fall in the non-allowed region are the four His268 residues that coordinate Pb2+ and conjugate PEP; however, these are placed in well-defined electron density in all four subunits. In the final model the rmsd from ideal values is 0.014 Å for bond lengths and 2.96° for bond angles. The B factors are lower for helical and strand elements relative to those for the termini, loops, and turns. The average B factor for mainchain atoms is 27.9 Å2, sidechain atoms 29.5 Å2, PEP atoms 30.4 Å2, Pb2+ 40.2 Å2, and SO42­ 42.5 Å2.
+Subunit structure
+
+The monomer of DAHPS has a single (/)8-barrel domain enhanced by several additional elements (Figure 3). The barrel is formed by eight parallel  strands and has an elliptical cross-section with dimensions of about 14 × 10 Å. Its long axis is between strands 3 and 7. 16% of the residues of the protein belong to the  strands and 38% to the  helices. As is typical for (/)8-barrel proteins, the active site of DAHPS is located at the C-end of the barrel.
+Table 3 Refinement statistics. Resolution range (Å) Number of reflections in work set* Rwork(%) Number of reflections in test set* Rfree(%) Rms deviation from ideal geometry bond lengths (Å) bond angles (°) Average B factors (Å2) protein mainchain protein sidechain PEP Pb2+ SO42­ water 18.0­2.6 36,305 19.4 3954 (10%) 25.6 0.014 2.96 27.9 29.5 30.4 40.2 42.5 31.1
+
+Crystals of DAHPS(Phe) contain one tetramer per asymmetric unit. It is about 95 Å × 70 Å × 50 Å and has 222 NCS (Figure 4a). The DAHPS(Phe) tetramer is a dimer of two tight dimers. The total area of contact between the monomers of each tight dimer is about 2800 Å2 and accounts for 19% of the solvent-accessible surface of one subunit. The monomers in the tight dimer form multiple electrostatic, hydrogen-bond, and van der Waals contacts contributed by residues of helices 4 and 5 and loops 2­2, 3­3, 4­4, 4­5, 5­5, and 5­6A. In addition, the association is significantly enhanced by the formation of a three-stranded, antiparallel  sheet involving the N-terminal 0 strand of one monomer and the extended 6a­6b strands of the other. There are three pairs of polar contacts between the A and C (B and D) subunits (Figure 4a): the salt bridge of Glu24 (00) of one subunit and Arg124 (2) of the other, the hydrogen bond between the mainchain oxygen of Glu24 and N of Lys25 of the other monomer, and the hydrogen bond between His217 of each subunit. The rest of the relatively small interfacial area between these two subunit
+
+*Only reflections with F > 2F were used. Reflections for crossvalidation were chosen in thin resolution shells to minimize the effect of noncrystallographic symmetry.
+
+Research Article DAHP synthase(Phe)­PEP­Pb structure Shumilin, Kretsinger and Bauerle
+
+869
+
+Figure 3 Structure of the DAHPS(Phe)­PEP­Pb monomer. (a) The A monomer of the DAHPS(Phe) tetramer is viewed approximately down the A,D (B,C) axis of the tetramer, as seen in Figure 4.  Helices are indicated in gold and  strands are in blue. The 3 helix terminates in a 310 turn, indicated in orange. The first residue shown is Leu8. The weak electron density of residues 313­317 does not permit accurate chain tracing; this portion of the 8­8 loop is indicated in black. The PEP, the Pb2+, and the SO42­, inferred to be at the binding site of the phosphate of E4P, are at the active site (balland-stick representation). RIBBONS [33] was used to draw all figures, unless otherwise noted. (b) The A subunit is viewed from the top of (a). (c) A trace of the monomer, as viewed in (a), is shown in stereo. This figure was drawn with MOLSCRIPT [34]. (a)
+
+(b)
+
+(c) 170 210 10 230 250 50 290 350 310 330 270 190 90 30 130 70 110 290 270 350 310 330
+Structure
+
+170
+
+210 10 150 30
+
+150 250 50
+
+230 190
+
+90
+
+130 70
+
+110
+
+pairs (500 Å2 or 3.5% of the monomer surface) is formed mainly by hydrophobic interactions between the sidechains of Leu17, Pro18, Val20, and Ala21, which are located just before and within helix 00. The area of contact between subunits A and D (B and C) is limited to just 50 Å2 (0.4% of solvent-accessible area), all
+
+of it from the stacking at 3.6 Å of the imidazole rings of the His217 residues, which are located on the loop connecting strands 6a and 6b (Figure 4b). The clustering of the four His217 residues near the intersections of the twofold axes is especially interesting and contributes to the interaction between the two tight dimers. In addition to the stacked imidazole rings of monomers A and D
+
+870
+
+Structure 1999, Vol 7 No 7
+
+Figure 4
+
+stabilization of the DAHPS(Phe) tetramer (Glu24, Lys25, Arg124, and His217) (Figure 2) that eliminate the interdimer polar and hydrogen bonds of the DAHPS(Phe) tetramer. These substitutions do not significantly alter the catalytic efficiency of the dimeric enzymes [5]. This is not surprising because the area of contact between the tight dimers in the tetramer of DAHPS(Phe) is relatively small and remote from the active site. Hence, we predict that site-directed changes at all or some of the critical residues -- Glu24, Lys25, Arg124, and His217 -- in DAHPS(Phe) will result in an active dimeric enzyme. Conversely, it will be interesting to determine whether substitution of these polar residues into the Trp- and Tyrsensitive isoforms transforms them to tetramers.
+Metal coordination
+
+Structure of the DAHPS(Phe)­PEP­Pb tetramer. (a) The tetramer of DAHPS(Phe) is viewed down the noncrystallographic A,D (B,C) axis, which is 15.5° from the crystallographic b axis. Pb2+ (green) and PEP (ball-and-stick representation) are shown. Note that the strands 0 and 6a­6b are involved in formation of the tight dimer. Residues deduced by mutational analysis to eliminate catalytic activity (Figure 1) are indicated in magenta in subunits C and D. Residues deduced by mutational analysis to be involved in feedback inhibition are indicated in green in subunits A and B. (b) The interactions between the four His217 residues are indicated. The view is similar to that in (a), but tipped ~10°. Hydrogen bonds are indicated by cyan lines.
+
+Pb2+ is bound at the active site of DAHPS near the C-end of the barrel (Figure 3). The coordination sphere of Pb2+ includes PEP, four protein ligands (Cys61, His268, Glu302, and Asp326), and a water bridging to Lys97 (Figure 5). The four protein residues are dispersed throughout the polypeptide chain and are not part of a localized metal-binding motif. They are located on the short loops 1­1 (Cys61) and 7­7 (His268), on strand 8 (Glu302), and on long loop 8­8 (Asp326). Inactivating mutations have been recovered at two of these residues, Cys61 and Glu302 [7,8] (Figure 2); changes at Cys61 have been shown to eliminate metal binding [8,16]. The distances from Pb2+ to S of Cys61, and N of His268 are 3.2 Å and 2.8 Å, respectively. His268 interacts with both Pb2+ and PEP. This is the only residue in the non-allowed region of the Ramachandran plot. The energetic penalty for this conformation is presumably compensated by the energy of binding to Pb2+ and to PEP. The carboxylate group of Glu302 is a bidentate ligand with its two oxygen atoms 2.9 and 3.4 Å from Pb2+. The contact between Asp326 and Pb2+ is monodentate; the ­Pb2+ distance is 2.9 Å. The water bridging from Lys97 is 3.7 Å from Pb2+; however, the position of the water is not so well defined as are the atoms of the protein. The Pb2+ of DAHPS(Phe) does not bind specifically to either the carboxylate or phosphate groups of PEP. Instead, it approaches four of the six nonhydrogen atoms that comprise the planar part of PEP (C3, C2, C1, and O1C, one of two carboxylate oxygen atoms). The distances between Pb2+ and these four atoms are approximately equal and are rather long at 3.6­3.9 Å. In contrast, in the two reported protein structures with bound PEP, both of which are yeast enolase [17,18], a Mg2+ is coordinated by both oxygens of the carboxylate of PEP and lies near the plane defined by PEP. Further, in one of these [17] a second Mg2+ is coordinated by both a carboxylate oxygen and by a phosphate oxygen of PEP. The unusual bonding of Pb2+ in DAHPS(Phe)­PEP­Pb involves two factors, the inert electron pair effect and
+
+(B and C), there is also a shared proton forming a hydrogen bond between the N groups of the His217 residues of subunits A and C (B and D). In spite of the similarity in sequence between the three DAHPS isozymes, DAHPS(Tyr) and DAHPS(Trp) are dimers in solution [4,14] rather than tetramers like DAHPS(Phe) [2,16]. It is likely that the tight dimer of DAHPS(Phe) is a close structural analog of the dimeric DAHPS isoforms. Both DAHPS(Trp) and DAHPS(Tyr) have replacements at all four key positions providing
+
+Research Article DAHP synthase(Phe)­PEP­Pb structure Shumilin, Kretsinger and Bauerle
+
+871
+
+Figure 5
+
+however, the shortest Pb2+­carbon distances are 3.57 and 3.68 Å, an example of hemidirectional coordination. We infer that the 6s2 electron orbital of Pb2+ has p character, is directed towards the plane of PEP, and conjugates with its -bond system. This conjugation could alter the properties of the electron system of PEP and impede its interaction with E4P. The catalytic activity of DAHPS(Phe)­Pb is very low in comparison with the complexes with other divalent cations such as Mn2+, Fe2+, Cd2+, and Co2+. The inert electron pair effect [19] has been proposed for only Pb2+ in this group. Hence, we suggest that the coordination of PEP in the DAHPS(Phe)­PEP complex with other divalent cations is somewhat different from that found in DAHPS(Phe)­PEP­Pb. Further, as a result of its unique electron structure, Pb2+ may impede the condensation of PEP with E4P. Determination of the structure of the DAHPS­PEP­Mn complex that is under way in our laboratory should soon resolve this issue.
+The PEP-binding site
+
+Coordination of Pb2+ (green) in DAHPS(Phe)­PEP­Pb. Bonds to coordinating ligands are indicated by heavy cyan lines; distances are in Å. The distances between Pb2+ and C1, C2, C3, and O1C atoms of PEP, shown in thin cyan lines, range from 3.6 to 3.9 Å (see also Figure 6b).
+
+metal­-bond conjugation. The outer 6s2 electron pair of Pb2+ is resistant to removal and does not participate in covalent bonds. This results in a stable, relatively inert, outer lone pair of electrons. It has been shown in numerous complexes of Pb2+ with small molecules that ligands are distributed around the Pb2+ in two different fashions [19]. Holodirected geometry is characterized by the distribution of ligand atoms over the entire surface of an encompassing sphere. In contrast, in hemidirected coordination ligands are restricted to only part of the sphere, leaving a gap in their distribution. In this case the lone pair of 6s2 electrons of Pb2+ has p character. So far, all Pb2+ compounds that have been studied are hemidirected if the coordination number is low (2­5) and holodirected if the coordination number is high (9­10). However, for coordination numbers 6­8, both types of stereochemistry have been observed. The bond lengths from Pb2+ to the protein ligands of DAHPS(Phe) are in the range normally observed. The angle N(His268)­Pb2+­S(Cys61) is 202° open (convex) towards PEP. The distances of 3.6­3.9 Å between Pb2+ and four planar atoms of PEP are within the typical range for a distant axial ligand in hemidirectional coordination. There are several examples of the conjugation of Pb2+ with a -bond system. In dicyclopentadienyl-lead [20] the distance between Pb2+ and each of the five carbons is 2.76 Å; this coordination is homodirectional. In a Pb2+­crotonic acid complex [21] the Pb2+ lies near the perpendicular to the ligand plane that contains the -electron system;
+
+The electron density of PEP and its nearby amino acid residues is well-defined (Figure 6). In addition to Pb2+, PEP is surrounded by six positively charged residues, which anchor the substrate by multiple salt bridges (Arg92, Lys97, Arg165, Lys186, and Arg234) and conjugated  bonds (His268). Each of three anionic oxygen atoms of the phosphate group of PEP is bonded with two or three nitrogen atoms of Arg165, Lys186, or Arg 234. The distances between phosphate oxygens and bonding nitrogens range from 2.6 Å to 3.8 Å. Both oxygen atoms of the carboxylate group of PEP form salt bridges with N atoms of Arg92 (N­O distances are 3.0 and 3.6 Å). Moreover, one of the carboxylate oxygens of PEP forms a salt bridge with Lys97 (O­N, 3.2 Å) while the other bonds with Lys186 (O­N, 2.5 Å). Inactivating mutations have been recovered in DAHPS(Trp) by random mutagenesis at three of these residues -- Arg92, Arg165, and Arg234 [7] (Figure 2). The  orbitals of the planar portion of PEP conjugate the 6s2 outer electrons of Pb2+ as described above. They also conjugate the  orbitals of the imidazole ring of His268, which also coordinates Pb2+ by its N. The imidazole ring is located on the same side of the PEP plane as Pb2+ and approaches the plane of PEP at an angle of 24°. The distances between N of His268 and O1C, C1, C2, and O1P (bridging phosphate atom) of PEP range from 3.1 to 3.4 Å. The presence of both Pb2+ and an imidazole group on one side of PEP as well as of salt bridges with three arginine and two lysine residues restricts potential movements of PEP and provides a high binding affinity.
+Organization of the active site
+
+The active site of DAHPS is located at the C-end of the (/)8 barrel. Residues forming the active site belong to
+
+872
+
+Structure 1999, Vol 7 No 7
+
+Figure 6 (a) Coordination of PEP in DAHPS(Phe)­PEP­Pb. (a) Eleven salt bridges involving Arg92, Lys97, Arg165, Lys186, and Arg234 are indicated in cyan; bond lengths are in Å. The imidazole of His268 partially overlaps the plane of PEP; the closest approach of the imidazole to PEP is 3.1 Å. Pb2+ is shown as a green sphere. (b) The 2Fo­Fc electron-density map of the active site was calculated with PEP omitted and contoured at 2. The distances between Pb2+ and C1, C2, C3, and O1C are given in Å. The figure was drawn with the program O [27].
+
+(b) K186 H268 R234 R165 wat K186 H268 R234 R165 wat
+
+Arg-92
+
+Arg-92
+
+3.9 3.7 3.8 3.6 K97
+
+3.9 3.7 3.8 3.6 K97
+
+Structure
+
+ strands of the barrel and to ­ loops. The PEP and Pb2+ environment has many charged and polar residues and two cysteines forming a network of interactions among themselves as well as with substrate and metal. As expected from the negative charges of both substrates, the active site of the enzyme contains more positively charged residues than negatively charged ones. Of the positively charged residues found within 8 Å of the Pb2+, three out of four arginines (Arg92, Arg165, and Arg234) and two out of three lysines (Lys97 and Lys186) are involved in PEP binding. The fourth arginine (Arg99) forms a salt bridge with SO42­ (see below). The side group of Lys273 does not interact with any protein or substrate atoms and is positioned in rather weak electron density. Two of five negatively charged residues in the 8 Å sphere, Glu302 and Asp326, coordinate Pb2+. Carboxylate oxygens of the sidechain of Asp265 form salt bridges with N of Lys186 and N of His268 and form a hydrogen bond with N of Ser267. Glu143 probably hydrogen bonds a water molecule that is not visible at this resolution. All of these charged amino acids are invariant among the thirteen microbial DAHPS enzymes whose complete sequences are known.
+
+Most of the residues that coordinate Pb2+ are also stabilized by interactions with nearby amino acids. The S of Cys61 forms a hydrogen bond with O of Thr325 (2.7 Å) and the O of Glu302 forms a salt bridge with O of Ser267 (2.7 Å). In addition to the conjugation of the imidazole ring of His268 with PEP, its N forms salt bridges to the O atoms of Asp265 (2.8 and 3.4 Å) and its mainchain nitrogen hydrogen bonds to O of Ser267 (2.7 Å). There is a channel leading to PEP from the top of the barrel. C3 of PEP, which forms a covalent bond with C1 of E4P in the condensation reaction (Figure 1), is pointed towards this opening. A significant sphere of electron density is observed in the upper part of the channel about 8.5 Å from C3. This density is significantly larger than that expected for a water molecule and is modeled as SO42­. It interacts with the guanidinium group of Arg99, O of Thr100, and the peptide oxygen of Val102. Apart from SO42­ the crystallization medium contained only two other small anions, PEP and acetate. We suggest that this SO42­ occupies the binding site of the phosphate of E4P, as is often noted in proteins with phosphorylated substrates. When the phosphate group of E4P is docked to
+
+Research Article DAHP synthase(Phe)­PEP­Pb structure Shumilin, Kretsinger and Bauerle
+
+873
+
+the SO42­ -binding site, E4P in the extended conformation fits nicely into the channel leading to the bound PEP molecule. The C1 of E4P can approach to within 3.0 Å of C3 of PEP. In this model E4P is exposed to the solvent and there is no obvious pattern of interaction with the enzyme beyond its phosphate group. However, the active site of DAHPS is surrounded by several loops that contain many charged and polar residues. These loops have high temperature factors, indicating partial disorder. We suggest that upon E4P binding one or more of these loops changes conformation, thereby forming bonds with E4P and functioning as a lid to enclose the active site.
+Proposed inhibitor-binding site
+
+Numerous mutational changes in the three E. coli DAHPS isozymes that cause partial to full resistance of the enzymes to inhibition by the corresponding aromatic amino acid have been recovered (Figure 2). These were derived either by random chemical mutagenesis or by directed mutagenesis of the respective genes. As the sequences and catalytic properties of the three isoforms are so similar, it is reasonable to extend the results of mutational studies of DAHPS(Trp) and DAHPS(Tyr) to DAHPS(Phe). The nine identified residues are located in three distinct areas of the primary sequence (Pro19, Asp146­Ala154, Gly178­Ser180); however, in the three-dimensional structure they cluster on the outer side of the  core of the barrel behind its 3 and 4 strands. The mutational replacements are unlikely to cause significant changes in the global protein structure because the catalytic activities of the mutant enzymes remain almost intact. Instead, they appear to indicate the region of DAHPS that is responsible for binding of inhibitor and, perhaps, for the resultant change in conformation.
+Figure 7 (a) (b)
+
+The region of DAHPS delineated by the feedback-resistant mutations contains a cavity that is outside of the  core of the barrel (Figure 7). This cavity is about 8 Å across and has a narrow pocket at its depth. The cavity is surrounded by residues that belong to helices 00, 3, 4, strands 3, 4, 6a, 6b and the surrounding loops of one subunit, as well as by strand 0 of the other subunit of the tight dimer. The cavities of two subunits comprising the tight dimer are near each other, with the closest approach being 4.1 Å between the C carbons of the two Met147 residues. We propose that the phenyl group of phenylalanine binds at the bottom of this cavity in a nascent, hydrophobic pocket formed by the sidechains of Phe144, Pro150, Leu175, and Leu179. A small movement of the surrounding mainchains and sidechains would be required to accommodate a phenyl ring. It is noteworthy that in the two DAHPS(Trp) isozymes of known sequence, but not in the nine known DAHPS(Tyr) and DAHPS(Phe) isozymes, the residue corresponding to Pro150 of DAHPS(Phe) is glycine; this replacement would provide enough space to accommodate the larger sidechain of tryptophan in DAHPS(Trp). The closest approaches of the phenylalanine modeled into the hydrophobic pocket to PEP and to Pb2+ are 16 and 13 Å, respectively. This indicates that a change in conformation is involved in the regulation of DAHPS activity by the feedback effector. As mentioned above, there is a discontinuity in 3 as it changes from an -helical to a 310 hydrogen-bonding pattern. It is possible that helix 3 becomes a canonical  helix upon binding of inhibitor as part of the proposed conformational change. The finding that complexes of DAHPS(Phe) with phenylalanine crystallize in a different unit cell from complexes
+
+M147* D146 I148 I148* M147
+
+D146*
+
+M147* D146 I148 I148* M147
+
+D146*
+
+P19 P150 L175 Q151 F144L179 A154 G178
+
+P19 Q151 P150 L175 F144 L179 A154 G178
+
+S180 The inferred binding site of Phe in DAHPS(Phe). The proposed binding site of Phe in DAHPS(Phe) is delineated by nine mutations -- Pro19(00), Asp146(3­3), Met147(3­3), Ile148(3­3), Pro150(3), Gln151(3), Ala154(3), Gly178(4­5), and Ser180(4­5) -- indicated in green, that eliminate or strongly reduce feedback inhibition. Elements that belong
+
+S180
+
+Structure
+
+to subunit B are represented in darker colors and labeled with *. Residues forming the inferred pocket for binding Phe are labeled in magenta. (a) Ribbon diagram of the Phe-binding site of subunit A viewed approximately as in Figure 3b. (b) Stereoview of the Phebinding site drawn with the program O [27].
+
+874
+
+Structure 1999, Vol 7 No 7
+
+in the absence of the inhibitor [22] is consistent with this idea. Work on these structures that is under way in our laboratory should confirm the structure of the putative inhibitor site and reveal the effect of inhibitor binding on DAHPS structure.
+
+Biological implications
+DAHPS (3-deoxy-D-arabino-heptulosonate-7-phosphate synthase) is the pivotal enzyme in the synthesis of aromatic compounds in microorganisms. Metabolite flow in the aromatic biosynthetic pathway in E. coli is regulated primarily by feedback inhibition of its three DAHPS isozymes. The presence of isofunctional enzymes with differentially regulated activities provides the cell with the unique ability to modulate the overall rate of synthesis in response to the availability of the individual aromatic amino acids. The three DAHPS isozymes have the same reaction mechanism and also share many properties, such as similar kinetic constants and similar metal activation. They also have numerous distinguishing characteristics, including differences in regulatory specificity, in quaternary structure, in the degree of cooperativity in substrate and inhibitor binding, and in inhibition kinetics. The three-dimensional structure of the DAHPS(Phe) isozyme reported here provides a foundation for understanding these similarities and differences in catalytic and regulatory properties. A role for the required divalent metal in stabilizing and positioning PEP (phosphoenolpyruvate) at the active site is now established, providing an explanation for the broad range of metals that function in the enzyme. The binding site and orientation of E4P, the second substrate, and of phenylalanine, the feedback effector, are reasonably inferred from the structural model. The structural basis for the tetrameric and dimeric forms present among the three isozymes is also now apparent. The structure reveals that the two subunits of the tight dimer of DAHPS(Phe) enjoy many contacts, including shared strands in  sheets. The cooperativity of inhibitor binding is consistent with the proximity of the inhibitor-binding sites to the dimer axis and with the involvement of the shared strands in the structure of the inhibitor-binding cavity. A trove of mutational studies have now been rationalized. Decisive, site-directed changes in sequence are indicated for the elucidation of the catalytic and regulatory mechanisms of DAHPS and for evaluating the evolution of its various paralogs and orthologs. Because of its crucial role in metabolism, DAHPS is also an inviting target for the rational design of antibacterial and antifungal drugs.
+
+using the hanging-drop vapor-diffusion method. All solutions used for crystallization, except for the solutions of lead acetate and protein, were deionized with Chelex-100. The DAHPS solution contained EDTA after purification and was extensively dialyzed against Chelexed 1.0 mM 1,3-Bis[tris(hydroxylmethyl)-methylamino] propane (BTP), pH 7.0. Crystals grew in 10 µl drops containing 8.8 mg/ml DAHPS, 1.63 mM PEP, 0.4 mM Pb(CH3COO)2, 0.1 M Li2SO4, and 12% (w/v) polyethylene glycol (PEG) 1000 in 50 mM BTP buffer, pH 8.7. The reservoir solution contained 19% (w/v) PEG 1000, 0.1 M Li2SO4, and 20% (v/v) ethanol in 50 mM BTP buffer pH 8.7. Crystals belong to the monoclinic space group C2 with cell dimensions a = 211.7 Å, b = 51.3 Å, c = 148.1 Å,  = 116.4° and have one DAHPS tetramer per asymmetric unit. After crystals reached their maximum size, drops were covered with mineral oil and injected with 0.1 µl of 1.0 M Pb(CH3COO)2. PbSO4 precipitated in the drop; hence, crystals were soaked for at least ten days before being used for MAD data collection.
+
+Data collection, MAD phasing and electron-density averaging
+MAD data were measured at beamline X4A at the NSLS. Three wavelengths near the lead LIII absorption edge were chosen on the basis of the X-ray absorption spectrum of the protein crystal. Data were measured at 0.9389 Å, at 0.9389 Å (near the inflection point), and at 0.9523 Å. The 0.9389 Å data set was treated as native. The data to 2.6 Å resolution were measured from a single crystal frozen in an evaporating stream of nitrogen. The data were read out of an imaging plate using a Fuji scanner, then integrated, reduced and scaled separately for each set using the programs DENZO and SCALEPACK [23]. Programs from the CCP4 suite [24] were used for co-scaling three data sets and for Patterson analysis. Intensities exhibiting excessive anomalous differences were removed. Three anomalous and three difference-anomalous Patterson maps had similar features and were interpreted directly. The positions of Pb2+ ions in the asymmetric unit were verified with SHELXS-86 [25] and refined with MLPHARE [24]. MAD phasing was performed with MLPHARE. The figure of merit (M) after MAD phasing was 0.33 for all data and 0.19 for 2.69­2.60 data. After solvent flattening and NSC averaging, M rose to 0.73 and 0.49. The statistics for data collection and phasing are summarized in Tables 1 and 2. The solvent content of the DAHPS­PEP­Pb crystals was estimated to be 52%. Solvent flattening with DM [24] was employed to decrease the free R value from 54.2% to 37.7% in four cycles. Although the electron-density maps calculated with the improved phases showed the position of the protein tetramer in the unit cell as well as disconnected segments of polypeptide chain, the quality of these maps did not permit chain tracing. In order to find the proper NCS relation of the DAHPS monomers, the 4.0 Å resolution map within the tetramer boundaries was skeletonized and a search for the 222 symmetry operators was performed with the programs NCS6D and IMP [26]. The search identified the three noncrystallographic twofold-rotation axes, one of which is 15.5° from the crystallographic b axis. Applying these symmetry operators for NCS averaging in combination with solvent flattening with DM [24] produced a 2.6 Å resolution electron-density map that allowed us to trace the polypeptide chain and identify most of its residues.
+
+Model building and refinement
+A model of the DAHPS subunit was built into the electron density using the program O [27] and the tetramer was generated using 222 NCS operators. The starting model included residues 9­312 and 318­350 as well as Pb2+. The structure with imposed NCS restraints was initially refined with X-PLOR [28] using data in 18­2.6 Å range. A set of 3954 reflections with F > 2F in thin resolution shells was chosen with DATAMAN [29] for monitoring the refinement process with Rfree. The combination of conjugate-gradient and simulated-annealing protocols in X-PLOR lowered the R factor to 22.3% but Rfree was relatively high at 31.2%. Numerous residues, most of which belong to the loops, had ,
+
+Materials and methods
+Crystallization
+DAHPS(Phe) was purified as previously described [22]. The complex of DAHPS with PEP and Pb2+ was crystallized at room temperature
+
+Research Article DAHP synthase(Phe)­PEP­Pb structure Shumilin, Kretsinger and Bauerle
+
+875
+
+values in non-allowed regions of the Ramachandran plot, indicating the poor quality of the model. At this stage, a partial model consisting only of the well-defined residues belonging to the helices and strands of the (/)8 barrel was made. Iterative rounds of model building were then performed after combining experimental phases and phases from the partial model and refinement with programs of the CCP4 suite [24]. When the electron density of PEP, water coordinated to Pb2+, and SO42­ became distinguishable, they were added to the model. Finally X-PLOR was employed for simulated-annealing refinement with symmetry constraints followed by conjugate-gradient refinement with symmetry constraints relaxed. The final model has R = 19.4%, Rfree = 5.6% and good stereochemistry as analyzed by PROCHECK [30]. The seven N-terminal residues of all four subunits are not visible in the electron density and are not included in the model. Residues 313­317 (313­316 for subunit D) are included but the occupancies of all atoms are set to zero as the corresponding electron density is observed in the map but is too weak and diffuse to locate mainchain and sidechain atoms.
+
+Accession numbers
+Atomic coordinates for DAHPS(Phe)­PEP­Pb have been deposited in the Brookhaven Protein Data Bank with the code 1QR7.
+
+Acknowledgements
+We thank David Tolbert, Agustin Avila-Sakar, and Katherine Holcomb for help in the data measurement and Gregory Dick for modeling E4P. This study was supported by grants GM 35889 from NIH to RHB and MCB9723633 from NSF to RHK.
+
+References
+1. Bentley, R. (1990). The shikimate pathway - a metabolic tree with many branches. Crit. Rev. Biochem. Mol. Biol. 25, 307-384. 2. McCandliss, R., Poling, M. & Herrmann, K. (1978). 3-Deoxy-D-arabinoheptulosonate 7-phosphate synthase purification and molecular characterization of the phenylalanine-sensitive isoenzyme from Escherichia coli. J. Biol. Chem. 243, 4259-4265. 3. Jensen, R.A. & Nasser, D.S. (1968). Comparative regulation of isoenzymic 3-deoxy-D-arabino-heptulosonate-7-phosphate synthetases in microorganisms. J. Bacteriol. 95, 188-196. 4. Schoner, R. & Herrmann, K.M. (1976). 3-Deoxy-D-arabinoheptulosonate 7-phosphate synthase purification, properties, and kinetics of the tyrosine-sensitive isozyme from Escherichia coli. J. Biol. Chem. 251, 5440-5447. 5. Stephens, C.M. & Bauerle, R.H. (1991). Analysis of the metal requirement of 3-deoxy-D-arabino-heptulosonate-7-phosphate synthase from Escherichia coli. J. Biol. Chem. 266, 20810-20817. 6. Akowski, J. & Bauerle, R.H. (1997). Steady-state kinetics and tryptophan binding of 3-deoxy-D-arabino-heptulosonate-7-phosphate synthase (tryptophan-sensitive) from Escherichia coli. Biochemistry 36, 15817-15822. 7. Ray, J., Yanofsky, C. & Bauerle, R.H. (1988). Mutational analysis of the catalytic and feedback sites of the tryptophan-sensitive 3-deoxy-Darabino-heptulosonate-7-phosphate synthase of Escherichia coli. J. Bacteriol. 170, 5500-5506. 8. Stephens, C.M. & Bauerle, R.H. (1992). Essential cysteines in 3-deoxy-D-arabino-heptulosonate-7-phosphate synthase from Escherichia coli. J. Biol. Chem. 267, 5762-5767. 9. Ger, Y.-M., Chen, S.-L., Chiang, H.-J. & Shiuan, D. (1994). A single Ser-180 mutation desensitizes feedback inhibition of the phenylalanine-sensitive 3-deoxy-D-arabino-heptulosonate-7-phosphate synthase in Escherichia coli. J. Biochem. 116, 986-990. 10. Kikuchi, Y., Tsujimoto, K. & Kurahashi, O. (1997). Mutational analysis of the feedback sites of phenylalanine-sensitive 3-deoxy-D-arabinoheptulosonate-7-phosphate synthase from Escherichia coli. Appl. Environ. Microbiol. 63, 61-762. 11. Weaver, L. & Herrmann, K.M. (1990). Cloning of an aroF allele encoding a tyrosine-insensitive 3-deoxy-D-arabino-heptulosonate 7-phosphate synthase. J. Bacteriol. 172, 6581-6584. 12. McCandliss, R.J. & Herrmann, K. (1978). Iron, an essential element for biosynthesis of aromatic compounds. Proc. Natl Acad. Sci. USA 75, 4810-4813. 13. Paravicini, G., Schmidheini, T. & Braus, G. (1989). Purification and properties of the 3-deoxy-D-arabino-heptulosonate-7-phosphate synthase (phenylalanine-inhibitable) of Saccharomyces cerevisiae. Eur. J. Biochem. 186, 361-366.
+
+14. Ray, J. & Bauerle, R.H. (1991). Purification and properties of tryptophan-sensitive 3-deoxy-D-arabino-heptulosonate-7-phosphate synthase from Escherichia coli. J. Bacteriol. 173, 1894-1901. 15. Baasov, T. & Knowles, J.R. (1989). Is the first enzyme of the shikimate pathway, 3-deoxy-D-arabino-heptulosonate-7-phosphate synthase (tyrosine sensitive), a copper metalloenzyme? J. Bacteriol. 171, 6155-6160. 16. Park, O.K. & Bauerle, R.H. (1999). Metal-catalyzed oxidation of phenylalanine-sensitive 3-deoxy-D-arabino-heptulosonate-7-phosphate synthase from Escherichia coli. Inactivation and destabilization by the oxidation of active site cysteines. J. Bacteriol. 181, 1636-1642. 17. Larsen, T.M., Wedekind, J.E., Rayment, I. & Reed, G.H. (1996). A carboxylate oxygen of the substrate bridges the magnesium ions at the active site of enolase: structure of the yeast enzyme complexed with the equilibrium mixture of 2-Phosphoglycerate and Phosphoenolpyruvate at 1.8 Å resolution. Biochemistry 35, 4349-4358. 18. Zhang, E., Brewer, J.M., Minor, W., Carreira, L.A. & Lebioda, L. (1997). Mechanism of enolase: The crystal structure of asymmetric dimer enolase -- 2-Phospho-D-glycerate/Enolase - phosphoenolpyruvate at 2.0 Å resolution. Biochemistry 36, 12526-12534. 19. Shimoni-Livny, L., Glusker, J.P. & Bock, C.W. (1998). Lone Pair Functionality in Divalent Lead Compounds. Inorg. Chem. 37, 1853-1867. 20. Panattoni, C., Bombieri, G. & Croatto, U. (1966). Chain structure of the orthorhombic modification of dicyclopentadienyl-lead containing -cyclopentdienly rings. Acta Crystallogr. 21, 823-826. 21. Clegg, W., Little, I.R. & Straughan, B.P. (1986). The chain polymeric structure of lead(II) crotonate. Acta Crystallogr. C 42, 1319-1322. 22. Shumilin, I., Kretsinger, R. & Bauerle, R. (1995). Purification, crystallization and preliminary crystallographic analysis of 3-deoxy-Darabino-heptulosonate-7-phosphate synthase from Escherichia coli. Proteins 24, 404-406. 23. Otwinowski, A. (1993). Oscillation data reduction program. In Proceedings of the CCP4 study weekend: Data collection and processing. (Sawyers, L. Isaacs, N. & Bailey, S., eds), pp 56-62, SERC Daresbury Laboratory, Warrington. 24. Collaborative Computational Project, Number 4 (1994). The CCP4 suite: programs for protein crystallography. Acta Crystallogr. D 50, 760-763. 25. Sheldrick, G.M. (1990). Phase annealing in SHELX-90: Direct methods for larger structures. Acta Crystallogr. A 46, 467-473. 26. Kleywegt, G.J. & Jones, T.A. (1994). Halloween masks and bones. In From First Map to Final Model (Bailey, S., Hubbard, R. & Waller, D. eds), pp. 59-66, SERC Daresbury Laboratory, Warrington. 27. Jones, T.A., Zou, J.Y., Cowan, S.W. & Kjeldgaard, M (1991). Improved methods for building protein models in electron density maps and the location of errors in these models. Acta Crystallogr. A 47, 110-119. 28. Brünger, A. T. (1992). X-PLOR Version 3.1. A system for X-ray crystallography and NMR. Yale University Press, New Haven, CT. 29. Kleywegt, G.J. & Jones, T.A. (1996). xd1MAPMAN and xd1DATAMAN - programs for reformatting, analysis and manipulation of biomacromolecular electron-density maps and reflection data sets. Acta Crystallogr. D 52, 826-828. 30. Laskowski, R.A., MacArthur, M.W., Moss, S.D. & Thornton, J.M.J. (1993). PROCHECK: a program to check the stereochemical quality of protein structures. J Appl. Crystallogr. 26, 283-291. 31. Fukuda, K., Asano, K., Ouchi, K. & Takasawa, S. (1992). Feedback insensitive mutation of 3-deoxy-D-arabino-heptulosonate-7-phosphate synthase caused by a single nucleotide substitution of Aro4 structural gene in Saccharomyces cerevisiae. J. Ferment Bioeng. 74, 117-119. 32. Barton, G.J. (1993). ALSCRIPT - A tool to format multiple sequence alignments. Prot. Eng. 6, 37-40. 33. Carson, M. and Bugg, C.E. (1986). Algorithm for Ribbon Models of Proteins. J. Mol. Graph. 4, 121-122. 34. Kraulis, P.J. (1991) MOLSCRIPT: A program to produce both detailed and schematic plots of protein structure. J. Appl. Crystallogr. 24, 946-950.
+
+

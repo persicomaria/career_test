@@ -1,0 +1,280 @@
+275
+
+The structure of telomeric DNA
+Stephen NeidleÃ and Gary N Parkinson
+The telomere is a nucleoprotein complex located at the ends of eukaryotic chromosomes. It is essential for maintaining the integrity of the genome. It is not a linear structure and, for much of the cell cycle, telomeric DNA is maintained in a loop structure, which serves to protect the vulnerable ends of chromosomes. Many of the key proteins in the telomere have been identified, although their interplay is still imperfectly understood and structural data are only available on a few. Telomeric DNA itself comprises simple guanine-rich repeats for most of its length, culminating in a short overhang of single-stranded sequence at the extreme 30 ends. This can, at least in vitro, fold into a wide variety of four-stranded quadruplex structures, many of whose arrangements are being revealed by crystallographic and NMR studies.
+Addresses Cancer Research UK Biomolecular Structure Group, The School of Pharmacy, University of London, 29­39 Brunswick Square, London WC1N 1AX, UK Ã e-mail: stephen.neidle@ulsop.ac.uk
+
+Current Opinion in Structural Biology 2003, 13:275­283 This review comes from a themed issue on Nucleic acids Edited by Carl C Correll and David MJ Lilley 0959-440X/03/$ ­ see front matter ß 2003 Elsevier Science Ltd. All rights reserved. DOI 10.1016/S0959-440X(03)00072-1
+
+Abbreviations DSB double-strand break EM electron microscopy NHEJ nonhomologous end joining OnTEBP O. nova telomere end-binding protein
+
+Eukaryotic chromosomes are linear and are terminated by telomeres, comprising noncoding DNA within nucleoprotein complexes that are very distinct from the normal chromatin of the genome. The primary function of these telomeric complexes is to protect chromosomes from recombination, exonuclease degradation and end-toend fusion. Telomeric DNA ranges in size from 2 to 10 kb in Homo sapiens [1,2]. It consists of tandem repeats of short guanine-rich sequences, such as d(TTAGGG) in mammals and d(TTTTGGGG) in the protozoa Oxytricha nova. Replication of eukaryotic chromosomes by DNA polymerase cannot fully copy the ends of telomeric DNA [3], as the polymerase is unable to fully replicate the extreme 30 end of a DNA sequence in the absence of a template strand; this is known as the `end-replication effect'. Consequently, each replicative cycle of the cell results in the erosion of the parental guanine-rich 30 end and telomeric DNA progressively shortens in the absence of any compensating mechanism. The shortening, by approximately 50­100 bases per round of cell division, continues until the critical state of replicative senescence is reached, when no further replication takes place. The situation is very different in stem and germ line cells, in which it is vital that the noncoding telomeric DNA at chromosome ends be replenished to prevent cell death or any loss of genetic information upon repeated shortening. This telomere stabilisation is accomplished by the activation, in late S phase, of the reverse transcriptase ribonucleoprotein telomerase, a unique DNA polymerase that binds to the guanine-rich 30 end of telomeric DNA and synthesises the addition of further hexanucleotide repeats onto the end using its own endogenous RNA template [4]. In contrast to somatic cells, tumour cells do not shorten during replication and instead have short yet stable telomeres. In most cases, this stabilisation is also accomplished by telomerase, which is expressed in over 80­85% of proliferating tumour cells [5]. Telomerase thus plays a key role in maintaining the malignant phenotype by stabilising telomere length and integrity [6]. The current intense activity in the study of telomeres and telomerase is, in a large part, due to these fundamental differences in telomere maintenance between somatic and tumour cells, which constitute one of the key hallmarks of cellular immortalisation and cancer [6]. This in turn has led to increasing interest in the study of telomeres as potential therapeutic targets in oncology [7,8]. This review will examine the current state of knowledge of the structures formed by telomeres in terms of both their overall organisation and association with telomeric
+Current Opinion in Structural Biology 2003, 13:275­283
+
+Introduction
+We are accustomed to the contrast between the richness of structural diversity and complexity shown by RNA molecules and the structural monotony of DNA in the DNA double helix, even taking into account the relatively minor features of sequence dependency in the double helix. However, when given the opportunity, DNA can also fold and form complex three-dimensional structures, in ways that can still surprise us, 50 years after the discovery of the double helix. To be able to do so, DNA needs to be released from its duplex base-pairing constraints. This freedom occurs naturally at the extreme 30 ends of eukaryotic chromosomes, where the final few bases (from a few tens in yeast up to approximately two hundred in man) are single stranded.
+www.current-opinion.com
+
+276 Nucleic acids
+
+and other proteins, and the detailed structures of the telomeric DNA­protein complexes, several of which are involved in maintaining chromosomal integrity, replication and protection against fusion. We shall also discuss the varied patterns of folding of telomeric DNAs and their implications for the maintenance of telomere integrity and function.
+
+Figure 1
+
+(a) C1
+
+Groove H2N HN N NH H2 N O N NH N C1 Groove N NH2 N N O HN O O N
+
+C1 N
+
+N
+
+N
+
+N
+
+Overall organisation
+Telomeric DNA in all eukaryotic cells is double stranded for most of its length. The solution structure of the human TRF1 protein bound to a 13-mer DNA duplex containing two telomeric repeats shows that the DNA adopts a canonical B-form conformation [9]. TRF1 is a negative regulator of telomere extension that binds duplex TTAGGG repeats. The extreme 30 ends (of the 50 to 30 guanine-rich strand) of all telomeres are single stranded, with those of human [10] and murine telomeres [11] having been the most studied. The precise length of this 30 overhang in human chromosomes remains controversial, although most studies concur in assigning an average length of 100­200 bases for human telomeres [10]. This is much longer than in protozoa or Saccharomyces cerevisiae, for which the average overhang length is 10­20 bases. The rate of telomere shortening in mammalian cells during successive rounds of replication depends on overhang length [12]. It has been reported that the template cytosine-rich leading strand can also transiently form a single-stranded 50 overhang [13] whose length depends on the proliferative rate. This is only possible if there is incomplete replication in S phase of the leading strand by the polymerase machinery.
+Groove
+
+Groove NH2 N
+
+C1
+
+(b)
+
+`Simple' guanine quadruplexes
+The guanine-rich sequences of telomeric DNAs are susceptible to the formation of nonduplex structures as a consequence of the propensity of guanine bases to associate with each other in a stable hydrogen-bonded arrangement, the G-quartet (Figure 1a). This arrangement, necessarily involving four DNA strands, can result in a variety of four-stranded quadruplex structural types [14], whose features depend on several factors: 1. Whether the quadruplex is formed from one, two or four separate strands. 2. The pattern of strand orientation. 3. The nature of the sequences intervening between the runs of guanines in telomeric DNA repeats, in terms of their sequence and length. 4. The nature of the associated alkali metal ions (sodium or potassium). These are necessary for quadruplex stability, because they coordinate the O6 guanine atoms in a G-quartet. In general, potassium ions, at physiological concentrations, provide optimal stability. Different metal ions can induce conformational change, which, depending on the quadruplex, can be profound, as in the case of the intramolecular quadruplex formed
+Current Opinion in Structural Biology 2003, 13:275­283
+
+Current Opinion in Structural Biology
+
+The fundamental features of G-quadruplexes: the G-tetrad and strand orientations. (a) The arrangement of hydrogen bonds between guanines in a G-tetrad. (b) The possible orientations of four DNA strands.
+
+by the four-repeat sequence d[AGGG(TTAGGG)3], described in detail below. Four distinct strand orientations are possible for quadruplexes (Figure 1b). That with all strands parallel was first observed for the simple intermolecular quadruplex formed by d(TGGGGT) [15]. It had been assumed that this arrangement was particular to intermolecular quadruplexes and that all quadruplexes involving one or two telomere strands would adopt one of the three parallel/antiparallel arrangements. This would enable the intervening sequences that occur between G-tetrad-forming guanine sequences to be accommodated as loops linking parallel and antiparallel strands.
+www.current-opinion.com
+
+The structure of telomeric DNA Neidle and Parkinson 277
+
+The structures of the dimeric quadruplexes formed by two strands of the telomeric DNA repeat sequence from the ciliate O. nova show striking variability with even small changes in sequence. The nature of the fold of the quadruplex formed by two strands of d(GGGGTTTTGGGG) was controversial until recently. An initial crystal structure analysis suggested a dimeric hairpin with all adjacent strands antiparallel, such that the d(TTTT) loops are formed between adjacent strands. However, NMR studies, initially on the same sodium form, found a distinct arrangement, with parallel/antiparallel strand orientations and diagonal loops formed from opposite strands. This structure, which results from a particular pattern of alternating anti and syn glycosidic angles, was also subsequently observed in an NMR study [16] of the potassium form. It was initially suggested that this represents one of the few occasions when X-ray and NMR analyses differ, possibly because of contrasting experimental conditions or, less likely, as a consequence of the different metal ions. A subsequent crystal structure of the sodium-bound quadruplex located in a cavity of the O. nova single-strand telomere-binding protein complex [17] reveals the same arrangement as the NMR analyses. This has been confirmed by the recent X-ray study of
+Figure 2
+
+Kþ­d(GGGGTTTTGGGG), which crystallises in two crystal forms [18], both of which have identical folds (Figure 2a) in the NMR and protein-associated structures, in accordance with the conformation deduced from Raman spectroscopy [19]. Thus, for this quadruplex at least, changes in alkali metal ions do not effect conformational change. The sequence with one fewer 30 guanine, d(GGGGTTTTGGG), also forms a dimeric quadruplex, but with a distinctive, asymmetric fold [20] involving just three stacked G-quartets, rather than the four in the d(GGGGTTTTGGGG) structure. The two guanines not involved in the G-quartets are unpaired and are involved in stacking interactions with the G-quartet face and a thymine in the adjacent T4 loop (Figure 2b). Yet another arrangement is seen in the intramolecular quadruplex formed by four repeats of the Oxytricha sequence [21], which contains a stack of four G-quartets linked by a diagonal T4 loop at one end and two lateral T4 loops at the other end. Molecular dynamics simulations [22] have confirmed the stability of the core stack of G-quartets in these quadruplexes, although the force-field parameters commonly used for metal ions in nucleic acid simulations
+
+(a)
+
+(b)
+
+(c)
+
+(d)
+
+(e)
+
+(f)
+
+Lateral loops
+
+(g)
+
+3
+anti
+
+anti
+
+syn
+
+External TTA loops 3
+
+5
+
+Diagonal loop
+
+5
+Current Opinion in Structural Biology
+
+(a­e) Ribbon diagrams of various telomeric DNA quadruplex structures. (a) d(G4T4G4) from Oxytricha [18]. (b) d(G4T4G3) [20]. (c) d[AG3(T2AG3)3] in Naþ solution [24]. (d) d[AG3(T2AG3)3] with Kþ in the crystal [25]. (e) d(C2AT2C2AT2C2T3C2) in solution -- the i-motif [30]. (f,g) Representations of the folds in structures (c,d), respectively. www.current-opinion.com Current Opinion in Structural Biology 2003, 13:275­283
+
+278 Nucleic acids
+
+do not fully reproduce the experimental coordination geometries [16,18]. By no means all quadruplexes of interest can be crystallised to obtain this information. A promising technique to resolve this is high-field solidstate NMR, which has been shown to be capable of locating sodium ions in the `model' quadruplex formed by d(TGGGGT) [23].
+
+Quadruplexes from human telomere repeats
+The NMR structure of the sodium form of the intramolecular quadruplex formed by (almost) four repeats of d(TTAGGG) in the 22-mer sequence d[AGGG(TTAGGG)3] was reported several years ago [24]. It comprises (Figure 2c,f) a core of three G-quartets held together by strands in alternating orientations. This results in two lateral and one diagonal d(TTA) loop at the G-quartet ends. The crystal structure [25] of the potassium form, crystallised under approximately physiological ionic conditions, shows a strikingly distinct arrangement, with all four strands parallel (Figure 2d,g). This results in all three d(TTA) loops being external to the core and positioned alongside the grooves, rather than at the ends of the G-quartet stack. The overall structure thus has a highly asymmetric propeller shape, in contrast to the compact globular organisation of the sodium form. The dimeric quadruplex formed by two d(TTAGGG) repeats [25] has the same propeller and loop architecture. This, together with the observation of an identical conformation for all the loops, strongly suggests that these structures are not artefacts of crystal lattice forces. The reasons for this large-scale Naþ!Kþ ion-induced structural transition are yet to be fully elucidated; major changes in structure have previously been noted in circular dichroism studies of the transition [26], although it had not been possible to assign structures to the individual species. The human parallel intramolecular quadruplex can only have guanine­guanine base­base hydrogen bonding within the stack of G-quartets. However, the 12-mer dimer of two telomere repeats [25] also has a TATA base quartet that arises from the d(TTA) tracts at the end of each strand [the loops are formed from the d(TTA) in the centre]. Evidence of an A-quartet has been found in an NMR study [27] of short truncated human telomere sequences that form intermolecular quadruplexes. Our knowledge of possible G-quadruplex structures is far from complete and it is not possible as yet to define general rules governing the folding of human telomeric repeats; however, a few guidelines are already apparent. Firstly, G-quadruplexes tend to have all strands parallel when associated with potassium ions, regardless of the number of separate strands involved. Secondly, G-, Aand ATAT- hydrogen-bonded quartets are possible. Yet others may also be stable, especially if buried within a stack of G-quartets.
+Current Opinion in Structural Biology 2003, 13:275­283
+
+We are accustomed to considering that these G-quadruplexes arise from the folding of single-stranded telomeric DNA, that is, the 30 overhang. However, they may also be formed from duplex telomeric DNA under appropriate ionic and pH conditions [28], as well as by the influence of appropriate proteins or ligands. This possibility has been demonstrated in a sequence analogous to that of the telomere -- the guanine-rich nuclease hypersensitive promoter sequence of the c-myc oncogene. The formation of a quadruplex structure, driven by the presence of the quadruplex-binding porphyrin ligand TMPy4, was observed [29]. The complementary cytosine-rich strand, both in this sequence and in duplex telomeric DNA, can also form nonstandard structures, built upon the i-motif. This category of four-stranded structure is only stable at low pH, as it involves Cþ C base pairs. The NMR structure of a 22-mer cytosine-rich telomere sequence (complementary to the guanine-rich one studied by NMR and crystallography [24,25]) has been reported [30]. It shows an intramolecularly folded structure with six intercalated Cþ C base pairs (the i-motif part) linked by three d(AAT) hairpin-type loops (Figure 2e). It is likely that analogous loops exist in the cytosine-rich strand of the c-myc sequence and these may also be stabilised by the TMPy4 ligand used in these studies [29]. The c-myc study has also answered the question of the biological existence of quadruplexes, at least in the special context of the c-myc promoter sequence. The existence of telomeric quadruplexes has been demonstrated in the macronuclei of the ciliate Stylonychia lemnae using specific antibodies generated against T4G4 sequences [31]. An analogous study has not yet been reported for human telomeres, although quadruplex-type structures may be involved in telomere loop regions (see below) and several telomere-associated proteins, such as Cdc13, do bind quadruplex DNA with high affinity. The propeller fold [25], which is a highly economical mode of packaging DNA, may be present at the extreme 30 telomere terminus as an effective mode of end capping, competing with proteins such as telomerase. Regardless of the existence of native human quadruplexes, they have recently received attention in the context of telomerase inhibition [7,8,32] as a potential anticancer therapy. It has been suggested that the induction of quadruplex formation in telomeric DNA 30 overhang repeats would effectively inhibit the first step in the enzyme's cycle of DNA synthesis and telomere stabilisation. Several ligands have been shown to both inhibit telomerase and bind to human repeat quadruplexes [33]. Rational computer-aided design [34] and screening of large chemical libraries [35] have subsequently resulted in the discovery of further, highly potent ligands, some of which are currently being evaluated for potential human clinical trial. There is as yet no crystal structure of any
+www.current-opinion.com
+
+The structure of telomeric DNA Neidle and Parkinson 279
+
+such ligand bound to a human quadruplex structure. Analysis [36] of a ligand complexed to an Oxytricha dimeric quadruplex has shown some general features that can help to guide further ligand design, notably that ligand binding takes place on the exterior of a G-quartet stack and may involve interactions with bases in loop regions.
+
+Higher-level telomere organisation
+The ends of linear chromosomes need to be delineated from damaged DNA or the double-strand break (DSB) repair mechanism would be activated. This `capping' of the DNA ends would be expected to take several forms during the progression of the cell cycle. Capping structures need to be dynamic, allowing substrate access to telomeric DNA during synthesis and telomere extension. Particularly during replication, in S phase, linear chromosomes will have to be delineated from DSBs so as not to interfere with cell cycle progression to the G2 phase. One such telomere structure, termed the t-loop/D-loop (telomere loop and displacement loop, respectively) (Figure 3), has been observed in electron micrographs of nuclear extracts of HeLa cells stabilised by crosslinking agents [37]. These EM studies have revealed that telomeres are not linear, but can form looped foldback structures whose stability depends, in a large part, on the involvement of the TRF1 and TRF2 proteins. The atomic-level structural details of the loop are not known, but the 30 overhang must be incorporated in some manner into the terminal part of the double-stranded
+Figure 3
+
+telomeric region. Figure 3 shows the t-loop/D-loop with the array of telomeric proteins that have been identified to date as having direct or indirect association with telomeric DNA. The D-loop region involves the insertion of the 30 end into a duplex, which may include a Holliday-type junction or a quadruplex fold, together with a triple-stranded region where the 30 overhang has strand-invaded the duplex. TRF1 and TRF2 [38] are both associated with and critical to the formation of the t-loop and D-loop structures. They bind specifically to telomeric double-stranded DNA (Figure 4). Structural details are now available for the TRF1 complex [9], as well as for a few other telomerebinding proteins [39]. Supporting evidence for the role of these associated proteins comes from results showing that overexpression of TRF2 increased the rate of telomere shortening in primary cells without accelerating senescence [40], indicating its role in stabilising and protecting shortened telomeres, and preventing replicative senescence. The loss of functional TRF2 in human cells results in the generation of end-to-end chromosomal fusions by DNA ligase IV dependent nonhomologous end joining (NHEJ). The involvement of NHEJ in telomere fusions is paradoxical because the NHEJ factors Ku70/80 and DNA PKCs are present at telomeres and protect chromosome ends from fusion [41]. TRF1 has been found to be a negative regulator of telomere length and specifically affects mitotic progression. Other capping structures
+
+Ku
+
+Tin2
+
+TNKS
+
+Formation of the t-loop/D-loop is TRF2 dependent
+
+5
+
+Pot1
+
+3 EB1 TRF1
+
+TRF2 Nucleosomes
+
+hRap1
+Current Opinion in Structural Biology
+
+The end of the human chromosome: the telomeric t-loop/D-loop model. www.current-opinion.com Current Opinion in Structural Biology 2003, 13:275­283
+
+280 Nucleic acids
+
+Figure 4
+
+TRF1 (PDB code 1IV6)
+
+TRF2 (PDB code 1H6P)
+
+Telomere
+
+DS
+
+Human
+
+TRF2
+
+TRF1
+
+hPot1
+
+Telomere
+
+DS
+
+Oxytricha
+
+TEBP
+
+TEBP Cdc13 (PDB code 1KXL)
+
+Telomere
+
+DS
+
+Budding yeast
+
+Cdc13p
+
+scRap1p
+
+Ten1p/Stn1p
+
+Telomere
+
+DS
+
+Fission yeast
+
+Taz1 = TRF2
+
+Pot1
+Current Opinion in Structural Biology
+
+Telomere-associated proteins from different species, including those for which structural data are available. The right-hand panels show threedimensional structures of those telomere-associated proteins for which structural data are currently available.
+
+may include quadruplexes formed from the singlestranded 30 overhang of telomeric DNA. Another type of chromosomal capping can come from single-stranded DNA binding proteins that bind specifically to guaninerich telomeric DNA sequences. Of particular interest is the human protein hPot1, which has been shown to specifically bind to the single-stranded 30 overhang [42,43] of the human telomeric sequence and has been identified in many species, playing an as yet undetermined role in the capping of chromosomes. However, deletion of the pot1þ gene results in the loss of telomeric DNA and end-to-end fusions. Pot1 in humans and fission yeast was identified through weak sequence similarity to the a subunit of the O. nova telomere end-binding protein (OnTEBP) [42], whose crystal structure has been determined bound to a single-stranded telomeric DNA sequence [44] (Figure 4). Homology to the b subunit of OnTEBP, part of the ternary complex found in Oxytricha, has not yet been identified in higher eukaryotes. In the D-loop model, the 30 end of the DNA may still be available for Pot1 binding (Figure 3). It is conceivable
+Current Opinion in Structural Biology 2003, 13:275­283
+
+that ligands with a high propensity to fold single-stranded telomeric DNA into stable quadruplexes [34,35] would effectively compete with the end-capping functions of Pot1 or telomerase itself, thus destabilising the t-loop and establishing the onset of senescence. Uncapping or destabilisation of the D-loop by the activity of Werner's syndrome helicase WRN RecQ-like helicase from Escherichia coli active in DNA repair has also been examined using a DNA substrate that mimics an intermediate formed during the strand-invasion step of many recombinational processes. WRN is found to be specifically bound to the D-loop DNA model substrate, disrupting it via its helicase activity [45]. In human cells, WRN is found to co-localise with, as well as physically interact with, the critical telomere maintenance protein TRF2. This contact is mediated by the RecQ conserved C-terminal region of WRN. In vitro, TRF2 has been shown to have a high affinity for another RecQ family member, the Bloom's syndrome protein (BLM) [46]. This protein is a helicase that preferentially binds
+www.current-opinion.com
+
+The structure of telomeric DNA Neidle and Parkinson 281
+
+Figure 5
+
+200­354C-ter close to cysteine proteinase Loss of TRF2 reduces G-strand stability and activates the ATM/P53 DSB checkpoint pathway Tin2 DNA repair Negative hRAD1 hHUS1 regulation hRAD9 TRF2 5- TTAGGGTTAGGG AATCCCAATCCC TRF1 TELOMERE DS
+
+Sp1
+
+Myc
+
+Max
+
+GC box regulation
+
+E box regulation
+Ku70/80
+
+hTERT hPot1 3 TERC
+
+Chromatin TPE K-like proteins bind the cytosinerich strand
+
+hRap1
+
+TNKS
+Tankyrase
+
+hStau
+
+hTEP1
+
+L22
+
+Polymerase with 24 TNKS repeats
+
+p80 homology no zinc motif binds specifically to RNA
+Current Opinion in Structural Biology
+
+The human telomere and associated proteins. The double strand (DS) and the 30 single-stranded overhang of telomeric DNA are shown in green.
+
+quadruplex DNA and unwinds it in an ATP-dependent manner [47]. It is notable that several trisubstituted acridine ligands developed as telomerase inhibitors [34] are also potent inhibitors of the helicase activity of both the BLM and WRN proteins for both G-quadruplex and B-form DNA substrates. Inhibition of their helicase activity is associated with a reduction in the level of binding of the helicase to G-quadruplex DNA and a reduction in the degree to which the G-quadruplex DNA can support DNA-dependent ATPase activity [48].
+
+Besides the specific proteins associated solely with the telomere complex, other proteins involved in the DNA repair machinery, such as ATM, BRCA1, BRCA2, the PARP/tankyrase system, DNA PK and the RAD50­ MRE11­NBS1 complexes, are also closely linked to the telomere (Figure 5). This suggests that the telomere sequesters DNA repair proteins for its own structural maintenance, as well as for transmission, when required, toward damaged sites in the genome remote from the telomere. In humans, the senescence-induced p53 or p16(INK4a)/ Rb pathways are activated by telomere disruption either by shortened telomeres or by the removal of TRF2 [51]. However, the pathway from telomere damage to a p53 or p16(INK4a)/Rb response is not yet known. This duel sensing pathway is in contrast to the situation in mouse cells, in which the p16/Rb pathway is not activated by short telomeres or dysfunctional TRF2. The immortalisation of human cells, including fibroblasts, epithelial cells, telomerase-positive cells and ALT-positive cells, is associated with the inactivation of both p16(INK4a) and Rb [52].
+
+Regulation of telomere length
+Several proteins that regulate telomere length and possible structure have been identified, notably TIN2, tankyrase and Rap1 (Figure 5). TIN2, in common with TRF1 and TRF2, is a negative regulator of telomere length, whereas tankyrase and Rap1 act as positive regulators, although neither tankyrase nor Rap1 are observed to be up-regulated in cancer cells [49]. TIN2 and tankyrase are associated with TRF1 and do not directly contact telomeric DNA. The Ku70/80 heterodimer, essential for NHEJ DSB repair, is localised in telomeric regions of DNA. Ku70 inactivation in Arabidopsis results in telomere lengthening, which is telomerase dependent. Ku also regulates the cytosine-rich strand and is required for the maintenance of the telomeric cytosine-rich strand, but is not required for end-to-end chromosomal fusion in Arabidopsis [50].
+www.current-opinion.com
+
+Conclusions
+The telomere, as the guardian of the chromosome, performs essential functions that are regulated as part of the cell cycle, although many details of the events and players in telomere maintenance are as yet unclear. Does it
+Current Opinion in Structural Biology 2003, 13:275­283
+
+282 Nucleic acids
+
+involve the structural polymorphism of telomeric DNA and its ability to form stable quadruplex structures? We await structural and other data showing specific quadruplex­protein recognition (and eventually structures of the complete telomeric DNA­protein complex [the telomosome]), but meanwhile quadruplexes themselves continue to be a fertile area for study, in their own right and as therapeutic targets.
+
+nova telomere repeat oligonucleotide d(G4T4G4). Nucleic Acids Res 1999, 27:3018-3028. ° 17. Horvath MP, Schultz SC: DNA G-quartets in a 1.86 A resolution structure of an Oxytricha nova telomeric protein-DNA complex. J Mol Biol 2001, 310:367-377. 18. Haider SM, Parkinson GN, Neidle S: Crystal structure of the potassium form of an Oxytricha nova G-quadruplex. J Mol Biol 2002, 320:189-200. 19. Krafft C, Benevides JM, Thomas GJ Jr: Secondary structure polymorphism in Oxytricha nova telomeric DNA. Nucleic Acids Res 2002, 30:3981-3991.  20. Crnugelj M, Hud NV, Plavec J: The solution structure of  d(G4T4G3): a bimolecular quadruplex with a novel fold. J Mol Biol 2002, 320:911-924. A detailed NMR analysis, showing that even a minor sequence difference can result in major structural changes to the folding of the Oxytricha quadruplex. 21. Wang Y, Patel DJ: Solution structure of the Oxytricha telomeric repeat d[G4(T4G4)3] G-tetraplex. J Mol Biol 1995, 251:76-94.    22. Spackova N, Berger I, Sponer J: Nanosecond molecular dynamics simulations of parallel and antiparallel guanine quadruplex DNA molecules. J Am Chem Soc 1999, 121:5519-5534. 23. Rovnyak D, Baldus M, Wu G, Hud NV, Feigon J, Griffin RG: Localisation of 23 Naþ in a DNA quadruplex by high-field solid-state NMR. J Am Chem Soc 2000, 122:11423-11429. 24. Wang Y, Patel DJ: Solution structure of the human telomeric repeat d[AG3(T2AG3)3]. Structure 1993, 1:263-282. 25. Parkinson GN, Lee MHP, Neidle S: Crystal structure of parallel  quadruplexes from human telomeric DNA. Nature 2002, 417:876-880. The crystal structures of quadruplexes formed from 12- and 22-mer human telomere sequences are reported, both containing bound potassium ions. The 22-mer sequence is identical to that used in the earlier NMR study [24]. Both structures show the same features of all-parallel strands and external d(TTA) loops, resulting in flattened, propellershaped structures that can readily stack one upon the other. The loops show marked conservation of structure; in every one, the adenine base is found to be intercalated between the two thymines. 26. Balagurumoorthy PB, Brahmachari SK: Structure and stability of human telomeric sequences. J Biol Chem 1994, 269:21858-21869. 27. Patel PK, Koti ASR, Hosur RV: NMR studies on truncated sequences of human telomeric DNA: observation of a novel A-tetrad. Nucleic Acids Res 1999, 27:3836-3843. 28. Phan AT, Mergny J-L: Human telomeric DNA: G-quadruplex, i-motif and Watson-Crick double helix. Nucleic Acids Res 2002, 30:4618-4625. 29. Siddiqui-Jain A, Grand CL, Bearss DJ, Hurley LH: Direct evidence  for a G-quadruplex in a promoter region and its targeting with a small molecule to repress c-MYC transcription. Proc Natl Acad Sci USA 2002, 99:11593-11598. An elegant demonstration that the quadruplex-binding porphyrin ligand can induce a quadruplex structure to be formed within a duplex sequence and that this can inhibit transcription of the c-myc gene. The study used site-directed mutagenesis to show that a single base change in the putative quadruplex-forming sequence abolished both quadruplex formation and transcription inhibition. ´ 30. Phan AT, Gueron M, Leroy J-L: The solution structure and internal motions of a fragment of the cytidine-rich strand of the human telomere. J Mol Biol 2000, 299:123-144. ¨ 31. Schaffitzel C, Berger I, Postberg J, Hanes J, Lipps HJ, Pluckthun A:  In vitro generated antibodies specific for telomeric guaninequadruplex DNA react with Stylonychia lemnae macronuclei. Proc Natl Acad Sci USA 2001, 98:8572-8577. Specific antibodies were generated for a 16 base pair sequence based on the ciliate repeat d(T4G4). The antibody probes selected have affinities in the low nanomolar range and showed specific reaction with the macronuclei of this ciliate, providing evidence of the existence of quadruplexes in vivo; these appear only during nonreplicative stages. 32. Kerwin SM: G-quadruplex DNA as a target for drug design. Curr Pharm Des 2000, 6:441-478. www.current-opinion.com
+
+References and recommended reading
+Papers of particular interest, published within the annual period of review, have been highlighted as:  of special interest  of outstanding interest 1. 2. 3. 4. Cech TR: Life at the end of the chromosome: telomeres and telomerase. Angew Chem Int Ed Engl 2000, 39:34-43. Blackburn EH: Switching and signaling at the telomere. Cell 2001, 106:661-673. Bryan TM, Cech TR: Telomerase and the maintenance of chromosome ends. Curr Opin Cell Biol 1999, 11:318-324. Greider CW, Blackburn EH: Identification of a specific telomere terminal transferase activity in Tetrahymena extracts. Cell 1985, 43:405-413. Kim NW, Piatyszek MA, Prowse KR, Harley CB, West MD, Ho PLC, Coviello GM, Wright WE, Weinrich R, Shay JW: Specific association of human telomerase activity with immortal cells and cancer. Science 1994, 266:2011-2015.
+
+5.
+
+6. Hanahan D, Weinberg RA: The hallmarks of cancer. Cell 2000,  100:57-70. A key survey of the molecular origins of human cancer, highlighting the role of telomere maintenance and telomerase. 7. Rezler EM, Bearss DJ, Hurley LH: Telomere inhibition and telomere disruption as processes for drug targeting. Annu Rev Pharmacol Toxicol 2003, 43:359-379. Neidle S, Parkinson G: Telomere maintenance as a target for anticancer drug discovery. Nature Rev Drug Discovery 2002, 1:383-393.
+
+8.
+
+¨ Nishikawa T, Okamura H, Nagadoi A, Konig P, Rhodes D, Nishimura Y: Solution structure of a telomeric DNA complex of human TRF1. Structure 2001, 9:1237-1251. This paper describes the NMR solution structure of the DNA-binding domain of the human TRF1 telomere-binding protein bound to two repeats of human telomeric DNA. One helix of TRF1 is involved in sequence-specific binding to the TTAGGG repeat, using both major and minor groove hydrogen bonding. 9.  10. Wright WE, Tesmer VM, Huffman KE, Levene SD, Shay JW: Normal human chromosomes have long G-rich telomeric overhangs at one end. Genes Dev 1997, 11:2801-2809. 11. Hemann MT, Greider CW: G-strand overhangs on telomeres in telomerase-deficient mouse cells. Nucleic Acids Res 1999, 27:3964-3969. 12. Huffman KE, Levene SD, Tesmer VM, Shay JW, Wright WE: Telomere shortening is proportional to the size of the G-rich telomeric 30 -overhang. J Biol Chem 2000, 275:19719-19722. 13. Cimino-Reale G, Pascale E, Alvino E, Starace G, D'Ambrosio E: Long telomeric C-rich 50 tails in human replicating cells. J Biol Chem 2003, 278:2136-2140. 14. Simonsson T: G-quadruplex DNA structures ­ variations on a theme. Biol Chem 2001, 382:621-628. 15. Phillips K, Dauter Z, Murchie AIH, Lilley DMJ, Luisi B: The crystal ° structure of a parallel-stranded guanine tetraplex at 0.95 A resolution. J Mol Biol 1997, 273:171-182. 16. Schultze P, Hud NV, Smith FW, Feigon J: Refined solution structure of the dimeric quadruplex formed from the Oxytricha Current Opinion in Structural Biology 2003, 13:275­283
+
+The structure of telomeric DNA Neidle and Parkinson 283
+
+33. Sun D, Thompson B, Cathers BE, Salazar M, Kerwin SM, Trent JO, Jenkins TC, Neidle S, Hurley LH: Inhibition of human telomerase by a G-quadruplex-interactive compound. J Med Chem 1997, 40:2113-2116. 34. Read MA, Harrison RJ, Romagnoli B, Tanious FA, Gowan SM,  Reszka AP, Wilson WD, Kelland LR, Neidle S: Structure-based design of selective and potent G quadruplex-mediated telomerase inhibitors. Proc Natl Acad Sci USA 2001, 98:4844-4849. Rational structure approaches were used to design ligands with enhanced selectivity for the human 22-mer G-quadruplex, and increased selectivity and potency for telomerase inhibition. 35. Riou J-F, Guittat L, Mailliet P, Laoui A, Renou E, Petitgenet O, ´ ´ `  Megnin-Chanet F, Helene C, Mergny J-L: Cell senescence and telomere shortening induced by a new series of specific G-quadruplex DNA ligands. Proc Natl Acad Sci USA 2002, 99:2672-2677. The authors demonstrate that G-quadruplex-binding ligands cause telomere shortening and replicative senescence. 36. Haider SM, Parkinson GN, Neidle S: Structure of a G-quadruplex ligand complex. J Mol Biol 2003, 326:117-125. This paper reports the crystal structure of an acridine derivative specifically bound within one of the d(TTTT) loops of the Oxytricha G-quadruplex. 37. Griffith JD, Comeau L, Rosenfield S, Stansel RM, Bianchi A, Moss H, de Lange T: Mammalian telomeres end in a large duplex loop. Cell 1999, 97:503-514. 38. Stansel RM, de Lange T, Griffith JD: T-loop assembly in vitro involves binding of TRF2 near the 30 telomeric overhang. EMBO J 2001, 20:5532-5540. 39. Rhodes D, Fairall L, Simonsson T, Court R, Chapman L: Telomere architecture. EMBO Rep 2002, 3:1139-1145. 40. Karlseder J, Smogorzewska A, de Lange T: Senescence induced by altered telomere state, not telomere loss. Science 2002, 295:2446-2449. 41. Smogorzewska A, Karlseder J, Holtgreve-Grez H, Jauch A, de Lange T: DNA ligase IV-dependent NHEJ of deprotected mammalian telomeres in G1 and G2. Curr Biol 2002, 12:1635-1644. 42. Baumann P, Cech TR: Pot1, the putative telomere end-binding protein in fission yeast and humans. Science 2001, 292:1171-1175.
+
+43. Lei M, Baumann P, Cech TR: Cooperative binding of  single-stranded telomeric DNA by the Pot1 protein of Schizosaccharomyces pombe. Biochemistry 2002, 41:14560-14568. A detailed study of the binding of Pot1 to single-stranded telomeric DNA, showing that it binds sequence specifically and cooperatively, suggesting that several Pot1 molecules may be bound to the overhang in vivo. 44. Horvath MP, Schweiker VL, Bevilacqua JM, Ruggles JA, Schultz SC: Crystal structure of the Oxytricha nova telomere end-binding protein complexed with single strand DNA. Cell 1998, 95:963-974. 45. Orren DK, Theodore S, Machwe A: The Werner syndrome helicase/exonuclease (WRN) disrupts and degrades D-loops in vitro. Biochemistry 2002, 41:13483-13488. 46. Opresko PL, von Kobbe C, Laine JP, Harrigan J, Hickson ID, Bohr VA: Telomere-binding protein TRF2 binds to and stimulates the Werner and Bloom syndrome helicases. J Biol Chem 2002, 277:41110-41119. 47. Sun H, Karow JK, Hickson ID, Maizels N: The Bloom's syndrome helicase unwinds G4 DNA. J Biol Chem 1998, 273:27587-27592. 48. Li JL, Harrison RJ, Reszka AP, Brosh RM Jr, Bohr VA, Neidle S, Hickson ID: Inhibition of the Bloom's and Werner's syndrome helicases by G-quadruplex interacting ligands. Biochemistry 2001, 40:15194-15202. 49. Yamada M, Tsuji N, Nakamur M, Moriai R, Kobayashi D, Yagihashi A, Watanabe N: Down-regulation of TRF1, TRF2 and TIN2 genes is important to maintain telomeric DNA for gastric cancers. Anticancer Res 2002, 22:3303-3307. 50. Riha K, Shippen DE: Ku is required for telomeric C-rich strand maintenance but not for end-to-end chromosome fusions in Arabidopsis. Proc Natl Acad Sci USA 2003, 100:611-615. 51. Smogorzewska A, de Lange T: Different telomere damage  signaling pathways in human and mouse cells. EMBO J 2002, 21:4338-4348. This paper highlights some of the major differences in telomere biology between mice and humans. 52. Tsutsui T, Kumakura S, Yamamoto A, Kanai H, Tamura Y, Kato T, Anpo M, Tahara H, Barrett JC: Association of p16(INK4a) and pRb inactivation with immortalization of human cells. Carcinogenesis 2002, 12:2111-2117.
+
+www.current-opinion.com
+
+Current Opinion in Structural Biology 2003, 13:275­283
+
+

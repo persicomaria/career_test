@@ -1,0 +1,204 @@
+J Biomol NMR (2009) 44:113­118 DOI 10.1007/s10858-009-9317-z
+
+NMR STRUCTURE NOTE
+
+The NMR structure of the TC10- and Cdc42-interacting domain of CIP4
+Yoshihiro Kobashigawa Æ Hiroyuki Kumeta Æ Daisuke Kanoh Æ Fuyuhiko Inagaki
+
+Received: 27 January 2009 / Accepted: 6 April 2009 / Published online: 22 April 2009 Ó Springer Science+Business Media B.V. 2009
+
+Keywords Insulin
+
+CIP4 Á Coiled-coil Á GAPEX-5 Á GLUT4 Á
+
+Biological context Insulin stimulates glucose transport into striated (skeletal and cardiac) muscle and adipose tissue via the insulinresponsive glucose transporter GLUT4 (Chang et al. 2004). Since GLUT4 is continually recycled between general endocytotic compartments and specialized GLUT4 storage compartments (Bryant et al. 2002; Watson et al. 2004), the vast majority of GLUT4 resides within the cell in the basal state. Activation of insulin receptors by insulin binding triggers the relocation of GLUT4 vesicles to the cell surface (Jhun et al. 1992; Czech and Buxton 1993; Yang and Holman 1993). This increases the amount of GLUT4 on the plasma membrane and enhances glucose uptake into adipocytes and muscle cells (Bryant et al. 2002; Watson et al. 2004). CIP4 (Cdc42-interacting protein 4) was identified as a regulatory protein of GLUT4 relocation (Lodhi et al. 2007). CIP4 contains an N-terminal FCH domain (the nonkinase domain of the FER and Fes/Fps family of tyrosine
+
+Electronic supplementary material The online version of this article (doi:10.1007/s10858-009-9317-z) contains supplementary material, which is available to authorized users.
+Y. Kobashigawa Á H. Kumeta Á D. Kanoh Á F. Inagaki (&) Laboratory of Structural Biology, Graduate School of Pharmaceutical Sciences, Hokkaido University, Sapporo, Hokkaido 060-0812, Japan e-mail: finagaki@pharm.hokudai.ac.jp
+
+kinases) (Itoh et al. 2005), two central coiled-coil motifs and a C-terminal SH3 domain. The FCH domain together with the first coiled-coil motif interact with microtubules (Tian et al. 2000), while the second coiled-coil motif (comprising 332 to 425 of CIP4) is required for association with Rho-family GTPase proteins, Cdc42 (Aspenstrom 1997) and TC10 (Chang et al. 2002). The C-terminal SH3 domain associates with Gapex-5, a guanine nucleotide exchange factor for Rab31 (Lodhi et al. 2007). The CIP4 is predominantly located in intracellular compartments in adipocytes under basal conditions, but is relocated to the plasma membrane to bind GTP-loaded TC10 upon insulin stimulation (Chang et al. 2002). With the relocation of CIP4, Gapex-5 is also recruited to the plasma membrane. The Rab31 is found in the intracellular GLUT4-containing compartment, and is involved in the trafficking between endocytotic compartments and GLUT4 storage compartments (Lodhi et al. 2007). Translocation of the CIP4Gapex-5 complex upon insulin stimulation abolishes the interaction of Gapex-5 with Rab31 and leads to a decrease in the amount of activated Rab31; therefore, it is thought to be one of the mechanisms by which the exocytosis of GLUT4-containing vesicles to the plasma membrane is increased (Lodhi et al. 2007). Translocation of CIP4 is mediated by association with GTP-loaded TC10 localized at the plasma membrane. Insulin-stimulated activation of TC10 is indispensable for CIP4 translocation (Chang et al. 2002). Since the TC10 and Cdc42 binding region of CIP4 does not contain a known interaction motif that includes the CRIB (Cdc42 and Rac Interactive Binding) region (Chang et al. 2002), a plausible interaction mechanism remains elusive. Here, we report the solution structure of CIP4332­425 and study the mode of interaction of CIP4332­425 with both TC10 and Cdc42.
+
+123
+
+114
+
+J Biomol NMR (2009) 44:113­118
+
+Methods and results The CIP4332­425 was cloned into pGB1HPS (Kobashigawa et al. 2009) plasmid and expressed in E. coli at 25°C as GB1fusion protein. The GB1, hexahistidine tags and a HRV3C protease cleavage site was fused to the N-terminus of CIP4332­425. The protein was isotopically 13C- and 15Nlabeled by growing an E. coli strain Rossetta2 (DE3) in M9 minimal medium containing 15NH4Cl (1 g/l) and 13C-glucose (4 g/l) as sole nitrogen and carbon sources, respectively. Cells were grown at 37°C in M9 medium. Protein expression was induced by the addition of isopropyl-1-thiob-galctopyranoside to a final concentration of 1 mM at 25°C. The cells were then cultured at 25°C and lysed. The GB1- and hexahistidine-tag fused CIP4332­425 was purified using a Ni-NTA resin (Quiagen), and the GB1 and hexahistidine tags were cleaved from CIP4332­425 with HRV3C protease. The CIP4332­425 was then further purified using a Superdex75 gel filtration column (GE Healthcare Bio-Sciences). Finally, CIP4332­425 was concentrated to 0.5 mM and applied to NMR experiments. All NMR measurements were carried out at 25°C and the sample was prepared in 20 mM MES buffer (pH 6.3) and 150 mM NaCl in the presence of 1 mM DTT. Using the same buffer as was used in the NMR experiments, we applied CIP4332­425 to gel filtration chromatography and confirmed that CIP4332­425 exists in monomer in solution (Supplementary Fig. 1). Retention time of CIP4332­425 (11.5 kDa) was faster than GB1 (6.5 kDa), comparable with myoglobin (17.5 kDa) and slower than chymotripsinogen-A (25 kDa). As described below, CIP4332­425 exhibits anisotropic structure with the ° ° long axis of 70 A and the short axis of 27 A, and is deviated from the globular shape and therefore, it is reasonable that CIP4332­425 was eluted faster in gel filtration than expected from its molecular weight. Two- and three-dimensional NMR experiments were performed on Varian UNITY Inova spectrometers operating at 800 and 600 MHz. Spectra were processed using the NMRPipe program (Delaglio et al. 1995) and data analysis was performed with the help of the Sparky program (Kneller and Goddard 1997). 1H, 13C and 15N resonance assignments were carried out using the following suite of spectra; 1H-15N HSQC, 1H-13C HSQC, HN(CO)CA, HNCA, CBCA (CO)NH, HNCACB, HNCO, (HCA)CO(CA)NH, HBHA (CO)NH, HN(CA)HA, HC(C)H-TOCSY, (H)CCH-TOCSY, HbCbCgCdHd, HbCbCgCdCeHe, and HACAN. All the backbone amide proton and nitrogen resonances were assigned and nearly complete side-chain resonance assignments were accomplished. The 1H, 13C and 15N chemical shifts were referenced to DSS according to IUPAC recommendations. Interproton distance restraints for structural calculations were obtained from 13C-edited NOESY-HSQC and 15N-edited NOESY-HSQC spectra using a mixing time
+
+of 100 ms. The structure was calculated using the CYANA 2.1 software package (Herrmann et al. 2002). A total of 2,325 distance restraints were used as input for the final calculation of the three-dimensional structure of CIP4332­425 (Table 1). At each stage, 100 structures were calculated using 30,000 steps of simulated annealing, and a final ensemble of 20 structures was selected based on CYANA target function values. The atomic coordinates and resonance assignments have been deposited in the Protein Data Bank (PDB code: 2KE4) and BMRB (BMRB code: 16129), respectively. The overlay of the final ensemble of 20 structures and the ribbon model of the lowest energy structure of CIP4332­425 are shown in Fig. 1a, b, respectively. The Nterminal residues (332­338) exhibited flexible random structure characteristics. The core structure of CIP4332­425 spanning 339­421 consists of two a-helices, which pack together into an anti-parallel coiled-coil structure. The packing between the two helices was mediated by a regular array of Leu, Ile and Val residues located at sites a and d of the chemical wheel (Fig. 1c). To identify the TC10 and Cdc42 binding sites of CIP4332­425, non-labeled GTPcS-loaded TC10 and Cdc42 were titrated to 15N-labeled CIP4332­425. The GB1-tagged TC101­185 and Cdc421­179 were prepared in a manner similar to CIP4332­425 as described above. We used TC101­185 (Q67L) and Cdc421­179 (Q61L), constitutive active mutants that lack GTPase activity. GTPcS was loaded as described previously (Feltham et al. 1997). Upon addition of GTPcSloaded TC101­185 (Q67L) and Cdc421­179 (Q61L), several amide peaks disappeared in an intermediate exchange process (Fig. 2a left and right panel). Almost identical peaks of CIP4332­425 disappeared in both GTPcS-loaded TC101­185 (Q67L) and Cdc421­179 (Q61L) complexes, indicating that CIP4332­425 binds to both activated G proteins using the same region. The peaks that disappeared at an equivalent
+
+Table 1 Structural statistics of CIP4332­425 NOE distance constraints Short range (intraresidue and sequential) Medium range (2 B |i­j| B 4) Long range (|i­j| [ 4) ° Number of distance violations [ 0.3 A °) Structural coordinates rmsd (A Backbone atoms All heavy atoms Ramachandran plot Most favored regions Additionally allowed regions Generously allowed regions Disallowed regions 2,325 1,403 627 295 0 0.57 0.98 86.0% 13.8% 0.3% 0.0%
+
+123
+
+J Biomol NMR (2009) 44:113­118 Fig. 1 Solution structure of CIP4332­425. a Overlay of the ensemble of 20 final energyminimized CYANA structures in stereo with heavy atoms from 339 to 421 being superimposed. The side chains are shown in blue. b Ribbon diagram of the lowest energy structure. c Wheel analysis of the coiledcoil of CIP4332­425
+
+115
+
+(a)
+
+N
+
+C
+
+(b)
+
+N
+
+C
+(c)
+E353 K360 A367 V374 Q350 E357 Q364 M371 T378 Q390 N397 E404 W411 R418
+
+c
+Q349 R356 D363 K370 K377
+
+g
+
+L347 R354 E361 L368 Y375
+
+L387 T394 L401 Y408 A415
+
+g
+
+E393 R400 K407 E414
+
+c f
+P389 S396 L403 A410 S417
+
+d f a b
+E352 Q359 E366 D373
+
+d
+
+a
+I391 I398 V405 L412 V419
+
+e
+Q348 S355 V362 K369 E376
+
+L351 L358 R365 K372
+
+e
+E388 L395 K402 E409 E416
+
+b
+A392 E399 Q406 A413
+
+123
+
+116
+
+J Biomol NMR (2009) 44:113­118
+
+(a)
+TC10
+105
+G382
+
+105
+
+Cdc42
+
+G382
+
+110
+S386 T378 E366 T394 D383 K377 Q390 M381 D373 Q380 D363 E376 K369 L368 Y375 A392 N397 I391 A367 A364 M371 E388 V374 L387 T378
+
+110
+
+115
+
+115
+
+N ppm
+
+N ppm
+
+M381 Q380
+
+E366 T394
+
+D383 K377 Q390 D373 M371 E388 V374 L387
+
+D363 E376 K369 L368 E393 Y375 A392 N397 A364 I391 A367
+
+120
+
+120
+
+I398 R365 V362
+
+I398 R365 V362
+
+125
+
+125
+
+130 10.0 9.0 8.0 7.0 10.0 9.0 8.0 7.0
+
+130
+
+HN ppm
+
+HN ppm
+
+(b)
+
+N
+
+C 180°
+
+C
+
+N
+Fig. 2 a Overlay of the 1H-15N HSQC spectra of 15N-labeled CIP4332­425 in the absence (red) and presence of 1 molar equivalent of GTP-loaded TC101­185 (blue peaks in the left panel) and Cdc421­179 (blue peaks in the right panel). b Peaks that disappeared at 1 molar equivalent molar ratio of TC101­185 and Cdc421­179 to CIP4332­425 were mapped on the structure of CIP4332­425. The residues that disappeared are colored red and shown with a stick model
+
+molar ratio of GTPase to CIP332­425 were mapped on the CIP4332­425 structure (Fig. 2b). They were located at the tip of the CIP4332­425 that includes the C-terminal region of the first helix, the loop between the helices and the N-terminal region of the second helix. Most of the peaks disappeared due to precipitation of the sample at 1.5 equivalent molar ratio of GTPase to CIP332­425, which prevents us from estimation of dissociation constant and observation of the NMR spectra at full saturation.
+
+Discussion We compared the structure of CIP4332­425 with those deposited in the Protein Data Bank using the Dali search
+
+engine (Holm and Sander 1995). Both the protein kinase C-related kinase 1 (PRK1) HR1a domain bound to GTPloaded RhoA (Maesaki et al. 1999; PDB code 1CXZ; Z score 7.8) and the HR1b domain associated with GTPloaded Rac1 (Modha et al. 2008; PDB code 2RMK; Z score 7.1) showed a structure similar to CIP4332­425. It should be noted that RhoA and Rac1 are classified into the Rho-family of small GTPase proteins like TC10 and Cdc42. HR1a and HR1b in complex form an anti-parallel coiled-coil structure with interfacial hydrophobic residues similar to that of CIP4332­425 between the two helices. In the crystal structure of the RhoA-HR1a complex, HR1a binds to two different sites named contact I and contact II (Fig. 3a, b). On the other hand, the NMR structure of the Rac1-HR1b complex showed that HR1b binds to Rac1 at
+
+123
+
+J Biomol NMR (2009) 44:113­118 Fig. 3 Comparison of CIP4332­425 with PRK HR1a and HR1b associated with Rhofamily GTPases, RhoA and Rac1. a PRK HR1a complexed with RhoA (Maesaki et al. 1999; PDB code 1CXZ), and b the interaction sites of HR1a with RhoA. Interacting residues at contact I and contact II are colored orange and magenta, respectively, and their side chains are shown with a stick model. c PRK HR1b complexed with Rac1 (Modha et al. 2008; PDB code 2RMK; Z score 7.1), and d the interaction site of HR1b with Rac1. Interacting residues at contact II are colored magenta and their side chains are shown with a stick model
+
+117
+
+(a)
+RhoA (GTP-form)
+
+(b)
+C
+
+N C
+
+N
+
+180°
+
+HR1a (Contact II) C HR1a (Contact I) N C Rac1 (GTP-form) N
+
+(c)
+
+(d)
+C N N
+
+C HR1b (Contact II)
+
+contact II (Fig. 3c, d). At contact I, HR1a binds to RhoA using the central region of the antiparallel coiled-coil structure, though using the opposite surface to that of contact II (Fig. 3b). At contact II, both HR1a and HR1b are bound to GTPases including the tip of the coiled-coil structure (Fig. 3b (upper), d). This is similar to the interaction of CIP4332­425 with TC10 and Cdc42 identified from the present titration studies (Fig. 2a). Moreover, it should be noted that contact II extensively interacts with the switch I and switch II regions of RhoA and Rac1, while contact I does not (Supplementary Fig. 2 and 3). Since binding of Cdc42 and TC10 to CIP4332­425 was reported to be GTP dependent (Aspenstrom 1997; Chang et al. 2002), contact II is more plausible as the binding site of CIP4332­425. Considering the structure of CIP4332­425 and the results of the titration experiment, it might be assumed that CIP4332­425 binds both TC10 and Cdc42 at contact II. Further study, however, will be required including structure determination of the complex and the mutational analysis. Finally, this is the first report on the structure of the TC10 effector, which plays a crucial role in the translocation of GLUT4-containing vesicles to the plasma membrane to enhance glucose uptake in response to insulin stimulation.
+Acknowledgments This work was supported (in part) by Targeted Proteins Research Program (TPRP) from Ministry of Education, Culture, Sports, Science and Technology (MEXT), Japan.
+
+References
+Aspenstrom P (1997) A Cdc42 target protein with homology to the non-kinase domain of FER has a potential role in regulating the actin cytoskeleton. Curr Biol 7:479­487 Bryant NJ, Govers R, James DE (2002) Regulated transport of the glucose transporter GLUT4. Nat Rev Mol Cell Biol 3:267­277 Chang L, Adams RD, Saltiel AR (2002) The TC10-interacting protein CIP4/2 is required for insulin-stimulated Glut4 translocation in 3T3L1 adipocytes. Proc Natl Acad Sci USA 99:12835­12840 Chang L, Chiang SH, Saltiel AR (2004) Insulin signaling and the regulation of glucose transport. Mol Med 10:65­71 Czech MP, Buxton JM (1993) Insulin action on the internalization of the GLUT4 glucose transporter in isolated rat adipocytes. J Biol Chem 268:9187­9190 Delaglio F, Grzesiek S, Vuister G, Zhu W, Pfeifer J, Bax A (1995) NMRPipe: a multidimensional spectral processing system based on UNIX pipes. J Biomol NMR 6:277­293 Feltham JI, Dotsch V, Raza S, Manor D, Cerione RA, Suteliffe MJ, Wagner G, Oswald RE (1997) Definition of the switch surface in the solution structure of Cdc42Hs. Biochemistry 36:8755­8766 Herrmann T, Guntert P, Wuthrich K (2002) Protein NMR structure determination with automated NOE assignment using the new software CANDID and the torsion angle dynamics algorithm DYANA. J Mol Biol 319:209­227 Holm L, Sander C (1995) Dali: a network tool for protein structure comparison. Trends Biochem Sci 20:478­480 Itoh T, Erdmann KS, Roux A, Habermann B, Werner H, De Camilli P (2005) Dynamin and the actin cytoskeleton cooperatively regulate plasma membrane invagination by BAR and F-BAR proteins. Dev Cell 9:791­804 Jhun BH, Rampal AL, Liu H, Lachaal M, Jung CY (1992) Effects of insulin on steady state kinetics of GLUT4 subcellular distribution
+
+123
+
+118 in rat adipocytes. Evidence of constitutive GLUT4 recycling. J Biol Chem 267:17710­17715 Kneller DG, Goddard TD (1997) SPARKY 3.105 edit. University of California, San Francisco Kobashigawa Y, Kumeta H, Ogura K, Inagaki F (2009) Attachment of an NMR-invisible solubility enhancement tag using a sortasemediated protein ligation method. J Biomol NMR 43:145­150. doi:10.1007/s10858-008-9296-5 Lodhi IJ, Chiang SH, Chang L, Vollenweider D, Watson RT, Inoue M, Pessin JE, Saltiel AR (2007) Gapex-5, a Rab31 guanine nucleotide exchange factor that regulates Glut4 trafficking in adipocytes. Cell Metab 5:59­72 Maesaki R, Ihara K, Shimizu T, Kuroda S, Kaibuchi K, Hakoshima T (1999) The structural basis of Rho effector recognition revealed
+
+J Biomol NMR (2009) 44:113­118 by the crystal structure of human RhoA complexed with the effector domain of PKN/PRK1. Mol Cell 4:793­803 Modha R, Campbell LJ, Nietlispach D, Buhecha HR, Owen D, Mott HR (2008) The Rac1 polybasic region is required for interaction with its effector PRK1. J Biol Chem 283:1492­1500 Tian L, Nelson DL, Stewart DM (2000) Cdc42-interacting protein 4 mediates binding of the Wiskott-Aldrich syndrome protein to microtubules. J Biol Chem 275:7854­7861 Watson RT, Kanzaki M, Pessin JE (2004) Regulated membrane trafficking of the insulin-responsive glucose transporter 4 in adipocytes. Endocr Rev 25:177­204 Yang J, Holman GD (1993) Comparison of GLUT4 and GLUT1 subcellular trafficking in basal and insulin-stimulated 3T3­L1 cells. J Biol Chem 268:4600­4603
+
+123
+
+

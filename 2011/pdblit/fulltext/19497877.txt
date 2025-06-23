@@ -1,0 +1,282 @@
+Identification of the nuclear receptor DAF-12 as a therapeutic target in parasitic nematodes
+Zhu Wanga, X. Edward Zhoub, Daniel L. Motolaa,1, Xin Gaoc, Kelly Suino-Powellb, Aoife Conneelyb, Craig Ogatad, Kamalesh K. Sharmae, Richard J. Auchuse, James B. Lokf, John M. Hawdonc, Steven A. Kliewera,g, H. Eric Xub, and David J. Mangelsdorfa,2
+aDepartment of Pharmacology and Howard Hughes Medical Institute, and gDepartment of Molecular Biology, University of Texas Southwestern Medical Center, 6001 Forest Park Road, Dallas, TX 75390; bLaboratory of Structural Sciences, Van Andel Research Institute, 333 Bostwick Avenue Northeast, Grand Rapids, MI 49503; cDepartment of Microbiology, Immunology, and Tropical Medicine, The George Washington University Medical Center, Ross Hall 705, 2300 I Street NW, Washington, DC 20037; dGeneral Medicine and Cancer Institutes Collaborative Access Team, Building 436, D003, Argonne National Laboratory, 9700 South Cass Avenue, Argonne, IL 60439; eDepartment of Internal Medicine, University of Texas Southwestern Medical Center, 5323 Harry Hines Boulevard, Dallas, TX 75390; and fDepartment of Pathobiology, School of Veterinary Medicine, University of Pennsylvania, 3800 Spruce Street, Philadelphia, PA 19104
+
+This contribution is part of the special series of Inaugural Articles by members of the National Academy of Sciences elected in 2008. Contributed by David J. Mangelsdorf, April 14, 2009 (sent for review March 6, 2009)
+
+Nematode parasitism is a worldwide health problem resulting in malnutrition and morbidity in over 1 billion people. The molecular mechanisms governing infection are poorly understood. Here, we report that an evolutionarily conserved nuclear hormone receptor signaling pathway governs development of the stage 3 infective larvae (iL3) in several nematode parasites, including Strongyloides stercoralis, Ancylostoma spp., and Necator americanus. As in the free-living Caenorhabditis elegans, steroid hormone-like dafachronic acids induced recovery of the dauer-like iL3 in parasitic nematodes by activating orthologs of the nuclear receptor DAF-12. Moreover, administration of dafachronic acid markedly reduced the pathogenic iL3 population in S. stercoralis, indicating the potential use of DAF-12 ligands to treat disseminated strongyloidiasis. To understand the pharmacology of targeting DAF-12, we solved the 3-dimensional structure of the S. stercoralis DAF-12 ligand-binding domain cocrystallized with dafachronic acids. These results reveal the molecular basis for DAF-12 ligand binding and identify nuclear receptors as unique therapeutic targets in parasitic nematodes.
+dafachronic acid parasitology pharmacology X-ray crystal structure
+
+arasitic nematodes constitute a large family of pathogens that infect hosts ranging from plants and animals to people, causing great economic loss and worldwide health threats (1, 2). One of the most problematic parasites, Strongyloides stercoralis, is estimated to infect 100­200 million people. Primary infections are often asymptomatic and clinically silent in immunocompetent individuals. However, once the immune system is compromised (e.g., by corticosteroid therapy), the parasite establishes autoinfection cycles that result in a frequently fatal disseminated strongyloidiasis (3, 4). Hookworms (Ancylostoma and Necator spp.) are other parasitic nematodes that affect 1 billion people and are the dominant cause for iron-deficient anemia worldwide (2). Oral administration of anthelmintics such as benzimidazoles (microtuble toxins) and ivermectin (a neurotoxin) is currently the preferred treatment for nematode infections (5). However, no reliable options exist for treating the more severe form of disseminated strongyloidiasis (6). Moreover, resistance to the anthelmintics has become widespread in animals and is beginning to occur in humans (2, 7). Therefore, studying the mechanisms that govern nematode life cycles is an attractive approach to identifying new therapeutic targets. Infection of hosts by parasitic nematodes is mediated by infective larvae, which in S. stercoralis and hookworm are the third stage or L3 larvae (iL3) (4, 5). Interestingly, iL3 larvae resemble the dauer larvae of the free-living nematode Caenorhabditis elegans in that they are all nonfeeding, developmentally
+9138 ­9143 PNAS June 9, 2009 vol. 106 no. 23
+
+P
+
+arrested, dormant filariform larvae with a sealed buccal capsule and thickened body wall cuticle, enabling them to survive environmental challenges (8). Like C. elegans dauer larvae, iL3 recover from their arrested development once they enter a proper environment (i.e., their respective hosts) (9). To date, the molecular mechanisms controlling the recovery of iL3 parasites are poorly understood. In C. elegans, dauer diapause is controlled by endocrine signals in response to environmental cues. In favorable environments, reproductive development requires an insulin/ IGF-1 (II-S) and TGF signaling network that converges on a downstream steroid hormone­nuclear receptor signaling pathway mediated by the nuclear receptor DAF-12 (10). Previously, we have shown that steroid hormones named dafachronic acids (DAs), which are de novo synthesized from dietary sterols by the cytochrome P450 DAF-9, activate DAF-12 and promote dauer recovery in C. elegans (11). For parasitic nematodes, it has also been reported that the induction by the host of the II-S pathway is essential for iL3 recovery (12, 13). Based on the similarities between free-living and parasitic worms, we hypothesized that the steroid hormone/ nuclear receptor signal (i.e., DA/DAF-12) would also be conserved and control the dauer-like iL3 diapause in parasitic nematodes (Fig. 1A). In the present study, we identified the DAF-12 orthologs in several parasitic species and showed that these receptors respond to DAs. Remarkably, administration of DAs caused a significant proportion of worms in the postfree-living generation of S. stercoralis to form supernumerary free-living but unviable stage 4 larvae. There was a corresponding and profound reduction in the population of the pathogenic S. stercoralis iL3, suggesting that these compounds or their congeners might be used as a new class of drugs for treatment of disseminated strongyloidiasis. Finally, we report the X-ray crystal structure of the DAF-12 ligand-binding domain for S. stercoralis. The structural basis for ligand binding
+Author contributions: Z.W., D.L.M., J.B.L., J.M.H., S.A.K., H.E.X., and D.J.M. designed research; Z.W., X.E.Z., D.L.M., X.G., K.S.-P., A.C., C.O., J.B.L., and J.M.H. performed research; K.K.S. and R.J.A. contributed new reagents/analytic tools; Z.W., X.E.Z., J.B.L., J.M.H., S.A.K., H.E.X., and D.J.M. analyzed data; and Z.W., S.A.K., and D.J.M. wrote the paper. The authors declare no conflict of interest. Data deposition: The structure factors and atomic coordinates discussed in this work have been deposited in the Protein Data Bank, www.pdb.org [PDB ID codes 3GYT ( 4-DA) and 3GYU ( 7-DA)].
+1Present
+
+address: Department of Internal Medicine, Mount Sinai Hospital, One Gustave L. Levy Place, New York, NY 10029 whom correspondence should be addressed. E-mail: davo.mango@utsouthwestern.edu.
+
+2To
+
+This article contains supporting information online at www.pnas.org/cgi/content/full/ 0904064106/DCSupplemental.
+
+www.pnas.org cgi doi 10.1073 pnas.0904064106
+
+A
+
+B
+
+driven by a promoter containing DAF-12 response elements from the lit-1 kinase promoter (15), showing that the DNA-binding domain is functional (Fig. 2D). Unlike the hookworm DAF-12 constructs, the corresponding S. stercoralis DAF-12 does not express well in mammalian cells. Therefore, we generated an alternative chimeric expression construct in which the N terminus of ceDAF-12 (including the DNA-binding domain) was fused to the C-terminal ligand-binding domain of ssDAF-12. This hybrid receptor (cessDAF-12) is expressed in cell culture and was capable of robust activation of the lit-1 kinase reporter by both DAs (Fig. 2E). The EC50 for activation of the parasite DAF-12s ranged from 25­147 nM for 7-DA and 130­294 nM for 4-DA. This rank order of potency is similar to that observed for ceDAF-12 (16). Importantly, activation by DAs could be abolished by mutating the conserved arginine that has been shown to be critical for ligand activation in ceDAF-12 (Fig. 2E and ref. 11). We also used a mammalian 2-hybrid assay to monitor the interaction between the parasite DAF-12s and the receptor interaction domains of the coactivator SRC-1 (SRC1-ID4) and the corepressor Din-1S (Din-1S RID, identified in Fig. S2). As predicted, upon DA treatment the interaction with Din-1S is compromised and that with SRC-1 is induced (Fig. 2 F­H). Finally, to prove that DAs directly bind parasitic DAF-12s, we used an in vitro ligand-binding assay that detects agonist-induced interactions between receptor and coactivator peptides containing the LXXLL motif (11). We found that both 4-DA and 7-DA bind directly to all parasitic DAF-12s (Fig. 2I), providing unequivocal evidence that DAs act as classical nuclear receptor ligands.
+DAF-12 Ligand-Binding Domain Structure. To provide insight into the
+
+Fig. 1. Conserved nuclear receptor signaling pathway controls dauer/iL3 diapause. (A) Schematic for signaling pathways that control dauer/iL3 diapause. The chemical structures for dafachronic acid ligands for DAF-12 are also shown. (B) Sequence similarities of DAF-12 homologues in parasitic nematodes. DAF-12 aa positions in the partial A. ceylanicum and N. americanus cDNA clones were assigned according to their homologous positions in A. caninum.
+
+to DAF-12, which represents one of the hundreds of nuclear receptors found in nematodes, should provide a powerful tool for drug development. Results
+DAF-12 Homologues in Parasitic Nematodes. Based on the hypothesis that iL3 and dauer represent homologous stages in nematode development (Fig. 1 A), we investigated whether iL3 diapause is regulated by a DAF-12-like nuclear receptor. We analyzed the parasitic nematode genome database (www.nematode.net) and subsequently cloned full-length cDNAs encoding DAF-12 orthologs from S. stercoralis (14) (ssDAF-12) and the dog hookworm Ancylostoma caninum (acDAF-12). We also cloned partial cDNAs encoding aa 378­686 of the panspecific hookworm Ancylostoma ceylanicum DAF-12 ligand-binding domain (aceDAF-12) and aa 274­686 of the human hookworm Necator americanus (naDAF-12). These cDNAs shared significant identities with C. elegans DAF-12 (ceDAF-12) in their corresponding DNA and ligand-binding domains (Fig. 1B and Fig. S1). Notably, all of the parasitic DAF-12s exist in iL3 cDNA libraries, indicating their physiological expression in the dauerlike larvae. Parasite DAF-12s Are Activated by DAs. We tested whether 4-DA and 7-DA can activate the parasitic DAF-12s in a fashion similar to that observed with C. elegans DAF-12 (11). We found both 4and 7-DAs activated Gal4-DAF-12 chimeras when tested in cell-based cotransfection assays (Fig. 2 A­C). Full-length hookworm acDAF-12 was also able to induce reporter gene expression
+Wang et al.
+
+biochemistry and pharmacology of DAF-12 ligand binding, we solved the X-ray crystal structure of the ssDAF-12 ligand-binding domain complexed with a coactivator LXXLL peptide and both DAs (Fig. 3A and Table S1). The overall architecture of the ssDAF-12 ligand-binding domain is similar to other members of the nuclear receptor family (17). It consists of 13 -helices and 3 -sheets, which are packed in a 3-layer -helical sandwich to create a ligand-binding pocket where DAs are embedded (gray structures). Instead of having a characteristic loop between helices (H) 7 and 8, a unique feature of ssDAF-12 is a short H7 -helix (yellow in Fig. 3 A). The ssDAF-12 ligand-binding domain contains a typical nuclear receptor activation function-2 helix (AF-2) that adopts a characteristic ``active'' conformation (shown in pink) as a consequence of its interaction with the coactivator LXXLL peptide (SRC1­4 shown in red, Fig. 3A). As in mammalian nuclear receptors that bind steroid hormones, the ligand-binding pocket of ssDAF-12 is relatively small (517Å3 for 4-DA and 548 Å3 for 7-DA), consistent with the high specificities and affinities of ligand binding. Within the pocket, the lipophilic steroidal rings of DAs are surrounded by nonpolar residues (Fig. 3 B and C, shown in yellow), which create a hydrophobic environment critical for the binding of DAs. As evidenced experimentally, introducing a single charged residue (W611R) eliminated receptor activation (Fig. 3G). The 2 polar groups of DAs are also determinants for ligand recognition: Oxygen atoms from the C3-ketone (arrow) and the C27 carboxyl groups (arrowhead) accept hydrogen bonds (H-bonds) donated by polar side chains of various residues in Fig. 3 B and C. Disrupting the H-bonds by either mutating the side chains (Q637E and R599K/M in Fig. 3G) or by using DA precursors that lack the C27 carboxyl-groups (Fig. S3) compromised receptor activation. It is noteworthy that the C27 carboxyl group of 7-DA forms 3 H-bonds with ssDAF-12 whereas the C27 carboxyl group of 4-DA only forms 2 H-bonds (a third H-bond is formed with a water molecule) of weaker strength as indicated by the longer bond lengths with T562 and R599 (Fig. 3 D and E). This difference may help explain why 4-DA is a less potent ligand.
+PNAS June 9, 2009 vol. 106 no. 23 9139
+
+PHARMACOLOGY
+
+INAUGURAL ARTICLE
+
+A
+
+B
+
+C
+
+D
+
+E
+
+F
+
+G
+
+H
+
+I
+
+Fig. 2. Parasite DAF-12s are activated by dafachronic acids. (A­E) Ligand activation of parasite DAF-12 homologues and various ligand binding mutants. (F­H) Mammalian 2-hybrid assay for ligand-dependent interaction between parasite DAF-12s and coactivator (SRC-1 ID4) or corepressor (Din-1S RID) interaction domains. Cotransfection assays were performed in HEK293 (A­C and F­H) or CV-1 (D and E) cells. RLU, relative light units. (I) In vitro ligand binding of DAs to parasite DAF-12 ligand-binding domains as monitored by ligand-induced association of the coactivator LXXLL motif (SRC1­ 4) with receptor. One micromolar of DA was used in F­I. n 3 SD.
+
+However, because 4-DA is also less efficacious than 7-DA under every conditioned examined, effects other than the ligand's affinity may contribute to the receptor's response to different ligands. Residues outside of the pocket also contribute to ligand binding. Mutation of an arginine conserved in all DAF-12s (R565 in Fig. 3F) disrupted DAF-12 activation by DAs (Fig. 2 A­E, and ref. 11). Although this residue in ssDAF-12 does not interact with DAs directly, it stabilizes ligand binding by forming H-bonds with the loop region that crosses over the pocket opening (Fig. 3F), thereby functioning as a ``lid'' to capture the ligand. Next, we addressed whether the mechanism of ligand binding revealed in the ssDAF-12 structure is conserved in other DAF12s. In addition to the conserved arginine that is essential for DA activation (Fig. 2 A­E), residues involved in ligand recognition are conserved in all DAF-12s (Fig 3 A­F and Fig. S1). As in ssDAF-12, introducing a single charge into a hydrophobic residue in the core of the pocket (W611R in ssDAF-12, W544R in acDAF-12, F610R in ceDAF-12) abolished receptor activation in all DAF-12s when analyzed in a cotransfection assay (Fig. 3 G­I). However, disruption of residues involved in H-bonding impaired receptor activation in a species-specific manner (compare ssDAF-12 residues Q637E and R599K/M in Fig. 3G to homologous acDAF-12 residues Q571E and R532K/M in Fig. 3H, and ceDAF-12 residues Q638E and R598K/M in Fig. 3I). These findings indicate that DAF-12s bind with DAs through mecha9140 www.pnas.org cgi doi 10.1073 pnas.0904064106
+
+nisms that, although similar, also have distinct pharmacological properties.
+DAF-12 Activation Induces iL3 Recovery. DAs induce dauer recovery
+
+in C. elegans by activating DAF-12 (11). Therefore, we tested whether DAF-12 activation in parasitic nematodes has similar effects. Resumption of feeding is a hallmark for iL3 larvae to recover from the dauer-like stage when they enter their host. This developmental reactivation can be induced experimentally by providing serum with glutathione (GSH) or S-methyl glutathione (GSM) and working through a mechanism that stimulates the II-S pathway (9, 12, 13). When tested on the iL3 stage of 2 hookworm species and S. stercoralis, the 2 DAs induced all of these parasitic larvae to start feeding in a dose-dependent manner (Fig. 4 A and B and Fig. S4). In contrast, 4-cholesten3-one and lathosterone, the metabolic precursors of 4- and 7-DA that do not activate DAF-12, failed to do so. For Ancylostoma spp., a further sign of host-induced iL3 recovery is the secretion of proteins (ASP-1 and ASP-2) that interact with the host's immune system (18, 19). As shown in Fig. 4C, DAs stimulated the secretion of the pathogenesis-related proteins that are also induced upon treatment with serum and GSH. These results demonstrate that DAF-12 is a key molecular switch that initiates development in parasitic nematodes. In C. elegans, the cytochrome P450 DAF-9 is required for environmental stimuli to induce dauer recovery. To test whether a similar pathway exists in parasitic nematodes, we used ketoWang et al.
+
+A
+H9
+H1 H3' H9
+
+D
+H3' H1 H8 H7' H3 H5 H7
+H3 H4 H5 H7'
+
+H3
+
+H5
+
+Water R599 2.82
+
+T562 2.73 3.24
+
+H10-11
+
+H8 H10-11
+
+H4
+
+4
+T613
+
+E
+7
+H7
+
+H3 T562 2.73 H5 R599 2.81 3.07 T613
+
+SRC1-4 AF-2
+
+7
+H6 H2
+
+B1-3
+B1-3
+
+90° H2
+H6
+
+7
+
+B
+F749
+
+I593
+
+L596
+
+T562
+
+Water C R599
+F749
+
+F
+T562 R599
+
+H3 H5
+
+I593 M559
+
+L596
+
+7
+R565 3.22 2.81 3.07 E534 P535 M532
+
+M559
+
+Q637 F626
+
+F641 M625
+
+4
+W611
+
+T613
+
+Q637 F641 F626 M625
+
+7
+W611
+
+T613
+
+G
+RLU
+
+300 240 180 120 60
+
+cessDAF-12
+Veh 1µM 0.3µM
+
+400 320
+
+H
+500 400 RLU 300 200 100 0
+
+acDAF-12
+Veh 1µM 0.3µM 500 400
+
+I
+RLU 300 200 100 0
+
+400 320 240 160 80 0
+
+ceDAF-12
+Veh 1µM 0.3µM
+
+240 160 80 WT W611R Q637E R599K R599M
+
+WT W611R Q637E R599K R599M
+
+WT W544R Q571E R532K R532M
+
+WT W544R Q571E R532K R532M
+
+0
+
+0
+
+WT F610R Q638E R598K R598M
+
+4-DA
+
+7-DA
+
+4-DA
+
+7-DA
+
+4-DA
+
+Fig. 3. X-ray crystal structure of DAF-12 ligand-binding domain. (A) Ribbon model reveals the overall architecture of the ssDAF-12 ligand-binding domain (green) complexed with 7-DA (gray) and the SRC1 coactivator peptide (red). The AF-2 helix is shown in pink. (B and C) Electron density maps of the ssDAF-12 ligand binding pocket bound to 4-DA (B) or 7-DA (C). Carboxyls (arrowheads) and 3-ketos (arrows) of DA are shown. (D and E) H-bonding of ssDAF-12 aa directly involved in binding the C27-carboxyl group of 4-DA (D) or 7-DA (E). (F) The ``lid'' of the ligand binding pocket is formed by H-bond clamping between yellow-colored side-chain (R565) and main-chain oxygen atoms of M532, E534, and P535. H-bonds are illustrated by white dashed lines with bond lengths noted in Å. (G­I) Site-directed mutagenesis reveals differential ligand binding mechanisms for ssDAF-12 (G), acDAF-12 (H), and ceDAF-12 (I). Cotransfection assays were performed in CV-1 cells with the indicated receptors and a DAF-12 responsive reporter gene as in Fig. 2D. n 3 SD.
+
+conazole, a broad-spectrum inhibitor for P450s that is known to block steroid hormone synthesis in mammals (20). Ketoconazole completely abolished iL3 recovery induced by serum/GSM and this inhibition was overcome by pharmacological supplementation of 7-DA (Fig. 4D), suggesting that a P450 is required for parasitic nematodes' response to host stimuli. Although to date we have been unable to isolate a DAF-9 homolog from any of the parasitic nematodes, in A. caninum we discovered a partial cDNA encoding a homolog of DAF-36 (Fig. S5), a rieskeoxygenase that in C. elegans is required for generation of the endogenous ligand 7-DA (21). Interestingly, DA did not restore iL3 recovery when the II-S pathway was inhibited by a PI3-kinase inhibitor (LY in Fig. 4D), implying that, as in C. elegans, other outputs from II-S--such as FOXO proteins--collaborate with DAF-12 to achieve iL3 regulation (11). These data support the hypothesis that a conserved steroid hormone/nuclear receptor signaling pathway controls dauer/iL3 recovery in both C. elegans and parasitic nematodes (Fig. 1 A).
+7-DA Blocks iL3 Larval Development. In addition to stimulating dauer recovery when bound by ligands, DAF-12 is required for entry into dauer when it is not bound to ligand by acting as a transcriptional repressor of target genes that favor reproductive development (10, 22). We tested whether loss of this repression by activating DAF-12 early in development of parasitic nemaWang et al.
+
+todes would impair iL3 formation. Unlike hookworm, whose progenies directly develop into iL3 larvae in each generation, S. stercoralis has an alternative, indirect route in which one generation of the free-living life cycle is completed before iL3 progenies are formed (Fig. 5A). This unique feature of S. stercoralis permitted us to obtain synchronized parasite populations for testing. Remarkably, when progenies of the free-living generation of S. stercoralis were treated with 7-DA, 88% of the parasites failed to develop into filariform iL3 larvae compared with only 3% when treated with vehicle (Fig. 5B). Importantly, this population of DA-treated larvae developed instead into rhabditiform, molting-defective larvae (Fig. 5 C­E), which, under continuous exposure to exogenous DA, died within a few days (Table S2). The inability of 7-DA to fully rescue the iL3 stage is consistent with its partial agonist activity on ssDAF-12 relative to ceDAF-12 (Fig. S6). Interestingly, 4-DA had no significant effect on reducing the iL3 population, consistent with the finding that it has even weaker DAF-12 agonist activity (Fig. 2E and Fig. S6). These findings suggest that 7-DA or a similar congener may have therapeutic utility in the treatment of disseminated strongyloidiasis by preventing iL3 development and therefore terminating the life cycle of S. stercoralis. From an evolutionary standpoint, differential regulation of development by DAF-12 orthologs and their dafachronic acid ligands in free-living nematodes such as C. elegans, in strongyloid species with alternate free living cycles, and in obligate parasites such as
+PNAS June 9, 2009 vol. 106 no. 23 9141
+
+WT F610R Q638E R598K R598M
+
+7-DA
+
+PHARMACOLOGY
+
+INAUGURAL ARTICLE
+
+A
+
+B
+
+C
+
+D
+
+Fig. 4. DAF-12 activation induces iL3 recovery. (A and B) Dafachronic acids stimulate resumption of feeding in iL3 of A. caninum, (n 250 ­1,200) (A), and S. stercoralis, n 725­1,081 (B). (C) Dafachronic acids stimulate ASP secretion by A. caninum iL3 larvae. (D) Effects of PI3-kinase and P450 inhibitors on 7-DA induced feeding in A. caninum iL3 larvae (n 100 ­ 407). S G, 10% canine serum plus 15 mM GSM (A, C, and D) or 5 mM GSH (B); LY, PI3-kinase inhibitor LY249002; Kc, P450 inhibitor ketoconazole; *, P 0.001; **, P 0.0001; n.s., not significant; 2 2-tailed test, all compared with vehicle treatment unless indicated. Experiments were repeated 2 times (D) or 4 times (A and B) with similar results.
+
+hookworms that lack free-living life-cycle alternatives, may recapitulate biochemical adaptations that have occurred during the evolution of parasitism in the nematodes.
+
+A
+
+B
+
+C
+
+D
+
+F
+
+E
+
+Fig. 5. 7-DA inhibits iL3 development in S. stercoralis. (A) Comparative life cycles of free-living and parasitic nematode species. (B) Effects of DAs on iL3 formation in S. stercoralis. n 113­ 474; *, P 0.0001; 2 2-tailed test, all compared with vehicle treatment. Experiments were repeated 4 times with similar results. (C­E) 7-DA treatment during early development results in molting-defective, rhabditiform L3/L4 S. stercoralis larvae. (F) Image of an untreated iL3 S. stercoralis larva. Note the difference in morphology between this filariform larva and the 7-DA treated larvae in C­E. Scale bars, 100 m in C and F; 50 m in D; and 20 m in E.
+
+Discussion In the life cycle of parasitic nematodes, recovery of the dauerlike, iL3 larvae after host infection is a poorly understood but essential developmental process. Previous work has shown that successful infection is governed by a variety of host stimuli, including temperature, CO2 concentration, and serum (9). All of these factors require an insulin-like signaling pathway referred to as II-S (12, 13); however, the downstream transducers of this pathway have not been identified (12, 13). In the present study, we describe the existence of a conserved steroid hormone signaling pathway in parasitic nematodes that is mediated by the nuclear receptor DAF-12 and controls the progression of the parasite's infectious stage, a process that is homologous to C. elegans dauer recovery. As part of this study, we identified the C. elegans orthologs of DAF-12 in several parasitic nematodes and showed that they bind DA ligands, which in turn stimulate iL3 recovery. Furthermore, we showed DAF-12 activation rescues the serum-induced iL3 recovery that is impaired by P450 inhibition, supporting the notion that within parasitic nematodes, as in C. elegans, P450s are involved in the production of DAF-12 ligands and are under the regulation of the insulin-like, II-Ssignaling pathway. Moreover, we characterized the 3-dimensional structure of the ssDAF-12 ligand-binding domain and thereby showed the biophysical basis for ligand activation. Our work is consistent with a recent study showing that this hormonal control of dauer/iL3 diapause also exists in other nematode species (23). From a pharmacological perspective, several aspects of the parasitic DAF-12 pathway are worth highlighting. First, despite the conservation of the pathway with C. elegans and their ability to respond to DAs, parasitic DAF-12 orthologs are not identical among species but share between 42% and 58% similarity in their ligand-binding domains. These differences likely explain the higher concentrations required for 4-DA and 7-DA activation of parasite versus C. elegans DAF-12. The sequence differences in the various DAF-12 ligand-binding domains and their relative affinities for 4-DA and 7-DA suggest that the physiologic ligands for parasite DAF-12s may also vary slightly from species to species. Further support for this notion comes from our inability to identify sequence homologs of the P450 enzyme DAF-9 in the current parasite gene databases or by low-stringency cDNA screening efforts. Interestingly, we were able to identify in A. caninum a homolog of DAF-36, one of the enzymes required for synthesis of a DAF-9 substrate that is the immediate precursor to 7-DA (21). This observation raises the intriguing possibility that parasites lack DAF-9 altogether. One interpretation of this finding would suggest that parasitic nematodes are unable to complete the terminal enzymatic step in DAF-12 ligand synthesis autonomously and instead must rely on a host-specific enzyme for this purpose. Although it remains to be proven, this hypothesis provides an attractive explanation as to why host-specific factors are required for iL3 recovery. A second discovery from this work that has important pharmacologic implications is the ability of 7-DA to dramatically reduce the iL3 population in S. stercoralis. As observed during dauer recovery in C. elegans, DAF-12 activation in both S. stercoralis and hookworm mediated iL3 recovery. However, as a weak agonist for parasite DAF-12s, 7-DA did not commit the nematode to a complete recovery of its reproductive development but instead resulted in molting-defective larvae that terminated the parasite's lifecycle. A similar effect of partial DAF-12 activation was also observed during C. elegans dauer rescue when using low doses of DAs (Fig. S7 and ref. 11). These findings provide a strong therapeutic rationale for using selective DAF-12 modulators to block iL3 recovery, a strategy that would be strikingly similar to the use of selective estrogen and progesterone modulators in oral contraception.
+Wang et al.
+
+9142
+
+www.pnas.org cgi doi 10.1073 pnas.0904064106
+
+A clear example of the therapeutic need that would be fulfilled from successfully targeting DAF-12 is disseminated strongyloidiasis. This frequently lethal form of the disease is caused by an autoinfection cycle in which S. stercoralis never leaves its host (Fig. 5A), and in immunocompromised individuals, this allows a rapid amplification of the parasites that results in subsequent multiorgan failure (4). Once infected, individuals may carry the parasite for the rest of their lives despite aggressive treatments. Thus far, ivermectin is the choice drug that has been successful in reducing iL3 hyperinfections. However, satisfactory treatments of disseminated strongyloidiasis have not been established in humans, mainly because available drugs have little effect on the autoinfective larvae (6). Our study suggests that selective ligand modulators of DAF-12 might be used to stop iL3 larvae progression during autoinfection. Taken together, our work provides the first biological, pharmacological, and structural characterization of a nuclear receptor pathway in parasitic species and thereby serves as the basis for a new therapeutic approach to treating a spectrum of parasitic diseases that collectively affect more than 1 billion people worldwide. Materials and Methods
+Reagents. Dafachronic acids were made as described in ref. 16. 7-dafachronic acid was also obtained as a gift from Dr. E. J. Corey (Harvard University, Boston) (24). Lathosterone and 4-cholesten-3-one were purchased from Research Plus Inc. We obtained 5-cholesten-3-one from Sigma. cDNA and Plasmids. acDAF-12 and naDAF-12 cDNAs were isolated from iL3 libraries of A. caninum and N. americanus; aceDAF-12LBD cDNA was obtained from the Genome Sequencing Center, Washington University School of Medicine (database accession number pk90d07); ssDAF-12 was a gift from Dr. Afzal Siddiqui (East Tennessee State University, Johnson City, TN) (National Center for Biotechnology Information accession number, AF145048) (14). cDNAs were PCR-amplified and inserted into the indicated expression vectors and verified by sequencing. Cell Culture and Reporter Assays. HEK293 and CV-1 cells were cultured and transfected in 96-well plates as described (11, 16) by using 50 ng luciferase
+
+reporter, 10 ng CMX- -galactosidase reporter, 15 ng nuclear receptor expression plasmids, and 15 ng empty vector or cofactor expression plasmids. Ethanol or indicated compounds were added to each well 8 h posttransfection, incubated for 16 h, and cells were then harvested for luciferase and -galactosidase activities as described. In Fig. 1E, Fig. 3G, and Fig. S6, 15 ng of the coactivator GRIP-1 was coexpressed to increase the signal. Data represent the mean SD from triplicate assays and were plotted by using Sigma Plot software. Ligand Binding Assay. Parasite DAF-12 ligand-binding domains were expressed in BL21 (DE3) cells as 6X His-GST fusion proteins. Ligand bindings were determined by Alpha screening assay kit (Perkin-Elmer). The experiments were conducted with 40 nM receptor ligand-binding domain and 10 nM of biotinylated SRC1­ 4 peptide (QKPTSGPQAQQKSLLQQLLTE) in the presence of 20 g/mL donor and acceptor beads in a buffer containing 50 mM Mops, 50 mM NaF, 50 mM CHAPS, and 0.1 mg/mL BSA, all adjusted to a pH of 7.4. Structural Studies. X-ray crystallography methods are described in the SI Materials and Methods. The structures reported in this work have been deposited in the Protein Data Bank at the Research Collaboratory for Structural Bioinformatics (http://www.rcsb.org/pdb/home/home.do). Other Methods. In vitro and in vivo parasite studies, ASP secretion assay, and protein purification are described in the SI Materials and Methods. ACKNOWLEDGMENTS. We thank L. Avery and D. Russell for helpful discussion; Dr. Afzal Siddiqui for ssDAF-12 cDNA; the Genome Sequencing Center of Washington University of St. Louis for aceDAF-12 cDNA; Dr. E. J. Corey for 7-dafachronic acid; and Y. Li, J. Lai, S. Kruse, and R. Talaski for participating in the early phase of the DAF-12 expression and crystallization trials. This work was supported by the Howard Hughes Medical Institute (D.J.M.); the Robert A. Welch Foundation (D.J.M., S.A.K., and R.J.A.); the Jay and Betty Van Andel Foundation (H.E.X.); and National Institutes of Health Grants U19DK62434 (to D.J.M.), AI062857 and AI069293 (to J.M.H.), AI50688 and AI22662 (to J.B.L.), and DK071662, DK066202, and HL089301 (to H.E.X.). The X-ray data were collected by the General Medicine and Cancer Institutes Collaborative Access Team, which is funded by the National Cancer Institute Grant Y1-CO-1020 and the National Institute of General Medical Science Grant Y1-GM-1104. Use of the Advanced Photon Source was supported by the U.S. Department of Energy's Office of Basic Energy Sciences under contract number DE-AC0206CH11357. D.J.M. is an investigator for the Howard Hughes Medical Institute.
+
+1. Jasmer DP, Goverse A, Smant G (2003) Parasitic nematode interactions with mammals and plants. Annu Rev Phytopathol 41:245­270. 2. Hotez PJ, et al. (2006) New technologies for the control of human hookworm infection. Trends Parasitol 22:327­331. 3. Igra-Siegman Y, et al. (1981) Syndrome of hyperinfection with Strongyloides stercoralis. Rev Infect Dis 3:397­ 407. 4. Viney ME, Lok JB (2007) Strongyloides spp. WormBook, ed The C. elegans Research Community, doi/10.1895/wormbook.1.141.1, http://www.wormbook.org. 5. Muller R (2002) in Worms and Human Disease, ed Muller R (CABI, New York), pp 115­138. 6. Fox LM (2006) Ivermectin: Uses and impact 20 years on. Curr Opin Infect Dis 19:588 ­593. 7. Kaplan RM (2004) Drug resistance in nematodes of veterinary importance: A status report. Trends Parasitol 20:477­ 481. 8. Hotez P, Hawdon J, Schad GA (1993) Hookworm larval infectivity, arrest and amphiparatenesis: The Caenorhabditis elegans daf-c paradigm. Parasitol Today 9:23­26. 9. Hawdon JM, Schad GA (1990) Serum-stimulated feeding in vitro by third-stage infective larvae of the canine hookworm Ancylostoma caninum. J Parasitol 76:394 ­398. 10. Antebi A (2006) Nuclear hormone receptors in C. elegans. WormBook, ed. The C. elegans Research Community, doi/10.1895/wormbook.1.64.1, http://www.wormbook.org. 11. Motola DL, et al. (2006) Identification of ligands for DAF-12 that govern dauer formation and reproduction in C. elegans. Cell 124:1209 ­1223. 12. Tissenbaum HA, et al. (2000) A common muscarinic pathway for diapause recovery in the distantly related nematode species Caenorhabditis elegans and Ancylostoma caninum. Proc Natl Acad Sci USA 97:460 ­ 465. 13. Brand A, Hawdon JM (2004) Phosphoinositide-3-OH-kinase inhibitor LY294002 prevents activation of Ancylostoma caninum and Ancylostoma ceylanicum third-stage infective larvae. Int J Parasitol 34:909 ­914.
+
+14. Siddiqui AA, Stanley CS, Skelly PJ, Berk SL (2000) A cDNA encoding a nuclear hormone receptor of the steroid/thyroid hormone-receptor superfamily from the human parasitic nematode Strongyloides stercoralis. Parasitol Res 86:24 ­29. 15. Shostak Y, Van Gilst MR, Antebi A, Yamamoto KR (2004) Identification of C. elegans DAF-12-binding sites, response elements, and target genes. Genes Dev 18:2529 ­2544. 16. Sharma KK, et al. (2009) Synthesis and activity of dafachronic acid ligands for the C. elegans DAF-12 nuclear hormone receptor. Mol Endocrinol 23:640 ­ 648. 17. Bourguet W, et al. (1995) Crystal structure of the ligand-binding domain of the human nuclear receptor RXR . Nature 375:377­382. 18. Hawdon JM, Narasimhan S, Hotez PJ (1999) Ancylostoma secreted protein 2: Cloning and characterization of a second member of a family of nematode secreted proteins from Ancylostoma caninum. Mol Biochem Parasitol 99:149 ­165. 19. Hawdon JM, Jones BF, Hoffman DR, Hotez PJ (1996) Cloning and characterization of Ancylostoma-secreted protein. A novel protein associated with the transition to parasitism by infective hookworm larvae. J Biol Chem 271:6672­ 6678. 20. Sonino N (1987) The use of ketoconazole as an inhibitor of steroid production. N Engl J Med 317:812­ 818. 21. Rottiers V, et al. (2006) Hormonal control of C. elegans dauer formation and life span by a Rieske-like oxygenase. Dev Cell 10:473­ 482. 22. Ludewig AH, et al. (2004) A novel nuclear receptor/coregulator complex controls C. elegans lipid metabolism, larval development, and aging. Genes Dev 18:2120 ­2133. 23. Ogawa A, Streit A, Antebi A, Sommer R (2009) A conserved endocrine mechanism controls the formation of dauer and infective larvae in nematodes. Curr Biol 19:67­71. 24. Giroux S, Corey EJ (2007) Stereocontrolled synthesis of dafachronic acid A, the ligand for the DAF-12 nuclear receptor of Caenorhabditis elegans. J Am Chem Soc 129:9866 ­ 9867.
+
+Wang et al.
+
+PNAS
+
+June 9, 2009
+
+vol. 106
+
+no. 23
+
+9143
+
+PHARMACOLOGY
+
+INAUGURAL ARTICLE
+
+

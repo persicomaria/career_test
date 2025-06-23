@@ -1,0 +1,286 @@
+FEBS 15891
+
+FEBS Letters 370 (1995) 163 169
+
+Solution structure of co-conotoxin MVIIA using 2D NMR spectroscopy
+Vladimir J. Basus a'*, Laszlo Nadasdi b, J. Ramachandran b, George R Miljanich b
+aDepartment of Pharmaceutical Chemistry, University of California, San Francisco, CA 94143, USA bNeurex Corporation, Menlo Park, CA 94025, USA
+Received 25 May 1995; revised version received 3 July 1995 tectant following ischemic brain injury. The 3-dimensional structure of co-CmTxa will be useful in designing novel Ca 2+ channel blocking therapeutics [13].
+
+Abstract The solution structure of ~-conotoxin MVIIA (SNX111), a peptide toxin from the fish hunting cone snail Conus magus and a high-affinity blocker of N-type calcium channels, was determined by 2D NMR spectroscopy. The backbones of the best 44 structures match with an average pairwise RMSD of 0.59 angstroms. The structures contain a short segment of triplestranded t-sheet involving residues 6-8, 20-21, and 24-25. The structure of this toxin is very similar to that of ¢o-conotoxin GVIA with which is has only 40% sequence homology, but very similar calcium channel binding affinity and selectivity.
+Key words: Neurotoxin; Calcium channel blocker; N M R structure; Complete relaxation matrix; Conus magus
+
+2. Materials and methods
+2.1. Sample preparation Samples for NMR contained 400/21 of 10mM co-CmTxa in either 99.96% D20 or 93% H20/7% D20 at pH 4.0 (uncorrected meter reading). co-CmTxa was synthesized on a re-plumbed ABI Model 430A peptide synthesizer, using standard t-BOC chemistry with some modifications [14] in the manner previously described [15,16]. Synthetic preparations were subjected to amino acid analyses [16] and the results were consistent with the expected amino acid composition (data not shown). The authenticity of the synthetic o)-conotoxins were also confirmed by comparison to the purified, native peptides (kindly provided by Dr. B. Olivera) using a variety of chemical and biological methods. 2.2. NMR spectroscopy All NMR spectra were collected on a GE 500 MHz spectrometer equipped either with a GN console with a Nicolet computer or an Omega console with a Sun 3/160 computer. A DQF-COSY spectrum [17] was taken at 15°C. HOHAHA spectra with MLEV-17 [18] were collected at 15°C, and 25°C with spin-lock times of 50 ms and 75 ms. NOESY spectra [19] were obtained at 8°C and 15°C with a 200 ms mixing time. In addition, we collected an E.COSY spectrum [20] at 25°C in D20 and one-dimensional spectra at all three temperatures. Spectra were processed using software developed at UCSF. For 2D spectra, the apodization consisted of gaussian multiplication in the t2 dimension, and sine squared multiplication with a 70 ° shift in the tl dimension, with zero filling in some cases. The typical spectrum size was 2048 complex points in the t2 dimension, and 512 complex points in tl, zero filled to 1024 points. Spectral widths were 6024 Hz, for a final resolution of 3 Hz in t2 and 6 Hz in ft. For quadrature detection in the tl dimension we used the method of States et al. [21] in NOESY and HOHAHA spectra, and TPPI [22] in COSY spectra. In order to determine the correlation time re, the 13C T 1 and 7"2 relaxation times were determined at natural abundance, using the sample dissolved in D20 described above. These experiments were carried out using a double-DEPT technique with proton detection for maximum sensitivity. For T~ we used the double-DEPT with inversionrecovery [23], and for 7"2 we used the double-DEPT sequence with a Car~Purcell-Meiboom-Gill modification using a series of 180° pulses with a repetition rate of lmsec to replace the single 180° refocusing pulse in the sequence of Nirmala and Wagner [24]. The data were analyzed by fitting to the proper exponential decay function. Spectrum processing and molecular dynamics refinement were performed on Sun Sparc2 or IPX workstations. Peak volumes were obtained either by summing up the points within a manually selected rectangular area surrounding the crosspeak, or, in case of overlap, by fitting the region to be integrated with a collection of lorentzian lines to best represent the data, using the Sparky program developed at UCSF [25]. 2.3. Restraintsfrom MARDIGRAS Distance restraints were calculated from experimental NOESY intensities using the program MARDIGRAS [9,26], a program that calculates distances from the complete relaxation matrix. Methyl groups, and E pairs in the tyrosine rings, and non-distinguishable methylene pairs were treated as pseudo-atoms by MARDIGRAS, with the resulting distances to the geometrical center of the proton group. For use in DG and MD calculations, these pseudo-atom distances were converted
+
+1. Introduction
+Fish hunting snails of the genus Conus have developed a biochemical arsenal for immobilizing their fast moving prey. The venom of these snails contains peptides that bind to several types of ion channels [1]. One class of such peptides are the og-conotoxins that bind specifically to presynaptic voltagegated Ca 2+ channels, causing inhibition of neurotransmitter release, o~-Conotoxin G V I A (co-CgTx) from Conus geographus binds specifically to the N-type Ca z+ channels and has been essential in identifying and characterizing these channels [2,3]. F o u r independent N M R solution structures of this peptide have been determined recently [4-7]. o)-Conotoxin M V I I A (coCmTxa), from Conus magus, although having only 40% sequence homology to co-CgTx, has the same specificity and nearly the same apparent binding affinity as o)-CgTx to the N-type Ca 2+ channel [8]. Interestingly, co-CgTx binds essentially irreversibly to N-type Ca 2+ channels, whereas the binding of o)-CmTxa is reversible [1,8]. We present here the solution structure of the chemically synthesized co-CmTxa (also known as SNX-111) identical to the same peptide found in the fish-hunting marine snail C. magus. The solution structures that we report here were obtained by 2-dimensional N M R spectroscopy with the aid of distance geometry and restrained molecular dynamics, and with distance constraints obtained using the complete relaxation matrix analysis program M A R D I G R A S [9]. The structure of the P and Q type Ca 2÷ channel blocker co-conotoxin M V I I C (o)-CmTxc, or SNX-230) has been determined recently [10,11]. As we show here, most of the threedimensional structure is nearly identical for co-CmTxa, o)-CgTx and o)-CmTxc. We can now investigate small structural differences that may underlie the differences in binding properties of these conotoxins, and begin to correlate these to emerging models of Ca 2+ channel structure [12]. co-CmTxa is currently used in human clinical trials as an analgesic and as a neuropro*Corresponding author.
+
+0014-5793195l$9.50 © 1995 Federation of European Biochemical Societies. All rights reserved. SSD10014-5793(95)00819-5
+
+164 into distances to the nearest hetero-atom, and the upper and lower bounds increased and decreased respectively by the distance between the pseudo-atom location and the nucleus of the hetero-atom. Nonstereospecifically assigned methylene protons distinguishable by chemical shift were treated individually by MARDIGRAS, but for refinement, restraints to those protons were converted to a restraint to the attached hetero-atom, with 1 A added to the upper bound and 1 A subtracted from the lower bound. The exception to this conversion was when there was a restraint between a proton and both the protons of an unassigned methylene pair; in these cases the largest upper bound and smallest lower bound were used for both restraints.
+2.4. Other distance restraints
+
+V.J. Basus et al./FEBS Letters 370 (1995) 163-169
+5 10 15 :# 20 2.$ C-K.G-K.4~-I-K-~-S-R-L-M-Y-D-C-C-T-G-S-C-R-S-G-~-~-NH 2
+
+d[3N
+
+l
+
+l
+
+~
+
+~
+
+~
+
+Ill
+
+dNN
+
+~
+
+1
+
+Fig. 1. Diagram showing the sequential NOESY crosspeaks observed. Crosspeaks intensities were classified into strong, medium and weak, as indicated by the height of the bar. Asterisks indicate residues with slowly exchanging amide protons.
+
+DG cannot accept torsional angle restraints, so for those fl methylenes whose rotamer orientation was determined, we generated a set of three intra-residue bounds (the H a2 to carbonyl carbon, H f13 to the backbone nitrogen, and Hp3 to carbonyl carbon distances) to constrain the side-chain into the proper rotamer [4]. For the ¢ angle, if the measured 3JHN~ was >8.5 Hz we restrained the 0 angle to -160°<0<-800. If 3JHNa w a s <5.5 Hz we restrained 0 to -900<0<-40 °. Again we used distances, this time inter-residue from the carbonyl carbon, s-proton, and fl-carbon, to the carbonyl oxygen of the preceding residue, as previously described [4].
+2.5. Structure calculations
+
+3. R e s u l t s and discussion
+
+3.1. Resonance assignments
+
+Distance geometry calculations were performed on the Cray Y-MP at the San Diego Supercomputer Center using the distance geometry program VEMBED, a vectorized version of EMBED [27]. Restrained molecular dynamics calculations (rMD) were carried out with the 4dimensional modifications [28] to the GROMOS-87 programs [29] using the Sparc2 workstation. The 37D4 force field was used, and all the calculations were performed in vacuo with all charged groups neutralized, with the mass of the hydrogens set to 10 a.m.u. The distance restraint constant Kdis was set to 10,000 kJ/mol-nm2, with an initial temperature of 800°K. 3 ps of dynamics was run followed by 5 ps when the 2D-projection force constant K3d was increased from 0 to 5,000 kJ/mol.nm2, and at the same time the temperature was slowly lowered in an annealing procedure over the next 13 ps with the final temperature set to 0°K. The time-constant ~'tcfor coupling to the thermal bath was set to 0.005 ps.
+
+Table I 1H chemical shifts for co-CmTxa at 8°C amd pH 4.0 Residue Cys-1 Lys-2 Gly-3 Lys-4 Gly-5 Ala-6 Lys-7 Cys-8 Ser-9 Arg-10 Leu-11 Met-12 Tyr-13 Asp-14 Cys-15 Cys-16 Thr-17 Gly-18 Ser-19 Cys-20 Arg-21 Ser-22 Gly-23 Lys-24 Cys-25 NH2 NH n.o. a 9.31 8.97 8.28 9.22 7.81 8.37 8.24 8.79 8.89 8.10 7.58 8.00 8.11 8.46 9.91 8.36 8.52 8.36 8.79 8.63 9.43 8.38 7.76 8.86 8.48 ctH 4.59 4.51 4.05, 3.80 4.34, 4.30 4.69 5.02 4.72 4.06 4.13 4.45 4.53 4.84 4.91 4.43 4.52 4.14, 4.75 4.73 4.68 4.07 4.17, 5.35 4.83 flH 3.29, 3.10 1.81 3.82 1.51, 1.34 3.58 1.44 1.27 3.29, 3.94, 1.86 1.60 1.90 3.26, 3.02, 3.16, 3.27, 4.11 3.83 3.83, 3.74 2.99, 2.90 1.85 4.15, 3.93 3.83 1.62, 1.53 3.25, 3.11 1.71, 1.38, 1.29 1.57, 1.67
+1.79
+
+The methodology of spin-system identification and sequential assignment developed by Wfithrich and co-workers [30] was used to obtain the complete assignments given in Table 1. Residue types that were immediately identified were Gly, Thr, Ala and Leu. The arginines were identified based on the observation of the e - N H which in the H O H A H A spectra showed connectivities to most of the remaining protons in the spin system. These matched the connectivities from the backbone N H . Tyr-13 (the only tyrosine) was identified by observation of strong N O E s between the fl-protons and the &protons of the aromatic ring. The remaining spin systems were classified according to the length of the sidechain. The remaining NH2, present in the H O H A H A and COSY, was assigned to the amidated C-terminus of the protein. The initial assignments were from a set of H20 spectra at 15°C. Water presaturation suppressed the cz-proton resonances that were around 4.95 ppm, so that fewer than the expected 24 amide spin systems were initially observed. Spectra at 25°C and 8°C were used to find these spin systems. Fig. 1 shows the sequential connectivities observed in co-CmTxa categorized as strong, medium and weak, and we have indicated the strength by the height of the bars in the figure.
+3.2. Distance constraints
+
+Others Volume integrals obtained from the N O E S Y spectra were used to generate distance constraints with the aid of the program M A R D I G R A S [9,26]. A starting structural model is required in order to supply distances where there are missing N O E s in the data. M A R D I G R A S also requires an estimate of the correlation time re. Since distances obtained by M A R D I G R A S are not very sensitive to the starting model [31], with the initial set of distance constraints we used an extended chain starting model. Since we determined the correlation time to be 1.1 +0.5 ns (described below), we ran the M A R D I G R A S calculations three times with 0.6, 1.1, and 1.6 ns for re. The lowest lower bound and highest upper bound for each distance constraint was used for the structure calculations. F o r subsequent calculations, we used each of the structures obtained from the most recent refinement as starting structural models, keeping the lowest lower bound and highest upper bound from all the different calculations based on different starting structures and the three correlation times (0.6, 1.1 and 1.6 ns). The constraints used in the final calculations consisted o f 64 intra-residue distances, 77 sequential distances, 66 non-sequential distances, 9 · angle and 8 Z 1 angle constraints obtained from coupling constant measurements, and 67 n o n - N O E con-
+
+3.00 (e)
+
+2.97 3.78 1.62, 1.57; 3.23, 3.27 (e) 1.61(7); 0.92, 0.89(d;,8') 2.34, 2.420,,T' ) 7.11(~), 6.84(6)
+
+3.05 2.61 2.64 2.92
+
+1.14 (y)
+
+anot observed.
+
+V.J. Basus et aL /FEBS Letters 370 (1995) 163-169 2.0
+
+165 constant and NOE-derived distances between the fl protons and the intra-residue amide proton [33]. In difficult cases, distances to neighboring residues were used to obtain these assignments. Stereospecific assignments were obtained for 9 of the 25 residues in o)-CmTxa. Table 2 lists the assignments made along with the average X 1 angles in the final structures, and the 3Ja# coupling constants obtained from E.COSY spectra. 3JHN val~ ues were measured from 1D spectra. For amide protons that were overlapped in the 15°C spectrum, the 25°C or 8°C spectrum was used, since the temperature dependence of the chemical shifts is different for each amide proton depending on solvent exposure and hydrogen-bonding. 3.5. Structure determination Structures were obtained by Distance Geometry (DG) and restrained Molecular Dynamics (rMD) in an iterative fashion, using the results of each generation of structures to obtain more constraints for the succeeding generation. For the final refinement, we edited the restraints file to include all usable torsional angles obtained from vicinal coupling constants, and we removed all NOE restraints that became redundant due to the coupling constant data. 3J, N~ coupling constants were converted to ~ angle constraints according to the following rules: if 3JHNc~--<5.5 HZ, - 9 0 ° < 0 < - 4 0 °, if 10.0 HZ-->3JHN~8.5 HZ, - 1 6 0 ° < 0 < - 8 0 °, and if 3JHN > 10.0 Hz, -140 ° < 0 < -100° ~ [34]. Furthermore, we included the stereospecific assignments, and with these new constraints we generated 89 D G structures, of which 53 were chosen because they had the correct global fold as indicated by the lower energies and smaller number of distance constraint violations. These were refined with 4DrMD. Seven were not included in the final structures because they had larger violations and higher total energies, two were not included because they had a cis-peptide bond that was clearly not observed in the spectra, due to the lack of NOESY crosspeaks between the corresponding sequential a-protons. The average pairwise RMSD was 0.59 A for the backbone atoms of the final 44 structures, and 1.77 A for all heavy atoms (0.40 A and 0.79 ·, respectively, when calculated as the RMSD to the average coordinates). Only 13 of the 44 structures had one or two violations greater than 0.50 A, but none had violations greater than 0.61 A (including lower bound violations). Fig. 2 shows the RMSDs to the average coordinates (when the backbones are matched globally), and the order parameters for the ~ and ~g backbone angles of the final 44 structures. The region between $9 and D14 is the most disordered stretch of backbone. The non-NOE constraints were carefully introduced
+
+101,1't i
+1.5 ~r~ 0.5
+00
+
+· Backbone Atoms [] All Heavy Atoms
+
+.....
+
+iri ..........
+
+I ii. i
+
+ii,
+
+It,, I
+
+,~
+
+0.8
+
+·
+
+0.7±
+
+Fig. 2. (top) RMSD per residue calculated to the average coordinates for the 44 final structures of o)-CmTxa. Solid bars are for the backbone atoms only, and shaded bars for all heavy atoms. (bottom) Angular order parameter S [4] for the backbone angles in the final 44 structures of c0-CmTxa. straints based on distances predicted to be observable according to the initial set of structures, individually checked to make sure there was no reason for the missing peak intensity (such as overlap or tl noise). The constraints used for missing NOEs were lower bound distance constraints of 3.5 A (although distances of 4.5 to 5 A were observable in the spectra), to allow for the possibility of some conformational averaging. 3.3. Calculation o f r~ In order to be able to generate distance constraints using MARDIGRAS, a reasonable estimate of the rotational correlation time Tc of the molecule must be obtained. For this purpose, we determined ~3C T1 and T2 relaxation times via indirect detection, as described in section 2. Since these measurements were done using lH detection, as a one-dimensional experiment, the only carbon whose relaxation times could be measured individually was the s-carbon of K24. The s-protons of R10 and $22 overlap and their relaxation times were measured together assuming the results would be approximately the same for both. The results for these two different proton chemical shifts were the same within the experimental error, with Tl = 0.24+0.04 s and T2 = 0.16+0.03 s. These values yield an estimate for the correlation time ~o equal to 1.1 +0.5 ns, based on a pure dipoledipole relaxation mechanism dominated by the directly attached proton. As demonstrated for other proteins [32], the chemical shift anisotropy relaxation mechanism for the s-carbons of proteins contributes an insignificant amount to the 13C relaxation times T~ and T2 in this range of correlation times. 3.4. Stereospecific assignments Stereospecific assignments of the fl-methylene protons were obtained based on a combination of the Z ~ angle coupling
+
+Table 2 Stereospecific assignments, 2,~ angles, and aft-coupling constants for co-CmTxa Residue Hfl2 (ppm) Cys-1 Lys-2 Cys-8 Tyr-13 Cys-15 Cys-16 Cys-20 Lys-24 Cys-25 3.26 1.82 3.28 3.03 2.62 2.90 2.97 1.60 3.09 Hfl3 Z~ ( p p m ) (degrees) 3.08 1.79 2.95 3.24 3.14 3.25 2.87 1.53 3.23 65 + 2 -63 _+6 53 + 5 -52 + 20 -68 +_3 -67 + 2 -167 + 2 -53 + 8 -80 + 3 3j~2 (Hz) 3.7 12.0 2.1 9.0 12.1 12.6 4.0 10.0 11.6 3J~3 (Hz) 2.4 2.9 4.5 5.6 3.0 3.0 11.5 3.9 2.3
+
+166 as a conservative 0.35 A lower bound constraint, after making sure there was no NOESY crosspeak in the spectra. In order to assess the contribution of the non-NOE constraints, the calculations were repeated without the 67 non-NOE constraints, and the backbone atom R M S D increased to 0.85 A.
+3.6. Structural features
+
+V.J. Basus et al./FEBS Letters 370 (1995) 163 169
+
+S22
+
+O
+
+G23
+
+C8
+
+):_-o ....... - / .
+R21Ca
+
+.c-o
+%.
+~ C 2 H ....... " ~ = 2C Z A 6 ('( G3
+
+K;4~I21~--H ~-.-}H-- C/~ K7
+
+The main element of secondary structure for m-CmTxa is its triple-stranded anti-parallel fl-sheet of classification +2x, - 1 as its dominant structural motif (Fig. 3a). The largest portion of the sheet is from S19 to the C-terminal C25, connected by a hairpin turn consisting of residues $22 and G23. A third, short piece o f f l strand between A6 and C8 is hydrogen bonded to K24 and C25, making m-CmTxa the smallest known protein with a triple-stranded fl-sheet. We examined the rest of the structure to identify turns, using the definition that a turn exists where two C~'s are separated by two residues and less than 7 [35]. Candidates were then classified according to published definitions [36-37]. The turn between residues 21 and 24 can be classified as a I' turn [38] in all of the structures. Position 3 is a Gly, although position 2 usually has a Gly in a type I' turn.
+
+.'w. ........
+OC2_0~ a-H~'4H-
+
+¥ = o .......
+
+,o
+
+·
+
+\
+
+K4
+
+Fig. 4. Diagram of the secondary structure of co-CmTxa. Hydrogenbonds are shown by dashed lines, c~-Protonto ct-proton NOEs, characteristic of antiparallel ,&sheets are indicated by double arrows. A close inspection of the structure suggests that this type of turn is created due to the hydrogen bond between C8 and the carbonyl oxygen of K24, causing the carbonyl group to move down into a conformation more consistent with a type I' than the type II turn expected due to Gly at position 3. G3 to A6 form a type II turn in all structures (see Fig. 3c), held together by a hydrogen bond between those two residues. Position 3 is Gly, the preferred residue here in a type II turn. G5 is conserved in all known o)-conotoxins [39], leading to the possibility that this turn is important for the function or for maintaining the structure of this molecule. Two turns were found in the stretch from $9 to G18; $9 to M12 forms a type I turn, though it is not as well defined. Between C15 and G18 there is a turn, with its classification closest to the type VIII turn, a somewhat unusual type recently defined by Thornton [37].
+3. 7. Hydrogen bonds
+
+b
+
+vse
+
+C
+
+J
+
+Fig. 3. Stereopair views of the final 44 structures overlaid for best fit over the backbone atoms of the fl-sheet (a), residues 2-4 and 13-17 (b), residues ~ 7 (c), and all residues (d).
+
+A hydrogen exchange experiment showed seven slowly-exchanging protons in the structure, and these were examined to find likely bonding partners. The final structures were also examined for potential hydrogen bonds whose donors were not found to be slowly exchanging, using the program DSSP [40] to determine bonding partners. We used as a cutoff a maximum energy of -0.5 kcal/mole, as suggested by the authors of the program. This criterion identified nine unambiguous hydrogen bonds that were formed in at least 29 of the 44 refined structures, and had average energies of < -1.5 kcals (-3.0 kcal is an ideal bond). Six of these bonds involved the slowly-exchanging amides of residues 5, 6, 8, 16, 24, and 25. The proposed hydrogen bond network for the central portion of the molecule is shown in Fig. 4. After 24 h in D20, only the amide protons of residues 8, 24, and 25 were observed. These amides form the hydrogen-bonds important for stabilizing the fl-sheet. The amide of A6 forms a hydrogen-bond to the oxygen of G3 to form the Type II turn from residues 3 to 6. The amide of G5 forms a hydrogen-bond to the oxygen of C25, stabilizing the C-terminus which is the middle strand of the fl-sheet. One of the hydrogens in the amidated C-terminus is hydrogen bonded to the oxygen of S 19, stabilizing the fl-sheet, however it was not found to be slowly exchanging. The hydrogen bonds involving
+
+I~.J. Basus et al./FEBS Letters 370 (1995) 163-169
+
+167
+
+the amide protons of K2 and C16 are not part of the fl-sheet or any of the turns. C16 was actually found to be slowly exchanging, while K2 was not. This unusual set of hydrogen bonds is seen clearly in Fig. 3b. The amide proton of C16 forms a hydrogen-bond to the oxygen of K2, while the amide proton of the latter forms a hydrogen-bond to the oxygen of D14. The remaining hydrogen-bonds found in the structures were 12~9 and 21--~24. The 12--~9hydrogen-bond stabilizes the type I turn between residues 9 and 12. However, the structures are not well defined here, and may be flexible enough to allow rapid exchange of the amide of MI2. There was one slowly exchanging amide proton that could not be assigned because its chemical shift overlaps several amide protons, observed after 2 hrs in D20 , but not in any of the 2D spectra. It could be the amide of N21, the remaining hydrogen-bond in the fl-sheet whose proton was not identified as slowly exchanging.
+3.8. Comparison to other co-conotoxins
+
+14o100" 60"
+1~ 20"
+
+E~
+
+!
+
+~
+
+-20'
+
+Structures of two other og-conotoxins have been obtained to date: co-CgTx [4-7], and m-conotoxin MVIIC (og-CmTxc) [1011] (for sequences see Table 3). The overall fold of these two molecules as well as og-CmTxa, is very similar. In fact the structure of co-CgTx has been shown to be similar to several other unrelated molecules, such as kalata, CMTI-I, EETI-II, CPI and ¢o-Agatoxins IVA and IVB [41,42]. The common feature of these proteins is the presence of six cysteines disulfide bridged in the pattern 1-4, 2-5, and 3-6, and it is very likely that the similarity in the structures is determined by the pattern of disulfide linkages. Among the og-conotoxins, there are only a few conserved residues [43], the cysteines, and G5, and two with conservative substitutions Lys/Arg at positions 2 and 24 (og-CmTxa numbering) preserving the positive charge at these positions. It has been demonstrated, with acetylation of each of the lysines in og-CgTx [44], that no single lysine is very important for binding. There is some loss of binding when acetylating the amino-terminus of the peptide, but acetylating the amino-terminus along with both of the other lysines, at the positions equivalent to residues 2 and 24 of og-CmTxa, decreases the binding affinity by two orders of magnitude compared to native co-CgTx. This suggests that the number of positively charged residues is important for binding, with relatively little importance to a loss of only one of these charges. These studies were, however, limited to lysine modifications only. Synthetic analogues of co-CmTxa have been made replacing each positively charged residue with an alanine, one at a time, and it was found that positions 2, 10 and 21 are important for binding, while Ala at position 24 shows no effect [45]. Some of the ambiguities with these results can be understood by the fact that most of the positively charged residues have a lot of flexibility since the charges are at the end of their long flexible sidechains, so that one missing charge could be replaced with the sidechain of another positively charged sidechain.
+
+-180
+
+Residue 180 t 140 "~ 100" 60"
+
+21
+
+25
+
+8 ' " ~ 20" ~-20"
+
+e
+
+60
+-100"
+
+-140'
+-18O
+
+Fig. 5. Comparison of the · and 7' backbone angles for the o)-CmTxa structures reported here and the structures of o)-CmTxc [10], and (oCgTx [4]. Error bars represent one standard deviation based on the variation of angles on the reported structures. The sequence numbers are for co-CmTxa, and for the other molecules, the angles correspond to the equivalent residue numbers as per the alignment shown in Table 3, based on the three-dimensional structures. Although ¢o-CgTx and co-CmTxa have only 40% homology, it can be seen in Fig. 5 that when the alignment is done based on similarity of structure, 71% of the ~ and ~u angles between these two molecules are identical within the respective margins of error. The Ca 2+ channel specificity of these two toxins is nearly identical as well [8], both bind with high specificity and
+
+Table 3 Sequence alignment of og-CmTxa, co-CgTx, and ¢o-CmTxc, based on their structures
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21
+
+22 23 24 25
+X -
+
+co-CmTxa ¢o-CgTx co-CmTxc
+
+C C C
+
+K K K
+
+G S G
+
+K X K
+
+G G G
+
+A S A
+
+K S P
+
+C C C
+
+S S R
+
+R X K
+
+L T T
+
+M Y S Y M Y
+
+D N D
+
+C C C
+
+C C C
+
+T R S
+
+G G
+
+S S S
+
+C C C
+
+R N G
+
+Y
+R
+
+S T
+R
+
+G K
+G
+
+K R
+K
+
+C C
+C
+
+Y
+-
+
+All residues are standard one-letter codes except for X, T-hydroxypyroline.
+
+168 high affinity to the N-type Ca 2+ channels and four orders of magnitude lower affinity to the P/Q Ca 2÷ channels, o9-CmTxc, however, has 81% sequence homology with co-CmTxa, but as shown in Fig. 5, only 61% of the ~ and ~ angles are identical within their margins of error. Thus, the structural differences responsible for Ca 2+channel selectivity can be inferred from the regions that are structurally the same when comparing o9CmTxa and og-CgTx, and different from og-CmTxc. This comparison completely eliminates the region of residues 6-12, 1516, and 22-24, as well as residues 1 and 4 in og-CmTxa. In fact, the region equivalent to residues 21-23 ofog-CmTxa is different for each of the og-conotoxins not only structurally, but even in the number of residues, indicating that this region is entirely irrelevant for channel specificity or binding, perhaps being the portion of the molecule exposed to solvent when bound to the Ca 2+ channel. The region around G18 is different when comparing og-CmTxa to co-CmTxc, however, og-CgTx is missing G18, so that is probably not the region responsible for Ca 2+ channel selectivity. Residue G5 has a slightly different conformation for each of the three conotoxins. In og-CgTx, there is an extra tyrosine at the C-terminus which is very close to G5, so again this is probably not the region involved in selectivity. That leaves the region of Y13-D14 or the region of K2-G3, as recently also suggested by systematic alanine substitutions in og-CmTxa [45]. In both of these regions the · and ~ angles in og-CmTxc are significantly different from co-CmTxa and o9CgTx, while the latter two have the same backbone angles. Mutation of Y13 to F reduces the binding of og-CgTx by 3 orders of magnitude [46], and of og-CmTxa by 2.5 orders [45], which means that this tyrosine is essential for binding. Iodination of Y13 only slightly alters the binding affinities and selectivities of og-CmTxa and og-CmTxc, suggesting that the phenolic OH group is important here. Thus, minor structural changes in the region Y13-D14 may be responsible for the observed selectivities, although the binding sites on N-type and P/Q-type channels are able to accomodate iodinated tyrosine. The structures reported here should aid in the design of nonpeptide inhibitors with potential therapeutic utility. The coordinates of the final 44 structures, and the input restraints will be deposited in the Protein Data Bank, Brookhaven National Laboratory, Upton, NY 11973, USA.
+Acknowledgements: We thank Mr. M. Day for the NMR processing
+
+V.J. Basus et al./FEBS Letters 370 (1995) 163-169
+
+program, Dr. D. Kneller for the NMR spectral analysis program, Sparky, and Dr. R.C. van Schaik and Dr. W.F. van Gunsteren for the 4D molecular dynamics program and GROMOS. Molecular Graphics was done using the UCSF Computer Graphics Laboratory (NIH RR1081, Dr. T. Ferrin, P.I.). This work was partially supported by the National Science Foundation Grant DMB9104794. We acknowledge the San Diego Supercomputer Center for the use of their Cray-YMP.
+References
+
+[1] Gray, W.R., Olivera, B.M. and Cruz, L.J. (1988) Annu. Rev. Biochem. 57, 665-700. [2] Tsien, R.W., Ellinor, P.T. and Home, W.A. (1991) Trends Pharm. Sci. 12, 349-354. [3] Olivera, B.M., Miljanich, G.P., Ramachandran, J. and Adams, M.E. (1994) Annu. Rev. Biochem. 63, 823-867. [4] Davis, J.H., Bradley E.K., Miljanich, G.P., Nadasdi, L., Ramachandran, J. and Basus, V.J. (1993) Biochemistry 27, 7396405. [5] Pallaghy, P.K., Duggan, B.M., Pennington, M.W. and Norton, R.S. (1993) J. Mol. Biol. 234, 405420.
+
+[6] Sevilla, P., Bruix, M., Santoro, J., Gago, F., Garcia, A.G. and Rico, M. (1993) Biochem. Biophys. Res. Commun. 192, 12381244. [7] Skalicky, J.J., Metzler, W.J., Ciesla, D.J., Galdes, A., and Pardi, A. (1993) Protein Sci. 2, 1591-1603. [8] Kristipati, R., Nadasdi, L., Tarczy-Hornoch, K., Lau, K., Miljanich, G.P., Ramachandran, J. and Bell,J.R. (1994) Mol. Cell. Neurosci. 5, 214-228. [9] Borgias, B.A. and James, T.L. (1989) Methods Enzymol. 176, 169-183. [10] Farr-Jones, S., Miljanich, G.P., Nadasdi, L., Ramachandran, J. and Basus, V.J. (1995) J. Mol. Biol. 248, 106-124. [11] Nemoto, N., Kubo, S., Yoshida, T., Chino, N., Kimura, T., Sakakibara, S., Kyogoku, Y. and Kobayashi, Y. (1995) Biochem. Biophys. Res. Commun. 207, 695-700. [12] Miljanich, G.P. and Ramachandran, J. (1995) Annu. Rev. Pharmacol. Toxicol. 35, 707-734. [13] Ellinor, ET., Zhang, J.-F., Horne, W.A. and Tsien, R.W. (1994) Nature 372, 272-275. [14] Yamashiro, D. and Li, C.H. (1988) Int. J. Peptide Protein Res. 31, 322-334. [15] Hillyard, D.R., Monje, V.D., Mintz, I.M., Bean, B.E, Nadasdi L., Ramachandran J., Miljanich, G.P., Azimi-Zoonooz, A., McIntosh, J.M., Cruz, L.J., Imperial, J.S. and Olivera, B.M. (1992) Neuron 9, 69-77. [16] Ramilo, C.A., Zafarella, G.C., Nadasdi, L., Hammerland, L.G., Yoshikami, D., Gray, W.R., Kristipati, R., Ramachandran, G., Miljanich, G., Olivera, B.M. and Cruz, L.J. (1992) Biochemistry 31, 9919-9926. [17] Rance, M., Sorensen, O.W., Bodenhausen, G., Wagner, G., Ernst, R.R. and Wtithrich, K. (1983) Biochem. Biophys. Res. Commun. 117, 479. [18] Bax, A. and Davis, D.G. (1985) J. Magn. Reson. 65, 355. [19] Jeener, J., Meier, B.H., Bachmann, E and Ernst, R.R. (1979) J. Chem. Phys. 71, 4546-53. [20] Griesinger, C., Sorensen, O.W. and Ernst, R.R. (1985) J. Am. Chem. Soc. 107, 6394. [21] States, D.J., Haberkorn, R.A. and Ruben, D.J. (1982) J. Magn. Reson. 48, 286. [22] Marion, D. and Wiithrich, K. (1983) Biochem. Biophys. Res. Commun. 113, 967. [23] Sklen/tr, V., Torchia, D. and Bax, A. (1987) J. Magn. Reson. 73, 375 79. [24] Nirmala, N.R. and Wagner, G. (1989) J. Magn. Reson. 82, 659-61. [25] Kneller, D. and Kuntz, I.D. (1993) Sparky, NMR Display and Analysis Program, Copywright University of California, San Francisco. [26] Borgias, B.A. and James, T.L. (1990) J. Magn. Reson. 87, 475 487. [27] Havel, T.F., Crippen, G.M. and Kuntz, I.D. (1979) Biopolymers 18, 73-81. [28] van Schaik, R.C., Berendsen, H.J.C., Torda, A.E. and van Ginsteren (1993) J. Mol. Biol. 234, 751-762. [29] van Gunsteren, W.E and Berendsen, H.J.C. (1987) GROMOS manual, Biomos b.v., Biomolecular Software, Groningen. [30] Wfithrich, K. (1986) NMR of Proteins and Nucleic Acids, Wiley, New York. [31] Thomas, ED., Basus, V.J. and James, T.L. (1991) Proc. Natl. Acad. Sci. USA 88, 123741. [32] Norton, R.S., Clouse, A.O., Addleman, R. and Allerhand, A. (1977) J. Am. Chem. Soc. 99, 79. [33] Basus, V.J. (1989) Methods Enzymol. 177, 132-149. [34] Pardi, A., Billeter, M. and Wiithrich, K. (1984) J. Mol. Biol. 180, 741 51. [35] Lewis, EN., Momany, EA. and Scheraga, H.A. (1973) Biochim. Biophys. Acta 303, 211-229. [36] Richardson, J.S. (1981) Adv. Protein Chem. 34, 167-339. [37] Wilmot, C.M. and Thornton, J.M. (1990) Protein Engineering 3, 479-93. [38] Sibanda, B.L., Blundell, T.L. and Thornton J.M. (1989) J Mol. Biol. 206, 759-777. [39] Hillyard, D.R., Olivera, B.M., Woodward, S., Corpuz, G.P., Gray, W.R., Ramilo, C.A. and Cruz, L.J. (1989) Biochemistry 28, 358~1.
+
+V.J. Basus et al./FEBS Letters 370 (1995) 163-169
+
+169 [44] Lampe, R.A., Mathew, M.S.L., Keith, R.A., Horn, M.B., McLane, M.W., Herman, J.L. and Spreen, R.C. (1993) Biochemistry 32, 3255-3260. [45] Nadasdi, L., Yamashiro, D., Chang, D., Tarczy-Hornoch, K., Adriaenssens, P. and Ramachandran, J. (1995) Biochemistry, in press. [46] Kim, J.I., Takahashi, A.O., Ogura, T.K., Kudo, Y. and Sato, K. (1994) J. Biol. Chem. 269, 2387(~23878.
+
+[40] Kabsch, W. and Sander, C. (1983) Biopolymers 22, 2577-2637. [41] Pallaghy, P.K., Nielsen, K.J., Craik, D.J. and Norton, R.S. (1994) Protein Science 3, 1833-1839. [42] Narasimhan, L., Singh, J., Humblet, C., Guruprasad, K., and Blundell, T. (1994) Structural Biology 1,850-852. [43] Olivera, B.M., Imperial, J.S., Cruz, L.J., Bindokas, V.P., Venema, V.J. and Adams, M.E. (1991) Ann. N.Y. Acad. Sci. 635, 114122.
+
+

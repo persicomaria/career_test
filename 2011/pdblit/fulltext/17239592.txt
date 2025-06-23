@@ -1,0 +1,302 @@
+Bioorganic & Medicinal Chemistry Letters 16 (2006) 1405≠1409
+
+In silico fragment-based discovery of DPP-IV S1 pocket binders
+Christian Rummey,a Sonja Nordhoff,b Meinolf Thiemannc and Gunther Metza,* ®
+a
+
+Computational Discovery, Santhera Pharmaceuticals, Im Neuenheimer Feld 518-519, 69120 Heidelberg, Germany b Medicinal Chemistry, Santhera Pharmaceuticals, Im Neuenheimer Feld 518-519, 69120 Heidelberg, Germany c Biochemistry, Santhera Pharmaceuticals, Im Neuenheimer Feld 518-519, 69120 Heidelberg, Germany
+Received 11 October 2005; revised 10 November 2005; accepted 10 November 2005 Available online 29 November 2005
+
+Abstract--Dipeptidyl peptidase IV is a clinically validated target for type-2 diabetes and belongs to a family of peptidases with a quite unique post-proline cleavage specificity. Known inhibitors contain a limited number of molecular anchors occupying the small prototypical S1 pocket. A virtual screening approach for such S1-binding fragments was carried out using FlexX docking to evaluate its potential to confirm known and find novel compounds. Several low molecular weight inhibitors exhibiting activities in the micromolar range could be identified as starting points for structure-based design. ” 2005 Elsevier Ltd. All rights reserved.
+
+Diabetes mellitus is one of the major threats to worldwide healthcare, causing 100 million deaths with a prevalence for type-2 diabetes.1 Besides classical insulin-based treatment, several new approaches are emerging, including DPP-IV inhibitors.2 These substances act by preventing the rapid degradation of GLP-1, an incretin hormone having multiple beneficial effects on glucose homeostasis.3 DPP-IV is by far the best analyzed member of a protein family termed prolyl peptidases sharing the ability to cleave Pro-Xaa bonds.4 High specificity for proline in the penultimate position and tolerance for small residues such as alanine and glycine can be explained by crystal structures revealing a tight lipophilic S1 pocket and negatively charged residues at a proximal position (Fig. 1).5 First-generation substrate-like inhibitors use pyrrolidine-based scaffolds occupying the S1 pocket.6 Covalent variations thereof, carrying an electrophilic group as a serine trap, show high affinity, but raise the concern of unselective inhibition. Recently, the X-ray co-crystal structures of non-substrate-like and non-covalent designs based on a b-amino acid or a pyrimidine scaffold have appeared.7 All structural classes share the presence of a highly lipophilic P1 moiety and a basic amine in close proximity as exemplified by compounds 1≠3. This
+Keywords: Dipeptidyl peptidase-IV inhibitors; Molecular anchor; Fragment-based discovery; Virtual screening; Docking. * Corresponding author. Tel.: +49 6221 6510 117; fax: +49 0 6221 6510 111; e-mail: guenther.metz@santhera.com 0960-894X/$ - see front matter ” 2005 Elsevier Ltd. All rights reserved. doi:10.1016/j.bmcl.2005.11.038
+
+common characteristic constitutes a so-called molecular anchor.8 Fragment-based discovery attempts to identify such molecular anchors providing attractive starting points for inhibitor design. This strategy has gained increasing interest in primary screening.9 We have recently shown that an experimental approach can indeed identify very small DPP-IV binders such as compound 4.10 In addition and prior to biochemical testing, virtual ‘needle’ screening, an in silico docking approach, can act as a prefilter for fragment candidate selection.11 However,
+
+HO 1 O N NH2 H2N N N
+
+OH 3 Cl
+
+NH2 F F N N F N N O NH2 F 2 (MK-0431) 4 F
+
+Cl
+
+F NH2
+
+1406
+
+C. Rummey et al. / Bioorg. Med. Chem. Lett. 16 (2006) 1405≠1409
+Y547
+
+F357 Y666 Y662 S630
+
+H740 E206
+
+positively charged groups in S2, we decided to focus on small primary aliphatic amines. A fragment database was assembled from the Available Chemical Directory and our in-house collection.14 After several preprocessing steps, approximately 10,000 molecules were docked using the FlexX program.15 To ensure that the fragments were at least partially placed in S1, we used the FlexX-Pharm extension, which allows to set userdefined constraints for the generated poses.16 For a successful placement a ligand needed to bind to at least two of four selected acceptor points and in addition fulfill a spatial constraint within S1 (Fig. 1).17 Figure 2 shows the FlexX score of the top-scored pose for each compound as a function of molecular weight. Docking scores often correlate with size and normalization has been suggested to correct for this artificial bias.12b In our case, this was not observed as compounds with similar overall properties were docked. Based on the distribution of scores, the scoring function did not discriminate between compounds carrying a known S1 fragment such as pyrrolidine-amides (class A), phenetylamines (class B) or biaryl-amines (class C), and the remaining molecules. Visual inspection of the poses of members from known structural classes indicated that the ‘correct’ placement, that is, the binding mode as expected from the more elaborated ligands, was indeed found for pyrrolidines and the phenethylamines, but not for the biaryl compounds. For example, the position of the substrate-like co-crystallized pyrrolidine inhibitor 1 is well identified by FlexX (Fig. 3a). Only the planes of the rings are positioned slightly differently as the (incorrect) non-planar amide conformation in the crystal structure is not reproduced. Likewise, for the phenethylamines (B), docking could well find the crystal structure binding mode of the small fragment 4 (Fig. 3b). The simple phenethylamines 6a and 6b are also docked in exactly the same position as the corresponding substructure of
+A
+O N NH2 C,S
+
+E205
+
+D708
+
+Figure 1. Active site of DPP-IV: the tight lipophilic S1 site is rendered as white surface and the double Glu-motive, fixing the N-terminus of substrate proteins, is shown in blue. Spheres indicate pharmacophoric constraints used during docking (H-bond acceptors in red and a carbon atom in black; see text). Coordinates were taken from PDB entry 1n1m.5
+
+the placement of small molecules in the active site is still a challenge, given the many potential poses and the shortcomings of current scoring functions.12 The likely success also depends on the nature of the binding site, most notably on the presence of a well-defined subpocket.13 In this context, the tight DPP-IV S1 site seems to be an attractive target for exploration (Fig. 1). Herein, we report fragment discovery within the S1 pocket of DPP-IV by means of pharmacophore constrained docking. This approach goes beyond a 3D pharmacophore search by explicitly considering the active site and thus providing binding modes that can be examined both by scoring and visual inspection. Given the preference for lipophilic features in S1 and
+
+FLEXX-SCORE
+
+B
+
+H H
+
+NH2
+
+TOP-500
+
+C
+
+C,N
+
+NH2
+
+MOLWEIGHT
+Figure 2. The FlexX score plotted vs molecular weight shows that the docking score is not biased by molecular weight; nevertheless, known binding anchor substructures (A≠C) are not enriched by the docking score (left). The top 500 placements (below the horizontal line) were chosen for visual inspection.
+
+C. Rummey et al. / Bioorg. Med. Chem. Lett. 16 (2006) 1405≠1409
+
+1407
+
+XRAY
+
+FlexX
+
+Table 1. DPP-IV inhibition data for fragments together with the FlexX score of the top-ranked docking pose
+O Cl N
+
+a
+
+4
+NH2
+
+5
+NH2
+F Cl
+
+1
+
+1
+
+b
+
+6a
+NH2
+
+6b
+NH2
+
+Cl
+
+N
+
+Cl
+
+7a
+4 4
+O N
+
+7b
+NH2 NH2
+
+c
+
+N
+
+8a
+N NH2
+O
+
+8b
+NH2
+
+N
+
+2
+
+6a
+N
+N
+
+d
+
+9a
+NH2
+NH2
+
+9b
+H2N
+NH2
+
+10a
+3 7b
+H2N
+
+10b
+H2N
+
+O
+
+O
+
+Figure 3. Docking poses of known P1 anchors (green), compared with X-ray crystal structures (yellow) from PDB entries (a) 1n1m, (b) 2bua, (c) 1 ∑ 70, and (d) 1rwq.
+
+11a
+Cl NH2
+
+11b
+NH2
+
+F
+
+Compound
+
+IC50 (lM) 3 (Ki5a)
+
+inhibitor 2 (Fig. 3c). The accurate docking position underlines the important 2-carbon atom distance from the phenyl ring to the basic amine in this class of compounds. However, the biaryl fragments 7a and 7b (C) are not placed in accordance with the substructure shared with compound 3 (Fig 3d). This might be explained by the lack of the additional anilinic amino function present only in 3, which forms a hydrogen bond to the backbone carbonyl of E205 in the X-ray structure.7 It is noteworthy that the identical binding mode of the phenethylamine 4 is a rare case where the placement of a fragment in isolation and within a larger compound such as 2 has actually been proven by crystallography (Figs. 3b and c).18 Such a finding is a prerequisite for the concept of a molecular anchor which relies on an unaltered binding mode upon addition of further chemical groups.19 The inhibition data for few selected simple fragments were determined and are shown in Table 1 together with the docking scores.20 For pyrollidine-amide 1 the Ki of 2 lM has been taken from the literature.5b Fragments 4 and 5 are previous in-house discoveries with Ki of 40 and 30 lM, respectively. The simple phenethylamines 6a and 6b show 37% and 11% inhibition at 100 lM and the biaryl compounds 7a and 7b showed very prom-
+
+% inhibition (at 100 lM)
+
+FlexX score ¿27.1
+
+1
+
+4
+
+40
+
+70
+
+¿19.1
+
+5
+
+30
+
+67
+
+¿15.7
+
+6a
+
+37
+
+¿17.1
+
+6b
+
+11
+
+¿19.8
+
+7a
+
+2.3
+
+96
+
+¿17.6
+
+7b
+
+3.3
+
+94
+
+¿17.6
+
+8a 8b
+
+0 0
+
+¿24.4 ¿26.6 (continued on next page)
+
+1408 Table 1 (continued) Compound 9a IC50 (lM)
+
+C. Rummey et al. / Bioorg. Med. Chem. Lett. 16 (2006) 1405≠1409
+
+% Inhibition (at 100lM) 40
+
+FlexX score ¿24.0
+
+9b
+
+32
+
+¿19.0
+
+10a
+
+45
+
+68
+
+¿21.8
+
+10b
+
+75
+
+55
+
+¿24.9
+
+11a
+
+37
+
+72
+
+¿14.5
+
+11b
+
+22
+
+¿21.2
+
+a
+
+b
+
+was observed making the proposed contact very unlikely. Furthermore, many benzylamines were able to fulfill the docking constraints, however, often poses did not place the phenyl ring into S1 (Fig. 4b)--maybe due to the shorter distance between amine and ring moiety compared to the well-placed phenethylamines 4 and 5. This difference might be a cause for the slightly weaker activities of the two fragments 9a and 9b. Consistent with these findings, diamine compounds having both a benzyl and phenethylamine substructure can also be positioned within the pharmacophore constraints. The placement of 10a is shown in Figure 4c. Two tested diamines 10a and 10b showed an IC50 of 45 and 75lM, respectively, and these structures could be a starting point for further exploration of the binding site, given the amine handle for introduction of diversity in a fragment-growing scenario. Finally, biaryl ethers exemplified by compound 11a showed plausible poses (Fig. 4d). Compound 11a was indeed functionally active with an IC50 of 37 lM. A related fragment 11b was slightly less potent. These two fragments constitute a distinct novel class of molecular anchors for the S1 pocket of DPP-IV. In conclusion, in silico fragment screening has been explored and our docking study demonstrates the ability to reproduce the binding mode of small fragments acting as molecular anchors either alone or as part of a larger inhibitor--at least when supported by a biased placement via pharmacophore constraints. Expectedly, scoring such placements is difficult but a careful inspection of docking poses allowed us to identify both known and unknown molecular anchors for the S1 pocket of DPP-IV.21 References and notes
+
+c
+
+d
+
+Figure 4. Poses of novel fragments docked into the DPP-IV site.
+
+ising low micromolar affinities. The results presented so far indicate that, while correct poses can be identified for known motifs, scoring alone does not seem to be capable of guiding the selection of fragments likely to inhibit DPP-IV. To look for new motifs, the poses of the best scored 500 fragments (Fig. 2) were visually inspected. Unlikely poses were discarded, based on several criteria such as obvious clashes with the receptor, polar groups in P1, unplausible placement of the amino function, and unlikely hydrogen bonding patterns (multiple H-bonds to the same site atom or group, H-bonding to buried amino acids). Many fragments with reasonable poses fall in the classes where the essential motif has already been discussed above. We took a closer look at four additional motifs and their potential as a molecular anchor for fragment-based design. Next to phenethylamines, also pyridinethylamines were placed with the aromatic ring in S1 having a favorable H-bond to His740 (Fig. 4a). To verify this finding we tested compounds 8a and 8b. However, no inhibition
+
+1. Sithole, E. World facing diabetes catastrophe: Experts. Reuters Health Report, Paris, August 25, 2003. 2. (a) Rondinone, C. M. Expert Opin. Ther. Targets 2005, 9, 415; (b) Rotella, P. D. J. Med. Chem. 2004, 47, 4111; (c) Weber, A. E. J. Med. Chem. 2004, 47, 4135. 3. Holst, J. J. Expert. Opin. Emerg. Drugs 2004, 9, 155. 4. Rosenblum, J. S.; Kozarich, J. W. Curr. Opin. Chem. Biol. 2003, 7, 496. 5. (a) Rasmussen, H. B.; Branner, S.; Wiberg, F. C.; Wagtmann, N. R. Nat. Struct. Biol. 2003, 10, 19; (b) Engel, M.; Hoffmann, T.; Wagner, L.; Wermann, M.; Heiser, U.; Kiefersauer, R.; Huber, R.; Bode, W.; Demuth, H. U.; Brandstetter, H. Proc. Natl. Acad. Sci. U. S. A. 2003, 100, 5063. 6. Augustynus, K.; Van der Veken, P.; Senten, K.; Haemers, A. Expert Opin. Ther. Patents 2003, 13, 499. 7. (a) Kim, D.; Wang, L.; Beconi, M.; Eiermann, G. L.; Fischer, M. H.; Huaibing, H.; Hickey, G. J.; Kowalchick, J. E.; Leiting, B.; Lyons, K.; Marsilio, F.; McCann, M. E.; Patel, R. A.; Petrov, A.; Scapin, G.; Patel, S. B.; Sinha Roy, R.; Wu, J. K.; Wyvratt, M. J.; Zhang, B. B.; Zhu, L.; Thornberry, N. A.; Weber, A. E. J. Med. Chem. 2005, 48, 141; (b) Peters, J.-U.; Weber, S.; Kritter, S.; Weiss, P.; Wallier, A.; Boehringer, M.; Hennig, M.; Kuhn, B.; Loeffler, B.-M. Bioorg. Med. Chem. Lett. 2004, 14, 1491. 8. (a) Verkhivker, G. M.; Rejto, P. A.; Bouzida, D.; Arthurs, S.; Colson, A. B.; Freer, S. T.; Gehlhaar, D. K.; Larson,
+
+C. Rummey et al. / Bioorg. Med. Chem. Lett. 16 (2006) 1405≠1409
+
+1409
+
+9.
+
+10.
+
+11.
+
+12.
+
+13. 14.
+
+V.; Luty, B. A.; Marrone, T.; Rose, P. W. J. Mol. Recognit. 1999, 12, 371; (b) Rejto, P. A.; Verkhivker, G. M. Proc. Natl. Acad. Sci. U. S. A. 1996, 93, 8945. For recent reviews, see: (a) Rees, D. C.; Congreve, M.; Murray, C. W.; Carr, R. Nat. Rev. Drug Discov. 2004, 3, 660; (b) Fattori, D. Drug Discov. Today 2004, 9, 229; (c) Verdonk, M. L.; Hartshorn, M. J. Curr. Opin. Drug Discov. Devel. 2004, 7, 404. ¥ Nordhoff, S.; Cerezo-Galvez, S.; Feurer, A.; Hill, O.; Matassa, V. G.; Metz, G.; Rummey, C.; Thiemann, M.; Edwards, P. J. Bioorg. Med. Chem. Lett. 2005, accepted for publication. (a) Pickett, S. D.; Sherborne, B. S.; Wilkinson, T.; Bennett, J.; Borkakoti, N.; Broadhurst, M.; Hurst, D.; Kilford, I.; McKinnell, M.; Jones, P. S. Bioorg. Med. Chem. Lett. 2003, 13, 1691; (b) Lyne, P. D. Drug Discov. Today 2002, 7, 1047. (a) Schulz-Gasch, T.; Stahl, M. Drug Discov. Today 2004, 1, 231; (b) Verdonk, M. L.; Berdini, V.; Hartshorn, M. J.; Mooij, W. T.; Murray, C. W.; Taylor, R. D.; Watson, P. J. Chem. Inf. Comput. Sci. 2004, 44, 793; (c) Kitchen, D. B.; Decornez, H.; Furr, J. R.; Bajorath, J. Nat. Rev. Drug Discov. 2004, 3, 935; (d) Cummings, M. D.; DesJarlais, R. L.; Gibbs, A. C.; Mohan, V.; Jaeger, E. P. J. Med. Chem. 2005, 48, 962. (a) Hajduk, P. J.; Huth, J. R.; Fesik, S. W. J. Med. Chem. 2005, 48, 2518; (b) Klebe, G. Drug Discov. Today 2004, 1, 225. MDL Information Systems, San Leandro, CA, USA.
+
+15. Reactive groups and otherwise undesired features (e.g., large ring systems), as well as non-fragment-like compounds (more than 5 rotatable bonds or more than 2 rings) were removed. Since we were only looking for prototype P1 fragments, the decoration level was reduced by restricting the number of heteroatoms (N, O, S) to three (two in addition to the amine) and the number of halogens to one (being either fluorine or chlorine). Without applying an explicit limit, these filters eventually restrict the size to approximately 300 Da (see also Fig. 2). Prior to docking, fragments were subjected to a preprocessing to create meaningful protonation states and cover potential tautomers (LigPrep, Schrodinger Inc., www.schrodinger.com). ® 16. (a) Rarey, M.; Kramer, B.; Lengauer, T.; Klebe, G. J. Mol. Biol. 1996, 261(3), 470; (b) Hindle, S. A.; Rarey, M.; Buning, C.; Lengauer, T. J. Comput. Aided. Mol. Des. 2002, 16, 129; (c) FlexX-Pharm, Tripos Inc. www.tripos. com, BioSolveIT GmbH, www.biosolveit.com. 17. The active site was prepared from an in-house human DPP-IV crystal structure without further minimization. 18. PDB codes 2BUA, 2BUB and 2BUC, see Ref. 10. 19. (a) Stout, T. J.; Sage, C. R.; Stroud, R. M. Structure 1998, 6, 839; (b) Lange, G.; Lesuisse, D.; Deprez, P.; Schoot, B.; Loenze, P.; Benard, D.; Marquette, J. P.; Broto, P.; Sarubbi, E.; Mandine, E. J. Med. Chem. 2003, 46, 5184. 20. IC50 and %-inhibition values were determined as described previously, see Ref. 10. 21. Related work has recently been reported: Ward, R. A.; Perkins, T. D. J.; Stafford, J. J. Med. Chem. 2005, 48, 6991.
+
+

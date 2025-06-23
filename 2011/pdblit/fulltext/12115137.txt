@@ -1,0 +1,247 @@
+E. Navarro1 E. Fenude2 B. Celda1
+1
+
+Departamento de Quimica ´ Fisica, ´ Facultat de Quimicas, ´ Universitat de Valencia, C/Dr. Moliner,50, 46100-Burjassot (Valencia), Spain
+2
+
+Solution Structure of a D,LAlternating Oligonorleucine as a Model of DoubleStranded Antiparallel -Helix
+
+Istituto per l'Applicazione delle Tecniche Chimiche Avanzate ai Problemi Agrobiologici CNR, via Vienna, 2, 07100-Sassari, Italy
+
+Received 21 December 2001; accepted 4 March 2002 Published online 00 Month 2002 in Wiley InterScience (www.interscience.wiley.com). DOI 10.1002/bip.10172
+
+Abstract: Conformational characteristics of alternating D,L linear peptides are of particular interest because of their capacity to form transmembrane channels with different transport properties, as some natural antibiotics do. Single- and double-stranded -helical structures are common for alternating D,L peptides. The stability of the -helix depends on several structural factors, such as the backbone peptide length, type and position of side chains, and nature of terminal groups. The NMR and molecular dynamics solution conformation of a synthetic alternating D,L-oligopeptide with 15 norleucines (XVMe) has been used as a model to get insight in to the conformational features of double-stranded -helix structures. The NH chemical shift values ( NH) and long-range nuclear Overhauser effects (NOE) cross peaks, in particular interstrand connectivities, clearly point to an antiparallel double-stranded -helix for the XVMe major conformation in solution. An extensive set of distances (from NOE cross peaks) and H-bonds (from NH) has been included in the molecular dynamics calculations. The experimental NMR data and theoretical calculations clearly indicate that the most probable conformation of XVMe in solution is a double-strand antiparallel 5.612helix structure. © 2002 Wiley Periodicals, Inc. Biopolymers 64: 198 ­209, 2002 Keywords: -helix; gramicidin A; D,L-alternating peptides; two-dimensional NMR; energy minimization; molecular dynamics; simulated annealing; AMBER force field; structure determination
+
+Correspondence to: B. Celda; email: bernardo.celda@uv.es Contract grant sponsor: Generalitat Valenciana, Spain; Contract grant number: GV96-D-CN-09-140 Biopolymers, Vol. 64, 198 ­209 (2002) © 2002 Wiley Periodicals, Inc.
+
+198
+
+D,L-Alternating
+
+Oligonorleucine
+
+199
+
+INTRODUCTION
+Numerous experimental studies of the conformational characteristics of linear peptides formed by regularly alternating D- and L-residues have been carried out, and have indicated that they are able to assume very specific conformations. These include, among others, some of the various kinds of single- and doublestranded -helical structures predicted for syndiotactic peptides on theoretical grounds. With the aim at better characterizing these structures and at evaluating the role played by structural factors, such as length of the peptide chain, nature of lateral substituents and terminal groups, a systematic study of different series of D,L-alternating oligonorleucines is being carried out.1­3 In our previous work, the structure of a D,L-alternating oligonorleucine of 12 residues (n 12) and methylated at the residue 9 from N-terminal was characterized as a single 4.4-helix by NMR and molecular dynamics.1 The interest for -helix structures arises from the observation that this conformation is able to form specific ion-conducting channels across natural and synthetic membranes as gramicidin A does.4 ­ 6 This oligonorleucine peptide belongs to a family of synthetic peptides prepared to get insight into the factors that determine the formation of the different kinds of -helical structures. These factors are the steric volume of the side chains, N-methylation that can avoid formation of H bonds to stabilize a given conformation, nature of terminal groups that determine the aggregation state, and main-chain length. In this work, the structural characterization in solution of an additional synthetic norleucine (Nle) oligopeptide is discussed. The XVMe peptide2 is a peptide with fifteen D,L-alternating norleucines which has Boc­ (t-butyloxycarbonyl) and ­OMe (methoxy) as terminal protections, and an N-methyl group at the residue 12 from the N-terminal. The XVMe peptide has the following sequence: Boc­L-Nle­(D-Nle­L-Nle)5­D-MeNle­L-Nle­D-Nle­LNle­OMe. Its tridimensional structure was characterized using distance and H-bond restraints derived from two-dimensional NMR experiments in combination with molecular dynamics simulations. The NMR data and calculation results point out to a doublestranded antiparallel 5.6-helix structure as the major conformation adopted by XVMe in chloroform solution.
+
+MATERIALS AND METHODS
+The synthesis of the XVMe D,L-alternating oligopeptide has been described elsewhere.2 NMR samples were prepared by
+
+dissolving 10.3 mg of the peptide in 0.6 mL of deuterated chloroform to a dimer concentration of 4.7 mM. 1 H NMR spectra were recorded on a Varian Unity spectrometer operating at 400 MHz. Unless otherwise indicated, all spectra were acquired at 303 K. Total correlated spectroscopy (TOCSY)7,8 and rotating frame nuclear Overhauser effect spectroscopy (ROESY)9,10 spectra were used for sequence-specific assignments of the XVMe peptide. TOCSY spectra were recorded using the MLEV-17 sequence.11 Mixing times for TOCSY were 15, 40, and 80 ms for XVMe peptide.12 Mixing times for ROESY experiments were 100 and 200 ms. Typically, the number of scans varied from 32 to 64, the number of t1 increments from 256 to 512 and the number of points in t2 dimension was 4096. Shifted sine-bell or Gaussian window functions were applied prior to Fourier transform. The number of points for processing was 2048 or 4096 in both dimensions and zero-filling was employed to increase the digital resolution. When necessary, polynomial baseline corrections were applied in w2 for ROESY spectra. All the spectra were acquired in phasesensitive manner with time-proportional phase increments (TPPI).13 Data were processed and analyzed on a Silicon Graphics Workstation using the VNMR Varian Software. Interproton distances for the XVMe peptide were obtained by measuring cross-peak volumes in the ROESY spectra of oligopeptides. Three upper bound distances (3, 4, and 5 Å) were considered, corresponding to three different NOE cross-peak intensities (strong, medium, and weak, respectively).14 ­17 InsightII program18 was used for molecular model construction and for structural analysis of the different obtained conformations. There is no available x-ray diffraction struc-sheet ture for the XVMe peptide; consequently, and dihedral angle values from literature19,20 were applied to an extended D,L-alternating oligonorleucine chain and used for the generation of XVMe initial empirical models. As discussed later, the NMR data show that the main global structure of XVMe in solution is consistent with double antiparallel strands. Conformational energy calculations have shown that the double-stranded antiparallel -helix with 5.6 ( 5.612) and 7.2 ( 7.212) residues per turn are stable structures.19 Hence, these structures were selected as and dihedral angle models. For the 5.612-helix 115°, D 75°, L 145° , L values were D 180°; whereas for the 7.212-helix the D 135°, D 105°, L 145°, L 165° values were applied. The side chains were initially built in their extended conformations. The DISCOVER program21 was utilized for molecular dynamics calculations, including energy minimization, molecular dynamics,22 and simulated annealing.23 For molecular relaxation, the following energy minimization scheme was used: first, in order to remove bad steric contacts, the steepest descent method was applied.24 Then, a more powerful convergent method, the conjugate gradient25,26 method, was exploited. AMBER27 MSI version was used as force field.
+
+200
+
+Navarro, Fenude, and Celda
+
+FIGURE 1 Ribbon models of XVMe buildup using literature and values and after an energy minimization by the steepest descent and conjugate gradients procedure of (A) 5.612 and (B) 7.2 12 Prior to the restrained molecular dynamics calculations (RMD), the initial coordinates of the 5.612 and 7.212 empirical models were relaxed by the energy minimization steepest descent and conjugate gradient methods, with 0.01 in the root mean square value for all atomic derivatives (rmsd) as the convergence criteria. The theoretical relaxed conformations for double-stranded antiparallel -helix 5.6 12 and 7.212 models are shown in Figures 1A and 1B, respectively. In energy calculations a 17 Å cutoff distance was employed with a switching function between 15 and 17 Å for the van der Waals terms. Two different RMD trajectories were run, at 300 and 500 K. The RMD at 300 K includes 1 ps of heating and equilibration, and 250 ps of free dynamics. During the 300 K RMD a structure was relaxed through energy minimization at 0 K every 10 ps. The protocol used for the RMD at 500 K is slightly different, in that case a 2 ps heating and equilibration stage was applied. During the 500 ps free trajectory at 500 K, every 10 ps the temperature was slowly cooled down from 500 to 0 K by an exponential function, and finally the structure was relaxed through the conjugate gradient method. For both RMD calculations, a distance-dependent dielectric constant 1 r was used. For restrained simulated annealing calculations (SARMD) two chains of 15 D,L-alternating norleucines in the fully extended conformation, placed in an antiparallel relative position, at a backbone­ backbone distance of about 9.5 Å with the side chains in an extended conformation, were used as the starting structure. The initial atomic velocities in SARMD calculations were randomly assigned; therefore the accessible conformational space can be adequately sampled.28 In these calculations a 12 Å cutoff distance was employed with a switching function between 10 and 12 Å for the van der Waals terms. As a first step, a
+
+D,L-Alternating
+
+Oligonorleucine
+
+201
+
+FIGURE 2 Contour plot of the NH-- H region from the TOSCY spectrum of XVMe at 400 MHz in d-chloroform at 303 K, resulting from the addition of three spectra recorded with mixing times m of 15, 40, and 80 ms.
+
+mild minimization without constraints was performed in order to remove bad steric contacts and improve the stability of the simulated annealing calculations. The annealing procedure included two stages: weight annealing and temperature annealing.29 The process begins with 1 ps at 1000 K, where the weight contribution of the constraint term is larger than the rest of energy terms of the force field. Then by means of several steps of molecular dynamics at 1000 K the weight contribution of the bonds, , and out-of-plane terms are rescaled from 2.5 10 4 to 1.24 kcal/mol, nonbonded terms from 1.5 10 3 to 1.24 kcal/mol. Then, a temperature annealing with a length of 40 ps was carried out in order to slowly cool down the system from 1000 to 200 K in constant decrements of 20 K. At the end the structure was minimized by the steepest descent and conjugate gradient methods using a distance dependent dielectric constant 1 r. Likewise and in order to obtain a proper folding of the initial extended coordinates, in addition to distance constraints, the H-bond restrictions were included in the SARMD calculations.
+
+RESULTS
+The complete spin system identification for all residues of XVMe was carried out through TOCSY spec-
+
+tra at different mixing times. The HN-- H region of the TOCSY spectrum resulting from the coaddition of three spectra recorded with mixing times m of 15, 40, and 80 ms12 is shown in Figure 2, where at least two sets of cross peaks with different intensities can be clearly appreciated. The structural studies have been focused to the most populated conformation corresponding to the most intense cross peaks. In this peptide, as the norleucine(12) is methylated, it can be easily identified because it has no HN-- H signal and its H is shifted to higher fields due to the proximity of the methyl group. Furthermore, in Figure 2 a significant dispersion of the HN-- H cross peaks can be appreciated, indicating a different dielectric environment for the HN protons, which can be related to the existence of a stable and regular structure.14 Sequence-specific assignments for XVMe were obtained by the sequential interresidue NOE connectivities HN(i 1)-- H(i) from a ROESY spectrum with a mixing time m of 200 ms (Figure 3). These cross peaks are particularly intense and easy to distinguish from the intraresidue HN(i)-- H(i) cross peaks and from long-distance connectivities having weaker NOE intensities. Moreover, the intraresidue
+
+202
+
+Navarro, Fenude, and Celda
+
+FIGURE 3 Contour plot of the NH-- H region from ROESY spectrum of XVMe at 400 MHz in d-chloroform at 303 K recorded with a mixing time m of 200 ms. The intraresidue correlations are marked with a square.
+
+HN(i)-- H(i) connectivities can be elucidated from TOCSY spectra (Figure 2). Interresidue HN(i 1)-- H(i) distances are shorter than the intraresidue, HN(i)-- H(i) distances, as it can be checked in both XVMe models, 5.612 and 7.212, thus explaining the intensity differences between the two kinds of resonances. As shown in Figure 3, the HN(13)-- H(12) cross peak was used as a starting point for sequence-specific assignments. The intraresidue HN(13)-- H(13) cross peak lies on the horizontal line corresponding to the HN(13) chemical shift. From the HN(13)- H(13) cross peak a vertical line leads to the HN(14)-- H(13) cross-peak connectivity. Following a similar procedure, the complete sequence-specific assignments were obtained (Table I). The chemical shifts for the groups Boc, NMe, and
+
+OMe groups were 1.45, 2.72, and 3.68 ppm, respectively. The H-- H and HN--HN regions of the ROESY spectrum at m 200 ms (Figures 4 and 5), have been especially important to find connectivities between residues located far away in the oligopeptide sequence. These long-range connectivities are essential to discriminate among different structural models, and as critical distance restraints to constraint the molecular dynamic calculations (Tables II and III). In particular, the interstrand connectivities, H(11)-- H(1), H(12)-- H(4), H(9)-- H(3), H(10)-- H(6), NH(15)--NH(1), NH(11)--NH(5), and NH(13)--NH(3) (Figures 4 and 5, and Tables II and III), have been crucial to verify the antiparallel orientation between the backbone of the two strands.
+
+D,L-Alternating
+
+Oligonorleucine
+
+203
+
+Table I Resonance Assignments for XVMe (ppm) at 303 K in d-Chloroform Residue 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 HN 6.41 7.67 8.30 8.60 8.70 8.60 9.14 8.50 9.14 8.29 9.02 -- 9.35 6.67 8.44 H 4.23 4.83 4.99 4.73 4.79 4.84 5.00 4.77 4.56 4.95 4.96 5.09 4.47 4.90 4.50 H 1.70 1.82 1.59 1.49 1.60 1.70 1.61 1.72 1.76 1.92 1.51 1.90 1.66 1.77 1.76 H 1.95 1.73 1.66 1.64 1.71 1.69 1.80 1.54 1.44 1.72 1.86 H 1.31 1.31 1.35 1.25 1.30 1.28 1.30 1.26 1.40 1.23 1.28 1.25­1.19 1.30 1.32 1.38 CH3 0.86 0.88 0.86 0.88 0.86 0.86 0.85 0.91 0.88 0.84 0.86 0.88 0.88 0.91
+
+The -helix conformations used as initial coordinate models for RMD calculations were selected through the qualitative analysis of ROESY data. In particular, the NMR data obtained for XVMe are compatible with the double antiparallel -helices
+
+12 and 7.212 (Figure 1). Likewise, the Hbond network of both models agrees totally with NMR data , as it will be explained later by NH chemical shifts. Therefore, residue 1 of one strand has to be placed under residue 15 of the other antiparallel strand. The structures used as starting points for RMD simulations were built-up by placing two antiparallel strands of 15 D,L-alternating norleucines with the relative position above described, folded according to the theoretical and torsion angles for each model. The complete set of distance constraints from NOE cross peaks used for structure calculations are collected in Table IV. In order to avoid any biased interpretation of RMD simulations, the H-bond restrictions were not included in the initial calculations, since, although the same NH groups are involved in H-bonds in both models, these bonds are with a different CO group in each model structure (Table V). The total average energy value is 323.84 kcal/mol for the ten most relaxed structures from a RMD at 300 K when 5.612 is used as starting conformation. The backbone rmsd of these ten structures from the 5.612 and 7.212 models are 0.86 and 3.69 Å, respectively (Table VI). Nevertheless, when the 7.212 coordinates are uti5.6
+
+FIGURE 4 Contour plot of the H-- H region from ROESY spectrum of XVMe at 400 MHz in d-chloroform at 303 K recorded with a mixing time m of 200 ms.
+
+204
+
+Navarro, Fenude, and Celda
+
+FIGURE 5 Contour plot of the NH--NH region from ROESY spectrum of XVMe at 400 MHz in d-chloroform at 303 K recorded with a mixing time m of 200 ms.
+
+lized as the initial conformation for RMD at 300 K the total average energy of the lowest energy structures is 324.29 kcal/mol. These structures, compared with the 5.612 and 7.212, have a rmsd of 1.27 and 3.75 Å, respectively. Although the RMD calculations at 300 K seem to point to the 5.612 model as the structure most compatible with NMR constraints, a complete unambiguous distinction between both models 5.612 and 7.212 is not possible.
+Table II Comparison Between H-- H NOE CrossPeak Intensities Obtained from ROESY Spectra with the Distances Measured in the Theoretical Relaxed Models H-- H 1­9 2­14 3­7 3­9 4­12 5­5 5­7 6­10 8­8 11­1 Model
+7.2
+
+In the 500 ps RMD calculations, at 500 K, using the 5.612 model as initial coordinates, the ten lowest energy structures found have an average rmsd value from the 5.612 and 7.212 models of 1.9 and 3.79 Å respectively, and a total mean energy of 325.38 kcal/mol (Table VI). It is important to point out that this rmsd value from the 5.612 model is significantly higher than the corresponding 300K RMD calculations. This fact can be explained by the
+Table III Comparison Between NH--NH NOE Cross-Peaks Intensities Obtained from ROESY Spectra with the Distances Measured in the Theoretical Relaxed Models NH--NH 1­15 1­10 2­8 2­10 3­10 3­13 4­6 4­8 4­11 6­6 Model
+7.2
+
+12
+
+Model
+
+5.6
+
+12
+
+NOE -- Diagonal Diagonal 4 4 Diagonal 4 4 Diagonal 5
+
+12
+
+Model
+
+5.6
+
+12
+
+NOE 5 -- -- 5 Diagonal 5 Diagonal Diagonal 5 Diagonal
+
+2.21 2.15 2.18 -- 2.49 2.22 -- 2.26 2.15 5.96
+
+-- 2.46 -- 2.27 2.41 -- 2.36 2.38 2.63 2.56
+
+2.84 3.94 2.95 4.32 -- 3.53 3.19 4.63 3.01 4.55
+
+2.95 -- -- 3.55 3.81 3.16 -- 3.32 3.03 3.75
+
+D,L-Alternating
+
+Oligonorleucine
+
+205
+
+conformational deviations shown at the termini of the -helix in the ten most stable structures of the RMD at 500 K. To reduce these distortions and to refine the structure, a set of H-bond restraints derived from the HN chemical shifts in the TOCSY spectra and inferred from 5.612 model (Table V), were included in the RMD at 500 K. The final total average energy obtained for the ten lowest energy structures is 323.12 kcal/mol and the rmsd from the 5.612 and 7.212 models are 1.03 and 3.75 Å respectively (Table VI). Finally, to verify the folding of the XVMe dimer from two antiparallel strand extended conformations,
+Table IV List of NOE Distances Obtained from ROESY and Used as Constraints in RMD and SARMD Proton Pair
+a
+
+Table V Intersheet H-Bond Pairs Found in Models 5.6 12 and 7.212 NH Residue Number 1 (1) 2 (1) 3 (1) 4 (1) 5 (1) 6 (1) 7 (1) 8 (1) 9 (1) 10 (1) 11 (1) 12 (1) 13 (1) 14 (1) 15 (1) CO in 5.612 Residue Number 15 (2) 10 (2) 13 (2) 8 (2) 11 (2) 6 (2) 9 (2) 4 (2) 7 (2) 2 (2) 5 (2) 3 (1) 1 (2) CO in 7.212 Residue Number 15 (2) 8 (2) 13 (2) 6 (2) 11 (2) 4 (2) 9 (2) 2 (2) 7 (2) BOC 5 (2) 3 (1) 1 (2)
+
+° Distance (A) 5 3 3 3 3 3 3 3 3 4 3 3 4 5 5 4 5 5 5 5 5 5 4 4 4 3 5 5 4 5 5 5 5 5
+
+1HN(2)--1 H(1) 1HN(3)--1 H(2) 1HN(4)--1 H(3) 1HN(5)--1 H(4) 1HN(6)--1 H(5) 1HN(7)--1 H(6) 1HN(8)--1 H(7) 1HN(9)--1 H(8) 1HN(10)--1 H(9) 1HN(11)--1 H(10) 1HN(13)--1 H(12) 1HN(14)--1 H(13) 1HN(15)--1 H(14) 1HN(2)--2 H(10) 1HN(5)--2 H(12) 1HN(10)--2 H(3) 1HN(13)--2 H(4) 1HN(2)--1HN(1) 1HN(10)--2HN(2) 1HN(13)--2HN(3) 1HN(15)--2HN(1) 1HN(5)--2HN(11) 1 H(3)--2 H(9) 1 H(12)--2 H(4) 1 H(5)--2 H(8) 1 H(6)--2 H(10) 1 H(11)--2 H(1) 1HN(1)--1 H(1) 1HN(2)--1 H(2) 1HN(5)--1 H(5) 1HN(6)--1 H(6) 1HN(9)--1 H(9) 1HN(13)--1 H(13) 1HN(15)--1 H(15)
+a
+
+a set of simulated annealing calculations were performed. The most relaxed structures from a SARMD, using exclusively distance constraints from NMR data, show a distortion at the termini of the double helix, with a total average energy of 170.25 kcal/ mol and rmsd values of 2.1 and 3.76 Å from 5.612 and 7.212, respectively (Table VII). These rmsd values may point to a 5.612 conformation, but these results are not completely unambiguous. This fact can be related to the lack of experimental restraints at the termini of the dimeric helix. Therefore, an additional constraint information, e.g., H-bond restrictions, is needed for further structural refinements. As it can be seen in Table V, each model, 5.612 and 7.212, has a different set of H-bond pairs. Then, two simulated annealing calculations using the two different H-bond networks were used to check the whole set of experimental constraints pertaining to the 5.6 12 and 7.212 structures. When the 5.612 H-bond restraint network is applied in the SARMD calculations a total average energy of 244.32 kcal/ mol, and rmsd values of 1.18 and 3.94 Å from 5.6 12 and 7.212, respectively, are obtained. Whereas, when the 7.212 H-bond constraints are included, the total average energy is 116.47 kcal/ mol, and rmsd values from 5.612 and 7.212 are, 4.50 and 1.91 Å, respectively.
+
+DISCUSSION
+In the TOCSY spectra of the XVMe peptide at least two different sets of cross peaks with different inten-
+
+Only half of the whole set of restrictions are listed, being the remaining restrictions elucidated by symmetry between strands 1 and 2.
+
+206
+
+Navarro, Fenude, and Celda Results of Restricted Molecular Dynamics Calculations ° RMS Deviation in Ab
+
+Table VI
+
+Conditions 250 ps at 300K 500 ps at 500 Kc 500 ps at 500 Kc with H-bond restrictions from 12 5.6 model
+a b
+
+Initial Coordinates
+5.6 7.2
+
+ETotala (kcal/mol) 323.84 324.29 325.38
+
+vs
+
+5.6
+
+12 Model 0.86 1.27 1.90
+
+vs
+
+7.2
+
+12 Model 3.69 3.75 3.79
+
+12 12 12
+
+5.6
+
+5.6
+
+12
+
+323.12
+
+1.03
+
+3.75
+
+Mean total energy calculated with the ten lowest energy structures obtained in each RMD. Mean backbone rmsd calculated from ten lowest energy structures. c In this calculation the system was slowly cooled down by several dynamic steps until 200 K.
+
+sities can be observed. This fact can be related to the existence of an equilibrium among several conformations in solution. Moreover, a significant dispersion of NH- H resonances is observed in both sets of most intense cross peaks, which is related to the existence of regular structures in solution due to a different dielectric environment. Spin system identification and sequential specific assignments for the main conformation have been achieved from TOCSY and ROESY experimental data. On the other hand, the information about the formation of H-bonds can be obtained through the analysis of chemical shifts of NH groups ( NH).3 The NH values higher than 7 ppm indicate that the amide proton is involved in a H-bond. From Table I it can be deduced that only the HN of residue 14 does not form a H-bond. This finding can be explained because this residue is located in the external turn of the double helix. Moreover, the fact that residues 3 and 5 are involved in H-bonds can be only explained if they are covered by the last turn of the
+Table VII
+
+other antiparallel strand. Furthermore, residue 1, covalently bound to the Boc group, is also involved in a H-bond, as it can be deduced by its NH 6.41 ppm.3 Long-range correlations between residues located far away in the primary structure can be observed in the H-- H and HN--HN ROESY regions (Figures 4 and 5, respectively). Particularly significant are the NOE cross peaks between residues 1­15, 2­10, 3­13, and 5­11 in the NH--NH ROESY region (Figure 5) and between residues 1­11, 3­9, and 4 ­12 in the H-- H region (Figure 4). The observation of these cross peaks between protons located in residues so distant in the sequence clearly indicates that a doublestranded antiparallel structure is adopted by the main conformation of XVMe. In this structure there are two possible orientations for the relative position between helix terminal groups, Boc­ and ­OMe. Likewise, it is important to take into account that in the D,L alternating oligopeptide double antiparallel helix the NH bond orientation runs in two opposite directions with
+
+Results Obtained from Simulated Annealing Calculations Number of Restraints Violations
+
+° RMS Deviation in Ab
+5.6
+
+Conditionsa Without H-bond restrictions With H-bond restrictions from 12 7.2 model With H-bond restrictions from 12 5.6 model
+a b
+
+ETotal (kcal/mol)b ENOE (kcal/mol)b Max Min vs 170.25 116.42 244.32 3.1 17.0 4.7 2 11 4 0 4 2
+
+12 Model vs 2.10 4.50 1.18
+
+7.2
+
+12 Model 3.76 1.91 3.94
+
+All these calculations include the experimental NMR distance constraints. Mean total energy calculated with the ten lowest energy structures obtained in each SARMD. c Mean backbone rmsd calculated from ten lowest energy structures.
+
+D,L-Alternating
+
+Oligonorleucine
+
+207
+
+respect to those of the helix. Therefore, the fact that NH of residue 1 is involved in a H-bond is only possible if the Boc­ groups are covered by the ­OMe groups, as it can seen in 5.612 and 7.212 models (Figures 1A and 1B, respectively). From a theoretical point of view the 5.612 and 7.2 12 models are the most probable for a doublestranded antiparallel -helix of D,L-alternating oligopeptides.3 There are two sets of experimental NMR information that can be used to verify which model can better describe the XVMe solution structure: Hbond network, and long-range proton distances. In the 5.6 12 model the NH(14) proton is the only one which can not be involved in a H-bond in both strands, because of its relative orientation outside of the dimer structure and its position at the termini of the helix chain. However, in the 7.212 conformation, with a different number of residues per turn, NH(10), NH(12), and NH(14) are not able to form H-bonds with the CO group of another residue. Nevertheless, NH(10) could be involved in a H-bond with the CO of the Boc terminal group. Likewise, residue 12 is methylated and cannot form H-bond independently of the conformation adopted. Therefore, there is no way of unambiguously differentiating 5.612 and 7.212 models only by using H-bonds from NH data. However, H-- H and NH--NH NOE constraints from ROESY cross peaks (Tables II and III) may be useful for model discrimination. NH(1)-- NH(10) and NH(2)--NH(8) distances are shorter than 4 Å in model 7.212, but NOE cross peaks between these protons are not observed. Furthermore, NOE cross peaks have been observed between H(1)-- H(11), H(3)-- H(9), and H(5)-- H(7), the distances between these pairs of protons being shorter than 3 Å and larger than 5 Å for the 5.612 and 7.2 12 conformations, respectively. Likewise, the distance between H(1)-- H(9) is shorter than 3 Å for model 7.212, but larger than 5 Å for model 5.6 12: no NOE cross peak between both protons has been observed. Therefore, the H-- H and NH--NH NOEs data from ROESY spectra (Figures 4 and 5, and Tables II and III) agree with the 5.612 model, pointing out that this is the most probable solution structure for XVMe. Finally, the most stable D,L-alternating XVMe peptide conformations have been characterized by structure calculations, using NMR restraints, NOEs, and H-bonds. NMR experimental data constraints and different conformational models, 5.612 and 7.212, were gradually and simultaneously verified. In a first step, NOE restraints were checked, and a set of two RMD calculations at two different temperatures was run using two different starting model conformations
+
+12 and 7.212. In all calculations NOE data were almost exclusively compatible with the 5.612 structure, and not with 7.212 model (Tables VI and VII). Nevertheless, the increase of the rmsd value from 300 to 500 K RMD, directly related to the lack of restraints at the N-terminus of the double antiparallel helix, made necessary the use of additional constraints. The ten most stable structures, from an additional 500 ps RMD at 500 K using the 5.612 H-bond network as additional restraints, show a decrease of rmsd and energy values (Table VI). In a second step, a set of SARMD simulations at 1000 K using NOE and two different sets of H-bond constraints were run to check the most stable conformation of XVMe. To avoid any biased influence of starting conformations, a fully extended double antiparallel structure was used as the initial conformation for the SARMD calculations. Again, the most stable SARMD structures fit better to the 5.612 model than to the 7.212 model (Table VII). However, the rmsd value with respect to the 5.612 model is significantly higher than those from RMD calculations. As it has been previously discussed, the main contribution to these higher rmsd values is related to the distortion at the termini of the double helix conformation. Finally, and to obtain a set of more accurate structures, two SARMD at 1000 K were calculated using, in addition to the NOE restraints, the H-bond networks of the 5.612 and 7.212 models, as further constraints. The lowest energy structures obtained from SARMD at 1000 K using NOE and 7.212 H-bond network constraints has the highest average total and NOE energy values, and the number of NOE violations is significantly higher, maximum 11 and minimum 4. Particularly important are the rmsd values with respect to the 5.612 and 7.2 12 models from SARMD simulations, the lowest value corresponding to the calculations in which the NOE and 5.612 H-bond network constraints were used. Therefore, either from NMR data (NOE and NH) or RMD and SARMD calculations the 5.6 12 model structure (Figure 6) better describes the main conformation of XVMe in solution.
+5.6
+
+CONCLUSIONS
+The NMR data clearly indicate that the main conformation of XVMe is a double-stranded antiparallel structure, coherent with the -helix structures such as 5.6 12 and 7.212. The combination of the experimental NMR data with the structural information from the empirical models allows us to select the 5.6 12 as the most representative structure of the
+
+208
+
+Navarro, Fenude, and Celda
+
+FIGURE 6 Top views and stereo side views of the backbone superposition of five lowest energy structures (in blue) from restrained simulated annealing at 1000 K where the H-bond restraints derived from 5.612 model have been included, vs (A) 5.612 (in red) and (B) 7.212 helix model (in red).
+
+peptide. Moreover, the whole set of restraints derived from the NMR data used in the molecular dynamics calculations totally agrees with a double-stranded antiparallel -helix and points to the 5.612 as the major conformation of this D,L-alternating peptide in chloroform solution.
+We thank the SCSIE of the University of the Valencia for the access to NMR equipment. This work was supported with financial aid from Generalitat Valenciana, Spain (grant no. GV96-D-CN-09-140).
+
+REFERENCES
+1. Navarro, E.; Tejero, R.; Fenude, E.; Celda, B. Biopolymers 2001, 59, 110 ­119. 2. Fenude-Schoch, E.; Romer, D. U.; Lorenzi, G. P. Int J ¨ Pept Protein Res 1993, 44, 10 ­18. 3. Fenude, E.; Tomasic, L.; Lorenzi, G. P. Biopolymers 1989, 28, 185­192.
+
+4. Bamberg, E.; Noda, K.; Gross, E.; Lauger, P. Biochim ¨ Biophys Acta 1976, 419, 223­234. 5. Andersen, O. S.; Koeppe, R. E. Physiol Rev 1992, 72, 89 ­96. 6. Roux, B. Biophys J 1996, 71, 3177­3185. 7. Braunswelier, L.; Ernst, R. R. J Magn Reson 1983, 53, 521­528. 8. Piveteau, D.; Delsuc, M. A.; Guittet, E.; Lallemand, J. Y. J Magn Reson 1987, 71, 347­348. 9. Bothner-By, A. A.; Stephens, R. L.; Lee, J.; Warren, C. D.; Jeanloz, R. W. J Am Chem Soc 1984, 106, 811­ 813. 10. Griesinger, C.; Ernst, R. R. J Magn Reson 1987, 75, 261­271. 11. Shaka, A. J.; Keeler, J Progr Nucleic Magn Reson Spectrosc 1986, 19, 47­129. 12. Celda, B.; Montelione, G. T. J Magn Reson 1993, B 101, 189 ­193. 13. Bodenhausen, G.; Freeman, R.; Morris, G. A.; Niedermeyer, R.; Turner, D. L. J Magn Reson 1977, 25, 559 ­572. 14. Wuthrich, K. NMR of Proteins and Nucleic Acids; ¨ Wiley, New York.
+
+D,L-Alternating
+
+Oligonorleucine
+
+209
+
+15. Blondelle, S. E.; Crooks, E.; Alique, R.; Agell, N.; ´ Bachs, O.; Esteve, V.; Celda, B.; Tejero, R.; Pastor, M.T.; Perez-Paya, E. J Pept Res 2000, 55, 148-162. ´ ´ 16. Aguilar, J. A.; Celda, B.; Fusi, V.; Garcia-Espana, E.; ´ ~ Luis, S. V.; Martinez, M. C.; Ramirez, J. A.; Soriano, ´ ´ C.; Tejero, R. J Chem Soc Perkin Trans 2000, 1323­ 1328. 17. Esteve, V.; Blondelle, S.; Celda, B.; Perez-Paya, E. ´ ´ Biopolymers 2001, 59, 467­ 476. 18. InsightII User Guide, version 2.1.0, Biosym Technologies, San Diego, CA, 1992. 19. Ramachandran, G. N.; Chandrasekaran, R. Int J Biochim Biophys 1972, 9, 1­15. 20. Ramachandran, G. N.; Ramakrishman, C.; Sasisekharan, V. J Mol Biol 1973, 7, 95­103. 21. Tejero, R.; Monleon, D.; Medina, P.; Celda, B. Protein ´ Sci 1995, 4, 57­57.
+
+22. Harvel, T. F.; Snow, M. E. Mol Simul 1991, 10, 175­ 210. 23. Blundell, T. L.; Sibanda, B. L.; Peral, P. Nature 1983, 304, 273­275. 24. Wilberg, K. B. J Am Chem Soc 1965, 87, 1070 ­1078. 25. Press, W. H.; Flannery, B. P.; Teulotosky, S. A.; Vetterling, W. T. Numerical Recipes; Cambridge University Press: Cambridge, MA, 1989; pp 274 ­334. 26. Wilson, S. Chemistry and Computer; Plenum Press: New York, 1986; pp 85­110. 27. Weiner, S. J.; Kollman, P. A.; Nguyen, D. T.; Case, D. A. J Comput Chem 1986, 7, 230 ­238. 28. Bassolino-Klimas, D.; Tejero, R.; Krystek, S. R.; Metzler, W. J.; Montelione, G. T.; Bruccoleri, R. E. Protein Sci 1996, 5, 593­ 603. 29. Tejero, R.; Bassolino-Klimas, D.; Bruccoleri, R. E.; Montelione, G. T. Protein Sci 1996, 5, 572­584.
+
+

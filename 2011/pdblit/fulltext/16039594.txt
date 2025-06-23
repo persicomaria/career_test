@@ -1,0 +1,862 @@
+284
+
+Recognition of the DNA minor groove by pyrrole-imidazole polyamides
+Peter B Dervan√ and Benjamin S Edelson
+Many diseases, such as cancer, are related to aberrant gene expression. Regulating transcription by chemical methods could be important in human medicine. Minor groove-binding polyamides offer one chemical approach to DNA recognition.
+Addresses Division of Chemistry and Chemical Engineering, and Beckman Institute, California Institute of Technology, Pasadena, CA 91125, USA √ e-mail: dervan@cco.caltech.edu
+
+Pairing rules
+In a formal sense, the four Watson≠Crick base pairs can be differentiated on the minor groove floor by the specific positions of hydrogen-bond donors and acceptors, as well as by subtle differences in molecular shape [5]. A key study in the early 1990s demonstrated that the N-methylimidazole (Im)-containing polyamide ImPyPy bound to the 5 bp sequence 50 -WGWCW-30 (where W º A or T) instead of the 50 -WGWWW-30 sequence, which would be expected for a 1:1 polyamide≠DNA complex [6]. This surprising result was rationalized in terms of the formation of a 2:1 polyamide≠DNA complex, subsequently verified by NMR [7], in which the antiparallel ring pairing of Im stacked against Py could specifically distinguish a G C from a C G base pair. This discovery pointed toward a new paradigm of unsymmetrical ring pairs for the specific recognition of the DNA minor groove (Figure 1) [6]. The Im/Py pair has been explored by extensive studies, including analyses of binding in hundreds of different sequence contexts and crystal structures confirming the existence of a hydrogen bond between the Im nitrogen and the exocyclic amine of guanine [8]. Moreover, the energetic preference for a linear hydrogen bond, coupled with the unfavorable angle to an Im over the cytosine side of the base pair, provides a basis for the ability of an Im/Py pair to discriminate specifically G C from C G. These crystal structures also revealed other key ligand≠DNA interactions, such as a series of hydrogen bonds between the amide groups of the polyamides and the edges of the bases on the adjacent DNA strand (Figure 2). Thermodynamic investigations dissected binding free energies into enthalpic and entropic contributions, revealing that the sequence selectivity of the Im/Py pair is driven by a favorable enthalpic contribution [9]. Within the context of Watson≠Crick base pair recognition by unsymmetrical heterocyclic ring pairs and informed by high-resolution crystallographic data from a polyamide≠ DNA complex, the N-methyl-3-hydroxypyrrole (Hp) monomer was designed as a thymine-selective recognition element when paired across from Py (Figure 3) [5]. Crystal structures of two different Hp-containing polyamides, as 2:1 complexes with DNA, have been determined at high resolution [10,11]. An Hp/Py pair was shown to distinguish T A from A T, G C and C G base pairs using a combination of specific hydrogen bonds between the hydroxyl and the thymine O2, along with shape-selective recognition of an asymmetric cleft between the thymine O2 and adenine C2 (Figure 3). Hp polyamides bind with lower affinity than their Py
+www.current-opinion.com
+
+Current Opinion in Structural Biology 2003, 13:284≠299 This review comes from a themed issue on Nucleic acids Edited by Carl C Correll and David MJ Lilley 0959-440X/03/$ ≠ see front matter ﬂ 2003 Elsevier Science Ltd. All rights reserved. DOI 10.1016/S0959-440X(03)00081-2
+
+Abbreviations b-Ala or b b-alanine base pairs bp Dp 3-(dimethylamino)propylamine FRET fluorescence resonance energy transfer c-turn g-aminobutyric acid HDAC histone deacetylase Hp N-methyl-3-hydroxypyrrole HTLV-1 human T-cell leukemia virus type-1 Hz hydroxybenzimidazole Im N-methylimidazole Ip imidazopyridine LTR long terminal repeat PDB Protein Data Bank Py N-methylpyrrole TF transcription factor
+
+Introduction
+Distamycin A is a crescent-shaped natural product that preferentially binds to A,T sequences in the minor groove of DNA as 1:1 and 2:1 ligand≠DNA complexes [1,2]. Analogs of the N-methylpyrrole (Py) rings of these polyamides afford a set of five-membered heterocycles that can be combined -- as unsymmetrical ring pairs -- in a modular fashion to recognize predetermined DNA sequences with affinity and specificity comparable to DNA-binding proteins (Figures 1 and 2) [3,4]. We describe here recent advances in the field of DNAbinding polyamides, including structural verification of binding models, new heterocycles for recognition, cellular and nuclear uptake properties, and recent biological applications.
+Current Opinion in Structural Biology 2003, 13:284≠299
+
+Minor groove-binding polyamides Dervan and Edelson 285
+
+Figure 1
+
+(a)
+N N R N N H H O O N H H N N
+
+H
+
+H N H N N R R N O H N H O H N N N N R
+
+G
+N N R
+
+..
+H N N
+
+H
+N H
+
+..
+O H N
+
+C
+
+C
+
+..
+O N H
+
+H
+
+..
+H
+
+G
+
+structures, although this may be inadequate to account for the energetic differences [11]. A recent computational study by Liedl and co-workers [12] argues that desolvation of the hydroxyl group upon insertion into the minor groove accounts for the energetic penalty. Thus, Py, Im and Hp can be combined to recognize specifically each of the four Watson≠Crick base pairs; Im/Py is specific for G C and Hp/Py for T A. These interactions can be conveniently described as `pairing rules' (Figures 1≠3).
+
+H N N N
+
+N N R
+
+Affinity and specificity
+Covalently linking the two antiparallel polyamide strands results in molecules with increased affinity and specificity. Currently, the `standard' motif is the eightring hairpin, in which a g-aminobutyric acid (g-turn) linker connects the carboxylic terminus of one polyamide to the amino terminus of another (Figures 1 and 2). Compared to the unlinked homodimers, hairpin polyamides display approximately 100-fold higher affinity, with the g-turn demonstrating selectivity for A,T over G,C base pairs, presumably due to steric clash with the exocyclic amine of guanine [13]. Eight-ring hairpins, which bind 6 bp, were shown to have affinity and sequence specificity similar to that of DNA-binding proteins (i.e. Kd < 1 nM) [14]. Also, NMR studies confirmed that the g-turn locks the register of the ring pairings, preventing the ambiguity of slipped dimers, in which the polyamide chains bind to DNA partially in the 2:1 mode and partially in the 1:1 mode [15]. Hairpin compounds retain the orientation preferences of extended polyamides, aligning N!C with respect to the 50 !30 direction of the adjacent DNA strand [16]. For some hairpins, however, reversed binding (a C!N alignment of the polyamide with respect to the 50 !30 direction of the adjacent DNA strand) has been observed as the dominant orientation [16]. In other cases, the folded hairpin mode is favored only approximately fivefold over the linear 1:1 binding mode, in which the polyamide does not fold back on itself [17]. A solution to both problems comes from introducing an amino substituent at the a position of the g-turn (Figure 4) [18]. Reversed binding is disfavored because of a steric clash between the amino substituent and the floor of the minor groove [18]; extended 1:1 binding is similarly destabilized by the chiral RﬁH2 N g-turn, an effect that is amplified by acetylating the amine group [17]. Furthermore, the chiral turn maintains the specificity of hairpins and increases the affinity, most likely through electrostatic interactions between the cationic amine group and the anionic DNA backbone. Substitution on a b-alanine (b-Ala or b) linker has also been shown to influence the tendency of a polyamide to bind in an extended versus a hairpin conformation [19]. Covalently linking the C- and N-termini of a hairpin polyamide eliminates all possibility of extended binding, and such cyclic polyamides have slightly lower specificities but higher affinities for their
+Current Opinion in Structural Biology 2003, 13:284≠299
+
+N O R R
+
+N O
+
+A
+(b)
+
+.. .. ..
+O N N H
+
+T
+
+T
+
+.. .. ..
+O H N N N O
+
+A
+
+A
+
+.. .. .. ..
+H
+
+O N
+
+N H
+
+C
+
+..
+
+Py/Im targets C∑G Py/Hp targets A∑T Hp/Py targets T∑A Im/Py targets G∑C
+
+A
+O N H OH N H O N N
+
+.. .. .. .. .. ..
+H
+
+H N HO H N N O
+
+T
+
+N
+
+G
+
+..
+
+..
+H N O O
+
+H N O
+
+N
+
+T
+
+.. .. ..
+3
+H N
+
+N
+
+5
+
+H N+
+
+Current Opinion in Structural Biology
+
+Molecular recognition of the minor groove of DNA. (a) Minor groove hydrogen-bonding patterns of Watson≠Crick base pairs. Circles with dots represent lone pairs of N(3) of purines and O(2) of pyrimidines, and circles containing an H represent the 2-amino group of guanine. The R group represents the sugar≠phosphate backbone of DNA. Electron lone pairs projecting into the minor groove are represented as shaded orbitals. (b) Binding model for the complex formed between ImHpPyPyg-ImHpPyPy-b-Dp and a 50 -TGTACA-30 sequence. Putative hydrogen bonds are shown as dashed lines.
+
+counterparts [5], but the structural basis of this difference has remained elusive. Partial melting of the T A base pair recognized by an Hp/Py ring pair was thought to be a possible explanation [10], but the distortion was observed in only one of two crystal structures. A consistent lengthening of the amide≠DNA hydrogen bond on the Cterminal side of the Hp residue is observed in both
+www.current-opinion.com
+
+286 Nucleic acids
+
+Figure 2
+
+Current Opinion in Structural Biology
+
+Schematic of a Py-Im polyamide≠DNA complex. Perspective view into the minor groove with the curvature lessened and the twist between the base pairs removed, illustrating hydrogen-bonding patterns and shape complementarity. The R group represents b-Dp. This figure presents an alternative view of the complex shown in Figure 1b. The phosphate backbone of each DNA strand is indicated by a solid curved line with the 50 and 30 ends noted.
+
+target DNA sequences compared to analogous hairpin molecules bearing the same number of cationic groups (Figure 4) [20,21]. These differences can be attributed primarily to changes in the rates of dissociation from DNA, as the association rates for hairpin and cyclic polyamides are essentially diffusion limited [22]. Polyamides also can be linked, via the ring nitrogens, with an alkyl spacer that projects away from the minor groove. When placed in the center of a polyamide, the resultant branched molecule has been termed an H-pin; when placed at the end, a U-pin (Figure 4). H-pin polyamides bind with high affinity and good specificity, shown by an approximately 50-fold lower affinity for single base pair mismatch sites -- that is, for sites constructed with one target Watson≠Crick base pair replaced by a disfavored base pair [23]. Recent efforts to improve the synthetic methods for H-pins have enabled a detailed study of the optimal alkyl linker length, demonstrating that four and six methylene units provide the highest affinity [24]. Upin polyamides behave similarly (A Heckel, PB Dervan, unpublished data). The affinity of an eight-ring U-pin is most comparable to that of a hairpin polyamide with six rather than eight rings, probably due to a loss of two hydrogen-bond donors upon removal of the g-turn eleCurrent Opinion in Structural Biology 2003, 13:284≠299
+
+ment. Thus, the dimeric Py-Im U-turn element (Figure 4) may be thought of as a C G-specific replacement for the g-turn. In combination with removal of the b-Ala tail (see below), H-pin and U-pin polyamides could potentially bind purely G,C sites, a sequence type that it has not been possible to target with other polyamide motifs. Certain DNA sequences (including G,C tracts) have been challenging sites for high-affinity recognition by hairpin polyamides. For example, sites containing the sequence 50 -GNG-30 are often bound relatively poorly. Structural data have provided insight in certain cases. High-resolution crystal structures of different polyamide dimer≠DNA complexes consistently display a large negative propeller twist in all targeted base pairs, an orientation that generally favors the formation of three-center hydrogen bonds in the major groove [8,10,11]. Such intraduplex bonds cannot be formed in sequences 50 -GCG-30 and 50 -GAT-30 . Accordingly, it has been problematic to target these sequences with high affinity. In the case of 50 -GNG-30 sequences, replacing the aromatic Py residue with a flexible b-Ala residue enhances the affinity (Figure 4). The b-Ala unit may allow the flanking Im rings to orient better, while relieving the requirement
+www.current-opinion.com
+
+Minor groove-binding polyamides Dervan and Edelson 287
+
+Figure 3
+
+(a) Pair Im/Py Py/Im Hp/Py Py/Hp (b) 3 T C A T G A 5
++
+
+(c) G∑C + ≠ ≠ ≠ C∑G ≠ + ≠ ≠ T∑A ≠ ≠ + ≠ A∑T ≠ ≠ ≠ + T A 5 A G T A C T 3 G 2.8 ≈ 3.5 ≈ Hp Py
+
+Major groove
+
+H H
+
+Im 3.0 ≈
+
+Py
+
+Minor groove
+
++
+
+C
+Current Opinion in Structural Biology
+
+Pairing rules for minor groove recognition. (a) Table indicating the pairing code for Py, Im and Hp. Plus and minus signs indicate favored and disfavored interactions, respectively. (b) Space-filling model of (ImHpPyPy-b-Dp)2≠50 -CCAGTACTGG-30 (PDB code 407D). In the central binding region, adenosines are yellow and thymidines blue. Hp is red, Py is off-white and Im is black. A schematic is shown to the right: the black and open circles represent Im and Py rings, respectively; red circles with an H represent Hp rings; diamonds represent b-Ala residues; and plus signs next to diamonds represent Dp residues. (c) Detailed views of the complex shown in (b), indicating structures of the Hp/Py pair interacting with the T  A base pair (top) and the Im/Py pair interacting with the G  C base pair (bottom). Dashed lines indicate interatomic distances between oxygen, carbon and nitrogen atoms. The Hp oxygen may form a favorable hydrogen bond with the adenine C2≠H. As in this case, C≠H hydrogen bonds are strongest between aromatic carbons adjacent to nitrogen atoms with oxygen hydrogen-bond acceptors [10]. Hydrogens involved in recognition were added using PC Spartan (Wavefunction, Inc.) and are colored white with gray outlines.
+
+for propeller-twisted base pairs [11]. The b/Im pair is specific for C G, whereas the b/Py and b/b pairs are specific for A,T over G,C base pairs [25,26]. For polyamides targeted to sites containing multiple 50 -GNG-30 sequences, binding enhancement is particularly dramatic upon incorporation of b/ring pairs; ImbImPy-g-ImbImPy-b-Dp (Dp º dimethylaminopropylamine) binds site 50 -TGCGCA-30 with 100-fold higher affinity than the purely ring/ring paired analog ImPyImPy-g-ImPyImPy-b-Dp [26]. Incorporation of a b-Ala also enhanced the DNAbinding properties of a polyamide with an N-terminal pyrrole [27]. A Py/Im pair in this position generally displays poor selectivity for its target C G base pair, but flanking the Im residue with a b-Ala improves the selectivity of the polyamide. For example, PyPyPyPy-g-ImPybImb-Dp binds its target site, 50 -TCTACA-30 with subnanomolar affinity and 5≠25-fold weaker binding to single base pair mismatch sites (Figure 4).
+
+occur less frequently in the genome. Yet, beyond five contiguous rings, the binding affinity of polyamides decreases [28]. Crystal structures of polyamide≠DNA complexes have consistently shown that the polyamide rise per residue matches the pitch of the B-DNA helix -- that is, the spacing of the polyamide rings matches the spacing of the DNA base pairs [8,10,11]. However, polyamides, which are inherently crescent shaped, are slightly more curved than the minor groove of DNA, such that, beyond five consecutive rings, the shape of a polyamide is no longer complementary to DNA [8]. The flexibility of b-Ala can be used to relax the curvature of polyamides, and molecules designed to bind as overlapped homodimers can recognize 11 bp of DNA with subnanomolar affinities (Figure 5) [25]. Another motif utilizing dimerization to increase binding site size is the cooperative hairpin [29]. Both of these motifs require a palindromic target site and have the potential to bind in noncooperative modes, albeit with lower affinities. Tandem hairpin polyamides, linked either turn-to-turn or turn-to-tail, resolve both issues (Figure 5) [30,31]. To
+Current Opinion in Structural Biology 2003, 13:284≠299
+
+Binding site size
+For biological applications, binding site size may be critical because longer sequences would be expected to
+www.current-opinion.com
+
+288 Nucleic acids
+
+Figure 4
+
+(a)
+5-A T G T A C A-3
++ +
+
+(b)
+5-A G T A C T-3
++
+
+(c)
+5-T A G T G A A-3
++
+
+3-T A C A T G T-5 6 bp Ka = 2.9 ∑ 1011 M-1
+
+3-T C A T G A-5 6 bp Ka = 7.0 ∑ 1010 M-1
+
+3-A T C A C T T-5 6 bp Ka = 4.0 ∑ 109 M-1
+
++
+
+(d)
+5-A T C T A C A-3
++
+
+(e)
+5-A T G T T A C A T-3
++ +
+
+(f)
+5-T G G T C-3
++
+
+3-T A G A T G T-5 6 bp Ka = 4.9 ∑ 1010 M-1
+
++
+
+3-T A C A A T G T A-5 7 bp Ka = 4.3 ∑ 1010 M-1
+
+3-A C C A G-5 5 bp Ka = 4.4 ∑ 108 M-1
+
+Current Opinion in Structural Biology
+
+Polyamide≠DNA binding motifs with equilibrium association constants (Ka). (a) Chiral turn: amino substitution at the a position of the g-turn residue leads to enhanced binding affinity (tenfold) without loss of specificity, higher orientational selectivity and offers potential for further substitution [27]. (b) Cycle: covalently linking the C- and N-termini of a hairpin polyamide eliminates all possibility of extended 1:1 binding. Cyclic polyamides show higher affinity than analogous hairpin molecules with the same number of cationic groups [21]. (c,d) b/ring pair: the b-Ala residue relaxes the ligand curvature. In some cases, polyamides with a b/ring pair show improved affinity and specificity compared to analogs with a ring/ring pair [27,60]. (e,f) H-pin and U-pin: compared to their nonlinked analogs, H-pins and U-pins exhibit higher binding affinity ([23,24]; A Heckel, PB Dervan, unpublished data). The black and open circles represent Im and Py rings, respectively; diamonds represent b-Ala residues; and plus signs next to diamonds represent Dp residues. A curved line connecting the sides of two circles represents the g-turn, and a curved line with a wedge and a plus sign represents the chiral RﬁH2N g-turn. For the H-pin and U-pin, curved lines connecting the centers of two circles represent alkyl linkers attached to the Nmethyl positions of the aromatic rings, a straight line with a plus sign projecting from the center of a ring represents a propylamine ≠(CH2)3NH3˛ group and a triangle represents a methyl amide.
+
+link two six-ring hairpin polyamides turn-to-tail, 5-aminovaleric acid is the optimal aliphatic linker, furnishing polyamides that target 10 bp sites [32]. Although a single early example showed preferential binding to an 11 bp sequence [31], a broader study with additional examples showed that the valeric acid linker effectively balances affinity, selectivity for a 10 bp match site and specificity over a double base pair mismatch site [32]. In addition, a tandem polyamide connected by the ether linker 3-oxo5-aminovaleric acid displayed a DNA-binding affinity equal to the valeric acid-linked compound, but was more selective for the 10 bp binding site (Figure 5). A Gly-Im linker was only slightly less effective than a valeric acid linker and may allow targeting of sites with a G,C base pair in the linker region. The turn-to-turn tandem dimer also binds longer sequences with subnanomolar affinity, with a four-carbon linker proving optimal [30]. For both types of tandem polyamides, however, specificity (expressed in terms of affinity for a match site over single base pair mismatch sites) is often poor and remains a challenge. Nonetheless, an impressive application of tandem polyamide dimers was demonstrated by Laemmli and co-workers [33], who employed tandem hairpins with a dioxa-PEG linker to stain insect and vertebrate telomeres with remarkable selectivity in fixed cells and chromosome spreads.
+Current Opinion in Structural Biology 2003, 13:284≠299
+
+Exploration of new ring systems for minor groove recognition
+To explore more broadly the structural landscape for minor groove recognition, a panel of five-membered aromatic heterocycles was synthesized and incorporated into DNA-binding polyamides (Figure 6) [34,35]. Because we have found that the Hp residue can degrade over time in the presence of acid or free radicals, a more robust thymine-selective element will be needed for biological applications [35]. Remarkably, none of the heterocycles tested (in the context of an eight-ring hairpin) revealed major advantages over conventional Py/Im polyamides. Although ring pairings of Py with either N-methylpyrazole (Pz) or 3-methylthiophene (Tn) are exceptionally selective for A,T bases, displaying no binding to G,C bases in the measured range, incorporation of 4-methylthiazole (Th), furan (Fr) or 3-hydroxythiophene (Ht) abolishes binding entirely. Molecular modeling indicates that relatively small changes to a single heterocycle present in a contiguous fourring system can induce large alterations in the curvature and electronic properties of the ligand (Figure 7) [35]. There appears to be a very narrow window of five-membered ring architectures that are effective for minor groove binding. The benzimidazole ring system represents a different structural framework; it is amenable to functionalization
+www.current-opinion.com
+
+Minor groove-binding polyamides Dervan and Edelson 289
+
+Figure 5
+
+(a)
+5-A A G G G A A T C C C T T-3
++ +
+
+(b)
+5-A G C A G C T G C T-3
++
+
+3-T T C C C T T A G G G A A-5 11 bp Ka = 1.4 ∑ 1010 M-1
+
+3-T C G T C G A C G A-5 10 bp Ka = 1.9 ∑ 108 M-1
+
++
+
+(c)
+5-A T G G C A T A C C A T-3
++ +
+
+(d)
+5-A A G T G A A G T G A-3
++
+
+3-T A C C G T A T G G T A-5 10 bp Ka = 7.5 ∑ 1010 M-1
+O
+
+3-T T C A C T T C A C T-5 10 bp Ka = 3.2 ∑ 1010 M-1
+O O N H
+
++
+
+=
+O
+
+=
+
+or
+
+O
+
+N H
+
+Current Opinion in Structural Biology
+
+Schematic representation of extended polyamides at their binding sites. (a) Overlapped homodimer: fully overlapping extended homodimer recognizing 11 bp [25]. (b) Cooperative hairpin: a cooperatively binding hairpin polyamide can extend the binding site size to 10 bp without an increase in the molecular weight of the ligand [29]. (c,d) Tandem hairpins: linked either turn-to-turn (c) or turn-to-tail (d), tandem polyamides recognize large DNA sequences with good specificity and excellent binding affinity [30,32]. For the turn-to-tail tandem hairpin, the 5-aminovaleric acid-linked polyamide and the 3-oxo-5-aminovaleric acid-linked polyamide display the same Ka. Half circles represent ethanolamine ≠NH(CH2)2OH groups and extended hexagons represent the linkers depicted at the bottom. Other symbols are defined in Figure 4.
+
+on the six-membered ring and appears to impart a curvature that is complementary to DNA. Indeed, the classic minor groove-binding Hoechst dyes are composed of benzimidazole units, and several derivatives of these molecules have been prepared [36,37]. We have recently incorporated benzimidazole derivatives into the backbone of hairpin polyamides in a manner that preserves
+Figure 6
+O N N N H H N H N H
+
+critical hydrogen-bonding contacts and overall molecular shape (Figure 8) [38]. The hydroxybenzimidazole (Hz) and imidazopyridine (Ip) rings are introduced into polyamides as dimeric subunits PyHz and PyIp, respectively, in which the Py ring is directly connected to the benzimidazole derivative without an intervening amide bond. Preliminary DNase I footprinting indicates that the
+
+O S N H
+
+O
+
+OH
+
+Pz N -methylpyrazole
+
+Nh 1H-pyrrole
+
+Ht 3-hydroxythiophene
+
+O
+
+O N
+
+O
+
+N H
+
+O
+
+N H
+
+S
+
+N H
+
+S
+
+Fr Furan
+
+Tn 3-methylthiophene
+
+Th 4-methylthiazole
+Current Opinion in Structural Biology
+
+Novel five-membered heterocyclic amino acids that have been incorporated into hairpin polyamides. All residues are shown with the functionality that faces the DNA minor groove towards the bottom right. www.current-opinion.com Current Opinion in Structural Biology 2003, 13:284≠299
+
+290 Nucleic acids
+
+Figure 7
+
+DNA ImImTnPy-NHMe ImImPyPy-NHMe ImImFrPy-NHMe
+
+resin [40]. Recently, Pessi and co-workers [41] used a sulfonamide-based safety-catch resin to prepare derivatives of hairpin polyamides. Upon activation of the linker, resin-bound polyamides were readily cleaved with stoichiometric quantities of nucleophile to provide thioesters or peptide conjugates. Though allowing rapid preparation of a range of polyamides, all of these resins install a T,A-selective b-Ala residue at the C-terminus, which places limits on the DNA sites that can be targeted [42]. The shortest tail available from these resins is a propanolamide, obtained by reductive cleavage [21]. Polyamides prepared on BocGly-PAM resin can be reductively cleaved to obtain ethanolamide tails [29], but it was expected that further truncation of the C-terminus would be necessary for tolerance of G,C at the tail position [43]. The Kaiser oxime resin was therefore adapted to polyamide synthesis, allowing the preparation of polyamides with incrementally shorter C-termini (Figure 9). These molecules display the desired tolerance for G,C bases while maintaining high affinities [43]. Moreover, removing the b-Ala residue may prove critical for specific applications in the future.
+
+ImImFrPy-NHMe ImImPyPy-NHMe ImImTnPy-NHMe DNA
+Current Opinion in Structural Biology
+
+Schematic illustrating the curvatures of the DNA helix and of three four-ring polyamide subunits containing Tn (3-methylthiophene), Py and Fr (furan) heterocycles. The curves represent the overall curve of each ligand as determined by ab initio molecular modeling [35]. The Fr ring induces substantial curvature, and an eight-ring hairpin polyamide containing this residue does not bind to its target DNA sequence at concentrations up to 1 mM.
+
+Inhibition of gene expression
+Polyamides can bind with high affinity to a wide range of DNA sites and can often competitively displace proteins from DNA (Figures 10 and 11). One approach to modifying gene expression involves inhibition of key transcription factor (TF)≠DNA complexes in a designated promoter, thus interfering with the recruitment of RNA polymerases (Figure 12). Significantly, because there are considerably fewer oncogenic TFs than potentially oncogenic signaling proteins, TF inhibition represents a uniquely promising approach to cancer treatment [44]. The transcription factor TFIIIA was chosen as a first target because it regulates a relatively small number of genes and because the contacts between the nine zincfinger protein and the minor groove had been established. A polyamide bound in the recognition site of TFIIIA suppressed transcription of 5S RNA genes by RNA polymerase III in vitro and in cultured Xenopus kidney cells [45]. Further studies used polyamides in combination with recombinant derivatives of TFIIIA subunits to elucidate essential minor groove contacts for the binding of this TF [46]. Polyamides were then used to target viral genes transcribed by RNA polymerase II. The HIV-1 enhancer/ promoter contains binding sites for multiple TFs, including TBP, Ets-1 and LEF-1. Two hairpin polyamides designed to bind DNA sequences immediately adjacent to the binding sites for these TFs specifically inhibited binding of each TF and HIV-1 transcription in a cellfree assay [47]. In human blood lymphocytes, treatment with the two polyamides in combination inhibited viral
+www.current-opinion.com
+
+Hz/Py and Ip/Py pairs are functionally identical, at least in some sequence contexts, to the analogous five-membered ring pairs Hp/Py and Im/Py, respectively; pairing rules for these rings are given in Table 1 [38]. Importantly, Hz-containing polyamides are chemically robust, making the Hz/Py pair a strong candidate for replacing Hp/Py in biological studies.
+
+Synthetic methods
+The investigation of minor groove-binding polyamides was greatly accelerated by the implementation of solidphase synthesis [39]. Originally demonstrated on Boc-bAla-PAM resin with Boc-protected monomers, it was also shown that Fmoc chemistry could be employed with suitably protected monomers and Fmoc-b-Ala-Wang
+Table 1 Pairing code for benzimidazole pairings . Pair Ip/Py Py/Ip Hz/Py Py/Hz
+√ √
+
+G C ˛ ¿ ¿ ¿
+
+C G ¿ ˛ ¿ ¿
+
+T A ¿ ¿ ˛ ¿
+
+A T ¿ ¿ ¿ ˛
+
+Favored (˛), disfavored (¿).
+
+Current Opinion in Structural Biology 2003, 13:284≠299
+
+Minor groove-binding polyamides Dervan and Edelson 291
+
+Figure 8
+
+NH3+
+
+NH3+
+
+O N O N H O N N H N H
+
+A
+
+T
+H N
+
+O N N O O H N N N H N O N N N H O O N N N H
+
+O N H
+
+A
+
+T
+H N
+
+O
+
+N
+
+T
+
+A
+
+T
+
+A
+O H N
+
+T
+H
+
+A
+
+G
+N N H
+
+H
+
+C
+H N
+
+N O
+
+N N H O N N
+
+T
+
+A
+H
+H
+
+T
+
+A
+H
+H
+
+N
+
+G
+
+C
+H
+
+N
+
+G
+
+C
+H
+
+N
+
+O
+
+T
+
+N N O
+
+A
+
+T
+
+N N O
+
+A
+
+5¥
+
+3¥
+
+5¥
+
+3¥
+
+H
+
++
+
++
+Current Opinion in Structural Biology
+
+Recognition of the DNA minor groove by benzimidazole derivatives. Circles with dots represent lone pairs of N(3) of purines and O(2) of pyrimidines, and circles containing an H represent the 2-amino group of guanine. Putative hydrogen bonds are shown as dashed lines. The dimeric units PyHz and PyIp, at left and at right, respectively, are shown in bold. Schematics of the hairpin polyamides are given below the binding scheme: the rectangle containing an open circle and the letter H represents the PyHz dimer, and the rectangle containing an open circle and a shaded box represents the PyIp dimer. Other symbols are defined in Figure 4.
+
+replication by more than 99%, with no significant decrease in cell viability. Inhibition of viral replication is indirect evidence of specific transcription inhibition by polyamides, because other modes of action could be involved, such as modulation of T-cell activation pathways. However, RNase protection assays indicated that the two polyamides did not alter the RNA transcript levels of several cytokine and growth factor genes, suggesting that polyamides do affect transcription directly [47]. This early biological result spurred a variety of biochemical studies of the interactions of various polyamides with the basal transcription machinery and TF≠DNA complexes. Two studies have used promoter scanning to identify sites where polyamide binding inhibits transcription [48,49]. The method uses a series of DNA constructs with designed polyamide-binding sites at varying distances from the transcription start site. Essential minor
+www.current-opinion.com
+
+groove contacts were identified for a subunit of TFIIIB (possibly TBP) in a Xenopus tRNA promoter [48], as well as for TFIID≠TFIIA and TBP in the HIV-1 core promoter [49]. The binding of the homodimeric basic-helixloop-helix TF Deadpan was investigated using a variant of promoter scanning [50]. A series of duplex oligonucleotides based on a Drosophila neural promoter were designed, incorporating polyamide-binding sites on different sides of the Deadpan recognition sequence and in different orientations. The TF≠DNA complex was inhibited only by a polyamide binding upstream of the homodimer, establishing an asymmetric binding mode for this TF. The binding of Ets-1 to the HIV-1 enhancer was examined in greater detail, and polyamides were shown to inhibit the formation of a ternary Ets-1≠NF-kB≠DNA complex [51]. Ets-1 is a winged-helix-turn-helix TF and its key phosphate contacts on either side of the major
+Current Opinion in Structural Biology 2003, 13:284≠299
+
+292 Nucleic acids
+
+Figure 9
+
+Solid support Polyamide core
+O HN H N O N N H N N O H N N O O N N N H H N N O
+O2N
+
+C-terminus
+HNR1R2
+
+R=
+O N H O O
+
+R= R= R=
+
+H N H N O
+
+NR1R2
+
+Pd(OAc)2 N H HCO2NH4 LiBH4
+
+OH O
+
+O N N
+
+-Ala-PAM resin
+R=
+O N
+
+H N
+
+OH
+
+HNR1R2
+
+R
+NH3, DBU
+
+R= R= R=
+
+NR1R2
+
+NH2
+
+Kaiser oxime resin
+
+H2O, DBU
+
+OH
+
+Current Opinion in Structural Biology
+
+Schematic of potential C-termini available from specific solid supports. Polyamides synthesized on the Kaiser oxime resin can have shorter C-terminal groups than molecules prepared on the b-Ala-PAM resin. The amine HNR1R2 may be a primary or secondary alkyl amine.
+
+groove can be disrupted by a polyamide in the adjacent minor groove. The report provided the first evidence of cooperative DNA binding by Ets-1 and NF-kB to the HIV-1 enhancer sequence [51]. A different Ets-binding site in the HER2/neu promoter was targeted with hairpin polyamides that successfully blocked Ets≠DNA complex formation and transcription of the HER2/neu oncogene in a cell-free system [52]. Several other protein≠DNA interactions have been inhibited by polyamides. In the human T-cell leukemia virus type-1 (HTLV-1) promoter, polyamides targeted to G, C-rich regions flanking the viral CRE sites inhibit binding of the Tax protein and Tax transactivation in vitro [53]. Bacterial gyrase recognizes a short 50 -GGCC-30 site, and a polyamide targeted to this sequence inhibited gyrasecatalyzed strand cleavage at nanomolar concentrations [54]. NF-kB is a TF crucial for development, viral expression, inflammation and anti-apoptotic responses. The most common form is a p50≠p65 heterodimer, which binds DNA in the major groove, making several phosphate contacts throughout the binding site. Polyamides targeted to the minor groove opposite p50, but not p65, inhibit DNA binding by NF-kB [55]. Some purely major groove-binding TFs, such as the basic-region leucine zipper (bZIP) protein GCN4, can co-occupy the DNA helix in the presence of polyamides [56]. Modified polyamides with an attached Arg-Pro-Arg tripeptide can interfere with major groove-binding proteins by disrupting key phosphate contacts, distorting the DNA by charge neutralization, or sterically invading the major groove. An Arg-Pro-Arg≠polyamide conjugate successfully inhibited the binding of GCN4 to DNA [56], and further optimization yielded a polyamide derivative with an alkyl diamine substituent that was tenfold more
+Current Opinion in Structural Biology 2003, 13:284≠299
+
+potent [57]. Polyamide conjugates that distort DNA more severely, as by delivery of an intercalator, are promising candidates for site-selective inhibition of any DNA-binding protein [58]. In a unique example of altering gene expression by modifying chromatin structure in a complex organism, Laemmli and co-workers [59] targeted satellite regions of Drosophila chromosomes with polyamides. Polyamides induced specific gain- and loss-of-function phenotypes when fed to developing Drosophila embryos.
+
+Gene activation
+Polyamides can upregulate transcription in two main ways: derepression or recruitment of transcriptional machinery. For example, a hairpin polyamide was shown to block binding of the repressor IE86 to DNA, thereby upregulating transcription of the human cytomegalovirus MIEP [60]. A more complex case involves derepression of the integrated HIV-1 long terminal repeat (LTR). The human protein LSF binds in the promoter region at the LTR and recruits YY1, which then recruits histone deacetylases (HDACs). HDACs subsequently maintain LTR quiescence, which has been implicated in HIV latency by maintaining a silent stock of pathogen. Three different live cell models demonstrated that polyamides can inhibit LSF binding and increase expression of integrated HIV-1 promoter [61]. As with other systems, only polyamides matched to the correct protein-binding site induced significant effects. Several existing drug treatments can reduce HIV-1 levels in the blood to below detectable amounts, yet the virus inevitably returns in infected patients. Derepression by inhibition of LSF≠ DNA binding may eventually allow HIV to be fully eradicated by drug treatments [61]. This therapeutic approach is particularly promising because LSF is a
+www.current-opinion.com
+
+Minor groove-binding polyamides Dervan and Edelson 293
+
+Figure 10
+
+TFIIIA
+
+TBP
+
+LEF-1
+
+Ets-1
+
+GCN4
+
+Zif268
+Current Opinion in Structural Biology
+
+Structures of several different protein≠DNA complexes that have been inhibited by polyamides. TFIIIA is a zinc finger, TBP is a minor groove-binding protein, LEF-1 is an HMG box, Ets-1 is a winged-helix-turn-helix, GCN4 is a bZIP protein, and Zif268 is a zinc finger.
+
+human protein, which could make the target less susceptible to resistance by HIV-1 mutations. Recruitment of transcriptional machinery is a fundamentally different approach to gene activation. Polyamides can be thought of as artificial DNA-binding domains that can be linked to an activation domain (Figure 12) [62]. Such artificial TFs have been synthesized and evaluated in cell-free transcription assays [63,64,65]. A hairpin polyamide tethered by a 36-atom straight-chain linker to the short (20-residue) peptide activation domain AH gives robust activation of transcription, with a size of only 4.2 kDa [63]. Replacing the AH peptide with the shorter yet more potent activator VP2 -- derived from the activator domain of the viral activator VP16 -- and reducing the linker from 36 to 8 atoms provided a `minimal' polyamide≠peptide conjugate, 3.2 kDa in size, which activated transcription slightly more effectively than
+www.current-opinion.com
+
+the larger analog [64]. As linker length had been shown to influence activation efficiency, a set of molecules with rigid oligoproline linkers between the polyamide and the activation domain was synthesized [65]. The oligoproline linkers act as rigid `molecule rulers' and optimal activation ∞ was observed with a Pro12 linker, about 36 A in length.
+
+Nucleosomes
+In eukaryotic cells, DNA is tightly packaged by compaction into chromatin and changes in chromatin structure can alter the accessibility of specific sequences and actively affect components of the molecular machinery in the nucleus. The fundamental repeating unit of chromatin is the nucleosome, comprising a 20≠80 bp DNA linker region and the nucleosome core particle -- roughly two tight superhelical turns of DNA (147 bp in length) wrapped around a disk of eight histone proteins. The ability of DNA-binding proteins to recognize their cognate sites in chromatin is
+Current Opinion in Structural Biology 2003, 13:284≠299
+
+294 Nucleic acids
+
+Figure 11
+
+TFIIIA (zinc finger 4)
+5-C G G G C C T G G T T A G T A C T T G G A T G G G A G-3
++
+
+Ets
+5-G G G C T G C T T G A G G A A G T A T A A G A A-3 0.1 nM +
++ +
+
+0.03 nM
+
+0.07 nM
+
+3-G C C C G G A C C A A T C A T G A A C C T A C C C T C-5
+
+3-C C C G A C G A A C T C C T T C A T A T T C T T-5
+
+5S RNA promoter (+63 to +89) [45,46]
+
+HER2/ neu promoter [52]
+
+TFIIIA (zinc finger 4)
+5-C G G G C C T G G T T A G T A C T T G G A T G G G A G-3
++
+
+Tax
+1 µM
++ +
+
+CREB
+1 µM
++
+
+Tax
++
+
+5-C T C A G G C G T T G A C G A C A A C C C C T C-3
+
+2 nM
+
+3-G C C C G G A C C A A T C A T G A A C C T A C C C T C-5
+
+3-G A G T C C G C A A C T G C T G T T G G G G A G-5
+
+5S RNA promoter (+63 to +89) [46]
+
+HTLV-1 promoter [53]
+
+TBP
+5-T C A G A T G C T G C A T A T A A G C A G C T G C T T-3 0.05 nM
++
++
+
+DNA gyrase
+5-G A G G C T G G A T G G C C T T C C C C A T T A-5
++
+
+0.05 nM
+
+0.1 nM
+
+3-A G T C T A C G A C G T A T A T T C G T C G A C G A A-5
+
+3-C T C C G A C C T A C C G G A A G G G G T A A T-3
+
+HIV-1 promoter [47]
+
+Designed construct from pBR322 [54]
+
+Ets-1
++
+
+LEF-1
++
+
+NF- B
+5-G C A G T T G A G G G G A C T T T C C C A G G C-3
++
+
+5-G A G C T G C A T C C G G A G T A C T A C A A A G A C-3 0.05 nM 0.06 nM
+
+0.1 nM
+
+3-C T C G A C G T A G G C C T C A T G A T G T T T C T G-5
+
+3-C G T C A A C T C C C C T G A A A G G G T C C G-5
+
+HIV-1 promoter [47,51]
+
+Designed construct [55]
+
+TFIIA-TFIID
++
+
+TBP
+0.4 nM
+
+GCN4
+5-C C A T G G T T G C T G A C T A A T T G T T A T-3 2 nM
+PR R
+
+5-G A G C T C G T C C T C A G A T G C T G C A T A T A A-3
++
+
+3-C T C G A G C A G G A G T C T A C G A C G T A T A T T-5
+
+3-G G T A C C A A C G A C T G A T T A A C A A T A-5
+
+HIV-1 promoter construct [49 ]
+
+Designed construct ARE-1 [56]
+
+TFIIIB or TBP
+5-C C C A T C C A A G T A C A T C G A A T T C A T G A C-3
++
+
+IE86
+5-G A G C T C G T T T A G T G A A C C G T C A G A-3
++ +
+
+0.03 nM
+
+0.3 nM
+
+3-G G G T A G G T T C A T G T A G C T T A A G T A C T G-5
+
+3-C T C G A G C A A A T C A C T T G G C A G T C T-5
+
+Xenopus tRNA promoter construct (-39 to -8) [48] Deadpan
+5-G C A T C G T A G C T C G T C A C G C G A C A G G G C-3
++ +
+
+Human cytomegalovirus MIEP [60]
+
+LSF
++
+
+LSF
+0.7 nM 0.9 nM
++
+
+5-T C T G G T T A G A C C A G A T C T G A G C C T-3
+
+0.4 nM
+
+3-C G T A G C A T C G A G C A G T G C G C T G T C C C G-5
+
+3-A G A C C A A T C T G G T C T A G A C T C G G A-5
+
+Achaete-scute neural promoter construct [50]
+
+HIV-1 LTR (+8 to +32) [61]
+Current Opinion in Structural Biology
+
+Examples of DNA-binding proteins that have been inhibited by polyamides. Approximate Kd values are given next to each polyamide. Where available, the values are from experiments conducted on the depicted DNA sequence. The name of the protein is italicized above a shaded box indicating its DNA binding site. Open boxes indicate mismatches between the Dp tail and G,C base pairs [42]. The promoter or construct is identified below the DNA sequence and is followed by the reference number in brackets. The HIV-1 promoter construct, Xenopus tRNA promoter construct and Achaete-scute neural promoter construct are sample DNA sequences from studies that employed promoter scanning. Precise binding sites for the TFIIA≠TFIID complex and for TFIIIB are not identifiable from promoter scanning. RPR represents an Arg-Pro-Arg C-terminus, and the half circle represents a propanolamine ≠NH(CH2)3OH group. All other symbols are defined in Figure 4.
+
+Current Opinion in Structural Biology 2003, 13:284≠299
+
+www.current-opinion.com
+
+Minor groove-binding polyamides Dervan and Edelson 295
+
+Figure 12
+
++
+
+Displace natural activators and TFs
++
+
+Activator Activator PCs Activator TAFs IID IIF IIA Mediator IIE Pol II AD IIB IIH
++
+
++
+
+TATA
+
+X
+
+TBP
+TATA
+
+Replace natural activators with artificial TFs
+
+AD
+
+AD
+
+TATA
+Current Opinion in Structural Biology
+
+Two approaches to modifying gene expression with polyamides. At left is a model of the transcription machinery, adapted from [77]. RNA polymerase II (Pol II) and general TFs are yellow, distally located activators are green, the mediator complex is blue, TBP-associated factors (TAFs) are purple, and architectural factors such as PC4 are orange. Polyamides are depicted as in Figure 4, and a small activation domain (AD) is indicated by the green triangle. The location of the TATA box is noted, and the transcription start site is indicated by a bent arrow. The open arrows indicate analogous systems rather than direct effects of polyamide addition. Polyamides can downregulate gene expression by interfering with the binding of general TFs or activators in the promoter region of a gene (top). Polyamides conjugated to an AD function as artificial TFs and can upregulate gene expression by recruiting or stabilizing components of the transcription machinery (bottom). In vitro examples have used an engineered promoter that incorporates multiple polyamide-binding sites [63,64,65].
+
+restricted by the structure and dynamics of nucleosomal DNA, and by the translational and rotational positioning of the histone octamer. Using six different hairpin polyamides, it was shown that sites on nucleosomal DNA facing away from the histone octamer, or even partially facing the octamer, are fully accessible [66]. Remarkably, one section of 14 consecutive base pairs -- more than a full turn of the DNA helix -- was accessible to high-affinity polyamide binding. The only positions very poorly bound by polyamides were sites near the N-terminal tails of histone H3 and histone H4. Removal of either tail allowed polyamides to bind, suggesting that the structure of the DNA and perhaps its rotational position are strongly influenced by the N-terminal tails of histones H3 and H4 [66]. Subsequently, the structures of three of these polyamide≠ nucleosome core particle complexes were determined by X-ray crystallography (Figure 13) [67]. The histone octamer is unaffected by polyamide binding, but the
+www.current-opinion.com
+
+nucleosomal DNA undergoes significant structural changes at the ligand-binding sites and adjacent regions. Significantly, distortions in DNA twist can propagate over long distances without disrupting histone≠DNA contacts, giving a potential mechanistic rationale for the role of twist diffusion in nucleosome translocation. Although the three polyamides display very similar affinities for their binding sites in the a-satellite nucleosome particle (Kd $1 nM), only the relatively nonspecific polyamide ImPyPyPy-g-PyPyPyPy-b-Dp inhibits temperature-induced nucleosome translocation [67]. This may indicate that ligand positioning is critical, such that a single properly placed polyamide would effectively block translocation, or that the small effects of a single bound ligand can be amplified, such that a combination of several different polyamides would block translocation. Although polyamides can block transcription by targeting promoter elements, they do not affect transcription when
+Current Opinion in Structural Biology 2003, 13:284≠299
+
+296 Nucleic acids
+
+Figure 13
+
+histones and certain polyamides can act as chocks to prevent the DNA from moving [67,68].
+bp 146 bp 73 
+
+(a)
+
+Nuclear uptake
+DNA-binding polyamides can inhibit and influence a wide variety of protein≠DNA interactions in solution, yet effectiveness in cell culture has proved to be dependent on cell type. A series of fluorescently labeled polyamides was prepared to analyze the intracellular distribution of these molecules in a panel of cell lines [69]. In cell types that had shown robust responses to polyamides, such as primary human T cells [47], polyamide≠dye conjugates were observed to enter the nuclei of live cells [69]. However, in the majority of cell lines, polyamides were excluded from the nucleus. Co-staining with organelle-specific dyes indicates that polyamides are often trapped in lysosomes and other cytoplasmic vesicles [70], such that cells treated with polyamides can give a false nuclear signal upon fixing, even if they are washed extensively [69]. We have recently found specific combinations of linkers and fluorophores that enable the nuclear localization of polyamides in a broad range of mammalian cell lines (BS Edelson, TP Best, PB Dervan, unpublished data).
+
+0 1 6 2 5 3 4
+
+(b)
+
+Double-stranded DNA detection
+Current Opinion in Structural Biology
+
+Overview of a nucleosome core particle (NCP)≠polyamide co-crystal structure (PDB code 1M18) [67]. (a) Partial structure, viewed down the superhelical axis. Base pairs 68≠146 (shown in white) and associated proteins (H3, blue; H4, green; H2A, yellow; H2B, red) are shown. The equivalent region of DNA from the NCP with no additional ligands is superimposed, based on an alignment of the histone octamer atoms, and is shown in brown. Superhelix locations are labeled as each major groove faces inward. The location of the dyad axis is indicated by a broken line and the central base pair (base pair 73) is indicated by F. Bound polyamides are shown in blue. (b) Side view of the structure in an orientation that best displays the bound polyamides, shown in a CPK representation. DNA, histones and polyamide are colored as in (a).
+
+bound in the RNA coding regions of DNA [47]. Presumably, the strand melting required for RNA polymerase progression disrupts the minor groove and displaces polyamides. To investigate potential effects on transcription through a nucleosome, hairpin polyamides were targeted to sites on the nucleosome positioning sequence of the sea urchin 5S gene [68]. The two molecules that blocked heat-induced nucleosomal translocation also blocked transcription by T7 RNA polymerase. Each of these polyamides binds with high affinity (Kd $1 nM) to a single site in the nucleosome construct, potentially implying that placement is critical. Nonetheless, the positions of these sites are distinct from those occupied by the compound ImPyPyPy-g-PyPyPyPy-b-Dp in the crystal structure [67]. Although the precise mechanisms involved in nucleosome repositioning remain in question, it appears that, in some cases, DNA can `roll' over the
+Current Opinion in Structural Biology 2003, 13:284≠299
+
+We are hopeful that solutions to several key problems connected with molecular recognition and biological trafficking are in sight. Although the scope and limitations of these advances must be examined, we are now keenly interested in using polyamides as multipurpose tools for DNA detection. Fluorescent derivatives may find broad application. Laemmli and co-workers [33] developed the telomere-specific dye conjugates mentioned previously, and Trask and co-workers [71] have painted human chromosomes with centromere-specific hairpin polyamide≠dye conjugates. Polyamide-based molecular beacons [72], which display fluorescence enhancement upon binding to a target sequence, are distinguished from DNA-based probes because the double-stranded DNA target does not have to be denatured. Analysis of native duplex DNA allows a broader range of detection possibilities, such as the identification of mismatched (nonWatson≠Crick) DNA base pairs [72], and potentially tracking of specific DNA sequences in live cells. The combination of polyamides, multiple fluorophores capable of FRET and microfluidic technologies could provide the basis for unique DNA detection devices.
+
+Outlook and future directions
+Our long-term aspiration has always been the control of gene expression in living systems. This goal can now be pursued with renewed vigor. Polyamides and the pairing rules allow for the `digital read-out' of predetermined DNA sequences and, now that it appears that polyamides can be modified with improved cell uptake and nuclear localization properties in mammalian cells, the question
+www.current-opinion.com
+
+Minor groove-binding polyamides Dervan and Edelson 297
+
+of specificity on a genomic scale will be critical. What will be the minimum requirements for selectively altering transcription of a single gene? It may be that multiple `small polyamides' (each targeting 6 bp) acting in concert will be more effective than one single large molecule (targeting 10≠12 bp). Put rather differently, what are the genomic effects of treating cells with polyamides? Such genome-wide analyses have already begun [73] and, in our laboratory, gene chip experiments in both yeast and human systems indicate that an eight-ring polyamide -- recognizing only 6 bp of DNA -- affects the transcription of only a handful of genes. Importantly, we observe that polyamides targeted to different DNA sequences generate distinct expression profiles. Although gene suppression techniques have made extraordinary advances, most notably with the advent of RNA interference (RNAi) technology [74,75], DNA-binding polyamides are the only cell-permeable small molecules capable of recognizing specific, predetermined sequences of DNA. Furthermore, polyamide≠peptide conjugates may be used as artificial TFs to upregulate transcription [63,64,65], whereas it is not clear how RNAi could be used as a general tool for transcriptional upregulation. A major challenge, which we have only recently begun to address, will be cell and nuclear uptake trafficking of such functionalized conjugates, including polyamides bearing moieties for activation [64] or protein recruitment [76].
+
+8.
+
+Kielkopf CL, Baird EE, Dervan PD, Rees DC: Structural basis for G  C recognition in the DNA minor groove. Nat Struct Biol 1998, 5:104-109. Pilch DS, Poklar N, Baird EE, Dervan PB, Breslauer KJ: The thermodynamics of polyamide-DNA recognition: hairpin polyamide binding in the minor groove of duplex DNA. Biochemistry 1999, 38:2143-2151.
+
+9.
+
+10. Kielkopf CL, White S, Szewczyk JW, Turner JM, Baird EE, Dervan PB, Rees DC: A structural basis for recognition of A.T and T.A base pairs in the minor groove of B-DNA. Science 1998, 282:111-115. 11. Kielkopf CL, Bremer RE, White S, Szewczyk JW, Turner JM, Baird EE, Dervan PB, Rees DC: Structural effects of DNA sequence on T  A recognition by hydroxypyrrole/pyrrole pairs in the minor groove. J Mol Biol 2000, 295:557-567. 12. Wellenzohn B, Loferer MJ, Trieb M, Rauch C, Winger RH, Mayer E, Liedl KR: Hydration of hydroxypyrrole influences binding of ImHpPyPy-b-Dp polyamide to DNA. J Am Chem Soc 2003, 125:1088-1095. 13. Mrksich M, Parks ME, Dervan PB: Hairpin peptide motif. A new class of oligopeptides for sequence-specific recognition in the minor-groove of double-helical DNA. J Am Chem Soc 1994, 116:7983-7988. 14. Trauger JW, Baird EE, Dervan PB: Recognition of DNA by designed ligands at subnanomolar concentrations. Nature 1996, 382:559-561. 15. deClairac RPL, Geierstanger BH, Mrksich M, Dervan PB, Wemmer DE: NMR characterization of hairpin polyamide complexes with the minor groove of DNA. J Am Chem Soc 1997, 119:7909-7916. 16. White S, Baird EE, Dervan PB: Orientation preferences of pyrrole-imidazole polyamides in the minor groove of DNA. J Am Chem Soc 1997, 119:8756-8765. 17. Urbach AR: 1:1 motif for DNA recognition by b-alanine-linked polyamides [PhD Thesis]. Pasadena: California Institute of Technology; 2002. 18. Herman DM, Baird EE, Dervan PB: Stereochemical control of the DNA binding affinity, sequence specificity, and orientation preference of chiral hairpin polyamides in the minor groove. J Am Chem Soc 1998, 120:1382-1391. 19. Woods CR, Ishii T, Wu B, Bair KW, Boger DL: Hairpin versus extended DNA binding of a substituted b-alanine linked polyamide. J Am Chem Soc 2002, 124:2148-2152. 20. Herman DM, Turner JM, Baird EE, Dervan PB: Cycle polyamide motif for recognition of the minor groove of DNA. J Am Chem Soc 1999, 121:1121-1129. 21. Melander C, Herman DM, Dervan PB: Discrimination of A/T sequences in the minor groove of DNA within a cyclic polyamide motif. Chem Eur J 2000, 6:4487-4497. 22. Baliga R, Baird EE, Herman DM, Melander C, Dervan PB, Crothers DM: Kinetic consequences of covalent linkage of DNA binding polyamides. Biochemistry 2001, 40:3-8. 23. Greenberg WA, Baird EE, Dervan PB: A comparison of H-pin and hairpin polyamide motifs for the recognition of the minor groove of DNA. Chem Eur J 1998, 4:796-805. 24. Olenyuk B, Jitianu C, Dervan PB: Parallel synthesis of H-pin polyamides by alkene metathesis on solid phase. J Am Chem Soc 2003, 125:4741-4751. 25. Swalley SE, Baird EE, Dervan PB: A pyrrole-imidazole polyamide motif for recognition of eleven base pair sequences in the minor groove of DNA. Chem Eur J 1997, 3:1600-1607. 26. Turner JM, Swalley SE, Baird EE, Dervan PB: Aliphatic/ aromatic amino acid pairings for polyamide recognition in the minor groove of DNA. J Am Chem Soc 1998, 120:6219-6226. 27. Wang CCC, Ellervik U, Dervan PB: Expanding the recognition of the minor groove of DNA by incorporation of b-alanine in hairpin polyamides. Bioorg Med Chem 2001, 9:653-657. Current Opinion in Structural Biology 2003, 13:284≠299
+
+Acknowledgements
+The work described in this review was supported by the National Institutes of Health. BSE is supported by a predoctoral fellowship from the Howard Hughes Medical Institute.
+
+References and recommended reading
+Papers of particular interest, published within the annual period of review, have been highlighted as:  of special interest  of outstanding interest 1. 2. Arcamone F, Nicolell V, Penco S, Orezzi P, Pirelli A: Structure and synthesis of distamycin A. Nature 1964, 203:1064. Pelton JG, Wemmer DE: Structural characterization of a 2:1 distamycin A.D(CGCAAATTGGC) complex by two-dimensional NMR. Proc Natl Acad Sci USA 1989, 86:5723-5727. Gottesfeld JM, Turner JM, Dervan PB: Chemical approaches to control gene expression. Gene Expr 2000, 9:77-91.
+
+3.
+
+4. Dervan PB: Molecular recognition of DNA by small molecules.  Bioorg Med Chem 2001, 9:2215-2235. A personal essay recounting the development of the field of DNA recognition in the minor groove by Py-Im polyamides. 5. White S, Szewczyk JW, Turner JM, Baird EE, Dervan PB: Recognition of the four Watson-Crick base pairs in the DNA minor groove by synthetic ligands. Nature 1998, 391:468-471. Wade WS, Mrksich M, Dervan PB: Design of peptides that bind in the minor groove of DNA at 50 -(A,T)G(A,T)C(A,T)-30 sequences by a dimeric side-by-side motif. J Am Chem Soc 1992, 114:8783-8794. Mrksich M, Wade WS, Dwyer TJ, Geierstanger BH, Wemmer DE, Dervan PB: Antiparallel side-by-side dimeric motif for sequence-specific recognition in the minor groove of DNA by the designed peptide 1-methylimidazole-2-carboxamide netropsin. Proc Natl Acad Sci USA 1992, 89:7586-7590.
+
+6.
+
+7.
+
+www.current-opinion.com
+
+298 Nucleic acids
+
+28. Kelly JJ, Baird EE, Dervan PB: Binding site size limit of the 2:1 pyrrole-imidazole polyamide-DNA motif. Proc Natl Acad Sci USA 1996, 93:6981-6985. 29. Trauger JW, Baird EE, Dervan PB: Cooperative hairpin dimers for recognition of DNA by pyrrole-imidazole polyamides. Angew Chem Int Ed Engl 1998, 37:1421-1423. 30. Weyermann P, Dervan PB: Recognition of ten base pairs of DNA by head-to-head hairpin dimers. J Am Chem Soc 2002, 124:6872-6878. 31. Herman DM, Baird EE, Dervan PB: Tandem hairpin motif for recognition in the minor groove of DNA by pyrrole-imidazole polyamides. Chem Eur J 1999, 5:975-983. 32. Kers I, Dervan PB: Search for the optimal linker in tandem hairpin polyamides. Bioorg Med Chem 2002, 10:3339-3349. 33. Maeshima K, Janssen S, Laemmli UK: Specific targeting of insect  and vertebrate telomeres with pyrrole and imidazole polyamides. EMBO J 2001, 20:3218-3228. Fluorescently labeled tandem hairpin polyamides stain vertebrate and insect telomeres, and allow rapid estimation of relative telomere length. 34. Nguyen DH, Szewczyk JW, Baird EE, Dervan PB: Alternative heterocycles for DNA recognition: an N-methylpyrazole/Nmethylpyrrole pair specifies for A  T/T  A base pairs. Bioorg Med Chem 2001, 9:7-17. 35. Marques MA, Doss RM, Urbach AR, Dervan PB: Toward an understanding of the chemical etiology for DNA minor-groove recognition by polyamides. Helv Chim Acta 2002, 85:4485-4517. 36. Minehan TG, Gottwald K, Dervan PB: Molecular recognition of DNA by Hoechst benzimidazoles: exploring beyond the pyrrole-imidazole-hydroxypyrrole polyamide-pairing code. Helv Chim Acta 2000, 83:2197-2213. 37. Lown JW: DNA sequence recognition altered bisbenzimidazole minor-groove binders. In Advances in DNA Sequence-Specific Agents. Edited by Jones GB. London: JAI Press Inc.; 1998:67-95. 38. Renneberg D, Dervan PB: Imidazopyridine/pyrrole and  hydroxybenzimidazole/pyrrole pairs for DNA minor groove recognition. J Am Chem Soc 2003, 125:5707-5716. Hydroxybenzimidazole (Hz) was incorporated into a hairpin polyamide and the Hz/Py pair is shown to distinguish T  A from A  T. 39. Baird EE, Dervan PB: Solid phase synthesis of polyamides containing imidazole and pyrrole amino acids. J Am Chem Soc 1996, 118:6141-6146. 40. Wurtz NR, Turner JM, Baird EE, Dervan PB: Fmoc solid phase synthesis of polyamides containing pyrrole and imidazole amino acids. Org Lett 2001, 3:1201-1203. 41. Fattori D, Kinzel O, Ingallinella P, Bianchi E, Pessi A: A practical approach to the synthesis of hairpin polyamide-peptide conjugates through the use of a safety-catch linker. Bioorg Med Chem Lett 2002, 12:1143-1147. 42. Swalley SE, Baird EE, Dervan PB: Effects of c-turn and b-tail amino acids on sequence-specific recognition of DNA by hairpin polyamides. J Am Chem Soc 1999, 121:1113-1120. 43. Belitsky JM, Nguyen DH, Wurtz NR, Dervan PB: Solid-phase synthesis of DNA binding polyamides on oxime resin. Bioorg Med Chem 2002, 10:2767-2774. 44. Darnell JE: Transcription factors as targets for cancer therapy. Nat Rev Cancer 2002, 2:740-749. 45. Gottesfeld JM, Neely L, Trauger JW, Baird EE, Dervan PB: Regulation of gene expression by small molecules. Nature 1997, 387:202-205. 46. Neely L, Trauger JW, Baird EE, Dervan PB, Gottesfeld JM: Importance of minor groove binding zinc fingers within the transcription factor IIIA-DNA complex. J Mol Biol 1997, 274:439-445. 47. Dickinson LA, Gulizia RJ, Trauger JW, Baird EE, Mosier DE, Gottesfeld JM, Dervan PB: Inhibition of RNA polymerase II transcription in human cells by synthetic DNA-binding ligands. Proc Natl Acad Sci USA 1998, 95:12890-12895. Current Opinion in Structural Biology 2003, 13:284≠299
+
+48. McBryant SJ, Baird EE, Trauger JW, Dervan PB, Gottesfeld JM: Minor groove DNA-protein contacts upstream of a tRNA gene detected with a synthetic DNA binding ligand. J Mol Biol 1999, 286:973-981. 49. Ehley JA, Melander C, Herman D, Baird EE, Ferguson HA,  Goodrich JA, Dervan PB, Gottesfeld JM: Promoter scanning for transcription inhibition with DNA-binding polyamides. Mol Cell Biol 2002, 22:1723-1733. This paper uses the strategy of promoter scanning to identify important protein≠DNA contacts within the HIV-1 promoter. 50. Winston RL, Ehley JA, Baird EE, Dervan PB, Gottesfeld JM: Asymmetric DNA binding by a homodimeric bHLH protein. Biochemistry 2000, 39:9092-9098. 51. Dickinson LA, Trauger JW, Baird EE, Dervan PB, Graves BJ, Gottesfeld JM: Inhibition of Ets-1 DNA binding and ternary complex formation between Ets-1, NF-jB, and DNA by a designed DNA-binding ligand. J Biol Chem 1999, 274:12765-12773. 52. Chiang SY, Burli RW, Benz CC, Gawron L, Scott GK, Dervan PB, Beerman TA: Targeting the Ets binding site of the HER2/neu promoter with pyrrole-imidazole polyamides. J Biol Chem 2000, 275:24246-24254. 53. Lenzmeier BA, Baird EE, Dervan PB, Nyborg JK: The Tax proteinDNA interaction is essential for HTLV-I transactivation in vitro. J Mol Biol 1999, 291:731-744. 54. Simon H, Kittler L, Baird E, Dervan P, Zimmer C: Selective inhibition of DNA gyrase in vitro by a GC specific eight-ring hairpin polyamide at nanomolar concentration. FEBS Lett 2000, 471:173-176. 55. Wurtz NR, Pomerantz JL, Baltimore D, Dervan PB: Inhibition of DNA binding by NF-jB with pyrrole-imidazole polyamides. Biochemistry 2002, 41:7604-7609. 56. Bremer RE, Baird EE, Dervan PB: Inhibition of major-groovebinding proteins by pyrrole-imidazole polyamides with an ArgPro-Arg positive patch. Chem Biol 1998, 5:119-133. 57. Bremer RE, Wurtz NR, Szewczyk JW, Dervan PB: Inhibition of major groove DNA binding bZIP proteins by positive patch polyamides. Bioorg Med Chem 2001, 9:2093-2103. 58. Fechter EJ, Dervan PB: Allosteric inhibition of protein-DNA complexes by polyamide-intercalator conjugates. J Am Chem Soc 2003, in press. 59. Janssen S, Cuvier O, Muller M, Laemmli UK: Specific gain- and  loss-of-function phenotypes induced by satellite-specific DNA-binding drugs fed to Drosophila melanogaster. Mol Cell 2000, 6:1013-1024. Py-Im polyamides targeted to DNA satellite regions cause gain- and lossof-function phenotypes when fed to developing Drosophila flies. 60. Dickinson LA, Trauger JW, Baird EE, Ghazal P, Dervan PB, Gottesfeld JM: Anti-repression of RNA polymerase II transcription by pyrrole-imidazole polyamides. Biochemistry 1999, 38:10801-10807. 61. Coull JJ, He GC, Melander C, Rucker VC, Dervan PB, Margolis DM: Targeted derepression of the human immunodeficiency virus type 1 long terminal repeat by pyrrole-imidazole polyamides. J Virol 2002, 76:12349-12354. 62. Ansari AZ, Mapp AK: Modular design of artificial transcription factors. Curr Opin Chem Biol 2002, 6:765-772. 63. Mapp AK, Ansari AZ, Ptashne M, Dervan PB: Activation of gene  expression by small molecule transcription factors. Proc Natl Acad Sci USA 2000, 97:3930-3935. An artificial TF, consisting of a minor groove-binding polyamide tethered to a designed peptide activation domain, mediates transcriptional activation in vitro. 64. Ansari AZ, Mapp AK, Nguyen DH, Dervan PB, Ptashne M: Towards a minimal motif for artificial transcriptional activators. Chem Biol 2001, 8:583-592. 65. Arora PS, Ansari AZ, Best TP, Ptashne M, Dervan PB: Design of artificial transcriptional activators with rigid poly-L-proline linkers. J Am Chem Soc 2002, 124:13067-13071. www.current-opinion.com
+
+Minor groove-binding polyamides Dervan and Edelson 299
+
+66. Gottesfeld JM, Melander C, Suto RK, Raviol H, Luger K, Dervan PB: Sequence-specific recognition of DNA in the nucleosome by pyrrole-imidazole polyamides. J Mol Biol 2001, 309:615-629. 67. Suto RK, Edayathumangalam RS, White CL, Melander C,  Gottesfeld JM, Dervan PB, Luger K: Crystal structures of nucleosome core particles in complex with minor groove DNA-binding ligands. J Mol Biol 2003, 326:371-380. The high-resolution X-ray crystal structures of three nucleosome core particles in complex with hairpin polyamides are described. 68. Gottesfeld JM, Belitsky JM, Melander C, Dervan PB, Luger K:  Blocking transcription through a nucleosome with synthetic DNA ligands. J Mol Biol 2002, 321:249-263. Hairpin polyamides can inhibit nucleosome repositioning as well as transcription through a nucleosome in vitro. 69. Belitsky JM, Leslie SJ, Arora PS, Beerman TA, Dervan PB:  Cellular uptake of N-methylpyrrole/N-methylimidazole polyamide-dye conjugates. Bioorg Med Chem 2002, 10:3313-3318. Nuclear uptake of hairpin polyamide≠bodipy conjugates is shown to be cell-type dependent. 70. Crowley KS, Phillion DP, Woodard SS, Schweitzer BA, Singh M, Shabany H, Burnette B, Hippenmeyer P, Heitmeier M, Bashkin JK: Controlling the intracellular localization of fluorescent polyamide analogs in cultured cells. Bioorg Med Chem Lett 2003, 13:1565-1570. 71. Gygi MP, Ferguson MD, Mefford HC, Lund KP, O'Day C, Zhou P, Friedman C, van den Engh G, Stolowitz ML, Trask BJ: Use of
+
+fluorescent sequence-specific polyamides to discriminate human chromosomes by microscopy and flow cytometry. Nucleic Acids Res 2002, 30:2790-2799. 72. Rucker VC, Foister S, Melander C, Dervan PB: Sequence specific fluorescence detection of double strand DNA. J Am Chem Soc 2003, 125:1195-1202. 73. Supekova L, Pezacki JP, Su AI, Loweth CJ, Riedl R, Geierstanger B, Schultz PG, Wemmer DE: Genomic effects of polyamide/DNA interactions on mRNA expression. Chem Biol 2002, 9:821-827. 74. Agami R: RNAi and related mechanisms and their potential use for therapy. Curr Opin Chem Biol 2002, 6:829-834. 75. Kamath RS, Fraser AG, Dong Y, Poulin G, Durbin R, Gotta M, Kanapin A, Le Bot N, Moreno S, Sohrmann M et al.: Systematic functional analysis of the Caenorhabditis elegans genome using RNAi. Nature 2003, 421:231-237. 76. Wang CCC, Dervan PB: Sequence-specific trapping of topoisomerase I by DNA binding polyamide-camptothecin conjugates. J Am Chem Soc 2001, 123:8657-8661. 77. Malik S, Roeder RG: Transcriptional regulation through mediator-like coactivators in yeast and metazoan cells. Trends Biochem Sci 2000, 25:277-283. Now in press The work referred to in the text as (A Heckel, PB Dervan, unpublished data) is now in press: 78. Heckel A, Dervan PB: U-pin polyamide motif for recognition of the DNA minor groove. Chem Eur J 2003, in press.
+
+www.current-opinion.com
+
+Current Opinion in Structural Biology 2003, 13:284≠299
+
+

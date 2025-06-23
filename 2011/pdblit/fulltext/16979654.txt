@@ -1,0 +1,276 @@
+The International Journal of Biochemistry & Cell Biology 36 (2004) 1787­1799
+
+Review
+
+Thermodynamic rules for the design of high affinity HIV-1 protease inhibitors with adaptability to mutations and high selectivity towards unwanted targets
+Hiroyasu Ohtaka, Salman Muzammil, Arne Schön, Adrian Velazquez-Campoy, Sonia Vega, Ernesto Freire
+Department of Biology, Johns Hopkins University, 3400 North Charles, Baltimore, MD 21218, USA
+
+Abstract Protease inhibitors are key components in the chemotherapy of HIV-1 infection. However, the long term efficacy of antiretroviral therapies is hampered by issues of patient compliance often associated with the presence of severe side effects, and above all by the appearance of drug resistance. The development of new protease inhibitors with high potency, low susceptibility to mutations and minimal affinity for unwanted targets is an urgent goal. The engineering of these adaptive inhibitors requires identification of the critical determinants of affinity, adaptability, and selectivity. Analysis of the binding database for existing clinical and experimental inhibitors has allowed us to address the following questions in a quantitative fashion: (1) Is there an optimal binding affinity? Or, are the highest affinity inhibitors necessarily the best inhibitors? (2) What is the dependence of optimal affinity on adaptability and selectivity? (3) What are the determinants of adaptability to mutations associated with drug resistance? (4) How selectivity against unwanted targets can be improved? It is shown that the optimal affinity is a function of the effective target concentration and the desired adaptability and selectivity factors. Furthermore, knowledge of the enthalpic and entropic contributions to the binding affinity to the wild type provides a way of anticipating the response of an inhibitor to mutations associated with drug resistance, and therefore, a valuable guideline for optimization. © 2004 Elsevier Ltd. All rights reserved.
+Keywords: HIV-1 protease; Drug resistance; AIDS; Binding thermodynamics; Enzyme inhibition; Adaptive inhibitors; Isothermal titration calorimetry
+
+Contents 1. 2. 3. 4. 5. Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Structural distribution of mutations associated with drug resistance. . . . . . . . . . . . . . . . . . . . . . Inhibitor susceptibility to mutations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Inhibitor selectivity towards unwanted targets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Optimal binding affinity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1788 1789 1792 1793 1794
+
+
+
+Corresponding author. Tel.: +1-410-516-7743; fax: +1-410-516-6469. E-mail address: ef@jhu.edu (E. Freire).
+
+1357-2725/$ ­ see front matter © 2004 Elsevier Ltd. All rights reserved. doi:10.1016/j.biocel.2004.02.021
+
+1788
+
+H. Ohtaka et al. / The International Journal of Biochemistry & Cell Biology 36 (2004) 1787­1799
+
+6. Thermodynamic signature of high affinity inhibitors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7. Can adaptability to mutations be predicted? . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8. Engineering selectivity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9. Conclusions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Acknowledgements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+1795 1795 1796 1797 1797 1797
+
+1. Introduction A significant obstacle to the efficacy of drugs directed against viral targets in general and HIV-1 in particular is the presence of amino acid polymorphisms in the targeted molecules. Amino acid polymorphisms may arise naturally by spontaneous i mutations of the virus in drug-na¨ve patients or as a result of the selective pressure of anti-retroviral therapies. In both cases, the high replication error resulting from the lack of proof-reading by the HIV-1 reverse transcriptase and recombination between different viral variants contribute to the appearance of amino acid polymorphisms in the viral proteins, including those that are targets for anti-retroviral therapies. Amino acid polymorphisms have been observed in at least 49 of the 99 residues in each protease monomer (Boden & Markowitz, 1998; Gulnik, Erickson, & Xie, 1999; Hertogs et al., 2000; Kozal et al., 1996; Shafer, Chuang, Hsu, White, & Katzenstein, 1999; Wu et al., 2003). Among viral subtypes, polymorphisms can be as high as 30% throughout the HIV-1 genome (Velazquez-Campoy et al., 2003b; Velazquez-Campoy, Vega, & Freire, 2002). Because of their inherent diversity, viral targets do not represent invariant structures against which traditional methods of drug design based upon the lock-and-key paradigm can be successfully applied. This fact is highlighted by the rapid emergence of drug resistance. Drug molecules developed according to the lock-and-key paradigm are designed to fit tightly into the binding cavity of the intended target, normally the wild type protein. Since the snug fit is achieved by pre-shaping the drug molecule to the geometry of the binding cavity through the use of conformational constraints, the drug molecule lacks the ability to accommodate to small variations created by target polymorphisms. While highly constrained molecules do well against a unique target, they do not perform
+
+well against heterogeneous targets due to their lack of adaptability to target variations such as those originating from naturally occurring polymorphisms or drug resistant mutations. All protease inhibitors currently in clinical use may lose up to three orders of magnitude in binding affinity and become ineffective when confronted with mutations associated with drug resistance (Ala et al., 1997; Condra et al., 1995; Ho et al., 1994; Hong, Treharne, Hartsuck, Foundling, & Tang, 1996; Jadhav, Ala, Woerner, Chang, & Garber, 1997; Kaplan et al., 1994; Muzammil, Ross, & Freire, 2003; Ohtaka, Velazquez-Campoy, Xie, & Freire, 2002; Roberts, 1995; Todd, Luque, Velazquez-Campoy, & Freire, 2000; Velazquez-Campoy et al., 2003a). An ideal HIV-1 protease inhibitor will be one that is extremely effective against the wild type protein and maintains its efficacy against the most important variants of the target molecule. Inhibitors that exhibit this behavior have been termed adaptive inhibitors (Freire, 2002; Nezami & Freire, 2002; Nezami et al., 2003; Velazquez-Campoy & Freire, 2001). Adaptive inhibitors bind with extremely high affinity to the primary target and maintain significant affinity against mutations. This objective is accomplished by engineering the strongest and most specific interactions of the inhibitor against conserved regions of the binding site and by accommodating to target variations by means of flexible asymmetric functional groups. Besides having high affinity against the main target and the ability to accommodate to target heterogeneities, adaptive inhibitors need to maintain selectivity against unwanted targets in the infected patient. At the molecular level, these properties dictate the necessity for a different approach to attain high affinity and specificity. A necessary condition for the development of an adaptive inhibitor is that amino acid polymorphisms in the target molecule are not randomly located within the binding cavity and that, therefore, it is possible to identify conserved regions against
+
+H. Ohtaka et al. / The International Journal of Biochemistry & Cell Biology 36 (2004) 1787­1799
+
+1789
+
+which strong interactions can be engineered. Interactions with conserved regions become not only significant contributors to affinity but also to specificity, and therefore, selectivity against unwanted targets. Recently, these ideas have been successfully applied to the development of adaptive inhibitors of the plasmepsins (Nezami et al., 2003), a family of antimalarial targets. In general, two strategies have been advanced to combat drug resistance, the development of drugs against new targets and the development of new drugs with a lower susceptibility to mutations associated with drug resistance. In this paper, we examine the existing data for HIV-1 protease inhibitors and the thresholds that have to be overcome in order to develop inhibitors with high affinity against the wild type, low susceptibility to mutations and high selectivity against unwanted targets.
+
+2. Structural distribution of mutations associated with drug resistance Due to the high mutation rate of HIV-1, the protease molecule exhibits amino acid polymorphisms even in the absence of the selective pressure of antiretroviral therapy. These polymorphisms are found in at least 36 positions in the protease sequence. Analysis of the amino acid polymorphisms found in protease molecules from drug-na¨ve patients reveals that polyi morphisms are not randomly distributed throughout the protease structure as illustrated in Fig. 1a. There are structural and functional constraints that select against certain mutations. For example mutations that deteriorate catalytic activity, mutations that impair substrate binding or mutations that weaken the structural stability of the protease or mutations that in any other way diminish the biochemical fitness of the protease are not viable for the virus and are not observed in drug-na¨ve patients. Naturally occurring polymori phisms tend to be outside the binding cavity, at the hinges of the flaps or at the edges of the protease core. Mutations associated with drug resistance are also distributed in a non-random fashion throughout the protease structure. Table 1 lists the type of mutations and mutation probabilities for each residue of the HIV-1 protease for sequences obtained from both drug-na¨ve and treated patients. Fig. 1b indicates the i
+
+Fig. 1. Structure of the HIV-1 protease showing (a) the distribution of mutations in untreated patients; (b) the difference in the occurrence probability of mutations between untreated and treated patients. Mutations with a total probability higher than 5% are indicated in the figure.
+
+differences in mutation probability between treated and untreated patients mapped into the structure of the protease. It is clear that anti-retroviral therapy selects for mutations in regions that have very little or zero mutation probability in samples obtained from drug-na¨ve patients. Usually mutations at these locai tions are detrimental to biochemical fitness and are not selected in the absence of inhibitors. In the presence of inhibitors these mutations improve the biochemical fitness of the protease with respect to the wild type enzyme (Gulnik et al., 1995; Velazquez-Campoy et al., 2003a). A lower catalytic activity and a larger Km are the usual penalties paid by the mutants for not being effectively inhibited under conditions in which the wild type molecule is completely inhibited. It must be noted, however, that mutations associated with drug resistance (Table 1) are also conservative since they have to preserve some viable biologi-
+
+1790
+
+H. Ohtaka et al. / The International Journal of Biochemistry & Cell Biology 36 (2004) 1787­1799
+
+Table 1 Mutation probabilities in HIV-1 protease in drug-na¨ve and inhibitor treated patientsa i Position Mutations Mutation probability (%) Total P Q I T L W Q R P L V T I K I G G Q L K E A L L D T G A D D T V L E E M N L P G R W K P K M I G G I G G 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 ­ ­ ­ ­ ­ ­ ­ ­ ­ 33.4 0.9 10.0 16.2 10.0 16.9 3.1 0.5 2.0 9.9 11.4 ­ ­ 0.8 4.0 ­ ­ ­ ­ ­ 4.6 ­ 2.3 4.5 1.1 28.4 23.1 34.7 ­ 2.5 ­ 20.3 ­ 3.5 ­ 2.2 19.4 1.1 4.2 ­ 0.8 ­ ­ Untreated ­ ­ ­ ­ ­ ­ ­ ­ ­ 11.0 0.4 12.4 13.4 10.2 15.4 3.5 0.4 1.9 9.1 2.2 ­ ­ 0.1 0.1 ­ ­ ­ ­ ­ 0.0 ­ 0.1 2.5 0.3 24.6 13.4 34.9 ­ 3.1 ­ 21.5 ­ 1.5 ­ 0.6 0.3 0.3 0.1 ­ 0.1 ­ ­ Treated ­ ­ ­ ­ ­ ­ ­ ­ ­ 47.9 1.2 8.4 17.9 9.9 17.9 2.8 0.5 2.1 10.5 17.4 ­ ­ 1.2 6.5 ­ ­ ­ ­ ­ 7.6c ­ 3.7 5.8 1.5 30.8 29.4 34.5 ­ 2.1 ­ 19.5 ­ 4.8 ­ 3.2 31.8 1.6 6.9 ­ 1.3 ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ 36.8 0.8 -4.0 4.5 -0.4 2.4 -0.7 0.1 0.2 1.4 15.3 ­ ­ 1.1 6.4 ­ ­ ­ ­ ­ 7.6 ­ 3.5 3.3 1.2 6.2 16.0 -0.5 ­ -0.9 ­ -2.0 -0.3 3.3 ­ 2.6 31.5 1.3 6.9 ­ 1.2 ­ ­ pb
+
+I, V, F I, A, G S, A, P, I, N V R V E, A E, D H, L, E I, Q, V, T R, I, M, T
+
+I I, F
+
+N I F, I, V Q, D, K D I D, S, T, E, H S, Q, T K R, T, N R, Q I, L V V V, L
+
+H. Ohtaka et al. / The International Journal of Biochemistry & Cell Biology 36 (2004) 1787­1799 Table 1 (Continued ) Position Mutations Mutation probability (%) Total F I K V R Q Y D Q I L I E I C G H K A I G T V L V G P T P V N I I G R N L L T Q I G C T L N F 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 L V R K E E E, N, H V P V, L D F, V, L S, F, Y, D, H Q, Y, K, R, N R, Q, T, E V, T V, T, L, M, E S, T, C S, A, P I V I A, D, S, H, L 3.3 15.4 2.2 ­ 8.9 2.3 ­ 6.5 3.7 26.0 80.8 22.6 2.0 1.2 2.3 ­ 6.4 4.2 28.2 12.8 9.6 3.9 0.6 1.2 28.9 ­ 0.8 ­ ­ 21.1 ­ 7.8 2.0 ­ ­ 3.9 2.5 21.4 ­ 2.3 33.4 ­ 1.2 ­ ­ ­ ­ Untreated 0.3 0.2 0.4 ­ 7.3 0.3 ­ 3.9 3.3 18.5 70.2 21.7 1.7 0.1 1.5 ­ 6.1 4.4 6.6 7.7 0.2 0.3 0.1 0.1 23.0 ­ 0.1 ­ ­ 1.2 ­ 0.0 0.3 ­ ­ 0.2 1.2 0.5 ­ 1.0 25.2 ­ 0.3 ­ ­ ­ ­ Treated 5.2 25.2 3.4 ­ 9.9 3.6 ­ 8.1 4.0 30.8 87.7 23.3 2.2 1.9 2.9 ­ 6.6 4.0 42.1 16.1 15.7 6.2 0.8 1.9 32.6 ­ 1.3 ­ ­ 33.9 ­ 12.8c 3.1 ­ ­ 6.3 3.3 34.9 ­ 3.1 38.9 ­ 1.8 ­ ­ ­ ­
+
+1791
+
+pb
+
+A, T, F V V
+
+D, S M, V, I M K, R, H L F, S, R
+
+4.9 25.0 2.9 ­ 2.6 3.3 ­ 4.2 0.7 12.3 17.5 1.6 0.5 1.8 1.3 ­ 0.5 -0.3 35.5 8.5 15.5 5.9 0.7 1.8 9.6 ­ 1.1 ­ ­ 32.7 ­ 12.8 2.8 ­ ­ 6.1 2.1 34.4 ­ 2.1 13.7 ­ 1.5 ­ ­ ­ ­
+
+a HIV-1 subtype B protease sequences, from the Stanford University HIV RT and Protease Sequence Database (February 2, 2003 release; 4155 sequences; numbers of sequences for treated patient and untreated patient: 2524 and 1631, respectively). Mutations with total probability lower than 0.5% are not shown. b Calculated with the following equation: p = ptreated ­ puntreated . c Mutations observed only in isolates from patients treated with protease inhibitors.
+
+1792
+
+H. Ohtaka et al. / The International Journal of Biochemistry & Cell Biology 36 (2004) 1787­1799
+
+cal activity for viral replication. These mutations mostly change the shape of the binding cavity without significantly altering their chemical character or polarity. Fig. 1b also demonstrates the presence of regions within the binding cavity that maintain a zero mutation probability. The catalytic dyad (Asp 25 from both subunits) for example is essential for activity and cannot mutate. Other residues within the binding site, e.g. Arg 8, Gly 27, Ala 28, Asp 29, Gly 49, Pro 81 are also conserved under anti-retroviral therapy and define potential sites for the engineering of strong interactions. The structural mapping of conserved and variable regions within the binding cavity provides the blueprint for the development of inhibitors that are capable of adapting to expected variations while simultaneously maintaining the required selectivity.
+
+3. Inhibitor susceptibility to mutations Fig. 2 illustrates the magnitude of the effects of mutations and naturally occurring polymorphisms on the binding affinity of different inhibitors of the HIV-1 protease. In the figure, the loss of potency is expressed as the ratio of binding affinities between wild type and mutant proteases (Kd ratio = Kd,mutant /Kd,wt ). The loss in binding affinity for all inhibitors currently in clinical use can be as high as three orders of magnitude (Velazquez-Campoy et al., 2003a). Some experimental inhibitors (e.g. KNI-764, TMC-126) usually perform better against existing mutations including mutations associated with multi-drug resistance. These inhibitors, however, have not been tested in the clinic and their long term efficacy is still unknown. Acetyl pepstatin, the generic peptidic aspartic protease inhibitor, binds with low affinity to
+Subtyp C Subtype CS-A Subtype G V82F/I84V A V82F/I84V C I84V G
+
+MDR-HM MDR-QM V82A/I84V M46I/I54V 4 10
+
+L10I/L90M V82F/I84V I50V Subtype A
+
+1000
+
+K ratio
+
+100
+
+d 10 1 0.1 Ac.Pepstatin Amprenavir Saquinavir Nelfinavir TMC-126 Lopinavir Ritonavir Indinavir KNI-272 KNI-764
+
+Fig. 2. The adaptability to mutations of different inhibitors, expressed as Kd ratio = Kd,mutant /Kd,wild-type . The points include data obtained for different mutations including V82F/I84V (Velazquez-Campoy et al., 2002); I50V (Ohtaka et al., 2002); A, C, C-SA (South Africa) and G subtypes (Velazquez-Campoy et al., 2003b), V82F/I84V within the context of A and C subtypes (Velazquez-Campoy et al., 2003b), V82A/I84V, M46I/I54V, L10I/L90M (Ohtaka et al., 2003), and the multi-drug resistant proteases MDR-HM (L10I/M46I/I54V/V82A/I84V/L90M) and MDR-QM (V82A/I84V/M46I/I54V) (Ohtaka et al., 2003).
+
+H. Ohtaka et al. / The International Journal of Biochemistry & Cell Biology 36 (2004) 1787­1799
+
+1793
+
+the wild type protease (Kd = 0.4 M) but does not lose significant affinity against different mutants. The available thermodynamic data allows estimation of realistic binding affinity objectives for inhibitor design. These objectives include specific goals for affinity, adaptability and selectivity. Adaptability and selectivity can be quantitated in terms of the Kd ratio with the mutant or the unwanted target. For adaptability to mutations, a Kd ratio = 1 indicates that the inhibitor binds with equal affinity to wild type and mutant whereas a Kd ratio 1 indicates that the inhibitor loses affinity against the mutant. Conversely, a Kd ratio 1 indicates that the inhibitor binds better to the mutant. For adaptability, the lower the Kd ratio the better. The opposite is true for selectivity. In this case, a large Kd ratio towards unwanted targets is preferred. For the clinical inhibitors that respond the best to mutations, the maximal Kd ratios range between 200 and 500. For experimental inhibitors, the range is about 10 times lower but the mutations that have been
+
+studied were not selected against those inhibitors. Taking into consideration the existing data and assuming that the virus will always be able to develop mutations that lower inhibitor affinity, we can set two orders of magnitude as a reasonable expectation for the maximal Kd ratio of an effective new inhibitor; i.e. a good inhibitor should be able to efficiently inhibit mutant proteases even if its binding affinity drops by two orders of magnitude.
+
+4. Inhibitor selectivity towards unwanted targets While a successful inhibitor must be effective against wild type and mutant versions of the HIV-1 protease, it must also exhibit high specificity and selectivity with respect to unwanted targets, especially human proteases like cathepsin D, renin and pepsin; i.e. a small Kd ratio for protease mutations and a large Kd ratio for unwanted targets. Published affinity data for protease inhibitors against unwanted targets
+
+10
+
+7
+
+10
+
+6
+
+Kd ratio Cath. D Kd ratio Pepsin Kd ratio renin Kd ratio gastricin Kd ratio Cath. E Kd ratio AAG
+
+100000
+
+K ratio
+
+10000
+
+d 1000 100
+10
+
+Amprenavir
+
+Saquinavir
+
+Nelfinavir
+
+Ritonavir
+
+Fig. 3. Selectivity of HIV-1 protease inhibitors with respect unwanted targets. The values for nelfinavir, ritonavir, and amprenavir are based upon published Ki data (Kempf et al., 1995; Navia et al., 1995; Patick et al., 1996), the values for saquinavir and KNI-272 on IC50 values (Kiso, 1996; Kitchin et al., 1994) and the values for alpha acid glycoprotein (AAG) are based upon microcalorimetric binding data (Schon et al., 2003).
+
+KNI-272
+
+1794
+
+H. Ohtaka et al. / The International Journal of Biochemistry & Cell Biology 36 (2004) 1787­1799
+
+is not complete and includes only Ki or IC50 values four inhibitors in clinical use and the experimental inhibitor KNI-272 (Kempf et al., 1995; Kiso, 1996; Kitchin et al., 1994; Navia, Sato, & Tung, 1995; Patick et al., 1996). The data for cathepsin D, rennin, pepsin gastricin, and cathepsin E is summarized in Fig. 3. Binding to plasma proteins, especially alpha acid glycoprotein seems to be important in modulating the amount of inhibitor circulating in blood. Affinity constants for nelfinavir, ritonavir, saquinavir, and indinavir are available (Schon, Ingaramo, & Freire, 2003) and the data is also included in the figure. As seen in the graph selectivity values range between 100 and 4 × 105 even though most of the values range between 103 and 104 .
+
+5. Optimal binding affinity At a quantitative level, calculation of the optimal affinity corresponding to the existing or desired adaptability and selectivity thresholds requires explicit consideration of the minimum concentration of inhibitor required to effectively inhibit the HIV-1 protease that is present in a patient. The minimum amount of inhibitor required to achieve complete inhibition must be at least equal to the amount of protease present in a patient. Fig. 4 shows the inhibitor concentration required to achieve
+
+300 250 200 nM 150 100 50 0 -13 -12 -11 -10 Log K
+d
+
+-9
+
+-8
+
+-7
+
+Fig. 4. The inhibitor concentration required to achieve 95% inhibition (C95 ) as a function of inhibitor binding affinity. The calculation assumes an effective protease concentration of 30 nM.
+
+95% inhibition (C95 ) as a function of inhibitor binding affinity assuming an effective protease concentration of 30 nM (Schon et al., 2003; Velazquez-Campoy et al., 2003a). It is clear in the figure that independently of how tight the inhibitor affinity is, 30 nM is the minimal inhibitor concentration required for complete inhibition. Furthermore, the curve is essentially flat for all Kd 's below 0.5 nM indicating that, in this example, the same level of inhibition is achieved by a picomolar, femtomolar or a 0.1 nM inhibitor. Which one is then the optimal affinity? The answer depends on the required values for adaptability and selectivity. For example if a picomolar inhibitor loses affinity by two orders of magnitude when facing a mutant protease, it will still be able to exert effective inhibition. On the contrary, if the same affinity loss is experienced by a 0.1 nM inhibitor it will require a concentration about seven times higher in order to inhibit the mutant. From the point of view of effectively inhibiting different protease variants, the higher the affinity the better, assuming the same adaptability factor. From the point of view of selectivity the opposite is true. For example if a selectivity factor of 103 against an unwanted target is assumed, a picomolar protease inhibitor would have a nanomolar affinity against the unwanted target and also inhibit it at the C95 for the protease. In this case, the 0.1 nM inhibitor will behave better than the picomolar inhibitor because it will not inhibit the unwanted target. The optimal affinity is dictated by the desired balance between adaptability and selectivity. For the example in Fig. 4, if an adaptability factor of 102 and a selectivity factor of 103 are required, the best inhibitor satisfying both criteria would have a 10 pM binding affinity. In some situations, the intended and unwanted targets have high degree of similarity and high selectivity is difficult to obtain. For example if a selectivity factor of 102 is the maximum that can be achieved, then an inhibitor with 0.1 nM affinity would be preferable for the example in Fig. 4. In general, the design of an effective inhibitor requires high affinity and a simultaneous minimization of the adaptability factor such that the inhibitor does not lose significant affinity against variants of the protease, and maximization of the selectivity factor such that it does not bind to unwanted targets at the required physiological concentrations.
+
+C
+
+95
+
+H. Ohtaka et al. / The International Journal of Biochemistry & Cell Biology 36 (2004) 1787­1799
+
+1795
+
+6. Thermodynamic signature of high affinity inhibitors At the thermodynamic level, the binding affinity is dictated by the Gibbs energy ( G) which in turns depends on the enthalpy and entropy changes associated with binding ( G = H - T S). In principle, many combinations of enthalpy and entropy changes are consistent with any G, and therefore, any binding affinity. In reality, the situation is different because H and S reflect different types of interactions and, for small molecules binding to proteins the ensemble of interactions is finite and dictated by the type of interactions that can be established between the constituent atoms. Enthalpic contributions reflect the strength of the inhibitor interactions with the protein (H-bonds, van der Waals interactions) relative to those with the solvent (water). Entropic contributions to the binding affinity, on the other hand, are mainly due to a large increase in solvent entropy arising from the burial of hydrophobic groups upon binding, and the loss of conformational degrees of freedom associated with binding. In this regard, it must be noted that the binding of conformationally constrained, highly hydrophobic ligands is entropically driven because their binding affinity is dominated by the burial of hydrophobic groups coupled to a minimal loss of conformational degrees of freedom (Todd et al., 2000; Velazquez-Campoy, Kiso, & Freire, 2001). The binding thermodynamics to wild type and several mutant proteases of all protease inhibitors in clinical use and some experimental inhibitors has been measured by isothermal titration microcalorimetry (Ohtaka et al., 2002; Ohtaka, Schon, & Freire, 2003; Todd et al., 2000; Velazquez-Campoy & Freire, 2001; Velazquez-Campoy, Kiso, et al., 2001; Velazquez-Campoy, Todd, & Freire, 2000; Velazquez-Campoy et al., 2000; Velazquez-Campoy, Luque, & Freire, 2001a; Velazquez-Campoy, Luque, & Freire, 2001b; Velazquez-Campoy, Todd, Vega, & Freire, 2001; Velazquez-Campoy et al., 2002, 2003a, 2003b). If a plot is made of the enthalpy and entropy contributions to the binding affinity to the wild type of all HIV-1 protease inhibitors for which thermodynamic data are available, the results shown in Fig. 5 are obtained. It is clear that a correlation exists between high affinity and the proportion in which H contributes to the binding affinity. The stronger the
+
+10 5 0 -5 -10 -15 -20
+H -TS
+
+kcal mol-1
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+log (Ka / M-1)
+Fig. 5. The correlation between binding affinity to the wild type protease and binding enthalpy ( H) or binding entropy (-T S) for all inhibitors for which binding thermodynamic data have been reported: indinavir, nelfinavir, saquinavir, ritonavir, amprenavir, lopinavir, acetyl pepstatin, TMC-126, KNI-764, KNI-272 (Ohtaka et al., 2002, 2003; Todd et al., 2000; Velazquez-Campoy et al., 2002; Velazquez-Campoy, Kiso, et al., 2001; Velazquez-Campoy, Luque, et al., 2000) KNI-10050 and KNI-10055 (unpublished data from this laboratory).
+
+binding affinity, the higher the enthalpy contribution to the Gibbs energy. This result is not surprising since enthalpic contributions reflect specific interactions between inhibitor and protein while entropic contributions mainly reflect non-specific hydrophobic effects. It is also noteworthy that the trend roughly follows a chronological order; i.e. except for ritonavir, the first generation inhibitors were entropically driven (indinavir, nelfinavir, saquinavir) whereas the newer and more potent inhibitors (amprenavir, lopinavir) as well as the experimental inhibitors (KNI-764 and TMC-126) are all of them favored by enthalpic binding interactions. 7. Can adaptability to mutations be predicted? By itself, the binding affinity of an inhibitor against the main target does not provide an indication of how it will be affected by mutations associated with drug resistance or naturally occurring polymorphisms. The situation appears to be different if the relative enthalpic contribution to the binding energy is taken into consideration. Fig. 6 (panels a and b)
+
+1796
+4
+
+H. Ohtaka et al. / The International Journal of Biochemistry & Cell Biology 36 (2004) 1787­1799
+
+MDR-HM MDR-QM 3
+
+2
+
+1
+
+0
+
+-1 -1.0
+
+-0.5
+
+0.0
+
+0.5
+
+1.0
+
+(a)
+4 Subtype B Subtype A Subtype C
+
+H / G
+
+3
+
+2
+
+1
+
+0
+
+-1 -1.0
+
+-0.5
+
+0.0
+
+0.5
+
+1.0
+
+(b)
+
+H / G
+
+Fig. 6. The susceptibility to mutations of different inhibitors, expressed as log(Kd ratio) = log(Kd,mutant /Kd,wild-type ), as a function of the proportion in which the enthalpy change contributes to the Gibbs energy ( H/ G) for the wild-type protease. Since G is always negative, a positive value reflects a favorable enthalpy contribution and a negative value an unfavorable enthalpy contribution. The solid lines represent linear least squares fits to the data for entropically driven ( H/ G < 0) and enthalpically favorable ( H/ G > 0) inhibitors. The data includes: (a) the multi-drug resistant proteases MDR-HM (L10I/M46I/I54V/V82A/I84V/L90M) and MDR-QM (V82A/I84V/M46I/I54V); (b) the double mutation V82F/I84V within the framework of subtype B, subtype A, and subtype C (Velazquez-Campoy et al., 2003b).
+
+type protease ( H/ G). For all mutants for which data is available, the same trend is observed. As shown in Fig. 6, enthalpically favorable and enthalpically unfavorable inhibitors appear to display opposite dependencies. The solid lines in the figure are the linear least squares fit to the data for entropic inhibitors ( H/ G < 0) and for enthalpically favorable inhibitors ( H/ G > 0). It is clear that the lowest susceptibilities to mutations are observed when the contributions to the Gibbs energy are either predominantly enthalpic or predominantly entropic. Inhibitors in which the enthalpy change contributes about 25% of the total Gibbs energy show the highest susceptibility to mutations associated with drug resistance. The observed pattern is intriguing because it includes inhibitors with very different chemical scaffolds as well as inhibitors derived from the same scaffold. Nevertheless, it provides a way of anticipating the response of an inhibitor to mutations associated with drug resistance using information derived from the wild type protease alone. Since high affinity is correlated with binding enthalpy (Fig. 5) it seems that enthalpically favorable inhibitors must be preferred over entropic ones since the latter do not seem capable of eliciting extremely high affinity. For these inhibitors, the lowest susceptibility to mutations is predicted to occur when the enthalpy contribution to the Gibbs energy is maximal. This conclusion is supported by the published data for TMC-126, the most enthalpically favorable inhibitor for which data are available (Ohtaka et al., 2002). TMC-126 is characterized by a H/ G ratio of 0.53 and exhibits the lowest reported susceptibility to the active site mutation V82F/I84V (Ohtaka et al., 2002). Yoshimura et al. (2002) studied TMC-126 against a panel of eight multi-drug resistant mutants isolated from inhibitor-experienced patients. These mutants included up to fourteen different mutations. TMC-126 was the best performing inhibitor when compared to ritonavir, indinavir, saquinavir, nelfinavir, and amprenavir, and was shown to never lose more than 8-fold potency against any of these multi-drug mutations.
+
+log (Kd ratio)
+
+log (Kd ratio)
+
+8. Engineering selectivity shows the susceptibility to mutations of different inhibitors, expressed as the logarithm of the Kd ratio  Kd,mutant /Kd,wt , as a function of the relative enthalpic contribution to the Gibbs energy of binding to the wild One way of conferring adaptability to mutations associated with drug resistance is by the introduction of asymmetric functional groups joined to the inhibitor
+
+H. Ohtaka et al. / The International Journal of Biochemistry & Cell Biology 36 (2004) 1787­1799
+
+1797
+
+scaffold by a minimum of two rotatable bonds at locations facing regions with a high mutation probability (Freire, 2002; Nezami et al., 2003). The immediate consequence of the resulting added flexibility is that the inhibitor molecules are no longer conformationally constrained and completely pre-shaped to the geometry of the wild type protein. One of the crucial elements for selectivity within the framework of the lock-and-key paradigm is either lost or partially lost, and therefore, it is necessary to use a different approach to regain specificity. One alternative is to target conserved elements within the binding cavity with strong H-bond or van der Waals interactions. These interactions are stereo-specific and should contribute not only to specificity but also to binding affinity by optimizing enthalpic contributions to the Gibbs energy of binding. The optimization of enthalpic interactions does not require a higher polarity of the inhibitor molecule but a proper placement of H-bond donor and acceptor groups. For example indinavir, KNI-764, nelfinavir, ritonavir, saquinavir, and lopinavir, all have four H-bond donor groups, however, they bind with enthalpies ranging from -7.6 to +3.1 kcal/mol. In addition, for adaptability within the target family and selectivity with respect to unwanted targets, these interactions should be directed against conserved regions of the target. Furthermore, these regions should be unique to the intended target and different than those found in closely related human targets. While interactions with conserved residues appear to be critical for the observed high affinity and low mutation susceptibility of the experimental inhibitors KNI-764 and TMC-126 (Reiling, Endres, Dauber, Craik, & Stroud, 2002; Vega et al., 2003; Yoshimura et al., 2002), none of these inhibitors have been used clinically and data about long term side effects are not yet available.
+
+the effective target concentration present in patients. Thermodynamic data for existing protease inhibitors and their response to mutations provide quantitative guidelines for inhibitor optimization.
+
+Acknowledgements Supported by grants from the National Institutes of Health GM 57144 and GM56550 and the National Science Foundation MCB-9816661.
+
+References
+Ala, P. J., Huston, E. E., Klabe, R. M., McCabe, D. D., Duke, J. L., Rizzo, C. J., Korant, B. D., DeLoskey, R. D., Lam, P. Y. S., Hodge, C. N., & Chang, C. H. (1997). Molecular basis of HIV-1 protease drug resistance: Structural analysis of mutant proteases complexed with cyclic urea inhibitors. Biochemistry, 36, 1573­1580. Boden, D., & Markowitz, M. (1998). Resistance to immunodeficiency virus type 1 protease inhibitors. Antimicrobial Agents and Chemotherapy, 42, 2775­2783. Condra, J. H., Schleif, W. A., Blahy, O. M., Gabryelski, L. J., Graham, D. J., Quintero, J. C., Rhodes, A., Robbins, H. L., Roth, E., Shivaprakash, M., Titus, D., Yang, T., Teppler, H., Squires, K. E., Deutsch, P. J., & Emini, E. A. (1995). In vivo emergence of HIV-1 variants resistant to multiple protease inhibitors. Nature, 374, 569­571. Freire, E. (2002). Designing drugs against heterogeneous targets. Nature Biotechnology, 20, 15­16. Gulnik, S., Erickson, J. W., & Xie, D. (1999). HIV protease: Enzyme function and drug resistance. In G. Litwack (Ed.), Vitamins and hormones. New York: Academic Press. Gulnik, S., Suvorov, L. I., Liu, B., Yu, B., Anderson, B., Mitsuya, H., & Erickson, J. W. (1995). Kinetic characterization and cross-resistance patterns of HIV-1 protease mutants selected under drug pressure. Biochemistry, 34, 9282­9287. Hertogs, K., Bloor, S., Kemp, S. D., Van den Eynde, C., Alcorn, T. M., Pauwels, R., Van Houtte, M., Staszewski, S., Miller, V., & Larder, B. A. (2000). Phenotypic and genotypic analysis of clinical HIV-1 isolates reveals extensive protease inhibitor cross-resistance: A survey of over 6000 samples. AIDS, 14(9), 1203­1210. Ho, D. D., Toyoshima, T., Mo, H., Kempf, D. J., Norbeck, D., Chen, C., Wideburg, N. E., Burt, S. K., Erickson, J. W., & Singh, M. K. (1994). Characterization of human immunodeficiency virus type 1 variants with increased resistant to a C2-symmetric protease inhibitor. Journal of Virology, 68, 2016­2020. Hong, L., Treharne, A., Hartsuck, J. A., Foundling, S., & Tang, J. (1996). Crystal structures of complexes of a peptidic inhibitor with wild-type and two mutant HIV-1 proteases. Biochemistry, 35, 10627­10633.
+
+9. Conclusions There is an urgent need for new protease inhibitors with high potency, low susceptibility to mutations associated with drug resistance and high selectivity against unwanted targets. The best inhibitor is not necessarily the one with the highest affinity. The optimal binding affinity is related to the required adaptability and selectivity thresholds which in turns depend on
+
+1798
+
+H. Ohtaka et al. / The International Journal of Biochemistry & Cell Biology 36 (2004) 1787­1799 S. (1996). Antiviral and resistance studies of AG1343, an orally bioavailable inhibitor of human immunodeficiency virus protease. Antimicrobial Agents and Chemotherapy, 40(2), 292­ 297. Reiling, K. K., Endres, N. F., Dauber, D. S., Craik, C. S., & Stroud, R. M. (2002). Anisotropic dynamics of the JE-2147-HIV protease complex: Drug resistance and thermodynamic binding mode examined at 1.09 Å structure. Biochemistry, 41, 4582­ 4594. Roberts, N. A. (1995). Drug-resistance patterns of saquinavir and other HIV proteinase inhibitors. AIDS, 9, S27­S32. Schon, A., Ingaramo, M., & Freire, E. (2003). The binding of HIV-1 protease inhibitors to human serum proteins. Biophysical Chemistry, 105, 221­230. Shafer, R. W., Chuang, T. K., Hsu, P., White, C. B., & Katzenstein, D. A. (1999). Sequence and drug susceptibility of subtype C protease from human immunodeficiency virus type I seroconverters in Zimbawe. AIDS Research and Human Retroviruses, 15, 65­69. Todd, M. J., Luque, I., Velazquez-Campoy, A., & Freire, E. (2000). The thermodynamic basis of resistance to HIV-1 protease inhibition. Calorimetric analysis of the V82F/I84V active site resistant mutant. Biochemistry, 39, 11876­11883. Vega, S., Kan, L. W., Velazquez-Campoy, A., Kiso, Y., Amzel, L. M., Freire, E. (2003). A structural and thermodynamic escape mechanism from a drug resistant mutation of the HIV-1 protease. Velazquez-Campoy, A., & Freire, E. (2001). Incorporating target heterogeneity in drug design. Journal of Cellular Biochemistry, S37, 82­88. Velazquez-Campoy, A., Kiso, Y., & Freire, E. (2001). The binding energetics of first and second generation HIV-1 protease inhibitors: Implications for drug design. Archives of Biochimica and Biophysica, 390, 169­175. Velazquez-Campoy, A., Luque, I., & Freire, E. (2001a). The use of isothermal titration calorimetry in drug design: Applications to high affinity binding and protonation/deprotonation coupling. Netsu Sokutei, 28, 68­73. Velazquez-Campoy, A., Luque, I., & Freire, E. (2001b). The application of thermodynamic methods in drug design. Thermochimica Acta, 380, 217­227. Velazquez-Campoy, A., Luque, I., Todd, M. J., Milutinovich, M., Kiso, Y., & Freire, E. (2000). Thermodynamic dissection of the binding energetics of KNI-272, a powerful HIV-1 protease inhibitor. Protein Science, 9, 1801­1809. Velazquez-Campoy, A., Muzammil, S., Ohtaka, H., Schon, A., Vega, S., & Freire, E. (2003a). Structural and thermodynamic basis of resistance to HIV-1 protease inhibition: Implications for inhibitor design. Current Drug Targets--Infectious Disorders, 3, 311­328. Velazquez-Campoy, A., Todd, M. J., & Freire, E. (2000). HIV-1 protease inhibitors: Enthalpic versus entropic optimization of the binding affinity. Biochemistry, 39, 2201­2207. Velazquez-Campoy, A., Todd, M. J., Vega, S., & Freire, E. (2001). Catalytic efficiency and vitality of HIV-1 proteases from African viral subtypes. Proceedings of the National Academy of Sciences of the United States of America, 98, 6062­6067.
+
+Jadhav, P. K., Ala, P., Woerner, F. J., Chang, C. H., & Garber, S. S. (1997). Cyclic urea amides: HIV-1 protease inhibitors with low nanomolar potency agains both wild type and protease inhibitor resistant mutants of HIV. Journal of Medicinal Chemistry, 40, 181­191. Kaplan, A. H., Michael, S. F., Wehbie, R. S., Knigge, M. F., Paul, D. A., Everitt, L., Kempf, D. J., Norbeck, D. W., & Erickson, J. W. (1994). Selection of multiple human immunodeficiency virus type 1 variants that encode viral proteases with decreased sensitivity to an inhibitor of the viral protease. Proceedings of the National Academy of Sciences of the United States of America, 91, 5597­5601. Kempf, D. J., Marsh, K. C., Denissen, J. F., McDonald, E., Vasavanonda, S., Flentge, C. A., Green, B. E., Fino, L., Park, C. H., & Kong, X. P. et al., (1995). ABT-538 is a potent inhibitor of human immunodeficiency virus protease and has high oral bioavailability in humans. Proceedings of the National Academy of Sciences of the United States of America, 92(7), 2484­2488. Kiso, Y. (1996). Design and synthesis of substrate-based peptidomimetic human immunodeficiency virus protease inhibitors containing the hydroxymethylcarbonyl isostere. Biopolymers, 40(2), 235­244. Kitchin, J., Bethell, R. C., Cammack, N., Dolan, S., Evans, D. N., Holman, S., Holmes, D. S., McMeekin, P., Mo, C. L., & Nieland, N. et al., (1994). Synthesis and structure-activity relationships of a series of penicillin-derived HIV proteinase inhibitors: Heterocyclic ring systems containing P1 and P2 substituents. Journal of Medicinal Chemistry, 37(22), 3707­ 3716. Kozal, M. J., Shah, N., Shen, N., Yang, R., Fucini, R., Merigan, T. C., Richman, D. D., Morris, D., Hubbell, E., Chee, M., & Gingeras, T. R. (1996). Extensive polymorphisms observed in HIV-1 clade B protease gene using high-density oligonucleotide arrays. Nature Medicine, 2(7), 753­759. Muzammil, S., Ross, P., & Freire, E. (2003). A major role for a set of non-active site mutations in the development of HIV-1 protease drug resistance. Biochemistry, 42, 631­638. Navia, M. A., Sato, V. L., & Tung, R. D. (1995). Design of VX-478, a potent inhibitor of HIV protease. International Antiviral News, 3(9), 143­145. Nezami, A., & Freire, E. (2002). The integration of genomic and structural information in the development of high affinity plasmepsin inhibitors. International Journal of Parasitology, 32, 1669­1676. Nezami, A., Kimura, T., Hidaka, K., Kiso, A., Liu, J., Kiso, Y., Goldberg, D. A., & Freire, E. (2003). High affinity inhibition of a family of Plasmodium falciparum proteases by a designed adaptive inhibitor. Biochemistry, 42, 8459­8464. Ohtaka, H., Schon, A., & Freire, E. (2003). Multi drug-resistance to HIV-1 protease inhibition requires cooperative coupling between distal mutations. Biochemistry, 42, 13659­13666. Ohtaka, H., Velazquez-Campoy, A., Xie, D., & Freire, E. (2002). Overcoming drug resistance in HIV-1 chemotherapy: The binding thermodynamics of Amprenavir and TMC-126 to wild type and drug-resistant mutants of the HIV-1 protease. Protein Science, 11, 1908­1916. Patick, A. K., Mo, H., Markowitz, M., Appelt, K., Wu, B., Musick, L., Kalish, V., Kaldor, S., Reich, S., Ho, D., & Webber,
+
+H. Ohtaka et al. / The International Journal of Biochemistry & Cell Biology 36 (2004) 1787­1799 Velazquez-Campoy, A., Vega, S., Fleming, E., Bacha, U., Sayed, Y., Dirr, H. W., & Freire, E. (2003b). Protease inhibition in African subtypes of HIV-1. AIDS Reviews, 5, 165­171. Velazquez-Campoy, A., Vega, S., & Freire, E. (2002). Amplification of the effects of drug-resistance mutations by background polymorphisms in HIV-1 protease from African subtypes. Biochemistry, 41, 8613­8619. Wu, T. D., Schiffer, C. A., Gonzales, M. J., Taylor, J., Kantor, R., Chou, S., Israelski, D., Zolopa, A. R., Fessel, W. J., & Shafer, R. W. (2003). Mutation patterns and structural correlates in human
+
+1799
+
+immunodeficiency virus type 1 protease following different protease inhibitor treatments. Journal of Virology, 77(8), 4836­ 4847. Yoshimura, K., Kato, R., Kavlick, M. F., Nguyen, A., Maroun, V., Maeda, K., Hussain, K. A., Ghosh, A. K., Gulnik, S. V., Erickson, J. W., & Mitsuya, H. (2002). A potent human immunodeficiency virus type 1 protease inhibitor, UIC-94003 (TMC-126), and the selection of a novel (A28S) mutation in the protease active site. Journal of Virology, 76, 1349­ 1358.
+
+

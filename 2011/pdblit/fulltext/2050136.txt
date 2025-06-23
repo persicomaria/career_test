@@ -1,0 +1,336 @@
+Eur. J. Biochem. 198, 555-562 (1991) 0 FEBS 1991 0014295691003717
+
+The soIution structure of human transforming growth factor a
+Timothy S. HARVEY I , Anthony J. WILKINSON', Michael J. TAPPIN', Robert M. COOKE' and Iain D. CAMPBELL'
+
+' Department of Biochemistry, University of Oxford, England ' ICI Pharmaceuticals, Mereside Park, Alderley Edge, England
+(Received November 8, 1990) - EJB 90 1316
+
+The solution structure of transforming growth factor a has been determined by a combination of highresolution 'H-nuclear magnetic resonance and distance geometry and restrained molecular dynamics. The 382 restraints derived from the NMR experiments were used to calculate many distance geometry structures, which were then refined by restrained molecular mechanics. Five of these structures were further refined using a variety of methods. Comparison of independently measured parameters, such as calculated hydrogen bonding patterns and experimental amide exchange rates, have been used to evaluate the accuracy of the structures. Also, possible mechanisms to explain the pH-dependent conformational interconversion observed are suggested. Finally comparisons between this work and others on this topic have been made.
+
+Human transforming growth factor a (TGFcr) is a 50residue polypeptide with sequence similarities both to the epidermal growth factors (EGFs) (Savage et al., 1972; Gregory, 1975; Simpson et al., 1985) and to several viral proteins (Blomquist et al., 1984; Stroobant et al., 1985; Brown et al., 1985; Change et al., 1987; Upton et al., 1987). There is 40% similarity between human EGF and TGFa (Derynck et al., 1984), and both bind to the EGF receptor (Carpenter and Cohen, 1979; Massague, 1983) eliciting biological responses that are in general similar (Carpenter, 1987). In some cases, however, responses to TGFa have been observed that are qualitatively different from those to EGF (Myrdal et al., 1986; Stern et al., 1985; Gan et al., 1987; Siegfried, 19871, and Winkler et al. (1989) have suggested that the two proteins may not bind to the receptor in the same manner. TGFa is secreted by a large number of tumour cells and cells transformed by retroviruses (e.g. Todaro et al., 1980; Kaplan and Ozanne, 1980) but is also found in a number of normal adult (e.g. Coffey et al., 1987) and embryonic (e.g. Twardzik et al., 1982) cells. The principal role of TGFa would appear to be in the stimulation of cell proliferation, possibly by an autocrine mechanism (Sporn and Todaro, 1980; Rosenthal et al., 1986; Coffey et al., 1987). No crystal structures have been obtained for any of these growth factors. They have, however, been the subjects of extensive study by high-resolution 'H-NMR; and the threedimensional structures of (1 -48)hEGF (Cooke et al., 1987), and of murine EGF (Montelione et al., 1987; Kohda et al., 1988) have been determined using this method. The secondary structure of hTGFa has also been reported (Tappin et al., 1989; Brown et al., 1989; Kohda et al., 1989; Montelione et
+Correspondence to I. D. Campbell, Department of Biochemistry, University of Oxford, Oxford OX1 3QU, England Abbreviations. TGFa, human transforming growth factor cc; EGF, epidermal growth factor; REM, restrained energy minimisation; RMD, restrained molecular dynamics; NOESY, nuclear Overhauser enhancement spectroscopy; rms, root mean square.
+
+al., 1989) and, more recently, the tertiary structure (Kline et al., 1990). Knowledge and comparison of the structures of these growth factors should lead to a better understanding of the parts of the molecule that are involved in the mechanisms of receptor binding and activation (Campbell et al., 1989). In our previous paper (Tappin et al., 1989)we reported that TGFa has a major region of anti-parallel P-sheet comprising residues 19 - 24 and 29 - 34 with loose attachment of a third strand comprising residues 5-6, a smaller region of antiparallel p-sheet consisting of residues 38 - 39 and 45 -46, and a type-I1 p-turn between residues 35-38. In this paper we further describe the solution structure of TGFa as investigated by a combination of NMR spectroscopy, distance geometry (Braun, 1987; Havel and Wuthrich, 1985a), restrained energy minimisation (REM) and restrained molecular dynamics (RMD) (van Gunsteren, 1988). MATERIALS AND METHODS The NOE distances used as restraints in the structure calculations were obtained from NOESY spectra of 5 - 8 mM TGFa dissolved in either D 2 0 or 90% H20/10% D 2 0 at pH 6.5,303 K recorded at either 500 or 600 MHz, as described previously (Tappin et al., 1989). Initially, a set of 334 upper bound restraints were used for distance geometry calculations. These were classified as strong, medium-strong, medium, medium-weak or weak on the basis of cross-peak intensities in NOESY spectra and, after calibration, were assigned upper limits of 0.26, 0.32, 0.38, 0.44 and 0.55 nm, respectively. No 3JNH-CaH couplingconstant-derived dihedral restraints were obtained due to the breadth of both NH and Ca resonances and no hydrogen bond restraints were used at the distance geometry stage. Distance geometry calculations were carried out using either the metric matrix (DISGEO, Havel and Wuthrich, 1985a) or variable target function (DISMAN, Braun and Go, 1985) approach. DISGEO structures were calculated from a
+
+556
+matrix of trial distances that were chosen at random between the upper and lower bounds (Have1 and Wuthrich, 1985b; Wagner et al., 1987), whilst DISMAN structures were either totally or semi-random (Kline et al., 1988). Using these methods, a total of 43 starting structures were calculated, 27 using DISGEO and 16 using DISMAN. Additionally, a structure was model-built from a previously calculated E G F structure (Cooke et al., 1987). The structures obtained were checked for the correct `handedness', i. e. whether the chain-fold of recognisable secondary structure is the same as that normally found in proteins. This was done using the method of Braun (Braun, 1983; 1987) and eliminated many structures (27) which had either local or total inversions of handedness. The low acceptance rate of structures at this stage results from the relative imprecision of the NOE data set. Before RMD refinement, all structures were energy minimised. Energy minimisation and R M D simulations were performed using the GROMOS-87 package (van Gunsteren and Berendsen, 1987). For R M D refinement, equilibration was carried out for 2 ps coupled to a bath at 300 K with a coupling constant z = 0.01 ps (Berendsen et al., 1984). The time step was A t = 0.002 ps, with bond lengths being kept rigid using the SHAKE algorithm (van Gunsteren and Berendsen, 1977; Ryckaert et al., 1977). The non-bonded pair list was updated every 10 steps using a cut-off radius of 0.8 nm. In the dynamics at 300 K, the molecule was more weakly coupled to a bath ( = 0.1 ps). Trajectories for all starting z structures were followed for 40 ps using a force constant for the NOE restraints of 1000 kJ mol-' nm-' for 1 ps, increasing at 500 kJ mol-' nm-' ps-' up to 8000 kJ mol-I nm-', to speed up convergence. An average over the last 5 ps was taken as representing the final structure and minimised with restraints using the same force constant for the NOE restraints. At this stage, a small number of restraints based on newly assigned NOEs were added to the data set. Also, stereospecific assignment of the Cy resonances of Va125, Val33 and Va139, and the Cp resonances of Asn6, Phel.5, Cysl6, Phe23, Leu24, Glu27, Asp28, Cys32, Cys34, His35, Tyr38, His45 and Asp47 had been achieved, and this was reflected in the updated restraints list. The data set ultimately comprised 382 NOE restraints, 161 intra-residue, 101 sequential and 120 longer range, of which 96 were i, i + x ( x 2 5). The pattern of medium-range and long-range NOEs is depicted in Fig. 1. The best five structures, selected on the basis of their restraints violations and potential energies, were further refined using the new information. The previous simulations were continued, slowly heating, over 10 ps, by coupling to a bath at 600 K (z = 2.0 ps). Once at 600 K, the force constant for the restraints was relaxed to 1000 kJ mol-' . nm-' then returned to 8000 kJ mol-' nm-' over the following 10 ps. The structures were then cooled by coupling to a bath at 300 K (z = 2.0 ps) and the trajectories continued for a further 20 ps at 300 K. Final structures from these trajectories were produced by averaging and minimisation as before. Further minor adjustments of the restraints list were made at this stage and the structures refined using the method of Donnelly (Donnelly and Rogers, 1988, 1989) popularly called Snifr. It is essentially a global minimum-seeking algorithm based on dynamical laws proposed by Griewank (1981). Classical Newtonian dynamics slows a system as it climbs a potential barrier, whereas this algorithm may climb such barriers rapidly, allowing traversal of barriers separating adjacent local minima. This algorithm has been incorporated
+10
+
+15
+
+20
+
+25
+
+30
+
+35
+
+40
+
+45
+
+50
+
+O
+5 -
+
+Z
+
+10 -
+
+I5
+
+I
+~
+
+20 -
+
+25 30
+35
+
+40i
+45
+50
+A
+
+i
+
+..
+
+I
+
+.I
+
+Fig. 1. NOEs observed in TGFcr between non-adjucent residues. NOEs between sidechain resonances are shown above the diagonal, whilst NOEs between backbone resonances are shown below
+
+Table 1. Characteristics of the groups of structures produced at the distance geometry stage after REM The data are given as the mean and (in parentheses) the standard deviation for that quantity. The mean rms deviation is for the backbone atoms of residues 4- 9 and 14 - 47 inclusive Structure origin
+
+No. of structures
+
+Sum of violations
+nm
+
+Potential energy
+
+rms deviation nm
+
+kJ mol-'
+
+All DISGEO DISMAN
+
+16 9 7
+
+6.0(1.7) 5.6 (1.9) 6.5(1.5)
+
+-398(673) 0.325(0.11) - 606 (536) 0.2 14 (0.04) -319(674) 0.414(0.1)
+
+into GROMOS, using the potential function calculated therein, resulting in an efficient conformational searching tool. As a result of Snifr's non-zero step size, it cannot converge to any minimum, so it is necessary to finish each refinement with conventional minimisation (e. g. steepest descents). This also permits the constraining of bond lengths using SHAKE, which was not used during the Snifr stage. In order to investigate hydrogen bond lifetimes and other dynamical properties of the molecule, 20ps of RMD was performed on the structures produced by Snifr. Parameters were used as for the previous runs at 300 K except that a force constant of 1000 kJ mol-' mm-2 was used for the NOE restraints. This value is more consistent with the inherent accuracy of the restraints, allowing a maximum violation of +0.05 nm at 300 K (Kaptein et al., 1988) due to thermal fluctuations. The last 10 ps of the RMD runs were used for analysis. RESULTS and DISCUSSION
+Computation
+
+The average energies of the structures following distance geometry, together with their average sum of violations and root mean square (rms) deviation over the backbone atoms of residues 4-9 and 14-47 inclusive, for all structures and the DISGEO and DISMAN sub-groups, are shown in Table 1. They show relatively poor convergence, as witnessed by the high average rms deviation between them (0.325 nm). This
+
+557
+Table 2. Churacteristics ofthe structures following refinement by RMD The data are given as the mean and (in parentheses) the standard deviation for that quantity. The potential energy given is that of the structure during R M D refinement (and as such includes a kinetic energy contribution) averaged over the last 5 ps of the run Structure origin No. of structures Table 3. Details of the refinement of the five best structures selected from the 44 starting structures (43 distance geometry plus one model built) The data are presented as potential energies after REM and (in parentheses) the sum of restraints violations. The largest violations for each structure and their locations are as follows: MB 0.047 nm (Asp28 NH to Asp28 H/31/2); D G l 0.032 nm (His35 C2H to Tyr38 3,5 H ; DG2 0.041 nm (His12 H64 to Pro30 Hy1/2); D M l 0.03 nm (Phe23 NH lo Asp27 HB1/2); DM2 0.045 (Phel5 2,6 H to Ala31 HB) Structure origin Potential energy (sum of restraints violations) after distance geometry RMD (300 K) RMD (600 K ) Snifr
+
+Sum of violations
+nm
+
+Potential energy kJ mol-' 262(805) 176(792) 497(893)
+
+rms deviation nm 0.329(0.12) 0.214(0.04) 0.408(0.12)
+
+All DISGEO DISMAN
+
+16 9 7
+
+1.6(1.10) 1.5(0.95) 1.8(0.90)
+
+kJ . mol- (nm)
+
+is not altogether surprising, considering the low number of restraints used and the lack of stereospecific assignments, but does indicate that a good search of conformational space has been accomplished. We note also that the DISGEO group of structures show a lower rms deviation to each other than do the DISMAN, which is in agreement with the results of other groups (e.g. de Vlieg et al., 1988; Clore and Groneborn, 1989) The RMD refinement of the distance geometry structures lowered the total potential energy and restraints violations of all structures, as shown in Table 2. The rms deviation between the structures is also reduced. The energies of the five final structures during refinement, together with the sum of their distance restraint violations and the average rms deviation between them at each stage of refinement, is shown in Table 3. The initially high restraints violations and potential energy for structure MB is due to the fact that it was model-built from the EGF structure. Following the first RMD refinement, there is an appreciable spread of total potential energies of these five selected structures, ranging from -1799 kJ mol-' for the DG2 structure to -2425 kJ mol-' for the MB structure. Similarly, the sum of the violations varies, from 1.80 nm for DM2 to 0.64 nm for the MB structure. During the RMD refinement at 300 K the total potential energy of all structures drops strongly, as does the sum of the violations, although none are comparable to the MB structure. DMI is the closest to the MB structure, but has a sum of violations almost 50% worse than that of MB. The refinement at 600 K significantly improved this, together with the potential energies of all but the MB structure, with DG1 and DM1 now having potential energies and restraint errors comparable to MB. This was not true for DM2 and DG2, which were subsequently refined at 900 K. This was successful for one of the pair (DG2), producing an improvement of over 50% in the sum of violations (1 -39 nm to 0.85 nm) and a drop of over 500 kJ mol- in its potential energy, bringing it in line with the MB, DM1 and DG1 structures. The final refinement using Snifr produced structures with lower potential energies and restraints violations than previously obtained for all structures except DM2. The discussion of the structure below and the dihedral angles shown in Table 5 result from analysis of these four structures (i.e. not DM2), the coordinates of which will be deposited in the Brookhaven Protein Structure Database. Once similar values for potential energy and sum of violations have been obtained for a group of structures, then a direct comparison of the structures is valid. The rms deviation for the five final structures is low, especially for the three best structures: MB, DGI and DM1. The rms deviation between all five structures as they change during the refinement is given in Table 4. This closely parallels the improvement in potential
+
+MB DG1 DG2 DM1 DM2
+
++ 907 (25.9)a -1541 (1 2.08) 22 (12.03) 432 (7.13) - 1380 (13.41)
+
++
+~
+
+- 2425 (0.64) - 2224 (1.10) - 1799 (1.39) - 2253 (0.94) 2070 (1.80)
+~
+
+- 2527 (0.72) - 2369 (0.78) -2369 (0.85)'' - 2346 (0.77) - 1912 (1.06)
+
+- 2625 (0.59) - 2564 (0.58) - 2560 (0.68) - 2572 (0.53) - 2243 (1.14)
+
+Indicates a structure modelled upon EGF rather than produced by distance geometry. Indicates after refinement at 900 K.
+
+energy and sum of violations, but was never used to judge the quality of the structures. Given the initial large average rms deviation at the distance geometry stage (0.399 nm, Table 4a), we consider that the combination of methods used, although somewhat complicated, is successful for this particular application with comparatively few NOE restraints, demonstrating a wide radius of convergence after searching conformational space well. The convergence observed during the whole of this refinement is a strong indication that the structure of TGFa is uniquely defined.
+
+Backbone conformation As has been described previously (Tappin et al., 1989), TGFa can be notionally divided into two domains, comprising residues 1- 33 and 34- 50 respectively. A large proportion of each domain is well defined by the NMR data, but the terminal residues 1 - 4 and 48 - 50 are poorly determined, as is the loop Pro9-Hisl4. Furthermore, it can be seen from Fig. 2 that, despite a large number of inter-domain NOEs, there is a degree of variability in the relative orientation of the two domains whilst still maintaining the same inter-domain contacts. However, a high degree of consensus between various calculated structures was achieved, as shown by Table 5, which gives the absolute values and variation of the observed backbone dihedral angles. As previously reported (Tappin et al., 1989), following a short region of unstructured peptide, the most N-terminal feature of the TGFa structure is a small section of /?-strand (residues 5-6). NOEs are observed that have the effect of pairing this with residues 23 - 24 to form a /?-sheet.However, the NOEs, while numerous and unambiguous, are weak, and
+
+'
+
+558
+Table 4. Details o the rms deviation between selected structures during refinement, taken over the backbone atoms o residues 4 - 9 and 14-47 f f Figures in parentheses indicate the all-heavy-atom rms deviation for the same region Structure Pairwise rms deviation DG1 nm Initial MB DG1 DG2 DM1 MB DG1 DG2 DM 1 MB DG1 DG2 DM 1 MB DG1 DG2 DM 1 0.466 (0.585)
+-
+
+DG2
+
+DM1
+
+DM2
+
+average
+
+0.428 (0.538) 0.241 (0.404)
+-
+
+-
+
+0.589(0.722) 0.391 (0.522) 0.407(0.519)
+-
+
+0.561 (0.672) 0.292 (0.452) 0.261 (0.412) 0.353(0.480) 0.1 64(0.226) 0.18710.259) 0.259 (0.339) 0.200(0.271) 0.1 74(0.287) 0.182(0.273) 0.194(0.284) 0.175(0.243) 0.178(0.273) 0.192 (0.283) 0.195(0.284) 0.183(0.248) 0.399(0.531)
+
+After M D at 300 K
+
+0.1 36(0.240)
+-
+
+0.197(0.283) 0.224(0.322)
+-
+
+0.160 (0.229) 0.192(0.263) 0.185 (0.284)
+-
+
+0.190(0.271)
+
+After M D at 600 K (MB, DG1 and DM1) or 900 K (DG2 and DM2) After Snifr
+
+0.083(0.148)
+-
+
+0.155(0.236) 0.1 46(0.233)
+-
+
+0.1 12(0.181) 0.1 15(0.177) 0.178(0.256)
+-
+
+0.152(0.230)
+
+-
+
+-
+
+0.091 (0.155)
+-
+
+-
+
+0.1 5210.236) 0.156(0.243)
+-
+
+0.1 16(0.189) 0.123(0.187) 0.183(0.265)
+-
+
+0.157(0.236)
+
+a
+
+Fig. 2. Four TGFa structures overlaid over the backbone atoms o ( a ) residues 5 - 9 , 14-47 inclusive and ( b ) overlaid over the backbone afoms f o residues 35-47 only. Note in (b) the apparent divergence in one particular region of the molecule, and the variability in the orientation of f the N-domain (residues 1 - 34) relative to this region
+
+it is likely that the triple-stranded form only exists for a fraction of the time. A similar, partially occupied, structural form was observed in hEGF (Cooke et al., 1987) and mEGF (Montelione et al., 1986), but with a shift in the register of one residue in the latter case, presumably due to the presence of Gly-Pro immediately before the first cysteine. The loop Pro9 - Phel5, between the 1st and 2nd cysteines, is not well defined, with few intra-loop NOEs being observed. However, a few i- i + 3 NOEs are seen, and the implication that a helical structure may be present is supported by RMD refinements which, in the latter stages of refinement at least, clearly indicate the formation of a helix from residues 10- 14. The loop between the 2nd and 3rd cysteines (residues 16 and 21) contains a deletion compared with EGF. In neither
+
+protein is the turn one of the classical types, i.e. the last two residues adopt p-strand conformations, while the early residues in the loop have dihedrals that are well defined but not characteristic of any particular structural type (see Table 5). The regions Glyl9 - Leu24 and Lys29 - Cys34 form a region of antiparallel p-sheet, as reported previously (Tappin et al., 1989), with residues 23 - 24 also being involved in the weak interaction with the N-terminal p-stand. The ( 4 , ~angles in ) the regions of /?-sheetdeviate from those expected for a regular antiparallel P-sheet of around (- 145, + 135), but the deviation is towards less negative values of 4, which is a result of a right-handed twist, a widely observed phenomenon, particularly in regions of sheet that are short and contain few strands (Richardson, 1981). TGFa differs from EGF in that it contains a proline residue within the sheet region. However, not only
+
+559 does this not affect the hydrogen-bonding pattern, but it also appears to have little effect on the structure of the sheet. Indeed, it can be seen that the 4 values for Pro30 are not significantly different from those for other residues in the sheet; the calculated structures indicate that the effect of the proline may be to enhance the twist of the major p-sheet rather than cause a major distortion. The peptide segment Val25 - Asp28 is specified by mean dihedral angles for the four residues of (- 56, 51), (- 59, -17), (-109, -11), (+53, +66). This corresponds to the structure referred to by Sibanda and Thornton (1985) as a type I hairpin. [The four hairpins described by them as having this structure have average dihedrals of (-62, - 38), (- 58, -35), (-101, -19), (+75, +42), but with a variation sufficiently wide to include the values found in the various TGFa structures.] This hairpin is described as having a tip bent over rather like an erect hooded cobra and, indeed, in the TGFa structures, residues Gln26 and Glu27 protrude downwards from the plane containing the major /J-sheet away from the face containing the disulphide bridges. A more recent study of such hairpins by Sibanda et al. (1989), has shown that glycine, asparagine and aspartate are preferred at position 4 in this hairpin (though glutamine was also found), as the dihedrals are required to be in the left-handed a-helix region of the (+, +) quadrant. In TGFa, the corresponding residue is Asp28, and in similar proteins with the same number of residues between the third and fourth cysteine (and hence, presumably, the same sheet/hairpin structure) this residue is conserved except for gpEGF (Asn) and rTGFa (Glu). The ability of these residues to adopt this conformation would appear to be reflected in their selection at this position. The backbone conformation of the C-domain has previously been described (Tappin et al., 1989) as consisting of a type-I1 p-turn at residues 35 - 38, linking with a small region of highly twisted P-sheet at residues 38 - 39,45 -46. This sheet region, however, is now seen to extend to include the NH of Asp47 paired with the CO of Gly37. The region Gly40 - His45 has not been properly described before. The conformation of residues Arg42 His45 is defined by a large number of NOES, a number of which are unusual (most notably Cys43 CI to Arg42 N H and Cys43 a to Val39 a), and a unique set of dihedral angles are produced (see Table 5 ) which can be characterised, following Efimov (1986), as yR, xL,yR, /I. The section Glu44- His45 closely resembles a classic /I-bulge (Richardson et al., 1978), with Val39 acting as the control residue. This is supported by the frequent observation of hydrogen bonds from Glu44-NH and His45-NH to Va1390 in dynamics simulations (see below) and the fact that the side chains of Va139, Glu44 and His45 are all on the same side of the P-sheet. The section Arg42 - Cys43 resembles the second half of a type I /I-hairpin. However, the region Gly40 - Cys43 differs from Val25 - Asp28 discussed above, in that residues Gly40 and Ala41 do not appear to have well-defined conformations. In fact, the results of RMD/REM calculations indicate two energy minima for the depeptide Gly40-Ala41. Table 5 reveals that these preferred sets of backbone dihedral angles are ( 122, + 151), (- 64, - 33) and (- 108, - 149, (+ 61, - 71). In the first set of structures there is a hydrogen bond between Cys43 NH and Gly40 CO, in the second set there is an Arg42 NH to Gly40 CO hydrogen bond. This transformation can be achieved by means of a crank-handle movement of the 40 41 peptide bond, with Gly40 N, C' and Ala41 Ca as fixed points, shown in Fig. 3 a. However, these energy-minimised structures conceal the true results of the RMD simulations,
+-
+
+Table 5. Backbone cliheclrul ungles ofthe TGFr structures The dihedral angles (b and w are given as the mean values and range over four structures. For Gly40 and Ala41, two different conformations (see Fig. 3) are found in the four energy minimised structures, viz.: for Gly40, (+125, +151), (+120, +152), (-104, -148) and (- 111, - 142); for Ala41, (-65, -32), -64, - 34), (+62, -68) and (+60, -75). # indicates that the variability observed is > 90''
+
++
+
+Residue
+
+4
+degrees
+
+1v
+
+Val1 Vd12 Ser3 His4 Phe5 Asn6 Asp7 Cys8 Pro9 Asp10 Serl 1 His12 Thrl3 Gln14 Phel5 Cysl6 Phel I His1 8 Gly19 Thr20 cys2 1 Arg22 Phe23 Leu24 Val25 Gln26 Glu27 Asp28 Lys29 Pro30 Ala3 1 cys32 Val33 cys34 His35 Ser36 Gly31 Tyr38 Val39 Gly40 Ala41 Arg42 cys43 Glu44 His45 Ala46 Asp47 Leu48 Leu49 Ala50
+
+65510 - 60 f 19 - 53 + 4 3 - 91 i 23 -113 36 - 5 9 i 9 - 71 + 2 3 - 12+14 - 125 23 - 146 f 22 - 81 + 2 5 - 71 + 1 3 -104i21 - 83+18 -119+ 5 - 91 f 2 0 -109 f 10 -134+ 11 -lo+ I - 90+12 -112+ 11 -81+ 5 -lo& 5 - 56+ 3 - 59+ 2 -109 15 + 53+ 2 - 107 f 12 - 81+ 7 - 118 i 21 -115 & 12 - 94+ 7 - 58+ 2 - 56+ 1 - 19+ I + 99 + 2 0 - 99*20 -118i 8 see legend see legend -101 12 + 38k 6 -125+ 8 - 106 23 - 79+27 - 61 30 - 78, 6 - 88+ 6 - 63+ 2
+-
+
++
++
+
+58+42 66+44 +106+65 # + 94+31 + 154 i 1 1 +120 17 +130t10 + 88+ 6
+
++ +
+
++
+
+# # #
+
++
+
+49+15 73+21 - 46+20 +150& 15 - I1 k 1 2 + 56+ 7 +106i I + 98+ I +147f 4 +lll 16 + 90+ 5 + 91+ 2 - 51+ 7 - 1 l t 5 - l l + 4 + 66i 1 +108+ 6 +131 4 +149+ 8 +141f 4 +loo+ I +133+ 4 +162+ 6 +106i 3 + 22+11 +154+ 3 +164i 5
+
++ +
+
++
+
++
+
+*
+
++ +
+
+5* 1 72+ 9 - 2 9 i 2 +124+20 +123 15 + 89+ 5 + 15+62 + 27 40
+-
+
++
+
++
+
++
+
++
+
+which reveal that the (4, w) angles for Gly40 and Ala41 average around (79, 138) and (-47, -39) respectively for both `conformers' (see Fig. 3 b). Thus the two `conformers' following REM are a product of the process of minimisation itself, but serve a useful purpose in highlighting a region of conformational flexibility. An interesting feature of the NMR spectra
+
+560
+
+a
+
+b
+
+Fig. 3 . ( a ) Residues Gly40 and Ala41, showing the divergence in the orientation of the peptide group observed in these structure. ( b ) Structures taken 1 p s apart f r o m R M D simulations of the TGFcc illustrating the conformational flexibility of the Gly40- Ala41 peptide group (labelled) compared with adjacent regions of the molecule
+
+of TGFcr and the EGFs is the broadening of N H resonances around Gly40, as was also found by Brown et al. (1989) and Montelione et al. (1988). The dynamic processes described above may well be responsible for the broadening of NH resonances in this region of the molecule, both in TGFcr and the other similar proteins studied by NMR.
+Sidechain interactions
+
+The three disulphide bridges which radiate off one face of the major P-sheet approach each other quite closely and form a ladder in the centre of the molecule. The central disulphide (Cysl6 -Cys32) has fairly close contacts with both other disulphide bridges, with the closest non-bonded S - S distances varying between structures, but being in the range 0.370.40 nm for Cysl6 - Cys43,0.40 - 0.48 nm for Cys32 - Cys43 and 0.44-0.56 nm for Cys21 -Cys32. Additional interactions are found between the disulphides and aromatic sidechains. The ring of Phel5 gives a number of NOEs to residues in the major /?-sheetand the C-domain, with the result that it is found to be packed against the Cysl6Cys32 disulphide, which may explain the upfield shifts of the Cysl6 P protons (P2 at 1.96 ppm). A similar, though less intimate, interaction is found between the ring of Tyr38 and the Cys34- Cys43 disulphide, which may explain the downfield shifts of Cys34 (3.41 ppm) and Cys43 a (3.93 ppm). It should be noted that conservation of an aromatic residue at position 38 is absolute for all homologous growth factor units, while that of an aromatic at position 15 is absolute only for active growth factors. The interaction between the aromatic rings and the polarisable disulphides may be important in stabilising the structure. Residues Hisl8, His35 and Tyr38 form an aromatic core encompassing residues from both domains. The rings of Tyr38 and His35 are brought into contact by their positions at opposite ends of the type I1 turn, and are joined by the ring of His18 which gives NOEs to both Tyr38 and His35. The rings of Tyr38 and His1 8 are parallel and closely packed, being only 0.4 nm appart (perpendicular distance), although they are staggered by about 0.15 nm vertically. The ring of His35 is at
+
+right angles to the plane of the other two rings and tilted slightly out of the vertical. A large number of NOEs are seen between residues in the loops Phel5 - His18 and Ala41- Glu44, which run parallel to each other. Some specific interactions can be seen in the calculated structures, including that between the rings of Phel5 and Phel7 and the sidechain of Arg42, where the arginine lies with its CP between the two Phe rings. This may explain the unusually shifted resonances of Arg42 (PI 2.22 ppm, y z 0.68 ppm), though a comparison of shifts with those observed in the EGFs indicates that the major contribution to the ring current shifts of these resonances must be from PhelS, as similar shifts are observed in the arginine sidechain even when, as in the EGFs, Phel7 is substituted by Leu. The sidechain of Glu44 is in close proximity to the rings of Phel7, His18 and His45, and its carboxylate may be involved in a hydrogen bonding or ionic interaction with the imidazole of Hisl8. Another interaction that is important in defining the tertiary structure of TGFcr is implied by NOEs between His12 and Pro30, Phel5 and Ala31, and Cys8 and Phe23. These suggest the formation of a further hydrophobic pocket on the top face of the major P-sheet.
+Hydrogen bonding
+
+The results of the hydrogen bond lifetime analysis from the last 10 ps of a 20-ps simulation is shown in Table 6 and can be compared with the experimental amide exchange data obtained by ourselves and by Brown et al., (1989). In making this comparison, it should be remembered that under the relatively high pH conditions used by both ourselves and Brown et al., intrinsic NH exchange is relatively rapid because of base catalysis. It is possible that a number of NHs which make intermolecular hydrogen bonds are exchanging too rapidly to be observed. The simulations reveal the stable hydrogen bonding pattern that would be expected in major P-sheet. Experimentally, the amide protons of Thr20, Arg22, Ala31 and Val33 are found to be slowly exchanging, in agreement with the
+
+561
+Table 6. Hydrogen bondputterns see in TGFx during R M D simulutions + + + indicates that a hydrogen bond is observed in all four trajectories for more than 90% of the time, + + indicates that one is seen for 70-90% of the time, and + indicates that one is seen for 4070% of the time. An asterisk indicates that slow N H exchange was
+observed by Brown et al., (1989)
+
+Donor
+6-NH 8-NH 21-NH 25-NH 20-NH 22-NH 24-NH 27-NH 28-NH 29-NH 29-NH 31-NH 33-NH 38-NH 39-NH 43-NH 43-NH 44-NH 45-NH 47-NH 17-NH 18-NH
+
+Acceptor
+
+Stability
+
+Slow N H
+
+Position
+
+exchange
+23-0 21-0 8-0 4-0 33-0 31-0 29-0 24-0 25-0 24-0 27-0 22-0 20-0 35-0 45-0 40-0 41-0 39-0 39-0 37-0 42-0 43-0
+
+++ +++ +++ + +++ +++ +++ ++ +++ + + +++ +++ +++ +++ + + ++ ++ +++ +++ +++
+
+no
+
+no
+no no
+
+N-terminal strand
+
+His45 NH and Val39 CO and between Asp47 NH and Gly37 CO. Glu44 is also found hydrogen-bonded to Va139, typical of the P-bulge conformation that Va139, Glu44 and His45 comprise. Experimentally, the amides of Tyr38, Val39 and Asp47 are found to be slowly exchanging, but that of His45 is not. There are two inter-domain hydrogen bonds between Phel7 NH and Arg42 0 and between His18 NH and Cys43 0 observed during dynamics that are amongst the most stable in the molecule. These occur as a result of NOEs between Phel7 and Arg42, Cys43 and Glu44, and between His18 and Cys43 and Glu44, although no slowly exchanging amides are seen that could correspond to these hydrogen bonds.
+
+Ys e
+Yes no no
+
+Comparison with other N M R studies of TGFa
+major b-sheet
+
+no no
+no Yes Yes
+Yes Yes no no no no Yes no no
+
+C-domain
+
+in ter-domain
+
+simulations. However, the amide protons of Leu24 or Lys29 were not found to be slowly exchanging in this study, despite their involvement in the major /?-sheet and their observation as slowly exchanging by Brown et al. (1989). The explanation for this is unclear. Lys29 NH could not be observed as slowly exchanging, whether it is or not, because it lies buried in the envelope of aromatic resonances, but Leu24 NH is clearly exchanging rapidly. It is possible that, under the conditions used, there is greater flexibility in the hairpin region than under the conditions used by Brown et al. (1989): pH 3.4, 310 K. The dynamics simulations predict a number of hydrogen bonds between the N-terminal9 residues and the first part of the major j-sheet (residues 21 -26). However, none of the amide protons of the first 15 residues are found to be slowly exchanging. The simulated results may be an artefact resulting from an overestimate of electrostatic interactions in vacuo combined with the weak NOEs observed driving the N-terminal strand towards a better defined conformation than it in reality adopts. The simulations reveal fewer hydrogen bonds in the Cdomain than in the N-domain, but that those formed are on the whole longer lived. The first occurs from Tyr38 NH to His35 CO, forming the basis of the type 11-P turn. The fourmembered turn from Gly40 to Cys43 has a similar hydrogen bond pattern to the hairpin Val25 - Lys29, in that the fourth member of the turn, Cys43 in this instance, is observed hydrogen bonded to both the first and second members, here Gly40 and Ala41. For both turns, the NHi- COi- hydrogen bond is the one observed in energy-minimised structures. Three further hydrogen bonds define the minor section of P-sheet, being between Val39 NH and His45 CO, between
+
+Within the space of a few months last year, four groups, including ours, published papers on human TGFa, which included lists of 'H-NMR assignments and the identification of secondary structure, together with some qualitative indication of the tertiary fold. The differences between the results of the various groups are in general attributable to the variety of conditions used: pH 6.5, 303 K (Tappin et al., 1989), pH 3.4, 310 K (Brown et al., 1989), pH 4.9, 298 K (Kohda et al., 1989), pH 3.5, 303 K (Montelione et al., 1989). As we indicated previously (Tappin et al., 1989), the structure and dynamics of TGFa are critically dependent on the conditions used, with a significant conformational change occurring below about pH 5.5, including complete detachment of the Nterminal P-strand from the major P-sheet, and unravelling of the Cys8 Cysl6 loop, a fact which does not appear to have been appreciated by the other groups, and so direct comparison of the various sets of results is not possible. However, certain features of the results of other groups should be noted. Firstly, nearly all the various sets of assignments can be reconciled when the effects of the variations in conditions are allowed for. There are, however, a number of discrepancies, some of which are significant. In particular, various different sets of assignments for the P and y protons of Arg42 are given, while Montelione et al. (1989) appear to have a number of suspect assignments, notably for the NH of Lys29, and a completely unassigned region from Cysl6 NH to Gly19 NH. Secondly, the same basic secondary structure is found by all four groups, though there is some disagreement concerning the presence of the N-terminal third strand of the P-sheet, which is found only by us and by Kohda et al. (1989) and not at all by the other two groups. However, the formation of the triple-stranded form is a pH-dependent phenomenon, and the studies by the groups of Brown and Montelione were performed at too low a pH to observe this feature. On the other hand, while Brown et al. (1989) and Montelione et al. (1989) report, as we do, the formation of the major P-sheet from residues 19-24 and 29-34, Kohda et al. (1989) report disruption of the P-sheet around Pro30, based solely upon the absence of the Phe23 a to Pro30 a NOE. However, the absence of this NOE at higher pH may be simply because of the overlap of both resonances with the solvent signal. The numerous sidechain - sidechain NOEs in this region seem to be sufficient to define the P-sheet, though we do not rule out the possibility of some degree of distortion or flexibility in this region. A detailed comparison of the three-dimensional structures obtained by the various groups must await publication of the further papers and release of the atomic coordinates.
+~
+
+562
+Perhaps the most extraordinary feature of the spectra of TGFa is the broadening of resonances and unusually rapid NH exchange. It is apparent from the work of other groups that they have observed similar effects to us under comparable conditions of low pH, though no detailed analysis of these results or explanation of these phenomena have been advanced. We are currently pursuing a number of possible explanations of the unusual behaviour of TGFa at low pH, in an attempt to define the reasons for the rapid NH exchange, the broadening of resonances, the destabilisation of the triplestranded form, the unravelling of the Cys8 - Cysl6 loop and the other structural changes that take place. Our current interest focusses in two related areas. Firstly, the proximity of His18 and His35 at the domain interface in an aromatic cluster which becomes doubly positively charged at low pH (the pK, of His18 is 7.5, that of His35 is 5.4), with the N 6 protons only 0.38 nm appart. Secondly, the N-terminal region of the molecule, where disruption of the hydrophobic cluster on the top face of the major B-sheet, unfolding of the Cys8-Cysl6 loop, detachment of the Nterminal strand and destabilisation of the major B-sheet may be linked, and may be triggered by the Pro30 and given pHdependence by Asp10 or Hisl2. Unrestrained MD simulations of TGFa in water at a number of pH are in progress and would appear to support both these hypotheses for the unusual behaviour of TGFci at low pH. This work will be reported elsewhere. REFERENCES
+Berendsen, H. J. C., Postma, J. P. M., van Gunsteren, W. F., Di Nola, A. & Haak, J. M. (1984) Proc. Natl Acad. Sci. USA 81, 36843690. Blomquist, M. C., Hunt, L. T. & Barker, W. C. (1984) Proc. Natl Acad. Sci. USA 81,7363-7367. Braun, W. (1983) J . Mol. Biol. 163, 613-621. Braun, W. (1987) Q. Rev. Biophys. 19, 115-157. Braun, W. & Go, N . (1985) J . Mol. Biol. 186, 61 1-626. Brown, J. P., Twardzik, D. R., Marquardt, H. & Todaro, G. J. (1985) Nuture 313,491 -492. Brown, S. C., Mueller, L. & Jeffs, P. W. (1989) Biochemistry 28,593599. Campbell, I. D., Cooke, R. M., Baron, M., Harvey, T. S. & Tappin, M. J. (1989) Prog. Growth Factor Res. 1, 13-22. Carpenter, G. (1987) Annu. Rev. Biochem. 56, 881 -914. Carpenter, G. & Cohen, S. (1979) Annu. Rev. Biochem. 48, 193-216. Chang, W., Upon, C., Hu, S. L., Purchio, A. F. & McFadden, G. (1987) Mol. Cell. Biol. 7, 535-540. Clore, G. M. & Gronenborn, A. M. (1989) Crit. Rev. Biochem. Mol. Biol. 24, 479 - 564. Coffey, R. J., Derynck, R., Wilcox, J . N., Bringman, T. S., Goustin, A. S., Moses, H. L. & Pittelkow, M. R. (1987) Nature 328, 818820. Cooke, R. M., Wilkinson, A. J., Baron, M., Pastore, A., Tappin, M. J., Campbell, I. D., Gregory, H. & Sheard, B. (1987) Nature 327, 339 - 341. Derynck, R., Roberts, A. B., Winkler, M. E., Chen, E. Y. & Goeddel, D. V. (1984) CeN38, 287-297. de Vlieg, J., Scheek, R. M., van Gunsteren, W. F., Berendsen, H. J. C., Kaptein, R. & Thomasson, J. (1988) Proteins3, 209-218. Donnelly, R. A. & Rogers, J. W. (1988) Znt. J . Quantum Chem. S22, 507 - 51 3. Donnelly, R. A. &Rogers, J. W. (1989) J . Opt Theory Appl. 61,111 121. Efimov, A. V. (1986) Mol. Bid. 20,2250-2260. Gan, B. S., Hollenberg, M. D., MacCannell, K. L., Lederis, K., Winkler, M. W. & Derynck, R. (1987) J . Phurm. Exp. Ther. 242, 331 -337. Gregory, H. (1975) Nuture 257, 325-327. Griewank, A. 0. (1981) J . Opt. Theory Appl. 34, 11 -20. Havel, T. F. & Wuthrich, K. (1985a) Bull. Math. Biol. 46, 673-698. Havel, T. F. & Wuthrich, K. (1985b) J . Mol. Biol. 182,281 -294. Kaplan, P. L. & Ozanne, B. (1980) Virology 123, 372-380. Kaptein, R., Boelens, R., Scheek, R. M. & van Gunsteren, W. F. (1988) Biochemistry 27, 5389- 5385. Kline, A. D., Braun, W. & Wuthrich, K. (1988) J . Mol. Biol. 204, 675 - 724. Kline, T. P., Brown, F. K., Brown, S. C., Jeffs, P. W., Kopple, K. D. & Mueller, L. (1990) Biochemistry 29, 7805-7813. Kohda, D., Go, N., Hayashi, K. & Inagaki, F. (1988) J . Biochem. (Tokyo) 103, 741 - 743. Kohda, D., Shimada, I., Miyake, T., Fuwa, T. & Inagaki, F. (1989) Biochemistry 28,953 -958. Massague, J. (1983) J . Bid. Chem. 258, 13614-13620. Montelione, G. T., Wuthrich, K., Nice, E. C., Burgess, A . W. & Scheraga, H. A. (1986) Proc. Natl Acad. Sci. USA 83,8594-9598. Montelione, G. T., Wuthrich, K., Nice, E. C., Burgess, A. W. & Scheraga, H. A. (1987) Proc. Natl Acad. Sci.USA 84,5226-5230. Montelione, G. T., Wuthrich, K. & Scheraga, H. A. (1988) Biochemistry 27, 2235 -2243. Montelione, G. T., Winkler, M. E., Burton, L. E., Rinderknecht, E., Sporn, M. B. & Wagner, G. (1989) Proc. Nut1 Acad. Sci. USA 86, 1519- 1523. Myrdal, S. E., Twardzik, D. R. & Auersperg, N. (1986) J . Cell Bid. 102,1230 - 1234. Richardson, J. S. (1981) Adv. Protein Chem. 34, 167-335. Richardson, J. S., Getzoff, E. D. & Richardson, D. C. (1978) Proc. Natl Acad. Sci. USA 75, 2574-2578. Rosenthal, A., Lindquist, P. B., Bringman, T. S., Goeddel, D. V. & Derynck, R. (1986) Cell 46, 301 -309. Ryckaert, J. P., Cicotti, G . & Berendsen, H. J. C. (1977) J . Comp. Phys. 23,327 - 341. Savage, C. R., Inagami, T. & Cohen, S. (1972) J . Biol. Chem. 247, 7612 - 7621. Sibanda, B. L. & Thornton, J. M. (1985) Nature 316, 170-174, Sibanda, B. L., Blundell, T. L. & Thornton, J. M. (1989) J . Mol. Biol. 206,759 - 777. Siegfried, J. M. (1987) Cancer Res. 47, 2903-2910. Simpson, R. J., Smith, J. A., Moritz, R. L., O'Hare, M. J., Rudland, P. S., Morrison, J. R., Lloyd, C. J., Grego, B., Burgess, A. W. & Nice, E. C. (1985) Eur. J . Biochem. 153,629-637. Sporn, M. B. & Todaro, G. J. (1980) New Engl. J . Med. 303, 878880. Stern, P. H., Krieger, N . S., Nissenson, R. A., Williams, R. D., Winkler, M. E., Derynck, R. & Strewler, G. J. (1985) J . Clin. Invest. 76, 2016-2019. Stroobant, P., Rice, A. P., Gullick, W. J., Cheng, D. J., Kerr, I. M. & Waterfield, M. D. (1985) Cell42, 383-393. Tappin, M. J., Cooke, R. M., Fitton, J. E. & Campbell, I. D. (1989) Eur. J . Biochem. 179. 629 - 637. Todaro, G. J., Fryling, Cl & DeLarco, J. E. (1980) Proc. Natl Acad. Sci. USA 77,5258 - 5262. Twardzik, D. R., Ranchalis, J. E. & Todaro, G. J. (1982) Cancer Res. 42, 590-593. Upton, G., Macen, J. L. & McFadden, G. (1987) J . Virol. 61, 2271 1275. van Gunsteren, W. F. (1988) Protein Eng. 2, 5- 13. van Gunsteren, W. F. & Berendsen, H. J. C. (1977) Mol. Phys. 34, 1311-1327. van Gunsteren, W. F. & Berendsen, H. J. C. (1987) GROMOS Manual, Biomos, Groningen. Wagner, G., Braun, W., Havel, T. F., Schaumann, T., Go, N. & Wuthrich, K. (1987) J . Mol. Biol. 196, 61 1-639. Winkler, M. E., O'Connor, L., Winget, M. & Fendly, B. (1989) Biochemistry 28, 6373 -6378.
+
+
