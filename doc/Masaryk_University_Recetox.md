@@ -30,6 +30,18 @@ Recent methods enable the inference of the metabolic potential of microbial comm
 
 The core idea of a revised version of my original proposal is to use computational simulations, supported by existing soil microbiome data on pollutant degradation and biotransformation, to develop transferable models that can predict how xenobiotic exposure might reshape the human gut microbiome’s metabolic balance.
 
+As a proof of concept I would start with the herbicide glyphosate. I would focus my efforts on collecting data about bacteria isolated fom contaminated soil. Here some recent publications claiming the identification of bacterial (at the taxonomical resolution of strains) able to bio transform the glyphosate:
+
+## Table
+
+| Original Publication Identifier (DOI/PMID/PMCID)  |  Bacterial Strain |
+| ---- | ------ |
+| DOI: 10.3390/microorganisms13030651    | Caballeronia zhejiangensis CEIB S4-3    |
+|DOI: 10.1016/S1002-0160(17)60381-3   | Comamonas odontotermitis P2  |
+| DOI: 10.1007/s11356-024-33772-2    |  Burkholderia cenocepacia CEIB S5-2   |
+| DOI: 10.1016/j.jhazmat.2022.128689   | Chryseobacterium sp. Y16C    |
+| DOI: 10.1007/s00203-017-1343-8   | Ochrobactrum anthropi GPK 3|
+
 
 ## The Estimated Metabolome
 
