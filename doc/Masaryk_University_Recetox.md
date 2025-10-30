@@ -1,4 +1,4 @@
-# Research Centre for Toxic Compounds in the Environment (RECETOX) at Masaryk University
+# Research Centre for Toxic Compounds in the Environment (RECETOX) at Masaryk University, Brno.
 
 I have spent seven extraordinary years (from 2018 to 2024) in this laboratory, led by Dr. Eva Budinská: [IB2](https://bioinfo-recetox.github.io/people/)
 
@@ -11,10 +11,12 @@ From metagenomic samples collected in a cohort study, the method derives a set o
 Once the prerequisites are met, the method *reverse-engineers* the bacterial abundance changes required in a given patient to match a reference individual’s metabolic potential, using a bacteria-to-metabolite association matrix. Conceptually, this constitutes a constrained optimization—or inverse problem—in systems biology.
 
 Beyond guiding potential microbiome-targeted interventions, the method can also be used analytically to simulate transitions between metabolic states—such as modeling how microbial abundance changes might transform a healthy profile into a disease-associated one or vice versa. The method enables exploration of microbiome configurations that could reproduce a target metabolic potential, in either direction between healthy and diseased states.
+The project is documented in my not yet public github repositories here:
+[full](https://github.com/persicomaria/microbiomeDeconvolution/).
 
+[dcvltn](https://github.com/persicomaria/deconvolve_FULLvignette/).
 
 ### Updated Perspective and further developments
-
 #### The scenario named `Bioreactor`
 
 
@@ -32,7 +34,7 @@ Recent methods enable the inference of the metabolic potential of microbial comm
 
 The core idea of a revised version of my original proposal is to use computational simulations, supported by existing soil microbiome data on pollutant degradation and biotransformation, to develop transferable models that can predict how xenobiotic exposure might reshape the human gut microbiome’s metabolic balance.
 
-As a proof of concept I would start with the herbicide glyphosate. I would focus my efforts on collecting data about bacteria isolated fom contaminated soil. Here some recent publications claiming the identification of bacterial (at the taxonomical resolution of strains) able to bio transform the glyphosate:
+As a proof of concept I would start with the herbicide glyphosate. I would focus my efforts on collecting data about bacteria isolated from contaminated soil. Here some recent publications claiming the identification of bacterial (at the taxonomical resolution of strains) able to bio transform the glyphosate:
 
 #### Table
 
@@ -47,16 +49,58 @@ As a proof of concept I would start with the herbicide glyphosate. I would focus
 
 ## The Estimated Metabolome
 
+This project has been built upon the work of Larsen et al[Larsen_oriPRMT](https://www.ncbi.nlm.nih.gov/pubmed/25072414) and 
+Noecker et all[Noecker](https://pmc.ncbi.nlm.nih.gov/articles/PMC8896604/). Part of the code is still used by some people at Recetox.
+
 [estimatedMetabolome](https://gitlab.ics.muni.cz/241325/estimatedMETABOLOME)
 
 
 
 ## Supervision of Bachelor and Master Thesis (Computational biology and biomedicine program study at Masaryk University)
+Maria Persico, PhD
+učo 241325
+Compiled on: 19/5/2025 10:33.43, https://is.muni.cz/auth/management/vypis_pedag_cinnost, version: 1.5
+Processed for the period from 1/9/2017 to 1/8/2025.
+Lectures
+PřF:Bi4013 Team project of Computational Biology and Biomedicine - Biomedical Bioinform• Spring 2022
+– number of lecturers: 5 (D. Bednář, E. Budinská, N. Martínková, M. Persico, V. Popovici)
+– length: 0/2, 2 credit(s) (plus extra credits for completion)
+– enrolled/evaluated students: 9/9
+• Spring 2021
+– number of lecturers: 5 (D. Bednář, E. Budinská, N. Martínková, M. Persico, V. Popovici)
+– length: 0/2, 2 credit(s) (plus extra credits for completion)
+– enrolled/evaluated students: 17/17
+PřF:E1051 Introduction to Computational Biology and Biomedicine II
+• Spring 2025
+– number of lecturers: 8 (D. Bednář, E. Budinská, L. Dušek, J. Jarkovský, N. Martínková, T. Pavlík, M. Persico,
+V. Popovici)
+– length: 1/0, 1 credit(s)
+– enrolled/evaluated students: 38/0
+• Spring 2024
+– number of lecturers: 8 (D. Bednář, E. Budinská, L. Dušek, J. Jarkovský, N. Martínková, T. Pavlík, M. Persico,
+V. Popovici)
+– length: 1/0, 1 credit(s)
+– enrolled/evaluated students: 23/20
+• Spring 2023
+– number of lecturers: 8 (D. Bednář, E. Budinská, L. Dušek, J. Jarkovský, N. Martínková, T. Pavlík, M. Persico,
+V. Popovici)
+– length: 1/0, 1 credit(s)
+– enrolled/evaluated students: 34/29
+Vedení seminářů
+No match has been found.
+Supervision of bachelor's theses
+1. Hodnocení dostupných pipeline pro funkční anotaci mikroorganismů s předpokládanými probiotickými
+vlastnostmi.
+Student: Bc. Lucia Koštialová, učo 505841, PřF B-MBB BIOMB, defended: 21/6/2023
+Supervision of (follow-up) master's theses
+Student: Md. Kateřina Šumberová 520884
+- Přírodovědecká fakulta
 
 ### Updated Perspective and further developments
 The rapid expansion of microbiome research across health and environmental domains is generating billions of new microbial sequences that require functional characterization. To address this challenge, I am developing the idea of a distributed, citizen-science–driven computational framework in which trained participants collaborate to annotate emerging metagenomic datasets.
 
-I am working on the possibility to start a pilot project involving a small group of students-annotators of classes "Bi4013 Team project of Computational Biology and Biomedicine" and "E1051 Introduction to Computational Biology and Biomedicine II" (Computational biology and biomedicine,Masaryk University). If the students will choose this project-topic for their thesis, I will be consultant for this pilot project.
+I am working on the possibility to start a pilot project involving a small group of students-annotators of classes "Bi4013 Team project of Computational Biology and Biomedicine" and "E1051 Introduction to Computational Biology and Biomedicine II" (Computational biology and biomedicine,Masaryk University). If the students will choose this project-topic for their thesis, I will be consultant for this pilot project. Another promising direction is to get in contact with the iGEM community of Brno
+. Although this community is more `biotechnology oriented`, the engagement with cutting-edge computational biology experiments might be of interest for someone.
 
 Through guided training, participants—“citizens of science”—might learn how to build or operate AI-based agents capable of transforming catalogs of bacteria derived from metagenomic samples into high-dimensional embeddings that capture the functional potential of the corresponding microbial communities. This collaborative platform aims to combine community engagement with cutting-edge computational biology, accelerating large-scale functional annotation while fostering scientific literacy.
 
