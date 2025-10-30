@@ -1,6 +1,8 @@
 # Research Centre for Toxic Compounds in the Environment (RECETOX) at Masaryk University
 
+I have spent seven extraordinary years (from 2018 to 2024) in this laboratory, led by Dr. Eva Budinská: [IB2](https://bioinfo-recetox.github.io/people/)
 
+The description of the scientific projects I was involved in and the further developments of some of them follow.
 
 ## The computational method `Deconvolution`
 
@@ -32,7 +34,7 @@ The core idea of a revised version of my original proposal is to use computation
 
 As a proof of concept I would start with the herbicide glyphosate. I would focus my efforts on collecting data about bacteria isolated fom contaminated soil. Here some recent publications claiming the identification of bacterial (at the taxonomical resolution of strains) able to bio transform the glyphosate:
 
-## Table
+#### Table
 
 | Original Publication Identifier (DOI/PMID/PMCID)  |  Bacterial Strain |
 | ---- | ------ |
@@ -59,7 +61,7 @@ I am working on the possibility to start a pilot project involving a small group
 Through guided training, participants—“citizens of science”—might learn how to build or operate AI-based agents capable of transforming catalogs of bacteria derived from metagenomic samples into high-dimensional embeddings that capture the functional potential of the corresponding microbial communities. This collaborative platform aims to combine community engagement with cutting-edge computational biology, accelerating large-scale functional annotation while fostering scientific literacy.
 
 
-## Collaborations
+## Collaborations with other PI at RECETOX
 
 -Cooperation with professor Ondrej Adamovsky, PI in Mechanistic Toxicology at the Research Centre for Toxic Compounds in the Environment (RECETOX)
 
@@ -79,12 +81,12 @@ has been applied by Ondrej and other collaborators in this other publication: [A
 
 "Microbiome datasets Are Compositional: And This Is Not Optional" is the title of a publication by the author G.Gloor.
 
-- In House dataset 1
+- In House datasets analysis
 
   - my original literature selection about this topic
   - my contribution to this topic
 
 
-### Example Workflows
+#### Example Workflows
 
 - in House Dataset FYOL
