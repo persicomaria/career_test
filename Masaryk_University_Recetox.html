@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Research Centre for Toxic Compounds in the Environment (RECETOX) at Masaryk University, Brno. &#8212; career 0.1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <script src="_static/documentation_options.js?v=2709fde1"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="CNR_Naples" href="CNR_Naples.html" />
+    <link rel="prev" title="career documentation" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="research-centre-for-toxic-compounds-in-the-environment-recetox-at-masaryk-university-brno">
+<h1>Research Centre for Toxic Compounds in the Environment (RECETOX) at Masaryk University, Brno.<a class="headerlink" href="#research-centre-for-toxic-compounds-in-the-environment-recetox-at-masaryk-university-brno" title="Link to this heading">¶</a></h1>
+<p>I have spent seven extraordinary years (from 2018 to 2024) in this laboratory, led by Dr. Eva Budinská: <a class="reference external" href="https://bioinfo-recetox.github.io/people/">IB2</a></p>
+<p>The description of the scientific projects I was involved in and the further developments of some of them follow.</p>
+<section id="the-computational-method-deconvolution">
+<h2>The computational method <code class="docutils literal notranslate"><span class="pre">Deconvolution</span></code><a class="headerlink" href="#the-computational-method-deconvolution" title="Link to this heading">¶</a></h2>
+<p>From metagenomic samples collected in a cohort study, the method derives a set of <em>metabolic potential embeddings</em> that represent the individual-specific metabolic capabilities of each person’s gut microbial community. The <em>metabolic potential embeddings</em> are the prerequisites for the method and the workflow to derive them is documented in my not yet public github repository here:<a class="reference external" href="https://github.com/persicomaria/deconvolve_msmp/">msmp</a>.</p>
+<p>Once the prerequisites are met, the method <em>reverse-engineers</em> the bacterial abundance changes required in a given patient to match a reference individual’s metabolic potential, using a bacteria-to-metabolite association matrix. Conceptually, this constitutes a constrained optimization—or inverse problem—in systems biology.</p>
+<p>Beyond guiding potential microbiome-targeted interventions, the method can also be used analytically to simulate transitions between metabolic states—such as modeling how microbial abundance changes might transform a healthy profile into a disease-associated one or vice versa. The method enables exploration of microbiome configurations that could reproduce a target metabolic potential, in either direction between healthy and diseased states.
+The project is documented in my not yet public github repositories here:
+<a class="reference external" href="https://github.com/persicomaria/microbiomeDeconvolution/">full</a>.</p>
+<p><a class="reference external" href="https://github.com/persicomaria/deconvolve_FULLvignette/">dcvltn</a>.</p>
+<section id="updated-perspective-and-further-developments">
+<h3>Updated Perspective and further developments<a class="headerlink" href="#updated-perspective-and-further-developments" title="Link to this heading">¶</a></h3>
+<section id="the-scenario-named-bioreactor">
+<h4>The scenario named <code class="docutils literal notranslate"><span class="pre">Bioreactor</span></code><a class="headerlink" href="#the-scenario-named-bioreactor" title="Link to this heading">¶</a></h4>
+</section>
+</section>
+</section>
+<section id="the-microchem-proposal">
+<h2>The MICROCHEM proposal<a class="headerlink" href="#the-microchem-proposal" title="Link to this heading">¶</a></h2>
+<p>During the year 2018 I had the opportunity to write a IF Marie Curie proposal; it has not been selected but it gave me the chance to explore very interesting emerging research areas like the Chemoinformatics and the methodologies related to the study of promiscuos enzymes.
+<img alt="MicrochemWF" src="_images/mcwf.png" /></p>
+<p><a class="reference external" href="https://gitlab.ics.muni.cz/241325/MICROCHEM/">MICROCHEM</a></p>
+<section id="id1">
+<h3>Updated Perspective and further developments<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h3>
+<p>Designing metagenomic studies in highly polluted areas raises clear ethical concerns, as it would be inappropriate to experimentally test dose-dependent pollutant exposure and its effects on human gut microbiota. Maybe this was one of the weak points of my Marie Curie proposal. Therefore, computational modeling provides an ethically sound and scientifically robust alternative to investigate these interactions.</p>
+<p>Recent methods enable the inference of the metabolic potential of microbial communities and the prediction of enzymatic promiscuity within their functional repertoires. Integrating these approaches allows us to expand the known reaction space of microbial consortia and simulate their adaptive responses under pollutant stress.</p>
+<p>The core idea of a revised version of my original proposal is to use computational simulations, supported by existing soil microbiome data on pollutant degradation and biotransformation, to develop transferable models that can predict how xenobiotic exposure might reshape the human gut microbiome’s metabolic balance.</p>
+<p>As a proof of concept I would start with the herbicide glyphosate. I would focus my efforts on collecting data about bacteria isolated from contaminated soil. Here some recent publications claiming the identification of bacterial (at the taxonomical resolution of strains) able to bio transform the glyphosate:</p>
+<section id="table">
+<h4>Table<a class="headerlink" href="#table" title="Link to this heading">¶</a></h4>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Original Publication Identifier (DOI/PMID/PMCID)</p></th>
+<th class="head"><p>Bacterial Strain</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>DOI: 10.3390/microorganisms13030651</p></td>
+<td><p>Caballeronia zhejiangensis CEIB S4-3</p></td>
+</tr>
+<tr class="row-odd"><td><p>DOI: 10.1016/S1002-0160(17)60381-3</p></td>
+<td><p>Comamonas odontotermitis P2</p></td>
+</tr>
+<tr class="row-even"><td><p>DOI: 10.1007/s11356-024-33772-2</p></td>
+<td><p>Burkholderia cenocepacia CEIB S5-2</p></td>
+</tr>
+<tr class="row-odd"><td><p>DOI: 10.1016/j.jhazmat.2022.128689</p></td>
+<td><p>Chryseobacterium sp. Y16C</p></td>
+</tr>
+<tr class="row-even"><td><p>DOI: 10.1007/s00203-017-1343-8</p></td>
+<td><p>Ochrobactrum anthropi GPK 3</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+</section>
+<section id="the-estimated-metabolome">
+<h2>The Estimated Metabolome<a class="headerlink" href="#the-estimated-metabolome" title="Link to this heading">¶</a></h2>
+<p>This project has been built upon the work of Larsen et al<a class="reference external" href="https://www.ncbi.nlm.nih.gov/pubmed/25072414">Larsen_oriPRMT</a> and
+Noecker et all<a class="reference external" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8896604/">Noecker</a>. Part of the code is still used by some people at Recetox.</p>
+<p><a class="reference external" href="https://gitlab.ics.muni.cz/241325/estimatedMETABOLOME">estimatedMetabolome</a></p>
+</section>
+<section id="supervision-of-bachelor-and-master-thesis-computational-biology-and-biomedicine-program-study-at-masaryk-university">
+<h2>Supervision of Bachelor and Master Thesis (Computational biology and biomedicine program study at Masaryk University)<a class="headerlink" href="#supervision-of-bachelor-and-master-thesis-computational-biology-and-biomedicine-program-study-at-masaryk-university" title="Link to this heading">¶</a></h2>
+<p>Maria Persico, PhD
+učo 241325
+Compiled on: 19/5/2025 10:33.43, https://is.muni.cz/auth/management/vypis_pedag_cinnost, version: 1.5
+Processed for the period from 1/9/2017 to 1/8/2025.
+Lectures
+PřF:Bi4013 Team project of Computational Biology and Biomedicine - Biomedical Bioinform• Spring 2022
+– number of lecturers: 5 (D. Bednář, E. Budinská, N. Martínková, M. Persico, V. Popovici)
+– length: 0/2, 2 credit(s) (plus extra credits for completion)
+– enrolled/evaluated students: 9/9
+• Spring 2021
+– number of lecturers: 5 (D. Bednář, E. Budinská, N. Martínková, M. Persico, V. Popovici)
+– length: 0/2, 2 credit(s) (plus extra credits for completion)
+– enrolled/evaluated students: 17/17
+PřF:E1051 Introduction to Computational Biology and Biomedicine II
+• Spring 2025
+– number of lecturers: 8 (D. Bednář, E. Budinská, L. Dušek, J. Jarkovský, N. Martínková, T. Pavlík, M. Persico,
+V. Popovici)
+– length: 1/0, 1 credit(s)
+– enrolled/evaluated students: 38/0
+• Spring 2024
+– number of lecturers: 8 (D. Bednář, E. Budinská, L. Dušek, J. Jarkovský, N. Martínková, T. Pavlík, M. Persico,
+V. Popovici)
+– length: 1/0, 1 credit(s)
+– enrolled/evaluated students: 23/20
+• Spring 2023
+– number of lecturers: 8 (D. Bednář, E. Budinská, L. Dušek, J. Jarkovský, N. Martínková, T. Pavlík, M. Persico,
+V. Popovici)
+– length: 1/0, 1 credit(s)
+– enrolled/evaluated students: 34/29
+Vedení seminářů
+No match has been found.
+Supervision of bachelor’s theses</p>
+<ol class="arabic simple">
+<li><p>Hodnocení dostupných pipeline pro funkční anotaci mikroorganismů s předpokládanými probiotickými
+vlastnostmi.
+Student: Bc. Lucia Koštialová, učo 505841, PřF B-MBB BIOMB, defended: 21/6/2023
+Supervision of (follow-up) master’s theses
+Student: Md. Kateřina Šumberová 520884</p></li>
+</ol>
+<ul class="simple">
+<li><p>Přírodovědecká fakulta</p></li>
+</ul>
+<section id="id2">
+<h3>Updated Perspective and further developments<a class="headerlink" href="#id2" title="Link to this heading">¶</a></h3>
+<p>The rapid expansion of microbiome research across health and environmental domains is generating billions of new microbial sequences that require functional characterization. To address this challenge, I am developing the idea of a distributed, citizen-science–driven computational framework in which trained participants collaborate to annotate emerging metagenomic datasets.</p>
+<p>I am working on the possibility to start a pilot project involving a small group of students-annotators of classes “Bi4013 Team project of Computational Biology and Biomedicine” and “E1051 Introduction to Computational Biology and Biomedicine II” (Computational biology and biomedicine,Masaryk University). If the students will choose this project-topic for their thesis, I will be consultant for this pilot project. Another promising direction is to get in contact with the iGEM community of Brno
+. Although this community is more <code class="docutils literal notranslate"><span class="pre">biotechnology</span> <span class="pre">oriented</span></code>, the engagement with cutting-edge computational biology experiments might be of interest for someone.</p>
+<p>Through guided training, participants—“citizens of science”—might learn how to build or operate AI-based agents capable of transforming catalogs of bacteria derived from metagenomic samples into high-dimensional embeddings that capture the functional potential of the corresponding microbial communities. This collaborative platform aims to combine community engagement with cutting-edge computational biology, accelerating large-scale functional annotation while fostering scientific literacy.</p>
+</section>
+</section>
+<section id="collaborations-with-other-pi-at-recetox">
+<h2>Collaborations with other PI at RECETOX<a class="headerlink" href="#collaborations-with-other-pi-at-recetox" title="Link to this heading">¶</a></h2>
+<p>-Cooperation with professor Ondrej Adamovsky, PI in Mechanistic Toxicology at the Research Centre for Toxic Compounds in the Environment (RECETOX)</p>
+<p>As a part of this collaboration, a full bioinformatic pipeline has been developed that helped Ondrej and his international collaborators to understand complex multi-layer data, specifically data from transcriptomics and metagenomics. From a biological perspective the results of the computational approache enabled testable hypotesis generation about the impact of
+deregulated microbial metabolites on host immunity.
+The data analysis strategy was considered innovative enough to be acknowledged by publication in the Environmental Science and Technology journal (TOP 7% journal in environmental sciences).</p>
+<p>Recently, the code documented in my gitlab reposity here: <a class="reference external" href="https://gitlab.ics.muni.cz/241325/">estimatedMetabolome</a>
+has been applied by Ondrej and other collaborators in this other publication: <a class="reference external" href="https://pubs.acs.org/doi/10.1021/acs.est.5c04159">Antimicrobials Shape</a></p>
+</section>
+<section id="microbiomeanalysis">
+<h2>MicrobiomeAnalysis<a class="headerlink" href="#microbiomeanalysis" title="Link to this heading">¶</a></h2>
+<section id="microbiome-datasets-are-compositional-and-this-is-not-optional">
+<h3>Microbiome Datasets Are Compositional: And This Is Not Optional<a class="headerlink" href="#microbiome-datasets-are-compositional-and-this-is-not-optional" title="Link to this heading">¶</a></h3>
+<p>“Microbiome datasets Are Compositional: And This Is Not Optional” is the title of a publication by the author G.Gloor.</p>
+<ul class="simple">
+<li><p>In House datasets analysis</p>
+<ul>
+<li><p>my original literature selection about this topic</p></li>
+<li><p>my contribution to this topic</p></li>
+</ul>
+</li>
+</ul>
+<section id="example-workflows">
+<h4>Example Workflows<a class="headerlink" href="#example-workflows" title="Link to this heading">¶</a></h4>
+<ul class="simple">
+<li><p>in House Dataset FYOL</p></li>
+</ul>
+</section>
+</section>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">career</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Research Centre for Toxic Compounds in the Environment (RECETOX) at Masaryk University, Brno.</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#the-computational-method-deconvolution">The computational method <code class="docutils literal notranslate"><span class="pre">Deconvolution</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#the-microchem-proposal">The MICROCHEM proposal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#the-estimated-metabolome">The Estimated Metabolome</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#supervision-of-bachelor-and-master-thesis-computational-biology-and-biomedicine-program-study-at-masaryk-university">Supervision of Bachelor and Master Thesis (Computational biology and biomedicine program study at Masaryk University)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#collaborations-with-other-pi-at-recetox">Collaborations with other PI at RECETOX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#microbiomeanalysis">MicrobiomeAnalysis</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="CNR_Naples.html">CNR_Naples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="TU_Dresden.html">TU_Dresden</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">career documentation</a></li>
+      <li>Next: <a href="CNR_Naples.html" title="next chapter">CNR_Naples</a></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2025, Maria Persico.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.2.3</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/Masaryk_University_Recetox.md.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
