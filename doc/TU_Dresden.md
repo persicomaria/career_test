@@ -3,13 +3,18 @@
 ## As Service and as researcher
 
 ### PDBlit project
-The PDBlit project was about building a literature mining workflow aimed at automatic extraction of relevat information from 
-a very narrow domain of Bioinformatics, precisely the Structural Bioinformatics.
+The `PDBlit` project was about building a literature mining workflow aimed at automatic extraction of relevat information from 
+a very narrow domain of Bioinformatics, precisely the `Structural Bioinformatics`.
 I have organized the results in a small database and this is the screeshot for the `dump` of the project:
+
 ![PDBlit_project](pdblit1.png)
+
 This is the screeshot for the required code (partial output of tree command)
+
 ![PDBlit_project](pdblit2.png)
+
 This is the screeshot for some test data (partial output of tree command)
+
 ![PDBlit_project](pdblit3.png)
 
 
@@ -18,3 +23,8 @@ This is the screeshot for some test data (partial output of tree command)
 
 #### Conference paper the collaboration with professor Maria Rizzo
 
+[ppiPred](https://dl.acm.org/doi/abs/10.1145/1854776.1854911)
+
+#### Full paper 
+
+[ppiPred2](https://www.eurekaselect.com/article/52490)
