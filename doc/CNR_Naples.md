@@ -4,7 +4,7 @@
 
 ## Collaboration with professor Luini
 [KDELR-Golgi](https://hdl.handle.net/11591/463043)
-[F508del-CFTR-proteostasis](https://elifesciences.org/articles/10365)
+[F508del_CFTR_proteostasis](https://elifesciences.org/articles/10365)
 
 ## Collaboration with professor A. De Matteis
 [GeneticDiseasesPhosphoinositides](https://www.sciencedirect.com/science/article/pii/S1388198114002534)
