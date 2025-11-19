@@ -5,11 +5,11 @@ I have joined the Alberto Luini's lab. in 2012 and I felt immediately very comfo
 ![KDELreceptor](ControlSystemsPaper1.png)
 
 
-As stated in Author Contributions part of this paper,[KDELR-Golgi](https://hdl.handle.net/11591/463043), I performed the bioinformatic analysis for a microarrays based experiment where a `wild type condition` was compared with a `KDEL-BODIPY condition`
+As stated in Author Contributions part of this paper,[KDELR-Golgi](https://pubmed.ncbi.nlm.nih.gov/25117681/), I performed the bioinformatic analysis for a microarrays based experiment where a `wild type condition` was compared with a `KDEL-BODIPY condition`
 This is the figure representing the most important results for the bioinformatic part, where ANOVA was performed, and the genes with an assigned ratio up to 1.5 and below −1.5 were used to select upregulated and downregulated genes, respectively.
 ![KDELreceptor](ControlSystemsPape2.png)
 
-During the same years (2012,2013,2014), I also had the opportunity to join an `extended team` including people from Bero's team working on deciphering the drug mode of action for promising drugs applied to interventions in patients suffering from cystic fibrosis. 
+During the same years (2012,2013,2014), I also had the opportunity to join an `extended team` including people from Diego di Bernardo's team working on deciphering the drug mode of action for promising drugs applied to interventions in patients suffering from cystic fibrosis. 
 
 ![correctorDrugsF508delCFTRproteostasis.](elife-10365-fig1-v3.jpg)
 
@@ -17,7 +17,7 @@ The results of our joined efferts has been published here:[F508del_CFTR_proteost
 
 ## Collaboration with Dr. Giovanni D'Angelo
 
-Giovanni D'Angelo (now at EPFL) is a brilliant researcher with a genuine interest in computational biology. He asked me to develop a pipeline aimed at identifying new putative transcription factor binding sites on promoter regions of `in house` previously characterized genes as differentially expressed genes dataset. Unfortunaltely this analysis has not been finalised in a manuscript because he decided to continue to develop another branch of the results.
+Giovanni D'Angelo (now at EPFL) is a brilliant researcher with a genuine interest in computational biology. He asked me to develop a pipeline aimed at identifying new putative transcription factor binding sites on promoter regions of *in house* previously characterized genes as differentially expressed genes dataset. Unfortunaltely this analysis has not been finalised in a manuscript because he decided to continue to develop another branch of the results.
 
 ## Collaboration with Dr. Claudia Angelini
 I met Claudia initially as my neighbour in an adjacent building; she was working at the IAC Institute, which was connected to the original TIGEM Institute. At that time, I got immediately used to discussing with her the difficulties of finding a common language in a highly diverse and interdisciplinary group. We have always been in touch during these years, and I admire her intellectual honesty, scientific interests and willingness to help and contribute with a sincere and essential opinion on any relevant scientific aspects. 
