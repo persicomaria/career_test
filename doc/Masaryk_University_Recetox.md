@@ -6,7 +6,9 @@ The description of the scientific projects I was involved in and the further dev
 
 ## The computational method `Deconvolution`
 
-From metagenomic samples collected in a cohort study, the method derives a set of *metabolic potential embeddings* that represent the individual-specific metabolic capabilities of each person’s gut microbial community. The *metabolic potential embeddings* are the prerequisites for the method and the workflow to derive them is documented in my not yet public github repository here:[msmp](https://github.com/persicomaria/deconvolve_msmp/) and here: [microfunembeddings](hhttps://github.com/persicomaria/microfunembeddings/).
+From metagenomic samples collected in a cohort study, the method derives a set of *metabolic potential embeddings* that represent the individual-specific metabolic capabilities of each person’s gut microbial community. The *metabolic potential embeddings* are the prerequisites for the method and the workflow to derive them is documented in my not yet public github repository here: [msmp](https://github.com/persicomaria/deconvolve_msmp/) ....
+
+and here: [microfunembeddings](hhttps://github.com/persicomaria/microfunembeddings/).
 
 Once the prerequisites are met, the method *reverse-engineers* the bacterial abundance changes required in a given patient to match a reference individual’s metabolic potential, using a bacteria-to-metabolite association matrix. Conceptually, this constitutes a constrained optimization—or inverse problem—in systems biology.
 
@@ -22,7 +24,7 @@ The project is documented in my not yet public github repositories here:
 
 ## The MICROCHEM proposal
 
-During the year 2018 I had the opportunity to write a IF Marie Curie proposal; it has not been selected but it gave me the chance to explore very interesting emerging research areas like the Chemoinformatics and the methodologies related to the study of promiscuos enzymes. 
+During the year 2018 I had the opportunity to write an IF Marie Curie proposal; it has not been selected but it gave me the chance to explore very interesting emerging research areas like the Chemoinformatics and the methodologies related to the study of promiscuos enzymes. 
 ![MicrochemWF](mcwf.png)
 
 [MICROCHEM](https://gitlab.ics.muni.cz/241325/MICROCHEM/)
@@ -57,47 +59,27 @@ Noecker et all[Noecker](https://pmc.ncbi.nlm.nih.gov/articles/PMC8896604/). Part
 
 
 ## Supervision of Bachelor and Master Thesis (Computational biology and biomedicine program study at Masaryk University)
-Maria Persico, PhD
-učo 241325
-Compiled on: 19/5/2025 10:33.43, https://is.muni.cz/auth/management/vypis_pedag_cinnost, version: 1.5
-Processed for the period from 1/9/2017 to 1/8/2025.
-Lectures
-PřF:Bi4013 Team project of Computational Biology and Biomedicine - Biomedical Bioinform• Spring 2022
-– number of lecturers: 5 (D. Bednář, E. Budinská, N. Martínková, M. Persico, V. Popovici)
-– length: 0/2, 2 credit(s) (plus extra credits for completion)
-– enrolled/evaluated students: 9/9
-• Spring 2021
-– number of lecturers: 5 (D. Bednář, E. Budinská, N. Martínková, M. Persico, V. Popovici)
-– length: 0/2, 2 credit(s) (plus extra credits for completion)
-– enrolled/evaluated students: 17/17
-PřF:E1051 Introduction to Computational Biology and Biomedicine II
-• Spring 2025
-– number of lecturers: 8 (D. Bednář, E. Budinská, L. Dušek, J. Jarkovský, N. Martínková, T. Pavlík, M. Persico,
-V. Popovici)
-– length: 1/0, 1 credit(s)
-– enrolled/evaluated students: 38/0
-• Spring 2024
-– number of lecturers: 8 (D. Bednář, E. Budinská, L. Dušek, J. Jarkovský, N. Martínková, T. Pavlík, M. Persico,
-V. Popovici)
-– length: 1/0, 1 credit(s)
-– enrolled/evaluated students: 23/20
-• Spring 2023
-– number of lecturers: 8 (D. Bednář, E. Budinská, L. Dušek, J. Jarkovský, N. Martínková, T. Pavlík, M. Persico,
-V. Popovici)
-– length: 1/0, 1 credit(s)
-– enrolled/evaluated students: 34/29
-Vedení seminářů
-No match has been found.
-Supervision of bachelor's theses
-1. Hodnocení dostupných pipeline pro funkční anotaci mikroorganismů s předpokládanými probiotickými
-vlastnostmi.
-Student: Bc. Lucia Koštialová, učo 505841, PřF B-MBB BIOMB, defended: 21/6/2023
-Supervision of (follow-up) master's theses
-Student: Md. Kateřina Šumberová 520884
-- Přírodovědecká fakulta
+In describing my pedagogical approach, my teaching philosophy centers on active learning through small team-based research challenges. I assign students to collaborative groups and present each group with a real-world computational problem. Examples include:
+- Comparing tools for sequence data retrieval or annotation
+- Developing basic bioinformatics workflows
+- Critically reviewing documentation in GitHub repositories
+Each group defines roles for its members and documents how tasks are distributed. Teams present their progress and results in class, encouraging peer-to-peer learning and critical feedback. This approach helps students develop practical skills, especially those related to teamwork, communication, and project management, which are often underrepresented in scientific training.
+I consider it a success when students become genuinely interested in the research themes I teach, critically question the structure and assumptions of current computational tools, and become aware of existing knowledge gaps in genome annotation and metagenomics. These are valuable and lasting outcomes of my teaching efforts.
+
+
+![classes](teachingAct1.png)
+
+![thesis](teachingAct2.png)
 
 ### Updated Perspective and further developments
-The rapid expansion of microbiome research across health and environmental domains is generating billions of new microbial sequences that require functional characterization. To address this challenge, I am developing the idea of a distributed, citizen-science–driven computational framework in which trained participants collaborate to annotate emerging metagenomic datasets.
+
+1)I am passionate about observing the dynamics that emerge within student teams and am actively exploring new teaching module designs for future academic opportunities. In particular, I am interested in integrating Artificial Intelligence (AI) to support and enrich peer-to-peer discussions in science classrooms—a method I have already seen as capable of engaging students effectively.
+While I am aware of the potential risks associated with AI in educational contexts (such as hallucinations, overreliance on technical jargon, or distractions from core scientific principles), I also recognize the promising potential of AI as a thought partner. Recent studies suggest that well-crafted prompts from AI tools can stimulate deeper reflection, encourage diverse problem-solving approaches, and support the development of
+scientific reasoning during collaborative student discussions.
+My goal is to design a module where AI is not a substitute for human collaboration, but a scaffold—supporting inquiry, facilitating group reflection, and prompting students to better articulate their hypotheses, questions, and interpretations related to scientific challenges. I see this approach as a way to foster both scientific understanding and digital literacy in a balanced, pedagogically sound manner.
+
+
+2)The rapid expansion of microbiome research across health and environmental domains is generating billions of new microbial sequences that require functional characterization. To address this challenge, I am developing the idea of a distributed, citizen-science–driven computational framework in which trained participants collaborate to annotate emerging metagenomic datasets.
 
 I am working on the possibility to start a pilot project involving a small group of students-annotators of classes "Bi4013 Team project of Computational Biology and Biomedicine" and "E1051 Introduction to Computational Biology and Biomedicine II" (Computational biology and biomedicine,Masaryk University). If the students will choose this project-topic for their thesis, I will be consultant for this pilot project. Another promising direction is to get in contact with the iGEM community of Brno
 . Although this community is more `biotechnology oriented`, the engagement with cutting-edge computational biology experiments might be of interest for someone.
@@ -109,8 +91,7 @@ Through guided training, participants—“citizens of science”—might learn 
 
 -Cooperation with professor Ondrej Adamovsky, PI in Mechanistic Toxicology at the Research Centre for Toxic Compounds in the Environment (RECETOX)
 
-As a part of this collaboration, a full bioinformatic pipeline has been developed that helped Ondrej and his international collaborators to understand complex multi-layer data, specifically data from transcriptomics and metagenomics. From a biological perspective the results of the computational approache enabled testable hypotesis generation about the impact of
-deregulated microbial metabolites on host immunity.
+As a part of this collaboration, a full bioinformatic pipeline has been developed that helped Ondrej and his international collaborators to understand complex multi-layer data, specifically data from `transcriptomics` and `metagenomics` platforms. From a biological perspective the results of the computational approache enabled testable hypotesis generation about the impact of deregulated microbial metabolites on host immunity.
 The data analysis strategy was considered innovative enough to be acknowledged by publication in the Environmental Science and Technology journal (TOP 7% journal in environmental sciences).
 
 
@@ -118,19 +99,16 @@ Recently, the code documented in my gitlab reposity here: [estimatedMetabolome](
 has been applied by Ondrej and other collaborators in this other publication: [Antimicrobials Shape](https://pubs.acs.org/doi/10.1021/acs.est.5c04159)
 
 
-
 ## MicrobiomeAnalysis
 
 ### Microbiome Datasets Are Compositional: And This Is Not Optional
 
-"Microbiome datasets Are Compositional: And This Is Not Optional" is the title of a publication by the author G.Gloor.
-
 - In House datasets analysis
 
-  - my original literature selection about this topic
-  - my contribution to this topic
+  - my original literature selection about this topic: "Microbiome datasets Are Compositional: And This Is Not Optional" is the title of a publication by the author G.Gloor.
+  - my contribution to this topic: [TxProfilesAsCompVectors](https://gitlab.ics.muni.cz/241325/CompositionalDataAnalysis/)
 
 
 #### Example Workflows
 
-- in House Dataset FYOL
+- *in house* dataset `FYOL` and `STOIK`

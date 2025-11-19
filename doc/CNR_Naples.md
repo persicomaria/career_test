@@ -1,7 +1,7 @@
 # CNR_and_TIGEM_Naples
 
 ## Collaboration with professor Alberto Luini
-I have joined the Alberto Luini's lab. in 2012 and I felt immediately very comfortable with all the members of his group and ready to get the `interdisciplinary mindset`: that was a kind of challenge because I was the only bioinformatician inside the group and, at that time, people were not so used to interact with a person like me who decided (in 1999) to take a completely different professional path: going towards data analysis and computational system biology. The Luni's group is worlwide known for the expertise in understanding the Golgi apparatus other `secretory stations`, signaling hubs that receives, emits and elaborates signals.
+I have joined the Alberto Luini's lab. in 2012 and I felt immediately very comfortable with all the members of his group and ready to get the `interdisciplinary mindset`: that was a kind of challenge because I was the only bioinformatician inside the group and, at that time, people were not so used to interact with a person like me who decided (in 1999) to take a completely different professional path: going towards data analysis and computational system biology. The Luni's group is worlwide known for the expertise in the `Golgi apparatus` and other `secretory stations`, signaling hubs that receives, emits and elaborates signals.
 ![KDELreceptor](ControlSystemsPaper1.png)
 
 
@@ -15,11 +15,11 @@ During the same years (2012,2013,2014), I also had the opportunity to join an `e
 
 The results of our joined efferts has been published here:[F508del_CFTR_proteostasis](https://elifesciences.org/articles/10365)
 
-## Collaboration with Dr. Giovanni D'Angelo
+## Collaboration with associate professor Giovanni D'Angelo
 
 Giovanni D'Angelo (now at EPFL) is a brilliant researcher with a genuine interest in computational biology. He asked me to develop a pipeline aimed at identifying new putative transcription factor binding sites on promoter regions of *in house* previously characterized genes as differentially expressed genes dataset. Unfortunaltely this analysis has not been finalised in a manuscript because he decided to continue to develop another branch of the results.
 
-## Collaboration with Dr. Claudia Angelini
+## Collaboration with associate professor Claudia Angelini
 I met Claudia initially as my neighbour in an adjacent building; she was working at the IAC Institute, which was connected to the original TIGEM Institute. At that time, I got immediately used to discussing with her the difficulties of finding a common language in a highly diverse and interdisciplinary group. We have always been in touch during these years, and I admire her intellectual honesty, scientific interests and willingness to help and contribute with a sincere and essential opinion on any relevant scientific aspects. 
 
 ## Collaboration with professor Sandro Banfi
@@ -40,7 +40,7 @@ The results have been presented at the ARVO Annual Meeting, held in Seattle, Was
 [miRNome2016](https://iovs.arvojournals.org/article.aspx?articleid=2560787).
 
 
-## Collaboration with professor A. De Matteis
+## Collaboration with professor Antonella De Matteis
 
 In this work: [GeneticDiseasesPhosphoinositides](https://www.sciencedirect.com/science/article/pii/S1388198114002534), we analyzed protein-expression data across human tissues to cluster functionally related phosphoinositide-metabolizing enzymes, many of which are mutated in inherited disorders.
 ![PIenzymesTissueSpec](PIenzymesTissueSpec.png)
