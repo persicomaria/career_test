@@ -1,15 +1,19 @@
 # CNR_and_TIGEM_Naples
 
-## Collaboration with professor Luini
-I have joined the Luini's lab. in 2012 and I felt immediately very comfortable with all the members of his group and ready to tackle the `interdisciplinarity challenge` (I was the only bioinformatician inside the group). The group is worlwide known for the expertise in understanding the Golgi apparatus.
-![KDELreceptor](ControlSystemsPaper.png)
+## Collaboration with professor Alberto Luini
+I have joined the Alberto Luini's lab. in 2012 and I felt immediately very comfortable with all the members of his group and ready to get the `interdisciplinary mindset`: that was a kind of challenge because I was the only bioinformatician inside the group and, at that time, people were not so used to interact with a person like me who decided (in 1999) to take a completely different professional path: going towards data analysis and computational system biology. The Luni's group is worlwide known for the expertise in understanding the Golgi apparatus other `secretory stations`, signaling hubs that receives, emits and elaborates signals.
+![KDELreceptor](ControlSystemsPaper1.png)
 
-[KDELR-Golgi](https://hdl.handle.net/11591/463043)
 
-At that time I joind the extended team working on decophering the drug mode of action for promising drugs applied to interventions in patients suffering of cystic fibrosis. 
+As stated in Author Contributions part of this paper,[KDELR-Golgi](https://hdl.handle.net/11591/463043), I performed the bioinformatic analysis for a microarrays based experiment where a `wild type condition` was compared with a `KDEL-BODIPY condition`
+This is the figure representing the most important results for the bioinformatic part, where ANOVA was performed, and the genes with an assigned ratio up to 1.5 and below −1.5 were used to select upregulated and downregulated genes, respectively.
+![KDELreceptor](ControlSystemsPape2.png)
+
+During the same years (2012,2013,2014), I also had the opportunity to join an `extended team` including people from Bero's team working on deciphering the drug mode of action for promising drugs applied to interventions in patients suffering from cystic fibrosis. 
+
 ![correctorDrugsF508delCFTRproteostasis.](elife-10365-fig1-v3.jpg)
 
-The extended team included also the team of Diego Di Bernardo. The results of our joined efferts has been published here:[F508del_CFTR_proteostasis](https://elifesciences.org/articles/10365)
+The results of our joined efferts has been published here:[F508del_CFTR_proteostasis](https://elifesciences.org/articles/10365)
 
 ## Collaboration with Dr. Giovanni D'Angelo
 Giovanni D' Angelo was a brilliant researcher with a genuine interest in computational biology. He asked me to develop a pipeline aimed at identifying new putative transcripiion factor binding sites after analysing promoter regions of `in house` differentially expresse gene dataset.
