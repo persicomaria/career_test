@@ -8,7 +8,7 @@ The description of the scientific projects I was involved in and the further dev
 
 From metagenomic samples collected in a cohort study, the method derives a set of *metabolic potential embeddings* that represent the individual-specific metabolic capabilities of each person’s gut microbial community. The *metabolic potential embeddings* are the prerequisites for the method and the workflow to derive them is documented in my not yet public github repository here: [msmp](https://github.com/persicomaria/deconvolve_msmp/) ....
 
-and here: [microfunembeddings](hhttps://github.com/persicomaria/microfunembeddings/).
+and here: [microfunembeddings](https://github.com/persicomaria/microfunembeddings/).
 
 Once the prerequisites are met, the method *reverse-engineers* the bacterial abundance changes required in a given patient to match a reference individual’s metabolic potential, using a bacteria-to-metabolite association matrix. Conceptually, this constitutes a constrained optimization—or inverse problem—in systems biology.
 
