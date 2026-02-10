@@ -14,6 +14,7 @@ Once the prerequisites are met, the method *reverse-engineers* the bacterial abu
 
 Beyond guiding potential microbiome-targeted interventions, the method can also be used analytically to simulate transitions between metabolic states—such as modeling how microbial abundance changes might transform a healthy profile into a disease-associated one or vice versa. The method enables exploration of microbiome configurations that could reproduce a target metabolic potential, in either direction between healthy and diseased states.
 The project is documented in my not yet public github repositories here:
+
 [functional_profiles](https://github.com/persicomaria/functional_profiles/).
 
 [full](https://github.com/persicomaria/microbiomeDeconvolution/).
