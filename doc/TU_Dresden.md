@@ -23,8 +23,10 @@ This is the screeshot for some test data (partial output of tree command)
 
 #### Conference paper the collaboration with professor Maria Rizzo
 
-[ppiPred](https://dl.acm.org/doi/abs/10.1145/1854776.1854911)
+[ppiPredACMpaper](https://dl.acm.org/doi/abs/10.1145/1854776.1854911)
+![ppiPredACMpaper](PersicohxbNMYeaspi.pdf)
 
 #### Full paper 
 
-[ppiPred2](https://www.eurekaselect.com/article/52490)
+[ppiPredCurrBionfPaper2013](https://www.eurekaselect.com/article/52490)
+![ppiPredCurrBionfPaper2013](PopDerFeatSpace.png)
